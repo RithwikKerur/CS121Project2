@@ -1,0 +1,2 @@
+IR UF22 39907229
+TypeError for  ParseResult(scheme='https', netloc='www.stat.uci.edu', path='/', params='', query='', fragment='')

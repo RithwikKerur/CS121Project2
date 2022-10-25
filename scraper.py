@@ -1,9 +1,11 @@
 import re
 from urllib.parse import urlparse
+from bs4 import BeautifulSoup
 
 def scraper(url, resp):
     links = extract_next_links(url, resp)
-    return [link for link in links if is_valid(link)]
+    valid = [link for link in links if is_valid(link)]
+    return valid
 
 def extract_next_links(url, resp):
     # Implementation required.
@@ -15,7 +17,17 @@ def extract_next_links(url, resp):
     #         resp.raw_response.url: the url, again
     #         resp.raw_response.content: the content of the page!
     # Return a list with the hyperlinks (as strings) scrapped from resp.raw_response.content
-    return list()
+    links = []
+    if resp.status == 200:
+        #print(resp.raw_response.content)
+        parser = BeautifulSoup(resp.raw_response.content, 'lxml')
+        for link in parser.findAll('a'):
+            defrag = link.get('href')
+            if defrag is not None:
+                defrag = defrag.split('#')[0]
+                links.append(defrag)
+        
+    return links
 
 def is_valid(url):
     # Decide whether to crawl this url or not. 
@@ -25,15 +37,27 @@ def is_valid(url):
         parsed = urlparse(url)
         if parsed.scheme not in set(["http", "https"]):
             return False
-        return not re.match(
+        if not re.match(
             r".*\.(css|js|bmp|gif|jpe?g|ico"
             + r"|png|tiff?|mid|mp2|mp3|mp4"
             + r"|wav|avi|mov|mpeg|ram|m4v|mkv|ogg|ogv|pdf"
-            + r"|ps|eps|tex|ppt|pptx|doc|docx|xls|xlsx|names"
+            + r"|ps|eps|tex|ppt|pptx|doc|docx|xls|xlsx|names|ppsx"
             + r"|data|dat|exe|bz2|tar|msi|bin|7z|psd|dmg|iso"
             + r"|epub|dll|cnf|tgz|sha1"
             + r"|thmx|mso|arff|rtf|jar|csv"
-            + r"|rm|smil|wmv|swf|wma|zip|rar|gz)$", parsed.path.lower())
+            + r"|rm|smil|wmv|swf|wma|zip|rar|gz)$", parsed.path.lower()) and not re.match(
+                r'.*pdf.*', parsed.path.lower()) and not re.match(r'.*calendar.*', parsed.path.lower()) and not re.match(
+                    r'.*event.*', parsed.path.lower()):
+
+            path = parsed.path.lower()
+            #print(url)
+            #print(path)
+            #print(re.match(r'.*\.ics\.uci\.edu/.*', 'https://wwwwics.uci.edu/resources/coronavirus/'))
+            return (( re.match(r'.*\.ics\.uci\.edu/.*', url)) or
+                    re.match(r'.*\.cs\.uci\.edu/.*', url) or
+                    re.match(r'.*\.informatics\.uci\.edu/.*', url) or
+                    re.match(r'.*\.stat\.uci\.edu/.*', url) or
+                    re.match(r'today\.uci\.edu/department/information_computer_sciences/.*', url) )
 
     except TypeError:
         print ("TypeError for ", parsed)
