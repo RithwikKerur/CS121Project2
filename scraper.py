@@ -1,6 +1,8 @@
 import re
 from urllib.parse import urlparse
 from bs4 import BeautifulSoup
+import os
+import base64
 
 def scraper(url, resp):
     links = extract_next_links(url, resp)
@@ -18,6 +20,8 @@ def extract_next_links(url, resp):
     #         resp.raw_response.content: the content of the page!
     # Return a list with the hyperlinks (as strings) scrapped from resp.raw_response.content
     links = []
+    parser = None
+    
     if resp.status == 200:
         #print(resp.raw_response.content)
         parser = BeautifulSoup(resp.raw_response.content, 'lxml')
@@ -26,6 +30,13 @@ def extract_next_links(url, resp):
             if defrag is not None:
                 defrag = defrag.split('#')[0]
                 links.append(defrag)
+    
+    with open ('Downloads/' + str(base64.b64encode(url.encode("utf-8"))), 'w') as file:
+        file.write(url + '\n')
+        parser = BeautifulSoup(resp.raw_response.content, 'html.parser')
+
+        file.write(parser.get_text())
+        #file.write(''.join([x for x in parser.body.find_all(text=True)]))
         
     return links
 
@@ -37,7 +48,20 @@ def is_valid(url):
         parsed = urlparse(url)
         if parsed.scheme not in set(["http", "https"]):
             return False
-        if not re.match(
+        elif not (re.match(r'.*\.ics\.uci\.edu/.*', url)
+                or re.match(r'.*\.cs\.uci\.edu/.*', url)
+                or re.match(r'.*\.informatics\.uci\.edu/.*', url)
+                or re.match(r'.*\.stat\.uci\.edu/.*', url)
+                or re.match(r'today\.uci\.edu/department/information_computer_sciences/.*', url)):
+            return False
+        
+        
+        useless_data = {"pdf", "calendar", "?share", "upload", "?action", "?redirect", "/attachment", "?attachment", "events", "wp-login", "?ical"}
+        for data in useless_data:
+            if data in url:
+                return False
+        
+        return not re.match(
             r".*\.(css|js|bmp|gif|jpe?g|ico"
             + r"|png|tiff?|mid|mp2|mp3|mp4"
             + r"|wav|avi|mov|mpeg|ram|m4v|mkv|ogg|ogv|pdf"
@@ -45,20 +69,11 @@ def is_valid(url):
             + r"|data|dat|exe|bz2|tar|msi|bin|7z|psd|dmg|iso"
             + r"|epub|dll|cnf|tgz|sha1"
             + r"|thmx|mso|arff|rtf|jar|csv"
-            + r"|rm|smil|wmv|swf|wma|zip|rar|gz)$", parsed.path.lower()) and not re.match(
-                r'.*pdf.*', parsed.path.lower()) and not re.match(r'.*calendar.*', parsed.path.lower()) and not re.match(
-                    r'.*event.*', parsed.path.lower()):
-
-            path = parsed.path.lower()
-            #print(url)
-            #print(path)
-            #print(re.match(r'.*\.ics\.uci\.edu/.*', 'https://wwwwics.uci.edu/resources/coronavirus/'))
-            return (( re.match(r'.*\.ics\.uci\.edu/.*', url)) or
-                    re.match(r'.*\.cs\.uci\.edu/.*', url) or
-                    re.match(r'.*\.informatics\.uci\.edu/.*', url) or
-                    re.match(r'.*\.stat\.uci\.edu/.*', url) or
-                    re.match(r'today\.uci\.edu/department/information_computer_sciences/.*', url) )
+            + r"|rm|smil|wmv|swf|wma|zip|rar|gz)$", parsed.path.lower())
 
     except TypeError:
         print ("TypeError for ", parsed)
         raise
+
+
+    
