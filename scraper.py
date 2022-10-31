@@ -48,7 +48,7 @@ def is_valid(url):
         parsed = urlparse(url)
         if parsed.scheme not in set(["http", "https"]):
             return False
-        elelif not (re.match(r'.*\.ics\.uci\.edu/.*', url)
+        elif not (re.match(r'.*\.ics\.uci\.edu/.*', url)
                 or re.match(r'.*\.cs\.uci\.edu/.*', url)
                 or re.match(r'.*\.informatics\.uci\.edu/.*', url)
                 or re.match(r'.*\.stat\.uci\.edu/.*', url)
