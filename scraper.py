@@ -48,7 +48,21 @@ def is_valid(url):
         parsed = urlparse(url)
         if parsed.scheme not in set(["http", "https"]):
             return False
-        elif not (re.match(r'.*\.ics\.uci\.edu/.*', url)
+        elelif not (re.match(r'.*\.ics\.uci\.edu/.*', url)
+                or re.match(r'.*\.cs\.uci\.edu/.*', url)
+                or re.match(r'.*\.informatics\.uci\.edu/.*', url)
+                or re.match(r'.*\.stat\.uci\.edu/.*', url)
+                or re.match(r'today\.uci\.edu/department/information_computer_sciences/.*', url)):
+            return False
+        
+        useless_data = {"pdf", "calendar", "?share", "upload", "?action", "?redirect", "/attachment", "?attachment", "events", "wp-login", "?ical"}
+        for data in useless_data:
+            if data in url:
+                return False
+            #print(url)
+            #print(path)
+            #print(re.match(r'.*\.ics\.uci\.edu/.*', 'https://wwwwics.uci.edu/resources/coronavirus/'))
+        return not (re.match(r'.*\.ics\.uci\.edu/.*', url)
                 or re.match(r'.*\.cs\.uci\.edu/.*', url)
                 or re.match(r'.*\.informatics\.uci\.edu/.*', url)
                 or re.match(r'.*\.stat\.uci\.edu/.*', url)
