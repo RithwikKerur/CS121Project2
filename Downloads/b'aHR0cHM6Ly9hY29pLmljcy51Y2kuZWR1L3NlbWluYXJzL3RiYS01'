@@ -1,0 +1,456 @@
+https://acoi.ics.uci.edu/seminars/tba-5
+
+
+
+
+
+
+Using semidefinite programming for Inference — case of robust community detection. – ACO Center @ UCI 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI  
+
+
+
+
+Algorithms, Combinatorics and Optimization 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Using semidefinite programming for Inference — case of robust community detection.
+Home>Seminars>Using semidefinite programming for Inference — case of robust community detection.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Using semidefinite programming for Inference — case of robust community detection. 
+
+
+
+
+Date: November 14, 2019					
+
+
+
+
+
+Time: 2:00 pm					
+
+
+
+
+
+Room: DBH 4011					
+
+
+
+
+
+Speaker: Prasad Raghavendra  					
+
+
+
+
+
+				 (UC Berkeley)					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: We propose a new hierarchy of semidefinite programming relaxations for inference problems and demonstrate their application to regular stochastic block models.
+A regular stochastic block model (RSBM) is a random graph model wherein the vertices are partitioned into $k$ communities, and a random regular graph is sampled conditioned on a prescribed number of edges between the communities. For example, if we sample a graph with no edges within communities, we obtain a model for sampling $k$-colorable graphs.  The Kesten-Stigum (KS) threshold is widely conjectured to mark a computational threshold for the problem of community detection for both RSBMs and general (irregular) SBMs.
+In this work, we apply our hierarchy of SDP relaxations to RSBMs, and prove the following results:
+
+For every $\epsilon$, there exists $m \in \N$ such that the $m^{th}$ level of the SDP hierarchy can detect communities in a dissortative RSBM which is $\epsilon$-above the KS threshold
+The resulting SDP based algorithm is robust to $o(n)$-perturbations of the graph.
+Below the KS threshold, no constant level of our hierarchy can solve the community detection in an RSBM.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI • Privacy Policy • © 2022 UC Regents 
+
+
+
+
+
+
+
+
+
+Close Menu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to content
+
+
+
+Open toolbar
+
+ 
+
+
+
+
+Accessibility Tools
+
+
+
+Increase Text 
+
+
+
+Decrease Text 
+
+
+
+Grayscale 
+
+
+
+High Contrast 
+
+
+
+Negative Contrast 
+
+
+
+Light Background 
+
+
+
+Links Underline 
+
+
+
+Readable Font 
+
+
+
+
+Reset
+
+
+
+
+
+
+

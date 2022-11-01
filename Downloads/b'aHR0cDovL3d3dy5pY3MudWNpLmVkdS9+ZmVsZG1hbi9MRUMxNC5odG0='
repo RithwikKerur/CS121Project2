@@ -1,0 +1,266 @@
+http://www.ics.uci.edu/~feldman/LEC14.htm
+
+
+
+
+LEC14
+
+
+
+Lecture Fourteen--ICS 131--Win 2000--23 Feb 00
+Review of Lecture Twelve--Privacy
+Some examples of "unprivacy"
+
+Comet Cursor
+Banking
+Healthcare Web Sites
+DoubleClick
+
+One company's response
+
+DC's five points
+Is it enough?
+
+Very short history
+
+From the village to the web
+
+What should the various players do?
+
+Users
+Companies
+Government
+
+-------------------------------------------------------------------------------
+Security
+
+The growth of computing 
+(and the internet in particular)
+has exceeded our ability 
+to provide adequate security--JF
+Recent events
+
+February--Denial of Service
+December--Theft of 300,000 credit card numbers
+March--Melissa virus--e-mail systems
+
+
+
+Calling card numbers stolen
+
+
+
+
+
+How big is the problem?
+
+Companies don't want to admit they have been hit
+
+
+
+---------------------------------------------------------------------------------------
+Some questions
+
+
+•	What are the problems?
+•	What are the security breaches?
+•	Who are the hackers?
+•	What can be done about computer security?
+•	What can you do on your PC?
+•	Any role for government?
+
+
+-----------------------------------------------------------------------
+What are the problems?
+What are the security breaches?
+-------------------------------------------------------------------------------------------
+
+[Sager, Ira, et al. CyberCrime. BW, 21 Feb 00, 37-42]
+The Weapons
+
+Denial of Service
+Scans--probing internet looking for weaknesses
+Sniffer--searching data packets
+Spoofing--faking an e-mail address to elicit info
+Trojan horse--program that exploits vulnerable sw
+Back Doors--another way in
+Malicious applets--do bad things
+War dialing--search for a way in thru a modem
+Logic bombs--trigger a malicious act
+Buffer overflow--causing one to make trouble
+Password crackers--sw to guess passwords
+Social engineering--con information
+Dumpster diving--GSIA business games
+
+----------------------------------------------------------------
+Who are the hackers?
+----------------------------------------------------------------
+The Players [BW, 21 Feb 00, 40]
+
+White-hat hackers--good guys (?)
+Black-hat hackers--bad guys
+Crackers--hackers for hire
+Script bunnies--aspiring hackers
+Insiders--Maybe 60% of problems caused by
+
+---------------------------------------------------------------------------
+What can be done about computer security?
+----------------------------------------------------------------------
+Locking Out the Hackers:
+A five point program
+[Sager, Ira; Gross, Neil; and Carey, John
+Locking Out the Hackers, BW, 28 Feb 00, 33-34]
+
+1. Stamp out software bugs
+2. Fortify the ISP's
+3. Make the Penalty Fit the Crime
+4. Companies, Cover your XXXX
+5. Teach your children well
+
+------------------------------------------------------------------------
+1. Stamp out software bugs
+"More than 75% of the incidents we see
+are the direct result of widely known
+[software] bugs..." 
+CMU's Computer Emergency Response Team
+"Chasing software perfection,
+chasing the last bug, is not
+what customers want...."
+Microsoft's security response team
+---------------------------------------------------------------------
+ 
+More comments on software bugs
+"Speed and money are antithetical
+to security and reliability...."
+SRI International (Peter Neumann)
+"What's more, at most colleges 
+teaching computer science, 
+techniques for developing secure code 
+are not even part of the required curriculum."
+------------------------------------------------------------------
+2. Fortify the ISP's
+to filter out bogus packets
+Cost and support issues
+ 
+3. Make the Penalty Fit the Crime
+Define the crimes
+
+e.g., posting software that 
+could launch attacks as a crime
+
+Define the penalties
+--------------------------------------------------------------
+4. Companies, Cover your XXXX
+Install appropriate software and follow up
+
+monitor it
+back up data
+update software
+read bulletins
+ 
+
+5. Teach your children well
+computer ethics (driver education)
+--------------------------------------------------------------------------------
+[Back Off, Hacker. Armstrong, Larry. BW, 28 Feb 00, 160-161]
+[How Not to be a Zombie. Lewis, Peter H. NY Times, 17 Feb 00,
+D1, D3]
+"Easy-to-use software can keep
+online intruders out of your PC"
+Web site software
+
+Shields UP! (www.grc.com)
+secure-me.net
+
+Security systems for PC's
+
+Blackice Defender--www.networkice.com
+Conseal Private Desktop--www.signal9.com
+Norton Internet Security 2000--www.symantec.com
+Zonealarm--www.zonelabs.com
+------------------------------------------------------------------
+[copy BW table on page 161]
+
+-------------------------------------------------------------------------
+ 
+[Policing the Internet: Anyone But Government.
+Steve Lohr, NY Times, 20 Feb 00, wk3]
+"...[T]he F.T.C recently began investigating 
+how medical Web sites handle personal information. 
+And last week, DoubleClick, the Internet's 
+leading advertising placement company, 
+reported that the F.T.C. was investigating 
+how the company collected and used personal data." 
+"I find the profiling technology disturbing
+--this notion of checking on consumer viewing 
+habits without them knowing it--especially 
+if that information is then merged with other 
+databases so they can be identified," 
+said Robert Pitofsky, chairman of the F.T.C.
+------------------------------------------------------
+[Breaking In, Hacker-Style. Gina Kolata, 
+NY Times, 20 Feb 00, wk3]
+------------------------------------------------------------
+Summary
+
+
+•	What are the problems?
+•	What are the security breaches?
+•	Who are the hackers?
+•	What can be done about computer security?
+•	What can you do on your PC?
+
+
+
+
+What should government do?--JF didn't cover this in the lecture
+
+ 
+ 
+Logistics
+•	Quiz on Monday, 28 Feb, will cover 
+Lectures 							Readings
+Mon, 14 Feb ( e-mail, more) 				Rest of Part V
+Wed, 16 Feb (privacy) 					Part VI 
+Wed, 23 Feb (security)
+•	Official announcements
+Quizzes can be given at 
+beginning of Monday class,
+at end of Monday class, 
+or both.
+Final exam will be on Friday of finals week.
+•	Marx lecture, 29 Feb
+ 
+131 in the News
+"Love, Honor, Cherish. But Reveal My Password?"
+"Some people who share lives have trouble 
+sharing e-mail accounts". NY Times, 17 Feb 00, D1, D9
+"At Ford, E-Commerce is Job 1". BW, 28 Feb 00, 74-78
+Providing PC's, printers, and access is only one step in
+a seven-step program "to rewire the auto maker."
+"Construction Heads Into the Internet Age."
+NY Times, 21 Feb 00, C1, C9
+Internet traffic report. "The news media provide
+regular updates on everything from traffic to weather.
+So why not an 'Internet update'? NY Times, 21 Feb 00, C4
+"A Software Shortcut is Drawing Attention."
+"But Security Issues Remain a Concern".
+NY Times, 20 Feb 00, Bu 7
+"Online but Not Antisocial". Smith, Janna Malamud.
+NY Times, 18 Feb 00, A31
+"Tech-Driven Efficiency Spurs Economic Boom. 
+Sanders, Edmund. LA Times, 22 Feb 00, A1, A10
+"The Internet and Democracy." MS ad, 
+NY Times, 22 Feb 00, A12 
+"This is one of a series of essays on technology
+and its impact on society. More information is
+available at www.microsoft.com.
+"Privacy on the Internet", NY Times, 22 Feb 00, A26
+"Social Consequences of the Internet"
+www.stanford.edu/group/siqss
+ 
+ 
+ 
+ 
+ 
+

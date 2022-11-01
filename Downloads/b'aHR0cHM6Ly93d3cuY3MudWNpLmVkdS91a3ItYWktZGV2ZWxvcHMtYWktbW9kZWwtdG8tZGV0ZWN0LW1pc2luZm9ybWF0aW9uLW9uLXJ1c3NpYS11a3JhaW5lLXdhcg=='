@@ -1,0 +1,149 @@
+https://www.cs.uci.edu/ukr-ai-develops-ai-model-to-detect-misinformation-on-russia-ukraine-war
+
+
+
+
+Ukr.ai Develops AI Model to Detect Misinformation on Russia-Ukraine War 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ this is a widget called second front page widget area
+
+Explore
+
+Contact Us
+
+
+Faculty
+Research
+
+Research Areas
+Research Centers
+
+
+Graduate Degrees
+
+Computer Science Programs
+Current Graduate Students
+
+
+Undergraduate Degrees
+News  & Events
+
+News
+Seminar Series
+Distinguished Lecture Series
+Research Showcase
+
+
+Apply Now
+
+Undergraduate Admissions
+Graduate Admissions
+Faculty Candidates
+
+
+Ukr.ai Develops AI Model to Detect Misinformation on Russia-Ukraine War
+March 22, 2022 
+
+For better or for worse, social media is becoming the primary source of news for people across the world. It’s where we get live news updates on our phones, but it’s also where misinformation proliferates. Social media won’t go away anytime soon. So for now, what can we do to fight misinformation on the Internet?
+This was the question that inspired a group of students to create ukr.ai, an artificial intelligence model that detects inaccurate tweets or facts for the HackUCI 2022 hackathon. Ukr.ai specifically analyzes information about the ongoing Russia-Ukraine war.
+
+“In recent years, political parties have leveraged [social media] to spur on disinformation campaigns. These massive information wars between nations have made it difficult to find news that is credible and trustworthy,” the ukr.ai team wrote on their Devpost. “When we found out that Russia had launched their attack on Ukraine, we knew that there would be widespread efforts to misconstrue the truth and further confuse the public.”
+Computer Science major Patrick Hu
+The ukr.ai team is made up of juniors from three universities: computer science major Patrick Hu, and computer engineering majors Tan Huynh and Stella Zhou from UCI; computational mathematics major Alex Rabinovich from UC Riverside; and electrical and computer engineering major Pranav Grover from Santa Clara University. Grover was the team leader.
+“For the project as a whole, I guided the team in the right direction and outlined a plan for what was needed,” says Grover, who designed and developed the front-end animations and graphics. “When things inevitably went wrong and we hit a roadblock, I would be the point person to help get us back on track.”
+To use ukr.ai, users enter information or a link to a tweet about the Russia-Ukraine war into the textbox. The ukr.ai application utilizes OpenAI’s GPT-3 model and Twitter’s Birdwatch dataset to analyze the accuracy of the information. Once the AI model finishes processing the user’s statement or tweet, it tells the user whether or not the information is misleading. 
+“I worked on the back-end development of the application,” says Hu. “I was in charge of fetching and processing tweets from Twitter API, and I contributed to querying our AI model with user requests and handling the response. I also compiled, parsed and formatted the training dataset.”
+One challenge that the students encountered was training their AI model. At times, it was complicated and time-consuming to work with the Birdwatch dataset and fine-tune the AI algorithm. They also had a small dataset to work with because the Russia-Ukraine war began shortly before HackUCI 2022 took place in late February.
+Despite these difficulties, the team created an award-winning project for the hackathon in 36 hours and say their hack delivered promising results.
+Team lead Pranav Grover
+ “It could verify facts about how the Russia-Ukraine war started and identified common disinformation attempts, and it was also able to extract information from tweets and validate them,” says Grover. “Overall, we’re really proud of what we created and accomplished in a short timespan with such a limited amount of data.”
+Hu adds that ukr.ai is a valuable project for him because it’s his first hack. “This was my first hackathon, so I was extremely excited to finish my first project. I learned so much from my teammates, and I was proud to see our contributions come together as a finished product,” says Hu. “I most enjoyed our late-night coding sessions — it was fun chatting with friends, playing music, and making progress while half-asleep.”
+Though the project is not available for public access, users can view a demo video of the AI model narrated by Hu.
+Grover says the ukr.ai team may return to the project in the future. The debate about using AI to conduct fact-checking is something they want to continue thinking about moving forward.  “Ukr.ai is founded on this fundamental question: Can we reliably and accurately automate telling truth from fiction using machine learning? We’ve made steps towards that goal, but that’s ultimately an incredibly complicated technical and ethical problem that requires a lot more time to fully solve,” he says.
+In the meantime, Grover encourages everyone to support reputable charities involved in humanitarian relief to help those who have been affected by the Russia-Ukraine war. “If you haven’t already, I ask anyone reading this to give what they can to charitable organizations such as the Ukrainian Red Cross or Doctors without Borders—it makes a difference,” says Grover.
+To learn more about ukr.ai, visit the ukr.ai Devpost or contact Grover on LinkedIn. 
+— Karen Phan
+« UCI Researchers Draft Legislation to Incentivize Better CybersecurityUCI Deep Learning Researchers Advance Theory and Practice of Data Compression »
+
+Latest news
+
+
+Senior Spotlight: Tennis Player and CS Major Matthew Sah Serves Up Aces On and Off the Court
+September 28, 2022
+
+
+Register Today for the Southern California AI & Biomedicine Symposium
+September 20, 2022
+
+
+CPO Magazine: “A Legal View of New NIST Quantum-Resistant Algorithms” by Bryan Cunningham
+September 19, 2022
+
+
+UCI Ranked 24th in Undergraduate Computer Science Programs by U.S. News & World Report
+September 16, 2022
+
+
+Senior Spotlight: Jose Cisneros Builds Impressive Resume with Trio of Internships
+September 15, 2022
+
+
+
+
+ 
+
+
+
+
+
+© 2022 UC Regents
+Feedback
+Privacy Policy
+
+
+
+ 
+
+
+
+

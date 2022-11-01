@@ -1,0 +1,144 @@
+https://www.cs.uci.edu/cutting-edge-work-in-topological-network-alignment-by-wayne-hayes-and-students
+
+
+
+
+Cutting-Edge Work in Topological Network Alignment by Wayne Hayes and Students 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ this is a widget called second front page widget area
+
+Explore
+
+Contact Us
+
+
+Faculty
+Research
+
+Research Areas
+Research Centers
+
+
+Graduate Degrees
+
+Computer Science Programs
+Current Graduate Students
+
+
+Undergraduate Degrees
+News  & Events
+
+News
+Seminar Series
+Distinguished Lecture Series
+Research Showcase
+
+
+Apply Now
+
+Undergraduate Admissions
+Graduate Admissions
+Faculty Candidates
+
+
+Cutting-Edge Work in Topological Network Alignment by Wayne Hayes and Students
+August 3, 2022 
+
+Computer Science Professor Wayne Hayes of UCI’s Donald Bren School of Information and Computer Sciences (ICS) has co-authored a paper with Siyue Wang, who graduated from ICS in 2019, and Giles R.S. Atkinson, a recent graduate of the University of Bristol, on their cutting-edge work in topological network alignment. Published July 20, 2022 in the Nature Partner Journal Systems Biology and Applications, their paper, “SANA: Cross-Species Prediction of Gene Ontology GO Annotations Via Topological Network Alignment,” presents the first-ever demonstration that network alignment based on network topology alone can be used to transfer knowledge of protein function across species.
+Hayes stresses the significance of this proof of concept. “Nobody has ever actually been able to successfully predict protein function across species using the edges of the network alone.”
+
+Transferring Knowledge“Network alignment is a way of comparing the biomolecular interactions that occur in cells of other species with cells of humans,” explains Hayes. “Gene sequence comparison has been a big thing for 20 years or more, and that’s what everyone thinks about when they think of bioinformatics. But the genetic code is just a static book with recipes of how to create proteins, and the proteins do all the actual work … keeping you alive and pulling in oxygen and pushing out carbon dioxide, etc.”
+Furthermore, although researchers have identified various proteins based on the human genome, that’s not sufficient. “For most proteins, once it is created from the gene and floats off out of the nucleus into the rest of the cell,” says Hayes, “we have no clue what it does.”
+Humans have the same basic biochemistry as all other mammals, so experiments performed on animals provide information about humans. “If we want to look at the molecular interactions in, for example, a rat and extend the results to humans, then we [do] a network alignment, where we try to align the nodes and edges between two the species to transfer knowledge from one to the other.” In other words, if researchers know that particular protein in a rat performs some particular function inside a rat cell, then they can apply network alignment to identify a human protein with similar connectivity patterns and infer that the human protein performs a similar function.
+Developing SANA: A Simulated Annealing Network AlignerThe biggest problem with protein interaction data is that more than 90% of all experiments are done on human proteins, so there simply isn’t enough data about interactions between proteins in non-human cells. “When you’re trying to align to networks and 90% or more of the edges are missing in the non-human network, you just get garbage most of the time,” says Hayes. “It’s like trying to grab onto a ladder when most of the steps are missing.”
+This challenge is what inspired Hayes to create the Simulated Annealing Network Aligner. SANA is a stochastic search algorithm that intentionally injects randomness into the alignments, though always converging to good ones. So, it maximizes the number of edges that can be counted between the two networks, but each run of the algorithm may align different edges to each other. “If there’s 20,000 nodes and half a million edges in the human network and 10,000 nodes and 30,000 edges in most networks … perhaps there are local regions that can be aligned more accurately,” says Hayes. “And the only way you can tell which parts of the alignment are accurate and which parts are garbage [is] to perform the same stochastic alignment multiple times, which is what SANA does.” So when SANA creates 100 equally good but different alignments, the reliable parts of the alignment (which appear multiple times) can be separated from random output that isn’t repeatable.
+“When I ran SANA 100 times, for every pair of proteins and all of the alignments, we get what’s called [a] Network Alignment Frequency, or NAF,” says Hayes. “So if a particular pair of proteins gets aligned together 20 times out of 100 alignments, that’s hugely statistically significant.”
+To further test SANA, Hayes, Wang and Atkinson used decade-old data to see if they could make accurate predictions. Using data from 2010, they identified cases of two proteins with a high NAF, where they had a lot of information about a rat protein but none about the human protein. They used the known function(s) of the rat protein to predict the function of the human one, and then compared their predictions with information from 2020, 10 years after the predictions were made.
+“The results were fantastic,” says Hayes. “Basically in the 10 years between 2010, which is the data we used to make the predictions, and then the greater amount of knowledge of each protein’s function 10 years later, the correctness of the predictions were comparable with any other protein function prediction method that’s out there.”
+Advancing Drug TargetingHayes hopes that this network alignment technique will help researchers gain a better understanding of human biological processes and ultimately disease progression. “At a very high level — no clinical applications for a good decade or more, possibly — but drug design is becoming a big thing in pharmaceuticals,” says Hayes. He made an analogy with Lego blocks or Tetris, explaining that “if two proteins can click together, because they have a physically compatible three-dimensional shape, that’s how they interact.” Better understanding these interactions will help researchers identify potential drug targets to repair the 3D shape when there’s a mutation that is somehow keeping the protein from properly functioning, which is what leads to disease.
+“Drug targeting or drug design is basically the engineering task of trying to design molecules that can fit into a broken protein to repair its function [or], alternately, designing drugs to block viruses from interacting the way they want to with us,” explains Hayes. “That’s only tangential to the research I’m doing [but] any pharmaceutical that manages to do it is going to make history.” SANA could be one useful tool in this effort to advance drug targeting.
+— Shani Murray
+« Stephan Mandt Named Mercator FellowMarco Levorato to Give Keynote at IEEE Healthcom »
+
+Latest news
+
+
+Senior Spotlight: Tennis Player and CS Major Matthew Sah Serves Up Aces On and Off the Court
+September 28, 2022
+
+
+Register Today for the Southern California AI & Biomedicine Symposium
+September 20, 2022
+
+
+CPO Magazine: “A Legal View of New NIST Quantum-Resistant Algorithms” by Bryan Cunningham
+September 19, 2022
+
+
+UCI Ranked 24th in Undergraduate Computer Science Programs by U.S. News & World Report
+September 16, 2022
+
+
+Senior Spotlight: Jose Cisneros Builds Impressive Resume with Trio of Internships
+September 15, 2022
+
+
+
+
+ 
+
+
+
+
+
+© 2022 UC Regents
+Feedback
+Privacy Policy
+
+
+
+ 
+
+
+
+

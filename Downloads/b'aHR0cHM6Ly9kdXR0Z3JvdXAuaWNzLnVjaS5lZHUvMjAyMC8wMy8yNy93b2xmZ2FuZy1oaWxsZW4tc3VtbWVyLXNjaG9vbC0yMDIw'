@@ -1,0 +1,441 @@
+https://duttgroup.ics.uci.edu/2020/03/27/wolfgang-hillen-summer-school-2020
+
+
+
+
+
+
+Wolfgang Hillen Summer School 2022 – Dutt Research Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+Skip to content
+
+
+
+
+
+
+ 
+
+Dutt Research Group
+DRG-Lab Webpage
+
+
+
+
+
+
+
+
+DRG Home
+Group Members
+Projects
+
+Self-Aware & Adaptive Computing
+
+Information Processing Factory (IPF)
+MARS
+Unified Parallel Runtime
+Memory Adaptation
+
+
+Health Care IoT
+
+Internet of Cognitive Things in healthcare
+Pain Assessment
+Maternity Care
+NSF Unite Project
+
+
+Domain-specific Hardware Accelerators
+Neuromorphic Computing
+
+
+Publications
+Sister Groups
+News
+
+
+
+
+Main Menu
+
+
+
+
+
+
+
+
+
+
+UncategorizedWolfgang Hillen Summer School 2022 
+March 27, 2020July 22, 2022 -  by Biswadip Maity 
+
+
+
+
+Modeling and Design of Next Generation Self-X MPSoC Platforms
+
+October 17 – October 21, 2022 + Online Kick-Off June 8th, 2022
+UC Irvine, California, USA
+
+With the recent successful developments in artificial intelligence, several research activities are being carried out to bring self-X properties (as self-adaptivity, self-awareness, self-organization, self-healing, etc.) to embedded systems, leading the path toward smart embedded systems. One key step is to abstract the complexity of enabling self-X properties into a model allowing the control and steering of a system’s dynamics at runtime, to enable these self-X features.
+For that purpose, we, partners from California (UC Irvine), Bavaria (TU München), and Lower Saxony (TU Braunschweig), have proposed a model called the “Information Processing Factory” (IPF) that aims to show how these self-X properties can be achieved across multiple abstraction levels of a Multi-Processor System-on-Chip (MPSoC) platform. The IPF idea comes from the similarities between microelectronics systems and factories: all the components have to adapt to the current workload. In a factory, a department or manufacturing group is given a target production rate objective as well as firm constraints on the utilities to use, such as electricity, source materials, and monetary production cost per unit. The department or group has a maximum of freedom on how to accomplish these targets under the constraints. At the same time, the produced goods of a given group are not as critical as other critical goods for the success of the factory as a whole. However, assuming that a given performance target can be achieved with different amounts of resources occupied, finding an approach to satisfy the objective target with the minimum amount of resources (i.e., having identified a Pareto point) frees up resources and utilities that may be used to optimize the critical production processes.
+With IPF, we are therefore defining a shift of paradigm in system design by envisioning the move toward a platform-centric design in which the combination of self-organized learning and formal reactive methods guarantee the applicability of self-X systems in safety-critical and high-availability applications.
+This year‘s summer school wants to share the finding of IPF in an interactive and practical manner with three goals in mind:
+
+
+Since IPF includes novel concepts with specific models for concrete problems, they will be formally described so that participants clearly understand the research questions and how they are tackled by the different project partners. This is given in the form of a short lecture series.
+
+
+Capitalizing on the multi-disciplinary background of the different research groups (electrical engineering, computer science, and mathematics), the Summer School offers different points of view on how approaches from different research areas are used in IPF and how their synergy contributes to the project’s success. This is given in the form of seminar talks.
+
+
+With the obtained results in IPF, the summer school gives the opportunity to participants to get hands-on experience with different techniques that enable self-X features on embedded systems. This is achieved in workshops, where participates tackle micro research topics with a clear goal in mind.
+Potential Workshop topics are:
+
+
+Setup of a Scaled Truck Platooning Emulation Environment
+To verify our concepts, we test them on a scaled truck platooning environment. Currently, there is only remote access to such an environment, which is the reason, why one or two teams of the summer school should bring a similar setup to Irvine. This setup can then be the basis for the final graduation projects / research internships which build on top of the workshops mentioned here.
+
+
+Development of a Learning-Based Controller
+Due to different driving scenarios during a ride, the performance demand on a vehicle’s compute units are varying. Hence, their configuration has to be adapted dynamically during runtime. Towards this goal, we are using learning based controllers. In this workshop you will learn, how learning can be used to control runtime parameters of MPSoCs.
+
+
+Predictive Model Building for Control of Autonomous Systems
+A key feature of self-aware systems is their ability to configure themselves in order to meet user expectations. Runtime controllers can be deployed to make configuration decisions in the face of diverse and unpredictable scenarios. In order to make configuration decisions to meet user expectations, a controller must understand the dynamics between controllable configurable parameters, uncontrollable environmental parameters, and measures of performance. Understanding these relationships can be achieved through predictive modeling, that is ideally generalizable across systems, scenarios, and goals. In this workshop, you will learn how to generate data-driven predictable models for performance and efficiency of embedded systems executing autonomous applications.
+
+
+Sensor data transfer coordination with Resource Management
+As vehicles become more self-aware with built-in sensors, the demands on communication systems also increase. Along with V2X, where sharing data objects between vehicles or infrastructure over 5G or WIFI is becoming more interesting. The resulting high data volumes and dynamics push the current static networks to their limits. How can in-vehicle networks dynamically react to V2X data streams while ensuring lossless transport of large amounts of data along with critical data? Coordinated resource access through a resource management mechanism can provide the necessary reliability and reconfiguration. This resource management combines different strategies to enable safe and fast reconfiguration of resources. The design of this resource management can be done with regard to different management strategies (e.g. less overhead, fast, safe).
+Workshop:
+– Design and implementation of a resource management function in a simulation environment
+– Adaption of management strategies and comparison of effects
+
+
+Runtime Verification/Anomaly Detection for monitoring safe collective autonomous systems
+Runtime verification is closely linked to deployed systems and provides viable complements such as verifying complex systems interactions at runtime. In embedded systems, especially in the automotive industry, distributed systems have emerged for failover, resource sharing and a need for data-centric perspective, making runtime verification for distributed systems more difficult. Besides, as systems complexity increases, it becomes more challenging to perform runtime verification at the architecture level. Virtual sensors and simulation platforms are added to vehicles to simulate real-world physical limitations, and distributed DBMSs are emulated through containerized instances that store data sensed of a single vehicle, providing a local view of the simulation scenario to each vehicle.
+Workshop:
+– Evaluation of truck platooning system on a traffic simulator and runtime monitor
+
+
+Lightweight Implementation of ML-Engines on FPGAs
+Currently, ML research is diving into more and more complex kinds of NN. But often, the available compute resources are limited, while performance still matters.
+In this workshop, we are investigating how to optimize lightweight ML (on the example of rule based RL) for FPGA implementation in terms of resource utilization and compute performance.
+
+
+Managing and Optimizing the Distribution of Sensor and Metadata in a Self-Aware Platoon
+With upcoming intelligent driving applications, vehicles take the role of wirelessly connected data centric servers, distributing safety critical data in real-time. A key aspect of a self-aware platoon, for example, is the collection, smart distribution and update of data gathered by one platoon participant from sensors or processed metadata to the rest of the platoon. Since the timely distribution of such time-sensitive data determines the safety of a singular vehicle or even the whole platoon, data age has to be managed transparently. Therefore, our research revolves around finding a data management solution that allows for time-based correlations of data samples, while remaining compatible with real-time data distribution.
+Workshop:
+– Hands-on experience in implementing and testing a data distribution mechanism (DMA-based Cache-Mechanism)
+– Exploration on how real-time constraints can be handled with this caching solution
+
+
+Identifying Software Bottlenecks in Autonomous Devices
+Performance degradation of autonomous applications executing on embedded systems can come from a number of sources. It is important to understand the effect of contention of shared resources on application performance in order to understand how to mitigate application slowdown on embedded systems. In this workshop you will learn about the impact of contention on shared resources for applications with different architectural bottlenecks.
+
+
+Evaluating wireless data exchange between platoon members using the DDS middleware
+V2X communication is indispensable for future autonomous driving applications. Vehicles will share information such as sensor data with their surroundings. In comparison with current V2X systems, where only small status messages are exchanged, there will be the need for the reliable transmission of large data samples. However, in the inherently lossy wireless channel such data exchange is not practical with state-of-the-art technologies, especially for safety-critical applications. We have developed a DDS-based multicast protocol that addresses these issues, even under the challenging conditions in wireless channels.
+Workshop:
+– Evaluation of multicast protocol on a V2X hardware platform with different kinds of data and in a variety of scenarios
+– Protocol optimization
+
+
+From Architecture to IC – Designing a RiscV IC
+Over decades x86-architectures were dominating the market. With the rise of smartphones ARM became a quite important architecture and is now even used by Apple in their notebooks and computers. But in research, already the next architecture is investigated: RiscV
+In this workshop you get taught in how to develop your own RiscV SoC which can be manufactured as an IC. What are the steps from architecture, over prototyping and testing til the final device? What should be considered?
+
+
+
+
+Preliminary Schedule
+
+
+
+
+
+
+Monday
+
+
+Tuesday
+
+
+Wednesday
+
+
+Thursday
+
+
+Friday
+
+
+
+
+Start
+
+
+Overview of the day
+Overview of the day
+Overview of the day
+Overview of the day
+
+
+
+Morning
+
+Welcome
+Workshop Intros
+Workshop part 1
+Workshop part 3
+Workshop part 5
+
+
+
+Lunch
+
+
+
+
+
+
+
+
+
+Afternoon
+
+Talks by PIs + Officials
+Familiarize with toolchains
+Workshop part 2
+Workshop part 4
+Final Presentations
+
+
+
+Evening
+
+
+Recap
+Recap
+Recap
+Recap
+
+
+
+Dinner
+
+BBQ @ Verano
+
+
+
+Special Dinner
+
+
+
+
+Call for Contribution (closed)
+We are inviting master and PhD students from various degree programs to submit their application according to the following guidelines.
+Submission Guidelines
+All applications must contain a one-page description in IEEE conference format of your experience and/or interest in the field of self-x MPSoC platforms. It also has to contain a discussion about advantages and disadvantages of self-X mechanisms.
+Furthermore, we request a CV and a recent transcript of records.
+To gain deeper insight about self-X properties in our IPF project you find some of our publications at IEEE and ACM:
+
+https://ieeexplore.ieee.org/abstract/document/8466995
+M. Möstl et al., “Platform-Centric Self-Awareness as a Key Enabler for Controlling Changes in CPS,” in Proceedings of the IEEE, vol. 106, no. 9, pp. 1543-1567, Sept. 2018.
+https://ieeexplore.ieee.org/abstract/document/8949899
+E. A. Rambo et al., “The Information Processing Factory: A Paradigm for Life Cycle Management of Dependable Systems,” 2019 International Conference on Hardware/Software Codesign and System Synthesis (CODES+ISSS), New York, NY, USA, 2019, pp. 1-10.
+https://dl.acm.org/doi/abs/10.1145/3352460.3358312
+Bryan Donyanavard et al., “SOSA: Self-Optimizing Learning with Self-Adaptive Control for Hierarchical System-on-Chip Management” in Proceedings of the 52nd Annual IEEE/ACM International Symposium on Microarchitecture (MICRO ’52), Columbus, OH, USA, 2019, pp 685–698.
+
+Submission Deadline: May 31, 2022 (closed)
+
+
+Data Protection Information
+Regarding the processing of personal data we refer to: https://portal.mytum.de/kompass/datenschutz/Bewerbung/
+All points apply accordingly for the summer school organized by TUM and UCI.
+Support
+For a limited number of candidates we have the opportunity to support their flights. Furthermore, we help finding a place to stay at UCI for German applicants.
+Venue
+The 2022 Wolfgang Hillen Summer School will be held at the University of California, Irvine (UCI).
+Contact
+Submissions and questions about submissions should be emailed to flo.maurer@tum.de.
+Organizers
+Prof. Andreas Herkersdorf (LIS ,TUM), Prof. Fadi Kurdahi (CECS, UCI), Prof. Nikil Dutt (CECS, UCI), Bryan Donyanavard (SDSU)
+
+
+Sponsor
+
+
+We like to thank for the financial support by the Bavaria California Technology Center (BaCaTeC).
+
+
+
+
+
+
+
+
+
+
+Related Posts
+
+
+
+
+ 
+
+
+                            STINT paper by Michael, Khuong, and Wongi was presented at ACM/IEEE ISLPED 2020                        
+
+August 11, 2020June 14, 2022
+
+
+
+
+
+
+                            A paper was accepted at ACM Transaction on Internet of Things                        
+
+August 1, 2020June 14, 2022
+
+
+
+
+
+
+                            CryptoPIM paper by Hamid has been selected as a finalist for the DAC 2020 Best Paper Award.                        
+
+April 4, 2020June 14, 2022
+
+
+
+
+Post navigation
+Previous Article End of the F19 quarter lunch @ Sushi ImariNext Article Our paper by Hamid and Sina has been selected as a finalist for the ICASSP 2020 Best Paper Award.
+
+
+ 
+
+About Biswadip Maity
+
+
+            View all posts by Biswadip Maity →        
+
+
+
+
+
+
+News:
+
+
+End of the 21-22 Academic year DRG-HST BBQ
+May 29, 2022
+
+
+Our paper won the Best Paper Award at The 23rd International Symposium on Quality Electronic Design (ISQED’22)
+May 28, 2022
+
+
+STINT paper by Michael, Khuong, and Wongi was presented at ACM/IEEE ISLPED 2020
+August 11, 2020
+
+
+A paper was accepted at ACM Transaction on Internet of Things
+August 1, 2020
+
+
+CryptoPIM paper by Hamid has been selected as a finalist for the DAC 2020 Best Paper Award.
+April 4, 2020
+
+
+Our paper by Hamid and Sina has been selected as a finalist for the ICASSP 2020 Best Paper Award.
+April 4, 2020
+
+
+
+ 
+
+
+
+
+
+Find Us Address
+3069 Donald Bren Hall
+University of California, Irvine
+Irvine, CA 92697-3435, USA
+Email
+drg@ics.uci.edu
+
+ 
+
+
+
+
+
+
+
+
+
+					Copyright © 2022 Dutt Research Group.				
+
+					Powered by WordPress and HitMag.				
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,4 @@
+http://www.ics.uci.edu/~yamingy/cocktail_demo4.r
+print("A demonstration of the cocktail algorithm for D-optimal designs (approximate theory)");
+print("model: y ~ 1+ x1 + x1^2 + x2 + x1*x2");
+print("design variable: -10]);

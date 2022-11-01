@@ -1,0 +1,1129 @@
+https://cml.ics.uci.edu/category/aiml
+
+
+
+
+
+AIML | Center for Machine Learning and Intelligent Systems
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+University of California, Irvine
+
+
+Menu
+Skip to content
+Home
+About CML
+
+About us
+News
+Contact Us
+
+
+People
+
+Faculty
+Alumni
+
+
+Events & Seminars
+
+AI/ML Seminar Series
+AI/ML Seminar Live Stream
+CML Distinguished Speakers
+ML Reading Group
+
+
+Education & Resources
+
+Courses
+Books
+
+
+UCI Machine Learning Archive
+Sponsors & Funding
+Subscribe to CML List
+ 
+
+
+
+
+
+AIML 
+
+
+
+
+
+Fall 2022 Standard 
+
+
+
+
+
+Oct. 10DBH 40111 pm
+Furong HuangAssistant Professor of Computer ScienceUniversity of Maryland Trustworthy Machine Learning in Complex EnvironmentsWith the burgeoning use of machine learning models in an assortment of applications, there is a need to rapidly and reliably deploy models in a variety of environments. These trustworthy machine learning models must satisfy certain criteria, namely the ability to: (i) adapt and generalize to previously unseen worlds although trained on data that only represent a subset of the world, (ii) allow for non-iid data, (iii) be resilient to (adversarial) perturbations, and (iv) conform to social norms and make ethical decisions.  In this talk, towards trustworthy and generally applicable intelligent systems, I will cover some reinforcement learning algorithms that achieve fast adaptation by guaranteed knowledge transfer, principled methods that measure the vulnerability and improve the robustness of reinforcement learning agents, and ethical models that make fair decisions under distribution shifts.
+
+Bio: Furong Huang is an Assistant Professor of the Department of Computer Science at University of Maryland. She works on statistical and trustworthy machine learning, reinforcement learning, graph neural networks, deep learning theory and federated learning with specialization in domain adaptation, algorithmic robustness and fairness. Furong is a recipient of the NSF CRII Award, the MLconf Industry Impact Research Award, the Adobe Faculty Research Award, and three JP Morgan Faculty Research Awards. She is a Finalist of AI in Research – AI researcher of the year for Women in AI Awards North America 2022. She received her Ph.D. in electrical engineering and computer science from UC Irvine in 2016, after which she completed postdoctoral positions at Microsoft Research NYC.
+
+
+
+Oct. 17DBH 40111 pm
+Bodhi MajumderPhD Student, Department of Computer Science and EngineeringUniversity of California, San Diego Effective, explainable, and equitable predictions in NLP models with world knowledge and conversationsThe use of artificial intelligence in knowledge-seeking applications (e.g., for recommendations and explanations) has shown remarkable effectiveness. However, the increasing demand for more interactions, accessibility and user-friendliness in these systems requires the underlying components (dialog models, LLMs) to be adequately grounded in the up-to-date real-world context. However, in reality, even powerful generative models often lack commonsense, explanations, and subjectivity — a long-standing goal of artificial general intelligence.  In this talk, I will partly address these problems in three parts and hint at future possibilities and social impacts. Mainly, I will discuss: 1) methods to effectively inject up-to-date knowledge in an existing dialog model without any additional training, 2) the role of background knowledge in generating faithful natural language explanations, and 3) a conversational framework to address subjectivity—balancing task performance and bias mitigation for fair interpretable predictions. 
+
+Bio: Bodhisattwa Prasad Majumder is a final-year PhD student at CSE, UC San Diego, advised by Prof. Julian McAuley. His research goal is to build interactive machines capable of producing knowledge grounded explanations. He previously interned at Allen Institute of AI, Google AI, Microsoft Research, FAIR (Meta AI) and collaborated with U of Oxford, U of British Columbia, and Alan Turing Institute. He is a recipient of the UCSD CSE Doctoral Award for Research (2022), Adobe Research Fellowship (2022), UCSD Friends Fellowship (2022), and Qualcomm Innovation Fellowship (2020). In 2019, Bodhi led UCSD in the finals of Amazon Alexa Prize. He also co-authored a best-selling NLP book with O’Reilly Media that is being adopted in universities internationally.  Website: http://www.majumderb.com/.
+
+
+
+Oct. 24DBH 40111 pm
+Mark SteyversProfessor of Cognitive SciencesUniversity of California, Irvine Human-AI collaborationArtificial intelligence (AI) and machine learning models are being increasingly deployed in real-world applications. In many of these applications, there is strong motivation to develop hybrid systems in which humans and AI algorithms can work together, leveraging their complementary strengths and weaknesses. In the first part of the presentation, I will discuss results from a Bayesian framework where we statistically combine the predictions from humans and machines while taking into account the unique ways human and algorithmic confidence is expressed. The framework allows us to investigate the factors that influence complementarity, where a hybrid combination of human and machine predictions leads to better performance than combinations of human or machine predictions alone. In the second part of the presentation, I will discuss some recent work on AI-assisted decision making where individuals are presented with recommended predictions from classifiers. Using a cognitive modeling approach, we can estimate the AI reliance policy used by individual participants. The results  show that AI advice is more readily adopted if the individual is in a low confidence state, receives high-confidence advice from the AI and when the AI is generally more accurate. In the final part of the presentation, I will discuss the question of “machine theory of mind” and “theory of machine”, how humans and machines can efficiently form mental models of each other. I will show some recent results on theory-of-mind experiments where the goal is for individuals and machine algorithms to predict the performance of other individuals in image classification tasks. The results show performance gaps where human individuals outperform algorithms in mindreading tasks. I will discuss several research directions designed to close the gap. 
+
+Bio: Mark Steyvers is a Professor of Cognitive Science at UC Irvine and Chancellor’s Fellow. He has a joint appointment with the  Computer Science department and is affiliated with the Center for Machine Learning and Intelligent Systems. His publications span work in cognitive science as well as machine learning and has been funded by NSF, NIH, IARPA, NAVY, and AFOSR. He received his PhD from Indiana University and was a Postdoctoral Fellow at Stanford University. He is currently serving as Associate Editor of Computational Brain and Behavior and Consulting Editor for Psychological Review and has previously served as the President of the Society of Mathematical Psychology, Associate Editor for Psychonomic Bulletin & Review and the Journal of Mathematical Psychology. In addition, he has served as a consultant for a variety of companies such as eBay, Yahoo, Netflix, Merriam Webster, Rubicon and Gimbal on machine learning problems. Dr. Steyvers received New Investigator Awards from the American Psychological Association as well as the Society of Experimental Psychologists. He also received an award from the Future of Privacy Forum and Alfred P. Sloan Foundation for his collaborative work with Lumosity.
+
+
+
+Oct. 31DBH 40111 pm
+Alex BoydPhD Student, Department of StatisticsUniversity of California, Irvine To Be AnnouncedTBD. 
+
+Bio: TBD.
+
+
+
+Nov. 7DBH 40111 pm
+Yanning ShenAssistant Professor of Electrical Engineering and Computer ScienceUniversity of California, Irvine To Be AnnouncedTBD. 
+
+Bio: TBD.
+
+
+
+Nov. 14DBH 40111 pm
+Muhao ChenAssistant Research Professor of Computer ScienceUniversity of Southern California To Be AnnouncedTBD. 
+
+Bio: TBD.
+
+
+
+Nov. 21DBH 40111 pm
+TBD To Be AnnouncedTBD. 
+
+Bio: TBD.
+
+
+
+Nov. 28
+No Seminar (NeurIPS Conference)
+
+
+
+
+
+
+October 4, 2022
+
+
+
+
+
+
+Spring 2022 Standard 
+
+Live Stream for all Spring 2022 CML Seminars
+
+
+
+
+May 2DBH 4011 &Live Stream1 pm
+Maurizio FilipponeAssociate Professor, EURECOMandBa-Hien TranPhD Student, EURECOMYouTube Stream: https://youtu.be/oZAuh686ipw Functional Priors for Bayesian Deep LearningThe Bayesian treatment of neural networks dictates that a prior distribution is specified over their weight and bias parameters. This poses a challenge because modern neural networks are characterized by a huge number of parameters and non-linearities. The choice of these priors has an unpredictable effect on the distribution of the functional output which could represent a hugely limiting aspect of Bayesian deep learning models. Differently, Gaussian processes offer a rigorous non-parametric framework to define prior distributions over the space of functions. In this talk, we aim to introduce a novel and robust framework to impose such functional priors on modern neural networks for supervised learning tasks through minimizing the Wasserstein distance between samples of stochastic processes. In addition, we extend this framework to carry out model selection for Bayesian autoencoders for unsupervised learning tasks. We provide extensive experimental evidence that coupling these priors with scalable Markov chain Monte Carlo sampling offers systematically large performance improvements over alternative choices of priors and state-of-the-art approximate Bayesian deep learning approaches.
+
+Bio: Maurizio Filippone received a Master’s degree in Physics and a Ph.D. in Computer Science from the University of Genova, Italy, in 2004 and 2008, respectively. In 2007, he was a Research Scholar with George Mason University, Fairfax, VA. From 2008 to 2011, he was a Research Associate with the University of Sheffield, U.K. (2008-2009), with the University of Glasgow, U.K. (2010), and with University College London, U.K (2011). From 2011 to 2015 he was a Lecturer at the University of Glasgow, U.K, and he is currently AXA Chair of Computational Statistics and Associate Professor at EURECOM, Sophia Antipolis, France. His current research interests include the development of tractable and scalable Bayesian inference techniques for Gaussian processes and Deep/Conv Nets with applications in life and environmental sciences.
+Bio: Ba-Hien Tran is currently a PhD student within the Data Science department of EURECOM, under the supervision of Professor Maurizio Filippone. His research focuses on Accelerating Inference for Deep Probabilistic Modeling. In 2016, he received a Bachelor of Science degree with honors in Computer Science from Vietnam National University, HCMC. His thesis investigated Deep Learning approaches for data-driven image captioning. In 2020, he received a Master of Science in Engineering degree in Data Science from Télécom Paris. His thesis focused on Bayesian Inference for Deep Neural Networks.
+
+
+
+May 9DBH 4011 &Live Stream1 pm
+Ties van RozendaalSenior Machine Learning ResearcherQualcomm AI ResearchYouTube Stream: https://youtu.be/LQu-kwpfFg4 Instance-adaptive data compression: Improving Neural Codecs by Training on the Test SetNeural data compression has been shown to outperform classical methods in terms of rate-distortion performance, with results still improving rapidly. These models are fitted to a training dataset and cannot be expected to optimally compress test data in general due to limitations on model capacity, distribution shifts, and imperfect optimization. If the test-time data distribution is known and has relatively low entropy, the model can easily be finetuned or adapted to this distribution. Instance-adaptive methods take this approach to the extreme, adapting the model to a single test instance, and signaling the updated model along in the bitstream. In this talk, we will show the potential of different types of instance-adaptive methods and discuss the tradeoffs that these methods pose. 
+
+Bio: Ties is a senior machine learning researcher at Qualcomm AI Research. He obtained his masters’s degree at the University of Amsterdam with a thesis on personalizing automatic speech recognition systems using unsupervised methods. At Qualcomm AI research he has been working on neural compression, with a focus on using generative models to compress image and video data. His research includes work on semantic compression and constrained optimization as well as instance-adaptive and neural-implicit compression.
+
+
+
+May 16DBH 4011 &Live Stream1 pm
+Robin JiaAssistant Professor of Computer ScienceUniversity of Southern CaliforniaYouTube Stream: https://youtu.be/ALqqlgbzAB0 Out-of-Distribution Evaluation: The How, the Which, and the “What?!”Natural language processing (NLP) models have achieved impressive accuracies on in-distribution benchmarks, but they are unreliable in out-of-distribution (OOD) settings. In this talk, I will give an exclusive preview of my group’s ongoing work on evaluating and improving model performance in OOD settings. First, I will propose likelihood splits, a general-purpose way to create challenging non-i.i.d. benchmarks by measuring generalization to the tail of the data distribution, as identified by a language model. Second, I will describe the advantages of neurosymbolic approaches over end-to-end pretrained models for OOD generalization in visual question answering; these results highlight the importance of measuring OOD generalization when comparing modeling approaches. Finally, I will show how synthesized examples can improve open-set recognition, the task of abstaining on OOD examples that come from classes never seen at training time.
+
+Bio: Robin Jia is an Assistant Professor of Computer Science at the University of Southern California. He received his Ph.D. in Computer Science from Stanford University, where he was advised by Percy Liang. He has also spent time as a visiting researcher at Facebook AI Research, working with Luke Zettlemoyer and Douwe Kiela. He is interested broadly in natural language processing and machine learning, with a particular focus on building NLP systems that are robust to distribution shift. Robin’s work has received best paper awards at ACL and EMNLP.
+
+
+
+May 23
+No Seminar
+
+
+
+May 30
+No Seminar (Memorial Day Holiday)
+
+
+
+June 6DBH 4011 &Live Stream1 pm
+Bobak PezeshkiPhD Student, Department of Computer ScienceUniversity of California, IrvineYouTube Stream: https://youtu.be/Yl_aCTieVqc AND/OR Branch-and-Bound for Computational Protein Design Optimizing K*Computational protein design (CPD) is the task of creating new proteins to fulfill a desired function.  In this talk, I will share work recently accepted at UAI 2022 based on a new formulation of CPD as a graphical model designed for optimizing subunit binding affinity.  These new methods showed promising results when compared with state-of-the-art algorithm BBK* that is part of a long-time developed software package dedicated to CPD.  In the talk, I will first describe CPD in general and for optimizing a quantity called K* (which approximates binding affinity).  I will relate this to the well known task of MMAP for which many powerful algorithms have been recently developed and from which our methods are inspired.  Next I will give a preview of the promising results of our new framework. I will then go on to describe the framework, presenting the formulation of the problem as a graphical model for K* optimization and introducing a weighted mini-bucket heuristic for bounding K* and guiding search. Finally, I will share our algorithm AOBB-K* and modifications that can enhance it, describing some of the empirical benefits and limitations of our scheme.  To conclude, I will outline some future directions for advancing the use of this framework.
+
+Bio: Bobak Pezeshki is a fifth year PhD student of Computer Science at the University of California, Irvine, under advisement of Professor Rina Dechter.  His research focus is in automated reasoning over graphical models with focus in Abstraction Sampling and applying automated reasoning over graphical models to computational protein design.  He completed his undergraduate studies at UC Berkeley majoring in Molecular and Cell Biology (with an emphasis in Biochemistry) and Integrative Biology.  Before pursuing his PhD at UCI, he was involved in protein biochemistry research at the Stroud Lab, UCSF, and at Novartis Vaccines and Diagnostics.
+
+
+
+
+
+
+April 28, 2022
+
+
+
+
+
+
+Winter 2022 Standard 
+
+Live Stream for all Winter 2022 CML Seminars
+
+
+
+
+January 3
+No Seminar
+
+
+
+January 10Live Stream1 pm
+Roy FoxAssistant ProfessorDepartment of Computer ScienceUniversity of California, IrvineYouTube Stream: https://youtu.be/ImvsK5CFp0w Curiously effective ensemble and double-oracle reinforcement-learning methodsEnsemble methods for reinforcement learning have gained attention in recent years, due to their ability to represent model uncertainty and use it to guide exploration and to reduce value estimation bias. We present MeanQ, a very simple ensemble method with improved performance, and show how it reduces estimation variance enough to operate without a stabilizing target network. Curiously, MeanQ is theoretically *almost* equivalent to a non-ensemble state-of-the-art method that it significantly outperforms, raising questions about the interaction between uncertainty estimation, representation, and resampling.
+
+In adversarial environments, where a second agent attempts to minimize the first’s rewards, double-oracle (DO) methods grow a population of policies for both agents by iteratively adding the best response to the current population. DO algorithms are guaranteed to converge when they exhaust all policies, but are only effective when they find a small population sufficient to induce a good agent. We present XDO, a DO algorithm that exploits the game’s sequential structure to exponentially reduce the worst-case population size. Curiously, the small population size that XDO needs to find good agents more than compensates for its increased difficulty to iterate with a given population size.
+
+Bio: Roy Fox is an Assistant Professor and director of the Intelligent Dynamics Lab at the Department of Computer Science at UCI. He was previously a postdoc in UC Berkeley’s BAIR, RISELab, and AUTOLAB, where he developed algorithms and systems that interact with humans to learn structured control policies for robotics and program synthesis. His research interests include theory and applications of reinforcement learning, algorithmic game theory, information theory, and robotics. His current research focuses on structure, exploration, and optimization in deep reinforcement learning and imitation learning of virtual and physical agents and multi-agent systems.
+
+
+
+January 17
+No Seminar (Martin Luther King, Jr. Day)
+
+
+
+January 24Live Stream1 pm
+Ransalu SenanayakePostdoctoral ScholarDepartment of Computer ScienceStanford UniversityYouTube Stream: https://youtu.be/3yR8BqBElXw Propagating Uncertainty from Modeling into Decision-Making for Trustworthy AutonomyAutonomous agents such as self-driving cars have already gained the capability to perform individual tasks such as object detection and lane following, especially in simple, static environments. While advancing robots towards full autonomy, it is important to minimize deleterious effects on humans and infrastructure to ensure the trustworthiness of such systems. However, for robots to safely operate in the real world, it is vital for them to quantify the multimodal aleatoric and epistemic uncertainty around them and use that uncertainty for decision-making. In this talk, I will talk about how we can leverage tools from approximate Bayesian inference, kernel methods, and deep neural networks to develop interpretable autonomous systems for high-stakes applications.
+
+Bio: Ransalu Senanayake is a postdoctoral scholar in the Statistical Machine Learning Group at the Department of Computer Science, Stanford University. He focuses on making downstream applications of machine learning trustworthy by quantifying uncertainty and explaining the decisions of such systems. Currently, he works with Prof. Emily Fox and Prof. Carlos Guestrin. He also worked on decision-making under uncertainty with Prof. Mykel Kochenderfer. Prior to joining Stanford, Ransalu obtained a PhD in Computer Science from the University of Sydney, Australia, and an MPhil in Industrial Engineering and Decision Analytics from the Hong Kong University of Science and Technology, Hong Kong.
+
+
+
+January 31Live Stream1 pm
+Dylan SlackPhD StudentDepartment of Computer ScienceUniversity of California, IrvineYouTube Stream: https://youtu.be/71RJvjPhk3U Exposing Shortcomings and Improving the Reliability of Machine Learning ExplanationsFor domain experts to adopt machine learning (ML) models in high-stakes settings such as health care and law, they must understand and trust model predictions. As a result, researchers have proposed numerous ways to explain the predictions of complex ML models. However, these approaches suffer from several critical drawbacks, such as vulnerability to adversarial attacks, instability, inconsistency, and lack of guidance about accuracy and correctness. For practitioners to safely use explanations in the real world, it is vital to properly characterize the limitations of current techniques and develop improved explainability methods. This talk will describe the shortcomings of explanations and introduce current research demonstrating how they are vulnerable to adversarial attacks. I will also discuss promising solutions and present recent work on explanations that leverage uncertainty estimates to overcome several critical explanation shortcomings.
+
+Bio: Dylan Slack is a Ph.D. candidate at UC Irvine advised by Sameer Singh and Hima Lakkaraju and associated with UCI NLP, CREATE, and the HPI Research Center. His research focuses on developing techniques that help researchers and practitioners build more robust, reliable, and trustworthy machine learning models. In the past, he has held research internships at GoogleAI and Amazon AWS and was previously an undergraduate at Haverford College advised by Sorelle Friedler where he researched fairness in machine learning.
+
+
+
+February 7Live Stream1 pm
+Maja RudolphSenior Research ScientistBosch Center for AIYouTube Stream: https://youtu.be/9fRw74WhRdE Modeling Irregular Time Series with Continuous Recurrent UnitsRecurrent neural networks (RNNs) are a popular choice for modeling sequential data.  Standard RNNs assume constant time-intervals between observations. However, in many datasets (e.g. medical records) observation times are irregular and can carry important information.  To address this challenge, we propose continuous recurrent units (CRUs) – a neural architecture that can naturally handle irregular intervals between observations. The CRU assumes a hidden state which evolves according to a linear stochastic differential equation and is integrated into an encoder-decoder framework. The recursive computations of the CRU can be derived using the continuous-discrete Kalman filter and are in closed form. The resulting recurrent architecture has temporal continuity between hidden states and a gating mechanism that can optimally integrate noisy observations. We derive an efficient parametrization scheme for the CRU that leads to a fast implementation (f-CRU). We empirically study the CRU on a number of challenging datasets and find that it can interpolate irregular time series better than methods based on neural ordinary differential equations.
+
+Bio: Maja Rudolph is a Senior Research Scientist at the Bosch Center for AI where she works on machine learning research questions derived from engineering problems: for example, how to model driving behavior, how to forecast the operating conditions of a device, or how to find anomalies in the sensor data of an assembly line. In 2018, Maja completed her Ph.D. in Computer Science at Columbia University, advised by David Blei. She holds a MS in Electrical Engineering from Columbia University and a BS in Mathematics from MIT.
+
+
+
+February 14Live Stream1 pm
+Ruiqi GaoResearch ScientistGoogle BrainYouTube Stream: https://youtu.be/eAozs_JKp4o Advanced training of energy-based modelsEnergy-based models (EBMs) are an appealing class of probabilistic models, which can be viewed as generative versions of discriminators, yet can be learned from unlabeled data. Despite a number of desirable properties, two challenges remain for training EBMs on high-dimensional datasets. First, learning EBMs by maximum likelihood requires Markov Chain Monte Carlo (MCMC) to generate samples from the model, which can be extremely expensive. Second, the energy potentials learned with non-convergent MCMC can be highly biased, making it difficult to evaluate the learned energy potentials or apply the learned models to downstream tasks.In this talk, I will present two algorithms to tackle the challenges of training EBMs. (1) Diffusion Recovery Likelihood, where we tractably learn and sample from a sequence of EBMs trained on increasingly noisy versions of a dataset. Each EBM is trained with recovery likelihood, which maximizes the conditional probability of the data at a certain noise level given their noisy versions at a higher noise level. (2) Flow Contrastive Estimation, where we jointly estimate an EBM and a flow-based model, in which the two models are iteratively updated based on a shared adversarial value function. We demonstrate that EBMs can be trained with a small budget of MCMC or completely without MCMC. The learned energy potentials are faithful and can be applied to likelihood evaluation and downstream tasks, such as feature learning and semi-supervised learning. 
+
+Bio: Ruiqi Gao is a research scientist at Google, Brain team. Her research interests are in statistical modeling and learning, with a focus on generative models and representation learning. She received her Ph.D. degree in statistics from the University of California, Los Angeles (UCLA) in 2021 advised by Song-Chun Zhu and Ying Nian Wu. Prior to that, she received her bachelor’s degree from Peking University. Her recent research themes include scalable training algorithms of deep generative models, variational inference, and representational models with implications in neuroscience.
+
+
+
+February 21
+No Seminar (Presidents’ Day)
+
+
+
+February 28DBH 4011 &Live Stream1 pm
+Sunipa DevResearch ScientistEthical AI Team, Google AIYouTube Stream: https://youtu.be/V93uXTBnpFw Towards Inclusive and Socially Aware Language TechnologiesLarge language models are commonly used in different paradigms of natural language processing and machine learning, and are known for their efficiency as well as their overall lack of interpretability. Their data driven approach for emulating human language often results in human biases being encoded and even amplified, potentially leading to cyclic propagation of representational and allocational harm. We discuss in this talk some aspects of detecting, evaluating, and mitigating biases and associated harms in a holistic, inclusive, and culturally-aware manner. In particular, we discuss the disparate impact on society of common language tools that are not inclusive of all gender identities. 
+
+Bio: Sunipa Dev is a Research Scientist on the Ethical AI team at Google AI. Previously, she was an NSF Computing Innovation Fellow at UCLA, before which she completed her PhD at the University of Utah. Her ongoing research focuses on various facets of fairness and interpretability in NLP, including robust measurements of bias, cross-cultural understanding of concepts in NLP, and inclusive language representations.
+
+
+
+March 7Zoom1 pm
+Mukund SundararajanPrincipal Research ScientistGoogleYouTube Stream unavailable, please join via Zoom Analyzing deep neural networks using attributionPredicting cancer from XRays seemed great
+Until we discovered the true reason.
+The model, in its glory, did fixate
+On radiologist markings – treason!
+We found the issue with attribution:
+By blaming pixels for the prediction (1,2,3,4,5,6).
+A complement’ry way to attribute,
+is to pay training data, a tribute (1).
+If you are int’rested in FTC,
+counterfactual theory, SGD
+Or Shapley values and fine kernel tricks,
+Please come attend, unless you have conflicts
+Should you build deep models down the road,
+Use attributions. Takes ten lines of code!  
+
+Bio:
+There once was an RS called MS,
+The models he studies are a mess,
+A director at Google.
+Accurate and frugal,
+Explanations are what he likes best.
+
+
+
+March 14
+No Seminar (Finals Week)
+
+
+
+
+
+
+January 5, 2022
+
+
+
+
+
+
+Spring 2021 Standard 
+
+Live Stream for all Spring 2021 CML Seminars
+
+
+
+
+March 29
+No Seminar
+
+
+
+April 5th
+No Seminar
+
+
+
+April 12thLive Stream1 pm
+Sanmi KoyejoAssistant ProfessorDepartment of Computer Science  University of Illinois at Urbana-ChampaignYouTube Stream: https://youtu.be/Ehqsp8vRLis  The Measurement and Mismeasurement of Trustworthy MLAcross healthcare, science, and engineering, we increasingly employ machine learning (ML) to automate decision-making that, in turn, affects our lives in profound ways. However, ML can fail, with significant and long-lasting consequences. Reliably measuring such failures is the first step towards building robust and trustworthy learning machines. Consider algorithmic fairness, where widely-deployed fairness metrics can exacerbate group disparities and result in discriminatory outcomes. Moreover, existing metrics are often incompatible. Hence, selecting fairness metrics is an open problem. Measurement is also crucial for robustness, particularly in federated learning with error-prone devices. Here, once again, models constructed using well-accepted robustness metrics can fail. Across ML applications, the dire consequences of mismeasurement are a recurring theme. This talk will outline emerging strategies for addressing the measurement gap in ML and how this impacts trustworthiness.
+
+Bio: Sanmi (Oluwasanmi) Koyejo is an Assistant Professor in the Department of Computer Science at the University of Illinois at Urbana-Champaign. Koyejo’s research interests are in developing the principles and practice of trustworthy machine learning. Additionally, Koyejo focuses on applications to neuroscience and healthcare. Koyejo completed his Ph.D. in Electrical Engineering at the University of Texas at Austin, advised by Joydeep Ghosh, and completed postdoctoral research at Stanford University. His postdoctoral research was primarily with Russell A. Poldrack and Pradeep Ravikumar. Koyejo has been the recipient of several awards, including a best paper award from the conference on uncertainty in artificial intelligence (UAI), a Sloan Fellowship, a Kavli Fellowship, an IJCAI early career spotlight, and a trainee award from the Organization for Human Brain Mapping (OHBM). Koyejo serves on the board of the Black in AI organization.
+
+
+
+April 19thSponsored by the Steckler Center for Responsible, Ethical, and Accessible Technology (CREATE)4 pm(Note change in time)
+Kate CrawfordSenior Principal Researcher, Microsoft Research, New York Distinguished Visiting Fellow at the University of Melbourne Towards an Atlas of AI: A Conversation with Kate Crawford (with Paul Dourish and Geof Bowker, Department of Informatics, UC Irvine)Where do the motivating ideas behind Artificial Intelligence come from and what do they imply? What claims to universality or particularity are made by AI systems? How do the movements of ideas, data, and materials shape the present and likely futures of AI development? Join us for a conversation with social scientist and AI scholar Kate Crawford about the intellectual history and geopolitical contexts of contemporary AI research and practice.
+
+Bio: Kate Crawford is a leading scholar of the social and political implications of artificial intelligence. Over her 20-year career, her work has focused on understanding large-scale data systems, machine learning and AI in the wider contexts of history, politics, labor, and the environment. She is a Research Professor of Communication and STS at USC Annenberg, a Senior Principal Researcher at MSR-NYC, and the inaugural Visiting Chair for AI and Justice at the École Normale Supérieure in Paris, In 2021, she will be the Miegunyah Distinguished Visiting Fellow at the University of Melbourne, and has been appointed an Honorary Professor at the University of Sydney. She previously co-founded the AI Now Institute at New York University. Kate has advised policy makers in the United Nations, the Federal Trade Commission, the European Parliament, and the White House.
+Her academic research has been published in journals such as Nature, New Media & Society, Science, Technology & Human Values and Information, Communication & Society. Beyond academic journals, Kate has also written for The New York Times, The Atlantic, Harpers’ Magazine, among others.
+
+
+
+April 26thLive Stream1 pm
+Yibo YangPhD StudentDepartment of Computer ScienceUniversity of California, IrvineYouTube Stream: https://youtu.be/1lXKUhBTHWc  Exploring the limits of lossy data compression with deep learningProbabilistic machine learning, particularly deep learning, is reshaping the field of data compression. Recent work has established a close connection between lossy data compression and latent variable models such as variational autoencoders (VAEs), and VAEs are now the building blocks of many learning-based lossy compression algorithms that are trained on massive amounts of unlabeled data.  In this talk, I give a brief overview of learned data compression, including the current paradigm of end-to-end lossy compression with VAEs, and present my research that addresses some of its limitations and explores other possibilities of learned data compression.  First, I present algorithmic improvements inspired by variational inference that push the performance limits of VAE-based lossy compression, resulting in a new state-of-the-art performance on image compression. Then, I introduce a new algorithm that compresses the variational posteriors of pre-trained latent variable models, and allows for variable-bitrate lossy compression with a vanilla VAE. Lastly, I discuss ongoing work that explores fundamental bounds on the theoretical performance of lossy compression algorithms, using the tools of stochastic approximation and deep learning.
+
+Bio: Yibo Yang is a PhD student advised by Stephan Mandt in the Computer Science department at UC Irvine. His research interests include probability theory, information theory, and their applications in statistical machine learning.
+
+
+
+May 3rdLive Stream1 pm
+Levi LelisAssistant ProfessorDepartment of Computer ScienceUniversity of AlbertaYouTube Stream: https://youtu.be/76NFMs9pHEE  Policy and Heuristic-Guided Tree Search AlgorithmsIn this talk I will describe two tree search algorithms that use a policy to guide the search. I will start with Levin tree search (LTS), a best-first search algorithm that has guarantees on the number of nodes it needs to expand to solve state-space search problems. These guarantees are based on the quality of the policy it employs. I will then describe Policy-Guided Heuristic Search (PHS), another best-first search algorithm that uses both a policy and a heuristic function to guide the search. PHS also has guarantees on the number of nodes it expands, which are based on the quality of the policy and of the heuristic function employed. I will then present empirical results showing that LTS and PHS compare favorably with A*, Weighted A*, Greedy Best-First Search, and PUCT on a set of single-agent shortest-path problems.
+
+Bio:  
+Levi Lelis is an Assistant Professor at the University of Alberta, Canada, and a Professor on leave from Universidade Federal de Viçosa, Brazil. Levi is interested in heuristic search, machine learning, and program synthesis.
+
+
+
+May 10thLive Stream1 pm
+David Alvarez-MelisPostdoctoral ResearcherMicrosoft Research New EnglandYouTube Stream:  https://youtu.be/52bQ_XUY2DQ  Ideal made real: machine learning with limited data and interpretable outputsAbstract: Success stories in machine learning seem to be ubiquitous, but they tend to be concentrated on ‘ideal’ scenarios where clean labeled data are abundant, evaluation metrics are unambiguous, and operational constraints are rare — if at all existent. But machine learning in practice is rarely so ‘pristine’;  clean data is often scarce, resources are limited, and constraints (e.g., privacy, transparency) abound in most real-life applications. In this talk we will explore how to reconcile these paradigms along two main axes: (i) learning with scarce or heterogeneous data, and (ii) making complex models, such as neural networks, interpretable. 
+
+First, I will present various approaches that I have developed for ‘amplifying’ (e.g, merging, transforming, interpolating) datasets based on the theory of Optimal Transport. Through applications in machine translation, transfer learning, and dataset shaping, I will show that besides enjoying sound theoretical footing, these approaches yield efficient and high-performing algorithms. In the second part of the talk, I will present some of my work on designing methods to extract ‘explanations’ from complex models and on imposing on them some basic formal notions that I argue any interpretability method should satisfy, but which most lack. Finally, I will present a novel framework for interpretable machine learning that takes inspiration from the study of (human) explanation in the social sciences, and whose evaluation through user studies yields insights about the promise (and limitations) of interpretable AI tools. 
+
+Bio:  
+David Alvarez-Melis is a postdoctoral researcher in the Machine Learning and Statistics Group at Microsoft Research, New England. He recently obtained a Ph.D. in computer science from MIT advised by Tommi Jaakkola, and holds B.Sc. and M.S. degrees in mathematics from ITAM and Courant Institute (NYU), respectively. He has previously spent time at IBM Research and is a recipient of CONACYT, Hewlett Packard, and AI2 awards.
+
+
+
+May 17th
+Live Stream1 pm
+
+Megan PetersAssistant ProfessorDepartment of Cognitive SciencesUC IrvineYouTube Stream:  https://youtu.be/i9Cenn0stxE  How do we evaluate our own uncertainty? Uncovering our metacognitive computationsAbstract: TBA
+
+Bio: In March 2020 I joined the UCI Department of Cognitive Sciences.  I’m also a Cooperating Researcher in the Department of Decoded Neurofeedback at Advanced Telecommunications Research Institute International in Kyoto, Japan.  Prior to that, from 2017 I was on the faculty at UC Riverside in the Department of Bioengineering.  I received my Ph.D. in computational cognitive neuroscience (psychology) from UCLA, and then was a postdoc there as well. My research aims to reveal how the brain represents and uses uncertainty, and performs adaptive computations based on noisy, incomplete information. I specifically focus on how these abilities support metacognitive evaluations of the quality of (mostly perceptual) decisions, and how these processes might relate to phenomenology and conscious awareness. I use neuroimaging, computational modeling, machine learning and neural stimulation techniques to study these topics. 
+
+
+
+May 24thLive Stream1 pm
+Jing ZhangAssistant ProfessorDepartment of Computer ScienceUniversity of California, IrvineYouTube Stream:  https://youtu.be/HPPq5Xvlr9c  Effective representation learning to dissect the gene regulatory grammarThe recent advances in sequencing technologies provide unprecedented opportunities to decipher
+the multi-scale gene regulatory grammars at diverse cellular states. Here, we will introduce our
+computational efforts on cell/gene representation learning to extract biologically meaningful
+information from high-dimensional, sparse, and noisy genomic data. First, we proposed a deep
+generative model, named SAILER, to learn the low-dimensional latent cell representations from
+single-cell epigenetic data for accurate cell state characterization. SAILER adopted the
+conventional encoder-decoder framework and imposed additional constraints for biologically
+robust cell embeddings invariant to confounding factors. Then at the network level, we
+developed TopicNet using latent Dirichlet allocation (LDA) to extract latent gene communities
+and quantify regulatory network connectivity changes (network “rewiring”) between diverse cell
+states. We applied our TopicNet model on 13 different cancer types and highlighted gene
+communities that impact patient prognosis in multiple cancer types.
+
+Bio: Dr. Zhang is an Assistant Professor at UCI. Her research interests are in the areas of
+bioinformatics and computational biology. She graduated from USC Electrical Engineering
+under the supervision of Dr. Liang Chen and Dr. C.C Jay Kuo. She completed her postdoc
+training at Yale University in Dr. Mark Gerstein’s lab. During her postdoc, she has developed
+several computational methods to integrate novel high-throughput sequencing assays to decipher
+the gene regulation “grammar”. Her current research focuses on developing computational
+methods to predict the impact of genomic variations on genome function and phenotype at a
+single-cell resolution.
+
+
+
+May 31
+No Seminar (Memorial Day)
+
+
+
+June 7th
+No Seminar (Finals Week)
+
+
+
+
+
+
+April 6, 2021
+
+
+
+
+
+
+Winter 2021 Standard 
+
+Live Stream for all Winter 2021 CML Seminars
+
+
+
+
+Jan. 4
+No Seminar
+
+
+
+Jan. 11Live Stream1 pm
+Florian WenzelPostdoctoral ResearcherGoogle Brain BerlinYouTube Stream:  https://youtu.be/9n8_5tjt_Lw Towards Reliable Deep LearningDeep learning models are bad at detecting their failure. They tend to make over-confident mistakes, especially, under distribution shift. Making deep learning more reliable is important in safety-critical applications including health care, self-driving cars, and recommender systems. We discuss two approaches to reliable deep learning. First, we will focus on Bayesian neural networks that come with many promises to improved uncertainty estimation. However, why are they rarely used in industrial practice? In this talk, we will cast doubt on the current understanding of Bayes posteriors in deep networks. We show that Bayesian neural networks can be improved significantly through the use of a “cold posterior” that overcounts evidence and hence sharply deviates from the Bayesian paradigm. We will discuss several hypotheses that could explain cold posteriors. In the second part, we will discuss a classical approach to more robust predictions: ensembles. Deep ensembles combine the predictions of models trained from different initializations. We will show that the diversity of predictions can be improved by considering models with different hyperparameters. Finally, we present an efficient method that leverages hyperparameter diversity within a single model.
+
+Bio: Florian Wenzel is a machine learning researcher who is currently on the job market. His research has focused on probabilistic deep learning, uncertainty estimation, and scalable inference methods. From October 2019 to October 2020 he was a postdoctoral researcher at Google Brain. He received his PhD from Humboldt University in Berlin and worked with Marius Kloft, Stephan Mandt, and Manfred Opper.
+
+
+
+Jan. 18
+No Seminar (Martin Luther King, Jr. Holiday)
+
+
+
+Jan. 25Live Stream1 pm
+Yezhou YangAssistant ProfessorSchool of Computing, Informatics, and Decision Systems EngineeringArizona State UniversityYouTube Stream:  https://youtu.be/IcSUBZraB3s Visual Recognition beyond Appearances, and its Robotic ApplicationsThe goal of Computer Vision, as coined by Marr, is to develop algorithms to answer What are Where at When from visual appearance. The speaker, among others, recognizes the importance of studying underlying entities and relations beyond visual appearance, following an Active Perception paradigm. This talk will present the speaker’s efforts over the last decade, ranging from 1) reasoning beyond appearance for visual question answering, image understanding and video captioning tasks, through 2) temporal knowledge distillation with incremental knowledge transfer, till 3) their roles in a Robotic visual learning framework via a Robotic Indoor Object Search task. The talk will also feature the Active Perception Group (APG)’s ongoing projects (NSF RI, NRI and CPS, DARPA KAIROS, and Arizona IAM) addressing emerging challenges of the nation in autonomous driving, AI security and healthcare domains, at the ASU School of Computing, Informatics, and Decision Systems Engineering (CIDSE).
+
+Bio: Yezhou Yang is an Assistant Professor at School of Computing, Informatics, and Decision Systems Engineering, Arizona State University.  He is directing the ASU Active Perception Group. His primary interests lie in Cognitive Robotics, Computer Vision, and Robot Vision, especially exploring visual primitives in human action understanding from visual input, grounding them by natural language as well as high-level reasoning over the primitives for intelligent robots. Before joining ASU, Dr. Yang was a Postdoctoral Research Associate at the Computer Vision Lab and the Perception and Robotics Lab, with the University of Maryland Institute for Advanced Computer Studies. He is a recipient of Qualcomm Innovation Fellowship 2011, the NSF CAREER award 2018 and the Amazon AWS Machine Learning Research Award 2019. He receives his Ph.D. from University of Maryland at College Park, and B.E. from Zhejiang University, China.
+
+
+
+Feb. 1Live Stream1 pm
+Joe MarinoPhD StudentComputation and Neural SystemsCalifornia Institute of TechnologyYouTube Stream: https://youtu.be/iVz6uwD7i6A Connecting Variational Autoencoders Back to the BrainUnsupervised machine learning has recently dramatically improved our ability to model and extract structure from data. One such approach is deep latent variable models, which includes variational autoencoders (VAEs) [Kingma & Welling, 2014; Rezende et al., 2014]. These models can be traced back to the Helmholtz machine [Dayan et al., 1995], which, in turn, was inspired by ideas from theoretical neuroscience [Mumford, 1992]. In the intervening years, neuroscientists have further developed these ideas into a popular theory: predictive coding [Rao & Ballard, 1999; Friston, 2005]. Yet, the machine learning community remains largely unaware of these connections. In this talk, I discuss the links between modern deep latent variable models and predictive coding, yielding several striking implications for the correspondences between machine learning and neuroscience. This motivates a more nuanced view in connecting these fields, including the search for backpropagation in the brain.
+
+Bio: Joe Marino is a PhD candidate in the Computation & Neural Systems program at Caltech, advised by Yisong Yue. His work focuses on improving probabilistic models and inference techniques, using neuroscience-inspired ideas, within the areas of generative modeling and reinforcement learning.
+
+
+
+Feb. 8Live Stream1 pm
+Junkyu LeeAI Planning GroupIBM ResearchYouTube Stream:  https://youtu.be/p7X-L1T9ULk Decomposition Bounds for Influence DiagramsInfluence diagrams (IDs) extend Bayesian networks with decision variables and utility functions to model the interaction between an agent and a system to capture the preferences.  The standard task in IDs is to compute the maximum expected utility (MEU) over the influence diagram and optimal policies.  However, it is the most challenging task in graphical models. Therefore, computing upper bounds on the MEU is desirable because upper bounds can facilitate anytime-solutions by acting as heuristics to guide search or sampling-based methods. In this talk, I will present bounding schemes for solving IDs. The first approach builds on top of the tree decomposition scheme in probabilistic graphical models and extends variational decomposition bounds in marginal MAP. The second approach is a new tree decomposition method called submodel tree decomposition.  The empirical evaluation results show that presented bounding schemes generate upper bounds that are orders of magnitude tighter than previous methods. Finally, I will conclude the talk with future directions.
+
+Bio: Junkyu Lee received his Ph.D. from the CS department at UC Irvine, where Rina Dechter supervised him. Currently, he is a resident at the IBM Research AI planning group. His research focuses on graphical model inference and heuristic search for sequential decision making under uncertainty. He is also broadly interested in related areas such as planning and reinforcement learning.
+
+
+
+Feb. 15
+No Seminar (Presidents’ Holiday)
+
+
+
+Feb. 22
+No Seminar
+
+
+
+March 1Live Stream1 pm
+Robert LoganPhD StudentDepartment of Computer ScienceUniversity of California, IrvineYouTube Stream:  https://youtu.be/Mim1pmEn1UU Fill in the _____: Prompt-Based Solutions for NLPRecent progress in natural language processing (NLP) has been predominantly driven by the advent of large neural language models (e.g., GPT-2 and BERT) that are “pretrained” using a self-supervised learning objective on billions of tokens of text before being “finetuned” (i.e., transferred) to downstream tasks. The exceptional success of these models has motivated many NLP researchers to study what exactly these models are learning during pretraining that causes them to be more successful than their non-self-supervised counterparts. In this talk, we will describe the technique of prompting, an approach that answers this question by reformulating tasks as fill-in-the-blanks questions. We will begin by showing how prompts can be used to measure the amount of factual, linguistic, and task-specific knowledge contained in language models. We will then introduce an approach for automatically constructing prompts based on gradient-guided search that provides a scalable alternative to manually writing prompts by hand. Lastly, we will cover our ongoing work investigating whether prompting can be used as a replacement for finetuning of language models, describing some early results that demonstrate that prompting can indeed be more effective in few-shot learning scenarios while being substantially more parameter efficient.
+
+Bio: Robert L. Logan IV is a 4th year PhD Candidate at UC Irvine, co-advised by Sameer Singh and Padhraic Smyth. His research focuses on leveraging external knowledge sources to measure and improve NLP models’ ability to reason with factual and common sense knowledge. He was selected as a Noyce Fellow and has been awarded the 2020 Rose Hills Foundation Scholarship. Robert received his B.A. in mathematics at the University of California, Santa Cruz, and has held research positions at Google and Diffbot.
+
+
+
+March 8
+No Seminar
+
+
+
+March 15
+Finals Week
+
+
+
+
+
+
+January 6, 2021
+
+
+
+
+
+
+Fall 2020 Standard 
+
+Live Stream for all Fall 2020 CML Seminars
+
+
+
+
+Oct 5
+No Seminar
+
+
+
+Oct 12Live Stream1 pm
+Forest AgostinelliAssistant ProfessorComputer Science and EngineeringUniversity of South CarolinaYouTube Stream:  https://youtu.be/shwYW9yEAIQ From Combination Puzzles to the Natural SciencesCombination puzzles, such as the Rubik’s cube, pose unique challenges for artificial intelligence. Furthermore, solutions to such puzzles are directly linked to problems in the natural sciences. In this talk, I will present DeepCubeA, a deep reinforcement learning and search algorithm that can solve the Rubik’s cube, and six other puzzles, without domain specific knowledge. Next, I will discuss how solving combination puzzles opens up new possibilities for solving problems in the natural sciences. Finally, I will show how problems we encounter in the natural sciences motivate future research directions in areas such as theorem proving and education. A demonstration of our work can be seen at http://deepcube.igb.uci.edu/.
+
+Bio: Forest Agostinelli is an assistant professor at the University of South Carolina. He received his B.S. from the Ohio State University, his M.S. from the University of Michigan, and his Ph.D. from UC, Irvine under Professor Pierre Baldi. His research interests include deep learning, reinforcement learning, search, bioinformatics, neuroscience, and chemistry.
+
+
+
+Oct 19Live Stream1 pm
+Stephan MandtAssistant ProfessorDept. of Computer ScienceUniversity of California, IrvineYouTube Stream:  https://youtu.be/Z8juQKrCkmk Compressing Variational BayesNeural image compression algorithms have recently outperformed their classical counterparts in rate-distortion performance and show great potential to also revolutionize video coding. In this talk, I will show how innovations from Bayesian machine learning and generative modeling can lead to dramatic performance improvements in compression. In particular, I will explain how sequential variational autoencoders can be converted into video codecs, how deep latent variable models can be compressed in post-processing with variable bitrates, and how iterative amortized inference can be used to achieve the world record in image compression performance. 
+
+Bio: Stephan Mandt is an Assistant Professor of Computer Science at the University of California, Irvine. From 2016 until 2018, he was a Senior Researcher and Head of the statistical machine learning group at Disney Research, first in Pittsburgh and later in Los Angeles. He held previous postdoctoral positions at Columbia University and Princeton University. Stephan holds a Ph.D. in Theoretical Physics from the University of Cologne. He is a Fellow of the German National Merit Foundation, a Kavli Fellow of the U.S. National Academy of Sciences, and was a visiting researcher at Google Brain. Stephan regularly serves as an Area Chair for NeurIPS, ICML, AAAI, and ICLR, and is a member of the Editorial Board of JMLR. His research is currently supported by NSF, DARPA, Intel, and Qualcomm.
+
+
+
+Oct 26Live Stream1 pm
+Christoph LippertProfessorHasso Plattner InstituteUniversity of PotsdamYouTube Stream:  https://youtu.be/zElgAKf4AhE GWAS of Images using Deep Transfer LearningAt the Chair of Digital Health & Machine Learning, we are developing methods for the statistical analysis of large biomedical data. In particular imaging provides a powerful means for measuring phenotypic information at scale. While images are abundantly available in large repositories such as the UK Biobank, the analysis of imaging data poses new challenges for statistical methods development. In this talk, I will give an overview over some of our current efforts in using deep representation learning as a non-parametric way to model imaging phenotypes and for associating images to the genome.
+
+References:
+
+Kirchler, M., Khorasani, S., Kloft, M., & Lippert, C. (2020, June). Two-sample testing using deep learning. In International Conference on Artificial Intelligence and Statistics (pp. 1387-1398). PMLR.
+
+Kirchler, M., Konigroski, S., Schurmann, C., Norden, M., Meltendorf, C., Kloft, M., Lippert, C. transferGWAS: GWAS of images using deep transfer learning. Manuscript in preparation.
+
+Bio: Lippert studied bioinformatics from 2001–2008 in Munich and went on to earn his doctorate at the Max Planck Institutes for Intelligent Systems and for Developmental Biology in Tübingen in machine learning bioinformatics, with an emphasis on methods for genome-associated studies. In 2012, he accepted a Researcher position at Microsoft Research in Los Angeles and subsequently carried out work at Human Longevity, Inc. in Mountain View. In 2017, Lippert returned to Germany to head the research group “Statistical Genomics” at the Max Delbrück Center for Molecular Medicine in Berlin. In 2018, Lippert has been appointed Full Professor of “Digital Health & Machine Learning” in the joint Digital Engineering Faculty of the Hasso Plattner Institute and the University of Potsdam.
+
+
+
+Nov 2Live Stream1 pm
+Cory ScottPhD StudentDept. of Computer ScienceUniversity of California, IrvineYouTube Stream:  https://youtu.be/CpGfCA92rMw Efficient Learning of Cytoskeletal Dynamics with Multiscale Machine Learning and Optimized Projection OperatorsMicrotubules are a primary constituent of the dynamic cytoskeleton in living cells, involved in many cellular processes whose study would benefit from scalable dynamic computational models. We define a novel machine learning model which aggregates information across multiple spatial scales to predict energy potentials measured from a simulation of a section of microtubule. Using projection operators which optimize an objective function related to the diffusion kernel of a graph, we sum information from local neighborhoods. This process is repeated recursively until the coarsest scale, and all scales are separately used as the input to a Graph Convolutional Network, forming our novel architecture: the Graph Prolongation Convolutional Network (GPCN). The GPCN outputs a prediction for each spatial scale, and these are combined using the inverse of the optimized projections. This fine-to-coarse mapping, and its inverse, create a model which is able to learn to predict energetic potentials more efficiently than other GCN ensembles which do not leverage multiscale information. We also compare the effect of training this ensemble in a coarse-to-fine fashion, and find that schedules adapted from the Algebraic Multigrid (AMG) literature further increase this efficiency. Since forces are derivatives of energies, we discuss the implications of this type of model for machine learning of multiscale molecular dynamics.
+
+Reference: C.B. Scott and Eric Mjolsness. “Graph Prolongation Convolutional Networks: Explicitly Multiscale Machine Learning on Graphs with Applications to Modeling of Cytoskeleton”. In: Machine Learning: Science and Technology (2020). DOI: 
+https://iopscience.iop.org/article/10.1088/2632-2153/abb6d2
+
+
+
+Nov 9Live Stream1 pm
+Lukas RuffPhD StudentElectrical Engineering and Computer ScienceTU BerlinYouTube Stream:  https://youtu.be/Uncc5y7g8Is Recent Advances in Anomaly DetectionAnomaly detection is the problem of identifying unusual observations in data. This problem is usually unsupervised and occurs in numerous applications such as industrial fault and damage detection, fraud detection in finance and insurance, intrusion detection in cybersecurity, scientific discovery, or medical diagnosis and disease detection. Many of these applications involve complex data such as images, text, graphs, or biological sequences, that is continually growing in size. This has sparked a great interest in developing deep learning approaches to anomaly detection.
+
+In this talk, my aim is to provide a systematic and unifying overview of deep anomaly detection methods. We will discuss methods based on reconstruction, generative modeling, and one-class classification, where we identify common underlying principles and draw connections between traditional ‘shallow’ and novel deep methods. Furthermore, we will cover recent developments that include weakly and self-supervised approaches as well as techniques for explaining models that enable to reveal ‘Clever Hans’ detectors. Finally, I will conclude the talk by highlighting some open challenges and potential paths for future research.
+
+Bio: Lukas Ruff is a third year PhD student in the Machine Learning Group headed by Klaus-Robert Müller at TU Berlin. His research covers robust and trustworthy machine learning, with a specific focus on deep anomaly detection. Lukas received a B.Sc. degree in Mathematical Finance from the University of Konstanz in 2015 and a joint M.Sc. degree in Statistics from HU, TU and FU Berlin in 2017.
+
+
+
+Nov 16Live Stream1 pm
+Karem SakallahProfessorElectrical Engineering and Computer ScienceUniversity of MichiganYouTube Stream:  https://youtu.be/5A5dTRo50EQ Accidental Research: Scalable Algorithms for Boolean Satisfiability and Graph AutomorphismAccidental research is when you’re an expert in some domain and seek to solve problem A in that domain. You soon discover that to solve A you need to also solve B which, however, comes from a domain in which you have little, or even no, expertise. You, thus, explore existing solutions to B but are disappointed to find that they just aren’t up to the task of solving A. Your options at this point are a) to abandon this futile project, or b) to try and find a solution to B that will help you solve A. While this might seem like a fool’s errand, you have the advantage over B experts of being unencumbered by their experience. You are a novice who does not, yet, appreciate the complexity of B, but are able to explore it from a fresh perspective. You also bring along expertise from your own domain to connect what you know with what you hope to learn. If you’re lucky, you may succeed in finding a solution to B that helps you solve A.
+
+I will relate two cases in which this scenario played out: developing the GRASP conflict-driven clause-learning SAT solver in the context of performing timing analysis of very large scale integrated circuits, and developing the saucy graph automorphism  program to find and break symmetries in large SAT problems. Ironically, in both cases solving problem B (GRASP, saucy) turned out to be much more impactful than solving problem A (timing analysis, breaking symmetries.) Without the trigger of problem A, however, neither GRASP nor saucy would have been conceived.
+
+Bio: Karem A. Sakallah  is a Professor of Electrical Engineering and Computer Science at the University of Michigan.
+He received  the  B.E.  degree  in electrical engineering from the American University of Beirut and the M.S. and Ph.D. degrees in electrical and computer engineering from Carnegie Mellon University.  Prior to joining the University of Michigan, he headed the Analysis and Simulation Advanced Development Team at Digital Equipment Corporation. Besides his academic duties, he has served in a variety of professional roles including the establishment of a computing research institute in Qatar for which he took a leave to serve a term of three years as the Chief Scientist.  His current research is focused on automating the formal verification of hardware, software, and distributed protocols.  He is a fellow of the IEEE and the ACM and a co-recipient  of  the  prestigious  Computer-Aided  Verification  Award  for  “Fundamental  contributions  to  the development of high-performance Boolean satisfiability solvers.”
+
+
+
+Nov 23Live Stream1 pm
+Ioannis PanageasAssistant ProfessorDept. of Computer ScienceUniversity of California, IrvineYouTube Stream:  https://youtu.be/4cepfWDiL3A First-order Methods Almost Always Avoid Saddle PointsIn this talk we will give an overview of some results on the limiting behavior of first-order methods. In particular we will show that typical instantiations of first-order methods like gradient descent, coordinate descent, etc. avoid saddle points for almost all initializations. Moreover, we will provide applications of these results on Non-negative Matrix Factorization. The takeaway message is that such algorithms can be studied from a dynamical systems perspective in which appropriate instantiations of the Stable Manifold Theorem allow for a global stability analysis.
+
+Bio: Ioannis is an Assistant Professor of Computer Science at UCI. He is interested in the theory of computation, machine learning and its interface with non-convex optimization, dynamical systems, probability and statistics. Before joining UCI, he was an Assistant Professor at Singapore University of Technology and Design. Prior to that he was a MIT postdoctoral fellow working with Constantinos Daskalakis. He received his PhD in Algorithms, Combinatorics and Optimization from Georgia Tech in 2016, a Diploma in EECS from National Technical University of Athens, and a M.Sc. in Mathematics from Georgia Tech. He is the recipient of the 2019 NRF fellowship for AI.
+
+
+
+Nov 30Live Stream1 pm
+Deqing SunSenior Research ScientistGoogleYouTube Stream: https://youtu.be/N3y_K1ewkL0 Learning Optical Flow: From MRFs to CNNsOptical flow provides important motion information about the dynamic world and is of fundamental importance to many tasks. Like other visual inference problems, it is critical to choose the representation to encode both the forward formation process and the prior knowledge of optical flow. In this talk, I will present my work on two different optical flow representations in the past decade. First, I will describe learning Markov random field (MRF) models and defining non-local conditional random field (CRF) models to recover motion boundaries. Second, I will talk about combining domain knowledge of optical flow with convolutional neural networks (CNNs) to develop a compact and effective model and some recent developments. 
+
+Bio: Deqing Sun is a senior research scientist at Google working on computer vision and machine learning. He received a Ph.D. degree in Computer Science from Brown University. He is a recipient of the PAMI Young Researcher award in 2020, the Longuet-Higgins prize at CVPR 2020, the best paper honorable mention award at CVPR 2018, and the first prize in the robust optical flow competition at CVPR 2018 and ECCV 2020. He served as an area chair for CVPR/ECCV/BMVC, and co-organized several workshops/tutorials at CVPR, ECCV, and SIGGRAPH.
+
+
+
+Dec 7
+No Seminar (NeurIPS Conference)
+
+
+
+Dec 14
+Finals week
+
+
+
+
+
+
+October 4, 2020
+
+
+
+
+
+
+Winter 2020 Standard 
+
+Spring 2020 Seminars Delayed
+Following UCI guidance to limit social interactions during the COVID-19 outbreak, our CML seminar series is cancelled for the start of spring quarter.  We hope to rejoin you later this year.
+
+
+
+
+
+Jan. 6
+No Seminar
+
+
+
+Jan. 134011Bren Hall1 pm
+Michael CampbellEureka (SAP) Speculative and hedging interaction model in oil and U.S. dollar markets: Long-term investor dynamics and phasesWe develop the rational dynamics for the long-term investor among boundedly rational speculators in the Carfì-Musolino speculative and hedging model. Numerical evidence is given that indicates there are various phases determined by the degree of non-rational behavior of speculators. The dynamics are shown to be influenced by speculator “noise”. This model has two types of operators: a real economic subject (Air, a long-term trader) and one or more investment banks (Bank, short-term speculators). It also has two markets: oil spot market and U.S. dollar futures. Bank agents react to Air and equilibrate much more quickly than Air, thus we consider rational, best-local-response dynamics for Air based on averaged values of equilibrated Bank variables. The averaged Bank variables are effectively parameters for Air dynamics that depend on deviations-from-rationality (temperature) and Air investment (external field). At zero field, below a critical temperature, there is a phase transition in the speculator system which creates two equilibriums for bank variables, hence in this regime the parameters for the dynamics of the long-term investor Air can undergo a rapid change, which is exactly what happens in the study of quenched dynamics for physical systems. It is also shown that large changes in strategy by the long-term Air investor are always preceded by diverging spatial volatility of Bank speculators. The phases resemble those for unemployment in the “Mark 0” macroeconomic model.
+
+
+
+Jan. 20
+Martin Luther King Junior Day
+
+
+
+Jan. 27
+No Seminar
+
+
+
+Feb. 34011Bren Hall1 pm
+Phanwadee SinthongComputer ScienceUniversity of California, Irvine AFrame: Extending DataFrames for Large-Scale Modern Data AnalysisAnalyzing the increasingly large volumes of data that are available today, possibly including the application of custom machine learning models, requires the utilization of distributed frameworks. This can result in serious productivity issues for “normal” data scientists. We introduce AFrame, a new scalable data analysis package powered by a Big Data management system that extends the data scientists’ familiar DataFrame operations to efficiently operate on managed data at scale. AFrame is implemented as a layer on top of Apache AsterixDB, transparently scaling out the execution of DataFrame operations and machine learning model invocation through a parallel, shared-nothing big data management system. AFrame allows users to interact with a very large volume of semi-structured data in the same way that Pandas DataFrames work against locally stored tabular data. Our AFrame prototype leverages lazy evaluation. AFrame operations are incrementally translated into AsterixDB SQL++ queries that are executed only when final results are called for. In order to evaluate our proposed approach, we also introduce an extensible micro-benchmark for use in evaluating DataFrame performance in both single-node and distributed settings via a collection of representative analytic operations.
+
+Bio: Phanwadee (Gift) Sinthong is a fourth-year Ph.D. student in the CS Department at UC Irvine, advised by Professor Michael Carey. Her research interests are broadly in data management and distributed computation. Her current project is to deliver a scale-independent data science platform by incorporating database management capabilities with existing data science technologies to help support and enhance big data analysis.
+
+
+
+Feb. 104011Bren Hall1 pm
+Mingzhang YinStatistics and Data SciencesUniversity of Texas, Austin Semi-Implicit Variational InferenceUncertainty estimation is one of the most unique features of biological systems, as we have to sense and act in noisy environments. In this talk, I will introduce semi-implicit variational inference (SIVI) as a new machine-learning framework to achieve accurate uncertainty estimation in general latent variable models. Semi-implicit distribution is introduced to expand the commonly used analytic variational family, by mixing the variational parameters with a highly flexible distribution. To cope with this new distribution family, a novel evidence lower bound is derived to achieve the accurate statistical inference. The theoretical properties of the proposed methods will be introduced from an information-theoretic perspective. With a substantially expanded variational family and a novel optimization algorithm, SIVI is shown to closely match the accuracy of MCMC in inferring the posterior while maintaining the merits of variational methods in a variety of Bayesian inference tasks.
+
+Bio: Mingzhang Yin is a fifth year Ph.D. student in statistics at UT Austin. His research centers around Bayesian methods and machine learning, with a focus on approximate inference and structured data modeling.
+
+
+
+Feb. 17
+Presidents’ Day
+
+
+
+Feb. 244011Bren Hall1 pm
+Jaan AltosaarPhysics DepartmentPrinceton University Probabilistic modeling in support of science and decision-making: From statistical physics to recommender systemsApplied machine learning relies on translating the structure of a problem into a computational model. This arises in applications as diverse as statistical physics and food recommendation. The pattern of connectivity in an undirected graphical model or the fact that datapoints in food recommendation are unordered collections of features can inform the structure of a model. First, consider undirected graphical models from statistical physics like the ubiquitous Ising model. Basic research in statistical physics requires accurate and scalable simulations for comparing the behavior of these models to their experimental counterparts. The Ising model consists of binary random variables with local connectivity; interactions between neighboring nodes can lead to long-range correlations. Modeling these correlations is necessary to capture physical phenomena such as phase transitions. To mirror the local structure of these models, we use flow-based convolutional generative models that can capture long-range correlations. Combining flow-based models designed for continuous variables with recent work on hierarchical variational approximations enables the modeling of discrete random variables. Compared to existing variational inference methods, this approach scales to statistical physics models with tens of thousands of correlated random variables and uses fewer parameters. Just as computational choices can be made by considering the structure of an undirected graphical model, model construction itself can be guided by the structure of individual datapoints. Consider a recommendation task where datapoints consist of unordered sets, and the objective is to maximize top-K recall, a common recommendation metric. Simple results show that a classifier with zero worst-case error achieves maximum top-K recall. Further, the unordered structure of the data suggests the use of a permutation-invariant classifier for statistical and computational efficiency. We evaluate this recommendation model on a dataset of 55k users logging 16M meals on a food tracking app, where every meal is an unordered collection of ingredients. On this data, permutation-invariant classifiers outperform probabilistic matrix factorization methods.
+
+Bio: Jaan Altosaar is a PhD Candidate in the Physics department at Princeton University where he is advised by David Blei and Shivaji Sondhi. He is a visiting academic at the Center for Data Science at New York University, where he works with Kyle Cranmer. His research focuses on machine learning methodology such as developing Bayesian deep learning techniques or variational inference methods for statistical physics. Prior to Princeton, Jaan earned his BSc in Mathematics and Physics from McGill University. He has interned at Google Brain and DeepMind, and his work has been supported by fellowships from the Natural Sciences and Engineering Research Council of Canada.
+
+
+
+Mar. 26011Bren Hall1 pm
+Oren EtzioniCEO, Allen Institute for Artificial Intelligence (AI2) Artificial Intelligence and the Future of HumanityCould we wake up one morning to find that AI is poised to take over the world?  Is AI the technology of unfairness and bias? My talk will assess these concerns, and sketch a more optimistic view. We will have ample warning before the emergence of superintelligence, and in the meantime we have the opportunity to create Beneficial AI:(1) AI that mitigates bias rather than amplifying it.(2) AI that saves lives rather than taking them.(3) AI that helps us to solve humanity’s thorniest problems.My talk builds on work at the Allen Institute for AI,  a non-profit research institute based in Seattle.
+
+Bio: Oren Etzioni launched the Allen Institute for AI, and has served as its CEO since 2014. He has been a Professor at the University of Washington’s Computer Science department since 1991, publishing papers that have garnered over 2,300 highly influential citations on Semantic Scholar. He is also the founder of several startups including Farecast (acquired by Microsoft in 2008).
+
+
+
+Mar. 94011Bren Hall12 pm
+Ioannis PanageasSingapore University of Technology and Design Depth-width trade-offs for ReLU networks via Sharkovsky's theoremUnderstanding the representational power of Deep Neural Networks (DNNs) and how their structural properties (e.g., depth, width, type of activation unit) affect the functions they can compute, has been an important yet challenging question in deep learning and approximation theory. In a seminal paper, Telgarsky highlighted the benefits of depth by presenting a family of functions (based on simple triangular waves) for which DNNs achieve zero classification error, whereas shallow networks with fewer than exponentially many nodes incur constant error. Even though Telgarsky’s work reveals the limitations of shallow neural networks, it does not inform us on why these functions are difficult to represent and in fact he states it as a tantalizing open question to characterize those functions that cannot be well-approximated by smaller depths. In this talk, we will point to a new connection between DNNs expressivity and Sharkovsky’s Theorem from dynamical systems, that enables us to characterize the depth-width trade-offs of ReLU networks for representing functions based on the presence of generalized notion of fixed points, called periodic points (a fixed point is a point of period 1). Motivated by our observation that the triangle waves used in Telgarsky’s work contain points of period 3 – a period that is special in that it implies chaotic behavior based on the celebrated result by Li-Yorke – we will give general lower bounds for the width needed to represent periodic functions as a function of the depth. Technically, the crux of our approach is based on an eigenvalue analysis of the dynamical system associated with such functions. 
+
+Bio: Ioannis Panageas is an Assistant Professor at Information Systems Department of SUTD since September 2018. Prior to that he was a MIT postdoctoral fellow working with Constantinos Daskalakis. He received his PhD in Algorithms, Combinatorics and Optimization from Georgia Institute of Technology in 2016, a Diploma in EECS from National Technical University of Athens (summa cum laude) and a M.Sc. in Mathematics from Georgia Institute of Technology. His work lies on the intersection of optimization, probability, learning theory, dynamical systems and algorithms. He is the recipient of the 2019 NRF fellowship for AI (analogue of NSF CAREER award).
+
+
+
+Mar. 16
+Finals Week
+
+
+
+Mar. 23
+Spring Break
+
+
+
+TBD4011Bren Hall
+Qiang NingAllen Institute for AI Understanding events in natural language: Learning, common sense, annotation, and what's nextThe era of information explosion has opened up an unprecedented opportunity to study the social, political, financial and medical events described in natural language text. While the past decades have seen significant progress in deep learning and natural language processing (NLP), it is still extremely difficult to analyze textual data at the event-level, e.g., to understand what is going on, what is the cause and impact, and how things will unfold over time.In this talk, I will mainly focus on a key component of event understanding: temporal relations. Understanding temporal relations is challenging due to the lack of explicit timestamps in natural language text, its strong dependence on background knowledge, and the difficulty of collecting high-quality annotations to train models. I will present a series of results addressing these problems from the perspective of structured learning, common sense knowledge acquisition, and data annotation. These efforts culminated in improving the state-of-the-art by approximately 20% in absolute F1. I will also discuss recent results on other aspects of event understanding and the incidental supervision paradigm. I will conclude my talk by describing my vision on future directions towards building next-generation event-based NLP techniques.
+
+Bio: Qiang Ning is a research scientist on the AllenNLP team at the Allen Institute for AI (AI2). Qiang received his Ph.D. in Dec. 2019 from the Department of Electrical and Computer Engineering at the University of Illinois at Urbana-Champaign (UIUC). He obtained his master’s degree in biomedical imaging from the same department in May 2016. Before coming to the United States, Qiang obtained two bachelor’s degrees from Tsinghua University in 2013, in Electronic Engineering and in Economics, respectively. He was an “Excellent Teacher Ranked by Their Students” across the university in 2017 (UIUC), a recipient of the YEE Fellowship in 2015, a finalist for the best paper in IEEE ISBI’15, and also won the National Scholarship at Tsinghua University in 2012.
+
+
+
+
+
+
+January 10, 2020
+
+
+
+
+
+
+Fall 2019 Standard 
+
+
+
+
+
+Sep 23
+No Seminar
+
+
+
+Sep 304011Bren Hall1 pm
+Nia DowellAssistant ProfessorSchool of EducationUniversity of California, Irvine Group Communication Analysis: Applications for Online Learning EnvironmentsEducational environments have become increasingly reliant on computer-mediated communication, relying on video conferencing, synchronous chats, and asynchronous forums, in both small (5-20 learners) and massive (1000+ learner) learning environments. These platforms, which are designed to support or even supplant traditional instruction, have become common-place across all levels of education, and as a result created big data in education. In order to move forward, the learning sciences field is in need of new automated approaches that offer deeper insights into the dynamics of learner interaction and discourse across online learning platforms. This talk will present results from recent work that uses language and discourse to capture social and cognitive dynamics during collaborative interactions. I will introduce group communication analysis (GCA), a novel approach for detecting emergent learner roles from the participants’ contributions and patterns of interaction. This method makes use of automated computational linguistic analysis of the sequential interactions of participants in online group communication to create distinct interaction profiles. We have applied the GCA to several collaborative learning datasets. Cluster analysis, predictive, and hierarchical linear mixed-effects modeling
+were used to assess the validity of the GCA approach, and practical influence of learner roles on student and overall group performance. The results indicate that learners’ patterns in linguistic coordination and cohesion are representative of the roles that individuals play in collaborative discussions. More broadly, GCA provides a framework for researchers to explore the micro intra- and inter-personal patterns associated with the participants’ roles and the sociocognitive processes related to successful collaboration.
+
+Bio: I am an assistant professor in the School of Education at UCI. My primary interests are in cognitive psychology, discourse processing, group interaction, and learning analytics. In general, my research focuses on using language and discourse to uncover the dynamics of socially significant, cognitive, and affective processes. I am currently applying computational techniques to model discourse and social dynamics in a variety of environments including small group computer-mediated collaborative learning environments, collaborative design networks, and massive open online courses (MOOCs). My research has also extended beyond the educational and learning sciences spaces and highlighted the practical applications of computational discourse science in the clinical, political and social sciences areas.
+
+
+
+Oct 74011Bren Hall1 pm
+Shashank SrivastavaAssistant ProfessorComputer ScienceUNC Chapel Hill Conversational Machine LearningHumans can efficiently learn and communicate new knowledge about the world through natural language (e.g, the concept of important emails may be described through explanations like ‘late night emails from my boss are usually important’). Can machines be similarly taught new tasks and behavior through natural language interactions with their users? In this talk, we’ll explore two approaches towards language-based learning for classifications tasks. First, we’ll consider how language can be leveraged for interactive feature space construction for learning tasks. I’ll present a method that jointly learns to understand language and learn classification models, by using explanations in conjunction with a small number of labeled examples of the concept. Secondly, we’ll examine an approach for using language as a substitute for labeled supervision for training machine learning models, which leverages the semantics of quantifier expressions in everyday language (`definitely’, `sometimes’, etc.) to enable learning in scenarios with limited or no labeled data. 
+
+Bio: Shashank Srivastava is  an assistant professor in the Computer Science department at the University of North Carolina (UNC) Chapel Hill. Shashank received his PhD from the Machine Learning department at CMU in 2018, and was an AI Resident at Microsoft Research in 2018-19. Shashank’s research interests lie in conversational AI, interactive machine learning and grounded language understanding. Shashank has an undergraduate degree in Computer Science from IIT Kanpur, and a Master’s degree in Language Technologies from CMU. He received the Yahoo InMind Fellowship for 2016-17; his research has been covered by popular media outlets including GeekWire and New Scientist.
+
+
+
+Oct 144011Bren Hall1 pm
+Bhuwan DhingraPhD StudentLanguage Technologies InstituteCarnegie Mellon University Text as a Virtual Knowledge BaseStructured Knowledge Bases (KBs) are extremely useful for applications such as question answering and dialog, but are difficult to populate and maintain. People prefer expressing information in natural language, and hence text corpora, such as Wikipedia, contain more detailed up-to-date information. This raises the question — can we directly treat text corpora as knowledge bases for extracting information on demand?
+
+In this talk I will focus on two problems related to this question. First, I will look at augmenting incomplete KBs with textual knowledge for question answering. I will describe a graph neural network model for processing heterogeneous data from the two sources. Next, I will describe a scalable approach for compositional reasoning over the contents of the text corpus, analogous to following a path of relations in a structured KB to answer multi-hop queries. I will conclude by discussing interesting future research directions in this domain.
+
+Bio: Bhuwan Dhingra is a final year PhD student at Carnegie Mellon University, advised by William Cohen and Ruslan Salakhutdinov. His research uses natural language processing and machine learning to build an interface between AI applications and world knowledge (facts about people, places and things). His work is supported by the Siemens FutureMakers PhD fellowship. Prior to joining CMU, Bhuwan completed his undergraduate studies at IIT Kanpur in 2013, and spent two years at Qualcomm Research in the beautiful city of San Diego.
+
+
+
+Oct 214011Bren Hall1 pm
+Robert BamlerPostdoctoral ResearcherDept. of Computer ScienceUniversity of California, Irvine Revisiting Variational Expectation MaximizationBayesian inference is often advertised for applications where posterior uncertainties matter. A less appreciated advantage of Bayesian inference is that it allows for highly scalable model selection (“hyperparameter tuning”) via the Expectation Maximization (EM) algorithm and its approximate variant, variational EM.
+In this talk, I will present both an application and an improvement of variational EM. The application is for link prediction in knowledge graphs, where a probabilistic approach and variational EM allowed us to train highly flexible models with more than ten thousand hyperparameters, improving predictive performance. In the second part of the talk, I will propose a new family of objective functions for variational EM. We will see that existing versions of variational inference in the literature can be interpreted as various forms of biased importance sampling of the marginal likelihood. Combining this insight with ideas from perturbation theory in statistical physics will lead us to a tighter bound on the true marginal likelihood and to better predictive performance of Variational Autoencoders.
+
+Bio:
+Robert Bamler is a Postdoc at UCI in the group of Prof. Stephan Mandt. His interests are probabilistic embedding models, variational inference, and probabilistic deep learning methods for data compression. Before joining UCI in December of 2018, Rob worked in the statistical machine learning group at Disney Research in Pittsburgh and Los Angeles. He received his PhD in theoretical statistical and quantum physics from University of Cologne, Germany.
+
+
+
+Oct 284011Bren Hall1 pm
+Zhou YuAssistant ProfessorDept. of Computer ScienceUniversity of California, Davis Augment intelligence with multimodal informationHumans interact with other humans or the world through information from various channels including vision, audio, language, haptics, etc.  To simulate intelligence, machines require similar abilities to process and combine information from different channels to acquire better situation awareness, better communication ability, and better decision-making ability. In this talk, we describe three projects. In the first study, we enable a robot to utilize both vision and audio information to achieve better user understanding. Then we use incremental language generation to improve the robot’s communication with a human. In the second study, we utilize multimodal history tracking to optimize policy planning in task-oriented visual dialogs. In the third project, we tackle the well-known trade-off between dialog response relevance and policy effectiveness in visual dialog generation. We propose a new machine learning procedure that alternates from supervised learning and reinforcement learning to optimum language generation and policy planning jointly in visual dialogs. We will also cover some recent ongoing work on image synthesis through dialogs, and generating social multimodal dialogs with a blend of GIF and words.
+
+Bio:
+Zhou Yu is an Assistant Professor at the Computer Science Department at UC Davis. She received her PhD from Carnegie Mellon University in 2017.  Zhou is interested in building robust and multi-purpose dialog systems using fewer data points and less annotation. She also works on language generation, vision and language tasks. Zhou’s work on persuasive dialog systems received an ACL 2019 best paper nomination recently. Zhou was featured in Forbes as 2018 30 under 30 in Science for her work on multimodal dialog systems. Her team recently won the 2018 Amazon Alexa Prize on building an engaging social bot for a $500,000 cash award.
+
+
+
+Nov 4
+Geng JiPhD StudentDept of Computer ScienceUniversity of California, Irvine Variational Inference: To Derive or Not To DeriveVariational inference provides a general optimization framework to approximate the posterior distributions of latent variables in probabilistic models. Although effective in simple scenarios, it may be inaccurate or infeasible when the data is high-dimensional, the model structure is complicated, or variable relationships are non-conjugate. In this talk, I will present two different strategies to solve these problems. The first one is to derive rigorous variational bounds by leveraging the probabilistic relations and structural dependencies of the given model. One example I will explore is large-scale noisy-OR Bayesian networks popular in IT companies for analyzing the semantic content of massive text datasets. The second strategy is to create flexible algorithms directly applicable to many models, as can be expressed by probabilistic programming systems. I’ll talk about a low-variance Monte Carlo variational inference framework we recently developed for arbitrary models with discrete variables. It has appealing advantages over REINFORCE-style stochastic gradient estimates and model-dependent auxiliary-variable solutions, as demonstrated on real-world models of images, text, and social networks.
+
+Bio: Geng Ji is a PhD candidate in the CS Department of UC Irvine, advised by Professor Erik Sudderth. His research interests are broadly in probabilistic graphical models, large-scale variational inference, as well as their applications in computer vision and natural language processing. He did summer internships at Disney Research in 2017 mentored by Professor Stephan Mandt, and Facebook AI in 2018 which he will join as a full-time research scientist.
+
+
+
+
+Nov 11
+Veterans Day
+
+
+
+Nov 184011Bren Hall1 pm
+John T. HalloranPostdoctoral ResearcherDept. of Biomedical EngineeringUniversity of California, Davis Accelerated Machine Learning for Computational ProteomicsIn the past few decades, mass spectrometry-based proteomics has
+dramatically improved our fundamental knowledge of biology, leading to
+advancements in the understanding of diseases and methods for clinical
+diagnoses.  However, the complexity and sheer volume of typical
+proteomics datasets make both fast and accurate analysis difficult to
+accomplish simultaneously; while machine learning
+methods have proven themselves capable of incredibly accurate
+proteomic analysis, such methods deter use by requiring extremely long
+runtimes in practice.  In this talk, we will discuss two core problems in
+computational proteomics and how to accelerate the training of
+their highly accurate, but slow, machine learning solutions.  For the
+first problem, wherein we seek to infer the protein subsequences
+(called peptides) present in a biological sample, we will improve the
+training of graphical models by deriving emission functions which
+render conditional-maximum likelihood learning concave.  Used within a
+dynamic Bayesian network, we show that these emission functions not
+only allow extremely efficient learning of globally-convergent parameters,
+but also drastically outperform the state-of-the-art in peptide
+identification accuracy.  For the second problem, wherein we
+seek to further improve peptide identification accuracy by
+classifying correct versus incorrect identifications, we will
+speed up the state-of-the-art in discriminative learning using a
+combination of improved convex optimization and extensive
+parallelization.  We show that on massive datasets containing
+hundreds-of-millions of peptide identifications, these speedups reduce
+discriminative analysis time from several days down to just several
+hours, without any degradation in analysis quality.
+
+
+Bio: John Halloran is a Postdoc at UC Davis working with Professor David Rocke.  He received his PhD from the University of Washington in 2016.  John is interested in developing fast and accurate machine learning solutions for massive-scale problems encountered in computational biology.  His work regularly focuses on efficient generative and discriminative training of dynamic graphical models. He is a recipient of the UC Davis Award for Excellence in Postdoctoral Research and a UW Genome Training Grant.
+
+
+
+Nov 254011Bren Hall1 pm
+Xanda SchofieldAssistant ProfessorDept. of Computer ScienceHarvey Mudd College Towards Practical and Locally Private Topic ModelsA critical challenge in the large-scale analysis of people’s data is protecting the privacy of the people who generated it. Of particular interest is how to privately infer models over discrete count data, like frequencies of words in a message or the number of times two people have interacted. Recently, I helped to develop locally private Bayesian Poisson factorization, a method for differentially private inference for a large family of models of count data, including topic models, stochastic block models, event models, and beyond. However, in the domain of topic models over text, this method can encounter serious obstacles in both speed and model quality. These arise from the collision of high-dimensional, sparse counts of text features in a bag-of-words representation, and dense noise from a privacy mechanism. In this talk, I address several challenges in the space of private statistical model inference over language data, as well as corresponding approaches to produce interpretable models.
+
+Bio: Xanda Schofield is an Assistant Professor in Computer Science at Harvey Mudd College. Her work focuses on practical applications of unsupervised models of text, particularly topic models, to research in the humanities and social sciences. More recently, her work has expanded to the intersection of privacy and text mining. She completed her Ph.D. in 2019 at Cornell University advised by David Mimno. In her graduate career, she was the recipient of an NDSEG Fellowship, the Anita Borg Memorial Scholarship, and the Microsoft Graduate Women’s Scholarship. She is also an avid cookie baker and tweets @XandaSchofield.
+
+
+
+Dec 24011Bren Hall1 pm
+Shayan DoroudiAssistant ProfessorSchool of EducationUniversity of California, Irvine Bias, Variance, and the Intertwined Histories of Artificial Intelligence and Education ResearchThis talk will be divided into two parts. In the first part, I will demonstrate that the bias-variance tradeoff in machine learning and statistics can be generalized to offer insights to debates in other scientific fields. In particular, I will show how it can be applied to situate a variety of debates that appear in the education literature. In the second part of my talk, I will give a brief account of how the early history of artificial intelligence was naturally intertwined with the history of education research and the learning sciences. I will use the generalized bias-variance tradeoff as a lens with which to situate different trends that appeared in this history. Today, AI researchers might see education as just another application area, but historically AI and education were integrated into a broader movement to understand and improve intelligence and learning, in humans and in machines.
+
+Bio: Shayan Doroudi is an assistant professor at the UC Irvine School of Education. His research is focused on the learning sciences, educational technology, and the educational data sciences. He is particularly interested in studying the prospects and limitations of data-driven algorithms in learning technologies, including lessons that can be drawn from the rich history of educational technology. He earned his B.S. in Computer Science from the California Institute of Technology, and his M.S. and Ph.D. in Computer Science from Carnegie Mellon.
+
+
+
+Dec 9
+Finals week
+
+
+
+Dec 164011Bren Hall1 pm
+Eric NalisnickPostdoctoral ResearcherUniversity of Cambridge/DeepMind Deep Learning Under Covariate ShiftDeep neural networks have demonstrated impressive performance
+in predictive tasks.  However, these models have been shown to be
+brittle, being easily fooled by even small perturbations of the input
+features (covariates).  In this talk, I describe two approaches for
+handling covariate shift.  The first uses a Bayesian prior derived from
+data augmentation to make the classifier robust to potential test-time
+shifts.  The second strategy is to directly model the covariates using a
+‘hybrid model’: a model of the joint distribution over labels and
+features. In experiments involving this latter approach, we discovered
+limitations in some existing methods for detecting distributional shift
+in high-dimensions.  I demonstrate that a simple entropy-based
+goodness-of-fit test can solve some of these issues but conclude by
+arguing that more investigation is needed.
+
+Bio: Eric Nalisnick is a postdoctoral researcher at the University of
+Cambridge and a part-time research scientist at DeepMind.  His research
+interests span statistical machine learning, with a current emphasis on
+Bayesian deep learning, generative modeling, and out-of-distribution
+detection.  He received his PhD from the University of California,
+Irvine, where he was supervised by Padhraic Smyth. Eric has also spent
+time interning at DeepMind, Twitter, Microsoft, and Amazon.
+
+
+
+
+
+
+September 5, 2019
+
+
+
+
+
+
+Spring 2019 Standard 
+
+
+
+
+
+
+
+
+Apr 8
+No Seminar
+
+
+
+
+Apr 15Bren Hall 40111 pm
+Daeyun ShinPhD CandidateDept of Computer ScienceUC Irvine
+Multi-layer Depth and Epipolar Feature Transformers for 3D Scene ReconstructionIn this presentation, I will present our approach to the problem of automatically reconstructing a complete 3D model of a scene from a single RGB image.  This challenging task requires inferring the shape of both visible and occluded surfaces.  Our approach utilizes viewer-centered, multi-layer representation of scene geometry adapted from recent methods for single object shape completion.  To improve the accuracy of view-centered representations for complex scenes, we introduce a novel “Epipolar Feature Transformer” that transfers convolutional network features from an input view to other virtual camera viewpoints, and thus better covers the 3D scene geometry.  Unlike existing approaches that first detect and localize objects in 3D, and then infer object shape using category-specific models, our approach is fully convolutional, end-to-end differentiable, and avoids the resolution and memory limitations of voxel representations.  We demonstrate the advantages of multi-layer depth representations and epipolar feature transformers on the reconstruction of a large database of indoor scenes.  Project page: https://www.ics.uci.edu/~daeyuns/layered-epipolar-cnn/
+
+
+
+
+Apr 22Bren Hall 40111 pm
+Mike PritchardAssistant ProfessorDept. of Earth System SciencesUniversity of California, Irvine
+Improving global climate simulations using physically constrained deep learning emulators of unresolved moist turbulence processesI will discuss machine-learning emulation of O(100M) cloud-resolving simulations of moist turbulence for use in multi-scale global climate simulation. First, I will present encouraging results from pilot tests on an idealized ocean-world, in which a fully connected deep neural network (DNN) is found to be capable of emulating explicit subgrid vertical heat and vapor transports across a globally diverse population of convective regimes. Next, I will demonstrate that O(10k) instances of the DNN emulator spanning the world are able to feed back realistically with a prognostic global host atmospheric model, producing viable ML-powered climate simulations that exhibit realistic space-time variability for convectively coupled weather dynamics and even some limited out-of-sample generalizability to new climate states beyond the training data’s boundaries. I will then discuss a new prototype of the neural network under development that includes the ability to enforce multiple physical constraints within the DNN optimization process, which exhibits potential for further generalizability. Finally, I will conclude with some discussion of the unsolved technical issues and interesting philosophical tensions being raised in the climate modeling community by this disruptive but promising approach for next-generation global simulation.
+
+
+
+
+Apr 29Bren Hall 40111 pm
+Nick GalloPhD CandidateDepartment of Computer ScienceUniversity of California, Irvine
+Coarse to Fine Lifted InferenceLarge problems with repetitive sub-structure arise in many domains such as social network analysis, collective classification, and database entity resolution.  In these instances, individual data is augmented with a small set of rules that uniformly govern the relationship among groups of objects (for example: “the friend of my friend is probably my friend” in a social network).  Uncertainty is captured by a probabilistic graphical model structure.  While theoretically sound, standard reasoning techniques cannot be applied due to the massive size of the network (often millions of random variable and trillions of factors).  Previous work on lifted inference efficiently exploits symmetric structure in graphical models, but breaks down in the presence of unique individual data (contained in all real-world problems).  Current methods to address this problem are largely heuristic.  In this presentation we describe a coarse to fine approximate inference framework that initially treats all individuals identically, gradually relaxing this restriction to finer sub-groups.  This produces a sequence of inference objective bounds of monotonically increasing cost and accuracy.  We then discuss our work on incorporating high-order inference terms (over large subsets of variables) into lifted inference and ongoing challenges in this area.
+
+
+
+
+May 13Bren Hall 40111 pm
+Matt GardnerSenior Research ScientistAllen Institute of Artificial Intelligence
+Reasoning Our Way to ReadingReading machines that truly understood what they read would change the world, but our current best reading systems struggle to understand text at anything more than a superficial level.  In this talk I try to reason out what it means to “read”, and how reasoning systems might help us get there.  I will introduce three reading comprehension datasets that require systems to reason at a deeper level about the text that they read, using numerical, coreferential, and implicative reasoning abilities.  I will also describe some early work on models that can perform these kinds of reasoning.  Bio: Matt is a senior research scientist at the Allen Institute for Artificial Intelligence (AI2) on the AllenNLP team, and a visiting scholar at UCI. His research focuses primarily on getting computers to read and answer questions, dealing both with open domain reading comprehension and with understanding question semantics in terms of some formal grounding (semantic parsing). He is particularly interested in cases where these two problems intersect, doing some kind of reasoning over open domain text. He is the original author of the AllenNLP toolkit for NLP research, and he co-hosts the NLP Highlights podcast with Waleed Ammar.
+
+
+
+
+May 27
+No Seminar (Memorial Day)
+
+
+
+
+June 3Bren Hall 401112:00
+Peter SadowskiAssistant ProfessorInformation and Computer SciencesUniversity of Hawaii Manoa
+Deep Learning for Extreme Remote Sensing: from Ocean Waves to ExocometsNew technologies for remote sensing and astronomy provide an unprecedented view of Earth, our Sun, and beyond. Traditional data-analysis pipelines in oceanography, atmospheric sciences, and astronomy struggle to take full advantage of the massive amounts of high-dimensional data now available. I will describe opportunities for using deep learning to process satellite and telescope data, and discuss recent work mapping extreme sea states using Satellite Aperture Radar (SAR), inferring the physics of our sun’s atmosphere, and detecting anomalous astrophysical events in other systems, such as comets transiting distant stars.Bio: Peter Sadowski is an Assistant Professor of Information and Computer Sciences at the University of Hawaii Manoa and Co-Director of the AI Precision Health Institute at the University of Hawaii Cancer Center. He completed his Ph.D. and Postdoc at University of California Irvine, and his undergraduate studies at  Caltech. His research focuses on deep learning and its applications to the natural sciences, particularly those at the intersection of machine learning and physics.
+
+
+
+
+June 3Bren Hall 40111 pm
+Max WellingResearch Chair, University of AmsterdamVP Technologies, Qualcomm
+Integrating Generative Modeling into Deep LearningDeep learning has boosted the performance of many applications tremendously, such as object classification and detection in images, speech recognition and understanding, machine translation, game play such as chess and go etc. However, these all constitute reasonably narrowly and well defined tasks for which it is reasonable to collect very large datasets. For artificial general intelligence (AGI) we will need to learn from a small number of samples, generalize to entirely new domains, and reason about a problem. What do we need in order to make progress to AGI? I will argue that we need to combine the data generating process, such as the physics of the domain and the causal relationships between objects, with the tools of deep learning. In this talk I will present a first attempt to integrate the theory of graphical models, which arguably was the dominating modeling machine learning paradigm around the turn of the twenty-first century, with deep learning. Graphical models express the relations between random variables in an interpretable way, while probabilistic inference in such networks can be used to reason about these variables. We will propose a new hybrid paradigm where probabilistic message passing in such networks is enhanced with graph convolutional neural networks to improve the ability of such systems to reason and make predictions.
+
+
+
+
+June 10
+No Seminar (Finals)
+
+
+
+
+
+April 11, 2019
+
+
+
+
+
+
+Fall 2018 Standard 
+
+
+
+
+
+
+
+
+Oct 1
+
+
+No Seminar
+ 
+
+
+
+
+Oct 8
+Bren Hall 4011
+1 pm
+
+
+Matt Gardner
+Research Scientist
+Allen Institute for AI
+A Tale of Two Question Answering SystemsThe path to natural language understanding goes through increasingly challenging question answering tasks. I will present research that significantly improves performance on two such tasks: answering complex questions over tables, and open-domain factoid question answering. For answering complex questions, I will present a type-constrained encoder-decoder neural semantic parser that learns to map natural language questions to programs. For open-domain factoid QA, I will show that training paragraph-level QA systems to give calibrated confidence scores across paragraphs is crucial when the correct answer-containing paragraph is unknown. I will conclude with some thoughts about how to combine these two disparate QA paradigms, towards the goal of answering complex questions over open-domain text.
+Bio:Matt Gardner is a research scientist at the Allen Institute for Artificial Intelligence (AI2), where he has been exploring various kinds of question answering systems. He is the lead designer and maintainer of the AllenNLP toolkit, a platform for doing NLP research on top of pytorch. Matt is also the co-host of the NLP Highlights podcast, where, with Waleed Ammar, he gets to interview the authors of interesting NLP papers about their work. Prior to joining AI2, Matt earned a PhD from Carnegie Mellon University, working with Tom Mitchell on the Never Ending Language Learning project.
+
+
+
+
+
+Oct 22
+
+
+
+Bren Hall 4011
+1 pm
+
+
+Stephan Mandt
+
+
+Assistant Professor
+Dept. of Computer Science
+UC Irvine
+Deep Probabilistic ModelingI will give an overview of some exciting recent developments in deep probabilistic modeling, which combines deep neural networks with probabilistic models for unsupervised learning. Deep probabilistic models are capable of synthesizing artificial data that highly resemble the training data, and are able fool both machine learning classifiers as well as humans. These models have numerous applications in creative tasks, such as voice, image, or video synthesis and manipulation. At the same time, combining neural networks with strong priors results in flexible yet highly interpretable models for finding hidden structure in large data sets. I will summarize my group’s activities in this space, including measuring semantic shifts of individual words over hundreds of years, summarizing audience reactions to movies, and predicting the future evolution of video sequences with applications to neural video coding.
+
+
+
+
+
+Oct 25
+Bren Hall 3011
+3 pm
+
+
+
+
+
+
+
+
+
+(Note: different day (Thurs), time (3pm), and location (3011) relative to usual Monday seminars)
+
+Steven Wright
+Professor
+Department of Computer Sciences
+University of Wisconsin, Madison
+
+Optimization in Data ScienceMany of the computational problems that arise in data analysis and
+machine learning can be expressed mathematically as optimization problems. Indeed, much new algorithmic research in optimization is being driven by the need to solve large, complex problems from these areas. In this talk, we review a number of canonical problems in data analysis and their formulations as optimization problems. We will cover support vector machines / kernel learning, logistic regression (including regularized and multiclass variants), matrix completion, deep learning, and several other paradigms.
+
+
+
+
+Oct 29
+Bren Hall 4011
+1 pm
+
+
+Alex Psomas
+Postdoctoral Researcher
+Computer Science Department
+Carnegie Mellon University
+Fair Resource Allocation: From Theory to PracticeWe study the problem of fairly allocating a set of indivisible items among $n$ agents. Typically, the literature has focused on one-shot algorithms. In this talk we depart from this paradigm and allow items to arrive online. When an item arrives we must immediately and irrevocably allocate it to an agent. A paradigmatic example is that of food banks: food donations arrive, and must be delivered to nonprofit organizations such as food pantries and soup kitchens. Items are often perishable, which is why allocation decisions must be made quickly, and donated items are typically leftovers, leading to lack of information about items that will arrive in the future. Which recipient should a new donation go to? We approach this problem from different angles.
+In the first part of the talk, we study the problem of minimizing the maximum envy between any two recipients, after all the goods have been allocated. We give a polynomial-time, deterministic and asymptotically optimal algorithm with vanishing envy, i.e. the maximum envy divided by the number of items T goes to zero as T goes to infinity. In the second part of the talk, we adopt and further develop an emerging paradigm called virtual democracy. We will take these ideas all the way to practice. In the last part of the talk I will present some results from an ongoing work on automating the decisions faced by a food bank called 412 Food Rescue, an organization in Pittsburgh that matches food donations with non-profit organizations.
+
+
+
+
+Nov 5
+Bren Hall 4011
+1 pm
+
+
+Fred Park
+Associate Professor
+Dept of Math & Computer Science
+Whittier College
+Image Segmentation and Tracking Utilizing a Difference of Convex Regularized Mumford-Shah FunctionalIn this talk I will give a brief overview of the segmentation and tracking problems and will propose a new model that tackles both of them. This model incorporates a weighted difference of anisotropic and isotropic total variation (TV) norms into a relaxed formulation of the Mumford-Shah (MS) model. We will show results exceeding those obtained by the MS model when using the standard TV norm to regularize partition boundaries. Examples illustrating the qualitative differences between the proposed model and the standard MS one will be shown as well. I will also talk about a fast numerical method that is used to optimize the proposed model utilizing the difference-of-convex algorithm (DCA) and the primal dual hybrid gradient (PDHG) method. Finally, future directions will be given that could harness the power of convolution nets for more advanced segmentation tasks.
+
+
+
+
+Nov 12
+
+
+No Seminar (Veterans Day)
+ 
+
+
+
+
+Nov 19
+Bren Hall 4011
+1 pm
+
+
+Philip Nelson
+Director of Engineering
+Google Research
+Accelerating bio discovery with machine learning, the promise and the perilGoogle Accelerated Sciences is a translational research team that brings Google’s technological expertise to the scientific community.  Recent advances in machine learning have delivered incredible results in consumer applications (e.g. photo recognition, language translation), and is now beginning to play an important role in life sciences.  Taking examples from active collaborations in the biochemical, biological, and biomedical fields, I will focus on how our team transforms science problems into data problems and applies Google’s scaled computation, data-driven engineering, and machine learning to accelerate discovery. See http://g.co/research/gas for our publications and more details.
+Bio:Philip Nelson is a Director of Engineering in Google Research.  He joined Google in 2008 and was previously responsible for a range of Google applications and geo services.  In 2013, he helped found and currently leads the Google Accelerated Science team that collaborates with academic and commercial scientists to apply Google’s knowledge and experience and technologies to important scientific problems.  Philip graduated from MIT in 1985 where he did award-winning research on hip prosthetics at Harvard Medical School.  Before Google, Philip helped found and lead several Silicon Valley startups in search (Verity), optimization (Impresse), and genome sequencing (Complete Genomics) and was also an Entrepreneur in Residence at Accel Partners.
+
+
+
+
+Nov 26
+Bren Hall 4011
+1 pm
+
+
+Richard Futrell
+Assistant Professor
+Dept of Language Science
+UC Irvine
+Natural language as a code: Modeling human language using information theory
+Why is natural language the way it is? I propose that human languages can be modeled as solutions to the problem of efficient communication among intelligent agents with certain information processing constraints, in particular constraints on short-term memory. I present an analysis of dependency treebank corpora of over 50 languages showing that word orders across languages are optimized to limit short-term memory demands in parsing. Next I develop a Bayesian, information-theoretic model of human language processing, and show that this model can intuitively explain an apparently paradoxical class of comprehension errors made by both humans and state-of-the-art recurrent neural networks (RNNs). Finally I combine these insights in a model of human languages as information-theoretic codes for latent tree structures, and show that optimization of these codes for expressivity and compressibility results in grammars that resemble human languages.
+
+
+
+
+Dec 3
+
+
+No Seminar (NIPS)
+ 
+
+
+
+
+
+September 18, 2018
+
+
+
+Posts navigation
+
+‹Older posts
+
+
+
+
+
+ 
+Search
+
+
+
+ 
+
+
+(c) 2015 Center for Machine Learning and Intelligent Systems
+
+WordPress/BonPress
+
+
+
+
+
+

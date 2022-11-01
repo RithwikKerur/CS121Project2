@@ -1,0 +1,143 @@
+https://www.cs.uci.edu/professor-levoratos-darpa-project-aims-to-strengthen-autonomous-drone-systems
+
+
+
+
+Professor Levorato’s DARPA Project Aims to Strengthen Autonomous Drone Systems 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ this is a widget called second front page widget area
+
+Explore
+
+Contact Us
+
+
+Faculty
+Research
+
+Research Areas
+Research Centers
+
+
+Graduate Degrees
+
+Computer Science Programs
+Current Graduate Students
+
+
+Undergraduate Degrees
+News  & Events
+
+News
+Seminar Series
+Distinguished Lecture Series
+Research Showcase
+
+
+Apply Now
+
+Undergraduate Admissions
+Graduate Admissions
+Faculty Candidates
+
+
+Professor Levorato’s DARPA Project Aims to Strengthen Autonomous Drone Systems
+November 5, 2018 Back in January, a swarm of drones carrying explosives attacked a Russian base in Syria. The Russians thwarted the attack by firing anti-aircraft missiles, but as Associate Professor of Computer Science Marco Levorato points out, “sending million-dollar missiles to attack cheap drones” isn’t a very cost-effective strategy. “That was part of the motivation behind HYDRA,” he explains, referring to the system he aims to develop with USC Professor Bhaskar Krishnamachari for their new DARPA grant.
+
+The one-year $316,00 grant, “HYDRA — Resilient Computation for Heterogeneous Autonomous Drone Systems,” builds on Levorato and Krishnamachari’s collaboration for team DeepEdge during last year’s DARPA Software-Defined Radio Hackfest. Furthering their work from that competition, they will develop robust, distributed computation in autonomous Unmanned Aerial Vehicle (UAV) systems. Levorato explains that “one of the ideas was to use other drones to protect sensitive targets from drone-based attacks, such as the one in Syria.”
+The new DARPA project builds on research from the 2017 Hackfest, where, as shown here, the DeepEdge team developed and demonstrated a robust distributed processing framework for unmanned autonomous systems.
+A “Multiheaded” Swarm
+Autonomous systems must process data input from the environment using machine learning or processing algorithms, which requires significant resources. “If you don’t have enough processing power, then you either run out of energy or are slow in responding to the environment,” explains Levorato. One solution is to offload some of the work through cloud computing, but if there’s a poor connection or the server is busy, this could lead to delays. A longer wait time works for applications that aren’t mission critical, but Levorato notes that “if you are controlling a system that is autonomously making decisions about where to fly and what to do, then time is critical.”
+So, instead of having a remote cloud server, the HYDRA system aims to integrate “flying processing hubs” into a swarm of lightweight agile UAVs. The FPHs will be heavier, more capable UAVs that can process the data. “This mitigates some of the problems, because we have something that is dedicated to the swarm,” says Levorato.
+However, a link could still be jammed or a drone could fly past a building and lose connectivity, so the goal is to design a system where, if a link breaks or a drone is hacked, the processing can be rerouted dynamically to another FPH. Thus the name HYDRA, after the multiheaded serpent of Greek mythology. “The idea,” explains Levorato, “is that if something disappears, something else will emerge, and you still have all the ‘heads’ of the system functioning.”
+Object Tracking
+The grant will focus on two main applications: Levorato and a team of UCI students will work on object tracking using video input, while Krishnamachari and his team at USC will study localization of a radio source.
+Helping on the UCI side are Davide Callegaro and Sabur Baidya, two computer science Ph.D. students who were also on team DeepEdge for the 2017 Hackfest. Joining them is master’s student Kevin Choi, who will try to hack some of the drones as they operate. This project is also providing opportunities for undergraduates, with six students from Zotbotics, the UCI robotics club, helping with the flight dynamics and mission-related tasks.
+The swarm will have 10 drones, five or six of which will focus on the mission, while the remaining drones will act as FPHs. Furthermore, the swarm will track multiple objects — an autonomous rover Levorato purchased, along with maybe a person and other drones. “We want this to be dynamic,” he says. The drones will have a video feed that will be processed, so the operator can see objects of interest and say “drone 1, follow object 1; drone 2, follow object 2,” and so on. The work builds on research from Levorato’s ongoing NSF project for smart and autonomous systems, but the scale and complexity of the HYDRA system is much greater. “We are more than capable of doing any of these tasks individually, but coordinating all of them will be challenging.”
+Fortunately, the group has a large outdoor space at the ARC baseball field for testing the system. “We don’t have a city, but we are trying to emulate one. Each drone has a programmable radio on board, and we will try to mimic the characteristics of signal propagation and of a city environment.” Then, in one year, they hope to show the whole system functioning at a military base in Arizona.
+Yet, while a military attack was part of the motivation for starting the project, Levorato says there are many other application areas. “For example, some drones are used to improve communications, and even for nonmilitary applications, they still need to be reliable and safe,” he asserts. “So building something resilient to attack or a changing environment is really interesting.”
+— Shani Murray
+« Multidisciplinary Collaborators Awarded $2.1M to Improve Maternal Care in Underserved CommunitiesUCI Feels Like Home for Navy Veteran and Computer Science Major Timothy Tomas »
+
+Latest news
+
+
+Senior Spotlight: Tennis Player and CS Major Matthew Sah Serves Up Aces On and Off the Court
+September 28, 2022
+
+
+Register Today for the Southern California AI & Biomedicine Symposium
+September 20, 2022
+
+
+CPO Magazine: “A Legal View of New NIST Quantum-Resistant Algorithms” by Bryan Cunningham
+September 19, 2022
+
+
+UCI Ranked 24th in Undergraduate Computer Science Programs by U.S. News & World Report
+September 16, 2022
+
+
+Senior Spotlight: Jose Cisneros Builds Impressive Resume with Trio of Internships
+September 15, 2022
+
+
+
+
+ 
+
+
+
+
+
+© 2022 UC Regents
+Feedback
+Privacy Policy
+
+
+
+ 
+
+
+
+

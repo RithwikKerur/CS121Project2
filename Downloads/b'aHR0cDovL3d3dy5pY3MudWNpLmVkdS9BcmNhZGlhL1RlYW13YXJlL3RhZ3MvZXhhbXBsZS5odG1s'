@@ -1,0 +1,92 @@
+http://www.ics.uci.edu/Arcadia/Teamware/tags/example.html
+
+
+Tags Example Activity
+
+
+
+
+
+
+
+For best result, please use the HotJava browser
+
+
+
+
+Click Icon When Activity is complete.
+Install Teamware
+
+Type of Category: 
+
+Customization Activity.
+Description:  This Activity is the series of steps and preconditions for
+succesfully completing a Teamware-1.1beta installation at your site.  
+This Activity has several sub-activites which you must accomplish before 
+you can check this off as completed.  This Activity will produce a succesful
+Teamware-1.1beta installation at your site and will take approximately 
+4 hours.  Help with this Activity is unimplemented.
+
+
+Input Artifacts
+
+
+tmw1.1b.tar.gz
+
+python1.3.tar.gz
+
+JDK-beta-solaris2-sparc.tar.Z
+
+
+
+Output Artifacts
+
+ Teamware-1.1beta at your site
+
+
+
+Resources
+
+
+GNU Lib G++
+
+GNU Gcc 2.6.3
+
+AdaMakeGen 2.8
+
+Arpc403.1
+
+Q3.3(f)
+
+
+Chiron 1.4 patch-5
+
+Optional:
+
+Chimera 1.1
+Lotus Notes 3.2
+
+M.S. Project 4.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Information and Computer Science
+University of California, Irvine
+Irvine, CA 92717-3425
+
+

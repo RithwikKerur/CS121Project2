@@ -1,0 +1,679 @@
+https://transformativeplay.ics.uci.edu/classes/ics-169-capstone
+
+
+
+
+
+
+ICS 169 A&B – CGS Capstone Project – The Transformative Play Lab
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Transformative Play Lab
+
+at UC Irvine, Department of Informatics
+
+Toggle navigation
+
+
+
+
+
+Home
+News & Events
+Research
+People
+Classes
+ 
+
+
+Home
+News & Events
+Research
+People
+Classes
+ 
+
+
+
+
+
+
+
+
+
+
+ICS 169 A&B – CGS Capstone Project 
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ICS 169 A & B: CGS Capstone
+Computer Game Science Major – Fall & Winter 2016-2017
+Professor Theresa Jean Tanenbaum
+Email: ttanen@uci.edu
+Teaching Assistant: Calvin Liu
+Email: CalvinLiu20503@gmail.com
+Tu, Thur, 11:00am – 12:20pm
+Location: SSL 270 (and various other locations – see schedule below)
+Office Hours: By appointment
+Course Website: https://transformativeplay.ics.uci.edu/classes/ics-169-capstone/
+
+
+
+Quick Menu
+
+
+ Course Description 
+ External Activities 
+ Course Logistics 
+ Grades 
+ Schedule 
+ Policies 
+
+
+
+
+Catalog Description:
+Students work in teams to design and implement a new computer game or virtual world. Emphasis on sound, art, and level design, building a community, cut scenes, production values, full utilization of hardware and software platform, and current industry trends.
+Course Objectives and Philosophy
+In this course students work in teams to design and develop a game.  This game can be in any genre, developed on any platform, and be about any subject. As a final project class, things are pretty wide open, but there are some “learning objectives” for the class:
+
+Learn how to work within a diverse team as a specialist, while also taking ownership of the “big picture”.
+Learn how to “scope” and “polish” a comparatively “long term” game project.
+Learn how to coordinate with outside “contractors”, mentors, and collaborators, and how to manage complex communication and organizational tasks.
+Learn how to position your game within a market that is saturated with independent games so that it stands out.
+Learn how to test and refine your game with naïve players, how to take critical feedback, and how to “find the fun” through iterative design.
+
+By the end of these two quarters, you should have a portfolio piece that you can proudly take with you as you enter the job market.  You should have a game that you can enter into local, regional, and national design competitions.  You should have something that you could conceivably polish and further refine and attempt to publish or otherwise distribute. By the end of the Fall Quarter you should have a playable prototype that is “feature complete”, meaning that the core mechanics are in place, and the “fun” is present.  You will need the entire Winter Quarter to polish and refine that prototype into something that approaches “content complete”.
+Course Related Outside Activities:
+
+
+
+Quick Menu
+
+
+ Course Description 
+ External Activities 
+ Course Logistics 
+ Grades 
+ Schedule 
+ Policies 
+
+
+
+In the past students from this class have won game competitions and showcases, and participated in a number of game making events in the area. We will host some of these at UCI, but others will be happening in the area.  Some of these are mandatory and others are highly encouraged!
+Global Game Jam (“mandatory”)
+Save the date now!  January 20-22, 2017! I will be coordinating UCI’s GGJ location this year for the third year in a row.  Previous GGJs have had amazing turnouts, with participants from UCI, other colleges in the area, and local game companies.  This year, you all will participate in the Jam: it will be a chance to clear out the cobwebs, to iterate over some ideas that you might have had to put on the back-burner during the Fall, and a chance to bond with your colleagues.  Ordinarily I ask students to come to the Jam without pre-planned teams, but this year, if you want to Jam in your teams for the class I’ll allow it.  More details to come!
+UCI Game Day Capstone Games Showcase
+
+Rather than doing “Game Day” as we have done in previous years, we will be having a “Capstone Games Showcase” on Wednesday, March 15th. We will be in room 6011 from 3-5pm.  Each team will set up a table to demo their games, and will have 3 minutes to introduce their game to the assembled guests.  Please feel free to invite family and friends.  We will invite all of the Blizzard mentors to attend, and will also be inviting students and faculty across ICS, and members of the IVECG to join us and see what everyone has made.  I know some of you may have time conflicts – hopefully each team will have someone who can demo their game present.
+OC IEEE GameSIG Student Showcase (optional, highly recommended)
+This event happens annually in Orange County, and our teams have done quite well in the competition.  Details are still forthcoming, but you are highly encouraged to submit your games once the call goes live.
+IndieCade (optional)
+IndieCade is the biggest and most well known independent game festival, and it is right in our backyard!  This is for the best of the best!  Is your game innovative? Original? Highly polished? If you’re really ambitious, this might be the venue for you! Submissions for IndieCade open in the Spring.
+Course Logistics
+
+
+
+Quick Menu
+
+
+ Course Description 
+ External Activities 
+ Course Logistics 
+ Grades 
+ Schedule 
+ Policies 
+
+
+
+Course Structure
+We meet twice a week. Every other Tuesday the Blizzard Mentors will visit, and meet with their teams.  The other Tuesdays will be for team consulting with the teaching team, and for the occasional guest lecture from industry guests.  Thursdays will alternate between lectures, activities, and team check-in time.
+Course Website
+The syllabus will be posted on the course website, along with any digital resources for your use.
+GitHub Repositories
+We will be using GitHub to store and track the assets created for the games in this class. Every team should be familiar with GitHub by this point, and every student should have a GitHub account.  Each game should have a GitHub repository.  I have an academic group that can create private repositories if you would prefer to not have your code listed publicly.
+COGS Lab – ICS-2 Room 170
+As a student in a course that is using the COGS Lab, you have key code access to the lab for the Fall quarter. It is important that the rules listed below are followed.
+
+No food or drink of any kind, including bottled water, is permitted in the COGS Lab.
+When you leave the COGS Lab, make sure that your computer is turned off, that the room is neat, and that the door closes behind you.
+After 6:00pm and before 8:00am on weekdays, and always during weekends, use your access code to enter the COGS Lab, even if the door is propped open. After hours, do not allow anyone into the lab who does not have an access code. If someone entering does have an access code, he or she should use it. Do not give your access code to anyone else.
+Permission to use the COGS Lab lasts through the end of the quarter; your access code will stop working on Friday of Finals week. Permission may be revoked at any time.
+
+Mentors
+We are joined by an exciting group of professional game developers from Blizzard Entertainment! Each team will have 1 official mentor, as well as access to the “floating mentors” in the room. These folks have a lot of wisdom and experience to offer, and are committed to helping you make your games the best they can be.
+Assignments and Grading and Schedule
+
+
+
+Quick Menu
+
+
+ Course Description 
+ External Activities 
+ Course Logistics 
+ Grades 
+ Schedule 
+ Policies 
+
+
+
+Grade Breakdown:
+ Winter Quarter Grades
+The Winter quarter grade is worth 55% of your overall grade in the class.  Unlike the fall quarter, the majority of your grade this time around is going to depend on your final game project, with minor additional points being gained/lost through participation and attendance.
+
+10%, attendance (index cards) and participation
+10%, weekly status reports
+80%, Game quality and individual contribution to the game.
+
+Deliverables (Winter Quarter)
+Index Cards and Participation – 10% of your grade
+I will use the tried and true Index Card method to track attendance, and solicit feedback from you.  The TA will distribute index cards at the beginning of each class – please return them by the end of class with your name, student number, the date, and any comments or questions you may have for the teaching team.
+Weekly Status Reports – 10% of your grade
+I will create a shared Google Doc for each team. Each week, before Tuesday’s class, each member of the team should add a brief statement about what they plan to do in the coming week, and what they actually did the previous week.
+Game Quality and Individual Contribution – 80% of your grade
+Where “quality” includes many but probably not all of the following:
+
+Gameplay: Did you find the fun? Is the game fun in more than one way? Do the mechanics give rise to the desired dynamics, and do these lead to the aesthetics that you are trying to produce? Is the game replayable? Are the controls effective and appropriate to the game design? Does it use challenge and difficulty effectively? Does the game reward desired behavior? Are the rewards intrinsically motivating? Does the game support a range of strategies, approaches, and playstyles?
+Narrative, concept, mood, or theme: Does the game have a strong concept that informs and integrates the different aspects of its design?  Is this concept reflected in the gameplay? If the game includes narrative elements, are they realized through quality writing, environmental design, and character design?
+Aesthetics: Are the visuals pleasing and appropriate to the design? Is there a clear and consistent visual language in the game? Does it convey the desired mood or theme? Are animations polished and physically believable?
+Audio: Does it have music and sound?  Are the audio assets complete, polished, and effectively integrated into the experience? Do they convey the desired mood or theme?
+
+(Note: credit is given for art and sound assets created by team members, and for the work required to wrangle external artists and their creations)
+
+
+User Experience and Interface:  Are there appropriate menus, options, and interfaces for getting into and out of the game? Does the in-game UI communicate essential game-state information? Is the game-state legible to the player when necessary? Is the controller or keyboard/mouse configuration learnable, legible, and in service to the the design goals of the game? Does the interface leverage existing literacies or conventions where appropriate? Do the interface elements reinforce and support the narrative, theme, and emotional content of the game?
+Bookmarking and “scaffolding”: Does the game support save-states, player profiles, warps, passwords, checkpoints, or other systems for preserving progress and allowing players to interrupt and continue play across multiple sessions? Does the game provide tutorials, in-game support, training systems, and other mechanisms for teaching the player how to play, where to proceed, and how to engage with the game?
+Technical accomplishment: Does the game do something that required complex computation or infrastructure development (e.g.: complex AI, networked multi-player, procedural content generation, etc.)
+Depth and breadth: Does the game support extended play? Are there extensive levels to explore?  Are there multiple characters or playstyles or weapons, or skills? Does the game support and reward the development of mastery and skill over repeated play?
+Innovation: Does the game attempt to do something new at the level of mechanics, dynamics, or aesthetics? Is it pushing the boundaries of existing games, or breaking new ground with aspects of its design?
+
+For the most part, everyone on the team will receive the same grade, however I reserve the right to modify this grade at the individual level if it becomes clear that some members of a team are doing either exceptionally well or exceptionally poorly when compared to their peers.
+Schedule (Winter Quarter)
+
+
+
+Quick Menu
+
+
+ Course Description 
+ External Activities 
+ Course Logistics 
+ Grades 
+ Schedule 
+ Policies 
+
+
+
+‘There are several things that still need to be scheduled for this quarter including at least one trip to Blizzard, and at least one trip across campus to see John Crawford’s motion capture studio. We are also planning to have Game Day happen sometime near the end of the quarter so expect more details on that as we get closer.
+
+
+
+Course Schedule
+
+
+Week
+Tuesday
+Location
+Thursday
+Location
+
+
+0
+ n/a
+ 
+n/a
+ 
+
+
+1
+01/10Welcome BackWinter deliverables overview
+SSL 270
+01/12Lecture: Game Feel and Polish
+SSL 270
+
+
+2
+
+01/17
+Reassign mentors
+Meetings with Mentors
+
+DBH 3011 & 4011
+
+01/19
+Guest Lecture (TBD)
+
+SSL 270
+
+
+3
+
+01/24
+Check-In Meetings & Playtesting Rotation
+
+SSL 270
+
+01/26
+Check-In Meetings & Playtesting Rotation
+
+SSL 270
+
+
+4
+
+01/31
+Meetings with Mentors
+
+DBH 3011 & 4011
+
+02/2
+Guest Lecture: Danny Flanagan
+Blizzard University Relations Specialist
+
+SSL 270
+
+
+5
+
+02/7
+Mid-term game presentations.
+
+SSL 270
+
+02/9
+Tess out of town, Class Canceled
+
+n/a.
+
+
+6
+
+02/14
+Meetings with Mentors
+
+DBH 5011 &3011
+
+02/16
+“Tissue Tests”
+
+SSL 270
+
+
+7
+
+02/21
+Check-In Meetings & Playtesting Rotation
+
+SSL 270
+
+02/23
+Check-In Meetings & Playtesting Rotation
+
+SSL 270
+
+
+8
+
+02/28
+Meetings with Mentors
+
+DBH 3011 & 4011
+
+03/2
+Mock Interviews with Blizzard Guests!
+
+SSL 270
+
+
+9
+
+03/7
+Check-In Meetings & Playtesting Rotation
+
+SSL 270
+
+03/9
+Tour of John Crawford’s Motion Capture Studio
+
+ 
+
+
+10*
+
+03/14
+Meetings with Mentors
+
+SSL 270
+
+03/16
+Prep for Final Presentations
+
+SSL 270
+
+
+Final
+03/21Final Presentations
+SSL 270
+ 
+ 
+
+
+
+* Game Day will be happening on Wednesday, March 15th from 3-5pm in DBH 6011
+Additional Important Course Policies and Resources
+
+
+
+Quick Menu
+
+
+ Course Description 
+ External Activities 
+ Course Logistics 
+ Grades 
+ Schedule 
+ Policies 
+
+
+
+Academic Honesty
+Please read and heed the following information regarding academic dishonesty. The instructor cannot and will not tolerate academic dishonesty. For more information, refer to the UCI Student Handbook. The UCI campus policy on academic honesty resides here: http://honesty.uci.edu/
+The penalty for plagiarism is at a minimum to receive a 0 on the assignment and have the case reported to the Associate Dean’s office. Particularly flagrant cases may receive more severe punishment (notably failing the course).
+What is cheating?
+
+Supplying or using work or answers that are not your own.
+Providing or accepting assistance with completing assignments or examinations.
+Faking data or results.
+Interfering in any way with someone else’s work.
+Stealing an examination or solution from the teacher.
+
+What is plagiarism?
+
+Copying a paper from a source text without proper acknowledgment.
+Buying a paper from a research service or term paper mill.
+Turning in another student’s work with or without that student’s knowledge. 
+Copying a paper from a source text without proper acknowledgment.
+Copying materials from a source text, supplying proper documentation, but leaving out quotation marks.
+Paraphrasing materials from a source text without appropriate documentation.
+Turning in a paper from a term paper website.
+
+You should be on guard against plagiarism at all times.  At any time that you read anything in preparation for a paper or consciously recall anything that you have read or heard, you must be prepared to provide documentation.
+Generally, when you use someone else’s ideas and/or words, you will either quote that person directly or you will paraphrase or summarize that person’s words. You must let the reader know which you are doing.
+
+If you quote the source directly, you must
+
+Put quotation marks before and after that person’s words
+Let the reader know the source by (1) putting a footnote or endnote number at the end of the quotation, or (2) putting at least the source’s name in parentheses after the quotation marks (such as when being taken from fieldwork).
+
+
+If you paraphrase (a paraphrase is about the same length as the original, but in different words) or if you summarize (a summary is a severely shortened version of the original), you must
+
+Introduce the source in some manner at the beginning of the passage being paraphrased (or summarized) so that the reader can tell where your idea stops and the other person’s begins
+State the ideas taken from the source in your own words and your own arrangement. It is possible to plagiarize sentence patterns as well as exact words. A handy rule: if, in a paraphrase or summary, you use a stretch of more than three words in their exact order from a source, you should put those words into quotation marks
+Provide an exact source citation for those ideas paraphrased or summarized. This may be done either by footnote/endnote number at the end of the passages or by parenthetical references to the work and page(s). This citation provides credit to the author being used and allows the reader access to the material for further study.
+
+
+You must also provide a footnote for any chart, graph, figure, table, summary, or other data taken directly from another source or any information derived from such materials. You should also be sure to check copyright as to whether you are allowed to use this figure.
+
+For example, the text here on plagiarism was initially written Gillian Hayes for the Winter 2013 version of INF 242, although some modifications and additions of my own have been integrated into it.  The original can be found here: http://www.gillianhayes.com/Inf242w13/, along with Professor Hayes’ own disclaimer that the material has been “generously borrowed and slightly modified from the UTC Center for Advisement and Student Success.”
+Reference Management Software:
+Oftentimes plagiarism isn’t intentional – it happens because the writer either isn’t in the habit of citation, or because the overhead of citing sources turns the process into a burden. For this class I strongly encourage you to adopt the use of a reference management system if you do not already use one.  This is one of the single best investments of your time you can undertake as a student, and it will reward you a thousand times over once you have integrated it into your workflow.  Unless you are already heavily invested in a different platform, I would recommend you use Zotero: it’s free, it works as both a stand-alone program, and as a browser plug-in, it integrates very smoothly with Word, it has great collaboration support, it has AMAZING citation scrapers for the major online repositories (ACM DL, JSTOR, Springer, etc.), and it has a very complete database of reference formats that are easy to install.  Did I mention that it’s FREE?  It is! For more information about the options out there, the UCI Library has a good resource here:
+http://libguides.lib.uci.edu/content.php?pid=19606&sid=583269.
+Special Accommodations
+If you are a student with a disability (e.g., physical, learning, psychiatric, vision, hearing, etc.) and think that you might need special assistance or a special accommodation in this class or any other class, please check out the Disability Center online or visit them in person at: 100 Disability Services Center, Building 313, Irvine, CA 92697-5130.   If you are having difficulty with the class for any of these reasons, please let me know so that I can work with you to meet your learning needs. If for any reason you are uncomfortable discussing the details surrounding a given situation you need not disclose anything, but at least let me know that something is going on so that arrangements can be made to adjust things for you before you fall too far behind.
+I am always available to meet with students who are having trouble, and I am usually willing to make some reasonable accommodations if you have a legitimate issue, but I require that you check-in with me before a problem gets out of control so we can work something out. If you come to me during finals week to explain that you were in the hospital for 6 weeks and couldn’t complete your work, my first question will be: “why am I just now finding this out?”
+Counseling Center
+Likewise, if you find that personal problems, career indecision, study and time management difficulties, etc. are adversely impacting your successful progress at UCI, please check out the Counseling Center or Student Services. College can often have adverse effects on one’s physical and mental health, and it is better to seek help early than allow the trials of pursing and advanced degree to cause serious harm.
+Old Info From Fall Quarter:
+Fall Quarter Grades
+ICS 169A and 169B are graded together; your official grade for the Fall quarter will be IP (In Progress). Each student will receive an unofficial, “tentative” grade for the Fall quarter, which will be determined as follows:
+
+10%, attendance during lecture periods
+20%, participation at team meetings
+40%, weekly status reports
+30%, “feature complete” playable prototype
+
+The tentative Fall quarter grade will be weighted as 45% of the overall grade.
+Deliverables (Fall Quarter)
+Index Cards and Attendance – 10% of your grade
+I will use the tried and true Index Card method to track attendance, and solicit feedback from you.  The TA will distribute index cards at the beginning of each class – please return them by the end of class with your name, student number, the date, and any comments or questions you may have for the teaching team.
+Participation at Team Meetings – 20% of your grade
+Every team member should be at the team meetings in class, and should engage with the discussion about the state of your project.  These check-ins are the best time to ask questions, get help with design problems, or resolve issues within the team.
+Weekly Status Reports – 40% of your grade
+I will create a shared Google Doc for each team. Each week, before Tuesday’s class, each member of the team should add a brief statement about what they plan to do in the coming week, and what they actually did the previous week
+Playable Prototype – 30% of your grade
+For the final presentation each team will present their game prototype to the class.  This should be playable, and should capture the core mechanics and experience of the game that you are developing.  The second quarter of the class should be polishing and testing, so you want your prototype to be as feature complete as possible.
+Schedule (Fall Quarter)
+
+
+
+Course Schedule
+
+
+Week
+Tuesday
+Location
+Thursday
+Location
+
+
+0
+ 
+ 
+09/22IntroductionGame Concept Pitches
+PSCB 120
+
+
+1
+9/27Meet the MentorsTeams Finalized(Invitations to online resources for this have been emailed to you)
+PSCB 120
+9/29Team Assignments CompletedContact Sheets DueLecture/Activity MDA Refresher
+PSCB 120
+
+
+2
+10/04Prof. Tanenbaum & TA’s Meet with the Teams
+PSCB 120
+10/06Prof. Tanenbaum & TA’s Meet with the Teams
+PSCB 120
+
+
+3
+10/11Meetings with mentors
+DBH 6011
+10/13Lecture/Activity: Game Economies
+PSCB 120
+
+
+4
+10/18Prof. Tanenbaum at  CHI PlayGuest Lecture: Blizzard Mentor Panel
+DBH 1500
+10/20Prof. Tanenbaum at CHI PlayGuest Lecture: Sound Design for Games with Vinnie Oliveri
+DBH 1500
+
+
+5
+10/25Meetings with mentors
+DBH 1500 & 5011
+10/27Team Meetings, no lecture
+DBH 1500
+
+
+6
+11/1Short Team Presentations
+DBH 1500
+11/3Short Team Presentations
+DBH 1500
+
+
+7
+11/8Meetings with Mentors
+DBH 1500 & 5011
+11/10Lecture: Playtesting Strategies
+DBH 1500
+
+
+8
+11/15Prof. Tanenbaum at ICIDSGuest Lecture: TBD
+DBH 1500
+11/17Prof. Tanenbaum at ICIDSTeam Meetings, no lecture
+DBH 1500
+
+
+9
+11/22Meetings with Mentors
+DBH 1500 & 5011
+11/24Thanksgiving: No Class!
+n/a
+
+
+10
+11/29Playtesting
+DBH 1500
+12/1Playtesting
+DBH 1500
+
+
+Final
+12/6Prototype Presentations4pm-6pm
+DBH 5011
+ 
+ 
+
+
+
+This is a day-by-day breakdown of the class structure.Note that the location changes on Tuesdays throughout the quarter!  There is some color coding to help call your attention to this.  It is your responsibility to be in the right room at the right time.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  | Theme by Themeegg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

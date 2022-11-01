@@ -1,0 +1,141 @@
+http://cradl.ics.uci.edu/?page_id=7
+
+
+
+
+
+Projects | CRADL Lab
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+News
+People
+Projects
+Publications
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Projects
+
+
+
+Current Projects
+
+Trust in Software Development Teams
+People: Ban Al-Ani, David Redmiles,  Matthew Bietz,  Erik Trainer, Oliver Wang
+We are interested in exploring the antecedents of trust in virtual teams. Our research has three principle objectives. The first is to develop a deeper understanding of trust in virtual teams. Our second goal is to develop requirements (design rationale) for automated monitoring and management of trust in virtual teams. Our third objective is to develop software (user interface prototypes) to monitor and manage trust in virtual teams. Our understanding of trust will be formed by field studies of trust in two or more organizations. This understanding will inform the subsequent software tool we will develop to support positive trust in virtual teams.
+
+
+
+Distributed Software Development in Virtual Worlds
+People: Benjamin Koehne, David Redmiles
+Distributed software development teams face numerous challenges in their daily development work. Complex software development processes need to be translated to distributed contexts and development teams need to cope with the geographical dispersion of co-workers. This project investigates the development of a virtual collaboration platform in a virtual world environment that enables distributed software usability inspections. We study the underlying technology, human-centered design elements of the environment, and learning as a central concept.
+
+
+Recent Projects
+
+
+Theseus
+People: Erik Trainer, David Redmiles, Matthew Bietz
+Theseus is a prototype interface that can increase a software developer’s perceived trustworthiness of their distributed team members by exposing important information about them through a set of appropriate visualizations. Theseus is a web application built using GWT, the Google Web Toolkit. It integrates with a developer’s Google contacts, their projects’ work item repositories or issue trackers, e-mail, source-code and other contextual factors (such as time zone) to give the developer insights into their colleagues availability and responsiveness. For more information, please visit the Theseus project website.
+
+
+Communities of Practice and Knowledge Dissemination
+People:Hiroko Wilensky, David Redmiles, Norman Makoto Su
+The Communities of Practice project was initially started by studying a community of knowledge management (KM) practitioners in the aerospace industry. We learned that this community is not a forum for simply learning KM techniques from their peers; rather, the community is a locus for validating, affirming and legitimizing the practitioners’ KM practices and also the discipline of KM. This study led to another study- the formation and transformation of the concept of communities of practice.
+ 
+
+
+
+
+Continuous Coordination in Software Development
+The concept of continuous coordination unifies the formerly opposed strategies of formal and informal coordination into a single concept. Continuous coordination recognizes and supports the understanding that both aspects are legitimate and equally important and necessary requirements for collaboration activities. It relies on formal coordination mechanisms to ensure the consistency of the artifact, but uses informal techniques to allow users to determine the best ways for the consistency to be achieved – all in a modeless manner. The impact of formal coordination points (e.g. check-ins or process transitions) can thereby be much more easily assessed while an activity is in progress, allowing pre-emptive user actions to ease the burden of coordination that otherwise would arise at the formal coordination points.
+
+Past Projects
+
+User Interfaces for Aspect Oriented Programming
+Versatile Middle Ware
+Knowledge Depot
+ARGO/UML
+Expectation-Driven Event Monitoring
+Explanation for Software Reuse
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+News
+
+
+SuCSES is coming!
+
+
+Site Tools
+
+Log in
+Entries feed
+Comments feed
+WordPress.org
+
+ 
+
+
+CRADL receives funding from the National Science Foundation under grants 0943262, 0808783, and 1111446.
+ 
+Department of Informatics | Donald Bren School of Information and Computer SciencesBren Hall 5042 | University of California, Irvine | Irvine, CA 92697-3440cradl_info@ics.uci.edu
+ 
+Powered by WordPress | Theme: Yoko by Elmastudio | Header image: E. Howe
+Top
+
+
+
+

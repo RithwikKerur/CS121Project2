@@ -1,0 +1,138 @@
+https://www.cs.uci.edu/multidisciplinary-collaborators-set-their-sights-on-color-vision-in-the-dark
+
+
+
+
+Multidisciplinary Collaborators Set their Sights on Color Vision in the Dark 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ this is a widget called second front page widget area
+
+Explore
+
+Contact Us
+
+
+Faculty
+Research
+
+Research Areas
+Research Centers
+
+
+Graduate Degrees
+
+Computer Science Programs
+Current Graduate Students
+
+
+Undergraduate Degrees
+News  & Events
+
+News
+Seminar Series
+Distinguished Lecture Series
+Research Showcase
+
+
+Apply Now
+
+Undergraduate Admissions
+Graduate Admissions
+Faculty Candidates
+
+
+Multidisciplinary Collaborators Set their Sights on Color Vision in the Dark
+April 15, 2022 
+A multidisciplinary collaboration between ophthalmology researchers and computer scientists at UCI has shown promising results in revealing color in the dark. Distinguished Professor of Computer Science Pierre Baldi and students from the Donald Bren School of Information and Computer Sciences (ICS) teamed up with Clinical Assistant Professor of Ophthalmology Andrew Browne and others from the School of Medicine (SOM) to leverage deep learning (DL) in recreating color images from infrared input images. “Deep Learning to Enable Color Vision in the Dark,” the PLOS ONE paper that Browne and Baldi co-authored with computer science Ph.D. students Ekaterina Deyneka, Francesco Ceccarelli and Siwei Chen, and SOM researchers Josiah To, Jianing Tang and Anderson Vu, outlines their findings.
+
+“I met Andrew Browne a couple of years ago, and since then we have been collaborating intensively on several projects,” says Baldi. “His laboratory provides the data; we develop and deploy all the solutions.”
+For this project, the solution involved combining infrared illuminants in the red and near-infrared (NIR) spectrum and processing them using deep learning. The goal was to recompose an NIR image to present it as if it were visualized with visible spectrum light, testing the hypothesis that “deep learning could render human-visible scenes using NIR illumination.”
+The research team’s method predicts visible spectrum images using infrared illumination alone and deep learning to process near-infrared data.
+Their conclusion? “This proof-of-principle study using printed images with a limited optical pigment context supports the notion that the deep learning approach could be refined and deployed in more practical scenarios.”
+As outlined in the IEEE Spectrum article, “Color Night Vision Brought to You by AI,” there are many practical applications for this work. “You can imagine this having military applications, or just recreational applications to see at night,” Browne says. “You can also imagine this finding being used in chemical processing, where people need to work in places that are sensitive to visible light, or in medical or research situations where one has to work with light-sensitive retinal tissue.”
+For example, one long-term goal of this collaboration is to enable eye surgeries that occur with low-energy light (that is, light in the red/infrared portion of the spectrum). “If you shine normal visible light on the retina for long periods of time (often required for surgery), the retina can get damaged,” explains Baldi. “So we want to shine light that has low energy to avoid damaging the retina, but we want the surgeon to be able to see everything as if under regular light. So we are developing AI that can reconstruct images/videos taken with light in the red/infrared portion of the spectrum so they appear as if they were taken under regular light.”
+— Shani Murray
+« Machine Learning ‘Street Talk’ Podcast Features Reality Check from Sameer Singh and Yasaman RazeghiThe ZotBins Team Continues to Grow, Supporting UCI’s Move to Zero Waste »
+
+Latest news
+
+
+Senior Spotlight: Tennis Player and CS Major Matthew Sah Serves Up Aces On and Off the Court
+September 28, 2022
+
+
+Register Today for the Southern California AI & Biomedicine Symposium
+September 20, 2022
+
+
+CPO Magazine: “A Legal View of New NIST Quantum-Resistant Algorithms” by Bryan Cunningham
+September 19, 2022
+
+
+UCI Ranked 24th in Undergraduate Computer Science Programs by U.S. News & World Report
+September 16, 2022
+
+
+Senior Spotlight: Jose Cisneros Builds Impressive Resume with Trio of Internships
+September 15, 2022
+
+
+
+
+ 
+
+
+
+
+
+© 2022 UC Regents
+Feedback
+Privacy Policy
+
+
+
+ 
+
+
+
+

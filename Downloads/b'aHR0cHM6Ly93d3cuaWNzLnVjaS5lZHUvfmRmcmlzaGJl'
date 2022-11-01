@@ -1,0 +1,34 @@
+https://www.ics.uci.edu/~dfrishbe
+
+
+
+Daniel Frishberg - University of California, Irvine School of Information and Computer Sciences
+
+
+Daniel Frishberg
+PhD student
+About me
+I am a PhD student in the theory group of the computer science department at the University of California, Irvine (UCI). I started at UCI in Fall 2018.
+MS awarded Spring 2020. PhD expected Spring 2023.
+See my CV for professional experience.
+Research
+My current and recent research includes rapidly mixing Markov chains; hierarchical clustering algorithms and their relationship to combinatorial optimization problems; a graph simplification problem; studying the graphs that arise from configurations in a game involving pegs and disks (Towers of Hanoi); and a problem motivated by drawing aesthetically pleasing (Lombardi) graphs.
+Publications
+
+D. Eppstein, D. Frishberg, W. Maxwell.On the treewidth of Hanoi graphs.
+Proc. 10th International Conference on Fun with Algorithms (FUN), 2020.
+Preprint available at https://arxiv.org/abs/2005.00179.
+D. Eppstein, D. Frishberg, E. Havvaei.Simplifying activity-on-edge graphs.
+Proc. 17th Scandinavian Symposium and Workshops on Algorithm Theory (SWAT), 2020.
+Preprint available at https://arxiv.org/abs/2002.01610.
+N. Mamano, A. Efrat, D. Eppstein, D. Frishberg, M. T. Goodrich, S.G. Kobourov, P. Matias, V. Polishchuk.Euclidean TSP, motorcycle graphs, and other new applications of nearest-neighbor chains.Computational Geometry: Young Researchers Forum, 2019.
+Proc. 30th International Symposium on Algorithms and Computation (ISAAC 2019), Shanghai, China, 2019.Preprint available at https://arxiv.org/abs/1902.06875.
+
+Other Research
+David Eppstein and Daniel Frishberg.Rapid mixing of the hardcore Glauber dynamics and other Markov chains in bounded-treewidth graphs.
+arXiv preprint, 2021. Available at https://arxiv.org/abs/2111.03898.
+Daniel Frishberg and William Gasarch.Open Problems Column: Different Ways to Prove a Language is Not Regular.SIGACT News, March 2018.Available at https://dl.acm.org/citation.cfm?id=3197413&dl=ACM&coll=DL
+.
+
+
+

@@ -1,0 +1,141 @@
+http://www.ics.uci.edu/~etrainer
+
+
+
+
+
+Erik Harrison Trainer, Ph.D.
+
+
+
+Erik Harrison Trainer, Ph.D.
+Assistant Project ScientistDept. of Informatics, Donald Bren School of
+Information and Computer Sciences, UC Irvine
+
+About MeResearch InterestsTeachingPublications
+News:
+
+
+December 2012 - I'm working on a NSF proposal with my research group that will explore globally distributed software engineers' attitudes toward and usage of collaboration tools.November 9, 2012 - I successfully defended my dissertation! Call me Dr. Trainer :-)October 2012 - My team's full paper, "Globally Distributed System Developers: Their Trust Expectations and Processes," was accepted at the 2013 ACM Conference on Computer-supported Cooperative Work!
+October 2012 - I finished running my human subjects experiment over the summer. I've also completed a first draft of my dissertation and given several talks on the results of the experiment.  I plan to defend in November.
+April 2012 - My team's full paper, "Distributed Development Teams and Non-Use of the Web 2.0 Technologies: A Proclivity Framework," was accepted at the 2012 International Conference on Global Software Engineering (ICGSE) in Porto Alegre, Brazil!March 2012 - Our team's paper, "Attitude and Usage of Collaboration Tools in GSE: A Practitioner Oriented Theory," was accepted at the CHASE Workshop for ICSE 2012.February 2012 - My paper, "Foundations for the Design of Visualizations that Support Trust in Distributed Teams," was accepted for publication at the 2012 ACM Conference on Advanced Visual Interfaces (AVI)!February 2012 - I am designing an experiment to evaluate Theseus, a software proof-of-concept, which is the subject of my dissertation.January 2012 - I am planning to finish my dissertation by June of this year!January 2012 - My research group submitted a NSF VOSS proposal on the topic of global software engineers' attitudes toward and usage of web 2.0 technologies.December 2011 - I submitted a full paper to the Advanced Visual Interfaces (AVI) conference.November 2011 - I passed my topic defense!
+       
+
+Contact:
+
+etrainer [at] uci [dot] edu
+	   Department of Informatics5231 Donald Bren Hall
+	   Irvine, CA, USA, 92697-3440
+ view my profile
+
+
+
+
+About Me:
+I earned my Ph.D. from the Donald Bren School of Information and Computer Sciences at University of California, Irvine. I also graduated with a B.S. in Information and Computer Science from UC Irvine in
+2005.
+
+My dissertation committee was comprised of Professors David Redmiles (advisor), André van der Hoek, and James Jones. 
+
+View my Résumé (PDF) or Curriculum Vitae (PDF).
+Have a look at my Research Statement (PDF).
+Research Interests:
+
+               I am interested in the following areas:
+			   
+computer-supported cooperative work
+human-computer interaction
+visual interface design
+awareness
+trust
+globally distributed software engineering
+
+			   My dissertation was on software tools for supporting distance collaborations and in particular how visual software tools can support trust among collaborators. 
+
+Supporting Trust in Globally Distributed Software TeamsThe title of my dissertation was: Supporting the Development of Trust in Globally Distributed Software Teams: The Impact of Visualized Collaborative Traces on Perceived Trustworthiness.  The contribution of my dissertation work is a proof-of-concept system, Theseus, (Fig. 1) that shows visual interfaces to promote awareness can engender trust.
+(click for larger)Figure 1. The Theseus main display is comprised of several visualizations.
+
+Trust is a significant human-oriented aspect of successful and productive collaborations. A lack of information about distributed colleagues can work against developing trust in distributed teams.  Remote workers are likely to have much less information and lower quality information about their remote partners.  For example, if Chris had known Alex was working on three projects, the past two months of which he was in Brazil working on fixing bugs, he could have modified his expectations with respect to his availability.
+
+
+  Research has shown that a lack of situational knowledge and the reduced ability to process it effectively can cause individuals in remote teams to attribute breakdowns to the individual rather than the situation itself, eroding team cohesion and lasting solutions.  In this instance, a loss of trust is more difficult to repair.  When what is actually observed in the world (e.g., a developer's failure to deliver work on time) clashes with expectations (e.g., their perceived ability to deliver on time), trust can be slow to build between collaborators.  The explanations distributed software developers give for these breakdowns are called attributions (Figure 2). Dispositional attributions reflect low perceived trustworthiness, while situational attributions reflect high perceived trustworthiness.
+
+Figure 2.  Dispositional attributions refer to the individual, while situational attributions refer to characteristics of the situation.
+
+There are several aspects of the process of setting expectations in the context of globally distributed software development that can be addressed and improved.  First, developing a sense of trust can take time due to the lack of information about other colleagues' activities and the lack of ways to manage this information in order to set realistic expectations.  Distributed developers can ultimately reach the same levels of trust as collocated team members; it just takes longer.  A tool that can partially automate this process can provide time savings.  Second, in software development, the interactions that help set expectations are typically hidden in project repositories or incomplete documents over time (Figure 3).   
+
+Figure 3. Collaborative traces (CTs) are representations of past and current activity of a group of developers manipulating software development artifacts
+
+Further, a lack of situational information about colleagues can negatively and more importantly, inaccurately, bias trust judgments.  If a developer is involved in multiple projects across several time zones, one shouldn't expect same day responses, for example.  An approach that renders this information explicitly from project and team artifacts can prepare people to make trust judgments based on meaningful and more complete data.  Third, the sheer number of artifacts involved makes this data, if presented in textual form, difficult to interpret.  Visualizations can be more effective in revealing and summarizing this information. 	
+
+Results from a laboratory study that included professional software developers as subjects can be found at the Theseus web page.
+
+Visualizing Socio-technical Dependencies with AriadnePreviously, I worked with Stephen Quirk and Cleidson de
+Souza on the Ariadne (Figure 4) project, a
+Java-based plug-in to the Eclipse
+IDE that visualizes the social networks derived from source-code.  The figure below shows a socio-technical graph, dependencies between source-code modules annotated with the developers who work on those modules.  Dependencies between developers can be inferred from the source-code dependencies.
+(click for larger)
+Figure 4. Ariadne shows dependencies between developers based on the dependencies in the source-code they write.
+Figure 5. A different visualization of the same graph from Figure 4. For information about interpreting this visualization, see the Ariadne web page.
+
+Teaching:
+In spring 2008 and spring 2009, I was a Teaching Assistant for In4matx 143: Information Visualization.
+Publications
+
+Thesis
+
+Trainer, E. (2012): "Supporting the Development of Trust in Globally Distributed Software Teams: The Impact of Visualized Collaborative Traces on Perceived Trustworthiness." Ph.D. Dissertation. University of California, Irvine. 
+
+Conference Proceedings
+
+Al-Ani, B., Bietz, M., Wang, Y., Trainer, E., Koehne, B., Marczak, S., Redmiles, D.F., Prikladnicki, R. (2013): "Globally Distributed System Developers: Their Trust Expectations and Processes," In Proceedings of the 2013 ACM Conference on Computer-supported Cooperative Work (CSCW 2013, San Antonio, Texas), pp. 563-573.
+Al-Ani B., Wang, Y., Marczak, S., Trainer, E., and Redmiles, D. (2012): "Distributed Development Teams and Non-Use of the Web 2.0 Technologies: A Proclivity Framework," In Proceedings of the 2012 International Conference on Global Software Engineering (ICGSE 2012, Porto Alegre, Brazil), pp. 104-113.
+Trainer, E. and Redmiles, D.F. (2012): "Foundations for the Design of Visualizations that Support Trust in Distributed Teams," In Proceedings of the 2012 International Working Conference on Advanced Visual Interfaces (AVI 2012, Capri Island, Italy), pp. 34-41.
+Al-Ani, B., Trainer, E., Redmiles, D., and Simmons, E. (2012): "Trust and Surprise in Distributed Teams: Towards an Understanding of Expectations and Adaptations," The 4th ACM International Conference on Intercultural Collaboration (ICIC 2012, Bengaluru, India), pp. 97-106.
+Trainer, E., Quirk, S., de Souza, C.R.B., and Redmiles, D.F. (2008): "Analyzing a Socio-Technical Visualization Tool Using
+Usability Inspection Methods,"  In Proceedings of the IEEE
+Symposium on Visual Languages and Human Centric
+Computing (VL/HCC 2008, Herrsching am Ammersee, Germany), pp. 78-81.
+de Souza, C.R.B., Quirk, S., Trainer, E., and Redmiles, D.F. (2007): "Supporting Collaborative Software Development through the Visualization of Socio-Technical Dependencies," In Proceedings of the 2007 International ACM Conference on Supporting Group Work (GROUP 2007, Sanibel Island, Florida), pp. 147-156.
+
+Consortiums
+
+Trainer, E. (2008): "Connecting the Social and Technical Aspects of Computing with Visualization," In Proceedings of the IEEE
+Symposium on Visual Languages and Human Centric Computing (VL/HCC 2008, Herrsching am Ammersee, Germany), pp. 272-273.
+
+Workshop Papers
+
+Wang, Y., Trainer, E., Al-Ani, B., Redmiles, D., and Marczak, S. (2012): "Attitude and Usage of Collaboration Tools in GSE: A Practitioner Oriented Theory," In Proceedings of the 2012 International Workshop on Cooperative and Human Aspects of Software Engineering (CHASE), held in conjunction with The 2012 International Conference on Software Engineering (ICSE 2012, Zurich, Switzerland), 3 pp., in press.
+Al-Ani, B., Marczak, S., Trainer, E., Redmiles, D., and Prikladnicki, R. (2012): "Distributed Developers' Perspectives of Web 2.0 Technologies in Supporting the Development of Trust,"  The Future of Collaborative Software Development Workshop, held in conjunction with the 2012 Conference on Computer-supported Cooperative Work (CSCW 2012, Seattle, Washington), 3 pp.
+Trainer, E., Al-Ani, B., and Redmiles, D.F. (2011): "Impact of Collaborative Traces on Trustworthiness," In Proceedings of the 2011 International Workshop on Cooperative and Human Aspects of Software Engineering (CHASE), held in conjunction with The 2011 International Conference on Software Engineering (ICSE 2011, Honolulu, Hawaii), pp. 40-47. 
+Trainer, E. and Redmiles, D.F. (2008): "Towards an Infrastructure for Software Visualization Research," In  First International Workshop on Infrastructure for Research in Collaborative Software Engineering (IReCoSE), held in conjunction with The 16th International Symposium on the Foundations of Software Engineering (FSE 2008, Atlanta, Georgia), available at http://home.segal.uvic.ca/~IRCoSE-2008/.
+Al-Ani, B., Trainer, E., Ripley, R., Sarma, A., van der Hoek, A., Redmiles, D.F. (2008): "Continuous Coordination within the Context of Cooperative and Human Aspects of Software Engineering," In Proceedings of the 2008 International Workshop on Cooperative and Human Aspects of Software Engineering (CHASE), held in conjunction with The 2008 International Conference on Software Engineering (ICSE 2008, Leipzig, Germany), pp. 1-4.
+Al-Ani, B., Sarma, A., Bortis, G., Almeida da Silva, I., Trainer, E., van der Hoek, A., Redmiles, D. (2006): "Continuous Coordination (CC): A New Collaboration Paradigm", In Proceedings of the 2006 Workshop on Supporting the Social Side of Large Scale Software Development, held in conjunction with the 2006 Conference on Computer-Supported Cooperative Work (CSCW 2006, Banff, Alberta, Canada), pp. 4-10. 
+Trainer, E., Quirk,
+S., de Souza, C. R. B., Redmiles, D.F. (2005): "Bridging the Gap between Technical and Social Dependencies with Ariadne," In Proceedings of the 2005 OOPSLA Workshop on Eclipse Technology Exchange, pp. 26-30.
+de Souza, C.R.B., Dourish, P., Redmiles, D.F., Quirk, S., and Trainer, E. (2004): "From Technical
+Dependencies to Social Dependencies," In Proceedings of the 2004 Workshop on Social Networks, held in conjunction with The 2004 Conference on Computer-Supported Cooperative Work (CSCW 2004, Chicago, Illinois), available at http://www.ischool.washington.edu/mcdonald/cscw04/
+Journals
+
+Al-Ani, B., Redmiles, D.F., van der Hoek, A., Alvim, M., da Silva, I., Mangano, N., Trainer, E., Sarma, A. (2008): "Continuous Coordination within Software Engineering Teams: Concepts and Tool Support," Journal of Computer Science and Engineering in Arabic: special issue on Software Engineering, vol. 1, no. 3, 2008, pp. 10-33.
+Redmiles, D., van der Hoek, A., Al-Ani, B., Hildenbrand, T., Quirk, S., Sarma, A., Silveira Silva Filho, R., de Souza, C., Trainer, E. (2007): "Continuous Coordination: A New Paradigm to Support Globally Distributed Software Development Projects," Wirtschaftsinformatik, Special Issue on the Industrialization of Software Development, vol. 49, 2007, pp. 28-38.
+
+Technical Reports
+
+
+Trainer, E., Quirk, S., de Souza, C.R.B., and Redmiles, D.F. (2012): "Usability Inspection Method-based Analysis of a Socio-Technical Visualization Tool," Technical Report UCI-ISR-12-6. University of California, Irvine, Institute for Software Research.
+
+Trainer, E. and Redmiles, D.F. (2010): "Initial Successes and Failures Prototyping Socio-technical Visualizations Using a Collaboration Infrastructure," Technical Report UCI-ISR-10-5, University of California, Irvine, Institute for Software Research.
+Trainer, E. and Redmiles, D.F. (2009): "A Survey of Visualization Tools that Promote Awareness of Software Development Activities," Technical Report UCI-ISR-09-5, University of California, Irvine, Institute for Software Research.
+
+Book Chapters
+
+Sarma, A., Al-Ani, B., Trainer, E., Silva Filho, R.S., da Silva, I., Redmiles, D., van der Hoek, A. Continuous Coordination Tools and their Evaluation, in I. Mistrik, J. Grundy, A. van der Hoek, J. Whitehead (eds.), Collaborative Software Engineering, Springer, Ch. 8, pp. 153-178.
+
+
+
+
+
+
+
+

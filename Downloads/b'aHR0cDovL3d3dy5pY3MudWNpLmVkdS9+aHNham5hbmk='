@@ -1,0 +1,133 @@
+http://www.ics.uci.edu/~hsajnani
+
+
+Hitesh Sajnani's homepage
+
+
+
+
+
+
+
+
+
+
+
+ Hitesh Sajnani 
+
+         Software Engineer
+         Tools for Software Engineers (TSE), Microsoft         
+         
+         Ph.D. Information and Computer Science
+         University of California Irvine
+         Irvine, CA 92697
+	 Email: hsajnani[at]uci[dot]edu
+
+
+
+
+
+
+ Recent News 
+I successfully defended my thesis on  Large Scale Code Clone Detection and graduated from UC Irvine to join Tools for Software Engineering group at Microsoft. I was honoured to have Prof. Cristina Lopes (chair), Prof. Andre van der Hoek and Prof. James Jones 
+in my dissertation committee.  
+
+I am the Program Co-chair for IWSC 2017. It is an excellent venue to show case your research related to software cloning. Please consider submitting. 
+ Brief Bio 
+
+I am currently a Sofware Engineer in the Tools for Software Engineering (TSE) group at Microsoft. Before joining TSE, I graduated with a PhD in Informatics from the School of Information and Computer Science,  University of California Irvine. My advisor was Prof. Cristina Lopes, Department of Informatics, University of California Irvine in 2016. I was also awarded a Master of Science in Information and Computer Science at University of California, Irvine in 2012.
+My disseration topic was Enhancing Component Identification Using Machine Learning.  
+ 
+
+Before joining University of California Irvine, I worked at Tata Research Development and Design Centre, India. 
+I have had the privilege of doing internships from industrial research labs to product groups to startups.I spent my summer'11 at SRCH2, a startup specialized in improving user experiences in the domain of search; summer'12 in a product group (Interactive Entertainment Business) at Microsoft Silicon Valley; summer'13 in Human Interactions in Programming and Empirical Software Engineering groups at Microsoft Research in Redmond.  
+
+
+
+Research Interests
+My primary research interest has been in the area of Software Engineering with an emphasis on Software Evolution. I am interested in developing theoretical and practical techniques and tools for helping people to 
+understand, and modify software systems. My research activities to achieve this goal so far span the spectrum from quantitative measures for software properties, to analysis of software changes, to code modularization, to 
+architecture recovery. 
+ 
+In order to ultimately overcome the essential difficulties, it has been recognized that both the processes and products of software development should be formalized and automated. I believe that AI/ML techniques can  
+play an important role in this effort since the field of software engineering turns out to be one such fertile domain where many software development and maintenance tasks could be formulated as learning problems  
+and ML techniques could be used to obtain solutions.
+
+
+Publications
+1. An Exploratory Study of Interface Redundancy in Code Repositories  
+Adriano de Paula, Eduardo Guerra, Hitesh Sajnani, Cristina Lopes and Otavio Lemos. In the proceedings of
+Working Conference on Source Code Analysis and Manipulation, Raleigh, USA, Oct. 2016  
+2. Comparing Quality Metrics for Cloned and Non-Cloned Java Methods: A Large Scale Empirical Study  
+Vaibhav Saini, Hitesh Sajnani, and Cristina Lopes.  In the proceedings of International Conference on Software Maintenance and Evolution, Raleigh, USA, Oct. 2016  
+3. SourcererCC: Scaling Code Clone Detection to Big-Code (Best Paper Award)
+Hitesh Sajnani, Vaibhav Saini, Jeffrey Svajlenko, Chanchal Roy, and Cristina Lopes. In the proceedngs of ICSE 2016  
+4. Can the Use of Types and Query Expansion Help Improve Large-Scale Code Search?  
+Otavio Lemos, Adriano de Paula, Hitesh Sajnani and Cristina Lopes. In the proceedings of Source Code Analysis and Manipulation, Sept. 2015 
+5. A Parallel and Efficient Approach to Large Scale Code Clone Detection 
+Hitesh Sajnani, Vaibhav Saini, and Cristina Lopes. In proceedings of Journal of Software: Evolution and Process  
+6. A Comparative Study of Bug Patterns in Java Cloned and Non-cloned Code  
+Hitesh Sajnani, Vaibhav Saini, and Cristina Lopes. In the proceedings of Source Code Analysis and Manipulation, Sept. 2014 
+7. Is Popularity a Measure of Quality? An Analysis of Maven Components
+Hitesh Sajnani, Vaibhav Saini, Joel Ossher, and Cristina Lopes. In the proceedings of International Conference on Software Maintenance and Evolution, Victoria, Oct 2014 
+8. Active Files as a Measure of Software Maintainability 
+Lukas Schulte, Hitesh Sajnani, and Jacek Czerwonka. In the proceedings of International Conference on Software Engineering (SEIP track), Hyderabad, June 2014 
+9. A Dataset for Maven Artifacts and Bug Patterns Found in Them 
+Vaibhav Saini, Hitesh Sajnani, Joel Ossher, and Cristina Lopes. In the proceedings of conference on Mining Software Repositories, Hyderabad, May 2014
+10. Probabilistic Component Identification
+Hitesh Sajnani and Cristina Lopes. In the proceedings of India Software Engineering Conference, Chennai, India, Feb 2014
+11. A Parallel and Efficient Approach to Large Scale Code Clone Detection
+Hitesh Sajnani and Cristina Lopes. International Workshop on Software Clones IWSC-2013, Co-located with ICSE 2013 in San Francisco, May 2013
+12. ASTRA: Bottom-up Construction of Structured Artifact Repositories
+Joel Ossher, Hitesh Sajnani, and Cristina Lopes. In the proceedings of Working Conference on Reverse Engineering, WCRE-2012, Kingston, ON, October 2012
+13. Automatic Software Architecture Recovery: A Machine Learning Approach
+Hitesh Sajnani. In the Proceedings of International Conference on Program Comprehension, Passau, Germany, June 2012
+14. Parallel Code Clone Detection Using MapReduce
+Hitesh Sajnani, Joel Ossher, and Cristina Lopes.  In the Proceedings of International Conference on Program Comprehension, Passau, Germany, June 2012
+15. Trendy Bugs: Topic Trends in the Android Bug Reports - PDFLee Martie, Vijay Krishna Palepu, Hitesh Sajnani, and Cristina Lopes. In the Proceedings of Mining Software Repositories, Zurich, Switzerland, June 2012
+16. Multi-Label Classification of Short Text: A Casestudy on Wikipedia Barnstars - PDFHitesh Sajnani, Sarah Javanmardi, David McDonald, and Cristina Lopes. In the Proceedings of Workshop on Analyzing Microtext, AAAI-2011, San Francisco, CA, August 2011
+17. Application Architecture Discovery: Towards Domain-driven, Easily Extensible Code Structure - (Best paper award in the industrial track, Most outstanding paper award at TCS Innovation Summit) - PDFHitesh Sajnani, Ravindra Naik, and Cristina Lopes. In the Proceedings of 18th Working Conference on Reverse Engineering, Limerick, Ireland, October 2011
+18. Easing Software Evolution: A Change-data and Domain-driven Approach - PDFHitesh Sajnani, Ravindra Naik, and Cristina Lopes. India Software Engineering Conference, Kanpur, India, February 2012
+19. Clone Detection in Open Source Java Projects: The Good, The Bad, and The Ugly - PDFJoel Ossher, Hitesh Sajnani, and Cristina Lopes. In the Proceedings of International Conference on Software Maintenance, Williamsburg, VA, September 2011
+20. Using Change History of Software To Improve Software EvolvabilityRavindra Naik and Hitesh Sajnani. In the Proceedings of India Software Engineering Conferecene, Mysore, India, February 2010
+Projects/Tools
+1. Using Big Sky for Empirical Software Engineering Studies. My work at MSR in Summer 2014 (tool screen-shots)
+2. Classifying Yelp reviews into relevant categories. Our entry in Yelp Dataset Challenge (project homepage)
+3. SourcererCC: Scaling Code Clone Detection to Big-Code  (project homepage)
+
+Professional Services
+Organizing Committee
+Co-Chair, Program, International Workshop on Software Clones, IWSC'17, Klagenfurt, Austria 
+Chair, Social Media, International Conference on Software Maintenance and Evolution, ICSME'15, Bremen, Germany 
+Co-chair, Local arrangements, International Conference on Program Comprehension, ICPC'14, Hyderabad, India 
+Program Committee
+International Conference on Program Comprehension, ICPC'17, Buenos Aires, Argentina 
+India Conference on Software Engineering, ISEC'17, Jaipur, India 
+International Workshop on Software Analytics, SWAN'16, Seattle, USA 
+International Conference on Software Maintenance and Evolution, ICSME'16, Raleigh, USA 
+International Conference on Mining Software Repositories, MSR'16, Texas, USA 
+International Workshop on Software Clones, IWSC'16, Osaka, Japan 
+International Workshop on Software Clones, IWSC'15, Montreal, Canada 
+SIGPLAN conference on Systems, Programming, Languages and Applications, SPLASH'13, Indianapolis, USA 
+ Journal Reviewer 
+Journal on Software Quality, 2014-2015 
+Journal for Software: Evolution and Processes, 2013 
+Empirical Software Engineering, 2016 
+Transactions on Software Engineering, 2016 
+
+Teaching
+I've had the opportunity to assist in teaching of the following courses at University of California, Irvine 
+Informatics 133: User Interaction Software, Fall 2010 
+Informatics 43: Introduction to Software Engineering, Winter 2011 
+Informatics 191A: Senior Design Project, Spring 2011
+
+
+Collaborators
+University of California, Irvine: Prof. Cristina Lopes, Prof. Chen Li, Joel Ossher, Vaibhav Saini, Sarah Javanmardi, Vijay Krishna Palepu, Lee Martie 
+Microsoft Research, Redmond: Dr. Rob DeLine, Dr. Michael Barnett, Jacek Czerwonka 
+University of Washington, Seattle: Prof. David McDonald
+University of Saskatchewan, Canada: Prof. Chanchal Roy, Jeffrey Svajlenko
+Tata Research Design and Development Center, Pune, India:  Ravindra Naik
+
+
+

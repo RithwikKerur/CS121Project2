@@ -1,0 +1,451 @@
+https://acoi.ics.uci.edu/seminars/mean-estimation-in-low-and-high-dimensions
+
+
+
+
+
+
+Mean Estimation in Low and High Dimensions – ACO Center @ UCI 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI  
+
+
+
+
+Algorithms, Combinatorics and Optimization 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Mean Estimation in Low and High Dimensions
+Home>Seminars>Mean Estimation in Low and High Dimensions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Mean Estimation in Low and High Dimensions 
+
+
+
+
+Date: April 21, 2022					
+
+
+
+
+
+Time: 4:00 pm					
+
+
+
+
+
+Room: DBH 4011					
+
+
+
+
+
+Speaker: Paul Valiant 					
+
+
+
+
+
+				 (Purdue University)					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: This talk will discuss the fundamental statistical problem of estimating the mean of a distribution, as accurately as possible given samples from it. This problem arises both as a subcomponent of many algorithms, and also in practice as one of the most important data primitives when dealing with real-world data. While many variants and extensions of this problem have been proposed and analyzed, in this talk I will discuss two of the most iconic: 1) when the data comes from a real-valued distribution, and 2) when the data comes from a high-dimensional vector-valued distribution. In both cases, we achieve the first estimators whose accuracy is optimal to 1+o(1) factors, optimal in its dependence on the unknown (co-) variance of the underlying distribution, the number of samples n, and the desired confidence delta. I will highlight some of the crucial and novel analytical tools used in the analysis, and in particular, draw attention to a new “vector Bernstein inequality” which makes precise the intuition that sums of bounded independent random variables in increasingly high dimensions increasingly “adhere to a spherical shell”. These results suggest several possible extensions in this large and active area of statistical estimation research.
+Based on joint work with Jasper Lee in FOCS’21 and ITCS’22.
+
+
+
+
+
+
+Bio: Paul Valiant is an associate professor of CS at Purdue University. His current work focuses on the intersection of algorithms, machine learning, and statistics, asking “how can we make the best use of valuable data to learn about the world?” He seeks both new algorithms, and new impossibility results. He is interested in using techniques from mathematics, computational models, and high performance computing. Before joining Purdue, Paul was a von Neumann Fellow at the Institute for Advanced Study, and an assistant professor of CS at Brown University. Paul received his B.S. in mathematics and physics from Stanford, and his M.S. and PhD in CS from MIT, and was subsequently an NSF postdoctoral fellow at Berkeley. Recently he won the 2019 Theoretical Cryptography Conference “Test of Time” award “for demonstrating the power of recursive composition of proofs of knowledge and enabling the development of efficiently verifiable proofs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI • Privacy Policy • © 2022 UC Regents 
+
+
+
+
+
+
+
+
+
+Close Menu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to content
+
+
+
+Open toolbar
+
+ 
+
+
+
+
+Accessibility Tools
+
+
+
+Increase Text 
+
+
+
+Decrease Text 
+
+
+
+Grayscale 
+
+
+
+High Contrast 
+
+
+
+Negative Contrast 
+
+
+
+Light Background 
+
+
+
+Links Underline 
+
+
+
+Readable Font 
+
+
+
+
+Reset
+
+
+
+
+
+
+

@@ -1,0 +1,151 @@
+https://www.cs.uci.edu/multidisciplinary-collaborators-awarded-2-1m-to-improve-maternal-care-in-underserved-communities
+
+
+
+
+Multidisciplinary Collaborators Awarded $2.1M to Improve Maternal Care in Underserved Communities 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ this is a widget called second front page widget area
+
+Explore
+
+Contact Us
+
+
+Faculty
+Research
+
+Research Areas
+Research Centers
+
+
+Graduate Degrees
+
+Computer Science Programs
+Current Graduate Students
+
+
+Undergraduate Degrees
+News  & Events
+
+News
+Seminar Series
+Distinguished Lecture Series
+Research Showcase
+
+
+Apply Now
+
+Undergraduate Admissions
+Graduate Admissions
+Faculty Candidates
+
+
+Multidisciplinary Collaborators Awarded $2.1M to Improve Maternal Care in Underserved Communities
+October 18, 2018 Computer Science Professors Nikil Dutt and Marco Levorato, together with Yuqing Guo, a professor in the Sue and Bill Gross School of Nursing, have just embarked on a four-year, multidisciplinary journey. The trio will explore the intersection of technology and healthcare in a community-focused setting with their $2.1 million National Science Foundation (NSF) grant, “UNITE: Smart, Connected, and Coordinated Maternal Care for Underserved Communities.” Joining them in this collaborative effort is Amir Rahmani, a Marie Curie Global Fellow; Stephanie Reich from the School of Education; and Margaret Schneider from the School of Social Ecology. Partnering with a number of nonprofits, most notably MOMS Orange County (MOMS OC), the UCI team aims to use technology to help underserved expectant mothers better monitor their health.
+
+The project is part of the NSF’s Smart and Connected Communities (SCC) effort. “It’s a big bet by NSF to harness researchers from different groups to try and solve problems that have societal impact, that build smart and connected communities,” says Dutt, the project’s principal investigator.
+The project leverages previous work by two key team members: Rahmani and Guo. Rahmani’s research group in Finland developed a ubiquitous monitoring, early detection and prevention system for everyday use by mothers at risk for preterm birth. Guo conducted a study that resulted in empirical evidence of how the MOMS OC home visitation program — serving an estimated 3,800 at-risk pregnant women annually in Orange County — positively affects birth outcomes. Based on the results, Guo developed a program model that will be soon be published in the journal Research and Theory for Nursing Practice.
+Building on this technology and research, the team aims to promote maternal and neonatal health, particularly with underrepresented women and families who have scarce access to healthcare resources. Given the project’s ambitious scale, “it’s kind of scary for us but also exciting,” says Dutt. “We’re really pleased that we landed this one.”
+Building a Community Engagement Model
+The idea behind the UNITE (UNderserved communITiEs) project is to develop and evaluate a technology-based maternal care monitoring-intervention model. The team will develop the model by integrating smart, wearable technologies; partnering with community organizations; and coordinating care using technology to create personalized intervention and education for improved self-management. The project will proactively recruit 1,200 pregnant women in underserved communities over three years.
+“This is a fairly ambitious project,” admits Dutt. It will involve using wearable IoT devices, lifelogging and context recognition for health monitoring in an effort to develop a community-enhanced personalized monitoring and recommendation system. Thus, understanding the context is critical. “If a mom isn’t feeling well, is it because of her health, or stress from a social situation?” Dutt asks. “We’re trying to get that information.”
+This is why “community enhancement” is another key element. “The expectant mothers have a social network of people around them, including other kids, parents, siblings and friends,” says Dutt. “So part of this process is determining how to get information from different contexts in terms of their lifestyle and to see how we can reinforce this through suggestions sent as text alerts or maybe interventions through community organizations such as MOMS OC.” The project will also pull in registered nurses with an “RN-in-the-loop” smart monitoring intervention system that offers personalized feedback.
+“You hear about personalized medicine,” says Dutt. “This is a slightly different aspect of that.” The system aims to consider the individual’s social status, income level and ethnicity. “How we give recommendations has to be sensitive to the social economic status and society mores of that community.”
+The team is thus putting together a community advisory board to provide guidance and feedback. The board will have key members from MOMS OC, UCI Medical Center, St. Joseph Hospital of Orange, Children & Families Commission of Orange County, and Community Health Initiative of Orange County. “They will help us evaluate and assess our proposals so we know if we’re headed in the right direction,” says Dutt. “As researchers, we have all kinds of crazy ideas, but do they actually make sense in the context of a real study?”
+Levorato agrees. “Often for these types of things, you only get data from your students in a very controlled environment, but being out in the field is really more challenging.”
+The various UNITE partners and their roles.
+Tackling the Technical Challenges
+The first year of the project will be spent identifying which technologies to use, as well as analyzing and modeling data to determine how best to configure recommendations.
+“It’s the same as when you’re on Amazon,” says Levorato, referring to recommendations made based on your purchasing history. “But this is more complex, because you have a system that is dynamic and evolving over time.” The user’s needs will depend on her health history and how far along she is in the pregnancy. Furthermore, she might not always wear the device, so there could be missing data.
+“That’s why we proposed taking the community as a starting point,” says Levorato. The goal is to build a model that doesn’t just rely on data from a single person but can pull information from a community of people. “We’re trying to build this puzzle and offer suggestions that make sense immediately, without having a long learning time,” he explains, noting that this is a significant problem in machine learning.
+Another technical challenge is correlating the action with the outcome when building the algorithms. “In Amazon, I show you an advertisement and if you click on it, then that’s my reward,” says Levorato. However, in this case, “you measure the actual reward as the final outcome for the baby and mother,” he explains. The system must be able to look at specific dynamics while still focusing on the long-term objective. “It needs to be more sophisticated than just ‘walk 2,500 steps.’ If these moms in underprivileged communities need to work until the end of their pregnancy and don’t have time to walk, are you putting too much stress on them by telling them they need to be more active?”
+The team also plans to educate the participants and stakeholders about the potential and limits of the technology. “Education is a large component,” says Dutt. In addition to providing each mother with a technology kit, they will offer other resources, such as social media feeds, text messaging apps or chat groups that provide access to other moms or medical professionals.
+Promoting Health
+At the end of this case study, they hope to have a model that can be replicated across other communities and applied in different contexts. They also hope to someday extend their model beyond pregnancy. “We’re primarily focused on maternity care, but the outcome in the first couple of years is also important,” says Dutt, recognizing the need to monitor the health of a new mom and her child. “But that’s a different project. Baby steps!”
+The ultimate goal is to build a promising new maternal nursing care modality to promote population health, particularly with disadvantaged communities, shifting the nursing care paradigm from individual-centered care to a family- and community-coordinated care paradigm.
+— Shani Murray
+« Distinguished Professor Alex Nicolau Elected into Academia EuropaeaProfessor Levorato’s DARPA Project Aims to Strengthen Autonomous Drone Systems »
+
+Latest news
+
+
+Senior Spotlight: Tennis Player and CS Major Matthew Sah Serves Up Aces On and Off the Court
+September 28, 2022
+
+
+Register Today for the Southern California AI & Biomedicine Symposium
+September 20, 2022
+
+
+CPO Magazine: “A Legal View of New NIST Quantum-Resistant Algorithms” by Bryan Cunningham
+September 19, 2022
+
+
+UCI Ranked 24th in Undergraduate Computer Science Programs by U.S. News & World Report
+September 16, 2022
+
+
+Senior Spotlight: Jose Cisneros Builds Impressive Resume with Trio of Internships
+September 15, 2022
+
+
+
+
+ 
+
+
+
+
+
+© 2022 UC Regents
+Feedback
+Privacy Policy
+
+
+
+ 
+
+
+
+

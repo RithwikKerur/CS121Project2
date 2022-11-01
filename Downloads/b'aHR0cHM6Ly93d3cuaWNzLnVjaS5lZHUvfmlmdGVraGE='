@@ -1,0 +1,1102 @@
+https://www.ics.uci.edu/~iftekha
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Toggle navigation
+
+
+
+
+
+
+
+
+
+
+Home
+
+
+
+
+Research Group
+
+
+
+
+Research
+
+
+
+
+Publications
+
+
+
+
+Awards
+
+
+
+
+Projects
+
+
+
+
+Experience
+
+
+
+
+CV and Resume
+
+
+
+
+Service
+
+
+
+
+Contact
+
+
+
+
+Advice
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iftekhar Ahmed
+Assistant Professor in Informatics
+
+
+University of California, Irvine
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+I am accepting PhD students. Please send resumes and cover letters to Iftekha@uci.edu.
+About me
+I am an Assistant Professor of Informatics in the Donald Bren School of Information and Computer Science at the University of California, Irvine. My research focus is on software engineering in general and combining software testing, analysis and data mining to come up
+with better tools and techniques in particular.  I finished my B.Sc. in Computer Science and Engineering from Shahjalal University of Science and Technology, Bangladesh and after working in the industry for 4 years,
+did my Ph.D. at Oregon State University. I was advised by Carlos Jensen.
+
+
+Interests
+
+Software Engineering
+Testing
+Machine Learning
+
+
+
+Education
+
+
+
+
+PhD in Computer Science, 2018
+Oregon State University
+
+
+
+
+
+BSc in Computer Science & Engineering, 2007
+Shahjalal University of Science and Technology
+
+
+
+
+
+
+
+
+
+
+
+
+
+Recent News
+
+
+
+May 20, 2020: Our paper got accepted at FSE 2020!
+
+On the Relationship Between Design Discussions and Design
+Quality: A Case Study of Apache Projects
+
+
+February 3, 2020: Our paper got accepted at EASE 2020!
+
+A Multiple Case Study of Artificial Intelligent System Development in Industry
+
+
+December 8, 2019: Two of our papers got accepted at ICSE 2020!
+
+Planning for Untangling: Predicting the Difficulty of Merge Conflicts
+Accessibility Issues in Android Apps: State of Affairs, Sentiments, and Ways Forward
+
+
+
+
+
+
+
+
+
+
+Research
+
+
+
+My research focuses on testing, developing and understanding critical software systems and ways to combine testing, static analysis and machine learning approaches for coming up with better tools and techniques. I have been working on using static code analysis for identifying factors related to code, developer and process that affect the quality of the software measured in terms of bugs and design issues.
+I have been also exploring the effectiveness of mutation analysis of programs and especially how to make mutation analysis a workable technique for real-world developers and testers. Mutation analysis is a reasonable proxy for measuring the effectiveness of test suites, but its also computationally and time intensive. Even a moderately large software project would require millions of test suite runs. This makes mutation analysis impossible to use by developers and practicing testers working on real-world problems. My research focuses on how we can scale mutation analysis to real world complex software systems.
+
+
+
+
+
+
+
+
+
+Research Group
+
+
+
+ Software Engineering & Testing Using Artificial Intelligence for Reliable Software (STAIRS)
+
+
+
+
+
+
+
+
+
+Awards
+
+
+
+IBM Ph.D. Fellowship for academic year 2016-2017.
+Graduate School tuition relief Scholarship for academic year 2016-2017
+IBM Ph.D. Fellowship for academic year 2017-2018.
+
+
+
+
+
+
+
+
+
+Conference Publications
+
+
+        More Publications
+        
+
+
+
+
+
+
+
+
+A Multiple Case Study of Artificial Intelligent System Development in Industry
+
+
+        
+        Background: Software development teams adopt various communication tools to support coordination and team interaction during the software development process. Among many other communication channels, developers’ use instant messaging to discuss ideas, decisions and other project related issues with team members. Due to the informal nature of instant messaging, many of these discussions and decisions are lost. This situation could be even more critical in startups and other software companies that rely more heavily on instant message tools or other informal communication channels.Aims: This work investigates the effectiveness of using a semiautomatic approach for identifying, extracting, and determining a project’s lost knowledge that was discussed using unstructured communication tools such as instant message.Methodology: We employed data-mining techniques to automatically retrieve discussions from instant message logs and showed them to the project managers to identify lost knowledge from two startup companies.Results: Our results demonstrate that the data-mining technique was capable of retrieving sentences with relevant issues discussion; reaching a precision of 75% at the first 10 relevant sentences evaluated. Moreover, the qualitative analysis conducted involving project managers shows an association of retrieved sentences with the project’s lost knowledge.Conclusion: Our findings indicate that automated approaches can be used to identify such lost knowledge in software development projects. Follow-up interviews revealed the interest of PMs in adopting such automated tools in other projects.
+        
+      
+
+        
+        Anh Nguyen Duc, Pekka Abrahamsson, Ingrid Sunbø, Elizamary Nascimento, Tayana Conte, Iftekhar Ahmed
+
+
+        In EASE, 2020.
+      
+
+
+  Details
+
+
+
+
+
+
+
+
+
+Accessibility Issues in Android Apps: State of Affairs, Sentiments, and Ways Forward.
+
+
+        
+        Mobile apps are an integral component of our daily life. Ability touse mobile apps is important for everyone, but arguably even moreso for approximately 15% of the world population with disabili-ties. This paper presents the results of a large-scale empirical studyaimed at understanding accessibility of Android apps from threecomplementary perspectives. First, we analyze the prevalence ofaccessibility issues in over1,000Android apps. We find that almostall apps are riddled with accessibility issues, hindering their useby disabled people. We then investigate the developer sentimentsthrough a survey aimed at understanding the root causes of somany accessibility issues. We find that in large part developersare unaware of accessibility design principles and analysis tools,and the organizations in which they are employed do not place apremium on accessibility. We finally investigate user ratings andcomments on app stores. We find that due to the disproportion-ately small number of users with disabilities, user ratings and apppopularity are not indicative of the extent of accessibility issues inapps. We conclude the paper with several observations that formthe foundation for future research and development.
+        
+      
+
+        
+        Abdul Aziz. Alshayban, Iftekhar Ahmed, Sam Malek
+        
+      
+
+        In ICSE, 2020.
+      
+
+
+  Details
+
+
+  PDF
+
+
+
+
+
+
+
+
+
+Planning for Untangling: Predicting the Difficulty of Merge Conflicts.
+
+
+        
+        Although mutation analysis is considered the best way to evaluate the effectiveness of a test suite, hefty computa- tional cost often limits its use. To address this problem, var- ious mutation reduction strategies have been proposed, all seeking to reduce the number of mutants while maintaining the representativeness of an exhaustive mutation analysis. While research has focused on the reduction achieved, the effectiveness of these strategies in selecting representative mutants, and the limits in doing so have not been investi- gated, either theoretically or empirically. We investigate the practical limits to the effectiveness of mutation reduction strategies, and provide a simple theoret- ical framework for thinking about the absolute limits. Our results show that the limit in improvement of effectiveness over random sampling for real-world open source programs is a mean of only 13.078%. Interestingly, there is no limit to the improvement that can be made by addition of new mutation operators. Given that this is the maximum that can be achieved with perfect advance knowledge of mutation kills, what can be practically achieved may be much worse. We conclude that more effort should be focused on enhancing mutations than removing operators in the name of selective mutation for questionable benefit.
+        
+      
+
+        
+        Caius Brindescu, Iftekhar Ahmed, Rafael Leano, Anita Sarma
+        
+      
+
+        In ICSE, 2020.
+      
+
+
+  Details
+
+
+  PDF
+
+
+
+
+
+
+
+
+
+Land of Lost Knowledge: An Initial Investigation into Projects Lost Knowledge
+
+
+        
+        Background: Software development teams adopt various communication tools to support coordination and team interaction during the software development process. Among many other communication channels, developers’ use instant messaging to discuss ideas, decisions and other project related issues with team members. Due to the informal nature of instant messaging, many of these discussions and decisions are lost. This situation could be even more critical in startups and other software companies that rely more heavily on instant message tools or other informal communication channels.Aims: This work investigates the effectiveness of using a semiautomatic approach for identifying, extracting, and determining a project’s lost knowledge that was discussed using unstructured communication tools such as instant message.Methodology: We employed data-mining techniques to automatically retrieve discussions from instant message logs and showed them to the project managers to identify lost knowledge from two startup companies.Results: Our results demonstrate that the data-mining technique was capable of retrieving sentences with relevant issues discussion; reaching a precision of 75% at the first 10 relevant sentences evaluated. Moreover, the qualitative analysis conducted involving project managers shows an association of retrieved sentences with the project’s lost knowledge.Conclusion: Our findings indicate that automated approaches can be used to identify such lost knowledge in software development projects. Follow-up interviews revealed the interest of PMs in adopting such automated tools in other projects.
+        
+      
+
+        
+        Marcia Lima, Iftekhar Ahmed, Tayana Conte, Elizamary Nascimento, Edson Oliveira, Bruno Gadelha
+        
+      
+
+        In ESEM, 2019.
+      
+
+
+  Details
+
+
+  PDF
+
+
+
+
+
+
+
+
+
+Understanding Development Process of Machine Learning Systems: Challenges and Solutions
+
+
+        
+        Background The number of Machine Learning (ML) systems developed in the industry is increasing rapidly. Since ML systems are different from traditional systems, these differences are clearly visible in different activities pertaining to ML systems software development process. These differences make the Software Engineering (SE) activities more challenging for ML systems because not only the behavior of the system is data dependent, but also the requirements are data dependent. In such scenario, how can Software Engineering better support the development of ML systems? Aim: Our objective is twofold. First, better understand the process that developers use to build ML systems. Second, identify the main challenges that developers face, proposing ways to overcome these challenges. Method: We conducted interviews with seven developers from three software small companies that develop ML systems. Based on the challenges uncovered, we proposed a set of checklists to support the developers. We assessed the checklists by using a focus group. Results: We found that the ML systems development follow a 4-stage process in these companies. These stages are: understanding the problem, data handling, model building, and model monitoring. The main challenges faced by the developers are: identifying the clients’ business metrics, lack of a defined development process, and designing the database structure. We have identified in the focus group that our proposed checklists provided support during identification of the clients business metrics and in increasing visibility of the progress of the project tasks. Conclusions: Our research is an initial step towards supporting the development of ML systems, suggesting checklists that support developers in essential development tasks, and also serve as a basis for future research in the area.
+        
+      
+
+        
+        Elizamary Nascimento, Iftekhar Ahmed, Edson de Oliveira, Marcio Piedade Palheta, Igor Steinmacher, Tayana Conte
+        
+      
+
+        In ESEM, 2019.
+      
+
+
+  Details
+
+
+  PDF
+
+
+
+
+
+
+
+
+
+Towards understanding code readability and its impact on design quality.
+
+
+        
+        Readability of code is commonly believed to impact the overall quality of software. Poor readability not only hinders developers from understanding what the code is doing but also can cause developers to make sub-optimal changes and introduce bugs. Developers also recognize this risk and state readability among their top information needs. Researchers have modeled readability scores. However, thus far, no one has investigated how readability evolves over time and how that impacts design quality of software. We perform a large scale study of 49 open source Java projects, spanning 8296 commits and 1766 files. We find that readability is high in open source projects and does not fluctuate over project’s lifetime unlike design quality of a project. Also readability has a non-significant correlation of 0.151 (Kendall’s τ ) with code smell count (indicator of design quality). Since current readability measure is unable to capture the increased difficulty in reading code due to the degraded design quality, our results hint towards the.
+        
+      
+
+        
+        Umme Ayda Mannan, Iftekhar Ahmed, Anita Sarma
+        
+      
+
+        In NL4SE, 2018.
+      
+
+
+  Details
+
+
+  PDF
+
+
+
+
+
+
+
+
+
+A Case Study of Motivations for Corporate Contribution to FOSS
+
+
+        
+        Free/Open Source Software developers come from a myriad of different backgrounds, and are driven to contribute to projects for a variety of different reasons, including compensation from corporations or foundations. Motivation can have a dramatic impact on how and what contribution an individual makes, as well as how tenacious they are. These contributions may align with the needs of the developer, the community, the organization funding the developer, or all of the above. Understanding how corporate sponsorship affects the social dynamics and evolution of Free/Open Source code and community is critical to fostering healthy communities. We present a case study of corporations contributing to the Linux Kernel. We find that corporate contributors contribute more code, but are less likely to participate in non-coding activities. This knowledge will help project leaders to better understand the dynamics of sponsorship, and help to steer resources.
+        
+      
+
+Iftekhar Ahmed, Darren Forrest, Carlos Jensen
+        
+      
+
+        In VL/HCC, 2017.
+      
+
+
+  Details
+
+
+  PDF
+
+
+
+
+
+
+
+
+
+An Empirical Examination of the Relationship Between Code Smells and Merge Conflicts
+
+
+        
+        Background: Merge conflicts are a common occurrence in software development. Researchers have shown the negative impact of conflicts on the resulting code quality and the development workflow. Thus far, no one has investigated the effect of bad design (code smells) on merge conflicts. Aims: We posit that entities that exhibit certain types of code smells are more likely to be involved in a merge conflict. We also postulate that code elements that are both “smelly” and involved in a merge conflict are associated with other undesirable effects (more likely to be buggy). Method: We mined 143 repositories from GitHub and recreated 6,979 merge conflicts to obtain metrics about code changes and conflicts. We categorized conflicts into semantic or non-semantic, based on whether changes affected the Abstract Syntax Tree. For each conflicting change, we calculate the number of code smells and the number of future bug-fixes associated with the affected lines of code. Results: We found that entities that are smelly are three times more likely to be involved in merge conflicts. Method-level code smells (Blob Operation and Internal Duplication) are highly correlated with semantic conflicts. We also found that code that is smelly and experiences merge conflicts is more likely to be buggy. Conclusion: Bad code design not only impacts maintainability, it also impacts the day to day operations of a project, such as merging contributions, and negatively impacts the quality of the resulting code. Our findings indicate that research is needed to identify better ways to support merge conflict resolution to minimize its effect on code quality.
+        
+      
+
+Iftekhar Ahmed, Caius Brindescu, Umme Ayda Mannan, Anita Sarma, Carlos Jensen
+        
+      
+
+        In ESEM, 2017.
+      
+
+
+  Details
+
+
+  PDF
+
+
+
+
+
+
+
+
+
+Applying Mutation Analysis On Kernel Test Suites An Experience Report.
+
+
+        
+        Mutation analysis is an established technique for measuring the completeness and quality of a test suite. Despite four decades of research on this technique, its use in large systems is still rare, in part due to computational requirements and high numbers of false positives. We present our experiences using mutation analysis on the Linux kernel’s RCU (Read Copy Update) module, where we adapt existing techniques to constrain the complexity and computation requirements. We show that mutation analysis can be a useful tool, uncovering gaps in even well-tested modules like RCU. This experiment has so far led to the identification of 3 gaps in the RCU test harness, and 2 bugs in the RCU module masked by those gaps. We argue that mutation testing can and should be more extensively used in practice.
+        
+      
+
+Iftekhar Ahmed, Carlos Jensen, Alex Groce, Paul E. McKenney
+        
+      
+
+        In ICSTW, 2017.
+      
+
+
+  Details
+
+
+  PDF
+
+
+
+
+
+
+
+
+
+Can Testedness be Effectively Measured?
+
+
+        
+        Among the major questions that a practicing tester faces are deciding where to focus additional testing effort, and deciding when to stop testing. Test the least-tested code, and stop when all code is well-tested, is a reasonable answer. Many measures of ‘testedness’ have been proposed; unfortunately, we do not know whether these are truly effective. In this paper we propose a novel evaluation of two of the most important and widely-used measures of test suite quality. The first measure is statement coverage, the simplest and best-known code coverage measure. The second measure is mutation score, a supposedly more powerful, though expensive, measure.We evaluate these measures using the actual criteria of interest: if a program element is (by these measures) well tested at a given point in time, it should require fewer future bug-fixes than a ‘poorly tested’ element. If not, then it seems likely that we are not effectively measuring testedness. Using a large number of open source Java programs from Github and Apache, we show that both statement coverage and mutation score have only a weak negative correlation with bug-fixes. Despite the lack of strong correlation, there are statistically and practically significant differences between program elements for various binary criteria. Program elements (other than classes) covered by any test case see about half as many bug-fixes as those not covered, and a similar line can be drawn for mutation score thresholds. Our results have important implications for both software engineering practice and research evaluation.
+        
+      
+
+Iftekhar Ahmed, Rahul Gopinath, Caius Brindescu, Alex Groce, Carlos Jensen
+        
+      
+
+        In FSE, 2016.
+      
+
+
+  Details
+
+
+  PDF
+
+
+
+
+
+
+
+
+
+Understanding Code Smells in Android Applications
+
+
+        
+        Code smells are associated with poor coding practices that cause long-term maintainability problems and mask bugs. Despite mobile being a fast growing software sector, code smells in mobile applications have been understudied. We do not know how code smells in mobile applications compare to those in desktop applications, and how code smells are affecting the design of mobile applications. Without such knowledge, application developers, tool builders, and researchers cannot improve the practice and state of the art of mobile development. We first reviewed the literature on code smells in Android applications and found that there is a significant gap between the most studied code smells in literature and most frequently occurring code smells in real world applications. Inspired by this finding, we conducted a large scale empirical study to compare the type, density, and distribution of code smells in mobile vs. desktop applications. We analyze an open-source corpus of 500 Android applications (total of 6.7M LOC) and 750 desktop Java applications (total of 16M LOC), and compare 14,553 instances of code smells in Android applications to 117,557 instances of code smells in desktop applications. We find that, despite mobile applications having different structure and workflow than desktop applications, the variety and density of code smells is similar. However, the distribution of code smells is different – some code smells occur more frequently in mobile applications. We also found that different categories of Android applications have different code smell distributions. We highlight several implications of our study for application developers, tool builders, and researchers.
+        
+      
+
+        
+        Umme Ayda Mannan, Iftekhar Ahmed, Rana Almurshed, Danny Dig, Carlos Jensen
+        
+      
+
+        In MOBILESOFT, 2016.
+      
+
+
+  Details
+
+
+  PDF
+
+
+
+
+
+
+
+
+
+Measuring Effectiveness of Mutant Sets.
+
+
+        
+        Redundancy in mutants, where multiple mutants end up producing the same semantic variant of a program, is a major problem in mutation analysis. Hence, a measure of effectiveness that accounts for redundancy is an essential tool for evaluating mutation tools, new operators, and reduction techniques. Previous research suggests using the size of the disjoint mutant set as an effectiveness measure. We start from a simple premise: test suites need to be judged on both the number of unique variations in specifications they detect (as a variation measure), and also on how good they are at detecting hard-to-find faults (as a measure of thoroughness). Hence, any set of mutants should be judged by how well it supports these measurements. We show that the disjoint mutant set has two major inadequacies — the single variant assumption and the large test suite assumption — when used as a measure of effectiveness in variation. These stem from its reliance on minimal test suites. We show that when used to emulate hard to find bugs (as a measure of thoroughness), disjoint mutant set discards useful mutants. We propose two alternatives: one measures variation and is not vulnerable to either the single variant assumption or the large test suite assumption; the other measures thoroughness.
+        
+      
+
+        
+        Rahul Gopinath, Amin Alipour, Iftekhar Ahmed, Carlos Jensen, Alex Groce
+        
+      
+
+        In ICSTW, 2016.
+      
+
+
+  Details
+
+
+  PDF
+
+
+
+
+
+
+
+
+
+On the limits of mutation reduction strategies.
+
+
+        
+        Although mutation analysis is considered the best way to evaluate the effectiveness of a test suite, hefty computa- tional cost often limits its use. To address this problem, var- ious mutation reduction strategies have been proposed, all seeking to reduce the number of mutants while maintaining the representativeness of an exhaustive mutation analysis. While research has focused on the reduction achieved, the effectiveness of these strategies in selecting representative mutants, and the limits in doing so have not been investi- gated, either theoretically or empirically. We investigate the practical limits to the effectiveness of mutation reduction strategies, and provide a simple theoret- ical framework for thinking about the absolute limits. Our results show that the limit in improvement of effectiveness over random sampling for real-world open source programs is a mean of only 13.078%. Interestingly, there is no limit to the improvement that can be made by addition of new mutation operators. Given that this is the maximum that can be achieved with perfect advance knowledge of mutation kills, what can be practically achieved may be much worse. We conclude that more effort should be focused on enhancing mutations than removing operators in the name of selective mutation for questionable benefit.
+        
+      
+
+        
+        Rahul Gopinath, Amin Alipour, Iftekhar Ahmed, Carlos Jensen, Alex Groce
+        
+      
+
+        In ICSE, 2016.
+      
+
+
+  Details
+
+
+  PDF
+
+
+
+
+
+
+
+
+
+An Empirical Study of Design Degradation How Software Projects Get Worse Over Time
+
+
+        
+        Context: Software decay is a key concern for large, long-lived software projects. Systems degrade over time as design and implementation compromises and exceptions pile up.Goal: Quantify design decay and understand how software projects deal with this issue.Method: We conducted an empirical study on the presence and evolution of code smells, used as an indicator of design degradation in 220 open source projects.Results: The best approach to maintain the quality of a project is to spend time reducing both software defects (bugs) and design issues (refactoring). We found that design issues are frequently ignored in favor of fixing defects. We also found that design issues have a higher chance of being fixed in the early stages of a project, and that efforts to correct these stall as projects mature and the code base grows, leading to a build-up of problems.Conclusions: From studying a large set of open source projects, our research suggests that while core contributors tend to fix design issues more often than non-core contributors, there is no difference once the relative quantity of commits is accounted for. We also show that design issues tend to build up over time.
+        
+      
+
+Iftekhar Ahmed, Umme Ayda Mannan, Rahul Gopinath, Carlos Jensen
+        
+      
+
+        In ESEM, 2015.
+      
+
+
+  Details
+
+
+  PDF
+
+
+
+
+
+
+
+
+
+How Hard Does Mutation Analysis Have to Be, Anyway?
+
+
+        
+        Mutation analysis is considered the best method for measuring the adequacy of test suites. However, the number of test runs required for a full mutation analysis grows faster than project size, which is not feasible for real-world software projects, which often have more than a million lines of code. It is for projects of this size, however, that developers most need a method for evaluating the efficacy of a test suite. Various strategies have been proposed to deal with the explosion of mutants. However, these strategies at best reduce the number of mutants required to a fraction of overall mutants, which still grows with program size. Running, e.g., 5% of all mutants of a 2MLOC program usually requires analyzing over 100,000 mutants. Similarly, while various approaches have been proposed to tackle equivalent mutants, none completely eliminate the problem, and the fraction of equivalent mutants remaining is hard to estimate, often requiring manual analysis of equivalence. In this paper, we provide both theoretical analysis and empirical evidence that a small constant sample of mutants yields statistically similar results to running a full mutation analysis, regardless of the size of the program or similarity between mutants. We show that a similar approach, using a constant sample of inputs can estimate the degree of stubbornness in mutants remaining to a high degree of statistical confidence, and provide a mutation analysis framework for Python that incorporates the analysis of stubbornness of mutants.
+        
+      
+
+        
+        Rahul Gopinath, Amin Alipour, Iftekhar Ahmed, Carlos Jensen, Alex Groce
+        
+      
+
+        In ISSRE, 2015.
+      
+
+
+  Details
+
+
+  PDF
+
+
+
+
+
+
+
+
+
+
+
+
+
+Journal Publications
+
+
+
+
+
+
+An empirical investigation into merge conflicts and their effect on software quality
+
+
+        
+        Formal verification has advanced to the point that developers can verify the correctness of small, critical modules.Unfortunately, despite considerable efforts, determining if a “verification” verifies what the author intends is still difficult. Previous approaches are difficult to understand and often limited in applicability. Developers need verification coverage in terms of the software they are verifying, not model checking diagnostics. We propose a methodology to allow developers to determine (and correct) what it is that they have verified, and tools to support that methodology. Our basic approach is based on a novel variation of mutation analysis and the idea of verification driven by falsification.We use theCBMCmodel checker to showthat this approach is applicable not only to simple data structures and sorting routines, and verification of a routine in Mozilla’s JavaScript engine, but to understanding an ongoing effort to verify the Linux kernel read-copy-updatemechanism. Moreover, we show that despite the probabilistic nature of random testing and the tendency to incompleteness of testing as opposed to verification, the same techniques, with suitable modifications, apply to automated test generation as well as to formal verification. In essence, it is the number of surviving mutants that drives the scalability of our methods, not the underlying method for detecting faults in a program. From the point of view of a Popperian analysis where an unkilled mutant is a weakness (in terms of its falsifiability) in a “scientific theory” of program behavior, it is only the number of weaknesses to be examined by a user that is important.
+        
+      
+
+        
+        Caius Brindescu, Iftekhar Ahmed, Carlos Jensen, Anita Sarma
+        
+      
+
+        In *ESE, 2019.
+      
+
+
+  Details
+
+
+  PDF
+
+
+
+
+
+
+
+
+
+How verified (or tested) is my code? Falsification-driven verification and testing
+
+
+        
+        Formal verification has advanced to the point that developers can verify the correctness of small, critical modules.Unfortunately, despite considerable efforts, determining if a “verification” verifies what the author intends is still difficult. Previous approaches are difficult to understand and often limited in applicability. Developers need verification coverage in terms of the software they are verifying, not model checking diagnostics. We propose a methodology to allow developers to determine (and correct) what it is that they have verified, and tools to support that methodology. Our basic approach is based on a novel variation of mutation analysis and the idea of verification driven by falsification.We use theCBMCmodel checker to showthat this approach is applicable not only to simple data structures and sorting routines, and verification of a routine in Mozilla’s JavaScript engine, but to understanding an ongoing effort to verify the Linux kernel read-copy-updatemechanism. Moreover, we show that despite the probabilistic nature of random testing and the tendency to incompleteness of testing as opposed to verification, the same techniques, with suitable modifications, apply to automated test generation as well as to formal verification. In essence, it is the number of surviving mutants that drives the scalability of our methods, not the underlying method for detecting faults in a program. From the point of view of a Popperian analysis where an unkilled mutant is a weakness (in terms of its falsifiability) in a “scientific theory” of program behavior, it is only the number of weaknesses to be examined by a user that is important.
+        
+      
+
+        
+        Alex Groce, Iftekhar Ahmed, Carlos Jensen, Paul E. McKenney, Josie Holmes
+        
+      
+
+        In *JASE, 2018.
+      
+
+
+  Details
+
+
+  PDF
+
+
+
+
+
+
+
+
+
+Mutation Reduction Strategies Considered Harmful
+
+
+        
+        Mutation analysis is a well-known yet unfortunately costly method for measuring test suite quality. Researchers have proposed numerous mutation reduction strategies in order to reduce the high cost of mutation analysis, while preserving the representativeness of the original set of mutants. As mutation reduction is an area of active research, it is important to understand the limits of possible improvements. We theoretically and empirically investigate the limits of improvement in effectiveness from using mutation reduction strategies compared to random sampling. Using real-world open source programs as subjects, we find an absolute limit in improvement of effectiveness over random sampling —13.078%. Given our findings with respect to absolute limits, one may ask: how effective are the extant mutation reduction strategies? We evaluate the effectiveness of multiple mutation reduction strategies in comparison to random sampling. We find that none of the mutation reduction strategies evaluated —many forms of operator selection, and stratified sampling (on operators or program elements) —produced an effectiveness advantage larger than 5% in comparison with random sampling. Given the poor performance of mutation selection strategies — they may have a negligible advantage at best, and often perform worse than random sampling – we caution practicing testers against applying mutation reduction strategies without adequate justification.
+        
+      
+
+        
+        Rahul Gopinath, Iftekhar Ahmed, Amin Alipour, Carlos Jensen, Alex Groce
+        
+      
+
+        In TR, 2017.
+      
+
+
+  Details
+
+
+  PDF
+
+
+
+
+
+
+
+
+
+Does the Choice of Mutation Tool Matter?
+
+
+        
+        Though mutation analysis is the primary means of evaluating the quality of test suites, though it suffers from inadequate standardization. Mutation analysis tools vary based on language, when mutants are generated (phase of compilation), and target audience. Mutation tools rarely implement the complete set of operators proposed in the literature, and most implement at least a few domain-specific mutation operators. Thus different tools may not always agree on the mutant kills of a test suite, and few criteria exist to guide a practitioner in choosing a tool, or a researcher in comparing previous results. We investigate an ensemble of measures such as traditional difficulty of detection, strength of minimal sets, diversity of mutants, as well as the information carried by the mutants produced, to evaluate the efficacy of mutant sets. By these measures, mutation tools rarely agree, often with large differences, and the variation due to project, even after accounting for difference due to test suites, is significant. However, the mean difference between tools is very small indicating that no single tool consistently skews mutation scores high or low for all projects. These results suggest that research using a single tool, a small number of projects, or small increments in mutation score may not yield reliable results. There is a clear need for greater standardization of mutation analysis; we propose one approach for such a standardization.
+        
+      
+
+        
+        Rahul Gopinath, Iftekhar Ahmed, Amin Alipour, Carlos Jensen, Alex Groce
+        
+      
+
+        In SQJ, 2016.
+      
+
+
+  Details
+
+
+  PDF
+
+
+
+
+
+
+
+
+
+
+
+
+
+Technical report
+
+
+
+
+
+    Rahul Gopinath, Iftekhar Ahmed, Amin Alipour, Carlos Jensen, Alex Groce.
+  Does the Choice of Mutation Tool Matter?.
+  In Technical Report, 2015.
+  
+
+  Details
+
+
+  PDF
+
+
+
+
+
+
+    Rahul Gopinath, Amin Alipour, Iftekhar Ahmed, Carlos Jensen, Alex Groce.
+  An Empirical Comparison of Mutant Selection Approaches .
+  In Technical Report, 2014.
+  
+
+  Details
+
+
+  PDF
+
+
+
+
+
+
+
+
+
+
+
+Invited Talks
+
+
+
+Improving Quality of Software Using Bug Proneness Prediction. Institute for Software Research Forum, UC Irvine. 2019
+Improving Quality of Software in Exploring the Unexplored in Social Software Development Platforms workshop held at UC Irvine. 2019
+Improving the quality of software using testing and fault prediction. University of Nebraska–Lincoln. 2018
+How to apply mutation testing to the RCU for fun and profit. Linux Plumbers Conference 2015
+How to apply mutation testing to the RCU for fun and profit: A progress report. Linux Plumbers Conference 2016
+
+
+
+
+
+
+
+
+
+Service
+
+
+
+Program Committee Member, 41st ACM/IEEE International Conference on Software Engineering (ICSE 2019) in New Ideas and Emerging Results track, Montreal, Canada. May 2019
+Program Committee Member, IEEE/ACM International Conference on Automated Software Engineering (ASE 2019), San Diego, California, United States.
+Reviewer, Transactions on Software Engineering and Methodology (TOSEM), 2019,2020
+Reviewer, Transactions on Software Engineering (TSE), 2019,2020
+Reviewer, IEEE Transactions on Reliability, 2017,2018,2019,2020
+Reviewer, Computing Journal, 2018
+Reviewer, Software Testing, Verification and Reliability Journal, 2017
+Reviewer, IEEE/ACM International Conference on Automated Software Engineering (ASE), 2017,2019
+Reviewer, IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC), 2017
+
+
+
+
+
+
+
+
+
+Projects
+
+
+*
+
+
+
+
+All
+Large Scale Mutation Analysis
+
+
+
+
+
+
+
+
+
+
+
+Large Scale Mutation Analysis
+
+Imprroving the reliability of Linux kernel by applying mutation analysis
+
+
+
+
+
+
+
+
+
+
+
+
+
+Experience
+
+
+Teaching Experience
+Assistant Professor, Department of Informatics, University of California, Irvine
+
+In4matx115-Software Testing, Analysis, and Quality Assurance
+In4matx 215- Software Testing and Analysis
+SWE225/COMPSCI221- Information Retrieval
+
+Instructor, Computer Science Department, Oregon State University
+
+CS361: Software Engineering I
+CS362: Software Engineering II
+CS275: Introduction to Databases
+
+Teaching Assistant,Computer Science Department, Oregon State University
+
+CS440: Database Management Systems
+CS275: Introduction to Databases
+CS361: Software Engineering I
+CS362: Software Engineering II
+
+Industry Experience
+Senior Executive, Operations/Technology, Grameenphone Ltd., Dhaka, Bangladesh
+
+Duration: May 2010-Augst 2011
+Major projects:
+Developed distributed mobile Commerce Ticketing solution using jsp and oracle on UMB interface.
+Web Based mobile airtime recharge application.
+End to End system requirement analysis and finalization of Mobile Commerce solutions.
+Developed Website Scrapping and Data Extraction tool using php.
+
+System Engineer, IT Operations, Grameenphone Ltd. Dhaka, Bangladesh
+
+Duration: June 2007-May 2008
+Major projects:
+Developed Issue tracking system for efficient support service for IT helpdesk engineers.
+
+
+
+
+
+
+
+
+
+CV and Resume
+
+
+
+Download my CV
+
+
+
+
+
+
+
+
+
+
+Contact
+
+
+
+
+
+iftekha@uci.edu
+
+
+
+5228 Donald Bren Hall, Irvine, CA 92697-3440 
+
+
+
+Email for appointment
+
+
+
+
+
+
+
+
+
+
+Advice
+
+
+Applying for MS or PhD Programs
+
+ Guidance on Writing a Statement of Purpose (UIUC)
+
+Advice Collection
+
+ Tao Xie’s advice (UIUC)
+ Michael Ernst’s advice (UW)
+ Jason Hong’s advice (CMU) 
+ Andy Ko’s advice (UW) 
+ Mor Harchol-Balter advice (CMU) 
+
+
+
+
+
+
+
+
+
+      © 2020 Iftekhar Ahmed · 
+
+      Powered by the Academic
+      theme for Hugo.
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

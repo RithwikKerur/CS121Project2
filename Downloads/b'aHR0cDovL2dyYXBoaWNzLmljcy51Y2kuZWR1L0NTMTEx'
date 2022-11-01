@@ -1,0 +1,180 @@
+http://graphics.ics.uci.edu/CS111
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CS 111: Digital Image Processing 
+Quarter: Spring 2019
+Instructor: Aditi Majumder
+Email: majumder @ ics.uci.edu
+Lecture: Wednesdays,
+7:00pm-9:50pm (ICS 174)
+Office Hours: Wednesdays,
+5:30pm-6:30pm (DBH 4056)
+
+ 
+Teaching Assistant:
+Muhammad Twaha Ibrahim
+Email: muhammti @ uci.edu
+Discussion: Fridays 1:00pm-1:50pm (ICS 174)
+Office Hours: Tuesdays, 2:00pm-4:00pm (DBH 4231)
+
+ 
+Reader:
+Nitin Agarwal
+Email: agarwal @ uci.edu
+
+ 
+Course Description
+In many business and industry
+application domains handling and processing of digital images is a basic and
+important component. This spans an extremely wide range of applications from
+digital content creation and management for web-based applications over medical
+imaging, digital photography, digital print and publishing to real-time 3D
+graphics in simulations and computer games. The widespread use of digital-image
+content makes it possible to effectively communicate
+visual results. This course prepares students in the fundamentals of digital
+image processing as used in various applications as outlined above and
+illustrates the various effects one can achieve with digital images and how to
+extract fundamental information. 
+Prerequisite 
+ICS 23/CSE23,
+ICS6A/Math6A and Math6C/Math3A with grades of C or better.
+Outline of the Syllabus 
+
+Linear Systems and
+     Decomposition of Signals 
+Convolution and Properties 
+Edge Detection, Crispening 
+Correlation and Feature
+     Detection 
+Discrete Fourier Transform
+     and its Properties, Spectral Ananlysis, Fourier
+     Pairs 
+Continuous Signal Processing 
+Digital Filtering and Noise
+     Cleaning 
+Image Sampling,
+     Reconstruction, Resampling and Quantization 
+Image Enhancement and
+     Histogram Processing 
+Geometric Image Operations 
+Morphological Image
+     Processing 
+Image Segmentation 
+Color Models 
+Image Compression 
+
+ 
+Tentative Class
+Schedule 
+ 
+Link to Piazza
+
+
+
+
+Books
+
+1. Main text:  Introduction
+     to Visual Computing, Aditi Majumder, M. Gopi
+      (Link)
+2. Main reference:  The
+     Scientist and Engineer's Guide to Digital Signal Processing, Steven W.
+     Smith (Online)
+3. Digital
+     Image Processing (2nd Edition), Rafael C. Gonzalez, Richard E. Woods; 
+4. Digital
+     Image Processing: 3rd Edition, William K. Pratt
+
+Grading Policy 
+
+Programming Assignments : 20%
+     
+Written Assignments: 20% 
+Midterm: 25% 
+Pop Quiz: 5%
+Final: 30% 
+
+ 
+ 
+Weekly Reading Assignments
+Lecture Slides: 
+
+Logistics (Week 1)
+Fundamentals (Week 1)
+Linear Systems and Convolution (Week 1)
+Linear Filters (Week 2)
+Fourier Transform (Week 2)
+Feature Detection (Week 4)
+Histogram Processing (Week 5)
+Color Image Processing (Week 6 - Text 4, Chapter 10)
+Geometric Transformations (Week 7 - Main Text, Chapter 6)
+Image Compression (Week 8)
+Morphological Operations  (Week 8 - Text 3, Chapter 9.1 - 9.5)
+Review and Importance (week 10)
+
+ 
+
+Programming
+Assignments: 
+
+Programming Assignment 1 (Due: Apr 10th, 2019 @ 11:59 p.m.) 
+
+Programming Assignment 2 (Due: Apr 24th, 2019 @ 11:59 p.m.) 
+
+Programming Assignment 3 (Due: May 9th, 2019 @ 11:59 p.m.) 
+
+Programming Assignment 4 (Due: May 15th, 2019 @ 11:59 p.m.) 
+Programming Assignment 5 (Due: June 1st, 2019 @ 11:59 p.m.) 
+
+
+Written Assignments:
+
+
+Written Assignment 1 and its solution (Due: May 2nd, 2019 @ 12:00 p.m.)
+    
+
+Written Assignment 2 and its solution (Due: May 22nd, 2019 @ 11:59 p.m.)  
+
+Written Assignment 3 and its solution (Due: June 5th, 2019 @ 11:59 p.m.)  
+
+Pop Quiz:
+
+Quiz 1 (Week 2)
+Quiz 2 (Week 3)
+Quiz 3 (Week 4)
+Quiz 4 (Week 5)
+Quiz 5 (Week 7)
+Quiz 6 (Week 8)
+
+
+Previous Exams for practice: 
+
+Midterm-1 & its solution
+Midterm-2 & its solution
+Final & its solution
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+

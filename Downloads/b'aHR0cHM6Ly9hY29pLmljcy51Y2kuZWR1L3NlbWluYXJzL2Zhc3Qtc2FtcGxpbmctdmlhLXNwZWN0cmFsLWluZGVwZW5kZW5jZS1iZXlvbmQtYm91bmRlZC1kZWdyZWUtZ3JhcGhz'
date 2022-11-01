@@ -1,0 +1,454 @@
+https://acoi.ics.uci.edu/seminars/fast-sampling-via-spectral-independence-beyond-bounded-degree-graphs
+
+
+
+
+
+
+Fast sampling via spectral independence beyond bounded-degree graphs – ACO Center @ UCI 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI  
+
+
+
+
+Algorithms, Combinatorics and Optimization 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fast sampling via spectral independence beyond bounded-degree graphs
+Home>Seminars>Fast sampling via spectral independence beyond bounded-degree graphs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fast sampling via spectral independence beyond bounded-degree graphs 
+
+
+
+
+Date: November 11, 2021					
+
+
+
+
+
+Time: 11:00 am					
+
+
+
+
+
+Room: Zoom					
+
+
+
+
+
+Speaker: Andreas Galanis 					
+
+
+
+
+
+				 (Oxford)					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: Spectral independence is a recently-developed framework for obtaining sharp bounds on the convergence time of the classical Glauber dynamics. This new framework has yielded optimal O(n log n) sampling algorithms on bounded-degree graphs for a large class of problems, including, for example, the problems of sampling independent sets, matchings, and Ising-model configurations.
+In this talk, we will discuss how to relax the bounded-degree assumption that has so far been important in establishing and applying spectral independence. Previous methods for avoiding degree bounds rely on using L^p-norms to analyse correlation decay on graphs with bounded connective constant (Sinclair et al., FOCS’13). The non-linearity of L^p-norms is one of the key obstacles to apply these results and bound spectral independence. We instead capture the L^p-analysis recursively by amortisation, using appropriate combinatorial information of the correlation-decay recurrence; our method generalises previous analyses that applied only to bounded-degree graphs.
+As a main application of our techniques, we consider the random graph G(n,d/n), where the previously known sampling algorithms run in time n^O( log d), or applied only to large d.  We refine these algorithmic bounds significantly, and develop fast n^{1+o(1)} algorithms based on Glauber dynamics that apply to all d.
+
+Joint work with Ivona Bezakova, Leslie Ann Goldberg, and Daniel Stefankovic.
+
+
+
+
+
+
+Bio: Andreas Galanis is an Associate Professor of Algorithms & Complexity Theory in the Department of Computer Science at the University of Oxford. He received his Phd in Algorithms, Combinatorics, and Optimization from the School of Computer Science at Georgia Tech, and has held research fellowship positions in Oxford and the Simons Institute for the Theory of Computing. His research focuses on algorithmic aspects in the analysis of stochastic processes,  and establishing connections between sampling problems in computer science and phase transitions in statistical mechanics.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI • Privacy Policy • © 2022 UC Regents 
+
+
+
+
+
+
+
+
+
+Close Menu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to content
+
+
+
+Open toolbar
+
+ 
+
+
+
+
+Accessibility Tools
+
+
+
+Increase Text 
+
+
+
+Decrease Text 
+
+
+
+Grayscale 
+
+
+
+High Contrast 
+
+
+
+Negative Contrast 
+
+
+
+Light Background 
+
+
+
+Links Underline 
+
+
+
+Readable Font 
+
+
+
+
+Reset
+
+
+
+
+
+
+

@@ -1,0 +1,450 @@
+https://acoi.ics.uci.edu/seminars/formal-verification-of-edmonds-blossom-algorithm
+
+
+
+
+
+
+Formal Verification of Edmond’s Blossom Algorithm – ACO Center @ UCI 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI  
+
+
+
+
+Algorithms, Combinatorics and Optimization 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Formal Verification of Edmond’s Blossom Algorithm
+Home>Seminars>Formal Verification of Edmond’s Blossom Algorithm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Formal Verification of Edmond’s Blossom Algorithm 
+
+
+
+
+Date: October 17, 2019					
+
+
+
+
+
+Time: 2:00 pm					
+
+
+
+
+
+Room: DBH 4011					
+
+
+
+
+
+Speaker: Mohammad Abdulaziz  					
+
+
+
+
+
+				 (TU Munich)					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: Interactive theorem provers have been used in a number of impressive formal proofs ranging from the Kepler conjecture to C compilers and operating systems, but much less so in the realm of efficient algorithms. We report on the formal proof of the correctness of a functional formulation of Edmond’s blossom algorithm for maximum matchings. Generally, there are two challenges in verifying an algorithm at an abstract level, i.e. not to verify the implementation. The first is to formulate it in a language that has support for verification. The second is to formally prove the lemmas needed for the algorithm’s correctness argument, which may not all be explicitly stated, let alone proven, in the literature. What sets the blossom algorithm apart from other fundamental algorithms, like Dijkstra’s or Ford-Fulkerson, is that the second of the two aforementioned challenges is much more emphasised in its verification. In particular, the verification of the blossom algorithm needs a subtantial library of formalised graph theory to prove Berge’s lemma and the graph theoretic argument behind the correctness of blossom contraction, which is the main step in the algorithm. This project is in collaboration with Kurt Mehlhorn and Tobias Nipkow.
+
+
+
+
+
+
+Bio: Mohammad Abdulaziz is a postdoctoral researcher in the Technical University of Munich at the Chair for Logic and Verification. He obtained his PhD in 2018 from The Australian National University. His research concerns the application of theorem proving to the verification of algorithms. This includes the verification of graph algorithms, algorithms for AI planning and the development of libraries of formal mathematics that facilitate algorithm verification.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI • Privacy Policy • © 2022 UC Regents 
+
+
+
+
+
+
+
+
+
+Close Menu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to content
+
+
+
+Open toolbar
+
+ 
+
+
+
+
+Accessibility Tools
+
+
+
+Increase Text 
+
+
+
+Decrease Text 
+
+
+
+Grayscale 
+
+
+
+High Contrast 
+
+
+
+Negative Contrast 
+
+
+
+Light Background 
+
+
+
+Links Underline 
+
+
+
+Readable Font 
+
+
+
+
+Reset
+
+
+
+
+
+
+

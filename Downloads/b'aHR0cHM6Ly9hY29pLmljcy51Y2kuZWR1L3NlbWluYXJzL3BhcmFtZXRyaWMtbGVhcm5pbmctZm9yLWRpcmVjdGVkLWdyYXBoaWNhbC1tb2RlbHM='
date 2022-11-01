@@ -1,0 +1,471 @@
+https://acoi.ics.uci.edu/seminars/parametric-learning-for-directed-graphical-models
+
+
+
+
+
+
+Parametric learning for directed graphical models – ACO Center @ UCI 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI  
+
+
+
+
+Algorithms, Combinatorics and Optimization 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Parametric learning for directed graphical models
+Home>Seminars>Parametric learning for directed graphical models
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Parametric learning for directed graphical models 
+
+
+
+
+Date: February 24, 2022					
+
+
+
+
+
+Time: 4:00 pm					
+
+
+
+
+
+Room: DBH 4011					
+
+
+
+
+
+Speaker: Leonard J. Schulman 					
+
+
+
+
+
+				 (Caltech)					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: The following problem has long been studied in the TCS literature: learn
+a probability distribution on n bits which is known to be a mixture of k
+distributions, in each of which the bits are independent. This (as a
+parameter-identification problem) is intermediate in expressiveness
+between the much simpler case of iid bits, and the much more ambitious
+case in which the bits are not independent at all, but are related
+through a Causal Bayesian Network. I’ll give an overview of a series of
+works showing how to
+(a) Reduce the network case to the independent case (by a conditioning
+method),
+(b) Reduce the independent case to the iid case (by an algorithm which
+creates “synthetic bits”), and finally,
+(c) Give upper and lower bounds for the iid case (the algorithm here is
+the two-century-old method of Prony).
+Based on joint works with Chaitanya Swamy (Waterloo), Yuval Rabani
+(Hebrew U), Jian Li (Tsinghua), Spencer Gordon (Caltech) and Bijan
+Mazaheri (Caltech)
+
+
+
+
+
+
+Bio: Bio: Leonard J. Schulman received the B.Sc. in Mathematics in 1988 and
+the Ph.D. in Applied Mathematics in 1992, both from the Massachusetts
+Institute of Technology. Since 2000 he has been on the faculty of the
+California Institute of Technology. He has also held appointments at UC
+Berkeley, the Weizmann Institute of Science, the Georgia Institute of
+Technology, and the Israel Institute for Advanced Studies.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI • Privacy Policy • © 2022 UC Regents 
+
+
+
+
+
+
+
+
+
+Close Menu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to content
+
+
+
+Open toolbar
+
+ 
+
+
+
+
+Accessibility Tools
+
+
+
+Increase Text 
+
+
+
+Decrease Text 
+
+
+
+Grayscale 
+
+
+
+High Contrast 
+
+
+
+Negative Contrast 
+
+
+
+Light Background 
+
+
+
+Links Underline 
+
+
+
+Readable Font 
+
+
+
+
+Reset
+
+
+
+
+
+
+

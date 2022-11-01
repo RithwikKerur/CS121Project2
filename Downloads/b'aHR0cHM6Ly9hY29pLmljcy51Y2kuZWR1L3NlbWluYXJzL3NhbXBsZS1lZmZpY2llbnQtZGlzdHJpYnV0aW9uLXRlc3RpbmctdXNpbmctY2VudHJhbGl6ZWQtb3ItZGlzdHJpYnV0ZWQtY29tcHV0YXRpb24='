@@ -1,0 +1,456 @@
+https://acoi.ics.uci.edu/seminars/sample-efficient-distribution-testing-using-centralized-or-distributed-computation
+
+
+
+
+
+
+Sample Efficient Distribution Testing Using Centralized or Distributed Computation – ACO Center @ UCI 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI  
+
+
+
+
+Algorithms, Combinatorics and Optimization 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sample Efficient Distribution Testing Using Centralized or Distributed Computation
+Home>Seminars>Sample Efficient Distribution Testing Using Centralized or Distributed Computation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sample Efficient Distribution Testing Using Centralized or Distributed Computation 
+
+
+
+
+Date: April 28, 2022					
+
+
+
+
+
+Time: 4:00 pm					
+
+
+
+
+
+Room: DBH 4011					
+
+
+
+
+
+Speaker: Themis Gouleakis 					
+
+
+
+
+
+				 (NUS)					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: In the first part of the talk, we study the problem of testing discrete distributions with a focus on the high probability regime. Specifically, given samples from one or more discrete distributions, a property $\mathcal{P}$, and parameters $0< \eps, \delta <1$, we want to distinguish with probability at least $1-\delta$ whether these distributions satisfy $\mathcal{P}$ or are $\eps$-far from $\mathcal{P}$ in total variation distance. Most prior work in distribution testing studied the constant confidence case (corresponding to $\delta = \Omega(1)$), and provided sample-optimal testers for a range of properties. While one can always boost the confidence probability of any such tester by black-box amplification, this generic boosting method typically leads to sub-optimal sample bounds.
+Here we study the following broad question: For a given property $\mathcal{P}$, can we characterize the sample complexity of testing $\mathcal{P}$ as a function of all relevant problem parameters, including the error probability $\delta$? As our main results,
+we provide the first algorithms for uniformity, closeness and independence testing that are sample-optimal, within constant factors, as a function of all relevant parameters. Our techniques naturally extend to give optimal testers for related problems.
+Apart from the classical centralized computation model, we will also talk about distribution testing in a distributed and a streaming model with communication and memory constraints respectively. More specifically, we consider the following computational models: (1) The {\em one-pass streaming model} where the goal is to minimize the sample complexity of the protocol subject to a memory constraint, and (2) A {\em distributed model} where the data samples reside at multiple machines and the goal is to minimize the communication cost of the protocol. In these models, we will provide efficient algorithms for uniformity/identity testing (goodness of fit) and closeness testing (two sample testing).
+Moreover, we show nearly-tight lower bounds on (1) the sample complexity
+of any one-pass streaming tester for uniformity, subject to the memory constraint,
+and (2) the communication cost of any uniformity testing protocol,
+in a restricted “one-pass” model of communication.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI • Privacy Policy • © 2022 UC Regents 
+
+
+
+
+
+
+
+
+
+Close Menu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to content
+
+
+
+Open toolbar
+
+ 
+
+
+
+
+Accessibility Tools
+
+
+
+Increase Text 
+
+
+
+Decrease Text 
+
+
+
+Grayscale 
+
+
+
+High Contrast 
+
+
+
+Negative Contrast 
+
+
+
+Light Background 
+
+
+
+Links Underline 
+
+
+
+Readable Font 
+
+
+
+
+Reset
+
+
+
+
+
+
+

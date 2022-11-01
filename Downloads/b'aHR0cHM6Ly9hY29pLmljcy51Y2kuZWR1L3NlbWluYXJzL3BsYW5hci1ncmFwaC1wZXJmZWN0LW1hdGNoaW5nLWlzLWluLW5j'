@@ -1,0 +1,453 @@
+https://acoi.ics.uci.edu/seminars/planar-graph-perfect-matching-is-in-nc
+
+
+
+
+
+
+Planar Graph Perfect Matching is in NC – ACO Center @ UCI 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI  
+
+
+
+
+Algorithms, Combinatorics and Optimization 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Planar Graph Perfect Matching is in NC
+Home>Seminars>Planar Graph Perfect Matching is in NC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Planar Graph Perfect Matching is in NC 
+
+
+
+
+Date: October 18, 2018					
+
+
+
+
+
+Time: 2:00 pm					
+
+
+
+
+
+Room: DBH 4011					
+
+
+
+
+
+Speaker: Nima Anari 					
+
+
+
+
+
+				 (CS, Stanford University)					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: Is matching in NC, i.e., is there a deterministic fast parallel algorithm for it? This has been an outstanding open question in TCS for over three decades, ever since the discovery of Random NC matching algorithms. Within this question, the case of planar graphs has remained an enigma: On the one hand, counting the number of perfect matchings is far harder than finding one (the former is #P-complete and the latter is in P), and on the other, for planar graphs, counting has long been known to be in NC whereas finding one has resisted a solution!
+The case of bipartite planar graphs was solved by Miller and Naor in 1989 via a flow-based algorithm.  In 2000, Mahajan and Varadarajan gave an elegant way of using counting matchings to finding one, hence giving a different NC algorithm.
+However, non-bipartite planar graphs still didn’t yield: the stumbling block being odd tight cuts.  Interestingly enough, these are also a key to the solution: a balanced tight odd cut leads to a straight-forward divide and conquer NC algorithm. However, a number of ideas are needed to find such a cut in NC; the central one being an NC algorithm for finding a face of the perfect matching polytope at which $\Omega(n)$ new conditions, involving constraints of the polytope, are simultaneously satisfied.
+Paper available at:  https://arxiv.org/pdf/1709.07822.pdf
+Joint work with Vijay Vazirani.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI • Privacy Policy • © 2022 UC Regents 
+
+
+
+
+
+
+
+
+
+Close Menu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to content
+
+
+
+Open toolbar
+
+ 
+
+
+
+
+Accessibility Tools
+
+
+
+Increase Text 
+
+
+
+Decrease Text 
+
+
+
+Grayscale 
+
+
+
+High Contrast 
+
+
+
+Negative Contrast 
+
+
+
+Light Background 
+
+
+
+Links Underline 
+
+
+
+Readable Font 
+
+
+
+
+Reset
+
+
+
+
+
+
+

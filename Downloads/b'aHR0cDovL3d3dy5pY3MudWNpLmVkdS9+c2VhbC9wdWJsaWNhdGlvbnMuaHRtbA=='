@@ -1,0 +1,1040 @@
+http://www.ics.uci.edu/~seal/publications.html
+
+
+
+SEAL - Home Page
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home     
+            Members     
+            Publications     
+            Projects
+
+
+
+The papers are listed by publication category in reverse chronological order.
+        These papers are provided under the copyright permission for non-commercial
+        dissemination of scholarly and technical work.
+
+        
+2022
+
+Too Much Accessibility is Harmful! Automated Detection and Analysis of Overly Accessible Elements in Mobile Apps.
+                Forough Mehralian*, Navid Salehnamadi*, Syed Fatiul Huq,  and Sam Malek.
+37th IEEE/ACM International Conference on Automated Software Engineering (ASE 2021), Michigan, United States, October 2022. (accepted to appear)
+[PDF]
+            
+
+
+Groundhog: An Automated Accessibility Crawler for Mobile Apps.
+                Navid Salehnamadi*, Forough Mehralian*, and Sam Malek.
+37th IEEE/ACM International Conference on Automated Software Engineering (ASE 2021), Michigan, United States, October 2022. (accepted to appear)
+[PDF]
+            
+
+
+AccessiText: Automated Detection of Text Accessibility Issues in Android Apps.
+                Abdulaziz Alshayban, and Sam Malek.
+The ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE 2022) , Singapore  2022. (accepted to appear)
+
+
+
+
+DeltaDroid: Dynamic Delivery Testing in Android
+                Negar Ghorbani, Reyhaneh Jabbarvand, Navid Salehnamadi, Joshua Garcia, and Sam Malek
+ACM Transactions on Software Engineering and Methodology (TOSEM). (accepted to appear)
+
+
+
+
+GUI Test Transfer from Web to Android
+                Jun-Wei Lin and Sam Malek.
+15th IEEE International Conference on Software Testing, Verification and Validation (ICST 2022). (26% acceptance rate)
+
+
+
+
+2021
+
+Deep GUI: Black-box GUI Input Generation with Deep Learning.
+                Faraz YazdaniBanafsheDaragh and Sam Malek.
+36th IEEE/ACM International Conference on Automated Software Engineering (ASE 2021), Melbourne, Australia, November 2021. (27% acceptance rate) 
+[PDF]
+            
+
+
+Data-driven Accessibility Repair Revisited: On the Effectiveness of Generating Labels for Icons in Android Apps.
+                Forough Mehralian, Navid Salehnamadi, and Sam Malek.
+ACM joint meeting of the European Software Engineering Conference and ACM SIGSOFT Symposium on the Foundations of Software Engineering (ESEC/FSE 2021), Athens, Greece, August 2021. (24.5% acceptance rate)
+[PDF]
+            
+
+
+Forecasting Architectural Decay from Evolutionary History.
+                Joshua Garcia, Ehsan Kouroshfar, Negar Ghorbani, and Sam Malek.
+IEEE Transactions on Software Engineering (TSE). accepted to appear. 
+[PDF]
+            
+
+
+Flair: Efficient Analysis of Android Inter-Component Vulnerabilities in Response to Incremental Changes.
+                Hamid Bagheri, Jianghao Wang, Jarod Aerts, Negar Ghorbani, and Sam Malek.
+Springer Journal of Empirical Software Engineering (EMSE), Vol 26, No. 54, April 2021.
+[PDF]
+              
+
+
+Latte: Use-Case Assistive-Service Driven Automated Accessibility Testing Framework for Android.
+                Navid Salehnamadi, Abdulaziz Alshayban, Jun-Wei Lin, Iftekhar Ahmed, Stacy Branham, and Sam Malek.
+ACM Conference on Human Factors in Computing System (CHI 2021), Yokohama, Japan, May 2021. (26% acceptance rate)
+[PDF]
+            
+
+
+Constructing a Shared Infrastructure for Software Architecture Analysis and Maintenance.
+                Joshua Garcia, Mehdi Mirakhorli, Lu Xiao, Yutong Zhao, Ibrahim Mujhid, Khoi Pham, Ahmet Okutan, Sam Malek, Rick Kazman, Yuanfang Cai, and Nenad Medvidovic. 
+IEEE International Conference on Software Architecture (ICSA 2021),  Stuttgart, Germany, March 2021. (28% acceptance rate)
+[PDF]
+            
+
+
+2020
+
+ER Catcher: A Static Analysis Framework for Accurate and Scalable Event-Race Detection in Android
+              Navid Salehnamadi, Abdulaziz Alshayban, Iftekhar Ahmed , and Sam Malek
+35th International Conference on Automated Software Engineering (ASE 2020), Virtual Event, Australia, September 2020. (23% acceptance rate)
+[PDF]
+          
+
+
+Test Automation in Open-Source Android Apps: A Large-Scale Empirical Study
+            Jun-Wei Lin, Navid Salehnamadi, and Sam Malek
+35th International Conference on Automated Software Engineering (ASE 2020), Virtual Event, Australia, September 2020. (23% acceptance rate)
+[PDF]
+        
+
+
+Automated Constrcution of Energy Test Oracle for Android
+            Reyhaneh Jabbarvand, Forough Mehralian, and Sam Malek
+ACM joint meeting of the European Software Engineering Conference and ACM SIGSOFT Symposium
+                on the Foundations of Software Engineering (ESEC/FSE 2020), Sacramento, CA, USA, November 2020.
+[PDF]
+        
+
+
+Accessibility Issues in Android Apps: State of Affairs, Sentiments, and Ways Forward
+            Abdulaziz Alshayban, Iftekhar Ahmed, and Sam Malek
+42nd International Conference on Software Engineering (ICSE 2020), Seoul, South Korea, October 2020. (21%
+                acceptance rate)
+[PDF]
+        
+
+
+A Benchmark for Event-Race Analysis in Android Apps
+              Navid Salehnamadi, Abdulaziz Alshayban, Iftekhar Ahmed , and Sam Malek
+18th International Conference on Mobile Systems, Aplications, and Services (MobiSys 2020), Virtual Event, June 2020. (Poster)
+[PDF]
+          
+
+
+2019
+
+Test Transfer Across Mobile Apps Through Semantic Mapping
+            Jun-Wei Lin, Reyhaneh Jabbarvand, and Sam Malek
+34th International Conference on Automated Software Engineering (ASE 2019), San Diego, USA, November
+                2019. (21% acceptance rate)
+[PDF]
+        
+
+
+Search-Based Energy Testing of Android
+            Reyhaneh Jabbarvand, Jun-Wei Lin, and Sam Malek
+41st International Conference on Software Engineering (ICSE 2019), Montreal, Canada, May 2019. (21%
+                acceptance rate)
+[PDF]
+        
+
+
+Detection and Repair of Architectural Inconsistencies in Java
+            Negar Ghorbani, Joshua Garcia, and Sam Malek
+41st International Conference on Software Engineering (ICSE 2019), Montreal, Canada, May 2019. (21%
+                acceptance rate)
+[PDF]
+        
+
+
+DelDroid: An Automated Approach for Determination and Enforcement of Least-Privilege Architecture in
+            Android
+            Mahmoud Hammad, Hamid Bagheri, and Sam Malek
+Journal of Systems and Software, Volume 149, March 2019.
+[PDF]
+        
+
+
+2018
+
+SALMA: Self-Protection of Android Systems from Inter-Component Communication Attacks.
+            Mahmoud Hammad, Joshua Garcia, and Sam Malek
+33rd International Conference on Automated Software Engineering (ASE 2018), Montpellier, France,
+                September 2018. (20% acceptance rate)
+[PDF]
+        
+
+
+Efficient, Evolutionary Security Analysis of Interacting Android Apps
+            Hamid Bagheri, Jianghao Wang, Jarod Arets, and Sam Malek
+34th International Conference on Software Maintenance and Evolution (ICSME 2018), Madrid, Spain,
+                September 2018. (25% acceptance rate)
+[PDF]
+        
+
+
+Lightweight, Obfuscation-Resilient Detection and Family Identification of Android Malware
+            Joshua Garcia, Mahmoud Hammad, and Sam Malek
+ACM Transactions on Software Engineering and Methodology (TOSEM), Vol. 26, No. 3, January 2018
+            [ICSE'18 Journal First]
+            [PDF]
+        
+
+
+A Temporal Permission Analysis and Enforcement Framework for Android
+            Alireza Sadeghi, Reyhaneh Jabbarvand, Negar Ghorbani, Hamid Bagheri, and Sam Malek
+40th International Conference of Software Engineering (ICSE 2018), Gothenburg, Sweden, May 2018. (21%
+                acceptance rate).
+[PDF]
+        
+
+
+Nemo: Multi-Criteria Test-Suite Minimization with Integer Nonlinear Programming
+            Jun-Wei Lin, Reyhaneh Jabbarvand, Joshua Garcia, and Sam Malek
+40th International Conference of Software Engineering (ICSE 2018), Gothenburg, Sweden, May 2018. (21%
+                acceptance rate).
+[PDF]
+        
+
+
+A Large-Scale Empirical Study on the Effects of Code Obfuscations on Android Apps and Anti-Malware
+            Products
+            Mahmoud Hammad, Joshua Garcia, and Sam Malek
+40th International Conference of Software Engineering (ICSE 2018), Gothenburg, Sweden, May 2018. (21%
+                acceptance rate).
+[PDF]
+        
+
+
+2017
+
+Perpetual Assurances for Self-Adaptive Systems
+            Danny Weyns, Nelly Bencomo, Radu Clinescu, Javier Camara, Carlo Ghezzi, Vincenzo Grassi, Larse Grunske,
+            Paola Inverardi, Jean-Marc Jezequel, Sam Malek, Raffaela Mirandola, Marco Mori, Giordano Tamburrelli.
+Software Engineering for Self-Adaptive Systems 3, Editors R. de Lemos, D. Garlan, C. Ghezzi, and H.
+                Giese, Lecture Notes in Computer Science, Springer, 2017.
+[Link]
+        
+
+
+Mining Mobile App Markets for Prioritization of Security Assessment Effort
+            Alireza Sadeghi, Naeem Esfahani, and Sam Malek
+2nd International Workshop on App Market Analytics (WAMA 2017), Paderborn, Germany, September 2017.
+[PDF]
+        
+
+
+μDroid: An Energy-Aware Mutation Testing Framework for Android
+            Reyhaneh Jabbarvand and Sam Malek
+11th joint meeting of the European Software Engineering Conference and ACM SIGSOFT Symposium on the
+                Foundations of Software Engineering (ESEC/FSE 2017), Paderborn, Germany, September 2017.
+[PDF]
+        
+
+
+PATDroid: Permission-Aware GUI Testing of Android
+            Alireza Sadeghi, Reyhaneh Jabbarvand, and Sam Malek
+11th joint meeting of the European Software Engineering Conference and ACM SIGSOFT Symposium on the
+                Foundations of Software Engineering (ESEC/FSE 2017), Paderborn, Germany, September 2017.
+[PDF]
+        
+
+
+Automatic Generation of Inter-Component Communication Exploits for Android Applications
+            Joshua Garcia, Mahmoud Hammad, Negar Ghorbani, and Sam Malek
+11th joint meeting of the European Software Engineering Conference and ACM SIGSOFT Symposium on the
+                Foundations of Software Engineering (ESEC/FSE 2017), Paderborn, Germany, September 2017.
+[PDF]
+        
+
+
+Ensuring the Consistency of Adaptation through Inter- and Intra-Component Dependency Analysis
+            Alireza Sadeghi, Naeem Esfahani, and Sam Malek
+ACM Transactions on Software Engineering and Methodology (TOSEM), Vol. 26 Issue 1, June 2017, Article No.
+                2 
+[PDF]
+        
+
+
+A Taxonomy and Qualitative Comparison of Program Analysis Techniques for Security Assessment of Android
+            Software
+            Alireza Sadeghi, Hamid Bagheri, Joshua Garcia, and Sam Malek
+IEEE Transactions on Software Engineering (TSE), Vol. 43, Issue 6, June 2017 [ICSE'17 Journal First]
+            [PDF]
+        
+
+
+DELDroid: Determination and Enforcement of Least-Privilege Architecture in Android
+            Mahmoud Hammad, Hamid Bagheri, and Sam Malek
+IEEE International Conference on Software Architecture (ICSA 2017), Gothenburg, Sweden, April 2017.
+[PDF]
+        
+
+
+A Formal Approach for Detection of Security Flaws in the Android Permission System.
+            Hamid Bagheri, Eunsuk Kang, Sam Malek, and Daniel Jackson
+Springer Journal on Formal Aspects of Computing, Pages 1-20, November 2017
+[PDF]
+        
+
+
+2016
+
+Titanium: Efficient Analysis of Evolving Alloy Specifications
+            Hamid Bagheri and Sam Malek
+24th ACM SIGSOFT International Symposium on the Foundations of Software Engineering (FSE 2016), Seattle,
+                WA, November 2016. (27% acceptance rate)
+[PDF]
+        
+
+
+Software Architectural Principles in Contemporary Mobile Software: from Conception to Practice
+            Hamid Bagheri, Joshua Garcia, Alireza Sadeghi, Sam Malek, and Nenad Medvidovic
+Journal of Systems and Software, Vol 119, Pages 31-44, September 2016.
+[PDF]
+        
+
+
+Architecture Modeling and Analysis of Security in Android Systems
+            Bradley Schmerl, Jeff Gennari, Alireza Sadeghi, Hamid Bagheri, Sam Malek, Javier Camara, and David
+            Garlan
+10th European Conference on Software Architecture (ECSA 2016), Istanbul, Turkey, September 2016. (14%
+                acceptance rate)
+[PDF]
+        
+
+
+Practical, Formal Synthesis and Autonomic Enforcement of Security Policies for Android
+            Hamid Bagheri, Alireza Sadeghi, Reyhaneh Jabbarvand, and Sam Malek
+46th Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN 2016), Toulouse,
+                France, June 2016. (20% acceptance rate)
+[PDF]
+        
+
+
+Energy-Aware Test-Suite Minimization for Android Apps
+            Reyhaneh Jabbarvand, Alireza Sadeghi, Hamid Bagheri, and Sam Malek
+International Symposium on Software Analysis and Testing (ISSTA), Saarbrucken, Germany, July 2016. (25%
+                acceptance rate)
+[PDF]
+        
+
+
+Reducing Combinatorics in GUI Testing of Android Applications
+            Nariman Mirzaei, Joshua Garcia, Hamid Bagheri, Alireza Sadeghi, and Sam Malek
+38th International Conference on Software Engineering (ICSE 2016), Austin, TX, May 2016. (19% acceptance
+                rate)
+[PDF]
+        
+
+
+Inferring Software Component Interaction Dependencies for Adaptation Support
+            Naeem Esfahani, Eric Yuan, Kyle R. Canavera, and Sam Malek
+ACM Transactions on Autonomous and Adaptive Systems, Vol. 10, No. 4, February 2016.
+[PDF]
+        
+
+
+Mining Software Component Interactions to Detect Security Threats at the Architectural Level
+            Eric Yuan and Sam Malek
+13th Working IEEE/IFIP Conference on Software Architecture (WICSA 2016), Venice, Italy, April 2016.
+[PDF]
+        
+
+
+2015
+
+COVERT: Compositional Analysis of Android Inter-App Permission Leakage
+            Hamid Bagheri, Alireza Sadeghi, Joshua Garcia, and Sam Malek
+IEEE Transactions on Software Engineering, Vol. 41, No. 9, September 2015.
+[PDF]
+        
+
+
+SIG-Droid: Automated System Input Generation for Android Applications
+            Nariman Mirzaei, Hamid Bagheri, Riyadh Mahmood, and Sam Malek
+26th IEEE International Symposium on Software Reliability Engineering (ISSRE 2015), Gaithersburg, MD,
+                November 2015. (19% acceptance rate)
+[PDF]
+        
+
+
+Detection of Design Flaws in the Android Permission Protocol through Bounded Verification
+            Hamid Bagheri, Eunsuk Kang, Sam Malek, and Daniel Jackson
+20th International Symposium on Formal Methods (FM 2015), Oslo, Norway, June 2015. (26% acceptance
+                rate)
+[PDF]
+        
+
+
+A Study on the Role of Software Architecture in the Evolution and Quality of Software
+            Ehsan Kouroshfar, Mehdi Mirakhorli, Hamid Bagheri, Lu Xiao, Sam Malek, and Yuanfang Cai
+12th Working Conference on Mining Software Repositories (MSR 2015), Florence, Italy, May 2015. (30%
+                acceptance rate)
+[PDF]
+        
+
+
+EcoDroid: An Approach for Energy-Based Ranking of Android Apps
+            Reyhaneh Jabbarvand, Alireza Sadeghi, Joshua Garcia, Sam Malek, and Paul Ammann
+4th International Workshop on Green and Sustainable Software (GREENS 2015), Florence, Italy, May
+                2015.
+[PDF]
+        
+
+
+Analysis of Android Inter-App Security Vulnerabilities Using COVERT
+            Alireza Sadeghi, Hamid Bagheri, and Sam Malek
+37th International Conference on Software Engineering (ICSE 2015), Demonstrations Track, Florence, Italy,
+                May 2015.
+[PDF]
+        
+
+
+2014
+
+A Systematic Survey of Self-Protecting Software Systems
+            Eric Yuan, Naeem Esfahani, and Sam Malek
+ACM Transactions on Autonomous and Adaptive Systems, Vol. 8, Issue 4, January 2014.
+[PDF]
+        
+
+
+EvoDroid: Segmented Evolutionary Testing of Android Apps
+            Riyadh Mahmood, Nariman Mirzaei, and Sam Malek
+22nd ACM SIGSOFT International Symposium on the Foundations of Software Engineering (FSE 2014), Hong
+                Kong, November 2014. (22% acceptance rate)
+[PDF]
+        
+
+
+Automated Detection and Mitigation of Inter-Application Security Vulnerabilities in Android
+            Sam Malek, Hamid Bagheri, and Alireza Sadeghi
+2nd International Workshop on Software Development Lifecycle for Mobile (DeMobile 2014), Hong Kong,
+                China, November 2014.
+[PDF]
+        
+
+
+Automated Mining of Software Component Interactions for Self-Adaptation
+            Eric Yuan, Naeem Esfahani, and Sam Malek
+9th International Conference on Software Engineering for Adaptive and Self-Managing Systems (SEAMS 2014),
+                Hyderabad, India, June 2014. (19% acceptance rate)
+[PDF]
+        
+
+
+Mining the Categorized Software Repositories to Improve the Analysis of Security Vulnerabilities
+            Alireza Sadeghi, Naeem Esfahani, and Sam Malek
+17th International Conference on Fundamental Approaches to Software Engineering (FASE 2014), Grenoble,
+                France, April 2014. (22% acceptance rate)
+[PDF]
+        
+
+
+2013
+
+Proactive Self-Adaptation for Improving the Reliability of Mission-Critical, Embedded, and Mobile
+            Software
+            Deshan Cooray, Ehsan Kouroshfar, Sam Malek, and Roshanak Roshandel
+IEEE Transactions on Software Engineering, Vol. 39, No. 12, December 2013.
+[PDF]
+        
+
+
+A Learning-Based Framework for Engineering Feature-Oriented Self-Adaptive Software Systems
+            Naeem Esfahani, Ahmed Elkhodary, and Sam Malek
+IEEE Transactions on Software Engineering, Vol. 39, No. 11, November 2013.
+[PDF]
+        
+
+
+Architecture-Based Self-Protecting Software Systems
+            Eric Yuan, Sam Malek, Bradley Schmerl, David Garlan, and Jeff Gennari
+9th International Conference on Quality of Software Architectures (QoSA 2013), Vancouver, Canada, June
+                2013.
+[PDF]
+        
+
+
+GuideArch: Guiding the Exploration of Architectural Solution Space Under Uncertainty
+            Naeem Esfahani, Sam Malek, Kaveh Razavi
+35th International Conference on Software Engineering (ICSE 2013), San Francisco, California, USA, May
+                2013. (18% acceptance rate)
+[PDF]
+        
+
+
+2012
+
+A Middleware Platform for Providing Mobile and Embedded Computing Instruction to Software Engineering
+            Students
+            Chris A. Mattmann, Nenad Medvidovic, Sam Malek, George Edwards, and Somo Banerjee
+IEEE Transactions on Education, Vol. 55, No. 3, pages 425-435, August 2012.
+[PDF]
+        
+
+
+Utilizing Architectural Styles to Enhance the Adaptation Support of Middleware Platforms
+            Naeem Esfahani and Sam Malek
+Journal of Information and Software Technology, Vol. 54, No. 7, pages 786-801, July 2012.
+[PDF]
+        
+
+
+FORMS: Unifying Reference Model for Formal Specification of Distributed Self-Adaptive Systems
+            Danny Weyns, Sam Malek, and Jesper Andersson
+ACM Transactions on Autonomous and Adaptive Systems, Special Issue on Formal Methods for Pervasive,
+                Self-Aware, and Context-Aware Systems, Vol. 7, No. 1, pages 1-61, April 2012.
+[PDF]
+        
+
+
+An Extensible Framework for Improving a Distributed Software System's Deployment Architecture
+            Sam Malek, Nenad Medvidovic, and Marija Mikic-Rakic
+IEEE Transactions on Software Engineering, Vol. 38, No. 1, pages 73-100, January/February 2012.
+[PDF]
+        
+
+
+Mining the Execution History of a Software System to Infer the Best Time for its Adaptation.
+            Kyle R. Canavera, Naeem Esfahani, and Sam Malek. 
+20th ACM SIGSOFT International Symposium on the Foundations of Software Engineering (FSE 2012), Cary,
+                North Carolina, November 2012. (17% acceptance rate)
+[PDF]
+        
+
+
+Dealing with Uncertainty in Early Software Architecture
+            Naeem Esfahani, Sam Malek, Kaveh Razavi
+20th ACM SIGSOFT International Symposium on the Foundations of Software Engineering (FSE 2012), New Ideas
+                and Emerging Results track, Cary, North Carolina, November 2012. (20% acceptance rate)
+[PDF]
+        
+
+
+Testing Android Apps through Symbolic Execution
+            Nariman Mirzaei, Sam Malek, Corina S. Pasareanu, Naeem Esfahani, Riyadh Mahmood
+Java Pathfinder Workshop (JPF 2012), Cary, North Carolina, November 2012.
+[PDF]
+        
+
+
+A Framework for Automated Security Testing of Android Applications on the Cloud
+            Sam Malek, Naeem Esfahani, Thabet Kacem, Riyadh Mahmood, Nariman Mirzaei, and Angelos Stavrou
+6th International Conference on Software Security and Reliability (SERE 2012), Washington, DC, June
+                2012.
+[PDF]
+        
+
+
+A Whitebox Approach for Automated Security Testing of Android Applications on the Cloud
+            Riyadh Mahmood, Naeem Esfahani, Thabet Kacem, Nariman Mirzaei, Sam Malek, and Angelos Stavrou
+7th International Workshop on Automation of Software Test (AST 2012), Zurich, Switzerland, June 2012.
+[PDF]
+        
+
+
+A Taxonomy and Survey of Self-Protecting Software Systems
+            Eric Yuan and Sam Malek
+7th International Symposium on Software Engineering for Adaptive and Self-Managing Systems (SEAMS 2012),
+                Zurich, Switzerland, June 2012. (30% acceptance rate for full papers)
+[PDF]
+        
+
+
+Claims and Supporting Evidence for Self-Adaptive Systems – A Literature Study
+            Danny Weyns, M. Usman Iftikhar, Sam Malek, and Jesper Andersson
+7th International Symposium on Software Engineering for Adaptive and Self-Managing Systems (SEAMS 2012),
+                Zurich, Switzerland, June 2012. (30% acceptance rate for full papers)
+[PDF]
+        
+
+
+Software Engineering for Self-Adaptive Systems: A second Research Roadmap
+            Rogerio de Lemos, Holger Giese, Hausi Muller, Mary Shaw, Jesper Andersson, Luciano Baresi, Basil Becker,
+            Nelly Bencomo, Yuriy Brun, Bojan Cikic, Ron Desmarais, Schahram Dustdar, Gregor Engels, Kurt Geihs, Karl M.
+            Goeschka, Alessandra Gorla, Vincenzo Grassi, Poala Inverardi, Gabor Karsai, Jeff Kramer, Marin Litoiu,
+            Antonia Lopes, Jeff Magee, Sam Malek, Serge Mankovskii, Raffaela Mirandola, John Mylopoulos, Oscar
+            Nierstrasz, Mauro Pezze, Christian Prehofer, Wilhelm Schafer, Wilhelm Schlichting, Bradley Schmerl, Dennis
+            B. Smith, Joao P. Sousa, Gabriel Tamura, Ladan Tahvildari, Norha M. Villegas, Thomas Vogel, Danny Weyns,
+            Kenny Wong, and Jochen Wuttke
+Software Engineering for Self-Adaptive Systems 2, Editors R. de Lemos, H. Giese, H. Muller, and M. Shaw.
+                Lecture Notes in Computer Science Hot Topics, Springer, 2012.
+
+
+
+On Patterns for Decentralized Control in Self-Adaptive Systems
+            Danny Weyns, Bradley Schmerl, Vincenzo Grassi, Sam Malek, Raffaela Mirandola, Christian Prehofer, Jochen
+            Wuttke, Jesper Andersson, Holger Giese, and Karl Goschka
+Software Engineering for Self-Adaptive Systems 2, Editors R. de Lemos, H. Giese, H. Muller, and M. Shaw.
+                Lecture Notes in Computer Science Hot Topics, Springer, 2012.
+[PDF]
+        
+
+
+Uncertainty in Self-Adaptive Software Systems
+            Naeem Esfahani and Sam Malek
+Software Engineering for Self-Adaptive Systems 2, Editors R. de Lemos, H. Giese, H. Muller, and M. Shaw.
+                Lecture Notes in Computer Science Hot Topics, Springer, 2012.
+[PDF]
+        
+
+
+2011
+
+SASSY: A Framework for Self-Architecting Service-Oriented Systems
+            Daniel A. Menasce, Hassan Gomaa, Sam Malek, and Joao P. Sousa
+ IEEE Software, Vol. 28, No. 6, Nov./Dec. 2011.
+[PDF]
+        
+
+
+Taming Uncertainty in Self-Adaptive Software
+            Naeem Esfahani, Ehsan Kouroshfar, and Sam Malek
+8th joint meeting of the European Software Engineering Conference and ACM SIGSOFT Symposium on the
+                Foundations of Software Engineering (ESEC/FSE 2011), Szeged, Hungary, September 2011. (16% acceptance
+                rate)
+[PDF]
+        
+
+
+On Interacting Control Loops in Self-Adaptive Systems
+            Pieter Vromant, Danny Weyns, Sam Malek, and Jesper Andersson
+6th International Symposium on Software Engineering for Adaptive and Self-Managing Systems (SEAMS 2011),
+                Honolulu, Hawaii, May 2011.
+[PDF]
+        
+
+
+2010
+
+Enhancing Middleware Support for Architecture-Based Development through Compositional Weaving of
+            Styles
+            Sam Malek, Harshini Ramnath Krishnan, and Jayalakshmi Srinivasan
+ Journal of Systems and Software, Vol. 83, No. 12, pages 2513-2527, December 2010.
+[PDF]
+        
+
+
+An Architecture-Driven Software Mobility Framework
+            Sam Malek, George Edwards, Yuriy Brun, Hossein Tajalli, Joshua Garcia, Ivo Krka, Nenad Medvidovic, Marija
+            Mikic-Rakic, and Gaurav Sukhatme
+ Journal of Systems and Software, special issue on Software Architecture and Mobility, Vol. 83, No. 6,
+                June 2010.
+[PDF]
+        
+
+
+FUSION: A Framework for Engineering Self-Tuning Self-Adaptive Software Systems
+            Ahmed Elkhodary, Naeem Esfahani, and Sam Malek
+18th ACM SIGSOFT International Symposium on the Foundations of Software Engineering (FSE 2010), Santa Fe,
+                NM, November 2010. (20% acceptance rate)
+[PDF]
+        
+
+
+RESISTing Reliability Degradation through Proactive Reconfiguration
+            Deshan Cooray, Sam Malek, Roshanak Roshandel, and David Kilgore
+25th IEEE/ACM International Conference on Automated Software Engineering (ASE 2010), Antwerp, Belgium,
+                September 2010.(17% acceptance rate)
+[PDF]
+        
+
+
+On the Role of Architectural Styles in Improving the Adaptation Support of Middleware Platforms
+            Naeem Esfahani, and Sam Malek
+4th European Conference on Software Architectures (ECSA 2010), Copenhagen, Denmark, August 2010.
+[PDF]
+        
+
+
+Context-Driven Optimization of Mobile Service-Oriented Systems for Improving their Resilience
+            Deshan Cooray, Sam Malek, and Roshanak Roshandel
+IEEE International Workshop on Engineering Mobile Service-Oriented Systems (EMSOS 2010), Miami, FL, July
+                2010.
+[PDF]
+        
+
+
+FORMS: A Formal Reference Model for Self-Adaptation
+            Danny Weyns, Sam Malek, and Jesper Andersson
+7th IEEE International Conference on Autonomic Computing (ICAC 2010), Washington, DC, June 2010. (25%
+                acceptance rate)
+[PDF]
+        
+
+
+QoS Architectural Patterns for Self-Architecting Software Systems
+            Daniel A. Menasce, Joao Pedro Sousa, Sam Malek, and Hassan Gomaa
+7th IEEE International Conference on Autonomic Computing (ICAC 2010), Washington, DC, June 2010. (25%
+                acceptance rate)
+[PDF]
+        
+
+
+Social Computing Networks: A New Paradigm for Engineering Pervasive Software Systems
+            Naeem Esfahani, and Sam Malek
+32nd International Conference on Software Engineering (ICSE 2010), New Ideas and Emerging Results Track,
+                Cape Town, South Africa, May 2010. (25% acceptance rate)
+[PDF]
+        
+
+
+On Decentralized Self-Adaptation: Lessons from the Trenches and Challenges for the Future
+            Danny Weyns, Sam Malek, and Jesper Andersson
+ICSE workshop on Software Engineering for Adaptive and Self-Managing Systems (SEAMS 2010), Cape Town,
+                South Africa, May 2010.
+[PDF]
+        
+
+
+Towards Multi-Design of Situated Service-Oriented Systems
+            Joao Pedro Sousa, Zeynep Zengin, and Sam Malek
+ICSE workshop on Principles of Engineering Service Oriented Systems (PESOS 2010), Cape Town, South
+                Africa, May 2010.
+[PDF]
+        
+
+
+Software Adaptation Patterns for Service-Oriented Architectures
+            Hassan Gomaa, Koji Hashimoto, Minseong Kim, Sam Malek, Daniel A. Menasce
+25th ACM Symposium on Applied Computing (SAC 2010), Dependable and Adaptive Distributed Systems track,
+                Sierre, Switzerland, March 2010. (30% acceptance rate)
+[PDF]
+        
+
+
+A Framework for Utility-Based Service Oriented Design in SASSY
+            Daniel A. Menasce, John M. Ewing, Hassan Gomaa, Sam Malek, and Joao P. Sousa
+Joint WOSP/SIPEW International Conference on Performance Engineering, San Jose, California, January 2010.
+                (25% acceptance rate)
+[PDF]
+        
+
+
+2009
+
+On the Role of Features in Analyzing the Architecture of Self-Adaptive Software Systems
+            Ahmed Elkhodary, Sam Malek, Naeem Esfahani
+4th International Workshop on Models at Runtime, Denver, Colorado, October 2009. (20% acceptance rate for
+                full papers)
+[PDF]
+        
+
+
+A Modeling Language for Activity-Oriented Composition of Service-Oriented Software Systems
+            Naeem Esfahani, Sam Malek, Joao P. Sousa, Hassan Gomaa, and Daniel A. Menasce
+ACM/IEEE 12th International Conference on Model Driven Engineering Languages and Systems (MODELS 09),
+                Denver, Colorado, October 2009. (16% acceptance rate)
+[PDF]
+        
+
+
+"A Framework for Estimating the Energy Consumption Induced by a Distributed System's Architectural
+            Style"
+            Chiyoung Seo, George Edwards, Daniel Popescu, Sam Malek, and Nenad Medvidovic
+ESEC/FSE workshop on Specification and Verification of Component-Based Systems (SAVCBS 2009), Amsterdam,
+                Netherlands, August 2009.
+[PDF]
+        
+
+
+Reflecting on Self-Adaptive Software Systems
+            Jesper Andersson, Rogerio de Lemos, Sam Malek, and Danny Weyns
+ICSE workshop on Software Engineering for Adaptive and Self-Managing Systems (SEAMS 2009), Vancouver,
+                Canada, May 2009.
+[PDF]
+        
+
+
+Improving the Reliability of Mobile Software Systems through Continuous Analysis and Proactive
+            Reconfiguration
+            Sam Malek, Roshanak Roshandel, David Kilgore, and Ibrahim Elhag
+International Conference on Software Engineering (ICSE 2009), New Ideas and Emerging Results Track,
+                Vancouver, Canada, May 2009. (17% acceptance rate)
+[PDF]
+        
+
+
+Self-Architecting Software Systems (SASSY) from QoS-Annotated Activity Models
+            Sam Malek, Naeem Esfahani, Daniel A. Menasce, Joao Sousa, and Hassan Gomaa
+ICSE workshop on Principles of Engineering Service Oriented Systems (PESOS 2009), Vancouver, Canada, May
+                2009. (23% acceptance rate)
+[PDF]
+        
+
+
+Software Engineering for Self-Adaptive Systems: A Research Roadmap
+            Betty H. C. Cheng, Rogerio de Lemos, Holger Giese, Paola Inverardi, Jeff Magee, Jesper Andersson, Basil
+            Becker, Nelly Bencomo, Yuriy Brun, Bojan Cukic, Giovanna Di Marzo Serugendo, Schahram Dustdar, Anthony
+            Finkelstein, Cristina Gacek, Kurt Geihs, Vincenzo Grassi, Gabor Karsai, Holger M. Kienle, Jeff Kramer, Marin
+            Litoiu, Sam Malek, Raffaela Mirandola, Hausi A. Muller, Sooyong Park, Mary Shaw, Matthias Tichy, Massimo
+            Tivoli, Danny Weyns, Jon Whittle. 
+Software Engineering for Self-Adaptive Systems, Editors B. H. C. Cheng, R. de Lemos, H. Giese, P.
+                Inverardi, and J. Magee, Lecture Notes in Computer Science, Springer, 2009.
+[PDF]
+        
+
+
+Modeling Dimensions of Self-Adaptive Software Systems
+            Jesper Andersson, Rogerio de Lemos, Sam Malek, and Danny Weyns. 
+Software Engineering for Self-Adaptive Systems, Editors B. H. C. Cheng, R. de Lemos, H. Giese, P.
+                Inverardi, and J. Magee, Lecture Notes in Computer Science, Springer, 2009.
+[PDF]
+        
+
+
+2008
+
+Component-Level Energy Consumption Estimation for Distributed Java-Based Software Systems
+            Chiyoung Seo, Sam Malek, and Nenad Medvidovic
+11th International Symposium on Component Based Software Engineering (CBSE 2008), Karlsruhe, Germany,
+                October 2008.
+[PDF]
+        
+
+
+Dealing with the Crosscutting Structure of Software Architectural Styles
+            Sam Malek
+32nd Annual IEEE International Computer Software and Applications Conference (COMPSAC 2008), Turku,
+                Finland, July 2008. (20% acceptance rate)
+[PDF]
+        
+
+
+Architecture-Driven Software Mobility in Support of QoS Requirements
+            Marija Mikic-Rakic, Sam Malek, and Nenad Medvidovic
+International Workshop on Software Architectures and Mobility (SAM), Leipzig, Germany, May 2008.
+[PDF]
+        
+
+
+Refining Reliability Estimation of Mobile Software Systems
+            Roshanak Roshandel, and Sam Malek
+International Workshop on Software Architectures and Mobility (SAM), Leipzig, Germany, May 2008.
+[PDF]
+        
+
+
+Estimating the Energy Consumption in Pervasive Java-Based Systems
+            Chiyoung Seo, Sam Malek, and Nenad Medvidovic
+6th IEEE International Conference on Pervasive Computing and Communications (PerCom 2008), Hong Kong,
+                March 2008.
+[PDF]
+        
+
+
+Effective Realization of Software Architectural Styles with Aspects
+            Sam Malek
+7th Working IEEE/IFIP Conference on Software Architecture (WICSA 2008), Vancouver, BC, Canada, February
+                2008.
+[PDF]
+        
+
+
+A Framework for Estimating the Impact of a Distributed Software System's Architectural Style on its
+            Energy Consumption
+            Chiyoung Seo, George Edwards, Sam Malek, and Nenad Medvidovic
+7th Working IEEE/IFIP Conference on Software Architecture (WICSA 2008), Vancouver, BC, Canada, February
+                2008.
+[PDF]
+        
+
+
+2007
+
+Self-* Software Architectures and Component Middleware in Pervasive Environments
+            George Edwards, Chiyoung Seo, Daniel Popescu, Sam malek, and Nenad Medvidovic
+5th International Workshop on Middleware for Pervasive and Ad-Hoc Computing (MPAC 2007), Newport Beach,
+                Orange County, California, November 2007.
+[PDF]
+        
+
+
+An Energy Consumption Framework for Distributed Java-Based Systems
+            Chiyoung Seo, Sam Malek, and Nenad Medvidovic
+22nd IEEE/ACM International Conference on Automated Software Engineering (ASE 2007), Atlanta, Georgia,
+                November 2007.
+[PDF]
+        
+
+
+Software Deployment Architecture and Quality-of-Service in Pervasive Environments
+            Nenad Medvidovic and Sam Malek
+International Workshop on the Engineering of Software Services for Pervasive Environments (ESSPE 2007),
+                Dubrovnik, Croatia, September 2007.
+[PDF]
+        
+
+
+"Reconceptualizing a Family of Heterogeneous Embedded Systems via Explicit Architectural Support"
+            Sam Malek, Chiyoung Seo, Sharmila Ravula, Brad Petrus, and Nenad Medvidovic
+29th International Conference on Software Engineering (ICSE 2007), Minneapolis, Minnesota, May 2007. (25%
+                acceptance rate)
+[PDF]
+        
+
+
+Exploring the Role of Software Architecture in Dynamic and Fault Tolerant Pervasive Systems
+            Chiyoung Seo, Sam Malek, George Edwards, Nenad Medvidovic, Brad Petrus, and Sharmila Ravula
+Workshop on Software Engineering of Pervasive Computing Applications, Systems and Environments (SEPCASE
+                2007), Minneapolis, MN, May 2007.
+[PDF]
+        
+
+
+Scenario-Driven Dynamic Analysis of Distributed Architecture
+            George Edwards, Sam Malek, and Nenad Medvidovic
+10th International Conference on Fundamental Approaches to Software Engineering (FASE 2007), Braga,
+                Portugal, March 2007. (15% acceptance rate)
+[PDF]
+        
+
+
+2006
+
+Tailoring an Architectural Middleware Platform to a Heterogeneous Embedded Environment
+            Sam Malek, Chiyoung Seo, and Nenad Medvidovic
+6th International Workshop on Software Engineering and Middleware (SEM 2006), Portland, Oregon, November
+                2006.
+[PDF]
+        
+
+
+A User-Centric Framework for Improving a Distributed Software System's Deployment Architecture
+            Sam Malek
+14th ACM SIGSOFT Symposium on Foundation of Software Engineering (FSE 2006), Doctoral Track, Portland,
+                Oregon, November 2006.
+[PDF]
+        
+
+
+Providing Middleware-Level Facilities to Support Architecture-Based Development of Software Systems in
+            Pervasive Environments
+            Sam Malek, Chiyoung Seo, Sharmila Ravula, Brad Petrus, and Nenad Medvidovic
+4th International Workshop on Middleware for Pervasive and Ad-Hoc Computing (MPAC 2006), Melbourne,
+                Australia, November 2006.
+[PDF]
+        
+
+
+2005
+
+A Style-Aware Architectural Middleware for Resource Constrained, Distributed Systems
+            Sam Malek, Marija Mikic-Rakic, and Nenad Medvidovic
+ IEEE Transactions on Software Engineering, Vol. 31, No. 3, March 2005.
+[PDF]
+        
+
+
+A Decentralized Redeployment Algorithm for Improving the Availability of Distributed Systems
+            Sam Malek, Marija Mikic-Rakic, and Nenad Medvidovic
+3rd International Conference on Component Deployment (CD 2005), Grenoble, France, November 2005.
+[PDF]
+        
+
+
+Improving Availability in Large, Distributed Component-Based Systems via Redeployment
+            Marija Mikic-Rakic, Sam Malek, and Nenad Medvidovic
+3rd International Conference on Component Deployment (CD 2005), Grenoble, France, November 2005.
+[PDF]
+        
+
+
+A Framework for Ensuring and Improving Dependability in Highly Distributed Systems
+            Sam Malek, Nels Beckman, Marija Mikic-Rakic, and Nenad Medvidovic 
+Architecting Dependable Systems III, Editors R. de Lemos, C. Gacek, and A. Romanowski, Springer Verlag,
+                October 2005.
+[PDF]
+        
+
+
+GLIDE: A Grid-based Lightweight Infrastructure for Data-intensive Environments
+            Christian Mattmann, Sam Malek, Nels Beckman, Marija Mikic-Rakic, Nenad Medvidovic, and Daniel Crichton 
+European Grid Conference (EGC 2005), Amsterdam, Netherlands, February 2005
+
+
+
+2004
+
+An Extensible Framework for Autonomic Analysis and Improvement of Distributed Deployment
+            Architectures
+            Sam Malek, Marija Mikic-Rakic, and Nenad Medvidovic
+ ACM SIGSOFT Workshop on Self-Managed Systems (WOSS 2004) , Newport Beach, California, October 2004.
+[PDF]
+        
+
+
+A Tailorable Environment for Assessing the Quality of Deployment Architectures in Highly Distributed
+            Settings
+            Marija Mikic-Rakic, Sam Malek, Nels Beckman, and Nenad Medvidovic
+2nd International Conference on Component Deployment (CD 2004), Edinburgh, UK, May 2004.
+[PDF]
+        
+
+
+Improving Availability of Distributed Event-Based Systems via Run-Time Monitoring and Analysis
+            Marija Mikic-Rakic, Sam Malek, Nels Beckman, and Nenad Medvidovic
+Twin Workshop on Architecting Dependable Systems (WADS 2004), Edinburgh, UK, May 2004, and Florence,
+                Italy, June 2004.
+[PDF]
+        
+
+
+2003
+
+Software Architectural Support for Handheld Computing
+            Nenad Medvidovic, Marija Mikic-Rakic, Nikunj Mehta, and Sam Malek
+ IEEE Computer – Special Issue on Handheld Computing, Vol. 36, No. 9, pages 66-73, September 2003.
+                (5.7% acceptance rate).
+[PDF]
+        
+
+
+Software Architectures and Embedded Systems
+            Nenad Medvidovic, Sam Malek, and Marija Mikic-Rakic
+ Monterey Workshop on Software Engineering for Embedded Systems , Chicago, Illinois, September 2003.
+[PDF]
+        
+
+
+
+
+
+
+
+
+
+
+

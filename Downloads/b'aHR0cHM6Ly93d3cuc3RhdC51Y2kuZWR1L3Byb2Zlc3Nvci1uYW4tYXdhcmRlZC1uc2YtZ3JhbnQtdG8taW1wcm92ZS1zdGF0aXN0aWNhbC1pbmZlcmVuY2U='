@@ -1,0 +1,132 @@
+https://www.stat.uci.edu/professor-nan-awarded-nsf-grant-to-improve-statistical-inference
+
+
+
+
+Professor Nan Awarded NSF Grant to Improve Statistical Inference 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Department of Statistics - Donald Bren School of Information & Computer SciencesDepartment of Statistics - Donald Bren School of Information & Computer Sciences
+Explore
+
+Chair’s Welcome
+What is Statistics?
+Contact the Department
+Tutoring Resources
+
+
+Faculty
+
+Faculty Directory
+Job Opportunities
+
+
+Research
+Graduate Degrees
+
+M.S. & Ph.D. in Statistics
+Master of Data Science
+Current Course Listings
+Graduate Student Directory
+Internships & Employment Opportunities
+Employers of UCI Statistics Students
+
+
+Undergraduate Degrees
+
+B.S. in Data Science
+Minor in Statistics
+Current Course Listings
+
+
+News & Seminars
+
+News
+Seminars
+
+
+Center for Statistical Consulting
+Professor Nan Awarded NSF Grant to Improve Statistical Inference
+August 6, 2019 
+
+Statistics Professor Bin Nan, motivated by his collaborations in biomedical studies, is developing new theories and methods that will lead to more reliable results in high-dimensional statistical inference with potential applications in genetics and brain imaging studies. The National Science Foundation (NSF) recently awarded him $200,000 over three years for his grant, “High-Dimensional Inference beyond Linear Models.” The research is focused on finding ways to better address the bias issue for estimates in nonlinear models with a large number of predictors.
+
+When investigating the associations between a set of predicting variables and some outcome variables, researchers often use regression models. As outlined in the grant abstract, “estimates of regression coefficients and their confidence intervals provide useful information of the predicting variables, for example, the importance of certain genetic variants to lung cancer, or brain regions associated with memory loss in an aging population.” However, because regularized methods yield biased estimates, such methods can’t be directly used for statistical inference without correcting the biases.
+Some researchers have developed de-biasing procedures, but they usually do not work beyond linear models. As Nan points out, “existing de-biased regression methods do not successfully correct the bias in nonlinear models, such as the generalized linear models and the Cox model, leading to poor results in statistical inference.”
+Consequently, Nan says he aims to develop theories and methods “for the generalized linear models and the Cox regression model with a large number of covariates, and for the functional regression models with applications in brain imaging studies, without imposing the non-verifiable sparsity assumption on the Hessian matrix.” The distributional theory and confidence intervals provided for the statistical models in this project should “lead to more reliable results than existing methods in scientific research.”
+— Shani Murray
+
+« Renewed Funding Lets Hal Stern Continue Research of Early-Life Adversity, Brain Development with the UCI Conte CenterHal Stern Appointed Vice Provost for Academic Planning »
+
+Latest News
+
+
+UCI’s Master of Data Science to Launch Part-Time Program in Fall 2023
+October 10, 2022
+
+
+New Faculty Spotlight: Statistics Professor Hengrui Cai Strives for Real-World Impact
+September 22, 2022
+
+
+SoCal Data Science Program Off to a Strong Start
+September 21, 2022
+
+
+Undergraduates Conduct Biostatistics Research at New Summer Institute at UCI
+September 13, 2022
+
+
+Professors Nan and Gillen Receive $1.8M Grant to Study Statistical Methods for Alzheimer’s Research
+August 29, 2022
+
+
+
+ News Archive
+
+
+ 
+
+
+
+
+
+© 2022 UC Regents
+Feedback
+Privacy Policy
+
+
+
+
+
+
+

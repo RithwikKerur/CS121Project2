@@ -1,0 +1,206 @@
+http://www.ics.uci.edu/Arcadia/Teamware/historical.html
+
+
+Teamware - Process Support System
+
+
+
+ Project Description
+ Summary of System Features
+ Process Definition
+ Platform
+ Availability
+ Example Activity Network
+ Project Personnel
+ Papers
+ Contact Information
+ Online
+Interactive Teamware Demo
+ 
+Teamware Activity Guidance Support
+ 
+Online API Reference Manual
+ 
+Teamware Architecture Diagrams
+
+
+Project Description
+
+The Teamware process support system is designed to improve team coordination 
+and managerial control of software development teams. Teamware allows users 
+to explicitly define their software development process and provides 
+extensive execution support. In addition, Teamware is designed for 
+non-technical as well as technical users, and is appropriate for use by 
+managers, programmers, domain experts, and customer representatives. 
+It also provides support for company-, site-, or project-specific 
+customization.
+
+
+During process execution, Teamware provides a summary of assignments for 
+each team member. As each assignment is completed, Teamware informs 
+appropriate managers and team members, and updates the shared project view. 
+It also coordinates handoff of artifacts, tool interaction, and resource 
+assignments. Further automation can be provided depending on the user's 
+environment. This automation can include, for example, automatic invocation 
+of tools, automated forwarding of documents to reviewers, or interaction 
+with metrics gathering tools.
+
+
+Summary of System Features
+
+
+Support for Non-Technical Personnel - The language and system are 
+designed to support non-technical users as well as technical users. 
+Non-technical managers, domain experts, accounting, marketing, and support 
+staff are able to both read and write programs using the Teamware language.
+
+Company, Site, or Project Customizable - Companies or projects 
+can customize Teamware to meet their specific needs. New activity, artifact, 
+and resource types can be defined.
+
+Facilitates Integration with External Tools - Teamware's object 
+model is designed to facilitate integration with any external tools providing 
+an API. Teamware's agenda tool and default mail system, for example, can be 
+replaced with the time-management and mail systems preferred by a particular 
+site. In addition, meeting room schedulers, project management tools, and other 
+site-specific tools can be integrated in using the object model.
+
+Object-Oriented - Teamware's activity, artifact, and resource 
+definitions are object-oriented. Users can create new definitions which 
+inherit the properties of existing definitions.
+
+Multiple-Viewing Formalisms Supportable - While Teamware provides 
+a default view of the process similar to PERT charts, it also provides an API 
+allowing access for viewing and editing using other viewers. Future viewers are 
+planned including IDEF. In addition, users can define their own viewers.
+
+Dynamic Response to Project Changes - Teamware provides flexibility 
+as the project changes. Teamware activities, activity networks, and activity, 
+artifact, and resource types can be changed dynamically as the process 
+executes.
+
+
+Process Definition in Teamware
+
+
+Teamware allows definition of the activities, artifacts, and resources 
+associated with the software development process. These items can be defined 
+hierarchically, thus an activity can be further subdivided into subactivities, 
+while a software development team resource can be further defined to include 
+team member resources or subteam resources. In addition, Teamware activity 
+networks define the interelationships between activities, artifacts, and 
+resources. Networks include definition of control flow, data flow, and 
+resource assignments. Teamware's default activity network viewer provides 
+a PERT-like view of the activities, however additional viewers can be defined 
+using Teamware's API. An IDEF0 viewer, for example, is planned.
+
+
+Teamware provides a high degree of extensibility and flexibility in process 
+definitions. Teamware provides object-oriented hierarchies of activity, 
+artifact, and resource categories. Users can customize or extend the existing 
+categories to meet their specific needs. Thus, if a company uses a different 
+e-mail system than mh (Teamware's default system), a new e-mail system can 
+be easily integrated. Similarly, if a project needs a new resource type 
+not found in Teamware, the existing resource hierarchy can be extended.
+
+
+Platform
+
+
+The initial implementation of Teamware has been developed running Sun OS 4.2 
+or higher. It utilizes Sun Ada, gcc, and 
+Python. 
+API's are provided for both 
+Ada and Python. Default viewers provided are built on top of the ARPA-sponsored 
+Chiron User Interface Management System.
+
+ 
+Availability
+
+
+Teamware is public domain software with full source distribution.
+Teamware-1.1 is written completely in 
+Java(tm) and is set for release
+on the web sometime in the second quarter, 1996.
+Object handlers are currently supported in Python and Java; support
+for Ada95 and Tcl are currently underway. 
+
+If you are interested in becoming a beta-tester, 
+please contact us. 
+
+
+ 
+Example Teamware Activity Network using default viewer.
+
+
+
+
+Current Project Personnel
+
+
+Patrick S. Young (Project Manager)
+Gregory Alan Bolcer (Lead Programmer)
+Jeffrey J. Blevins
+Deborah L. Dubrow
+Peter Kammer
+Jason E. Robbins
+Harry E. Yessayan
+Richard N. Taylor (Supervising Faculty)
+
+
+
+Papers
+
+
+ 
+Customizable Process Specification and Enactment for Technical
+and Non-Technical Users (Disseration) 
+ by Patrick Scott Chun Young.
+[940kB]
+
+ 
+The Teamware Language Reference Manual Version 1.0
+ by Patrick Scott Chun Young,
+March 25, 1994. [249kB]
+
+ 
+The Teamware Foundation Reference Manual Version 1.0
+ by Patrick Scott Chun Young,
+March 25, 1994. [148kB]
+
+ 
+Human-Executed Operations in the Teamware Process Programming System,
+ by Patrick S. Young and
+Richard N. Taylor,
+in Proceedings of the Ninth Internation Software Process Workshop. [46kB]
+
+ 
+Process Model Customization for Technical and Non-Technical Users, 
+ by Patrick S. Young and 
+Richard N. Taylor. [102kB]
+
+ 
+Team-Oriented Process Programming,
+ by Patrick S. Young and
+Richard N. Taylor, 
+Technical Report UCI 91-68.
+
+
+
+
+
+Contact Information
+
+
+Arcadia-Teamware
+
+Department of Information and Computer Science,
+University of California, Irvine
+Irvine, CA 92717-3425
+
+
+arcadia-teamware@ics.uci.edu
+
+Arcadia Project at UCI
+Last modified: Fri Dec  9 13:04:25 1994
+

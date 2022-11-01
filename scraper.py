@@ -4,6 +4,8 @@ from bs4 import BeautifulSoup
 import os
 import base64
 
+val = 1
+
 def scraper(url, resp):
     links = extract_next_links(url, resp)
     valid = [link for link in links if is_valid(link)]
@@ -31,13 +33,14 @@ def extract_next_links(url, resp):
                 defrag = defrag.split('#')[0]
                 links.append(defrag)
     
-    with open ('Downloads/' + str(base64.b64encode(url.encode("utf-8"))), 'w') as file:
+    with open ('Downloads/' + str(val), 'w') as file:
         file.write(url + '\n')
         parser = BeautifulSoup(resp.raw_response.content, 'html.parser')
 
         file.write(parser.get_text())
         #file.write(''.join([x for x in parser.body.find_all(text=True)]))
-        
+        val += 1
+    
     return links
 
 def is_valid(url):

@@ -1,0 +1,139 @@
+https://jgarcia.ics.uci.edu/?page_id=7
+
+
+
+
+
+
+
+
+Publications – Joshua Garcia @ UCI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Joshua Garcia @ UCI								
+
+
+
+
+
+AboutCVProjectsPublicationsServiceStudentsTeachingNavigation
+
+
+
+
+ 
+
+
+
+    				Publications    			
+
+
+
+
+
+
+Journals
+Negar Ghorbani, Reyhaneh Jabbarvand, Navid Salehnamadi, Joshua Garcia, and Sam Malek. DeltaDroid: Dynamic Delivery Testing in Android. ACM Transactions on Software Engineering and Methodology (TOSEM), August 2022 (Accepted for Publication).
+Joshua Garcia, Ehsan Kouroshfar, Negar Ghorbani, and Sam Malek. Forecasting Architectural Decay from Evolutionary History. IEEE Transactions on Software Engineering (TSE), July 2022.
+Joshua Garcia, Mahmoud Hammad, and Sam Malek. Lightweight, Obfuscation-Resilient Detection and Family Identification of Android Malware. ACM Transactions on Software Engineering and Methodology (TOSEM), July 2017.
+Thibaud Lutellier, Devin Chollak, Joshua Garcia, Lin Tan, Derek Rayside, Nenad Medvidovic, and Robert Kroeger. Measuring the Impact of Code Dependencies on Software Architecture Recovery Techniques. IEEE Transactions on Software Engineering (TSE), 2017.
+Alireza Sadhegi, Hamid Bagheri, Joshua Garcia, and Sam Malek. A Taxonomy and Qualitative Comparison of Program Analysis Techniques for Security Assessment of Android Software. IEEE Transactions on Software Engineering (TSE), 2016.
+Pooyan Behnamghader, Duc Le, Joshua Garcia, Daniel Link, Arman Shahbazian, and Nenad Medvidović. A Large-Scale Study of Architectural Evolution in Open-Source Software Systems. Empirical Software Engineering, 2016.
+Hamid Bagheri, Joshua Garcia, Alireza Sadeghi, Sam Malek, Nenad Medvidovic. Software Architectural Principles in Contemporary Mobile Software: From Conception to Practice. Journal of Systems and Software (JSS), 2016.
+Hamid Bagheri, Alireza Sadeghi, Joshua Garcia, and Sam Malek. COVERT: Compositional Analysis of Android Inter-App Permission Leakage. IEEE Transactions on Software Engineering (TSE), 2015.
+Chris A. Mattmann, Joshua Garcia, Ivo Krka, Daniel Popescu, and Nenad Medvidović. Revisiting the Anatomy and Physiology of the Grid. Journal of Grid Computing, 2015.
+Nenad Medvidović, Hossein Tajalli, Joshua Garcia, Yuriy Brun, Ivo Krka, and George Edwards. Engineering heterogeneous robotics systems: A software architecture-based approach, IEEE Computer, 2011.
+Sam Malek, George Edwards, Yuriy Brun, Hossein Tajalli, Joshua Garcia, Ivo Krka, Nenad Medvidović, Marija Mikic-Rakic, Gaurav Sukhatme. An Architecture-Driven Software Mobility Framework. Journal of Systems and Software, 2010.
+Conferences – Long Papers
+Ziwen Wan, Junjie Shen, Jalen Chuang, Xin Xia, Joshua Garcia, Jiaqi Ma, and Qi Alfred Chen. Too Afraid to Drive: Systematic Discovery of Semantic DoS Vulnerability in Autonomous Driving Planning under Physical-World Attacks. In Network and Distributed Systems Security (NDSS) Symposium, April 2022.
+Sumaya Almanee, Arda Unal, Mathias Payer, and Joshua Garcia. Too Quiet in the Library: An Empirical Study of Security Updates in Android Apps’ Native Code. In the 43rd International Conference on Software Engineering (ICSE 2021), May 2021.
+Joshua Garcia, Mehdi Mirakhorli, Lu Xiao, Yutong Zhao, Ibrahim Mujhid, Khoi Pham, Ahmet Okutan, Sam Malek, Rick Kazman, Yuanfang Cai and Nenad Medvidović. Constructing a Shared Infrastructure for Software Architecture Analysis and Maintenance. In the 18th IEEE International Conference on Software Architecture (ICSA 2021), March 2021.
+Joshua Garcia, Yang Feng, Junjie Shen, Sumaya Almanee, Yuan Xia, and Qi Alfred Chen. A Comprehensive Study of Autonomous Vehicle Bugs. In the 42nd International Conference on Software Engineering (ICSE 2020), May 2020.
+Negar Ghorbani, Joshua Garcia, and Sam Malek. Detection and Repair of Architectural Inconsistencies in Java.
+In the 41st International Conference on Software Engineering (ICSE 2019), May 2019.
+Mahmoud Hammad, Joshua Garcia, and Sam Malek. SALMA: Self-Protection of Android Systems from Inter-Component Communication Attacks. In the Proceedings of the 33rd IEEE/ACM International Conference on Automated Software Engineering (ASE), 2018.
+Mahmoud Hammad, Joshua Garcia, and Sam Malek. A Large-Scale Empirical Study on the Effects of Code Obfuscations on Android Apps and Anti-Malware Products. In the Proceedings of the 40th International Conference on Software Engineering (ICSE), 2018.
+Jun-Wei Lin, Reyhaneh Jabbarvand, Joshua Garcia, and Sam Malek. Nemo: Multi-Criteria Test-Suite Minimization with Integer Nonlinear Programming. In the Proceedings of the 40th International Conference on Software Engineering (ICSE), 2018.
+Joshua Garcia, Mahmoud Hammad, Negar Ghorbani, and Sam Malek.  Automatic Generation of Inter-Component Communication Exploits for Android Applications. In the Proceedings of the 11th joint meeting of the European Software Engineering Conference and ACM SIGSOFT Symposium on the Foundations of Software Engineering (ESEC/FSE), 2017.
+Nariman Mirzaei, Joshua Garcia, Hamid Bagheri, Alireza Sadeghi, and Sam Malek. Reducing Combinatorics in GUI Testing of Android Applications. In the 38th International Conference on Software Engineering (ICSE), 2016.
+Duc Le, Pooyan Behnamghader, Joshua Garcia, Daniel Link, Arman Shahbazian, and Nenad Medvidović. An Empirical Study of Architectural Change in Open-Source Software Systems. In the 12th Working Conference on Mining Software Repositories (MSR), 2015.
+Thibaud Lutellier, Devin Chollack, Joshua Garcia, Lin Tan, Derek Rayside, Nenad Medvidović, and Robert Kroeger. Comparing Software Architecture Recovery Techniques Using Accurate Dependencies. In the 37th International Conference on Software Engineering (ICSE), Software Engineering in Practice Track, 2015.
+Joshua Garcia, Igor Ivkovic, and Nenad Medvidović. A Comparative Analysis of Software Architecture Recovery Techniques. Techniques. In the Proceedings of the 28th IEEE/ACM International Conference on Automated Software Engineering (ASE), 2013.
+Joshua Garcia, Daniel Popescu, Gholamreza Safi, William G.J. Halfond, and Nenad Medvidović. Identifying Message Flow in Distributed Event-Based Systems. In the Proceedings of the 9th joint meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering (ESEC/FSE), 2013.
+Joshua Garcia, Ivo Krka, Chris Mattmann, and Nenad Medvidović. Obtaining Ground-Truth Software Architectures. In the Proceedings of the 35th International Conference on Software Engineering (ICSE), Software Engineering in Practice Track, 2013.
+Daniel Popescu, Joshua Garcia, Kevin Bierhoff, and Nenad Medvidović. Impact analysis for distributed event-based systems. In the Proceedings of the Sixth ACM International Conference on Distributed Event-Based Systems (DEBS), 2012.
+Isela Macia Bertran, Joshua Garcia, Daniel Popescu, Alessandro Garcia, Nenad Medvidović, and Arndt von Staa. Are automatically-detected code anomalies relevant to architectural modularity?: an exploratory analysis of evolving systems. In the Proceedings of the 11th Annual International Conference on Aspect-oriented Software Development (AOSD), 2012.
+Isela Macia, Alessandro Garcia, Arndt von Staa, Joshua Garcia, and Nenad Medvidović. On the Impact of Aspect-Oriented Code Smells on Architecture Modularity: An Exploratory Study. In the Proceedings of the 5th Brazilian Symposium on Software Components, Architectures and Reuse (SBCARS), 2011.
+Hossein Tajalli, Joshua Garcia, George Edwards, and Nenad Medvidović.  PLASMA: A Plan-based Layered Architecture for Software Model-driven adaptation. In the Proceedings of the 25th IEEE/ACM International Conference on Automated Software Engineering (ASE), 2010.
+Joshua Garcia, Daniel Popescu, George Edwards and Nenad Medvidović. Toward a Catalogue of Architectural Bad Smells. In the Proceedings of the Fifth International Conference on the Quality of Software Architectures (QOSA), 2009.
+Workshops and Short Conference Papers
+Marcelo Schmitt Laser, Duc Minh Le, Joshua Garcia, and Nenad Medvidović. Architectural Archipelagos: Technical Debt in Long-Lived Software Research Platforms. In the Proceedings of the IEEE/ACM International Conference on Technical Debt (TechDebt), 2020.
+Marcelo Schmitt Laser, Nenad Medvidovic ́, Duc Minh Le, and Joshua Garcia. ARCADE: An Extensible Workbench for Architecture Recovery, Change, and Decay Evaluation. In the Proceedings of the ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE), 2020.
+Reyhaneh Jabbarvand, Alireza Sadeghi, Joshua Garcia, Sam Malek, and Paul Ammann. EcoDroid: An Approach for Energy-Based Ranking of Android Apps. In the 4th International Workshop on Green and Sustainable Software in Conjunction with ICSE, 2015.
+Ran Mo, Joshua Garcia, Yuanfang Cai, Nenad Medvidović. Mapping Architectural Smells into Dependency Models, In the Proceedings of the Fourth International Workshop on Managing Technical Debt in Conjunction with ICSE, 2013.
+Youn Kyu Lee, Jae young Bang, Joshua Garcia, and Nenad Medvidović. ViVA: A Visualization and Analysis Tool for Distributed Event-Based Systems. In the Formal Demonstrations track of the 36th International Conference on Software Engineering (ICSE), 2014. (Demo video)
+Joshua Garcia, Ivo Krka, Nenad Medvidović, and Chris Douglas. A Framework for Obtaining the Ground-Truth in Architectural Recovery. In WICSA/ECSA 2012.
+Joshua Garcia, Daniel Popescu, Chris Mattmann, Nenad Medvidović, and Yuanfang Cai. Enhancing architectural recovery using concerns. In the Proceedings of the 26th IEEE/ACM International Conference on Automated Software Engineering (ASE), 2011.
+Ivo Krka, Yuriy Brun, Daniel Popescu, Joshua Garcia, Nenad Medvidović, Using Dynamic Execution Traces and Program Invariants to Enhance Behavioral Model Inference. New Ideas and Emerging Results Track of the 32nd International Conference on Software Engineering (ICSE NIER), Cape Town, South Africa, May 2010.
+Chris A. Mattmann, Joshua Garcia, Ivo Krka, Daniel Popescu, Nenad Medvidović, The Anatomy and Physiology of the Grid Revisited. Joint Working IEEE/IFIP Conference on Software Architecture & European Conference on Software Architecture (WICSA/ECSA09), 2009.
+Daniel Popescu, Joshua Garcia, and Nenad Medvidović. Enabling more precise dependency analysis in event-based systems. In the 17th International Conference on Program Comprehension (ICPC), 2009.
+Joshua Garcia, Daniel Popescu, George Edwards and Nenad Medvidović, Identifying Architectural Bad Smells. In the Proceedings of the 13th European Conference on Software Maintenance and Reengineering (CSMR), 2009.
+George Edwards, Joshua Garcia, Hossein Tajalli, Daniel Popescu, Nenad Medvidović, Gaurav Sukhatme, and Brad Petrus, Architecture-Driven Self-Adaptation and Self-Management in Robotics Systems. In the Proceedings of the Workshop on Software Engineering for Adaptive and Self-Managing Systems (SEAMS), 2009.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Joshua Garcia @ UCI |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

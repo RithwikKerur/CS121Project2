@@ -1,0 +1,95 @@
+https://www.ics.uci.edu/~yeouln
+
+
+Dr. Yeoul Na, PostDoc, University of California, Irvine
+
+
+
+
+
+
+
+
+Dr. Yeoul Na, Postdoc, University of California, Irvine
+
+
+Quick Information
+
+Position: Postdoctoral Scholar at SSLLab, working with Professor
+							Dr. Michael Franz
+Research Interests: Compilers, Software Systems Security, Dynamic Compilation, Binary Lifting
+Office: CS Building, Suite 444
+E-mail: yeouln at uci.edu
+
+
+
+
+
+
+Teaching
+
+2012 at Korea University: COMP315 Computer Systems Design and Laboratory
+Spring 2019 at UCI: CS 142B Language Processor Construction (Compiler Construction)
+
+
+
+
+
+
+Recent Publications
+T. Park, K. Dhondt, D. Gens, Y. Na, S. Volckaert, M. Franz;
+                    "NoJITsu: Locking Down JavaScript Engines;"
+                    in 2020 Network and Distributed System Security Symposium (NDSS 2020),
+                    San Diego, CA, USA; February 2020. (63 papers accepted out of 399 submissions = 17%)
+D.K. Song, F. Hetzelt, D. Das, Ch. Spensky, Y. Na, S. Volckaert, G. Vigna, Ch. Kruegel, J.-P. Seifert, and M. Franz;
+					"PeriScope: An Effective Probing and Fuzzing Framework for the Hardware-OS Boundary;"
+                    in 2019 Network and Distributed Systems Security Symposium
+							(NDSS 2019), San Diego, California; February 2019. (89 papers accepted out of 521 submissions = 17%)
+D.K. Song, J. Lettner, P. Rajasekaran, Y. Na, S. Volckaert, P. Larsen, and M. Franz; "SoK: Sanitizing for Security;"
+					in 40th IEEE Symposium on Security and Privacy (IEEE S&P
+							2019),
+						 San Francisco, California; May 2019. (84 papers accepted out of 679 submissions = 12%)
+T. Kroes, A. Altinay, J. Nash, Y. Na, S. Volckaert, H. Bos, M. Franz, and Ch. Giuffrida; "BinRec:
+						Attack Surface Reduction Through Dynamic Binary Recovery;" in 2018
+							Workshop on Forming an Ecosystem Around Software Transformation (FEAST '18), Toronto, Canada, pp. 8-13; October
+					2018.
+				
+B. Belleville, H. Moon, J. Shin, D. Hwang, J.M. Nash, S. Jung, Y. Na, S. Volckaert, P. Larsen, Y. Paek, and M. Franz;
+					"
+					Hardware Assisted Randomization of Data;"
+					in 21st International Symposium on Research in Attacks, Intrusions, and Defenses
+							(RAID 2018), Heraklion, Crete, Greece; September 2018. (33 papers accepted out of 145 submissions = 23%)
+M. Qunaibit, S. Brunthaler, Y. Na, S. Volckaert and M. Franz; "Accelerating
+						Dynamically-Typed Languages on Heterogeneous Platforms Using Guards Optimization;" in 2018
+							European Conference on Object-Oriented Programming (ECOOP 2018); Amsterdam, Netherlands; July 2018. (26 papers
+					accepted out of 66 submissions = 39%)
+T. Park, J. Lettner, Y. Na, S. Volckaert and M. Franz; "Bytecode
+						Corruption Attacks Are Real—And How To Defend Against Them;" in 2018
+							Conference on Detection of Intrusions and Malware & Vulnerability Assessment (DIMVA 2018),
+					Paris, France; June 2018. (18 papers accepted out of 59 submissions = 30%)
+M. Han, Y. Na, D. Jung, H. Lee, S. W. Kim, Y. Han; "
+						Energy-Efficient DRAM Selective Refresh Technique with Page Residence in a Memory Hierarchy of Hardware-Managed TLB.;
+					" in IEICE Transactions on Electronics, 101-C(3): 170-182 (2018)
+P. Biswas, A. Di Federico, S.A. Carr, P. Rajasekaran, S. Volckaert, Y. Na, M. Franz, and M. Payer; "Venerable
+						Variadic Vulnerabilities Vanquished;" in USENIX Security 2017, Vancouver, British Columbia; August
+					2017. (85 papers accepted out of 522 submissions = 16%)
+Y. Na, S. W. Kim, Y. Han; "
+					JavaScript Parallelizing Compiler for Exploiting Parallelism from
+						Data-Parallel HTML5 Applications;"
+					In ACM Transactions on Architecture and Code Optimization (TACO) 12(4): 64:1-64:25 (2016); presented in HiPEAC
+						2016
+					
+
+
+
+
+
+
+
+			Information and Computer Science
+
+University of California, Irvine Irvine, CA 92697-3425
+	
+	Last modified: 10 Feb 2020
+
+

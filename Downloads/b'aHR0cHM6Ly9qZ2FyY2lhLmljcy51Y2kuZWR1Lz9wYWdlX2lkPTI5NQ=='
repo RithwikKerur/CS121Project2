@@ -1,0 +1,147 @@
+https://jgarcia.ics.uci.edu/?page_id=295
+
+
+
+
+
+
+
+
+Projects – Joshua Garcia @ UCI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Joshua Garcia @ UCI								
+
+
+
+
+
+AboutCVProjectsPublicationsServiceStudentsTeachingNavigation
+
+
+
+
+ 
+
+
+
+    				Projects    			
+
+
+
+
+
+Forecasting Architectural Decay from Evolutionary History
+
+Tool and dataset is available here.
+
+
+Software Architecture INstrument (SAIN), a first-of-its-kind integration framework for assembling architecture-related techniques and tools with the goal of enabling empirical research in the context of software maintenance.
+
+Infrastructure is available here.
+
+
+Librarian: a tool designed to identify native libraries and their versions as found in Android apps, input data, and extended evaluation results.
+
+Tool, input data, and extended evaluation results are available here.
+
+
+A Comprehensive Study of Autonomous Vehicle Bugs
+
+Dataset is available here.
+
+
+Darcy: Detection and Repair of Architectural Inconsistencies in Java
+RevealDroid: Lightweight, Obfuscation-Resilient Detection and Family Identification of Android Malware
+LetterBomb: Automatic Generation of Inter-Component Communication Exploits for Android Applications
+SALMA: Self-Protection of Android Systems from Inter-Component Communication Attacks
+COVERT: Compositional Analysis of Android Inter-Application Vulnerabilities
+A Large-Scale Empirical Study on the Effects of Code Obfuscations on Android Apps and Anti-Malware Products
+
+Get the Android App obfuscation framework and datasets
+
+
+A Taxonomy of Program Analysis Techniques for Security Assessment of Android Apps
+
+Check out the classification of Android security analysis papers
+
+
+TrimDroid: Reducing Combinatorics in GUI Testing of Android Applications
+Architectural Recovery using Concerns (ARC): an approach for recovery of the components of a software systems architecture that leverages topic models
+Architecture Recovery, Change, And Decay Evaluator (ARCADE): a software workbench that employs a suite of architecture-recovery techniques and a set of metrics for measuring different aspects of architectural change. Users include Huawei, Northrup Grumman, and Boeing.
+
+Old version available here
+Please contact me, Duc Le (ducmle at usc dot edu), Daniel Link (dlink at usc dot edu), or  Nenad Medvidović (neno at usc dot edu) for the latest version
+
+
+Eos: a tool for identifying messages, inter-component dependencies based on messages, intra-component dependencies based on messages, and attributes of a message in a distributed event-based system.
+
+Get the tool here
+
+
+Ground-Truth Software Architectures: architectures recovered with the aid of a software system’s architect or long-time architecturally aware developer.
+
+Includes Apache Hadoop, Bash (Bourne Again Shell), Apache OODT, and ArchStudio.
+Includes Google Chromium.
+
+
+Apache Object Oriented Data Technology (OODT) (as an Apache Committer): a framework for
+large-scale distributed data management and processing.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Joshua Garcia @ UCI |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

@@ -1,0 +1,147 @@
+https://www.cs.uci.edu/uci-news-uci-researchers-autonomous-vehicles-can-be-tricked-into-dangerous-driving-behavior
+
+
+
+
+UCI News: “UCI researchers: Autonomous vehicles can be tricked into dangerous driving behavior” 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ this is a widget called second front page widget area
+
+Explore
+
+Contact Us
+
+
+Faculty
+Research
+
+Research Areas
+Research Centers
+
+
+Graduate Degrees
+
+Computer Science Programs
+Current Graduate Students
+
+
+Undergraduate Degrees
+News  & Events
+
+News
+Seminar Series
+Distinguished Lecture Series
+Research Showcase
+
+
+Apply Now
+
+Undergraduate Admissions
+Graduate Admissions
+Faculty Candidates
+
+
+UCI News: “UCI researchers: Autonomous vehicles can be tricked into dangerous driving behavior”
+May 27, 2022 
+When a driverless car is in motion, one faulty decision by its collision-avoidance system can lead to disaster, but researchers at the University of California, Irvine have identified another possible risk: Autonomous vehicles can be tricked into an abrupt halt or other undesired driving behavior by the placement of an ordinary object on the side of the road.
+“A box, bicycle or traffic cone may be all that is necessary to scare a driverless vehicle into coming to a dangerous stop in the middle of the street or on a freeway off-ramp, creating a hazard for other motorists and pedestrians,” said Qi Alfred Chen, UCI professor of computer science and co-author of a paper on the subject presented recently at the Network and Distributed System Security Symposium in San Diego.
+
+Researchers in UCI’s Department of Computer Science set up a course on the UCLA campus to test the reactions of driverless cars to ordinary objects being placed on the side of the road. Their study found that boxes, bicycles, trash cans and traffic cones can cause a driverless vehicle to halt abruptly, potentially creating a hazard and impacting delivery of passengers and goods. Ziwen Wan / UCI
+Chen added that vehicles can’t distinguish between objects present on the road by pure accident or those left intentionally as part of a physical denial-of-service attack. “Both can cause erratic driving behavior,” said Chen.
+Chen and his team focused their investigation on security vulnerabilities specific to the planning module, a part of the software code that controls autonomous driving systems. This component oversees the vehicle’s decision-making processes governing when to cruise, change lanes or slow down and stop, among other functions.
+“The vehicle’s planning module is designed with an abundance of caution, logically, because you don’t want driverless vehicles rolling around, out of control,” said lead author Ziwen Wan, UCI Ph.D. student in computer science. “But our testing has found that the software can err on the side of being overly conservative, and this can lead to a car becoming a traffic obstruction, or worse.
+
+
+
+For this project, the researchers at UCI’s Donald Bren School of Information and Computer Sciences designed a testing tool, dubbed PlanFuzz, which can automatically detect vulnerabilities in widely used automated driving systems. As shown in video demonstrations, the team used PlanFuzz to evaluate three different behavioral planning implementations of the open-source, industry-grade autonomous driving systems Apollo and Autoware.
+The researchers found that cardboard boxes and bicycles placed on the side of the road caused vehicles to permanently stop on empty thoroughfares and intersections. In another test, autonomously driven cars, perceiving a nonexistent threat, neglected to change lanes as planned.
+“Autonomous vehicles have been involved in fatal collisions, causing great financial and reputation damage for companies such as Uber and Tesla, so we can understand why manufacturers and service providers want to lean toward caution,” said Chen. “But the overly conservative behaviors exhibited in many autonomous driving systems stand to impact the smooth flow of traffic and the movement of passengers and goods, which can also have a negative impact on businesses and road safety.
+
+
+
+Joining Chen and Wan on this project, which was funded by the National Science Foundation, were Junjie Shen, UCI Ph.D. student in computer science; Jalen Chuang, UCI undergraduate student in computer science; Xin Xia, UCLA postdoctoral scholar in civil and environmental engineering; Joshua Garcia, UCI assistant professor of informatics; and Jiaqi Ma, UCLA associate professor of civil and environmental engineering.
+Originally posted at UCI News.
+« Wired: “Google Has a Plan to Stop Its New AI From Being Dirty and Rude” (Sameer Singh quoted)Futurity: “Roadside Objects Can Trick Driverless Cars” (Alfred Chen quoted) »
+
+Latest news
+
+
+Senior Spotlight: Tennis Player and CS Major Matthew Sah Serves Up Aces On and Off the Court
+September 28, 2022
+
+
+Register Today for the Southern California AI & Biomedicine Symposium
+September 20, 2022
+
+
+CPO Magazine: “A Legal View of New NIST Quantum-Resistant Algorithms” by Bryan Cunningham
+September 19, 2022
+
+
+UCI Ranked 24th in Undergraduate Computer Science Programs by U.S. News & World Report
+September 16, 2022
+
+
+Senior Spotlight: Jose Cisneros Builds Impressive Resume with Trio of Internships
+September 15, 2022
+
+
+
+
+ 
+
+
+
+
+
+© 2022 UC Regents
+Feedback
+Privacy Policy
+
+
+
+ 
+
+
+
+

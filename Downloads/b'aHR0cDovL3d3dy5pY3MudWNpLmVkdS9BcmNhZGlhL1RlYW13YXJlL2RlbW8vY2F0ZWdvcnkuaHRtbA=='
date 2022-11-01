@@ -1,0 +1,30 @@
+http://www.ics.uci.edu/Arcadia/Teamware/demo/category.html
+
+
+Online Interactive Teamware Demo, Category
+
+
+
+Fields can be dynamically added and deleted from a Category
+as well as Messages and Message Handlers.
+Category Handlers are written using the 
+Python language, and
+can be interactively written using the 
+
+python editor/interpreter.  Teamware also provides the
+petal2tmw (Petal to Teamware) translation tool to aid the
+System level programmer for rapid prototyping of Foundation
+Level objects using  
+
+Rose tool.
+
+
+
+
+EVENTS
+
+REQUESTS
+DONE
+
+
+

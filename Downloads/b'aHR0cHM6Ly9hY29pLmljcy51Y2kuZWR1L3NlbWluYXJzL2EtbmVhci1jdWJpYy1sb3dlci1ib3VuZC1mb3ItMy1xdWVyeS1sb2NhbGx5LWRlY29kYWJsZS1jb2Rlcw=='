@@ -1,0 +1,478 @@
+https://acoi.ics.uci.edu/seminars/a-near-cubic-lower-bound-for-3-query-locally-decodable-codes
+
+
+
+
+
+
+A Near-cubic Lower Bound for 3-query Locally Decodable Codes – ACO Center @ UCI 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI  
+
+
+
+
+Algorithms, Combinatorics and Optimization 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A Near-cubic Lower Bound for 3-query Locally Decodable Codes
+Home>Seminars>A Near-cubic Lower Bound for 3-query Locally Decodable Codes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A Near-cubic Lower Bound for 3-query Locally Decodable Codes 
+
+
+
+
+Date: October 6, 2022					
+
+
+
+
+
+Time: 4:00 pm					
+
+
+
+
+
+Room: DBH 4011					
+
+
+
+
+
+Speaker: Venkatesan Guruswami 					
+
+
+
+
+
+				 (UC Berkeley)					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: Locally decodable codes (LDCs) allow for ultra-efficient recovery of
+any single message symbol by querying a very few codeword symbols. In
+addition to their appeal for storage and cryptographic applications,
+locality is a fundamental concept in coding theory with many
+ramifications across computational complexity. An outstanding
+challenge concerning LDCs is their optimal encoding length for a
+desired number q of queries. For q=2, it is known that exponential
+blow-up in encoding length is necessary (and the simple Hadamard code
+achieves this). For q > 2, however, there are significant gaps in our
+understanding. For instance, for 3-query LDCs, the best constructions
+require sub-exponential encoding length, and the best known lower
+bound, that has stood for two decades, was only quadratic.
+In this talk, we will describe a near-cubic lower bound on the
+encoding length of 3-query LDCs. The approach is inspired by and
+borrows from recent advances in refuting semi-random instances of
+constraint satisfaction problems.
+Based on joint work with Omar Alrabiah, Pravesh Kothari, and Peter Manohar.
+
+
+
+
+
+
+Bio: Venkatesan Guruswami is a Professor of Computer Science at UC Berkeley
+and senior scientist at the Simons Institute for the Theory of
+Computing. Venkat received his Bachelor’s degree from the Indian
+Institute of Technology, Madras, and his Ph.D. from MIT.
+Venkat’s research interests include coding theory, approximability of
+optimization problems, and computational complexity. He is the
+Editor-in-Chief of JACM, and was previously Editor-in-Chief of the ACM
+Transactions on Computation Theory and the president of the
+Computational Complexity Foundation. Venkat was a co-winner of the
+2012 Presburger Award, and his other honors include a Simons
+Investigator award, Packard and Sloan Fellowships, the ACM Doctoral
+Dissertation Award, and an IEEE Information Theory Society Paper
+Award. He is a fellow of the ACM and the IEEE.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI • Privacy Policy • © 2022 UC Regents 
+
+
+
+
+
+
+
+
+
+Close Menu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to content
+
+
+
+Open toolbar
+
+ 
+
+
+
+
+Accessibility Tools
+
+
+
+Increase Text 
+
+
+
+Decrease Text 
+
+
+
+Grayscale 
+
+
+
+High Contrast 
+
+
+
+Negative Contrast 
+
+
+
+Light Background 
+
+
+
+Links Underline 
+
+
+
+Readable Font 
+
+
+
+
+Reset
+
+
+
+
+
+
+

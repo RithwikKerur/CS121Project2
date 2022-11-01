@@ -1,0 +1,136 @@
+http://mondego.ics.uci.edu/projects/dejavu
+
+
+
+
+
+
+
+
+
+
+
+DéjàVu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DéjàVu: A Map of Code Duplicates on GitHub
+
+
+
+
+
+
+
+
+Code cloning is serious and ubiquitous. Are you affected?
+This work analyzes a corpus of 4.5 million million non-fork projects hosted on GitHub representing over 428 million files written in Java, C++, Python, and JavaScript.
+We found that this corpus has a mere 85 million unique files. In other words, 70% of the code on GitHub consists of clones of previously created files.
+We have created a mapping between file clones in four languages: Java, C++, JavaScript and Python. This is useful systems built on open source software as well as for researchers interested in analyzing large code bases.
+In this website you can find how to access the code clone mapping, through a web service or direct access to a database, how to download the clone mapping and how to access the source code used to create it.
+
+DéjàVu Web App
+We provide a web-service for clones information retrieval and easy source code/projects/datasets analysis.
+This service is ongoing work and depends on community feedback. We are happy to implement functionalities you require.
+
+Access to the Code Clone Mapping
+You can directly download the data for each language individually:
+
+  Java download   6.3Gb 
+  JavaScript download   54Gb 
+  Python download   2.1Gb 
+  C++ download   3.7Gb 
+
+If you want access to the dumps through a different process we will do our best to suit your needs (come visit us and bring a hard drive!). Contact us, we like to talk.
+
+
+Software used to create the Clone Mapping
+The software used to create this mapping can be found on GitHub here and here.
+We also created an artifact in the form of a VirtualBox virtual machine, which provides a quick access to the pipeline through a guided tutorial, and can be found here. The password is p.  8.7Gb 
+
+
+
+
+
+
+Teams
+
+
+
+Mondego Group @ UC Irvine
+
+PRL-PRG @ CTU in Prague
+
+
+
+
+
+
+
+
+
+Quick Information
+This website supports a research project about code cloning on GitHub, accepted for publication at OOPSLA'17 (Distinguished Award at OOPSLA).
+
+
+
+
+
+As seen on the press:
+
+the morning paper
+BLEEPINGCOMPUTER
+The Register
+Slashdot
+Developpez (in French)
+OpenNET (in Russian)
+Toutiao (in Chinese)
+Sohu (in Chinese)
+
+
+
+Today, “The Morning Paper” looks at “Déjàvu: A Map of Code Duplicates on Github,” from OOPSLA ’17, which analyzes "482 million files written in Java, C++, Python, and JavaScript. W.”Read in “The Morning Paper”: https://t.co/VG1lWDVt8DRead the paper: https://t.co/4GCauHzvmG pic.twitter.com/Quk6LCmVqX— Official ACM (@TheOfficialACM) 20 de novembro de 2017
+
+
+
+
+
+
+
+
+
+Copyright © UCI, PRL-PRG, 2017
+
+
+
+
+
+
+
+
+
+
+
+

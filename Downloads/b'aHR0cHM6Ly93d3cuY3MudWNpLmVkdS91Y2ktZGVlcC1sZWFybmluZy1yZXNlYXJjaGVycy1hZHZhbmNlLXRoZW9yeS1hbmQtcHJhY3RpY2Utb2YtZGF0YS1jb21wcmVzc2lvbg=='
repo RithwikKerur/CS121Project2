@@ -1,0 +1,145 @@
+https://www.cs.uci.edu/uci-deep-learning-researchers-advance-theory-and-practice-of-data-compression
+
+
+
+
+UCI Deep Learning Researchers Advance Theory and Practice of Data Compression 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ this is a widget called second front page widget area
+
+Explore
+
+Contact Us
+
+
+Faculty
+Research
+
+Research Areas
+Research Centers
+
+
+Graduate Degrees
+
+Computer Science Programs
+Current Graduate Students
+
+
+Undergraduate Degrees
+News  & Events
+
+News
+Seminar Series
+Distinguished Lecture Series
+Research Showcase
+
+
+Apply Now
+
+Undergraduate Admissions
+Graduate Admissions
+Faculty Candidates
+
+
+UCI Deep Learning Researchers Advance Theory and Practice of Data Compression
+March 28, 2022 
+
+With videos now making up more than 80% of all consumer internet traffic, even the smallest improvements in compression algorithms can dramatically impact our ability to store and share information.
+
+“It has been speculated for a long time that neural networks will ultimately revolutionize data compression technologies. Recently, such attempts have proved successful,” says Stephan Mandt, an assistant professor of computer science and statistics in UCI’s Donald Bren School of Information and Computer Sciences (ICS). Mandt has been at the forefront of this work. “Our group at UCI has been pioneering research into using neural networks to compress data.”
+
+Funding from an NSF Career Award and other NSF grants has supported this work. To make their research more accessible, the group recently published a survey titled, “An Introduction to Neural Data Compression,” currently undergoing peer review.
+In April 2022, Mandt and his collaborators will present two scientific papers at the International Conference on Learning Representations (ICLR 2022), a globally renowned conference on cutting-edge research in deep learning. Their first paper advances solutions to a fundamental problem in information theory, while the second introduces a new model for general-purpose lossless data compression.
+
+Understanding Compression FeasibilityIn “Towards Empirical Sandwich Bounds on the Rate-Distortion Function,” Mandt and his Ph.D. student Yibo Yang quantify the fundamental “hardness” of compressing real-world data, such as images.
+“If you’ve ever paid attention to the file size of JPEG images, you may notice how certain kinds of images take up more storage than others of the same dimensions,” explains Yang. “It turns out that with information theory, we can quantify the inherent compressibility of a given type of data using a quantity called the rate-distortion function, and no data compression algorithm can beat the theoretical performance limit implied by it. Therefore, knowing the rate-distortion function of the data being compressed can really help researchers assess and improve their compression algorithms.”
+Although the rate-distortion function can be worked out mathematically for a few simple data distributions, establishing it for other data in general, especially for “big data” of practical interest, has been an open research problem. With this work, Yang and Mandt move closer to this goal by developing a machine learning algorithm that can estimate the rate-distortion function of potentially high-dimensional types of data such as images and voice recordings.
+“It was really exciting to see the algorithm I sketched out on paper actually work on real-world data, ranging from natural images and speech spectrograms to data from particle physics,” says Yang. “Such data would have posed an insurmountable computation challenge to the previously known method, an algorithm from the 1970s. Still, the general problem is not quite solved, and I hope this work opens up new possibilities for future research.”
+Toward Lossless Compression with Machine LearningIn HBO’s television series “Silicon Valley,” a group of hackers develops a fundamentally new lossless compression algorithm. It turns out that fiction is not too far from reality: In a recent collaboration involving Anji Liu, a Ph.D. student at UCLA, and Liu’s advisor, Computer Science Professor Guy Van den Broeck, Mandt contributed to a new general-purpose compression approach, “Lossless Compression with Probabilistic Circuits,” published as a spotlight at ICLR 2022.
+“The idea of lossless compression is very similar to that of Morse code, where we abbreviate frequent letters like ‘e’ by a single “dit,” and rare letters by three “dits.” This leads to an optimally short representation of the message,” says Mandt. “The key to lossless compression is hence to reliably predict how frequently any given ‘symbol’ occurs. For simple data, we can just count, but for more complicated data like images, we need predictive machine learning models.”
+While most “neural compression” employs popular deep learning architectures such as convolutional neural networks, the present work uses a fundamentally different “niche” machine learning approach called probabilistic circuits (PCs). With the help of these models, the researchers could dramatically accelerate relevant computations that play a key role in data compression. As a result, their PC-based (de)compression algorithm runs 5-20 times faster than neural compression algorithms that achieve similar bitrates. “This work,” says Mandt, “is a great example of how curiosity-driven, fundamental research can culminate in surprising, unforeseeable applications that would never have been discovered otherwise.”
+— Shani Murray
+« Ukr.ai Develops AI Model to Detect Misinformation on Russia-Ukraine WarUCI News: “UCI’s Graduate Programs Shine in U.S. News & World Report Rankings” »
+
+Latest news
+
+
+Senior Spotlight: Tennis Player and CS Major Matthew Sah Serves Up Aces On and Off the Court
+September 28, 2022
+
+
+Register Today for the Southern California AI & Biomedicine Symposium
+September 20, 2022
+
+
+CPO Magazine: “A Legal View of New NIST Quantum-Resistant Algorithms” by Bryan Cunningham
+September 19, 2022
+
+
+UCI Ranked 24th in Undergraduate Computer Science Programs by U.S. News & World Report
+September 16, 2022
+
+
+Senior Spotlight: Jose Cisneros Builds Impressive Resume with Trio of Internships
+September 15, 2022
+
+
+
+
+ 
+
+
+
+
+
+© 2022 UC Regents
+Feedback
+Privacy Policy
+
+
+
+ 
+
+
+
+

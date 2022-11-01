@@ -1,0 +1,40 @@
+http://www.ics.uci.edu/Arcadia/Teamware/demo/agenda2.html
+
+
+Online Interactive Teamware Demo, Personal Agenda
+
+
+
+Project members' personal Agendas are automatically updated
+as Resources become available, Activities become completed,
+and Artifacts are passed along.
+
+
+Notification of project members is completely configurable.
+Currently members can be notified of 
+
+assignments 
+and 
+
+deassignments by email,  have them 
+
+scheduled on their personal calendar so that conficts can
+be resolved immediately, as well as show up on their Agenda.
+As a Teamware network executes, certain team members may be
+tasked with certain 
+
+decisions about the status of the project
+to allow the execution to progress.  These decisions correspond
+to conditionals in the Teamware netowrk control flow.
+
+
+
+
+
+
+
+
+CLOSE
+
+
+

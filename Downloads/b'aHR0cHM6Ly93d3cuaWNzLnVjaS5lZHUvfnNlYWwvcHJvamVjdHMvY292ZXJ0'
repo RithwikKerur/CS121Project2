@@ -1,0 +1,116 @@
+https://www.ics.uci.edu/~seal/projects/covert
+
+
+
+SEAL - COVERT
+
+
+
+
+
+
+
+
+
+
+
+COVERT: Compositional Analysis of Android Inter-Application Vulnerabilities
+
+COVERT is a tool for compositional verification of Android inter-application vulnerabilities. It automatically identifies vulnerabilities that occur due to the interaction of apps comprising a system. Subsequently, it determines whether it is safe for a bundle of apps, requiring certain permissions and potentially interacting with each other, to be installed together.
+
+Approach Overview
+
+COVERT consists of two components: (1) Model Extractor that uses static code analysis techniques to elicit formal specifications (models) of the apps comprising a system as well as the phone configuration; and (2) Formal Analyzer that is intended to use lightweight formal analysis techniques to verify certain properties (e.g., known security vulnerability patterns) in the extracted specifications.
+
+
+Tool
+
+COVERT tool is implemented in two layers: the back-end that performs analysis on the apps to find potential vulnerabilities, and the front-end that provides an interactive environment intended for use by the end users.
+
+
+
+
+Back-end Tool (Covert Engine). The core components of COVERT tool that analyze the apps to detect security vulnerability issues are implemented in the back-end layer. As depicted in Figure above, this layer consists of two modules: Model Extractor that leverages static analysis techniques to automatically extract an abstract formal model of Android apps, and Formal Analyzer that is intended to use lightweight formal analysis techniques to find vulnerabilities in the extracted app models.  
+
+
+Front-end Tools. In order to facilitate the end-user interactions with COVERT back-end engine, we implemented client applications for different platforms: Desktop Application, which is a stand- alone tool that calls back-end components and visualizes the generated results. Mobile and Web-based applications that work together to analyze the installed apps in a mobile device and show the vulnerability report on web browsers.
+
+ Demo 
+
+This video demonstrates the main features of COVERT tool.
+
+ Download and Installation
+COVERT Back-end as well as the desktop Front-end tool for Windows and Mac are available here for download.The user manual is also downloadable from this link.
+
+
+COVERT Back-end [Not compatible with Java 9]
+
+
+
+
+        Covert Client Tools
+        
+
+COVERT Desktop for Mac
+
+
+COVERT Desktop for Windows (Outdated)
+
+
+COVERT Mobile app for Android
+
+
+COVERT Web app
+
+
+
+
+Empirical Evaluation
+Our experimental subjects are a set of Android apps drawn from three different app repositories:
+
+
+
+        Popular: A snapshot of the top 80 popular free apps, available on the Google Play in late November 2013. (Extracted Models | Alloy Results |  ICC Results)
+    
+
+        Open Source: More than 100 apps collected from the F-Droid open source repository. (List of apps | Extracted Models | Alloy Results | ICC Results)
+    
+
+        Malicious: A collection of 44 malicious apps identified by the MalGenome project.
+    
+
+Publications
+
+More details about COVERT can be found in our publication:
+
+
+COVERT: Compositional Analysis of Android Inter-App Permission Leakage 
+     Hamid Bagheri, Alireza Sadeghi, Joshua Garcia, and Sam Malek
+IEEE Transactions on Software Engineering, Vol. 41, No. 9, September 2015.
+[PDF]
+    
+
+
+Analysis of Android Inter-App Security Vulnerabilities Using COVERT 
+    Alireza Sadeghi, Hamid Bagheri, and Sam Malek
+37th International Conference on Software Engineering (ICSE 2015), Demonstrations Track, Florence, Italy, May 2015.
+[PDF]
+    
+
+
+Practical, Formal Synthesis and Autonomic Enforcement of Security Policies for Android 
+    Hamid Bagheri, Alireza Sadeghi, Reyhaneh Jabbarvand, and Sam Malek
+46th Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN 2016), Toulouse, France, June 2016. (20% acceptance rate)
+[PDF]
+    
+
+
+
+
+
+
+
+
+
+
+

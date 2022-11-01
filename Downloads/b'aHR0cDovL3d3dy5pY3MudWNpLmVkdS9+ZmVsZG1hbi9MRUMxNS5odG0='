@@ -1,0 +1,171 @@
+http://www.ics.uci.edu/~feldman/LEC15.htm
+
+
+
+
+lec15
+
+
+Lecture Fifteen--ICS 131--Win 2000--28 Feb 00
+Review of Lecture Fourteen
+
+
+
+•	What are the problems?
+•	What are the security breaches?
+•	Who are the hackers?
+•	What can be done about computer security?
+•	What can you do on your PC?
+•	Any role for government?
+
+
+
+-------------------------------------------------------------
+Safety-critical applications
+
+The Therac-25 Disaster
+A computer based device for administering 
+radiation therapy to cancer victims.
+Involved in six known accidents
+three deaths directly attributable 
+to radiation overdoses
+ ---------------------------------------------------------------------
+
+
+Three flaws were identified:
+1.  Poor interface design--
+
+the machine could deliver a radiation dose
+before the operator could change the dose 
+(e.g., lower it)
+
+
+2.  Software failure--
+
+safety checks bypassed whenever 
+a  6-bit program counter reached zero
+
+
+3.  Software failure--
+
+certain hardware safety interlocks
+installed in an earlier version of the Therac
+were replaced by software interlocks in the 25
+
+
+---------------------------------------------------------
+Complex systems are going to fail.
+No such thing as a perfect system
+-----------------------------------------------------------------
+ 
+Some definitions
+A risk is a potential problem, with causes and effects.  
+... avoiding risks is an exceedingly difficult task 
+that poses a pervasive problem.
+Reliability implies that a systems 
+performs functionally as is expected,
+and does so consistently over time
+Security implies freedom from danger,
+or more specifically, freedom from 
+undesirable events such as
+malicious and accidental misuse.
+Integrity implies that certain desirable 
+conditions are maintained over time.
+--------------------------------------------------
+Hardware, software, and people 
+are all sources of difficulties
+Human safety and personal well-being 
+are of special concern.
+--------------------------------------------------
+
+
+ 
+What can be done?  A list of some things from JF and Neumann
+1.  Testing and verification
+2.  Duplex the hardware
+3.  Software backups
+4.  Software engineering
+5.  Operator training
+6.  Attitude
+Pessimistic
+Cautious
+Near Misses--keeping track
+Recording and reporting problems
+------------------------------------------------------------
+Techniques for Increasing Reliability
+
+
+
+Fault tolerance
+Forward error recovery
+Backward error recovery
+
+Error-Detecting and Error-Correcting Codes
+Applicability and Limitations of Reliability Techniques
+(table on p 231)
+ 
+
+Techniques of Software Development
+
+System-Engineering and Software-Engineering Practice
+
+Concept formation
+Criteria for system evaluation
+Requirements definition
+System design
+Object-oriented design
+Consistency
+Implementation
+Correctness of Implementation
+Evaluation
+Management of development
+Management of system build
+System operations
+System maintenance
+Overview
+ 
+
+
+
+Neumann, Computer Related Risks
+Chapter 9--Implications and Conclusions
+9.1  Where to Place the Blame
+"...[M]ost system problems are ultimately 
+and legitimately attributable to people.  
+However, human failings are often blamed 
+on "the computer"--
+perhaps to protect the individuals.  
+ 
+This attributionof blame seems to be 
+common in computers affecting consumers, 
+where human shortcomings are frequently 
+attributed to "a computer glitch."  
+Computer system malfunctions are often due to
+underlying causes attributable to people; 
+if the technology is faulty, the faults frequently 
+lie with people who create it and use it."
+"Most accidents involving complex technology
+are caused by a combination of
+organizational,
+managerial,
+technical and, 
+sometimes sociological or political factors;
+preventing accidents requires paying attention
+to all the root causes,
+not just the precipitating event 
+in a particular circumstance."
+Leveson and Turner
+-------------------------------------------------------------------------------
+Littlewood and Strigini,  The Risks of Software, 
+Sci American, The Computer in the 21st Century,
+1995
+Formal proofs and
+Fault tolerance
+won't solve all of the problems
+Three ways of coping with the problem
+1.  non-quantifiable risks
+2.  software not too critical
+3.  accept limitations and live with them
+ 
+ 
+

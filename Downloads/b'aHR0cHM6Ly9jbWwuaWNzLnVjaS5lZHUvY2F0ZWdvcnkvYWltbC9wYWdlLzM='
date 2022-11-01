@@ -1,0 +1,1242 @@
+https://cml.ics.uci.edu/category/aiml/page/3
+
+
+
+
+
+AIML | Center for Machine Learning and Intelligent Systems | Page 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+University of California, Irvine
+
+
+Menu
+Skip to content
+Home
+About CML
+
+About us
+News
+Contact Us
+
+
+People
+
+Faculty
+Alumni
+
+
+Events & Seminars
+
+AI/ML Seminar Series
+AI/ML Seminar Live Stream
+CML Distinguished Speakers
+ML Reading Group
+
+
+Education & Resources
+
+Courses
+Books
+
+
+UCI Machine Learning Archive
+Sponsors & Funding
+Subscribe to CML List
+ 
+
+
+
+
+
+AIML 
+
+
+
+
+
+Winter 2015 Standard 
+
+
+
+
+
+  
+
+
+Jan 12Bren Hall 40111 pm
+
+
+Aditya BhaskaraPostDoc ResearcherGraph Mining TeamGoogle Research NYC
+
+Algorithms for Parameter Estimation in Mixture ModelsMixture models are based on the hypothesis that real data can be viewed as arising from a probabilistic generative model with a small number of parameters. Examples include topic models for documents, hidden Markov models for speech, gaussian mixture models for point data, etc. The model parameters often give interesting semantic insights into the data.  
+ I will first discuss algorithms for parameter estimation in mixture models via the use of tensors, or higher dimensional arrays. The idea is to estimate (using the data) a tensor, whose decomposition allows us to read off the hidden parameters. Thus parameter estimation is reduced to tensor decomposition. Unfortunately, tensor decomposition is NP-hard in general. However, I will show that there exist algorithms that “almost always” work efficiently, in the framework of smoothed analysis, as long as the “rank” is at most a polynomial in the number of dimensions.  
+ Next I will consider the case in which we wish to learn mixtures in small (constant number of) dimensions. Tensor methods do not apply to this regime, and indeed, there are lower bounds which say that exponentially many samples are needed to “identify” the parameters. However I will show that under a slightly relaxed objective, we can obtain “PAC” style learning algorithms. This follows from a more general theorem about sparse recovery with \ell_1 error, which I will describe.
+
+
+  
+
+
+Jan 26Bren Hall 40111 pm
+
+
+Rich CaruanaSenior ResearcherMicrosoft Research in Redmond
+
+Do Deep Models Really Need to Be Deep?Currently, deep neural networks are the state of the art on problems suchas speech recognition and computer vision. By using a method called model compression, we show that shallow feed-forward nets can learn the complex functions previously learned by deep nets and achieve accuracies previously only achievable with deep models while using the same number of parameters as the original deep models. On the TIMIT phoneme recognition and CIFAR-10 image recognition tasks, shallow nets can be trained that perform similarly to complex, well-engineered, deeper convolutional architectures. The same model compression trick can also be used to compress impractically large deep models and ensembles of large deep models down to “medium-size” deep models that run more efficiently on servers, and down to “small” models that can run on mobile devices. In machine learning and statistics we used to believe that one of the keys to preventing overfitting was to keep models simple and the number of parameters small to force generalization. We no longer believe this — learning appears to generalize best when training models with excess capacity, but the learned functions can often be represented with far fewer parameters. We do not yet know if this is true just of current learning algorithms, or if it is a fundamental property of learning in general.
+
+
+  
+
+
+Feb  2Bren Hall 40111 pm
+
+
+Peter SadowskiGraduate StudentDepartment of Computer ScienceUC Irvine
+
+Deep Learning in High-Energy Physics--Improving the Search for Exotic ParticlesMachine learning plays a major role in analyzing data from the Large Hadron Collider at CERN, and was used to discover the Higgs boson in 2012. We demonstrate that deep learning increases statistical power of this analysis, and that deep neural networks can automatically learn high-level features that usually need to be engineered by physicists. Furthermore, we describe how to automatically (and cheaply) tune deep neural network hyperparameters using Amazon EC2 GPU servers and free software tools.
+
+
+  
+
+
+Feb  5Bren Hall 40111 pm
+
+
+Joshua BlumenstockAssistant ProfessorInformation SchoolUniversity of Washington
+
+Modeling wealth, behavior, and mobility with terabyte-scale network dataIn recent years, the rapid proliferation of mobile phones in developing countries has provided billions of individuals with novel opportunities for social and economic interaction. Concurrently, the data generated by mobile phone networks is enabling new data-intensive methods for studying the social and economic behavior of individuals in resource-constrained environments. After all, these data reflect much more than simple communications activity: they capture the structure of social networks, decisions about expenditures and consumption, patterns of travel and mobility, and the regularity of daily routines. In this talk, I will discuss the results from two recent projects that derive behavioral insights from mobile phone data. The first study uses data on Mobile Money transfers in Rwanda and microeconomic models to better understand the motives that cause people to send money to friends and family in times of need. The second project combines call data with follow-up phone surveys to investigate the extent to which it is possible to predict an individual’s wealth and happiness based on his or her prior history of phone calls and several supervised learning models. These projects are enabled by generous support from the Institute for Money, Technology, and Financial Inclusion; Intel; the Gates Foundation; and the NSF.
+
+
+  
+
+
+Feb  9Bren Hall 40111 pm
+
+
+Shimon WhitesonAssociate ProfessorIntelligent Autonomous Systems Group, Informatics InstituteUniversity of Amsterdam
+
+Relative Upper Confidence Bound for the K-Armed Dueling Bandit ProblemIn this talk, I will propose a new method for the K-armed dueling bandit problem, a variation on the regular K-armed bandit problem that offers only relative feedback about pairs of arms. Our approach extends the Upper Confidence Bound algorithm to the relative setting by using estimates of the pairwise probabilities to select a promising arm and applying Upper Confidence Bound with the winner as a benchmark. We prove a sharp finite-time regret bound of order O(K log T) on a very general class of dueling bandit problems that matches a lower bound proven by Yue et al. In addition, our empirical results using real data from an information retrieval application show that it greatly outperforms the state of the art.
+
+
+  
+
+
+Feb 23Bren Hall 40111 pm
+
+
+CylanceGlenn Chisholm, Chief Technology Officer, CylanceMatt Wolff, Chief Data Scientist, CylanceMichael Wojnowicz, Data Scientists, Cylance
+
+Automated malware detection through machine learning and statistical processingTraditional approaches to detecting malware, namely those used by current antivirus methodologies, are increasingly comprised by sophisticated attackers who may have financial, social, or nationalistic motives. In just the last few weeks, there have been successful hacking attacks against Sony and Anthem, as well as a banking attack by the Carbanak group that stole over $1 billion for various financial institutions. Traditional antivirus approaches utilize manual analysis of files to identify malware; however these techniques simply do not scale to the volume of malware that now exists. At the time of this writing, an estimated million distinct newly suspicious files per day are generated. Clearly, manual inspection of all these files by human analysis is not feasible.  
+ At Cylance, we have developed a machine learning engine to help reduce or remove the need for manual analysis. In this talk, we will dive in into various components of our machine learning infrastructure, with the goal of providing some insight into how one can apply machine learning to problems in industry and against large datasets. A machine learning approach to cybersecurity presents a wide array of interesting challenges in areas of feature extraction, feature engineering, dimensionality reduction, and modeling. Specific topics that will be discussed include designing models with speed in mind, why different optimization methods do or do not perform well against various types of data, and feature engineering based on wavelet analysis and entropy series.
+
+
+  
+
+
+Mar  9Bren Hall 40111 pm
+
+
+Fan-Gang ZengProfessor of Anatomy and Neurobiology, Biomedical Engineering and Cognitive Sciences, UC IrvineDirector, Center for Hearing ResearchDirector of Research, Otolaryngology – Head and Neck Surgery, UC Irvine
+
+Speech recognition by bionic ears: Implications for “deep learning”Deafness affects not only speech communication but also language development including speaking and reading. The bionic ear or the cochlear implant is a modern medical device that allows the first successful restoration of a human sense. It works well for either adults who have lost hearing postlingually or children who receive the device prelingually. It doesn’t work well for those who never hear during development but get an implant in adulthood. My talk will address two issues. First, I will describe development of the modern cochlear implant from signal processing perspective, which clearly abides by the “KISS” principle. Second, I will emphasize the importance of the brain in the cochlear implant success, speculating on the structure and rules for the neural network to learn how to process speech.
+
+
+
+
+
+January 1, 2015
+
+
+
+
+
+
+Fall 2014 Standard 
+
+
+
+
+
+  
+
+
+Oct 6Bren Hall 40111 pm
+
+
+James SupancicGraduate StudentDepartment of Computer ScienceUC Irvine
+
+Self-paced learning for long-term tracking / Efficient Matching of 3D Hand Exemplars in RGB-D ImagesSelf-paced learning for long-term tracking 
+ We address the problem of long-term object tracking, where the object may become occluded or leave-the-view. In this setting, we show that an accurate appearance model is considerably more effective than a strong motion model. We develop simple but effective algorithms that alternate between tracking and learning a good appearance model given a track. We show that it is crucial to learn from the “right” frames, and use the formalism of self-paced curriculum learning to automatically select such frames. We leverage techniques from object detection for learning accurate appearance-based templates, demonstrating the importance of using a large negative training set (typically not used for tracking). We describe both an offline algorithm (that processes frames in batch) and a linear-time online (i.e. causal) algorithm that approaches real-time performance. Our models significantly outperform prior art, reducing the average error on benchmark videos by a factor of 4.  
+ Efficient Matching of 3D Hand Exemplars in RGB-D Images 
+ We focus on the task of single-image hand detection and pose estimation from RGB-D images. While much past work focuses on estimation from temporal video sequences, we consider the problem of single-image pose estimation, necessary for (re) initialization. The high number of degrees-of-freedom, frequent self-occlusions, and pose ambiguities make this problem rather challenging. While previous approaches tend to rely on articulated hand models or local part classifiers, our models are based on discriminative pose exemplars that can be quickly indexed with parts. We propose novel metric depth features that make the search over exemplars accurate and fast. Importantly, our exemplar models can reason about depth-aware occlusion. Finally, we also provide an extensive evaluation of the state-of-the-art, including academic and commercial systems, on a real-world annotated dataset. We show that our model outperforms such methods, providing promising results even in the presence of occlusions.
+
+
+  
+
+
+Oct 13Bren Hall 40111 pm
+
+
+Pranjal AwasthiPostDoc FellowDepartment of Computer SciencePrinceton University
+
+Learning Mixtures of Ranking ModelsProbabilistic modeling of ranking data is an extensively studied problem with applications ranging from understanding user preferences in electoral systems and social choice theory, to more modern learning tasks in online web search, crowd-sourcing and recommendation systems. This work concerns learning the Mallows model — one of the most popular probabilistic models for analyzing ranking data. In this model, the user’s preference ranking is generated as a noisy version of an unknown central base ranking. The learning task is to recover the base ranking and the model parameters using access to noisy rankings generated from the model.  
+ Although well understood in the setting of a homogeneous population (a single base ranking), the case of a heterogeneous population (mixture of multiple base rankings) has so far resisted algorithms with guarantees on worst case instances. In this talk I will present the first polynomial time algorithm which provably learns the parameters and the unknown base rankings of a mixture of two Mallows models. A key component of our algorithm is a novel use of tensor decomposition techniques to learn the top-k prefix in both the rankings. Before this work, even the question of identifiability in the case of a mixture of two Mallows models was unresolved.  
+ Joint work with Avrim Blum, Or Sheffet and Aravindan Vijayaraghavan.
+
+
+  
+
+
+Oct 20Bren Hall 40111 pm
+
+
+Sepehr AkhavanGraduate StudentStatistics DepartmentUC Irvine
+
+A Flexible Joint Longitudinal-Survival Model For Quantifying The Association Between Within-Subject Volatility In Serum Biomarkers And MortalityWe propose a joint longitudinal-survival model for associating summary measures of a longitudinally collected biomarker with a time-to-event endpoint. The model is robust to common parametric and semi-parametric assumptions in that it avoids simple distributional assumptions on longitudinal measures and allows for non-proportional hazards covariate effects in the survival component. Specifically, we use a Gaussian process model with a parameter that captures within-subject volatility in the longitudinally sampled biomarker, where the unknown distribution of the parameter is assumed to have a Dirichlet process prior. We then estimate the association between within-subject volatility and the risk of mortality using a flexible survival model constructed via a Dirichlet process mixture of Weibull distributions. Fully joint estimation is performed to account for uncertainty in the estimated within-subject volatility measure. Simulation studies are presented to assess the operating characteristics of the proposed model. Finally, the method is applied to data from the United States Renal Data System where we estimate the association between within-subject volatility in serum album and the risk of mortality among patients with end-stage renal disease.
+
+
+  
+
+
+Oct 27Bren Hall 40111 pm
+
+
+Yan LiuAssitant ProfessorDepartment of Computer ScienceUSC
+
+Learning and Mining in Large-scale Time Series DataMany emerging applications of machine learning involve time series and spatio-temporal data. In this talk, I will discuss a collection of machine learning approaches to effectively analyze and model large-scale time series and spatio-temporal data, including temporal causal models, sparse extreme-value models, and fast tensor-based forecasting models. Experiment results will be shown to demonstrate the effectiveness of our models in practical applications, such as climate science, social media and biology.  
+ Bio: 
+ Yan Liu is an assistant professor in Computer Science Department at University of Southern California from 2010. Before that, she was a Research Staff Member at IBM Research. She received her M.Sc and Ph.D. degree from Carnegie Mellon University in 2004 and 2006. Her research interest includes developing scalable machine learning and data mining algorithms with applications to social media analysis, computational biology, climate modeling and business analytics. She has received several awards, including NSF CAREER Award, Okawa Foundation Research Award, ACM Dissertation Award Honorable Mention, Best Paper Award in SIAM Data Mining Conference, Yahoo! Faculty Award and the winner of several data mining competitions, such as KDD Cup and INFORMS data mining competition.
+
+
+  
+
+
+Nov  3Bren Hall 40111 pm
+
+
+Rodrigo de Salvo BrazResearcherAI CenterSRI
+
+Probabilistic Logic and Lifted Probabilistic Inferenceinference with uncertainty, and form a main field in Artificial Intelligence today. However, their usual form is restricted to a *propositional* representation, in the same way propositional logic is restricted when compared to relational first-order logic.  
+ For encoding complex probabilistic models, we need richer, relational, quantified representations that yield a form of Probabilistic Logic. While propositionalization is an option for processing such encodings, it is not scalable. The field of *lifted* probabilistic inference seeks to process first-order relational probabilistic models on the relational level, avoiding grounding or propositionalizing as much as possible.  
+ I will talk about relational probabilistic models and give the main ideas about lifted probabilistic inference, and also comment on the relationship of all that to Probabilistic Programming, exemplified by probabilistic programming languages such as Church and BLOG.  
+ Bio: 
+ Rodrigo de Salvo Braz is a Computer Scientist at SRI International. He earned a PhD from the University of Illinois in 2007 with a thesis contributing some of the earliest ideas on Lifted Probabilistic Inference. He did a postdoc at UC Berkeley with Stuart Russell, working on the BLOG language, and is currently the PI of SRI’s project for DARPA’s Probabilistic Programming Languages for Advanced Machine Learning.
+
+
+  
+
+
+Nov 10Bren Hall 40111 pm
+
+
+Kyle CranmerAssistant ProfessorPhysics DepartmentNYU
+
+New Directions for Machine Learning in Particle PhysicsI will review the ways that machine learning is typically used in particle physics, some recent advancements, and future directions. In particular, I will focus on the integration of machine learning and classical statistical procedures. These considerations motivate a novel construction that is a hybrid of machine learning algorithms and more traditional likelihood methods.
+
+
+  
+
+
+Nov 17Bren Hall 40111 pm
+
+
+Yisong YueAssitant ProfessorComputing and Mathematical Sciences departmentCaltech
+
+Balancing the Explore/Exploit Tradeoff in Interactive Structured PredictionMany prediction domains, ranging from content recommendation in a digital system to motion planning in a physical system, require making structured predictions. Broadly speaking, structured prediction refers to any type of prediction performed jointly over multiple input instances, and has been a topic of active research in the machine learning community over the past 10-15 years. However, what has been less studied is how to model structured prediction problems for an interactive system. For example, a recommender system necessarily interacts with users when recommending content, and can learn from the subsequent user feedback on those recommendations. In general, each “prediction” is an interaction where the system not only predicts a structured action to perform, but also receives feedback (i.e., training data) corresponding to the utility of that action.  
+ In this talk, I will describe methods for balancing the tradeoff between exploration (collecting informative feedback) versus exploitation (maximizing system utility) when making structured predictions in an interactive environment. Exploitation corresponds to the standard prediction goal in non-interactive settings, where one predicts the best possible action given the current model. Exploration refers to taking actions that maximize the informativeness of the subsequent feedback, so that one can exploit more reliably in future interactions. I will show how to model and optimize for this tradeoff in two settings: diversified news recommendation (where the feedback comes from users) and adaptive vehicle routing (where the feedback comes from measuring congestion).  
+ This is joint work with Carlos Guestrin, Sue Ann Hong, Ramayya Krishnan and Siyuan Liu.
+
+
+  
+
+
+Nov 24Bren Hall 40111 pm
+
+
+Majid JanzaminGraduate StudentEECSUC Irvine
+
+Learning overcomplete latent variable models through tensor methodsLearning several latent variable models including multiview mixtures, mixture of Gaussians, independent component analysis and so on can be done by the decomposition of a low-order moment tensor (e.g., 3rd order tensor) to its rank-1 components. Many earlier studies using tensor methods only consider undercomplete regime where the number of hidden components is smaller than the observed dimension. In this talk, we show that the tensor power iteration (as the key element for tensor decomposition) works well even in the overcomplete regime where the hidden dimension is larger than the observed dimension. We establish that a wide range of overcomplete latent variable models can be learned efficiently with low computational and sample complexity through tensor power iteration.
+
+
+  
+
+
+Dec  1Bren Hall 40111 pm
+
+
+Mohammad Hossein RohbanPostDoc Research ScholarInformation and Data SciencesBoston University
+
+Provable Efficient Topic Modeling under Separability AssumptionDesigning latent variable learning methods, which have guaranteed bounded sample complexity, has become one of the recent research trend in the last few years. I will pick topic modeling as an example and discuss various learning algorithms along with their sample/computational complexity bounds. These bounds has been derived under the so-called topic separability assumption, which requires every topic to have at least a single word unique to it. It could be shown that under separability of topics, \ell_1 normalized rows of the word-word co-occurence probability matrix are embedded inside a convex polytope, whose vertices correspond only to the novel words of different topics. Moreover, these vertices characterize the topic proportion matrix. I will elaborate how these two facts could be used to design provable, highly distributable, and computational efficient algorithms for topic modeling.
+
+
+
+
+
+September 1, 2014
+
+
+
+
+
+
+Spring 2014 Standard 
+
+
+
+
+
+  
+
+
+Mar 31
+
+
+First day of classes(no seminar)
+
+
+
+  
+
+
+Apr 7Bren Hall 40111 pm
+
+
+Aram GalstyanResearch Asst. ProfessorDepartment of Computer ScienceUSC/ISI
+
+Statistical physics approach to inference in graphical modelsProbabilistic graphical models describe a potentially large number of random variables coupled with each other through some dependency mechanism. One of the main problems underlying graphical models is to infer the values of certain variables based on observations of other variables. Rigorous analysis of statistical inference algorithms can be very complicated even for relatively simple models. Instead, methods based on statistical physics of disordered systems provide a viable alternative. Here I will demonstrate the application of those methods on two problems, MAP estimation of Hidden Markov Models and Stochastic Block Models. The inference in both problems can become highly unstable due to a critical phase transition in the corresponding statistical physical system. Those instabilities are caused by frustrated (e.g., conflicting) constraints that are imposed on the inference objective. I will also discuss how one can mitigate this undesirable feature by active inference, i.e., by adaptively acquiring information about the (true) states of the hidden variables.
+
+
+  
+
+
+Apr 9Bren Hall 40114pm
+
+
+Misha ChertkovTheory DivisionLos Alamos National Laboratory
+
+Complex Energy SystemsToday’s energy systems, such as electric power grids and gas grids, already demonstrate complex nonlinear dynamics where, e.g., collective effects in one exert uncertainty and irregularities on other. These collective dynamics are not well understood and are expected to become more complex tomorrow as the grids are pushed to reliability limits, interdependencies grow, and appliances become more intelligent and autonomous. Tomorrow’s will have to integrate the intermittent power from wind and solar farms whose fluctuating outputs create far more complex stress on power grid operations, often dependent, e.g. in providing fast regulation control, on the gas supply. Conversely, one anticipates significant effect of the wind-following gas fired turbines on reliability of the gas grid. Guarding against the worst of those perturbations will require taking protective measures based on ideas from optimization, control, statistics and physics.
+ In this talk we introduce a few of the physical, optimization and control principles and phenomena in today’s energy grids and those that are expected to play a major role in tomorrow’s grids.
+ We illustrate the new science of the energy grids on three examples: (a) discussing an efficient and highly scalable Chance Constrained Optimal Power Flow algorithm providing risk-aware control of the power transmission system under uncertainty associated with fluctuating renewables (wind farms); (b) describing effect of the intermittent power generation on reliability and compression control of the gas grid operations; and (c) briefly discussing examples of interdependencies, reliability troubles and solutions in the low level (distribution) grids.
+Bio:Dr. Chertkov’s areas of interest include statistical and mathematical physics applied to energy and communication networks, machine learning, control theory, information theory, computer science, fluid mechanics and  optics. Dr. Chertkov received his Ph.D. in physics from the Weizmann Institute of Science in 1996, and his M.Sc. in physics from Novosibirsk State University in 1990.  After his Ph.D., Dr. Chertkov spent three years at Princeton University as a R.H. Dicke Fellow in the Department of Physics.  He joined Los Alamos National Lab in 1999, initially as a J.R.  Oppenheimer Fellow in the Theoretical Division. He is now a technical staff member in the same division. Dr. Chertkov has published more than 130 papers in these research areas. He is an editor of the Journal of Statistical Mechanics (JSTAT), associate editor of IEEE Transactions on Control of Network Systems, a fellow of the American Physical Society (APS), and a Founding Faculty Fellow of Skoltech – young graduate school built in Moscow (Russia).
+
+
+  
+
+
+Apr 14Bren Hall 40111 pm
+
+
+James SharpnackPostdoctoral ResearcherMathematics DepartmentUC San Diego
+
+Near-optimal anomaly detection and signal processing over graphsWe will discuss the detection of patterns over graphs from noisy measurements. This problem is relevant to many applications including detecting anomalies in sensor and computer networks, brain activity, co-expressions in gene networks, disease outbreaks, etc. Beyond its wide applicability, graph structured anomaly detection serves as a case study in the difficulty of balancing computational complexity with statistical power. We develop from first principles the generalized likelihood ratio test (GLRT) for determining if there is a well connected region of activation over the vertices in the graph with Gaussian noise. Due to the combinatorial nature of this test, the GLRT is computationally infeasible. We discuss two approaches, relaxing the combinatorial GLRT and a wavelet construction over graphs, to overcome this issue.
+ One such relaxation that we develop is the graph ellipsoid scan statistic, whose statistical performance is characterized by the spectrum of the graph Laplacian. Another relaxation that we have developed is the Lovasz extended scan statistic (LESS), which is based on submodular optimization and the performance is described using electrical network theory. We then introduce the spanning tree wavelet basis over graphs, a localized basis that reflects the topology of the graph. We show that using the uniform spanning tree in the basis construction yields a randomized test with performance guarantees similar to that of the LESS. For each of these tests we compare their statistical guarantees to an information theoretic lower bound. Finally, we consider specific graph models, such as the torus, k-nearest neighbor graphs, and epsilon-random graphs and show that for these graphs we achieve near-optimal risk consistency regimes.
+
+
+  
+
+
+Apr 28Bren Hall 40111 pm
+
+
+Qiang LiuPhD CandidateDepartment of Computer ScienceUniversity of California, Irvine
+
+Distributed estimation, information loss and exponential familiesModern data science applications increasingly involve statistical learning on very large datasets, where the data instances are stored in a distributed way across different nodes of the clusters, with expensive communication costs between nodes. We study a simple communication-efficient learning algorithm that first calculates the local maximum likelihood estimates (MLE) based on the subsets of datasets, and then combines the local MLEs to achieve the best possible approximation to the global MLE, based on the whole dataset jointly. A naive and commonly used combination method is to take the linear average of the local ML estimates; this method; however, this has a sub-optimal error rate, and more critically, can easily break down in practical cases where the parameters are either unidentifiable (e.g., in  mixture models), non-additive, or have complicated structure. In this work, we propose a KL-divergence-based combination method that achieves the best possible error rate, and avoids weaknesses of linear averaging. Perhaps surprisingly, we show that our algorithm exactly recovers the global MLE under full exponential families, and its error rate on general distributions are related to how nearly “exponential family” they are — formally captured by Efron’s statistical curvature, originally defined by Efron (1975) to extend Fisher and Rao’s theory of information loss and second order efficiency of the MLE.  In addition, we show that the statistical curvature equals the lower bound of the asymptotic error rate of arbitrary combination methods, and hence represents an intrinsic difficulty measurement of distributed learning in this setting.
+
+
+  
+
+
+May 5Bren Hall 40111 pm
+
+
+Dennis ParkPhD CandidateDepartment of Computer ScienceUniversity of California, Irvine
+
+Tracking people and their posesAutomatically tracking people and their body poses in unconstrained videos is an important task, as it serves as a foundation for high-level reasoning such as activity recognition. This task is difficult for two reason: a) building an accurate pose detector is hard, and b) dependencies of body parts over space and time is hard to model or causes intractable computation.
+ This talk consists of two parts. In the first part, I address two key challenges in a common pipeline of pose tracker: 1) detecting small people and 2) extracting diverse set of candidate poses from each frame. I describe novel multiresolutional representation, motion descriptors, and inference algorithms to tackle these challenges.
+ In the second part, I propose the use of synthetic training frames as a mean to “overfit” a single video. Using a simple synthesis engine and detailed annotation of the first frame, we synthesize potential future video frames. We argue that this large customized training serves as an ideal training set relieving the burden of modeling, and provides us with insights on critical components of a working tracker.
+
+
+  
+
+
+May 12Bren Hall 40111 pm
+
+
+Tijl de BieReader/Associate ProfessorDepartment of Engineering MathematicsUniversity of Bristol
+
+Formalizing the goal of exploratory data miningExploratory data mining methods, such as methods for clustering, association analysis, community detection, dimensionality reduction, etc., aim to assist a user in improving their understanding about the data. In this talk I will discuss a simple mathematical model for the exploratory data mining process that makes it possible to quantify how effective any given pattern (in the broad sense) is for this purpose. This quantification is naturally subjective, dependent on any prior beliefs the user may hold about the data. 
+ While the proposed model is abstract and generic, it suggests practical ways for developing specific exploratory data mining methods that present patterns that are subjectively interesting to the user. I will illustrate this by showing how it leads to principled approaches for alternative clustering, for community detection in networks, and for association analysis in simple data tables as well as in relational databases. 
+ From May 2014 my research on this topic will be funded by an ERC Consolidator Grant titled “Formalising Subjective Interestingness in Exploratory Data mining” (FORSIED).  Relevant references: http://www.tijldebie.net/projects/fiip 
+Bio: Tijl De Bie is currently a Reader (Associate Professor) at the University of Bristol, where he was appointed Lecturer (Assistant Professor) in January 2007. Before that, he was a postdoctoral researcher at the KU Leuven (Belgium) and the University of Southampton. He completed his PhD on machine learning and advanced optimization techniques in 2005 at the KU Leuven. During his PhD he also spent a combined total of about 1 year as a visiting research scholar in U.C. Berkeley and U.C. Davis. He is currently most actively interested in the formalization of subjective interestingness in exploratory data mining, and in the use of machine learning and data mining for music informatics as well as for web and social media mining. He currently holds a prestigious ERC Consolidator Grant titled “Formalising Subjective Interestingness in Exploratory Data Mining” (FORSIED).
+
+
+  
+
+
+May 19Bren Hall 40111 pm
+
+
+Xiangxin ZhuPhD CandidateDepartment of Computer ScienceUniversity of California, Irvine
+
+Capturing long-tail distributions of object subcategoriesWe argue that object subcategories follow a long-tail distribution: a few subcategories are common, while many are rare. We describe distributed algorithms for learning large-mixture models that capture long-tail distributions, which are hard to model with current approaches. We introduce a generalized notion of mixtures (or subcategories) that allow for examples to be shared across multiple subcategories. We optimize our models with a discriminative clustering algorithm that searches over mixtures in a distributed, “brute-force” fashion. We used our scalable system to train tens of thousands of deformable mixtures for VOC objects. We demonstrate significant performance improvements, particularly for object classes that are characterized by large appearance variation.
+
+
+  
+
+
+May 26
+
+
+Memorial Day(no seminar)
+
+
+
+  
+
+
+June 2Bren Hall 40111 pm
+
+
+Bo ZhouPhD CandidateDepartment of StatisticsUniversity of California, Irvine
+
+A Bayesian Copula Model for Detecting Interactions among Simultaneously-recorded NeuronsNeurophysiological studies of the decision-making process commonly involve analyzing and modeling spikes produced by a neuron. Complex behaviors, however, are driven by networks of neurons. We propose a flexible Bayesian model for capturing temporal dependencies between multiple neurons under different types of decisions (e.g., safe vs. risky; good vs. bad). Using our model, we are able to identify a small subset of neurons that are involved in the decision-making process and detect the dynamics of their dependence structure.
+
+
+
+
+
+March 1, 2014
+
+
+
+
+
+
+Winter 2014 Standard 
+
+
+
+
+
+  
+
+
+Jan 13Bren Hall 40111 pm
+
+
+Peter Grunwald CoordinatorInformation-theoretic Learning GroupCentrum voor Wiskunde en Informatica (CWI) & Leiden University
+
+Learning the learning rate: how to repair Bayes when the model is wrong Bayesian inference can behave badly if the model under consideration is wrong yet useful: the posterior may fail to concentrate even in the large sample limit.  We demonstrate this using a simple linear regression example. We then introduce a test that can tell from the data whether we are heading for such a situation. If we are, we adjust the learning rate (equivalently: make the prior lighter-tailed, or penalize the likelihood more) in a data-dependent way. The resulting “safe-Bayesian” estimator continues to achieve good rates with wrong models. In classification, it learns faster in easy settings, i.e.  when a Tsybakov condition holds. The safe estimator is based on empirical mixability/exp-concavity, which generalizes an idea from worst-case online prediction. Thus, safe estimation connects three paradigms: Bayesian inference, (frequentist) statistical learning theory and (individual sequence) on-line prediction.
+For an informal introduction to the idea, see Larry Wasserman’s blog: http://normaldeviate.wordpress.com/2012/06/26/self-repairing-bayesian-inference/
+
+
+  
+
+
+Jan 20
+
+
+Martin Luther King, Jr Day(no seminar)
+
+
+
+  
+
+
+Jan 27Bren Hall 40111 pm
+
+
+Fei ShaAssistant ProfessorDepartment of Computer ScienceUniversity of California, Los Angeles
+
+Learning kernels for visual domain adaptationStatistical machine learning has become an important driving force behind many  application fields.  By large, however, its theoretical underpinning has hinged on the stringent assumption that the learning environment is stationary. In particular, the data distribution on which statistical models are optimized is the same as the distribution to which the models are applied.
+ Real-world applications are far more complex than the pristine condition. For instance, computer vision systems for recognizing objects in images often suffer from significant performance degradation if they are evaluated on image datasets that are different from the dataset on which they are designed.
+ In this talk, I will describe our efforts in addressing this important challenge of building intelligent systems that are robust to distribution disparity. The central theme is to learn invariant features, cast as learning kernel functions and adapt probabilistic models across different distributions (i.e., domains). To this end, our key insight is to discover and exploit hidden structures in the data. These structures, such as manifolds and discriminative clusters, are intrinsic and thus resilient to distribution changes due to exogenous factors. I will present several learning algorithms we have proposed and demonstrate their effectiveness in pattern recognition tasks from computer vision.
+ This talk is based on the joint work with my students (Boqing Gong and Yuan Shi, both from USC) and our collaborator Prof. Kristen Grauman (U. of Texas, Austin).
+
+
+  
+
+
+Feb 3Bren Hall 40111 pm
+
+
+Rosario CammarotaSystem Security ArchitectQualcomm Research
+
+Automatic construction of program optimization strategiesAn optimization strategy is a mean to improve program performance, e.g., through architectural, execution and development environment enhancements (including new architectural mechanisms/instructions, the use of specialized libraries, new compiler optimizations or compiler optimization sequences, new algorithms). Constructing complex optimization strategies by composition of simpler optimizations has been shown to provide significant performance improvements to programs. However, composing simpler optimizations is non-trivial because (a) the combination of possibilities that are available is large and (b) the fact that the effect of the interplay of basic optimizations to program performance is difficult to predict.  This talk will first briefly survey previous work on the application of machine learning techniques to construct program optimization strategies and second proposes a practical and widely applicable technique to construct program optimization strategies based on recommendation systems. Preliminary results are shown to support that the proposed technique is equally applicable to several compelling performance evaluation studies, including characterization, comparison and tuning of hardware configurations, compilers, run-time environments or any combination thereof.
+
+
+  
+
+
+Feb 7Bren Hall 40111pm
+
+
+Joachim M. BuhmannProfessorComputer Science DepartmentETH Zurich
+What is the information content of an algorithm?Algorithms are exposed to randomness in the input or noise during the computation. How well can they preserve the information in the data w.r.t. the output space? Algorithms especially in Machine Learning are required to generalize over input fluctuations or randomization during execution.  This talk elaborates a new framework to measure the “informativeness” of algorithmic procedures and their “stability” against noise.  An algorithm is considered to be a noisy channel which is characterized by a generalization capacity (GC). The generalization capacity objectively ranks different algorithms for the same data processing task based on the bit rate of their respective capacities. The problem of grouping data is used to demonstrate this validation principle for clustering algorithms, e.g. k-means, pairwise clustering, normalized cut, adaptive ratio cut and dominant set clustering. Our new validation approach selects the most informative clustering algorithm, which filters out the maximal number of stable, task-related bits relative to the underlying hypothesis class. The concept also enables us to measure how many bit are extracted by sorting, feature selection or minimum spanning tree algorithms when the respective inputs are contaminated by noise.
+Bio:Joachim M. Buhmann leads the Machine Learning Laboratory in the Department of Computer Science at ETH Zurich. He has been a full professor of Information Science and Engineering since October 2003.  He studied physics at the Technical University Munich and obtained his PhD in Theoretical Physics. As postdoc and research assistant professor, he spent 1988-92 at the University of Southern California, Los Angeles, and the Lawrence Livermore National Laboratory. He held a professorship for applied computer science at the University of Bonn, Germany from 1992 to 2003.  His research interests spans the areas of pattern recognition and data analysis, including machine learning, statistical learning theory and information theory. Application areas of his research include image analysis, medical imaging, acoustic processing and bioinformatics. Currently, he serves as president of the German Pattern Recognition Society.
+Co-sponsored with the Institute for Genomics and Bioinformatics
+
+
+  
+
+
+Feb 10Bren Hall 40111 pm
+
+
+Andrew GelfandPhD CandidateDepartment of Computer ScienceUniversity of California, Irvine
+
+On Max-Product BP, MAP inference and Weighted MatchingsThe problem of finding the most probable, or MAP, configuration of a graphical model can also be cast as an integer linear programming (ILP) problem. Formulating the MAP problem as an ILP has led to the development of many approximate inference methods based on linear programming (LP) relaxations, including Tree-Reweighted Belief Propagation, MPLP and Max-Sum Diffusion.  Recent work suggests that going in the opposite direction and posing an ILP as a MAP problem may also prove beneficial. In this talk, I’ll focus on a classic combinatorial optimization problem, the weighted matching problem, and show that if it is posed as a MAP inference problem then the Max-Product Belief Propagation (BP) algorithm always converges to the MAP configuration. Remarkably, this is true even though the weighted matching graphical model is loopy and BP is neither guaranteed to converge, nor be correct in such models. I’ll then discuss a cutting plane approach to solving the weighted matching problem that utilizes the BP algorithm to iteratively tighten the LP relaxation of the matching ILP. This line of work improves our understanding of the performance of the loopy BP algorithm in general and further strengthens the theoretical link between message passing algorithms and optimization theory.
+This talk is based on joint work with Misha Chertkov (Los Alamos National Lab) and Jinwoo Shin (KAIST University).
+
+
+  
+
+
+Feb 17
+
+
+President’s Day(no seminar)
+
+
+
+  
+
+
+Feb 24Bren Hall 40111 pm
+
+
+Marco LevoratoAssistant ProfessorDepartment of Computer ScienceUniversity of California, Irvine
+
+Sparse approximation methods for large scale network controlThe explosion of the number of devices capable of transmitting and receiving information connected to wireless and wired communication infrastructures, both for human-to-human and machine-to-machine interaction, is forcing a technological transition to a different inter-networking model. The communication infrastructure is merging from a collection of distinct networks to a single super-network deeply integrated with heterogeneous sub-systems. Mobile health-care, smart energy grids and social networks are just examples of complex systems interoperating with the global communication infrastructure. Adaptive learning and control are the key to empower the next generation of communication networks with the ability to operate and interoperate in heterogeneous environments and with heterogeneous sub-systems. However, the high complexity of these systems discourages the use of traditional tools in practice. In this seminar, I will discuss a novel framework for online learning and optimization in complex inter-networked systems based on sparse approximation theory and wavelet analysis. The key observation is that communication protocols, and supposedly natural and human phenomena, induce a structured behavior of the stochastic process tracking the state of the system. This induces a regular structure at different time scales (hop number) of the graph modeling state transitions, and enables dimensionality reduction based on graph wavelet analysis and graph filtering. Sparse approximation algorithms can be then employed to dramatically reduce the number of observations needed to estimate fundamental control functions mapped on the state space of the observed system.
+
+
+  
+
+
+Mar 3Bren Hall 40111 pm
+
+
+Hugo La RochelleAssistant ProfessorDepartment of Computer ScienceUniversité de Sherbrooke
+
+Deep Learning for Distribution EstimationDeep learning methods have shown to be powerful approaches for modelling a large variety of data (speech, computer vision, natural language, biological, etc.) and solve a vast range of machine learning tasks (classification, regression, etc.). In this talk, I will present my recent research on using deep neural networks for the task of distribution/density estimation, one of the most fundamental problem in machine learning. Specifically, I will discuss the neural autoregressive distribution estimator (NADE), a state-of-the-art estimator of the probability distribution of data. I will then describe a deep version of NADE, which again illustrates the statistical modelling power of deep models.
+Bio:Hugo Larochelle is Assistant Professor at the Université de Sherbrooke (UdeS). Before joining the Computer Science department of UdeS in 2011, he spent two years in the machine learning group at University of Toronto, as a postdoctoral fellow under the supervision of Geoffrey Hinton. He obtained his Ph.D. at Université de Montréal, under the supervision of Yoshua Bengio. He is the recipient of two Google Faculty Awards, acts as associate editor for the IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) and is a member of the editorial board of the Journal of Artificial Intelligence Research (JAIR).
+This talk co-sponsored with the Institute for Genomics and Bioinformatics.
+
+
+  
+
+
+Mar 10Bren Hall 40111 pm
+
+
+James FouldsPhD CandidateDepartment of Computer ScienceUniversity of California, Irvine
+
+Fast and Accurate Inference and Evaluation for Topic ModelsStatistical topic models such as latent Dirichlet allocation (LDA) have become a standard tool for analyzing text corpora, with broad applications to political science, the humanities, sociology, conversational dialog, and more.   In recent years there has been an explosion in the amount of digital text information available, leading to challenges of scale for traditional inference algorithms for topic models.  In this talk, I will present algorithms for learning and evaluating topic models, quickly, accurately and at scale.
+ In part one of the talk I will describe SCVB0, a stochastic variational Bayesian inference algorithm which exploits the collapsed representation of LDA.  The algorithm can fit a topic model to Wikipedia in a matter of hours, and to the NIPS corpus of machine learning articles in seconds.  It is also extremely simple and easy to implement.
+ The second part of the talk considers the problem of evaluating topic models by computing the log-likelihood of held-out data, a task which requires approximating an intractable high-dimensional integral.  Annealed importance sampling (AIS), a Monte Carlo integration technique which operates by annealing between two distributions, has previously been successfully used to evaluate topic models.  We introduce new annealing paths which exhibit much lower empirical variance than the previous AIS approach (albeit at the cost of increased bias when given too few iterations), facilitating reliable per-document comparisons of topic models. We then show how to use these paths to evaluate the predictive performance of topic model learning algorithms on a per-iteration basis. The proposed method achieves better estimates at this task than previous algorithms, in some cases with an order of magnitude less computational effort.
+
+
+  
+
+
+Mar 17
+
+
+Finals Week(no seminar)
+
+
+
+
+
+
+January 1, 2014
+
+
+
+
+
+
+Fall 2013 Standard 
+
+
+
+
+
+  
+
+
+Sept 26Bren Hall 40111 pm
+
+
+Vittorio FerrariReaderDepartment of InformaticsUniversity of Edinburgh
+
+Searching for objects driven by contextThe dominant visual search paradigm for object class detection is sliding windows. Although simple and effective, it is also wasteful, unnatural and rigidly hardwired. We propose strategies to search for objects which intelligently explore the space of windows by making sequential observations at locations decided based on previous observations. Our strategies adapt to the class being searched and to the content of a particular test image, exploiting context as the statistical relation between the appearance of a window and its location relative to the object, as observed in the training set. In addition to being more elegant than sliding windows, we demonstrate experimentally on the PASCAL VOC 2010 dataset that our strategies evaluate two orders of magnitude fewer windows while achieving higher object detection performance.
+
+
+  
+
+
+Oct 7Bren Hall 40111 pm
+
+
+Babak ShahbabaAssistant ProfessorDepartment of StatisticsUniversity of California, Irvine
+
+Towards Scalable Bayesian InferenceMassive datasets have imposed new challenges for the scientific community. Data-intensive problems are especially challenging for Bayesian methods, which typically involve intractable models that rely on Markov Chain Monte Carlo (MCMC) algorithms for their implementation. In this talk, I will discuss our recent attempts to develop a new class of scalable computational methods to facilitate the application of Bayesian statistics in data-intensive scientific problems. One approach uses geometrically motivated methods that explore the parameter space more efficiency by exploiting its geometric properties. Another approach uses techniques that are designed to speed up sampling algorithms through faster exploration of the parameter space. I will also discuss a possible integration of geometric methods with proper computational techniques to improve the overall efficiency of sampling algorithms so that they can be used for Big Data analysis.
+
+
+  
+
+
+Oct 14Bren Hall 40111 pm
+
+
+James FouldsPhD CandidateDepartment of Computer ScienceUniversity of California, Irvine
+
+Modeling Scientific Impact with Topical Influence RegressionWhen reviewing scientiﬁc literature, it would be useful to have automatic tools that identify the most inﬂuential scientiﬁc articles as well as how ideas propagate between articles. In this context, this paper introduces topical inﬂuence, a quantitative measure of the extent to which an article tends to spread its topics to the articles that cite it. Given the text of the articles and their citation graph, we show how to learn a probabilistic model to recover both the degree of topical inﬂuence of each article and the inﬂuence relationships between articles. Experimental results on corpora from two well-known computer science conferences are used to illustrate and validate the proposed approach.
+
+
+  
+
+
+Oct 21Bren Hall 40111 pm
+
+
+Mohammad AzarPostdoctoral FellowSchool of Computer ScienceCarnegie Mellon University
+
+A Spectral Approach to Sequential Transfer in Multi-armed Bandit with Finite Set of ModelsLearning from prior tasks and transferring that experience to improve future performance is critical for building lifelong learning agents. Although results in supervised and reinforcement learning show that transfer may significantly improve the learning performance, most of the literature on transfer is focused on batch learning tasks. In this paper we study the problem of \textit{sequential transfer in online learning}, notably in the multi-armed bandit framework, where the objective is to minimize the cumulative regret over a sequence of tasks by incrementally transferring knowledge from prior tasks. We introduce a novel bandit algorithm based on a method-of-moments approach for the estimation of the possible tasks and derive regret bounds for it.
+Bio:
+Mohammad Gheshlaghi Azar studied  Electrical Engineering (control theory) at University of Tehran, Iran from 2003 till 2006. He then moved to Netherlands for Ph.d., where he worked with Professor Bert Kappen and Professor Remi Munos on the subject of statistical machine learning and reinforcement learning.  Following finishing his Ph.D. in 2012, he joined the school of computer science at Carnegie Mellon university as a postdoctoral fellow, where he is working with Professor  Brunskill on the subject of transfer of knowledge in sequential decision making problems. His research is focused on developing new machine learning algorithms which apply to  life-long and real-world learning and decision making problems.
+
+
+  
+
+
+Oct 28Bren Hall 40111 pm
+
+
+Brian MilchSoftware EngineerGoogle (Los Angeles)
+
+From Text to Concepts at GoogleThis talk will describe Rephil, a system used widely within Google to identify the concepts or topics that underlie a given piece of text.  Rephil determines, for example, that “apple pie” relates to some of the same concepts as “chocolate cake”, but has little in common with “apple ipod”.  The concepts used by Rephil are not pre-specified; instead, they are derived by an unsupervised learning algorithm running on massive amounts of text.  The result of this learning process is a Rephil model — a giant Bayesian network with concepts as nodes.  I will discuss the structure of Rephil models, the distributed machine learning algorithm that we use to build these models from terabytes of data, and the Bayesian network inference algorithm that we use to identify concepts in new texts under tight time constraints.  I will also discuss how Rephil relates to ongoing academic research on probabilistic topic models.
+Bio:
+Brian Milch is a software engineer at Google’s Los Angeles office.  He first joined Google in 2000, after completing a B.S. in Symbolic Systems at Stanford University.  A year later, he entered the Computer Science Ph.D. program at U.C. Berkeley.  He received his doctorate in 2006, with a thesis focused on the integration of probabilistic and logical approaches to artificial intelligence.  He then spent two years as a post-doctoral researcher at MIT before returning to Google in 2008.  He has contributed to Google production systems for spelling correction, transliteration, and semantic modeling of text.
+
+
+  
+
+
+Nov 4Bren Hall 40111 pm
+
+
+Yifei ChenPhD CandidateDepartment of Computer ScienceUniversity of California, Irvine
+
+A gradient boosting algorithm for survival analysis via direct optimization of concordance indexSurvival analysis focuses on modeling and predicting the time to an event of interest. Traditional survival models (e.g., the prevalent proportional hazards model) often impose strong assumptions on hazard functions, which describe how the risk of an event changes over time depending on covariates associated with each individual. In this paper we propose a nonparametric survival model (GBMCI) that does not make explicit assumptions on hazard functions. Our model trains an ensemble of regression trees by the gradient boosting machine to optimize a smoothed approximation of the concordance index, which is one of the most widely used metrics in survival model evaluation. We benchmarked the performance of GBMCI against other popular survival models with a large-scale breast cancer prognosis dataset. Our experiment shows that GBMCI consistently outperforms other methods based on a number of covariate settings.
+
+
+  
+
+
+Nov 11
+
+
+Veterans Day(no seminar)
+
+
+
+  
+
+
+Nov 18Bren Hall 40111 pm
+
+
+Shiwei LanPhD CandidateDepartment of StatisticsUniversity of California, Irvine
+
+Spherical Hamiltonian Monte Carlo for Constrained Target DistributionsStatistical models with constrained probability distributions are abundant in machine learning. Some examples include regression models with norm constraints (e.g., Lasso), probit models, many copula models, and Latent Dirichlet Allocation (LDA) models. Bayesian inference involving probability distributions confined to constrained domains could be quite challenging for commonly used sampling algorithms. For such problems, we propose a novel Markov Chain Monte Carlo (MCMC) method that provides a general and computationally efficient framework for handling boundary conditions. Our method first maps the $D$-dimensional constrained domain of parameters to the unit ball ${\bf B}_0^D(1)$, then augments it to the $D$-dimensional sphere ${\bf S}^D$ such that the original boundary corresponds to the equator of ${\bf S}^D$. This way, our method handles the constraints implicitly by moving freely on sphere generating proposals that remain within boundaries when mapped back to the original space. To improve the computational efficiency of our algorithm, we divide the dynamics into several parts such that the resulting split dynamics has a partial analytical solution as a geodesic flow on the sphere. We apply our method to several examples including truncated Gaussian, Bayesian Lasso, Bayesian bridge regression, and a copula model for identifying synchrony among multiple neurons. Our results show that the proposed method can provide a natural and efficient framework for handling several types of constraints on target distributions.
+
+
+  
+
+
+Nov 25
+
+
+Thanksgiving week(no seminar)
+
+
+
+  
+
+
+Dec 2Bren Hall 40111 pm
+
+
+Rosario CammarotaSystem Security ArchitectQualcomm Research
+
+Rescheduled 
+
+
+
+
+
+September 1, 2013
+
+
+
+
+
+
+Spring 2013 Standard 
+
+Blank post…
+
+
+March 10, 2013
+
+
+
+
+
+
+Spring 2013 Standard 
+
+
+
+
+
+  
+
+
+March 11Bren Hall 40111 pm
+
+
+Furong HuangGraduate StudentDepartment of Electrical Engineering and Computer ScienceUniversity of California, Irvine
+
+Learning Mixtures of Tree Graphical ModelsWe consider unsupervised estimation of mixtures of discrete graphical models, where the class variable is hidden and each mixture component can have a potentially different Markov graph structure and parameters over the observed variables. We propose a novel method for estimating the mixture components with provable guarantees. Our output is a tree-mixture model which serves as a good approximation to the underlying graphical model mixture. The sample and computational requirements for our method scale as $\poly(p, r)$, for an $r$-component mixture of $p$-variate graphical models, for a wide class of models which includes tree mixtures and mixtures over bounded degree graphs.
+
+
+  
+
+
+March 18Bren Hall 40111 pm
+
+
+John TurnerAssistant ProfessorOperations and Decision Technologies, The Paul Merage School of BusinessUniversity of California, Irvine
+
+Planning and Scheduling of Guaranteed Delivery AdvertisingOver the past decade, improvements in information technology have led to the development of new media and new forms of advertising. One example is dynamic in-game advertising, in which ads served over the Internet are seamlessly integrated into the 3D environments of video games played on consoles like the XBox 360. We begin by introducing a plan-track-revise approach for an in-game ad scheduling problem posed by Massive Inc., a pioneer in dynamic in-game advertising that is now part of Microsoft. Using 26 weeks of historical data from Massive, we compare our algorithm’s ad slotting performance with Massive’s legacy algorithm over a rolling horizon, and find that we reduce make-good costs by 80-87%, reserve more premium ad slots for future sales, increase the number of unique individuals that see each ad campaign, and deliver ads in a smoother, more consistent fashion over time. Next, we build on our real-world experience and formulate a single-period ad planning problem which emphasizes the core structure of how ads should be planned in a broad class of new media. We develop two efficient algorithms which intelligently aggregate the high-dimensional audience space that results when ad campaigns target very specific cross-sections of the overall population, and use duality theory to show that when the audience space is aggregated using our procedure, near-optimal schedules can be produced despite significant aggregation. Optimality in this case is with respect to a quadratic objective chosen for tractability, however, by explicitly modeling the stochastic nature of viewers seeing ads and the low-level ad slotting heuristic of the ad server, we derive sufficient conditions that tell us when our solution is also optimal with respect to two important practical objectives: minimizing the variance of the number of impressions served, and maximizing the number of unique individuals that are shown each ad campaign.
+
+
+  
+
+
+April 1Bren Hall 40111 pm
+
+
+Bart KnijnenburgGraduate StudentDepartment of InformaticsUniversity of California, Irvine
+
+ML Opportunities in Privacy ResearchAbstract:
+Personalized systems often require a relevant amount of personal information to properly learn the preferences of the user. However, privacy surveys demonstrate that Internet users want to limit the collection and dissemination of their personal data. In response, systems may give users additional control over their information disclosure. But privacy-decisions are inherently difficult: they have delayed and uncertain repercussions that are difficult to trade-off with the possible immediate gratification of disclosure.
+Can we help users to balance the benefits and risks of information disclosure in a user-friendly manner, so that they can make good privacy decisions?
+My idea is to develop a Privacy Adaptation Procedure that offers tailored privacy decision support. This procedure gives users personalized “nudges” and personalized “justifications” based on a context-aware prediction of their privacy preferences. In this talk I will present two pieces of research that each take a step towards this Privacy Adaptation Procedure. I then hope to start a discussion with the audience on how to proceed with this endeavor.
+Bio:
+Bart Knijnenburg is a Ph.D candidate in Informatics at the University of California, Irvine. His work focuses on privacy decision-making and recommender systems. He received his B.S. degree in Innovation Sciences and his M.S. degree in Human-Technology Interaction from Eindhoven University of Technology, The Netherlands, and his M.A. degree in Human- Computer Interaction from Carnegie Mellon University. Bart is a leading advocate of user-experience research in recommender systems, and studies the (ir)regularities of privacy decision making. His academic work lives at http://www.usabart.nl.
+
+
+  
+
+
+April 8Bren Hall 40111 pm
+
+
+Qiang LiuGraduate StudentDepartment of Computer ScienceUniversity of California, Irvine
+
+Belief Propagation for CrowdsourcingCrowdsourcing on platforms like Amazon’s Mechanical Turk have become a popular paradigm for labeling large datasets. However, it has given rise to the computational task of properly aggregating the crowdsourced labels provided by a collection of unreliable and diverse annotators. On the other side, graphical models are powerful tools for reasoning on systems with complicated dependency structures. In this talk, we approach thecrowdsourcing problem by transforming it into a standard inference problem in graphical models, and apply powerful inference algorithms such as belief propagation (BP). We show both the naive majority voting and a recent algorithm by Karger, Oh, and Shah are special cases of our BP algorithm under particular modeling choices. With more careful choices, we show that our simple BP performs surprisingly well on both simulated and real-world datasets, competitive with state-of-the-art algorithms based on more complicated modeling assumptions. Our work sheds light on the important tradeoff between better modeling choices and better inference algorithms.
+
+
+  
+
+
+April 15Bren Hall 60111 pm
+
+
+William NobleProfessorDepartment of Genome Sciences/Department of Computer Science and EngineeringUniversity of Washington
+
+The one-dimensional and three-dimensional structure of the genomeAbstract:
+A variety of molecular biology technologies have recently made it clear that the function of the genome in vivo is determined both by the linear sequences of nucleotides along the chromosome and the three-dimensional conformation of chromosomes within the nucleus. In this talk, I will describe computational and statistical methods that we have developed and applied to a variety of genomes, with the goal of characterizing genome architecture and function. In particular, we have used unsupervised and semisupervised machine learning methods to infer the linear state structure of the genome, as defined by a large panel of epigenetic data sets generated by the NIH ENCODE Consortium, and we have developed methods to assign statistical confidence and infer the 3D structure of genomes from Hi-C data.
+About the Speaker:
+Dr. William Stafford Noble is Professor in the Department of Genome Sciences in the School of Medicine at the University of Washington where he has a joint appointment in the Department of Computer Science and Engineering in the College of Engineering. Previously he was a Sloan/DOE Postdoctoral Fellow with David Haussler at the University of California, Santa Cruz before he became an Assistant Professor in the Department of Computer Science at Columbia University. He graduated from Stanford University in 1991 with a degree in Symbolic Systems before receiving a Ph.D in computer science and cognitive science from UC San Diego in 1998. His research group develops and applies statistical and machine learning techniques for modeling and understanding biological processes at the molecular level. Noble is the recipient of an NSF CAREER award and is a Sloan Research Fellow.
+
+
+  
+
+
+April 22Bren Hall 40111 pm
+
+
+Pierre BaldiChancellor’s ProfessorDepartment of Computer ScienceUniversity of California, Irvine
+
+The Dropout Learning AlgorithmDropout is a new learning algorithm recently introduced by Hinton and his group. As stated in their abstract: “When a large feedforward neural network is trained on a small training set, it typically performs poorly on held-out test data. This overfitting is greatly reduced by randomly omitting half of the feature detectors on each training case. This prevents complex co-adaptations in which a feature detector is only helpful in the context of several other specific feature detectors. Instead, each neuron learns to detect a feature that is generally helpful for producing the correct answer given the combinatorially large variety of internal contexts in which it must operate. Random gdropouth gives big improvements on many benchmark tasks and sets new records for speech and object recognition.” This seminar will present a mathematical analysis of the dropout algorithm and its intriguing properties.
+
+
+  
+
+
+April 29Bren Hall 40111 pm
+
+
+Shimon WhitesonAssistant ProfessorInformatics InstituteUniversity of Amsterdam
+
+Multi-Objective Decision Making in Collaborative Multi-Agent SystemsIn collaborative multi-agent systems, teams of agents must coordinate their behavior in order to maximize their common utility.  Such systems are useful, not only for addressing tasks that are inherently distributed, but also for decomposing tasks that would otherwise be too complex to solve. Unfortunately, computing coordinated behavior is computationally expensive because the number of possible joint actions grows exponentially in the number of agents. Consequently, exploiting loose couplings between agents, as expressed in graphical models, is key to rendering such decision making efficient. However, existing methods for solving such models assume there is only a single objective. In contrast, many real-world problems are characterized by the presence of multiple objectives to which the solution is not a single action but the set of actions optimal for all trade-offs between the objectives. In this talk, I will propose a new method for multi-objective multi-agent graphical games that prunes away dominated solutions.  I will also discuss the theoretical support for this method and present an empirical study that shows that it can tackle multi-objective problems much faster than alternatives that do not exploit loose couplings.
+
+
+  
+
+
+May 6Bren Hall 40111 pm
+
+
+Anoop KorattikaraGraduate StudentDepartment of Computer ScienceUniversity of California, Irvine
+
+Markov Chain Monte Carlo and the Bias-Variance TradeoffBayesian posterior sampling can be painfully slow on very large datasets, since traditional MCMC methods such as Hybrid Monte Carlo are designed to be asymptotically unbiased and require processing the entire dataset to generate each sample. Thus, given a small amount of sampling time, the variance of estimates computed using such methods could be prohibitive. We argue that lower risk estimates can often be obtained using gapproximateh MCMC methods that mix very fast (and thus lower the variance quickly) at the expense of a small bias in the stationary distribution. I will first talk about two such biased algorithms: Stochastic Gradient Langevin Dynamics and its successor Stochastic Gradient Fisher Scoring, both of which use stochastic gradients estimated from mini-batches of data, allowing them to mix very fast. Then I will present our current work on a new (biased) MCMC algorithm that uses a sequential hypothesis test to approximate the Metropolis-Hastings test, allowing us to accept/reject samples with high confidence using only a fraction of the data required for the exact test.
+
+
+  
+
+
+May 13Bren Hall 40111 pm
+
+
+Katerina FragkiadakiGraduate StudentDepartment of Computer ScienceUniversity of Pennsylvania
+
+Multi-Granularity Steering for Human Actions: Motion, Pose and IntentionTracking people and their body pose in videos is a central problem in computer vision. Standard tracking representations typically reason about temporal coherence of detected bodies and parts. They have difficulty tracking people under partial occlusions or wild body deformations, where people and body pose detectors are often inaccurate, due to the small number of training examples in comparison to the exponential variability of such configurations.
+In this talk, I will present novel tracking representations that allow to track people and their body pose by exploiting information at multiple granularities when available, whole body, parts or pixel-wise motion correspondences and their segmentations. A key challenge is resolving contradictions among different information granularities, such as detections and motion estimates in the case of false alarm detections or leaking motion affinities. I will introduce graph steering, a framework that specifically targets inference under potentially sparse unary detection potentials and dense pairwise motion affinities – a particular characteristic of the video signal – in contrast to standard MRFs.
+We will present three instances of steering. First, we study people detection and tracking under persistent occlusions. I will demonstrate how to steer dense optical flow trajectory affinities with repulsions from sparse confident detections to reach a global consensus of detection and tracking in crowded scenes. Second, we study human motion and pose estimation. We segment hard to detect, fast moving body limbs from their surrounding clutter and match them against pose exemplars to detect body pose and improve body part motion estimates with kinematic constraints. Finally, I will show how we can learn certainty of detections under various pose and motion specific contexts, and use such certainty during steering for jointly inferring multi-frame body pose and video segmentation.
+We show empirically that such multi-granularity tracking representation is worthwhile, obtaining significantly more accurate body and pose tracking in popular datasets.
+Bio:
+Katerina Fragkiadaki is a Ph.D. student in Computer and Information Science in the University of Pennsylvania. She received her diplomat in Computer Engineering from the National Technical University of Athens. She works on tracking, segmentation and pose estimation of people under close interactions, for understanding their actions and intentions. She also works on segmenting and tracking cell populations for understanding and modeling cell behavior.
+
+
+  
+
+
+May 20Bren Hall 40111 pm
+
+
+Dennis ParkGraduate StudentDepartment of Computer ScienceUniversity of California, Irvine
+
+Multiple Solutions via M-Best MAPThis talk will serve two purposes. In the first part, I will provide a tutorial motivating and introducing M-best algorithms particularly for those who are new to these approaches. As other intelligent systems, applications in computer vision heavily rely on MAP hypotheses of probabilistic models. However, predicting a single (most probable) hypothesis is often suboptimal when training data is noisy or underlying model is complex. As an alternative, various M-best algorithms have been introduced mainly in speech recognition community.  By walking through a simple example using two M-best algorithms, Nilsson’98 and Yanover & Weiss’03, the audience will gain insights into the algorithms and their application to various graphical models.
+In the second part, I will talk about a more recent work on applications of M-best algorithm to computer vision problems. The main hurdle for a direct application of traditional M-best algorithms to computer vision applications is a lack of diversity : the second best hypothesis is only one-pixel off from the best one. To overcome this limitation, we developed a novel M-best algorithm which incorporates non-maximal suppression into Yanover & Weiss’s algorithm. When applied to a model for pose estimation of human body, the algorithm produces diverse and high-scoring poses which are re-evaluated using tracking models for videos, achieving more accurate tracks of human poses.
+
+
+  
+
+
+May 27 (no seminar)
+
+
+Memorial Day
+
+
+
+  
+
+
+June 3Bren Hall 40111 pm
+
+
+Kamalika ChaudhuriAssistant ProfessorDepartment of Computer Science and EngineeringUniversity of California, San Diego
+
+Challenges in Differentially-Private Data AnalysisMachine learning algorithms increasingly work with sensitive information on individuals, and hence the problem of privacy-preserving data analysis — how to design data analysis algorithms that operate on the sensitive data of individuals while still guaranteeing the privacy of individuals in the data– has achieved great practical importance. In this talk, we address two problems in differentially private data analysis.
+First, we address the problem of privacy-preserving classification, and present an efficient classifier which is private in the differential privacy model of Dwork et al. Our classifier works in the ERM (empirical loss minimization) framework, and includes privacy preserving logistic regression and privacy preserving support vector machines. We show that our classifier is private, provide analytical bounds on the sample requirement of our classifier, and evaluate it on real data. We next address the question of differentially private statistical estimation. We draw a concrete connection between differential privacy, and gross error sensitivity, a measure of robustness of a statistical estimator, and show how these two notions are quantitatively related.
+Based on joint work with Claire Monteleoni (George Washington University), Anand Sarwate (TTI Chicago), and Daniel Hsu (Microsoft Research).
+Bio:
+Kamalika Chaudhuri received a Bachelor of Technology degree in Computer Science and Engineering in 2002 from the Indian Institute of Technology, Kanpur, and a PhD in Computer Science from UC Berkeley in 2007. After a stint as a postdoctoral researcher at the Information Theory and Applications Center at UC San Diego, she joined the CSE department at UCSD as an assistant professor in 2010. Kamalika’s research is on the design and analysis of machine-learning algorithms and their applications. In particular, her interests lie in clustering, online learning, and privacy-preserving machine-learning, and applications of machine-learning and algorithms to practical problems in other areas.
+
+
+  
+
+
+June 7Bren Hall 301111 am
+
+
+Maja MatarićProfessor and Chan Soon-Shiong ChairDepartment of Computer Science/Neuroscience/PediatricsUniversity of Southern California
+
+Human-Machine Interaction Methods for Socially Assistive RoboticsSocially assistive robotics (SAR) is a new field of intelligent robotics that focuses on developing machines capable of assisting users through social rather than physical interaction. The robot’s physical embodiment is at the heart of SAR’s effectiveness, as it leverages the inherently human tendency to engage with lifelike (but not necessarily human-like or otherwise biomimetic) social behavior. People readily ascribe intention, personality, and emotion to robots; SAR leverages this engagement stemming from non-contact social interaction involving speech, gesture, movement demonstration and imitation, and encouragement, to develop robots capable of monitoring, motivating, and sustaining user activities and improving human learning, training, performance and health outcomes. Human-robot interaction (HRI) for SAR is a growing multifaceted research area at the intersection of engineering, health sciences, neuroscience, social, and cognitive sciences. This talk will describe our research into embodiment, modeling and steering social dynamics, and long-term user adaptation for SAR. The research will be grounded in projects involving analysis of multi-modal activity data, modeling personality and engagement, formalizing social use of space and non-verbal communication, and personalizing the interaction with the user over a period of months, among others. The presented methods and algorithms will be validated on implemented SAR systems evaluated byhuman subject cohorts from a variety of user populations, including stroke patients, children with autism spectrum disorder, and elderly with Alzheimers and other forms of dementia.
+Bio:
+ Maja Mataric is professor and Chan Soon-Shiong chair in Computer Science, Neuroscience, and Pediatrics at the University of Southern California, founding director of the USC Center for Robotics and Embedded Systems (cres.usc.edu), co-director of the USC Robotics Research Lab (robotics.usc.edu) and Vice Dean for Research in the USC Viterbi School of Engineering. She received her PhD in Computer Science and Artificial Intelligence from MIT in 1994, MS in Computer Science from MIT in 1990, and BS in Computer Science from the University of Kansas in 1987. She is a Fellow of the American Association for the Advancement of Science (AAAS), Fellow of the IEEE, and recipient of the Presidential Awards for Excellence in Science, Mathematics & Engineering Mentoring (PAESMEM), the Anita Borg Institute Women of Vision Award for Innovation, Okawa Foundation Award, NSF Career Award, the MIT TR100 Innovation Award, and the IEEE Robotics and Automation Society Early Career Award. She served as the elected president of the USC faculty and the Academic Senate. At USC she has been awarded the Viterbi School of Engineering Service Award and Junior Research Award, the Provost’s Center for Interdisciplinary Research Fellowship, the Mellon Mentoring Award, the Academic Senate Distinguished Faculty Service Award, and a Remarkable Woman Award. Her research is currently developing robot-assisted therapies for children with autism spectrum disorders, stroke and traumatic brain injury survivors, and individuals with Alzheimer’s Disease and other forms of dementia. Details about her research are found at http://robotics.usc.edu/interaction/.
+
+
+  
+
+
+June 10Bren Hall 40111 pm
+
+
+Mark StalzerExecutive DirectorCenter for Advanced Computing ResearchCalifornia Institute of Technology
+
+Trends in Scientific Discovery Engines and ApplicationsThis talk is about trends in computing technology that are leading to exascale-class systems for both scientific simulations and data reduction. The underlying themes are power consumption, the massive increase in concurrency, and architectural balance for “Big Data” systems. Applications that require balance are presented in astronomy, high-energy physics, and engineering. Optimal uncertainty quantification is shown as a way to rigorously connect simulations with Big Data.
+
+
+  
+
+
+June 14Bren Hall 40112 pm
+
+
+Nima DokoohakiPostdoctoral Research AssistantDepartment of Software and Computer SystemsRoyal Institute of Technology (KTH)
+
+Trust-Aware User Profile Mining, Recommendation and RetrievalWe have introduced the notion of augmenting user profiling process with trust, as a solution to the problem of uncertainty and unmanageable exposure of personal data during access, mining and retrieval by web applications. Our solution suggests explicit modeling of trust and embedding trust metrics and mechanisms within very fabric of user profiles. This has in turn allowed information systems to consume and understand this extra knowledge in order to improve interaction and collaboration among individuals and system. When formalizing such profiles, another challenge is to realize increasingly important notion of privacy preferences of users. The profiles are designed in a way to incorporate preferences of users allowing target systems to understand privacy concerns of users during their interaction. Highlighted results start from modeling of adaptive user profiles incorporating users taste, trust and privacy preferences. This in turn led to proposal of several ontologies for user and content characteristics modeling for improving indexing and retrieval of user content and profiles across the platform. Sparsity and uncertainty of profiles were studied through frameworks of data mining and machine learning of profile data taken from on-line social networks. Results of mining and population of data from social networks along with profile data increased the accuracy of intelligent suggestions made by system to improving navigation of users in on-line and off-line museum interfaces. These results were highlighted mainly under the context of EU FP7 Smartmuseum project.
+We also introduced several trust-based recommendation techniques and frameworks capable of mining implicit and explicit trust across ratings networks taken from social and opinion web. Resulting recommendation algorithms have shown to increase accuracy of profiles, through incorporation of knowledge of items and users and diffusing them along the trust networks. At the same time focusing on automated distributed management of profiles, we showed that coverage of system can be increased effectively, surpassing comparable state of art techniques. We have clearly shown that trust clearly increases accuracy of suggestions predicted by system. To assure overall privacy of such value-laden systems, privacy was given a direct focus when architectures and metrics were proposed and shown that a joint optimal setting for accuracy and perturbation techniques can maintain accurate output. Finally, focusing on hybrid models of web data and recommendations motivated us to study impact of trust in the context of topic-driven recommendation in social and opinion media, which in turn helped us to show that leveraging content-driven and tie-strength networks can improve systems accuracy for several important web computing tasks.
+Speaker Bio:
+Nima Dokoohaki holds a MSc (2007) in software engineering of distributed systems, and a PhD (2013) in information and communication technologies from KTH-Royal Institute of Technology, Sweden. He is currently a postdoctoral research assistant at software and computer systems (SCS) lab at KTH, where he focuses on big data and social informatics, particularly his research interests include trust, social network mining and analysis and recommender systems.
+
+
+
+
+
+March 1, 2013
+
+
+
+
+
+
+Winter 2013 Standard 
+
+
+
+
+
+  
+
+
+January 7Bren Hall 40111 pm
+
+
+Majid JanzaminGraduate StudentDepartment of Electrical Engineering and Computer ScienceUniversity of California, Irvine
+
+High-Dimensional Covariance Decomposition into Sparse Markov and Independence DomainsFitting high-dimensional data involves a delicate tradeoff between faithful representation and the use of sparse models. Too often, sparsity assumptions on the fitted model are too restrictive to provide a faithful representation of the observed data. In this talk, we present a novel framework incorporating sparsity in different domains. We decompose the observed covariance matrix into a sparse Gaussian Markov model (with a sparse precision matrix) and a sparse independence model (with a sparse covariance matrix). Our framework incorporates sparse covariance and sparse precision estimations as special cases and thus introduces a richer class of high-dimensional models. We characterize sufficient conditions for identifiability of the two models, \viz Markov and independence models. We propose an efficient decomposition method based on a modification of the popular $\ell_1$-penalized maximum-likelihood estimator ($\ell_1$-MLE). We establish that our estimator is consistent in both the domains, i.e., it successfully recovers the supports of both Markov and independence models, when the number of samples $n$ scales as $n = \Omega(d^2 \log p)$, where $p$ is the number of variables and $d$ is the maximum node degree in the Markov model. Our experiments validate these results and also demonstrate that our models have better inference accuracy under simple algorithms such as loopy belief propagation.
+
+
+  
+
+
+January 14Bren Hall 40111 pm
+
+
+Christian SheltonAssociate ProfessorDepartment of Computer Science and EngineeringUniversity of California, Riverside
+
+Machine Learning for Critical Care MedicineMedicine is becoming a “big data” discipline.  In many ways, it shares more in common with engineering and business than with lab sciences: while controlled experiments can be performed, most data are available from live practice with the aim of solving a problem, not exploration of hypotheses.  This this talk I will discuss my work in collaboration with Children’s Hospital Los Angeles in applying machine learning to improve health care, particularly pediatric intensive care.  I will use two current projects to drive the discussion: (1) monitoring of blood CO2 and pH levels for patients on mechanical ventilation and (2) predicting acute kidney injury and identifying potential causes.  I will describe the data collection, how the data do and do not fit into machine learning assumptions, and the current state and trends in medical data.  Both problems have been tackled with a variety of methods and I will summarize our findings and lessons in applying machine learning to medical data.
+Bio:
+Christian Shelton is an Associate Professor of Computer Science and Engineering at the University of California at Riverside.  His research is in machine learning with a particular interest in dynamic processes. He has worked on applications as varied as computer vision, sociology, game theory, decision theory, and computational biology.  He has been a faculty member at UC Riverside since 2003.  He received his PhD from MIT in 2001 and his bachelor degree from Stanford in 1996.
+
+
+  
+
+
+January 21 (no seminar)
+
+
+Martin Luther King, Jr. Day
+
+
+
+  
+
+
+January 28Bren Hall 40111 pm
+
+
+Ragupathyraj ValluvanGraduate StudentDepartment of Electrical Engineering and Computer ScienceUniversity of California, Irvine
+
+Predicting and Interpreting Dynamic Social Interactions via Conditional Latent Random FieldsWe consider the problem of predicting and interpreting dynamic social interactions among a time-varying set of participants. We model the interactions via a dynamic social network with joint edge and vertex dynamics. It is natural to expect that the accuracy of vertex prediction (i.e. whether an actor participates or not at a given time) strongly affects the ability to predict dynamic network evolution accurately.  A conditional latent random field (CLRF) model is employed here to model the joint vertex evolution. This model family can incorporate dependence in vertex co-presence, found in many social settings (e.g., subgroup structure, selective pairing). Moreover, it can incorporate the effect of covariates (e.g. seasonality).  We introduce a novel approach for fitting such CLRF models which leverages on the recent results for learning latent tree models and combines it with a parametric model for covariate effects and a logistic model for edge prediction (i.e. social interactions) given the vertex predictions. We apply this approach to both synthetic data and a classic social network data set involving interactions among windsurfers on a Southern California beach. Experiments conducted show the potential to discover hidden social relationship structures and a significant improvement in prediction accuracy of the vertex and edge set evolution (about 45% for conditional vertex participation accuracy and 122% for overall edge prediction accuracy) over the baseline dynamic network regression approach.
+
+
+  
+
+
+February 4Bren Hall 40111 pm
+
+
+Matthias BlumeSenior Director of AnalyticsCoreLogic
+
+Entity DisambiguationEntity disambiguation (a.k.a. Entity Resolution, Record Linking, People Search, Customer Pinning, Merge/Purge, …)  determines which data records correspond to distinct entities (persons, companies, locations, etc.) when IDs such as SSN are not available.  Matthias will present an overview of the field and a technique that can utilize any available attributes including co-occurring entities, relations, and topics from unstructured text.  It automatically learns the information value of each feature from the data.  By using a greedy merge approach and some tricks to avoid unnecessary match operations, it is fast.  Finally, we will explore possible vector space and graph representations of the problem, alternative approaches that have been tried, and suggest future work based on reinforcement learning and active learning.
+Bio
+Matthias Blume is Senior Director of Analytics at CoreLogic, the nation’s largest real estate data provider.  His team develops solutions for mortgage fraud detection, consumer credit scoring, automated valuation models, and more.  Previously, he worked in marketing optimization, text analytics, and the gamut of financial services analytics at Redlign, Covario, and HNC/FICO.  He received his PhD in Electrical and Computer Engineering from UCSD and a BS from Caltech.
+
+
+  
+
+
+February 11Bren Hall 40111 pm
+
+
+Eric BaxDirector, Marketplace DesignYahoo!
+
+Validating Network Classifiers with CohortsNetworks play important roles in our lives, from protein activation networks that determine how our bodies develop to social networks and networks for transportation and power transmission. Networks are interesting for machine learning because they grow in interesting ways. A person joins a social network because their friend is already in it. A patient joins a network of disease infection because they are in contact with someone who has been infected. A new bridge is built because there are major transportation facilities on both sides of a body of water. Networks form iteratively; each new cohort of nodes depends on nodes already present. This talk discusses a way to apply machine learning methods to network classifiers for networks that grow by adding cohorts.
+
+
+  
+
+
+February 18 (no seminar)
+
+
+Presidents’ Day
+
+
+
+  
+
+
+February 25Bren Hall 40111 pm
+
+
+Kristina LermanProject LeaderUniversity of Southern California/Information Sciences Institute
+
+Social Dynamics of InformationIt is widely believed that information spreads through a social network much like a virus, with “infected” individuals transmitting it to their friends, enabling information to reach many people. However, our studies of social media indicate that most information epidemics fail to reach viral proportions. We show that psychological factors fundamentally distinguish social contagion from viral contagion. Specifically, people have finite attention, which they divide over all incoming stimuli. This makes highly connected people less “susceptible” to infection and stops information spread.
+ In the second part of the talk I explore the connection between dynamics and network structure. I show that to find interesting structure, network analysis has to consider not only network’s links, but also dynamics of information flow. I introduce dynamics-aware network analysis methods and demonstrate that they can identify more meaningful structures in social media networks than popular alternatives.
+
+
+
+
+
+January 1, 2013
+
+
+
+
+
+
+Fall 2012 Standard 
+
+
+
+
+
+  
+
+
+October 1Bren Hall 40111 pm
+
+
+Mohsen HejratiGraduate StudentDepartment of Computer ScienceUniversity of California, Irvine
+
+Analyzing 3D Objects in Cluttered ImagesWe present an approach to detecting and analyzing the 3D configuration of objects in real-world images with heavy occlusion and clutter. We focus on the application of finding and analyzing cars. We do so with a two-layer model; the first layer reasons about 2D appearance changes due to within-class variation and viewpoint. Rather than using a global view-based model, we describe a compositional representation that models a large number of effective views using a small number of local view-based templates. We use this model to propose candidate detections, which are then refined by our second layer, a 3D statistical model that reasons about 3D shape changes and 3D camera viewpoints. We demonstrate state-of-the-art accuracy on challenging images from the PASCAL VOC 2011 dataset.
+
+
+  
+
+
+October 8Bren Hall 40111 pm
+
+
+Sergey KirshnerAssistant ProfessorDepartment of StatisticsPurdue University
+
+Copulas in Machine Learning or How to Make Sense of Multi-Dimensional Non-Gaussian Real-Valued DataAs number of application domains, including finance, hydrology, and astronomy, produce high-dimensional multivariate data, there is an increasing interest in models which can capture non-linear dependence between the observations.  Enter copulas, a statistical approach which separates the marginal distributions for random variables from their dependence structure. I will go over the recent work on using copulas in two different settings. In the first setting, the graphical models are developed for copulas with the goal of modeling of non-Gaussian multivariate real-valued data.  I will focus on tree-structured copulas in particular as they provide a convenient building block for such models and their applications to modeling of multi-site rainfall. The second setting, copulas are used to construct non-parametric robust estimators of dependence (e.g, information). Among applications of such estimators is a new robust approach to independent component analysis. 
+ Speaker Bio:
+ Sergey Kirshner is an Assistant Professor of Statistics at Purdue University.  Prior to joining Purdue, he was a postdoctoral fellow with Alberta Ingenuity Centre for Machine Learning at the Department of Computing Science at the University of Alberta. Before that, he was a graduate student and then a postdoc at the Donald Bren School of Information and Computer Sciences at the University of California, Irvine in Padhraic Smyth’s research group.  His research interests lie in the area of statistical machine learning, more specifically, computational methods for learning and inference for sparse models of high-dimensional data, and their applications to scientific problems.
+
+
+  
+
+
+October 15Bren Hall 40111 pm
+
+
+Don PattersonAssociate ProfessorDepartment of InformaticsUniversity of California, Irvine
+
+Gesture Recognition with Erlang-Cox Models To Identify Neurological Disorders in Premature BabiesIn this talk I will describe a system that leverages accelerometers to recognize a particular involuntary gesture in babies that have been born preterm. These gestures, known as cramped-synchronized general movements are highly correlated with a diagnosis of Cerebral Palsy. In order to test our system we recorded data from 10 babies admitted to the newborn intensive care unit at the UCI Medical Center. We demonstrate a Markov model based technique for recognizing gestures from accelerometers that explicitly represent duration. We do this by embedding an Erlang-Cox state transition model, which has been shown to accurately represent the first three moments of a general distribution, within a Dynamic Bayesian Network (DBN). The transition probabilities in the DBN can be learned via Expectation-Maximization or by using closed-form solutions. We show that by treating instantaneous machine learning classification values as observations and explicitly modeling duration, we improve the recognition of Cramped Syn- chronized General Movements, a motion highly correlated with an eventual diagnosis of Cerebral Palsy. Validated video observation annotations were utilized as ground truth. Finally, we conducted an analysis to understand the clinical impact of this technique.
+
+
+  
+
+
+October 22Bren Hall 40111 pm
+
+
+Levi BoylesGraduate StudentDepartment of Computer ScienceUniversity of California, Irvine
+
+The Time-Marginalized Coalescent Prior for Hierarchical ClusteringWe introduce a new prior for use in Nonparametric Bayesian Hierarchical Clustering. The prior is constructed by marginalizing out the time information of Kingman’s coalescent, providing a prior over tree structures which we call the Time-Marginalized Coalescent (TMC). This allows for models which factorize the tree structure and times, providing two benefits: more flexible priors may be constructed and more efficient Gibbs type inference can be used. We demonstrate this on an example model for density estimation and show the TMC achieves competitive experimental results.
+
+
+  
+
+
+October 29Bren Hall 40111 pm
+
+
+Pierre BaldiChancellor’s ProfessorDepartment of Computer ScienceUniversity of California, Irvine
+
+Deep Architectures and Deep LearningDeep architectures are important for machine learning, for engineering applications, and for understanding the brain. In this talk we will provide a brief historical overview of deep architectures from their 1950s origins to today. Motivated by this overview, we will study and prove several theorems regarding deep architectures and one of their main ingredients–autoencoder circuits–in particular in the unrestricted Boolean and unrestricted probabilistic cases. We will show how these analyses lead to a new general family of learning algorithms for deep architectures–the deep target (DT) algorithms. The DT approach converts the problem of learning a deep architecture into the problem of learning many shallow architectures by providing learning targets for the deep layers. Finally, we will present simulation results and applications of deep architectures and DT algorithms to protein structure prediction.
+
+
+  
+
+
+November 5Bren Hall 40111 pm
+
+
+Daniel WhitesonAssociate ProfessorDepartment of Physics and AstronomyUniversity of California, Irvine
+
+Searching for the Higgs Boson and Beyond with Machine Learning ToolsHigh-energy physicists try to decompose matter into its most fundamental pieces by colliding particles at extreme energies. But to extract clues about the structure of matter from these collisions is not a trivial task, due to the incomplete data we can gather regarding the collisions, the subtlety of the signals we seek and the large rate and high dimensionality of the data. These challenges are not unique to high energy physics, and there is the potential for great progress in collaboration between high energy physicists and machine learning experts. I will describe the nature of the physics problem, the challenges we face in analyzing the data, the previous successes and failures of some ML techniques, and the open challenges.
+
+
+  
+
+
+November 12 (no seminar)
+
+
+Veterans Day
+
+
+
+  
+
+
+November 16Bren Hall 40111 pm
+
+
+John FisherPrinicipal Research ScientistCSAILMIT
+
+Information Gathering Under Resource Constraints: Greed is GoodIn many distributed sensing problems, resource constraints preclude the utilization of all sensing assets. By way of example, inference in distributed sensor networks presents a fundamental trade-off between the utility in a distributed set of measurements versus the resources expended to acquire them, fuse them into a model of uncertainty, and then transmit the resulting model. Active approaches seek to manage sensing resources so as to maximize a utility function while incorporating constraints on resource expenditures. Such approaches are complicated by several factors. Firstly, the complexity of sensor planning is typically exponential in both the number of sensing actions and the planning time horizon. Consequently, optimal planning methods are intractable excepting for very small scale problems. Secondly, the choice of utility function may vary over time and across users. Approximate approaches (c.f. [Zhao et al., 2002, Kreucher et al., 2005]) have been proposed that treat a subset of these issues; however, the approaches are indirect and do not scale to large problems. In this presentation, I will discuss the use of information measures for resource allocation in distributed sensing systems. Such measures are appealing due to a variety of useful properties. For example, recent results of [Nguyen et al., 2009] link a class of information measures to surrogate risk functions and their associated bounds on excess risk [Bartlett et al., 2003]. Consequently, these measures are suitable proxies for a wide variety of risk functions. I will discuss a method [Williams et al., 2007a] which enables long time-horizon sensor planning in the context of state estimation with a distributed sensor network. The approach integrates the value of information discounted by resource expenditures over a rolling time horizon. Simulation results demonstrate that the resulting algorithm can provide similar estimation performance to that of greedy and myopic methods for a fraction of the resource expenditures. Furthermore, recently developed methods [Fisher III et al., 2009] have been shown to be useful for estimating these quantities in complex signal models. Finally, one consequence of this algorithmic development are new fundamental performance bounds for information gathering systems [Williams et al., 2007b] which show that, under mild assumptions, optimal (though intractable) planning schemes can yield no better than twice the performance of greedy methods for certain choices of information measures. The bound can be shown to be sharp. Additional on-line computable bounds, often tighter in practice, are presented as well.
+This is joint work with Georgios Papachristoudous, Jason L. Williams, & Michael Siracusa.
+Bio
+John Fisher is Principal Research Scientist at the MIT Computer Science and Artificial Intelligence Laboratory. His research focuses on information-theoretic approaches to machine learning, computer vision, and signal processing. Application areas include signal-level approaches to multi-modal data fusion, signal and image processing in sensor networks, distributed inference under resource constraints, resource management in sensor networks, and analysis of seismic and radar images. In collaboration with the Surgical Planning Lab at Brigham and Women’s Hospital, he is developing nonparametric approaches to image registration and functional imaging.
+He received a BS and MS in Electrical Engineering at the Univsersity of Florida in 1987 and 1989, respectively. He earned a PhD in Electrical and Computer Engineering in 1997.
+
+
+  
+
+
+November 19Bren Hall 40111 pm
+
+
+Lise GetoorAssociate ProfessorDepartment of Computer ScienceUniversity of Maryland, College Park
+
+Statistical Relational Learning and Graph IdentificationWithin the machine learning community, there is a growing interest in learning structured models from input data that is itself structured, an area often referred to as statistical relational learning (SRL). I’ll begin with a brief overview of SRL, and discuss its relation to network analysis, extraction, and alignment.   I’ll then describe our recent work on graph identification.   Graph identification is the process of transforming an observed input network into an inferred output graph.  It involves cleaning the data — inferring missing information and correcting mistakes – and is an important first step before any further network analysis is performed.   It requires a combination of entity resolution, link prediction, and collective classification techniques.  I will overview two approaches to graph identification: 1) coupled conditional classifiers (C^3), and 2) probabilistic soft logic (PSL).  I will describe their mathematical foundations, learning and inference algorithms, and empirical evaluation, showing their power in terms of both accuracy and scalability.   I will conclude by highlighting connections to privacy in social network data and other current big data challenges. 
+Bio
+ Lise Getoor is an Associate Professor in the Computer Science Department at the University of Maryland, College Park and University of Maryland Institute for Advanced Computer Studies.  Her research areas include machine learning, and reasoning under uncertainty; in addition she works in data management, visual analytics and social network analysis. She is a board member of the International Machine Learning Society, a former Machine Learning Journal Action Editor, Associate Editor for the ACM Transactions of Knowledge Discovery from Data, JAIR Associate Editor, and she has served on the AAAI Council. She was conference co-chair for ICML 2011, and has served on the PC of many conferences including the senior PC for AAAI, ICML, KDD, UAI and the PC of SIGMOD, VLDB, and WWW. She is a recipient of an NSF Career Award and was awarded a National Physical Sciences Consortium Fellowship. Her work has been funded by ARO, DARPA, IARPA, Google, jIBM, LLNL, Microsoft, NGA, NSF, Yahoo! and others.   She received her PhD from Stanford University, her Master’s degree from University of California, Berkeley, and her undergraduate degree from University of California, Santa Barbara.
+
+
+  
+
+
+November 26Bren Hall 40111 pm
+
+
+Shiwei LanGraduate StudentDepartment of StatisticsUniversity of California, Irvine
+
+Lagrangian Dynamical Monte CarloHamiltonian Monte Carlo (HMC) improves the computational efficiency of the Metropolis algorithm by reducing its random walk behavior. Riemannian Manifold HMC (RMHMC) further improves HMC’s performance by exploiting the geometric properties of the parameter space. However, the geometric integrator used for RMHMC involves implicit equations that require costly numerical analysis (e.g., fixed-point iteration). In some cases, the computational overhead for solving implicit equations undermines RMHMC’s benefits. To avoid this problem, we propose an explicit geometric integrator that replaces the momentum variable in RMHMC by velocity. We show that the resulting transformation is equivalent to transforming Riemannian Hamilton dynamics to Lagrangian dynamics. Experimental results show that our method improves RMHMC’s overall computational efficiency. All computer programs and data sets are available online (this http URL) in order to allow replications of the results reported in this paper.
+Link to arXiv: http://arxiv.org/abs/1211.3759
+
+
+  
+
+
+November 30Bren Hall 40111 pm
+
+
+Scott SannerSenior ResearcherMachine Learning GroupNICTA
+
+Data Structures for Efficient Inference and Optimization in Expressive Continuous DomainsTo date, our ability to perform exact closed-form inference or optimization with continuous variables is largely limited to special well-behaved cases.  This talk argues that with an appropriate representation and data structure, we can vastly expand the class of models for which we can perform exact, closed-form inference.
+This talk is in two parts.  In the first part, I introduce an extension of the algebraic decision diagram (ADD) to continuous variables — termed the extended ADD (XADD) — to represent arbitrary piecewise functions over discrete and continuous variables and show how to efficiently compute elementary arithmetic operations, integrals, and maximization for these functions.  In the second part, I briefly cover a wide range of novel applications where the XADD may be applied: (a) exact inference in expressive discrete and continuous variable graphical models, (b) factored, parameterized linear and quadratic optimization, (c) exact solutions to piecewise convex functions that enable a number of novel applications in machine learning, and (d) exact solutions to continuous state, action, and observation sequential decision-making problems — which includes closed-form exact solutions to previously unsolved problems in operations research.
+Acknowledgments: This is joint work with Zahra Zamani & Ehsan Abbasnejad (Australian National University), Karina Valdivia Delgado & Leliane Nunes de Barros (University of Sao Paulo), and Simon Fang (M.I.T.).
+Quick Speaker Bio: Scott Sanner is a Senior Researcher in the Machine Learning Group at NICTA Canberra and an Adjunct Fellow at the Australian National University, having joined both in 2007.  Scott earned a PhD from the University of Toronto, an MS degree from Stanford, and a double BS degree from Carnegie Mellon.  Scott’s research interests span decision-making applications ranging over AI, Machine Learning, and Information Retrieval.  For more information, please visit: http://users.cecs.anu.edu.au/~ssanner/
+
+
+  
+
+
+December 3Bren Hall 40111 pm
+
+
+Francesco BonchiSenior Research ScientistYahoo! Research Barcelona
+
+Mining Progagation Data (in Social Networks)With the success of online social networks and microblogging platforms such as Facebook, Flickr and Twitter, the phenomenon of influence-driven propagations, has recently attracted the interest of computer scientists, information technologists, and marketing specialists.
+In this talk we take a data mining perspective and we discuss what (and how) can be learned from a social network and a database of traces of past propagations over the social network. Starting from one of the key problems in this area, i.e.  the identification of influential users, by targeting whom certain desirable marketing outcomes can be achieved, we provide an overview of some recent progresses in this area and discuss some open problems.
+
+
+  
+
+
+December 10Bren Hall 40111 pm
+
+
+George PapandreouPostdoctoral Research ScholarDepartment of StatisticsUniversity of California, Los Angeles
+
+Random Sampling and Optimization in Probabilistic Modeling for Computer VisionMachine learning plays an increasingly important role in computer vision, allowing us to build complex vision systems that better capture the properties of images. Probabilistic Bayesian methods such as Markov random fields are well suited for describing ambiguous images and videos, providing us with the natural conceptual framework for representing the uncertainty in interpreting them and automatically learning model parameters from training data. However, Bayesian techniques pose significant computational challenges in computer vision applications and alternative deterministic energy minimization techniques are often preferred in practice.
+I will present a new computationally efficient probabilistic random field model, which can be best described as a “Perturb-and-MAP” generative process: We obtain a random sample from the whole field at once by first injecting noise into the system’s energy function, then solving an optimization problem to find the least energy configuration of the perturbed system. With Perturb-and-MAP random fields we thus turn powerful deterministic energy minimization methods into efficient probabilistic random sampling algorithms that bypass costly Markov-chain Monte-Carlo (MCMC) and can generate in a fraction of a second independent random samples from mega-pixel sized images. I will discuss how the Perturb-and-MAP model relates to the standard Gibbs MRF and how it can be used in conjunction with other approximate Bayesian computation techniques. I will illustrate these ideas with applications in image inpainting and deblurring, image segmentation, and scene labeling, showing how the Perturb-and-MAP model makes large-scale Bayesian inference computationally tractable for challenging computer vision problems.
+Speaker Bio:
+George Papandreou holds a Diploma (2003) and a Ph.D. (2009) in electrical and computer engineering from the National Technical University of Athens, Greece.
+Since 2009 he has been a postdoctoral research scholar at the University of California, Los Angeles. His research interests are in probabilistic machine learning, computer vision, and multimodal perception. He approaches these problems with methods from Bayesian statistics, signal processing, and applied mathematics.
+
+
+
+
+
+September 1, 2012
+
+
+
+Posts navigation
+
+Newer posts ›
+
+
+
+
+
+ 
+Search
+
+
+
+ 
+
+
+(c) 2015 Center for Machine Learning and Intelligent Systems
+
+WordPress/BonPress
+
+
+
+
+
+

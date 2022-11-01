@@ -1,0 +1,67 @@
+http://www.ics.uci.edu/Arcadia/Teamware/tags/tags.html
+
+
+Tags Overview
+
+
+
+
+
+
+
+
+What is Tags?
+Tags is a WWW interface generator for providing a non-technical view
+of a process program, where the control flow of the process is hidden.
+Tags webs are generated from a
+
+Teamware Activity Network.
+A process programmer builds an Activity Network
+by explicity identifying the steps, iterations, choices,
+assignments, and workflow of a given process.  
+Once the process is specified, the WWW interfaces can be 
+generated.  With this information
+an end-user can be guided through complex processes with a minimal 
+amount of techical expertise.
+
+How do I use it?
+
+Using Tags is simple.  If you are a process programmer, you simply
+edit a 
+
+Teamware Activity Network and then run the 'tags' tool.  Once the
+pages are generated, you can edit the pages using an HTML Editor
+(like 
+Java 
+applets to it (including communication to Teamware services). 
+If you are a end-user, simply start at the top level WWW page,
+and let your mouse do the surfing.  At any page, you can check
+off an activity as being completed, bring up tools as you need
+them, download and use documents at the click of a link, and
+refer to information that's relevant to accomplishing
+your work. All pages have the toolbar
+below, to allow you to 
+
+traverse the steps and view your work within the context of the process.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Information and Computer Science
+University of California, Irvine
+Irvine, CA 92717-3425
+
+

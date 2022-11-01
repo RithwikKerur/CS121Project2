@@ -1,0 +1,121 @@
+http://cradl.ics.uci.edu/?page_id=83
+
+
+
+
+
+Erik Trainer, PhD | CRADL Lab
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+News
+People
+Projects
+Publications
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Erik Trainer, PhD
+
+
+ Full profile
+
+
+
+
+
+
+Erik Trainer, PhD Candidate
+ Projects: VOSS trust project
+ Website
+ Research areas: awareness, coordination, trust, socio-technical visualization, distributed teams
+
+
+ Erik Trainer, PhD Candidate
+B.S., Computer Science, UCI Irvine
+Master’s, Informatics-Software, UC Irvine
+PhD, Informatics-Software, UC IrvineErik Trainer is an Informatics-Software PhD Candidate under the supervision of Prof. David Redmiles in the Donald Bren School of Information and Computer Sciences at UC Irvine. He also did his undergraduate work at UC Irvine, receiving a B.S. in Information and Computer Science in 2005 and a Master’s degree in 2008. His research areas of interest include awareness, coordination, visualization, and trust. He is heavily involved in the VOSS trust project, led by Ban Al-Ani.At a high level, Erik’s dissertation work involves exploring the design space of tools that can support different aspects of trust in distributed software projects. Trust can be defined as the belief one has about the positive expectations of others. Within this perspective, *affective* trust can be defined as expectations about others’ care and concerns–the extra effort people spend to smoothly coordinate with others. People do a lot of human-intensive work to calibrate their expectations of their remote colleagues’ availability and willingness to respond especially as a new project begins, such as traversing personal networks of colleagues who they already trust for referrals. Traversing these networks can be seen as a process of dialogue and revelation of shared experience. Theseus is a research tool that aims to support this process by allowing individuals to incrementally explore and share these connections with colleagues they already trust through visualizations that convey a sense of availability and willingness to help.
+The process of uncovering these connections can be supported with an understanding of collaborative traces, artifacts of the development process and characteristics of the organization in question. In theory, these traces should be representative of real world development projects and organizations. Development artifacts such as source-code, work items, and bugs and their management have been well-studied in software engineering. Practically, however, it is not very well understood by the research community what collaborative traces look like for organizations of various sizes, configurations, and chains of command. To this end Erik is also working on characterizing properties of software projects and the organizations in which they are built. These characterizations can be thought of as parameters that are input into a simulator which generates collaborative traces and and, in effect, a testbed for the visualizations provided by Theseus. Erik plans to publish the simulator as open-source after he completes his dissertation. He anticipates that other researchers studying collaboration in software development will find it useful.
+Before he was interested in aspects of trust, Erik worked with Stephen Quirk, David Redmiles and Cleidson de Souza on the Ariadne project, a Java-based plug-in to the Eclipse IDE that visualizes the social networks derived from socio-technical dependencies that emerge in a software program’s call-graph. Ariadne shows who depends on who based on the source-code they call and can be used to answer questions observed in real-world development situations such as “Have two people begun integrating their code?” “Who else can I ask about problems using this source-code” and “Who developers the interface that this piece of code implements?”
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+News
+
+
+SuCSES is coming!
+
+
+Site Tools
+
+Log in
+Entries feed
+Comments feed
+WordPress.org
+
+ 
+
+
+CRADL receives funding from the National Science Foundation under grants 0943262, 0808783, and 1111446.
+ 
+Department of Informatics | Donald Bren School of Information and Computer SciencesBren Hall 5042 | University of California, Irvine | Irvine, CA 92697-3440cradl_info@ics.uci.edu
+ 
+Powered by WordPress | Theme: Yoko by Elmastudio | Header image: E. Howe
+Top
+
+
+
+

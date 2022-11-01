@@ -1,0 +1,142 @@
+https://www.cs.uci.edu/uci-takes-fourth-place-in-first-appearance-at-embedded-capture-the-flag-competition
+
+
+
+
+UCI Takes Fourth Place in First Appearance at Embedded Capture the Flag Competition 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ this is a widget called second front page widget area
+
+Explore
+
+Contact Us
+
+
+Faculty
+Research
+
+Research Areas
+Research Centers
+
+
+Graduate Degrees
+
+Computer Science Programs
+Current Graduate Students
+
+
+Undergraduate Degrees
+News  & Events
+
+News
+Seminar Series
+Distinguished Lecture Series
+Research Showcase
+
+
+Apply Now
+
+Undergraduate Admissions
+Graduate Admissions
+Faculty Candidates
+
+
+UCI Takes Fourth Place in First Appearance at Embedded Capture the Flag Competition
+June 26, 2022 
+This year, for the first time, a team of students from UCI’s Donald Bren School of Information and Computer Sciences (ICS) entered the MITRE Embedded Capture the Flag (eCTF) competition, going against 31 other teams. Led by Computer Science Professor Ian Harris, the students participated in the attack-and-defend exercise from January to April 2022, learning how to better design secure embedded systems and placing fourth overall.
+“From my perspective, that is outstanding given the fact that this was our first time competing,” says Harris. “Now that we understand the process, I expect that we will do much better next year.”
+
+Designing Secure Systems and Learning Attack TechniquesThe contest had two phases: design and attack. During the first phase, the ICS students designed and implemented a secure bootloader for an embedded avionics controller. “We did very well during the design phase,” says Harris. “Our design was the first working design, and the team did a good job implementing a variety of defense mechanisms.”
+They struggled more during the second phase, as they attacked the bootloaders built by the other teams. “Successful attacking requires skills that are generally not taught in classes, including the ability to reverse-engineer a program executable,” explains Harris. “Students learned to use encryption, hashing, digital signatures and authentication protocols. Many of the team members had already been exposed to these concepts in classes, but their partition in the competition crystalized their understanding by forcing them to apply their knowledge in a practical application.”
+The team members were senior computer science majors Jalen Chuang, William Jeon and Zhuoyi Yang; senior computer science and engineering major Jacob Huang; senior data science major Jeein Kim; computer science master’s students Lucas Chang and Chenhan Lyu; and computer science Ph.D. student Kush Dave.
+Yang says she learned about several methods for securing a bootloader, including strategies for ensuring confidentiality and authenticity, and she learned about hardware Trojans. “We used symmetric encryption [and] firmware versioning and read-back authentication,” she says, stressing how the competition taught her the importance of starting early and breaking down tasks. “Debugging takes much longer than we expected. It is important to start thinking about what we want to do ahead of time so we can have more time to revise the code when we realize we made a mistake,” she explained. “Confidence is also one crucial quality in programming. The task looked scary at first glance, but after we broke it down piece by piece, it was much less intimidating and we were finally able to finish it.”
+Prepping for Next YearHarris says that the main takeaway from the competition is that more training is needed during the fall quarter before the competition begins. The team trained last year, but he says it wasn’t enough. “Specifically, we need to spend more time on attack techniques, which are used against embedded systems. Some of these are traditional attack approaches, such as fuzz testing and binary analysis to identify buffer overflows. In addition, we need to look at embedded system/hardware-specific attacks, including power and timing side-channel analysis and the use of PCB debugging tools.”
+Kush Dave, who joined the team to explore how to make this kind of training scalable, agrees. His Ph.D. research is being funded in part by the U.S. Department of Energy through a subaward to UCI from the Cybersecurity Manufacturing Innovation Institute (CyManII) at the University of Texas at San Antonio, and the focus of the project is on training.
+“Overall, I am extremely proud and very satisfied with what our team achieved,” says Dave, “and I believe that if we start early next year — even before the competition kicks off — we’ll be able to bridge the gap and learn the skills necessary to achieve the goals in the attack phase as well.” His advice for next year’s team is to start early and ask a lot of questions; treat shortcomings as opportunities to learn rather than setbacks; and plan out the design and allot a fixed schedule. “Try to complete the said tasks in the given time frame to leave time for other phases of the competition,” he suggests.
+The team is sponsored by UCI’s Cybersecurity Policy & Research Institute (CPRI), which provides a space on campus as well as hardware for training. “CPRI continues to be proud of this team,” says CPRI Executive Director Bryan Cunningham, “and will continue to provide support for their continued success and advancement of the invaluable skills our students are developing.”
+Any students interested in joining the 2023 competition should contact Harris at harris@ics.uci.edu. “We will definitely compete next year,” he says. “I am already planning the training for Fall 2022.”
+— Shani Murray
+« 2022 Butterworth Product Development Competition: Back in Full Swing!ICS Project Expo Strengthens Industry Engagement and Showcases Student Talent »
+
+Latest news
+
+
+Senior Spotlight: Tennis Player and CS Major Matthew Sah Serves Up Aces On and Off the Court
+September 28, 2022
+
+
+Register Today for the Southern California AI & Biomedicine Symposium
+September 20, 2022
+
+
+CPO Magazine: “A Legal View of New NIST Quantum-Resistant Algorithms” by Bryan Cunningham
+September 19, 2022
+
+
+UCI Ranked 24th in Undergraduate Computer Science Programs by U.S. News & World Report
+September 16, 2022
+
+
+Senior Spotlight: Jose Cisneros Builds Impressive Resume with Trio of Internships
+September 15, 2022
+
+
+
+
+ 
+
+
+
+
+
+© 2022 UC Regents
+Feedback
+Privacy Policy
+
+
+
+ 
+
+
+
+

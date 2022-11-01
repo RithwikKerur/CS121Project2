@@ -1,0 +1,84 @@
+http://www.ics.uci.edu/~ziv/diss/abstractpaper/abstractpaper.html
+
+
+
+
+No Title
+
+
+
+
+
+
+
+   
+ Next: References
+ 
+Software development in practice is still human intensive,
+involving human error, human judgment and subjective
+assessment.  The outcome is often uncertain and
+unpredictable and, along with uncertainty in natural
+phenomena, inevitably leads to software risks and
+uncertainties.  Despite the pervasiveness of human
+involvement, surprisingly few techniques exist that
+model related software uncertainties explicitly.
+This dissertation begins to remedy
+this situation by presenting the Maxim of Uncertainty
+in Software Engineering, stating that ``Uncertainty
+is inherent and inevitable in software processes and
+products,'' and, as corollary, urging that software
+uncertainties be modeled explicitly.
+
+Ideally, an uncertainty modeling
+technique should include probabilistic notions of
+uncertainty and confidence, support multiple factors
+of influence, and allow dynamic updating of uncertainty
+values during development.  Here, we claim that
+Bayesian Belief Networks meet these desiderata and
+are therefore suitable for software uncertainty modeling.
+
+We are specifically interested in software traceability
+and how it may be improved through notions of judgment,
+confidence, belief, evidence, and causal influence.
+To this end, we posit a research hypothesis, stating that
+software uncertainty modeling, specifically Bayesian
+network modeling of developers' confidence levels,
+allows improved traceability of software artifacts and
+relations.
+
+This requires that Bayesian network models of confidence
+levels be constructed.  We describe how, given a system
+of interrelated software artifacts, an isomorphic Bayesian
+network is constructed.  The structure and belief values
+in this network are later revised and refined as the
+network is validated against project data and developer
+judgment.
+
+For validation, we studied the artifacts and relations
+of a system being developed at Beckman Instruments.
+Bayesian networks were constructed to capture and confirm developers'
+confidences in software artifacts and relationships.
+An example scenario of confidence fluctuation was used
+to study developers' ability to trace and track artifacts
+and associated confidences with and without the Bayesian
+information.  The study showed that improvement in developer
+scores was, as hypothesized, achieved with statistical
+significance.
+Additional contributions include a prototype implementation
+of a Java applet for software belief networks and a 
+collection of confidence factors that may influence
+levels of developer confidence in software requirements.
+
+ 
+
+ References
+   About this document ... 
+
+   
+ Next: References
+
+Hadar Ziv 
+Fri Jun 20 16:27:13 PDT 1997
+
+
+

@@ -1,0 +1,107 @@
+http://seal.ics.uci.edu/projects/letterbomb
+
+
+
+SEAL - LetterBomb
+
+
+
+
+
+
+
+
+
+
+
+LetterBomb: Automatic Generation of Inter-Component Communication Exploits for Android Applications
+
+Although a wide variety of approaches identify vulnerabilities in
+Android apps, none attempt to determine exploitability of those
+vulnerabilities. Exploitability can aid in reducing false positives of
+vulnerability analysis, and can help engineers triage
+bugs. Specifically, one of the main attack vectors of Android apps is
+their inter-component communication (ICC) interface, where apps may
+receive messages called Intents. In this paper, we provide the first
+approach for automatically generating exploits for Android apps,
+called LetterBomb, relying on a combined path-sensitive symbolic
+execution-based static analysis, and the use of software
+instrumentation and test oracles. We run LetterBomb on 10,000 Android
+apps from Google Play, where we identify 181 exploits from 835
+vulnerable apps. Compared to a state-of-the-art detection approach for
+three ICC-based vulnerabilities, LetterBomb obtains 33%-60% more
+vulnerabilities at a 6.66 to 7 times faster speed.
+
+Approach Overview
+
+
+To automatically generate exploits for Android apps, LetterBomb (1)
+models the Android framework, especially the ICC interface of Android
+apps; (2) provides test input generation, whose goal is to construct
+an ICC input that actually exploits a vulnerability; and (3) includes
+software test oracles that determine if a test input successfully
+exploits a particular vulnerability type. Specifically, we focus on
+three types of vulnerabilities---inter-process denial of service,
+cross application scripting, and Fragment injection---where each
+vulnerability corresponds to a single oracle type. Each oracle is
+realized as a combination of instrumentation at either the app or
+framework level, and the check of a property to determine if
+exploitation was successful. As a result, even though each
+vulnerability requires an oracle designed specifically for it,
+construction of each oracle only needs to be performed once, either as
+an algorithm that automatically instruments an app, or a one-time
+modification to the Android framework. Thereafter, the oracle may be
+continually reused.
+
+
+Given that test input generation is critical for AEG at the ICC
+interface of Android apps and their constituent components, LetterBomb
+relies upon a path-sensitive analysis of Android apps along the
+message-based Android ICC interface, i.e., Intents. Determining
+exploitability of a vulnerability at a particular statement is
+dependent on assessing the different program paths that may reach a
+statement. Certain paths may reach a statement without exploiting the
+vulnerability residing at that statement---or there may be more than
+one path in a program that may exploit a vulnerable program
+statement. As a result, it is important for our analysis to be
+path-sensitive to minimize the possibility of missing exploitable
+vulnerabilities. At the same time, path-sensitive analyses face the
+problem of path explosion, as the program grows, due to the
+potentially exponential number of program paths to be analyzed. To
+address this problem, our approach analyzes program paths beginning
+from the points in the program that may be vulnerable, and utilizes
+information about the Android framework to reduce the
+information that needs to be considered for the analysis.
+
+Implementation
+
+LetterBomb generates exploits for vulnerabilities in Android apps and
+thus can be readily used for malicious purposes. To ensure that
+LetterBomb does not fall into the hands of a malicious agent, access
+to an implementation of LetterBomb can be obtained by
+contacting Joshua Garcia
+and Mahmoud Hammad. In your email
+message, please use an email address of your organization (e.g., a
+university or company email address). If you are a student, please CC
+the principal investigator (i.e., professor or researcher) you are
+working with, and include in the message any links to websites that
+can help confirm your affiliation (e.g., your research website).
+
+Publications
+
+Automatic Generation of Inter-Component Communication Exploits for Android Applications 
+    Joshua Garcia, Mahmoud Hammad, Negar Ghorbani, and Sam Malek
+11th joint meeting of the European Software Engineering Conference and ACM SIGSOFT Symposium on the Foundations of Software Engineering (ESEC/FSE 2017), Paderborn, Germany, September 2017.
+[PDF]
+    
+
+
+
+
+
+
+
+
+
+
+

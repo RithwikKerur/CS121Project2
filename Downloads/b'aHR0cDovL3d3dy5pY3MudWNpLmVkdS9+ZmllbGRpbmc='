@@ -1,0 +1,225 @@
+http://www.ics.uci.edu/~fielding
+
+Roy T. Fielding
+
+
+
+
+
+
+
+
+Roy T. Fielding
+Chief Scientist,
+Day Software
+Co-founder and member,
+The Apache Software Foundation
+Ph.D.,
+Information and Computer Science,
+UC Irvine
+
+E-Mail: fielding@gbiv.com, roy.fielding@day.com, fielding@apache.org
+Office: Irvine, California, Fax: +1 (949) 679-2972
+Meet me at ApacheCon
+The personal website of Roy T. Fielding
+
+
+
+
+
+
+
+Research Projects
+I finished my doctorate within the
+Software Research Group here
+at UCI.  Much of my work was done
+under the auspices of the Hyperware project
+and collaborations with industry as part of the
+Institute for Software Research.
+My research interests include
+global software engineering environments,
+software design, software architecture for network-based applications,
+and application-level protocol design.
+Richard N. Taylor was my advisor and dissertation
+committee chair.
+
+I have been actively involved in the World Wide Web project since
+1993.  I set up the original UCI-ICS
+WWW server and created several WWW software
+packages,
+and in early 1994 became involved in the effort to specify and improve the WWW
+infrastructure through the IETF working
+groups on URI, HTTP,
+and HTML
+(the set of protocols that were used to retrieve and view this document).
+
+I also co-founded the Apache
+HTTP Server Project and on the board of directors of
+The Apache Software Foundation.
+We created the Apache HTTP server that currently dominates the general-purpose
+server market with over 60% of
+the public
+Internet websites using our software.  Apache is my favorite example of
+the power of global collaboration for the creation of software.
+
+My dissertation,
+Architectural Styles and
+the Design of Network-based Software Architectures, focused on
+the rationale behind the design of the modern Web architecture and how it
+differs from other architectural styles.
+
+
+
+Papers, Talks, and Specs
+
+Curriculum Vitae and Publications
+Presentations and Slides
+Uniform Resource Identifiers (URI):
+Generic
+    Syntax (RFC 2396) and
+    Relative URL
+    (RFC 1808)
+Hypertext Transfer Protocol (HTTP):
+
+    HTTP/1.1 (RFC 2616
+   [pdf, 
+    html], 
+    RFC 2145, and
+    RFC 2068) and
+    HTTP/1.0 (RFC 1945)
+Internet Engineering Taskforce (IETF) Web-related Archives
+  
+URI Working Group
+HTTP Working Group
+HTML Working Group
+WebDAV Working Group
+
+
+Open-Source Software
+
+Apache
+The best general-purpose HTTP server that money can't buy.
+
+libwww-ada95
+A library of Ada95 packages that provides a start for a simple
+    programming interface to the World Wide Web.  Unfortunately, we only
+    had the time and resources to finish the first part: the
+    Onions network streams library.
+
+libwww-perl
+A library of Perl4 packages which provides a simple and consistent
+    programming interface to the World Wide Web.  This library is being
+    developed as a collaborative effort to assist the further development
+    of useful WWW clients and tools.
+
+MOMspider
+A web robot for providing multi-owner maintenance of 
+    distributed hypertext infostructures.
+
+wwwstat
+A package for analyzing httpd server access logs and providing
+    summary statistics in HTML format.
+
+
+
+
+
+Life Story
+
+What, you're still reading this?  According to most hypertext research,
+you should have become bored by now and moved on to to another page.
+Well, this is for those who are extra curious (or just have nothing better
+to do).
+
+My background is a bit odd: I was conceived in 
+New Zealand and born in
+South Laguna,
+California. 
+Although most of my schooling has been in the U.S., I was taught how
+to read during a school term in 
+Auckland.
+My 
+father is an emeritus professor in 
+Social Sciences here at UC Irvine,
+which is why I have been raised a Yank.  I was born in September 1965,
+during the first week of classes of the year UCI was established, so you
+might say that the two of us grew up together (except for the three years
+I spent studying Physics and International Politics at
+Reed College).  I am part 
+Maori,
+Kiwi,
+Yank, Irish, Scottish, British, and California beach bum.  Like I
+said, a bit odd.
+
+
+Most of the rest can be seen in my vita.
+
+I was a Visiting Scholar at MIT/LCS during the summer of 1995, working with
+Tim Berners-Lee and the World Wide Web
+Consortium (W3C).  You can also see my
+W3C Home.
+
+
+I was
+named by MIT Technology Review
+as one of the
+TR100: The top 100 young innovators
+for 1999. "The 100 young visionaries who our editors and a distinguished
+Panel of Judges feel have the greatest potential for technological innovation
+in the 21st century."  Gee, no pressure there.
+
+The Association of Computing Machinery
+recently awarded the 1999
+ACM Software System Award to The Apache Group for the Apache HTTP Server.
+I talked a bit about that honor in
+an
+interview with LinuxWorld.
+
+On a more local note, I was named by the UCI Alumni Association as the
+Outstanding Graduate Student of 2000.
+
+Other Interests
+
+I like playing games -- especially non-betting card games (Bridge,
+Hearts, etc.) and obscure board games (british rails, naval war, etc.).
+I also like playing basketball, softball, football and going fishing.
+Mind you, I haven't had time to do any of these things since I started
+messing with the Web.
+
+Quotations
+
+      What is life?  It is the flash of a firefly in the night.
+      It is the breath of a buffalo in the wintertime.
+      It is the little shadow which runs across the grass
+      and loses itself in the sunset.
+--- Crowfoot's last words (1890), Blackfoot warrior and orator.
+
+
+
+      To most readers it will be easy, after reading this tale, to accept
+      Rover's theory that Man is set up deliberately as the antithesis of
+      everything the Dogs stand for, a sort of mythical straw-man, a
+      sociological fable.
+
+      This is underlined by the recurring evidence of Man's aimlessness,
+      his constant running hither and yon, his grasping at a way of life
+      which constantly eludes him, possibly because he never knows exactly
+      what he wants.
+--- Clifford D. Simak, "City" [Notes on the Fifth Tale], 1952.
+
+
+
+    Life is a distributed object system.  However, communication among
+    humans is a distributed hypermedia system, where the mind's intellect,
+    voice+gestures, eyes+ears, and imagination are all components.
+--- Roy T. Fielding, 1998.
+
+
+
+Information and Computer Science,
+University of California, Irvine
+CA 92697-3425
+
+Last modified: 08 Dec 2003
+
+

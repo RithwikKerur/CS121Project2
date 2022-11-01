@@ -1,0 +1,135 @@
+https://www.stat.uci.edu/beyond-the-t-test-uci-professors-publish-new-statistical-guidance-for-neuroscience-research
+
+
+
+
+Beyond the T-Test: UCI Professors Publish New Statistical Guidance for Neuroscience Research 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Department of Statistics - Donald Bren School of Information & Computer SciencesDepartment of Statistics - Donald Bren School of Information & Computer Sciences
+Explore
+
+Chair’s Welcome
+What is Statistics?
+Contact the Department
+Tutoring Resources
+
+
+Faculty
+
+Faculty Directory
+Job Opportunities
+
+
+Research
+Graduate Degrees
+
+M.S. & Ph.D. in Statistics
+Master of Data Science
+Current Course Listings
+Graduate Student Directory
+Internships & Employment Opportunities
+Employers of UCI Statistics Students
+
+
+Undergraduate Degrees
+
+B.S. in Data Science
+Minor in Statistics
+Current Course Listings
+
+
+News & Seminars
+
+News
+Seminars
+
+
+Center for Statistical Consulting
+Beyond the T-Test: UCI Professors Publish New Statistical Guidance for Neuroscience Research
+November 16, 2021 
+A multidisciplinary team of researchers from the University of California, Irvine has published a new guide for statistical analysis in neuroscience research. Faculty from the Donald Bren School of Information and Computer Sciences (ICS) and from the Center for Neural Circuit Mapping (CNCM) in the School of Medicine (SOM) collaborated on the paper, “Beyond T-Test and ANOVA: Applications of Mixed-Effects Models for More Rigorous Statistical Analysis in Neuroscience Research,” published Nov. 15, 2021 in Neuron. The paper provides a readable primer to neuroscience experimentalists who do not have extensive or up-to-date training in statistics.
+
+Zhaoxia Yu
+Michele Guindani
+The primer is the result of a partnership between ICS Professors Zhaoxia Yu and Michele Guindani of the Department of Statistics; UCI SOM faculty Xiangming Xu and Todd Holmes; and postdoctoral scholar Steve Grieco and graduate student Lujia Chen, who work in Xu’s lab. It was motivated by the statisticians observing a common statistical blunder in basic neuroscience: neurons from different animals are often naively pooled, assuming that the neurons are independent observations. Such errors have emerged as technical approaches have become much more powerful, and now very large data sets can be collected longitudinally.
+“Grieco came to me for help while struggling with how to deal statistically with multiple neurons in single animals,” explains Yu. “Later, I realized that neurons are routinely treated as independent observations in many published studies in high-impact journals, and I was quite astonished. This is not what we statisticians do — we always use the statistical methods that best match the underlying study design.” Later, Xu suggested writing a paper to promote the use of appropriate statistical methods in the area of basic neuroscience, where data are often clustered or collected with repeated measures, hence correlated.
+The most widely used methods — such as t-test (which is a type of inferential statistic used to assess the difference between the means of two groups) and analysis of variance (ANOVA, a collection of statistical models and their associated estimation procedures used to analyze the differences among means) —often do not take data dependence into account. They can thus be misused, leading potentially to inaccurate scientific conclusions.
+The paper provides an overview of linear and generalized linear mixed-effects models for improved statistical analysis in neuroscience research and clear instruction on how to recognize when these models are needed. It includes concrete data examples on how to properly use mixed-effects models and points to practice data sets on the CNCM website. The authors hope that their primer will contribute to better statistical practices in basic neuroscience research and will spur better communication between statisticians, data scientists and basic neuroscientists.
+“There is a whole new world of statistics beyond the t-test,” says Xu. “The paper illustrates how the proper use of mixed-effects models will lead to more rigorous analysis, reproducibility and richer conclusions. Our work also highlights increasingly interdisciplinary research collaborations at UCI.”
+— Shani Murray
+
+« Statistics Ph.D. Student Tianyu Pan Wins Two Competitive AwardsDisney Research Supports Stephan Mandt’s Work on Generative Modeling with $50,000 Gift »
+
+Latest News
+
+
+UCI’s Master of Data Science to Launch Part-Time Program in Fall 2023
+October 10, 2022
+
+
+New Faculty Spotlight: Statistics Professor Hengrui Cai Strives for Real-World Impact
+September 22, 2022
+
+
+SoCal Data Science Program Off to a Strong Start
+September 21, 2022
+
+
+Undergraduates Conduct Biostatistics Research at New Summer Institute at UCI
+September 13, 2022
+
+
+Professors Nan and Gillen Receive $1.8M Grant to Study Statistical Methods for Alzheimer’s Research
+August 29, 2022
+
+
+
+ News Archive
+
+
+ 
+
+
+
+
+
+© 2022 UC Regents
+Feedback
+Privacy Policy
+
+
+
+
+
+
+

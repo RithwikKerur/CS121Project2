@@ -1,0 +1,464 @@
+https://acoi.ics.uci.edu/seminars/stable-matching-voronoi-diagrams-combinatorial-complexity-and-algorithms
+
+
+
+
+
+
+Stable-Matching Voronoi Diagrams: Combinatorial Complexity and Algorithms – ACO Center @ UCI 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI  
+
+
+
+
+Algorithms, Combinatorics and Optimization 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Stable-Matching Voronoi Diagrams: Combinatorial Complexity and Algorithms
+Home>Seminars>Stable-Matching Voronoi Diagrams: Combinatorial Complexity and Algorithms
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Stable-Matching Voronoi Diagrams: Combinatorial Complexity and Algorithms 
+
+
+
+
+Date: December 6, 2018					
+
+
+
+
+
+Time: 2:00 pm					
+
+
+
+
+
+Room: DBH 4011					
+
+
+
+
+
+Speaker: Michael Goodrich 					
+
+
+
+
+
+				 (CS, UCI)					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: We study algorithms and combinatorial complexity bounds for
+stable-matching Voronoi diagrams, where a set, S, of n point sites in
+the plane determines a stable matching between the points in the plane
+and the sites in S such that (i) the points prefer sites closer to
+them and sites prefer points closer to them, and (ii) each site has a
+quota or “appetite” indicating the area of the set of points that can
+be matched to it. Thus, a stable-matching Voronoi diagram is a
+solution to the well-known post office problem with the added
+(realistic) constraint that each post office has a limit on the size
+of its jurisdiction. Previous work on the stable-matching Voronoi
+diagram provided existence and uniqueness proofs, but did not analyze
+its combinatorial or algorithmic complexity. In this paper, we study
+the combinatorial complexity of such structures. We also provide a
+discrete algorithm for constructing it in the real-RAM model of
+computation.
+Joint work with Gill Barequet, David Eppstein, and Nil Mamano
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI • Privacy Policy • © 2022 UC Regents 
+
+
+
+
+
+
+
+
+
+Close Menu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to content
+
+
+
+Open toolbar
+
+ 
+
+
+
+
+Accessibility Tools
+
+
+
+Increase Text 
+
+
+
+Decrease Text 
+
+
+
+Grayscale 
+
+
+
+High Contrast 
+
+
+
+Negative Contrast 
+
+
+
+Light Background 
+
+
+
+Links Underline 
+
+
+
+Readable Font 
+
+
+
+
+Reset
+
+
+
+
+
+
+

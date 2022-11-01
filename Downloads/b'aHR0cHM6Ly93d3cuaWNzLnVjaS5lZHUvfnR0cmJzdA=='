@@ -1,0 +1,65 @@
+https://www.ics.uci.edu/~ttrbst
+
+
+Thorben Tröbst
+
+
+
+
+
+Thorben Tröbst
+
+        I'm a third year PhD student at UC Irvine supervised by Vijay Vazirani.
+        My research interests are mainly combinatorial optimization and related disciplines as well as their applications to computational economics (market design, algorithmic game theory, etc.).
+        I also like to think about mathematical logic and formal verification of proofs and programs from time to time.
+        
+
+            Before coming to UCI, I completed a B.Sc. and M.Sc. in Mathematics at the University of Bonn, Germany.
+            There I was advised by Jens Vygen and Stephan Held and primarily worked on vehicle routing problems.
+            In particular, I contributed to the BonnTour / DDG vehicle routing solver which is being developed in collaboration with the Deutsche Post DHL Group.
+            I also did some work under Peter Koepke on formal mathematics.
+            My CV (last update: Feburary 27, 2021) can be found here.
+        
+
+Contact Information
+
+
+Email:
+[first initial].troebst@uci.edu
+
+
+Office:
+4099 Donald Bren Hall
+
+
+Publications
+
+Z. Huang and T. Tröbst. Online Matching in Online and Matching-Based Market Design, F. Echenique, Nicole Immorlica, and V. V. Vazirani (eds), Cambridge University Press, to appear in 2022
+        V. Traub and T. Tröbst. A Fast (2 + 2/7)-Approximation for Capacitated Cycle Covering, Mathematical Programming 2021
+        V. Traub and T. Tröbst. A Fast (2 + 2/7)-Approximation for Capacitated Cycle Covering (Conference Version), IPCO 2020
+        J. Garg, T. Tröbst, and V. V. Vazirani. An Arrow-Debreu Extension of the Hylland-Zeckhauser Scheme: Equilibrium Existence and Algorithms, to appear in AAMAS 2022
+    
+Preprints
+
+J. Blauth, S. Held, D. Müller, N. Schlomberg, V. Traub, T. Tröbst, and J. Vygen. Vehicle Routing with Time-Dependent Travel Times: Theory, Practice, and Benchmarks
+M. Mihail and T. Tröbst. Online Matching with High Probability
+I. Panageas, T. Tröbst, and V. V. Vazirani Combinatorial Algorithms for Matching Markets via Nash Bargaining: One-Sided, Two-Sided, and Non-Bipartite
+T. Tröbst and V. V. Vazirani. A Real Polynomial for Bipartite Graph Minimum Weight Perfect Matchings
+
+Theses
+
+T. Tröbst. Capacitated Vehicle Routing and Cycle Covering Problems, Master's Thesis, Research Institute for Discrete Mathematics, Bonn, 2019
+T. Tröbst. Vehicle Routing mit Subtouren und Zeitfenstern, Bachelors's Thesis, Research Institute for Discrete Mathematics, Bonn, 2017
+
+Talks
+
+Online Matching with High Probability, CS Theory Seminar, UC Irvine, January 2022
+Recent Advances in Online Matching: Edge-Weighted, CS Theory Seminar, UC Irvine, October 2021
+One-Sided Matching Markets with Endowments: Equilibria and Algorithms, Online and Matching-Based Market Design Workshop, Simons Institute, Berkeley, March 2021
+Fast Convergence in the Double Oral Auction, CS Theory Seminar, UC Irvine, January 2021
+Online Matching from an Economics Viewpoint, CS Theory Seminar, UC Irvine, October 2020
+Approximately Stable Committee Selection, CS Theory Seminar, UC Irvine, April 2020
+A Fast (2 + 2/7)-Approximation Algorithm for Capacitated Cycle Covering, IPCO 2020, London, UK, June 2020
+
+
+

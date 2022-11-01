@@ -1,0 +1,69 @@
+https://seal.ics.uci.edu
+
+
+
+SEAL - Home Page
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Home     
+        Members     
+        Publications     
+        Projects
+
+
+
+ Software Engineering and Analysis Lab (SEAL) 
+
+
+   This lab is broadly engaged in research to automate the software engineering activities, thereby improving the developer productivity as well as the quality of software. The director of the lab is  Prof. Sam Malek, a Professor in the Informatics Department within the School of Information and Computer Sciences at the University of California, Irvine.
+   
+   The underlying theme and long-term goal of this research lab is the development of techniques and tools that aid with the construction, analysis, and maintenance of large-scale dependable software systems. The inherent complexity of large-scale software systems has always posed a significant challenge to software practitioners. On top of this, emerging non-conventional computing domains (e.g., autonomic, embedded, pervasive, and mobile systems) present developers with a formidable set of new challenges.
+   The overarching hypothesis guiding this research lab is that it is possible to reduce the complexity of engineering dependable software by automating the cumbersome manual software engineering activities.
+   
+   In that context, the members of the lab to date have investigated a wide range of issues, which can be roughly categorized into three research thrusts:
+   
+
+
+           Software Architecture and Design – representations of a system's implementation, enabling developers to abstract away the unnecessary details and focus on the system's building blocks and properties.
+       
+
+           Autonomic Computing  – an increasingly important class of systems capable of automatically adjusting their behavior at runtime to deal with changes in the system's requirements and its execution environment.
+       
+
+           Mobile Computing – collectively refers to emerging forms of computing, including mobile, cyber-physical, and pervasive systems, that call for new software engineering techniques and tools to deal with increasingly difficult challenges, such as security and energy.
+       
+
+
+
+Recent Events
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

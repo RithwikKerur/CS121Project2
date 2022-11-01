@@ -1,0 +1,77 @@
+http://seal.ics.uci.edu/projects/revealdroid
+
+
+
+SEAL - Android Security Taxonomy
+
+
+
+
+
+
+
+
+
+
+
+
+RevealDroid: Lightweight, Obfuscation-Resilient Detection and Family Identification of Android Malware
+
+
+The number of malicious Android apps is increasing rapidly. Android malware can damage or alter other files or settings, install additional applications, etc. To determine such behaviors, a security analyst can significantly benefit from identifying the family to which an Android malware belongs, rather than only detecting if an app is malicious. Techniques for detecting Android malware, and determining their families, lack the ability to handle certain obfuscations that aim to thwart detection. Moreover, some prior techniques face scalability issues, preventing them from detecting malware in a timely manner.
+
+
+To address these challenges, we present a novel machine learning-based Android malware detection and family identification approach, RevealDroid, that operates without the need to perform complex program analyses or to extract large sets of features. Specifically, our selected features leverage categorized Android API usage, reflection-based features, and features from native binaries of apps. We assess RevealDroid for accuracy, efficiency, and obfuscation resilience using a large dataset consisting of more than 54,000 malicious and benign apps. Our experiments show that RevealDroid achieves an accuracy of 98% for detection of malware and an accuracy of 95% for determination of their families. We further demonstrate RevealDroidâs superiority against state-of-the-art approaches.
+
+
+To access RevealDroid source code, you'll need two projects RevealDroid legacy codeâwhich contains the package API extractor, native extraction code, and legacy code for handling Weka-based functionalityâand the android-reflection-analysis codeâwhich mostly handles reflection analyses and sklearn-based machine learning functionality.
+
+
+To access the RevealDroid dataset, you'll need to download two
+files. For the first file (approximately 540MB compressed and
+corresponding to the older portion of the dataset), please
+use this
+link (dataset part 1 of 2).  For the second part of the dataset,
+about 6.4GB compressed and corresponding to the TOSEM version of the
+work, you'll need the
+file here
+(dataset part 2 of 2). You will then need to update the symbolic
+links for the android-reflection-analysis/res/pvd_nrp_*.csv files, so
+they look like this:  
+Notice that the correct files to be linked to are the
+combine_features.py-am_pvd_nrp_*_20160309-162935.csv files in the
+latest dataset.
+
+
+To access any of ourÂ DroidChameleon-transformed apps, please email me at . Please include evidence of your affiliation with your request.
+
+
+To evaluate RevealDroid, we also compared it against state-of-the-practice commercial anti-virus (AV) products available on VirusTotal. We met or exceeded the accuracy values of 60 commercial AVs for our evaluation. Given that our technique utilizes machine learning, our technique learns to detect malware automatically, unlike many existing state-of-the-practice tools. Detailed results are available here.
+
+
+Using 6,776 malicious apps from our dataset, we display 13 anti-virus products we compared against:
+
+
+
+
+Using 1,200 malware genome apps, obfuscated using DroidChameleon transformations:
+
+
+
+
+Lightweight, Obfuscation-Resilient Detection and Family Identification of Android Malware 
+    Joshua Garcia, Mahmoud Hammad, and Sam Malek
+ACM Transactions on Software Engineering and Methodology (TOSEM), Vol. 26, No. 3, January 2018 [ICSE'18 Journal First]
+    [PDF]
+    
+
+
+
+
+
+
+
+
+
+
+

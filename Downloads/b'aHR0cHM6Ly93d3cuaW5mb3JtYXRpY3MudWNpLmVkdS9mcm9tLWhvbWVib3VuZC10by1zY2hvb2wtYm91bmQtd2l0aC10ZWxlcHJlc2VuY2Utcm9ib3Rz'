@@ -1,0 +1,466 @@
+https://www.informatics.uci.edu/from-homebound-to-school-bound-with-telepresence-robots
+
+
+
+
+
+
+
+
+
+From Homebound to School Bound with Telepresence Robots | Informatics @ the University of California, Irvine
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+People
+Contact
+Site Map
+News
+
+
+
+
+Search for:
+
+
+
+ 
+
+
+
+
+
+Menu
+Skip to content
+Explore
+
+
+Chair’s Welcome
+Faculty Profiles
+Books We Read
+History of the Department
+Seminar Series
+Blogs We Author
+Department Vision
+Books We Have Written
+Visiting the Department
+Facts & Figures
+
+
+
+Graduate Degrees
+
+
+Overview
+Ph.D. Software Engineering
+Policies
+Ph.D. Informatics
+M.S. Software Engineering
+Diversity Ambassador
+M.S. Informatics
+Master of Software Engineering
+Student Profiles
+Master of Human-Computer Interaction & Design
+Courses
+Student Groups
+ 
+ 
+Upcoming Course Schedule
+
+
+
+Undergraduate Degrees
+
+
+B.S. Informatics
+B.S. Information & Computer Science
+Policies
+B.S. Business Information Management
+Special Opportunities
+Student Profiles
+B.S. Game Design and Interactive Media
+Minors
+Student Groups
+B.S. Software Engineering
+Courses
+Upcoming Course Schedule
+
+
+
+Admissions
+
+
+Graduate Application Process
+Coming from Abroad
+Housing
+Undergraduate Application Process
+Student Life
+
+
+
+Research
+
+
+Labs & Centers
+Ph.D. Research
+Undergraduate Research
+Areas of Expertise
+Past Dissertations
+Gifts & Grants
+Example Projects
+Masters Research
+
+
+
+Impact
+
+
+Research that Matters
+Undergraduate Alumni Spotlights
+Outreach
+Graduate Alumni Spotlights
+Community Engagement
+
+
+
+Support
+
+
+Champion Research
+Become a Corporate Partner
+Share Your Talent
+Support Students
+Provide Projects
+Set Future Agenda
+Post Jobs
+Graduate Resources
+
+
+
+
+
+
+MenuExplore
+
+Chair’s Welcome
+History of the Department
+Department Vision
+Facts & Figures
+Faculty Profiles
+Seminar Series
+Books We Have Written
+Books We Read
+Blogs We Author
+Visiting the Department
+
+
+Graduate Degrees
+
+Ph.D. Informatics
+M.S. Informatics
+Ph.D. Software Engineering
+M.S. Software Engineering
+Master of Human-Computer Interaction & Design
+Master of Software Engineering
+Courses
+Policies
+Diversity Ambassador
+Student Profiles
+Student Groups
+Upcoming Course Schedule
+
+
+Undergraduate Degrees
+
+B.S. Informatics
+B.S. Business Information Management
+B.S. Game Design and Interactive Media
+B.S. Software Engineering
+B.S. Information & Computer Science
+Special Opportunities
+Minors
+Courses
+Policies
+Student Profiles
+Student Groups
+Upcoming Course Schedule
+
+
+Admissions
+
+Graduate Application Process
+Undergraduate Application Process
+Coming from Abroad
+Student Life
+Housing
+
+
+Research
+
+Labs & Centers
+Areas of Expertise
+Example Projects
+Ph.D. Research
+Past Dissertations
+Masters Research
+Undergraduate Research
+Gifts & Grants
+
+
+Impact
+
+Research that Matters
+Graduate Alumni Spotlights
+Undergraduate Alumni Spotlights
+Community Engagement
+Outreach
+
+
+Support
+
+Champion Research
+Support Students
+Become a Corporate Partner
+Provide Projects
+Post Jobs
+Share Your Talent
+Set Future Agenda
+
+
+ 
+
+
+
+
+
+
+
+		← Site Map  News
+
+
+
+
+
+From Homebound to School Bound with Telepresence Robots
+December 19, 2017
+
+
+Informatics Professor Emeritus Judy Olson has teamed up with Ph.D. candidate Veronica Newhart to research telepresence robots for learning.
+
+When a child is cut off from school because of an illness or disability, he or she can miss out on more than just classroom learning. Disconnected from school friends and unable to participate in extracurricular activities, the child can start to feel isolated. According to Informatics Professor Emeritus Judy Olson, the public school system usually provides four to five hours of teaching a week — not day — for homebound students. “The school leaves a box of materials, but who is supposed to monitor the student and do all this stuff? And the children might get depressed and check out.”
+A demonstration of a telepresence-learning robot at UCI’s Festival of Discovery.
+Olson, who has been exploring the use of robots in medicine for years, is now teaming up with Veronica Newhart, a Ph.D. candidate in the School of Education researching telepresence robots for learning. Although Olson retired in December 2016, she is spending much of her time advising Newhart on informatics-related issues. Together, they’re collecting stories about children like 11-year-old Cloe Gray, who started using a robot to attend school while recuperating from leg surgery. Yet Newhart and Olson aren’t just gathering news stories. They’re tracking a network of telepresence robots for homebound students at schools in three of the largest school districts in the nation and for 15 additional students. In particular, they’re checking to see how the students are doing and are asking about desired features for the robots.
+Designing the Experience
+“We have this wonderful story of this little boy who has a heart condition, and his mother kept saying, ‘I don’t think he has the energy to go to school on a robot,’ but they agreed to give it a try,” says Olson. So, the student received a robot and training, and on the first day, he stayed in classes for six hours. He’s been going to school ever since. “The mother was amazed. They thought his lack of energy was from the heart condition, but he basically had been depressed,” notes Olson. “And the best part,” she adds, “is that he tried out for choir, and he made it!”
+Another student attended her class field trip to an aquarium, thanks to her telepresence robot. “The students were gathered around the robot, making sure their friend was correctly positioned to see all of the same fun things they were seeing,” says Olson.
+Children interacting with a student through a telepresence robot.
+The homebound students are thus not only getting the benefits of attending classes, they’re also reconnecting with peers and participating in activities otherwise not available to them. “The families really appreciate the fact that the children are in school. And they appreciate the social experiences and feeling of belonging,” notes Olson.
+Given the importance of the social aspects, Olson is considering the needs of both the student and his or her classmates. And she admits that, at times, there have been instances of bullying. One boy, referring to a telepresence robot, laughed and said, “What’s that? A vacuum cleaner?” Another put a “kick me” sign on the back of a robot. A homebound student even had ketchup smeared on his robot’s face screen, though he couldn’t see it because the screen was below the camera. In this case, after the teacher cleaned the screen, a group of students volunteered to be his “posse,” looking out for him. As Olson explains, “bullying is a part of school life,” so this needs to be addressed during design and implementation. Designating a “posse” of enthusiastic helpers is one possible solution.
+Generally, though, Olson says that “people are really caring about this population. It’s important to include these children in school, so the other children understand what they’re dealing with; otherwise, you never see it. You don’t see a child who is bald because of chemo.” So she continues to explore how best to design these experiences, both for the homebound students and others, noting that telepresence can open up the world for the homebound while also providing rich experiences for their peers.
+Newhart and Olson must also consider certain policy issues, because there’s now a video connection between the school and home. Olson reports that in some instances, the parent of a homebound student would see something happening in the classroom and then would comment about it on Facebook. One school district plans to address this by teaching the parents of homebound students to be teachers’ aides, instructing them about the importance of privacy in the classroom as well as the need for a designated “school” area, given that others can now see into the home. As Olson says, “I’m very excited that people are adopting these just as they are, but there are issues we need to address.”
+Analyzing the Costs and Benefits
+Of course, the focal point is the robot itself, so Olson is recording what features could improve the experience. Some students say they wish the robot had stereo sound, so they could better identify where a voice is coming from in the classroom. Others wish the robot could move its head separate from its body. Most agree that a joystick would be preferable to the current arrow keys, and voice commands would be even better, so students could say, “Take me to the lunchroom.” Another recommendation is to include a hotspot on the robots.
+Judy Olson, testing out a telepresence robot in Donald Bren Hall, stops to chat with Informatics Professor Gloria Mark. (Robert Farmer/UCI)
+Olson says they’re working closely with Double Robotics, which built one of the robots they’re using. “David Cann is the CEO there, and he’s very receptive to what we’re finding.” Newhart and Olson are developing a list of desired features, and Olson’s next goal is to conduct a cost/benefit analysis. “They can’t do them all. Some features are very expensive. How much is it worth to turn your head? What is the cost of social interaction?” She’s applying for funding to allow Double Robotics to build a prototype with all of the requested features, which would help them determine the cost of development as well as the pricing for consumers — currently parents, teachers and school districts.
+However, another area that Newhart is exploring is whether insurance companies might one day pay for such robots. She has a pilot grant from the National Institutes of Health and has applied for continued funding to conduct a clinical trial and explore health outcomes. There are also questions about who would be good candidates for telepresence learning. Newhart and Olson will need to explore whether the child needs a certain level of cognitive ability and energy, or a willingness to make friends, and so on.
+Veronica Newhart, Ph.D. candidate in the School of Education, and a telepresence robot. (Steve Zylius/UCI)
+Telepresence Learning at UCI
+There’s clearly a lot to learn, but opportunities for observation just moved significantly closer, thanks to Newhart convincing the class of 2016 to use their class gift to buy telepresence robots for UCI. Now, by going through the Office of Disability Services, homebound UCI students can borrow a robot; a graduate student undergoing medical treatment has already started using one. This provides an on-campus test case. “We realized that the robot can’t go between buildings, because somebody could take it,” says Olson. “The more we do, the more we find,” she adds, making it clear that despite her retirement, she has no plans to stop working anytime soon. But perhaps she’ll take time out to enjoy a choir concert featuring a telepresence robot, letting her hear a boy she knows sing his little heart out.
+ 
+— Shani Murray
+
+
+
+Post navigation
+← Motherboard: “The Reddit Moderator Getting a PhD in Online Moderation” (PhD student Kat Lo profiled)
+Professor Mark Aims to Reduce Workplace Stress →
+
+
+
+
+
+
+ 
+
+October 2022
+September 2022
+July 2022
+June 2022
+May 2022
+April 2022
+March 2022
+February 2022
+January 2022
+December 2021
+November 2021
+October 2021
+September 2021
+August 2021
+July 2021
+June 2021
+May 2021
+April 2021
+March 2021
+February 2021
+January 2021
+December 2020
+November 2020
+October 2020
+September 2020
+August 2020
+July 2020
+June 2020
+May 2020
+April 2020
+March 2020
+February 2020
+January 2020
+December 2019
+November 2019
+October 2019
+September 2019
+August 2019
+July 2019
+June 2019
+May 2019
+April 2019
+March 2019
+February 2019
+January 2019
+December 2018
+November 2018
+October 2018
+September 2018
+August 2018
+July 2018
+June 2018
+May 2018
+April 2018
+March 2018
+February 2018
+January 2018
+December 2017
+November 2017
+October 2017
+September 2017
+August 2017
+July 2017
+June 2017
+May 2017
+April 2017
+March 2017
+February 2017
+January 2017
+December 2016
+November 2016
+October 2016
+September 2016
+August 2016
+July 2016
+June 2016
+May 2016
+April 2016
+March 2016
+February 2016
+January 2016
+December 2015
+November 2015
+October 2015
+September 2015
+August 2015
+July 2015
+June 2015
+May 2015
+April 2015
+March 2015
+February 2015
+January 2015
+December 2014
+November 2014
+September 2014
+August 2014
+July 2014
+June 2014
+
+ 
+
+
+
+People
+Contact
+Site Map
+News
+
+
+
+
+
+
+
+Feedback
+Privacy Policy
+					© 2022 UC Regents
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

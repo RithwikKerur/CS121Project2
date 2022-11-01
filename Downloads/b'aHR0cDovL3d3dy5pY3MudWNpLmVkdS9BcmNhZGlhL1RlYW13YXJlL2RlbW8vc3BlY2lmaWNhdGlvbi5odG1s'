@@ -1,0 +1,21 @@
+http://www.ics.uci.edu/Arcadia/Teamware/demo/specification.html
+
+
+Online Interactive Teamware Demo, Specification
+
+
+
+Specifications are based on Categories and the process programmer
+fills in the data fields for the specifications. Activity
+Specifications may also have several sub-networks associated with them for
+accomplishing the Activity.  The sub-network that gets executed 
+can be dynamically chosen at runtime.
+
+
+
+NETWORK
+ATTACH
+DONE
+
+
+

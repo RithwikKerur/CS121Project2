@@ -1,0 +1,24 @@
+http://www.ics.uci.edu/Arcadia/Teamware/demo/attach.html
+
+
+Online Interactive Teamware Demo, Specification
+
+
+
+Artifact Inputs and Outputs, Resource Assignments can all be
+attached to a specification.  As an activity is executed, the
+interpreter checks to make sure that values are assigned to
+the inputs, outputs, and resources before enabling and completing.
+
+
+
+
+
+
+
+
+
+DONE
+
+
+

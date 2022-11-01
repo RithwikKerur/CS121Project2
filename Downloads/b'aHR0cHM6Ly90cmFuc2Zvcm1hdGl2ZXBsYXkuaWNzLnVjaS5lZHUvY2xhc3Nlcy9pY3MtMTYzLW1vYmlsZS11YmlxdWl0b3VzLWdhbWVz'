@@ -1,0 +1,497 @@
+https://transformativeplay.ics.uci.edu/classes/ics-163-mobile-ubiquitous-games
+
+
+
+
+
+
+ICS 163 – Mobile & Ubiquitous Games – The Transformative Play Lab
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Transformative Play Lab
+
+at UC Irvine, Department of Informatics
+
+Toggle navigation
+
+
+
+
+
+Home
+News & Events
+Research
+People
+Classes
+ 
+
+
+Home
+News & Events
+Research
+People
+Classes
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ICS 163 – Mobile & Ubiquitous Games
+Spring 2016
+Professor Theresa Jean Tanenbaum,
+Email: ttanen@uci.edu
+Teaching Assistant: Daniel Gardner
+Email: dlgardne@uci.edu
+Tu, Thur, 12:30-1:50pm
+Location: SSL 270
+Office Hours: By appointment
+Course Website: https://transformativeplay.ics.uci.edu/classes/ics-163-mobile-ubiquitous-games/
+Catalog Description:
+Design and technology of mobile games, including mixed reality gaming, urban games, and locative media. Case studies of significant systems. Uses and limitations of location-based technologies. Infrastructures and their relationships to gameplay and design.
+Course Objectives and Philosophy
+This class will combine game playing, game design, and location-based technology to introduce you to the challenges and opportunities that currently exist within the mobile and ubiquitous games design space.  We will be playing many classic locative games – both digital and analog – and will be designing, implementing and testing our own new location based games.  By the end of this class, you should be able to:
+
+Discuss the history of locative gaming and understand how to situate a contemporary game within this context by identifying key influences on the current state of mobile games.
+Understand and be able to apply key mobile game design concepts (such as time, synchronicity, location, public/private play, space and place, movement and mobility) and be able to identify key differences between the design of pervasive vs non-pervasive games.
+Develop a familiarity with the core technologies that support the development of pervasive games including their advantages and limitations, the major challenges facing developers of pervasive games, and the possible futures for these technologies.
+In a small group (4-6 people) you will design, test, and deploy a pervasive game that takes advantage of the specific unique affordances of the UCI campus.
+Document and describe your locative or spatial game in order to communicate and preserve the experience for people who are unable to play it for themselves.
+
+This class is not going to be about creating games for mobile phones or tablets. Games made in this class may well involve Android or iOS development, but if you are interested in making Flappy Bird, Angry Birds, or any other bird related game to be played on a mobile device, you are in the wrong place.
+
+Some of you are programmers.  Others are not.  I am not a programmer, and so I will not be evaluating you based on your code.  I will be evaluating you based on your understanding of the concepts, the sophistication with which you integrate them into your designs, and the overall experience that you create.
+Course Logistics
+Course Website
+I will post the syllabus and assignments on the website, along with link to reading quizzes and other online resources.  If we make any changes to the class structure or deliverables, these will be reflected on the website.  If there is any disagreement between this printed syllabus and the website, the website should be considered the authoritative and up-to-date reference.
+Equipment
+Every student will need access to a computer and to a GPS enabled device (ideally a smartphone that is less than 4 years old).
+Internet Access
+All students should be able access the internet in order to complete quizzes and submit assignments.
+Assignments and Grading and Schedule
+Course Structure
+We meet twice a week.  The first class of the week is usually some combination of discussion and lecture, while the second class of the week is usually some sort of group activity or time to work on projects and receive feedback.
+Index Cards and Participation
+Class attendance will be determined by completing index cards. The index cards are also a means for me to get feedback about the course.
+
+For each class please write your name on a card, the date, your student ID and a comment about the course.
+
+If you would like to submit an anonymous comment, take an extra card and don’t put your name on it.
+
+Collecting feedback this way is a useful and different source of input than other media. It helps me track how the class is understanding the material and something about writing things out on paper causes students to say different things than they would in an online system.
+Readings and Quizzes:
+The main textbook for this course will be Pervasive Games: Experiences on the Boundary Between Life and Play by Markus Montola, Jakko Sternos, and Annika Waern.  Additional “readings” will be assigned periodically, and may include texts, videos, or games.  Most readings will have a quiz associated with them in EEE. There will be 10 quizzes on the readings, each of which will be worth 2% of your grade, for a total of 20% of your overall grade.
+Assignment #1: Historical Analysis
+Assignment 1 is a short individual writing assignment where you will analyze a contemporary game within its historical context (details will be circulated when it is assigned).
+Assignment #2: Geocaching Journal
+Assignment 2 is a group project that will require you to discover and design local geocaches (details will be circulated when it is assigned).
+Final Project: Design, Implement, and Document a Pervasive Game
+For your final project you will design, implement, and document a pervasive game.  This game may be digital or analog, or a combination of both, but it must incorporate some specific aspect of the UCI campus and its surroundings into the gameplay in a meaningful way (details will be circulated when it is assigned).
+Grade Breakdown and Rubric
+
+Index Cards: 10 points (.5 x 20) – Look! Just showing up for class is the difference between an entire letter grade!
+Quizzes: 20 points (10 x 2 points each)
+Historical Analysis: 15 Points (+ 1 possible point of extra credit)
+Geocaching Journal: 15 points (+ 5 possible points of extra credit)
+Final Project: 40 points (see breakdown below)
+
+Design Document: 5 Points
+Preliminary Documentation: 5 points
+Final Project Implementation: 15 Points*
+Final Project Documentation: 15 Points*
+
+
+
+Total Points available: 100 (+ up to 11 points of extra credit)
+
+* Due to the situated nature of the final projects, in many cases the only way I will know what you did for your final project is through the documentation you submit.  Therefore it is in your best interest to submit documentation that is as comprehensive as possible, as much of your final grade will be determined by this.
+Extra Credit:
+There are several opportunities for extra credit in the class.
+Master Assassins
+We will be playing a game of Assassin that could conceivably last the entire quarter (if you are clever).  At the end of the quarter, your ranking in the assassin game will be worth a few extra credit points, as follows:
+
+Master Assassin (1): 5 points
+Expert Assassins (2-10): 3 points
+Honorable Assassins (11-30): 2 points
+Assassins in Training (31 – 70): 1 point
+
+Dishonorable Assassins (students who cheat, or do not participate) will receive no extra credit points.
+
+In the unlikely case that there is no master assassin victorious by the end of the quarter, a game of Ninja Slap will be used to determine the final rankings of any surviving assassins.
+
+Assassin Game Rankings!
+Masters of the Future
+In assignment #1 (Historical Analysis) you may earn a single point of extra credit for proposing a convincing future scenario for a locative or pervasive game that evolves from the historical trajectory outlined in the rest of your submission.  You should not use more than 200 extra words to complete this extra credit.
+Geocaching Masters
+To earn the title of Geocaching Master, you will need to submit your new cache to the geocaching.com website (see the full assignment for details).  If it gets approved before the end of the quarter, I will award 5 points of extra credit to your entire team. This offer is only good once – additional approved caches will not yield additional points. This will certainly be a difficult the approval process, and I’m not certain how likely it is that your cache will be accepted so this might be an easy 2 points, or it might be virtually impossible to earn.  That’s why it’s extra.
+Assignment Submission
+Individual written assignments will be submitted via turnitin.com.  Group assignments will be uploaded to the class Google Drive folder.  Quizzes will be completed in EEE, and will take place in class.
+Schedule
+This is a day-by-day breakdown of the class structure.  Some of this is likely to change, in which case refer to the website for the up-to-date version of the schedule.
+
+Assassin: Rules & Target assignments
+
+
+
+Course Schedule
+
+
+Day
+Topic
+Readings Due
+In Class Activities
+Deliverables
+
+
+Week 1
+
+
+Tuesday, 03/29
+Course overview and Welcomes
+none
+
+
+
+
+Thursday, 03/31
+Games vs. Persuasive Games
+PG: Case A & Chapter 1
+
+Quiz #1
+
+
+Week 2
+
+
+Tuesday, 04/5
+Types of Pervasive Games
+PG: Case B & Chapter 2
+
+Quiz #2
+
+
+Thursday, 04/07
+Pervasive Games Film Festival 1
+
+
+
+
+
+Week 3
+
+
+Tuesday, 04/12
+History of Pervasive Games
+PG: Case C & Chapter 3
+Assign Historical Analysis
+Quiz #3
+
+
+Thursday, 04/14
+Pervasive Games Film Festival 2
+
+Assassin Check-in: Righteous Kills!
+
+
+
+Week 4
+
+
+Tuesday, 04/19
+Campus as a Design Resource
+
+Team Building
+
+Walk & Chalk
+Assign: Geocaching Journal
+Quiz #4
+
+
+Thursday, 04/21
+ Designing for Space
+PG: Case D & Chapter 4
+Assign Final Project
+Historical Analysis Due
+
+
+Week 5
+
+
+Tuesday, 04/26
+Designing in Time
+PG: Case E & Chapter 5
+ LARP Prep
+Quiz #5
+
+
+Thursday, 04/28
+Final Project Think Tank
+
+Mini-proposal-design-jam
+
+Assassin Check-in: Righteous Kills!
+Team Geocaching Journal Due
+
+
+Week 6
+
+
+Tuesday, 05/03
+Designing Social Expansion
+PG: Case F & Chapter 6
+
+Quiz #6
+
+
+Thursday, 05/05
+LARP Day
+
+Class LARP
+Design Document Due
+
+
+Week 7
+
+
+Tuesday, 05/10
+Tess @ CHI – Dan to do project check-ins with teams
+
+Proposal Presentations
+Quiz #7
+
+
+Thursday, 05/12
+Tess @ CHI – Dan to do project check-ins with teams
+
+Proposal Presentations
+
+Assassin Check-in: Righteous Kills!
+
+
+
+Week 8
+
+
+Tuesday, 05/17
+Pervasive Game Design Strategies
+PG: Case G & Chapter 7
+
+Quiz #8
+
+
+Thursday, 05/19
+How to Document Pervasive Games
+
+Movies, storyboards, photo-journals, and more
+
+
+
+Week 9
+
+
+Tuesday, 05/24
+Information Technology in Pervasive Games
+PG: Case H & Chapter 8
+
+Quiz #9
+
+
+Thursday, 05/26
+Zombie Apocalypse Game-  Version 1
+
+Zombie Game Playtest #1
+Preliminary Documentation due
+
+
+Week 10
+
+
+Tuesday, 05/31
+Zombie Apocalypse Game
+PG: Case I & Chapter 9
+ Zombie Game Collective Re-design
+Quiz #10
+
+
+Thursday, 06/02
+Zombie Apocalypse Game – Version 2
+
+Zombie Game Playtest #2 & Final notices.
+
+
+
+Finals Week
+
+
+Tuesday, June 7th,
+
+6-8pm
+Final Presentations
+
+Teams will present their documentation of their game, and we will have time to play any games that are playable.
+
+
+
+
+Additional Important Course Policies and Resources
+Academic Honesty
+Please read and heed the following information regarding academic dishonesty. The instructor cannot and will not tolerate academic dishonesty. For more information, refer to the UCI Student Handbook. The UCI campus policy on academic honesty resides here: http://honesty.uci.edu/
+
+The penalty for plagiarism is at a minimum to receive a 0 on the assignment and have the case reported to the Associate Dean’s office. Particularly flagrant cases may receive more severe punishment (notably failing the course).
+
+What is cheating?
+
+Supplying or using work or answers that are not your own.
+Providing or accepting assistance with completing assignments or examinations.
+Faking data or results.
+Interfering in any way with someone else’s work.
+Stealing an examination or solution from the teacher.
+
+What is plagiarism?
+
+Copying a paper from a source text without proper acknowledgment.
+Buying a paper from a research service or term paper mill.
+Turning in another student’s work with or without that student’s knowledge. 
+Copying a paper from a source text without proper acknowledgment.
+Copying materials from a source text, supplying proper documentation, but leaving out quotation marks.
+Paraphrasing materials from a source text without appropriate documentation.
+Turning in a paper from a term paper website.
+
+You should be on guard against plagiarism at all times.  At any time that you read anything in preparation for a paper or consciously recall anything that you have read or heard, you must be prepared to provide documentation.
+
+Generally, when you use someone else’s ideas and/or words, you will either quote that person directly or you will paraphrase or summarize that person’s words. You must let the reader know which you are doing.
+
+If you quote the source directly, you must
+
+Put quotation marks before and after that person’s words
+Let the reader know the source by (1) putting a footnote or endnote number at the end of the quotation, or (2) putting at least the source’s name in parentheses after the quotation marks (such as when being taken from fieldwork).
+
+
+If you paraphrase (a paraphrase is about the same length as the original, but in different words) or if you summarize (a summary is a severely shortened version of the original), you must
+
+Introduce the source in some manner at the beginning of the passage being paraphrased (or summarized) so that the reader can tell where your idea stops and the other person’s begins
+State the ideas taken from the source in your own words and your own arrangement. It is possible to plagiarize sentence patterns as well as exact words. A handy rule: if, in a paraphrase or summary, you use a stretch of more than three words in their exact order from a source, you should put those words into quotation marks
+Provide an exact source citation for those ideas paraphrased or summarized. This may be done either by footnote/endnote number at the end of the passages or by parenthetical references to the work and page(s). This citation provides credit to the author being used and allows the reader access to the material for further study.
+
+
+You must also provide a footnote for any chart, graph, figure, table, summary, or other data taken directly from another source or any information derived from such materials. You should also be sure to check copyright as to whether you are allowed to use this figure.
+
+For example, the text here on plagiarism was initially written Gillian Hayes for the Winter 2013 version of INF 242, although some modifications and additions of my own have been integrated into it.  The original can be found here: http://www.gillianhayes.com/Inf242w13/, along with Professor Hayes’ own disclaimer that the material has been “generously borrowed and slightly modified from the UTC Center for Advisement and Student Success.”
+Reference Management Software:
+Oftentimes plagiarism isn’t intentional – it happens because the writer either isn’t in the habit of citation, or because the overhead of citing sources turns the process into a burden. For this class I strongly encourage you to adopt the use of a reference management system if you do not already use one.  This is one of the single best investments of your time you can undertake as a student, and it will reward you a thousand times over once you have integrated it into your workflow.  Unless you are already heavily invested in a different platform, I would recommend you use Zotero: it’s free, it works as both a stand-alone program, and as a browser plug-in, it integrates very smoothly with Word, it has great collaboration support, it has AMAZING citation scrapers for the major online repositories (ACM DL, JSTOR, Springer, etc.), and it has a very complete database of reference formats that are easy to install.  Did I mention that it’s FREE?  It is! For more information about the options out there, the UCI Library has a good resource here:
+
+http://libguides.lib.uci.edu/content.php?pid=19606&sid=583269.
+Special Accommodations
+If you are a student with a disability (e.g., physical, learning, psychiatric, vision, hearing, etc.) and think that you might need special assistance or a special accommodation in this class or any other class, please check out the Disability Center online or visit them in person at: 100 Disability Services Center, Building 313, Irvine, CA 92697-5130.   If you are having difficulty with the class for any of these reasons, please let me know so that I can work with you to meet your learning needs. If for any reason you are uncomfortable discussing the details surrounding a given situation you need not disclose anything, but at least let me know that something is going on so that arrangements can be made to adjust things for you before you fall too far behind.
+
+I am always available to meet with students who are having trouble, and I am usually willing to make some reasonable accommodations if you have a legitimate issue, but I require that you check-in with me before a problem gets out of control so we can work something out. If you come to me during finals week to explain that you were in the hospital for 6 weeks and couldn’t complete your work, my first question will be: “why am I just now finding this out?”
+Counseling Center
+Likewise, if you find that personal problems, career indecision, study and time management difficulties, etc. are adversely impacting your successful progress at UCI, please check out the Counseling Center or Graduate Student Services. Graduate school can often have adverse effects on one’s physical and mental health, and it is better to seek help early than allow the trials of pursing and advanced degree to cause serious harm.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  | Theme by Themeegg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

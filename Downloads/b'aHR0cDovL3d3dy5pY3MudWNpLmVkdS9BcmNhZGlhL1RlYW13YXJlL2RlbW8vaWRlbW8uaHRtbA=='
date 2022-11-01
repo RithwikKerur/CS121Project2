@@ -1,0 +1,53 @@
+http://www.ics.uci.edu/Arcadia/Teamware/demo/idemo.html
+
+
+Online Interactive Teamware Demo
+
+
+
+Welcome to the Online Interactive 
+
+Teamware
+Demo!  This demo is an overview of the demonstration of the Teamware
+system that will be given at the 
+
+1995 Software Technology & Intelligent Systems Symposium (STISS).
+(View demo in landscape mode for best effect).  This online demo
+allows the user to browse the menu and control structure of
+the Teamware system.  
+
+
+This is the initial Teamware Control Panel.  From this window, the
+System Programmer, Process Programmer, and End User have access to the
+tools and editors necessary for building and executing processes,
+browsing and developing categories, and maintining project agendas.
+
+
+
+
+
+
+
+
+
+PROJECT
+HELP
+INFO
+BROWSER
+AGENDA
+QUIT
+
+
+
+NOTE: These pages are not image mapped because not all buttons have
+interfaces associated with them and there is no feedback to the user
+from button images.  Also, this demo only contains information about
+the Teamware system as is currently implemented.  For more information 
+about the system, please refer to the 
+
+teamware page. Also, more 'interactivity' to come...
+
+
+
+
+

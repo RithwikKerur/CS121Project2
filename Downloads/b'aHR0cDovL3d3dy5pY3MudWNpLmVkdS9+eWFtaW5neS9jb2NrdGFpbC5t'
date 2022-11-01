@@ -1,0 +1,150 @@
+http://www.ics.uci.edu/~yamingy/cocktail.m
+%  matlab implementation of the cocktail algorithm for D-optimal designs (approximate theory)
+%  
+%  [w, tm]=cocktail(X, maxiter, small, alg)
+%
+%  required input
+%    X: design matrix (n by m)
+%    (n: number of design points)
+%    (m: dimension of parameter)
+%
+%  optional input
+%    maxiter: maximum number of iterations (default=1000)
+%    small: convergence threshold (default=1e-6)
+%    alg: choice of algorithm (default=4)
+%      alg=0: multiplicative algorithm only
+%      alg=1: vertex exchange method (VEM)
+%      alg=2: both the vertex direction method (VDM) and the multiplicative algorithm
+%      alg=3: cocktail algorithm (VDM + nearest neighbor exchange + multiplicative algorithm)
+%      alg=4: same as alg=3, except the nearest neighbors are computed on the fly
+%
+%  output 
+%    w: optimal weights (1 by n) 
+%    tm: cpu time 
+
+function [w, tm]=cocktail(X, maxiter, small, alg)
+  if(nargin<=3)
+    alg=4;
+    if(nargin<=2)
+      small=1e-6;
+      if(nargin==1)
+        maxiter=1000;
+      end
+    end
+  end
+  if(alg==0)
+    fprintf('Using the multiplicative algorithm only\n');
+  end
+  if(alg==1)
+    fprintf('Using the vertex exchange method (VEM)\n');
+  end
+  if(alg==2)
+    fprintf('Using both the vertex direction method (VDM) and the multiplicative algorithm\n');
+  end
+  if(alg==3)
+    fprintf('Using the cocktail algorithm:\n'); 
+    fprintf('VDM + nearest neighbor exchange + multiplicative algorithm\n'); 
+    fprintf('The neighborhood structure is pre-specified\n'); 
+  end
+  if(alg==4)
+    fprintf('Using the cocktail algorithm:\n'); 
+    fprintf('VDM + nearest neighbor exchange + multiplicative algorithm\n'); 
+    fprintf('The nearest neighbors are computed on the fly\n'); 
+  end
+
+  tm=cputime();
+  [n, m]=size(X);
+  w=ones(1,n);
+  if(alg>=1)
+    w=zeros(1, n);
+    w(1, floor(unifrnd(0, 1, 1, 2*m)*n)+1)=1;
+  end
+  w(w>0)=1/sum(w>0); %% starting design
+  index=1:n;
+  ind=index(w>0);
+  Y=zeros(n, m);
+  for(j=1:length(ind))
+    Y(ind(j), 1:m)=X(ind(j), 1:m)*w(ind(j));
+  end
+  M=(Y(ind, 1:m))'*X(ind, 1:m);
+  lam=1:n;
+
+  for(i=1:maxiter)
+    P=inv(M);
+    for(j=1:n)
+      lam(j)=X(j,1:m)*P*(X(j,1:m))'/m;
+    end
+    tmp=max(lam);
+    if(tmp<1+small) %% testing convergence 
+      break;
+    end
+
+    if(alg==1) %% VEM step
+      j2=max(index(tmp==lam));
+      tmp=min(lam(w>0));
+      j1=min(index(w>0&tmp==lam));
+      d=X([j1, j2], 1:m)*P*(X([j1, j2], 1:m))';
+      tmp=0.5*(d(1,1)-d(2,2))/(d(1,1)*d(2,2)-d(1,2)*d(2,1)+1e-200);
+      tmp=max(min(tmp, w(j2)), -w(j1));
+      w(j1)=w(j1)+tmp;
+      w(j2)=w(j2)-tmp;
+      M=M+tmp*((X(j1, 1:m))'*X(j1, 1:m)-(X(j2, 1:m))'*X(j2, 1:m));
+    end
+
+    if(alg>=2) %% VDM step
+      j2=max(index(tmp==lam));
+      tmp=(tmp-1)/(m*tmp-1);
+      w=(1-tmp)*w;
+      w(j2)=w(j2)+tmp;
+      M=(1-tmp)*M+tmp*(X(j2, 1:m))'*X(j2, 1:m);
+    end
+
+    if(alg>=3) %% nearest neighbor exchanges
+      ind=index(w>0);
+      for(j=1:(length(ind)-1))
+        j1=ind(j);
+        j2=ind(j+1);
+        if(alg==4) %% nearest neighbor computed on the fly 
+          near=1e+200;
+          for(k=(j+1):length(ind))
+            tmp=sum(abs(X(j1, 1:m)-X(ind(k), 1:m)));
+            if(near>tmp)
+              near=tmp;
+              j2=ind(k);
+            end
+          end
+        end 
+        d=X([j1, j2], 1:m)*inv(M)*(X([j1, j2], 1:m))';
+        tmp=0.5*(d(1,1)-d(2,2))/(d(1,1)*d(2,2)-d(1,2)*d(2,1)+1e-200);
+        tmp=max(min(tmp, w(j2)), -w(j1));
+        w(j1)=w(j1)+tmp;
+        w(j2)=w(j2)-tmp;
+        M=M+tmp*((X(j1, 1:m))'*X(j1, 1:m)-(X(j2, 1:m))'*X(j2, 1:m));
+      end
+    end
+
+    if(alg~=1) %% multiplicative step
+      if(alg==0)
+        w(ind)=w(ind).*lam(ind);
+      else
+        ind=index(w>0);
+        P=inv(M);
+        for(j=1:length(ind))
+          w(ind(j))=w(ind(j))*X(ind(j),1:m)*P*(X(ind(j),1:m))'/m;
+        end
+      end 
+      w(ind)=w(ind)/sum(w(ind)); %% redundant (numerical safeguard)
+      for(j=1:length(ind))
+        Y(ind(j), 1:m)=X(ind(j), 1:m)*w(ind(j));
+      end
+      M=(Y(ind, 1:m))'*X(ind, 1:m);
+    end
+  end %% end for
+
+  tm=cputime()-tm;
+  if(i==maxiter)
+    fprintf('No convergence in %7d iterations\ncpu time: %14g seconds\n', maxiter, tm);
+  else 
+    fprintf('Convergence in %7d iterations\ncpu time: %14g seconds\n', i, tm);
+  end
+end

@@ -1,0 +1,127 @@
+http://www.ics.uci.edu/~wscacchi/Pubs-SF.html
+
+
+
+
+
+
+Pubs-SF
+
+
+Research Publications on The
+System Factory Project and Environments [SF/E]
+ 
+
+
+[VLSI] "A Language-Independent Environment for Software Engineering,"
+VLSI
+and Software Engineering Workshop Report, IEEE Computer Society, Catalog
+No.82-82340, pp. 99-103, (1982)
+
+[VLSI] "Developing a Silicon Engineering Environment," Proc.
+IEEE Intern. Conf. on Computer-Aided Design, San Jose, CA, pp. 221-222,
+(1983)
+
+[VLSI] "Developing VLSI Systems with a Silicon Engineering
+Environment,"
+Proc. IEEE Intern. Conf. on Computer Design, Rye Town,
+NY, pp. 472-475, (1983)
+
+[VLSI] "The System Factory Approach to VLSI and Software
+Engineering,"
+Proc. Second Conference on Software Engineering, Nice,
+France, pp. 295-310, (1984)
+
+[VLSI] "Development Environments for VLSI and Software Engineering",
+(with R. Katz and P. Subramanyham), J. Systems and Software, Vol.
+4(1), pp. 15-27, (1984)
+
+[CM] "An Environment for the Development and Maintenance
+of Large Software Systems," (with K. Narayanaswamy) Proc. IEEE SOFTFAIR
+II, pp. 11-23, San Francisco, CA (1985)
+
+[P] "The Software Engineering Environment for the System
+Factory Project,"
+Proc. 19th. Hawaii Intern. Conf. Systems Sciences,
+Vol. II-B Software, pp. 822-830, (January, 1986)
+
+[P] "A Unix-based Gist Specification Language Processor,"
+(with A. Castillo and S. Corcoran) Proc. 2nd. Intern. Conf. Data Engineering,
+pp. 582-589, (February, 1986)
+
+[P] "Developing a Knowledge-Based System Factory: Issues
+and Concepts," (with L. Eliot), IEEE Expert, Vol. 1(4), pp. 51-58,
+(Winter, 1986)
+
+[CM] "Maintaining the Configuration of Evolving Software
+Systems," (with K. Narayanaswamy) IEEE Trans. Software Engineering,
+Vol. SE-13(3), pp. 324-334, (March, 1987)
+
+[CM] "A Database Foundation for Supporting the Evolution
+of Large Software Systems," (with K. Narayanaswamy) J. Systems and Software,
+Vol. 7(1), pp. 37-49, (1987)
+
+[HT] "On Designing Intelligent Hypertext Systems for Information
+Management in Software Engineering," (with P. Garg), pp. 349-369, Proc.
+Hypertext '87, Chappel Hill, NC, (November 1987).
+
+[HT] "A Hypertext Environment for Engineering Large Software
+Systems," (with P. Garg), Proc. 21st. Hawaii Intern. Systems Sciences
+Conf., Kona, Hawaii, Volume II, pp. 337-346, (January, 1988).
+
+[HT,CM] "A Hypertext Environment for Managing Configured
+Software Descriptions," (with P. Garg), Software Version and Configuration
+Control, pp. 326-343, B.G. Teubner, Stuttgart, FRG, (January 1988).
+
+[P] "The USC System Factory Project," (Keynote Address)
+Proc.
+Software Symposium '88, pp. 11-42, Software Engineers Association,
+Tokyo, Japan (June, 1988).
+
+[HT] "Composition of Hypertext Nodes," (with P. Garg), Proc.
+12th. Intern. ONLINE Conf., London, England, pp. 63-73, (December 1988)
+
+[P] "The System Factory Approach to Software Engineering
+Education," in R. Fairley and P. Freeman (eds.) Issues in Software Engineering
+Education, Springer-Verlag, New York, (1989)
+
+[HT] "The Design and Implementation of Intelligent Software
+Hypertext Systems," (with P.K. Garg), IEEE Expert, Vol. 4(3), pp.
+52-63, (Fall 1989).
+
+[CM] "Assuring the Correctness of Configured Software Descriptions,"
+(with S. Choi), Proc. 2nd. Intern. Work. Software Configuration Management,
+Princeton, NJ. Appears in ACM Software Engineering Notes, Vol. 17(7),
+pp. 66-75, (November 1989)
+
+[CM] "Extracting and Restructuring the Design of Large Software
+Systems," (with Song C. Choi) IEEE Software, Vol. 7(1), pp. 66-73,
+(January 1990)
+
+[P] "Requirements for an Extensible, Object-Oriented Tree/Graph
+Editors", (with A. Karrer), Proc. ACM SIGGRAPH Symposium on User Interface
+Software and Technology, ACM Press, pp. 84-91, (October 1990)
+
+[HT] "A Hypertext Environment to Manage Software Life Cycle
+Descriptions," (with P.K. Garg), IEEE Software, Vol. 7(1), pp. 90-99,
+(May 1990). Reprinted in Software Change Impact Analysis, Shawn
+A. Bohner and Robert S. Arnold (eds.), IEEE Computer Society Press, (1996).
+
+[P] "The Software Infrastructure for a Distributed System
+Factory" Software Engineering Journal, Vol. 6(5), 355-369, (September
+1991). IEE and British Computer Society,
+
+[P,CM,HT] "SOFTMAN: An Environment for Forward and Reverse
+Computer-Aided Software Engineering," (with S.C. Choi), Information
+and Software Technology, Vol. 33(9), pp. 664-674, (November 1991).
+
+[HT] "Integrating
+Heterogeneous Information Repositories: A Distributed Hypertext Approach,"
+(with J. Noll), Computer, Vol. 24(12), pp. 38-45, (December 1991).
+
+[HT] "Hypertext", in J. Marciniak (ed.), Encyclopedia
+of Software Engineering, John Wiley and Sons, New York, pp. 559-567,
+(1994).
+
+
+

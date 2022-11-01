@@ -1,0 +1,470 @@
+https://acoi.ics.uci.edu/seminars/minimum-weight-combinatorial-structures-under-random-cost-constraints
+
+
+
+
+
+
+Minimum-weight combinatorial structures under random cost-constraints – ACO Center @ UCI 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI  
+
+
+
+
+Algorithms, Combinatorics and Optimization 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Minimum-weight combinatorial structures under random cost-constraints
+Home>Seminars>Minimum-weight combinatorial structures under random cost-constraints
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Minimum-weight combinatorial structures under random cost-constraints 
+
+
+
+
+Date: January 23, 2020					
+
+
+
+
+
+Time: 2:00 pm					
+
+
+
+
+
+Room: DBH 4011					
+
+
+
+
+
+Speaker: Alan Frieze 					
+
+
+
+
+
+				 (CMU)					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: Recall that if the lengths of edges in the complete graph are drawn
+independently from [0,1] then the expected value of the minimum spanning
+tree is asymptotically equal to zeta(3). We consider analogous problems
+where edges have not only a random length but also a random cost, and we
+are interested in the length of the minimum-length structure whose total
+cost is less than some cost budget.  For trees and arborescences we
+determine asymptotically accurate estimates of the minimum cost. These
+problems are NP-hard and we describe polynomial time algorithms.
+This is joint with Tomasz Tkocz.
+For several other classes of structures, we determine the correct
+minimum length structure as a function of the cost-budget, up to
+constant factors — shortest paths, minimum matchings, Traveling
+Salesperson Problem.  Moreover, we achieve this even in the more general
+setting where the distribution of weights and costs are arbitrary, so
+long as the density f(x) as x–>0 behaves like cx^\gamma for some
+$\gamma\geq 0$; previously, this case was not understood even in the
+absence of cost constraints.  We also handle the case where each edge
+has several independent costs associated to it, and we must
+simultaneously satisfy budgets on each cost.  In this case, we show that
+the minimum-length structure obtainable is essentially controlled by the
+product of the cost thresholds.
+This is joint with Wesley Pegden and Tomasz Tkocz.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI • Privacy Policy • © 2022 UC Regents 
+
+
+
+
+
+
+
+
+
+Close Menu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to content
+
+
+
+Open toolbar
+
+ 
+
+
+
+
+Accessibility Tools
+
+
+
+Increase Text 
+
+
+
+Decrease Text 
+
+
+
+Grayscale 
+
+
+
+High Contrast 
+
+
+
+Negative Contrast 
+
+
+
+Light Background 
+
+
+
+Links Underline 
+
+
+
+Readable Font 
+
+
+
+
+Reset
+
+
+
+
+
+
+

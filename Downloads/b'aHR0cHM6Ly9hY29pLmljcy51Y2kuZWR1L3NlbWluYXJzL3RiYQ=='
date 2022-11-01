@@ -1,0 +1,450 @@
+https://acoi.ics.uci.edu/seminars/tba
+
+
+
+
+
+
+A 1.79-approximation algorithm for a continuous review lost-sales inventory model – ACO Center @ UCI 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI  
+
+
+
+
+Algorithms, Combinatorics and Optimization 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A 1.79-approximation algorithm for a continuous review lost-sales inventory model
+Home>Seminars>A 1.79-approximation algorithm for a continuous review lost-sales inventory model
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A 1.79-approximation algorithm for a continuous review lost-sales inventory model 
+
+
+
+
+Date: January 9, 2020					
+
+
+
+
+
+Time: 2:00 pm					
+
+
+
+
+
+Room: DBH 4011					
+
+
+
+
+
+Speaker: Linwei Xin 					
+
+
+
+
+
+				 (Chicago Booth)					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: The fundamental problem of managing an inventory over time in the presence of stochastic demand is one of the core problems of Operations Research, and related models have been studied since late 19th century. A central model in inventory theory, where demand that cannot immediately be met is lost, was first introduced in 1958 by Karlin and Scarf. It is well known that such lost-sales inventory models with lead times are notoriously difficult to optimize due to the curse of dimensionality. Recent numerical experiments have suggested that a so-called capped base-stock policy demonstrates superior performance compared with existing heuristics. However, the superior performance lacks of a theoretical foundation and why such a policy performs so well in general remains a major open question. In this talk, we provide a theoretical foundation for this phenomenon. In a continuous review lost-sales inventory model with lead times and Poisson demand, we prove that this policy has a worst-case performance guarantee of 1.79 by conducting an asymptotic analysis under large penalty cost and lead time following Reiman (2004). This result provides a deeper understanding of the superior numerical performance of capped base-stock policies, and lays the foundations for a new approach to proving worst-case performance guarantees of simple policies in notoriously hard inventory problems.
+
+
+
+
+
+
+Bio: Linwei Xin is an assistant professor of Operations Management at the University of Chicago Booth School of Business. His research interests include supply chain, inventory and revenue management, optimization under uncertainty, and data-driven decision-making. His work has been recognized with several INFORMS paper competition awards, including the 2019 Applied Probability Society Best Publication Award, First Place in the 2015 George E. Nicholson Student Paper Competition, Second Place in the 2015 Junior Faculty Interest Group Paper Competition, and a finalist in the 2014 Manufacturing and Service Operations Management Student Paper Competition. His research has been published in journals such as Operations Research and Management Science. He won a NSF grant as PI. He also has worked with companies/organizations through research collaboration including Alibaba Group and Walmart Global eCommerce.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI • Privacy Policy • © 2022 UC Regents 
+
+
+
+
+
+
+
+
+
+Close Menu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to content
+
+
+
+Open toolbar
+
+ 
+
+
+
+
+Accessibility Tools
+
+
+
+Increase Text 
+
+
+
+Decrease Text 
+
+
+
+Grayscale 
+
+
+
+High Contrast 
+
+
+
+Negative Contrast 
+
+
+
+Light Background 
+
+
+
+Links Underline 
+
+
+
+Readable Font 
+
+
+
+
+Reset
+
+
+
+
+
+
+

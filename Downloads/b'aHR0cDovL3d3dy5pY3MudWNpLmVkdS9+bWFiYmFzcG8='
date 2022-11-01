@@ -1,0 +1,820 @@
+http://www.ics.uci.edu/~mabbaspo
+
+
+Mahdi Abbaspour Tehrani
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Mahdi Abbaspour Tehrani
+University of California Irvine
+
+
+
+
+
+
+About Me
+
+
+
+
+
+
+Publications
+
+
+
+
+
+Experiences
+
+
+
+
+
+Hobbies
+
+
+
+
+
+Award and Honors
+
+
+
+
+
+Download CV
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Mahdi Abbaspour Tehrani
+
+Department of Computer Science
+University of California Irvine
+
+
+
+
+
+
+
+PhD student
+Computer Graphics and Visualization Lab (IGravi)
+Department of Computer Science
+University of California Irvine
+Email: mabbaspo at uci.edu
+Office: Visualization Lab, Calit2
+
+
+
+
+
+
+
+
+
+
+
+Education
+
+
+
+
+Ph.D.
+2012-Present
+
+
+Ph.D. in Computer Graphics
+University of California Irvine, School of Information and Computer Sciences
+
+
+
+
+M.S.2012-2014
+
+
+Master of Science in Computer Science
+University of California Irvine, School of Information and Computer Sciences
+
+
+
+
+B.S.2007-2012
+
+
+Bachelor of Science in Computer Engineering
+Sharif University of Technology
+
+
+
+
+
+
+Work Experience
+
+
+
+
+Summer
+2017
+
+
+USC Institute for Creative Technologies (ICT)
+Intern
+
+
+
+
+Summer
+2016
+
+
+Disney Research Zurich
+Intern
+
+
+
+
+Summer
+2015
+
+
+Ooma
+Software Engineer Intern
+
+
+
+
+Summer
+2014
+
+
+SRCH2
+Software Engineer Intern
+
+
+
+
+Jul-Sep
+2013
+
+
+Beckman Laser Institute (BLI)
+Intern (Researcher)
+
+
+
+
+Jun-Jul
+2013
+
+
+Digital Raster
+Software Engineer Intern
+
+
+
+
+Summer
+2010
+
+
+Advance Digital Science Center (ADSC)
+University of Illinois at Urbana-Champaign
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Publications
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                Expand
+                                                            
+
+                                                                Link
+                                                            
+
+                                                                PDF
+                                                            
+
+Automated Projector Calibration and Registration for Arbitrary-Shaped Multi-Projector Systems
+Mahdi Abbaspour Tehrani, Gopi. M, Aditi Majumder
+Journal PapersSubmitted to IEEE Transactions on Visualization and Computer Graphics (TVCG) 2017.
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                Expand
+                                                            
+
+                                                                Link
+                                                            
+
+                                                                PDF
+                                                            
+
+A Practical Method for Fully Automatic Intrinsic Camera Calibration Using Directionally Encoded Light
+Mahdi Abbaspour Tehrani, Thabo Beeler, Anselm Grundhofer
+Conference PapersComputer Vision and Pattern Recognition (CVPR), Honolulu, Hawaii, July 2017. (Selected as Spotlight Paper)
+
+
+
+Calibrating the intrinsic properties of a camera is one of the fundamental tasks required for a variety of computer vision and image processing tasks. The precise measurement of focal length, location of the principal point as well as distortion parameters of the lens is crucial, for example, for 3D reconstruction [27]. Although a variety of methods exist to
+achieve this goal, they are often cumbersome to carry out, require substantial manual interaction, expert knowledge, and a significant operating volume. We propose a novel calibration method based on the usage of directionally encoded light rays for estimating the intrinsic parameters. It enables a fully automatic calibration with a small device mounted close to the front lens element and still enables an accuracy comparable to standard methods even when the lens is focused up to infinity. Our method overcomes the mentioned limitations since it guarantees an accurate calibration without any human intervention while requiring only a limited amount of space. Besides that, the approach also allows to estimate the distance of the focal plane as well as the size of the aperture. We demonstrate the advantages of the proposed method by evaluating several camera/lens configurations using prototypical devices.
+
+
+
+
+
+
+
+
+
+                                                                Expand
+                                                            
+
+                                                                Link
+                                                            
+
+                                                                PDF
+                                                            
+
+Correcting perceived perspective distortions using object specific planar transformations
+Mahdi Abbaspour Tehrani, Aditi Majumder, M.Gopi
+Conference PapersInternational Conference of Computational Photography (ICCP), Evanston, IL, USA, May 2016.
+
+
+
+Abstract
+Distortions due to perspective projection is often de- scribed under the umbrella term of foreshortening in com- puter graphics and are treated the same way. However, a large body of literature from artists, perceptual psycholo- gists and perception scientists have shown that the percep- tion of these distortions is different in different situations. While the distortions themselves depend on both the depth and the orientation of the object with respect to the camera image plane, the perception of these distortions depends on other depth cues present in the image. In the absence of any depth cue or prior knowledge about the objects in the scene, the visual system finds it hard to correct the foreshortening automatically and such images need user input and external algorithmic distortion correction.
+
+
+
+
+
+
+
+                                                                Expand
+                                                            
+
+                                                                Link
+                                                            
+
+                                                                PDF
+                                                            
+
+High-Resolution Lighting of 3D Reliefs Using a Network of Projectors and Cameras
+Behzad Sajadi, Mahdi Abbaspour Tehrani,  Mehdi Rahimzadeh, Aditi Majumder
+Conference Papers 3DTV, Lisbon Portugal, 2015. (Best Paper Award)
+
+
+
+
+Abstract
+Vibrant lighting of relief maps via high-resolution dynamic projected imagery can be a powerful tool for simulation, augmented reality, and visualization, enabling several scientific, educational and entertainment applications. This is usually achieved via multiple projectors lighting the relief map, which are then sensed by multiple cameras for geometric and color calibration. However, cumbersome semi-automatic calibration techniques have limited the applicability of such systems.
+In this paper we present the first fully-automatic lighting system that registers high-resolution images on arbitrarily-shaped relief maps using a network of projectors and cameras. The devices are uncalibrated and casually aligned with the only constraint that every surface point of the relief is seen by at least two of the cameras. Our method achieves precise geometric registration followed by seamless edge blending. Quick recalibration allows changes in the position and number of the devices, as well as the surface geometry. Thus, our work can enable easy deployment of spatially augmented reality environments in various scales playing a fundamental role in increasing their popularity in several applications like geospatial analysis, architectural lighting, cultural heritage restoration, theatrical lighting and visualization. It can also be applied to any immersive VR environments on non-planar surfaces like domes or cylinders.
+
+
+
+
+
+
+                                                                Expand
+                                                            
+
+                                                                Link
+                                                            
+
+                                                                PDF
+                                                            
+
+Undistorting Foreground Objects in Wide Angle Images
+Mahdi Abbaspour Tehrani, Aditi Majumder, M.Gopi
+Conference PapersIEEE International Symposium on Multimedia (ISM), Anaheim, CA, USA, 2013.
+
+
+
+Abstract
+
+
+
+
+
+
+
+
+                                                                Expand
+                                                            
+
+                                                                PDF
+                                                            
+
+An approximation algorithm for finding skeletal points for density based clustering approaches
+Soheil Hassas Yeganeh, Jafar Habibi, Hassan Abolhassani, Mahdi Abbaspour Tehrani, Jamshid Esmaelnezhad
+Conference Papers Proceedings of the IEEE Symposium on Computational Intelligence and Data Mining, CIDM, part of the IEEE Symposium Series on Computational Intelligence, pp. 403-410, Nashville, TN, USA, 2009.
+
+
+
+Abstract
+Clustering is the problem of finding relations in a data set in an supervised manner. These relations can be extracted using the density of a data set, where density of a data point is defined as the number of data points around it. To find the number of data points around another point, region queries are adopted. Region queries are the most expensive construct in density based algorithm, so it should be optimized to enhance the performance of density based clustering algorithms specially on large data sets. Finding the optimum set of region queries to cover all the data points has been proven to be NP-complete. This optimum set is called the skeletal points of a data set.
+In this paper, we proposed a generic algorithms which fires region queries at most 6 times the optimum number of region queries (has 6 as approximation factor). Also, we have extend this generic algorithm to create a DBSCAN (the most well- known density based algorithm) derivative, named ADBSCAN. Presented experimental results show that ADBSCAN has a better approximation to DBCSAN than the DBRS (the most well-known randomized density based algorithm) in terms of performance and quality of clustering, specially for large data sets.
+
+
+
+
+
+
+
+Automatic pill identification
+M.Abbaspour,  E.Asgari, S.Bagheri, M.N.Do, P.Khanipour, J.Lu, S.Mahabadi, A.Vakilian
+Technical Report ADSC technical report, pp. 1 - 16, Oct. 2010.
+
+
+
+
+
+
+Indoor positioning and navigation with a camera phone
+M.Abbaspour,  E.Asgari, S.Bagheri, M.N.Do, P.Khanipour, J.Lu, S.Mahabadi, A.Vakilian
+Technical Report ADSC technical report, pp. 1 - 10, Oct. 2010.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Experiences
+
+
+
+
+
+
+
+
+Work Experiences
+
+
+
+
+Summer
+2017
+
+
+USC Institute for Creative Technologies (ICT)
+
+
+
+
+
+Summer
+2016
+
+
+Intern at Disney Research Lab
+
+
+
+
+
+Summer
+2015
+
+
+Software Engineer Intern at Ooma
+
+
+
+
+
+Summer
+2014
+
+
+Software Engineer Intern at SRHC2
+Geo Search: Implementing and integrating high performance geo search into SRCH2 keyword search engine.
+Access Control List: Implementing record-based access-control for the SRCH2 search engine.
+
+
+
+
+Jul-Sep
+2013
+
+
+Intern (Researcher) at Beckman Laser Institute (BLI)
+Developing a 3D tracking software for the breast cancer detection probe.
+
+
+
+
+Jun-Jul
+2013
+
+
+Software Engineer Intern at Digital Raster
+Design and development of plugins for MAYA(3D Animation Software).
+
+
+
+
+Summer
+2010
+
+
+Intern at ADSC (Advance Digital Sciences Center)
+Joint research center between UIUC and A*STAR, Singapore. Worked on the project E-CAM: Efficient Visual Computing for Interactive Vision Applications on Mobile Devices. Worked on two project:
+Indoor Positioning and Navigation with Camera Phone.
+                                                Pill Identification with Camera Phone.
+
+
+
+
+
+
+
+
+
+
+Academic Experiences
+
+
+
+
+Spring
+2009
+
+
+Presenter for Algorithmic Graph Theory study group
+Under the supervision of Prof. Mo- hammad Ali Safari
+
+
+
+
+2015
+2013
+
+
+Teaching Assistant at UC Irvine
+Computer Graphics
+                                                Visual Computing
+                                                Artificial Intelligence
+                                                Boolean Algorithms
+                                                Introduction to Programming
+
+
+
+
+2012
+2007
+
+
+Teaching Assistant at Sharif University of Technology
+Signals and Systems
+                                                 Design and Analysis of Algorithms
+                                                 Theory of Languages and Automata
+                                                 System Analysis and Design
+                                                 Advanced Programming
+                                                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Gallery
+
+
+
+
+                                        Some of my paintings :)
+                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Awards and Honors
+
+
+
+
+2017
+
+
+Best Demo Award at UCI Computer Science Research Showcase 
+
+
+
+
+
+
+2016-2017
+
+
+Link Foundation Fellowship including one year financial support.
+
+
+
+
+
+2016
+
+
+Best Demo Award at UCI Computer Science Research Showcase
+
+
+
+
+
+
+July 2015
+
+
+Best Paper Award, 3DTV Lisbon Portugal 2015.
+
+
+
+
+
+                                                            Behzad Sajadi, Mahdi Abbaspour Tehrani, Mehdi Rahimzadeh, Aditi Majumder, High-Resolution Lighting of 3D Reliefs Using a Network of Projectors and Cameras, 3DTV, 2015.
+                                                        
+
+
+
+
+2015-2016
+
+
+David Feign Memorial Graduate Student Award in ICS
+
+
+
+
+
+                                                            Selected to receive the David Feign Memorial Graduate Student Award in ICS for the 2015-16 academic year.
+                                                        
+
+
+
+
+2012-2016
+
+
+Deans Fellowship from University of California Irvine.
+
+
+
+
+
+                                                            Recipient of Deans Fellowship, including four years of full financial support, from University of
+California, Irvine, 2012-2016
+                                                        
+
+
+
+
+July 2010
+
+
+summer internship grant from ADSC 
+
+
+
+
+
+                                                            Awarded summer internship grant from ADSC (Advance Digital Sciences Center), joint research center between University of Illinois at Urbana-Champaign and A*STAR, July 2010 - September 2010.
+                                                        
+
+
+
+
+April 2011
+
+
+Selected as an outstanding student, Sharif University of Technology.
+
+
+
+
+
+                                                           Selected as an outstanding student for Computer Engineering Olympiad team of Sharif University of Technology, April 2011.
+                                                        
+
+
+
+
+2010
+
+
+Honorary Admitted to Graduate Study at Sharif University.
+
+
+
+
+
+                                                            Honorary Admitted to Graduate Study at Sharif University Computer Engineering Department, 2010.
+                                                        
+
+
+
+
+2007
+
+
+Ranked 195th out of 300,000 participants in the annual nationwide universities entrance exam.
+
+
+
+
+
+                                                            Ranked 195th in the annual nationwide universities entrance exam (Konkoor) over more than 300,000 participants, 2007.
+                                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+

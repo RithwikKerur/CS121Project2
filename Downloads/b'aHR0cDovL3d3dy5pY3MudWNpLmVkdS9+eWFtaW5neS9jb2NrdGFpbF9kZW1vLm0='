@@ -1,0 +1,12 @@
+http://www.ics.uci.edu/~yamingy/cocktail_demo.m
+fprintf('A demonstration of the cocktail algorithm for D-optimal designs (approximate theory)\n\n');
+fprintf('model: y ~ 1 + exp(-t) +  t * exp(-t) + exp(-s) + s * exp(-2s) + exp(-t-s)\n'); 
+fprintf('design variables: 00);
+t=floor((index-1)/n)+1;
+s=index-(t-1)*n;
+t=t/n;
+s=s/n;
+fprintf('output:\noptimal support points (t(i), s(i))\n');
+[t; s]'
+fprintf('optimal weights w(i)\n');
+w(w>0)

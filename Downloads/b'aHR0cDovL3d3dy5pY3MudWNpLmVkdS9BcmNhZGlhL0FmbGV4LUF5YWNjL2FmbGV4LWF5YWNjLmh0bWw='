@@ -1,0 +1,62 @@
+http://www.ics.uci.edu/Arcadia/Aflex-Ayacc/aflex-ayacc.html
+
+
+
+Aflex and Ayacc
+
+Aflex and Ayacc
+
+Aflex and ayacc are similar to the Unix tools lex and
+yacc, but they are written in Ada and generate Ada output.  They were
+developed by the Arcadia Project at the University of California,
+Irvine.  Aflex is based on the tool 'flex' written by Vern Paxson.
+These tools are copyrighted, but are freely redistributable.  There is
+no warranty of any kind (see the copyright notice.)  However we
+do ask that you report any problems you encounter as we use these
+tools ourselves and we want to fix any bugs that are found.
+
+
+
+You may give this software to others, but we prefer that those who can
+get it directly from us to insure that all users are running the
+latest version.  We also ask that you send electronic mail to the
+address irus-software-request@ics.uci.edu giving your name, your
+organization, a paper mail address, and your e-mail address (either an
+Internet address or a UUCP path relative to a well-known site such as
+uunet.)  A form is provided below for your convenience.  We will use
+this information to set up a mailing list to announce new versions of
+aflex and ayacc, as well as new software that is expected to be made
+available.
+
+
+ Availability 
+Aflex and Ayacc are copy-righted by the University of California, but 
+source code is available free of charge via anonymous 
+ ftp. 
+
+
+ Registration Form 
+---------------- cut here ------------------
+IRUS software user registration form
+
+1. Your Name:
+
+2. Your Organization:
+
+3. Mailing Address:
+
+4. E-mail address for contact person:
+
+---------------- cut here ------------------
+
+
+
+irus-software-request@ics.uci.edu
+
+Arcadia Project at UCI
+
+Department of Information and Computer Science,
+University of California, Irvine, CA  92717-3425
+
+Last modified: Sun Jul  3 03:44:25 1994
+

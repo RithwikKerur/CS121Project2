@@ -1,0 +1,6 @@
+http://www.ics.uci.edu/~yamingy/cocktail_demo2.r
+print("A demonstration of the cocktail algorithm for D-optimal designs (approximate theory)");
+print("model: y ~ 1 + t + t^2 + t^3 + t^4");
+print("design variable: 00]);
+print("optimal weights w(i)");
+print(w[w>0]);

@@ -1,0 +1,456 @@
+https://acoi.ics.uci.edu/seminars/robust-learning-of-mixtures-of-gaussians
+
+
+
+
+
+
+Robust Learning of Mixtures of Gaussians – ACO Center @ UCI 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI  
+
+
+
+
+Algorithms, Combinatorics and Optimization 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Robust Learning of Mixtures of Gaussians
+Home>Seminars>Robust Learning of Mixtures of Gaussians
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Robust Learning of Mixtures of Gaussians 
+
+
+
+
+Date: October 13, 2022					
+
+
+
+
+
+Time: 4:00 pm					
+
+
+
+
+
+Room: DBH 4011					
+
+
+
+
+
+Speaker: Pravesh Kothari 					
+
+
+
+
+
+				 (CMU)					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Additional Notes: SIGN-UP SHEET:
+https://docs.google.com/document/d/16y3RTnPnq04H8923pKmbG_OUIRcdPejG3e3rqh2k52A/edit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: or a while now, the problem of robustly learning a high-dimensional mixture of Gaussians has had a target on its back. The first works in algorithmic robust statistics found robust algorithms for learning a single Gaussian in 2016. Since then, there has been steady progress including clustering spherical mixtures at statistically optimal separation, clustering non-spherical mixtures, and the related problem of list-decoding mean and covariance in the presence of majority fraction outliers.
+
+In this talk, I will describe our recent resolution to this problem. I will focus on new tools developed in a sequence of works that relate robust clustering to phenomena in high dimensional probability such as anti-concentration and hypercontractivity, their algorithmic counterparts based on the sum-of-squares method and new assumption-free guarantees for the tensor decomposition problem.
+
+Based on joint works with Ainesh Bakshi, Ilias Diakonikolas, Misha Ivkov, He Jia, Daniel Kane, Jacob Steinhardt, David Steurer,
+
+
+
+
+
+
+Bio: Pravesh K. Kothari is an Assistant Professor of Computer Science at CMU. Highlights of his recent work include a sum-of-squares framework for problems in robust statistics such as learning mixtures of arbitrary Gaussians, optimal spectral algorithms for smoothed constraint satisfaction and applications to extremal combinatorics, and sum-of-squares thresholds for average-case optimization problems such as planted clique and random CSPs. His work has been recognized with an NSF Career Award, a Sloan Faculty Fellowship, and a Google Research Scholar Award.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI • Privacy Policy • © 2022 UC Regents 
+
+
+
+
+
+
+
+
+
+Close Menu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to content
+
+
+
+Open toolbar
+
+ 
+
+
+
+
+Accessibility Tools
+
+
+
+Increase Text 
+
+
+
+Decrease Text 
+
+
+
+Grayscale 
+
+
+
+High Contrast 
+
+
+
+Negative Contrast 
+
+
+
+Light Background 
+
+
+
+Links Underline 
+
+
+
+Readable Font 
+
+
+
+
+Reset
+
+
+
+
+
+
+

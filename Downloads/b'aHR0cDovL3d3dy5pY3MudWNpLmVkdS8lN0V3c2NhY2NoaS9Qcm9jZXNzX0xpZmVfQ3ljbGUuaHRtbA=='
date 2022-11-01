@@ -1,0 +1,491 @@
+http://www.ics.uci.edu/%7Ewscacchi/Process_Life_Cycle.html
+
+
+
+
+
+Process Life Cycle Engineering
+
+
+
+ The life cycle engineering of software/business processes 
+and capabilities:
+
+
+ An experience report
+
+
+Walt Scacchi, Information and Computer Science Dept
+., University of California, Irvine, CA 92697-3425 
+Copyright © 1997-2002 Walt Scacchi, All Rights Reserved.
+
+This presentation can be found on the WWW at the URL: http://www.ics.uci.edu/~wscacchi/Process_Life_Cycle.html
+
+ Overview
+
+ Background, Definitions, and Sources of Experience
+ Upstream Process Engineering
+
+ Meta-Modeling
+ Definition and Modeling
+ Analysis
+ Simulation
+ Redesign
+
+ Midstream Process Engineering
+
+ Prototyping, Walkthrough, and Training
+ Transition Planning and Change Management
+ Administration: Staffing and Scheduling
+ Integration: Data and Systems
+ Target Support Environment Generation
+
+ Downstream Process Engineering
+
+ Instantiation and Enactment
+ Monitoring and Measurement
+ Enactment History Capture and Replay
+ Articulation
+ Evolution: Continuous Improvement and Asset Management
+
+ Advanced Topics and In-Progress Efforts
+ Conclusions
+
+A companion paper providing an overall description of this process engineering
+life cycle can be found at http://www.usc.edu/dept/ATRIUM/Papers/Process_Life_Cycle.html
+.
+
+ Return to Top 
+
+ Background and Definitions
+
+ Our focus is targeted at the engineering of complex business capabilities 
+or processes like software development across their life cycle.
+ A capability represents the processes, organization staffing,
+and information infrastructure, as well as their interrelationships, for
+a recurring business activity that produces products or services.
+ The web of relationships among the objects and attributes of
+a product, process, organization, infrastructure, or total capability defines
+its architecture.
+
+A paper providing an overall description of a software development capability
+architecture can be found at http://www.usc.edu/dept/ATRIUM/Papers/Process_Meta_Model.ps
+. 
+The overall architectural strategy for a software production infrastructure 
+that supports the process life cycle was previously presented in the paper
+ W. Scacchi, "The Software Infrastructure for a Distributed System Factory," 
+  IEE Software Engineering Journal,, Vol. 6(5), 355-369, (1991). 
+Another paper which surveys architectural features of more than 60 
+software environments can be found at http://www.usc.edu/dept/ATRIUM/Papers/MetaCASE.ps
+. 
+Return to Overview
+
+
+ Sources of Experiences Encountered
+
+ Andersen Consulting (now Accenture)
+ AT&T/Lucent Bell Laboratories
+ CoGenTex
+ Computer Technology Associates
+ EDS
+ Hewlett-Packard
+ HoloSoFx (formerly Active Management Inc.)
+ McKesson Water Products Co.
+ Naval Air Warfare Center (China Lake, CA)
+ Northrop(-Grumann) B-2 Division
+ Office of Naval Research
+ Perceptronics
+ SUN Microsystems Computer Corp.
+ USAF Rome Laboratories
+
+Return to Overview
+
+
+ Meta-Modeling
+
+ Constructing and refining a process concept vocabulary and logic (an
+ontology) for representing families of capabilities, processes, and their
+instances in terms of object classes, attributes, relations, constraints,
+control flow, rules, and computational methods.
+ Experience: key to achieving process-level interoperability
+, as shown with ERA Product-centered DB (PBI-Softman), Attributed Petri Nets 
+(CACE-PM/DMS*), Rule-Based Databases (AP5, Matisse), Process Programming Language
+(SynerVision*), Workflow (WORKFLOW/BPR*), Hybrid Composite (SMART), Others
+{PIF}.
+* denotes commercial product.
+ Image files that show user displays of (a) a conceptual overview
+of corporate financial operations, (b) a meta-model class hierarchy
+  we use, and (c) a meta-model schema
+for the "task-force" class , and (d) a hierarchical
+view of the component functions of an Accounts Payable financial system
+ can be viewed when selected.
+A paper providing a more detailed description of meta-modeling can be 
+found at http://www.usc.edu/dept/ATRIUM/Papers/Process_Meta_Model.ps
+. 
+  Return to Overview
+
+
+ Definition and Modeling
+
+ Eliciting and capturing of informal process descriptions, and their
+conversion into formal process models or process model instances.
+ Experience: Most "as-is" processes are ill-defined and not
+well understood.
+ Experience: Most process redesign efforts want to primarily
+focus on "to-be" alternatives, without baselining as-is processes, and without 
+defining "transition" process from as-is to to-be.
+ Experience: Capturing as-is processes is labor-intensive and
+thus represents an area for further R&D innovations.
+ Image files that show user interface displays of (a) a process task model
+class hierarchy definition conforming to MIL-STD-2167A, and (b) a process model definition
+for a programming task in a table format can be viewed when selected.
+A description of the definition format and mechanism can be found in the
+paper P.K. Garg, P. Mi, T. Pham, W. Scacchi, and G. Thunquest, "The SMART
+Approach to Software Process Engineering," Proc. 16th. Intern. Conf. Software
+Engineering,, IEEE Computer Society, Sorrento, Italy, 341-350, (1994). 
+  Return to Overview
+
+
+ Analysis
+
+ Logical:Evaluating static and dynamic properties of a process/capability 
+model, including its consistency, completeness, internal correctness, traceability, 
+as well as other semantic checks.
+ Feasibility: Determining whether a proposed process or capability 
+architecture can satisfy existing requirements, given available resources.
+ Statistical: Calculating descriptive and inferential statistics 
+the characterize the frequency, distribution, and associations among process 
+step events, transactions, etc.
+ Reasoning: Pattern-matching queries and inferencing to reason
+about properties of processes, such as spatial and temporal distribution,
+organization (who, what, where, when, why, how, what-if, how much, etc.),
+classification (taxonomic, genericity), configuration (composition, scheduling,
+replanning, generalization, specialization), and diagnosis.
+ Resource Flow:Determining how to transform process flow to
+reduce resource utilization (e.g., reduce cycle time and cost).
+ Experience: Best source of high-value, short-term results and
+payoffs.
+ Experience: Easy to produce management reports or presentation
+materials.
+ Image files that show user interface displays of (a) a sample of process model
+analysis checks, (b) process model analysis
+statistics, and (c) process model analysis
+view, can be viewed when selected.
+ Return to Overview
+
+
+ Simulation:
+ Knowledge-Based Simulation
+
+ Symbolically enacting process models in order to determine the path
+and flow of intermediate state transitions in ways that can be made persistent, 
+replayed, queried, dynamically analyzed, and reconfigured into multiple alternative
+scenarios.
+ Experience: High-value technology is infrequently used.
+ Experience: Can produce narrative summaries of simulation runs.
+ Image files that show user interface displays of (a) a process model simulation
+interaction, and a subsequent (b) a process model simulation
+narrative trace can be viewed when selected.
+A paper describing the initial design and implementation of this simulation 
+mechanism can be found in, P. Mi and W. Scacchi, "A Knowledge-Based Environment
+for Modeling and Simulating Software Engineering Processes," IEEE Trans.
+Knowledge and Data Engineering, Vol. 2(3), 283-294, (1990). Reprinted
+in Nikkei Artificial Intelligence, Vol. 20(1), 176-191, (1991, in
+Japanese). 
+  This paper can be found at http://www.usc.edu/dept/ATRIUM/Papers/Articulator.ps
+
+ 
+
+ Discrete-Event Simulation
+
+ Computationally enacting a sample of process models as network flows
+with heuristic or statistical arrival rates and service times so as to determine 
+the overall process performance envelope, throughput, systematic behavior, 
+and resource bottlenecks.
+ Experience: Although less flexible, easy to use to discover
+process optimizations.
+ Experience: Visual interactions and presentations always impress.
+ Image files that show user interface displays of (a) a discrete-event process
+model workflow simulation interaction, and a subsequent (b) simulation results display
+highlighting distribution of costs and activity-based costs can be viewed
+when selected.
+ Return to Overview
+
+
+ Redesign:
+
+ Transforming the structure and dynamic flow of data, control, or work
+products so as to reduce process cycle time, number of steps, number of inter-department 
+or inter-organizational hand-offs, number of repetitive manual processing 
+steps, etc.
+ Benefits from systematic measurement of properties of formal
+process definition/model to determine which redesign transformations or optimizations 
+may apply.
+ Benefits from the development and application of a taxonomy
+ of previously successful process redesign transformation patterns, rules,
+and consequences.
+ Experience: Cycle time reductions for recurring, routine business 
+processes of a factor of 10-1 or more are common.
+ Experience: Return on Investment in process redesign effort
+is often greater than 10-1.
+ Experience: Many, but not all, process redesigns fail during
+organizational implementation and routinization!
+
+Image files that show displays of (a) before and (b)
+  after process
+redesign, and (c) 
+example measurements on a process model that reveal possible redesign
+optimization opportunities. 
+Return to Overview
+
+
+ Visualization
+
+ Providing users with graphic views of process models and instances
+that can be viewed, navigationally traversed, interactively edited, and animated 
+to convey process statics and dynamics.
+ Experience: Process visualizations enable intuitive analysis
+and discovery.
+ Experience: Visualization appears key to acceptability.
+ Image files that show user interface displays of (a) visual process model editor
+, (b) spreadsheet-like 
+process browser, (c) graphical process model
+browser, and (d) graphical process object
+browser can be viewed when selected.
+ Return to Overview
+
+
+ Prototyping, Walkthrough, and Performance Support
+(Training On Demand)
+
+ Incrementally enacting partially specified process model instances
+in order to evaluate process presentation scenarios to end users, prior to
+performing tool and data integration.
+ Experience: Process prototyping and walkthrough is effective
+enabler for eliciting user feedback.
+ Experience: Can provide a basis for user empowerment in controlling 
+design and improvement of local processes.
+ Experience: Generation of performance support materials in
+response to process improvements or changes is well-received.
+ Image files that show user interface displays of (a) a process prototype or
+walkthrough display, and (b) a view of automatically generated process performance
+support documentation, followed by (c) another subsequent
+view of this support documentation produced in HTML can be seen when
+selected.
+ Return to Overview
+
+
+ Transition Planning and Change Management
+
+ Collaboratively developing a plan identifying the incremental steps
+organizational participants agree to perform in order to implement redesigned
+processes within their organization.
+ Changing organizational processes takes time, effort, and other resources, 
+as well as the prioritized commitment of participants to make it succeed.
+ Experience: Transition planning is itself a process that is
+often overlooked, resulting in negative consequences.
+ Experience: Radical process changes can be accomplished in
+small, incremental steps.
+
+Experience: Participants not commited to process change can engage
+in "counter-implementation" activities that seek to undercut transition efforts. 
+  
+  
+   Examples selected from a recent BPR engagement displaying a process 
+transition plan with prioritized and scheduled transition steps, plus designation 
+of responsible participants, can be found here.
+ Return to Overview
+
+
+Administration: Staffing and Scheduling
+
+ Assigning and scheduling specified users, tools, and development data
+objects to modeled user roles, product milestones, and development schedule.
+ Experience: Incremental and heuristic rescheduling functions
+always impress managers.
+ Experience: This demonstrates scheduling flexibility that may
+not be available in other tools.
+ Image files that show user interface displays of (a) a process action precedence
+order to be scheduled, (b) an initial staff schedule
+assignment, and (c) an optimized schedule
+assignment after process analysis and improvement transformations, which
+can be viewed when selected.
+ Return to Overview
+
+
+ Integration: Data, Tool, User Interface
+
+ Encapsulating or wrapping selected information systems, repositories,
+and data objects that are to be invoked or manipulated when enacting a process 
+instance.
+ Experience: Can entail a lot of difficult technical work, but
+its relatively easy to finesse when constructing "concept demostrations."
+ Experience: Growing interest in providing support for integration 
+of wide-area heterogeneous information repositories using the Internet.
+ Image files that show user interface displays of (a) multiple tools bound
+to process actions that are integrated with underlying object manager
+(not shown) via software broadcast message server (not shown).
+A paper describing the strategy and mechanisms supporting process integration 
+can be found in, P. Mi and W. Scacchi, "Process Integration for
+CASE Environments," IEEE Software, Vol. 9(2), 45-53 (1992). Reprinted
+in Computer-Aided Software Engineering, 2nd. Edition, E. Chikofsky (ed.),
+IEEE Computer Society, (1993).
+A paper describing the mechanisms support data repository integration 
+can be found at 
+http://www.usc.edu/dept/ATRIUM/Papers/Integrating_Software_Repositories.ps
+. 
+A paper describing the mechanisms support data repository integration 
+with adaptive process enactment within a virtual software development enterprise 
+can be found at http://www.usc.edu/dept/ATRIUM/Papers/DHT-95.ps
+. 
+Return to Overview
+
+
+ Target Support Environment Generation
+
+ Automatically transforming a process model or instance into a process-based 
+computing environment that selectively presents prototyped or integrated information
+systems to end-users for process enactment.
+ Experience: Considered a unique capability, not available in
+other process environments.
+ Experience: Simplifies or eliminates low-level process programming 
+via "application generator" techniques.
+ Image files that show user interface displays of (a) process-encapsulated tool
+environment that was generated via automated transformation of the modeled
+and integrated process.
+A description of this mechanism can be found in the paper P.K. Garg, 
+P. Mi, T. Pham, W. Scacchi, and G. Thunquest, "The SMART Approach to Software 
+Process Engineering," Proc. 16th. Intern. Conf. Software Engineering,
+, IEEE Computer Society, Sorrento, Italy, 341-350, (1994). 
+  Return to Overview
+
+
+ Instantiation and Enactment
+
+ Performing the modeled process using the environment by a process engine 
+that guides or enforces specified users or user roles to enact the process 
+as planned.
+ An example display
+ of a modeled process during execution.
+ We provide a "process enforcement policy variable" that allows progressive 
+relaxation of process enactment constraints (e.g., relax process step or product
+pre-conditions). This supports process maturation, but also increases likelihood
+of process breakdowns.
+
+Return to Overview
+
+
+ Monitoring and Measurement
+
+ Collecting and measuring process enactment data needed to improve subsequent 
+process enactment iterations, as well as documenting what process actions 
+actually occurred in what order.
+ Experience: Another feature found very attractive by managers.
+ Experience: Key source of data for process improvement, optimization, 
+or evolution.
+
+A paper describing different types of process measurements of interest
+can be found at M. Nissen, Valuing IT through Virtual Process Measurement, 
+  Proc. Intern. Conf. Information Systems, (1994) http://www.usc.edu/dept/ATRIUM/Papers/Process_Measurement.ps
+. 
+Return to Overview
+
+
+ Enactment History Capture and Replay
+
+ Graphically simulating the re-enactment of a process, in order to more 
+readily observe process state transitions or to intuitively detect possible 
+process enactment anomalies.
+ Experience: Visualizing and replaying process enactment histories 
+is well-received by managers and executives.
+ Experience: Supports "organizational drill-down" when process
+anomalies are observed.
+ An image file that shows a user interface display of (a) process enactment event
+history and timing measurements can be viewed when selected.
+ Return to Overview
+
+
+ Articulation
+
+ Diagnosing, repairing, and rescheduling actual or simulated process
+enactments that have unexpectedly broken down due to some unmet process resource
+requirement, contention, availability, or other resource failure.
+ Experience: A research result that is ahead of its time.
+ Image files that show user interface displays of (a) a class hierarchy of
+articulation diagnosis and repair mechanisms, which can be viewed when
+selected.
+A paper describing the design and implementation of the process articulation 
+support system can be found in the paper P. Mi and W. Scacchi, "Articulation: 
+An Integrated Approach to the Diagnosis, Replanning, and Rescheduling of Software
+Process Failures", Proc. 8th. Annual Knowledge-Based Software Engineering
+Conference, IEEE Computer Society, Chicago, IL (1993). http://www.usc.edu/dept/ATRIUM/Papers/Articulation.ps
+Return to Overview
+
+
+ Evolution: Continuous Improvement and Asset
+Management
+
+ Incrementally and iteratively enhancing, restructuring, tuning, migrating, 
+or reengineering process models and process life cycle activities to more 
+effectively meet emerging user requirements, and to capitalize on opportunitistic 
+benefits associated with new tools and techniques.
+ Formalized process descriptions or models are intellectual property 
+    that can be protected through copyright or patent.
+ Formalized process assets can be reused, distributed, and tailored
+for business practices within a corporate setting or  industrial sector.
+ Experience: One of the few process model repositories, which
+also accomodates process formalization and knowledge-based operations.
+ Experience: Another research result ahead of its time.
+ Image files that show user interface displays of (a) a process class hierarchy
+for organizing related process models, which can be viewed when selected.
+A paper describing the design and implementation of a knowledge-based 
+process repository supporting these capabilites can be found in P. Mi, M.J. Lee, and W. Scacchi, "A Knowledge-based Software Process
+Library for Process-Driven Software Development," Proc. 7th. Annual Knowledge-Based 
+Software Engineering Conference, IEEE Computer Society, Washington, DC,
+pp. 122-131, (September 1992).
+Return to Overview
+
+
+ Advanced Topics and In-Progress Efforts
+
+ Modeling 
+and Simulation for Virtual Software Acquisition
+ Process
+Technology for Virtual Enterprises
+ Reengineering
+Organizations for Process-Driven Intranets
+ Process-based 
+Interactive Teleradiology Consultation Support
+ Reengineering Procurement Process Architectures
+ and 
+Acquisition and Management of Research Grants for the U.S. Navy
+ 
+Knowledge Web Management Systems
+ 
+Software Process Reengineering
+
+ Return to Top 
+
+ Conclusions
+
+ Business process engineering is a dynamic team-based endeavor that
+can lead to mature processes through process prototyping, incremental development, 
+iterative refinement, and the reengineering of ad hoc process task instances 
+and models.
+ Process/capability engineering may be most likely to succeed when
+focused on high frequency or short cycle-time processes.
+ New techniques for rapid process design, trade-off analysis, and 
+customization are needed.
+ There are "pathological" business processes that are resistant to
+systematic (re)engineering, and thus should be avoided. These processes are
+characterized by lack of frequent repetition, ad-hoc process structure or
+flow, highly creative activities, infrequent but long-duration cycle times,
+and processes whose formalization overwhelms their simplicity.
+
+
+This interactive presentation page is maintained by Walt Scacchi who can
+be reached at the e-mail address noted above. This page was last updated
+on 28 September 99.  
+
+
+

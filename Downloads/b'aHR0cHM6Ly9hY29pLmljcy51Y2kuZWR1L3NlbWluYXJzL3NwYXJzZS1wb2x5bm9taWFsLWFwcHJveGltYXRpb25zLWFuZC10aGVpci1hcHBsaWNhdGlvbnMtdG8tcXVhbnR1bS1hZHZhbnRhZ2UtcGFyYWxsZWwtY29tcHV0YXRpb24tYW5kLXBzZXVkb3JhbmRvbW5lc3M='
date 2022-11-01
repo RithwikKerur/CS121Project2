@@ -1,0 +1,457 @@
+https://acoi.ics.uci.edu/seminars/sparse-polynomial-approximations-and-their-applications-to-quantum-advantage-parallel-computation-and-pseudorandomness
+
+
+
+
+
+
+Sparse Polynomial Approximations and their applications to Quantum Advantage, Parallel Computation, and Pseudorandomness – ACO Center @ UCI 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI  
+
+
+
+
+Algorithms, Combinatorics and Optimization 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sparse Polynomial Approximations and their applications to Quantum Advantage, Parallel Computation, and Pseudorandomness
+Home>Seminars>Sparse Polynomial Approximations and their applications to Quantum Advantage, Parallel Computation, and Pseudorandomness
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sparse Polynomial Approximations and their applications to Quantum Advantage, Parallel Computation, and Pseudorandomness 
+
+
+
+
+Date: April 1, 2019					
+
+
+
+
+
+Time: 11:00 am					
+
+
+
+
+
+Room: DBH 6011					
+
+
+
+
+
+Speaker: Avishay Tal 					
+
+
+
+
+
+				 (Stanford University)					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: This talk is motivated by three (seemingly unrelated) questions:
+For which tasks do quantum algorithms outperform classical computation?
+Does parallel computing always offer a speed-up, or are some tasks inherently sequential?
+Do randomized algorithms have deterministic counterparts with similar memory footprint?
+We make progress on all three questions by exploiting a common phenomenon at the core of their analysis: in all cases, the studied computational devices can be well-approximated by sparse multivariate polynomials. As an application towards the first question above, we show that relative to an oracle, quantum algorithms can efficiently solve tasks that are infeasible for the polynomial hierarchy (that captures P, NP, coNP and their generalizations). This settles an open problem raised by Bernstein and Vazirani in 1993.
+Looking forward, we conjecture that several other computational devices can be well-approximated by sparse multivariate polynomials.
+Proving our conjecture would resolve several big open questions in computational complexity that have remained open since the 1980s.
+
+
+
+
+
+
+Bio: Avishay Tal is a Motwani Postdoctoral Research Fellow at Stanford University, hosted by Omer Reingold. Prior to that, he was a postdoctoral researcher at the Institute for Advanced Study, hosted by Avi Wigderson. He obtained his Ph.D. in 2015 from the Weizmann Institute of Science, under the guidance of Ran Raz. His research interests include computational complexity theory, analysis of Boolean functions, quantum computing, pseudorandomness, and learning theory.
+URL: http://www.avishaytal.org/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI • Privacy Policy • © 2022 UC Regents 
+
+
+
+
+
+
+
+
+
+Close Menu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to content
+
+
+
+Open toolbar
+
+ 
+
+
+
+
+Accessibility Tools
+
+
+
+Increase Text 
+
+
+
+Decrease Text 
+
+
+
+Grayscale 
+
+
+
+High Contrast 
+
+
+
+Negative Contrast 
+
+
+
+Light Background 
+
+
+
+Links Underline 
+
+
+
+Readable Font 
+
+
+
+
+Reset
+
+
+
+
+
+
+

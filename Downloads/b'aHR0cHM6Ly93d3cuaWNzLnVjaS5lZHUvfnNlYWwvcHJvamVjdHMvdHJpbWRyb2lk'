@@ -1,0 +1,80 @@
+https://www.ics.uci.edu/~seal/projects/trimdroid
+
+
+
+SEAL - TrimDroid
+
+
+
+
+
+
+
+
+
+
+
+TrimDroid: Reducing Combinatorics in GUI Testing of Android Applications
+
+TrimDroid is a novel combinatorial approach for generating GUI system tests for Android apps.
+
+Approach Overview
+
+TrimDroid is comprised of four major components: Model Extraction, Dependency Extraction, Sequence Generation, and Test-Case Generation. Together, these components produce a significantly smaller number of test cases than exhaustive combinatorial technique, yet achieve a comparable coverage.
+
+
+TrimDroid automatically extracts two models for each Android app by using program analysis: Interface Model (IM) provides a representation of all the input interfaces of an app, including the input widgets and events for each Activity. TrimDroid uses the IM to determine how a GUI screen can be exercised in order to generate the test cases for it.
+
+
+
+        Interface Model (IM) provides a representation of all the input interfaces of an app, including the input widgets and events for each Activity. TrimDroid uses the IM to determine how a GUI screen can be exercised in order to generate the test cases for it.
+
+    
+
+        Activity Transition Model (ATM) is a finite state machine representing the event-driven behavior of an Android app, including the relationships among its Activities and their event handlers (transitions). Since our research targets GUI testing, we only extract information that is related to Activities, not other Android components (e.g., Services).
+
+    
+
+ Evaluation
+To evaluate our approach, we measure TrimDroid's ability to reduce test suites and its effect on their effectiveness. To measure effectiveness, we compare TrimDroid's code coverage and execution time against exhaustive combinatorial testing as well as prior Android testing techniques.
+
+Test-Suite Reduction:
+
+
+
+Code-Coverage vs. Exhaustive Testing:
+
+
+
+Code-Coverage vs. Android Monkey and DynoDroid:
+
+
+Publications
+
+More details about TrimDroid can be found in our publication:
+
+
+Reducing Combinatorics in GUI Testing of Android Applications 
+    Nariman Mirzaei, Joshua Garcia, Hamid Bagheri, Alireza Sadeghi, and Sam Malek
+38th International Conference on Software Engineering (ICSE 2016), Austin, TX, May 2016. (19% acceptance rate)
+[PDF]
+    
+
+Artifacts
+
+    Our evaluation results can be downloaded from here.
+    
+    Formal specification for ATM and IM in Alloy language can be downloaded from here. 
+    
+    TrimDroid is available for download from here: jar, source code
+M[agi]C models and test cases are available for download here.  
+
+
+
+
+
+
+
+
+
+

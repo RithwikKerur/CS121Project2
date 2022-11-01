@@ -1,0 +1,387 @@
+http://www.ics.uci.edu/~wmt/socialCodeGroup/projects.html
+
+Social Code Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+Social Code Group
+ 
+
+
+
+
+
+
+Home
+
+
+
+
+
+People
+
+
+
+
+
+Projects
+
+
+
+
+
+Publications
+
+
+
+
+
+Support
+
+
+
+
+
+Press
+
+
+
+
+
+Get Involved
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Greening through IT (2005-present) see also various individual projects below
+	Project Lead: Bill Tomlinson
+
+
+									Green IT is a field that explores the juncture between two growing trends - the spread of environmental concern across many human communities, and the rapid adoption of digital tools and techniques for manipulating information. Information technology is transforming societies around the world, affecting many different topics from communication between people to the workings of international politics. Green IT brings together these two areas, examining the role of information technology in supporting human responses to the world's current environmental issues.  Human minds are not well suited to thinking about problems that occur over long periods of time, large distances, and vast complexity; nevertheless, environmental problems often occur on these scales.  By helping bridge from human scales to environmental scales, information technology can help our civilization launch an appropriate response to these critical concerns.  The intent of this book is to help IT researchers and practitioners understand how they can enable human civilizations to move toward environmental sustainability, and help environmentally-minded researchers and concerned citizens see how they can use IT in support of these same goals.  This is the first book to explore the ways in which IT broadens human horizons, and thereby can help us orchestrate a viable response to the significant environmental problems currently facing the world.
+
+
+								
+
+MIT Press book |
+						UCI Course |
+						
+						NSF REU award |
+
+						CHI 2010 WIP paper |
+						CHI 2010 workshop paper |
+						CHI 2009 workshop
+
+
+
+
+
+Software Engineering for Sustainability (2008-present)
+																												Project Leads: Debra Richardson, Bill Tomlinson, Birgit Penzenstadler, Ankita Raturi
+
+
+																									Current software engineering practices lead to significant environmental impacts, such as power consumption of software operation and e-waste from computers made obsolete by software upgrades. In an exploratory survey, we found that most software users did not think about environmental sustainability when choosing a software package to perform a certain task. To compare environmental impacts of different software packages we measured energy consumption across three types of software: Internet browsers, word processing software, and audio software. We found that different software systems do have different levels of consumption. These results point toward a new research area - sustainable software engineering - that aims to create reliable, long-lasting software systems that meet the needs of users while reducing environmental impacts.
+																				
+RE4SuSy Paper
+										| ICSE NIER paper
+
+
+
+
+
+
+Collapse Informatics (2009-present)
+						Project Leads: Bill Tomlinson, Don Patterson, Bonnie Nardi
+
+Research in many fields argues that contemporary global industrial civilization will not persist indefinitely in its current form, and may, like many past human societies, eventually collapse. Arguments in environmental studies, anthropology, and other fields indicate that this transformation could begin within the next half-century. While imminent collapse is far from certain, it is prudent to consider now how to develop sociotechnical systems for use in these scenarios. This research effort explores the notion of collapse informatics - the study, design, and development of sociotechnical systems in the abundant present for use in a future of scarcity.
+
+
+													
+
+CHI 2012 paper |
+											Interactions magazine article |
+											Collapse-O-Matic Blog
+
+
+
+
+
+Resource Sharing (2010-present)
+							Project Lead: Bill Tomlinson
+				
+One of the most important functions of an organized society is to determine how to allocate limited resources to, and encourage optimal use of resources by, individual members of the society.  There are many cases, across many societies, in which resources do not appear to be optimally utilized.  One way of using resources more efficiently is to share them.  There are many examples of successful resource sharing across different cultures, from reciprocal food sharing to CouchSurfing.com. However, there are many cases where resources could be shared more effectively, but are not.  We are examining several different online and offline resource allocation systems to explore which system characteristics most effectively encourage sharing.
+
+
+
+Online System
+
+
+
+
+
+Games, Education, and Sustainability (2005-2012)
+																																												Project Leads: Bill Tomlinson, Joel Ross
+
+Computer games have significant potential as tools for education, in particular in the sustainability domain. Our research group has pursued a variety of projects in this area, including projects about restoration ecology, systems thinking, and environmental causality.
+																																				
+ACM CIE paper	| LUCI tech report
+																	|	Joel Ross's dissertation 
+
+
+
+
+
+Patent Game (2008-2010)
+								Project Leads: Bill Tomlinson and Andrew Torrance (KU School of Law)
+			
+					The Constitution empowers such spending to "provide for...the general Welfare," and further includes the Patent Clause, which authorizes Congress "To promote the Progress of Science and useful Arts, by securing for limited Times to...Inventors the exclusive Right to their...Discoveries." These clauses suggest a crucial role for scientific progress in providing for the general welfare of the U.S. However, the rationale underlying the Patent Clause, that monopoly exclusion rights encourage technological innovation, is based on centuries-old assumptions about human motivation, rather than experimental evidence. We used a participatory simulation to operationalize a legal system and explore how people interact with three different variations of patent protection. Experimental results showed that a non-patent system generated significantly more productivity and social wealth than systems offering patent protection, suggesting that patents may not serve the social ends for which they are designed.  By applying experimental evidence to theoretical issues of law, government, and society, participatory simulations offer a mechanism for helping institutions reconcile their societal goals with the particular laws and policies they use to achieve them.
+			
+
+YJOLT Paper |
+					CSTLR Paper |
+					SIULJ Paper
+
+
+
+
+
+
+Better Carbon (2009-2010)
+								Project Lead: Joel Ross
+				
+					A popular way for people to understand their environmental impact is by using an online carbon footprint calculator. Although there are a variety of such calculators available, the majority share the same form of user interaction. We analyze how, with this mode of interaction, most calculators focus on the environmental impact of individual actions without drawing attention to the broader impacts of those actions on the surrounding community and world. To address these problems, we present the Better Carbon calculator, which uses collaborative filtering and location- based calculation to provide an individual footprint estimate while simultaneously affecting and improving the estimates for other people in a user's community. This method also allows Better Carbon to be more extendable, as additional forms of impact can be considered without requiring additional user effort. Better Carbon can thus provide quicker and easier footprint estimates, and help the process of calculating a carbon footprint create stronger linkages within the communities of its users.
+							
+
+
+Site |
+					ISSST 2010 Paper
+
+
+
+
+
+GreenTracker (2008-2010)
+				                  
+								Project Lead: Nadine Amsel
+				
+
+						Green Tracker is a software system currently implemented for Mac OS X that estimates the energy consumption of software in order to help concerned users make informed decisions about the software they use. Ultimately the information gathered from this tool will be used to raise awareness and help make the energy consumption of software an important concern among software developers. 
+
+CHI WIP paper
+
+
+
+
+
+Computational Metaphor Identification (2008-2010)
+							Project Lead: Eric Baumer
+				
+					People often understand abstract or unfamiliar ideas, concepts, or experiences in terms of more familiar, concrete ones. These conceptual framings are often evidenced by systemic patterns of language, such as talking about money as if it were a liquid. Computational metaphor identification is a technique for finding such patterns and suggesting potential metaphors they might indicate. The goal in this work is not to state definitely what metaphors are being used in a given text, but rather to draw these patterns to a user's attention in order to encourage critical thinking and reflection about potential metaphors, as well as creative generation of alternative metaphors.
+
+
+Analogy 09 paper
+
+
+
+
+
+CMI in Science Education (2008-2010)
+				Project Lead: Eric Baumer
+									Using computational metaphor identification to promote critical thinking about metaphors and creative generation of alternative metaphors in the context of middle grades science education.
+
+Project Details | Creativity and Cognition Paper
+
+
+
+
+
+MetaViz (2008-2010)
+								Project Lead: Eric Baumer
+				
+				
+					metaViz is a tool designed to encourage critical thinking about conceptual metaphors among readers of political blogs. Using computational metaphor identification, a technique to identify potential metaphors in written text based on linguist patterns, metaViz displays potential metaphors in a readily accessible, interactive fashion. The visualization is updated regularly, populated with data obtained from 28 different blogs across the political spectrum. metaViz is also designed to be used collaboratively; users can share URLs linking to metaphors they find interesting, as well as post comments on the visualization itself. 
+					
+
+Site |
+						Project Details |
+						CHI Paper | SocialCom Paper
+
+
+
+
+
+ResearchWatch (2009-2010)
+											Project Lead: Tommy Chheng
+						ResearchWatch is a tool for any researcher to find and analyze the distribution of federal NSF grants.
+						
+Site
+
+
+
+
+
+Turkopticon (2009-2010)
+									Project Lead: Six Silberman
+
+									Allows workers on Mechanical Turk to rate employers. Rails web
+									application with Firefox add-on.
+
+Site |
+									Press coverage
+
+
+
+
+
+
+Understanding Mechanical  Turk (2008-2010)
+								Project Lead: Joel Ross
+				
+				
+					Amazon.com's Mechanical Turk (http://www.mturk.com) is an online system in which workers are paid small sums of money to work on projects that, while quick and easy for a human, are very difficult for computers to perform correctly and efficiently--for example, identifying and object in an image or categorizing data. Furthermore, workers have little or not context for the work they perform through this highly mediated system. In this project, we explore the question of who are the Mechanical Turkers, looking to identify the kinds of people who work on MTurk and understand the reasons (both intrinsic and extrinsic) for their participation. We are also considering how the ubiquity of monetary rewards may shape the interactions with and potential exploitations within this crowdsourcing system.
+					alt.CHI Paper
+
+
+
+
+
+Flood Risk  (2009-2010)
+													Project Lead: Bill Tomlinson
+
+									
+									Many people find it difficult to engage with environmental issues, in part because global change occurs on scales of time and space that are relatively large compared to the usual scope of human decision making. People respond enthusiastically to fast-acting disasters such as fires and earthquakes, but less so to issues that occur more gradually over many years, even when the consequences are far greater. To date, there has been little research on how to connect long-term global environmental change to human scales of time and space in a systematic way, thereby enabling behavioral change. Our efforts will focus on the science and public perception of sea level rise.
+									
+UCI Environment Institute grant
+
+
+
+
+
+Twitter Following (2009-2010)
+				Project Lead: Eric Baumer
+									A study exploring the practices of, and motivations for, following on Twitter.
+
+Project Details | CHI Microblogging Workshop Paper
+
+
+
+
+
+
+
+
+Web Browser Environmental Sustainability Toolkit (2008-2009)
+													Project Lead: Andrew Zaldivar
+									
+									The Web Browser Environmental Sustainability Toolkit (WebBEST) is a system that uses the capability of browsers to integrate popular online services (e.g., Amazon.com, Google Maps, Albertsons, Cars.com) with existing environmental databases (e.g., Electronic Product Environmental Assessment Tool, Travel Matters, Skin Deep Cosmetic Safety Database, Fuel Economy). The system subtly integrates relevant environmental information from these databases into the online services. WebBEST also features a web presence through which people can share ideas, and a framework for other developers to contribute new plugins connecting services and databases.
+Site
+
+
+
+
+
+EcoRaft (2005-2008)
+																			Project Lead: Bill Tomlinson
+
+
+														Learning about system sciences such as ecology is challenging due to the large amount of time and space over which these processes occur. To address these difficulties, we worked with ecologists and educators to create the EcoRaft Project, a participatory simulation that helps children learn about ecology by collaborating to restore a virtual rain forest. The project integrates monitors with "virtual islands" of animated plants and animals on them, and mobile tabletPCs that allow participants to move species between islands. Through a combination of lifelike creatures, colorful graphics and a novel interface, EcoRaft helps enable learning about complex ecological processes. 
+
+
+												
+
+Site |
+															Video |
+																			E-Learning Journal Paper |
+														ESA Paper |
+														CHI Paper |
+														AAMAS Paper |
+														CSCL Paper 
+									| NSF CAREER award
+
+
+
+
+
+Trackulous (2007-2008)
+								Project Lead: Bill Tomlinson
+					
+					Corporations and governments have powerful tools for tracking information to accomplish their goals. Regular people, though, lack resources to work effectively with their own information. Trackulous provides a suite of web-based tools that help people track, analyze and share their own personal information - anything from their weight, to their gas mileage, to their children's health - in ways that they themselves find useful, rather than in ways that only benefit corporations. By enabling people to work with the vast bodies of information that are important to them, Trackulous can help people improve themselves and live well-informed lives. 
+					
+
+Site |
+						MIT Press book, Ch. 7
+
+
+
+
+
+Blog Readers (2007-2008)
+													Project Lead: Eric Baumer
+									
+									Despite the growing research on bloggers, little work has focused on blog readers. This project explores blogging from the reader's perspective.
+CHI Paper |
+									ICWSM Poster
+
+
+
+
+
+GreenScanner (2005-2007)
+								Project Lead: Bill Tomlinson
+				
+					GreenScanner is a system that helps people engage in environmentally preferable purchasing during their everyday consumer transactions. This system includes an online database of community-generated environmental impact reviews, and a mobile phone application to enable consumers to access these reviews at a point of purchase. The vision for this system is to provide a forum for exchange of environmental information in a format that is reliable and exceedingly easy to access.  By doing so, the site can help people around the world make more informed decisions, and incentivize companies to engage in more environmentally sound practices.
+
+Site |
+	HICSS Paper 
+	| MSR equipment grant
+
+
+
+
+
+CalFireHelp (2007)
+													Project Lead: Bill Tomlinson
+
+
+										Professor Tomlinson's work on CalFireHelp further demonstrates the importance of real-world impact in his work. He was teaching an undergraduate class on the social impact of information technology when the 2007 California wildfires struck. He quickly worked with his students to produce a website within days that not only provided information about the state of the disaster, but helped people to find accommodation and other services when they were displaced from their homes. This system was up and running within days of the onset of the emergency.
+
+Press Release
+
+
+
+
+
+
+
+
+
+
+
+
+Informatics Department |
+                  Bren School of ICS |
+                  Calit2 |
+                  UC Irvine
+
+
+
+

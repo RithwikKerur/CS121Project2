@@ -1,0 +1,171 @@
+https://www.ics.uci.edu/~afsharr
+
+
+
+
+Ramtin Afshar
+
+
+
+
+
+
+Ramtin Afshar
+
+ About
+Experience
+Publications
+Projects
+
+
+
+
+
+About
+
+
+Ramtin Afshar
+
+
+PhD Candidate
+
+
+UC Irvine
+
+
+
+
+
+
+
+
+
+
+
+ 
+  I am a phD candidate in Computer Science at the University of California, Irvine. I'm working in the Center for Algorithms and Theory of Computation, and I'm honored to have Prof. Michael T. Goodrich as my advisor.
+
+
+Education
+
+
+        PhD in Computer Science
+        
+ University of California, Irvine 
+ 
+
+        MS in Computer Science
+        
+  University of California, Irvine 
+ 
+
+        BS in Computer Engineering
+       
+Sharif Univeristy of Technology, Iran
+
+
+
+
+Interests
+
+Graph Algorithms
+Data Structures
+Optimization
+
+
+
+
+
+
+
+
+
+
+Experience
+
+
+
+
+ Software Engineering Intern 
+  Google 
+ June 2022 - September 2022
+    Worked on a Matrix factorization model in the YouTube Music discovery team. Implemented an end to end training and evaluation pipeline. Performed a manual tuning of the model, automated the tuning process by designing and implementing an integration of the training pipeline with a black box optimization service. Achieved a better prediction quality compared to the model used in the production while significantly improving the training resources used by the pipeline.      Languages: Python, C++  
+
+
+
+ Data Analyst Intern 
+  Samsung 
+ June 2021 - September 2021
+    Implemented a variational autoencoder for CelebA dataset, tested and analyzed the performance of reading data from cluster in Pytorch using a Disaggregated Distributed Storage System.      Languages:  Python 
+
+
+
+ Graduate Research Assistant
+  University of California, Irvine 
+ September 2018 - Current
+     Working on adaptive exact learning of graphs using network oracles.  Co-authored 7 peer-reviewed papers on algorithm design and data structures, including as main author in tier A conferences such as SPAA and ESA.     
+
+
+
+
+
+
+
+
+Publications
+
+
+
+ Exact Learning of Multitrees and Almost-Trees Using Path Queries    LATIN 2022 
+   Ramtin Afshar, Michael T. Goodrich
+
+
+ Efficient Exact Learning Algorithms for Road Networks and Other Graphs with Bounded Clustering Degrees    SEA 2022 
+   Ramtin Afshar, Michael T. Goodrich, Evrim Ozel
+
+
+ Mapping Networks via Parallel kth-Hop Traceroute Queries   STACS 2022 
+   Ramtin Afshar, Michael T. Goodrich, Pedro Matias, Martha C. Osegueda
+
+
+ Parallel Network Mapping Algorithms   SPAA 2021 
+   Ramtin Afshar, Michael T. Goodrich, Pedro Matias, Martha C. Osegueda
+
+
+Reconstructing Biological and Digital Phylogenetic Trees in Parallel   ESA 2020 
+   Ramtin Afshar, Michael T. Goodrich, Pedro Matias, Martha C. Osegueda
+
+
+  Adaptive Exact Learning in a Mixed-Up World: Dealing with Periodicity, Errors, and Jumbled-Index Queries in String Reconstruction  SPIRE 2020  
+   Ramtin Afshar, Amihood Amir,  Michael T Goodrich,  Pedro Matias 
+
+
+Reconstructing Binary Trees in Parallel  SPAA 2020 
+  Ramtin Afshar, Michael T. Goodrich, Pedro Matias, Martha C. Osegueda
+
+
+
+
+
+
+
+Projects
+
+
+
+Lyrics-based Playlist Completion via Summarization  Led a research project and performed an experimental analysis to study the effect of using summary of the lyrics in the playlist completion via computing embedding for generated summary of the lyrics for Million Playlist Dataset, by RecSys Challenge 2018.  
+Variational Autoencoder for Collaborative Filtering  Implemented a published state-of-the-art variational autoencoder for recommender systems, and improved the performance results for real-world datasets ML-20M and MSD}) by tuning model parameters. (Using Tensorflow and Pytorch)  
+Income Predictor  Designed and developed supervised Machine Learning models for predicting income, including: Artificial Neural Networks, Support Vector Machines and Random Forests.  
+Football Federation Database Modeled a football federation database and implemented it with SQL. 
+ Reward and punishment management system   Analyzed, designed, and implemented a reward and punishment management system based on methods for Object Oriented System Design and Analysis.  
+ Instance-Optimal Geometric Algorithms   Worked on generating instance-optimal algorithms for convex hull problem with application in car collision avoidance for the bachelor thesis. 
+Information retrieval system by Lucence and data clustering   Created an information retrieval system for Hamshahri Newspaper Archive using Apache Lucene library and implemented some classification algorithms in Machine Learning to classify the text documents. 
+
+
+
+
+
+
+
+
+

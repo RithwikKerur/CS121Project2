@@ -1,0 +1,158 @@
+http://www.ics.uci.edu/Arcadia/atUCI.html
+
+
+
+Arcadia at UCI
+
+
+
+
+Note: The Arcadia project ended in 1997. This web site is for archival purposes;
+ we can no longer guarantee liveness of links.
+
+
+Arcadia at UCI
+
+
+
+
+The University of California, Irvine's 
+Department of Information and
+Computer Science is a member of the 
+Arcadia Consortium for research in Software Engineering Environments, 
+as part of the overall Arcadia Project.
+
+
+The Arcadia Group at UCI
+
+
+People
+
+ Principal Investigators
+ Graduate Students
+ Staff
+ Part-time Staff and Undergraduates
+ Visiting Researchers
+
+
+
+Arcadia Projects and Software
+
+UCI Arcadia projects are divided into the following areas:
+
+
+Analysis and Testing
+
+  
+ProDAG - Program Dependence Analysis Graph System
+  
+TAOS - Testing with Analysis and Oracle Support
+
+
+
+Metrics and Evaluation
+
+  Amadeus
+Measurement-Driven Analysis and Feedback System
+
+
+
+User Interface
+
+  
+Chiron User Interface System
+  
+Chiron-2 Architectural Style for GUI Software
+  
+GLAD Generic LAyout for Directed Graphs
+
+
+
+Process Support
+
+  
+Endeavors Process Support System
+  
+Teamware Process Support System
+
+
+
+Software Architecture
+
+  
+The C2 Architectural Style
+  
+Argo Design Environment
+
+
+
+Hyperware
+
+  
+Chimera Heterogeneous Hypermedia System
+  
+WebSoft: Software for Webmasters
+
+
+
+Language Processing
+
+  
+Aflex/Aeyacc: a lexical scanner and parser generator for Ada
+  
+Ada Makefile Generator (adamakegen)
+  
+Plumber: Memory leak detector for Ada
+
+
+
+ 
+Many of the above systems are available via 
+anonymous ftp from
+liege.ics.uci.edu.  
+Visit the individual project pages for direct links.
+
+
+Conferences
+
+ 
+ICSE18, Berlin
+ 
+ISSTA96, San Diego
+ 
+First Workshop on Formal Methods in Software Practice, San Diego
+ 
+Annual California Software Symposium (Formerly ISS), UC Irvine
+
+
+Industry Alliances
+IRUS, the Irvine Research Unit in 
+Software, is an alliance of applied research and technology partnerships 
+between academia and industry focused on advancing the state-of-the-art 
+and state-of-the-practice in software production. 
+
+
+Arcadia Sponsors
+
+The UCI Arcadia research group would like to thank the following
+sponsors for their support.  In all cases, the results and
+publication of our research does not necessarily reflect the 
+position or the policy of the sponsors, and no official endorsement
+should be inferred.
+
+
+ The Air Force Materiel Command, 
+     Rome Laboratory, 
+     and the 
+     Advanced Research Projects Agency 
+     under Contract Number F30602-94-C-0218.
+
+
+
+The Arcadia Project
+<arcadia-www@ics.uci.edu>
+Department of Information and Computer Science,
+University of California, Irvine, CA  92717-3425
+
+Last modified: Fri Dec  9 17:26:59 1994
+

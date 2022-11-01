@@ -1,0 +1,265 @@
+http://seal.ics.uci.edu/projects/obfuscation/index.html
+
+
+
+SEAL - DELDroid
+
+
+
+
+
+
+
+
+
+
+
+
+
+A Large-Scale Empirical Study on the Effects of Code Obfuscations on Android Apps and Anti-Malware Products
+
+Jump to ...
+
+Publication
+Presentation
+Introduction
+Leveraged Obfuscation Strategies
+Research Methodology
+Evaluation Framework 
+Studied Anti-Malware Products
+Research Questions
+Data Analysis and Results
+
+RQ1. Obfuscation Strategies
+RQ2: Obfuscation Tools
+RQ3: Time-aware analysis
+RQ4. Valid, installable, and runnable apps
+
+
+
+
+Finding 1 Code obfuscation significantly impacts Android anti-malware products. The average detection rate for the top anti-malware products decreases from 87% to 67% -- 20% decrease., 
+    Finding 2
+Majority of the Android anti-malware products are severely impacted by certain trivial obfuscation strategies, such as MAN. On average, MAN obfuscation decreases a product's detection rate by 28%.
+    , 
+    Finding 3
+  REF transformations make apps look suspicious, increasing the chance of an app being labeled as malicious. 
+    , 
+    Finding 4
+In general, combined transformations do not affect detection rates more than single transformations: The average detection rate of anti-malware products is 61% for single nontrivial obfuscations, and 61% for combined obfuscations.
+    , 
+    Finding 5
+ENC_IDR and CF_ENC_IDR are the most successful transformations for evading anti-malware products.
+    , 
+    Finding 6
+ADAM and Apktool/Jarsigner result in obfuscations that reduce anti-malware product accuracy the least, which is useful for benign authors, but works against the goals of malware authors.
+    , 
+    Finding 7
+DashO reduces the accuracy of anti-malware products more than other obfuscation tools in our study.
+    , 
+    Finding 8
+The average detection rates of anti-malware products tend to decrease over time, indicating that such products are slow to adopt signatures of malicious apps.
+    , 
+    Finding 9
+The percentage of obfuscated apps that are both installable and runnable in an order-aware fashion varies from 0%-62%. These results suggest a significant need for improving obfuscation tools so that applying their transformations retain an app's original behavior.
+    
+
+
+Publication
+
+Mahmoud Hammad, Joshua Garcia, and Sam Malek.
+A Large-Scale Empirical Study on the Effects of Code Obfuscations on Android Apps and Anti-Malware Products.
+International Conference of Software Engineering (ICSE), May 2018, Gothenburg, Sweden. (20% acceptance rate) [PDF]
+Presentation
+
+    A Large-Scale Empirical Study on the Effects of Code Obfuscations on Android Apps and Anti-Malware Products  from Mahmoud Hammad 
+
+Introduction
+
+Android is the dominant mobile platform with 85% market share, as of the first quarter of 2017. At the same time, the number and sophistication of malicious Android apps are increasin. 
+Many reasons contribute to this meteoric rise of malware apps including: (1) the relative ease of creating a piggybacked app, i.e., a mutated version of a legitimate app injected with either malicious code or embedded advertisements; and (2) the prevalence of alternative Android app stores (i.e., app stores other than the official Android app store, Google Play), on which malicious apps may be distributed to users.
+To protect mobile devices, users often rely on anti-malware products, which scan apps to determine if they are benign or malicious. However, many malware apps have previously evaded detection by these products. Examples of such malicious apps include Brain Test, VikingHorde, FalseGuide, and DressCode. These apps have infected millions of users before they were detected. To evade detection, malware authors often rely on code obfuscation, i.e., transforming a code into a form that is more difficult for humans, and possibly machines, to read, understand, and reverse engineer. These transformations change the syntax of code but not their semantics.
+To better protect the intellectual property of benign app developers and prevent cloning of their apps, several companies have developed obfuscation tools, or obfuscators for short, that implement different code transformations (e.g., identifier renaming, string encryption, reflection, etc.). Given the use of obfuscations by malware authors, the goal of this study is to assess the performance of commercial anti-malware products against various obfuscation tools and strategies. In addition, this study assesses to evaluate the ability of obfuscation tools to generate valid, installable, and runnable obfuscated Android apps.
+
+Leveraged Obfuscation Strategies
+
+
+
+To study the effectiveness of anti-malware products, we applied several different obfuscation strategies on each Android app. Table 1 shows the obfuscation strategies applied in this study along with their abbreviations. In addition to these 11 obfuscation strategies, we also applied 18 combined obfuscation strategies.
+
+
+
+
+Research Methodology
+
+
+
+
+ Study subjects
+  		
+3,000 Google Play apps
+3,000 Malicious apps
+
+ Obfuscation Tools
+  		
+Commercial tools
+
+Allatori
+DashO
+
+Open-source tools
+
+ProGuard
+Apktool
+Jarsigner
+
+Academia tools
+
+DroidChameleon
+ADAM
+
+
+
+
+
+
+
+
+
+Evaluation Framework
+
+ Available on GitHub
+
+Studied Anti-malware Products
+
+
+
+
+      To perform our analysis on anti-malware products, we have evaluated the performance and the resiliency of 61 commercial anti-malware products against obfuscations. In the paper, we included the top 21 products, shown in Table 3. In this website, we will include the results of all products.
+    
+
+
+
+
+Research Questions
+
+Our study answers the following research questions:
+  
+ RQ1. How is the accuracy of anti-malware products affected by obfuscation strategies? 
+RQ2. How is the accuracy of anti-malware products affected by obfuscation tools? 
+RQ3. How is the accuracy of anti-malware products affected by the year an app is created? 
+RQ4. To what extent do obfuscation tools result in valid, installable, and runnable apps? 
+
+
+Data Analysis and Results
+
+  To conduct this study, we have utilized our framework to obfuscated the 6,000 original apps. Table 4 shows the number of obfuscated apps resulted from applying the 29 obfuscation strategies leveraged by the obfuscation tools. Each empty cell indicates that we did not apply the corresponding obfuscation strategy from a particular obfuscation tool. In total, we have generated 73,362 obfuscated apps
+
+
+
+
+
+
+
+Detection rate on original and obfuscated apps. 
+Figure 2 shows the detection rate of 21 anti-malware products on the original dataset of 6,000 apps, depicted as black bars, and the obfuscated dataset of 73,362 apps, depicted as gray bars. Figure 2 demonstrates that the detection rate of anti-malware products on the original dataset is above 85% for 16 products, and between 75% and 85% for 4 anti-malware products.
+      
+
+
+
+
+
+
+Finding 1: Code obfuscation significantly impacts Android anti-malware products. The average detection rate for the top anti-malware products decreases from 87% to 67% -- 20% decrease.
+RQ1. Obfuscation Strategies
+ Figure 3 contains box-and-whisker plots illustrating the impact of each obfuscation strategy on all 21 anti-malware products.
+
+
+ The figure below shows the impact of each obfuscation strategy on all 61 anti-malware products.
+
+Finding 2: Majority of the Android anti-malware products are severely impacted by certain trivial obfuscation strategies, such as MAN. On average, MAN obfuscation decreases a product's detection rate by 28%.
+Finding 3: REF transformations make apps look suspicious, increasing the chance of an app being labeled as malicious.
+Finding 4: In general, combined transformations do not affect detection rates more than single transformations: The average detection rate of anti-malware products is 61% for single nontrivial obfuscations, and 61% for combined obfuscations.
+Finding 5: ENC_IDR and CF_ENC_IDR are the most successful transformations for evading anti-malware products.
+RQ2: Obfuscation Tools
+
+
+
+
+
+Figure 4 contains box-and-whisker plots illustrating the impact of each obfuscation tool on all 21 anti-malware products.
+      
+
+
+
+
+
+
+
+
+
+
+The Figure on the right contains box-and-whisker plots illustrating the impact of each obfuscation tool on all 61 anti-malware products.
+      
+
+
+
+
+
+
+
+Finding 6: ADAM and Apktool/Jarsigner result in obfuscations that reduce anti-malware product accuracy the least, which is useful for benign authors, but works against the goals of malware authors.
+Finding 7: DashO reduces the accuracy of anti-malware products more than other obfuscation tools in our study.
+RQ3: Time-aware analysis
+
+
+
+
+
+
+  A significant factor that may interact with the effect of obfuscations on anti-malware product accuracy is time. For RQ3, we conducted a time-aware analysis that studies the accuracy of anti-malware products on original and obfuscated apps that belong to the same time period for the past 10 years. Figure 5 depicts the results of this analysis. 
+To conduct this experiment, we grouped apps to two-year time periods. Each time period contains all apps developed during that time period along with their obfuscated apps.
+      
+
+
+
+
+
+Finding 8: The average detection rates of anti-malware products tend to decrease over time, indicating that such products are slow to adopt signatures of malicious apps.
+RQ4. Valid, installable, and runnable apps
+
+
+
+
+
+
+
+
+
+
+
+Finding 9: The percentage of obfuscated apps that are both installable and runnable in an order-aware fashion varies from 0%-62%. These results suggest a significant need for improving obfuscation tools so that applying their transformations retain an app's original behavior.
+
+
+
+
+
+
+  Figure 6 compares the ability of obfuscation tools to produce installable and runnable apps with the detection rate of anti-malware products against obfuscated apps by each obfuscation tool.
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,126 @@
+http://www.ics.uci.edu/~feldman/lec3F00.html
+
+
+
+
+Lec03
+
+
+ICS 131--Fall 2000--Lecture Three--3 Oct 00
+1.  Review of Lecture Two
+	E-Mail
+	Ethics and Etiquette
+		Differences and Similarities between
+		E-Mail and other forms of communication
+		Sender--Be careful what you put into e-mail;
+			You don't know who will be reading it.
+		Receiver--Be careful how you react to the
+			mail you receive
+	Carnivore
+	Should one person and a significant other share an account?
+	Be careful about list of addressees on your e-mail
+ 
+2.  Short history of the development of modern computing
+Computer	Access	Software	Usage
+IBM 650	Hands-on	Assembly	Programs, program execution
+		Cards	Early PL
+IBM 704	Cards	O/S, PL		Programs, execution, KWIC, RJE
+1410/1440	Terminals	CAI, PL	Programs, teaching, registration
+						ARPAnet, DCS
+Sigma 7	Terminals	CAI, PL	primitive net access	
+DEC 10	Displays
+		copper
+PC's 		Hands-on	application	commo as a major activity
+Work	LAN		info access	
+Stations
+Major changes:  Cost, speed, size, number of users, nature of usage
+2.5  How did these changes come about?
+	A.  More efficient use of hardware
+		Operating systems, multi-programming
+	B.  More efficient use of people
+		Time-sharing, interactive computing
+	C.  Need for real-time response
+		Air Traffic Control, Air Defense, Airline reservations
+	D.  Bottleneck model
+		Let the users in
+		Supermarkets, Libraries, Gas Stations, 
+		PC's and productivity software
+	E.  Hardware developments
+		Cost, Size, Density
+ 
+ 
+3.  How is Web used?  Beyond E-mail
+	A.  Finding Information
+		Newspapers
+		Periodicals
+		Services--Lexis-Nexis
+		Library Catalogs
+		Publications of organizations
+	B.  E-Commerce
+		Financial
+			Info on Markets
+			Buy stocks, bonds, futures, commodities
+			Loans
+			Mortgages
+		Merchandise
+			Books, CD's, PC's, Autos, Real Estate
+			Toys, Wines, groceries, discounts, auctions
+		Travel
+			Information, Tickets, Hotel Rooms
+		Entertainment
+			Radio, Video, Music, Books, E-books
+			Self-publishing
+	C.  Government programs
+			Medicare, Social Security
+			I-bonds
+			Front page
+			Legislation--Senate Bill 3939, LTC for federal employees
+	D.  Education
+			Distance Learning
+ 
+3.5  In the news, access, etc
+	A.  Pen
+	B.  Wireless Access
+	C.  Amazon's dynamic (discriminatory) pricing
+	D.  Digital signature
+4.  How big is Web business?
+5.  Impact on the economy
+6.  Is it suffering from too much hype?
+ 
+ 
+Logistics
+	Mistakes: Circuits not Currents; Course numbers
+	BW*2--jf's office
+	NY Times--thursday's--jf's office
+	Reading--	E-mail including Carnivore
+			Follow up on pre-test questions
+			Internet/Web stuff
+			Save for later
+	Attendance
+	Adds--another mistake--not e-mailing all
+	Project schedule
+		2--topic
+		3--10 references
+		4--outline--2 pp
+		5--problems--1 page
+	First quiz
+Lake, Matt.  A Pen That Could Let You Scribble Your Way Across the Internet, NY Times, 28 Sep 00, D12
+[web access)
+Austen, Ian.  Meet the New Web.  Same as the Old Web. [With Few Pages (and Users), the Wireless Web Is, for Better and Worse, What the Net Used to Be] NY Times, 28 Sep 00, D1, D8
+[web access)
+The Next Downturn [Cover Story] BW, 9 Oct 00, 167-184
+[just look for 2 reasons why IT might trigger a downturn]
+Elstein, Aaron.  Defending Right to Post Message: 'CEO is a Dodo",
+WSJ, 28 Sep 00, B1, B12
+[Save for future reference]
+Rewick, Jennifer.  Priceline's Stock Plunges on Revenue Warning, WSJ, 28 Sep 00, B6
+[just one of several drop in stock price]
+Huffstutter, P.J., and Fields, Robin. 'The Dirty Little Secret of the Dot-Com World', LA Times, 1 Oct 00, A1, A32
+[Save for future reference]
+Goldman, Abigail.  Mattel Cuts its Losses by Giving Learning Co Away, LA Times, 30 Sep 00, C1, C3.
+[Another case of  financial problems in IT business]
+Sanders, Edmund.  Psst! CPO's Are Secret Agents, LA Times, 1 Oct 00, W1, W3
+[Save for future reference]
+1 Oct 00/jf
+ 
+

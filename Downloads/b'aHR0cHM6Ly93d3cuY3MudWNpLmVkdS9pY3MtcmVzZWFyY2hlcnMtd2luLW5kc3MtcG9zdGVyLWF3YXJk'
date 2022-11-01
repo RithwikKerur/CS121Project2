@@ -1,0 +1,138 @@
+https://www.cs.uci.edu/ics-researchers-win-ndss-poster-award
+
+
+
+
+ICS Researchers Win NDSS Poster Award 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ this is a widget called second front page widget area
+
+Explore
+
+Contact Us
+
+
+Faculty
+Research
+
+Research Areas
+Research Centers
+
+
+Graduate Degrees
+
+Computer Science Programs
+Current Graduate Students
+
+
+Undergraduate Degrees
+News  & Events
+
+News
+Seminar Series
+Distinguished Lecture Series
+Research Showcase
+
+
+Apply Now
+
+Undergraduate Admissions
+Graduate Admissions
+Faculty Candidates
+
+
+ICS Researchers Win NDSS Poster Award
+March 7, 2019 
+For autonomous vehicles (AVs) to be safe, their systems must not only be accurate but also secure — how do AVs defend against attacks? A group of researchers from the Donald Bren School of Information and Computer Sciences (ICS) is exploring this, looking in particular at GPS spoofing attacks. The group recently received the Distinguished Poster Presentation Award for new work at the Network and Distributed System Security (NDSS) Symposium, a top-tier academic conference in computer security.
+
+The poster, “Security Analysis of Multi-Sensor Fusion based Localization in Autonomous Vehicles,” was presented by computer science Ph.D. student Junjie Shen. It is the result of his collaboration with fellow graduate student Jun Yeon Won, Shinan Liu of the University of Electronic Science and Technology of China, and UCI Computer Science Professors Alex Veidenbaum and Qi Alfred Chen.
+ Ph.D. student Junjie Shen and the award-winning poster he presented at NDSS 2019. 
+“I was very surprised when I saw our names on the screen, since there were so many excellent works in the poster session,” says Shen. “I think the reason we got this award is largely due to the importance of the work.”
+Their work analyzes the security property of the localization module in AVs. As Shen explains, “localization is the process the AV uses to estimate its current location, which serves as a basis for other components in the AV system such as obstacle perception and path planning.” According to Shen, current AV systems usually adopt a multi-sensor fusion (MSF) algorithm that can combine data from multiple sensors to provide localization estimates with centimeter-level accuracy.
+“We leveraged a classic and practical sensor attack vector called GPS spoofing in our security analysis of the MSF,” says Shen. Their initial results show that GPS spoofing can cause estimate errors of up to 2 meters in 10 seconds, which he says is large enough for the vehicle to move into the “wrong traffic lane and make incorrect or even unsafe driving decisions.”
+The researchers are currently working on the full paper for the project, which will include additional analyses and several defense recommendations for this type of attack.
+— Shani Murray
+« Senior Spotlight: UCI Sets Up Dante Chakravorti for Continued Success in Computer Science and Volleyball After GraduationSecuring Self-Driving and Smart Transportation »
+
+Latest news
+
+
+Senior Spotlight: Tennis Player and CS Major Matthew Sah Serves Up Aces On and Off the Court
+September 28, 2022
+
+
+Register Today for the Southern California AI & Biomedicine Symposium
+September 20, 2022
+
+
+CPO Magazine: “A Legal View of New NIST Quantum-Resistant Algorithms” by Bryan Cunningham
+September 19, 2022
+
+
+UCI Ranked 24th in Undergraduate Computer Science Programs by U.S. News & World Report
+September 16, 2022
+
+
+Senior Spotlight: Jose Cisneros Builds Impressive Resume with Trio of Internships
+September 15, 2022
+
+
+
+
+ 
+
+
+
+
+
+© 2022 UC Regents
+Feedback
+Privacy Policy
+
+
+
+ 
+
+
+
+

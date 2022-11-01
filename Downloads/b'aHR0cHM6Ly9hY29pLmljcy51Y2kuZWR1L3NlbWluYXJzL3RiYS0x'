@@ -1,0 +1,452 @@
+https://acoi.ics.uci.edu/seminars/tba-1
+
+
+
+
+
+
+Learning and Decision-Making with Proxies – ACO Center @ UCI 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI  
+
+
+
+
+Algorithms, Combinatorics and Optimization 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Learning and Decision-Making with Proxies
+Home>Seminars>Learning and Decision-Making with Proxies
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Learning and Decision-Making with Proxies 
+
+
+
+
+Date: October 10, 2019					
+
+
+
+
+
+Time: 2:00 pm					
+
+
+
+
+
+Room: DBH 4011					
+
+
+
+
+
+Speaker: Hamsa Bastani 					
+
+
+
+
+
+				 (UPenn)					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: Decision-makers are often faced with a wealth of data, some of which are “gold standard” (the desired outcome) while the majority are “proxies” (closely related outcomes that still provide relevant information). For example, e-commerce platforms often use abundant customer click data (proxy) to make product recommendations rather than sparse customer purchase data (true outcome of interest); clinical trial regulators sometimes use quickly-observed surrogate outcomes like progression-free survival (proxy) to make drug approval decisions instead of overall survival (true outcome of interest). I will discuss two papers addressing the challenge of efficiently combining true and proxy data to improve decision-making.
+The first paper considers personalized recommendations in high dimension, with a large amount of proxy data and a small amount of true data. We propose a novel two-step estimator that provably achieves the same accuracy as common heuristics used by data scientists with exponentially less true data. We demonstrate its effectiveness on e-commerce and healthcare datasets. The second paper considers clinical trials where the true outcome of interest takes a long time to measure relative to surrogate outcomes. We propose a new adaptive clinical trial design that leverages both surrogate and true outcomes to inform trial decisions. We illustrate our proposed design on a large-scale clinical trial database for metastatic breast cancer, estimating a 5% increase in trial benefits relative to existing clinical trial designs.
+Based on joint work with Arielle Anderer (Wharton) and John Silberholz (Michigan Ross).
+
+
+
+
+
+
+Bio: Hamsa Bastani is an assistant professor of operations, information, and decisions at the Wharton School, University of Pennsylvania. Her research focuses on data-driven decision-making and statistical learning, with applications to healthcare, revenue management, and social good. Her work has been recognized by the George Nicholson, MSOM, IBM Service Science, and Health Applications Society best student paper awards, the INFORMS Pierskalla best paper award, and the Early-Career Sustainable OM People’s Choice award.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI • Privacy Policy • © 2022 UC Regents 
+
+
+
+
+
+
+
+
+
+Close Menu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to content
+
+
+
+Open toolbar
+
+ 
+
+
+
+
+Accessibility Tools
+
+
+
+Increase Text 
+
+
+
+Decrease Text 
+
+
+
+Grayscale 
+
+
+
+High Contrast 
+
+
+
+Negative Contrast 
+
+
+
+Light Background 
+
+
+
+Links Underline 
+
+
+
+Readable Font 
+
+
+
+
+Reset
+
+
+
+
+
+
+

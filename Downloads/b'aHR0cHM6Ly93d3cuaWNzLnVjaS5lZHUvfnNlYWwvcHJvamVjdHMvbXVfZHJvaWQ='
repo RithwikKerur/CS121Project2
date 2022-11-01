@@ -1,0 +1,50 @@
+https://www.ics.uci.edu/~seal/projects/mu_droid
+
+
+
+
+SEAL - Energy-Aware Test-Suite Minimization for Android Apps
+
+
+
+
+
+
+
+
+
+
+
+An Energy-Aware Mutation Testing Framework for Android
+
+    The rising popularity of mobile apps deployed on battery-constrained devices underlines the need for effectively evaluating their energy properties. However, currently there is a lack of testing tools for evaluating the energy properties of apps. As a result, for energy testing, developers are relying on tests intended for evaluating the functional correctness of apps. Such tests may not be adequate for revealing energy defects and inefficiencies in apps. This paper presents an energy-aware mutation testing framework, called  μDroid, that can be used by developers to assess the adequacy of their test suite for revealing energy-related defects. μDroid implements fifty energy-aware mutation operators and relies on a novel, automatic oracle to determine if a mutant can be killed by a test. Our evaluation on real-world Android apps shows the ability of proposed mutation operators for evaluating the utility of tests in revealing energy defects. Moreover, our automated oracle can detect whether tests kill the energy mutants with an overall accuracy of 94%, thereby making it possible to apply μDroid automatically.
+
+Approach Overview
+
+Our framework for energy-aware mutation testing of Android apps, consisting of three major components: (1) Eclipse Plugin that implements the mutation operators and creates a mutant from the original app; (2) Runner/Profiler component that runs the test suite over both the mutated and original versions of the program, profiles the power consumption of the device during execution of tests, and generates the corresponding power traces (i.e., time series of profiled power values); and (3) Analysis Engine that compares the power traces of tests in the original and mutated versions to determine if a mutant can be killed by tests or not.
+
+
+Tool
+
+The tool is available for download from here.
+
+Publications
+
+More details about can be found in our publication below:
+
+
+μDroid: An Energy-Aware Mutation Testing Framework for Android 
+    Reyhaneh Jabbarvand and Sam Malek
+11th joint meeting of the European Software Engineering Conference and ACM SIGSOFT Symposium on the Foundations of Software Engineering (ESEC/FSE 2017), Paderborn, Germany, July 2016. (21% acceptance rate)
+[PDF]
+    
+
+
+
+
+
+
+
+
+
+

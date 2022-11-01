@@ -1,0 +1,30 @@
+http://www.ics.uci.edu/Arcadia/Teamware/demo/browser.html
+
+
+Online Interactive Teamware Demo, Browser
+
+
+
+The Category browser allows the user to browse Categories,
+Specifications, and Instances.  It is a cascading browser in that
+Specifications are based on Categories, and Instannces are based
+on Specifications.  
+
+
+
+
+
+
+
+
+
+CATEGORY
+
+SPECIFICATION
+
+INSTANCE
+
+DISMISS
+
+
+

@@ -1,0 +1,140 @@
+http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm
+
+
+
+Architectural Styles and the Design of Network-based Software Architectures
+
+
+
+
+UNIVERSITY OF CALIFORNIA, IRVINE
+Architectural Styles and
+the Design of Network-based Software Architectures
+
+DISSERTATION
+
+submitted in partial satisfaction of the requirements for the degree of
+
+DOCTOR OF PHILOSOPHY
+
+in Information and Computer Science
+
+by
+
+Roy Thomas Fielding
+
+2000
+
+ 
+
+Dissertation Committee:
+Professor Richard N. Taylor, Chair
+Professor Mark S. Ackerman
+Professor David S. Rosenblum
+
+PDF Editions
+
+1-column for viewing online
+2-column for printing
+
+Table of Contents
+
+Dedication
+Acknowledgments
+Curriculum Vitae
+Abstract of the Dissertation
+Introduction
+CHAPTER 1: Software Architecture
+
+1.1 Run-time Abstraction
+1.2 Elements
+1.3 Configurations
+1.4 Properties
+1.5 Styles
+1.6 Patterns and Pattern Languages
+1.7 Views
+1.8 Related Work
+1.9 Summary
+
+CHAPTER 2: Network-based Application Architectures
+
+2.1 Scope
+2.2 Evaluating the Design of Application Architectures
+2.3 Architectural Properties of Key Interest
+2.4 Summary
+
+CHAPTER 3: Network-based Architectural Styles
+
+3.1 Classification Methodology
+3.2 Data-flow Styles
+3.3 Replication Styles
+3.4 Hierarchical Styles
+3.5 Mobile Code Styles
+3.6 Peer-to-Peer Styles
+3.7 Limitations
+3.8 Related Work
+3.9 Summary
+
+CHAPTER 4: Designing the Web Architecture: Problems and Insights
+
+4.1 WWW Application Domain Requirements
+4.2 Problem
+4.3 Approach
+4.4 Summary
+
+CHAPTER 5: Representational State Transfer (REST)
+
+5.1 Deriving REST
+5.2 REST Architectural Elements
+5.3 REST Architectural Views
+5.4 Related Work
+5.5 Summary
+
+CHAPTER 6: Experience and Evaluation
+
+6.1 Standardizing the Web
+6.2 REST Applied to URI
+6.3 REST Applied to HTTP
+6.4 Technology Transfer
+6.5 Architectural Lessons
+6.6 Summary
+
+Conclusions
+References
+
+List of Figures
+
+Figure 5-1. Null Style
+Figure 5-2. Client-Server
+Figure 5-3. Client-Stateless-Server
+Figure 5-4. Client-Cache-Stateless-Server
+Figure 5-5. Early WWW Architecture Diagram
+Figure 5-6. Uniform-Client-Cache-Stateless-Server
+Figure 5-7. Uniform-Layered-Client-Cache-Stateless-Server
+Figure 5-8. REST
+Figure 5-9. REST Derivation by Style Constraints
+Figure 5-10. Process View of a REST-based Architecture
+
+List of Tables
+
+Table 3-1. Evaluation of Data-flow Styles for Network-based Hypermedia
+Table 3-2. Evaluation of Replication Styles for Network-based Hypermedia
+Table 3-3. Evaluation of Hierarchical Styles for Network-based Hypermedia
+Table 3-4. Evaluation of Mobile Code Styles for Network-based Hypermedia
+Table 3-5. Evaluation of Peer-to-Peer Styles for Network-based Hypermedia
+Table 3-6. Evaluation Summary
+Table 5-1. REST Data Elements
+Table 5-2. REST Connectors
+Table 5-3. REST Components
+
+
+
+
+[Next]
+
+© Roy Thomas Fielding, 2000.  All rights reserved.
+
+[How to reference this work.]
+
+
+

@@ -1,0 +1,1363 @@
+http://www.ics.uci.edu/%7Ewscacchi/Papers/VISTA/VISTA.html
+
+
+
+
+
+
+
+VISTA'97 Paper
+
+
+
+ Virtual System Acquisition:
+Approach and Transitions
+
+Walt Scacchi and Barry Boehm
+University of Southern California 
+Los Angeles, CA 90089-1421 USA 
+213-740-4782, 213-740-8494 (fax) 
+wscacchi@rcf.usc.edu, boehm@sunset.usc.edu 
+July 1997 
+ Revised version appears in Acquisition Review
+Quarterlty, 5(2):185-216, Spring 1998
+
+
+ Abstract
+
+In this paper, we describe a radically new approach for the acquisition
+of software-intensive systems. We start by reviewing problems and
+opportunities for improving the acquisition of these systems. We put
+forward a statement of objective on the need to make the software
+system acquisition more agile and adaptive, through the evolutionary
+modeling, simulation, and development of the system being acquired. We
+describe a new vision for the re-tooling and re-engineering software
+system acquisition into a form we call, VISTA , denoting an
+approach to the virtual acquisition of these systems. We then outline
+the VISTA approach to software acquisition. This is followed by a
+discussion of the technical and organizational transitions that must be
+investigated and managed to ensure the eventual success of such a
+radical change to software system acquisition. 
+ 
+ 
+
+
+About the authors
+
+Walt Scacchi is a research professor and Director of the
+ATRIUM Laboratory, Marshall School of Business, at USC. He has been on
+the faculty at USC since 1981, and is a faculty principal at the USC
+Center for Software Engineering. 
+Barry Boehm is the TRW Professor of Software Engineering and
+Computer Science at USC, and Director of the USC Center for Software
+Engineering. Between 1989 and 1992, he served within DoD as Director of
+the DARPA Information Science and Technology Office and the Software
+and Intelligent Systems Technology Office. He also served as Director
+of the DDR&E Software and Computer Technology Office, and as
+Director of two major DoD software initiatives: the DoD Software
+Technology Plan and the DDR&E Software Action Plan. 
+ 
+
+
+Acknowledgments
+
+Preparation of this article was supported by grants from the Air
+Force Rome Laboratory and the Deputy Assistant Secretary of the Air
+Force for Computers, Communications, and Support Systems, under
+contract F30602-94-C-0195, and the Office of Naval Research, under
+contract N00014-94-1-0889. None of the material in this report should
+be construed as a statement of policy, procedure, or endorsement by
+ONR, US Air Force, US Navy, or any other US government agency. 
+ 
+
+ Problems and Opportunities for Improving
+Acquisition
+The acquisition of major software-intensive systems is often
+problematic. Recent reports from the US General Accounting Office
+(E.g., GAO 1995, GAO 1997) describe a number of problems with the way
+complex systems are acquired. The current problems in their
+acquisition include:
+
+ difficulty in establishing viable and cost-effective system
+requirements
+ overly optimistic cost, schedule, and performance estimates
+ concurrent development and production of systems
+ commitment to system production before adequate demonstration or
+testing that determines system viability is completed.
+
+To no surprise, modern and future weapon systems increasingly represent
+software-intensive systems. In addition, DoD and other government
+agencies rely on the acquisition and use of computer-based information
+systems to manage their recurring organizational and operational
+activities. Many of these management information systems are often
+running on out-dated computing platforms that must be replaced or
+modernized.
+DoD has established acquisition strategies that move it toward
+commercial acquisition practices. One strategy embodies the idea that
+the feasibility and ability to produce advanced technologies can often
+be demonstrated before they are incorporated into acquisition programs.
+For example, the use of advanced concept technology demonstrations can
+more directly involve war fighters/users in demonstrating the
+operational feasibility of new technologies and concepts before
+commitments are made to full-scale acquisition. Another strategy rooted
+in the Defense Acquisition Workforce Improvement Act (DAWIA)
+establishes benchmarks for a more professional acquisition workforce
+with defined training and education requirements, and acquisition
+career paths. The goal of this act is to provide an acquisition
+workforce that is more responsible for improving program costs and
+schedule estimates. Finally, in 1994 OSD began pursuing a strategy to
+re-engineer the systems acquisition review process. This includes an
+effort to reduce acquisition costs (including overhead costs) through
+the adoption of business processes characteristic of world-class
+commercial buyers and suppliers. 
+The overall way in which the federal government conducts its
+acquisition practices has been reviewed and redesigned in response to
+the Federal Acquisition Streamlining Act (FASA) of 1994. Among other
+things, the FASA requires incentives and a performance-based approach
+to managing acquisition programs. This emphasizes streamlining the
+acquisition process and proposes greater reliance on commercial
+products and processes. Also, concepts for applying commercial practices
+to DoD software system acquisition have been addressed in Defense
+Science Board reports. 
+Thus, we are at a time when there is substantial opportunity to
+rethink how the acquisition of software-intensive systems should occur
+to address the recurring problems. At the same time, we should pursue
+new opportunities to re-engineer the systems acquisition process 
+that can realize savings, efficiencies, increased satisfaction, and
+continuous improvement. Similarly, we should provide a strategy for
+managing the transition to these re-engineered system acquisition
+processes, as they can represent a radical departure from current
+practices. Subsequently, we seek to explore how these opportunities
+can be pursued through use of advanced information processing tools,
+techniques and concepts. Our objective is to make the acquisition of
+software-intensive systems more agile and adaptive. Relevant
+information technologies include those for: (1) re-tooling system
+acquisition processes to better assess the feasibility of system
+acquisitions; (2) digital libraries for organizing and sharing
+information gathered during system acquisitions and program management;
+and (3) Internet-based electronic commerce services and capabilities for
+streamlining procurement actions, lead times, and supply chain logistics
+(cf. Nissen 1997, Scacchi 1997). However, in this paper and in related
+materials (Boehm and Scacchi 1996), we focus our discussion to the
+first of these areas. 
+
+ Steps toward more agile acquisition of future
+systems
+In general terms, our overall goal is to address the recurring problems
+that plague system acquisition efforts. Our approach suggests 
+ways in which new modeling and simulation techniques can help in
+re-engineering how software-intensive systems are acquired by the DoD
+and other government agencies. This means that we seek to identify new
+concepts, tools, and techniques for acquiring software-intensive
+systems that fulfill four goals: First, to establish viable and
+cost-effective system requirements. Second, to establish realistic
+cost, schedule, and performance estimates. Third, to mitigate against
+concurrent development and production of systems. Fourth, to enable
+adequate demonstration and testing of system viability before a
+commitment to system production must be made. Based on the results from
+a series of workshops and Blue Ribbon Panels of leading military,
+industry, and academic experts that addressed the problems of 
+large-scale software system acquisition (Boehm and Scacchi, 1996), we
+can identify five issues involved in achieving and transitioning to the
+overall goal:
+We need to first baseline our current understanding of strengths
+and weaknesses of current "as-is" process capabilities for acquiring
+software-intensive systems. Guidelines, best practices, and lessons
+learned are being collected and disseminated. The Software Technology
+Support Center (STSC 1995) and the Software Program Managers Network
+(SPMN 1997) have assembled recent collections. Nonetheless, we also
+need to understand how they are employed; as well as identify the
+operational problems which may inhibit their application and success. 
+We need to develop scenarios for new "to-be" acquisition process
+capabilities that exploit an evolutionary "virtual" approach to the
+acquisition of software-intensive systems. Such an approach
+emphasizes the incremental acquisition of virtual prototypes for a
+new software-intensive system. These prototypes start as models of
+the intended system. These system models can be analyzed and simulated
+to determine which system requirements and risks have been addressed.
+As familiarity and confidence with the prototypes' increases, their
+realism and functionality increases with the incremental integration of
+system components. In this way, virtual prototypes of systems can be
+incrementally modeled and iteratively reconfigured with simulated or
+actual subsystem components. The development and production of a
+growing number of complex Electro-mechanical assemblies are now
+designed, tested, and refined through the use of computational models
+and simulations as virtual prototypes (Garcia, Gocke, and Johnson
+1994). Similarly, the availability of Battle Labs suggests the use of
+virtual battlefields and command centers for trying out or exercising
+complex defense systems in alternative scenarios, through
+computer-based modeling and simulation test-beds operating within
+networked laboratories (Cothran 1996, Wilson 1996). Accordingly,
+approaches such as these may also prove to be effective in supporting
+the acquisition of software systems. In this way, viability and
+cost-effectiveness of system requirements can be demonstrated,
+validated, and refined in an incremental manner. Similarly, estimates
+for the cost, schedule, and performance of an ever-more complete actual
+system can also be developed and refined incrementally. Subsequently,
+we should also consider developing methods and scenarios for how to
+transition from the as-is to the to-be acquisition process we envision. 
+We need to articulate the design and operational concept for a
+wide-area modeling and simulation infrastructure whose primary purpose
+is to serve as a test-bed/delivery platform for agile acquisition of
+software-intensive systems. Such an infrastructure may need to
+support collaboration and resource sharing between software system
+researchers and developers at geographically distributed sites. It may
+operate as a modeling and simulation collaboratory (Kouzes,
+Meyers, and Wulf 1996) for software system acquisition. Similarly, such
+an infrastructure may need to support a hypermedia repository or
+digital library of technical data and information that can be accessed
+and shared over the Internet or World Wide Web (WWW). Such a digital
+library should store and organize access to software acquisitions
+assets. These may include publications, model and simulation libraries,
+reusable software subsystem components, system demonstration scenarios,
+multi-media presentations and annotations. In addition, the digital
+library may provide paths to super computing environments that support
+massively parallel simulations, etc. 
+We also want to understand how future acquisition processes or
+capabilities might exploit the full range of technology
+strategies/options at hand. The goal is to minimize cost, maximize
+customer satisfaction (via system performance and quality attributes)
+and minimize acquisition/development cycle time. Relevant technologies
+that can support this goal include the use of knowledge-based systems,
+multi-media, the Internet, electronic commerce for selling and buying
+software components, architecture-based software system development,
+high performance computing and communications, etc. Will new modes of
+academic research or industrial activity be required to most
+effectively support agile acquisition? If so, what are they? Similarly,
+what institutional or marketplace incentives are needed to help make
+them happen? 
+We need to prioritize and estimate the relative costs and
+benefits of candidate investments in modeling and simulation
+capabilities that support software system acquisition. We need to
+identify areas in which needs can be met largely through available
+technology. We also need to identify areas in which acquisition
+research and the development of automated acquisition support
+environments promise an attractive return-on-investment. 
+ Background and Foreground
+We may now be at the threshold of a new era in the acquisition and
+development of software-intensive systems. From this point, we can
+look back to where we have been and what we have experienced. Then we
+can look forward toward the horizon to see what lies ahead.
+ Looking back: why use models and simulations to support program
+acquisitions
+In looking back, we see that the acquisition and development of
+software-intensive systems was guided by the classic "waterfall"
+system life cycle. In such an approach, DoD customers were expected to
+be able to articulate their needs and requirements for new system
+capabilities prior to system development. Developers or contractors
+could then take these requirements as their starting point. Then they
+would systematically develop, test, and deliver results to the customer
+according to a sequence of development milestones and documentation
+standards. While this approach has much rational appeal, its practice
+and outcome was often less than satisfactory. The overall experience
+was that it was difficult for customers to fully articulate their
+system requirements prior to the beginning of system development.
+Furthermore, when system development took years, the customer (and the
+developer) recognized their requirements were changing, sometimes very
+rapidly. Consequently, far too many systems developed under contract
+were delivered that did not meet critical system requirements. In the
+worst cases, the software systems were effectively non-operational.
+Subsequently, more customers and developers began to recognize that
+perhaps these shortfalls in software acquisition and development were
+systemic, rather than simply characteristic of particular programs or
+development organizations.
+In response to the seemingly inevitable shortfalls with the classic
+approach, effort to find an alternative began. This led to an
+incremental "spiral" development approach. In the classic approach,
+there is little visibility regarding operational software system
+capabilities until late in the development cycle. In contrast, the
+spiral approach embraces a more evolutionary and iterative development
+model. Accordingly, operational software capabilities become visible in
+evolutionary increments, rather than all at once. Subsequent
+development iterations then add and integrate more increments until the
+final system is ready. Thus the spiral approach seeks to build and
+deliver software-intensive systems through evolutionary development.
+Consequently, guidelines now put forth in military or public standards
+such as  MIL-STD-498, ANSI J-STD-016, and US 12207 encourage use
+of an incremental spiral approach when acquiring and developing
+software intensive systems. 
+Why should we use models and simulations to support the incremental
+acquisition of complex software systems? In simplest terms, we can
+identify three reasons: First, to facilitate early identification and
+reduction the risks associated with complex system acquisition
+programs. Second, to better understand what kinds of system
+requirements and architectures are feasible and affordable given
+various programmatic and technological constraints. Third, to gain
+insight into how to better manage system engineering effort so as to
+improve the overall likelihood of a successful, acquisition effort.
+However, the creation, use, and reliance of models and simulations to
+support incremental acquisition efforts cannot guarantee such outcomes.
+Clearly, models and simulations of complex systems will never be more
+than assumption-laden approximations of the systems being acquired.
+This is the fate of all models and simulations (cf. Smith 1996).
+Nonetheless, the process of building, using, and evolving such
+models and simulations in support of decision-making activities in
+large system acquisition efforts can be characterized as one of  consensus
+validation (Dutton and Kraemer 1985). Thus, the value of supporting
+system acquisition through modeling and simulation will be found in the
+process of working with them, rather than in the calculations performed
+along the way. Modeling and simulation can be employed to help identify
+where consensus can be established and validated, as well as to
+identify where disagreements can be found, and their  consequences
+examined. 
+Program managers, contractors, customers, and acquisition
+directorate staff can employ models and simulations coordinated by a
+negotiation support system. Such a system can support the elicitation,
+capture, and validation of points of agreement among system acquisition
+participants. In addition, such a system can help these people surface
+assumptions, debate their merits or implications, and negotiate
+alternative system configurations and functional features (cf. Boehm et
+al. 1995). In this manner, computer-based models and simulations,
+together with an information sharing and negotiation support
+environment, provide a  more articulate medium to express opinions
+and stimulate alternative conceptions of system acquisition problems
+and challenges. Without such articulate models and simulations, system
+acquisition participants are left to their private intuitions and
+conceptions of system design, program cost drivers, and the like. This
+in turn can easily obscure problems in system design or performance,
+increase the likelihood of miscommunication and systemic conflict, and
+increase the likelihood of problematic system acquisition and costly
+post-deployment support of the resulting systems. Thus, we believe that
+models, simulations, and associated environments can play a significant
+role in supporting the incremental acquisition of complex software
+systems. 
+ Looking ahead: An emerging case study
+We see many opportunities for improving the effectiveness and
+responsiveness of the acquisition of software-intensive systems across
+their life cycle. Many of these opportunities result from the
+availability of new technologies and development capabilities that
+make the acquisition of software-intensive system more agile. Agility
+can lead to more cost-effective, more timely, and higher quality
+results in software system acquisition. Modeling and simulation
+technologies that support virtual prototyping (Garcia, Gocke, Johnson
+1994) and simulation-based design of complex hardware systems
+are being used to support major program acquisitions, such as that for
+the SC-21 class of battleships (SC21, 1997). We believe a similar
+effort is appropriate for acquisition of the large software systems
+associated with such hardware systems. Accordingly, by examining the
+currently proposed software systems intended to support  SC-21
+class ships, we can better motivate and articulate a vision for how new
+modeling and simulation technologies can be used to help support the
+incremental acquisition of complex software systems. 
+  
+ 
+There is no single architecture or final design envisioned for SC-21
+ships. Instead, the SC-21 ships could be built following the commercial
+practice of developing a product line with common subsystems or
+reusable designs. Figure 1 helps show what this means. Here we see four
+alternative views of the overall architecture of SC-21 ships. The
+intent to enable the choice of the final architecture of each ship to
+be determined by emerging need or threat. Nonetheless, any such SC-21
+ship will still have some configuration of common sub-systems for
+weapons, command deck, flight operations, etc. As such, all of the
+alternative versions of ship architecture displayed in Figure 1 would
+be members of the SC-21 product line. 
+
+ 
+Figure 1. Alternative overall architectures for SC-21 ships (SC21,
+1997)
+
+Building these ships according to different architectural
+configurations represents a fundamental change in how such ships will
+be acquired, developed, and operated. The system life cycle for these
+ships will be iterative, incremental, and ongoing. Figure 2 conveys a
+vision for how various computer-based modeling and simulation
+technologies, such as virtual weapon system modeling and
+simulation-based design, may be employed to support the acquisition,
+development, and operation of SC-21 ships. 
+  
+  
+
+
+
+ 
+Figure 2. Vision for how modeling and simulation can support new
+system acquisition and development (SC21, 1997)
+
+
+
+
+SC-21 ships will be software-intensive systems. All major
+sub-systems and overall system capabilities supporting each ship's
+operations depend on software. Figure 3 proposes a suggested allocation
+of shipboard sub-system capabilities that will be implemented in
+software systems. Total number of software instructions or source lines
+of code (SLOC) to realize the proposed capabilities is estimated at
+greater than 8.4 million SLOC. However, much of this software can
+potentially be reused across the SC-21 line of ships. Nonetheless,
+development costs for software of this size and complexity is often
+estimated in the range of  $100,000,000 to $1,000,000,000. Thus,
+what can be done to help (a) understand the feasibility of alternative
+software sub-system architectures associated with the SC-21 ship
+family, and (b) manage the progress, costs, and risks associated with
+the acquisition and development of this software. 
+  
+  
+
+
+
+  
+  
+  
+Figure 3. Software systems proposed for SC-21 ships (SC21, 1997)
+
+At present, there is an emerging consensus for what 
+technological capabilities are needed to support the acquisition and
+development of software-intensive systems such as the family of SC-21
+ships (cf. Boehm and Scacchi, 1996). Much like the SC-21 family of ship
+hardware and major sub-systems employs recent advances in modeling and
+simulation technologies, similar technologies could be brought together
+to support the acquisition and development of the software systems for
+these ships. Accordingly, we can now outline a strategy for how this
+would work. We then follow with a discussion of the technological and
+organizational transitions likely to be encountered in the course of
+adopting this strategy.  Along the way, we describe an
+approach  for how to assess the feasibility of complex software
+systems through its incremental development spiral. In addition, we
+describe a road map that lays out the research, technology, and usage's
+needed to support the acquisition of software systems, such as those
+for the SC-21 line of ships. 
+ The VIrtual SysTem Acquisition (VISTA)
+Vision
+The virtual acquisition of software systems refers to a
+strategic process by which an evolving series of ever more complete
+and operational system versions are acquired through a series of short
+duration acquisition life cycles. In this way, emphasis is on
+re-framing and reducing acquisition cycle times from years to months
+(or weeks!) so as to focus attention on the incremental and iterative
+acquisition of the evolving capability associated with the target
+software system.
+Reductions in acquisition cycle time enable an increase in the
+number of  incremental acquisition cycles over time. The VISTA
+approach seeks to help more rapidly identify, address, and resolve the
+risks associated with the acquisition and development of complex
+software-intensive systems (Boehm and Scacchi 1996; GAO 1997; Haimes,
+Schooff, and Chittister 1997). Thus, we need tools that enable
+customers and developers to rapidly model, incrementally evolve, and
+satisfy (sub) sets of system capability requirements in each iterative
+system version. Early acquisition cycles only need to focus on
+acquiring systems that only represent computational models and
+simulations of the operational capability of the target software
+system. Later acquisition cycles then focus on incrementally evolving
+or replacing the models and simulations with fully operational system
+modules. In this manner, there will always be an operational version of
+the system to evaluate and demonstrate throughout the system's
+acquisition and development cycle. 
+Models and simulations represent descriptive, formalized, and
+sharable understandings of a system. They can represent a system's
+concept of operation, architecture, and its ability to support its
+intended mission. However, by focusing effort to enable such
+preliminary system capabilities to move through a fast acquisition life
+cycle, the goal is to establish and validate consensus on whether
+current models and simulations of the software system's
+components/architecture address specific system requirements. In
+addition, the goal is to determine whether other underdeveloped or
+unrecognized system requirements have emerged that need to be addressed
+in subsequent acquisition/development cycles. As such, the goal here is
+more closely aligned with the idea of incrementally growing and
+evolving the target system in a more organic and adaptive manner. 
+Our first take on the requirements for how this might work can be
+outlined as follows: 
+
+ Acquisition participants should be able to architect, construct,
+assemble, execute, and analyze automated models of the overall
+software system capability for acquisition.
+ Component models should represent elements of target environment
+(including people), information system infrastructure, informational
+products, and development, operation, and post deployment processes.
+ The initial modeling and simulation of these elements should
+represent the first pass through the system's requirements generation
+and development cycle.
+ Participants should be able to iteratively refine and
+incrementally evolve the system model test-bed from previous steps.
+Then they should be able to selectively replace component models with
+simulated, prototype, or actual component elements.
+ Participants should be able to iteratively refine and evolve
+intermediate hybrid system test-beds and progressively replace
+remaining component models with simulations, prototypes, or actual
+component elements. This helps to insure that a full-scale test-bed is
+developed, operational, and ready for post R&D deployment or
+transition into commercial use.
+
+Subsequently, we can take this outline of requirements for what we
+envision and reformulate it into a first-cut prescriptive process,
+which we call the VISTA Approach.
+ The VISTA Approach
+At this point, we outline a series of steps that articulate how
+software system acquisition and development become intertwined during
+virtual system acquisition processes. As modeling and simulation drive
+most of these steps, we first describe what types of models are
+necessary. We will also characterize what these models may look like,
+and how they could be represented. Then we will briefly describe how
+these models and simulations would be incrementally replaced when
+evolving the system.
+ Modeling and simulation in VISTA
+For this discussion, we assume the envisioned system is within the
+scope of available software system product families at hand.  If
+not, then a domain analysis leading to the construction and refinement
+of an appropriate meta-model will be needed. Product families
+and their associated "smart" product models (SC21 1997), documents,
+development processes, tools, and organizational agents are defined and
+represented using meta-models. Detailed examples of their use can be
+found elsewhere (Mi and Scacchi 1990, Mi and Scacchi 1996, Scacchi and
+Mi 1997). We then begin with the elicitation and modeling of a virtual
+system model (VSM) for the system to be acquired.
+The VSM is a composite model: a model composed from other models. At
+least three types of models are needed to characterize a complex
+software system. One class of models is needed to represent the
+functional operation and data required for information processing by
+the system. We will call models of this type; information element
+models (IEMs). Once an IEM is replaced with an operational system
+component, it becomes an information element (IE). IEMs are used to
+model the structure, behavior, and performance (estimated, measured, or
+required) of the computing hardware and software that inputs,
+processes, and outputs system data. A second class of models is needed
+to depict the functional behavior of the IEs embedded within a
+man-machine system (E.g., Command and Control System, Theater Air
+Dominance System, Mission Support System, etc. in Figure 3) to be
+acquired and built. We call these system element models (SEMs), and
+when replaced, system elements (SEs). The third class is needed to
+represent the "system of systems", sensors, and environmental context
+in which the embedded man-machine systems operate. These are called
+environment element models (EEMs), and when replaced, environment
+elements (EEs). 
+Each type of model requires a computational mechanism that can
+support model entry/definition, interpretation, simulation, and
+animated visualization. Commercially available discrete-event
+simulation packages represent one such mechanism. These packages are
+well suited for simulating models that are represented as queuing
+networks whose arrival queues and service rates are specified according
+to statistical or algebraic models. 
+Different types of models may require different kinds of simulation;
+thus different tools may be needed. For example, modeling and
+simulating the "look and feel" and event-based operation of a graphic
+user interface for a Military Support Training System may employ
+multimedia authoring or navigation tools. Commercially available tools
+such as Macromedia Director, Microsoft Powerpoint, or even Web browsers
+accessing virtual reality content across an Intranet can be used for
+this purpose. Rapid application development (RAD) tools (Visual Basic,
+PowerBuilder, Visual Cafe for Java, etc.) and expert system shells
+(E.g., M.4 from Teknowledge) that support software prototyping or visual
+programming with persistent databases can enable the modeling and
+simulation of complex, rule-based, state-transition software
+applications. These are tools for developing virtual prototypes of IEs
+(cf. Garcia, Gocke, Johnson 1994). With these tools, it is possible to
+model, simulate, or approximate the behavior of software applications
+using stubbed, canned, or pre-calculated input/output data values as
+place holders for complex calculations required of an eventual software
+system implementation. As such, modeling and simulating a VSM may
+benefit from use of a computing environment where multiple types of
+models and simulations can be defined, composed, simulated, and
+displayed. Furthermore, it may be desirable for such an environment to
+be accessible over the Internet to facilitate the sharing, discussion,
+and review of modeling and simulation efforts among the different
+organizational representatives participating in a program acquisition. 
+IEMs can be modeled in a variety of ways. A common tactic may be to
+depict IEMs as hierarchically decomposed black boxes (closed systems),
+white boxes (open systems), or gray boxes (closed systems with limited
+internal visibility). These boxes are placeholders for hardware or
+software system modules that are to be acquired and developed. Each box
+can represent a computation unit that can receive inputs or event
+signals, perform some calculation, then produce some outputs, state
+transition, or some new event. They can be modeled and simulated using
+any of the tools noted above. However, depending on the kind of
+acquisition concern we wish to address, particular tool choices may be
+most appropriate. For example, in SC-21 class ships, it may initially
+be an open question as to what level of computer performance is required
+to satisfactorily operate Mission Support software systems. A desktop PC
+is probably inadequate, while a large mainframe may be too much, too
+large, or too expensive. Thus, it seems appropriate to consider
+modeling the required computing hardware as a computational module with
+mid-range performance or processing throughput (E.g., 10-100
+transactions per second) as a starting point. Further, since
+determining system performance throughput under different Mission
+Support workloads or traffic volume is necessary, then a discrete-event
+simulation package may be best to use. 
+However, the software system modules to operate on this anticipated
+hardware may or may not be so readily understood. If we initially have
+little knowledge of what calculations or information is required in
+processing Mission Support data, then the software's model may simply
+equate to that of a module that produces a stream of input/output data
+transactions, say in the range of 0-8 transactions per second.
+Alternatively, as knowledge increases, software modules may be
+identified which perform different functions. 
+It should be possible to evaluate alternative architectural
+configurations or compositions of software modules as a way to
+understand whether system performance parameters are sensitive to the
+alternatives. For example, in a Mission Support Combat Training System,
+one could separate user input capture and verification, calculation and
+database update, and output to user display as three distinct software
+modules. Should these modules be configured in as a linear sequence, a
+fully interconnected concurrent network, or bundled together as a
+single large module? Which alternative configuration would be easiest
+to build and test? Which would have the best performance? Which would
+be the least cost? Perhaps we could guess the best answer(s). However,
+if we can model, simulate, and collaboratively discuss the three
+architectural alternatives, then we can begin to articulate a basis
+that can lead to a consensus answer that can be backed up with
+evaluated alternatives and simulation results. 
+Would the consensus results from such a modeling and simulation
+exercise be more believable than someone's best guess? In lieu of some
+controlled experiment, the answer is to that is subjective. However,
+the modeling and simulation results would be explicit, repeatable, and
+subject to trade-off analysis and consensus validation. In addition,
+these results can be open to challenge and reformation in a manner that
+may be more tractable than someone's best guess. Nonetheless, if
+someone such as a software architect experienced in the design of
+Mission Support Combat Training Systems can argue persuasively about
+her best guess, then this alternative could be represented in an IEM,
+simulated, compared and validated. 
+SEMs provide the ability to embed software systems within
+man-machine systems setting. SEMs embed IEMs or IEs in a user-driven
+input and output environment. Users create inputs in response to their
+work assignments, and to information output from the system and
+displayed to them. For example, when using a Training System, users may
+select among "menu items" or enter system commands. This may cause the
+Training System to process their input, provide an updated user
+interface display, then wait for the user's next input action. As such,
+SEMs must model user behavior in driving and responding to system
+actions or events, as well as model system behavior in response to user
+actions. While user behavior is open-ended, only a range of possible
+user-system interactions will be modeled. For example, users can only
+provide either acceptable input, acceptable but erroneous input that is
+detected, or unacceptable input. SEM simulation may include the use of
+software "drivers" that cause the arrival of user input or input
+events, together with system responses or service time intervals that
+follow statistical formulas or some other characterization function.
+SEM simulation can then be supported using common discrete-event
+simulation tools if user behavior is being simulated. Alternatively, if
+the system's behavior is being simulated for real users, then
+multimedia or RAD tools may be employed to provide simulated user
+interfaces for real users to evaluate. As with the IEM simulations, the
+plausibility and consensus validation process noted above will also
+apply here. 
+EEMs provide the ability to embed the man-machine systems in its
+overall environmental context. For example, weapons control systems
+may be designed to utilize various sensors (radar, sonar, satellites,
+etc.) to zero in on their targets. These sensors may themselves be
+complex systems. Similarly, weapons control systems will interact with
+many other shipboard systems, including those for Mission Support,
+Command and Control, etc. These systems must act in concert to realize
+the overall effectiveness of a complex system of systems that a ship of
+the SC-21 class represents. Therefore, EEMs must model the
+interoperation and integration of multiple systems. This may entail
+modeling the overall patterns of data or messaging traffic between
+systems, as well as between systems and users as a group.
+Alternatively, in response to different scenarios for total system
+engagement, the EEMs may be used to model the ebb and flow of
+information across the system of systems. With this, we expect that the
+patterns of information flow on a SC-21 ship in response to a hostile
+attack scenario will be different than the flows associated with routine
+ship operations and maintenance scenario. Subsequently, these
+information traffic or flow patterns can be modeled and simulated using
+discrete-event simulation capabilities, and the validation process
+described earlier again applies here. 
+Overall, the remaining challenge is to integrate and interoperate
+the different models, simulations, and elements. This is the purpose of
+a collaborative test-bed such as a Battleship Lab for SC-21
+class ships (cf. Cothran 1996, Kouzes, Meyers, and Wulf 1996, Wilson
+1996). It may serve to support the integration and interoperation of
+multiple, mixed mode models and simulation tools, as well as of
+multiple system elements with many models and simulations. At this
+time, developing such a test-bed may be an expensive but nonetheless
+necessary proposition. However, even if the cost of such test-beds
+approaches 5-10% of system development costs, such an investment may
+be reasonable given that the total overall effectiveness of the system
+platform is long-lived, software-intensive, and thus
+software-dependent. 
+Again, our objective is to find ways to facilitate the articulation
+and elaboration of requirements, risks, and cost-drivers for complex,
+software-intensive systems. It is also to assist those involved in
+system acquisition to understand how modeling and simulation tools and
+techniques can be used. As such, we now turn to provide a brief
+description of how incremental system acquisition and development
+would proceed in replacing the system models with operational elements
+and system components. 
+ Incremental replacement of system models with operational system
+components
+Given that we have outlined the overall VISTA approach for modeling and
+simulation, we can describe how this approach could work in the context
+of acquiring a software system. We examine software systems for SC-21
+class ships, although we limit our discussion to a representative
+subset of software systems for these ships. We use Mission Support
+systems in our discussion. Accordingly, we describe how the
+information, system, and environment elements for Mission Support are
+incrementally acquired and developed in a series of spiraling
+iterations following the approach. We show how these elements can change
+in progressing from models to actual software system architectures.
+Similarly, we identify what difference it makes to improve the
+acquisition of software.
+The VISTA approach begins with the acquisition of a VSM for Mission
+Support. A team of participants from the program office, acquisition
+directorate, user representatives, and prospective contractors may
+specify the VSM. The team might employ a wide-area collaboratory
+environment to share and record information giving rise to the VSM.
+However, perhaps only the contractors would be tasked with the modeling
+development activity. 
+The VSM can be subjected to analysis, simulation, redesign,
+visualization, and walk-through. Figure 4 provides a concept diagram
+for how this might appear if we focus on an architectural configuration
+of IEMs (the computer or software elements), SEMs (the physical or
+human elements), and the EEMs (the external stimuli outside the system
+boundary). As shown in Figures 4 through 6, multiple IEMs, SEMs, and
+EEMs are used. This reflects the notion that the scope and depth of
+different models may be limited, compartmentalized, or may be divided
+among different organization contractors, sub-contractors, program
+office, etc.). 
+
+ 
+Figure 4. Initial VSM Development Cycle
+
+In acquiring an initial VSM for Mission Support systems, many kinds
+of models are used. For example, IEMs designate computer hardware and
+software subsystems. SEMs denote Operational Readiness Test System,
+Combat Training System, and Display System. Also, EEMs are needed for
+other shipboard systems (E.g., Command and Control System), sensors,
+and environment factors (weather, combat vs. routine operations,
+etc.). Emphasis in developing the initial VSM is on deciding what kinds
+of modeling and simulation tools to use for the different types of
+model elements. Also, emphasis is directed at how to integrate the
+modeled elements into an architectural configuration so that the
+simulated elements can interoperate. This is shown in Figure 4.
+Subsequently, if all VSM element models can be satisfactorily simulated
+at this point using a discrete-event simulation package, then the
+integration and interoperation challenges are reduced or eliminated. 
+Given that the VSM can be developed, we need to exercise and test it
+to explore the proposed system's ability to satisfy the requirements of
+its customers, users, development contractors, program managers, etc.
+Similarly, we need to explore the trade-off among desired system
+functional capabilities, performance objectives and costs. A wide-area
+software requirement negotiation and collaboration environment, such
+as the Win-Win environment developed at USC (Boehm et al.
+1995), could be used for this purpose. Collaboration environments like
+Win-Win enable various system acquisition and development participants
+to discuss the relative merits of the VSM, its ability to identify or
+demonstrate system requirements, and to determine and validate where
+there is consensus in these areas. For example, user representatives
+may believe that response time to user input commands should not be
+more than one second. The contractors may note that while such system
+performance may be essential for the Combat Training System, it may not
+be needed by the Operational Readiness Test System. Thus, it would be
+unnecessarily costly to the program to make it so. To help clarify
+their position, the contractors input the two alternative system
+performance requirements into the computer hardware IEM simulation.
+Executing the simulation using the two performance measures may produce
+interesting comparative results. For instance, if users of the
+Operational Readiness Test System can accept, a four second response
+time, the required computer hardware performance can be realized at an
+appreciably lower cost, perhaps saving millions of dollars (cf. Boehm
+and Scacchi 1996). With this result at hand, the team agrees to revise
+the requirements for this information element. As such, the VSM is
+revised and calibrated to use this information.  This helps to
+illustrate the how iterative analysis, simulation,  performance
+monitoring, and benchmarking can improve understanding system
+requirements, and how to identify areas where virtual system
+acquisition efforts can reduce costs. 
+In a later acquisition and development cycle, the team decides to
+assemble particular element components using fully operational and
+architecturally configured sub-assemblies. Here, the contractors must
+replace the corresponding model or simulation elements with
+operational prototypes or actual operating elements. Figure 5 provides
+a diagram for how this hybrid system and hybrid test-bed might appear.
+For example, an EEM for sonar and radar sensors may be replaced with a
+test-bed instrument that can generate realistic sensor input data. The
+Display System for Mission Support may now be fully operational, and
+the computer hardware that supports the Display System may be
+operational. Accordingly, the Display System SEM can be replaced with
+the operational Display System SE, and the computer hardware IEM can be
+replace with its corresponding IE. Nonetheless, even with these virtual
+system elements replaced with operational components, the overall VSM
+test-bed can still be accessed and evaluated using a collaborative
+wide-area environment for requirements negotiation and validation (cf.
+Boehm et al. 1995, Kouzes, Meyers, Wulf, 1996). 
+Once operational components are integrated into the VSM, it becomes
+possible to more systematically walk-through, exercise, monitor,
+record, and replay the revised VSM hybrid tested. This can help to
+validate choices, explore further tradeoffs, and articulate systemic
+bottlenecks or processing failures in the system's architecture
+(Scacchi and Mi 1997). For example, while evaluating the operational
+performance of the Display System that interacts with the Combat
+Training System, it appears to users that important information of the
+user display is being updated too fast for users to act appropriately.
+Instead, the rate of information display needs to be slowed, or the
+information content needs to be aggregated and summarized. Thus, from
+the user standpoint, the current system operation in the VSM is risky
+or infeasible. As before, system element parameters need to be
+adjusted, otherwise alternative system architectures need to be
+considered and evaluated. 
+
+ 
+Figure 5. Intermediate VSM Development Cycle
+
+With an intermediate VSM, further elaboration is needed to field a
+deployable system (see Figure 2). If this is the case, then the
+acquisition and development team must revisit the selection of
+software/system components to develop. Otherwise, they can perform
+partly-simulated operational test and evaluation, then experimentally
+field the system either across a wide-area Intranet test-bed (Scacchi
+and Noll 1997), or in a Battleship Lab test-bed, in order to continue
+to calibrate and refine the VSM for further post deployment studies.
+Thus, here we seek to illustrate how virtual system acquisition can
+help identify potential risks and attendant cost drivers that may not
+be manifest until field operation stages of the system's overall life
+cycle. 
+  
+  
+When further system capabilities are needed, the participants can
+exercise the VSM. This means they may adjust simulation parameters,
+have users test-drive and evaluate system prototypes, etc. to
+determine tradeoffs and validate priorities through consensus.
+Consequently, they may choose to revisit the selection of components to
+acquire and develop. Jumping ahead, the acquisition and development
+participants can continue to evolve and continuously improve the
+emerging system architecture. This entails iterating through the
+preceding steps until all remaining system component simulations or
+prototypes are replaced by their operational counterparts. Figure 6
+provides a diagram for how this late stage system architecture might
+now appear. 
+
+ 
+Figure 6. Final VSM Development Cycle
+
+
+
+
+
+Here we see that all of the system and information element models
+have been replaced with their operational elements. Some EEMs however
+remain, since they may designate other major shipboard system
+undergoing concurrent development. Thus, while the sensor test-bed may
+be operational and integrated to interoperate with the Mission Support
+Systems, the Command and Control System as well as other major systems
+may not yet be operational and available for integration. However,
+these other systems must still conform to their EEMs placeholders for
+use with the Mission Support System. Subsequently, an additional
+capability is required for characterizing or extracting an updated EEM
+from this VSM. This updated information needs to be used in other VSMs
+corresponding  to environment elements that constitute the system
+of systems. From a technical standpoint, this requires addressing
+problems in system component interface definition, and in managing
+concurrent access to different versions of these components or model
+placeholders. From an organizational standpoint, failing to coordinate
+access and propagation of component interface definitions or changes is
+a common problem that precipitates difficulty in systems integration
+and interoperability. Knowing where problems lie, and being able to
+prevent or circumvent them through virtual system acquisition, provides
+another capability for reducing risks and costs associated with the
+development of software-intensive systems. 
+Finally, throughout the overall VISTA process we have just outlined,
+current best practices in software program management (SPMN 1997), and
+a consensus recommendation from the Blue Ribbon Panels (Boehm and
+Scacchi 1996), point to the opportunity to track and manage software
+feasibility/risk using new program management support tools. Figure 7
+provides a view of the user interface "dashboard" to such a tool, as
+well as suggesting how program management information may be conveyed. 
+
+ 
+Figure 7. A program management dashboard for assessing software
+development progress (SPMN 1997)
+
+
+
+
+
+Participants in a virtual system acquisition also need to track,
+organize, record, and store records of the steps they took.
+Furthermore, they may need to document what transpired, how, by whom,
+why, and with what outcomes. These records and documents represent
+important knowledge assets emerging from the acquisition effort.
+Capturing and organizing this information is often cumbersome and
+haphazard. However, we find that these knowledge assets can be easily
+captured and linked to the virtual system models and elements using
+hypertext mechanisms commonly available in information sharing and
+requirement negotiation support environments (Noll and Scacchi 1991,
+Boehm et al. 1995), rather than being cast as a mountain of
+paper. 
+With this basis for VISTA approach, we can now put forward a matrix
+of the transitional steps for how to realize the technical basis for
+supporting VISTA. This is then followed by a description of the
+organizational transitions for VISTA. 
+ Mapping the technological transitions to VISTA
+Although the VISTA-based approach may be a radical departure from
+traditional system acquisition practice, getting there may be best
+achieved in an evolutionary manner. To be clear, the VISTA approach is
+new, but the tools, techniques, and concepts it involves--incremental
+acquisition and development, virtual prototyping, wide-area
+collaboratories, software requirements negotiation and validation
+environments, etc.--are beginning to be used in system acquisition
+efforts. Thus, as VISTA implies the need to use an automated support
+environment for modeling, simulation, and program management, the
+required tools and techniques for such an environment can be
+investigated, refined, and deployed in a multi-staged manner. An
+integrated information management environment to support the
+acquisition and development of complex software systems, such as those
+for the SC-21 program, is not yet available. However, such an
+environment can be constructed and put into use following the roadmap
+outlined below and elsewhere (Boehm and Scacchi 1996). The resulting
+environment can then be positioned to support large system acquisition
+programs.
+We can explain the technological basis to support the transition to
+VISTA in terms that cover its anticipated (i) usage in acquisition,
+(ii) its technology, and (iii) the research needed to realize its
+technology and usage. At the same time, we can characterize how each of
+these three aspects correspond to the software system development life
+cycle stages that include (a) system concept definition, (b)
+architecture definition, and (c) on-going spiral development. Together,
+we can associate each of these into a matrix that organizes the VISTA
+research, technology, and acquisition usage as shown in Table 1. 
+  
+  
+
+
+
+
+
+
+ 
+ 
+
+-- Technology Maturity -- 
+
+
+
+ 
+ 
+ 
+
+ Research
+
+
+ Technology
+
+
+ Acquisition
+Usage
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+Software/
+System 
+Life 
+Cycle 
+Stages
+
+
+
+ Concept
+Definition
+
+ 
+
+Software Feasibility 
+Heuristics 
+
+
+
+VISTA-1:
+Top-Level  
+Feasibility Advisor,  
+Parametric Models 
+
+
+
+Concept 
+Feasibility  
+Determination
+
+
+
+
+
+ Architecture 
+Definition
+
+ 
+
+Arch. representation 
+and analysis M&S,  
+Advanced cost/  
+schedule/quality M&S. 
+
+
+
+VISTA-2:
+Models and Simulations  
+of Subsystems  
+and Elements 
+
+
+
+Architecture 
+Feasibility  
+Determination
+
+
+
+
+
+ Spiral
+Development
+
+ 
+
+Integration 
+into commercial  
+SDEs 
+
+
+
+VISTA-3:
+Hybrid Measurement,  
+Modeling and Simulation  
+Environment 
+
+
+
+Virtual 
+System  
+Acquisition
+
+
+
+
+
+
+
+ Table 1: VISTA Research, Technology, and Usage Context
+
+Moving from top to bottom, right to left, we can outline the associated
+operational concepts for VISTA, thereby characterizing the
+technological transitions "from ends to means." 
+ 
+Concept Feasibility Determination: Given a new mission or
+strategic objective, determine whether appropriate technology,
+architectures, and resources can be feasibly brought together into a
+new software-intensive system in an affordable and timely manner. 
+Architecture Feasibility Determination: Given a proposed
+software system architecture, determine whether it can satisfy mission
+or strategic objectives in an affordable and timely manner. 
+Virtual System Acquisition: Given a feasible system concept
+and architecture, acquire the proposed architecture as a series of
+modeled, simulated, or implemented subsystems. These subsystems can be
+evolutionarily developed by progressively replacing or transforming the
+modeled or simulated subsystems with prototyped or real
+implementations. 
+VISTA-1, Top-Level Feasibility Advisor, Parametric Models:
+A top-level feasibility analysis-modeling environment is needed for
+checking established acquisition heuristics and parameters. Such an
+environment could be used to determine whether the candidate
+technologies, architectures, and resources can be brought together to
+address a new mission or strategic objectives. This environment would
+represent the first version of the VISTA support environment (VISTA-1).
+The environment proposed by the Software Program Managers Network (cf.
+Figure 7), together with software cost estimation tools, software
+requirements negotiation capabilities, and access to a collection of
+software feasibility heuristics are available today for experimentation
+and initial usage (Boehm et al. 1995, STSC 1995, SPMN 1997). 
+VISTA-2, Software-Intensive Models and Simulations: VISTA-2is
+an enhanced VISTA-1 environment for software-intensive modeling
+and simulation. It could be used to prototype, analyze, and execute
+system architectural capabilities and functionality, then reconcile
+these performance characteristics against the cost, schedule, and
+quality trade-off among proposed architectural design alternatives. VISTA-2
+is used order to determine whether proposed application system
+architectures are viable. 
+VISTA-3, Hybrid Measurement, Modeling and Simulation
+Environment: The VISTA-3 environment is built to expand the
+capabilities of  VISTA-2. In order to acquire incrementally
+developed software application systems, VISTA-3 can be used to
+support the cooperative modeling, simulation, and measurement of the
+performance capabilities of an evolving application system, its
+subsystems, and their collective architectural design. 
+Software Feasibility Heuristics: We need to collect, validate,
+and refine a knowledge base of best practice heuristics for software
+system acquisition, architecture, and overall development. This
+knowledge could help provide plausible advice for how to assess the
+top-level feasibility of an emerging software application system. These
+heuristics can help determine what matters, and which technology,
+architecture, or resource characteristics affect the overall
+feasibility of the system (Rechtin 1991, STSC 1995, SPMN 1997). 
+Architecture representation and analysis M&S and Advanced
+cost/schedule/quality M&S: We need to research and develop new
+architectural representations that support incremental building and
+evolving large application systems using models or simulations. These
+representations also must be able to incorporate the architectures of
+its subsystems, whether as already implemented or newly development
+components. We further need to be able to represent the cost, schedule,
+and quality associated with the development of different software
+components or architectural configurations. 
+Integration into commercial software development environments
+(SDEs): In order for VISTA tools to be broadly applied across the
+spectrum of DoD or other large-scale system acquisitions, they need to
+become available as extensions (E.g., "plug-ins" or "helper
+applications") to commercially available software engineering
+environments. 
+With this context for VISTA research, technology, and acquisition
+usage in mind, we can now more simply characterize the overall concept
+for how the VISTA might be employed. This can be outlined in four
+steps: 
+
+ Pre-proposal Requirements Analysis: Use the VISTA
+environment to analyze feasibility of the system's concept and mission
+requirements (a sanity check on the technical perspective for a new
+mission program to determine rough order of magnitude for cost,
+architecture, other risk items, etc.) prior to the Request For Proposal.
+ Proposal Analysis: Upon receipt of development
+contractors' proposals, use VISTA to analyze each proposal for
+feasibility, determine which proposals are in competitive range, and
+what assistance is needed to evaluate the technical perspective (E.g.,
+architecture) of those proposals within competitive range.
+ Project Start-up: Use VISTA to evaluate the
+feasibility of resources (cost, people, etc.) and schedule of proposed
+system design. This could also be used for "fly-off" scenarios as
+well, when competing designs are being evaluated.
+ Ongoing Program Review: Use VISTA to re-analyze
+feasibility at progress milestones during development life cycle, as
+well as when significant program or system requirements changes occur.
+
+VISTA should be applicable to product-line software system
+architectures, as well as to unique non-product-line software systems.
+It appears that the VISTA may be more readily suited to product-line
+software system architectures, since their recurring development can
+accommodate the collection, refinement, and calibration of the VISTA
+for the product-line's application domain. However, it may also be
+useful for (portions of) non-product-line software, especially where a
+well-conceived reference model standard, such as the Air Force's
+Horizon Architecture defines the software. Nonetheless, within the
+domains of C4I, air traffic control, MIS, and other applications, we
+may expect future systems to be more likely to conform to product-line
+architectures. Industry trends and corporate strategies may then lead
+system development contractors to focus their expertise and core
+competencies around the mastery of product-lines, rather than
+individual products or contracts.
+ Managing the organizational transitions to VISTA
+The move to adopt, implement, routinize, and replicate the VISTA
+approach seems to be a radical departure from current system
+acquisition practices and processes. While we believe that a
+compelling technical argument can be made for the VISTA approach, we
+must also address the kinds of organizational situations or changes
+that must be part of the transition to VISTA.
+Personnel will be unfamiliar with VISTA and what is required to
+re-engineer the processes they enact during system acquisition.
+Mutually respected, collaborative education, elicitation, and
+information sharing among the participating user, development
+contractor, and program management organizations will be required.
+WWW-based collaborative work environments or acquisition collaboratories
+(cf. Kouzes, Meyers, and Wulf 1996) can help provide the information
+infrastructure needed to support this. However, participation and
+engagement in re-engineering system acquisition, development, and
+program management must span all levels of the organization chart, and
+must achieve commitment, resources, and strategic attention from
+executive and senior management in order to increase the likelihood of
+success (Bashein, Markus, and Riley 1994). 
+Our characterization of as-is system acquisition processes
+and practices, as well as to-be VISTA based approaches are
+understated. Clearly, there is far more detail to system acquisition or
+virtual system acquisition processes and practices than can be
+described here. Furthermore, we recognize that both as-is and to-be
+approaches to system acquisition are put into practice in different
+ways, in different organizational settings, for different system
+acquisitions. Capturing, understanding, and describing these variations
+require systematic research, empirical investigation, and wide-area
+dissemination. However, experience has shown that this attention to
+detail can lead to distinguishing what's common from what's
+circumstantial. Such detail will help surface specific actions to take
+to successfully engage personnel to collaborative identify and perform
+the organizational transformations needed to transition from the as-is
+to the to-be. 
+Next, as the world moves towards a globally networked information
+infrastructure based on the Internet and WWW, we recognize that the
+information systems and computer-based tools supporting the
+acquisition, development, and program management will increasingly
+become heterogeneous relative to one another (cf. Noll and Scacchi
+1991, Scacchi and Noll 1997). Interoperability will not be easily
+achieved without the experience and expertise needed to make it
+happen. However, new information technologies are rapidly emerging that
+will give rise to new ways to more rapidly configure, interconnect, and
+integrate software systems in order to enable them to interoperate.
+Furthermore, what's likely to be critical during early VISTA-based
+acquisition and development cycles is realizing interoperability
+at the organizational process level , rather than only at the
+traditional system function level. Experience shows that addressing
+and resolving interoperability between distinct organizations, such as
+those participating in a system acquisition, can often lead to ways to
+obviate, minimize, or avoid system function interoperability
+dependencies (STSC 1995). This helps to refine, streamline, and focus
+both system architecture and system development processes. 
+Last, as indicated earlier, attention in this article is directed at
+emphasizing the re-tooling and re-engineering system acquisition
+processes and system feasibility assessment. However, a greater payoff
+can potentially result from complementary incorporation of process
+reengineering concepts, techniques, and tools into VISTA approaches
+(cf. Nissen 1997, Scacchi and Mi 1997, Scacchi and Noll 1997, Scacchi et
+al. 1997). For example, recent efforts at redesigning acquisition
+and procurement processes for the Navy have identified a number of ways
+these processes can be transformed and streamlined to realize
+substantial reduction in cycle times and administrative costs (Nissen
+1997, Scacchi et al. 1997). However, these capabilities have
+not been used to support the acquisition of large software systems and
+thus require further investigation. Nonetheless, the vision of a 21st.
+Century "digital government" raises such matters to be the subject of
+systematic acquisition research and empirical investigation befitting a
+grand challenge to the academic, industrial, and government research
+community (Schorr and Stolfo 1997). Subsequently, the acquisition
+community needs to stimulate research that can find new ways to
+radically streamline program operations, reduce system costs, and
+improve service quality through re-engineering, reinvention, and
+systematic utilization of emerging information technologies and
+infrastructures. 
+ Conclusions
+In this article, we identified opportunities for research and
+application of modeling, simulation, and evolutionary development
+technologies to re-tooling and re-engineering system acquisition
+processes. These tools and techniques can help to analyze overall
+feasibility and risks at various points in the system acquisition life
+cycle. Such a capability offers the potential to reduce software system
+acquisition risks and avoidable costs, as well as explore alternative
+system options in order to develop more affordable, capable, and
+flexible systems. Subsequently, we use the new SC-21 battleship program
+as a case study to help illustrate and explain how virtual system
+acquisition can work.
+We put forward a vision and approach for how to rethink the manner
+in which software-intensive systems can be acquired across the
+acquisition life cycle. Central to this vision is a new approach to
+virtual system acquisition we call VISTA. We believe that VISTA offers
+a new strategy for how to address, resolve, or mitigate the recurring
+problems that accompanies complex system acquisition. Major program
+acquisitions such as the SC-21 class of ships, the Joint Strike Fighter
+and others are positioned to take advantage of timely investment and
+adoption of VISTA strategies and support environments. 
+VISTA is a new approach to the acquisition of software-intensive
+systems. It seeks to build on knowledge of best practices in as-is
+acquisition and development processes, as well as moving toward a
+re-tooled and reengineered to-be software systems acquisition and
+development process. The acquisition of complex systems such as the
+SC-21 class of ships will use virtual prototyping and manufacturing
+tools to acquire and build virtual ships using collaborative wide-area
+computer-based environments. However, modeling and simulation tools and
+techniques have not yet been proposed to support the acquisition and
+development of the software systems needed to make the overall ship
+system operational and effective. Thus, we propose to fill this gap
+with the VISTA approach. 
+We believe that tools, techniques, and concepts embodied in the
+VISTA approach merit consideration and application in forthcoming
+large-scale system acquisitions. These include incremental acquisition
+interleaved with development, virtual prototyping, wide-area
+collaboratories, and software requirement negotiation and validation
+environments. However, it would be misleading to indicate that they are
+being used together in the manner we suggest. The VISTA approach needs
+to be experimentally applied and refined. Accordingly, an R&D
+technology roadmap was presented that lays out a path for the
+iterative, incremental evolution and integration of the technologies
+needed to support the VISTA vision. The technologies needed to support
+the VISTA approach need to be brought together and made accessible to
+different acquisition participants. 
+The VISTA approach we presented is a vision of how the acquisition
+of software-intensive systems can be designed and streamlined for use
+in the years ahead. Major system acquisition programs such as the SC-21
+battleships or Joint Strike Fighter aircraft are representative
+candidates for the VISTA approach. The success of programs such as
+these will depend in part on the successful acquisition and development
+of the software systems that enable these platforms to do their job.
+VISTA represents a substantial department from and alternative to
+present software system acquisition practices (STSC 1995, SPMN 1997).
+Nonetheless, we have cast it in a manner that shows how to incrementally
+transition from the technology and organizational practices that today
+support software system acquisition to the VISTA approach we envision. 
+Finally, moving to adopt and practice VISTA-based system
+acquisitions is not without its risks. Accordingly, we have sought to
+identify the technological and organizational transitions that must be
+researched, modeled and simulated to help reduce the risks and improve
+our understanding of how to evolve system acquisition practices and
+support environments to help see the way to the VISTA. In this sense,
+the VISTA approach could be demonstrated by applying it to the
+acquisition and development of a software system that incorporates the
+concepts in this paper and related reports (Boehm and Scacchi 1996). 
+References 
+B.J. Bashein, M.L. Markus, P. Riley. Preconditions for BPR success:
+and how to prevent failures, Information Systems Management,
+7-13, 1994. 
+B. Boehm, P. Bose, E. Horowitz, and M. J. Lee, Software Requirements
+Negotiation and Renegotiation Aids: A Theory-W Based Spiral Approach, Proc.
+17th International Conference on Software Engineering, Seattle, WA,
+April 1995. 
+B. Boehm and W. Scacchi. Simulation and Modeling for Software
+Acquisition (SAMSA), Final Report, Center for Software Engineering,
+University of Southern California, Los Angeles, CA, http://sunset.usc.edu/SAMSA/samcover.html
+, March 1996. 
+J. Cothran. Battle Labs: Tools and Scope,  Acquisition
+Review Quarterly , Winter 1996. 
+W.H. Dutton and K.L. Kraemer. Modeling as Negotiating: The
+Political Dynamics of Computer Models in the Policy Process, Ablex,
+Norwood, NJ, 1985. 
+Lt. Col. A.B. Garcia, Col. R.P. Gocke Jr., Col. N.P. Johnson Jr. Virtual
+Prototyping: Concept to Production, Defense Systems Management
+College Press, Fort Belvoir, March 1994. 
+General Accounting Office.  Defense Weapons Systems
+Acquisition, Report GAO/HR-95-4, 1995. 
+General Accounting Office. Air Traffic Control--Immature Software
+Acquisition Processes Increase FAA System Acquisition Risks, Report
+GAO/AIMD-97-47, 1997. 
+R.T. Kouzes, J.D. Meyers, and W.A. Wulf. Collaboratories -- Doing
+Science on the Internet, Computer, 29(8):40-48,  August,
+1996. 
+P. Mi and W. Scacchi. A Knowledge-Based Environment for Modeling and
+Simulating Software Engineering Processes. IEEE Trans. Knowledge
+and Data Engineering , 2(3):283-294, 1990. 
+P. Mi and W. Scacchi. A Meta-Model for Formulating Knowledge-Based
+Models of Software Development. Decision Support Systems,
+17(3):313-330. 1996.  http://www.usc.edu/dept/ATRIUM/Papers/Process_Meta_Model.ps 
+M.E. Nissen. Reengineering the RFP Process Through Knowledge-Based
+Systems. Acquisition Review Quarterly, 4(1):87-100, Winter
+1997 . 
+J. Noll and W. Scacchi. Integrated Diverse Information Repositories:
+A Distributed Hypertext Approach, Computer, 24(12):38-45,
+December 1991. 
+W. Rechtin. System Architecting: Creating and Building Complex
+Systems . Prentice-Hall, Englewood Cliffs, NJ. 1991. 
+W. Scacchi and P. Mi. Process Life Cycle Engineering: A
+Knowledge-Based Approach and Environment. Intern. J. Intelligent
+Systems in Accounting, Finance, and Management, 6(1):83-107, 1997. http://www.usc.edu/dept/ATRIUM/Papers/Process_Life_Cycle.html 
+W. Scacchi and J. Noll. Process-Driven Intranets: Life-Cycle Support
+for Process Reengineering. IEEE Internet Computing, 1(5):42-49,
+September-October 1997. 
+W. Scacchi, J. Noll, C. Knight, and Capt. F.J. Miller.
+Re)Engineering Research Grants Management: From Acquisition Reform to
+Knowledge Brokering at ONR, Paper presented at the NSF Workshop on
+Research and Development Opportunities for Federal Information
+Services, Arlington, VA,  May 1997.  http://www.usc.edu/dept/ATRIUM/NSF-FIS-Workshop.html 
+R.M. Schooff, Y.Y. Haimes, and C.G. Chittister. A Holistic
+Management Framework for Software Acquisition, Acquisition Review
+Quarterly, Winter 1997. 
+H. Schorr and S. Stolfo. Towards the Digital Government of the 21st.
+Century, Final Report, NSF Workshop on Research and Development
+Opportunities for Federal Information Services, http://www.isi.edu/nsf/final.html
+, June 1997. 
+B.C. Smith, Limits of Correctness in Computers, in R. Kling (ed.), 
+Computerization and Controversy, Academic Press, New York, NY,
+810-825, 1996. 
+(SC21) SC-21 Information System, http://sc21.crane.navy.mil,
+1997. 
+(SPMN) Software Program Managers Network. The Condensed Guide to
+Software Acquisition Best Practices, October 1997. Available from
+SPMN at http://www.spmn.com/products.html
+. 
+(STSC) Software Technology Support Center. Guidelines for Successful
+Acquisition and Management of Software-Intensive Systems: Weapon
+Systems, Command and Control Systems, Management Information Systems.
+Volumes 1 & 2. Dept. of the Air Force, February 1995. 
+J. Wilson. Battle Labs: What Are They, Where Are They Going? Acquisition
+Review Quarterly, Fall 1996. 
+  
+  
+
+

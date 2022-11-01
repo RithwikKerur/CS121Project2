@@ -1,0 +1,254 @@
+http://www.ics.uci.edu/community/news/features/view_feature?id=67
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ABOUT
+
+About the School
+Dean's Welcome
+Facts and Figures
+Donald Bren Hall
+Visit the Bren School
+Equity & Diversity
+Contact Us
+
+
+
+ DEPARTMENTS 
+
+Computer Science
+Informatics
+Statistics
+
+
+
+ RESEARCH 
+
+Research Areas
+Research Centers
+Research Highlights
+
+
+
+ STUDENTS 
+
+Graduate ▸ 
+
+Prospective Students
+How to Apply
+Programs of Study
+Academic Year Plan
+Forms
+Policies
+Funding & Housing
+Computing Support
+Campus Resources
+Visit the Bren School
+Graduate Student Handbook
+Contact
+
+
+Undergraduate ▸ 
+
+Contact
+Academic Advising
+Course Updates
+Academic Year Plan
+Petitions
+ICS Majors
+ICS Minors
+Policies: Academic Integrity
+Policies: Academic Standing
+Policies: Add, drop, & change options
+Policies: Coursework outside UCI
+Policies: Grade policy
+Policies: Laptop & computer use
+Policies: Withdrawal/Readmission
+Policies: CS 199 / IN4MATX 199 Courses
+Graduation
+ICS Student Life
+Upcoming Events
+Computing Support
+
+
+Scholarships & Fellowships
+Student Jobs & Internships
+
+
+
+PEOPLE
+
+Faculty
+Staff
+Graduate Students
+
+
+
+NEWS & EVENTS
+
+Newsroom
+Events
+Press Releases
+Annual Reports
+Student Blogs
+
+
+
+GET INVOLVED
+
+Make a Gift
+Alumni
+Leadership Council
+Corporate Partners
+Sponsor Projects
+Product Development Competition
+
+
+
+
+
+
+
+
+Bren school home / Community / News / Features
+
+
+
+
+
+
+
+Staying close to the trenchesNovember 20, 2014
+Informatics professor Crista Lopes balances academia with an active open-source development career
+
+
+A banner above a podium invites attendees to “please take a seat” as they trickle into the September 2013 OpenSimulator Community Conference (OSCC).
+
+
+With its black-tiled floor and green and blue décor, the conference space recalls the modern, tech-inspired campuses of Google or Microsoft. A panel of six industry professionals and academics sit on stage preparing to speak. Some fidget, flicking their hair back and tapping their feet.
+
+
+After introductory remarks, informatics professor Crista Lopes from UC Irvine’s Donald Bren School of Information and Computer Sciences takes the podium. Today, however, she’s going by the pseudonym Diva Canto. She looks different, too: Her brunette hair has been traded for an elaborate, fiery red-orange updo. 
+
+
+Lopes lectures on OpenSimulator, an open-source platform that allows users to run virtual-world Second Life environments on their own servers. She includes statistics like: OpenSimulator is a project with 124 contributors representing over 400,000 lines of code, and it took an estimated 107 years of individual effort crammed into 6 years of communal work to develop the platform.
+
+
+After a few more speakers, a panelist invites attendees to feel free to teleport to the conference’s expo regions.
+
+
+Yes, teleport. While OSCC is in many ways a typical conference, there is one key difference: It’s all virtual, hosted on OpenSimulator itself. Attendees are customized, pixelated avatars representing 360 individuals all over the world, who are immersed in a real-time virtual reality experience. For some, it’s a very odd hour to be attending a conference. 
+
+
+“There were primarily attendees in America and Europe, but I think there were people in other parts of the world, like Australia. That must have been very odd hours for them. Time zones, unfortunately, still exist,” Lopes explains now, over a year after the first conference.
+
+
+While Lopes’ involvement with OpenSimulator is only partially considered official UC Irvine work — she and her students occasionally do research incursions into the platform — it’s an integral practice for her career. “Developing OpenSimulator’s code is mostly for fun, and to not lose track of what it is to actually develop code,” she says. “This is a danger when you become a professor, in particular with software engineering. Suddenly, you completely lose track of what it really feels like to develop software ... I don’t want that to happen. I’m staying very close to the trenches.”
+
+
+Lopes was not always interested in virtual reality systems. She joined the ICS faculty in 2002, coming from the Xerox Palo Alto Research Center (PARC), where she was part of the founding group for Aspect-Oriented Programming (AOP). In 2007, Lopes noticed significant hype surrounding the popular virtual world Second Life. Her interest in the hype would have waned quickly, she says, if it weren’t for the large amount of open-source code associated with Second Life.
+
+
+“You can actually see the engineering of the Second Life system, the issues that must be addressed, and how to put everything together to operate such a large system,” she explains. “That is very valuable from an instruction point of view or from a learning perspective. That’s when I found it was really worth the time to go deep into the engineering of that large distributed system as a case study.”
+
+
+In 2008, she joined the geographically scattered community of OpenSimulator developers. The 2013 conference was an effort to assemble that scattered community, as well as test the performance potential of the platform. The second iteration of the conference was held this month. 
+
+
+As the first conference was a great success, Lopes doesn’t think there will be many changes to future conferences, apart from one. “Certainly sitting on the computer for so many hours is not very healthy. We’ll have to integrate some instances of physical exercise in the next virtual conference,” she says. “I think we’re just going to announce ‘Okay people, now there is a break. Get away from the computer and do some squats or something.’”
+
+
+Lopes did not anticipate her career in virtual reality systems research. She also did not anticipate writing her book, Exercises in Programming Style, a compilation of 33 different styles for writing programs and designing systems. 
+
+
+After a decade-plus of teaching programming-intensive upper-division courses, Lopes noticed a recurring problem: While students could write code that worked, they often had no idea how to structure it, leaving their work difficult to decipher and vulnerable to bugs.
+
+
+She was frustrated. She knew how important it was for future engineers to structure their code, but after poring through countless books on programming languages and design patterns, she could find nothing pragmatic about structuring code. 
+
+
+While researching style-related matter for an unrelated project, she happened upon French novelist Raymond Queneau’s 1947 book Exercises in Style.
+
+
+“That book is just a virtuoso work of literary art. The author takes a little story, two paragraphs, and he tells the story 99 different ways, with metaphors, or mathematical permutations of words. All sorts of things that follow what he calls ‘constraints,’” she explains. “He makes those stories come to life in different ways by writing them within those constraints. And by obeying those constraints, he makes styles. I thought: ‘This is exactly what I need!’”
+
+
+Lopes applied the same concept of constraints when writing her book, taking a simple computational task and demonstrating 33 different ways to possibly structure it. “There are more. I just had to stop somewhere,” she allows.
+
+
+She designed the book to be used in conjunction with an open-source repository of code, hosted at GitHub. Lopes is passionate about open-source development, where source code is made available to the general public for use or modification. 
+
+
+“Just as you write papers and put them out to explain concepts, you write this code and put it out there to explain, without any ambiguity, how to do it right,” she says. “I’m a very strong believer in open source contributions, especially at universities, and even more so at public universities.” 
+
+
+That passion makes Lopes an ideal mentor at Hacker School, “where students have made significant contributions to dozens of open source projects and started many of their own,” according to the school’s website. As one of a burgeoning new breed of educational institutions, Hacker School serves as an educational retreat for programmers of all levels. The school and others like it aim to equip novice programmers with skills for a computing-driven age.
+
+
+Lopes recently served as a “Hacker in Residence” (or mentor) for the New York-based Hacker School in October. “I’m not exactly sure how they found me, but they invited me to go spend a week there in their program. They invite people with a lot of experience who can mentor the students,” she explains. 
+
+
+While Lopes undoubtedly has the wealth of experience necessary to mentor Hacker School students, she also has something else going for her. Ohloh.net (now called Black Duck Open Hub) maps the landscape of open-source development, assigning kudos to highly active open-source developers on a 1-10 scale. And Lopes? She’s the only person in the world who is both an ACM Distinguished Scientist and Ohloh Kudos Rank 9.
+
+
+With the conclusion of OSCC 2014, Lopes turns to her many university projects, remaining engaged in academia while making good on her commitment to contribute to the public software infrastructure.
+
+
+
+Check out footage of OSCC 2013 here and read more about OSCC 2014 here.
+ 
+   — Story by Courtney Hamilton 
+   — Photo by Paul Kennedy
+UCI ICS Feature: Staying close to the trenches
+
+
+
+
+More news and events
+
+News Stories
+Press releases
+Video highlights
+Annual reports
+Calendar of events
+
+
+Media interested in interviewing ICS faculty, students or alumni should contact Matt Miller at (949) 824-1562 or via email at matt.miller@uci.edu.
+Quick Links 
+- select a page -
+Computing support
+CS Seminar Series
+Employment
+Facilities
+Find faculty and staff
+Giving to the Bren School
+Graduate degrees
+Kay Family Foundation Lab
+Project ICS
+Prospective undergraduates
+Safety procedures
+Undergraduate degrees
+
+       
+
+Copyright Inquiries | UCI Directory | Intranet
+
+
+
+
