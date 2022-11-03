@@ -1,0 +1,410 @@
+http://sli.ics.uci.edu/Pubs/Bibliography
+
+
+
+SLI | Pubs / Bibliography 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Pubs /
+Bibliography
+
+
+
+@INPROCEEDINGS{fisher99b,
+  author = {{Fisher~III}, J. W. and A. T. Ihler and P. Viola},
+  editor = {S. A. Solla and T. K. Leen and K-R. M{\"u}ller},
+  year = 2000,
+  title = {Learning Informative Statistics: A Nonparametric Approach},
+  booktitle = {Neural Information Processing Systems 12}
+}
+
+@MASTERSTHESIS{ihler00,
+  author = {A. Ihler},
+  month = dec,
+  year = 2000,
+  title = {Maximally Informative Subspaces: Nonparametric Estimation for
+          Dynamical Systems},
+  school = {MIT}
+}
+
+@INPROCEEDINGS{ihler01,
+  author = {A. T. Ihler and J. W. {Fisher~III} and A. S. Willsky},
+  month = may,
+  year = 2001,
+  title = {Nonparametric estimators for online signature authentication},
+  booktitle = {International Conference on Acoustics, Speech, and Signal Processing}
+}
+
+@TECHREPORT{sudderth02,
+  author = {Erik B. Sudderth and Alexander T. Ihler and William T. Freeman and
+           Alan S. Willsky},
+  year = 2002,
+  title = {Nonparametric Belief Propagation},
+  number = {MIT//LIDS P-2551},
+  institution = {MIT, Laboratory for Information and Decision Systems}
+}
+
+@INPROCEEDINGS{ihler03a,
+  author = {A. T. Ihler and J. W. {Fisher~III} and A. S. Willsky},
+  month = apr,
+  year = 2003,
+  title = {Hypothesis testing over factorizations for data association},
+  booktitle = {Information Processing in Sensor Networks},
+  pages = {239--253}
+}
+
+@INPROCEEDINGS{ihler03b,
+  author = {Ihler, A. T. and Sudderth, E. B. and Freeman, W. T. and Willsky, A. S.},
+  year = 2004,
+  title = {Efficient Multiscale Sampling from Products of {G}aussian Mixtures},
+  booktitle = {Neural Information Processing Systems 16},
+  editor = "Sebastian Thrun and Lawrence Saul and Bernhard {Sch\"{o}lkopf}",
+  publisher = "MIT Press",
+  address = "Cambridge, MA",
+}
+
+@INPROCEEDINGS{sudderth03a,
+  author = {E. B. Sudderth and A. T. Ihler and W. T. Freeman and A. S. Willsky},
+  year = 2003,
+  title = {Nonparametric Belief Propagation},
+  booktitle = {Computer Vision and Pattern Recognition},
+}
+
+@INPROCEEDINGS{ihler04a,
+  author = {A. T. Ihler and J. W. {Fisher~III} and R. L. Moses and A. S.
+           Willsky},
+  year = 2004,
+  title = {Nonparametric Belief Propagation for Self-Calibration in Sensor
+          Networks},
+  booktitle = {Information Processing in Sensor Networks}
+}
+
+@INPROCEEDINGS{ihler04b,
+  author = {A. T. Ihler and J. W. {Fisher~III} and R. L. Moses and A. S.
+           Willsky},
+  year = 2004,
+  title = {Nonparametric Belief Propagation for Sensor Self-Calibration},
+  booktitle = {International Conference on Acoustics, Speech, and Signal Processing}
+}
+
+@ARTICLE{ihler05a,
+  author = {A. T. Ihler and J. W. {Fisher~III} and R. L. Moses and A. S.
+           Willsky},
+  year = 2005,
+  title = {Nonparametric Belief Propagation for Self-Calibration in Sensor
+          Networks},
+  journal = {IEEE Journal of Selected Areas in Communication}
+  volume = 23,
+  number = 4,
+  pages = {809--819}
+}
+
+@TECHREPORT{ihler04d,
+  author = {A. T. Ihler and J. W. {Fisher~III} and A. S. Willsky},
+  year = 2004,
+  title = {Communication-Constrained Inference},
+  number = 2601,
+  institution = {MIT, Laboratory for Information and Decision Systems}
+}
+
+@INPROCEEDINGS{ihler04f,
+  author = {A. T. Ihler and J. W. {Fisher~III} and A. S. Willsky},
+  year = 2005,
+  title = {Message Errors in Belief Propagation},
+  booktitle = {Neural Information Processing Systems 17},
+  editor = {Lawrence K. Saul and Yair Weiss and {L\'{e}on} Bottou},
+  publisher = {MIT Press},
+  address = {Cambridge, MA},
+  pages = {609-616}
+}
+
+@ARTICLE{ihler04g,
+  author = {A. T. Ihler and J. W. Fisher~III and A. S. Willsky},
+  month = aug,
+  year = 2004,
+  title = {Nonparametric Hypothesis Tests for Statistical Dependency},
+  journal = {IEEE Transactions on Signal Processing},
+  volume = 52,
+  number = 8,
+  pages = {2234--2249}
+}
+
+@ARTICLE{ihler05b,
+  author = {A. T. Ihler and J. W. Fisher~III and A. S. Willsky},
+  month = may,
+  year = 2005,
+  title = {Loopy Belief Propagation: Convergence and Effects of Message Errors},
+  journal = {Journal of Machine Learning Research},
+  volume = 6,
+  pages = {905--936}
+}
+
+@PHDTHESIS{ihler-thesis,
+  author = {Alexander T. Ihler},
+  year = 2005,
+  title = {Inference in Sensor Networks: Graphical Models and Particle Methods},
+  school = {MIT}
+}
+
+@MISC{ihler-kde,
+  author = {Alexander Ihler},
+  title = {Kernel Density Estimation Toolbox for Matlab},
+  url = {http://www.ics.uci.edu/~ihler/code/kde.shtml}
+}
+
+@inproceedings{siracusa05,
+ title = {Estimating Dependency and Significance for High-Dimensional Data},
+ booktitle = {Proceedings of {ICASSP} 2005 - International Conference on Acoustics, Speech, and Signal Processing},
+ author = {M. Siracusa and K. Tieu and A. Ihler and J. Fisher and A. Willsky},
+ year = { 2005 },
+ location = { Philadelphia (USA) },
+ pages = {1085--1088},
+ isbn={0-7803-8874-7}
+ }
+
+@INPROCEEDINGS{ihler05c,
+  author = {Ihler, A. T. and J. W. Fisher~III and A. S. Willsky},
+  month = jul,
+  year = 2005,
+  title = {Particle filtering under communications constraints},
+  booktitle = {Proceedings, IEEE Statistical Signal Processing (SSP)}
+}
+
+@ARTICLE{cetin06,
+  author = {M. Cetin and L. Chen and J. Fisher and A. Ihler and R. Moses and M. Wainwright and A. Willsky},
+  month = jul,
+  year = 2006,
+  title = {Distributed Fusion in Sensor Networks: A graphical models perspective},
+  journal = {IEEE Signal Processing Magazine},
+  volume = 23,
+  number = 4, 
+  pages = {43--55}
+}
+
+@INPROCEEDINGS{porteous06,
+ title = {{G}ibbs sampling for coupled infinite mixture models in the stick-breaking representation},
+ booktitle = {Proceedings of {UAI} 2006},
+ author = {I. Porteous and A. Ihler and P. Smyth and M. Welling},
+ month = jul,
+ year = 2006,
+ pages = {385--392},
+ location = { Boston (USA) }
+ }
+
+@INPROCEEDINGS{ihler06a,
+ author = {Alexander Ihler and Jon Hutchins and Padhraic Smyth},
+ title = {Adaptive event detection with time-varying {P}oisson processes},
+ booktitle = {KDD '06: Proceedings of the 12th ACM SIGKDD international conference on Knowledge discovery and data mining},
+ year = {2006},
+ isbn = {1-59593-339-5},
+ pages = {207--216},
+ location = {Philadelphia, PA, USA},
+ doi = {http://doi.acm.org/10.1145/1150402.1150428},
+ publisher = {ACM Press},
+ address = {New York, NY, USA}
+ }
+
+@INPROCEEDINGS{ihler06b,
+  author = {Ihler, A. T. and Smyth, P. J.},
+  year = 2007,
+  pages = {625--632},
+  title = {Learning time-intensity profiles of human activity using non-parametric {B}ayesian models},
+  booktitle = {Neural Information Processing Systems 19},
+  editor = {B. Sch\"{o}lkopf and J. Platt and T. Hoffman},
+  publisher = {MIT Press},
+  address = {Cambridge, MA}
+}
+
+@ARTICLE{ihler07a, 
+ title = {Graphical Models for Statistical Inference and Data Assimilation},
+ author = {A. Ihler and S. Kirshner and M. Ghil and A. Robertson and P. Smyth},
+ month = jun,
+ year = { 2007 },
+ journal = {Physica D: Nonlinear Phenomena},
+ volume = 230,
+ issue = {1--2},
+ pages = {72--87}
+ }
+
+@INPROCEEDINGS{ihler07b,
+ title = {Accuracy bounds for belief propagation},
+ booktitle = {Proceedings, Uncertainty in Artificial Intelligence (UAI)},
+ author = {Alexander Ihler},
+ month = jul,
+ year = 2007
+ }
+
+@ARTICLE{ihler07c, 
+ author = {Alexander Ihler and Jon Hutchins and Padhraic Smyth},
+ title = {Learning to detect events with {M}arkov-modulated {P}oisson processes},
+ journal = {ACM Transactions on Knowledge Discovery from Data},
+ volume = {1},
+ number = {3},
+ year = {2007},
+ issn = {1556-4681},
+ pages = {13:1-13:23},
+ doi = {http://doi.acm.org/10.1145/1297332.1297337},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ }
+
+@incollection{acar08a,
+ author = {Acar, U. and Ihler, A. T. and Mettu, R. R. and S\"{u}mer, \"{O}},
+ title =  "Adaptive {B}ayesian Inference",
+ booktitle={Advances in Neural Information Processing Systems 20},
+ editor = {J.C. Platt and D. Koller and Y. Singer and S. Roweis},
+ publisher = {MIT Press},
+ address = {Cambridge, MA},
+ pages = {},
+ year = {2008}
+ }
+
+@incollection{acar08b,
+ author = {Acar, U. and Ihler, A. T. and Mettu, R. R. and S\"{u}mer, \"{O}},
+ title =  "Adaptive {B}ayesian Inference in General Graphical Models",
+ booktitle = {Proceedings, Uncertainty in Artificial Intelligence (UAI)},
+ month = jul,
+ year = {2008}
+ }
+
+@inbook{cetin07,
+ author = {\c{C}etin, M. and L. Chen and J. Fisher and A. Ihler and O. P. Kreidl
+   and  R. Moses and M. Wainwright and J. Williams and A. Willsky}
+ title =  "Graphical Models and Fusion in Sensor Networks",
+ pages = {215--249},
+ booktitle = {Wireless Sensor Networks: Signal Processing and Communications Perspectives},
+ editor = {A. Swami and Q. Zhao and Y.-W. Hong and L. Tong}
+ year = {2007}
+ }
+
+@incollection{hutchins07,
+ author = {Hutchins, J. and A. Ihler and P. Smyth},
+ title =  "Modeling Count Data from Multiple Sources: A Building Occupancy Model",
+ booktitle = {Proceedings, Computational Advances in Multisensor Adaptive Processing (CAMSAP)},
+ pages = {241--245},
+ month = dec,
+ year = {2007}
+ }
+
+@inproceedings{porteous08,
+ author = {Ian Porteous and David Newman and Alexander Ihler and Arthur Asuncion and 
+   Padhraic Smyth and Max Welling},
+ title = {Fast collapsed {G}ibbs sampling for latent {D}irichlet allocation},
+ booktitle = {KDD '08: Proceeding of the 14th ACM SIGKDD international conference on Knowledge discovery and data mining},
+ month = aug,
+ year = {2008},
+ isbn = {978-1-60558-193-4},
+ pages = {569--577},
+ location = {Las Vegas, Nevada, USA},
+ doi = {http://doi.acm.org/10.1145/1401890.1401960},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ }
+
+@inproceedings{hutchins08,
+ author = {Jon Hutchins and Alexander Ihler and Padhraic Smyth},
+ title = {Probabilistic Analysis of a Large Scale Urban Traffic Sensor Data Set},
+ booktitle = {Second International Workshop on Knowledge Discovery from Sensor Data},
+ month = aug,
+ year = {2008},
+ pages = {15--23},
+ }
+
+@inproceedings{ihler09,
+ author = {Alexander Ihler and David McAllester},
+ title = {Particle Belief Propagation},
+ booktitle = {Proceedings of The Twelfth International Conference on Artificial Intelligence and Statistics (AISTATS) 2009, JMLR: W&CP 5},
+ editor = {van Dyk, D. and M. Welling}
+ month = apr,
+ year = {2009},
+ pages = {256--263},
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Last modified April 21, 2009, at 12:58 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

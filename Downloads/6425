@@ -1,0 +1,218 @@
+http://www.ics.uci.edu/~kay/courses/i41/final.html
+
+
+
+
+
+
+Final Exam Details
+
+
+
+
+
+
+Informatics 41 * Fall 2011 * David G. Kay  *
+UC Irvine
+Final Exam Details
+
+As originally scheduled and announced on the
+syllabus, our final exam will be on Tuesday, December 6, from 10:30 a.m. to 12:30 p.m.
+in our regular   classroom.  It will cover the whole
+course (emphasizing topics from class, from the assignments, and from the
+quizzes, and not emphasizing other material from the textbook).
+
+You may bring with you to the exam one page
+of notes (8 1/2 by 11 inches, both sides), on which you may place any information
+you think will help you on the exam.  Computer-printed pages are fine. 
+You may not bring any electronic devices aside from a conventional digital
+wristwatch.
+
+One excellent way to review, as we've mentioned
+before, is to go back and retake the quizzes.
+ They're all available on line, or will be shortly.  You should also
+go back, read, and make sure you can do all the problems from the homework and lab assignments,
+especially the ones that don't come from the textbook.  (You're
+not responsible for knowing how to do file handling in
+Scheme or for knowing how to use the Picturing Programs teachpack.)
+
+There is also a set of additional questions,
+including some longer ones of the sort that couldn't fit on a quiz but
+might show up on the final.  There are also answers
+available in a separate document, but once more we urge you to work out
+the problems as fully as you can before you consult the answers.
+
+We will have a review session on Monday, December 5, from 1:00 to 2:50 p.m. in 
+room 1300 Donald Bren Hall. 
+The price of admission  is (at least) one
+written question about the course material.  The best strategy would be
+to go through all the materials suggested on this page before the review
+session, so you can bring any unresolved questions to the review session
+itself.  We also recommend a good night's sleep before the exam.
+
+Finally, below is a tentative, rough list of the topics
+we covered apart from the Picturing Programs textbook and other programming topics.  Approximately 25% of the final
+will address these topics.  The questions will tend towards larger concepts
+and away from small detail-level memorization.  We will supply a copy of
+the Deus X instruction set with the final exam, as we did with one of the
+quizzes, so you don't have to devote any of your page of notes to that.
+
+
+Fundamental concepts
+
+
+Hardware, software, data, algorithm, program
+
+
+Source code (human-prepared, e.g., Scheme or
+      HTML) vs. interpreted code (e.g., rendered web page) or object (executable,
+      machine language) code; the idea of open-source software distribution vs. conventional distribution of object code only
+
+Program performance: Efficiency (of human time and of computational resources) and O-notation (recognizing processes that require time or space that is O(1) constant, O(log n) logarithmic, O(n) linear, or O(n-squared) quadratic).
+
+
+The reasons that underlie the design choices
+      we make.
+
+
+
+
+
+Forms of information
+
+
+Models, abstraction, and abstraction hierarchies
+      (levels of abstraction)
+
+
+Hierarchical (tree) organization
+
+
+
+
+Representing information in computers
+
+
+Bits and bytes; ASCII; numbers as ASCII, binary
+                numbers, BCD; size and scale (KB, MB, GB, TB, ...)
+
+
+Digitizing pictures (and other real-world information)
+
+
+Sampling, quantization, color; resolution and
+                            bit depth
+
+
+
+
+
+
+Compression and redundancy
+
+
+Lossless vs. lossy; syntactic vs. semantic
+
+
+Delta encoding, run-length encoding
+
+
+
+
+
+
+The Internet
+
+
+Services:  World-Wide Web, Email, file transfer/ftp,
+      telnet (remote login), chat/IM
+
+
+Client machines, server machines, network backbone;
+      what contributes to delays
+
+
+Decentralized design; packet switching vs.
+      circuit switching
+
+
+The Web
+
+
+Web browsers, concept of HTML, URLs, domain
+                names
+
+
+
+
+
+
+Computer characteristics and organization (including
+the Deus X)
+
+
+Memory, registers, instruction format
+
+
+Sequential execution of instructions (fetch,
+      decode, execute)
+
+
+Storage hierarchy (registers, RAM, secondary
+      storage, e.g., disks); relative capacity vs. access time of various media; direct
+      or random access storage (e.g., disks or CDs) vs. sequential access (e.g.,
+      tapes)
+
+
+Operating systems:  managing computational
+      resources
+
+
+process control (multitasking/timesharing),
+                  security/authentication (what you know/have/are), memory management (virtual
+                  memory)
+
+
+User interface:  GUI vs. command-line
+
+
+
+
+Machine-level vs. high-level programming languages:
+      Going from a problem description to an executable program, how much is
+      done automatically?  Procedural (how) vs. non-procedural (what)
+Parallelism (concurrency): Splitting tasks among multiple processors, the inherent sequentiality of some tasks (e.g., elephant gestation) that prevents parallelism, how functional programming makes it easier to identify parallelizable segments of code automatically.
+
+
+Human-computer interaction, user interfaces
+      (ease of learning vs. ease of use, recognition vs. recall)
+
+
+Pattern recognition and less-than-perfect matching
+
+
+
+Social and legal impact of computing
+
+
+Stakeholder analysis
+
+
+Maxims
+
+ People time is more expensive than computer
+        time
+
+ Electronic components are faster, cheaper,
+        and more reliable than mechanical ones
+
+
+
+
+
+
+David G. Kay, kay@uci.edu 
+
+Monday, November 28, 2011 10:05 AM
+
+

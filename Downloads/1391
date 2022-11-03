@@ -1,0 +1,9 @@
+http://plrg.ics.uci.edu/publications/500.bib
+@inproceedings{key,
+ author = {Hans Boehm and Brian Demsky},
+ title = {Outlawing Ghosts: Avoiding Out-of-Thin-Air Results},
+ booktitle = {Proceedings of ACM SIGPLAN Workshop on Memory Systems Performance and Correctness},
+ location = {Edinburgh, United Kingdom},
+ month = {June},
+ year = {2014}
+}

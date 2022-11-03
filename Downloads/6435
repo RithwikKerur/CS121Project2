@@ -1,0 +1,42 @@
+http://www.ics.uci.edu/~kay/scheme/copy-file.scm
+;; Requires simple-file-io.ss teachpack for Intermediate Student DrScheme
+;; Requires advanced-file-io.ss teachpack for Advanced Student DrScheme
+
+;; This function copies an old file into a new file
+;; prompting the user for each file.  Call with (copy-file 'x).
+(define copy-file
+  (lambda (x)
+    (local ((define input-file-name (get-file "Select the file to copy" #f #f #f #f '()))
+            (define input-port (open-input-file input-file-name))
+            (define output-port (open-output-file 
+                                  (put-file "Select the destination file" #f #f 
+                                            (string-append input-file-name " copy") #f '() '()) 
+                                  'replace)))
+      ;; the "replace" flag above enables the function to overwrite
+      ;; an existing file.
+      (copy-file-by-port input-port output-port))))
+
+;; This function copies an old file into a new file;
+;; the two parameters are file names
+(define copy-file-given-names
+  (lambda (old-file new-file)
+    (local ((define input-port (open-input-file old-file))
+            (define output-port (open-output-file new-file 'replace)))
+      (copy-file-by-port input-port output-port))))
+
+
+;; The function implements the actual copying;
+;; it reads line by line from the old file and writes
+;; each line to the new file
+(define copy-file-by-port
+  (lambda (input-port output-port)
+    (local ((define one-line (read-line input-port))) ;; read a line from the old file
+      (cond 
+        ((eof-object? one-line) (flush-output output-port))
+        ;; if the end of file is reached, force anything in the writing
+        ;; buffer to be written to the new file.
+        (else (begin
+                (display one-line output-port) ;; write the line to the new file
+                (newline output-port)  ;; start a new line in the new file
+                (copy-file-by-port input-port output-port)))))))
+                ;; recursively read and write the rest

@@ -1,0 +1,56 @@
+http://www.ics.uci.edu/~ihler/code
+
+
+
+
+
+
+
+Code Packages
+
+
+
+KDE Toolbox
+
+Event Detection
+
+Adaptive Inference
+
+Gaussian Process Regression with Time-shifts
+
+
+
+
+     
+
+This page contains toolboxes and other code written by myself or our group for our research and made
+available for others.  Although we hope you find it helpful, please do not expect a significant amount
+of technical support or debugging.
+   
+
+   Matlab Toolboxes  
+
+
+
+Kernel Density Estimation (KDE) Toolbox for Matlab
+
+A reasonably efficient implementation of spatial data structures for kernel or Parzen window
+density estimation and similar functions.  Most work is done by a k-d tree data structure; versions
+of the "fast Gauss transform" and nearest neighbor searches are also included.  Written as a Matlab
+class, with methods for many standard distributional operations (estimating entropy, evaluating, etc.)
+
+
+
+
+   
+
+   Other Matlab Code  
+
+
+
+Anomaly and Event Detection in Count Data
+Adaptive Inference in Graphical Models
+Gaussian Process Regression with Time-shifts
+
+   
+

@@ -1,0 +1,224 @@
+https://sli.ics.uci.edu/PmWiki/Notify
+
+
+
+SLI | PmWiki / Notify 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+Notify
+
+
+
+
+
+< Blocklist | Documentation Index | Passwords administration >
+
+
+< Blocklist | Variables | Basic Variables >
+
+administrators (basic) 
+
+The notify.php script allows a site administrator to configure PmWiki to send email messages whenever pages are changed on the wiki site.  Notifications can be configured so that multiple page changes over a short period of time are combined into a single email message (to avoid flooding mailboxes).
+
+This feature is useful for sites and pages that have infrequent updates, as it eliminates the need to frequently check RecentChanges pages just to see if anything has changed.
+
+In order for notifications to work, the notify.php script must be enabled in the site's local customization.  Usually this is as simple as placing the following in local/config.php:
+
+$EnableNotify = 1;
+Notification configuration
+Once enabled, the notification system gets its configuration from the SiteAdmin.NotifyList? wiki page.  The SiteAdmin.NotifyList page contains entries of the form:
+
+notify=alice@example.com
+This says that information about page changes should be periodically emailed to alice@example.com.  The SiteAdmin.NotifyList page can contain multiple "notify=" lines to cause notifications to be sent to multiple addresses; the "notify=" lines can be concealed by placing them inside of an (:if false:) conditional section on the page.
+
+NOTE: Do not put any spaces around the equal sign! Notifications will fail silently if you have...  This is a really easy mistake to make because all of the other assignments have spaces around the equal sign.
+
+notify=fred@example.com rather than notify = fred@example.com
+Notification options
+The basic syntax is 
+notify=email@address name=abc group=def trail=ghi squelch=123 delay=123 
+A number of options exist for limiting the pages that result in a notification.  The group= and name= parameters can be used to restrict notifications to specific pages or groups:
+
+
+# send notifications about the Main group to alice@example.com
+notify=alice@example.com group=Main
+
+# notify bob@example.com of any changes to the home page
+notify=bob@example.com name=Main.HomePage
+# notify charles@example.com of changes to pages except in Main
+notify=charles@example.com group=-Main
+(Note: The options are similar to the PageList syntax.)
+
+
+For maintaining arbitrary lists of pages, i.e., "watchlists", it's generally easier to build a trail of pages to be watched.  The following entry in SiteAdmin.NotifyList will send alice@example.com an email containing changes to any of the pages listed in the Profiles.Alice trail:
+
+# notify Alice of changes to pages listed in Profiles.Alice
+notify=alice@example.com trail=Profiles.Alice
+Note that once this entry has been added to SiteAdmin.NotifyList, Alice can easily change her watchlist by editing the Profiles.Alice page, and doesn't need to edit the SiteAdmin.NotifyList page.  In particular, this means that an administrator can restrict editing of SiteAdmin.NotifyList, yet allow individuals to maintain custom watchlists in other pages. 
+
+Limitations of this feature:
+only manually-added links on a trail will be acknowledged by the Notify List (no "group=" or other pagelist syntax, nor any "Group.RecentChanges" links, will generate notifications)
+using an (:include:) directive on the page SiteAdmin.NotifyList is not an operational work-around.
+PageTextVariables are not resolved - you can't get the notification mail address from the profile page.
+This is probably a good place to point out that edit access to SiteAdmin.NotifyList should be controlled, otherwise malicious persons can use the notification capability to flood others' electronic mailboxes.  By default, SiteAdmin.NotifyList is blocked against reading or edits except by the admin (as is the case for most pages in the SiteAdmin group).
+
+Adding notification entries via local customizations
+Notification entries can also be added via the $NotifyList array in local/config.php.  Simply add a line like the following:
+$EnableNotify = 1;
+$NotifyList[] = 'notify=alice@example.com group=Main';
+$NotifyList[] = 'notify=bob@example.com name=Main.HomePage';
+
+
+Controlling notification frequency
+To prevent flooding of recipients' mailboxes, the notify script uses a "squelch" value as the minimum amount of time that must elapse between messages sent to any given email address.  The default squelch setting is 10800 seconds (three hours), which means that once a recipient address is sent a notification message, it will not receive another for at least three hours.  Any edits that occur during the squelch interval are queued for the next notification message.
+
+The site administrator can change the default squelch interval via the $NotifySquelch parameter 
+
+# enable notifications
+$EnableNotify = 1;
+$NotifySquelch = 86400;    # wait at least one day (in seconds) between notifications
+In addition, individual addresses can specify a custom squelch parameter in the SiteAdmin.NotifyList page:
+
+# Alice receives at most one email per day
+notify=alice@example.com squelch=86400
+# Bob can get notifications hourly
+notify=bob@example.com trail=Profiles.Bob squelch=3600
+# Charles uses the site default squelch
+notify=charles@example.com 
+
+Controlling notification delay
+Because a page will often receive several edits in rapid succession (e.g., a long post followed by several minor edits), a site administrator can also set a $NotifyDelay value that specifies how long to wait after an initial post before sending notifications:
+
+# enable notifications
+$EnableNotify = 1;
+$NotifySquelch = 86400;    # wait at least one day between notifications
+$NotifyDelay = 300;        # wait five minutes after initial post
+Note that the squelch and delay values are minimums; notifications are sent on the first execution of PmWiki after the delay period has expired.  For inactive sites, this could be much longer than the specified delay periods.  This isn't really considered an issue since timely notifications are less important on relatively inactive sites. However, changes within the squelch time after the last notification will remain unnoticed if the wiki is not even visited for a long period after. If this matters it might be necessary to make the server call pmwiki.php regularly (e.g. cron job).
+
+Custom delay parameters cannot be specified for individual addresses in the SiteAdmin.NotifyList? page:
+
+# the delay= parameter will be ignored
+notify=edgar@example.com trail=Profiles.Edgar delay=600
+Note for Windows installations
+Sites running PHP under Windows may not have PHP's mail function configured correctly.  Such sites may need to add a line like
+
+ini_set('SMTP','smtp.server.com');
+to config.php, where smtp.server.com is the name of your host's preferred outgoing mail server. You may also need to set the sendmail_from value if that is not configured:
+
+ini_set('sendmail_from','noreply@foo.com');
+ Notify Variables
+$EnableNotifyTells stdconfig.php to enable the notify script.
+ $EnableNotify = 1;          # enable notify
+ $EnableNotify = 0;          # disable notify
+$NotifyFromReturn email address to be used in the sent email.
+ $NotifyFrom = 'wiki@example.com';
+ $NotifyFrom = 'Wiki server <wiki@example.com>';
+$NotifyDelayThe length of time (seconds) to wait before sending mail after the first post.  Defaults to zero - posts are sent as soon as any squelch period has expired.
+ $NotifyDelay = 300;    # send mail 5+ min after first post
+$NotifySquelchThe default minimum time (seconds) that must elapse between sending mail messages.  Useful when $NotifyDelay is set to a small value to keep the number of mail notification messages down.  Defaults to 10800 (three hours).  Individual recipients can override this value in the SiteAdmin.NotifyList page.
+ $NotifySquelch = 43200;  # wait 12+ hours between mailings
+$NotifyItemFmtThe text to be sent for each changed item in the post.  The string "$PostTime" is substituted with the time of the post (controlled by $NotifyTimeFmt below).
+ # default
+ $NotifyItemFmt = ' * $FullName . . . $PostTime by $Author';
+ # include the page's URL in the message
+ $NotifyItemFmt =
+ " * \$FullName . . . \$PostTime by \$Author\n     \$PageUrl";
+ # include the change summary and link to the page's history in the message
+ $NotifyItemFmt = 
+ " * {\$FullName} . . . \$PostTime by {\$Author}
+ \n    Summary: {\$LastModifiedSummary}\n    {\$PageUrl}?action=diff";
+$NotifyTimeFmtThe format for dates/times in $PostTime above.  Defaults to the value of $TimeFmt.
+ $NotifyTimeFmt = '%Y-%m-%d %H:%M';  # 2004-03-20 17:44
+$NotifyBodyFmtThe body of the message to be sent.  The string "$NotifyItems" is replaced with the list of posts (as formatted by $NotifyItemFmt above). Use single quotation marks ' to prevent substring "$NotifyItems" from being untimely evaluated as variable in config.php. 
+ $NotifyBodyFmt = "Changed items:\n\n" . '$NotifyItems' . "\n\n Best regards...";
+$NotifySubjectFmtThe subject line of the mail to be sent.
+$NotifyHeadersString of extra mail headers to be passed to the mail() function.
+$NotifyParametersString of additional parameters to be passed to PHP's mail() function [1].
+$NotifyFileThe scratch file where Notify keeps track of recent posting information.  Defaults to "$WorkDir/.notifylist".  Note that this file must generally be writable by the webserver process.
+$NotifyListPageFmtThe name of the page containing notify= lines for use by notify.php.  Defaults to $SiteAdminGroup.NotifyList.
+$NotifyListAn array of notify= specifications that can be specified from a local customization file (used in addition to entries in SiteAdmin.NotifyList).
+ # send notifications to alice@example.com
+ $NotifyList[] = 'notify=alice@example.com';
+$EnableNotifySubjectEncodeApply a standard (base64) encoding for the e-mail subject. Notify e-mails from international wikis may otherwise have unreadable subjects (added for version 2.2.2).
+ $EnableNotifySubjectEncode = 1;          # encode subject
+ $EnableNotifySubjectEncode = 0;          # use subject as is (default)
+  To fix encodings with the message body, add to config.php the following line (after XLPage and/or UTF-8): $NotifyHeaders = "Content-type: text/plain; charset=$Charset";
+Notification only for major edits
+It is possible to send notifications only in case of major edits. In your config.php, replace "$EnableNotify=1;" with the following:  
+
+if ( @$_POST['diffclass'] != 'minor' ) $EnableNotify=1;
+
+This way, only 'major' edits send notify messages (when the author doesn't select the checkbox for minor edit). If you want minor edits and not major edits to send the message then you would use:
+
+if ( @$_POST['diffclass'] == 'minor' ) $EnableNotify=1;
+
+instead.
+
+Disabling notifications for downloads
+If you use "$EnableDirectDownloads=0;" (eg. for privacy on a password-protected wiki) then attached images may generate duplicate notification messages.  To prevent that disable notifications for downloads via
+
+if ( $action != 'download' ) $EnableNotify=1;
+
+That way, only page views (and not images within the page) will generate notifications.  See PITS:01159 for more information.
+ 
+
+< Blocklist | Documentation Index | Passwords administration >
+
+
+< Blocklist | Variables | Basic Variables >
+
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:Notify, and  a talk page: PmWiki:Notify-Talk.
+
+
+
+
+
+
+ Last modified December 04, 2013, at 12:29 AM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

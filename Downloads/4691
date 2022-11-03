@@ -1,0 +1,423 @@
+http://www.ics.uci.edu/~pattis/common/handouts/macmingweclipse/eclipse.html
+
+
+
+Eclipse Download and Installation Instructions
+
+
+
+Eclipse Download and Installation
+
+
+
+
+Install a new version of Eclipse to use with C++
+
+You may want to print these instructions before proceeding, so that you can
+  refer to them while downloading and installing MinGW and Eclipse.
+Or, just keep this document in your browser.
+You should read each step completely before performing the action that it
+  describes.
+
+
+Eclipse: Version 4.5 (Mars)
+
+
+The Eclipse download requires about 200 MB of disk space; keep it on your
+  machine, in case you need to re-install Eclipse.
+When installed, Eclipse requires an additional 200 MB of disk space.
+
+Downloading
+
+Click
+    
+      Eclipse
+    The top of the following page will appear in your browser.
+    
+
+
+    In this handout we will download Eclipse Standard 4.5 for
+      Mac OS X 64 Bit; if your computer uses Mac OS X (Cocoa), continue below;
+        otherwise look for the pull-down list showing Mac OS X (Cocoa)
+        and instead choose either Windows or Linux and then
+        continue below.
+
+
+Click the 64 Bit (under Mac OS X) under the heading Eclipse IDE for C/C++ Developers (the fourth
+      selection from the top).
+    
+
+
+    You will see the following page (don't worry about the name of the
+      institution underneath the orange DOWNLOAD button).
+    
+
+
+Click the orange DOWNLOAD button.
+    The site named here, in orange, underneath the DOWNLOAD button:
+      United States - Indiana Unversity (http) is the
+      random one chosen by the download page this time; yours may differ.
+    
+    This file should start downloading in your standard download folder.
+    This file is about 200 Mb so it might take a while to download fully if you
+      are on a slow internet connection (it took me about 5 minutes over a
+      cable modem).
+    Don't worry about the exact time as long as the download continues to make
+      steady progress.
+    In Chrome progress is shown on the bottom-left of the window, via the icon
+    
+
+
+    The file should appear as
+    
+
+
+    Terminate the window browsing the Eclipse download.
+
+
+Move this file to a more permanent location, so that you can install Eclipse
+      (and reinstall it later, if necessary).
+
+Start the Installing instructions directly below.
+
+
+
+Installing
+
+Double click the file eclipse-cpp-mars-R-macosx-cocoa-x86_64.tar.gz,
+      the file that you just downloaded and moved.
+    It will unzip the file and create an Eclipse application, which
+      appears as
+    
+
+
+    Move this application into the Applications folder and put it on the
+      dock for simple access.
+    Now you are ready to perform a one-time only setup of Eclipse on
+      your machine.
+
+
+Double-click the Eclipse icon on the Dock that you just
+      created above.
+    
+    The following pop-up window will appear
+    
+
+
+    (note it says Eclipse Cpp here, because I already have Eclipse
+       installed for my work with Python, so on my machine I renamed this
+       application Eclipse Cpp.
+
+
+Click Open.
+    
+    The following splash screen will appear
+    
+
+
+    and then a Workspace Launcher pop-up window will appear.
+    
+
+
+    In the Workspace text box, your login name should appear between
+      /users and /Documents\workspace, instead of my name,
+      richardepattis.
+    
+    Leave unchecked the 
+      Use this as the default and do not ask again box.
+    Although you will use this same workspace for the entire quarter (checking
+      projects in and out of it), it is best to see this
+      Workspace Launcher pop-up window each time you start Eclipse, to
+      remind you where your workspace is located.
+
+Click OK.
+    
+    Progress bars will appear at the bottom of the spash screen as Eclipse
+      loads.
+    
+    Eventually the Eclipse workbench will appear with a Welcome tab
+      covering it.
+    
+
+
+Terminate (click X on) the Welcome tab.
+    
+    You will not see the Welcome tab when you start Eclipse after this
+      first time.
+    You should now see the following Eclipse workbench.
+    
+
+
+    Notice the C/C++ words/icon appear on the top left (in the Window
+      title-bar) and below the upper right-hand corner (beneath the tool-bar).
+
+
+Eclipse is now installed for C++.
+
+
+
+Xcode
+In this section we will download/install Xcode.
+Before downloading Xcode (this software is free) you must have an
+  itunes account.
+
+Download/Install Xcode by opening a browser and pasting the
+      following url:
+       https://developer.apple.com/xcode/downloads/.
+    
+    It will pop-up the following Developer window.
+    
+
+
+Click the View in Mac App Store > link.
+    It will bring pop-up the following itunes window
+    
+
+
+Click the Get button (underneath the hammer).
+    The pop-up window will change to
+    
+
+
+Click the Install App button (same location).
+    When I did this, I received the following message in a pop-up window
+      (because I am running Mac OS 10.9.5).
+    
+
+
+    At this point I clicked OK and  returned to the original
+      Xcode window, scrolled to the bottom (left), and clicked on
+      the Additional Tools link.
+    I was redirected to login with my Apple ID.
+    
+
+
+    I entered my Apple ID and password and clicked 
+       Sign In.
+    Next a pop-up window with an Apple Developer Agreement appeared;
+      I scrolled to the bottom.
+    
+
+
+    I clicked the box binding me to the agreement and clicked the Submit
+      button.
+    Next a pop-up window with various developer tools appeared.
+    I scrolled down to Xcode 5.1 (dated April 9, 2014) and clicked on
+      the + to disclose the Xcode 5.1.1.dmg link.
+    
+
+
+    I clicked this link; note the download occupies 2.1Gb of storage: my
+       download took 30 minutes.
+    Then I double clicked the downloaded .dmg file and a pop-window
+      showed itself briefly.
+    
+
+
+    Then a pop-window window asked me to drag/drop Xcode to
+      the Applications folder.
+    
+
+
+    I dragged/dropped Xcode to the Applications folder, and
+      a pop-up window showed itself during the copying.
+    
+
+
+    Then I repeated these steps for Xcode's command line developer tools.
+    I scrolled to
+     Command Line Tools (OS X 10.9) for Xcode - September 2014
+     (dated September 1, 2014) and clicked on the + to disclose the
+     link.
+    
+
+
+    I clicked this link; note the download occupies 102Mb of storage: my
+       download took just a few minutes.
+    Then I double clicked the downloaded .dmg file and a pop-window
+      showed itself briefly, followed by the following pop-up window.
+    
+
+
+    I double clicked the icon and the following pop-up window appeared, with
+      the word Introduction highlighed.
+    
+
+
+    I clicked the Continue button, and following pop-up window appeared,
+      with the word License highlighed.
+    
+
+
+    I clicked the Continue button, and following pop-up window appeared
+    
+
+
+    I clicked the Agreee button, and following pop-up window appeared,
+      with the word Installation Type highlighed (it skipped highlighing
+      the Destination Select.
+    
+
+
+    (this image appears to be missing)
+    I clicked the Install button, and following pop-up window appeared.
+    
+
+
+    I entered my password and clicked the Install Software button,
+      and following pop-up window appeared, showing the installation progress.
+    
+
+
+    Eventually, that window was replaced with the following pop-up window with
+      the word Summary highlighed.
+    
+
+
+    I clicked the Close button and terminate the
+      Command Line Developer Tools window.
+
+
+Open a terminal and type (don't copy/paste) to its prompt:
+    xcode-select --install as shown below.
+    
+
+
+    I pressed return and following pop-up window appeared
+    
+
+
+    I clicked the Install button, and following pop-up window appeared.
+    
+
+
+    I clicked the Agreee button, and following pop-up window appeared
+      briefly.
+    
+
+
+    When it disappers, the following pop-up window appeared.
+    
+
+
+    I clicked the Done button.
+    Then I closed the terminal window.
+
+
+Go the the Launchpad and double click the Xcode icon.
+    The following pop-up window will appear briefly
+    
+
+
+    It is replaced by the following pop-up window.
+    
+
+
+
+Click Open.
+    The following pop-up window will appear
+    
+
+
+    Click Agree.
+    The following pop-up window appeared.
+    
+
+
+    I entered my password and clicked OK.
+    The following pop-up window will appear briefly
+    
+
+
+    It is replaced by the following pop-up window.
+    
+
+
+    Click Open Other and the following pop-up window will appear (yours
+      might have diffierent documents, but it should show the workspace
+      that you created when you started Eclipse).
+    Click that workspace (to select it) and click Open.
+    
+KLUDGE: is this necessary? Could I have dismissed this window and still
+         have run the code?
+
+The require Xcode software is now installed.
+
+
+
+Eclipse Verification
+In this section we will Eclipse/C++ is working correctly.
+
+
+
+
+Re-open Eclipse if it is not open.
+
+Start a new project by clicking on the "down-pointing" black triangle to
+      the right of the left-most icon on the Eclipse tool-bar (not at the top
+      of the screen, but on the window runnin Eclipse).
+    Fill in the Project Name as test; in Project type
+      ensure Empty Porject is selected; in Toolchains ensure
+      MacOSX GCC is selection.
+    The pop-up window should appear as
+    
+
+
+    Click Finish.
+
+
+Right click the test folder and select Source File as shown
+      in the window below.
+    
+
+
+
+Enter trivial.cpp after Source file: as shown in the window
+      below.
+    
+
+
+   Click the Finish button.
+
+
+Copy/paste the following text starting at line 8 in the trivial.cpp
+      editor.
+
+#include <iostream>
+
+int main()
+{
+      std::cout << "Welcome to ICS 46!" << std::endl;
+      return 0;
+}
+
+Right click in the *trivial.cpp editor tab and select Save.
+    
+
+
+    The * in the editor tab (meaning the file is unsaved) should
+      disappear.
+
+
+Click the hammer (or right-click the test folder and select
+     Build Project) and the Console window at the bottom
+     (click it if it is not active) should show a successful build.
+    
+
+
+
+Right click in the trivial.cpp editor and select Run as and
+      then 1 Local C/C++ Application.
+    The Console window should show a successful run.
+    You can run this application in the future by clicking the right-pointing
+      white triange in the green circle (the leftmost one of the three).
+    
+
+
+
+
+You have now verified the installation of Eclipse for C++.
+
+
+
+

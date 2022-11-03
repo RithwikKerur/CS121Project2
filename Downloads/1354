@@ -1,0 +1,8 @@
+http://plrg.ics.uci.edu/publications/250.bib
+@techreport{key,
+ author = {James C. Jenista and Brian Demsky},
+ title = {Disjointness Analysis for Java-Like Languages},
+ number = {Technical Report UCI-ISR-09-1 REVISED},
+ month = {April},
+ year = {2009}
+}

@@ -1,0 +1,188 @@
+https://sli.ics.uci.edu/PmWiki/Security
+
+
+
+SLI | PmWiki / Security 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+Security
+
+
+
+
+
+< Uploads administration | Documentation Index | Custom markup >
+
+
+
+Aspects of PmWiki security are found on the following pages:
+
+Pages distributed in a PmWiki release:
+Page history History of previous edits to a page
+Passwords General use of passwords and login
+Passwords Admin More password options for the administrator
+AuthUser Authorization system that uses usernames and passwords
+Url Approvals Require approval of Url links
+Site Analyzer
+Blocklist Blocking IP addresses, phrases, and expressions to counteract spam and vandalism.
+Notify How to receive email messages whenever pages are changed on the whole wiki site, individual groups or selected watchlists of pages
+Security variables variables crucial for site security
+Cookbook pages
+
+Security recipes from the Cookbook
+Cookbook:HtpasswdForm Form based management of users and passwords using .htpasswd/.htgroup files
+Cookbook:Secure attachments Protecting uploaded attachments
+Cookbook:Web server security Making the server more secure with .htaccess
+Cookbook:Farm security Making Farm installations secure
+Cookbook:DeObMail Hide e-mail address
+Cookbook:Spam filters Automatic blocking of some spambots
+Cookbook:Audit images Check to see what images have been uploaded to your wiki.
+Cookbook:Private groups Create and secure private groups on a public wiki
+Cookbook:Only one login Only allow 1 login at the same time for a username
+Cookbook:Recipe check Check for new versions of recipes on pmwiki.org
+Cookbook:Session guard Protects against Session Theft
+Cookbook:TrackChanges Ways to more easily detect and verify all recent edits
+ 
+ How do I report a possible security vulnerability of PmWiki?
+ Pm wrote about this in a post to pmwiki-users from September 2006. In a nutshell he differentiates two cases:
+The possible vulnerability isn't already known publicly: In this case please contact us by private mail.
+The possible vulnerability is already known publicly: In this case feel free to discuss the vulnerability in public (e.g. on pmwiki-users or in the PITS).
+See his post mentioned above for details and rationals.
+
+ What about the botnet security advisory at http://isc.sans.org/diary.php?storyid=1672?
+ Sites that are running with PHP's register_globals setting set to "On" and versions of PmWiki prior to 2.1.21 may be vulnerable to a botnet exploit that is taking advantage of a bug in PHP.  The vulnerability can be closed by turning register_globals off, upgrading to PmWiki 2.1.21 or later, or upgrading to PHP versions 4.4.3 or 5.1.4.  In addition, there is a test at PmWiki:SiteAnalyzer that can be used to determine if your site is vulnerable.
+
+
+Wiki Vandalism and Spam
+Assumptions you are using a Blocklist and Url approvals.
+ You don't want to resort to password protecting the entire wiki, that's not the point after all.
+ Ideally these protections will be invoked in config.php
+ How do I stop pages being deleted, eg password protect a page from deletion?
+ Use Cookbook:DeleteAction and password protect the page deletion  action by adding $DefaultPasswords['delete'] = '*'; to config.php or password protect the action with $HandleAuth['delete'] = 'edit';
+or $HandleAuth['delete'] = 'admin'; to require the edit or admin password respectively.
+ How do I stop pages being replaced with an empty (all spaces) page?
+ Add block: /^\s*$/ to your blocklist.
+
+ how do I stop pages being completely replaced by an inane comment such as excellent site, great information, where the content cannot be blocked?
+ Try using the newer automatic blocklists that pull information and IP addresses about known wiki defacers.
+
+ (OR) Try using Cookbook:Captchas or Cookbook:Captcha (note these are different).
+
+ (OR) Set an edit password, but make it publicly available on the Site.AuthForm template.
+
+ How do I password protect the creation of new groups?
+ See Cookbook:Limit Wiki Groups
+
+ How do I password protect the creation of new pages?
+ See Cookbook:Limit new pages in Wiki Groups
+
+ How do I take a whitelist approach where users from known or trusted IP addresses can edit, and others require a password?
+ Put these lines to local/config.php:
+
+## Allow passwordless editing from own turf, pass for others.
+if ($action=='edit'
+ && !preg_match("/^90\\.68\\./", $_SERVER['REMOTE_ADDR']) )    
+ { $DefaultPasswords['edit'] = pmcrypt('foobar'); }
+
+Replace 90.68. with the preferred network prefix and foobar with the default password for others.
+
+For a single IP, you may use 
+
+if($_SERVER['REMOTE_ADDR'] == '127.0.0.1') { # your IP address here
+ $_POST['authpw'] = 'xxx';                  # the admin password
+}
+
+Please note the security issues : this means that you have your admin passwords in clear in config.php and someone with access to the filesystem can read them (for example a technician of your hosting provider) ; your IP address may change from time to time (unless you have a fixed IP contract with your ISP). When that happens, someone with your old IP address will be logged in automatically as admin on your wiki. It is extremely unlikely to become a problem, but you should know it is possible ; if you are behind a router, all other devices which pass through that router will have the same IP address for PmWiki - your wifi phone, your wife's netbook, a neighbour using your wifi connection, etc. All these people become admins of your wiki. Again, you should evaluate if this is a security risk ; In some cases, your ISP will route your traffic through the same proxy as other people. In such a case, thousands of people may have the same IP address.
+
+ See also Cookbook:AuthDNS & Cookbook:PersistentLogin
+
+ How do I password protect page actions?
+ See Passwords for setting in config.php  
+$HandleAuth['pageactionname'] = 'pageactionname'; # along with :
+$DefaultPasswords['pageactionname'] = pmcrypt('secret phrase');
+ or 
+$HandleAuth['pageactionname'] = 'anotherpageactionname';
+ How do I moderate all postings?
+ Enable PmWiki.Drafts
+Set $EnableDrafts, this relabels the "Save" button to "Publish" and a "Save draft" button appears. 
+Set $EnablePublishAttr, this adds a new "publish" authorization level to distinguish editing from publishing.
+ How do I make a read only wiki?
+ In config.php set an "edit" password.
+
+ How do I restrict access to uploaded attachments?
+ See
+instructions for denying  public access to the uploads directory
+see Cookbook:Secure attachments
+ How do I hide the IP addresses in the "diff" pages?
+ If the user fills an author name, the IP address is not displayed. To require an author name, set in config.php such a line:
+
+  $EnablePostAuthorRequired = 1;
+ The IP address can also be seen in a tooltip title when the mouse cursor is over the author name. To disable the tooltip, set in config.php:
+
+$DiffStartFmt = 
+  "<div class='diffbox'><div class='difftime'><a name='diff\$DiffGMT' href='#diff\$DiffGMT'>\$DiffTime</a>
+   \$[by] <span class='diffauthor'>\$DiffAuthor</span> - \$DiffChangeSum</div>";
+
+ How do I stop some Apache installations executing a file which has ".php", ".pl" or ".cgi" anywhere in the filename
+ Use $UploadBlacklist
+
+ How do I stop random people from viewing the ?action=source (wiki markup) of my pages?  I have (:if auth edit:) text that I don't want the world to see.
+ $HandleAuth['source'] = 'edit'; or $HandleAuth['source'] = 'admin';
+
+< Uploads administration | Documentation Index | Custom markup >
+
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:Security, and  a talk page: PmWiki:Security-Talk.
+
+
+
+
+
+
+ Last modified May 15, 2016, at 07:45 AM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

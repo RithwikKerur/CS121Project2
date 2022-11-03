@@ -1,0 +1,7 @@
+http://www.ics.uci.edu/%7Eirani/f04-h22/lab6/Comparable.java
+
+public interface Comparable{
+
+    public abstract int compareTo( E o );
+
+}

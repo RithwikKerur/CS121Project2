@@ -1,0 +1,62 @@
+http://www.ics.uci.edu/~skong2/pano4pose.html
+
+
+estimating world scale from panoramas - Shu Kong (Aimery) - UC Irvine - Computer Vision
+
+
+
+
+
+
+
+
+
+camera pose?
+
+
+
+
+Camera Distance Estimation for Spherical Panoramas
+
+Shu Kong,
+          Tianqiang Liu
+
+go/panoposenet (internal only) 
+go/pano-collection-scale (internal only)
+go/pano-distance-slides (internal only) 
+go/pano-distance-idf
+
+Last update: September 2, 2017.
+
+
+
+
+
+
+This is a google internal project for estimating relative camera pose between two spherical panorama photos.
+
+
+
+keywords: alignment, siamese architecture, deep learning, convolutional neural networks, regression, camera pose estimation, pitch, yaw, roll, ECEF, sampling one billion pairs.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,252 @@
+https://cml.ics.uci.edu/aiml/page/14
+
+
+
+
+
+AI/ML Seminar Series | Center for Machine Learning and Intelligent Systems | Page 14
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+University of California, Irvine
+
+
+Menu
+Skip to content
+Home
+About CML
+
+About us
+News
+Contact Us
+
+
+People
+
+Faculty
+Alumni
+
+
+Events & Seminars
+
+AI/ML Seminar Series
+AI/ML Seminar Live Stream
+CML Distinguished Speakers
+ML Reading Group
+
+
+Education & Resources
+
+Courses
+Books
+
+
+UCI Machine Learning Archive
+Sponsors & Funding
+Subscribe to CML List
+ 
+
+
+
+
+
+
+AI/ML Seminar Series Standard 
+
+Weekly Seminar in AI & Machine LearningSponsored by Cylance
+
+
+
+
+
+
+
+Navigation
+
+‹Earlier
+Spring 2017 Later ›
+
+
+
+
+
+
+
+ 
+
+
+Apr 10Bren Hall 40111 pm
+
+
+Mike IzbickiPhD CandidateDepartment of Computer ScienceUniversity of California, Riverside
+
+Divide & Conquer Techniques for Machine LearningI’ll present two algorithms that use divide and conquer techniques to speed up learning.  The first algorithm (called OWA) is a communication efficient distributed learner.  OWA uses only two rounds of communication, which is sufficient to achieve optimal learning rates.  The second algorithm is a meta-algorithm for fast cross validation.  I’ll show that for any divide and conquer learning algorithm, there exists a fast cross validation procedure whose run time is asymptotically independent of the number of cross validation folds.
+
+
+ 
+
+
+Apr 17Bren Hall 40111 pm
+
+
+James SupancicPhD CandidateDepartment of Computer ScienceUniversity of California, Irvine
+
+Long-Term Tracking by Decision MakingCameras can naturally capture sequences of images, or videos. And when understanding videos, connecting the past with the present requires tracking. Sometimes tracking is easy. We focus on two challenges which make tracking harder: long-term occlusions and appearance variations. To handle total occlusion, a tracker must know when it has lost track and how to reinitialize tracking when the target reappears. Reinitialization requires good appearance models. We build appearance models for humans and hands, with a particular emphasis on robustness and occlusion. For the second challenge, appearance variation, the tracker must know when and how to re-learn (or update) an appearance model. This challenge leads to the classic problem of drift: aggressively learning appearance changes allows small errors to compound, as elements of the background environment pollute the appearance model. We propose two solutions. First, we consider self-paced learning, wherein a tracker begins by learning from frames it finds easy. As the tracker becomes better at recognizing the target, it begins to learn from harder frames. We also develop a data-driven approach: train a tracking policy to decide when and how to update an appearance model. To take this direct approach to “learning when to learn”, we exploit large-scale Internet data through reinforcement learning. We interpret the resulting policy and conclude with a generalization for tracking multiple objects.
+
+
+ 
+
+
+Apr 24Bren Hall 40111 pm
+
+
+David R Thompson
+Jet Propulsion LaboratoryCalifornia Institute of Technology
+
+Visible / Shortwave Infrared Imaging Spectroscopy at JPL: Instruments and AlgorithmsImaging spectrometers enable quantitative maps of physical and chemical properties at high spatial resolution. They have a long history of deployments for mapping terrestrial and coastal aquatic ecosystems, geology, and atmospheric properties. They are also critical tools for exploring other planetary bodies. These high-dimensional spatio-spectral datasets pose a rich challenge for computer scientists and algorithm designers. This talk will provide an introduction to remote imaging spectroscopy in the Visible and Shortwave Infrared, describing the measurement strategy and data analysis considerations including atmospheric correction. We will describe historical and current instruments, software, and public datasets.
+Bio: David R. Thompson is a researcher and Technical Group Lead in the Imaging Spectroscopy group at the NASA Jet Propulsion Laboratory. He is Investigation Scientist for the AVIRIS imaging spectrometer project.  Other roles include software lead for the NEAScout mission, autonomy software lead for the PIXL instrument, and algorithm development for diverse JPL airborne imaging spectrometer campaigns. He is recipient of the NASA Early Career Achievement Medal and the JPL Lew Allen Award.
+
+
+ 
+
+
+May  1Bren Hall 40111 pm
+
+
+Weining ShenAssistant ProfessorDepartment of StatisticsUniversity of California, Irvine
+
+Theory behind Bayesian nonparametricsBayesian nonparametric (BNP) models have been widely used in modern applications. In this talk, I will discuss some recent theoretical results for the commonly used BNP methods from a frequentist asymptotic perspective. I will cover a set of function estimation and testing problems such as density estimation, high-dimensional partial linear regression, independence testing, and independent component analysis. Minimax optimal convergence rates, adaptation and Bernstein-von Mises theorem will be discussed.
+
+
+ 
+
+
+May  8Bren Hall 40111 pm
+
+
+P. AnandanVP for ResearchAdobe Systems
+
+How Data Science, Machine Learning, and AI are Transforming the Consumer ExperienceDuring the last two decades the experience of consumers has been undergoing a fundamental and dramatic transformation – giving a rich variety of informed choices, online shopping, consumption of news and entertainment on the go, and personalized shopping experiences.  All of this has been powered by the massive amounts of data that is continuously being collected and the application of machine learning, data science and AI techniques to it.
+Adobe is a leader the Digital Marketing and is the leading provider of solutions to enterprises that are serving customers both in the B2B and B2C space.  In this talk,  we will outline the current state of the industry and the technology that is behind it, how Data Science and Machine Learning are gradually beginning to transform the experiences of the consumer as well as the marketer. We will also speculate on how recent developments in Artificial Intelligence will lead to deep personalization  and richer experiences for the consumer as well as more powerful and tailored end-to-end capabilities for the marketer.
+Bio: Dr. P. Anandan is Vice President in Adobe Research, responsible for developing research strategy for Adobe, especially in Digital Marketing, and Leading the Adobe India Research lab. An emphasis of this lab is on Big Data Experience and Intelligence. At Adobe, he is also leading efforts in applying A.I. to Big Data. Dr. Anandan is an expert in Computer Vision with more than 60 publications that have earned 14,500 citations in Google Scholar. His research areas include visual motion analysis, video surveillance, and 3D scene modeling from images and video. His papers have won multiple awards including the Helmholtz Prize, for long term fundamental contributions to computer vision research. Prior to joining Adobe Dr. Anandan had a long tenure with Microsoft Research in Redmond, WA, and became a Distinguished Scientist. He was the Managing Director of Microsoft Research India, which he founded. Most recently he was the Managing Director of Microsoft Research’s Worldwide Outreach. He earned a PhD from the University of Massachusetts specializing in Computer Vision and Artificial Intelligence. He started as an assistant professor at Yale University before moving on to work in Video Information Processing at the David Sarnoff Research Center. His research has been used in DARPA’s Video Surveillance and Monitoring program as well as in creating special effects in the movies “What Dreams May Come”, “Prince of Egypt,” and “The Matrix.” Dr. Anandan is the recipient of Distinguished Alumnus awards from both University of Massachusetts and the Indian Institute of Technology Madras, where he earned a B. Tech. in Electrical Engineering. He was inducted into the Nebraska Hall of Computing by the University of Nebraska, from where he obtained an MS in Computer Science. He is currently a member of the Board of Governors of IIT Madras.
+
+
+ 
+
+
+May 15Bren Hall 40111 pm
+
+
+Ndapa NakasholeAssistant ProfessorComputer Science and EngineeringUniversity of California, San Diego
+
+Improving Zero-shot learning for word-level translationZero-shot learning is used in computer vision, natural language, and other domains to induce mapping functions that project vectors from one vector space to another. This is a promising approach to learning, when we do not have labeled data for every possible label we want a system to recognize. This setting is common when doing NLP for low-resource languages, where labeled data is very scare.  In this talk, I will present our work on improving zero-shot learning methods for the task of word-level translation.
+Bio: Ndapa Nakashole is an Assistant Professor in the Department of Computer Science and Engineering at the University of California, San Diego. Prior to UCSD, she was a Postdoctoral Fellow in the Machine Learning Department at Carnegie Mellon University. She obtained her PhD from Saarland University, Germany, for work done at the Max Planck Institute for Informatics at Saarbrücken.
+
+
+ 
+
+
+May 22Bren Hall 40111 pm
+
+
+Batya KenigPostdoctoral ScholarDepartment of Information Systems EngineeringTechnion – Israel Institute of Technology
+
+Querying Probabilistic Preferences in DatabasesWe propose a novel framework wherein probabilistic preferences can be naturally represented and analyzed in a probabilistic relational database.  The framework augments the relational schema with a special type of a relation symbol, a preference symbol. A deterministic instance of this symbol holds a collection of binary relations.  Abstractly, the probabilistic variant is a probability space over databases of the augmented form (i.e., probabilistic database).  Effectively, each instance of a preference symbol can be represented as a collection of parametric preference distributions such as Mallows. We establish positive and negative complexity results for evaluating Conjunctive Queries (CQs) over databases where preferences are represented in the Repeated Insertion Model (RIM), Mallows being a special case. We show how CQ evaluation reduces to a novel inference problem (of independent interest) over RIM, and devise a solver with polynomial data complexity.
+
+
+ 
+
+
+May 29
+
+
+No Seminar (Memorial Day)
+
+
+
+ 
+
+
+Jun  5Bren Hall 40111 pm
+
+
+Yonatan BiskPostdoctoral ScholarInformation Sciences InstituteUniversity of Southern California
+
+The Limits of Unsupervised Syntax and the Importance of Grounding in Language AcquisitionThe future of self-driving cars, personal robots, smart homes, and intelligent assistants hinges on our ability to communicate with computers. The failures and miscommunications of Siri-style systems are untenable and become more problematic as machines become more pervasive and are given more control over our lives. Despite the creation of massive proprietary datasets to train dialogue systems, these systems still fail at the most basic tasks. Further, their reliance on big data is problematic. First, successes in English cannot be replicated in most of the 6,000+ languages of the world. Second, while big data has been a boon for supervised training methods, many of the most interesting tasks will never have enough labeled data to actually achieve our goals. It is therefore important that we build systems which can learn from naturally occurring data and grounded situated interactions.
+In this talk, I will discuss work from my thesis on the unsupervised acquisition of syntax which harnesses unlabeled text in over a dozen languages. This exploration leads us to novel insights into the limits of semantics-free language learning. Having isolated these stumbling blocks, I’ll then present my recent work on language grounding where we attempt to learn the meaning of several linguistic constructions via interaction with the world.
+Bio: Yonatan Bisk’s research focuses on Natural Language Processing from naturally occurring data (unsupervised and weakly supervised data). He is a postdoc researcher with Daniel Marcu at USC’s Information Sciences Institute. Previously, he received his Ph.D. from the University of Illinois at Urbana-Champaign under Julia Hockenmaier and his BS from the University of Texas at Austin.
+
+
+
+
+
+April 5, 2017
+AIML
+
+
+
+Posts navigation
+
+‹Older posts
+Newer posts ›
+
+
+
+
+
+ 
+Search
+
+
+
+ 
+
+
+(c) 2015 Center for Machine Learning and Intelligent Systems
+
+WordPress/BonPress
+
+
+
+
+
+

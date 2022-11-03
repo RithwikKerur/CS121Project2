@@ -1,0 +1,309 @@
+http://www.ics.uci.edu/~stasio/winter06/ics22H.html
+
+
+ICS H22, Winter 2005
+
+ICS H22, Winter 2006
+
+Course Reference 
+
+Getting Started 
+				with Lab Assignments
+Lecture notes directory
+link 
+				to the archive for the class mailing list
+Handouts, assignments and topics (approximate, as thaught last quarter):
+
+
+
+
+
+							Week
+						
+
+							Dates
+						
+
+							Lab
+							Assignment
+						
+
+							Written
+							Assignment
+						
+
+							Reading
+							(from the GT textbook)
+						
+
+							Topics
+						
+
+
+Week 1
+						
+Jan 9-13
+						
+
+Lab 1
+
+								(optional, due Wed, Jan 18)
+								
+								see also Lab1.doc
+
+
+Hw1
+
+								(changed: due Tue, Jan 24, in class)
+
+Recursion: Sec.3.5
+							
+							Java basics: Ch.1
+						
+Recursion (Lec1.ppt)
+							
+							Java Basics Review (Classes and Methods):  (Lec2.ppt)
+							
+							Friday discussion: Java Basics (Strings, Base Types) (Dis2.ppt)
+						
+
+
+Week 2
+						
+Jan 16-20
+						
+
+Lab 2
+
+								(due Fri, Jan 27, 23:59pm)
+							
+Example solution: Lab2.zip
+								(this solution is good but not perfect: please read the TA's "comments.txt" 
+								note in the zip file!)
+							
+
+
+ 
+
+Java basics: Ch.1 
+						
+
+Java Basics Review (Assignment, Arithmetics, Casting, Control Flow): (Lec3.ppt)
+								
+								Wednesday discussion: Loops: (Dis3.ppt)
+								
+								Thursday: Methods, Parameter Passing, Variable Scoping: (Lec4.ppt)
+								Friday discussion: Static/Dynamic methods and variables, Arrays: (Dis4.ppt)
+							
+
+
+
+Week 3
+						
+Jan 23-27
+						
+
+Lab 3
+
+								(due Tue, Feb 7, 23:59pm)
+Three example solutions: 
+									Lab3 (see the TA's comments in each. One solution uses the simple 
+								Array, and the other two use the generic ArrayList.)
+
+
+Hw2.txt
+								(due Tue, Jan 31, in class)
+
+Java inheritance and polymorphism: Ch.2 
+						
+
+Class Hierarchy, Exception Handling: (Lec5.ppt)
+								
+								this/super, Abstract Classes (Dis5.ppt)
+								
+								Polymorphism, Dynamic Dispatch (Lec6 
+									and Dis6.ppt)
+								
+Directory with 
+									Examples in the Lecture & Discussion
+
+
+
+
+Week 4
+						
+Jan 30 -  Feb 3
+						
+ 
+						
+Hw3.txt
+
+							(due Thu, Feb 9, in class)
+						
+
+Interfaces and generics in Ch.2
+							
+
+								Algorithm analysis: Ch.4
+							
+
+
+Interfaces (Lec6.ppt)
+								
+
+									Example: Comparable Interface
+Analysis of Algorithms, O-notation, (Lec7.ppt)
+
+
+
+Week 5
+						
+Feb 6-10
+						
+
+Lab 4
+
+								(due Wed, Feb 15, 10am)
+
+ 
+						
+Recurrence relations: Sec.11.1.5 
+						
+
+Correctness and Running Time of Recursive Algorithms,
+								
+								Recurrence Relations
+(no powerpoint notes: all done on the blackboard...) 
+
+
+
+Week 6
+						
+Feb 13-17
+						
+ 
+						
+  Hw4 (due Wed, Feb 22)
+						
+ Chapter 5 and Sections 3.2-3
+						
+
+Stacks, Queues, Linked Lists
+								
+								(GTLec5) 
+								(GTLec6) 
+								(GTLec4)
+							
+
+
+
+Week 7
+						
+Feb 20-24
+						
+Thursday Feb 23: Midterm Exam
+						
+ 
+						
+
+
+								Section 6.1.5
+
+
+Growing Arrays (Lec8.ppt)
+							
+
+
+
+Week 8
+						
+Feb 27-March 3
+						
+  
+								Lab 5
+
+							(due Fri, Mar 10, 11:59pm)
+
+Hw5.txt
+
+								(due Tue, Mar 7, in class)
+							
+Solutions: sol5.txt
+
+
+
+								Chapter 6: Sections 6.1, 6.2, 6.3, 6.5 
+								
+								Chapter 8: Sections 8.1, 8.2
+							
+
+Array Lists, Node Lists, Iterators (Lec9.ppt)
+							
+Favorite Lists, Move-to-Front Heuristic (on blackboard...)
+								
+								Priority Queues (Lec10.ppt)
+
+
+
+Week 9
+						
+March 6-10
+						
+ 
+						
+  
+								Hw6.txt
+
+							(due Wed, Mar 15, in class)
+						
+
+Chapter 7: Sections 7.1, 7.3,
+								
+								Chapter 8: Section 8.3
+Chapter 7:  Sections 7.1, 7.2 
+
+
+Binary Trees, Heaps (Lec11.ppt)
+							
+General Trees, Tree Traversal Algorithms (Lec12.ppt)
+							
+
+
+
+ Week 10
+						
+March 13-17 
+						
+ 
+						
+ 
+						
+
+  Chapter 9: Sections 9.1, 9.3
+
+Chapter 9: Section 9.2
+							
+
+
+Maps, Dictionaries (Lec13.ppt)
+Hash Functions and Hash Tables (Lec14.ppt)
+
+
+
+Finals Week
+						
+March 20-24 
+						
+ 
+						
+ 
+						
+ 
+						
+FINAL EXAM
+						
+
+
+
+
+

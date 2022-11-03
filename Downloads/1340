@@ -1,0 +1,154 @@
+http://plrg.ics.uci.edu/software_page
+
+
+
+
+
+
+
+
+Software – Programming Languages Research Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+									Programming Languages Research Group								
+
+
+
+
+
+
+Brian Demsky
+Students
+Publications
+Software
+
+Software Verifiers
+
+PSan
+Yashme
+Jaaru
+Satune
+C11Tester
+
+
+Software for Relaxed Memory Models
+Irvine Research Java Compiler
+Views
+Smart Home
+
+Fidelius
+IoTCheck
+PingPong
+Vigilia
+
+
+
+
+Navigation
+
+
+
+
+ 
+
+
+
+
+
+
+
+Software developed by our group is available below.
+List of Software for Relaxed Memory Models (C/C++11, TSO, SC, etc.)
+Irvine Research Java Compiler
+Benchmarks for Distributed Transactional Memory
+Benchmarks that were designed to evaluate our Distributed Transactional Memory(DSTM) system. It can be compiled using our IRC.
+
+Please contact adash@uci.edu for more information.
+
+ 
+Java STAMP Benchmark Suite Version 0.5
+Java ports of the STAMP benchmark suite. They are written in the IRC dialect of Java and can be compiled with the STM support of IRC.
+
+Please contact adash@uci.edu for more information.
+
+ 
+Data Structure Repair Version 0.5
+Data structure repair compiler.
+
+Please contact bdemsky@uci.edu for more information.
+
+ 
+Transactional I/O Library Version 2 (Complete rewrite)
+Transactional I/O Library Version 0.5
+Library for Transactional File Access. Implements a file API that can be used inside of transactions. Works with the DSTM2 transactional memory implementation.
+
+Please contact bdemsky@uci.edu for more information.
+
+ 
+Transaction Simulator Version 0.6
+Transaction Simulator Version 0.5
+Discrete event simulator for software transactional memory. It supports simulating various contention management policies to understand the tradeoffs of various contention management policies independent of the overheads of the transactional memory implementation.
+Traces for JStamp
+
+Please contact bdemsky@uci.edu for more information.
+
+ 
+View Compiler Version 1.0
+Views are a novel language extension which enables developers to declaratively specify fine-grained (sub-object-level) locking policies. Provide static support for detecting many race conditions. Work done with Patrick Lam.
+
+Please contact bdemsky@uci.edu for more information.
+
+ 
+GARM
+Garm is a tool that can enforce data access policies on arbitrary binaries. It uses the Valgrind binary rewriting engine to rewrite binaries to maintain the provenance of data and then uses the provenance information to enforce policies. It can trace provenance across application boundaries and enforce policies across application boundaries. It uses fine-grained encryption to prevent accesses that bypass Garm’s enforcement layer.
+
+Please contact bdemsky@uci.edu for more information.
+
+
+
+
+
+
+
+
+
+
+
+
+Back to Top 
+
+

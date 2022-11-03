@@ -1,0 +1,184 @@
+https://ngs.ics.uci.edu/image-search-retrievr
+
+
+
+
+
+
+
+
+Image Search — Retrievr – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Image Search — Retrievr    			
+
+
+On Arun Katiyar’s suggestion, I played with retrievr.
+Very impressive and cool.  Good direction for image search.
+A good reason for success here is the fact that this approach uses some image primitives (I’d love to know exactly what they use) but does not get into semantics.  Clever approach — similar in spirits to keyword based approaches in search engines.  Now the trick is to improve this enough so people can see their semantics in these results.
+
+
+
+By Ramesh |
+    				January 16, 2006 |
+    				             		General Updates |
+             	 
+    				             		1 Comment |
+             	 		          				
+    			
+
+
+← GYM and Cable+TV+Telco
+EventWeb is getting ready →
+
+
+
+			One thought on “Image Search — Retrievr”		
+
+
+
+
+Marco Bertini January 17, 2006 at 8:30 am 
+
+Apparently Retrievr uses Fast Multiresolution Image Querying (http://grail.cs.washington.edu/projects/query/), as pointed by one of the author (hris langreiter) in a comment on this post: http://battellemedia.com/archives/002179.php
+
+
+
+
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

@@ -1,0 +1,89 @@
+https://www.ics.uci.edu/~projects/SATware/index.html
+
+
+
+
+SATware
+
+
+
+
+
+
+
+
+
+
+
+Home | People | Publications | Press | Videos and demos | Intranet 
+
+
+
+  Featured Videos and demos
+  
+
+
+
+
+
+
+
+SATware: a middleware for sentient spaces
+
+SATware is a multimodal sensor data stream querying, analysis, and transformation middleware that aims at realizing a sentient system. SATware provides applications with a semantically richer level of abstraction of the physical world compared to raw sensor streams, providing a flexible and powerful application development
+environment. It supports mechanisms for application builders to specify events of interest to the application, mechanisms to map such events to basic media events detectable directly over sensor streams, a powerful language to compose event streams, and a run-time for detection and transformation of events. SATware is being developed in the context of the Responsphere infrastructure at the UC Irvine campus.
+
+In contrast with classic pervasive middleware, SATware provides application developers a semantic view of the pervasive space.
+This semantic layer is at the same abstraction level that users reason at. This way, application developers need to worry about the semantics of an application, and
+not about the details of where sensors are and how data has to be collected from them. SATware provides users with a semantic layer that abstracts sensor data streams with
+raw sensed data into entity based streams. The user only needs to worry about entities (for example, person X, or room Y) and events regarding those entities (for example, person X is in room Y or room Y is empty).
+
+
+
+ The basic architecture of SATware can be summarized in Figure 2. SATware is organized in a series of layers where each layer (SATRuntime-SATRepository, SATDeployer, SATLite, and SATQL) provides an extra level of abstraction of the sensing infrastructure. The lowest layer, the SATRuntime layer, is distributed along machines in a network (including sensors) and provides a runtime environment where operators can be injected and executed. The highest layer provides mechanisms for the users to query about the pervasive environment.
+
+
+
+At the top level, applications/users write queries with SATQL. These queries are translated
+into a graph of operators where each operator performs a function on a certain stream of data
+and produces another stream of data. For example, Figure 3 represents a query to detect who
+leaves the coffee pot without coffee on the burner, and with the burner on.
+These graphs of operators are expressed in the SATLite language. The SATLite language
+provides syntax and semantics to describe graphs of operators. Namely, it provides primitives to describe operators and streams (operators are connected by streams).
+
+
+
+Once a graph of operators has been defined in SATLite, each operator is then assigned a
+machine where it will execute. The mapping of operator graphs to machines and the deployment of such operators and establishment of their connections is done by the SATDeployer. Different objectives need to be consider when injecting operators. These objectives include minimizing communication cost, latency, or operator computation cost. In addition, SATware will consider reusing existing operators in the network. This way, operator graphs can share operators, which minimizes cost. SATDeployer uses methods provided by SATRepository in order to deploy operators in the network.
+
+The SATRepository provides an API to deploy operators, to access a repository of operators,
+and to learn about the state of SATware. The state of SATware contained in the directory server
+includes which sensors are available and how to access them, which processing nodes are available and how much resources they are offering, the network topology and its state, and the current agent deployment.
+
+SATRuntime is a reflective distributed runtime installed in every SATware node but the central
+directory (Figure 4). Each operator is implemented as a mobile agent that can migrate to any
+of SATware's nodes. Figure 4 depicts SATRuntime's detailed architecture. The system nodes
+are of three types: a) sensor nodes, b) processing nodes, and c) the central directory. Sensor nodes correspond to the heterogeneous set of sensors in the pervasive infrastructure (e.g., Responsphere).
+
+The processing nodes are nodes where the SATRuntime is installed allowing agents to execute there. SATRuntime provides mobility support and message passing to SATware agents. When deploying a graph of operators SATRuntime nodes (not the agents) are explicitly connected according to the topology. This way, agents are programmed in a topology-agnostic manner. The central directory accepts queries in either SATQL format or SATLite format and deploys them.
+
+
+
+
+
+
+
+
+Home | People | Publications | Press | Videos and demos  | Intranet 
+
+  This page was last updated on
+  June, 2007 
+
+
+
+SATware is part of Responsphere and Rescue. This material is based upon work supported by the National Science Foundation under
+  ward Numbers 0331707, 0331690,
+  and 0403433.
+  Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation
+
+

@@ -1,0 +1,67 @@
+http://www.ics.uci.edu/~kay/scheme/text-file-io.scm
+;; TEXT FILE I/O FUNCTIONS
+;; Written by Angelo Pioli Summer 2005; modified by D.G.Kay, Fall 2005
+;; With Intermediate Student Scheme, requires simple-file-io.ss teachpack.
+;; With Advanced Student Scheme, requires advanced-file-io.ss.
+;; This file provides 4 functions for reading and writing text files:
+;; file->list, list->file, file-dialog->list, list->file-dialog.
+;; The functions produce/consume a list of strings, one string per
+;; line of the file. The basic versions take a string as a file name;
+;; the dialog versions display a file selection dialog box for the user.
+;; file->list: string -> list-of-string
+;; Given a string naming a file, read the file into a list of strings.
+(define file->list
+  (lambda (file-name)
+    (file->list-given-input-port (open-input-file file-name 'text))))
+
+;; file->list-given-input-port: input-port -> list-of-string
+;; Read a file (specified by an input port) into a list of strings.
+(define file->list-given-input-port
+  (lambda (input-port)
+    (local ((define next-line (read-line input-port 'any)))
+            ; The 'any flag handles the different line endings on different platforms.
+      (cond
+        ((eof-object? next-line)
+         (begin
+           (close-input-port input-port)
+           empty))
+      (else (cons next-line (file->list-given-input-port input-port)))))))
+
+;; file-dialog->list: anything -> list-of-string
+;; Show user a dialog box to choose a file; read the file into a list of strings
+;; Call with (file-dialog->list 'x) because student Schemes don't allow
+;; parameterless functions.
+(define file-dialog->list
+  (lambda (x)
+    (local ((define input-file-name
+                    (get-file "Select the file to read" false false false false empty))
+            (define input-port (open-input-file input-file-name 'text)))
+      (file->list-given-input-port input-port))))
+
+;; list->file: string list-of-string -> side effects (a new file)
+;; Given a string naming a new file, write list of strings that file, one string per line.
+(define list->file
+  (lambda (file-name list)
+    (list->file-given-output-port (open-output-file file-name 'text 'replace) list)))
+
+;; list->file-given-output-port: output-port list-of-string -> side effects (a new file)
+;; Write a list of strings to a new file, given the output-port and list.
+(define list->file-given-output-port
+  (lambda (output-port lines)
+    (cond
+      ((empty? lines)
+       (begin (flush-output output-port) (close-output-port output-port)))
+      (else (begin
+              (display (first lines) output-port)
+              (newline output-port)
+              (list->file-given-output-port output-port (rest lines)))))))
+
+;; list->file-dialog: list-of-string -> side effects (a new file)
+;; Write a list to a new file, selected by the user in a file selection dialog box
+(define list->file-dialog
+  (lambda (lines)
+    (local ((define output-port (open-output-file (put-file "Select the destination file"
+                                                            false false false false empty empty)
+                                                  'text 'replace)))
+            ;; the "replace" flag above enables the function to overwrite an existing file.
+      (list->file-given-output-port output-port lines))))

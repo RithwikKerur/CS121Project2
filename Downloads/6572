@@ -1,0 +1,955 @@
+https://duttgroup.ics.uci.edu/publications/?limit=2&
+
+
+
+
+
+
+Publications – Dutt Research Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to content
+
+
+
+
+
+
+ 
+
+Dutt Research Group
+DRG-Lab Webpage
+
+
+
+
+
+
+
+
+DRG Home
+Group Members
+Projects
+
+Self-Aware & Adaptive Computing
+
+Information Processing Factory (IPF)
+MARS
+Unified Parallel Runtime
+Memory Adaptation
+
+
+Health Care IoT
+
+Internet of Cognitive Things in healthcare
+Pain Assessment
+Maternity Care
+NSF Unite Project
+
+
+Domain-specific Hardware Accelerators
+Neuromorphic Computing
+
+
+Publications
+Sister Groups
+News
+
+
+
+
+Main Menu
+
+
+
+
+
+
+
+
+
+
+Publications 
+
+
+All publications:
+550 entries « ‹  2 of 11 › » 
+
+2020
+
+ Nejatollahi, Hamid;  Gupta, Saransh;  Imani, Mohsen;  Rosing, Tajana Simunic;  Cammarota, Rosario;  Dutt, Nikil DCryptoPIM: In-memory Acceleration for Lattice-based Cryptographic 
+ Hardware Inproceedings 57th ACM/IEEE Design Automation Conference, DAC 2020, San Francisco, 
+ CA, USA, July 20-24, 2020, pp. 1–6, IEEE, 2020.Links | BibTeX@inproceedings{DBLP:conf/dac/NejatollahiGIRC20,
+title = {CryptoPIM: In-memory Acceleration for Lattice-based Cryptographic 
+ Hardware},
+author = {Hamid Nejatollahi and Saransh Gupta and Mohsen Imani and Tajana Simunic Rosing and Rosario Cammarota and Nikil D Dutt},
+url = {https://doi.org/10.1109/DAC18072.2020.9218730},
+doi = {10.1109/DAC18072.2020.9218730},
+year  = {2020},
+date = {2020-01-01},
+booktitle = {57th ACM/IEEE Design Automation Conference, DAC 2020, San Francisco, 
+ CA, USA, July 20-24, 2020},
+pages = {1--6},
+publisher = {IEEE},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/DAC18072.2020.9218730doi:10.1109/DAC18072.2020.9218730Close
+
+2019
+
+ Lee, Tao-Yi;  Levorato, Marco;  Dutt, NikilDNN-Assisted Sensor for Energy-Efficient ECG Monitoring Conference DNN-Assisted Sensor for Energy-Efficient ECG Monitoring, 2019 IEEE Global Communications Conference (GLOBECOM), 2019.Links | BibTeX@conference{Lee2019,
+title = {DNN-Assisted Sensor for Energy-Efficient ECG Monitoring},
+author = {Tao-Yi Lee and Marco Levorato and Nikil Dutt},
+url = {https://ieeexplore.ieee.org/document/9014002},
+year  = {2019},
+date = {2019-12-10},
+booktitle = {DNN-Assisted Sensor for Energy-Efficient ECG Monitoring},
+publisher = {2019 IEEE Global Communications Conference (GLOBECOM)},
+keywords = {},
+pubstate = {published},
+tppubtype = {conference}
+}
+Closehttps://ieeexplore.ieee.org/document/9014002Close Nejatollahi, Hamid;  Dutt, Nikil;  Cammarota, RosarioFlexible NTT Accelerators for RLWE Lattice-Based Cryptography Conference 2019.Links | BibTeX@conference{Nejatollahi2019b,
+title = {Flexible NTT Accelerators for RLWE Lattice-Based Cryptography},
+author = {Hamid Nejatollahi and Nikil Dutt and Rosario Cammarota},
+url = {https://ieeexplore.ieee.org/document/8988700},
+year  = {2019},
+date = {2019-11-17},
+journal = {37th IEEE International Conference on Computer Design},
+keywords = {},
+pubstate = {published},
+tppubtype = {conference}
+}
+Closehttps://ieeexplore.ieee.org/document/8988700Close Amiri, Delaram;  Anzanpour, Arman;  Azimi, Iman;  Levorato, Marco;  Liljeberg, Pasi;  Dutt, Nikil;  Rahmani, Amir MContext-Aware Sensing via Dynamic Programming for Edge-Assisted Wearable Systems Journal Article ACM transaction on computing for healthcare (HEALTH), 2019.Links | BibTeX@article{amiri-levorato-2019,
+title = {Context-Aware Sensing via Dynamic Programming for Edge-Assisted Wearable Systems},
+author = {Delaram Amiri and Arman Anzanpour and Iman Azimi and Marco Levorato and Pasi Liljeberg and Nikil Dutt and Amir M Rahmani},
+url = {https://www.researchgate.net/publication/334849243_Context-Aware_Sensing_via_Dynamic_Programming_for_Edge-Assisted_Wearable_Systems},
+doi = {10.1145/3351286},
+year  = {2019},
+date = {2019-08-01},
+booktitle = {ACM Transactions on Computing for Healthcare},
+journal = {ACM transaction on computing for healthcare (HEALTH)},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://www.researchgate.net/publication/334849243_Context-Aware_Sensing_via_Dyn[...]doi:10.1145/3351286Close Peroni, Daniel;  Imani, Mohsen;  Hamid, Nejatollahi;  Dutt, Nikil;  Rosing, TajanaARGA: Approximate Reuse for GPGPU Acceleration Conference  IEEE/ACM Design Automation Conference (DAC), 2019.Links | BibTeX@conference{Peroni2019,
+title = {ARGA: Approximate Reuse for GPGPU Acceleration},
+author = {Daniel Peroni and Mohsen Imani and Nejatollahi Hamid and Nikil Dutt and Tajana Rosing},
+doi = {10.1145/3316781.3317776},
+year  = {2019},
+date = {2019-05-01},
+booktitle = { IEEE/ACM Design Automation Conference (DAC)},
+keywords = {},
+pubstate = {published},
+tppubtype = {conference}
+}
+Closedoi:10.1145/3316781.3317776Close Kasaeyan Naeini, Emad;  Azimi, Iman;  Rahmani, Amir M;  Liljeberg, Pasi;  Dutt, NikilA Real-time PPG Quality Assessment Approach for Healthcare Internet-of-Things Journal Article Procedia Computer Science, 151 , pp. 551 - 558, 2019, ISSN: 1877-0509, (The 10th International Conference on Ambient Systems, Networks and Technologies (ANT 2019) / The 2nd International Conference on Emerging Data and Industry 4.0 (EDI40 2019) / Affiliated Workshops).Abstract | Links | BibTeX@article{NAEINI2019551,
+title = {A Real-time PPG Quality Assessment Approach for Healthcare Internet-of-Things},
+author = {Emad Kasaeyan Naeini and Iman Azimi and Amir M Rahmani and Pasi Liljeberg and Nikil Dutt},
+url = {http://www.sciencedirect.com/science/article/pii/S1877050919305368},
+doi = {https://doi.org/10.1016/j.procs.2019.04.074},
+issn = {1877-0509},
+year  = {2019},
+date = {2019-05-01},
+journal = {Procedia Computer Science},
+volume = {151},
+pages = {551 - 558},
+abstract = {Photoplethysmography (PPG) as a non-invasive and low-cost technique plays a significant role in wearable Internet-of-Things based health monitoring systems, enabling continuous health and well-being data collection. As PPG monitoring is relatively simple, non-invasive, and convenient, it is widely used in a variety of wearable devices (e.g., smart bands, smart rings, smartphones) to acquire different vital signs such as heart rate and pulse rate variability. However, the accuracy of such vital signs highly depends on the quality of the signal and the presence of artifacts generated by other resources such as motion. This unreliable performance is unacceptable in health monitoring systems. To tackle this issue, different studies have proposed motion artifacts reduction and signal quality assessment methods. However, they merely focus on improvements in the results and signal quality. Therefore, they are unable to alleviate erroneous decision making due to invalid vital signs extracted from the unreliable PPG signals. In this paper, we propose a novel PPG quality assessment approach for IoT-based health monitoring systems, by which the reliability of the vital signs extracted from PPG quality is determined. Therefore, unreliable data can be discarded to prevent inaccurate decision making and false alarms. Exploiting a Convolutional Neural Networks (CNN) approach, a hypothesis function is created by comparing heart rate in the PPG with corresponding heart rate values extracted from ECG signal. We implement a proof-of-concept IoT-based system to evaluate the accuracy of the proposed approach.},
+note = {The 10th International Conference on Ambient Systems, Networks and Technologies (ANT 2019) / The 2nd International Conference on Emerging Data and Industry 4.0 (EDI40 2019) / Affiliated Workshops},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+ClosePhotoplethysmography (PPG) as a non-invasive and low-cost technique plays a significant role in wearable Internet-of-Things based health monitoring systems, enabling continuous health and well-being data collection. As PPG monitoring is relatively simple, non-invasive, and convenient, it is widely used in a variety of wearable devices (e.g., smart bands, smart rings, smartphones) to acquire different vital signs such as heart rate and pulse rate variability. However, the accuracy of such vital signs highly depends on the quality of the signal and the presence of artifacts generated by other resources such as motion. This unreliable performance is unacceptable in health monitoring systems. To tackle this issue, different studies have proposed motion artifacts reduction and signal quality assessment methods. However, they merely focus on improvements in the results and signal quality. Therefore, they are unable to alleviate erroneous decision making due to invalid vital signs extracted from the unreliable PPG signals. In this paper, we propose a novel PPG quality assessment approach for IoT-based health monitoring systems, by which the reliability of the vital signs extracted from PPG quality is determined. Therefore, unreliable data can be discarded to prevent inaccurate decision making and false alarms. Exploiting a Convolutional Neural Networks (CNN) approach, a hypothesis function is created by comparing heart rate in the PPG with corresponding heart rate values extracted from ECG signal. We implement a proof-of-concept IoT-based system to evaluate the accuracy of the proposed approach.Closehttp://www.sciencedirect.com/science/article/pii/S1877050919305368doi:https://doi.org/10.1016/j.procs.2019.04.074Close Seto, Kenshu;  Nejatollahi, Hamid;  An, Jiyoung;  Kang, Sujin;  Dutt, NikilSmall Memory Footprint Neural Network Accelerators Inproceedings International Symposium on Quality Electronic Design (ISQED), 2019.Links | BibTeX@inproceedings{Seto2019,
+title = {Small Memory Footprint Neural Network Accelerators},
+author = {Kenshu Seto and Hamid Nejatollahi and Jiyoung An and Sujin Kang and Nikil Dutt},
+doi = {10.1109/ISQED.2019.8697641},
+year  = {2019},
+date = {2019-03-01},
+booktitle = {International Symposium on Quality Electronic Design (ISQED)},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closedoi:10.1109/ISQED.2019.8697641Close Nejatollahi, Hamid ;  Dutt, Nikil ;  Ray, Sandip ;  Regazzoni, Francesco ;  Banerjee, Indranil ;  Cammarota, Rosario Post-Quantum Lattice-Based Cryptography Implementations: A Survey Journal Article ACM Computing Survey, 51 (6), 2019, ISSN: 0360-0300.Abstract | Links | BibTeX@article{Nejatollahi2019,
+title = {Post-Quantum Lattice-Based Cryptography Implementations: A Survey},
+author = {Nejatollahi, Hamid and Dutt, Nikil and Ray, Sandip and Regazzoni, Francesco and Banerjee, Indranil and Cammarota, Rosario},
+doi = {10.1145/3292548},
+issn = {0360-0300},
+year  = {2019},
+date = {2019-01-04},
+journal = {ACM Computing Survey},
+volume = {51},
+number = {6},
+abstract = {The advent of quantum computing threatens to break many classical cryptographic schemes, leading to innovations in public key cryptography that focus on post-quantum cryptography primitives and protocols resistant to quantum computing threats. Lattice-based cryptography is a promising post-quantum cryptography family, both in terms of foundational properties as well as in its application to both traditional and emerging security problems such as encryption, digital signature, key exchange, and homomorphic encryption. While such techniques provide guarantees, in theory, their realization on contemporary computing platforms requires careful design choices and tradeoffs to manage both the diversity of computing platforms (e.g., high-performance to resource constrained), as well as the agility for deployment in the face of emerging and changing standards. In this work, we survey trends in lattice-based cryptographic schemes, some recent fundamental proposals for the use of lattices in computer security, challenges for their implementation in software and hardware, and emerging needs for their adoption. The survey means to be informative about the math to allow the reader to focus on the mechanics of the computation ultimately needed for mapping schemes on existing hardware or synthesizing part or all of a scheme on special-purpose hardware.},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+CloseThe advent of quantum computing threatens to break many classical cryptographic schemes, leading to innovations in public key cryptography that focus on post-quantum cryptography primitives and protocols resistant to quantum computing threats. Lattice-based cryptography is a promising post-quantum cryptography family, both in terms of foundational properties as well as in its application to both traditional and emerging security problems such as encryption, digital signature, key exchange, and homomorphic encryption. While such techniques provide guarantees, in theory, their realization on contemporary computing platforms requires careful design choices and tradeoffs to manage both the diversity of computing platforms (e.g., high-performance to resource constrained), as well as the agility for deployment in the face of emerging and changing standards. In this work, we survey trends in lattice-based cryptographic schemes, some recent fundamental proposals for the use of lattices in computer security, challenges for their implementation in software and hardware, and emerging needs for their adoption. The survey means to be informative about the math to allow the reader to focus on the mechanics of the computation ultimately needed for mapping schemes on existing hardware or synthesizing part or all of a scheme on special-purpose hardware.Closedoi:10.1145/3292548Close Azimi, Iman;  Oti, Olugbenga;  Labbaf, Sina;  -, Hannakaisa Niela;  Axelin, Anna;  Dutt, Nikil D;  Liljeberg, Pasi;  Rahmani, Amir MPersonalized Maternal Sleep Quality Assessment: An Objective IoT-based 
+ Longitudinal Study Journal Article IEEE Access, 7 , pp. 93433–93447, 2019.Links | BibTeX@article{DBLP:journals/access/AzimiOLNADLR19,
+title = {Personalized Maternal Sleep Quality Assessment: An Objective IoT-based 
+ Longitudinal Study},
+author = {Iman Azimi and Olugbenga Oti and Sina Labbaf and Hannakaisa Niela{-}Vil é and Anna Axelin and Nikil D Dutt and Pasi Liljeberg and Amir M Rahmani},
+url = {https://doi.org/10.1109/ACCESS.2019.2927781},
+doi = {10.1109/ACCESS.2019.2927781},
+year  = {2019},
+date = {2019-01-01},
+journal = {IEEE Access},
+volume = {7},
+pages = {93433--93447},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/ACCESS.2019.2927781doi:10.1109/ACCESS.2019.2927781Close Balaji, Adarsha;  Song, Shihao;  Das, Anup;  Dutt, Nikil D;  Krichmar, Jeff;  Kandasamy, Nagarajan;  Catthoor, FranckyA Framework to Explore Workload-Specific Performance and Lifetime 
+ Trade-offs in Neuromorphic Computing Journal Article IEEE Comput. Archit. Lett., 18 (2), pp. 149–152, 2019.Links | BibTeX@article{DBLP:journals/cal/BalajiSDDKKC19,
+title = {A Framework to Explore Workload-Specific Performance and Lifetime 
+ Trade-offs in Neuromorphic Computing},
+author = {Adarsha Balaji and Shihao Song and Anup Das and Nikil D Dutt and Jeff Krichmar and Nagarajan Kandasamy and Francky Catthoor},
+url = {https://doi.org/10.1109/LCA.2019.2951507},
+doi = {10.1109/LCA.2019.2951507},
+year  = {2019},
+date = {2019-01-01},
+journal = {IEEE Comput. Archit. Lett.},
+volume = {18},
+number = {2},
+pages = {149--152},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/LCA.2019.2951507doi:10.1109/LCA.2019.2951507Close Miele, Antonio;  Kanduri, Anil;  Moazzemi, Kasra;  Juhász, Dávid;  Rahmani, Amir M;  Dutt, Nikil D;  Liljeberg, Pasi;  Jantsch, AxelOn-Chip Dynamic Resource Management Journal Article Found. Trends Electron. Des. Autom., 13 (1-2), pp. 1–14, 2019.Links | BibTeX@article{DBLP:journals/fteda/MieleKMJRDLJ19,
+title = {On-Chip Dynamic Resource Management},
+author = {Antonio Miele and Anil Kanduri and Kasra Moazzemi and Dávid Juhász and Amir M Rahmani and Nikil D Dutt and Pasi Liljeberg and Axel Jantsch},
+url = {https://doi.org/10.1561/1000000055},
+doi = {10.1561/1000000055},
+year  = {2019},
+date = {2019-01-01},
+journal = {Found. Trends Electron. Des. Autom.},
+volume = {13},
+number = {1-2},
+pages = {1--14},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1561/1000000055doi:10.1561/1000000055Close Jeong, Gu-Min;  Lee, Kyoungwoo;  Choi, Sang-Il;  Ji, Sang-Hoon;  Dutt, Nikil DEffect of Soft Errors in Iterative Learning Control and Compensation  using Cross-layer Approach Journal Article Int. J. Comput. Commun. Control, 14 (3), pp. 359–374, 2019.Links | BibTeX@article{DBLP:journals/ijccc/JeongLCJD19,
+title = {Effect of Soft Errors in Iterative Learning Control and Compensation  using Cross-layer Approach},
+author = {Gu-Min Jeong and Kyoungwoo Lee and Sang-Il Choi and Sang-Hoon Ji and Nikil D Dutt},
+url = {https://doi.org/10.15837/ijccc.2019.3.3513},
+doi = {10.15837/ijccc.2019.3.3513},
+year  = {2019},
+date = {2019-01-01},
+journal = {Int. J. Comput. Commun. Control},
+volume = {14},
+number = {3},
+pages = {359--374},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.15837/ijccc.2019.3.3513doi:10.15837/ijccc.2019.3.3513Close í, André Lu;  Garibotti, Rafael;  Dutt, Nikil D;  Moraes, Fernando GehmThe power impact of hardware and software actuators on self-adaptable 
+ many-core systems Journal Article J. Syst. Archit., 97 , pp. 42–53, 2019.Links | BibTeX@article{DBLP:journals/jsa/MartinsGDM19,
+title = {The power impact of hardware and software actuators on self-adaptable 
+ many-core systems},
+author = {André Lu í and Rafael Garibotti and Nikil D Dutt and Fernando Gehm Moraes},
+url = {https://doi.org/10.1016/j.sysarc.2019.05.006},
+doi = {10.1016/j.sysarc.2019.05.006},
+year  = {2019},
+date = {2019-01-01},
+journal = {J. Syst. Archit.},
+volume = {97},
+pages = {42--53},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1016/j.sysarc.2019.05.006doi:10.1016/j.sysarc.2019.05.006Close í, André Lu; da Silva, Alzemiro Henrique Lucas;  Rahmani, Amir M;  Dutt, Nikil D;  Moraes, Fernando GehmHierarchical adaptive Multi-objective resource management for many-core 
+ systems Journal Article J. Syst. Archit., 97 , pp. 416–427, 2019.Links | BibTeX@article{DBLP:journals/jsa/MartinsSRDM19,
+title = {Hierarchical adaptive Multi-objective resource management for many-core 
+ systems},
+author = {André Lu í and Alzemiro Henrique Lucas da Silva and Amir M Rahmani and Nikil D Dutt and Fernando Gehm Moraes},
+url = {https://doi.org/10.1016/j.sysarc.2019.01.006},
+doi = {10.1016/j.sysarc.2019.01.006},
+year  = {2019},
+date = {2019-01-01},
+journal = {J. Syst. Archit.},
+volume = {97},
+pages = {416--427},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1016/j.sysarc.2019.01.006doi:10.1016/j.sysarc.2019.01.006Close Beyeler, Michael;  Rounds, Emily L;  Carlson, Kristofor D;  Dutt, Nikil D;  Krichmar, Jeffrey LNeural correlates of sparse coding and dimensionality reduction Journal Article PLoS Comput. Biol., 15 (6), 2019.Links | BibTeX@article{DBLP:journals/ploscb/BeyelerRCDK19,
+title = {Neural correlates of sparse coding and dimensionality reduction},
+author = {Michael Beyeler and Emily L Rounds and Kristofor D Carlson and Nikil D Dutt and Jeffrey L Krichmar},
+url = {https://doi.org/10.1371/journal.pcbi.1006908},
+doi = {10.1371/journal.pcbi.1006908},
+year  = {2019},
+date = {2019-01-01},
+journal = {PLoS Comput. Biol.},
+volume = {15},
+number = {6},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1371/journal.pcbi.1006908doi:10.1371/journal.pcbi.1006908Close Yang, Lei;  Liu, Weichen;  Guan, Nan;  Dutt, Nikil DOptimal Application Mapping and Scheduling for Network-on-Chips with 
+ Computation in STT-RAM Based Router Journal Article IEEE Trans. Computers, 68 (8), pp. 1174–1189, 2019.Links | BibTeX@article{DBLP:journals/tc/YangLGD19,
+title = {Optimal Application Mapping and Scheduling for Network-on-Chips with 
+ Computation in STT-RAM Based Router},
+author = {Lei Yang and Weichen Liu and Nan Guan and Nikil D Dutt},
+url = {https://doi.org/10.1109/TC.2018.2864749},
+doi = {10.1109/TC.2018.2864749},
+year  = {2019},
+date = {2019-01-01},
+journal = {IEEE Trans. Computers},
+volume = {68},
+number = {8},
+pages = {1174--1189},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/TC.2018.2864749doi:10.1109/TC.2018.2864749Close Moazzemi, Kasra;  Maity, Biswadip;  Yi, Saehanseul;  Rahmani, Amir M;  Dutt, Nikil DHESSLE-FREE: Heterogeneous Systems Leveraging Fuzzy Control for Runtime Resource Management Journal Article ACM Trans. Embed. Comput. Syst., 18 (5s), pp. 74:1–74:19, 2019.Links | BibTeX@article{DBLP:journals/tecs/MoazzemiMYRD19,
+title = {HESSLE-FREE: Heterogeneous Systems Leveraging Fuzzy Control for Runtime Resource Management},
+author = {Kasra Moazzemi and Biswadip Maity and Saehanseul Yi and Amir M Rahmani and Nikil D Dutt},
+url = {https://doi.org/10.1145/3358203},
+doi = {10.1145/3358203},
+year  = {2019},
+date = {2019-01-01},
+journal = {ACM Trans. Embed. Comput. Syst.},
+volume = {18},
+number = {5s},
+pages = {74:1--74:19},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1145/3358203doi:10.1145/3358203Close Anzanpour, Arman;  Rashid, Humayun;  Rahmani, Amir M;  Jantsch, Axel;  Dutt, Nikil D;  Liljeberg, PasiEnergy-efficient and Reliable Wearable Internet-of-Things through 
+ Fog-Assisted Dynamic Goal Management Inproceedings  Shakshuki, Elhadi M;  -, Ansar (Ed.): The 10th International Conference on Ambient Systems, Networks and 
+ Technologies (ANT 2019) / The 2nd International Conference on Emerging 
+ Data and Industry 4.0 (EDI40 2019) / Affiliated Workshops, April 
+ 29 - May 2, 2019, Leuven, Belgium, pp. 493–500, Elsevier, 2019.Links | BibTeX@inproceedings{DBLP:conf/ant/AnzanpourRRJDL19,
+title = {Energy-efficient and Reliable Wearable Internet-of-Things through 
+ Fog-Assisted Dynamic Goal Management},
+author = {Arman Anzanpour and Humayun Rashid and Amir M Rahmani and Axel Jantsch and Nikil D Dutt and Pasi Liljeberg},
+editor = {Elhadi M Shakshuki and Ansar{-}Ul -},
+url = {https://doi.org/10.1016/j.procs.2019.04.067},
+doi = {10.1016/j.procs.2019.04.067},
+year  = {2019},
+date = {2019-01-01},
+booktitle = {The 10th International Conference on Ambient Systems, Networks and 
+ Technologies (ANT 2019) / The 2nd International Conference on Emerging 
+ Data and Industry 4.0 (EDI40 2019) / Affiliated Workshops, April 
+ 29 - May 2, 2019, Leuven, Belgium},
+volume = {151},
+pages = {493--500},
+publisher = {Elsevier},
+series = {Procedia Computer Science},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1016/j.procs.2019.04.067doi:10.1016/j.procs.2019.04.067Close Rambo, Eberle A;  Kadeed, Thawra;  Ernst, Rolf;  Seo, Minjun;  Kurdahi, Fadi J;  Donyanavard, Bryan; de Melo, Caio Batista;  Maity, Biswadip;  Moazzemi, Kasra;  Stewart, Kenneth;  Yi, Saehanseul;  Rahmani, Amir M;  Dutt, Nikil D;  Maurer, Florian;  Doan, Nguyen Anh Vu;  Surhonne, Anmol;  Wild, Thomas;  Herkersdorf, AndreasThe information processing factory: a paradigm for life cycle management 
+ of dependable systems Inproceedings Proceedings of the International Conference on Hardware/Software Codesign 
+ and System Synthesis Companion, CODES+ISSS 2019, part of ESWEEK 
+ 2019, New York, NY, USA, October 13-18, 2019, pp. 20:1–20:2, ACM, 2019.Links | BibTeX@inproceedings{DBLP:conf/codes/RamboKESKDMMMSY19,
+title = {The information processing factory: a paradigm for life cycle management 
+ of dependable systems},
+author = {Eberle A Rambo and Thawra Kadeed and Rolf Ernst and Minjun Seo and Fadi J Kurdahi and Bryan Donyanavard and Caio Batista de Melo and Biswadip Maity and Kasra Moazzemi and Kenneth Stewart and Saehanseul Yi and Amir M Rahmani and Nikil D Dutt and Florian Maurer and Nguyen Anh Vu Doan and Anmol Surhonne and Thomas Wild and Andreas Herkersdorf},
+url = {https://doi.org/10.1145/3349567.3357391},
+doi = {10.1145/3349567.3357391},
+year  = {2019},
+date = {2019-01-01},
+booktitle = {Proceedings of the International Conference on Hardware/Software Codesign 
+ and System Synthesis Companion, CODES+ISSS 2019, part of ESWEEK 
+ 2019, New York, NY, USA, October 13-18, 2019},
+pages = {20:1--20:2},
+publisher = {ACM},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/3349567.3357391doi:10.1145/3349567.3357391Close Shamsa, Elham;  Kanduri, Anil;  Rahmani, Amir M;  Liljeberg, Pasi;  Jantsch, Axel;  Dutt, Nikil DGoal-Driven Autonomy for Efficient On-chip Resource Management: Transforming 
+ Objectives to Goals Inproceedings  ü, J;  Fummi, Franco (Ed.): Design, Automation & Test in Europe Conference & Exhibition, 
+ DATE 2019, Florence, Italy, March 25-29, 2019, pp. 1397–1402, IEEE, 2019.Links | BibTeX@inproceedings{DBLP:conf/date/ShamsaKRLJD19,
+title = {Goal-Driven Autonomy for Efficient On-chip Resource Management: Transforming 
+ Objectives to Goals},
+author = {Elham Shamsa and Anil Kanduri and Amir M Rahmani and Pasi Liljeberg and Axel Jantsch and Nikil D Dutt},
+editor = {J ü and Franco Fummi},
+url = {https://doi.org/10.23919/DATE.2019.8715134},
+doi = {10.23919/DATE.2019.8715134},
+year  = {2019},
+date = {2019-01-01},
+booktitle = {Design, Automation & Test in Europe Conference & Exhibition, 
+ DATE 2019, Florence, Italy, March 25-29, 2019},
+pages = {1397--1402},
+publisher = {IEEE},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.23919/DATE.2019.8715134doi:10.23919/DATE.2019.8715134Close Shahhosseini, Sina;  Azimi, Iman;  Anzanpour, Arman;  Jantsch, Axel;  Liljeberg, Pasi;  Dutt, Nikil D;  Rahmani, Amir MDynamic Computation Migration at the Edge: Is There an Optimal Choice? Inproceedings  Homayoun, Houman;  Taskin, Baris;  Mohsenin, Tinoosh;  Zhao, Weisheng (Ed.): Proceedings of the 2019 on Great Lakes Symposium on VLSI, GLSVLSI 
+ 2019, Tysons Corner, VA, USA, May 9-11, 2019, pp. 519–524, ACM, 2019.Links | BibTeX@inproceedings{DBLP:conf/glvlsi/ShahhosseiniAAJ19,
+title = {Dynamic Computation Migration at the Edge: Is There an Optimal Choice?},
+author = {Sina Shahhosseini and Iman Azimi and Arman Anzanpour and Axel Jantsch and Pasi Liljeberg and Nikil D Dutt and Amir M Rahmani},
+editor = {Houman Homayoun and Baris Taskin and Tinoosh Mohsenin and Weisheng Zhao},
+url = {https://doi.org/10.1145/3299874.3319336},
+doi = {10.1145/3299874.3319336},
+year  = {2019},
+date = {2019-01-01},
+booktitle = {Proceedings of the 2019 on Great Lakes Symposium on VLSI, GLSVLSI 
+ 2019, Tysons Corner, VA, USA, May 9-11, 2019},
+pages = {519--524},
+publisher = {ACM},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/3299874.3319336doi:10.1145/3299874.3319336Close Donyanavard, Bryan;  Mück, Tiago;  Rahmani, Amir M;  Dutt, Nikil D;  Sadighi, Armin;  Maurer, Florian;  Herkersdorf, AndreasSOSA: Self-Optimizing Learning with Self-Adaptive Control for Hierarchical  System-on-Chip Management Inproceedings Proceedings of the 52nd Annual IEEE/ACM International Symposium 
+ on Microarchitecture, MICRO 2019, Columbus, OH, USA, October 12-16, 
+ 2019, pp. 685–698, ACM, 2019.Links | BibTeX@inproceedings{DBLP:conf/micro/DonyanavardMRDS19,
+title = {SOSA: Self-Optimizing Learning with Self-Adaptive Control for Hierarchical  System-on-Chip Management},
+author = {Bryan Donyanavard and Tiago Mück and Amir M Rahmani and Nikil D Dutt and Armin Sadighi and Florian Maurer and Andreas Herkersdorf},
+url = {https://doi.org/10.1145/3352460.3358312},
+doi = {10.1145/3352460.3358312},
+year  = {2019},
+date = {2019-01-01},
+booktitle = {Proceedings of the 52nd Annual IEEE/ACM International Symposium 
+ on Microarchitecture, MICRO 2019, Columbus, OH, USA, October 12-16, 
+ 2019},
+pages = {685--698},
+publisher = {ACM},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/3352460.3358312doi:10.1145/3352460.3358312Close Hsieh, Chen-Ying;  Sani, Ardalan Amiri;  Dutt, Nikil DSURF: Self-aware Unified Runtime Framework for Parallel Programs on Heterogeneous Mobile Architectures Inproceedings 27th IFIP/IEEE International Conference on Very Large Scale Integration, 
+ VLSI-SoC 2019, Cuzco, Peru, October 6-9, 2019, pp. 136–141, IEEE, 2019.Links | BibTeX@inproceedings{DBLP:conf/vlsi/HsiehSD19,
+title = {SURF: Self-aware Unified Runtime Framework for Parallel Programs on Heterogeneous Mobile Architectures},
+author = {Chen-Ying Hsieh and Ardalan Amiri Sani and Nikil D Dutt},
+url = {https://doi.org/10.1109/VLSI-SoC.2019.8920374},
+doi = {10.1109/VLSI-SoC.2019.8920374},
+year  = {2019},
+date = {2019-01-01},
+booktitle = {27th IFIP/IEEE International Conference on Very Large Scale Integration, 
+ VLSI-SoC 2019, Cuzco, Peru, October 6-9, 2019},
+pages = {136--141},
+publisher = {IEEE},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/VLSI-SoC.2019.8920374doi:10.1109/VLSI-SoC.2019.8920374Close Hsieh, Chen-Ying;  Sani, Ardalan Amiri;  Dutt, Nikil DExploiting Heterogeneous Mobile Architectures Through a Unified Runtime  Framework Inproceedings VLSI-SoC: New Technology Enabler - 27th IFIP WG 10.5/IEEE International 
+ Conference on Very Large Scale Integration, VLSI-SoC 2019, Cusco, 
+ Peru, October 6-9, 2019, Revised and Extended Selected Papers, pp. 323–344, Springer, 2019.Links | BibTeX@inproceedings{DBLP:conf/vlsi/HsiehSD19a,
+title = {Exploiting Heterogeneous Mobile Architectures Through a Unified Runtime  Framework},
+author = {Chen-Ying Hsieh and Ardalan Amiri Sani and Nikil D Dutt},
+url = {https://doi.org/10.1007/978-3-030-53273-4_15},
+doi = {10.1007/978-3-030-53273-4_15},
+year  = {2019},
+date = {2019-01-01},
+booktitle = {VLSI-SoC: New Technology Enabler - 27th IFIP WG 10.5/IEEE International 
+ Conference on Very Large Scale Integration, VLSI-SoC 2019, Cusco, 
+ Peru, October 6-9, 2019, Revised and Extended Selected Papers},
+volume = {586},
+pages = {323--344},
+publisher = {Springer},
+series = {IFIP Advances in Information and Communication Technology},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1007/978-3-030-53273-4_15doi:10.1007/978-3-030-53273-4_15Close Rambo, Eberle A;  Donyanavard, Bryan;  Seo, Minjun;  Maurer, Florian;  Kadeed, Thawra; de Melo, Caio Batista;  Maity, Biswadip;  Surhonne, Anmol;  Herkersdorf, Andreas;  Kurdahi, Fadi J;  Dutt, Nikil D;  Ernst, RolfThe Information Processing Factory: Organization, Terminology, and 
+ Definitions Journal Article CoRR, abs/1907.01578 , 2019.Links | BibTeX@article{DBLP:journals/corr/abs-1907-01578,
+title = {The Information Processing Factory: Organization, Terminology, and 
+ Definitions},
+author = {Eberle A Rambo and Bryan Donyanavard and Minjun Seo and Florian Maurer and Thawra Kadeed and Caio Batista de Melo and Biswadip Maity and Anmol Surhonne and Andreas Herkersdorf and Fadi J Kurdahi and Nikil D Dutt and Rolf Ernst},
+url = {http://arxiv.org/abs/1907.01578},
+year  = {2019},
+date = {2019-01-01},
+journal = {CoRR},
+volume = {abs/1907.01578},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://arxiv.org/abs/1907.01578Close Amiri, Delaram;  Anzanpour, Arman;  Azimi, Iman;  Rahmani, Amir M;  Liljeberg, Pasi;  Dutt, Nikil D;  Levorato, MarcoOptimizing Energy Efficiency of Wearable Sensors Using Fog-assisted  Control Journal Article CoRR, abs/1907.11989 , 2019.Links | BibTeX@article{DBLP:journals/corr/abs-1907-11989,
+title = {Optimizing Energy Efficiency of Wearable Sensors Using Fog-assisted  Control},
+author = {Delaram Amiri and Arman Anzanpour and Iman Azimi and Amir M Rahmani and Pasi Liljeberg and Nikil D Dutt and Marco Levorato},
+url = {http://arxiv.org/abs/1907.11989},
+year  = {2019},
+date = {2019-01-01},
+journal = {CoRR},
+volume = {abs/1907.11989},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://arxiv.org/abs/1907.11989Close Balaji, Adarsha;  Das, Anup;  Wu, Yuefeng;  Huynh, Khanh;  Dell'Anna, Francesco;  Indiveri, Giacomo;  Krichmar, Jeffrey L;  Dutt, Nikil D;  Schaafsma, Siebren;  Catthoor, FranckyMapping Spiking Neural Networks to Neuromorphic Hardware Journal Article CoRR, abs/1909.01843 , 2019.Links | BibTeX@article{DBLP:journals/corr/abs-1909-01843,
+title = {Mapping Spiking Neural Networks to Neuromorphic Hardware},
+author = {Adarsha Balaji and Anup Das and Yuefeng Wu and Khanh Huynh and Francesco Dell'Anna and Giacomo Indiveri and Jeffrey L Krichmar and Nikil D Dutt and Siebren Schaafsma and Francky Catthoor},
+url = {http://arxiv.org/abs/1909.01843},
+year  = {2019},
+date = {2019-01-01},
+journal = {CoRR},
+volume = {abs/1909.01843},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://arxiv.org/abs/1909.01843Close
+
+2018
+
+ Amiri, Delaram;  Anzanpour, Arman;  Azimi, Iman;  Levorato, Marco;  Rahmani, Amir M;  Liljeberg, Pasi;  Dutt, NikilEdge-Assisted Sensor Control in Healthcare IoT Inproceedings 2018 IEEE Global Communications Conference (GLOBECOM), pp. 1–6, 2018.Abstract | Links | BibTeX@inproceedings{amiri2018edge,
+title = {Edge-Assisted Sensor Control in Healthcare IoT},
+author = {Delaram Amiri and Arman Anzanpour and Iman Azimi and Marco Levorato and Amir M. Rahmani and Pasi Liljeberg and Nikil Dutt},
+doi = {10.1109/GLOCOM.2018.8647457},
+year  = {2018},
+date = {2018-12-09},
+booktitle = {2018 IEEE Global Communications Conference (GLOBECOM)},
+pages = {1--6},
+abstract = {The Internet of Things is a key enabler of mobile health-care applications. However, the inherent constraints of mobile devices, such as limited availability of energy, can impair their ability to produce accurate data and, in turn, degrade the output of algorithms processing them in real-time to evaluate the patient’s state. This paper presents an edge-assisted framework, where models and control generated by an edge server inform the sensing parameters of mobile sensors. The objective is to maximize the probability that anomalies in the collected signals are detected over extensive periods of time under batteryimposed constraints. Although the proposed concept is general, the control framework is made specific to a use-case where vital signs – heart rate, respiration rate and oxygen saturation – are extracted from a Photoplethysmogram (PPG) signal to detect anomalies in real-time. Experimental results show a 16.9% reduction in sensing energy consumption in comparison to a constant energy consumption with the maximum misdetection probability of 0.17 in a 24-hour health monitoring system.},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+CloseThe Internet of Things is a key enabler of mobile health-care applications. However, the inherent constraints of mobile devices, such as limited availability of energy, can impair their ability to produce accurate data and, in turn, degrade the output of algorithms processing them in real-time to evaluate the patient’s state. This paper presents an edge-assisted framework, where models and control generated by an edge server inform the sensing parameters of mobile sensors. The objective is to maximize the probability that anomalies in the collected signals are detected over extensive periods of time under batteryimposed constraints. Although the proposed concept is general, the control framework is made specific to a use-case where vital signs – heart rate, respiration rate and oxygen saturation – are extracted from a Photoplethysmogram (PPG) signal to detect anomalies in real-time. Experimental results show a 16.9% reduction in sensing energy consumption in comparison to a constant energy consumption with the maximum misdetection probability of 0.17 in a 24-hour health monitoring system.Closedoi:10.1109/GLOCOM.2018.8647457Close Hsieh, Chenying;  Dutt, Nikil;  Sani, ArdalanThe Case for Exploiting Underutilized Resources in Heterogeneous Mobile Architectures Conference 2018.Abstract | Links | BibTeX@conference{Hsieh2018,
+title = {The Case for Exploiting Underutilized Resources in Heterogeneous Mobile Architectures},
+author = {Chenying Hsieh and Nikil Dutt and Ardalan Sani},
+url = {https://ieeexplore.ieee.org/document/8714970},
+year  = {2018},
+date = {2018-11-08},
+abstract = {Heterogeneous architectures are ubiquitous in mobile platforms, with mobile SoCs typically integrating multiple processors along with accelerators such as GPUs (for data parallel kernels) and DSPs (for signal processing kernels). This strict partitioning of application execution on heterogeneous compute resources often results in underutilization of resources such as DSPs. We present a case study executing a mix of popular data-parallel workloads such as convolutional neural networks (CNNs), computer vision filters and graphics rendering kernels on mobile devices, and show that both performance and energy consumption of mobile platforms can be improved by synergistically deploying these underutilized compute resources. Our experiments on a mobile Snapdragon 835 platform under both single and multiple application scenarios executing the aforementioned workloads demonstrates average performance and energy improvements of 15-46% and 18-80%, respectively, by synergistically deploying all available compute resources, especially the underutilized DSP. These studies make a strong case for developing a unified runtime system that can better exploit underutilized resources in the face of increasing accelerator diversity in heterogeneous mobile platforms.
+},
+keywords = {},
+pubstate = {published},
+tppubtype = {conference}
+}
+CloseHeterogeneous architectures are ubiquitous in mobile platforms, with mobile SoCs typically integrating multiple processors along with accelerators such as GPUs (for data parallel kernels) and DSPs (for signal processing kernels). This strict partitioning of application execution on heterogeneous compute resources often results in underutilization of resources such as DSPs. We present a case study executing a mix of popular data-parallel workloads such as convolutional neural networks (CNNs), computer vision filters and graphics rendering kernels on mobile devices, and show that both performance and energy consumption of mobile platforms can be improved by synergistically deploying these underutilized compute resources. Our experiments on a mobile Snapdragon 835 platform under both single and multiple application scenarios executing the aforementioned workloads demonstrates average performance and energy improvements of 15-46% and 18-80%, respectively, by synergistically deploying all available compute resources, especially the underutilized DSP. These studies make a strong case for developing a unified runtime system that can better exploit underutilized resources in the face of increasing accelerator diversity in heterogeneous mobile platforms.
+Closehttps://ieeexplore.ieee.org/document/8714970Close Moazzemi, K;  Kanduri, A;  Juhász, D;  Miele, A;  Rahmani, A M;  Liljeberg, P;  Jantsch, A;  Dutt, NTrends in On-chip Dynamic Resource Management Inproceedings 2018 21st Euromicro Conference on Digital System Design (DSD), pp. 62-69, 2018.Links | BibTeX@inproceedings{8491796,
+title = {Trends in On-chip Dynamic Resource Management},
+author = {K Moazzemi and A Kanduri and D Juhász and A Miele and A M Rahmani and P Liljeberg and A Jantsch and N Dutt},
+doi = {10.1109/DSD.2018.00025},
+year  = {2018},
+date = {2018-08-01},
+booktitle = {2018 21st Euromicro Conference on Digital System Design (DSD)},
+pages = {62-69},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closedoi:10.1109/DSD.2018.00025Close Donvanavard, B;  Monazzah, A M H;  Dutt, N;  Mück, TExploring Hybrid Memory Caches in Chip Multiprocessors Inproceedings 2018 13th International Symposium on Reconfigurable Communication-centric Systems-on-Chip (ReCoSoC), pp. 1-8, 2018.Links | BibTeX@inproceedings{8449386,
+title = {Exploring Hybrid Memory Caches in Chip Multiprocessors},
+author = {B Donvanavard and A M H Monazzah and N Dutt and T Mück},
+doi = {10.1109/ReCoSoC.2018.8449386},
+year  = {2018},
+date = {2018-07-01},
+booktitle = {2018 13th International Symposium on Reconfigurable Communication-centric Systems-on-Chip (ReCoSoC)},
+pages = {1-8},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closedoi:10.1109/ReCoSoC.2018.8449386Close Rahmani, Amir M;  Donyanavard, Bryan;  Mück, Tiago;  Moazzemi, Kasra;  Jantsch, Axel;  Mutlu, Onur;  Dutt, NikilSPECTR: Formal Supervisory Control and Coordination for Many-core Systems Resource Management Conference Proceedings of the Twenty-Third International Conference on Architectural Support for Programming Languages and Operating Systems, ACM, New York, NY, USA, 2018, ISBN: 978-1-4503-4911-6.Abstract | Links | BibTeX@conference{Rahmani:2018:SFS:3173162.3173199,
+title = {SPECTR: Formal Supervisory Control and Coordination for Many-core Systems Resource Management},
+author = {Amir M. Rahmani and Bryan Donyanavard and Tiago Mück and Kasra Moazzemi and Axel Jantsch and Onur Mutlu and Nikil Dutt},
+url = {http://doi.acm.org/10.1145/3173162.3173199, ACM
+http://duttgroup.ics.uci.edu/wp-content/uploads/2018/05/SPECTR-formal-supervisory-control-for-many-core-resource-management_asplos18-lightning-talk.pptx, Lightning Talk [pptx]
+http://duttgroup.ics.uci.edu/wp-content/uploads/2018/05/SPECTR-formal-supervisory-control-for-many-core-resource-management_asplos18-lightning-talk.pdf, Lightning Talk [pdf]
+http://duttgroup.ics.uci.edu/wp-content/uploads/2018/05/SPECTR-formal-supervisory-control-for-many-core-resource-management_asplos18-talk.pptx, Slides [pptx]
+http://duttgroup.ics.uci.edu/wp-content/uploads/2018/05/SPECTR-formal-supervisory-control-for-many-core-resource-management_asplos18-talk.pdf, Slides [pdf]
+http://duttgroup.ics.uci.edu/wp-content/uploads/2018/05/SPECTR-formal-supervisory-control-for-many-core-resource-management_asplos18-poster.pptx, Poster [pptx]
+http://duttgroup.ics.uci.edu/wp-content/uploads/2018/05/SPECTR-formal-supervisory-control-for-many-core-resource-management_asplos18-poster.pdf, Poster [pdf]
+},
+doi = {10.1145/3173162.3173199},
+isbn = {978-1-4503-4911-6},
+year  = {2018},
+date = {2018-03-27},
+booktitle = {Proceedings of the Twenty-Third International Conference on Architectural Support for Programming Languages and Operating Systems},
+pages = {169--183},
+publisher = {ACM},
+address = {New York, NY, USA},
+abstract = {Resource management strategies for many-core systems need to enable sharing of resources such as power, processing cores, and memory bandwidth while coordinating the priority and significance of system- and application-level objectives at runtime in a scalable and robust manner. State-of-the-art approaches use heuristics or machine learning for resource management, but unfortunately lack formalism in providing robustness against unexpected corner cases. While recent efforts deploy classical control-theoretic approaches with some guarantees and formalism, they lack scalability and autonomy to meet changing runtime goals. We present SPECTR, a new resource management approach for many-core systems that leverages formal supervisory control theory (SCT) to combine the strengths of classical control theory with state-of-the-art heuristic approaches to efficiently meet changing runtime goals. SPECTR is a scalable and robust control architecture and a systematic design flow for hierarchical control of many-core systems. SPECTR leverages SCT techniques such as gain scheduling to allow autonomy for individual controllers. It facilitates automatic synthesis of the high-level supervisory controller and its property verification. We implement SPECTR on an Exynos platform containing ARM's big.LITTLE-based heterogeneous multi-processor (HMP) and demonstrate that SPECTR»s use of SCT is key to managing multiple interacting resources (e.g., chip power and processing cores) in the presence of competing objectives (e.g., satisfying QoS vs. power capping). The principles of SPECTR are easily applicable to any resource type and objective as long as the management problem can be modeled using dynamical systems theory (e.g., difference equations), discrete-event dynamic systems, or fuzzy dynamics.
+
+},
+keywords = {},
+pubstate = {published},
+tppubtype = {conference}
+}
+CloseResource management strategies for many-core systems need to enable sharing of resources such as power, processing cores, and memory bandwidth while coordinating the priority and significance of system- and application-level objectives at runtime in a scalable and robust manner. State-of-the-art approaches use heuristics or machine learning for resource management, but unfortunately lack formalism in providing robustness against unexpected corner cases. While recent efforts deploy classical control-theoretic approaches with some guarantees and formalism, they lack scalability and autonomy to meet changing runtime goals. We present SPECTR, a new resource management approach for many-core systems that leverages formal supervisory control theory (SCT) to combine the strengths of classical control theory with state-of-the-art heuristic approaches to efficiently meet changing runtime goals. SPECTR is a scalable and robust control architecture and a systematic design flow for hierarchical control of many-core systems. SPECTR leverages SCT techniques such as gain scheduling to allow autonomy for individual controllers. It facilitates automatic synthesis of the high-level supervisory controller and its property verification. We implement SPECTR on an Exynos platform containing ARM's big.LITTLE-based heterogeneous multi-processor (HMP) and demonstrate that SPECTR»s use of SCT is key to managing multiple interacting resources (e.g., chip power and processing cores) in the presence of competing objectives (e.g., satisfying QoS vs. power capping). The principles of SPECTR are easily applicable to any resource type and objective as long as the management problem can be modeled using dynamical systems theory (e.g., difference equations), discrete-event dynamic systems, or fuzzy dynamics.
+
+CloseACMLightning Talk [pptx]Lightning Talk [pdf]Slides [pptx]Slides [pdf]Poster [pptx]Poster [pdf]doi:10.1145/3173162.3173199Close Donyanavard, Bryan;  Rahmani, Amir M;  Mück, Tiago;  Moazzemi, Kasra;  Dutt, NikilGain Scheduled Control for Nonlinear Power Management in CMPs Conference 2018 Design, Automation Test in Europe Conference Exhibition (DATE), 2018.Abstract | Links | BibTeX@conference{8342141,
+title = {Gain Scheduled Control for Nonlinear Power Management in CMPs},
+author = {Bryan Donyanavard and Amir M. Rahmani and Tiago Mück and Kasra Moazzemi and Nikil Dutt},
+url = {https://doi.org/10.23919/DATE.2018.8342141},
+doi = {10.23919/DATE.2018.8342141},
+year  = {2018},
+date = {2018-03-19},
+booktitle = {2018 Design, Automation Test in Europe Conference Exhibition (DATE)},
+pages = {921-924},
+abstract = {Dynamic voltage and frequency scaling (DVFS) is a well-established technique for power management of thermal-or energy-sensitive chip multiprocessors (CMPs). In this context, linear control theoretic solutions have been successfully implemented to control the voltage-frequency knobs. However, modern CMPs with a large range of operating frequencies and multiple voltage levels display nonlinear behavior in the relationship between frequency and power. State-of-the-art linear controllers therefore under-optimize DVFS operation. We propose a Gain Scheduled Controller (GSC) for nonlinear runtime power management of CMPs that simplifies the controller implementation of systems with varying dynamic properties by utilizing an adaptive control theoretic approach in conjunction with static linear controllers. Our design improves the accuracy of the controller over a static linear controller with minimal overhead. We implement our approach on an Exynos platform containing ARM's big.LITTLE-based heterogeneous multi-processor (HMP) and demonstrate that the system's response to changes in target power is improved by 2x while operating up to 12% more efficiently for tracking accuracy.},
+keywords = {},
+pubstate = {published},
+tppubtype = {conference}
+}
+CloseDynamic voltage and frequency scaling (DVFS) is a well-established technique for power management of thermal-or energy-sensitive chip multiprocessors (CMPs). In this context, linear control theoretic solutions have been successfully implemented to control the voltage-frequency knobs. However, modern CMPs with a large range of operating frequencies and multiple voltage levels display nonlinear behavior in the relationship between frequency and power. State-of-the-art linear controllers therefore under-optimize DVFS operation. We propose a Gain Scheduled Controller (GSC) for nonlinear runtime power management of CMPs that simplifies the controller implementation of systems with varying dynamic properties by utilizing an adaptive control theoretic approach in conjunction with static linear controllers. Our design improves the accuracy of the controller over a static linear controller with minimal overhead. We implement our approach on an Exynos platform containing ARM's big.LITTLE-based heterogeneous multi-processor (HMP) and demonstrate that the system's response to changes in target power is improved by 2x while operating up to 12% more efficiently for tracking accuracy.Closehttps://doi.org/10.23919/DATE.2018.8342141doi:10.23919/DATE.2018.8342141Close Sagdighi, Armin;  Donyanavard, Bryan;  Kadeed, Thawra;  Moazzemi, Kasra;  Mück, Tiago;  Nassar, Ahmed;  Rahmani, Amir M;  Wild, Thomas;  Dutt, Nikil;  Ernst, Rolf;  Herkersdorf, Andreas;  Kurdahi, FadiDesign Methodologies for Enabling Self-awareness in Autonomous Systems Conference 2018 Design, Automation Test in Europe Conference Exhibition (DATE), 2018, ISSN: 1558-1101.Abstract | Links | BibTeX@conference{8342259,
+title = {Design Methodologies for Enabling Self-awareness in Autonomous Systems},
+author = {Armin Sagdighi and Bryan Donyanavard and Thawra Kadeed and Kasra Moazzemi and Tiago Mück and Ahmed Nassar and Amir M. Rahmani and Thomas Wild and Nikil Dutt and Rolf Ernst and Andreas Herkersdorf and Fadi Kurdahi},
+url = {https://doi.org/10.23919/DATE.2018.8342259},
+doi = {10.23919/DATE.2018.8342259},
+issn = {1558-1101},
+year  = {2018},
+date = {2018-03-19},
+booktitle = {2018 Design, Automation Test in Europe Conference Exhibition (DATE)},
+pages = {1532-1537},
+abstract = {This paper deals with challenges and possible solutions for incorporating self-awareness principles in EDA design flows for autonomous systems. We present a holistic approach that enables self-awareness across the software/hardware stack, from systems-on-chip to systems-of-systems (autonomous car) contexts. We use the Information Processing Factory (IPF) metaphor as an exemplar to show how self-awareness can be achieved across multiple abstraction levels, and discuss new research challenges. The IPF approach represents a paradigm shift in platform design by envisioning the move towards a consequent platform-centric design in which the combination of self-organizing learning and formal reactive methods guarantee the applicability of such cyber-physical systems in safety-critical and high-availability applications.
+},
+keywords = {},
+pubstate = {published},
+tppubtype = {conference}
+}
+CloseThis paper deals with challenges and possible solutions for incorporating self-awareness principles in EDA design flows for autonomous systems. We present a holistic approach that enables self-awareness across the software/hardware stack, from systems-on-chip to systems-of-systems (autonomous car) contexts. We use the Information Processing Factory (IPF) metaphor as an exemplar to show how self-awareness can be achieved across multiple abstraction levels, and discuss new research challenges. The IPF approach represents a paradigm shift in platform design by envisioning the move towards a consequent platform-centric design in which the combination of self-organizing learning and formal reactive methods guarantee the applicability of such cyber-physical systems in safety-critical and high-availability applications.
+Closehttps://doi.org/10.23919/DATE.2018.8342259doi:10.23919/DATE.2018.8342259Close Nejatollahi, Hamid;  Dutt, Nikil;  Banerjee, Indranil;  Cammarota, RosarioDomain-specific Accelerators for Ideal Lattice-based Public Key Protocols Miscellaneous Cryptology ePrint Archive, Report 2018/608, 2018, (urlhttps://eprint.iacr.org/2018/608).Abstract | Links | BibTeX@misc{cryptoeprint:2018:608,
+title = {Domain-specific Accelerators for Ideal Lattice-based Public Key Protocols},
+author = {Hamid Nejatollahi and Nikil Dutt and Indranil Banerjee and Rosario Cammarota},
+url = {https://eprint.iacr.org/2018/608.pdf},
+year  = {2018},
+date = {2018-01-01},
+abstract = {Post Quantum Lattice-Based Cryptography (LBC) schemes are increasingly gaining attention in traditional and emerging security problems, such as encryption, digital signature, key exchange, homomorphic encryption etc, to address security needs of both short and long-lived devices — due to their foundational properties and ease of implementation. However, LBC schemes induce higher computational demand compared to classic schemes (e.g., DSA, ECDSA) for equivalent security guarantees, making domain-specific acceleration a viable option for improving security and favor early adoption of LBC schemes by the semiconductor industry. In this paper, we present a workflow to explore the design space of domain-specific accelerators for LBC schemes, to target a diverse set of host devices, from resource-constrained IoT devices to high-performance computing platforms. We present design exploration results on workloads executing NewHope and BLISSB-I schemes accelerated by our domain-specific accelerators, with respect to a baseline without acceleration. We show that achieved performance with acceleration makes the execution of NewHope and BLISSB-I comparable to classic key exchange and digital signature schemes while retaining some form of general purpose programmability. In addition to 44% and 67% improvement in energy-delay product (EDP), we enhance performance (cycles) of the sign and verify steps in BLISSB-I schemes by 24% and 47%, respectively. Performance (EDP) improvement of server and client side of the NewHope key exchange is improved by 37% and 33% (52% and 48%), demonstrating the utility of the design space exploration framework.
+
+},
+howpublished = {Cryptology ePrint Archive, Report 2018/608},
+note = {urlhttps://eprint.iacr.org/2018/608},
+keywords = {},
+pubstate = {published},
+tppubtype = {misc}
+}
+ClosePost Quantum Lattice-Based Cryptography (LBC) schemes are increasingly gaining attention in traditional and emerging security problems, such as encryption, digital signature, key exchange, homomorphic encryption etc, to address security needs of both short and long-lived devices — due to their foundational properties and ease of implementation. However, LBC schemes induce higher computational demand compared to classic schemes (e.g., DSA, ECDSA) for equivalent security guarantees, making domain-specific acceleration a viable option for improving security and favor early adoption of LBC schemes by the semiconductor industry. In this paper, we present a workflow to explore the design space of domain-specific accelerators for LBC schemes, to target a diverse set of host devices, from resource-constrained IoT devices to high-performance computing platforms. We present design exploration results on workloads executing NewHope and BLISSB-I schemes accelerated by our domain-specific accelerators, with respect to a baseline without acceleration. We show that achieved performance with acceleration makes the execution of NewHope and BLISSB-I comparable to classic key exchange and digital signature schemes while retaining some form of general purpose programmability. In addition to 44% and 67% improvement in energy-delay product (EDP), we enhance performance (cycles) of the sign and verify steps in BLISSB-I schemes by 24% and 47%, respectively. Performance (EDP) improvement of server and client side of the NewHope key exchange is improved by 37% and 33% (52% and 48%), demonstrating the utility of the design space exploration framework.
+
+Closehttps://eprint.iacr.org/2018/608.pdfClose Chou, Ting-Shuo;  Kashyap, Hirak J;  Xing, Jinwei;  Listopad, Stanislav;  Rounds, Emily LCARLsim 4: An Open Source Library for Large Scale, Biologically Detailed Spiking Neural Network Simulation using Heterogeneous Clusters Conference International Joint Conference on Neural Networks (IJCNN), 2018.Links | BibTeX@conference{choucarlsim,
+title = {CARLsim 4: An Open Source Library for Large Scale, Biologically Detailed Spiking Neural Network Simulation using Heterogeneous Clusters},
+author = {Ting-Shuo Chou and Hirak J Kashyap and Jinwei Xing and Stanislav Listopad and Emily L Rounds},
+url = {http://www.socsci.uci.edu/~jkrichma/Chou-Kashyap-CARLsim4-IJCNN2018.pdf, paper},
+year  = {2018},
+date = {2018-01-01},
+booktitle = {International Joint Conference on Neural Networks (IJCNN)},
+keywords = {},
+pubstate = {published},
+tppubtype = {conference}
+}
+ClosepaperClose Kashyap, Hirak J;  Detorakis, Georgios;  Dutt, Nikil;  Krichmar, Jeffrey L;  Neftci, EmreA Recurrent Neural Network Based Model of Predictive Smooth Pursuit Eye Movement in Primates Conference International Joint Conference on Neural Networks (IJCNN), 2018.Links | BibTeX@conference{kashyaprecurrent,
+title = {A Recurrent Neural Network Based Model of Predictive Smooth Pursuit Eye Movement in Primates},
+author = {Hirak J Kashyap and Georgios Detorakis and Nikil Dutt and Jeffrey L Krichmar and Emre Neftci},
+url = {http://www.socsci.uci.edu/~jkrichma/Kashyap-PredicitvePursuit-IJCNN2018.pdf, paper},
+year  = {2018},
+date = {2018-01-01},
+booktitle = {International Joint Conference on Neural Networks (IJCNN)},
+keywords = {},
+pubstate = {published},
+tppubtype = {conference}
+}
+ClosepaperClose Hsieh, Chen-Ying;  Park, Jurn-Gyu;  Dutt, Nikil D;  Lim, Sung-SooMEMCOP: memory-aware co-operative power management governor for  mobile games Journal Article Design Autom. for Emb. Sys., 22 (1-2), pp. 95–116, 2018.Links | BibTeX@article{DBLP:journals/dafes/HsiehPDL18,
+title = {MEMCOP: memory-aware co-operative power management governor for  mobile games},
+author = {Chen-Ying Hsieh and Jurn-Gyu Park and Nikil D Dutt and Sung-Soo Lim},
+url = {https://doi.org/10.1007/s10617-018-9201-8},
+doi = {10.1007/s10617-018-9201-8},
+year  = {2018},
+date = {2018-01-01},
+journal = {Design Autom. for Emb. Sys.},
+volume = {22},
+number = {1-2},
+pages = {95--116},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1007/s10617-018-9201-8doi:10.1007/s10617-018-9201-8Close Dutt, Nikil D;  Jantsch, AxelGuest Editorial: Special Issue on Self-Aware Systems on Chip Journal Article IEEE Des. Test, 35 (5), pp. 5–6, 2018.Links | BibTeX@article{DBLP:journals/dt/DuttJ18,
+title = {Guest Editorial: Special Issue on Self-Aware Systems on Chip},
+author = {Nikil D Dutt and Axel Jantsch},
+url = {https://doi.org/10.1109/MDAT.2017.2766604},
+doi = {10.1109/MDAT.2017.2766604},
+year  = {2018},
+date = {2018-01-01},
+journal = {IEEE Des. Test},
+volume = {35},
+number = {5},
+pages = {5--6},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/MDAT.2017.2766604doi:10.1109/MDAT.2017.2766604Close Rahmani, Amir M;  Jantsch, Axel;  Dutt, Nikil DHDGM: Hierarchical Dynamic Goal Management for Many-Core Resource 
+ Allocation Journal Article IEEE Embed. Syst. Lett., 10 (3), pp. 61–64, 2018.Links | BibTeX@article{DBLP:journals/esl/RahmaniJD18,
+title = {HDGM: Hierarchical Dynamic Goal Management for Many-Core Resource 
+ Allocation},
+author = {Amir M Rahmani and Axel Jantsch and Nikil D Dutt},
+url = {https://doi.org/10.1109/LES.2017.2751522},
+doi = {10.1109/LES.2017.2751522},
+year  = {2018},
+date = {2018-01-01},
+journal = {IEEE Embed. Syst. Lett.},
+volume = {10},
+number = {3},
+pages = {61--64},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/LES.2017.2751522doi:10.1109/LES.2017.2751522Close Shahhosseini, Sina;  Moazzemi, Kasra;  Rahmani, Amir M;  Dutt, Nikil DOn the feasibility of SISO control-theoretic DVFS for power capping 
+ in CMPs Journal Article Microprocess. Microsystems, 63 , pp. 249–258, 2018.Links | BibTeX@article{DBLP:journals/mam/ShahhosseiniMRD18,
+title = {On the feasibility of SISO control-theoretic DVFS for power capping 
+ in CMPs},
+author = {Sina Shahhosseini and Kasra Moazzemi and Amir M Rahmani and Nikil D Dutt},
+url = {https://doi.org/10.1016/j.micpro.2018.09.012},
+doi = {10.1016/j.micpro.2018.09.012},
+year  = {2018},
+date = {2018-01-01},
+journal = {Microprocess. Microsystems},
+volume = {63},
+pages = {249--258},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1016/j.micpro.2018.09.012doi:10.1016/j.micpro.2018.09.012Close Das, Anup;  Pradhapan, Paruthi;  Groenendaal, Willemijn;  Adiraju, Prathyusha;  Rajan, Raj Thilak;  Catthoor, Francky;  Schaafsma, Siebren;  Krichmar, Jeffrey L;  Dutt, Nikil D;  Hoof, Chris VanUnsupervised heart-rate estimation in wearables with Liquid states 
+ and a probabilistic readout Journal Article Neural Networks, 99 , pp. 134–147, 2018.Links | BibTeX@article{DBLP:journals/nn/DasPGARCSKDH18,
+title = {Unsupervised heart-rate estimation in wearables with Liquid states 
+ and a probabilistic readout},
+author = {Anup Das and Paruthi Pradhapan and Willemijn Groenendaal and Prathyusha Adiraju and Raj Thilak Rajan and Francky Catthoor and Siebren Schaafsma and Jeffrey L Krichmar and Nikil D Dutt and Chris Van Hoof},
+url = {https://doi.org/10.1016/j.neunet.2017.12.015},
+doi = {10.1016/j.neunet.2017.12.015},
+year  = {2018},
+date = {2018-01-01},
+journal = {Neural Networks},
+volume = {99},
+pages = {134--147},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1016/j.neunet.2017.12.015doi:10.1016/j.neunet.2017.12.015Close ö, Mischa M;  Schlatow, Johannes;  Ernst, Rolf;  Dutt, Nikil D;  Nassar, Ahmed;  Rahmani, Amir M;  Kurdahi, Fadi J;  Wild, Thomas;  Sadighi, Armin;  Herkersdorf, AndreasPlatform-Centric Self-Awareness as a Key Enabler for Controlling Changes  in CPS Journal Article Proceedings of the IEEE, 106 (9), pp. 1543–1567, 2018.Links | BibTeX@article{DBLP:journals/pieee/MostlSEDNRKWSH18,
+title = {Platform-Centric Self-Awareness as a Key Enabler for Controlling Changes  in CPS},
+author = {Mischa M ö and Johannes Schlatow and Rolf Ernst and Nikil D Dutt and Ahmed Nassar and Amir M Rahmani and Fadi J Kurdahi and Thomas Wild and Armin Sadighi and Andreas Herkersdorf},
+url = {https://doi.org/10.1109/JPROC.2018.2858023},
+doi = {10.1109/JPROC.2018.2858023},
+year  = {2018},
+date = {2018-01-01},
+journal = {Proceedings of the IEEE},
+volume = {106},
+number = {9},
+pages = {1543--1567},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/JPROC.2018.2858023doi:10.1109/JPROC.2018.2858023Close Liu, Weichen;  Yang, Lei;  Jiang, Weiwen;  Feng, Liang;  Guan, Nan;  Zhang, Wei;  Dutt, Nikil DThermal-Aware Task Mapping on Dynamically Reconfigurable Network-on-Chip 
+ Based Multiprocessor System-on-Chip Journal Article IEEE Trans. Computers, 67 (12), pp. 1818–1834, 2018.Links | BibTeX@article{DBLP:journals/tc/LiuYJFGZD18,
+title = {Thermal-Aware Task Mapping on Dynamically Reconfigurable Network-on-Chip 
+ Based Multiprocessor System-on-Chip},
+author = {Weichen Liu and Lei Yang and Weiwen Jiang and Liang Feng and Nan Guan and Wei Zhang and Nikil D Dutt},
+url = {https://doi.org/10.1109/TC.2018.2844365},
+doi = {10.1109/TC.2018.2844365},
+year  = {2018},
+date = {2018-01-01},
+journal = {IEEE Trans. Computers},
+volume = {67},
+number = {12},
+pages = {1818--1834},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/TC.2018.2844365doi:10.1109/TC.2018.2844365Close Park, Jurn-Gyu;  Hsieh, Chen-Ying;  Dutt, Nikil D;  Lim, Sung-SooSynergistic CPU-GPU Frequency Capping for Energy-Efficient Mobile  Games Journal Article ACM Trans. Embed. Comput. Syst., 17 (2), pp. 45:1–45:24, 2018.Links | BibTeX@article{DBLP:journals/tecs/ParkHDL18,
+title = {Synergistic CPU-GPU Frequency Capping for Energy-Efficient Mobile  Games},
+author = {Jurn-Gyu Park and Chen-Ying Hsieh and Nikil D Dutt and Sung-Soo Lim},
+url = {https://doi.org/10.1145/3145337},
+doi = {10.1145/3145337},
+year  = {2018},
+date = {2018-01-01},
+journal = {ACM Trans. Embed. Comput. Syst.},
+volume = {17},
+number = {2},
+pages = {45:1--45:24},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1145/3145337doi:10.1145/3145337Close Shoushtari, Majid;  Donyanavard, Bryan;  Bathen, Luis Angel D;  Dutt, Nikil DShaVe-ICE: Sharing Distributed Virtualized SPMs in Many-Core Embedded 
+ Systems Journal Article ACM Trans. Embed. Comput. Syst., 17 (2), pp. 47:1–47:25, 2018.Links | BibTeX@article{DBLP:journals/tecs/ShoushtariDBD18,
+title = {ShaVe-ICE: Sharing Distributed Virtualized SPMs in Many-Core Embedded 
+ Systems},
+author = {Majid Shoushtari and Bryan Donyanavard and Luis Angel D Bathen and Nikil D Dutt},
+url = {https://doi.org/10.1145/3157667},
+doi = {10.1145/3157667},
+year  = {2018},
+date = {2018-01-01},
+journal = {ACM Trans. Embed. Comput. Syst.},
+volume = {17},
+number = {2},
+pages = {47:1--47:25},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1145/3157667doi:10.1145/3157667Close Mück, Tiago;  Donyanavard, Bryan;  Moazzemi, Kasra;  Rahmani, Amir M;  Jantsch, Axel;  Dutt, Nikil DDesign Methodology for Responsive and Rrobust MIMO Control of Heterogeneous  Multicores Journal Article IEEE Trans. Multi Scale Comput. Syst., 4 (4), pp. 944–951, 2018.Links | BibTeX@article{DBLP:journals/tmscs/MuckDMRJD18,
+title = {Design Methodology for Responsive and Rrobust MIMO Control of Heterogeneous  Multicores},
+author = {Tiago Mück and Bryan Donyanavard and Kasra Moazzemi and Amir M Rahmani and Axel Jantsch and Nikil D Dutt},
+url = {https://doi.org/10.1109/TMSCS.2018.2808524},
+doi = {10.1109/TMSCS.2018.2808524},
+year  = {2018},
+date = {2018-01-01},
+journal = {IEEE Trans. Multi Scale Comput. Syst.},
+volume = {4},
+number = {4},
+pages = {944--951},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/TMSCS.2018.2808524doi:10.1109/TMSCS.2018.2808524Close Kanduri, Anil;  Miele, Antonio;  Rahmani, Amir M;  Liljeberg, Pasi;  Bolchini, Cristiana;  Dutt, Nikil DApproximation-aware coordinated power/performance management for heterogeneous 
+ multi-cores Inproceedings Proceedings of the 55th Annual Design Automation Conference, DAC 
+ 2018, San Francisco, CA, USA, June 24-29, 2018, pp. 68:1–68:6, ACM, 2018.Links | BibTeX@inproceedings{DBLP:conf/dac/KanduriMRLBD18,
+title = {Approximation-aware coordinated power/performance management for heterogeneous 
+ multi-cores},
+author = {Anil Kanduri and Antonio Miele and Amir M Rahmani and Pasi Liljeberg and Cristiana Bolchini and Nikil D Dutt},
+url = {https://doi.org/10.1145/3195970.3195994},
+doi = {10.1145/3195970.3195994},
+year  = {2018},
+date = {2018-01-01},
+booktitle = {Proceedings of the 55th Annual Design Automation Conference, DAC 
+ 2018, San Francisco, CA, USA, June 24-29, 2018},
+pages = {68:1--68:6},
+publisher = {ACM},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/3195970.3195994doi:10.1145/3195970.3195994Close Dutt, Nikil DSelf-Awareness for Heterogeneous MPSoCs: A Case Study using Adaptive, 
+ Reflective Middleware Inproceedings  Chen, Deming;  Homayoun, Houman;  Taskin, Baris (Ed.): Proceedings of the 2018 on Great Lakes Symposium on VLSI, GLSVLSI 
+ 2018, Chicago, IL, USA, May 23-25, 2018, pp. 3, ACM, 2018.Links | BibTeX@inproceedings{DBLP:conf/glvlsi/Dutt18,
+title = {Self-Awareness for Heterogeneous MPSoCs: A Case Study using Adaptive, 
+ Reflective Middleware},
+author = {Nikil D Dutt},
+editor = {Deming Chen and Houman Homayoun and Baris Taskin},
+url = {https://doi.org/10.1145/3194554.3200203},
+doi = {10.1145/3194554.3200203},
+year  = {2018},
+date = {2018-01-01},
+booktitle = {Proceedings of the 2018 on Great Lakes Symposium on VLSI, GLSVLSI 
+ 2018, Chicago, IL, USA, May 23-25, 2018},
+pages = {3},
+publisher = {ACM},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/3194554.3200203doi:10.1145/3194554.3200203Close Jantsch, Axel;  Anzanpour, Arman;  Kholerdi, Hedyeh A;  Azimi, Iman;  Siafara, Lydia C;  Rahmani, Amir M;  Taherinejad, Nima;  Liljeberg, Pasi;  Dutt, Nikil DHierarchical dynamic goal management for IoT systems Inproceedings 19th International Symposium on Quality Electronic Design, ISQED 
+ 2018, Santa Clara, CA, USA, March 13-14, 2018, pp. 370–375, IEEE, 2018.Links | BibTeX@inproceedings{DBLP:conf/isqed/JantschAKASRTLD18,
+title = {Hierarchical dynamic goal management for IoT systems},
+author = {Axel Jantsch and Arman Anzanpour and Hedyeh A Kholerdi and Iman Azimi and Lydia C Siafara and Amir M Rahmani and Nima Taherinejad and Pasi Liljeberg and Nikil D Dutt},
+url = {https://doi.org/10.1109/ISQED.2018.8357315},
+doi = {10.1109/ISQED.2018.8357315},
+year  = {2018},
+date = {2018-01-01},
+booktitle = {19th International Symposium on Quality Electronic Design, ISQED 
+ 2018, Santa Clara, CA, USA, March 13-14, 2018},
+pages = {370--375},
+publisher = {IEEE},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ISQED.2018.8357315doi:10.1109/ISQED.2018.8357315Close550 entries « ‹  2 of 11 › » 
+
+
+
+
+
+
+
+
+
+
+Find Us Address
+3069 Donald Bren Hall
+University of California, Irvine
+Irvine, CA 92697-3435, USA
+Email
+drg@ics.uci.edu
+
+ 
+
+
+
+
+
+
+
+
+
+					Copyright © 2022 Dutt Research Group.				
+
+					Powered by WordPress and HitMag.				
+
+
+
+
+
+
+
+
+
+
+
+
+

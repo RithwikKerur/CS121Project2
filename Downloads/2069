@@ -1,0 +1,449 @@
+https://isg.ics.uci.edu/event/a-theoretical-view-of-distributed-systems-cs-distinguished-seminar-series
+
+
+
+
+
+
+A Theoretical View of Distributed Systems (CS Distinguished Seminar Series) – Information Systems Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+
+Faculty
+Students
+Recent Alumni
+Research Staff
+Visitors
+
+
+Research
+
+Projects
+Publications
+
+
+Teaching
+
+Courses
+DB Qual
+
+
+Events
+
+Talks
+News
+
+
+About
+
+Sponsors & Partners
+Visitor Info
+Contact us
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ISG Talks are sponsored by Couchbase.
+<< All Talks
+
+
+
+ « All Events
+
+
+This event has passed.
+A Theoretical View of Distributed Systems (CS Distinguished Seminar Series)
+
+January 30, 2020 @ 2:00 pm - 6:00 pm 
+
+
+
+
+
+« LSM-based storage techniques: a tutorial
+Building Personal Chronicle of Life Events (Final Defense) »
+
+
+
+
+
+
+
+
+
+Speaker: Prof. Nancy Lynch (Massachusetts Institute of Technology)
+Abstract: For several decades, my collaborators, students, and I have worked on theory for distributed systems, in order to understand their capabilities and limitations in a rigorous, mathematical way. This work has produced many different kinds of results, including:
+    Abstract models for problems that are solved by distributed systems, and for the algorithms used to
+    solve them,
+    Rigorous proofs of algorithm correctness and performance properties (also some error discoveries),
+    Impossibility results and lower bounds, expressing inherent limitations of distributed systems,
+    Some new algorithms, and
+    General mathematical foundations for modeling and analyzing distributed systems.
+These various results have spanned many different kinds of systems, ranging from distributed data-management systems, to communication systems, to biological systems such as insect colonies and brains.
+In this talk, I will overview some highlights of our work over many years on theory for distributed systems. I will break this down in terms of three intertwined “research threads”: algorithms for traditional distributed systems, impossibility results, and mathematical foundations. At the end, I will say something about our recent work on algorithms for new kinds of distributed systems.
+Bio: Nancy Lynch is the NEC Professor of Software Science and Engineering in MIT’s EECS department. She heads the Theory of Distributed Systems research group in the Computer Science and AI Laboratory. She received her PhD from MIT and her BS from Brooklyn College, both in Mathematics.
+Lynch has (co-)written many research articles about distributed algorithms and impossibility results, and about formal modeling and verification of distributed systems. Her best-known contributions are the “FLP’’ impossibility result for reaching consensus in asynchronous distributed systems in the presence of failures, with Fischer and Paterson, and a paper with Dwork and Stockmeyer on algorithms for reaching consensus under restricted failure assumptions. Other contributions include the I/O automata system modeling frameworks, with Tuttle, Kaynar, Segala, and Vaandrager.
+Lynch is the author of the textbook “Distributed Algorithms” and co-author of “The Theory of Timed I/O Automata” and “Atomic Transactions”. She is an ACM Fellow, a member of the National Academy of Engineering and the National Academy of Sciences, and a Fellow of the American Academy of Arts and Sciences. She has been awarded the Dijkstra Prize (twice), the van Wijngaarden Award, the Knuth Prize, the Piore Award, the Athena Award, and the IEEE Technical Committee on Distributed Processing Outstanding Achievement award. She has supervised approximately 100 PhD students, Masters students, and postdocs.
+Lynch is interested in all aspects of distributed computing theory, including modeling, algorithm design and analysis, lower bounds, and applications. She is especially interested in algorithms for “difficult” platforms, which are subject to noise, failures, and changes. Recently, her work has focused on wireless network algorithms, biological distributed algorithms, and the connections between them.
+ 
+
++ Google Calendar+ iCal Export
+
+
+
+ Details 
+
+ Date: 
+
+ January 30, 2020 
+
+ Time: 
+
+
+					2:00 pm - 6:00 pm				
+
+
+
+
+ Venue 
+
+ DBH 6011 
+
+
+
+
+ 
+
+
+
+
+
+« LSM-based storage techniques: a tutorial
+Building Personal Chronicle of Life Events (Final Defense) »
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+Search for :
+
+
+Latest News 
+
+
+
+Upcoming Talk: How to build your own Business
+
+											July 25, 2022																																
+
+
+Upcoming Talk: Couchbase and Distributed Computing Backends for big data processing
+
+											May 31, 2022																																
+
+
+Upcoming Talk: Shedding Light on Opaque Database Queries
+
+											May 31, 2022																																
+
+
+ISG researchers won the  Mark Weiser Best Paper Award at IEEE PERCOM 2022
+
+											March 24, 2022																																
+
+
+
+
+Upcoming Events
+
+
+
+
+Qiushi Bai: QueryBooster-Improving SQL Performance Using Middleware Services for Human-Centered Query Rewriting + Demo
+
+
+
+October 14 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Xiaozhen Liu: Demonstration of Collaborative and Interactive Workflow-based Data Analytics in Texera
+
+
+
+October 21 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Abhishek Singh: WedgeBlock – An Off-Chain Secure Logging Platform for Blockchain Applications
+
+
+
+October 28 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Juncheng Fang: PeloPartition- Improving Blockchain Resilience to Partitioning by Sharding
+
+
+
+November 4 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Peeyush Gupta: A Demonstration of TippersDB
+
+
+
+November 18 @ 12:30 pm - 2:00 pm 
+
+
+
+View All Events
+
+Please follow & like us :) 
+
+Follow  
+
+ 
+
+
+
+
+
+
+
+			Copyright 2018 | ISG-UCI		
+
+
+
+
+
+
+cross
+
+
+
+
+
+
+
+
+
+
+Hit ENTER to search or ESC to close
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

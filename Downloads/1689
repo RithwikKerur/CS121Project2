@@ -1,0 +1,116 @@
+http://sli.ics.uci.edu/Classes-CS178-Notes/KMeans
+
+
+
+SLI | Classes-CS178-Notes / KMeans 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Classes-CS178-Notes /
+KMeans
+
+
+The k-means algorithm is a simple and well-known technique for finding k clusters in a set of data.  
+
+Suppose that we have N data points , each made up of d features.
+In k-means, we describe each cluster c by a "center"  in the d-dimensional feature space, and define the similarity of a data point x to center  by their Euclidean distance.
+
+Notationally, suppose that we identify each data point  with a single cluster center c, and indicate this association with a variable .  Obviously, we do not know this association; the "true" values of z are hidden from us.
+
+This defines a two-part problem -- if we knew the cluster centers , it would be relatively easy to figure out which data points went with each cluster; alternatively, if we knew the association variables, it would be straightforward to determine cluster centers that most accurately described them.  K-means will alternate between these two steps, assuming  known and estimating z, then assuming z known and estimating .
+
+Formally, we can think of K-means as minimizing the following cost function:
+
+the total Euclidean distance of each data point from its assigned cluster center.
+
+K-means updates in two steps:
+
+
+Consider minimizing over .  The only term in C(.) that depends on  is the distance of data point i itself: .  Clearly, this will be minimized by selecting the closest cluster center .
+
+
+Now consider minimizing over some cluster center  given z.  The only terms in C(.) that depend on  are those for which , i.e., the distances of the data points that are currently assigned to cluster c.  It is straightforward to show that the minimum sum of squared distances is achieved by setting  equal to the mean of the data assigned to that cluster:
+
+
+This process is then repeated until convergence.  To see that it converges, note that each step is decreasing the cost function (no update will ever increase the cost function) and that the cost function is bounded below (it is greater than zero).  In practice, at some point the nearest cluster center to each data point will be the one already assigned to it, meaning that the z variables do not change; then, the cluster centers will not change either, since they are already equal to the mean of those data.  Then, obviously, the z's will not change at the next iteration either, and the system is converged.
+
+
+Mini: PHP-GD image library not found. Exiting.Mini: PHP-GD image library not found. Exiting.Mini: PHP-GD image library not found. Exiting.
+Data (black) and initial centers (blue)z: identify closest cluster: means given z
+
+Initialization
+K-means greedily optimizes the cost function C(.), but is easily stuck in local minima.  This makes initialization important; often K-means will be run many times from different initializations, and the best run selected.
+
+A few common means of initializing the cluster centers include:
+Random: choose K points uniformly at random from the data to be the initial cluster centers 
+Farthest: choose the first cluster center at random.  Then, for each subsequent cluster center, find the distance from each data point to its nearest cluster center so far.  Find the data point that is farthest from a cluster center, and select it as the next center in the list.
+Often it is helpful to inject a bit of randomness into procedures like "Farthest", in part so that they can be re-run several times and the best selected.  For example, having found the distance  of each point  to  its nearest cluster center so far, one can select data point i to be the next cluster center with probability 
+
+
+Example code
+
+ % INPUTS
+ % Data X : n-by-d
+ % # of clusters K
+ pi = randperm(n);  % initialize cluster centers, in this case
+ C = X(pi(1:K),:);  %  to a random set of K data points
+ z = zeros(n,1);    % allocate memory for cluster assignments
+ while (~converged) 
+   for i=1:n,
+     dists = sum( (C - repmat(X(i,:),[K,1])).^2 , 2);  % compute distances from each cluster center
+     [tmp,z(i)] = min(dists);                          % and assign datum i to the nearest cluster
+   end
+   for j=1:K,                      % now update each cluster center j
+     C(j,:) = mean(X(z==j,:),1);   % to be the mean of the assigned data
+   end
+   converged = ... % compute convergence condition based on change in C, or change in sum of squared error
+ end;
+
+
+
+
+
+
+ Last modified June 27, 2012, at 10:07 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

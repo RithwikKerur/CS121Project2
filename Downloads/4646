@@ -1,0 +1,113 @@
+http://fr.ics.uci.edu
+
+
+
+
+
+
+Family Reunification
+
+
+
+FAMILY REUNIFICATION
+ 
+Objective
+The goal of this project is to develop techniques to help
+      people find their loved ones during or after a disaster.
+
+    Many people can be affected by disasters such as Hurricane
+      Katrina. There are many Web sites available during and after a
+      disaster, with the same goal of helping people find their loved ones,
+      or report they are OK.  For a parent who wants to find online
+      information about his missing kid, he needs to go to many such sites
+      to search. This process is very time consuming, especially when
+      information from the sources keeps changing.
+
+    Another problem is that, a lot of data at the source has
+      inconsistencies and even errors. For instance, a kid called
+      Michael could be stored as Micheal, since the person who
+      submitted the data mistyped the name. A person called William
+        Smith could also be stored as Bill Smyth.  The last name of
+      a kid could be missing. For these reasons, the parent might not be
+      able to find the information, even if the source does include valuable
+      information about his missing kid.
+
+    We study these research issues in this project.  As a
+      prototype, we crawl and extract information from these Web
+      sources, and put the data into a central repository. We also
+      provide interfaces for people to submit information about
+      missing people, or report they are OK. We allow users to search
+      for information in the repository, instead of going to those
+      individual sources.
+
+    Due to the low quality of the data, it is very important for
+      the system to allow users to find persons whose description
+      matches a search query approximately. We are developing research
+      techniques to answer such search queries efficiently.  In
+      addition, we also need to study issues such as crawling,
+      information extraction, and answering subscribed queries.
+
+    With the NSF award 1030002,
+      we will study how to support powerful keyword search with
+      efficient indexing structures and algorithms in a
+      clouding-computing infrastructure. A main application is
+      supporting family reunification in disasters such as the Haiti
+      Earthquake.  Check our portals for the Haiti
+      Earthquake and Chile Earthquake.  The
+      main challenge is how to use limited programming primitives in
+      the cloud to implement index structures and search algorithms.
+
+    Family Reunification
+        - PPT
+
+Chile Earthquake (February, 2010)
+
+    Check out the our detailed page available here.
+
+    
+
+Haiti Earthquake (January, 2010)
+
+    Check out the our detailed page available here.
+
+    Hurricane Katrina (2005) (offline)
+Data Crawled (2005-2007)
+We crawled around 35,000 entries from the following
+    websites:
+
+MissingKids.com
+PublicPeopleLocator.com
+FamilyMessages.org
+NOLA.com
+
+People
+
+Chen Li
+      (Faculty)
+      Rares Vernica (Student)
+    
+Alumni
+
+Sharad Mehrotra (Faculty)
+      
+Jay Lickfett (Software Engineer)
+      Jiaheng Lu (Postdoctoral Researcher)
+      
+Yiming Lu (Student)
+      Ajay Shah (Student)
+      Chris Trezzo (Student)
+    
+
+Wiki (username/password required)
+
+    For any questions regarding this project please
+    contact Rares
+    Vernica
+This project is supported by:
+
+
+
+
+
+
+

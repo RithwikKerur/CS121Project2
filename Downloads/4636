@@ -1,0 +1,267 @@
+https://flamingo.ics.uci.edu/releases/4.1
+
+
+
+
+FLAMINGO Package (Approximate String Matching) Release 4.1
+
+
+
+
+
+
+
+FLAMINGO Package(Approximate String Matching)
+Release 4.1 (February 22, 2012)
+Department of Computer Science, UC Irvine
+
+Contributors
+
+Sattam Alsubaiee (Ph.D. Student)
+Alexander Behm (Ph.D. Student)
+Shengyue Ji (Ph.D. Student)
+Liang Jin, graduated from UC Irvine in 2005.
+Chen Li (Faculty)
+Jiaheng Lu, postdoc, 2006-2008.  Now a faculty at Renmin University, China.
+Yiming Lu, graduated from UC Irvine in 2008.
+Rares Vernica (Ph.D. Student)
+
+ « Back to Flamingo Main Page
+Getting Started
+Please refer to the Flamingo Getting Started Guide.
+
+Introduction
+This release (in C++) includes the source code of several
+algorithms for approximate string matching developed at UC Irvine. It
+includes algorithms for approximate selection queries, location-based approximate keyword search, 
+selectivity
+estimation for approximate selection queries, approximate queries on
+mixed types, and others.  Although an implementation for approximate
+joins is included, the focus of this release is on approximate
+selection queries.
+
+Here is a brief explanation of the terms used above:
+
+
+Approximate String Search: Given a collection of strings and a single string,
+how to find those strings in the collection that are "similar to" the
+given string? 
+
+This functionality is implemented by the modules
+Common, 
+FilterTree,
+Listmerger, 
+StringMap,
+and
+PartEnum.  
+We recommend getting started with
+the FilterTree module for this purpose.
+
+Selectivity Estimation for Approximate String Search: Given
+a collection of strings and a single string, how can we estimate the
+number of strings that are "similar to" the given string?  This
+functionality is implemented in the SEPIA module.
+
+Approximate String Join: Given two collections of strings (possibly the same
+collection), how to find those pairs of strings that are "similar to"
+each other?
+
+Location-Based Approximate Keyword Search: Given a collection of spatial objects with 
+descriptive keywords, find those objects within a given spatial region 
+that have a given set of keywords. 
+In addition, the keywords don't need to match exactly, but approximately.
+
+This functionality is implemented by the module:
+LBAK-Tree
+
+There are various string similarity functions, such as 
+Levenshtein Distance (aka the Edit Distance),
+
+Jaccard Similarity,
+Cosine Similarity, and 
+Dice
+Similarity.  The following is a description of the modules
+corresponding to the source directory structure:
+
+
+Common: This module contains classes for supporting 
+the following similarity functions / distance measures: 
+Levenshtein Distance (aka Edit Distance), Jaccard Similarity, Cosine Similarity, Dice Similarity. It also
+provides functionality for decomposing strings into grams.
+
+FilterTree: This module provides functionality for approximate string search
+using an inverted-list index. Furthermore, 
+query performance can be improved by adding filters, i.e. partitioning the string collection into 
+disjoint subsets according to some property (e.g. the length of the strings). 
+The use of filters is facilitated by a hierarchical structure (the FilterTree), 
+in which each level in the tree corresponds to one filter. 
+We have implemented the length and charsum filter. This package contains three flavors of indexes: 
+in-memory indexes compressed & uncompressed and a disk-based index.
+
+ListMerger: Answering approximate string queries based on an inverted-list index 
+requires finding elements that occur at least T times on the inverted lists belonging 
+to the grams in the query string (T depends on the similarity metric and the similarity threshold). 
+This problem is commonly referred to as the T-occurrence problem.
+This module implements several algorithms for solving the T-occurrence problem
+as described in "Efficient Merging and Filtering Algorithms for Approximate String Searches",
+Chen Li, Jiaheng Lu and Yiming Lu, ICDE 2008.
+In addition, we have implemented efficient algorithms for disk-based indexes.
+
+MAT-Tree: MAT-tree is an indexing structure to support
+queries on data with an approximate string predicate and a numeric
+predicate.  A typical query is: "Find employee records whose name is
+similar to Speilberg and whose age is close to 45."  The indexing
+structure is proposed in the following paper: "Indexing Mixed Types
+for Approximate Retrieval," Liang Jin, Nick Koudas, Chen Li, Anthony
+K.H. Tung, VLDB 2005, Trondheim, Norway.
+
+SEPIA: This technique solves the problem of estimating the
+selectivity of an approximate string predicate.  It can answer
+questions such as: "From a collection of strings, how many of them
+have an edit distance within 3 to a given string?".  Such information
+can be used in optimizing queries of approximate string matching.  The
+technique was published in the paper: "Selectivity Estimation for Fuzzy
+String Predicates in Large Data Sets," Liang Jin and Chen Li, VLDB
+2005, Trondheim, Norway.
+
+StringMap: This algorithm maps strings from the
+edit-distance metric space to a high-dimensional Euclidean space, and
+uses a multi-dimensional indexing structure to answer approximate
+queries.  The algorithm is published in the paper: "Efficient Record
+Linkage in Large Data Sets," by Liang Jin, Chen Li, and Sharad
+Mehrotra, in 8th International Conference on Database Systems for
+Advanced Applications (DASFAA) 2003, Kyoto, Japan.
+
+PartEnum: This algorithm is published in the paper:
+"Efficient Exact Set-Similarity Joins," Arvind Arasu, Venkatesh Ganti,
+Raghav Kaushik, VLDB 2006.  We implemented the algorithm to
+support approximate string matching queries, excluding approximate joins.
+
+TopK: This package contains algorithms for efficient Top-K approximate string search.
+
+LBAK-Tree: This module implements 
+location-based approximate keyword search as described in 
+"Supporting Location-Based Approximate Keyword Search", by Sattam Alsubaiee, Alexander Behm and Chen Li.
+It enhances an R*-Tree with inverted indexes for approximate selection queries. It implements various 
+algorithms for choosing R*-Tree nodes to place inverted indexes in.
+The FilterTree module is used to provide the inverted indexes for approximate selection queries.
+
+
+In addition, we have provided some commonly used functions in the
+util directory.
+
+
+Changes in Version 4.1 (compared to Version 4.0)
+
+Added support for Damerau-Levenshtein distance (edit distance also allowing swapping of two adjacent characters).
+Compilation/warning fixes for OSX submitted by Jim Apple from On Time Systems. Thanks a lot, Jim!
+Fixed 64-bit issues in LBAK-Tree.
+
+
+Bibtex
+
+@misc{misc/flamingo4.1-2010,
+      author = {Alexander Behm and Rares Vernica and Sattam Alsubaiee and Shengyue Ji and Jiaheng Lu and Liang Jin and Yiming Lu and Chen Li},
+      year = {2010},
+      title = {{UCI} {Flamingo} {Package} 4.1},
+      url = {http://flamingo.ics.uci.edu/releases/4.1/},
+      institution = {University of California, Irvine, School of Information and Computer Sciences}
+} 
+
+
+Name
+
+Parent Directory
+docs/
+src/
+flamingo-4.1.tgz2.8M
+README.txt
+
+
+Acknowledgements: This release is partially
+supported by the
+NSF CAREER
+Award
+No. IIS-0238586,
+the NSF
+award No. IIS-0742960,
+the NSF-funded RESCUE
+project, a Google Research Award, a gift fund from Microsoft, a fund
+from CalIt2, the
+NSF CluE
+Project and the ASTERIX
+Project funded by the NSF.
+
+Many thanks to Minh Doan, and Kensuke Ohta for their
+valuable testing and feedback on the code and documentation.
+
+ License Agreement:
+Permission to use, copy, modify, and distribute the implementations of
+MAT-Tree, SEPIA, StringMap, FilterTree, and LBAK-Tree is permitted under the
+terms of the BSD license. Permission to use, copy, modify, and
+distribute the implementations of the compression techniques
+DiscardLists and CombineLists is permitted under the terms of the
+following Academic BSD License. The implementation of the PartEnum
+algorithm invented by Microsoft researchers is limited to non
+commercial use, which would be covered under the royalty free covenant
+that Microsoft made public.
+
+Academic BSD License:
+
+The (compression techniques) DiscardLists and CombineLists are the
+proprietary property of The Regents of the University of California
+(“The Regents.”)
+
+Copyright © 2009 The Regents of the University of California,
+Irvine. All Rights Reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted by nonprofit, research institutions for
+research use only, provided that the following conditions are met:
+
+
+Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the
+    distribution.
+Neither the name of The Regents nor the names of
+    its contributors may be used to endorse or promote products
+    derived from this software without specific prior written
+    permission.
+
+
+The end-user understands that the program was developed for research
+purposes and is advised not to rely exclusively on the program for any
+reason.
+
+THE SOFTWARE PROVIDED IS ON AN "AS IS" BASIS, AND THE REGENTS AND
+CONTRIBUTORS HAVE NO OBLIGATION TO PROVIDE MAINTENANCE, SUPPORT,
+UPDATES, ENHANCEMENTS, OR MODIFICATIONS. THE REGENTS AND CONTRIBUTORS
+SPECIFICALLY DISCLAIM ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING BUT
+NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR
+A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+REGENTS OR CONTRIBUTORS BE LIABLE TO ANY PARTY FOR DIRECT, INDIRECT,
+SPECIAL, INCIDENTAL, EXEMPLARY OR CONSEQUENTIAL DAMAGES, INCLUDING BUT
+NOT LIMITED TO PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES, LOSE OF
+USE, DATA OR PROFITS, OR BUSINESS INTERRUPTION, HOWEVER CAUSED AND
+UNDER ANY THEORY OF LIABILITY WHETHER IN CONTRACT, STRICT LIABILITY OR
+TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE
+USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+
+If you do not agree to these terms, do not download or use the
+software.  This license may be modified only in a writing signed by
+authorized signatory of both parties.
+
+
+For any questions regarding this release, please send email to
+flamingo AT ics.uci.edu
+
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+http://plrg.ics.uci.edu/publications/5.bib
+@article{key,
+ author = {M.S. Shahriar and J.A. Bowers and B. Demsky and P.S. Bhatia and S. Lloyd and P.R. Hemmer and A.E. Craig},
+ title = {Cavity dark states for quantum computing},
+ journal = {Optics Communications},
+ volume = {195},
+ number = {5-6},
+ pages = {411--417},
+ month = {August},
+ year = {2001}
+}

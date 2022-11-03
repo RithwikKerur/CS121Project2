@@ -1,0 +1,123 @@
+http://sli.ics.uci.edu/Classes/2014S-274b
+
+
+
+SLI | Classes / CS274b: Learning in Graphical Models 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Classes /
+CS274b: Learning in Graphical Models
+
+
+ CLOSED : 2014 OFFERING  
+
+Assignments and Exams:
+
+HW1, DataDue 4/15Soln  
+HW2, Data & CodeDue 4/29Soln  
+HW3,Due 5/09Soln  
+HW4, Data & CodeDue 5/22Soln  
+ProjectsDue 6/13
+
+Lecture: ICS 180, TR 2:00pm-3:30pm
+Instructor: Prof. Alex Ihler (ihler@ics.uci.edu), Office Bren Hall 4066
+Office Hours: Mondays 2-3pm, Bren Hall 4066, or by appointment
+
+Graphical models have assumed a central role in representing and reasoning about complex systems across many scientific domains.  Examples of graphical models include Bayesian networks and constraint networks from artificial intelligence, Markov random fields from statistics and statistical physics, and factor graphs from coding and information theory.  Graphical models provide a common language to represent, make explicit, and communicate modeling assumptions, as well as providing a useful structure for organizing computation and approximations.  Today, graphical models are used in many application areas: signal and image processing, computer vision, game theory, operations research, error-correcting codes, and computational biology.
+
+The primary goal of this course is to familiarize students with the concepts underlying graphical models, and in particular with learning these models from data.  A student who has successfully completed the course should be able to understand a wide variety of well known models in terms of this unifying framework and feel comfortable using it to design new models. The course will contain: (1) formal mathematical sections necessary for the development of
+the theory, (2) examples of probabilistic models (re)formulated in the language of graphical models and (3) examples of successful applications to real data.
+
+The assumed pre-requisite for the course is CS274a (Probabilistic Learning); I will also assume familiarity with Matlab.
+
+
+Textbook
+Two excellent references are Koller & Friedman (2009), "Probabilistic Graphical Models"; and Murphy (2012), "Machine Learning: A Probabilistic Perspective".  We will roughly follow (selected portions of) those texts.
+
+
+Syllabus and Schedule  (subject to change)
+PDF Graphical models, problem structure and conditional independence
+(Optional) Koller lectures: Intro, Flow, Indep in BNs
+PDF Basics of inference; inference in trees
+(Optional) Koller lectures: Overview, MAP, VE1, VE2
+PDF Markov models and hidden Markov models
+PDF Maximum likelihood & exponential family models
+(Optional) Koller lectures: MLE in BNs
+PDF Learning in Bayes nets: Chow-Liu, TANBayes, DAGs
+PDF Maximum entropy connections
+PDF Loopy models: iterative scaling, IPF, pseudolikelihood
+PDF Some slides on Gaussian models, including IPF
+PDF More on exact inference; junction trees
+PDF Latent variable models; EM
+Learning and approximate inference:
+PDF Monte Carlo: MCMC-MLE, contrastive divergence
+PDF Variational: loopy belief propagation and variants; entropic learning
+PDF Conditional random fields (FnT tutorial)
+Max-margin Markov networks & structured SVMs
+Copula models
+Structure learning: basics; sparse learning; independence tests; etc.
+For more information, see the Spring 2012 CS274b page.
+
+
+Code
+For the class, I am providing some of my own Matlab code for graphical models, mostly for discrete or Gaussian distributions.  I may need to update the code during the class; if so I will include it with the relevant assignment.  The main component is a factor class for representing and manipulating the elemental functions that make up a graphical model.  In addition to the help in each function, there is some simple documentation here.
+
+There are many other software packages available that also aim to simplify the use or study of graphical models, usually also the personal code of the lead researcher.  Some good ones include:
+BNT: Bayes Net Toolbox (Matlab)
+PMTK3: Probabilistic Modeling Toolkit (Matlab)
+UGM: Undirected Graphical Models Toolkit (Matlab)
+libDAI (C++)
+Grante (C++)
+UnBBayes (Java), 
+(Note: if you have other suggestions feel free to share them with me and I may add them; but this is not intended to be a complete list of all GM software.)
+
+
+
+
+
+
+
+ Last modified January 19, 2015, at 04:35 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

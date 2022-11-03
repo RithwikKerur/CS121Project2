@@ -1,0 +1,9 @@
+http://plrg.ics.uci.edu/publications/640.bib
+@inproceedings{key,
+ author = {Rahmadi Trimananda and Seyed Amir Hossein Aqajari and Jason Chuang and Brian Demsky and Guoqing Harry Xu and Shan Lu},
+ title = {Understanding and Automatically Detecting Conflicting Interactions between Smart Home Applications},
+ booktitle = {Proceedings of the ACM SIGSOFT International Symposium on Foundations of Software Engineering 2020 (ESEC/FSE 2020)},
+ location = {Virtual},
+ month = {November},
+ year = {2020}
+}

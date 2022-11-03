@@ -1,0 +1,96 @@
+https://sli.ics.uci.edu/PmWiki/RefCount
+
+
+
+SLI | PmWiki / RefCount 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+RefCount
+
+
+
+
+
+< Passwords administration | Documentation Index | Url approvals >
+
+
+
+RefCount performs link reference counts on pages in the PmWiki database (i.e., counts of links between pages).  Before using RefCount, it must be enabled by the wiki administrator by placing the following line in a local customization file:
+
+include_once("$FarmD/scripts/refcount.php");
+To use refcount add ?action=refcount to the URL of any wiki page to bring up the reference count form. For example:
+
+PmWiki.RefCount?action=refcount
+The refcount form contains the following controls:
+
+Show ~ This selects which pages will appear in the output
+all ~ Shows all references 
+missing ~ Shows only references to pages that don't exist
+existing ~ Shows only references to pages that do exist
+orphaned ~ Shows pages that exist but don't have any references to them.  There is no way to browse to an orphaned page.
+page names in group ~ Selects which group(s) to the referenced pages can be in
+referenced from pages in ~ Selects which group(s) the referencing pages can be in
+Display referencing pages ~ Includes a link to the referencing page -- this can make for a very long output unless you limit the groups searched
+
+
+The output is a table where each row of the table contains a page name or link reference, the number of (non-RecentChanges) pages that contain links to the page and the number of Recent Changes pages with links to the page.
+
+
+
+< Passwords administration | Documentation Index | Url approvals >
+
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:RefCount, and  a talk page: PmWiki:RefCount-Talk.
+
+
+
+
+
+
+ Last modified September 10, 2011, at 09:08 AM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

@@ -1,0 +1,876 @@
+https://grape.ics.uci.edu/wiki/asterix/wiki/cs122a-2018-spring
+
+
+
+
+      cs122a-2018-spring – ASTERIX
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LoginPreferencesAbout Trac
+
+
+
+
+
+
+
+wiki:cs122a-2018-spring
+
+
+Context Navigation
+
+Start PageIndexHistory
+
+
+
+
+
+
+
+
+
+CS122A Spring 2018: Introduction to Data Management
+
+
+Course Personnel
+
+
+Meeting Times & Places
+
+
+Course Objectives
+
+
+Prerequisites
+
+
+Textbooks
+
+
+Topic Coverage and Exam Schedule
+
+
+Syllabus
+
+
+Midterm Exam 1
+
+
+Midterm Exam 2
+
+
+Endterm Exam
+
+
+Helpful Exam Resources
+
+
+
+
+Exams, Assignments, and Grading
+
+
+Grading Critera
+
+
+Homework and Participation
+
+
+Grade Change Policy
+
+
+Collaboration Policy
+
+
+Late Policy
+
+
+Exam Attendance Policy
+
+
+Academic Honesty Policy
+
+
+
+
+DBMS Platform
+
+
+Discussion Forums for All Things CS122A
+
+
+HW Due Dates & Links
+
+
+Homework Assignments
+
+
+Discussion Section Quizzes
+
+
+
+
+
+
+
+
+CS122A Spring 2018: Introduction to Data Management
+Course Personnel
+
+Instructor:
+
+Mike Carey  E-Mail: ​mjcarey@ics.uci.edu  Office: Bren Hall 2091  Office hours: Piazza and by appointment
+
+TAs:
+
+Shiva Jahangiri  E-mail: ​shivaj@uci.edu  Office hours: TBD
+Phanwadee (Gift) Sinthong  E-mail: ​psinthon@ics.uci.edu  Office hours: TBD
+Samia Shafique  E-mail: ​sshafiqu@uci.edu  Office hours: TBD
+
+Readers:
+
+Chen Luo  E-mail: ​cluo8@uci.edu  Reader hours: TBD
+Te-Yu Chen  E-mail: ​teyuc@uci.edu  Reader hours: TBD
+Muhammad Ibrahim  E-mail: ​muhammti@uci.edu  Reader hours: TBD
+Meeting Times & Places
+
+Lecture:  Time: Mon/Wed/Fri 5-5:50 PM  Place: PSLH 100  Instructor: Mike 
+
+
+Discussion 1:  Time: Tue 5-5:50 PM  Place: SH 128  Instructor: Shiva Jahangiri 
+
+
+Discussion 2:  Time: Tue 6-6:50 PM  Place: SH 128  Instructor: Shiva Jahangiri 
+
+
+Discussion 3:  Time: Tue 7-7:50 PM  Place: SH 128  Instructor: Shiva Jahangiri 
+
+
+Discussion 4:  Time: Thu 5-5:50 PM  Place: SH 128  Instructor: Gift Sinthong 
+
+
+Discussion 5:  Time: Thu 6-6:50 PM  Place: SH 128  Instructor: Gift Sinthong 
+
+
+Discussion 6:  Time: Thu 8-8:50 PM  Place: SH 128  Instructor: Gift Sinthong 
+
+
+Course Objectives
+
+This course provides students with an introduction to the design of databases and the use of database management systems in support of applications. It covers the entity-relationship (E-R) approach to logical database design. It then covers the relational data model, mapping of E/R designs to relations, relational database design principles, abstract query languages such as the relational algebra and relational calculus, and the industry-standard query language, SQL. It also covers indexing and physical database design, Students will gain exposure to how relational database management systems are used to manage an actual database. Time permitting, the course will also touch briefly on advanced database management topics such as semi-structured data management and/or transactions.
+
+
+This course is aimed at database design and the use of database management systems in building database applications. It feeds into a follow-on project course, CS122B, whose focus is data-centric Web applications. The CS122A/B course sequence does NOT cover the internal workings of database systems; that material is covered in the undergraduate course CS122C (or its graduate equivalent, CS222) and the graduate-level follow-on course CS223.  (The course textbook also delves further into that material for those students who are curious about what goes on under the hood.)  Interested students are strongly encouraged to take one, two, or all of these courses; CS122B and CS122C/CS222 are independent, as each one requires only CS122A as their required database background.
+
+Prerequisites
+
+Students should ideally have some experience programming in Python, Java, C++, or C#.
+
+Textbooks
+
+Database Management Systems (3rd Edition) by Raghu Ramakrishnan and Johannes Gehrke (a.k.a. "the Cow book").
+
+
+Topic Coverage and Exam Schedule
+Syllabus
+
+ Topic   Reading
+ Databases and DB Systems  Ch. 1 
+ Entity-Relationship (E-R) Data Model  Ch. 2.1-2.5, 2.8 
+ Relational Data Model  Ch. 3.1-3.2 
+ E-R to Relational Translation  3.5 
+ Relational Design Theory  Ch. 19.1-19.6, 20.8 
+ Midterm Exam 1  Fri, Apr 27 (in class) 
+ Relational Algebra  Ch. 4.1-4.2 
+ Relational Calculus  Ch. 4.3-4.4 
+ SQL Basics (SPJ and Nested Queries)  Ch. 3.4, 5.1-5.3 
+ SQL Analytics (Aggregation, Nulls, and Outer Joins)  Ch. 5.4-5.6 
+ Advanced SQL Goodies (Constraints, Triggers, Views, and Security)  Ch. 3.3, 3.6, 5.7-5.9, 21.1-21.3, 21.7 
+ Midterm Exam 2  Fri, May 18 (in class) 
+ Tree-Based Indexing  Ch. 9.1, 8.1-8.3, 10.1-10.2 
+ Hash-Based Indexing  Ch. 10.3-10.8, 11.1 
+ Physical DB Design  Ch. 8.5, 20.1-20.7 
+ Semistructured Data Management (a.k.a. NoSQL)  AsterixDB Paper​, Couchbase SQL++ Tutorial
+ Basics of Transactions  Ch. 16 and Lecture Notes 
+ Endterm Exam  Fri, Jun 8 (in class) 
+
+Midterm Exam 1
+
+Time: Fri, Apr 27, 5-5:50 PM  Place: PSLH 100 
+Midterm A-V1(Friday)​Solution to Midterm A-V1​ 
+Midterm A​ Solution to Midterm A​ 
+Midterm B​ Solution to Midterm B​
+Midterm C​Solution to Midterm C​ 
+
+Midterm Exam 2
+
+Time: Fri, May 18, 5-5:50 PM  Place: PSLH 100 
+Midterm A​ Solution to Midterm A​ 
+Midterm B​ Solution to Midterm B​ 
+Midterm C​ Solution to Midterm C​ 
+
+Endterm Exam
+
+Time: Fri, Jun 8, 5-5:50 PM  Place: PSLH 100 
+Endterm-Solution-Version-A​ Endterm-Solution-Version-B​ 
+
+Helpful Exam Resources
+
+(Example midterm 1)​  (Solution to example midterm 1)​ 
+(Example midterm 1-2)​ 
+(Example midterm 2)​  (Solution to example midterm 2)​ 
+(Example endterm)​  (Solution to example endterm)​ 
+
+
+Exams, Assignments, and Grading
+Grading Critera
+
+Exams: 55%  Homework: 40%  Quizzes: 3%  Piazza: 2% 
+
+Homework and Participation
+
+Homework assignments must be turned in by the assigned due dates/times. Details of how to turn in a given assignment will be included in each assignment's handout. The 40% of your grade attributed to homework will be based on your top 7 out of 8 homework scores. (You can spend the 8th one however you like, but if you decide to skip an assignment, do keep in mind that the material will still be on the exams and that the homework is intended to be a useful study/practice tool for those -- you will still be responsible for mastering the "skipped" material.) There will also be short weekly quizzes in the discussion sections to give you further practice with the course material; those will count very little towards your final grade (they will contribute 3%), and they're just there for your benefit (to give you another chance to check your understanding of things and see what questions you might want to ask the TA).
+
+Grade Change Policy
+
+For all of the graded assignments as well as the midterm exam, if you disagree with the grading, you may discuss your concerns with the relevant instructor (professor, TA, or reader) within two weeks after they are returned. After that, all grades will be considered final. Instructors' office hours are the best time/place to handle these issues (or you can make a separate appointment). Do not wait until the end of the term to raise issues, as two weeks means two weeks.
+
+Collaboration Policy
+
+All homework assignments are to be completed individually. It is okay to discuss assignments with your peers, e.g., to clarify details of an assignment or to compare thoughts on rough approaches, but the bulk of your work is to be done solo.  See ​http://www.ics.uci.edu/ugrad/policies/index.php#academic_honesty for a good discussion of what is/isn't considered honest collaboration.  The exams are also to be done solo. :-)  This policy applies both to person-to-person and social media interactions (more on this below).
+
+Late Policy
+
+Due dates will be clearly indicated on all HW assignments. Assignments will still be accepted for up to one day (24 hours) after the due date, but you will lose 20 points per day (out of the 100-point total per assignment) for any lateness. We will not accept assignments in any form whatsoever after that time. "Stuff happens" sometimes, as we all know, so you should anticipate that reality and try to avoid working up until the very last minute. Assignments MUST be turned in per the assignment's instructions by the indicated deadline date/time in order to get full credit.  (Note:  The best-7-out-of-8 grading policy is another fallback plan for what would otherwise be late homework assignments; that will work once, but obviously only once.)
+
+Exam Attendance Policy
+
+The exam dates are provided at the start of the term. These dates are not flexible and makeup exams will not be offered, so please avoid scheduling interviews, three-day weekends, or any other activities in ways that interfere with exam-taking. All students are required to take the exam on the same date in the same time window in order to ensure that we can give, grade, and fairly curve the entire class on a single exam.  (Thanks!)
+
+Academic Honesty Policy
+
+Cheating is the one area where the instructor for this course has zero patience or sympathy. You are here at UCI to learn, and cheating totally defeats that purpose. All students will be expected to adhere to the UCI and ICS Academic Honesty policies (see ​http://www.editor.uci.edu/catalogue/appx/appx.2.htm#academic and ​http://www.ics.uci.edu/ugrad/policies/index.php#academic_honesty to read their details). Any student found to be involved in cheating or aiding others in doing so will be academically prosecuted to the maximum extent possible: that means you will most probably fail this course in its entirety. (Ask around - it's happened.)  Just say no to cheating!!!
+
+
+DBMS Platform
+
+This class will use an industrial-strength relational database management system (RDBMS) for the hands-on homework assignments. In some past terms we have allowed students to choose between MySQL (an open source DBMS), DB2 (from IBM), and/or another RDBMS of their choosing. This quarter we will be suggesting that everyone use the same system, namely MySQL.
+
+
+For info on how to set up and use MySQL, please see: [MySQL Installation Guide for Mac]​, [MySQL Installation Guide for Windows]​, [MySQL Installation Guide for Linux]​, [Sample SQL Script used in the guide]​.
+
+For info on how to MySQL's Command-Line Tool, please see: [MySQL Command-Line Tool Guide for Mac]​, [MySQL Command-Line Tool Guide for Windows]​ [Sample SQL Script used in the guide]​.
+
+For further info on how to use the MySQL DBMS, you can look here: ​https://dev.mysql.com/doc/.
+
+
+If you have a strong preference for using another database system for the course project, e.g., because you are working elsewhere on- or off-campus with a different RDBMS (e.g., PostgreSQL), you may e-mail the Instructor with a request for permission to do so. If you opt to do this, you will then be on your own to make sure everything works right within the prescribed timeframes (i.e., DBMS difficulties will not be accepted as a lateness excuse).
+
+
+Discussion Forums for All Things CS122A
+
+We will be using Piazza (heavily!) for online class discussions. The system is catered to getting you the help you need fast and efficiently from classmates, the TAs, the Reader, and the Instructor. Rather than emailing your course or HW content questions to the teaching staff, you will be expected to post your questions on Piazza. (If you have any problems or feedback for the Piazza developers, email ​team@piazza.com.)  We've used Piazza for this class multiple times before, and it seems to work remarkably well. You can find our class Piazza page at ​http://piazza.com/uci/spring2018/cs122a/home. With 400 students enrolled the course this term, Piazza is essentially our only hope for managing the class and getting everyone's questions answered -- office hours become hopeless/worthless at this scale, unfortunately. Your Piazza activity will also contribute 2% to your overall grade  -- in particular, note that misbehavior on Piazza may lead to loss of points.
+
+
+When using Piazza, there are a couple of things to keep in mind. Firstly, despite an unfortunate national trend towards the acceptance of nastiness in social media, hurtful Piazza behavior will not be tolerated - try to be kind to your classmates. Secondly, Piazza is a wonderful resource for asking and answering questions - as long as it is used thoughtfully. Please avoid re-asking questions that have already been asked and answered - you are responsible for reading others' questions and not re-asking them. With 400+ eyes on each message, lazy question-asking on Piazza is costly and inconsiderate, and such behavior can lead to loss of participation points. Finally, Piazza is not a place to discuss the finer details of answers to HW problems - i.e., it is not a place to post, request, or compare answers to specific problems! (Doing so would actually risk your violating the Academic Honesty Policy, as everyone is expected to ultimately do their own work.)
+
+
+As you are aware, there is also a weekly Discussion session meeting, and attendance of those is highly encouraged. The encouragement will be provided via the quiz portion of your final grade (3%), as quizzes can only be taken in person during the Discussion session.  If for some reason you have to miss your session during one week, you can request special permission (in advance) to attend a different one - but please try to avoid that for load-balancing reasons. You will be held fully responsible for all material discussed in the Discussion sessions, so if you do opt out or miss one, be sure to ask a trusted classmate who's been to theirs what you might need to know. The Discussion sessions will also serve (importantly!!) as "group office hours" - we will leave ample time for questions most weeks, so come armed with things you'd like to have clarified or expanded on.
+
+
+HW Due Dates & Links
+Homework Assignments
+
+ Due Date  Topic  Assignment  Solution  Notes
+ Fri, Apr 13 (5 PM)  E-R Modeling HW1​ ​TMPL  HW1 Solution​
+ Fri, Apr 20 (5 PM)  E-R to Relational Translation HW2​ ​TMPL Sample Script​ HW2 Solution​
+ Wed, Apr 25 (5 PM)   Relational Design Theory  HW3​ ​TMPL  HW3 Solution​ 
+ Fri, May 4 (5 PM)  Relational Algebra  HW4​ ​TMPL INST​  HW4 Solution​
+ Fri, May 11 (5 PM)  SQL (Hands-on)  ​HW5 ​TMPL ​INST SCRIPT​  HW5 Solution​ 
+ Thu, May 17 (5 PM)  More SQL (Hands-on)  ​HW6 ​TMPL  ​HW6 Solution  No room for a late day! 
+ Tue, May 29 (5 PM)  SQL Design and Indexing ​HW7 ​TMPL HW7 Solution​ 
+ Thu, Jun 7 (5 PM)  NoSQL (Hands-on) ​HW8 ​>First Step< ​Datasets ​TMPL HW8 Solution​ No room for a late day! 
+
+Discussion Section Quizzes
+
+ Week  Topic  Quiz  Solution
+ Week 1 Academic Honesty Quiz1​ Quiz1-Solution​
+ Week 2 E-R Modeling Quiz2​ Quiz2-Solution​
+ Week 3 E-R to Relational Translation Quiz3​ Quiz3-Solution​
+ Week 4 Relational DB Design Theory Quiz4​  Quiz4-Solution​
+ Week 5 Relational AlgebraQuiz5​Quiz5-Solution​
+ Week 6 SQL & TRC Quiz6​ Quiz6-Solution​
+ Week 7 Advanced SQL (Triggers & Views) Quiz7​ Quiz7-Solution​
+ Week 8 ISAM & Indexing Quiz8​ Quiz8-Solution​
+ Week 9 Indexing & Physical DB design Quiz9​ Quiz9-Solution​
+ Week 10 Physical DB design & NoSQL Quiz10​ Quiz10-Solution​
+
+
+
+Last modified 4 years ago
+Last modified on Jun 17, 2018 9:39:55 AM
+
+
+
+Attachments (95)
+
+
+
+CS122aLecture1.pdf​
+       (3.3 MB) -
+      added by mjcarey 5 years ago.
+                Lecture 1 Slides - 04/02/2018
+
+
+CS122aLecture2.pdf​
+       (1.2 MB) -
+      added by mjcarey 5 years ago.
+                Lecture 2 Slides - 04/04/2018
+
+
+Quiz1.pdf​
+       (60.4 KB) -
+      added by psinthon 5 years ago.
+                Quiz1
+
+
+Quiz1-Solution.pdf​
+       (60.0 KB) -
+      added by psinthon 5 years ago.
+              
+
+Homework1.pdf​
+       (176.2 KB) -
+      added by shivaj 5 years ago.
+              
+
+CS122aLecture3.pdf​
+       (1.3 MB) -
+      added by mjcarey 5 years ago.
+                Lecture 3 Slides - 04/06/2018
+
+
+CS122aLecture4.pdf​
+       (977.4 KB) -
+      added by mjcarey 5 years ago.
+                Lecture 4 Slides - 04/09/2018
+
+
+2018s-cs122a-mysql-installation-guide-for-mac.pdf​
+       (1.6 MB) -
+      added by psinthon 5 years ago.
+              
+
+2018s-cs122a-mysql-cmdtool-guide-for-mac.pdf​
+       (807.0 KB) -
+      added by psinthon 5 years ago.
+              
+
+sample_script.sql​
+       (3.7 KB) -
+      added by psinthon 5 years ago.
+              
+
+sample_script.2.sql​
+       (3.7 KB) -
+      added by psinthon 5 years ago.
+              
+
+createscript.sql​
+       (414 bytes) -
+      added by psinthon 5 years ago.
+              
+
+2018s-cs122a-mysql-installation-guide-for-windows.pdf​
+       (1.9 MB) -
+      added by psinthon 5 years ago.
+              
+
+2018s-cs122a-mysql-cmdtool-guide-for-windows.pdf​
+       (81.4 KB) -
+      added by psinthon 5 years ago.
+              
+
+2018s-cs122a-mysql-installation-guide-for-linux.pdf​
+       (683.2 KB) -
+      added by shivaj 5 years ago.
+              
+
+Quiz2.pdf​
+       (89.7 KB) -
+      added by psinthon 5 years ago.
+              
+
+Quiz2-Solution.pdf​
+       (86.4 KB) -
+      added by psinthon 5 years ago.
+              
+
+Homework2.pdf​
+       (104.3 KB) -
+      added by psinthon 5 years ago.
+              
+
+example.sql​
+       (1.4 KB) -
+      added by psinthon 5 years ago.
+              
+
+CS122aLecture5.pdf​
+       (949.8 KB) -
+      added by mjcarey 5 years ago.
+                Lecture 5 Slides - 04/11/2018
+
+
+CS122aLecture6.pdf​
+       (1.8 MB) -
+      added by mjcarey 5 years ago.
+                Lecture 6 Slides - 04/13/2018
+
+
+hw1_solution.pdf​
+       (36.0 KB) -
+      added by cluo 5 years ago.
+              
+
+CS122aLecture7.pdf​
+       (1.3 MB) -
+      added by mjcarey 5 years ago.
+                Lecture 7 Slides - 04/16/2018
+
+
+CS122aLecture8.pdf​
+       (485.8 KB) -
+      added by mjcarey 5 years ago.
+                Lecture 8 Slides - 04/18/2018
+
+
+Quiz3.pdf​
+       (101.6 KB) -
+      added by psinthon 4 years ago.
+              
+
+Quiz3-Solution.pdf​
+       (103.7 KB) -
+      added by psinthon 4 years ago.
+              
+
+2018s-cs122a-hw3-release.pdf​
+       (177.0 KB) -
+      added by cluo 4 years ago.
+              
+
+Homework2-Solution.pdf​
+       (33.8 KB) -
+      added by shivaj 4 years ago.
+              
+
+CS122aMidterm1Winter17_VersionB.pdf​
+       (266.3 KB) -
+      added by shivaj 4 years ago.
+              
+
+CS122aMidterm1Winter17_VersionB_Solution.pdf​
+       (269.2 KB) -
+      added by shivaj 4 years ago.
+              
+
+CS122aLecture10.pdf​
+       (947.6 KB) -
+      added by mjcarey 4 years ago.
+                Lecture 10 Slides - 04/23/2018
+
+
+Quiz4.pdf​
+       (189.0 KB) -
+      added by shivaj 4 years ago.
+              
+
+Quiz4-Solution.pdf​
+       (191.4 KB) -
+      added by shivaj 4 years ago.
+              
+
+CS122aLecture11.pdf​
+       (1.5 MB) -
+      added by mjcarey 4 years ago.
+                Lecture 11 Slides - 04/25/2018
+
+
+CS122aLecture9.pdf​
+       (2.3 MB) -
+      added by mjcarey 4 years ago.
+                Lecture 9 Slides - 04/20/2018
+
+
+Homework3-Solution.pdf​
+       (137.4 KB) -
+      added by cluo 4 years ago.
+              
+
+2018s-cs122a-hw4-instructions.pdf​
+       (536.8 KB) -
+      added by cluo 4 years ago.
+              
+
+CS122aLecture12.pdf​
+       (2.6 MB) -
+      added by mjcarey 4 years ago.
+                Lecture 12 Slides - 04/27/2018
+
+
+SampleMidterm1-2.pdf​
+       (631.8 KB) -
+      added by mjcarey 4 years ago.
+                Unplanned Extra Sample Midterm
+
+
+2018s-cs122a-hw4-release.pdf​
+       (121.3 KB) -
+      added by cluo 4 years ago.
+              
+
+CS122aLecture13.pdf​
+       (2.8 MB) -
+      added by mjcarey 4 years ago.
+                Lecture 13 Slides - 05/02/2018
+
+
+Quiz5.pdf​
+       (199.0 KB) -
+      added by psinthon 4 years ago.
+              
+
+Quiz5Solution.pdf​
+       (231.1 KB) -
+      added by psinthon 4 years ago.
+              
+
+cs122a2018s.sql​
+       (4.0 MB) -
+      added by cluo 4 years ago.
+              
+
+CS122aLecture14.pdf​
+       (2.9 MB) -
+      added by mjcarey 4 years ago.
+                Lecture 14 Slides - 05/04/2018
+
+
+2018s-cs122a-hw4-solution.pdf​
+       (418.6 KB) -
+      added by cluo 4 years ago.
+              
+
+CS122aLecture15.pdf​
+       (771.0 KB) -
+      added by mjcarey 4 years ago.
+                Lecture 15 Slides - 05/07/2018
+
+
+Solution-CS122aMidterm1ASpring18.docx.pdf​
+       (623.3 KB) -
+      added by shivaj 4 years ago.
+              
+
+Solution- CS122aMidterm1A-V1Spring18.docx.pdf​
+       (635.8 KB) -
+      added by shivaj 4 years ago.
+              
+
+Solution of CS122aMidterm1BSpring18.docx.pdf​
+       (626.1 KB) -
+      added by shivaj 4 years ago.
+              
+
+Solution- VersionC-CS122aMidterm1CSpring18.docx.pdf​
+       (625.0 KB) -
+      added by shivaj 4 years ago.
+              
+
+CS122aMidterm1A-V1Spring18.docx.pdf​
+       (631.8 KB) -
+      added by shivaj 4 years ago.
+              
+
+CS122aMidterm1ASpring18.docx-2.pdf​
+       (618.0 KB) -
+      added by shivaj 4 years ago.
+              
+
+CS122aMidterm1BSpring18.docx-4.pdf​
+       (621.3 KB) -
+      added by shivaj 4 years ago.
+              
+
+CS122aMidterm1CSpring18.docx.pdf​
+       (620.5 KB) -
+      added by shivaj 4 years ago.
+              
+
+CS122aLecture16.pdf​
+       (1.4 MB) -
+      added by mjcarey 4 years ago.
+                Lecture 16 Slides - 05/09/2018
+
+
+Quiz6.pdf​
+       (73.7 KB) -
+      added by psinthon 4 years ago.
+              
+
+Quiz6-Solution.pdf​
+       (155.9 KB) -
+      added by psinthon 4 years ago.
+              
+
+CS122aLecture17.pdf​
+       (1.6 MB) -
+      added by mjcarey 4 years ago.
+                Lecture 17 Slides - 05/11/2018
+
+
+CS122aLecture18.pdf​
+       (3.2 MB) -
+      added by mjcarey 4 years ago.
+                Lecture 18 Slides - 05/14/2018
+
+
+CS122aMidterm2aWinter17.pdf​
+       (560.4 KB) -
+      added by mjcarey 4 years ago.
+                Sample Midterm #2 Exam
+
+
+CS122aMidterm2aWinter17-solution.pdf​
+       (652.1 KB) -
+      added by mjcarey 4 years ago.
+                Sample Midterm #2 Solution
+
+
+2018s-cs122a-hw5-solution.pdf​
+       (69.0 KB) -
+      added by shivaj 4 years ago.
+              
+
+Quiz7.pdf​
+       (81.7 KB) -
+      added by psinthon 4 years ago.
+              
+
+Quiz7-Solution.pdf​
+       (107.4 KB) -
+      added by psinthon 4 years ago.
+              
+
+CS122aLecture19.pdf​
+       (1.1 MB) -
+      added by mjcarey 4 years ago.
+                Lecture 19 Slides - 05/16/2018
+
+
+CS122aLecture20.pdf​
+       (853.7 KB) -
+      added by mjcarey 4 years ago.
+                Lecture 20 Slides - 05/20/2018
+
+
+CS122aLecture21.pdf​
+       (1.0 MB) -
+      added by mjcarey 4 years ago.
+                Lecture 21 Slides - 05/23/2018
+
+
+CS122aLecture22-Preview.pdf​
+       (1.9 MB) -
+      added by mjcarey 4 years ago.
+                Lecture 22 Preview - Physical DB Design
+
+
+Quiz8.pdf​
+       (166.6 KB) -
+      added by psinthon 4 years ago.
+              
+
+Solution-Quiz8.pdf​
+       (352.2 KB) -
+      added by psinthon 4 years ago.
+              
+
+AsterixDBOverview.pdf​
+       (286.9 KB) -
+      added by mjcarey 4 years ago.
+                AsterixDB Overview
+
+
+CS122aLecture22.pdf​
+       (1.7 MB) -
+      added by mjcarey 4 years ago.
+                Lecture 22 Slides - 05/25/2018
+
+
+SQL++Primer.txt​
+       (13.3 KB) -
+      added by psinthon 4 years ago.
+              
+
+CS122aLecture23.pdf​
+       (3.9 MB) -
+      added by mjcarey 4 years ago.
+                Lecture 23 Slides - 05/30/2018
+
+
+CS122aEndterm-VersionA_W17.pdf​
+       (305.0 KB) -
+      added by shivaj 4 years ago.
+              
+
+CS122aEndterm-VersionA_W17-solution.pdf​
+       (590.2 KB) -
+      added by shivaj 4 years ago.
+              
+
+Quiz9.pdf​
+       (113.3 KB) -
+      added by psinthon 4 years ago.
+              
+
+Quiz9-Solution.pdf​
+       (189.8 KB) -
+      added by psinthon 4 years ago.
+              
+
+Assignment7-Solution.pdf​
+       (124.7 KB) -
+      added by psinthon 4 years ago.
+              
+
+CS122aLecture24.pdf​
+       (1.9 MB) -
+      added by mjcarey 4 years ago.
+                Lecture 24 Slides - 6/1/2018
+
+
+CS122aMidterm2aSpring18.docx.pdf​
+       (628.6 KB) -
+      added by shivaj 4 years ago.
+              
+
+SolutionA-122aMidterm2aSpring18.docx-3.pdf​
+       (616.3 KB) -
+      added by shivaj 4 years ago.
+              
+
+CS122aMidterm2aSpring18B.docx.pdf​
+       (562.9 KB) -
+      added by shivaj 4 years ago.
+              
+
+SolutionB-122aMidterm2aSpring18.docx.pdf​
+       (605.0 KB) -
+      added by shivaj 4 years ago.
+              
+
+CS122aMidterm2aSpring18C.docx.pdf​
+       (583.3 KB) -
+      added by shivaj 4 years ago.
+              
+
+SolutionC-122aMidterm2aSpring18.docx.pdf​
+       (600.7 KB) -
+      added by shivaj 4 years ago.
+              
+
+CS122aLecture25.pdf​
+       (770.3 KB) -
+      added by mjcarey 4 years ago.
+                Lecture 25 Slides - 06/04/2018
+
+
+CS122aLecture26.pdf​
+       (1.5 MB) -
+      added by mjcarey 4 years ago.
+                Lecture 26 Slides - 06/06/2018
+
+
+Solution-Assignment8.pdf​
+       (127.5 KB) -
+      added by psinthon 4 years ago.
+              
+
+Quiz10-solution.pdf​
+       (121.5 KB) -
+      added by psinthon 4 years ago.
+              
+
+Quiz10.pdf​
+       (113.1 KB) -
+      added by psinthon 4 years ago.
+              
+
+Solution-CS122aEndterm-S18-VersionA.pdf​
+       (533.5 KB) -
+      added by psinthon 4 years ago.
+              
+
+Solution-CS122aEndterm-S18-VersionB.pdf​
+       (576.4 KB) -
+      added by psinthon 4 years ago.
+              
+
+CS122aLecture22.2.pdf​
+       (856.7 KB) -
+      added by mjcarey 3 years ago.
+                Lecture 22 slides
+
+
+
+
+
+
+Download in other formats:
+
+
+Plain Text
+
+
+
+
+
+
+Powered by Trac 1.0.13
+        By Edgewall Software.
+Visit the Trac open source project athttp://trac.edgewall.org/
+
+

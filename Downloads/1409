@@ -1,0 +1,9 @@
+http://plrg.ics.uci.edu/publications/680.bib
+@inproceedings{key,
+ author = {Rahmadi Trimananda and Weiyu Luo and Brian Demsky and Guoqing Harry Xu},
+ title = {Stateful Dynamic Partial Order Reduction for Model Checking Event-Driven Applications that Do Not Terminate},
+ booktitle = {Proceedings of the 23rd International Conference on Verification, Model Checking, and Abstract Interpretation (VMCAI 2022)},
+ location = {Philadelphia, Pennsylvania},
+ month = {January},
+ year = {2022}
+}

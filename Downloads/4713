@@ -1,0 +1,165 @@
+https://www.ics.uci.edu/~dsm/compose
+
+
+
+
+CompOSE|Q System
+
+
+
+
+Composable Open Software
+Environment with QoS
+
+
+Nalini Venkatasubramanian,
+Mayur Despande, Sebastian
+Gutierrez-Nolasco,  Shivajit
+Mohapatra and Jehan
+Wickramasuriya
+
+This work is supported by the ONR MURI Project
+CONTESSA and NSF Career Award ANI-9875988. 
+
+
+Abstract:
+
+With the
+evolution of the global information infrastructure, service providers
+will need to provide effective and adaptive resource management
+mechanisms that can serve more concurrent clients and deal with
+applications that exhibit Quality of Service (QoS) requirements.
+Flexible, scalable and customizable middleware can be used as enabling
+technology for next generation systems that adhere to the QoS
+requirements of applications that execute in highly dynamic distributed
+environments. To enable application aware resource management, we are
+developing a customizable and composable middleware framework called CompOSE|Q based on a
+reflective metamodel. 
+
+ComOSE|Q
+Architecture and Implementation
+
+
+
+Relevant References:
+
+N. Venkatasubramanian, S.
+Gutierrez-Nolasco, S. Mohapatra and J. Wickramasuriya:Design
+and
+Implementation of a Safe Reflective Middleware Framework. Submitted for publication. 2004.
+
+N. Venkatasubramanian: Safe
+Composability of Middleware
+Services. Communications of the ACM. June, 2002.
+S. Gutierrez-Nolasco and N.
+Venkatasubramanian: A
+Reflective Middleware Framework for Communication in Dynamic
+Environments. International Symposium on Distributed Objects
+and
+Applications (DOA'02). October, 2002.
+J. Wickramasuriya and N.
+Venkatasubramanian: A Middleware
+Approach to Access Control for Mobile
+Concurrent Objects. International Symposium on Distributed
+Objects and
+Applications (DOA 2002). October, 2002.
+S. Gutierrez-Nolasco and
+N.  Venkatasubramanian: Reachability
+Snapshots in the Presence of
+Failures: An exercise in Protocol-Service Composition.
+International
+Conference on Dependable Systems and Networks, Workshop on Dependable
+Middleware-Based Systems. June, 2002.
+S. Mohapatra and N.
+Venkatasubramanian: A Distributed
+Adaptive Scheduler for QoS Support in
+Compose|Q. Seventh IEEE International Workshop on
+Object-oriented
+Real-time Dependable Systems (WORDS 2002). January, 2002.
+N. Venkatasubramanian, M. Deshpande, S.
+Mohapatra, S.
+Gutierrez-Nolasco and J. Wickramasuriya: Design and Implementation of a Composable
+Reflective Middleware Framework. IEEE International
+Conference
+on Distributed Computing Systems (ICDCS 2001). April, 2001.
+S. Gutierrez-Nolasco and N.
+Venkatasubramanian: Design Patterns for Safe Reflective
+Middleware. Object-Oriented Programming, Systems, Languages
+and
+Applications (OOPSLA 2001). Workshop Towards Patterns and Pattern
+Languages for Object-Oriented Distributed Real-Time and Embedded
+Systems. October, 2001.
+S.
+Gutierrez-Nolasco and N. Venkatasubramanian: A
+Composable Reflective Communication
+Framework. In Proceedings of the IFIP/ACM Workshop
+on Reflective Middleware (RM2000). April, 2000.
+N. Venkatasubramanian: ComPOSE|Q - A QoS-enabled Customizable
+Middleware Framework for Distributed Computing, Distributed
+Middleware Workshop, Proceedings of the IEEE Intl. Conference on
+Distributed Computing Systems (ICDCS '99). June, 1999.
+N. Venkatasubramanian, G. Agha and C. Talcott: Composable QoS-Based Distributed Resource
+Management, Workshop on Compositional Software Architectures,
+Monterey, CA. January, 1998.
+N. Venkatasubramanian and C. Talcott: MetaArchitectures for Resource Management
+in Open Distributed Systems, Proceedings of the ACM
+Symposium on Principles of Distributed Computing (PODC '95). August,
+1995.
+N. Venkatasubramanian and C. Talcott: A Meta Architecture for Scalable
+Distributed Resource Management, Proceedings of the 26th
+Hawaiian International Conference on System Sciences. January, 1993.
+N. Venkatasubramanian, G. Agha and C. Talcott: Scalable
+Distributed Garbage Collection for Systems of Active Objects,
+Proceedings of the IFIP International Workshop on Memory Management,
+St.Malo, France. Lecture Notes in Computer Science, Volume 637,
+Springer-Verlag. September, 1992.
+
+
+Presentations:
+
+
+Design and Implementation of a
+Composable
+Reflective Middleware Framework. Presentation available here [
+ppt ].
+A
+Reflective Middleware Framework for Communication in Dynamic
+Environments. Presentation available here [ ppt ].
+Reachability
+Snapshots in the Presence of
+Failures: An exercise in Protocol-Service Composition.
+Presentation available here [ ppt ].
+ Design Patterns for Safe
+Reflective
+Middleware. Presentation available here [ ppt ].
+
+
+
+
+The current state of the project is available below, but
+please note that it is a snapshot of ongoing work and still incomplete
+regarding various aspects. 
+
+
+
+
+
+Composeq.zip
+
+CompOSE|Q System (core modules)
+
+
+
+crcf.tar.gz
+
+CRCF Module 
+
+
+
+
+
+
+
+
+
+

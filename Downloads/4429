@@ -1,0 +1,168 @@
+http://computableplant.ics.uci.edu/sw.html
+
+
+
+
+Computable Plant Software
+
+
+
+
+
+
+
+
+
+          Scientific Inference Systems Laboratory
+
+
+The Computable Plant
+
+
+Home
+          | Publications
+          | Research
+          | 
+          Gallery | People
+          | Outreach
+          | Software
+          | Models
+          | Links
+          | Tutorials
+
+
+
+
+
+
+
+
+
+
+
+            Software and Documentation
+
+
+
+
+Image Analysis
+
+
+                SegTrack*† - segmenting and tracking
+                matlab function library
+
+                SASSIGN*† - tracking software based
+                on softassign matching algorithm
+Costanza†
+                - Confocal Stack Analyzer Application, plugin for
+                ImageJ
+CLSM
+                Tools*† - nuclear segmentation and
+                lineage analysis
+
+Modeling, Simulation, and Analysis
+
+xCellerator*† - ODE Based Modeling in Mathematica
+ERLeap*† - Stochastic Simulation (Exact Reaction Leaping)
+SSA*†- Stochastic Simulation (Gillespie Algorithm) in Mathematica
+LDSA
+                - Lam-Delosme Simulated Annealing in
+                Mathematica
+Organism†
+                - ODE based simulation in C++
+mPower*†
+                - Mathematica wrapper for computational geometry using qhull
+Cellzilla*†
+                - Static multicellular modeling using Voronoi in Mathematica
+
+                PhasePlot*† - Phase portraits in Mathematica
+PPM - Particle Particle Mesh Library - meshing and simulation library of continuous and discrete systems using particle-mesh methods.
+
+                Tissue3D*† - Mathematica package for
+                compartmental modeling
+Cellerator† - an
+                earlier version of xCellerator
+kMech†
+                - Cellerator plugin for enzyme kineteics
+MathSBML†
+                - SBML reader and simulator in Mathematica
+Sigmoid†
+                - Model database and simulation package (uses
+                Cellerator)
+
+Stochastic Grammars and Model Description
+              Tools
+
+
+                Plenum*† Interpreter for
+                Stochastic/Dynamical Grammars
+
+                Plenum Model Collection*† 
+
+                SBML Level 3 Proposal: Dynamic
+                Arrays*†
+
+†Indicates
+              tools developed by or in collaboration with the
+              Computable Plant project.
+*Indicates Partially or fully funded by
+              NSF Award 0330786.
+Cambium Intermediate Process
+              Language
+
+
+TR (Download)
+	  	
+Cellerator
+
+
+Plenum
+
+
+Organism
+
+
+
+              Other Useful Software Links:
+
+              
+List
+                of Finite Element Packages
+List
+                of Image Analysis Software Applications
+CSELab Tools - Software tools from the Computational
+                Science and Engineering Laboratory at ETH Zurich.
+Computing Frameworks:
+
+              
+SAGE
+                Open Source Math Project (Mathematica/Matlab/Maple
+                Alternative)
+Pyre
+                Caltech Center for Advanced Computing
+                Resources
+Peach
+                Caltech Jensen Lab
+Systems Biology
+                Workbench (SBW)
+Systems Biology
+                Markup Language - SBML
+Computational Geometry:
+
+              
+CGAL
+Qhull
+                Library
+regtet/pwrvtx
+
+
+ revised Mon Jun  1 13:20:03 2009   
+ 
+
+
+
+
+
+
+
+

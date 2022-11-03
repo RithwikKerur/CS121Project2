@@ -1,0 +1,147 @@
+https://www.cs.uci.edu/graduate-student-spotlight-persistence-pays-off-for-ph-d-candidate-ivan-de-oliveira-nunes
+
+
+
+
+Graduate Student Spotlight: Persistence Pays Off for Ph.D. Candidate Ivan De Oliveira Nunes 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ this is a widget called second front page widget area
+
+Explore
+
+Contact Us
+
+
+Faculty
+Research
+
+Research Areas
+Research Centers
+
+
+Graduate Degrees
+
+Computer Science Programs
+Current Graduate Students
+
+
+Undergraduate Degrees
+News  & Events
+
+News
+Seminar Series
+Distinguished Lecture Series
+Research Showcase
+
+
+Apply Now
+
+Undergraduate Admissions
+Graduate Admissions
+Faculty Candidates
+
+
+Graduate Student Spotlight: Persistence Pays Off for Ph.D. Candidate Ivan De Oliveira Nunes
+May 11, 2021 
+
+As a Ph.D. student studying networking systems in UCI’s Donald Bren School of Information and Computer Sciences (ICS), Ivan De Oliveira Nunes explored research opportunities in industry, serving as an intern at Visa Research and at SRI International. However, he ultimately chose to stay in academia and will join the faculty of Rochester Institute of Technology (RIT) as an assistant professor in the fall. “One of my favorite parts of the whole Ph.D. experience was interacting with other students,” says De Oliveira Nunes, who earned his B.S. from the Federal University of Espirito Santo (UFES) and M.Sc. from the Federal University of Minas Gerais (UFMG) in Brazil before coming to UCI to earn his Ph.D.
+
+His research interests span security and privacy, computer networking, embedded systems and applied cryptography, and his dissertation focused on security services for resource-constrained Internet of Things (IoT) devices. He is also part of the Security and Privacy Research OUTfit (SPROUT), a group of researchers who, as noted on the website, “enjoy the exciting, rewarding, treacherous and slightly paranoid world of research in applied cryptography, computer/network security and privacy.”
+“Ivan’s research on IoT security is very timely and highly impactful as these devices increasingly surround us like zombies and, like zombies, can be (or can be turned) hostile,” says Computer Science Professor Gene Tsudik, who is De Oliveira Nunes’ adviser. “His background in networking was very useful in aiding his research in IoT security. He’s one of the best Ph.D. students with whom I’ve had the pleasure to work at UCI.”
+Here, De Oliveira Nunes talks about his unique path to UCI, how his interest in computer networks led to his focus on security, and what he thinks is the most important attribute to getting through grad school.
+Can you talk a bit about your background and path to UCI?I am originally from Brazil, and my path to the Ph.D. program at UCI was, in fact, quite unusual. As an undergrad student back in Brazil, I received a government scholarship to study abroad and ended up coming to UCI as an exchange student for the 2012-2013 academic year. At the time, I learned in one of my classes about opportunities for those interested in doing a Ph.D. here. I went back to Brazil and completed my undergrad degree in computer engineering in 2014 and subsequently earned an M.Sc. in computer science in 2016. Ultimately, I decided to apply for a Ph.D. and joined UCI in 2016, focusing my research on networked systems. It’s funny, because if I didn’t have that scholarship opportunity to come to UCI back then, maybe I wouldn’t be here today!
+How did you first became interested in the topic of security?Early on, I was working mostly in computer networks but not specifically in security. Even though we were not focusing on security, we would always end up running into security-relevant issues or problems. Late in my M.Sc., I joined a project on IoT security and started to dig deeper into the security world. Through this process, what made me really interested in pursuing a Ph.D. in computing security was the realization that security spans all areas in computing.
+As security researchers, we’re always trying to secure something — a network, hardware, a database, a mobile device, the user — so that “something” could be part of a variety of other fields. To appropriately address the security problem, we also need to learn about and understand the particular application domain. Since I always liked multidisciplinary topics, that’s what made me most interested in security.
+What is the main focus of your research and of your work at the SPROUT lab?At SPROUT, I am a part of a team that focuses primarily on the security and privacy of embedded devices, including tiny microprocessors and micro-controller units (MCUs). These small microprocessors and MCUs are commonly used to implement critical parts of more complex cyber-physical systems and are used in the IoT. They often perform safety-critical tasks (for example, acting as sensors and controllers in a vehicle/industrial plant), but are often left unprotected due to their resource-constrained nature.
+Since these processors and MCUs are manufactured with very tight budgetary constraints (in terms of cost, processing power, memory size and energy consumption), they become very challenging to secure.
+In our group, we aim to address this problem by proposing various security services that are simultaneously trustworthy and affordable (even when deployed on these extremely resource-constrained devices). To me, this is an interesting problem because it involves several sub-domains, such as cryptography, embedded systems, networking, hardware/software co-design, and formal methods/verification, among others.
+What are some of your security concerns for the future?I am generally optimistic about the future of security and privacy, especially considering all the great progress achieved in recent years. If I have to pick a concern, it has to do with the “reactive” approach taken by our society in the face of risks and threats. Typically, catastrophic events (for example, 9/11 or the spread of COVID-19) have to happen before related security and safety measures (that could have prevented the catastrophe) are taken seriously. The same “passive approach” is also present in many digital/tech products manufactured today. I hope that in the future, our society can evolve toward a more proactive approach to safety and security (digital and otherwise) to hopefully avoid these catastrophic events as much as possible.
+What have you liked best about studying at UCI?UCI is a great school, in an awesome location, and with a diverse population of faculty, staff and students. There are plenty of active research areas led by world-class faculty. Also, there is no shortage of resources, events and support to help students succeed in their careers. Aside from work, there are lots of places to explore and things to do in Orange County and the surrounding cities, including LA and San Diego.
+What made you decide to go into academia?One of my favorite parts of the whole Ph.D. experience was interacting with other students and especially helping and offering advice to newer generations, at both grad and undergrad levels. While I also enjoyed doing research in industry (which I have explored in internships), the contact with and mentoring of students was the key factor that made me decide to pursue an academic career.
+What are you most looking forward to when you start as an assistant professor this fall?That’s a hard one. Honestly, I am looking forward to all of it. But here is a shortlist of four: teaching my own courses, advising students, exploring new research directions, and collaborating with my new colleagues at RIT.
+Any advice for prospective graduate students?People have different experiences, and others will probably offer different advice based on their own trajectories. Based on my own experience in grad school, the most important attribute was persistence. A grad student will most definitely find some bumps along the way and sometimes run into dead ends. This is especially true for research and research paper submissions and rejections. It’s ok to feel bummed out for a few days after one of these negative outcomes — we’re all human, after all. But it is important to bounce back quickly and keep fighting. In the long run, persistence pays off.
+— Shani Murray
+« Phys.org: “An artificial neural network joins the fight against receding glaciers” (Ph.D. student Daniel Cheng mentioned)VenusHacks Fosters Gender Inclusivity in STEM »
+
+Latest news
+
+
+Senior Spotlight: Tennis Player and CS Major Matthew Sah Serves Up Aces On and Off the Court
+September 28, 2022
+
+
+Register Today for the Southern California AI & Biomedicine Symposium
+September 20, 2022
+
+
+CPO Magazine: “A Legal View of New NIST Quantum-Resistant Algorithms” by Bryan Cunningham
+September 19, 2022
+
+
+UCI Ranked 24th in Undergraduate Computer Science Programs by U.S. News & World Report
+September 16, 2022
+
+
+Senior Spotlight: Jose Cisneros Builds Impressive Resume with Trio of Internships
+September 15, 2022
+
+
+
+
+ 
+
+
+
+
+
+© 2022 UC Regents
+Feedback
+Privacy Policy
+
+
+
+ 
+
+
+
+

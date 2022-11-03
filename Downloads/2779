@@ -1,0 +1,187 @@
+https://ngs.ics.uci.edu/iptv
+
+
+
+
+
+
+
+
+IPTV  – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				IPTV    			
+
+
+When Video-on-Demand (VoD) was initially proposed, it was suppose to be a vehicle for providing time-shifted TV for popular video content so people could watch any movie or TV show at their convenience in the comfort of their home. The basic idea was to store the content on a video server and develop a distribution network to provide access and delivery of these videos. Since Web has not emerged at that time, much effort was in creating infrastgructure that will allow distribution of movies to homes on TV through a distribution network.   In early 1990s, after much optimism and discussion of this concept, the interest slowly disappeared. It was clear that the cost of the infrastructure was too high compared to the demand. VoD slowly became dormant. All the excitement shifted toward the Web, which, in the early stages was all about text. 
+With high bandwidth connectivity, things are taking a turn toward multimedia on the Web. First there was lot of interest in Voice over IP.  Now things are changing and the main driver is becoming video. There is much excitement about IP and TV now. IPTV is basically video on the Internet, which is much potentially much more pervasive and transformative than VoIP.  The major difference is that video can be shown on any device including TVs, PCs, and phones. 
+This is a bigger disruptive change than it appears at first: IPTV is the convergence of communication, computing, and content. People commonly talk about the convergence of communication and computing. In terms of content, people are accustomed to thinking mostly in terms of text and blobs (where a blob could be any media item but it was considered an atomic entity for the information system). Even VoD considers Video to be a blob, not content like pages on the Web.  So a three-hour video could be played as a three-hour video but there was no indexing or content-based access possible. In the new world, this wonâ€™t be acceptable. Video content will also be stored and accessed at different levels of granularities based on its structure as well as semantics. 
+IPTV does require advances in infrastructure. Even today, distribution or communication mechanisms used in TV and the Internet are significantly different. Theyâ€™ve been slowly moving toward each other, but are far from convergence. The TV structure, whether broadcast, cable, or satellite, is primarily based on the push metaphor where all the programs are pushed to the user. The only choice a user has is to change the channel or to turn off the TV. Now PVR is becoming common with cables and has started providing interesting time shift and storage capabilities.  On the other hand, the Internet infrastructure is based more on personal choices in access. On the Internet, people combine push and pull depending on their needs and interests. Once video is available on the Internet, people will expect to use all the tools and functionalities that they commonly use with text. The major change required isnâ€™t really the infrastructure, however. Itâ€™s making the tools robust yet easy to use. Internet culture will result in people starting to produce lots of video content for many different applications. The â€œlong tailâ€? effect will dominate this area also. People will start producing and placing videos on the Internet that they know will be used by only a limited number of other peopleâ€”in some cases maybe only five other people. This will happen, however, only if the production tools for editing video will allow people to capture and prepare video to put on the Internet as easily as they author Web pages. 
+Current video editing tools are difficult to use. And, the tools that are easy to use donâ€™t give enough control to author what an amateur producer might want. This is an interesting challenge to the multimedia communityâ€”and at the invitation-only Berkeley retreat at the 2003 ACM Multimedia conference, participants (about 30 leading researchers) correctly identified it as a grand challenge for multimedia. Add to authoring environment, addition of tools that will provide tagging for presentation â€“ like HTML did for text.  Such tools â€“ letâ€™s call them Video Presentation Markup Language (VPML).  These tools will allow any player to take a video and play it as the producer intended it to be played.
+The second and equally important problem is how to find videos of interest. Search engines have trained the current generation of Internet users to search for information using easy tools like specifying keywords. How will we search for video on the Internet? Current search techniques on the Internet extend text-based techniques, but theyâ€™re still rather limited compared to what we need for accessing video. The multimedia information retrieval research community and the practicing video retrieval community are poles apart. Theyâ€™re developing more or less disjoint approaches: The research community wants to use only visual characteristics because thatâ€™s where interesting research challenges are. Practicing people want to just apply text-based approaches because thatâ€™s what they know. Everybody recognizes that to be successful, you must use all knowledge sources and all possible techniques for accessing video information. Unfortunately, thatâ€™s where it ends most of the timeâ€”just talking about combining multiple sources to solve this puzzle and then going to your workplace and continue what youâ€™ve been doing. We need people who will take this challenge seriously and start developing techniques to access video information using text processing, visual computing, audio recognition, and folksonomy.  
+
+
+
+By Ramesh |
+    				March 18, 2006 |
+    				             		Technical Thoughts |
+             	 
+    				             		1 Comment |
+             	 		          				
+    			
+
+
+← World Wide Event Web
+IPTV and EventWeb →
+
+
+
+			One thought on “IPTV”		
+
+
+
+
+Vishal Bhatt October 18, 2007 at 8:34 pm 
+
+Nice to read such blog ,challenges like accessing video using text processing are quite difficult but achievable using image processing(my colleuges are working on that using video mining) ,thanks to guide me for such a great challenge,my research/thesis domain is IPTV and i’ll take these challenges very seriously.
+
+
+
+
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

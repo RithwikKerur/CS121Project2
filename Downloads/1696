@@ -1,0 +1,122 @@
+http://sli.ics.uci.edu/Classes-CS178-Notes/Probability
+
+
+
+SLI | Classes-CS178-Notes / Probability 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Classes-CS178-Notes /
+Probability
+
+
+Review of probability concepts
+Events
+In probability, an event describes something that may or may not happen; for example, whether it will rain tomorrow, whether I will get the flu, or whether a coin will come up heads.  A probability measure tells us the "size" of these events, measured in terms of how likely they are to occur.  Denoting S the space of all possible events, and A, B individual events (subsets of S), the axioms of probability are
+
+
+
+Random variables
+Mostly we will be thinking about probability in terms of variables.  A random variable  may take on values , each of which constitutes an "event", for example .  The values of random variables are exhaustive and mutually exclusive, meaning that  cannot equal anything outside of this set (and must take on one of its values), and also cannot equal more than one value in the set (for example, x cannot be simultaneously equal to 1 and 2).  We'll use either  or  to indicate generic values for random variable .
+
+This view allows us to specify probabilities involving  in terms of a probability mass function, the probability associated with each of its atomic events , , etc.  By the axioms of probability, and since the outcomes of x are disjoint events, we have that
+
+
+Continuous-valued random variables are a bit more subtle, and involve probability density functions rather than mass functions.  In essence, a probability density function is the amount of probability "per unit area" ().  An event is defined as the variable  falling into some subset or interval, for example , and its probability mass is defined as the integral of the density over that set:
+
+A probability density function can be greater than 1, as long as it is only over a small area; the axioms of probability dictate that the probability mass, or integral of the density, must be less than 1.
+
+
+Common Distributions
+Bernoulli and Multinomial Distributions
+The most common types of discrete random variable distributions are Bernoulli and multinomial distributions.  The Bernoulli distribution is defined for binary-valued random variables, i.e., , and parameterized by a single parameter .  Multinomial random variables generalize Bernoulli RVs, taking on one of  values and parameterized by a vector of probabilities representing the probability of each outcome.
+
+Gaussian Distributions
+The Gaussian distribution is perhaps the most common distribution for continuous-valued random variables.  The Gaussian probability density function is given by
+
+Univariate (one-dimensional) Gaussian distributions are parameterized by two scalar numbers, a mean  and variance  (sometimes characterized by its square root , the standard deviation).  The mean indicates the center of the Gaussian's characteristic bell-curve shape, and equals the average or expected value of the variable , while the variance or standard deviation indicates its spread, or uncertainty around the mean.
+
+The multivariate Gaussian is a Gaussian distribution defined for a  dimensional, vector-valued random variable , or equivalently a collection of  univariate random variables.  The probability density function is given by
+
+characterized by a mean vector , representing a point in the  dimensional space, and a  covariance matrix  representing the shape and spread of the data.  The dependence on  (in the exponential) is a quadratic form, and the shape of the equally-probable contour lines are ellipses.
+
+Just as the square root of the variance was helpful in representing the spread in one dimension, the matrix square root can help us understand the shape and size of the uncertainty in  dimensions.  We can represent  using its eigenvector decomposition, so that  is a diagonal matrix of eigenvalues and  is a unitary matrix.  Then, the generalization of the standard deviation is , where  represents a scaling and  a rotation.
+
+This helps us see two special cases of the Gaussian distribution.  A fully general covariance matrix has ellipsoidal uncertainty shapes; a diagonal covariance looks like an axis-aligned ellipse (no rotation), and a spherical Gaussian has a "scalar" covariance (a scalar times an identity matrix, or diagonal with all the same value).
+
+We can draw samples from a multivariate Gaussian easily using this construction, by first sampling from a unit-variance
+
+Understanding and generating multivariate Gaussian data
+Shape, in terms of eigenvectors of Sigma
+Full, diagonal, or spherical Gaussian distributions
+Generating Gaussian samples
+Spherical samples
+Scaling
+Rotation 
+
+Density estimation
+Since machine learning is primarily concerned with adapting to observed data, most of our probability models are likely to be estimated from data.
+
+Histograms
+A histogram is a simple method of estimating and visualizing a probability density function.  We bin the observed data and report the fraction of data falling into each bin.  This can be interpreted as a piecewise-constant estimator of the probability density function.
+
+Maximum likelihood methods
+Overfitting in density estimation
+As in regression, it is possible to overfit to the observed data
+Typically an effect of a complex density estimate given limited data
+
+
+Independence and Conditional Independence
+When two random events are independent, it greatly simplifies their probabilities.  Independent events do not influence each others' outcome, e.g., if two events A,B are independent, then knowing that A occurred has no influence on the probability of B occurring: .  In general, this means that the joint probabilities factor into a product:
+
+However, in practice the variables we are interested in are related to one another somehow, and so are not completely independent.  A more useful type of independence relationship is conditional independence, in which two or more variables influence one another only through some intermediary variable.  For example, our two events A,B may be independent of one another once we control for some cause C: .  (This is an assumption about the structure of the joint distribution.)
+
+
+
+
+
+
+
+ Last modified October 07, 2015, at 04:04 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

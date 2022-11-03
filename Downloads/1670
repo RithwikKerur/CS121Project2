@@ -1,0 +1,578 @@
+https://grape.ics.uci.edu/wiki/asterix/wiki/stats170ab-2018
+
+
+
+
+      stats170ab-2018 – ASTERIX
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LoginPreferencesAbout Trac
+
+
+
+
+
+
+
+wiki:stats170ab-2018
+
+
+Context Navigation
+
+Start PageIndexHistory
+
+
+
+
+
+
+
+
+
+STAT 170AB Winter/Spring 2018: Project in Data Science
+
+
+Instructors
+
+
+Meeting Times & Places
+
+
+Course Overview
+
+
+Prerequisites
+
+
+Textbooks
+
+
+Project Resources
+
+
+Other Resources
+
+
+Topic Coverage and Work Schedule
+
+
+Winter Quarter Syllabus
+
+
+Spring Quarter Timetable
+
+
+
+
+Assignments, Projects, and Grading
+
+
+Winter Grading Criteria (for 170A)
+
+
+Spring Grading Criteria (for 170B)
+
+
+Winter Homework and Class Participation
+
+
+Spring Project Tracking and Reporting
+
+
+Academic Honesty Policy
+
+
+
+
+Software Platform(s)
+
+
+Winter Assignment Due Dates & Links
+
+
+
+
+
+
+STAT 170AB Winter/Spring 2018: Project in Data Science
+Instructors
+
+Mike Carey  E-Mail: ​mjcarey@ics.uci.edu  Office: DBH 2091 
+
+
+Padhraic Smyth  E-Mail: ​smyth@ics.uci.edu  Office: DBH 4216 
+
+
+We encourage you to use the Piazza site ​http://piazza.com/uci/winter2018/stats170a/home for any questions, comments, etc, that you have outside of class hours. We are more likely to quickly respond to questions via Piazza than via email.
+
+Meeting Times & Places
+
+Time: Mon/Wed 2:00-3:20 PM  Place: DBH 1300 
+
+
+Course Overview
+
+This two-course sequence is intended to be the "grand finale" for Data Science majors.
+Its goal is to tie together many of the topics that are independently covered in the first 3+ years of Data Science requirements and electives; it also aims to fill in in some of the potential gaps required to solve an end-to-end problem. 
+In addition to a brief review of some of the required skills, the course will cover problem definition and analysis, data representation, algorithm selection, solution validation, and results presentation.
+Students will do projects, possibly in small teams, while the lecture periods will cover analysis alternatives, project planning, and data analysis issues.
+The first quarter will emphasize tools and techniques, approach selection, project planning, and experimental design.
+The second quarter will focus on project execution, data analysis, and presentation of results.
+Project planning and execution will include the setting of weekly or bi-weekly milestones as well as weekly progress tracking and reporting.
+The final course deliverables will include both a written project report and an oral presentation of the project results.
+
+Prerequisites
+
+Senior standing and completion of the following courses: STATS 68, STATS 111, IN4MATX 43, COMPSCI 122A, COMPSCI 161, and COMPSCI 178.
+
+Textbooks
+
+Data Wrangling with Python: Tips and Tools to Make Your Life Easier 
+By Jacqueline Kazil and Katharine Jarmul, O'Reilly Media, 2016.
+
+
+Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython (2nd Edition)
+By William McKinney, O'Reilly Media, 2017.
+
+
+Principles of Data Wrangling: Practical Techniques for Data Preparation 
+By Joseph Hellerstein, Jeffrey Heer, Tye Rattenbury, Sean Kandel, and Connor Carreras, O'Reilly Media, 2017.
+
+
+Mining the Social Web (2nd Edition, Chapters 1 and 9 in particular) 
+By Matthew Russell, O'Reilly Media, 2014.
+
+
+Hands-On Machine Learning with Scikit-Learn and TensorFlow (Chapters 1 through 4 in particular) 
+By Aurelien Geron, O'Reilly Media, 2017.
+
+
+(Note: All of these titles are available for free online via the UCI Library's subscription to Safari Books Online (​http://proquest.safaribooksonline.com/).
+
+Project Resources
+
+Links to potential data sets: ​http://www.ics.uci.edu/~smyth/courses/stats170/data_sets.html
+
+
+Links to reference articles for projects: ​http://www.ics.uci.edu/~smyth/courses/stats170/project_reading.html
+
+
+Links to reference texts for proejcts: ​http://www.ics.uci.edu/~smyth/courses/stats170/reference_texts.html
+
+
+Links to examples of software and demos: ​http://www.ics.uci.edu/~smyth/courses/stats170/applications_and_demos.html
+
+Other Resources
+
+​https://chrisalbon.com/#articles -- A great collection of relevant how-to and tutorial articles.
+
+
+AsterixDB Overview​-- An overview of Apache AsterixDB (a homegrown NoSQL DB system: ​http://asterixdb.apache.org/).
+
+
+​https://developer.twitter.com/en/docs/tweets/search/api-reference/get-search-tweets -- Twitter search API documentation.
+
+
+Note on machine learning from Prof Alex Ihler's CS 178 course: ​http://sli.ics.uci.edu/Classes/2016W-178
+
+
+Topic Coverage and Work Schedule
+Winter Quarter Syllabus
+
+ Date  Lecture Topic  Relevant Resources
+ Mon, 1/08  Course overview and plan   Slides from Lecture 1 
+ Wed, 1/10  Dusting off your databases  Your CS122a textbook 
+ Mon, 1/15  (No Class)  (No Class)
+ Wed, 1/17  Data wrangling concepts and issues  Hellerstein et al book 
+ Mon, 1/22  Wrangling with Pandas and Dataframes I  McKinney book (Ch. 4, 5) 
+ Wed, 1/24  Wrangling with Pandas and Dataframes II  McKinney book (Ch. 7, 8, 10 ) 
+ Mon, 1/29  XML, JSON, Twitter, and Tweepy  McKinney book (Ch. 6) & Twitter Search API docs 
+ Wed, 1/31 Semistructured data and SQL vs. NoSQL databases  AsterixDB overview paper 
+ Mon, 2/05  Exploratory data analysis and data visualization   Class lecture slides 
+ Wed, 2/07  Cluster analysis algorithms  Unsupervised learning notes from 178 above
+ Mon, 2/12   Predictive modeling: regression Chapters 2 and 4 in Geron text
+ Wed, 2/14  Predictive modeling: classification Chapter 3 in Geron text 
+ Mon, 2/19  (No Class) 
+ Wed, 2/21  Text analysis methods 
+ Mon, 2/26  Project planning, proposals and guidelines 
+ Wed, 2/28  Project idea meetings  
+ Mon, 3/05  Project planning meetings 
+ Wed, 3/07  Project planning meetings (cont.) 
+ Mon, 3/12  Oral project proposal meetings 
+ Wed, 3/14  Oral project proposal presentations 
+
+Spring Quarter Timetable
+
+ Week  Monday  Wednesday
+ 1, April 2  Short intro lecture Joint office hours (review of projects/presentations), DBH 2091 
+ 2, April 9  Guest speaker 1  Student progress presentations 
+ 3, April 16  Smyth office hours, DBH 4016  Carey office hours, DBH 2091 
+ 4, April 23  Guest speaker 2  Student progress presentations 
+ 5, April 30  No office hours or class   Carey office hours, DBH 2091 
+ 6, May 7  Guest speaker 3  Student progress presentations 
+ 7, May 14  Smyth office hours, DBH 4016  Carey office hours, DBH 2091 
+ 8, May 21  Guest speaker 4  Student progress presentations 
+ 9, May 28  Memorial Day, no class  Smyth office hours, DBH 4016 
+ 10, June 4  Guest speaker 5  Final student presentations 
+
+
+Assignments, Projects, and Grading
+Winter Grading Criteria (for 170A)
+
+Homework: 40% 
+Project proposal: 50% 
+Class participation: 10% 
+
+Late homeworks will not be graded - please submit whatever you have completed by the homework deadline.  Each homework's due date is listed in the table of homework assignments at the end of this page, and each homework will be due in EEE by 11:45 PM on the indicated date.
+
+Spring Grading Criteria (for 170B)
+
+Attendance: 10% 
+Weekly status updates: 18% 
+In-class presentations: 40% 
+Final written report: 32% 
+
+
+A single grade will be assigned at the end of Spring quarter for this class, with 50% weight on the Winter grade and 50% on the Spring grade.
+
+Winter Homework and Class Participation
+
+The first quarter will involve a mix of lectures and homework assignments intended to dust off, sharpen, or introduce the skills, tools, and techniques that you will need to successfully execute your course project. Since you are now seniors, and this is your Data Science grand finale, individual initiative and engagement will be expected of all students. The homework assignments may be "looser" than what you are used to -- you will have to seek out some of the information needed to complete the assignments and to make  choices about how to attack some of the challenges -- i.e., spoon feeding will be kept to a minimum. The lectures will aim for interactivity, and class participation will be encouraged (and in fact expected).
+
+Spring Project Tracking and Reporting
+
+The second quarter will be a time to focus on your projects. In terms of grading, 10% will be given for attending the Invited DS Case Study talks every other week (5%) and making at least a brief appearance at office hours during the off weeks (5%). 18% of your grade will be based on weekly progress reporting via your "project diary" in Google docs; you will get 2 points/week (first 9 weeks) for your last week/this week progress bullets. 40% will be for the 5 in-class presentations that you'll do (4 oral progress reports/demos plus 1 final oral presentation). Last but not least, of course, is your final written report, which will account for 32% of your Spring grade.
+
+Academic Honesty Policy
+
+Students will be expected to adhere to the UCI and ICS Academic Honesty policies (see ​http://www.editor.uci.edu/catalogue/appx/appx.2.htm#academic and ​http://www.ics.uci.edu/ugrad/policies/index.php#academic_honesty to read their details). Any student found to somehow be involved in cheating or aiding others in doing so will be academically prosecuted to the maximum extent possible: that means that you could fail this course in its entirety. (Ask around - it's happened.)  Just say no to cheating!
+
+
+Software Platform(s)
+
+This course will make use of the Python ecosystem, including the Python language, various Python packages/tools for data analysis and machine learning, Jupyter notebooks, and open source databases (PostgreSQL).  For convenience and package completeness, students are advised to download the most recent Anaconda distribution of Python and friends (​https://www.anaconda.com/download/) and the most recent EDB distribution of PostgreSQL (​https://www.enterprisedb.com/downloads/postgres-postgresql-downloads).
+
+
+Winter Assignment Due Dates & Links
+
+(Be sure to monitor this space carefully as the days and weeks go by!)
+
+
+ Assignment  Due Date (and Time)  Topic  Details
+ HW 1  Wed, 1/17 (Noon)  Schemas and SQL Refresher   HW1​
+ HW 2  Mon, 1/22 (11:45 PM)   Data Wrangling Principles  HW2​
+ HW 3  Mon, 1/29 (11:45 PM)   Data Wrangling with Python and Pandas  HW3​
+ HW 4  Mon, 2/05 (11:45 PM)   Capturing and Wrangling Twitter Data  HW4​
+ HW 5  Mon, 2/12 (2 PM)   Exploratory Data Analysis and Visualization  HW5​
+ HW 6  Wed, 2/21 (2 PM)   Predictive Regression Models  HW6​
+ HW 7  Wed, 2/28 (2 PM)   Classification with Text Data  HW7​
+ Proj 1  Wed, 3/07 (11:45 PM)   Written Project Proposal, Take 1 
+ Proj 2  Mon, 3/12 (11:45 PM)   Written Project Proposal, Take 2 
+ Proj 3  Wed, 3/14 (due in class)  Oral Project Proposal 
+
+
+
+Last modified 5 years ago
+Last modified on Apr 2, 2018 3:21:31 PM
+
+
+
+Attachments (41)
+
+
+
+HW1.pdf​
+       (549.2 KB) -
+      added by mjcarey 5 years ago.
+                Homework Assignment #1
+
+
+lecture1_stats170_introduction.pdf​
+       (16.4 MB) -
+      added by smyth 5 years ago.
+                Lecture 1 slides
+
+
+lecture2_stats170_CS122A-In-A-Nutshell.pdf​
+       (2.8 MB) -
+      added by mjcarey 5 years ago.
+                Lecture 2: SQL in a Nutshell
+
+
+HW2.pdf​
+       (410.2 KB) -
+      added by mjcarey 5 years ago.
+                Homework Assignment #2
+
+
+lecture3_stats170_Data-Wrangling-Principles.pdf​
+       (1.2 MB) -
+      added by mjcarey 5 years ago.
+                Lecture 3: Data Wrangling Principles
+
+
+HW3.pdf​
+       (267.1 KB) -
+      added by mjcarey 5 years ago.
+                Homework Assignment #3
+
+
+postgresloading.sql​
+       (2.0 KB) -
+      added by mjcarey 5 years ago.
+                PostgreSQL data loading script (if you need it)
+
+
+Lecture4_WranglingNotebook.pdf​
+       (37.9 KB) -
+      added by mjcarey 5 years ago.
+                Lecture 4: Wrangling with Python and Pandas I
+
+
+Lecture5_WranglingNotebook.pdf​
+       (36.1 KB) -
+      added by mjcarey 5 years ago.
+                Lecture 5: Wrangling with Python and Pandas II
+
+
+HW4.pdf​
+       (362.0 KB) -
+      added by mjcarey 5 years ago.
+                Homework Assignment #4
+
+
+lecture6_stats170-Data-Formats.pdf​
+       (2.8 MB) -
+      added by mjcarey 5 years ago.
+                Lecture 6: Data Formats
+
+
+Lecture6-TwitterNotebook.pdf​
+       (42.9 KB) -
+      added by mjcarey 5 years ago.
+                Lecture 6: XML, JSON, Twitter, and Tweepy
+
+
+Lecture6-PostgreSQLNotebook.pdf​
+       (32.0 KB) -
+      added by mjcarey 5 years ago.
+                Lecture 6: XML, JSON, Twitter, and Tweepy
+
+
+lecture7_stats170_BigNoSQLData.pdf​
+       (4.0 MB) -
+      added by mjcarey 5 years ago.
+                Lecture 7: Big NoSQL Data
+
+
+AsterixDBOverview.pdf​
+       (286.9 KB) -
+      added by mjcarey 5 years ago.
+                AsterixDB overview paper
+
+
+Stats 170AB_ Homework Assignment #5.pdf​
+       (119.6 KB) -
+      added by smyth 5 years ago.
+                Homework 5 (Visualization)
+
+
+iris.csv​
+       (3.6 KB) -
+      added by smyth 5 years ago.
+                Iris Data Set in csv format
+
+
+visualization_with_iris_data.ipynb​
+       (899.4 KB) -
+      added by smyth 5 years ago.
+                Jupyter notebook for exploring the Iris data set
+
+
+HW5.pdf​
+       (119.6 KB) -
+      added by mjcarey 5 years ago.
+                Homework Assignment #5
+
+
+hw1solution.zip​
+       (8.5 KB) -
+      added by mjcarey 5 years ago.
+                HW#1 SQL artifacts and copy/table cardinalities
+
+
+clustering_demo.ipynb​
+       (8.9 KB) -
+      added by smyth 5 years ago.
+              
+
+housing_data.csv​
+       (449.9 KB) -
+      added by smyth 5 years ago.
+                Housing data set used in cluster demo notebook
+
+
+housing_data_description.txt​
+       (13.1 KB) -
+      added by smyth 5 years ago.
+                Description of variables in the housing data set
+
+
+exploratory_data_analysis.pdf​
+       (5.2 MB) -
+      added by smyth 5 years ago.
+                Lecture slides from Feb 5th
+
+
+clustering_algorithms.pdf​
+       (4.8 MB) -
+      added by smyth 5 years ago.
+                Lecture slides from Feb 7th
+
+
+HW2GradingNotes.pdf​
+       (355.8 KB) -
+      added by mjcarey 5 years ago.
+                Some notes on HW2 answers and grading
+
+
+predictive_modeling_regression.pdf​
+       (1.2 MB) -
+      added by smyth 5 years ago.
+                Lecture slides from Monday Feb 12th
+
+
+predictive_modeling_classification.pdf​
+       (5.6 MB) -
+      added by smyth 5 years ago.
+                Lecture slides from Wednesday Feb 14th
+
+
+HW #3 Grading Notes.pdf​
+       (169.3 KB) -
+      added by mjcarey 5 years ago.
+                Some notes on HW3 answers and grading
+
+
+HW3Solution.pdf​
+       (997.3 KB) -
+      added by mjcarey 5 years ago.
+                Homework #3 solution
+
+
+HW4-Solution-Jupyter.pdf​
+       (72.1 KB) -
+      added by mjcarey 5 years ago.
+                Jupyter part of HW4 solution
+
+
+HW4-Solution-Queries.txt​
+       (4.9 KB) -
+      added by mjcarey 5 years ago.
+                HW 4 solution queries
+
+
+TwitterSchema.sql​
+       (1.0 KB) -
+      added by mjcarey 5 years ago.
+                HW4 solution schema
+
+
+HW6.pdf​
+       (68.8 KB) -
+      added by smyth 5 years ago.
+                Homework 6: due Wednesday Feb 21st, 2pm
+
+
+HW7.pdf​
+       (46.4 KB) -
+      added by smyth 5 years ago.
+                Homework 7: due Wednesday Feb 28th, 2pm
+
+
+text_analysis.pdf​
+       (4.1 MB) -
+      added by smyth 5 years ago.
+                Lecture slides from Wednesday Feb 21st
+
+
+hw7_template_import_tables_from_json.py​
+       (1.8 KB) -
+      added by smyth 5 years ago.
+                Python script template for Homework 7
+
+
+lecture_project_ideas_and_proposals.pdf​
+       (10.3 MB) -
+      added by smyth 5 years ago.
+                Lecture slides on projects (ideas and proposals) from Mon Feb 26
+
+
+Stats170AB_Project_Proposal_Template.docx​
+       (26.9 KB) -
+      added by smyth 5 years ago.
+                Template for project proposals (in Word format)
+
+
+Stats170AB_Project_Proposal_Template.pdf​
+       (84.8 KB) -
+      added by smyth 5 years ago.
+                Template for project proposals (PDF format)
+
+
+stats170B_Spring_overview.pdf​
+       (68.2 KB) -
+      added by smyth 5 years ago.
+                Overview of Spring quarter plans (lecture 1 slides)
+
+
+
+
+
+
+Download in other formats:
+
+
+Plain Text
+
+
+
+
+
+
+Powered by Trac 1.0.13
+        By Edgewall Software.
+Visit the Trac open source project athttp://trac.edgewall.org/
+
+

@@ -1,0 +1,284 @@
+http://sdcl.ics.uci.edu/papers
+
+
+
+
+
+
+	Papers – Software Design and Collaboration Laboratory
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SDCL Software Design and Collaboration Laboratory
+
+
+
+
+
+
+Papers
+
+2019
+
+M. Petre, A. van der Hoek, and D. Bowers, Software Design as Multiple Contrasting Dialogues, Psychology of Programing Interest Group Thirtieth Annual Workshop, August 2019 (8 pages).
+E. Paikari, J. Choi, S. Kim, S. Baek, M. Kim, S. Lee, C. Han, Y. Kim, K. Ahn, C. Cheong, and A. van der Hoek, A Chatbot for Conflict Detection and Resolution, First International Workshop on Bots in Software Engineering, May 2019, pages 29-33.
+A. Meza Soria and A. van der Hoek, Collecting Design Knowledge through Voice Notes, Twelfth International Workshop on Cooperative and Human Aspects of Software Engineering, May 2019, pages 33–36.
+
+
+2018
+
+G. Ghiotto Lima Menezes, L. Gresta Paulina Murta, M. Oliveira Barros, and A. van der Hoek, On the Nature of Software Merge Conflicts: a Study of 2,731 Open Source Java Projects Hosted by GitHub, IEEE Transactions on Software Engineering (to appear).
+M. Petre and A. van der Hoek, Beyond Coding: toward Software Development Expertise, ACM Crossroads, October 2018, pages 22-26.
+A. Rastogi, N. Nagappan, G. Gousios, and A. van der Hoek, Relationship between Geographical Location and Evaluation of Developer Contributions in GitHub, Twelfth ACM/IEEE International Symposium on Empirical Software Engineering and Measurement, October 2018, article no 22 (8 pages).
+T.D. LaToza, A. di Lecce, F. Ricci, W.B. Towne, and A. van der Hoek, Microtask Programming, IEEE Transactions on Software Engineering (to appear).
+E. Paikari and A. van der Hoek, A Framework for Understanding Chatbots and their Future, Eleventh International Workshop on Cooperative and Human Aspects of Software Engineering, May 2018, pages 13–16.
+M. Book and A. van der Hoek, Sketching with a Purpose: Moving from Supporting Modeling to Supporting Software Engineering Activities, Eleventh International Workshop on Cooperative and Human Aspects of Software Engineering, May 2018, pages 93–96.
+A. Meza Soria and A. van der Hoek, Toward Collecting and Delivering Knowledge for Software Design at the Whiteboard, Eleventh International Workshop on Cooperative and Human Aspects of Software Engineering, May 2018, pages 108–109.
+
+
+2017
+
+L. Martie, A. van der Hoek, and T. Kwak, “Understanding the Impact of Support for Iteration on Code Search“, 25th International Symposium on Foundations of Software Engineering, 2017, pages 774-785.
+
+
+2016
+
+T.D. LaToza and A. van der Hoek, Crowdsourcing in Software Engineering, IEEE Software, 33(1):2016, pages 74–80.
+E.R.Q. Weidema, C. López, S. Nayebaziz, F. Spanghero, and A. van der Hoek, Toward Microtask Crowdsourcing Software Design Work, Third International Workshop on Crowdsourcing in Software Engineering, May 2016, pages 41–44.
+
+
+2015
+
+L. Martie, T. D. LaToza, and A. van der Hoek, “CodeExchange: Supporting Reformulation of Code Queries in Context“, Thirtieth  International Conference on Automated Software Engineering, November 2015, pages 24-35.
+L. Martie and A. van der Hoek, “Sameness: An Experiment in Code Search”, Twelfth Working Conference on Mining Software Repositories, May 2015, pages 76-87.
+
+
+N. Mangano, T.D. LaToza, M. Petre, and A. van der Hoek, How Software Designers Interact with Informal Sketches at the Whiteboard, IEEE Transactions on Software Engineering, 41(2):2015, pages 135–156.
+T.D. LaToza, A. Di Lecce, F. Ricci, W.B. Towne, and A. van der Hoek, Ask the Crowd: Scaffolding Coordination and Knowledge Sharing in Microtask Programming, Symposium, Visual Languages and Human-Centric Computing, October 2015, pages 23–27.
+T.D. LaToza and A. van der Hoek, A Vision of Crowd Development, Thirty-seventh International Conference on Software Engineering New Ideas and Emerging Results Track, May 2015, pages 563–566.
+T.D. LaToza, M. Chen, l. Jiang, M. Zhao, and A. van der Hoek, Borrowing from the Crowd: A Study of Recombination in Software Design Competitions, Thirty-seventh International Conference on Software Engineering, May 2015, pages 551–562.
+Zhao and A. van der Hoek, A Brief Perspective on Microtask Crowdsourcing Workflows for Interface Design, Second International Workshop on Crowdsourcing in Software Engineering, May 2015, pages 45–46.
+
+
+2014
+
+T.D. LaToza, W.B. Towne, C. Adriano, A. van der Hoek, Microtask Programming: Building Software with a Crowd, Symposium on User Interface Software and Technology, October 2014, pages 43-54.
+B. Penzenstadler, B. Tomlinson, E. Baumer, M. Pufal, A. Raturi, D. Richardson, B. Cakici, R. Chitchyan, G. Da Costa, L. Dombrowski, M. Picha Edwardsson, E. Eriksson, X. Franch, G.R. Hayes, C. Herzog, W. Lohmann, M. Mahaux, A. Mavin, M. Mazmanian, S. Nayebaziz, J. Norton, D. Pargman, D.J. Patterson, J.-M. Pierson, K. Roher, M. Silberman, K. Simonson, A. Torrance, and A. van der Hoek, ICT4S 2029: What Will Be the Systems Supporting Sustainability in 15 Years?, Second International Conference on ICT for Sustainability, August 2014, pages 30-39.
+N. Mangano, T.D. LaToza, M. Petre, and A. van der Hoek, Supporting Informal Design with
+Interactive Whiteboards, Conference on Human Factors in Computing Systems, April 2014, 331-340.
+
+
+2013
+
+A.J. Ko, T.D. LaToza, and M.B. Burnett, A Practical Guide to Controlled Experiments of Software Engineering Tools with Human Participants, Empirical Software Engineering, September 2013, pages 1-32.
+T.D. LaToza, E. Chiquillo, W.B. Towne, C. Adriano, and A. van der Hoek, CrowdCode: A Platform for Crowd Development, CrowdConf, October 2013.
+N. Lopez, Using Topic Models to Understand the Evolution of a Software Ecosystem, Doctoral Symposium, 9th joint meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering, August 2013, pages 723-726.
+G. Bortis and A. van der Hoek, PorchLight: a Tag-Based Approach to Bug Triaging, Thirty-fifth International Conference on Software Engineering, May 2013, pages 342–351.
+D. Loksa, N. Mangano, T.D. LaToza, and A. van der Hoek, Enabling a Classroom Design Studio with a Collaborative Sketch Design Tool, Thirty-fifth International Conference on Software Engineering Education Track, May 2013, pages 1073–1082.
+A. Motta, N. Mangano, and A. van der Hoek, Light-weight Analysis of Software Design Models at the Whiteboard Fifth International Workshop on Modeling in Software Engineering, May 2013, pages 18–23.
+L. Martie and A. van der Hoek, Toward Social-Technical Code Search, Sixth International Workshop on Cooperative and Human Aspects of Software Engineering, May 2013, pages 101–104.
+T.D. LaToza, W. B. Towne, A. van der Hoek, J. D. Herbsleb, Crowd Development, Sixth International Workshop on Cooperative and Human Aspects of Software Engineering, May 2013, pages 85–88.
+T.D. LaToza, E. Shabani, A. van der Hoek, A Study of Architectural Decision Practices, Sixth International Workshop on Cooperative and Human Aspects of Software Engineering, May 2013, pages 77–80.
+
+
+2012
+
+L. Martie, V. Palepu, H. Sajnani, and C. Lopes, Trendy Bugs: Topic Trends in the Android Bug Reports, 9th Working Conference on Mining Software Repositories, 2012, pages 120-123
+N. Mangano and A. van der Hoek, The design and evaluation of a tool to support software designers at the whiteboard, Automated Software Engineering, 19(4): 2012, pages 381–421.
+
+
+2011
+
+A. Sarma, D. Redmiles, and A. van der Hoek, Palantír: Early Detection of Development Conflicts Arising from Parallel Code Changes, IEEE Transactions on Software Engineering, 38(4): 2012, pages 889–908.
+N. Mangano, M. Dempsey, N. Lopez, and A. van der Hoek, A Demonstration of a Distributed Software Design Sketching Tool, Thirty-third International Conference on Software Engineering Demonstration Track, May 2011, pages 1028–1030.
+N. Lopez and A. van der Hoek, The Code Orb – Supporting Contextualized Coding via At-a-Glance Views (NIER Track), Thirty-third International Conference on Software Engineering New Ideas and Emerging Results Track, May 2011, pages 824-827.
+G. Bortis and A. van der Hoek, TeamBugs: A Collaborative Bug Tracking Tool, Fourth International Workshop on Cooperative and Human Aspects of Software Engineering, May 2011, pages 69-71.
+A. van der Hoek and N. Lopez, A Design Perspective on Modularity, Tenth International Conference on Aspect-Oriented Software Development, March 2011, pages 265-279 (keynote paper).
+
+
+2010
+
+A. Baker and A. van der Hoek, Ideas, Subjects, and Cycles as Lenses for Understanding the Software Design Process, Design Studies, 31(6):2010, pages 590–613.
+N. Lopez and A. van der Hoek, An Agenda for Concern-Oriented Software Engineering, FSE/SDP Workshop on Future of Software Engineering Research, November 2010, 5 pages.
+M. Grechanik, J.A. Jones, A. Orso, and A. van der Hoek, Bridging Gaps between Developers and Testers in Globally-Distributed Software Development, FSE/SDP Workshop on Future of Software Engineering Research, November 2010, 5 pages.
+N. Mangano, A. Baker, M. Dempsey, E. Navarro, and A. van der Hoek, Software Design Sketching with Calico, Twenty-fifth IEEE/ACM International Conference on Automated Software Engineering, September 2010, pages 23–32.
+S. Jansen, W. Buts, Sjaak Brinkkemper, and A. van der Hoek, Benchmarking the Customer Configuration Updating Process of the International Product Software Industry, International Conference on Software Process 2010, July 2010, pages 369–380.
+A. Sarma, D. Redmiles, and A. van der Hoek, Categorizing the Spectrum of Coordination Technology, IEEE Computer, 43(6): 2010, pages 61–67.
+F. Servant, J.A. Jones, and A. van der Hoek, CASI: Preventing Indirect Conflicts through a Live Visualization, Third International Workshop on Cooperative and Human Aspects of Software Engineering, May 2010, pages 39–46.
+S. Jansen, W. Buts, Sjaak Brinkkemper, and A. van der Hoek, Benchmarking the Customer Configuration Updating Process of the International Product Software Industry, International Conference on Software Process 2010, July 2010, pages 369–380.
+
+
+2009
+
+T. Proença, N. Moura, and A. van der Hoek, On the Use of Emerging Design as a Basis for Knowledge Collaboration, Third International Workshop on Knowledge Collaboration in Software Development, November 2009, pages 91–99.
+G. Bortis and A. van der Hoek, DesignMinders: A Design Knowledge Collaboration Approach, Third International Workshop on Knowledge Collaboration in Software Development, November 2009, pages 84–90.
+J. Georgas, A. van der Hoek, and R.N. Taylor, Using Architectural Models to Manage and Visualize Runtime Adaptation, IEEE Computer, 42(10):2009, pages 52–60.
+E. Nistor and A. van der Hoek, Explicit Concern-Driven Development in ArchEvol, Twenty-fourth IEEE/ACM International Conference on Automated Software Engineering, November 2009, pages 185–196.
+J. Georgas, A. van der Hoek, and R.N. Taylor, Using Architectural Models to Manage and Visualize Runtime Adaptation, IEEE Computer, 42(10):2009, pages 52–60.
+G. Bortis and A. van der Hoek, DesignMinders: Preserving and Sharing Informal Software Design Knowledge, Second Workshop on Knowledge Reuse, September 2009, 8 pages.
+N. Lopéz, R. Casallas, and A. van der Hoek, Issues in Mapping Change-Based Product Line Architectures to Configuration Management Systems, Thirteenth International Software Product Line Conference, August 2009, pages 21–30
+S.A Hendrickson, Y. Wang, A. van der Hoek, R.N. Taylor, and A. Kobsa, Modeling PLA Variation of Privacy-Enhancing Personalized Systems, Thirteenth International Software Product Line Conference, August 2009, pages 71–80.
+J.A. Jones, M. Grechanik, and A. van der Hoek, Enabling and Enhancing Collaborations between Software Development Organizations and Independent Test Agencies, Workshop on Cooperative and Human Aspects on Software Engineering, May 2009, pages 56–59.
+A. Baker and A. van der Hoek, An Experience Report on the Design and Delivery of Two New Software Design Courses, Fortieth ACM Technical Symposium on Computer Science Education, March 2009, pages 319–323
+E. Navarro and A. van der Hoek, A Multi-Site Evaluation of SimSE, an Educational Software Engineering Simulation Game, Fortieth ACM Technical Symposium on Computer Science Education, March 2009, pages 326–330.
+
+
+2008
+
+A. Sarma, D. Redmiles, and A. van der Hoek, Empirical Evidence of the Benefits of Workspace Awareness in Software Configuration Management, Sixteenth ACM SIGSOFT International Symposium on the Foundations of Software Engineering, November 2008, 113–123.
+R. Ripley and A. van der Hoek, Decisions and Rationale during the Evolution of a Coordination Infrastructure, Workshop on Infrastructure for Research in Collaborative Software Engineering, November 2008, 4 pages.
+N. Mangano, A. Baker, M. Dempsey, E. Navarro, and A. van der Hoek, Calico: A Tool for Early Software Design Sketching, Workshop on Sketch Tools for Diagramming, September 2008, pages 51–56.
+N. Mangano, A. Baker, and A. van der Hoek, Calico: A Prototype Sketching Tool for Modeling in Early Design, International Workshop on Modeling in Software Engineering, May 2008, pages 63–68.
+G. Bortis and A. van der Hoek, Software Pre-Patterns as Architectural Knowledge, Third International Workshop on Sharing and Reusing Architectural Knowledge, May 2008, pages 19–22
+S.A. Hendrickson, S. Subramanian, and A. van der Hoek, Multi-Tiered Design Rationale for Change Set Based Product Line Architectures, Third International Workshop on Sharing and Reusing Architectural Knowledge, May 2008, pages 41–44.
+B. Al-Ani, E. Trainer, R. Ripley, A. Sarma, A. van der Hoek, and David Redmiles, Continuous Coordination within the Context of Cooperative and Human Aspects of Software Engineering, First International Workshop on Cooperative and Human Aspects of Software Engineering, May 2008, pages 1–4.
+L.P.G. Murta, A. van der Hoek, and C.M.L Werner, Continuous and Automated Evolution of Architecture-to-Implementation Traceability Links, Automated Software Engineering Journal, 15(1):2008, pages 75–107.
+B. Al-Ani, D. Redmiles, A. van der Hoek, M. Alvim, I. Almeida da Silva, N. Mangano, E. Trainer, A. Sarma, Continuous Coordination within Software Engineering Teams: Concepts and Tool Support, Journal of Computer Science and Engineering in Arabic, 1(3):2008, pages 10–33.
+
+
+2007
+
+A. Sarma, G. Bortis, and A. van der Hoek, Towards Supporting Awareness of Indirect Conflicts across Software Configuration Management Workspaces, Twenty-second IEEE/ACM International Conference on Automated Software Engineering, November 2007, pages 94–103.
+A. Sarma, D. Redmiles, and A. van der Hoek, A Comprehensive Evaluation of Workspace Awareness in Software Configuration Management Systems, 2007 IEEE Symposium on Visual Languages and Human-Centric Computing, September 2007, pages 23–26.
+I. Almeida da Silva, M. Alvim, R. Ripley, A. Sarma, C.M.L. Werner, and A. van der Hoek, Designing Software Cockpits for Coordinating Distributed Software Development, First Workshop on Measurement-based Cockpits for Distributed Software and Systems Engineering Projects, August 2007, pages 14–19.
+E. Oh Navarro and A. van der Hoek, Comprehensive Evaluation of an Educational Software Engineering Simulation Environment, Twentieth Conference on Software Engineering Education and Training, July 2007, pages 195–202.
+R. Ripley, A. Sarma, and A. van der Hoek, A Visualization for Software Project Awareness and Evolution, Fourth IEEE International Workshop on Visualizing Software for Understanding and Analysis, June 2007, pages 137–144.
+S.A. Hendrickson and A. van der Hoek, Modeling Product Line Architectures through Change Sets and Relationships, Twenty-ninth International Conference on Software Engineering, May 2007, pages 189–198.
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+Collaborators
+
+Anita Sarma
+David Redmiles
+Marian Petre
+Shinobu Saito
+Thomas LaToza
+
+
+
+
+
+
+
+
+
+
+Home
+Research
+
+Chatbots
+KnoCap
+Past projects
+
+Lighthouse
+CrowdDesign
+Crowd Debugging
+Calico
+CodeExchange
+Code Orb
+Crowd Development
+PorchLight
+
+
+
+
+Papers
+
+Technical reports
+Dissertations
+Books
+
+
+Opportunities
+People
+
+Previous members
+
+
+Sponsors
+Contact
+
+Directions
+
+
+
+
+
+
+
+
+
+
+
+ The Software Design and Collaboration Laboratory is housed in the Department of Informatics in the Donald Bren School of Information and Computer Sciences at the University of California, Irvine.
+
+
+
+
+
+    
+
+
+
+
+
+   
+
+
+
+
+Copyright ©             
+            SDCL |   eDegree° Theme by Top Blog Formula on WordPress |   
+                            Log In
+
+
+
+
+
+

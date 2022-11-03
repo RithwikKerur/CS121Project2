@@ -1,0 +1,9 @@
+http://plrg.ics.uci.edu/publications/520.bib
+@inproceedings{key,
+ author = {Brian Demsky and Patrick Lam},
+ title = {SATCheck: SAT-Directed Stateless Model Checking for SC and TSO},
+ booktitle = {Proceedings of the 2015 Conference on Object-Oriented Programming, Systems, Languages, and Applications},
+ location = {Pittsburg, Pennsylvania},
+ month = {October},
+ year = {2015}
+}

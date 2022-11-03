@@ -1,0 +1,790 @@
+http://www.ics.uci.edu/~stasio/winter06/lab3/lab3.html
+
+
+ICS H22 Winter 2006, Lab 3: The Company Payroll
+
+
+
+
+
+    
+
+  
+
+
+Lab3: The Company Payroll
+Due Feb 3 (Friday) 11:59pm
+Zip all the 
+
+.
+java
+ 
+			file and a readme.txt file if necessary and submit the
+			zip to EEE under folder Lab3!
+
+
+
+
+
+
+Introduction
+For this project, you will write a program that handles some relatively simple 
+					payroll-processing tasks for a small business. While working on this project, 
+					you will gain experience with inheritance and polymorphism, the use of the 
+					generic
+					ArrayList
+					class in the Java library, enumerations, and using the console as well as files 
+					to read input and write formatted output. These skills will be relied upon 
+					throughout the quarter in future projects, so it is very important to start 
+					early and leave yourself plenty of time to get your questions answered and 
+					finish the project.
+For this lab, you'll need to read the section 2.5.2 of chapter 2 which deals 
+					with generics.
+
+
+
+
+
+The program
+You should write a program which allows the user to manage payroll for a small 
+					company. In the first part of the assignment (which, however, 
+					we will not test), your program will presents a console-mode user 
+					interface that will allow the user to enter and remove individual employees, 
+					list them, and do a weekly payroll.  In the second part of 
+					the assignment (the only one we will test), your program will take the user's 
+					input from a file instead of the console.
+
+					The payroll data consists of a list of employees. There are three kinds of 
+					employees: hourly employees, salaried employees, and contract 
+						employees. Each kind of employee has different characteristics, as 
+					described a bit later in the write-up. At the end of each week, the program 
+					will be used to generate and display nicely-formatted paychecks for all of the 
+					employees of the company.
+First version of your program (not graded):
+The first version of your program should provide a console interface that 
+					handles the following commands from the user:
+
+
+Add Employee. Asks the user to specify the type of employee (hourly, 
+					salaried, or contract) and all of the information that describes the employee. 
+					(Note that different kinds of employees are described by different information, 
+					see below.)  If the employee of that name already exists on the list, warn 
+					the user and do not add the new employee (they better ask for the new person's 
+					middle name).  If no employee with the matching name exists, the 
+					newly-described employee is added to end of the employee list.
+					
+Remove Employee
+					. Asks the user to specify the name of the employee to remove. Goes through the 
+					list of employees and removes an employee with a matching name.  If no 
+					such employee exists, the user should be warned but the list of the employees 
+					stays unchanged.
+					
+Show Employees. Prints the entire list of employees to the console, 
+					one employee per line. All relevant information about each employee is shown 
+					(i.e. name, type of employee, wage or salary).
+					
+Do Weekly Payroll. For each employee in the list of employees, including 
+						those who are not paid by the hour, the program asks the user to specify the 
+						number of hours worked this week. (It is necessary to include, on each 
+						paycheck, an indication of the number of hours worked for all employees, 
+						regardless of whether their pay is determined by the number of hours they 
+						worked.) After asking about all the employees,
+					the program prints paychecks for each employee to the console, one after 
+					another. Finally, the program prints the total gross pay and total tax for all 
+					of the employees.
+					
+Quit. Exits the program.
+					
+
+A message should be printed on the console regarding whether or not the command 
+					is executed successfully if necessary to make a friendly user interface. Such 
+					message could be "The employee is successfully added!" or "file successfully 
+					read".  We provide a lot of code that helps you process this console input 
+					(see the link to the Zip file below), so almost all the code that you really 
+					need to write to get this initial version of your program to run will be 
+					reusable in the second version described below.
+				
+Second version of your program (this will be graded):
+The second version of your program will not handle any user's commands from the 
+					console.  Instead, one will call your program with a command like this:
+java Company 
+							inputfile.txt
+Your program should take all the input 
+					from the inputfile.txt file and process it from top to bottom as follows:  
+					The file can specify exactly the same instructions (except of Quit) 
+					which the user can specify above.  In each case, the first line of the 
+					input file specifies the command name, and the few subsequent lines specify all 
+					the data that the user would input for such command.  (The number of these 
+					lines differs for different commands.)  For example, the inputfile.txt can 
+					include a block of lines as follows:
+AddEmployee
+<Employee_Name (string, 
+which can include spaces)>
+<Employee_Type 
+(string)>
+<Employee_HourlyPayment (if is hourly employee or Contract emplyee) or AnnualPayment(if is 
+salaried employee)(in dollars)>
+Your program, seeing such line in the inputfile.txt file, should trigger the 
+					same procedure as the Add Employee command does above, and it 
+					treats the data on the next three lines in the same way as this command 
+					does. 
+				
+The file can also specify that some employee should be removed from the list if 
+					it includes the following block of two lines:
+RemoveEmployee
+<Name_of_Employee_To_Be_Removed>
+Your program, on encountering such group of lines in the inputfile.txt should 
+					process it the same way as it processed the Remove Employee command 
+					above.
+Also, the program can have a group of lines as follows:
+WeeklyPayroll
+<Name_of_1st_Employee>
+<Hour_worked_for_1st_Employee>
+...
+
+<Name_of_nth_Employee>
+<Hour_worked_for_nth_Employee>
+
+ 
+Your program should handle it the way the first 
+					version handled the Do Weekly Payroll command above.  The 
+					line with the WeeklyPayroll string is assumed to be followed by n pairs of 
+					lines with names and hours of all the current employees in your list.  In 
+					other words, if the current number of employees in your list is n, your program 
+					can assume that there are n pairs of (name,hours) lines that follow.  
+					Note, however, that the order in which these employees are listed 
+					above is not assumed to be the same as the order in which your 
+					application stores these employees.  It might be convenient for you, 
+					therefore, to create a temporary array storing these n (name,hour) pairs, and 
+					then execute the Do Weekly Payroll procedure using the data in 
+					this temporary array.
+ 
+Finally, if the inputfile.txt has the following 
+					line:
+ 
+ShowEmployees
+ 
+Your program should handle it the way the first 
+					version handled the Show Employees 
+				command above. 
+				
+An example of such file is given here:
+				
+						inputfile.txt
+				.  For simplicity, you can assume the input file is well written, i.e. you 
+				don't need to worry about the exception handling for reading in file 
+				contents.  However, it'd be probably a smart thing if you choose to deal 
+				with (perhaps certain kinds of) errors in either the console input or the file 
+				input anyway, just so that it might simplify debugging of your own code.
+				 
+The 
+					main(
+					) method for the second version of your program (the only one we will grade) is 
+					defined in a class called Company (which we provided in the zip file 
+					linked below).  You should not modify this Company class.  As a 
+					result, we should be able to compile and execute your program on amy input file 
+					inputfile.txt we choose with the following commands at the command prompt:
+ 
+    javac <your_classes>.java
+java Company inputfile.txt
+ 
+
+
+
+Kinds of employees
+There are three kinds of employees that your program will be required to 
+					process: hourly employees, salaried employees, and contract 
+						employees. For our purposes, they differ in the following ways:
+
+
+					Hourly employees are paid an hourly wage (e.g. $9.50 per hour). They are paid 
+					this wage for each of their first 40 hours worked in a week. If an hourly 
+					employee works more than 40 hours per week, the hours above 40 are paid at 
+					"time and a half" (i.e. 1.5 times their hourly wage). So, for example, at 
+					$10.00 per hour, if an hourly employee works 60 hours in a week, they are paid 
+					$10.00 per hour for each of the first 40 hours, plus $15.00 per hour for the 20 
+					additional hours, for a total of $700.00.
+					
+						Salaried employees are paid a fixed yearly salary (e.g. $75,000 per year),
+					regardless of the number of hours they work. Each week, they are paid 1/52 of 
+					their yearly salary. As an example, a salaried employee with an annual salary 
+					of $52,000 will be paid $1,000 per week.
+					
+						Contract employees are paid an hourly rate (e.g. $30.00 per hour), but differ 
+						from hourly employees in that they are ineligible for overtime pay; all of 
+						their hours are paid at the same rate, regardless of how many hours they work 
+						in a week.
+					
+
+One other way that the employees differ is how they are taxed: hourly and 
+					salaried employees are assessed a 20% income tax, while contract employees are 
+					not assessed any tax at all. The assumption here is somewhat like in the real 
+					world: contract employees are not full-fledged employees of the company, so 
+					they are required to handle their own taxes.
+
+
+
+
+
+Starting point
+I have provided quite a bit of code to get you started with this program, 
+					including some parts that I've provided in their entirety. The code is 
+					available in a Zip 
+						archive. Be sure you look through all of the code - and read all of the 
+					comments! -
+					before
+					you get started, so that you don't wind up having to duplicate work that I've 
+					already done for you.
+In general, you are required to build from what's been provided, rather than 
+					starting from scratch. This gives you the advantage of having some of the more 
+					tedious portions done for you, so that you can focus your energies on the 
+					portions you'll learn the most from, while giving us the advantage of assuming 
+					that all of the programs are built from a common base.
+
+
+
+
+
+Using inheritance and polymorphism in your program
+One of the most important programming habits you can adopt, if you haven't 
+					already, is the avoidance of duplicate code. By "duplicate code," I mean having 
+					the same code that does the same job for the same reason in more than one place 
+					in your program. Duplicate code is not only wasteful; it's also a recipe for 
+					disaster. Suppose that, as you're developing a program, you copy and paste the 
+					same code into ten different methods scattered throughout the program. Now 
+					suppose that you find a bug in one of those ten methods, and that the bug 
+					happens to be in the part of the code that you copied. If you're fortunate, 
+					you'll remember that you copied the code elsewhere. However, it's doubtful that 
+					you'll remember not only that you copied the code, but also precisely how many 
+					times and where! If you're lucky, you'll find and fix the code in nine of the 
+					ten places, but it's very likely that you'll miss at least one of them. It 
+					could be months before you find out about the bug in the tenth place. By the 
+					time you do, your understanding of the bug and how to fix it will be long since 
+					forgotten. Now imagine that this same scenario has played out over and over 
+					again in the development of a very large program. Not surprisingly, one can 
+					reasonably expect that the program will never be free from bugs.
+The moral of this story is that whenever you feel the urge to copy and paste a 
+					chunk of code, you should stop and think of a better way to solve the problem. 
+					If you want to copy the same chunk of code into two methods within the same 
+					class, put the code into a third method instead, then call that third method 
+					from the other two. If you want to copy the same chunk of code into more than 
+					one class, think about creating a third class to house the duplicate code. If 
+					substantial portions of two classes are similar, it might be time to think 
+					about inheritance, with the third class being the
+					superclass
+					of the other two.
+You will face this problem more than once while working on this program, as you 
+					would face it in virtually all programs of more than a few lines. One time you 
+					will face this problem is in your development of classes to represent each kind 
+					of employee. There are three kinds of employees in the program - hourly, 
+					salaried, and contract - with some similarities and differences between them. 
+					The similarities are:
+
+
+					Each employee has a name.
+					
+					A paycheck can be calculated for each employee (though it will be calculated 
+					differently for each kind of employee).
+					
+						Each employee can be turned into a String, for the purposes of printing the 
+						employee's information to the console. Again, how an employee will be turned 
+						into a String will depend on the kind of employee.
+					
+
+The presence of these similarities argues very strongly for a
+					superclass
+					called Employee, with subclasses for each specific kind of employee (hourly, 
+					salaried, and contract). I've provided the Employee class for you (which you are 
+						not permitted to modify), but you'll need to write the three 
+					subclasses. The good news is that, in each subclass, you'll only need to write 
+					the code that distinguishes a particular kind of employee from the others; the 
+					code that describes the similarities between all employees will appear only 
+					once, in the Employee class.
+There is much to be gained by using this approach other than just the obvious 
+					benefit of code reuse. Additionally, it will simplify portions of the user 
+					interface. Rather than maintaining a separate data structure for each kind of 
+					employee - one for all the hourly employees, one for all the salaried 
+					employees, and one for all the contract employees - we can have just one 
+					instead, which stores all of the employees, regardless of their type. Then, 
+					thanks to polymorphism, when we print an employee's information or ask for a 
+					paycheck to be calculated for an employee, the "right thing" will automatically 
+					happen, depending on what kind of employee it is.
+Inheritance and polymorphism are important techniques to use in a situation like 
+					this one. You are required to define a separate class for each kind of 
+					employee, relate them together by extending them all from the provided Employee 
+					class, and make use of polymorphism whenever it makes sense.
+
+
+
+
+
+Using the generic ArrayList
+class
+One of the key improvements in the latest version of Java is the inclusion of generic 
+						classes. What makes a class "generic" is its ability to deal with 
+					different kinds of objects in different parts of a program, but in each case to 
+					deal with one kind of object specifically. For example, the
+					ArrayList
+					class is generic. When using the generic version of
+					ArrayList, you can specify the type of objects that 
+					each of your
+					ArrayLists
+					will be allowed to hold. For example, if you want to create an
+					ArrayList
+					of Strings, you would write the following code:
+    ArrayList<String> a = new ArrayList<String>();
+Two important benefits arise when you can specifically tell Java that you want 
+					an
+					ArrayList<String>. First, whenever you 
+					attempt to add an object into an
+					ArrayList<String>, the compiler will give an 
+					error message if you try to add one that isn't a String. In other words, an
+					ArrayList<String> is guaranteed to have only 
+					Strings in it. Second, since an
+					ArrayList<String> will only ever have Strings 
+					in it, Java will happily assume that any object you pull back out of the
+					ArrayList
+					is a String. (If you've used
+					ArrayList
+					before in a previous version of Java, you might remember needing to use casting 
+					whenever you accessed individual objects in the list. This is no longer 
+					necessary and is, in fact, frowned upon in most situations.)
+Here's a quick example, following on from the one above:
+    // each call to add() will add a String to the end of the list a
+    a.add("Mary");
+    a.add("is");
+    a.add("happy");
+ 
+    String s = "";
+ 
+    for (int i = 0; i < a.size(); i++)
+    {
+        // retrieve the i-th element from the list and append it to s
+        s += a.get(i);
+    }
+ 
+    // this will print "Maryishappy" to the console
+    System.out.println(s);
+The only
+					ArrayList
+					methods I used in my solution to this project were:
+
+
+add(x): adds the object x
+					to the end of the list
+					
+get(i): returns the object in the list with 
+						index
+						
+i; indices are consecutive, with the first object having 
+					the index 0, just like in an array
+					
+remove(i): removes the object from the list 
+						with index
+						
+i; subsequent objects are "slid back" one cell to fill 
+					the empty space
+					
+size( ): returns the number of objects in the list
+					
+
+You may wish to use others, though. If so, I recommend looking at the 
+						Java library documentation for more information. (It's best for you to 
+					become acquainted with the library documentation as soon as you can; you'll 
+					need it more often as we move forward in this course, and especially after you 
+					move on to later courses.)
+
+
+
+
+
+Console/file input using the Scanner class
+The Java library includes a class called Scanner that makes reading input from 
+					the console (or other sources) a snap. A Scanner "wraps around" an input 
+					source, such as the console or an input file. It can then read either one line 
+					or one value at a time from that input source.
+In this program, you'll want to read your input from the console. So, to set up 
+					your Scanner, you'd write a line of code like this one:
+    // Creates a new Scanner wrapped around the console (System.in).
+    Scanner s = new Scanner(System.in);
+(It should be noted that I've already provided this line of code in the Payroll 
+					class.) Once you've created your Scanner, there are many methods you can call 
+					on it, to read input of different types. I used these two in my solution:
+
+
+
+nextLine( ): reads the next line of input and 
+					returns it as a String
+					
+
+nextInt( ): reads the next word of input (up to the 
+						next space) and returns it as an
+						int
+
+
+As an example, here's a fragment of Java code (following on from the one above) 
+					that reads two integers (one per line) from the console, then prints their sum.
+    System.out.print("Enter first integer: ");
+ 
+    // Read the next integer from the console.
+    int i1 = s.nextInt();
+ 
+    // Since nextInt() reads only up to the next space, not to the end of
+    // the line, adding a call to nextLine() after each call to nextInt()
+    // is a good idea, to consume any leftover input on the line.
+    s.nextLine();
+ 
+    System.out.print("Enter second integer: ");
+    int i2 = s.nextInt();
+    s.nextLine();
+ 
+    int sum = i1 + i2;
+    System.out.println("The sum is " + sum);
+As I did in the example, it's always a good idea to prompt the user and explain 
+					what kind of input you're interested in. For this project, you will have to 
+					deal with exceptions here.
+					
+nextInt
+
+					() throws an Input
+					MismatchException
+					when it tries to consume input that is not a number. If the exception is not 
+					caught in the code, the compiler won't give
+					a
+					error saying there is an exception that should be caught. However, when you run 
+					the program, and when the user types a string instead, the program will end 
+					unexpectedly. We require you to avoid this unexpectedness and handle 
+					it by "try" and "catch" somewhere.
+File input will be
+					similiar
+					to the console input. The difference lies in when you initialize the Scanner. 
+					Console input initializes the Scanner class using (System.in) 
+					as parameter. However, for file input, we use a File type parameter. 
+					Class File is an abstract representation of file and directory pathnames. 
+					One of the constructors of the File class is as follows: 
+					File(String
+					pathname). So we can create a File object using the following 
+					statement for example:
+       File inputFile
+= new File("input.txt");
+This create
+					a new File object which opens a file in the working directory where 
+					your java program runs, named "input.txt". Then we can use this as an input.
+    Scanner
+read = new Scanner (inputFile);
+This statement initializes the scanner just as how the Scanner object is created 
+					for the console input. We can combine the two statements together as follows 
+					which what we did in the
+					SavingCalculateTester.
+    Scanner
+read = new Scanner (new File("input.txt"));
+
+
+
+
+
+Formatted console output
+In this program, you won't just be printing unformatted text to the console; 
+					you'll also need to print integer values, right-justify monetary amounts, and 
+					so on. For example, when you want to print a paycheck to the console, you'll 
+					need, first, to format it so that it looks nice. As an example, you might print 
+					a paycheck this way:
+     Paycheck for John Doe (hourly, $26.50/hr)
+ 
+             Hours Worked:          40
+                Gross Pay:      $1,060.00
+                      Tax:        $212.00
+                  Net Pay:        $848.00
+A clean way to do this is to first teach Paycheck objects how to format 
+					themselves as Strings, then to print these Strings to the console using
+					
+System.out.print
+					or
+					
+System.out.println. Java is set up to make this relatively 
+					easy. First, you must write the following method in the Paycheck class:
+    public String toString()
+    {
+        // ...
+    }
+Of course, the comment would need to be replaced with code that builds and 
+					returns a String representation of the Paycheck. Once that code is in place, if 
+					you have a Paycheck object, you can print it directly to the console using
+					
+System.out.println:
+    // Assume that p is created appropriately.
+    Paycheck p = ...;
+ 
+    // Whenever you try to print an object to the console, Java
+    // automatically calls toString() on it, then prints the result
+    // to the console for you.
+    System.out.println(p);
+What we need to be able to do, then, is to write the appropriate code in the
+					toString
+					( ) method.
+Suppose that, instead of a paycheck, we want to print identifying information 
+					about a person, formatted nicely. The
+					
+String.format
+( ) method helps; it knows how to take data of various types, format it 
+					according to your specifications, and return it to you as a String. The first 
+					parameter you pass to it is called a format string, which is used to 
+					tell it how you'd like the data to be formatted, with placeholders for the 
+					data. Subsequent parameters specify the data that will replace the 
+					placeholders. Here's an example from a hypothetical Person class:
+    public String toString()
+    {
+        String s = "";
+ 
+        s += String.format("%-10s: %s\n", "Name", name);
+        s += String.format("%-10s: %s\n", "Title", title);
+        s += String.format("%-10s: %4d\n", "Height", height);
+        s += String.format("%-10s: %4d\n", "Weight", weight);
+ 
+        return s;
+    }
+This code might generate the following output for a hypothetical person:
+    Name      : John Doe
+    Title     : CEO
+    Height    :   71
+    Weight    :  190
+In the format string, each occurrence of the % character indicates a 
+					placeholder for a piece of data. It is followed by a letter such as s (for 
+					a String) or d (for an integer), with an optional number in front of it 
+					that indicates justification (a positive number means to right-justify, while a 
+					negative number means to left-justify). In the example code above, you can see 
+					the placeholder %-10s, which means to print a String left-justified 
+					within 10 characters (i.e. with extra space added after it so that it fills up 
+					at least 10 characters). The placeholder %4d means to print an integer 
+					right-justified within 4 characters (i.e. with extra space added before it, if 
+					needed). The placeholder %s simply means to print a String, with no 
+					extra spaces added before or after it.
+If the format string has two placeholders in it, as in the example code above, 
+					you'll need to supply it with two parameters that supply the data. For example, 
+					this line:
+        s += String.format("%-10s: %4d\n", "Height", height);
+...tells the method to left-justify the text "Height" within 10 characters, 
+					follow that by a colon and a space, and follow that with the integer height 
+					right-justified within 4 characters. The \n you see at the end of the 
+					format string says to insert a
+					newline
+					character, so that subsequent characters will appear on the next line when the 
+					String is printed.
+This is a great tool that you can use to format your output to make it look 
+					nice; I expect you to use it. If you want to make your paychecks look just like 
+					the example paycheck I showed, feel free; if not, that's okay, too, but you are 
+					required to justify your output so that it can be read easily. A good rule of 
+					thumb is to right-justify the numbers so that they can easily be read from top 
+					to bottom.
+I provided a method
+					
+CurrencyFormat.format
+( ) that you can use to format an integer number of cents into a 
+					dollars-and-cents form with a dollar sign and decimal point. You'll be writing
+					
+toString
+( ) methods in the employee subclasses and Paycheck.
+
+
+
+
+
+Enumerations
+You may have encountered a situation in a prior Java course in which you needed 
+					a set of constants that were related to one another, such as the days of the 
+					week. It's possible that you would have solved the problem by declaring a set 
+					of integer constants with unique values:
+    public static final int SUNDAY = 1;
+    public static final int MONDAY = 2;
+    public static final int TUESDAY = 3;
+    public static final int WEDNESDAY = 4;
+    public static final int THURSDAY = 5;
+    public static final int FRIDAY = 6;
+    public static final int SATURDAY = 7;
+There are two problems with this approach. One is that the numeric values often 
+					have no actual relevance in the program, other than the fact that they need to 
+					be unique; there's no good reason that SUNDAY couldn't be 0 (or 4,000) instead. 
+					Another - and this one is a lot more important! - is that any time you want to 
+					declare a variable or parameter to store a "day of week" value, you have to 
+					declare it to be of type int. This is not only counterintuitive, but 
+					also opens up the very real possibility that the variable might eventually wind 
+					up with a value other than one in the range 1..7, which could grind the program 
+					to a halt if there isn't a lot of tedious error-checking code throughout.
+A better way to solve this problem that is available in Java 5.0 is to use an enumeration. 
+					In its simplest form, an enumeration can be thought of as precisely a solution 
+					to this problem: a way of expressing that a set of named constants is related 
+					to one another. Rather than declaring them as separate constants of some 
+					existing data type such as
+					
+int, they can be put together in an enumeration and become a 
+					new type of data. For example:
+    public enum DayOfWeek
+    {
+        SUNDAY,
+        MONDAY,
+        TUESDAY,
+        WEDNESDAY,
+        THURSDAY,
+        FRIDAY,
+        SATURDAY
+    }
+(If you think that the numeric values from before are necessary for some reason, 
+					that's no problem; they can be included if you wish. In fact, the values don't 
+					even necessarily have to be integers. But when they are only used to 
+					differentiate between the constants, they should not be included.)
+Once you've declared this enumeration, it becomes possible to have variables of 
+					type
+					DayOfWeek, which will only be allowed to have one 
+					of the seven constant values listed above (or null). For example:
+    // One of the constants can be directly assigned into a DayOfWeek.
+    DayOfWeek d = DayOfWeek.SUNDAY;
+ 
+    // A DayOfWeek can be a return value from a method.
+    DayOfWeek d2 = getCurrentDayOfWeek();
+ 
+    // We can use DayOfWeek constants in comparisons, too!
+    if (d2 == DayOfWeek.MONDAY)
+    {
+        System.out.println("Just another manic Monday.");
+    }
+ 
+    // We can even use them in switch statements.  It's important to note that
+    // when used in a switch statement, you aren't supposed to qualify the
+    // names of the constants by putting "DayOfWeek." in front of them.  Go
+    // figure.
+    switch (d2)
+    {
+    case MONDAY:
+        System.out.println("Just another manic Monday.");
+        break;
+ 
+    case FRIDAY:
+        System.out.println("Everybody's workin' for the weekend.");
+        break;
+ 
+    default:
+        System.out.println("Some days are better than others.");
+        break;
+    }
+I've provided you with an enumeration called
+					PayrollCommand, which is a set of all of the 
+					commands that can be executed by the user. You won't need to define an 
+					enumeration in this assignment, but you will need to manipulate
+					PayrollCommand
+					variables from time to time. The examples above, as well as the code I provided 
+					in the starting point, demonstrate everything you'll need to know.
+
+
+
+
+
+Dealing with money properly
+You'll probably notice that the methods that manipulate monetary amounts (e.g. 
+					the
+					format(
+					) method in the
+					CurrencyFormat
+					class) expect them to be stored as
+					
+int
+					values. Your program is expected to be capable of dealing with money accurately 
+					to the cent, which might make you wonder why I haven't used double values 
+					instead.
+As far as our payroll program is concerned, cents are indivisible. In other 
+					words, an employee will never be paid or taxed a fraction of a cent. The 
+					primary problem with double values is that they may be
+					inaccurate,
+					because of the way computers store floating-point numbers (i.e. numbers with 
+					fractional parts). Through simple arithmetic, a small amount of error, such as 
+					0.0000001, can easily be introduced into a calculation, which becomes a 
+					nightmare to deal with when cents are meant to be indivisible.
+So, rather than representing money using double values, your
+program should use int values, representing
+numbers of cents.
+					For example, if an employee's hourly wage is $17.54, it should be stored as the
+					
+int
+					value 1754. The
+					CurrencyFormat
+					class that I provided can be used to take care of formatting this value so that 
+					it will appear as $17.54 when it's time to print it out to the console.
+[paragraph corrected 2/1/06:]  It's up to you to 
+					decide in what format the user will input the salary amount of the added 
+					employee in the console-input version of your program.  E.g. the 
+					user can enter the salary in cents (an integer value) or dollars (a float or 
+					double).  However, in the file-input version of the program, i.e. 
+					where all inputs are taken from the file input, we expect that the salary 
+					amounts of the added employees are expressed in dollars, i.e. they can have a 
+					decimal point.  See the specification above of the input format in the 
+					"AddEmployee" part of the description of how the input file should be handled, 
+					and the inputfile.txt file attached there as an example.  In particular, 
+					the input salary is expected to look like 20.50, 20, or 20.00, without any 
+					dollar signs.  Note that you can read the input as a double value first, 
+					and then use appropriate arithmetic manipulation, including rounding (because 
+					e.g. value .01 when read as a double can be represented as .0999999...9 or 
+					.01000...01, and you do not know which one it will be...), and casting to 
+					convert this value read from the input to the integer representing the salary 
+					in cents, which is the representation we suggest you should use throughout your 
+					program. Check the 
+					Double Class description for some helpful methods for converting a string to a double.
+					
+When calculating tax amounts and payment amounts, use integer division whenever 
+					division is required,
+					which will always round the amount down
+when the result has a fraction of a cent.
+
+
+
+
+
+What to do about compiler warnings
+When you compile your program from the command line, you may see the following 
+					output:
+    Note: Blah.java uses unchecked or unsafe operations.
+    Note: Recompile with -Xlint:unchecked for details.
+This is not something that you should ignore. It usually means that you're not 
+					using generics appropriately. Most often, it means that at least one use of a 
+					generic class hasn't been given a type parameter (e.g. somewhere, you've said
+					
+ArrayList
+					instead of
+					
+ArrayList<String>). As far as we're concerned in 
+					this course, this is as serious as a compile-time error and needs to be fixed. 
+					To find out more about what the specific problems are, recompile your program 
+					with this command:
+    javac -Xlint:unchecked *.java
+If you're still not sure what do to after seeing the warnings, feel free to ask 
+					us.
+
+
+
+
+
+
+
+
+
+					Changes are made to handle input from a file, by Xiaomin Liu and Stanislaw 
+					Jarecki, Winter 2006. 
+					
+					A couple of changes introduced and some rewording done by Alex Thornton, Fall 
+					2005.
+					
+						A few very minor changes introduced by Alex Thornton,
+						Spring
+					2005.
+					
+						Brief section about compile-time warnings added by Alex Thornton,
+						Winter
+					2005.
+					
+						Originally written by Alex Thornton, with a few portions adapted from "Running 
+						on Empty" and "Scenes from an Italian Restaurant" (also written by Alex 
+						Thornton), Fall 2004.
+					
+
+
+
+
+

@@ -1,0 +1,39 @@
+http://www.ics.uci.edu/~eppstein/pubs/p-cryptarithm.html
+
+
+David Eppstein - Publications
+
+
+
+
+David Eppstein - Publications
+
+
+
+
+On the NP-completeness of cryptarithms.
+D. Eppstein.
+
+SIGACT News 18 (3): 38–40, 1987.
+
+A cryptarithm
+(also known as an 
+alphametic)
+is a puzzle in which the digits of a mathematical formula
+(typically addition of two large numbers) are replaced by letters;
+the goal is to determine which letter stands for which digits.
+If arithmetic is done in a polynomially large radix, the problem
+becomes NP-complete.
+(Full paper)
+
+
+
+Publications –
+David Eppstein –
+Theory Group –
+Inf. & Comp. Sci. –
+UC Irvine
+
+Semi-automatically filtered
+from a common source file.
+

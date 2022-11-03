@@ -1,0 +1,513 @@
+https://isg.ics.uci.edu/courses
+
+
+
+
+
+
+Courses – Information Systems Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+
+Faculty
+Students
+Recent Alumni
+Research Staff
+Visitors
+
+
+Research
+
+Projects
+Publications
+
+
+Teaching
+
+Courses
+DB Qual
+
+
+Events
+
+Talks
+News
+
+
+About
+
+Sponsors & Partners
+Visitor Info
+Contact us
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Courses
+
+Undergraduate:
+
+
+
+
+
+
+
+
+CS122A: Introduction to Data Management
+
+
+Prof. Carey, Prof. Mehrotra, Prof. Li, Prof. Sheu, Pro. Wong-Ma
+This course provides students with an introduction to the design of databases and the use of database management systems for applications. We will cover the entity relationship (E/R) approach to database design. We will cover the relational data model, mapping E/R designs to relations, relational design theory, abstract query language such as relational algebra, and programming in SQL. Students will get exposure to how relational database management systems are used to implement a database. Time permitting, we will also consider advanced database management features such as object-oriented and object-relational database systems. This course is aimed at database design and use of database management systems in implementing database applications.
+Course Website: https://grape.ics.uci.edu/wiki/asterix/wiki/cs122a-2018-spring
+
+
+
+
+
+
+CS122B: Projects in Database Management and Web Applications
+
+
+Prof. Li, Prof. Bai, Prof. Kumar
+This course exposes students to advanced programming concepts and provides students with a greater focus on using DBMS techniques to build Web-based applications. It is intended for two purposes:
+
+ It introduces students to the modern data management techniques including database connectivity, Web application development, extending database functions, database administration, and XML.
+It teaches students how to use these technologies to build real-world applications. The course builds on CS122A, which introduces students to the classical relational databases and SQL programming.
+
+Course Website: https://grape.ics.uci.edu/wiki/asterix/wiki/cs122a-2018-spring
+
+
+
+
+
+
+CS143: Principles of Operating Systems
+
+
+Prof. Venkatasubramanian
+This course covers principles and concepts of process and resource management, especially as seen in operating systems. Processes, memory management, protection, scheduling, file systems, and I/O systems.
+Course Website: https://www.ics.uci.edu/~ics143/
+
+
+
+
+
+
+CS190: Entrepreneurship
+
+
+- Prof. Jain
+TBD
+
+
+ 
+
+ 
+ 
+Graduate:
+
+
+
+
+
+
+
+
+CS212: Multimedia Systems and Applications
+
+
+Prof. Jain
+This course will discuss elements of multimedia systems. Multimedia is becoming the common mode of synchronous, asynchronous, local, and remote communication. Most of the current assisted communication technologies use single medium. Adoption of multimedia has significant social implications. More relevant to this course, it has significant opportunity for technology development. Multimedia computing and communication systems started receiving attention more than a decade ago. Naturally, early systems dealt with very limited aspect of multimedia. With progress in technology, we will have to address several computing and communication issues in dealing with creation, communication, storage, access, and presentation of multimedia. In this course, we will discuss fundamentals of multimedia systems and address emerging issues that are being addressed as well as should be addressed. In discussing topics, our emphasis will be on concepts and fundamentals.
+Course Website: https://ngs.ics.uci.edu/teaching/fall08/Multimedia/
+
+
+
+
+
+
+CS222: Principles of Database Management
+
+
+Prof. Carey, Prof. Li
+This course provides an implementor's view of database management systems. It covers fundamental principles and implementation techniques, issues, and trade-offs related to database management systems. Topics covered include storage management, buffer management, record-oriented file systems, access methods, query optimization, and query processing,. This course is a must for those students wishing to explore database management as an area of research and/or who plan on taking CS223 or CS224. A significant portion of database systems research as well as industrial database and information system development deals with adapting the basic database techniques covered in this course to new advances in hardware and software technologies or to the requirements of different applications and data types.
+Course Website: https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall
+
+
+
+
+
+
+CS223: Transaction Processing and Distributed Data Management
+
+
+Prof. Mehrotra
+The course covers fundamental principles underlying transaction processing including database consistency, concurrency control, database recovery and fault-tolerance. The course includes transaction processing in centralized, distributed, parallel, and client-server environments. It also covers distributed database systems. The course is a prerequisite for further advanced data management courses and research principles of data management.
+Course Website: https://www.ics.uci.edu/~cs223/
+
+
+
+
+
+
+CS224: Advances in Database Management System Technology
+
+
+Prof. Mehrotra
+This course covers selected topics in advanced database research. Its content differs in each offering. This quarter we will focus on Web search. We will present recent papers in the literature. Students will do a substantial project.
+
+
+
+
+
+
+CS225: Next Generation Search Systems
+
+
+Course Website: https://ngs.ics.uci.edu/next-generation-search-course/
+
+
+
+
+
+
+CS230: Distributed Computer Systems
+
+
+Prof. Venkatasubramanian
+Principles of distributed computing systems. Topics covered include message-passing, remote procedure calls, distributed shared memory synchronization, resource and process/thread management, distributed file systems, naming and security. Prerequisite: consent of instructor.
+
+
+
+
+
+
+CS237: Distributed Systems Middleware
+
+
+Prof. Venkatasubramanian
+This course discusses concepts, techniques and issues in developing distributed systems middleware that provides high performance in large scale distributed and networked environments. Issues in ensuring the satisfaction of QoS requirements for multimedia applications via middleware environments will also be discussed. The course will cover existing middleware standards and solutions such as DCE, CORBA, DCOM,.NET,EJB,J2EE, XML and discuss their relative advantages and shortcomings.
+Course Website: https://www.ics.uci.edu/~cs237/
+
+
+
+
+
+
+CS295: Special Topics in Information and Computer Science
+
+
+Prof. Carey
+Studies in selected areas of Information and Computer Science. Topics addressed vary each quarter.
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+Search for :
+
+
+Latest News 
+
+
+
+Upcoming Talk: How to build your own Business
+
+											July 25, 2022																																
+
+
+Upcoming Talk: Couchbase and Distributed Computing Backends for big data processing
+
+											May 31, 2022																																
+
+
+Upcoming Talk: Shedding Light on Opaque Database Queries
+
+											May 31, 2022																																
+
+
+ISG researchers won the  Mark Weiser Best Paper Award at IEEE PERCOM 2022
+
+											March 24, 2022																																
+
+
+
+
+Upcoming Events
+
+
+
+
+Qiushi Bai: QueryBooster-Improving SQL Performance Using Middleware Services for Human-Centered Query Rewriting + Demo
+
+
+
+October 14 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Xiaozhen Liu: Demonstration of Collaborative and Interactive Workflow-based Data Analytics in Texera
+
+
+
+October 21 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Abhishek Singh: WedgeBlock – An Off-Chain Secure Logging Platform for Blockchain Applications
+
+
+
+October 28 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Juncheng Fang: PeloPartition- Improving Blockchain Resilience to Partitioning by Sharding
+
+
+
+November 4 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Peeyush Gupta: A Demonstration of TippersDB
+
+
+
+November 18 @ 12:30 pm - 2:00 pm 
+
+
+
+View All Events
+
+Please follow & like us :) 
+
+Follow  
+
+ 
+
+
+
+
+
+
+
+			Copyright 2018 | ISG-UCI		
+
+
+
+
+
+
+cross
+
+
+
+
+
+
+
+
+
+
+Hit ENTER to search or ESC to close
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

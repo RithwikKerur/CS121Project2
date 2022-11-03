@@ -1,0 +1,436 @@
+https://isg.ics.uci.edu/event/final-defense-jordan-oh
+
+
+
+
+
+
+Building Personal Chronicle of Life Events (Final Defense) – Information Systems Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+
+Faculty
+Students
+Recent Alumni
+Research Staff
+Visitors
+
+
+Research
+
+Projects
+Publications
+
+
+Teaching
+
+Courses
+DB Qual
+
+
+Events
+
+Talks
+News
+
+
+About
+
+Sponsors & Partners
+Visitor Info
+Contact us
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ISG Talks are sponsored by Couchbase.
+<< All Talks
+
+
+
+ « All Events
+
+
+This event has passed.
+Building Personal Chronicle of Life Events (Final Defense)
+
+January 31, 2020 @ 3:00 pm - 4:00 pm 
+
+
+
+
+
+« A Theoretical View of Distributed Systems (CS Distinguished Seminar Series)
+Event Detection with Temporal Predicates »
+
+
+
+
+
+
+
+
+
+Speaker: Jordan Oh
+Abstract:
+Human beings have always been interested in understanding themselves and their surroundings. Learning about the relationship between the two can reveal facts of the present and help predict the future, a critical part to live a better life. With the proliferation of IoT sensor devices, it is now possible to collect quality data for each individual and utilize this data for building personal models that can help to understand the self and environment. However, since this sensor data have different granularities and semantics, the semantic gap becomes even more formidable. Thus, there are challenges in aggregating, integrating, and synchronizing this heterogeneous data to a form such that it effectively describes the life experiences of each individual. In this dissertation, we design a personal chronicle, which contributes a solution to the aforementioned challenges, called Personicle, in which all kinds of personal data streams can be correlated with one another to form a model of a person. 
+To implement the Personicle, we first attempt to bridge the semantic gap between the low-level multimedia logs and high-level semantics by developing a common daily event model through the data unobtrusively obtained from smart devices. To do this, we define an atomic interval, which brings together the scattered sources of heterogeneous data to partition the data into manageable pieces. This atomic interval lets us segment a day into sequences of similar patterns and use the segments for daily event recognition. 
+Secondly, we design an event-triggered Ecological Momentary Assessment (EMA) to maximize the chance of aggregating the semantic data from the users. Unlike the traditional EMA process, which mainly depends on user initiative and intervention, we contribute to overcoming the problems endemic to persistent data collection, such as missing a logging moment or early abandonment, by initiating the EMA process from the system side at the right moment. 
+Lastly, we propose a fully-automated approach to obtain latent semantic information from all the integrated data aiming to maximize the opportunity of both qualitatively and quantitatively capturing one’s life experiences. To show a concrete example of this enrichment, we perform an experiment with “Eating” and “Working”, a complex event central to human experiences. These enhanced daily events can then be used to create a personal model that could capture how a person reacts to different stimuli under specific conditions.  
+Bio:
+Hyungik Oh is a Ph.D. Candidate at UC Irvine. His research interests are lifelogging, activity/event recognition and applied machine learning. He is currently working on pioneering research called Personicle in which he builds a personal chronicle of life events by aggregating, integrating, and synchronizing heterogeneous sensor data streams. 
+ 
+
++ Google Calendar+ iCal Export
+
+
+
+ Details 
+
+ Date: 
+
+ January 31, 2020 
+
+ Time: 
+
+
+					3:00 pm - 4:00 pm				
+
+
+
+
+ 
+
+
+
+
+
+« A Theoretical View of Distributed Systems (CS Distinguished Seminar Series)
+Event Detection with Temporal Predicates »
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+Search for :
+
+
+Latest News 
+
+
+
+Upcoming Talk: How to build your own Business
+
+											July 25, 2022																																
+
+
+Upcoming Talk: Couchbase and Distributed Computing Backends for big data processing
+
+											May 31, 2022																																
+
+
+Upcoming Talk: Shedding Light on Opaque Database Queries
+
+											May 31, 2022																																
+
+
+ISG researchers won the  Mark Weiser Best Paper Award at IEEE PERCOM 2022
+
+											March 24, 2022																																
+
+
+
+
+Upcoming Events
+
+
+
+
+Qiushi Bai: QueryBooster-Improving SQL Performance Using Middleware Services for Human-Centered Query Rewriting + Demo
+
+
+
+October 14 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Xiaozhen Liu: Demonstration of Collaborative and Interactive Workflow-based Data Analytics in Texera
+
+
+
+October 21 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Abhishek Singh: WedgeBlock – An Off-Chain Secure Logging Platform for Blockchain Applications
+
+
+
+October 28 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Juncheng Fang: PeloPartition- Improving Blockchain Resilience to Partitioning by Sharding
+
+
+
+November 4 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Peeyush Gupta: A Demonstration of TippersDB
+
+
+
+November 18 @ 12:30 pm - 2:00 pm 
+
+
+
+View All Events
+
+Please follow & like us :) 
+
+Follow  
+
+ 
+
+
+
+
+
+
+
+			Copyright 2018 | ISG-UCI		
+
+
+
+
+
+
+cross
+
+
+
+
+
+
+
+
+
+
+Hit ENTER to search or ESC to close
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,240 @@
+https://cml.ics.uci.edu/2016/01/winter-2016
+
+
+
+
+
+Winter 2016 | Center for Machine Learning and Intelligent Systems
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+University of California, Irvine
+
+
+Menu
+Skip to content
+Home
+About CML
+
+About us
+News
+Contact Us
+
+
+People
+
+Faculty
+Alumni
+
+
+Events & Seminars
+
+AI/ML Seminar Series
+AI/ML Seminar Live Stream
+CML Distinguished Speakers
+ML Reading Group
+
+
+Education & Resources
+
+Courses
+Books
+
+
+UCI Machine Learning Archive
+Sponsors & Funding
+Subscribe to CML List
+ 
+
+
+
+
+
+Winter 2016 Standard
+
+January 7, 2016
+AIML
+
+
+
+
+
+
+
+  
+
+
+Jan 11Bren Hall 40111 pm
+
+
+Padhraic SmythProfessorDepartment of Computer ScienceUniversity of California, Irvine
+
+Statistical Latent Variable and Event Models for Network DataSocial network analysis has a long and successful history in the social sciences, often with a focus on relatively small survey-based data sets. In the past decade, driven by the ease of automatically collecting large-scale network data sets, there has been significant interest in developing new statistical and machine learning techniques for network analysis. In this talk we will focus on two general modeling themes in this context: the use of latent variables for low-dimensional  vector-based  network  representations  models  and  event-based  models  for temporal network data. We will review the representational capabilities of these models from a generative perspective, discuss some of the challenges of parameter estimation that arise, and emphasize the role of predictive evaluation. The talk will conclude with a brief discussion of future directions in this general area. 
+Based on joint work with Zach Butler, Chris DuBois, Jimmy Foulds, and Carter Butts
+
+
+ 
+
+
+Jan 18
+
+
+No Seminar (MLK Day)
+
+
+
+  
+
+
+Jan 25Bren Hall 40111 pm
+
+
+James FouldsPostdoctoral FellowDepartment of Computer ScienceUniversity of California, San Diego
+
+Latent Topic Networks: A Versatile Probabilistic Programming Framework for Topic ModelsTopic models have become increasingly prominent text-analytic machine learning tools for research in the social sciences and the humanities. In particular, custom topic models can be developed to answer specific research questions. The design of these models requires a nontrivial amount of effort and expertise, motivating general-purpose topic modeling frameworks. In this talk I will introduce latent topic networks, a flexible class of richly structured topic models designed to facilitate applied research. Custom models can straightforwardly be developed in this framework with an intuitive first-order logical probabilistic programming language. Latent topic networks admit scalable training via a parallelizable EM algorithm which leverages ADMM in the M-step. I demonstrate the broad applicability of the models with case studies on modeling influence in citation networks, and U.S. Presidential State of the Union addresses.  This talk is based on joint work with Lise Getoor and Shachi Kumar from the University of California, Santa Cruz, published at ICML 2015.
+
+
+  
+
+
+Feb 1 Bren Hall 40111 pm
+
+
+Furong HuangPhD CandidateDepartment of Electrical EngineeringUniversity of California, Irvine
+
+Discovery of Latent Factors in High-dimensional DataLatent or hidden variable models have applications in almost every domain, e.g., social network analysis, natural language processing, computer vision and computational biology. Training latent variable models is challenging due to non-convexity of the likelihood objective function. An alternative method is based on the spectral decomposition of low order moment matrices and tensors.  This versatile framework is guaranteed to estimate the correct model consistently. I will discuss my results on convergence to globally optimal solution for stochastic gradient descent, despite non-convexity of the objective. I will then discuss large-scale implementations (which are highly parallel and scalable) of spectral methods, carried out on CPU/GPU and Spark platforms. We obtain a gain in both accuracies and in running times by several orders of magnitude compared to the state-of-art variational methods. I will discuss the following applications in detail: (1) learning hidden user commonalities (communities) in social networks, and (2) learning sentence embeddings for paraphrase detection using convolutional models. More generally,  I have applied the methods to a variety of problems such as text and social network analysis, healthcare analytics, and cataloging neuronal cell types in neuroscience.
+
+
+  
+
+
+Feb 8 Bren Hall 40111 pm
+
+
+Majid JanzaminPhD CandidateDepartment of Electrical EngineeringUniversity of California, Irvine
+
+Non-convex Optimization in Machine Learning: Provable Guarantees using Spectral MethodsOptimization lies at the core of machine learning. However, most machine learning problems entail non-convex optimization. In this talk, I will show how spectral and tensor methods can yield guaranteed convergence to globally optimal solutions under transparent conditions for a range of machine learning problems.
+In the first part, I will explain how tensor methods are useful for learning latent variable models in an unsupervised manner. The focus of my work is on overcomplete regime where the hidden dimension is larger than the observed dimensionality. I describe how tensor methods enable us to learn these models in the overcomplete regime with theoretical guarantees in recovering the parameters of the model. I also provide efficient sample complexity results for training these models. Next, I will describe a new method for training neural networks for which we provide theoretical guarantees on the performance of the algorithm. We have developed a computationally efficient algorithm for training a two-layer neural network using method-of-moment and tensor decomposition techniques.
+
+
+  
+
+
+Feb 10Bren Hall 30113 pm
+
+
+Yining WangPhD StudentMachine Learning DepartmentCMU
+
+Subsampling and sketching in machine learningI will discuss subsampling and sketching with their applications and analysis in machine learning. They can be viewed not only as tools to improve computational and storage efficiency of existing learning algorithms, but also as settings that characterize data measurement/availability/privacy constraints in modern machine learning applications. In this talk I will introduce my recent work, which analyze subsampling and sketching settings in three popular machine learning algorithms: tensor factorization, subspace clustering and linear regression.
+
+
+ 
+
+
+Feb 15
+
+
+No Seminar (Presidents Day)
+
+
+
+  
+
+
+Feb 22Bren Hall 40111 pm
+
+
+Julian McAuleyAssistant ProfessorComputer Science & EngineeringUC San Diego
+
+Building rich recommender systems with visual, relational, and temporal informationUnderstanding the semantics of preferences and behavior is incredibly complicated, especially in settings where the visual appearance of items influences our decisions. Three challenges that I’ll discuss in this talk include (1) how can we uncover the semantics of visual preferences, especially in sparse or long-tailed data, where new items are constantly introduced? (2) How can we use visual data to understand the relationships between items, and in particular what makes two items “visually compatible”? And (3) how can we understand the temporal dynamics of visual preferences, in order to uncover how “fashions” have evolved over time?
+
+
+ 
+
+
+Feb 29
+
+
+No Seminar (Cancelled)
+
+
+
+  
+
+
+Mar 7 Bren Hall 40111 pm
+
+
+William LamPhD CandidateDepartment of Computer ScienceUniversity of California, Irvine
+
+Exploiting Compiled Heuristic Errors to Guide AND/OR Search for Graphical ModelsWe investigate the potential of look-ahead in the context of AND/OR search in graphical models using the mini-bucket heuristic for combinatorial optimization tasks (e.g. MAP/MPE or weighted CSPs.)  We present and analyze the complexity of computing the residual (a.k.a. Bellman update) of the mini-bucket heuristic, which we call “bucket errors” and show how this can be used to identify which parts of the search space are more likely to benefit from look-ahead, therefore facilitating a method to bound its overhead.  We also rephrase the look-ahead computation as a graphical model to make use of structure exploiting inference schemes.  In our empirical results, we demonstrate that our methods can be used to cost-effectively increase the power of branch-and-bound search.
+ In the second part of the talk, we show how bucket errors can be used to improve the performance of AND/OR best-first search algorithms for providing lower bounds on the min-sum problem.  In our preliminary experiments, we show that when expanding nodes for the AO* algorithm, using bucket errors as a subproblem ordering heuristic can allow us to expand fewer nodes to arrive at the optimal solution compared to the existing ordering approach.
+
+
+
+
+
+
+Post navigation
+← Fall 2015 Anandkumar receives Google Research Award →
+
+
+
+
+ 
+Search
+
+
+
+ 
+
+
+(c) 2015 Center for Machine Learning and Intelligent Systems
+
+WordPress/BonPress
+
+
+
+
+
+

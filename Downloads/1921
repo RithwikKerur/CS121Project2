@@ -1,0 +1,149 @@
+https://sli.ics.uci.edu/PmWiki/AccessKeys
+
+
+
+SLI | PmWiki / AccessKeys 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+AccessKeys
+
+
+
+
+
+< Wiki style examples | Documentation Index | Page directives >
+
+visitors (intermediate) 
+
+Access keys (See also Wikipedia:access keys) are keyboard shortcuts for tasks that would otherwise require a mouse click.   
+They are part of markup that may exist on any webpage.
+On PmWiki steps have been taken to make it easier to use access keys throughout a site, and to make it possible to adjust key assignments to accommodate different languages and preferences.
+
+Using access keys in different operating systems and browsers
+Access keys require you to hold down two or more keys.
+On Windows with Internet Explorer, press ALT + the access key.
+With Firefox, press SHIFT + ALT + the access key.
+On a Macintosh with Firefox, Omniweb, Internet Explorer, press Ctrl + the access key.
+With Safari (Version 4.0.2) press Ctrl + Option + the access key.
+With Opera press Shift+Esc to enter (or exit) access-key mode.
+With Konqueror, press Ctrl to enter (or exit) access-key mode.
+With Chrome, press SHIFT + ALT + the access key
+Exceptions exist for specific browsers, and specific versions.  For example, 
+Internet Explorer requires that the Enter key be pressed at the end of the sequence for versions 5 and up under Windows, but not under Macintosh (where access keys were not supported until after version 4.5).  
+Firefox versions 1.5 and earlier simply use Alt, while Firefox version 2.0 uses Shift+Alt.  
+Note, in cases of conflicts between the keyboard shortcuts assigned by browsers and access keys assigned by links and other markup on webpages, many browsers, including Mozilla, Netscape and Internet Explorer, allow access keys to override the browser defaults and require a different sequence to continue using overridden browser assignments (typically, by pressing and releasing the Alt key, instead of holding it down).   
+
+Access key assignments in this PmWiki installation
+The following is a list of the currently defined access keys for built-in actions. Remember that the letters identified below must be used together with the combination listed above (depending on your operating system and browser). Note that some actions do not have a corresponding access key by default.
+
+
+Key NameKey ValueFunction
+ak_view view
+ak_editeedit
+ak_historyhhistory
+ak_attach attach
+ak_print print
+ak_backlinks backlinks
+ak_logout logout
+ak_recentchangescrecent changes
+ak_savessave or publish page
+ak_saveeditusave and keep editing
+ak_savedraftdsave draft
+ak_previewppreview page
+ak_textedit,jump to edit textarea
+ak_em emphasize text
+ak_strong strong text
+Note: If the 'Key Value' is the same as the 'Key Name', the access key is currently undefined.
+
+When can these access keys be used
+Access keys ak_view, ak_edit, ak_history, ak_attach, ak_print, ak_backlinks, ak_logout and ak_recentchanges can be used all the time
+Access keys ak_save, ak_saveedit, ak_savedraft, ak_preview, ak_textedit can only be used in edit mode
+Following table explains which button is activated by which access key. Note that the Cancel button has no access key.
+
+Standard Edit modeDraft Edit modeUsed Access Key
+SavePublishak_save
+ Save draftak_savedraft
+Save and editSave draft and editak_saveedit
+PreviewPreviewak_preview
+
+Access keys ak_em and ak_strong work only in edit mode and when the GUIbuttons are enabled in local/config.php.
+ admins (intermediate)
+ Customizing access keys
+PmWiki uses the same "phrase translation" methods for access key mappings as it does for internationalization.  This makes it possible for administrators, skins, language translators, and visitors to all influence the way that specific keys are mapped to actions.
+
+See SitePreferences and Site.Preferences for more information and a template.
+
+Note that some skins (e.g., Lean) don't use the translation mechanism. In this case one must edit the template file itself in order to change the access keys.
+
+By convention, the translation phrases for all of the access key actions start with the characters "ak_", so that the page variable "$[ak_edit]" is replaced by the access key for editing as defined by the current preferences, language, skin default, or site default.
+
+ Implementation of access keys
+Access keys are implemented in html as optional parameters that can be added to links and many other types of markup.
+
+Example: <a href="http://example.com" accesskey="x">Example</a> would create a link to example.com that could be triggered by clicking on the linked word "example" or using the access key Akey+x.  That same action key link could be created in PmWiki markup by typing %accesskey="x"%[[http://example.com|Example]]%%, like this: Example.  Try it and see if it works.  Note that this AKey+x access key only works this way on this page, because it is simply a shortcut for accessing the link that exists only on this page.
+
+The list of access key assignments in default PmWiki installations generally work throughout a site because links have been created in PmWiki skins and editing screens that incorporate access key parameters using the access key translation phrases.  One location where those links can be viewed is Site.PageActions.  That page contains the links that the default PmWiki skin, and many other skins, use to generate links such as "View" "Edit" and "History" that appear on most pages (other than editing screens).  Each of the links in that page also has an %accesskey=$[ak_xxx]% declaration in front of it, which enables a specific access key for that link.
+
+ 
+ How can I change the keyboard shortcuts for editing and saving a page?
+ See Customizing access keys.
+
+
+
+< Wiki style examples | Documentation Index | Page directives >
+
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:AccessKeys, and  a talk page: PmWiki:AccessKeys-Talk.
+
+
+
+
+
+
+ Last modified March 31, 2016, at 02:38 AM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

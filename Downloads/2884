@@ -1,0 +1,219 @@
+https://ngs.ics.uci.edu/eventweb4-experiential-data
+
+
+
+
+
+
+
+
+EventWeb4:  Experiential Data – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				EventWeb4:  Experiential Data    			
+
+
+The experiential attributes of an event are fundamentally different from informational attributes.  Each experiential attribute represents a data (stream) that is experienced using a specific natural human sensor.  Thus we may have visual data, audio, tactile, olfactory, and taste related data.  Currently good sensing and reproduction techniques are available for visual (image and video) and audio data.  Tactile is improving fast and others are slowly getting developed.  Thus, experiential data will be defined as the data of a particular sensory type rather than an integer or real or character type as commonly used in informational data.  
+Experiential data is usually much larger in volume than other data types.  For historical reasons, in computing most representations evolved to represent simple data like numbers and characters.  A collection of numbers representing an image is thus represented using an array of data, an intensity value at different pixels forming an image.  A video will be an array of such arrays.  In databases, when designers faced such data, they usually lumped it all and called it a â€˜binary large objectâ€™, or a blob.  Search engines analyze a text file and identify words in it by analyzing arrangement of characters, but usually donâ€™t open an image to analyze it.  In general, except few people specializing in particular experiential data analysis, people have avoided dealing with experiential data.  Interestingly, slowly experiential data started becoming popular and now photos, video, and audio are becoming the central data elements in computing.
+Another distinguishing feature of the experiential data is that it is always grounded in space and time.  A sensor captures data at a point in space and in many cases over a time period.  Thus the data captures a physical phenomenon at a given point in space and over a particular time interval.  
+The operators and methods to be applied to experiential data are significantly different than the methods used for processing alpha-numeric data that was commonly used in many traditional computing fields.  Of course due to the nature of digital computers, the most basic operations must be reduced to the basic processing operation in computing. For human abstraction and use, however, these operations are fundamentally different.  The computational techniques for experiential data are emerging and clearly are not as well developed as techniques for computing and managing alpha-numeric data.  
+Rapid progress in sensing, storage, processing and display (reproduction) technology is making experiential data rapidly popular.  It is rapidly becoming not the secondary source of information, but a primary source of experiences and communication.  Have you noticed that computer as well as mobile phone manufacturers usually advertise their devices based on their experiential characteristics?  They tell you how good the camera or video processing capability of the device is.  They know that experiential data appeals to humans much more than the abstract numbers.
+
+
+
+By Ramesh |
+    				August 26, 2006 |
+    				             		Experiential Computing, Technical Thoughts |
+             	 
+    				             		4 Comments |
+             	 		          				
+    			
+
+
+← Important factors for India
+EventWeb5: Creating a Web →
+
+
+
+			4 thoughts on “EventWeb4:  Experiential Data”		
+
+
+
+
+club penguin cheats July 16, 2009 at 7:09 pm 
+
+They tell you how good the camera or video processing capability of the device is. They know that experiential data appeals to humans much more than the abstract numbers.
+
+
+
+
+
+
+
+
+Apple ipad Forum February 3, 2010 at 1:25 pm 
+
+But how can you quantify experiential data.  It is so hard to take into account all the variables
+
+
+
+
+
+
+
+
+Moving Pods February 4, 2010 at 2:20 pm 
+
+Because, experiences are still a form of data
+
+
+
+
+
+
+
+
+Worlds Hardest Game February 5, 2010 at 11:09 am 
+
+Experiences are what life is really about.  You can never put it into numbers.
+
+
+
+
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

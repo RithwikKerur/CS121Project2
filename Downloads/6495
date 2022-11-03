@@ -1,0 +1,442 @@
+https://www.ics.uci.edu/community/news/view_news?id=1263
+
+
+
+In the News @ Donald Bren School of Information and Computer Sciences
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to main content
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HOME
+
+
+ABOUT
+
+
+About the School
+
+
+Dean's Welcome
+
+
+Facts and Figures
+
+
+Donald Bren Hall
+
+
+Visit the Bren School
+
+
+Equity & Diversity
+                            
+
+
+Contact Us
+
+
+
+
+DEPARTMENTS
+
+
+Computer Science
+
+
+Informatics
+
+
+Statistics
+
+
+
+
+RESEARCH
+
+
+Research Areas
+
+
+Research Centers
+
+
+Research Highlights
+
+
+
+
+STUDENTS
+
+
+Graduate ▸
+
+
+Orientation
+
+
+Prospective Students
+
+
+How to Apply
+
+
+Programs of Study
+
+
+Academic Year Plan
+
+
+Course Updates
+
+
+Forms And Policies
+
+
+Admissions FAQ
+
+
+Funding
+
+
+Housing
+
+
+Computing Support
+
+
+Campus Resources
+
+
+Visit the Bren School
+
+
+Contact
+
+
+
+
+Undergraduate ▸
+
+
+Contact
+
+
+Academic Advising
+
+
+Course Updates
+
+
+Academic Year Plan
+
+
+Petitions
+
+
+ICS Majors
+
+
+ICS Minors
+
+
+Policies: Academic Integrity
+
+
+Policies: Academic Standing
+
+
+Policies: Add, drop, & change options
+
+
+Policies: Coursework outside UCI
+
+
+Policies: Grade policy
+
+
+Policies: Laptop & computer use
+
+
+Policies: Withdrawal/Readmission
+
+
+Policies: CS 199 / IN4MATX 199 Courses
+
+
+Graduation
+
+
+ICS Student Life
+
+
+Upcoming Events
+
+
+Computing Support
+
+
+
+
+Scholarships & Fellowships
+
+
+Student Jobs & Internships
+
+
+
+
+PEOPLE
+
+
+Faculty
+
+
+Staff
+
+
+Graduate Students
+
+
+
+
+NEWS & EVENTS
+
+
+Newsroom
+
+
+Events
+
+
+Social Media
+
+
+Publications
+
+
+
+
+GET INVOLVED
+
+
+Make a Gift
+                                
+
+
+
+Leadership Council
+
+
+Corporate Partners
+
+
+Sponsor Projects
+
+
+Product Development Competition
+
+
+Alumni
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bren school home / Community / News
+
+
+In the News
+
+
+
+December 13,  2017
+
+
+Levorato and DeepEdge Tackle DARPA SDR Hackfest
+
+
+
+
+
+Assistant Professor of Computer Science Marco Levorato participated in the five-day DARPA Software-Defined Radio Hackfest that took place Nov. 13-17, 2017, at the NASA Research Park in Moffett Field, Calif. DARPA initiated the SDR Hackfest this year to “explore software radio technology in new and interesting ways that are likely to become consequential in both civilian and national security contexts.”
+Levorato and two of his computer science Ph.D. students, Davide Callegaro and Sabur Baidya, partnered with USC Professor Bhaskar Krishnamachari and two of his students, Kwame Wright and Pradipta Ghosh, on team DeepEdge. “Bhaskar and I have very similar research interests — Internet of Things, wireless networks and communications, machine learning, and so on,” explains Levorato, “and this was an exciting opportunity to use a lot of our prior experience combined to create a complex and articulated system.”
+Team DeepEdge at the DARPA SDR Hackfest (from left): Sabur Baidya, Kwame Wright, Davide Callegaro, Marco Levorato, Bhaskar Krishnamachari, and Pradipta Ghosh. The Khan poster was their drone’s target.
+Their mission was to use an SDR-equipped drone to “extend range from the base station to multiple drones while avoiding interference; enable dynamic handoff between ground and air and vice versa; and integrate sensors to provide real-time data during flight.” The team focused on detecting and attacking a visual target using video input, dynamically avoiding interference during the flight.
+According to Levorato, one of the main challenges they had to address was stabilizing the drone in the indoor environment due to GPS errors. They spent several hours selecting the most reliable flight mode and calibrating the autonomous control module. He also said that “the connection of several heterogeneous tools, including OpenCV, GNU radio and Mavlink, was not trivial and required effort.”
+During the Hackathon, the DeepEdge team developed and demonstrated a robust distributed processing framework for unmanned autonomous systems.
+Yet the key innovation they were able to demonstrate was their distributed form of data processing and control. This distribution mitigates issues related to individual drones’ energy consumption and limited processing capabilities, while being robust to the imperfect communications that can arise from jamming or network congestion. Levorato explains that in their Hackfest setup, “the drone offloads computing to the ground station, or edge processor, if the channel is strong, but the idea can be extended to offloading between drones — for instance, to split processing and physical exploration tasks in UAV (unmanned aerial vehicle) swarms.”
+Team DeepEdge next plans to refine the code they produced, conduct outdoor experiments and eventually release the code as open source. Levorato elaborates: “Our long-term plans include developing robust frequency and time-hopping strategies for the upstream of control packets from the ground station and developing distributed processing techniques to make UAV swarms capable of collaboratively processing complex data and navigating autonomously.” They also hope to develop a software-defined network framework to route data and control information through city-scale network and processing resources.
+— Shani Murray
+
+Levorato and DeepEdge Tackle DARPA SDR Hackfest
+
+
+
+< Previous
+ Top Games and Hot Topics of 2017 at UCI’s Esports Arena
+
+
+
+            
+Next >
+ Faculty Spotlight: Ray Klefstad Embraces New Role as Associate Professor of Teaching
+            
+
+
+
+
+
+
+
+More news and events
+
+News Stories
+Video highlights
+Annual reports
+Calendar of events
+
+
+Media Inquiries Media interested in interviewing ICS faculty, students or alumni should contact Matt Miller at (949) 824-1562 or matt.miller@uci.edu
+
+
+
+
+
+
+
+
+Tweets by UCIbrenICS 
+
+View Social Media
+
+
+
+
+
+
+
+
+
+
+
+
+                        Donald Bren School of Information and Computer Sciences
+                		University of California, Irvine
+    					6210 Donald Bren Hall
+    					Irvine, CA 92697-3425
+                    
+
+
+
+  
+  
+  
+  
+  
+ 
+
+
+
+UCI Homepage
+UCI Directory
+Faculty & Staff
+Employment
+ICS Intranet
+Research Development
+Kay Family Foundation Lab
+Facilities
+
+
+
+
+News
+Events
+Map & Directions
+Accessibility Statement
+Safety Procedures
+Privacy Policy
+Coronavirus Resources
+
+
+
+
+Apply
+Contact
+Gift 
+
+
+
+
+©  UCI Donald Bren School of Information & Computer Sciences
+
+
+
+
+
+
+➤
+
+
+
+
+
+
+
+
+
+
+

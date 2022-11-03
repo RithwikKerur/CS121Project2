@@ -1,0 +1,148 @@
+https://www.cs.uci.edu/tabellion-provides-secure-legal-contracts-on-mobile-devices
+
+
+
+
+Tabellion Provides Secure Legal Contracts on Mobile Devices 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ this is a widget called second front page widget area
+
+Explore
+
+Contact Us
+
+
+Faculty
+Research
+
+Research Areas
+Research Centers
+
+
+Graduate Degrees
+
+Computer Science Programs
+Current Graduate Students
+
+
+Undergraduate Degrees
+News  & Events
+
+News
+Seminar Series
+Distinguished Lecture Series
+Research Showcase
+
+
+Apply Now
+
+Undergraduate Admissions
+Graduate Admissions
+Faculty Candidates
+
+
+Tabellion Provides Secure Legal Contracts on Mobile Devices
+June 16, 2020 
+According to a recent Bloomberg Law article, “the wet signature requirement, that a document be signed in-person and with ink, could see its demise as social distancing practices take hold across the globe in an effort to stop the spread of coronavirus.” The article notes how COVID-19 has “accelerated the already growing use and acceptance of electronic signatures to such an extent that wet signatures may soon become relics for attorneys.”
+The increased use of electronic signatures, however, comes with risks, according to University of California, Irvine (UCI) Assistant Professor of Computer Science Ardalan Amiri Sani.
+
+“Existing electronic contract and signature platforms are not adequately secure and are vulnerable to various forms of attacks by malicious parties including false repudiation and impersonation,” said Professor Amiri Sani. “This vulnerability is rooted in the fact that they cannot provide hard-to-fabricate and hard-to-refute evidence that a contract has been legally formed, as defined by the law of contracts.”
+This is where a recent collaboration between UCI and Microsoft Research comes into play. Professor Amiri Sani and his students (Ph.D. candidate Saeed Mirzamohammadi and Ph.D. student Myles Liu) from UCI’s Department of Computer Science collaborated with Sharad Agarwal, Principal Researcher at Microsoft Research, as well as Assistant Professor of Law Sung Eun (Summer) Kim and J.D. candidate Ann Huang from UCI’s School of Law (UCI Law).
+“Common practices today include sending signatures on legal documents over email, or over DocuSign, or sending inked signatures on just the signature page over postal mail, or using a physical or video notary,” said Agarwal. “You have to choose between not having robust signature attribution and mutual assent or having the inconvenience and cost of arranging notarization. We need a better solution.”
+“The significance of the signature has always been central to contracts law,” said Professor Kim. “Online contracts and electronic signatures offer greater convenience but may be easier to forge.”
+To address this problem, the team collaborated to design and build Tabellion, a system for securely signing legal contracts electronically on mobile devices such as smartphones and tablets.
+Designing TabellionThe team’s first step was to identify the requirements for demonstrating the legality of a contract. Such requirements include evidence for signature attribution (the identities of the signatories), mutual assent (offer and acceptance), and reading opportunity (that the parties were given legitimate opportunities to read the contract terms before signing).
+“Our Law colleagues helped us understand the requirements for the legal formation of a contract,” said Professor Amiri Sani. “This then helped us devise various system and security solutions to provide strong evidence for these requirements in our contract platform.”
+Tabellion uses novel trusted computing solutions on mobile devices and cloud servers to collect strong evidence for the legal formation of a contract. Specifically, Professor Amiri Sani explained that virtualization and TrustZone hardware in ARM processors let the system:
+Authenticate the user using biometrics (fingerprints) and securely capture and cryptographically sign a photo of the user for signature attribution;Securely capture and record timestamps for all actions during the contract signing process to demonstrate mutual assent; andSecurely capture the user’s confirmation on every page on the contract to demonstrate reading opportunity.
+Tabellion then uses Intel’s SGX enclaves in Azure Confidential Compute virtual machines to securely tie together evidence for each contract.
+“The key innovation and strength of our platform, compared to existing platforms like DocuSign, is that we use biometrics for improved security and authentication,” Professor Kim explained. “The collaboration with ICS and Microsoft has enabled us to design new solutions to persistent and pervasive problems in contracts law.”
+Analysis and DeploymentThe team performed an extensive evaluation of Tabellion including performance tests, security analysis, and a 30-person user study within UCI. The results show that Tabellion is secure, achieves acceptable performance (in terms of latency of operations), and provides usability comparable to (and even slightly better than) DocuSign. The researchers outline their findings in their paper, “Tabellion: Secure Legal Contracts on Mobile Devices,” which was recently published in ACM MobiSys 2020, the top conference on mobile systems, applications, and services. Microsoft has posted a blog about the findings as well.
+The team has also worked closely with the Invention Transfer Group at UCI Beall Applied Innovation to file a provisional patent application for their invention. Going forward, they hope to work with various organizations to deploy Tabellion for use in contracts.
+“This is an exciting time for technology use in managing legal contracts,” said Agarwal, pointing to several products emerging on the market (such as Lexion.ai, DocuVision.ai, and Icertis.com) that improve how legal contracts are stored, indexed, analyzed and accessed. “However, one critical area that remains underserved is the proper formation of legal contracts,” he said, noting that Tabellion fills that gap.
+“Tabellion will significantly reduce the time to achieve a signed contract and reduce disputes on the authenticity of signed contracts,” said Agarwal. “We expect our work to enable a variety of commerce to happen more quickly and easily.”
+– Shani Murray
+« CS Researchers Vikram Narayanan and Anton Burtsev Win Best Paper AwardUCI News: “Five UCI junior faculty named Hellman Fellows for 2020-21” (Sameer Singh named) »
+
+Latest news
+
+
+Senior Spotlight: Tennis Player and CS Major Matthew Sah Serves Up Aces On and Off the Court
+September 28, 2022
+
+
+Register Today for the Southern California AI & Biomedicine Symposium
+September 20, 2022
+
+
+CPO Magazine: “A Legal View of New NIST Quantum-Resistant Algorithms” by Bryan Cunningham
+September 19, 2022
+
+
+UCI Ranked 24th in Undergraduate Computer Science Programs by U.S. News & World Report
+September 16, 2022
+
+
+Senior Spotlight: Jose Cisneros Builds Impressive Resume with Trio of Internships
+September 15, 2022
+
+
+
+
+ 
+
+
+
+
+
+© 2022 UC Regents
+Feedback
+Privacy Policy
+
+
+
+ 
+
+
+
+

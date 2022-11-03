@@ -1,0 +1,176 @@
+https://sli.ics.uci.edu/PmWiki/Upgrades
+
+
+
+SLI | PmWiki / Upgrades 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+Upgrades
+
+
+
+
+
+< Initial setup tasks | Documentation Index | Backup and Restore >
+
+
+
+PmWiki is designed to make it easy to upgrade the PmWiki software without affecting your existing data files or installation.  For most upgrades, you simply copy the files in the new release over your existing installation.
+
+ Note for PmWiki 1.0 sites: Upgrading from 1.0.x to 2.0 requires more than simply copying the 2.0 software over the 1.0 installation.  See Upgrading From PmWiki 1 for more details.
+
+
+Contents
+Generic instructions
+Upgrading from version 2.1.27 to 2.2.0
+Upgrading from version 2.2.0 to the latest version
+FAQ
+
+
+Generic instructions 
+1. Read the release notes
+Please read carefully the ReleaseNotes before performing an upgrade, about the changes between your previous version and the new one. See if there are any significant changes or preparation tasks that must be handled before performing the upgrade.
+
+2. Backup
+It's always a good idea to have a backup copy of your existing PmWiki installation before starting.  You can copy the entire directory containing your existing installation, or you can just make copies of the wiki.d/ directory and any other local customization files you may have created (e.g., config.php, localmap.txt, etc.).
+
+3. Download and extract
+Download the version of PmWiki that you want from the download page.
+
+Extract the tar image using tar -xvzf tgzfile, where tgzfile is the tar file you downloaded above.  This will create a pmwiki-x.y.z directory with the new version of the software.
+
+4. Copy
+Copy the files in pmwiki-x.y.z over the files of your existing PmWiki installation.  For example, if your existing PmWiki installation is in a directory called pmwiki, then one way to copy the new files over the existing ones is to enter the command:
+
+cp -a pmwiki-x.y.z/. pmwiki
+Note that BSD systems will not have the -a option as a command-line argument for cp, but that's okay, since it's just shorthand for cp -dpR, so use that instead of -a.
+
+Some environments have an alias established for cp that enable interactive prompts before overwriting a file. To work around this specify the absolute path to cp, such as /bin/cp.
+
+On (some) FreeBSD servers and Mac OS X systems you need to use 
+
+cp -Rpv pmwiki-x.y.z/. pmwiki
+5. Update customisations and recipes
+That's it! Your base PmWiki installation is complete.
+
+Now use the PmWiki:Site Analyzer to determine which recipes could be updated to the most recent version.
+
+Unless you have made customizations to the pmwiki.php script or to the files in scripts/, your PmWiki installation should continue to run correctly! (Changes to these files are not recommended).
+
+(Local customizations should go in local/config.php, pub/css, and pub/skins/yourskinname)
+
+Note: Additional tips can be found on the PmWiki:Troubleshooting page.
+
+
+Upgrading from version 2.1.27 to 2.2.0
+Between the stable versions 2.1.27 and 2.2.0 there are a number of additions. Some of them may need changes to local config files or to wiki pages, and they are outlined here. For the full list of changes see the release notes.
+
+If you are upgrading from a 2.2.beta version, your wiki may already include these features.
+
+Some pages that were formerly in the Site.* group are now in a separate read-protected SiteAdmin.* group: Site.AuthUser, Site.AuthList, Site.NotifyList, Site.Blocklist, and Site.ApprovedUrls.  If upgrading from an earlier version, PmWiki will prompt to automatically copy these pages to their new location if needed.  If a site wishes to continue using the old Site.* group for these pages, simply set to config.php $SiteAdminGroup = $SiteGroup;
+To authorize reading or editing in protected areas, the former password "nopass" should now be written as "@nopass".
+WikiWords are now disabled by default.  To re-enable them, set either $LinkWikiWords or $EnableWikiWords to 1.
+The $ROSPatterns variable has changed -- replacement strings are no longer passed through FmtPageName() i.e., it must now be done explicitly.
+Page links inside included pages, sidebars, headers or footers are now treated as relative to the page where they are written, instead of the page where they appear. For example, in Site.SideBar, always set the group in a wikilink like [[Main/HomePage]] or with a page variable [[{*$Group}/HomePage]], because a link [[HomePage]] will point to a page Site.HomePage.
+PageLists
+Spaces no longer separate wildcard patterns -- use commas. 
+{$PageCount}, {$GroupCount}, {$GroupPageCount} variables used in pagelist templates are now {$$PageCount}, {$$GroupCount}, {$$GroupPageCount}.
+The directive no longer accepts parameters from urls by default.  In order to have it accept such parameters (which was the default in 2.1 and earlier), add a request=1 option to the (:pagelist:) directive.
+Skin templates are now required to have <!--HTMLHeader--> and <!--HTMLFooter--> directives.  
+Authentication using Active Directory is now simplified, see PmWiki.AuthUser.
+
+Upgrading from version 2.2.0 to the latest version
+ Note: this page may have a more recent version, see PmWiki:Upgrades.
+
+Some additions since version 2.2.0 may need changes to local config files or to wiki pages, and they are outlined here. For the full list of changes see release notes and change log.
+
+Version 2.2.10: $EnableRelativePageVars was changed to enabled by default, and it affects PageVariables from included pages, sidebars, headers and footers.
+The form {*$var} refers to "the currently browsed page" while {$var} without an asterisk refers to "the physical page where the PageVar is written".
+ Pages that are designed to work on "the currently browsed page" should switch to using {*$FullName} instead of {$FullName}.  Administrators should especially check any customized versions of Site.PageActions, Site.EditForm, Site.PageNotFound, SideBar pages, $GroupHeaderFmt, $GroupFooterFmt, Page lists in sidebars, headers, and footers. See Special references.
+If your wiki heavily relies on the previous behavior, you can revert to it, see $EnableRelativePageVars.
+Version 2.2.35: Important change for international wikis: the XLPage() function no longer loads encoding scripts such as xlpage-utf-8.php. When you upgrade, you need to include those scripts from config.php, before the call to XLPage(): 
+  include_once("scripts/xlpage-utf-8.php"); # if your wiki uses UTF-8
+  XLPage('bg','PmWikiBg.XLPage');
+
+ 
+FAQ
+ How can I determine what version of PmWiki I'm running now?
+ See version - Determining and displaying the current version of PmWiki (pmwiki-2.2.93).
+
+ How can I test a new version of PmWiki on my wiki without changing the prior version used by visitors?
+ The easy way to do this is to install the new version in a separate
+directory, and for the new version set (in local/config.php):
+
+
+    $WikiLibDirs = array(&$WikiDir,
+      new PageStore('/path/to/existing/wiki.d/{$FullName}'),
+      new PageStore('wikilib.d/{$FullName}'));
+
+
+This lets you test the new version using existing page content
+without impacting the existing site or risking modification of
+the pages.  (Of course, any recipes or local customizations have to
+be installed in the new version as well.) 
+
+Then, once you're comfortable that the new version seems to work
+as well as the old, it's safe to upgrade the old version (and one
+knows of any configuration or page changes that need to be made).
+ 
+
+< Initial setup tasks | Documentation Index | Backup and Restore >
+
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:Upgrades, and  a talk page: PmWiki:Upgrades-Talk.
+
+
+
+
+
+
+ Last modified January 07, 2013, at 08:24 AM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

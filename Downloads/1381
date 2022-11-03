@@ -1,0 +1,9 @@
+http://plrg.ics.uci.edu/publications/350.bib
+@inproceedings{key,
+ author = {Alokika Dash and Brian Demsky},
+ title = {Automatically Generating Symbolic Prefetches for Distributed Transactional Memories},
+ booktitle = {Proceedings of the ACM/IFIP/USENIX 11th International Middleware Conference},
+ location = {Bangalore, India},
+ month = {November},
+ year = {2010}
+}

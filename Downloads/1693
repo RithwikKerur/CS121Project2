@@ -1,0 +1,96 @@
+http://sli.ics.uci.edu/Classes-CS178-Notes/LogisticReg
+
+
+
+SLI | Classes-CS178-Notes / LogisticReg 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Classes-CS178-Notes /
+LogisticReg
+
+
+Logistic regression is used for predicting values between zero and one -- for example, probabilities.  For this reason it is commonly used as a binary classification method, where the two class values are taken to be zero or one.
+
+The logistic function has a "sigmoid" shaped response, i.e., it looks like a flattened-out "S".  Its functional form, and its derivative, are given by
+
+
+We use the logistic function as a soft thresholding operation, to replace the perceptron's hard threshold T().  We maintain the linear "internal" form, i.e., given a feature vector x and parameters , often called the "weights" of the learner, our regression prediction is:
+
+This gives a real-valued prediction between zero and one.
+
+ function value = logistic(theta, X)
+ % Evaluate a logistic regression function with parameters theta    [n,d] = size(X);
+   X = [ones(n,1), X];  % Add a constant feature    z = ( wts * X' )';   % Compute linear response    value = 1./(1+exp(-z));
+
+In classification, of course, we need to predict a discrete class value; just as with the perceptron, we can simply threshold our real-valued predictor:
+
+
+Because the logistic is smooth, we will be able to train it using gradient descent.
+
+In your homework, you are asked to perform online gradient descent.  In online gradient descent, we define a cost function relative to a single data point i, for example the squared error of that data point alone: .  As in standard gradient descent, we calculate the derivative of :
+
+and use this gradient to make an update to the parameter vector , using a step-size parameter :
+
+
+In Matlab, this is:
+
+  [n,d] = size(Xtrain);
+  Xtrain1 = [ones(n,1), Xtrain];            % Add a constant feature
+  for i=1:n,
+    sigmaxi = logistic(theta,Xtrain(i,:));  % compute the ith prediction
+    grad = (sigmaxi - Ytrain(i)) * (sigmaxi)*(1-sigmaxi) * Xtrain1(i,:);
+    theta = theta - stepsize * grad;        % take a step down the gradient
+  end;
+  Yhat = logistic(wts, Xtrain);             % compute all outputs
+  mse(iter) = mean( (Ytrain-Yhat).^2 );     % and the overall MSE
+
+
+
+
+
+
+
+ Last modified March 21, 2012, at 06:31 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

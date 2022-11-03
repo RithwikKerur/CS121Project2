@@ -1,0 +1,210 @@
+https://ngs.ics.uci.edu/observation-systems-functionality
+
+
+
+
+
+
+
+
+Observation Systems — Functionality – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Observation Systems — Functionality    			
+
+
+An Observation System has some general basic functionality.  For specific applications these may be modified and refined.  Some applications may require only a small subset of functionality discussed below.  In general, the following are the functions that an Observation System should provide:  
+1.	Store all raw data for review when required.  There may be lossless compression of the data.   Lossy compression should be avoided as it may make review of the data for extraction of specific information impossible or very difficult..
+2.	Provide a list of all important events and associated information for the domain of application.  Obviously, a system designer will consider the events, activities, and attributes that must be included in the system at the time of the design.
+3.	The system may have many clients (users) with different devices, access rights, and facilities.  It maybe possible that a user has many devices (multiple desktops, mobile phones, â€¦) that are registered to receive and access information.  The system should consider devices and access rights in formatting and presenting appropriate information.
+4.	The system may work in two distinct modes.  It may monitor live events for â€˜standing requestsâ€™ (continuous queries) or a user may access the system to inquire about specific information about past events.
+5.	A user should be able to visualize the state of the observation system at any time and should be able to query about any past events.  This should be done in terms of application level events, activities, and attributes.
+6.	Statistical characteristics of events, activities and attributes should be available to users in spatio-temporal formats.
+7.	The system should provide tools to address privacy issues as may be required.  Since depending on different requirements, the privacy rules may be different, the system should allow defining those rules and implementing those as may be required.
+8.	A user should be able to specify â€˜standing queriesâ€™ and the system should send alerts about specific events to specific clients as requested in the standing query.
+9.	Allow exploration of different types of past events that may have happened but not detected by the system.  This may require an environment in which a new type of event could be defined and explored.
+10.	Event definition environment should be provided.  Events could be defined in terms of primitive domain events or may be mapped into events into specific data sources.  The mapping into specific sources may not be visible to a user.
+11.	A system designer should be able to define new data events both at primitive event level as well as at compound level.
+12.	A system designer should be able to update credibility rating for different information sources and should be able to develop information assimilation approaches.
+13.	Any new data device can be added to the observation system at any location in the environment.  Similarly any existing device could be deleted from the environment.  An information source registry (ISR) should keep this information for each information device.
+14.	Given a location in the environment under observation, the system should be able to identify the sensors and other sources that will help in observing that environment.
+15.	For each sensor, it should be able to relate sensor data to the real world information.
+16.	Data from different sensors should be analyzed and assimilated to develop observations in the application environment in terms of events, activities, and attributes of the application environment.
+
+
+
+By Ramesh |
+    				August 18, 2005 |
+    				             		Prospecting Information |
+             	 
+    				             		2 Comments |
+             	 		          				
+    			
+
+
+← A9 and Local
+Future Web – 2 →
+
+
+
+			2 thoughts on “Observation Systems — Functionality”		
+
+
+
+
+Dhiresh Rawal August 22, 2005 at 4:50 pm 
+
+You have clearly defined the necessary elements for observation systems. But one thing I found missing and that requires discussion is the interoperability between two observation systems. Open standards like SensorML, OpenGIS may provide answers.
+
+
+
+
+
+
+
+
+Ramesh  Post authorAugust 23, 2005 at 1:38 pm 
+
+Your point about interoperability is a good one.  That will be important.  SensorML or GIS appears be at too low a level and may help in early stages, but we may require more event based tools to capture more dynamic nature of observations from disparate observation systems.
+Gives me something to think.  Thanks.
+
+
+
+
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

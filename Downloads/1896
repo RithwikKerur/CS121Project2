@@ -1,0 +1,143 @@
+https://sli.ics.uci.edu/PmWiki/EditVariables
+
+
+
+SLI | PmWiki / EditVariables 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+EditVariables
+
+
+
+
+
+< Debug Variables | Variables | I18n Variables >
+
+
+
+To set many of the variables below specify them in config.php.
+
+$AutoCreateUsed in conjunction with the AutoCreateTargets edit function, this array records any sets of pages which should be created automatically if they don't exist.  The syntax is 
+ $AutoCreate[REGEXP] = PAGE_PARAMETERS;
+       where REGEXP is a regular expression which will identify the pages to be autocreated, and PAGE_PARAMETERS is an array of attributes for the page to be created.  For example, 
+ $AutoCreate['/^Category\\./'] = array('ctime' => $Now);
+       will create a blank page with a current creation time for any missing Category page.
+$DefaultPageTextFmtThe text that should be displayed when browsing non-existent pages. As default PmWiki uses the contents of Site.PageNotFound 
+ $DefaultPageTextFmt = '(:include $[{$SiteGroup}.PageNotFound]:)';
+$DeleteKeyPatternThe pattern used to determine if a page should be deleted.  The default is to remove pages that contain only the single word "delete" (and optional spaces).
+       # change delete word to "remove"
+ $DeleteKeyPattern = "^\\s*remove\\s*$";
+       # delete any page with no visible text, i.e., empty
+ $DeleteKeyPattern = "^\\s*$";
+$DiffKeepDaysThe $DiffKeepDays variable sets the minimum length of time that a page's revision history is kept. By default it is set to 3650 days, or a little less than ten years. You can change this value in a customization file to be something smaller, e.g.:
+ $DiffKeepDays = 30; # keep revisions at least 30 days
+ Note that a specific page revision isn't removed from the page until the first edit after the time specified by $DiffKeepDays has elapsed. Thus, it's still possible for some pages to have revisions older than $DiffKeepDays -- such revisions will be removed the next time those pages are edited.
+$DiffKeepNumThis variable contains the minimum number of changes to be kept in the page history, even if some of them are older than the limit defined by $DiffKeepDays. It prevents lost history of pages that are older, but have few changes.
+ $DiffKeepNum = 50; # keep at least 50 revisions (default is 20)
+$DraftActionsPatternThe actions which allow full loading of the draft.php functionnality for custom actions. Default is 'edit'. You can enable drafts for other actions like:
+$DraftActionsPattern = 'edit|pmform|translate'; # Enable drafts for actions 'edit', 'pmform' and 'translate'.
+$DraftSuffixThe suffix to use for draft versions of pages (default "-Draft").
+$EditFunctions This array contains the sequence of functions that are called when a page is edited.  It can be customized to provide additional functions to be called as part of the editing process.  The standard setting is:
+ $EditFunctions = array('EditTemplate', 'RestorePage', 'ReplaceOnSave',
+  'SaveAttributes', 'PostPage', 'PostRecentChanges', 'AutoCreateTargets', 'PreviewPage'); 
+  Many recipes manipulate this array, so it is recommended, instead of redefining the complete array to add your custom functions, to use functions like array_unshift(), array_push() and array_splice().
+$EditRedirectFmt The page to which an author is sent after pressing "Save" or "Cancel" from an edit form.  Defaults to "$FullName", which sends the author to the page just edited, but can be changed to specify another page.
+ # redirect to Main.HomePage
+$EditRedirectFmt = 'Main.HomePage';  
+# redirect to HomePage of current group
+$EditRedirectFmt = '{$Group}.HomePage';
+
+$EditTemplatesFmtName of the page (or an array of names) to be used as the default text for any newly created pages.
+ # Use 'Main.NewPageTemplate' as default text of all new pages
+$EditTemplatesFmt = 'Main.NewPageTemplate';
+# Use 'Template' in the current group for new pages
+$EditTemplatesFmt = '$Group.Template';
+# Use 'Template' in the current group if it exists, otherwise
+# use 'Main.NewPageTemplate'
+$EditTemplatesFmt = array('$Group.Template', 'Main.NewPageTemplate');
+See Cookbook:EditTemplates for more information.
+$EnableDraftsWhen set to '1', enables the "Save draft" button and built-in handling of "draft" versions of pages, where: 
+initial "Save draft" of an existing page ("PageName") saves changes to a new name ("PageName-Draft")
+subsequent attempts to edit PageName causes PageName-Draft to be edited
+subsequent selections of "Save draft" cause PageName-Draft to be saved
+pressing "Publish" causes PageName-Draft to be posted to PageName, and deleted.
+       # turn on draft edits
+ $EnableDrafts = 1;
+A related variable, $EnablePublishAttr, adds a new "publish" authorization level to distinguish editing of drafts from publishing them.
+$EnableDraftAtomicDiffWhen set to 1, "publishing" a draft version will clear the "draft" history, leaving a single "diff" between the latest and the previous "published" versions. Note that this will delete the author names, dates and contributions of the intermediate, unpublished versions. (Drafts need to be enabled, see $EnableDrafts.)
+$EnableGUIButtonsWhen set to '1', turns on the graphical buttons in the "Edit Page" form.
+       # turn on graphical edit buttons
+ $EnableGUIButtons = 1;
+$EnablePostAuthorRequiredWhen set to '1', posting of pages requires the author to provide an author name.  Otherwise, authors can post without a name.
+       # require authors to provide a name
+ $EnablePostAuthorRequired = 1; 
+$EnableRevUserAgentWhen set to '1', the page history will store the "User agent" string from the browser of the writer (by default this feature is disabled). This can be useful for tracking bugs in custom applications, by examining the disk files in wiki.d.
+       # Store browser user agent with page diffs
+ $EnableRevUserAgent = 1; 
+$GUIButtonsAllows the configuration of the buttons which appear at the top of the text area when editing a page.  See scripts/guiedit.php for the default definition.  Note that the 5th element can be HTML code rather than just the url of a gif - this allows more flexibility in defining the related javascript.
+$HandleEditFmt Like $HandleBrowseFmt, this specifies the entire output format for ?action=edit for a page.
+$IsPagePosted Set to a true value if the page is actually saved (e.g., this is used to tell the RecentChanges handlers if they need to update).
+$PageEditFmt By default, this is the HTML to be displayed for an edit form.
+$PageEditForm Specifies the edit form for ?action=edit.  Defaults to '$SiteGroup.EditForm'.
+$ROEPatterns With this array you can add a pattern as key and set a text value which replace it on every edit request, using preg_replace function. Specifically it is replaced when the page is loaded into the editform, whenever a preview is done, and when the page is saved (from PmWiki 2.2.0beta45). See Cookbook:ROEPatterns for examples.
+$ROSPatterns With this array you can add patterns as key and set a text value which will replace it when the edited page is posted (as signaled by $EnablePost).  It is not replaced when the page is loaded into the editform nor when a preview is done, but it is replaced only when the page is saved.  See Cookbook:ROSPatterns for examples.
+$EnableROSEscape If set to 1, the $ROEPatterns and $ROSPatterns replacements will skip escaped text (surrounded by [=...=] or [@...@]). If not set, or if set to 0, the replacements will happen even inside escaped text.
+Categories: PmWiki Developer
+
+< Debug Variables | Variables | I18n Variables >
+
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:EditVariables, and  a talk page: PmWiki:EditVariables-Talk.
+
+
+
+
+
+
+ Last modified May 15, 2016, at 07:50 AM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

@@ -1,0 +1,195 @@
+https://ngs.ics.uci.edu/human-and-search
+
+
+
+
+
+
+
+
+Human and Search – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Human and Search    			
+
+
+We all know that Search is for humans.  All search engines are designed to help humans.  Lately search engines have started emphasizing that purly machine based search can only take the effectiveness of search (for humans) so far.  This is because natural languages (and images, and videos, and music, …) are ambiguous.  That is the beauty of natural languages and other media and that is the area where computers and humans have impedance mismatch.  Computers like to work with precise information and humans live in ambiguous world and use ambiguous language.  Realizing that approaches based on precise matching can only be partially effective in search, search people started thinking about developing approaches that can somehow solve the impedance mismatch.  Many different approaches have been introduced to solve this mismatch problem.
+Clearly humans are the best in dealing with this ambiguity problem.  If one could find a way to use humans for solving the impedance mismatch between computers and humans then search engines will become more useful.  This idea is becoming very popular now.  Yahoo’s efforts as oulined by Bradley in his talk here at UCI   showed that.  So did Suranga Chandratillake’s presentation.  And today WSJ has an article by Kevin Delaney titled “Search Engines Find a Role for Humans” where he describes how different search engines are adopting strategy to involve humans in finding more precise results, including answers.  This is not very new.  Ask Jeeves started with natural language understanding and soon realized the difficulty of doing it automatically so started using humnas.  Now we are using humans for assigning tags and for finding answers.
+I am just curious about the scalability of this approach.  Can we scale this to all domains and all media?  Or should we just focus on limited problems to understand issues involved and then try to scale-up.  But can then we scale-up.  These are good questions and until we try we would not know whether this will really work.
+
+
+
+By Ramesh |
+    				May 11, 2006 |
+    				             		Experiential Computing, Prospecting Information |
+             	 
+    				             		2 Comments |
+             	 		          				
+    			
+
+
+← SenseWeb
+Convergence in Search and databases →
+
+
+
+			2 thoughts on “Human and Search”		
+
+
+
+
+Andy May 14, 2006 at 6:03 am 
+
+My colleagues and I have spent the past five years working on this exact issue.  We have developed a new application, Quece , that is capable of resolving the ambiguity problem.  In fact, Quece works via IM to converse with the user just as another human would to search the web.  Let me know if you are interested in joining our private beta.
+
+
+
+
+
+
+
+
+Ramesh  Post authorMay 15, 2006 at 9:24 pm 
+
+I just officially requested for the beta — could not help but had to go to your site to see what your approach could do.  I am eager to play with it.
+
+
+
+
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

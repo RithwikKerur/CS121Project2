@@ -1,0 +1,178 @@
+https://ngs.ics.uci.edu/eventweb-11-a-scenario-conferences
+
+
+
+
+
+
+
+
+EventWeb 12: A scenario – Conferences – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				EventWeb 12: A scenario – Conferences    			
+
+
+Examples usually help in illustrating concepts.Â  So here is an example from a familiar area of conferences.Â  Obviously, this could be easily extended to other things like sports, meeting, seminars, weddings etc.Â  In this and some other posts, however, it will help to focus on this application scenario.
+Conferences are major events to build strong communities.Â  Conferences are planned and organized well in advance.Â  People who are part of the community start planning to attend conferences, they contribute to different mail lists, now â€˜feedsâ€™, to receive information.Â  They contribute to the organization of conferences in many ways ranging from organizers to authors to participants.Â  People who want to be in a particular area, say Multimedia, they find out important conference events in that area and plan to attend.
+Then conference takes place.Â  There are many events at the conference.Â  Papers are presented in many sessions.Â  Demos and posters are presented in others.Â  With some conferences there are exhibits.Â  Reception, business meetings, banquets, and social programs are as much a part of the conference as the main conference.Â  Most conferences usually publish a â€˜proceedingsâ€™ of the conference.Â  This is a slightly misleading term.Â  Proceedings are prepared based on the intent of the presentation.Â  They are not the presentations made by people and they donâ€™t capture discussions.Â  They also are just text, while the real value of the conference is in the interactions and experiences.
+Now suppose that we create each paper, each demo, each social function, and any other event at the conference as an event.Â  We collect text-based information such as papers, presentations (say powerpoints) photos and videos of what happens in that event.Â  We post all these things as an Event (I will use Event to denote computer representation of all the material related to an event).Â  After the event, people can post photos and videos that they may have taken related to the event.Â  People can also comment on the event and have discussions going.
+A paper presented at a conference may have relationship with other paper at that conference.Â  It may also have relationship other papers presented at other conferences and published in journals.Â  It may be related to some product launches or other events taking place at other place.Â  Multiple papers may have relationships among them based on authors, topics, organizations, or any other aspect.Â  A paper may result in spawning new fields, killing an existing field, development of a product, tenure for a researcher, or even friendship between two researchers.
+Conferences are related to each other in many ways also.Â  ACM as a professional organization is involved in making sure that all aspects of computing progress.Â  It encourages organization of many conferences and workshops.Â  These events are related to each other in many different ways.Â  There are conference series â€“ ACM Multimedia takes place every year.Â  There are workshops and tutorials that take place in conjunction to a conference.Â  As research fields evolve, common topics are addressed.Â  The relationships among such events (conferences or workshops) can be judged by sub-events (papers and their topics), and also by participants.Â  If the papers at two conferences are from similar topic areas and the people involved are similar then one knows that the two events are similar.
+One judges the prominence of people in a field by analyzing their role in these events.Â  Similarly the strength of a field is judged by how these events are changing over time and space.Â  For example, there are many conferences starting in Multimedia related area in Asian countries reflecting the growth of this field in Asia more than Europe.
+As may be clear, there are many different relationships among these events and can be captured by creating Events on them.
+To give an idea of how some of these will grow, I decided to use some conferences in Multimedia as examples.Â  I am creating some of these Events in Seraja. (Disclosure: I am Chairman of Seraja)Â  I will use ACM Multimedia 2006 conference as an example.
+Here is an Event in Seraja.Â  An interesting way to look at Seraja is that it is an environment to start with an â€˜event blogâ€™ that becomes â€˜Event Wikiâ€™.Â  In this environment, an event could become richer and richer when people start adding to it.Â  So if to the ACMMM2006 event that I created other people could start adding other photos and reports and even could create other papers by posting their presentations as an independent but related event, then the whole event could be stored and used by attendees as well as other people.Â  As an example, I also created several other events related to ACMMM2006 â€“ a few papers etc, biz meeting, banquet etc to give examples.Â  Using the tools that will come in a month or so, we will be able to relate (by creating explicit and exploring implicit links) events and start creating a web.Â  We could start linking related papers and conferences and track the progress of the individual research project, research area, and the whole fields using the EventWeb that will be created.Â  I believe that this would be an interesting way to capture conference proceedings â€“ including the live webcasts â€“ rather than current outmoded version of â€˜frozenâ€™ proceedings.Â  And we have not even started considering all the other personal, travel, business, and entertainment events that usually take place around a conference.
+
+
+
+
+
+By Ramesh |
+    				November 8, 2006 |
+    				             		Technical Thoughts |
+             	 
+    				             		No Comments |
+             	 		          				
+    			
+
+
+← SEraja Updates 061105
+Being too early is worse than being late →
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

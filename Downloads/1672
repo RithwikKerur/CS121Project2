@@ -1,0 +1,138 @@
+http://sli.ics.uci.edu/Classes/2016W-178
+
+
+
+SLI | Classes / CS178: Machine Learning and Data Mining 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Classes /
+CS178: Machine Learning and Data Mining
+
+
+
+Assignments and Exams:
+
+HW1Code01/11/16Soln 
+HW2Code01/21/16Soln 
+HW3Code02/05/16Old Soln 
+HW4Code02/26/16Soln 
+HW5Code03/11/16Soln 
+MidtermThurs 2:00pm-3:30pm2/11/16  
+Project 3/13/16 
+FinalThurs 1:30pm-3:30pm3/17/16  
+
+Lecture: Tues/Thurs 2pm-3:30pm, DBH 1100
+Discussion: Thurs 7pm-7:50pm, BS3 1200
+Instructor: Prof. Alex Ihler (ihler@ics.uci.edu), Office Bren Hall 4066
+Office Hours: Fri 12:30pm-1:30pm, Bren Hall 4066 or by appointment
+Teaching Assistant: Qi Lou (qlou@uci.edu)
+Office Hours: Mon 11am-12pm, Bren Hall 4013 or by appointment (office Bren Hall 4051)
+Course Notes in development
+
+Introduction to machine learning and data mining
+How can a machine learn from experience, to become better at a given task?  How can we automatically extract knowledge or make sense of massive quantities of data?  These are the fundamental questions of machine learning.  Machine learning and data mining algorithms use techniques from statistics, optimization, and computer science to create automated systems which can sift through large volumes of data at high speed to make predictions or decisions without human intervention.
+
+Machine learning as a field is now incredibly pervasive, with applications from the web (search, advertisements, and suggestions) to national security, from analyzing biochemical interactions to traffic and emissions to astrophysics.  Perhaps most famously, the $1M Netflix prize stirred up interest in learning algorithms in professionals, students, and hobbyists alike.
+
+This class will familiarize you with a broad cross-section of models and algorithms for machine learning, and prepare you for research or industry application of machine learning techniques. 
+
+Background
+We will assume basic familiarity with the concepts of probability and linear algebra.  Some programming will be required; we will primarily use Python, using the libraries "numpy" and "matplotlib", as well as course code.
+
+Textbook and Reading
+There is no required textbook for the class.  However, useful books on the subject for supplementary reading include
+Murphy's "Machine Learning: A Probabilistic Perspective", Duda, Hart & Stork, "Pattern Classification", and Hastie, Tibshirani, and Friedman, "The Elements of Statistical Learning".
+
+Piazza
+I use Piazza to manage student discussions and questions.  Our class link is:
+http://piazza.com/uci/winter2016/cs178.
+
+Python
+This year, we will be using Python for most of the programming in the course.  I strongly suggest the "full SciPy stack", which includes NumPy, MatPlotLib, SciPy, and iPython notebook for interactive work and visualization; see http://www.scipy.org/install.html for installation information.  
+
+Here is a simple introduction to numpy and plotting for the course; and of course you can find complete documentation for these libraries as well as many more tutorial guides online.
+
+I usually use Python 2.7 by default, but try to program in a 3.0 compatible way; if you find parts of the code do not work for more recent versions of Python please let me know the issue and I will try to fix it.
+
+
+Syllabus (subject to change)
+SlidesVideosTopics
+slides1 , 2 , 3 , 4Introduction
+slides1 , 2Nearest neighbor methods
+slides1 , 2Bayes classifiers, naive Bayes (there is also a review of probability here)
+slides, notes1 , 2 , 3 , 4 , 5 , 6Linear regression
+slides, notes1 , 2Linear classifiers; perceptrons & logistic regression (Python Demo)
+slides, notes1VC dimension, shattering, and complexity
+slides, notes1 , 2 , 3Support vector machines; kernel methods (Python Demo)
+slides, notes1 , 2Neural networks (multi-layer perceptrons) and deep belief nets (Python Demo)
+slides, notes1 , 2Decision trees for classification & regression (Python Demo)
+slides1, 2, 3, 4Ensembles; bagging, gradient boosting, adaboost
+slides, notes1 , 2 , 3 , 4Unsupervised learning: clustering methods
+slides1, 2Dimensionality reduction: (Multivariate Gaussians); PCA/SVD, latent space representations
+slides Recommender Systems and Collaborative Filtering
+  Time series, Markov models
+  Markov Decision Processes (slides from Andrew Moore)
+
+You may find the slides from last year helpful; they are similar from year to year.
+
+
+Course Project
+TBD
+
+Outside resources
+Online lectures
+Coursera (Andrew Ng): https://www.coursera.org/learn/machine-learning
+Caltech (Yaser Abu-Mustafa): https://work.caltech.edu/lectures.html
+Online notes
+Stanford (Andrew Ng): http://cs229.stanford.edu/materials.html
+OpenCourseware: (Tommi Jaakkola): http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-867-machine-learning-fall-2006/
+
+
+
+
+
+
+ Last modified March 16, 2016, at 03:13 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

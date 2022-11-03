@@ -1,0 +1,451 @@
+https://www.ics.uci.edu/community/news/view_news?id=1707
+
+
+
+In the News @ Donald Bren School of Information and Computer Sciences
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to main content
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HOME
+
+
+ABOUT
+
+
+About the School
+
+
+Dean's Welcome
+
+
+Facts and Figures
+
+
+Donald Bren Hall
+
+
+Visit the Bren School
+
+
+Equity & Diversity
+                            
+
+
+Contact Us
+
+
+
+
+DEPARTMENTS
+
+
+Computer Science
+
+
+Informatics
+
+
+Statistics
+
+
+
+
+RESEARCH
+
+
+Research Areas
+
+
+Research Centers
+
+
+Research Highlights
+
+
+
+
+STUDENTS
+
+
+Graduate ▸
+
+
+Orientation
+
+
+Prospective Students
+
+
+How to Apply
+
+
+Programs of Study
+
+
+Academic Year Plan
+
+
+Course Updates
+
+
+Forms And Policies
+
+
+Admissions FAQ
+
+
+Funding
+
+
+Housing
+
+
+Computing Support
+
+
+Campus Resources
+
+
+Visit the Bren School
+
+
+Contact
+
+
+
+
+Undergraduate ▸
+
+
+Contact
+
+
+Academic Advising
+
+
+Course Updates
+
+
+Academic Year Plan
+
+
+Petitions
+
+
+ICS Majors
+
+
+ICS Minors
+
+
+Policies: Academic Integrity
+
+
+Policies: Academic Standing
+
+
+Policies: Add, drop, & change options
+
+
+Policies: Coursework outside UCI
+
+
+Policies: Grade policy
+
+
+Policies: Laptop & computer use
+
+
+Policies: Withdrawal/Readmission
+
+
+Policies: CS 199 / IN4MATX 199 Courses
+
+
+Graduation
+
+
+ICS Student Life
+
+
+Upcoming Events
+
+
+Computing Support
+
+
+
+
+Scholarships & Fellowships
+
+
+Student Jobs & Internships
+
+
+
+
+PEOPLE
+
+
+Faculty
+
+
+Staff
+
+
+Graduate Students
+
+
+
+
+NEWS & EVENTS
+
+
+Newsroom
+
+
+Events
+
+
+Social Media
+
+
+Publications
+
+
+
+
+GET INVOLVED
+
+
+Make a Gift
+                                
+
+
+
+Leadership Council
+
+
+Corporate Partners
+
+
+Sponsor Projects
+
+
+Product Development Competition
+
+
+Alumni
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bren school home / Community / News
+
+
+In the News
+
+
+
+February 12,  2020
+
+
+AI and Art: Lessons Learned from an Exhibit in Italy
+
+What happens when you give art a voice? This isn’t a metaphorical question about artistic expression. It was a concept on display for six months at Italy’s Venice Biennale cultural festival, with three unique pieces — by artist Belu-Simion Fainaru and UCI Computer Science Professors Alex Nicolau and Alexander Veidenbaum and their students — literally speaking to viewers.
+
+From May 11 through Nov. 24 2019, artwork infused with artificial intelligence was part of an exhibit in the Romanian Pavilion titled “Unfinished Conversations on the Weight of Absence.” A “Talking Plant” installation verbally responded to touch and recited poetry by Jewish-Romanian poet Paul Celan. As described in the e-flux article, “Romanian Pavilion at the Venice Biennale,” the plant exhibited human-like attributes: “She possesses a body, she awaits for caress, she can handle irony, flirt or reject, and she knows her way around the poetic verse.” In addition, two “Talking Head” portraits — one of Celan that also recited his poetry and another of Romanian communist leader Nicolae Ceausescu that replayed his speeches — could answer visitors’ questions.
+The novel art resulted from Fairnaru’s partnership with Nicolau; Veidenbaum; and graduate students Neftali Watkinson, Michael Demirev, Aniket Shivam and Fedor Zaytsev. It was also a topic of discussion at the Art and Computers Symposium held in Venice the weekend of Oct. 15, with Fairnaru as well as Nicolau and Veidenbaum giving talks about the experience.
+So how did people respond to this art coming to life? “There was a huge variety of reactions,” says Nicolau, “from amazement to a little bit of fear to embarrassment to downright shame.”
+He recalls one unexpected encounter with the Talking Plant. Outfitted with cameras to detect touch, the plant would recite Celan’s poetry when gently touched. At some point, the plant would say, “I’m tired and would like to rest now.” Continued touching would elicit a more forceful response, such as “I told you not to touch me; which part of ‘no’ do you not understand?” The plant would eventually reset in preparation for its next encounter, but Nicolau says one unsuspecting visitor walked up immediately following another person, and when he touched the plant, it yelled, “Leave me alone!” According to Nicolau, “the guy literally jumped back and his girlfriend started laughing!”
+The Talking Plant installation.
+Another unanticipated encounter occurred with the Talking Head portrait of Celan, which used a combination of scripting and machine learning technology to respond to questions. Posted near the portrait were suggested questions, such as “where were you born?” or “what is the symbolism in your poetry?” However, one visitor (likely unaware of the poet’s tragic background) instead asked Celan what he thought of the Germans. “The system came up with an answer that wasn’t scripted,” says Nicolau, “and the response was something to the effect of, ‘My family was killed by Germans in concentration camps and it’s not something I want to discuss!’” Nicolau says the visitor turned red and quickly walked away.
+Alex Nicolau (left) and Alex Veidenbaum (right) with Belu-Simion Fainaru in front of their Talking Head portrait of Celan.
+Of course, it was the Talking Head portrait of Ceausescu that proved the most provocative. Nicolau and Fairnaru, childhood friends from Romania, expected strong reactions to the dictator, who ruled Romania for 30 years before being overthrown and executed for economic sabotage and genocide. “We wanted to show how easy it is for a demagogue to present a false image and fool his people,” explains Nicolau, noting Ceausescu’s popularity early on. So they digitally created a portrait of Ceausescu, using an early 20th century painting by American portraitist Gari Melchers of railroad magnate Leonor F. Loree, superimposing Ceausescu’s head over Loree’s using sophisticated software. They then animated the image, playing audio clips from real speeches, answering questions, and concluding with variations of “I have to get back to my speech now; the people are waiting.” However, Nicolau admits they were shocked when the other two artists from the Romanian exhibit protested the artwork. “They were furious and threatened to quit the show, saying Ceausescu’s presence would overpower the art and everything would be seen through the prism of this dictator.”
+The piece was moved to a separate room, but it grabbed people’s attention when that room was later used for Romanian citizens voting in the European Parliament election. Although the display was turned off during voting, at the end of the day, there were still some 200 people milling about. “One of them saw this TV and turned it on, and low and behold Ceausescu launched into a speech,” says Nicolau, who learned that “while some people cheered, others wanted to destroy it, and apparently there were almost riots!” After this incident, the piece was moved back into the gallery.
+
+
+
+
+
+
+Alex Nicolau with the Talking Head portrait of Ceausescu.
+
+So what do these instances of shock, embarrassment and fury tell us about AI and art? “A large part of what contemporary art is about, is provoking a strong emotional reaction,” Nicolau says, “and computerized art has the potential to create vastly more complex and interesting interactions.”
+Part of the complexity stems not just from the technology but also the realm in which it is used. “It’s a very different, much richer kind of environment than what most people who work on AI problems are used to,” explains Nicolau, “because the technology is not yet ready for open-ended real-world application in this context.” This opportunity forced Nicolau and his team to move outside of the lab and address audiences with questions of philosophical and historical significance. “It was intellectually stimulating and refreshing,” he says, “given the normal, very insular confines of computer science research.”
+His colleague, Veidenbaum, agrees. “There’s the technical side, where we learned about building such systems that we didn’t really understand before,” he says. “And on the artistic side, interacting with artists was an interesting experience.”
+Both came to realize the integral role computers can play in making art truly interactive. “This is kind of revolutionary because mostly, in the past, you have the art that’s being displayed and the user or viewer maybe changes internally as a result of viewing the art, but it’s all a one-way street,” says Nicolau. AI-infused art that changes in response to viewers provides new avenues for creativity and engagement, particularly in educational programs.
+“The main challenge is not so much in the technology per se, but in the integration of all these things and making them appear to work smoothly and naturally,” says Nicolau. “It’s not just giving the right answer; it’s what do you do when you don’t have the right answer?”
+Veidenbaum adds, “or when you don’t even understand the question?”
+A lab isn’t the same as an exhibit with hundreds of thousands of people walking by — all with different accents and questions, mixed in with various background noises. “We have a large group of machine learning folks and they develop new algorithms and approaches and it’s great — that’s what they should be doing as academics — but creating ML-based systems that actually work on real-world problems, that’s a lot less developed,” explains Veidenbaum.
+“We tend to think in the world of computer science that machine learning is the answer to everything, and while it’s a very important tool, in fact, it’s a small part of the story when it comes to a full system that actually works and can exhibit intelligent behavior,” adds Nicolau. “It’s nothing that researchers don’t know, but it’s surprising to see how dramatic it is.”
+— Shani Murray
+
+AI and Art: Lessons Learned from an Exhibit in Italy
+< Previous
+ Foundation trustee donates $5 million to UC Irvine for inclusive STEM recruitment
+            
+Next >
+ Our war with Iran did not start or end with the killing of Soleimani (video)
+            
+
+
+
+
+
+
+
+More news and events
+
+News Stories
+Video highlights
+Annual reports
+Calendar of events
+
+
+Media Inquiries Media interested in interviewing ICS faculty, students or alumni should contact Matt Miller at (949) 824-1562 or matt.miller@uci.edu
+
+
+
+
+
+
+
+
+Tweets by UCIbrenICS 
+
+View Social Media
+
+
+
+
+
+
+
+
+
+
+
+
+                        Donald Bren School of Information and Computer Sciences
+                		University of California, Irvine
+    					6210 Donald Bren Hall
+    					Irvine, CA 92697-3425
+                    
+
+
+
+  
+  
+  
+  
+  
+ 
+
+
+
+UCI Homepage
+UCI Directory
+Faculty & Staff
+Employment
+ICS Intranet
+Research Development
+Kay Family Foundation Lab
+Facilities
+
+
+
+
+News
+Events
+Map & Directions
+Accessibility Statement
+Safety Procedures
+Privacy Policy
+Coronavirus Resources
+
+
+
+
+Apply
+Contact
+Gift 
+
+
+
+
+©  UCI Donald Bren School of Information & Computer Sciences
+
+
+
+
+
+
+➤
+
+
+
+
+
+
+
+
+
+
+

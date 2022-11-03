@@ -1,0 +1,175 @@
+https://ngs.ics.uci.edu/photo-eco-system-analyzing-digital-photos
+
+
+
+
+
+
+
+
+Photo Eco System: Analyzing digital photos – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Photo Eco System: Analyzing digital photos    			
+
+
+The most important factor is that even the most powerful visual system known to humansâ€” the human visual systemâ€”uses all kinds of metadata.Â  Also, itâ€™s well known that humans first use peripheral vision to form a general idea about what they might see before they really focus on the details and spend valuable perceptual resources on understanding the content of an image captured in their central vision.
+Â 
+Similarly, we could use the metadata available in digital photos to get peripheral information about the environment in which the picture was taken. Whatâ€™s equally important is that by processing a sequence of digital photographs (rather than only an isolated photo) from a camera and using the time stamps and GPS information from photos, it might be possible to interpret a sequence of photos taken in a context.
+Â 
+Most photos are usually taken in the context of an event such as a meeting, party, trip, performance, or even the first steps taken by your daughter. At each event, usually we take multiple photos, because digital photos are cheap to take and store. So not only can we use the metadata to get some peripheral environment information, we can also tag the photos as some events, particularly if we have access to a calendar or other information about an imageâ€™s context. And Iâ€™m still not talking about using the rich maps becoming available in cameras that could provide more informationâ€”such as using the latitude and longitude (and compass)â€”about the visual environment in which the picture was taken.
+Â 
+Itâ€™s truly amazing that we throw away all this information about digital photos and try to solve a problem that we think is difficult. In developing photo management systems, we should use all the information from camera metadata and human induced tags, as well as any other sourcesâ€”such as those used by current commercial search engines. Note though, that human-assigned tags popularized by systems such as Flickr, are useful
+but suffer from many problems that make their application very limited.
+
+
+
+
+By Ramesh |
+    				June 28, 2007 |
+    				             		Technical Thoughts |
+             	 
+    				             		No Comments |
+             	 		          				
+    			
+
+
+← User Generated Stock Photos
+Photo Eco System: I need to solve my problem →
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

@@ -1,0 +1,1102 @@
+https://isg.ics.uci.edu/publications/?limit=1&
+
+
+
+
+
+
+Publications – Information Systems Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+
+Faculty
+Students
+Recent Alumni
+Research Staff
+Visitors
+
+
+Research
+
+Projects
+Publications
+
+
+Teaching
+
+Courses
+DB Qual
+
+
+Events
+
+Talks
+News
+
+
+About
+
+Sponsors & Partners
+Visitor Info
+Contact us
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Publications
+
+179 entries « ‹  1 of 4 › » 
+
+2022
+
+ Alsudais, Sadeem;  Bai, Qiushi ;  Zhao, Shuang ;  Li, ChenGSViz: Progressive Visualization of Geospatial Influences in Social Networks Conference International Conference on Advances in Geographic Information Systems: SIGSPATIAL, 2022.BibTeX@conference{Alsudais2022,
+title = {GSViz: Progressive Visualization of Geospatial Influences in Social Networks},
+author = { Sadeem Alsudais and
+ Qiushi Bai and
+ Shuang Zhao and
+Chen Li},
+year  = {2022},
+date = {2022-10-10},
+booktitle = {International Conference on Advances in Geographic Information Systems: SIGSPATIAL},
+keywords = {},
+pubstate = {published},
+tppubtype = {conference}
+}
+Close Bai, Qiushi;  Alsudais, Sadeem;  Li, ChenDemo of VisBooster: Accelerating Tableau Live Mode Queries Up to 100 Times Faster Conference EDBT/ICDT Workshops 2022, 2022.BibTeX@conference{Bai2022,
+title = {Demo of VisBooster: Accelerating Tableau Live Mode Queries Up to 100 Times Faster},
+author = {Qiushi Bai and Sadeem Alsudais and Chen Li},
+year  = {2022},
+date = {2022-10-10},
+booktitle = {EDBT/ICDT Workshops 2022},
+keywords = {},
+pubstate = {published},
+tppubtype = {conference}
+}
+Close Bai, Qiushi;  Alsudais, Sadeem;  Li, Chen;  Zhao, ShuangRainbow: A Rendering-Aware Index for High-Quality Spatial Scatterplots with Result-Size Budgets Conference EGPGV 2022 – Eurographics Symposium on Parallel Graphics and Visualization, 2022.BibTeX@conference{Bai2022b,
+title = {Rainbow: A Rendering-Aware Index for High-Quality Spatial Scatterplots with Result-Size Budgets},
+author = {Qiushi Bai and Sadeem Alsudais and Chen Li and Shuang Zhao},
+year  = {2022},
+date = {2022-10-10},
+booktitle = {EGPGV 2022 – Eurographics Symposium on Parallel Graphics and Visualization},
+keywords = {},
+pubstate = {published},
+tppubtype = {conference}
+}
+Close Bai, Qiushi;  Alsudais, Sadeem;  Li, Chen;  Zhao, ShuangMaliva: Using Machine Learning to Rewrite Visualization Queries Under Time Constraints Conference International Conference on Extending Database Technology - EDBT 2023, 2022.BibTeX@conference{Bai2022c,
+title = {Maliva: Using Machine Learning to Rewrite Visualization Queries Under Time Constraints},
+author = {Qiushi Bai and Sadeem Alsudais and Chen Li and Shuang Zhao},
+year  = {2022},
+date = {2022-10-10},
+booktitle = {International Conference on Extending Database Technology - EDBT 2023},
+keywords = {},
+pubstate = {published},
+tppubtype = {conference}
+}
+Close Liu, Xiaozhen;  Wang, Zuozhi;  Ni, Shengquan;  Alsudais, Sadeem;  Huang, Yicong;  Kumar, Avinash;  Li, ChenDemonstration of Collaborative and Interactive Workflow-Based Data Analytics in Texera Conference VLDB 2022 (Demo track), 2022.Links | BibTeX@conference{Liu2022,
+title = {Demonstration of Collaborative and Interactive Workflow-Based Data Analytics in Texera},
+author = {Xiaozhen Liu and Zuozhi Wang and Shengquan Ni and Sadeem Alsudais and Yicong Huang and Avinash Kumar and Chen Li},
+url = {paper: https://www.vldb.org/pvldb/vol15/p3738-liu.pdf
+demo video: https://www.youtube.com/watch?v=2gfPUZNsoBs},
+year  = {2022},
+date = {2022-10-10},
+booktitle = {VLDB 2022 (Demo track)},
+keywords = {},
+pubstate = {published},
+tppubtype = {conference}
+}
+Closepaper: https://www.vldb.org/pvldb/vol15/p3738-liu.pdfdemo video: https://www.youtube.com/watch?v=2gfPUZNsoBsClose
+
+2021
+
+ Li, Yin;  Ghosh, Dhrubajyoti ;  Gupta, Peeyush ;  Mehrotra, Sharad ;  Panwar, Nisha ;  Sharma, Shantanu Prism: Private Verifiable Set Computation over Multi-Owner Outsourced                Databases Conference ForthcomingProceedings of SIGMOD 2021, Forthcoming.Links | BibTeX@conference{DBLP:conf/edbt/GuptaM0VW21,
+title = {Prism: Private Verifiable Set Computation over Multi-Owner Outsourced                Databases},
+author = {Yin Li and
+    Dhrubajyoti Ghosh and
+    Peeyush Gupta and
+    Sharad Mehrotra and
+    Nisha Panwar and
+    Shantanu Sharma},
+url = {http://isg.ics.uci.edu/wp-content/uploads/2021/06/21-PRISM-SIGMOD-Shantanu_Sharma.pdf},
+doi = {DBLP:conf/edbt/GuptaM0VW21},
+year  = {2021},
+date = {2021-06-01},
+booktitle = {Proceedings of SIGMOD 2021},
+journal = {Proceedings of SIGMOD 2021},
+keywords = {},
+pubstate = {forthcoming},
+tppubtype = {conference}
+}
+Closehttp://isg.ics.uci.edu/wp-content/uploads/2021/06/21-PRISM-SIGMOD-Shantanu_Sharm[...]doi:DBLP:conf/edbt/GuptaM0VW21Close Peeyush Gupta  Sharad Mehrotra, Shantanu Sharma Nalini Venkatasubramanian Guoxi Wang Concealer: SGX-based Secure, Volume Hiding, and Verifiable Processing of Spatial Time-Series Datasets Conference Forthcoming24th International Conference on Extending Database Technology, March 23 – 26, 2021, Forthcoming.Abstract | Links | BibTeX@conference{Gupta2021,
+title = {Concealer: SGX-based Secure, Volume Hiding, and Verifiable Processing of Spatial Time-Series Datasets},
+author = {Peeyush Gupta, Sharad Mehrotra, Shantanu Sharma, Nalini Venkatasubramanian, Guoxi Wang},
+url = {http://isg.ics.uci.edu/wp-content/uploads/2021/03/21-Concealer-EDBT-Shantanu_Sharma.pdf},
+year  = {2021},
+date = {2021-03-23},
+booktitle = {24th International Conference on Extending Database Technology, March 23 – 26, 2021},
+abstract = {  This paper proposes a system, entitled Concealer that allows sharing time-varying spatial data (e.g., as produced by sensors) in encrypted form to an untrusted third-party service provider to provide location-based applications (involving aggregation queries over selected regions over time windows) to users. Concealer exploits carefully selected encryption techniques to use indexes supported by database systems and combines ways to add fake tuples in order to realize an efficient system that protects against leakage based on output-size. Thus, the design of Concealer overcomes two limitations of existing symmetric searchable encryption (SSE) techniques: (i) it avoids the need of specialized data structures that limit usability/practicality of SSE in large scale deployments, and (ii) it avoids information leakages based on the output-size, which may leak data distributions. Experimental results validate the efficiency of the proposed algorithms over a spatial time-series dataset (collected from a smart space) and TPC-H datasets, each of 136 Million rows, the size of which prior approaches have not scaled to.  },
+keywords = {},
+pubstate = {forthcoming},
+tppubtype = {conference}
+}
+Close  This paper proposes a system, entitled Concealer that allows sharing time-varying spatial data (e.g., as produced by sensors) in encrypted form to an untrusted third-party service provider to provide location-based applications (involving aggregation queries over selected regions over time windows) to users. Concealer exploits carefully selected encryption techniques to use indexes supported by database systems and combines ways to add fake tuples in order to realize an efficient system that protects against leakage based on output-size. Thus, the design of Concealer overcomes two limitations of existing symmetric searchable encryption (SSE) techniques: (i) it avoids the need of specialized data structures that limit usability/practicality of SSE in large scale deployments, and (ii) it avoids information leakages based on the output-size, which may leak data distributions. Experimental results validate the efficiency of the proposed algorithms over a spatial time-series dataset (collected from a smart space) and TPC-H datasets, each of 136 Million rows, the size of which prior approaches have not scaled to.  Closehttp://isg.ics.uci.edu/wp-content/uploads/2021/03/21-Concealer-EDBT-Shantanu_Sha[...]Close
+
+2020
+
+ Mehrotra, Sharad;  Sharma, Shantanu;  Ullman, Jeffrey D;  Ghosh, Dhrubajyoti;  Gupta, PeeyushPanda: Partitioned Data Security on Outsourced Sensitive and Non-sensitive Data  Journal Article ACM Transactions on Management Information Systems (ACM TMIS), 2020.Links | BibTeX@article{Mehrotra2020,
+title = {Panda: Partitioned Data Security on Outsourced Sensitive and Non-sensitive Data },
+author = {Sharad Mehrotra and Shantanu Sharma and Jeffrey D. Ullman and Dhrubajyoti Ghosh and Peeyush Gupta},
+url = {http://isg.ics.uci.edu/wp-content/uploads/2020/07/20-panda-partition_computation-TMIS-shantanu-1.pdf},
+year  = {2020},
+date = {2020-05-01},
+journal = {ACM Transactions on Management Information Systems (ACM TMIS)},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://isg.ics.uci.edu/wp-content/uploads/2020/07/20-panda-partition_computation[...]Close Gupta, Peeyush;  Li, Yin;  Mehrotra, Sharad;  Panwar, Nisha;  Sharma, Shantanu;  Almanee, SumayaObscure: Information-Theoretic Oblivious and Verifiable Aggregation Queries  Journal Article IEEE Transactions on Knowledge and Data Engineering (IEEE TKDE), 2020.Links | BibTeX@article{Sharma2020,
+title = {Obscure: Information-Theoretic Oblivious and Verifiable Aggregation Queries },
+author = {Peeyush Gupta and Yin Li and Sharad Mehrotra and Nisha Panwar and Shantanu Sharma and Sumaya Almanee},
+url = {http://isg.ics.uci.edu/wp-content/uploads/2020/07/20-secret-sharing-aggregation-TKDE-shantanu.pdf},
+year  = {2020},
+date = {2020-03-22},
+journal = {IEEE Transactions on Knowledge and Data Engineering (IEEE TKDE)},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://isg.ics.uci.edu/wp-content/uploads/2020/07/20-secret-sharing-aggregation-[...]Close Panwar, Nisha;  Sharma, Shantanu;  Gupta, Peeyush;  Ghosh, Dhrubajyoti;  Mehrotra, Sharad;  Venkatasubramanian, NaliniIoT Expunge: Implementing Verifiable Retention of IoT Data Conference 10th ACM Conference on Data and Application Security and Privacy (ACM CODASPY), 2020.Links | BibTeX@conference{Panwar2020b,
+title = {IoT Expunge: Implementing Verifiable Retention of IoT Data},
+author = {Nisha Panwar and Shantanu Sharma and Peeyush Gupta and Dhrubajyoti Ghosh and Sharad Mehrotra and Nalini Venkatasubramanian},
+url = {http://isg.ics.uci.edu/wp-content/uploads/2020/07/20-IoTExpunge_sensor_data_deletion_codaspy.pdf},
+year  = {2020},
+date = {2020-03-16},
+booktitle = {10th ACM Conference on Data and Application Security and Privacy (ACM CODASPY)},
+keywords = {},
+pubstate = {published},
+tppubtype = {conference}
+}
+Closehttp://isg.ics.uci.edu/wp-content/uploads/2020/07/20-IoTExpunge_sensor_data_dele[...]Close Panwar, Nisha;  Sharma, Shantanu;  Wang, Guoxi;  Mehrotra, Sharad;  Venkatasubramanian, NaliniCanopy: A Verifiable Privacy-Preserving Token Ring based Communication Protocol for Smart Homes Journal Article ACM Transactions on Cyber-Physical Systems (ACM TCPS), 2020.Links | BibTeX@article{Nisha2020,
+title = {Canopy: A Verifiable Privacy-Preserving Token Ring based Communication Protocol for Smart Homes},
+author = {Nisha Panwar and Shantanu Sharma and Guoxi Wang and Sharad Mehrotra and Nalini Venkatasubramanian},
+url = {http://isg.ics.uci.edu/wp-content/uploads/2020/07/20-Smart_home_ACM-TCPS.pdf},
+year  = {2020},
+date = {2020-03-01},
+journal = {ACM Transactions on Cyber-Physical Systems (ACM TCPS)},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://isg.ics.uci.edu/wp-content/uploads/2020/07/20-Smart_home_ACM-TCPS.pdfClose
+
+2019
+
+ Panwar, Nisha;  Sharma, Shantanu;  Wang, Guoxi;  Mehrotra, Sharad;  Venkatasubramanian, Nalini;  Diallo, Mamadou H;  Sani, Ardalan AmiriIoT Notary: Sensor Data Attestation in Smart Environment Technical Report 2019.Links | BibTeX@techreport{iotNotaryTech,
+title = {IoT Notary: Sensor Data Attestation in Smart Environment},
+author = {Nisha Panwar and
+Shantanu Sharma and
+Guoxi Wang and
+Sharad Mehrotra and
+Nalini Venkatasubramanian and
+Mamadou H. Diallo and
+Ardalan Amiri Sani},
+url = {http://isg.ics.uci.edu/wp-content/uploads/2019/11/2019-IoT_Notary_Tech_report-1.pdf},
+year  = {2019},
+date = {2019-11-15},
+keywords = {},
+pubstate = {published},
+tppubtype = {techreport}
+}
+Closehttp://isg.ics.uci.edu/wp-content/uploads/2019/11/2019-IoT_Notary_Tech_report-1.[...]Close Dolev, Shlomi;  Gupta, Peeyush;  Li, Yin;  Mehrotra, Sharad;  Sharma, ShantanuPrivacy-Preserving Secret Shared Computations using MapReduce  Journal Article IEEE Transactions on Dependable and Secure Computing (IEEE TDSC), 2019.Links | BibTeX@article{Dolev2019,
+title = {Privacy-Preserving Secret Shared Computations using MapReduce },
+author = {Shlomi Dolev and Peeyush Gupta and Yin Li and Sharad Mehrotra and Shantanu Sharma},
+url = {http://isg.ics.uci.edu/wp-content/uploads/2020/07/19-Sharma_TDSC_Privacy_Secret-sharing_MapReduce.pdf},
+year  = {2019},
+date = {2019-08-01},
+journal = {IEEE Transactions on Dependable and Secure Computing (IEEE TDSC)},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://isg.ics.uci.edu/wp-content/uploads/2020/07/19-Sharma_TDSC_Privacy_Secret-[...]Close Panwar, Nisha;  Sharma, Shantanu;  Wang, Guoxi;  Mehrotra, Sharad;  Venkatasubramanian, Nalini;  Diallo, Mamadou H;  Sani, Ardalan AmiriIoT Notary: Sensor Data Attestation in Smart Environment Conference 18th IEEE International Symposium on Network Computing and Applications (NCA), Boston, MA, USA, 2019.Links | BibTeX@conference{techreport/panwar2019,
+title = {IoT Notary: Sensor Data Attestation in Smart Environment},
+author = {Nisha Panwar and Shantanu Sharma and Guoxi Wang and Sharad Mehrotra and Nalini Venkatasubramanian and Mamadou H. Diallo and Ardalan Amiri Sani},
+url = {http://isg.ics.uci.edu/wp-content/uploads/2019/10/IoT_Notary_NCA_2019.pdf},
+year  = {2019},
+date = {2019-05-13},
+publisher = {18th IEEE International Symposium on Network Computing and Applications (NCA), Boston, MA, USA},
+keywords = {},
+pubstate = {published},
+tppubtype = {conference}
+}
+Closehttp://isg.ics.uci.edu/wp-content/uploads/2019/10/IoT_Notary_NCA_2019.pdfClose Panwar, Nisha;  Sharma, Shantanu;  Wang, Guoxi;  Mehrotra, Sharad;  Venkatasubramanian, NaliniVerifiable Round-Robin Scheme for Smart Homes Conference Proceedings of the Ninth ACM Conference on Data and Application Security and Privacy (CODASPY), Richardson, TX, USA,, 2019.Links | BibTeX@conference{verifiable/2019,
+title = {Verifiable Round-Robin Scheme for Smart Homes},
+author = {Nisha Panwar and Shantanu Sharma and Guoxi Wang and Sharad Mehrotra and Nalini Venkatasubramanian},
+url = {http://isg.ics.uci.edu/wp-content/uploads/2019/10/privacy_in_smart_home_codaspy2019-3.pdf-3.pdf},
+year  = {2019},
+date = {2019-03-25},
+publisher = {Proceedings of the Ninth ACM Conference on Data and Application Security and Privacy (CODASPY), Richardson, TX, USA,},
+keywords = {},
+pubstate = {published},
+tppubtype = {conference}
+}
+Closehttp://isg.ics.uci.edu/wp-content/uploads/2019/10/privacy_in_smart_home_codaspy2[...]Close Mehrotra, Sharad;  Sharma, Shantanu;  Ullman, Jeffrey DScaling Cryptographic Techniques by Exploiting Data Sensitivity at a Public Cloud Conference Proceedings of the Ninth {ACM} Conference on Data and Application Security and Privacy (CODASPY), Richardson, TX, USA, 2019.Links | BibTeX@conference{https://doi.org/10.1145/3292006.3302384b,
+title = {Scaling Cryptographic Techniques by Exploiting Data Sensitivity at a Public Cloud},
+author = {Sharad Mehrotra and Shantanu Sharma and Jeffrey D. Ullman },
+url = {http://isg.ics.uci.edu/wp-content/uploads/2019/10/scaling_crypto_codaspy2019-2.pdf-2.pdf},
+year  = {2019},
+date = {2019-03-25},
+journal = {Proceedings of the Ninth {ACM} Conference on Data and Application Security and Privacy (CODASPY) 2019, Richardson, TX, USA, March 25-27, 2019},
+pages = {165-167},
+publisher = {Proceedings of the Ninth {ACM} Conference on Data and Application Security and Privacy (CODASPY), Richardson, TX, USA},
+keywords = {},
+pubstate = {published},
+tppubtype = {conference}
+}
+Closehttp://isg.ics.uci.edu/wp-content/uploads/2019/10/scaling_crypto_codaspy2019-2.p[...]Close Dolev, Shlomi;  Gupta, Peeyush;  Li, Yin;  Mehrotra, Sharad;  Sharma, ShantanuPrivacy-Preserving Secret Shared Computations using MapReduce Journal Article IEEE Transactions on Dependable and Secure Computing, 2019.Links | BibTeX@article{privacypreserving/sharad2019,
+title = {Privacy-Preserving Secret Shared Computations using MapReduce},
+author = {Shlomi Dolev and Peeyush Gupta and Yin Li and Sharad Mehrotra and Shantanu Sharma},
+url = {http://isg.ics.uci.edu/wp-content/uploads/2019/10/privacy_preserving_MapReduce_TDSC2019.pdf},
+year  = {2019},
+date = {2019-03-25},
+journal = {IEEE Transactions on Dependable and Secure Computing},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://isg.ics.uci.edu/wp-content/uploads/2019/10/privacy_preserving_MapReduce_T[...]Close Gupta, Peeyush;  Li, Yin;  Mehrotra, Sharad;  Panwar, Nisha;  Sharma, Shantanu;  Almanee, SumayaOBSCURE: Information-Theoretic Oblivious and Verifiable Aggregation Queries Conference Proc. VLDB Endow., 12 (9), pp. 1030-1043, 2019.Links | BibTeX@conference{obscure/conf,
+title = {OBSCURE: Information-Theoretic Oblivious and Verifiable Aggregation Queries},
+author = {Peeyush Gupta and Yin Li and Sharad Mehrotra and Nisha Panwar and Shantanu Sharma and Sumaya Almanee},
+url = {http://isg.ics.uci.edu/wp-content/uploads/2019/10/obscure_secret-sharing_vldb2019.pdf},
+year  = {2019},
+date = {2019-03-25},
+journal = {Proc. VLDB Endow., 12 (9), pp. 1030-1043, 2019.},
+publisher = {Proc. VLDB Endow., 12 (9), pp. 1030-1043},
+keywords = {},
+pubstate = {published},
+tppubtype = {conference}
+}
+Closehttp://isg.ics.uci.edu/wp-content/uploads/2019/10/obscure_secret-sharing_vldb201[...]Close Mehrotra, Sharad;  Sharma, Shantanu;  Ullman, Jeffrey D;  Mishra, AnuragPartitioned Data Security on Outsourced Sensitive and Non-sensitive Data Conference 35th IEEE International Conference on Data Engineering (ICDE), Macau, China, 2019.Links | BibTeX@conference{10.1109/ICDE.2019.00064,
+title = {Partitioned Data Security on Outsourced Sensitive and Non-sensitive Data},
+author = {Sharad Mehrotra and Shantanu Sharma and Jeffrey D. Ullman and Anurag Mishra },
+url = {http://isg.ics.uci.edu/wp-content/uploads/2019/10/partitioned_data_security_ICDE2019.pdf},
+year  = {2019},
+date = {2019-03-01},
+journal = {35th IEEE International Conference on Data Engineering (ICDE) 2019, Macau, China.},
+pages = {650-661},
+publisher = {35th IEEE International Conference on Data Engineering (ICDE), Macau, China},
+keywords = {},
+pubstate = {published},
+tppubtype = {conference}
+}
+Closehttp://isg.ics.uci.edu/wp-content/uploads/2019/10/partitioned_data_security_ICDE[...]Close Luo, Chen;  Carey, Michael JEfficient Data Ingestion and Query Processing for LSM-based Storage Systems Journal Article Proc. VLDB Endow., 12 (5), pp. 531–543, 2019, ISSN: 2150-8097.Links | BibTeX@article{Luo:2019:EDI:3303753.3316442,
+title = {Efficient Data Ingestion and Query Processing for LSM-based Storage Systems},
+author = {Chen Luo and Michael J Carey},
+url = {https://doi.org/10.14778/3303753.3303759},
+doi = {10.14778/3303753.3303759},
+issn = {2150-8097},
+year  = {2019},
+date = {2019-01-01},
+journal = {Proc. VLDB Endow.},
+volume = {12},
+number = {5},
+pages = {531--543},
+publisher = {VLDB Endowment},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.14778/3303753.3303759doi:10.14778/3303753.3303759Close
+
+2018
+
+ Sharad Mehrotra  Shantanu Sharma, Jeffrey Ullman D;  Mishra, AnuragPartitioned Data Security on Outsourced Sensitive and Non-sensitive Data link Technical Report 2018.Links | BibTeX@techreport{techreport/201803/sharad,
+title = {Partitioned Data Security on Outsourced Sensitive and Non-sensitive Data link},
+author = {Sharad Mehrotra, Shantanu Sharma, Jeffrey D. Ullman, and Anurag Mishra},
+url = {http://isg.ics.uci.edu/wp-content/uploads/2019/01/partitioned.pdf},
+year  = {2018},
+date = {2018-03-01},
+keywords = {},
+pubstate = {published},
+tppubtype = {techreport}
+}
+Closehttp://isg.ics.uci.edu/wp-content/uploads/2019/01/partitioned.pdfClose Kim, Taewoo;  Li, Wenhai;  Behm, Alexander;  Cetindil, Inci;  Vernica, Rares;  Borkar, Vinayak R;  Carey, Michael J;  Li, ChenSupporting Similarity Queries in Apache AsterixDB Inproceedings Proceedings of the 21th International Conference on Extending Database 
+ Technology, EDBT 2018, Vienna, Austria, March 26-29, 2018., pp. 528–539, 2018.Links | BibTeX@inproceedings{DBLP:conf/edbt/KimLBCVB0018,
+title = {Supporting Similarity Queries in Apache AsterixDB},
+author = {Taewoo Kim and Wenhai Li and Alexander Behm and Inci Cetindil and Rares Vernica and Vinayak R Borkar and Michael J Carey and Chen Li},
+url = {https://doi.org/10.5441/002/edbt.2018.64},
+doi = {10.5441/002/edbt.2018.64},
+year  = {2018},
+date = {2018-01-01},
+booktitle = {Proceedings of the 21th International Conference on Extending Database 
+ Technology, EDBT 2018, Vienna, Austria, March 26-29, 2018.},
+pages = {528--539},
+crossref = {DBLP:conf/edbt/2018},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.5441/002/edbt.2018.64doi:10.5441/002/edbt.2018.64Close Pavlopoulou, Christina;  Jr., Preston Carman E;  Westmann, Till;  Carey, Michael J;  Tsotras, Vassilis JA Parallel and Scalable Processor for JSON Data Inproceedings Proceedings of the 21th International Conference on Extending Database 
+ Technology, EDBT 2018, Vienna, Austria, March 26-29, 2018., pp. 576–587, 2018.Links | BibTeX@inproceedings{DBLP:conf/edbt/PavlopoulouCW0T18,
+title = {A Parallel and Scalable Processor for JSON Data},
+author = {Christina Pavlopoulou and Preston Carman E Jr. and Till Westmann and Michael J Carey and Vassilis J Tsotras},
+url = {https://doi.org/10.5441/002/edbt.2018.68},
+doi = {10.5441/002/edbt.2018.68},
+year  = {2018},
+date = {2018-01-01},
+booktitle = {Proceedings of the 21th International Conference on Extending Database 
+ Technology, EDBT 2018, Vienna, Austria, March 26-29, 2018.},
+pages = {576--587},
+crossref = {DBLP:conf/edbt/2018},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.5441/002/edbt.2018.68doi:10.5441/002/edbt.2018.68Close Alkowaileet, Wail Y;  Alsubaiee, Sattam;  Carey, Michael J;  Li, Chen;  Ramampiaro, Heri;  Sinthong, Phanwadee;  Wang, XikuiEnd-to-End Machine Learning with Apache AsterixDB Inproceedings Proceedings of the Second Workshop on Data Management for End-To-End Machine Learning, DEEM@SIGMOD 2018, Houston, TX, USA, June 15, 2018, pp. 6:1–6:10, 2018.Links | BibTeX@inproceedings{DBLP:conf/sigmod/AlkowaileetA0LR18,
+title = {End-to-End Machine Learning with Apache AsterixDB},
+author = {Wail Y Alkowaileet and Sattam Alsubaiee and Michael J Carey and Chen Li and Heri Ramampiaro and Phanwadee Sinthong and Xikui Wang},
+url = {https://doi.org/10.1145/3209889.3209894},
+doi = {10.1145/3209889.3209894},
+year  = {2018},
+date = {2018-01-01},
+booktitle = {Proceedings of the Second Workshop on Data Management for End-To-End Machine Learning, DEEM@SIGMOD 2018, Houston, TX, USA, June 15, 2018},
+pages = {6:1--6:10},
+crossref = {DBLP:conf/sigmod/2018deem},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/3209889.3209894doi:10.1145/3209889.3209894Close Absalyamov, Ildar;  Carey, Michael J;  Tsotras, Vassilis JLightweight Cardinality Estimation in LSM-based Systems Inproceedings Proceedings of the 2018 International Conference on Management of 
+ Data, SIGMOD Conference 2018, Houston, TX, USA, June 10-15, 2018, pp. 841–855, 2018.Links | BibTeX@inproceedings{DBLP:conf/sigmod/Absalyamov0T18,
+title = {Lightweight Cardinality Estimation in LSM-based Systems},
+author = {Ildar Absalyamov and Michael J Carey and Vassilis J Tsotras},
+url = {https://doi.org/10.1145/3183713.3183761},
+doi = {10.1145/3183713.3183761},
+year  = {2018},
+date = {2018-01-01},
+booktitle = {Proceedings of the 2018 International Conference on Management of 
+ Data, SIGMOD Conference 2018, Houston, TX, USA, June 10-15, 2018},
+pages = {841--855},
+crossref = {DBLP:conf/sigmod/2018},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/3183713.3183761doi:10.1145/3183713.3183761Close Li, Wenhai;  Deng, Lingfeng;  Li, Yang;  Li, ChenZigZag: Supporting Similarity Queries on Vector Space Models Inproceedings Proceedings of the 2018 International Conference on Management of 
+ Data, SIGMOD Conference 2018, Houston, TX, USA, June 10-15, 2018, pp. 873–888, 2018.Links | BibTeX@inproceedings{DBLP:conf/sigmod/LiDL018,
+title = {ZigZag: Supporting Similarity Queries on Vector Space Models},
+author = {Wenhai Li and Lingfeng Deng and Yang Li and Chen Li},
+url = {https://doi.org/10.1145/3183713.3196936},
+doi = {10.1145/3183713.3196936},
+year  = {2018},
+date = {2018-01-01},
+booktitle = {Proceedings of the 2018 International Conference on Management of 
+ Data, SIGMOD Conference 2018, Houston, TX, USA, June 10-15, 2018},
+pages = {873--888},
+crossref = {DBLP:conf/sigmod/2018},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/3183713.3196936doi:10.1145/3183713.3196936Close Rahimi, Reza M;  Venkatasubramanian, Nalini;  Mehrotra, Sharad;  Vasilakos, Athanasios VOn Optimal and Fair Service Allocation in Mobile Cloud Computing Journal Article IEEE Trans. Cloud Computing, 6 (3), pp. 815–828, 2018.Links | BibTeX@article{DBLP:journals/tcc/RahimiVMV18,
+title = {On Optimal and Fair Service Allocation in Mobile Cloud Computing},
+author = {Reza M Rahimi and Nalini Venkatasubramanian and Sharad Mehrotra and Athanasios V Vasilakos},
+url = {https://doi.org/10.1109/TCC.2015.2511729},
+doi = {10.1109/TCC.2015.2511729},
+year  = {2018},
+date = {2018-01-01},
+journal = {IEEE Trans. Cloud Computing},
+volume = {6},
+number = {3},
+pages = {815--828},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/TCC.2015.2511729doi:10.1109/TCC.2015.2511729Close Venkateswaran, Praveen;  Han, Qing;  Eguchi, Ronald T;  Venkatasubramanian, NaliniImpact driven sensor placement for leak detection in community water 
+ networks Inproceedings Proceedings of the 9th ACM/IEEE International Conference on Cyber-Physical 
+ Systems, ICCPS 2018, Porto, Portugal, April 11-13, 2018, pp. 77–87, 2018.Links | BibTeX@inproceedings{DBLP:conf/iccps/VenkateswaranHE18,
+title = {Impact driven sensor placement for leak detection in community water 
+ networks},
+author = {Praveen Venkateswaran and Qing Han and Ronald T Eguchi and Nalini Venkatasubramanian},
+url = {https://doi.org/10.1109/ICCPS.2018.00016},
+doi = {10.1109/ICCPS.2018.00016},
+year  = {2018},
+date = {2018-01-01},
+booktitle = {Proceedings of the 9th ACM/IEEE International Conference on Cyber-Physical 
+ Systems, ICCPS 2018, Porto, Portugal, April 11-13, 2018},
+pages = {77--87},
+crossref = {DBLP:conf/iccps/2018},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ICCPS.2018.00016doi:10.1109/ICCPS.2018.00016Close Uddin, Md. Yusuf Sarwar;  Venkatasubramanian, NaliniEdge Caching for Enriched Notifications Delivery in Big Active Data Inproceedings 38th IEEE International Conference on Distributed Computing Systems, 
+ ICDCS 2018, Vienna, Austria, July 2-6, 2018, pp. 696–705, 2018.Links | BibTeX@inproceedings{DBLP:conf/icdcs/UddinV18,
+title = {Edge Caching for Enriched Notifications Delivery in Big Active Data},
+author = {Md. Yusuf Sarwar Uddin and Nalini Venkatasubramanian},
+url = {https://doi.org/10.1109/ICDCS.2018.00073},
+doi = {10.1109/ICDCS.2018.00073},
+year  = {2018},
+date = {2018-01-01},
+booktitle = {38th IEEE International Conference on Distributed Computing Systems, 
+ ICDCS 2018, Vienna, Austria, July 2-6, 2018},
+pages = {696--705},
+crossref = {DBLP:conf/icdcs/2018},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ICDCS.2018.00073doi:10.1109/ICDCS.2018.00073Close Zhu, Qiuxi;  Uddin, Md. Yusuf Sarwar;  Venkatasubramanian, Nalini;  -, Cheng;  -, HuaPoster abstract: Enhancing reliability of community Internet-of-Things 
+ deployments with mobility Inproceedings IEEE INFOCOM 2018 - IEEE Conference on Computer Communications 
+ Workshops, INFOCOM Workshops 2018, Honolulu, HI, USA, April 15-19, 
+ 2018, pp. 1–2, 2018.Links | BibTeX@inproceedings{DBLP:conf/infocom/ZhuUVHH18,
+title = {Poster abstract: Enhancing reliability of community Internet-of-Things 
+ deployments with mobility},
+author = {Qiuxi Zhu and Md. Yusuf Sarwar Uddin and Nalini Venkatasubramanian and Cheng - and Hua -},
+url = {https://doi.org/10.1109/INFCOMW.2018.8406922},
+doi = {10.1109/INFCOMW.2018.8406922},
+year  = {2018},
+date = {2018-01-01},
+booktitle = {IEEE INFOCOM 2018 - IEEE Conference on Computer Communications 
+ Workshops, INFOCOM Workshops 2018, Honolulu, HI, USA, April 15-19, 
+ 2018},
+pages = {1--2},
+crossref = {DBLP:conf/infocom/2018w},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/INFCOMW.2018.8406922doi:10.1109/INFCOMW.2018.8406922Close Zhu, Qiuxi;  Uddin, Md. Yusuf Sarwar;  Venkatasubramanian, Nalini;  -, ChengSpatiotemporal Scheduling for Crowd Augmented Urban Sensing Inproceedings 2018 IEEE Conference on Computer Communications, INFOCOM 2018, 
+ Honolulu, HI, USA, April 16-19, 2018, pp. 1997–2005, 2018.Links | BibTeX@inproceedings{DBLP:conf/infocom/ZhuUVH18,
+title = {Spatiotemporal Scheduling for Crowd Augmented Urban Sensing},
+author = {Qiuxi Zhu and Md. Yusuf Sarwar Uddin and Nalini Venkatasubramanian and Cheng -},
+url = {https://doi.org/10.1109/INFOCOM.2018.8485869},
+doi = {10.1109/INFOCOM.2018.8485869},
+year  = {2018},
+date = {2018-01-01},
+booktitle = {2018 IEEE Conference on Computer Communications, INFOCOM 2018, 
+ Honolulu, HI, USA, April 16-19, 2018},
+pages = {1997--2005},
+crossref = {DBLP:conf/infocom/2018},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/INFOCOM.2018.8485869doi:10.1109/INFOCOM.2018.8485869Close Benson, Kyle E;  Wang, Guoxi;  Venkatasubramanian, Nalini;  -, YoungRide: A Resilient IoT Data Exchange Middleware Leveraging SDN 
+ and Edge Cloud Resources Inproceedings 2018 IEEE/ACM Third International Conference on Internet-of-Things 
+ Design and Implementation, IoTDI 2018, Orlando, FL, USA, April 17-20, 
+ 2018, pp. 72–83, 2018.Links | BibTeX@inproceedings{DBLP:conf/iotdi/BensonWVK18,
+title = {Ride: A Resilient IoT Data Exchange Middleware Leveraging SDN 
+ and Edge Cloud Resources},
+author = {Kyle E Benson and Guoxi Wang and Nalini Venkatasubramanian and Young -},
+url = {https://doi.org/10.1109/IoTDI.2018.00017},
+doi = {10.1109/IoTDI.2018.00017},
+year  = {2018},
+date = {2018-01-01},
+booktitle = {2018 IEEE/ACM Third International Conference on Internet-of-Things 
+ Design and Implementation, IoTDI 2018, Orlando, FL, USA, April 17-20, 
+ 2018},
+pages = {72--83},
+crossref = {DBLP:conf/iotdi/2018},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/IoTDI.2018.00017doi:10.1109/IoTDI.2018.00017Close Scalzotto, Luca;  Benson, Kyle E;  Bouloukakis, Georgios;  Bellavista, Paolo;  é, Val;  Mehrotra, Sharad;  Venkatasubramanian, NaliniAn Implementation Experience with SDN-enabled IoT Data Exchange Middleware Inproceedings Proceedings of the 19th International Middleware Conference (Posters), 
+ Middleware 2018, Rennes, France, December 10-14, 2018, pp. 21–22, 2018.Links | BibTeX@inproceedings{DBLP:conf/middleware/ScalzottoBBBIMV18,
+title = {An Implementation Experience with SDN-enabled IoT Data Exchange Middleware},
+author = {Luca Scalzotto and Kyle E Benson and Georgios Bouloukakis and Paolo Bellavista and Val é and Sharad Mehrotra and Nalini Venkatasubramanian},
+url = {https://doi.org/10.1145/3284014.3284025},
+doi = {10.1145/3284014.3284025},
+year  = {2018},
+date = {2018-01-01},
+booktitle = {Proceedings of the 19th International Middleware Conference (Posters), 
+ Middleware 2018, Rennes, France, December 10-14, 2018},
+pages = {21--22},
+crossref = {DBLP:conf/middleware/2018p},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/3284014.3284025doi:10.1145/3284014.3284025Close Benson, Kyle E;  Bouloukakis, Georgios;  Grant, Casey;  é, Val;  Mehrotra, Sharad;  Moscholios, Ioannis D;  Venkatasubramanian, NaliniFireDeX: a Prioritized IoT Data Exchange Middleware for Emergency 
+ Response Inproceedings Proceedings of the 19th International Middleware Conference, Middleware 
+ 2018, Rennes, France, December 10-14, 2018, pp. 279–292, 2018.Links | BibTeX@inproceedings{DBLP:conf/middleware/BensonBGIMMV18,
+title = {FireDeX: a Prioritized IoT Data Exchange Middleware for Emergency 
+ Response},
+author = {Kyle E Benson and Georgios Bouloukakis and Casey Grant and Val é and Sharad Mehrotra and Ioannis D Moscholios and Nalini Venkatasubramanian},
+url = {https://doi.org/10.1145/3274808.3274830},
+doi = {10.1145/3274808.3274830},
+year  = {2018},
+date = {2018-01-01},
+booktitle = {Proceedings of the 19th International Middleware Conference, Middleware 
+ 2018, Rennes, France, December 10-14, 2018},
+pages = {279--292},
+crossref = {DBLP:conf/middleware/2018},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/3274808.3274830doi:10.1145/3274808.3274830Close -, Yu;  -, Hua;  -, Pei;  -, Yu;  Zhu, Qiuxi;  Uddin, Md. Yusuf Sarwar;  Venkatasubramanian, Nalini;  -, ChengManaged edge computing on Internet-of-Things devices for smart city 
+ applications Inproceedings 2018 IEEE/IFIP Network Operations and Management Symposium, NOMS 
+ 2018, Taipei, Taiwan, April 23-27, 2018, pp. 1–2, 2018.Links | BibTeX@inproceedings{DBLP:conf/noms/HsiehHTWZUVH18,
+title = {Managed edge computing on Internet-of-Things devices for smart city 
+ applications},
+author = {Yu - and Hua - and Pei - and Yu - and Qiuxi Zhu and Md. Yusuf Sarwar Uddin and Nalini Venkatasubramanian and Cheng -},
+url = {https://doi.org/10.1109/NOMS.2018.8406133},
+doi = {10.1109/NOMS.2018.8406133},
+year  = {2018},
+date = {2018-01-01},
+booktitle = {2018 IEEE/IFIP Network Operations and Management Symposium, NOMS 
+ 2018, Taipei, Taiwan, April 23-27, 2018},
+pages = {1--2},
+crossref = {DBLP:conf/noms/2018},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/NOMS.2018.8406133doi:10.1109/NOMS.2018.8406133Close Altowim, Yasser;  Kalashnikov, Dmitri V;  Mehrotra, SharadProgressER: Adaptive Progressive Approach to Relational Entity Resolution Journal Article TKDD, 12 (3), pp. 33:1–33:45, 2018.Links | BibTeX@article{DBLP:journals/tkdd/AltowimKM18,
+title = {ProgressER: Adaptive Progressive Approach to Relational Entity Resolution},
+author = {Yasser Altowim and Dmitri V Kalashnikov and Sharad Mehrotra},
+url = {https://doi.org/10.1145/3154410},
+doi = {10.1145/3154410},
+year  = {2018},
+date = {2018-01-01},
+journal = {TKDD},
+volume = {12},
+number = {3},
+pages = {33:1--33:45},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1145/3154410doi:10.1145/3154410Close Mehrotra, Sharad;  Oktay, Kerim Yasin;  Sharma, ShantanuExploiting Data Sensitivity on Partitioned Data Inproceedings From Database to Cyber Security - Essays Dedicated to Sushil Jajodia 
+ on the Occasion of His 70th Birthday, pp. 274–299, 2018.Links | BibTeX@inproceedings{DBLP:conf/birthday/MehrotraOS18,
+title = {Exploiting Data Sensitivity on Partitioned Data},
+author = {Sharad Mehrotra and Kerim Yasin Oktay and Shantanu Sharma},
+url = {https://doi.org/10.1007/978-3-030-04834-1_15},
+doi = {10.1007/978-3-030-04834-1_15},
+year  = {2018},
+date = {2018-01-01},
+booktitle = {From Database to Cyber Security - Essays Dedicated to Sushil Jajodia 
+ on the Occasion of His 70th Birthday},
+pages = {274--299},
+crossref = {DBLP:conf/birthday/2018jajodia},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1007/978-3-030-04834-1_15doi:10.1007/978-3-030-04834-1_15Close Diallo, Mamadou H;  Panwar, Nisha;  Yus, Roberto;  Mehrotra, SharadTrustworthy Privacy Policy Translation in Untrusted IoT Environments Inproceedings Proceedings of the 3rd International Conference on Internet of Things, 
+ Big Data and Security, IoTBDS 2018, Funchal, Madeira, Portugal, March 
+ 19-21, 2018., pp. 132–143, 2018.Links | BibTeX@inproceedings{DBLP:conf/iotbd/DialloPYM18,
+title = {Trustworthy Privacy Policy Translation in Untrusted IoT Environments},
+author = {Mamadou H Diallo and Nisha Panwar and Roberto Yus and Sharad Mehrotra},
+url = {https://doi.org/10.5220/0006765501320143},
+doi = {10.5220/0006765501320143},
+year  = {2018},
+date = {2018-01-01},
+booktitle = {Proceedings of the 3rd International Conference on Internet of Things, 
+ Big Data and Security, IoTBDS 2018, Funchal, Madeira, Portugal, March 
+ 19-21, 2018.},
+pages = {132--143},
+crossref = {DBLP:conf/iotbd/2018},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.5220/0006765501320143doi:10.5220/0006765501320143Close Diallo, Mamadou H;  Panwar, Nisha;  Mehrotra, Sharad;  Sani, Ardalan AmiriTrustworthy Sensing in an Untrusted IoT Environment Inproceedings 2018 IEEE International Conference on Pervasive Computing and Communications 
+ Workshops, PerCom Workshops 2018, Athens, Greece, March 19-23, 2018, pp. 468–471, 2018.Links | BibTeX@inproceedings{DBLP:conf/percom/DialloPMS18,
+title = {Trustworthy Sensing in an Untrusted IoT Environment},
+author = {Mamadou H Diallo and Nisha Panwar and Sharad Mehrotra and Ardalan Amiri Sani},
+url = {https://doi.org/10.1109/PERCOMW.2018.8480384},
+doi = {10.1109/PERCOMW.2018.8480384},
+year  = {2018},
+date = {2018-01-01},
+booktitle = {2018 IEEE International Conference on Pervasive Computing and Communications 
+ Workshops, PerCom Workshops 2018, Athens, Greece, March 19-23, 2018},
+pages = {468--471},
+crossref = {DBLP:conf/percom/2018w},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/PERCOMW.2018.8480384doi:10.1109/PERCOMW.2018.8480384Close Ghayyur, Sameera;  Chen, Yan;  Yus, Roberto;  Machanavajjhala, Ashwin;  Hay, Michael;  Miklau, Gerome;  Mehrotra, SharadIoT-Detective: Analyzing IoT Data Under Differential Privacy Inproceedings Proceedings of the 2018 International Conference on Management of 
+ Data, SIGMOD Conference 2018, Houston, TX, USA, June 10-15, 2018, pp. 1725–1728, 2018.Links | BibTeX@inproceedings{DBLP:conf/sigmod/Ghayyur0YMHMM18,
+title = {IoT-Detective: Analyzing IoT Data Under Differential Privacy},
+author = {Sameera Ghayyur and Yan Chen and Roberto Yus and Ashwin Machanavajjhala and Michael Hay and Gerome Miklau and Sharad Mehrotra},
+url = {https://doi.org/10.1145/3183713.3193571},
+doi = {10.1145/3183713.3193571},
+year  = {2018},
+date = {2018-01-01},
+booktitle = {Proceedings of the 2018 International Conference on Management of 
+ Data, SIGMOD Conference 2018, Houston, TX, USA, June 10-15, 2018},
+pages = {1725--1728},
+crossref = {DBLP:conf/sigmod/2018},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/3183713.3193571doi:10.1145/3183713.3193571Close é, Pablo C;  Singh, Vivek K;  Jain, Ramesh;  Sebe, Nicu;  Oliver, NuriaNew Signals in Multimedia Systems and Applications Journal Article IEEE MultiMedia, 25 (1), pp. 12–13, 2018.Links | BibTeX@article{DBLP:journals/ieeemm/CesarSJSO18,
+title = {New Signals in Multimedia Systems and Applications},
+author = {Pablo C é and Vivek K Singh and Ramesh Jain and Nicu Sebe and Nuria Oliver},
+url = {https://doi.org/10.1109/MMUL.2018.011921231},
+doi = {10.1109/MMUL.2018.011921231},
+year  = {2018},
+date = {2018-01-01},
+journal = {IEEE MultiMedia},
+volume = {25},
+number = {1},
+pages = {12--13},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/MMUL.2018.011921231doi:10.1109/MMUL.2018.011921231Close -, Jun;  Wu, Xiao;  -, Yu;  Peng, Qiang;  Jain, RameshHookworm Detection in Wireless Capsule Endoscopy Images With Deep 
+ Learning Journal Article IEEE Trans. Image Processing, 27 (5), pp. 2379–2392, 2018.Links | BibTeX@article{DBLP:journals/tip/HeWJPJ18,
+title = {Hookworm Detection in Wireless Capsule Endoscopy Images With Deep 
+ Learning},
+author = {Jun - and Xiao Wu and Yu - and Qiang Peng and Ramesh Jain},
+url = {https://doi.org/10.1109/TIP.2018.2801119},
+doi = {10.1109/TIP.2018.2801119},
+year  = {2018},
+date = {2018-01-01},
+journal = {IEEE Trans. Image Processing},
+volume = {27},
+number = {5},
+pages = {2379--2392},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/TIP.2018.2801119doi:10.1109/TIP.2018.2801119Close Pandey, Vaibhav;  Nag, Nitish;  Jain, RameshUbiquitous Event Mining to Enhance Personal Health Inproceedings Proceedings of the 2018 ACM International Joint Conference and 2018 
+ International Symposium on Pervasive and Ubiquitous Computing and 
+ Wearable Computers, UbiComp/ISWC 2018 Adjunct, Singapore, October 
+ 08-12, 2018, pp. 676–679, 2018.Links | BibTeX@inproceedings{DBLP:conf/huc/PandeyNJ18,
+title = {Ubiquitous Event Mining to Enhance Personal Health},
+author = {Vaibhav Pandey and Nitish Nag and Ramesh Jain},
+url = {https://doi.org/10.1145/3267305.3267684},
+doi = {10.1145/3267305.3267684},
+year  = {2018},
+date = {2018-01-01},
+booktitle = {Proceedings of the 2018 ACM International Joint Conference and 2018 
+ International Symposium on Pervasive and Ubiquitous Computing and 
+ Wearable Computers, UbiComp/ISWC 2018 Adjunct, Singapore, October 
+ 08-12, 2018},
+pages = {676--679},
+crossref = {DBLP:conf/huc/2018ap},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/3267305.3267684doi:10.1145/3267305.3267684Close Oh, Hyungik;  Nguyen, Jonathan;  Soundararajan, Soundarya;  Jain, RameshMultimodal Food Journaling Inproceedings Proceedings of the 3rd International Workshop on Multimedia for Personal Health and Health Care, HealthMedia@MM 2018, Seoul, Republic of Korea, 
+ October 22, 2018, pp. 39–47, 2018.Links | BibTeX@inproceedings{DBLP:conf/mm/OhNSJ18,
+title = {Multimodal Food Journaling},
+author = {Hyungik Oh and Jonathan Nguyen and Soundarya Soundararajan and Ramesh Jain},
+url = {https://doi.org/10.1145/3264996.3265000},
+doi = {10.1145/3264996.3265000},
+year  = {2018},
+date = {2018-01-01},
+booktitle = {Proceedings of the 3rd International Workshop on Multimedia for Personal Health and Health Care, HealthMedia@MM 2018, Seoul, Republic of Korea, 
+ October 22, 2018},
+pages = {39--47},
+crossref = {DBLP:conf/mm/2018mmhealth},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/3264996.3265000doi:10.1145/3264996.3265000Close Sang, Jitao;  Yu, Jun;  Jain, Ramesh;  Lienhart, Rainer;  Cui, Peng;  Feng, JiashiDeep Learning for Multimedia: Science or Technology? Inproceedings 2018 ACM Multimedia Conference on Multimedia Conference, MM 2018, 
+ Seoul, Republic of Korea, October 22-26, 2018, pp. 1354–1355, 2018.Links | BibTeX@inproceedings{DBLP:conf/mm/SangYJLCF18,
+title = {Deep Learning for Multimedia: Science or Technology?},
+author = {Jitao Sang and Jun Yu and Ramesh Jain and Rainer Lienhart and Peng Cui and Jiashi Feng},
+url = {https://doi.org/10.1145/3240508.3243931},
+doi = {10.1145/3240508.3243931},
+year  = {2018},
+date = {2018-01-01},
+booktitle = {2018 ACM Multimedia Conference on Multimedia Conference, MM 2018, 
+ Seoul, Republic of Korea, October 22-26, 2018},
+pages = {1354--1355},
+crossref = {DBLP:conf/mm/2018},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/3240508.3243931doi:10.1145/3240508.3243931Close Peeyush Gupta  Yin Li, Sharad Mehrotra Nisha Panwar Shantanu Sharma ;  Almanee, SumayaOBSCURE: Information-Theoretic Oblivious and Verifiable Aggregation Queries link Technical Report 2018.Links | BibTeX@techreport{techreport/201810/Peeyush,
+title = {OBSCURE: Information-Theoretic Oblivious and Verifiable Aggregation Queries link},
+author = {Peeyush Gupta, Yin Li, Sharad Mehrotra, Nisha Panwar, Shantanu Sharma, and Sumaya Almanee},
+url = {http://isg.ics.uci.edu/wp-content/uploads/2019/10/Tech-report-obsc-1.pdf},
+year  = {2018},
+date = {2018-01-01},
+keywords = {},
+pubstate = {published},
+tppubtype = {techreport}
+}
+Closehttp://isg.ics.uci.edu/wp-content/uploads/2019/10/Tech-report-obsc-1.pdfClose
+
+2017
+
+ Jacobs, Steven;  Uddin, Md. Yusuf Sarwar;  Carey, Michael J;  Hristidis, Vagelis;  Tsotras, Vassilis J;  Venkatasubramanian, Nalini;  Wu, Yao;  Safir, Syed;  Kaul, Purvi;  Wang, Xikui;  Qader, Mohiuddin Abdul;  Li, YaweiA BAD Demonstration: Towards Big Active Data Journal Article PVLDB, 10 (12), pp. 1941–1944, 2017.Links | BibTeX@article{DBLP:journals/pvldb/JacobsUCHTVWSKW17,
+title = {A BAD Demonstration: Towards Big Active Data},
+author = {Steven Jacobs and Md. Yusuf Sarwar Uddin and Michael J Carey and Vagelis Hristidis and Vassilis J Tsotras and Nalini Venkatasubramanian and Yao Wu and Syed Safir and Purvi Kaul and Xikui Wang and Mohiuddin Abdul Qader and Yawei Li},
+url = {http://www.vldb.org/pvldb/vol10/p1941-jacobs.pdf},
+doi = {10.14778/3137765.3137814},
+year  = {2017},
+date = {2017-01-01},
+journal = {PVLDB},
+volume = {10},
+number = {12},
+pages = {1941--1944},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://www.vldb.org/pvldb/vol10/p1941-jacobs.pdfdoi:10.14778/3137765.3137814Close Jia, Jianfeng;  Li, Chen;  Carey, Michael JDrum: A rhythmic approach to interactive analytics on large data Inproceedings 2017 IEEE International Conference on Big Data, BigData 2017, Boston, 
+ MA, USA, December 11-14, 2017, pp. 636–645, 2017.Links | BibTeX@inproceedings{DBLP:conf/bigdataconf/Jia0017,
+title = {Drum: A rhythmic approach to interactive analytics on large data},
+author = {Jianfeng Jia and Chen Li and Michael J Carey},
+url = {https://doi.org/10.1109/BigData.2017.8257979},
+doi = {10.1109/BigData.2017.8257979},
+year  = {2017},
+date = {2017-01-01},
+booktitle = {2017 IEEE International Conference on Big Data, BigData 2017, Boston, 
+ MA, USA, December 11-14, 2017},
+pages = {636--645},
+crossref = {DBLP:conf/bigdataconf/2017},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/BigData.2017.8257979doi:10.1109/BigData.2017.8257979Close Ouaknine, Keren;  Carey, Michael JA performance study of AsterixDB Inproceedings 2017 IEEE International Conference on Big Data, BigData 2017, Boston, 
+ MA, USA, December 11-14, 2017, pp. 2812–2820, 2017.Links | BibTeX@inproceedings{DBLP:conf/bigdataconf/Ouaknine017,
+title = {A performance study of AsterixDB},
+author = {Keren Ouaknine and Michael J Carey},
+url = {https://doi.org/10.1109/BigData.2017.8258248},
+doi = {10.1109/BigData.2017.8258248},
+year  = {2017},
+date = {2017-01-01},
+booktitle = {2017 IEEE International Conference on Big Data, BigData 2017, Boston, 
+ MA, USA, December 11-14, 2017},
+pages = {2812--2820},
+crossref = {DBLP:conf/bigdataconf/2017},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/BigData.2017.8258248doi:10.1109/BigData.2017.8258248Close Pirzadeh, Pouria;  Carey, Michael J;  Westmann, TillA performance study of big data analytics platforms Inproceedings 2017 IEEE International Conference on Big Data, BigData 2017, Boston, 
+ MA, USA, December 11-14, 2017, pp. 2911–2920, 2017.Links | BibTeX@inproceedings{DBLP:conf/bigdataconf/Pirzadeh0W17,
+title = {A performance study of big data analytics platforms},
+author = {Pouria Pirzadeh and Michael J Carey and Till Westmann},
+url = {https://doi.org/10.1109/BigData.2017.8258260},
+doi = {10.1109/BigData.2017.8258260},
+year  = {2017},
+date = {2017-01-01},
+booktitle = {2017 IEEE International Conference on Big Data, BigData 2017, Boston, 
+ MA, USA, December 11-14, 2017},
+pages = {2911--2920},
+crossref = {DBLP:conf/bigdataconf/2017},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/BigData.2017.8258260doi:10.1109/BigData.2017.8258260Close179 entries « ‹  1 of 4 › » 
+ 
+
+
+
+
+
+
+
+Search for :
+
+
+Latest News 
+
+
+
+Upcoming Talk: How to build your own Business
+
+											July 25, 2022																																
+
+
+Upcoming Talk: Couchbase and Distributed Computing Backends for big data processing
+
+											May 31, 2022																																
+
+
+Upcoming Talk: Shedding Light on Opaque Database Queries
+
+											May 31, 2022																																
+
+
+ISG researchers won the  Mark Weiser Best Paper Award at IEEE PERCOM 2022
+
+											March 24, 2022																																
+
+
+
+
+Upcoming Events
+
+
+
+
+Qiushi Bai: QueryBooster-Improving SQL Performance Using Middleware Services for Human-Centered Query Rewriting + Demo
+
+
+
+October 14 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Xiaozhen Liu: Demonstration of Collaborative and Interactive Workflow-based Data Analytics in Texera
+
+
+
+October 21 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Abhishek Singh: WedgeBlock – An Off-Chain Secure Logging Platform for Blockchain Applications
+
+
+
+October 28 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Juncheng Fang: PeloPartition- Improving Blockchain Resilience to Partitioning by Sharding
+
+
+
+November 4 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Peeyush Gupta: A Demonstration of TippersDB
+
+
+
+November 18 @ 12:30 pm - 2:00 pm 
+
+
+
+View All Events
+
+Please follow & like us :) 
+
+Follow  
+
+ 
+
+
+
+
+
+
+
+			Copyright 2018 | ISG-UCI		
+
+
+
+
+
+
+cross
+
+
+
+
+
+
+
+
+
+
+Hit ENTER to search or ESC to close
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

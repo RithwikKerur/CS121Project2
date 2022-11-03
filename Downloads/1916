@@ -1,0 +1,402 @@
+https://sli.ics.uci.edu/PmWiki/BasicEditing
+
+
+
+SLI | PmWiki / Basic PmWiki editing rules 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+Basic PmWiki editing rules
+
+
+
+
+
+< Introduction | Documentation Index | Creating new pages >
+
+authors (basic) 
+
+The pages on this site are wiki-based pages, which means that pages can be created and edited by multiple authors. To edit a page, click the Edit link that exists somewhere on the page, usually in the header or footer. Some pages may be password-protected, depending on the system's security policies, but many systems allow open editing of pages.
+
+PmWiki is not WYSIWYG - When editing a page, you see the markup text that describes the content of the page.  The basic rules for page markup are simple:
+Use a blank line to start a new paragraph more.
+To make a list, start each line with # for numbered (ordered) lists or * for bulleted (unordered) lists more.
+To make a heading, start a line with two or more ! marks; !! is a subheading, and !!! is a sub-subheading more.
+To emphasize text, enclose it in 2 or 3 single quotes; ''text'' for italics or '''text''' for bold more.
+To make a link to another page, enclose the page's name in double brackets; for example [[basic editing]] links to this page.
+To make a link to another site, type its address, such as [[http://example.com/]]. Email links must have "mailto:" before such as mailto:xyz@example.com
+If you want to experiment with editing a page, try it on the Wiki Sandbox. You can edit the Wiki Sandbox without affecting anything important on this site. On talk pages and discussions, it's courteous to sign your contribution; using ~~~ effectively 'signs' the name that you provide in the Author field on the Page Edit form.
+
+Examples of common markups
+The tables below demonstrate many of the common markups used to format pages.  The left column shows what to write to achieve the effect, the right column shows the effect of the markup.  More details are available from the text formatting rules and other documentation pages. An exhaustive list of default markup is available as the markup master index.
+
+Paragraphs and line breaks
+
+
+
+What to type
+
+What it looks like
+
+
+
+
+Consecutive lines
+will be merged together
+as part of the same paragraph.
+
+One or more empty lines will start a new paragraph.
+Consecutive lines
+will be merged together
+as part of the same paragraph.
+
+One or more empty lines will start a new paragraph.
+
+
+
+Two backslashes at the end of a line \\
+force a line break.
+
+Or use this markup: [[<<]] to force a break.
+Two backslashes at the end of a line force a line break.
+
+Or use this markup:  to force a break.
+
+
+Further reading:
+text formatting rules for more information on linebreaks, indented or hanging paragraphs.
+wiki styles for centered or right justified paragraphs and "floating" text (boxes), borders and much more.
+Lists
+Start each line with # for numbered (ordered) lists or * for bulleted (unordered) lists:
+
+
+* Bullet list
+* Another item
+** More asterisks produce sub-items
+** etc.
+Bullet list
+Another item
+More asterisks produce sub-items
+etc.
+
+
+
+# Numbered lists
+# Another item
+## more hashes produce sub-items
+Numbered lists
+Another item
+more hashes produce sub-items
+
+
+
+# List types
+# can be mixed
+** numbered list with unordered sub-list
+List types
+can be mixed
+numbered list with unordered sub-list
+
+
+Learn more about lists (including definition lists) and list styles.
+
+ Headings
+Headings are useful for creating a "well-structured" page. They're not just for making big text.
+
+
+
+
+What to type
+
+What it looks like
+
+
+!! Major Subheading
+!!! Minor Subheading
+!!!! And More
+!!!!! Subheadings
+Major Subheading
+Minor Subheading
+And More
+Subheadings
+
+ Text Emphasis
+To emphasize, enclose text in apostrophes (single-quote marks), not double-quotes.
+
+
+
+
+What to type
+
+What it looks like
+
+
+''Emphasize'' (italics),
+'''strong''' (bold), 
+'''''very strong''''' (bold italics).
+Emphasize (italics),
+strong (bold), 
+very strong (bold italics).
+
+
+ Links
+To make a link to another page, enclose the page's name in double square brackets.
+
+
+
+
+What to type
+
+What it looks like
+
+
+Practice editing in the [[wiki sandbox]]
+Practice editing in the wiki sandbox
+
+
+Note that words are automatically capitalized in page titles. The link above links to the page WikiSandbox.
+
+Text after a pipe (|) is used as the link text:
+
+Practice editing in the
+[[WikiSandbox | practice area]].
+Practice editing in the
+practice area.
+
+
+Endings become part of the link text, parentheses hide parts of the link name:
+
+[[wiki sandbox]]es.
+
+[[(wiki) sandbox]].
+wiki sandboxes.
+
+ sandbox.
+
+
+When linking to a page in a different WikiGroup, provide the group name, followed by a separator, and then the page name:
+
+[[Main.Wiki Sandbox]] shows group + name
+
+[[Main/Wiki Sandbox]] shows only name
+Main.Wiki Sandbox shows group + name
+
+Wiki Sandbox shows only name
+
+
+Links to external sites
+
+bare url:  http://www.pmwiki.org
+
+link text: [[http://www.pmwiki.org | PmWiki home]]
+bare url:  http://www.pmwiki.org
+
+link text: PmWiki home
+
+
+Links as reference to external sites
+
+bare url: http://www.pmwiki.org
+
+link text: [[http://www.pmwiki.org | #]]
+bare url: http://www.pmwiki.org
+
+link text: [1]
+
+
+Colons make InterMap (also called InterWiki) links to other wikis:
+
+What's an [[Wikipedia:aardvark]], anyway?
+What's an Wikipedia:aardvark, anyway?
+
+
+Links to nonexistent pages? are displayed specially, to invite others to create the page.
+
+PmWiki supports more link types and a lot of display options, see Links to learn more.
+
+Preformatted text
+Preformatted text is displayed using a monospace font and not generating linebreaks except where explicitly indicated in the markup.
+
+Note that very long lines of preformatted text can cause the whole page to be wide.
+
+For preformatted text with markup (e.g. emphasis) being processed, start each line with a space:
+
+ Lines that begin with a space
+ are formatted exactly as typed
+ in a '''fixed-width''' font.
+ Lines that begin with a space
+ are formatted exactly as typed
+ in a fixed-width font.
+
+
+If you don't want Wiki markup to be processed, use [@ @]. Can also be used inline.
+
+[@
+Text escaped this way has
+the HTML ''code'' style
+@]
+
+Text escaped this way has
+the HTML ''code'' style
+
+
+Escape sequence
+If you don't want Wiki markup to be processed, but lines reformatted use [= =]. Can also be used inline.
+
+[=
+markup is ''not'' processed
+but lines are reformatted
+=]
+
+markup is ''not'' processed
+but lines are reformatted
+
+
+
+Horizontal line
+
+Four or more dashes at
+the beginning of a line
+----
+produce a "horizontal rule"
+Four or more dashes at
+the beginning of a line
+
+produce a "horizontal rule"
+
+
+Tables
+Simple tables use double pipe characters to separate cells:
+
+|| border=1
+||! head 1 ||! head 2 ||! head 3 ||
+|| cell 1  ||  cell 2 ||  cell 3 ||
+head 1head 2head 3
+cell 1cell 2cell 3
+
+
+See simple tables and advanced tables to learn more about the rich feature set of PmWiki tables.
+
+Images
+See Images
+
+Character formatting
+
+
+
+What to type
+
+What it looks like
+
+
+* @@Monospaced text@@
+* Text with '^superscripts^'
+* Text with '_subscripts_'
+* deleted {-strikethrough-} text
+* inserted {+underline+} text
+* [+big+], [++bigger++] text
+* [-small-], [--smaller--] text
+Monospaced text
+Text with superscripts
+Text with subscripts
+deleted strikethrough text
+inserted underline text
+big, bigger text
+small, smaller text
+
+
+Use WikiStyles to change  the  text   color .
+
+
+Page titles
+The (:title:) directive sets the page's title to something other than its page name.
+
+(:Title Basic PmWiki editing rules:)
+The name of this page is "{$Name}", and its title is "{$Title}".
+The name of this page is "BasicEditing", and its title is "Basic PmWiki editing rules".
+
+
+
+Page Description
+The (:Description Page summary here:) directive sets the page description. The description is used by search engines, and can be displayed in search results and in page lists.
+
+(:Description PmWiki's basic edit syntax:)
+The summary description of this page is {$Description}.
+The summary description of this page is PmWiki's basic edit syntax.
+
+
+ 
+
+ I'm new to PmWiki, where can I find some basic help for getting started?
+ The Basic Editing page is a good start.  From there, you can just follow the navigational links at the top or the bottom of the page (they are called Wiki Trails) to the next pages, or to the Documentation Index page, which provides an outline style index of essential documentation pages, organized from basic to advanced.
+
+ How do I include special characters such as Copyright (©) and Trademark (® or ™) on my wiki pages?
+  See special characters on how to insert special characters that don't appear on your keyboard.
+
+ How can I preserve line-breaks from the source text?
+ PmWiki normally treats consecutive lines of text as being a paragraph, and merges and wraps lines together on output. This is consistent with most other wiki packages. An author can use the (:linebreaks:) directive to cause the following lines of markup text in the page to be kept as separate lines in the output. Or a wiki administrator can set in config.php $HTMLPNewline = '<br/>'; to force literal new lines for the whole site.
+
+ Can I just enter HTML directly?
+ By default (and by design), PmWiki does not support the use of HTML elements in the editable markup for wiki pages. There are a number of reasons for this described in the PmWiki Philosophy and Audiences. Enabling HTML markup within wiki pages in a collaborative environment may exclude some potential authors from being able to edit pages, and pose a number of display and security issues. However, a site administrator can use the Cookbook:Enable HTML recipe to enable the use of HTML markup directly in pages.
+
+ Where can I find more documentation?
+ See the documentation index and the markup master index pages.
+ 
+
+< Introduction | Documentation Index | Creating new pages >
+
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:BasicEditing, and  a talk page: PmWiki:BasicEditing-Talk.
+
+
+
+
+
+
+ Last modified October 20, 2015, at 10:05 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

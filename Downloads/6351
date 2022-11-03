@@ -1,0 +1,178 @@
+http://www.ics.uci.edu/~kay/courses/i42/hw/labE.html
+
+
+
+
+
+
+Lab Assignment E
+
+
+
+
+
+
+
+Informatics 42 • Winter 2012 • David G. Kay
+  • UC Irvine
+ Lab Assignment E
+
+This assignment is due at the end of lab on
+Monday, March 5. 
+
+This will be your first real opportunity to
+explore and enhance the simulator, whose home page is at http://www.ics.uci.edu/~kay/courses/i42/wildride/.
+
+(a)  Spend at least 20 minutes running
+the simulator, using the larger sets of test data available on the web page
+and perhaps other sets you make up.  As you work on this assignment, develop
+a list of improvements or enhancements to the simulator, including at least
+two in each of these categories:
+
+
+The functionality—what features the program
+provides.  But your suggestions here have to be something that you think
+you could implement, if you had enough time; don't just ask for the moon. You won't be obligated actually to implement the enhancements you suggest, but they should be something you basically understand how to build.
+
+
+The user interface—how the program interacts
+with its user.  Again, suggest only things that you think you could implement.
+ Don't just say, "Make a GUI with little animations for each customer
+and ride."
+
+
+The coding style of the program, including
+variable/class/method names and physical arrangement of the code.
+
+
+The program's overall design—how the problem
+was organized into classes, the responsibilities of each class and the relationships
+between classes.  The question here is whether there could be changes to
+this organization that would make modifications or enhancements easier.
+ (This one may be a little tough at this point, but it's the central
+issue in software design, so give it some thought.)
+
+
+The run-time efficiency of the program—how
+the choice of data structures and algorithms affects the performance.  (This
+one is optional at this point, because we haven't gotten deeply into
+the program's internal design.)
+
+
+(b)  Pick one of the functionality changes
+you propose above and give a sketch of how you would implement it.  This
+should be about half a page of text, possibly with some diagrams, that describes
+at a high level which part(s) of the program would have to change (which
+classes, which methods) and what those changes should be.
+(c)  Devise at least three "micro
+test cases" that you can use to verify that the actual, step-by-step
+behavior of the rides and customers matches the specification.  An example
+might be a park with one ride and one customer, whose progress you can track,
+tick by tick.  Other cases can examine other types of customers or rides,
+or different locations in the park.  Feel free to coordinate these tests
+with other groups so you don't all test the same things.
+
+Along with each set of data, describe what
+    behavior you're trying to test (e.g., the loading behavior of cycle
+    rides or the movement of a customer around the park), what results you expected,
+    and what results you actually obtained.  If you got something different
+    from what you expected, determine whether the discrepancy was due to an
+    ambiguity or misunderstanding of the specifications, a mistake in your hand-calculation
+of the expected result, or a bug in the code.  Any group(s) that can identify and document an actual bug in the code (a place where the behavior clearly contradicts the specification) will receive a reward; those who identify questionable program behavior or ambiguities in the spec will also receive (lesser) rewards. Bring these to the TA's attention.
+(d) Pick two functions that are part of one class in the simulator, and write "unit tests" for each. That is, write a set of assert statments that test thoroughly that the function works correctly, in the same spirit as we wrote check-expect expressions in Racket. You may need to create some simple test objects to use in your assertions, depending on which functions you choose. Then run your code to make sure none of the assertions fails.
+Writing these tests isn't really hard, but it does take some time. That's why we haven't been insisting that you write them comprehensively for every function in every program you've done this quarter: We have to choose where our limited time is most effectively spent. But in any kind of serious programming, the effort spent in writing good unit tests in advance is well paid back over the life of the software.
+(e)  Now it's time to modify the
+  code.  Make a copy and work on the copy.  Each time you add a feature and
+  test it successfully, make another copy and continue working on the new
+  copy.  That way, if you get into trouble, you can "roll back"
+  to the previous copy without having messed up all your previous work.
+
+The simulator displays some statistics about attractions and some statistics about customers. It should also display these overall statistics about the customers: the total number of visitors to the park; the number of people who didn't get into the park (because they arrived after closing time); the total time they
+  spent in the park, in line, and riding rides; and the average time per customer
+spent in the park, in line, and riding rides.
+
+Likewise, calculate and print the following
+overall statistics about the attractions:  the total number of attractions
+in the park, the total number of riders and average riders per ride, the
+total time spent riding and average riding time per ride, and the total
+time spent waiting in line and average waiting time per ride.
+(f)  Using your random sentence generator
+(either yours or your partner's or parts of both),  generate random customer data for the simulator, along the
+lines we discussed in class.  Optionally, you could find on the web lists of popular names—family names and male/female given names—and have your grammar generate a realistically representative list of names. (You may optionally also generate random ride
+data.  Presumably that would just involve preparing a different grammar,
+but we're not requiring that now.)  
+
+At least your test data generator should generate
+    valid data; it would be nice if it could choose realistic-seeming names
+    and numbers in plausible ranges.  Test your generated data by asking the
+simulator to read it in. Turn in a text document containing your grammar for customer data and some sample customers it generated.
+(g)  Suppose you wanted to make each
+tick of the clock last one second instead of one minute.  What would you
+have to change in the program (and data)?  Make a list of those changes,
+but don't implement them yet (or, optionally, implement them on a separate
+copy of the code.)  Why hesitate to make this change?  Think about your
+micro test cases; it's a lot more tedious to track the behavior second-by-second. 
+
+(h)  (optional) While walking to a ride,
+a customer might change his or her mind.  The customer might walk by a ride
+that looks interesting (or that has a short line), or the customer might
+get hungry and stop for a snack.  We can't model every kind of mind-changing
+behavior, but we can allow the customer to recalculate his or her priorities
+every n steps.  We might think of n as a measure of decisiveness;
+if n is high (or zero), the customer seldom re-thinks; if it's
+low, the customer frequently reevaluates.  
+
+Modify the simulator to allow customers in
+transit to reprioritize their agendas (according to their existing strategy,
+which means that they might decide to keep going to the same place) every
+n steps.  Specify n for each customer in the input, at the
+beginning of the line that currently specifies the customer type.
+
+Make this modification on a separate copy of
+the simulator.  You may want to go back to the original version for later
+assignments.
+
+
+The usual admonitions, advice, and administrivia
+apply to this assignment:
+
+
+Get started early.
+
+Read and re-read the specifications.
+
+Do this with a partner you haven't worked
+with yet this quarter and make sure Joel knows whom you're pairing with.
+
+Use Checkmate for your submissions as usual;
+each pair should submit just one solution.
+
+
+For parts (a) and (b), submit a text
+      document (Word or PDF or RTF or plain text) with your suggestions and your
+      implementation sketch.  (Actual sketches or other graphics are welcome,
+      but not required.)
+
+ For parts (c), (f), and (g), submit
+    text documents.
+
+For part (d), your unit tests should remain in the simulator code you turn in later, so there's nothing separate to turn in here.
+For part (e), submit all the source
+    code in one .py
+      file. The same goes for optional part (h).
+
+
+
+
+The usual grading criteria
+for lab assignments apply. 
+
+
+Fill out a partner evaluation at EEE.
+
+
+
+Written by David G. Kay, Winter 2005; modified by Alex Thornton, Winter 2007, and by David G. Kay, 
+Winter 2006, Winter 2008, and Winter 2012.
+
+

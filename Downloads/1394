@@ -1,0 +1,9 @@
+http://plrg.ics.uci.edu/publications/530.bib
+@inproceedings{key,
+ author = {Peizhao Ou and Brian Demsky},
+ title = {AutoMO: Automatic Inference of Memory Order Parameters for C/C++11},
+ booktitle = {Proceedings of the 2015 Conference on Object-Oriented Programming, Systems, Languages, and Applications},
+ location = {Pittsburg, Pennsylvania},
+ month = {October},
+ year = {2015}
+}

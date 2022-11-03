@@ -1,0 +1,447 @@
+http://www.ics.uci.edu/~jutts/st108
+
+
+
+
+
+
+Statistics 108
+
+
+
+
+
+
+Statistics 108 - Fall 2007
+
+
+Department of Statistics
+
+
+University of California, Davis
+
+
+
+Welcome to the homepage for Statistics 108: Regression Analysis
+
+
+Class
+Time
+
+
+ 
+
+Lecture
+
+
+Discussion
+
+
+
+
+Who's Likely to Be Giving It
+
+
+Professor Jessica Utts
+
+
+Irina Udaltsova
+
+
+
+
+Location and Time
+
+
+6 Olson Hall
+MWF 4:10 - 5:00
+
+
+Both discussion sections held on Tuesdays
+
+
+A01
+11-11:50am
+7 Wellman
+
+
+A02
+4:10-5pm
+261 Olson
+
+
+Students are responsible for what is covered.
+
+
+
+
+
+How, when and where to find us:
+
+
+Jessica Utts
+Irina Udaltsova
+
+
+4214 Math Sciences Bldg
+1117 Math Sciences Bldg
+
+
+752-6496
+no phone
+
+
+jmutts@ucdavis.edu
+isudaltsova-at-ucdavis.edu
+
+
+Tues and Fri 2:00 - 3:30 or by appointment
+SPECIAL OFFICE HOURS FOR FINAL EXAM: Monday, Dec 10, 10am-noon
+Mon 5:00 - 6:00 and Wed 1:00 - 2:00 or by appointment
+SPECIAL OFFICE HOURS FOR FINAL EXAM:Friday, Dec 7, 5-6
+
+
+
+Information about R - Thanks to Michael McAssey for these materials!!
+
+
+Installing R
+
+Getting Data into R
+
+Making a Scatterplot in R
+
+Simple Linear Regression in R
+
+Regression Inferences in R
+
+More Regression Inferences in R
+
+Diagnostics in R
+
+Transformations in R
+
+Conducting a Lack of Fit Test in R
+
+Matrices in R
+
+Multiple Regression in R
+
+Extra Sums of Squares in R
+
+Polynomial and Interaction Regression Models in R
+
+Model Selection in R
+
+Additional R Resources: 100 page Introduction to R from the R website
+Practical Regression and Anova using R, by Julian Faraway
+
+
+Syllabus, resources and material from class
+lectures
+
+
+Syllabus
+
+Publisher's website for the textbook (contains same material as the book CD)
+
+Powerpoint slides from Friday September 28 (as a pdf file)
+
+
+Review of Stat 13 from Friday October 5
+
+
+Height and Weight Example from October 10, with R output
+
+
+Data file used in October 10 example
+
+
+October 12 alcohol and tobacco example (illustrates outlier)
+
+
+October 12 seafood prices example (illustrates unequal variance)
+
+
+October 15 pictures of transformations on X
+
+
+R Code for Discussion 3, October 16 (pdf)
+
+R Code for Discussion 3, October 16 (Word)
+
+R Code for Discussion 4, October 23 (pdf)
+
+R Code for Discussion 4, October 23 (Word)
+
+Real Estate Example from October 26
+
+Transformed Real Estate Data Example from October 31 (Word format)
+
+Real Estate Example comparing models, Nov 5
+
+R Code for Discussion 6, November 6 (pdf)
+
+R Code for Discussion 6, November 6 (Word)
+
+Chug time example of quadratic model, Nov 9
+
+R Code for Discussion 7, November 13 (pdf)
+
+R Code for Discussion 7, November 13 (Word)
+
+Predicting height from mother's height - 
+example using indicator variables, Nov 14
+
+Best subsets regression example, Nov 19
+
+R Code for Discussion 8, November 20 (pdf)
+
+R Code for Discussion 8, November 20 (Word)
+
+R Code for Discussion 9, November 27 (pdf)
+
+R Code for Discussion 9, November 27 (Word)
+
+Case Diagnostics for Real Estate Example, short version
+Case Diagnostics for Real Estate Example, all cases version
+
+R Code for Discussion 10, December 4 (pdf)
+
+R Code for Discussion 10, December 4 (Word)
+ List of topics for review on Friday, December 7
+
+
+Practice Exams and Exam Keys (posted after the exam) (Download Adobe
+Acrobat Reader to read these .pdf files)
+
+
+Practice Midterm Exam
+
+Practice Midterm Exam Key
+(An error was corrected in question 3d. It should have referred to the model in part b, not part c.)
+
+Midterm Exam Key
+
+Final Exam Sample Multiple Choice Questions
+
+Final Exam Key
+
+
+Homework Solutions, posted after they are due (Download
+Adobe
+Acrobat Reader to read these .pdf files)
+
+
+Assignment #1, Due Wed. October 10
+
+R Code for HW1 (pdf)
+
+R Code for HW1 (Word)
+
+Assignment #2, Due Wed. October 17
+
+Assignment #3, Due Wed. October 24
+
+R Code for HW3 (pdf)
+
+R Code for HW3 (Word)
+
+Assignment #4, Due Wed. October 31
+
+R Code and results for Exercise 5.24ab (pdf)
+
+Assignment #5, Due Wed. November 14
+
+R Code for HW5 (pdf)
+
+R Code for HW5 (Word)
+
+Assignment #6, Due Wed. November 21
+
+R Code for HW6 (pdf)
+
+R Code for HW6 (Word)
+
+Assignment #7, Due Wed. November 28
+
+R Code for HW7 (pdf)
+
+R Code for HW7 (Word)
+
+Assignment #8, Due Wed. December 5
+ 
+
+E-mail
+list archive (kerberos log-in and password required)
+
+Homework assignments:
+ 
+
+
+Date Assigned
+Date Due
+Assignment
+Sections covered and skipped
+
+
+Fri Sept 28
+None
+None
+Overview of Regression
+
+
+Mon Oct 1
+Wed. Oct 10
+Ch. 1: #2, 8, 12, 30
+Sections 1.1 to 1.5 (Read 1.4 on your own)
+
+
+Wed Oct 3
+Wed. Oct 10
+Ch. 1: #27; use computer, show work
+Sections 1.6, 1.7; Skip 1.8
+
+
+Fri Oct 5
+Wed. Oct 10
+Ch. 2: #27
+Section 2.1, briefly 2.2, Skip 2.3
+
+
+Mon Oct 8
+Wed. Oct 10
+Ch. 2: #9, 10, 12
+Sections 2.4, 2.5; Skip 2.6
+
+
+Wed. Oct 10
+Wed. Oct 17
+Ch. 2: #28ab, 29bde
+Sections 2.7 (except pgs 68-71) and 2.9; Do 2.8 later; Read 2.10; Skip 2.11
+
+
+Fri. Oct 12
+Wed. Oct 17
+Ch. 3: #2, 9 (draw plot by hand or computer)
+Sections 3.1 to 3.3; Skip 3.4 to 3.6
+
+
+Mon. Oct 15
+Wed. Oct 17
+Ch. 3: #19,20
+Section 3.9; Read 3.8
+
+
+Also Mon. Oct 15
+Wed. Oct 24
+Ch. 3: #18
+Already noted above
+
+
+Wed. Oct 17
+Wed. Oct 24
+Ch. 3: #23 AND (unrelated to 3.23)
+Conduct the test for lack of fit on the 
+Height-weight data used in October 10 example.
+Useful handouts: Height and Weight Example from October 10, with R output 
+Conducting a Lack of Fit Test in R
+Sections 2.8 and 3.7; Skip Chapter 4
+
+
+Fri. Oct 19
+Wed. Oct 24
+Ch. 5: #1, 3, 8ab (Do these by hand, not computer)
+Sections 5.1 to 5.6; Read 5.7 (go over in Tues discussion)
+
+
+Mon. Oct 22
+Wed. Oct 24
+Ch. 5: #5 (by hand or computer), 17ab, AND Use matrix algebra to show that the hat matrix H is idempotent.
+Sections 5.8 to part of 5.11
+
+
+Wed. Oct 24
+Wed. Oct 31
+Ch. 5: #24ab
+Sections 5.11 and 5.13; read 5.12
+
+
+Fri. Oct 26
+Wed. Oct 31
+Ch. 6: #1, 22ab, 
+AND Interpret in your own words the coefficients (b0, b1, b2) for the Example in Section 6.9 (see pg 240 for coefficients).
+Section 6.1
+
+
+Mon. Oct 29
+Wed. Oct 31
+Ch. 6: No new homework today.
+Sections 6.2 to 6.5
+
+
+Wed. Oct 31
+Wed. Nov 14
+Ch. 6: #15bc, 16a, 17
+Sections 6.6, 6.7
+
+
+Mon. Nov 5
+Wed. Nov 14
+Ch. 7: #5, 26
+Sections 7.1 to 7.3; Skip 7.4, 7.5
+
+
+Wed. Nov 7
+Wed. Nov 14
+Ch. 7: #22
+Finish Section 7.3 (HW is from Sect. 7.6, will cover Fri.)
+
+
+Fri. Nov 9
+Wed. Nov 21
+Ch. 8: #4abeg (parts a, b, e, g only)
+Section 7.6; Section 8.1
+
+
+Wed. Nov 14
+Wed. Nov 21
+Ch. 8: #16abc, 21 Data for 8.16 and 8.20, with headers
+Sections 8.3, 8.4
+
+
+Fri. Nov 16
+Wed. Nov 21
+Ch. 8: #17, 18, 20
+Sections 8.2, 8.5 (Read 8.6, 8.7)
+
+
+Mon. Nov 19
+Wed. Nov 28
+Ch. 9: #25bc AND Fit the best model from part c and create an appropriate residual plot. Write down the fitted model, 
+show the plot, and comment on whether you think it's a good model.Rows 57-113 of Appendix C.1
+Sections 9.1 (partial), 9.3, 9.4 (Read 9.1, 9.2)
+
+
+Wed. Nov 21
+No HW
+CLASS CANCELLED
+
+
+Mon. Nov 26
+Wed. Nov 28
+Ch. 9: #4, 5, 7
+Finish Sections 9.3, 9.4 (Skip 9.5, 9.6 or read if interested)
+
+
+Wed. Nov 28Fri. Nov 30 Mon. Dec 3
+Wed. Dec 5
+Chapter 10 homework is in this file. There will be no further assignments.
+Chapter 10 homework data, if you need it.
+Sections 10.2, 10.3, 10.4 
+
+
+ 
+ 
+
+

@@ -1,0 +1,177 @@
+http://sdcl.ics.uci.edu/?page_id=31
+
+
+
+
+
+
+	PorchLight – Software Design and Collaboration Laboratory
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SDCL Software Design and Collaboration Laboratory
+
+
+
+
+
+
+PorchLight
+
+Description
+PorchLight is a new desktop bug tracker interface designed to support bug triaging. Many software organizations use traditional, web-based bug trackers to collect both bug reports and enhancement requests. These bug reports and enhancements requests must be triaged by making decisions regarding their validity and priority, as well as to which developers and milestones they are assigned. The goal of PorchLight is to support effective triaging by reducing the time spent in making these decisions and by increasing the long-term accuracy of the assignments that are made. PorchLight explores the use of bug clusters to automatically categorize bugs into meaningful groups that are presented to triaging developers.
+
+ 
+Highlights
+PorchLight is designed with the triaging developer in mind, using bug clusters as a basis for presenting information during triaging. Highlights include:
+Intuitive interface – The traditional “bug by bug” interface has been redesigned to provide easy access to and insight into clusters of bugs that can readily be assigned.
+Instant feedback – As bugs are assigned to developers and milestones, PorchLight provides instant feedback on the workload for the developers and milestones.
+Bug histories – A timeline shows an at-a-glance history for each bug, including comments, source code commits, and reassignments.
+Predictions – PorchLight enables developers to explore a broad range of bug clusters, including some created by sophisticated heuristics that predict the best developer and milestone assignments.
+ 
+Key publications
+
+G. Bortis and A. van der Hoek, PorchLight: a Tag-Based Approach to Bug Triaging, Thirty-fifth International Conference on Software Engineering, May 2013, pages 342–351.
+G. Bortis and A. van der Hoek, TeamBugs: A Collaborative Bug Tracking Tool, Fourth International Workshop on Cooperative and Human Aspects of Software Engineering, May 2011, pages 69-71.
+
+ 
+Current developers
+
+Gerald Bortis
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+Collaborators
+
+Anita Sarma
+David Redmiles
+Marian Petre
+Shinobu Saito
+Thomas LaToza
+
+
+
+
+
+
+
+
+
+
+Home
+Research
+
+Chatbots
+KnoCap
+Past projects
+
+Lighthouse
+CrowdDesign
+Crowd Debugging
+Calico
+CodeExchange
+Code Orb
+Crowd Development
+PorchLight
+
+
+
+
+Papers
+
+Technical reports
+Dissertations
+Books
+
+
+Opportunities
+People
+
+Previous members
+
+
+Sponsors
+Contact
+
+Directions
+
+
+
+
+
+
+
+
+
+
+
+ The Software Design and Collaboration Laboratory is housed in the Department of Informatics in the Donald Bren School of Information and Computer Sciences at the University of California, Irvine.
+
+
+
+
+
+    
+
+
+
+
+
+   
+
+
+
+
+Copyright ©             
+            SDCL |   eDegree° Theme by Top Blog Formula on WordPress |   
+                            Log In
+
+
+
+
+
+

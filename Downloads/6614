@@ -1,0 +1,188 @@
+https://www.ics.uci.edu/~lueker
+
+
+George S. Lueker
+
+
+
+
+
+
+
+
+
+George S. Lueker
+
+
+Position:
+Professor Emeritus
+
+
+
+Area:
+Theory
+
+
+
+Office:
+Bren Hall 4206
+
+
+
+Office Phone:
+(949) 824-5866
+
+
+
+
+
+
+
+Research | 
+Selected Publications
+
+
+
+Electronic mail:
+
+
+To construct my electronic mail address, concatenate my last name
+and "@ics.uci.edu".
+
+
+
+
+Research Interests
+
+
+
+George Lueker's interests are in the area of the design and analysis
+of algorithms for concrete problems.  Lueker is especially interested
+in applications of probability to problems in computer science,
+in particular
+the analysis of the behavior of algorithms and optimization
+problems when some assumption is made about the probability
+distribution of inputs.  For example, he has investigated the behavior
+of the optimum solution to the bin-packing problem and the partition
+problem.  With graduate
+student Mariko Molodowitch he developed a remarkably simple proof of
+the result that the probabilistic behavior of double hashing is
+asymptotically equivalent to that of the theoretically ideal uniform
+hashing, for fixed load factors arbitrarily close to one.
+He has also investigated improved bounds on the expected length of the longest
+common subsequence when the input strings are random.
+
+
+
+
+Selected Publications: 
+
+
+
+``Bin Packing Can Be Solved within 1+ε in Linear Time,'' with
+W. Fernandez de la Vega, Combinatorica 1,4, pp. 349-355, 1981.
+
+
+``Probabilistic Analysis of Optimum Partitioning,'' with N. Karmarkar,
+R. M. Karp, and A. M. Odlyzko, Journal of Applied Probability
+23,3 (1986), pp. 626-645.
+
+  Probabilistic Analysis of Packing and Partitioning
+Algorithms, with Ed Coffman, Jr., Wiley Interscience Series in
+Discrete Mathematics and Optimization, John Wiley & Sons, 1991,
+192 pages.
+
+ ``More Analysis of Double Hashing,'' with M. Molodowitch, 
+Combinatorica 13,1 (1993), pp. 83-96.
+
+ ``Exponentially Small Bounds on
+the Expected Optimum of the Partition and Subset Sum Problems,''
+Random Structures and Algorithms 12 (1998), pp. 51-62.
+
+
+``Average-Case Analysis of Off-Line and On-Line Knapsack Problems,''
+Journal of Algorithms 29 (1998), pp. 277-305.
+
+
+``Packing Random Rectangles,''
+with E. G. Coffman, Jr., Joel Spencer, and Peter M. Winkler,
+Probability Theory and Related Fields 120
+(2001), pp. 585-599.
+An earlier
+version appeared as
+DIMACS TR 99-44.
+
+
+``The Minimum Expectation Selection Problem,''
+with David Eppstein.
+Presented at Random Structures and Algorithms 2001
+held in Poznan, Poland.
+ACM Computing Research Repository, cs.DS/0110011.
+Random Structures & Algorithms, 
+21 (2002), pp. 278-292. 
+
+
+``C-Planarity of Extrovert Clustered Graphs,''
+with Michael T. Goodrich and Jonathan Z. Sun,
+Lecture Notes in Computer Science,
+Vol. 3843, 2006, pp. 211-222.
+(Graph Drawing, 13th International Symposium,
+	Patrick Healy and Nikola S. Nikolov, eds., 
+	Limerick, Ireland, September 12-14, 2005.)
+
+
+``Approximation Algorithms for Extensible Bin Packing,''
+with E. G. Coffman,
+Journal of Scheduling 9,1 (2006).
+An earlier version appeared in
+Proc. Twelfth Annual ACM/SIAM Symposium on Discrete Algorithms,
+2001, pp. 586-588.
+
+
+``On the Convergence of Upper Bound Techniques
+for the Average Length of Longest Common Subsequences,"
+Proceedings of the Tenth Workshop on Algorithm Engineering and Experiments
+(ALENEX)
+and the Fifth
+Workshop on Analytic Algorithmics and Combinatorics (ANALCO),
+(January 19, 2008), pp. 169-182.
+
+
+``On the Approximability of Geometric and Geographic Generalization
+and the Min-Max Bin Covering Problem,"
+with Wenliang Du, David Eppstein, and Michael T. Goodrich,
+Algorithms and Data Structures Symposium (WADS 2009).
+
+
+``Improved Bounds on the Average Length of Longest Common Subsequences,"
+Journal of the ACM 56,3 (May 2009), Article 17, 38 pages.
+http://doi.acm.org/10.1145/1516512.1516519.
+This is based on the paper of the same title in the
+Fourteenth Annual ACM/SIAM Symposium on Discrete Algorithms,
+2003, pp. 130-131, and the 
+
+ANALCO paper "On the Convergence of Upper Bound Techniques
+for the Average Length of Longest Common Subsequences" listed above.
+
+
+
+Research | 
+Publications
+
+
+
+
+
+Department of Computer Science
+
+School of Information and Computer Science 
+
+University of California, Irvine 
+Irvine, CA  92697-3435
+
+
+Last modified 
+
+
+
+

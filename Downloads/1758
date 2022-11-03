@@ -1,0 +1,79 @@
+http://sli.ics.uci.edu/Projects/BP
+
+
+
+SLI | Projects / Belief Propagation 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Projects /
+Belief Propagation
+
+
+Loopy Belief Propagation
+Loopy belief propagation (Pearl 1988) is a popular algorithm for approximate inference.  Its popularity stems in part from its extremely effective application to channel coding, first to turbo decoding and then to low-density parity check (LDPC) codes (McEliece et al. 1998).  While initially not well understood, in recent years a host of theoretical results have been obtained which help to quantify its behavior.
+
+Bethe approximation
+Bethe trees and convergence
+Fig 1: Bethe and SAW trees
+One way to understand the behavior of loopy belief propagation in a graph G is by constructing the "Bethe tree" of G.  The Bethe tree is formed by "unrolling" G around a root node (say, "1"), so that the root of the Bethe tree corresponds to node "1", the next level corresponds to "1"'s neighbors, the next to their neighbors (not including their parent, "1"), and so on.  (Figure 1, both black and red nodes.)  If G is a tree, each node will appear only once, but if not each node may have many copies within the Bethe tree.
+
+We can create a new graphical model defined on the Bethe tree, where each node and edge has the same parameters as its original version in G.  Then, there is a nice relationship between inference on the Bethe tree and BP in the original graph -- by placing the initial conditions at the bottom leaves of the Bethe tree (the initial message from s to t is placed incoming at any copies of t that do not have s as a parent), the messages computed in the Bethe tree at level "i" from the bottom will correspond to iteration i of BP on G, and belief at the root will correspond to the belief at node "1" after H iterations of BP, where H is the height of the Bethe tree.
+
+Intuitively, there is a nice connection to convergence of BP here -- if for any set of initial conditions, the belief at the root is the same, then BP must converge to a unique fixed point.  Again intuitively, this is likely to happen if the correlations among variables is weak, and sufficiently weak that the dependence from level to level dies off fast enough to offset the increasing number of nodes at each level.
+We have developed several sufficient conditions that guarantee this, using mixing properties of the factors of G (NIPS 2004, JMLR 2005).
+
+Self-avoiding walk trees and accuracy
+The self-avoiding walk (SAW) tree of a graph is a sub-tree of the Bethe tree (Figure 1, black only).  In essence, it corresponds to the unrolling of the graph G, up to the point at which each path forms a loop.  Self-avoiding is a slight misnomer, since the walks forming this graph do intersect themselves, but only at the terminal point.
+
+It turns out that the SAW tree is also closely connected to the behavior of belief propagation on G.  Weitz (2006) and Jung and Shaw (2007) showed that marginalization in a binary, pairwise Markov random field defined on G can be performed exactly on the SAW tree, which suggested various approximations to exact inference corresponding to early termination of the SAW tree.  We showed (2007) that the error incurred by belief propagation on any Markov random field defined on G can also be computed via methods similar to our convergence results.  (While the paper focuses on pairwise MRFs, extension to the more general factor graph formulation is easy.)
+
+
+
+
+
+
+
+ Last modified May 17, 2010, at 11:28 AM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

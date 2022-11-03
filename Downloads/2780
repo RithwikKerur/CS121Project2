@@ -1,0 +1,176 @@
+https://ngs.ics.uci.edu/iptv-and-eventweb-2
+
+
+
+
+
+
+
+
+IPTV and EventWeb – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				IPTV and EventWeb    			
+
+
+It is easy to see that technology trend suggest emergence of EventWeb both due to availability of technology and needs of people.  EventWeb can not become a reality like DocumentWeb until some important tools are made available.  Currently these tools are not well developed.  We believe that media production environments and media search are progressing fast and are receiving attention both from research as well as business community.  Media production environment is essential for people to easily produce the content that will be part of the eventweb.  Effective production tools will encourage users to put their events on the web to share with others.  Experience with DocumentWeb has demonstrated that search tools become essential to locate content of interest.  In the following we discuss briefly some major issues and general state of art in these two areas.  No effort is made to be exhaustive and list places, groups, or companies where such work is going on.  In the presentation, we will demonstrate some of these to provide an idea of the state of art.
+Media Production Tools
+Multimedia authoring tools and video editing tools have received lot of attention in the last two decades.  Multimedia authoring environment and production tools have been popular topic of research as well as have been the main business of several companies.  Despite all these efforts some difficulties remain.
+First, all production tools require significant learning.  They are designed for professionals.  In the past, this was understandable because media capture and storage was very expensive and hence required significant investment.  Now the situation is changed dramatically.  It is now possible to produce media documents on a normal PC, and soon it will be possible to do that on mobile phones.  Media production has to become a common tool like word processing is.  On the other extreme are some techniques that do complete automatic production.  Such techniques are satisfactory for some simple applications, but do not provide flexibility to producers to convey the experience that they want to.  So a happy medium is required.
+In addition to producing media that has been captured already, it will be required to provide environments to produce live events.  In live events, multiple sensors may be placed in the environment and following Internet culture provide Multiple Perspective Interactive Media so any user can experience the event by selecting the sensors located in the environment.  This is likely to be an emerging area.  Tools that will allow to place these sensors in the event environment and connect to the Web to provide personalized MPI experiences will revolutionize the entertainment industry and will bring immersive telepresence to the Web.
+Media Search 
+Image, audio, and video search has been popular research area for about 15 years.  There are many research groups addressing these areas.  Many research conferences address this topic.  On the other hand, in industry this area is receiving lots of attention.  Almost all search engines are required to have image and video search and number of new companies in this area is rapidly increasing.  The gap between research community and industry is as wide as one can imagine in any field.
+Most research effort have focused, with a very few exceptions, only on features and properties that could be computed from images and video.  In the research community, surprisingly until recently, most vie research did not even utilize the audio component.  The fundamental research approach has been to identify image and video features that will allow characterization of the content and then use them to index.  This is very difficult because users want to search content based on semantics and most features used in indexing are not semantic features but are visual or audio features.  Conversion of visual features to semantic objects or events has been a challenging problem.  In the last few years, researchers are exploring learning approaches to solve this semantic problem. Availability of storage and hence lots of training data and processing power makes it attractive to try these approaches.  These approaches have shown limited success and constrained domains because it is easier to prepare the training data in such limited domains.  In the last few years, some researchers are starting to utilize meta data and other information sources.  Combination of feature-based indexing, statistical learning, and use of correlated information from multiple sources seems to be the only way to make progress in this area.
+Most systems in industry come from companies that have legacy of strong text search.  True to the famous saying  — to a person with a hammer the whole world is full of head of nails â€“ these companies believe that image, audio, and video search is nothing but applying text search to name of the files representing such media and other information on the page where such media files are located.  Definitely related text and name of the files may sometimes convey useful information, but ultimately they are very limited.  Approaches based only on text, including human assigned tags as in now popular Folksonomy, will show good progress in well defined and well produced documents but will be dead-end when EventWeb starts maturing.  In fact information retrieval had gone through this stage when at one time authors were asked to assign index terms to their documents.  It was realized that unless you treat the whole document as a source, rather than a blob with a few index terms, search is very limited and usually misleading.
+A very positive thing in this space is that both research and industry now realize the importance of the problem and are aggressively working on solving it.  A few years ago, media search was a solution looking for problems; now there is a problem that needs to be solved.
+
+
+
+By Ramesh |
+    				March 19, 2006 |
+    				             		Experiential Computing |
+             	 
+    				             		No Comments |
+             	 		          				
+    			
+
+
+← IPTV
+Watershed Event for Web →
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

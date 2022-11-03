@@ -1,0 +1,9 @@
+http://plrg.ics.uci.edu/publications/580.bib
+@inproceedings{key,
+ author = {Peizhao Ou and Brian Demsky},
+ title = {Checking Concurrent Data Structures Under the C/C++11 Memory Model},
+ booktitle = {Proceedings of the 22nd ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming (PPoPP 2017)},
+ location = {Austin, TX},
+ month = {January},
+ year = {2017}
+}

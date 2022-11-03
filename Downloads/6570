@@ -1,0 +1,1031 @@
+https://duttgroup.ics.uci.edu/publications/?limit=3&
+
+
+
+
+
+
+Publications – Dutt Research Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to content
+
+
+
+
+
+
+ 
+
+Dutt Research Group
+DRG-Lab Webpage
+
+
+
+
+
+
+
+
+DRG Home
+Group Members
+Projects
+
+Self-Aware & Adaptive Computing
+
+Information Processing Factory (IPF)
+MARS
+Unified Parallel Runtime
+Memory Adaptation
+
+
+Health Care IoT
+
+Internet of Cognitive Things in healthcare
+Pain Assessment
+Maternity Care
+NSF Unite Project
+
+
+Domain-specific Hardware Accelerators
+Neuromorphic Computing
+
+
+Publications
+Sister Groups
+News
+
+
+
+
+Main Menu
+
+
+
+
+
+
+
+
+
+
+Publications 
+
+
+All publications:
+550 entries « ‹  3 of 11 › » 
+
+2018
+
+ Shamsa, Elham;  Kanduri, Anil;  Rahmani, Amir M;  Liljeberg, Pasi;  Jantsch, Axel;  Dutt, Nikil DGoal Formulation: Abstracting Dynamic Objectives for Efficient On-chip 
+ Resource Allocation Inproceedings  Nurmi, Jari;  Ellervee, Peeter;  Mihhailov, Juri;  Jenihhin, Maksim;  ä, Kalle Tammem (Ed.): 2018 IEEE Nordic Circuits and Systems Conference, NORCAS 2018: 
+ NORCHIP and International Symposium of System-on-Chip (SoC), Tallinn, 
+ Estonia, October 30-31, 2018, pp. 1–4, IEEE, 2018.Links | BibTeX@inproceedings{DBLP:conf/norchip/ShamsaKRLJD18,
+title = {Goal Formulation: Abstracting Dynamic Objectives for Efficient On-chip 
+ Resource Allocation},
+author = {Elham Shamsa and Anil Kanduri and Amir M Rahmani and Pasi Liljeberg and Axel Jantsch and Nikil D Dutt},
+editor = {Jari Nurmi and Peeter Ellervee and Juri Mihhailov and Maksim Jenihhin and Kalle Tammem ä},
+url = {https://doi.org/10.1109/NORCHIP.2018.8573451},
+doi = {10.1109/NORCHIP.2018.8573451},
+year  = {2018},
+date = {2018-01-01},
+booktitle = {2018 IEEE Nordic Circuits and Systems Conference, NORCAS 2018: 
+ NORCHIP and International Symposium of System-on-Chip (SoC), Tallinn, 
+ Estonia, October 30-31, 2018},
+pages = {1--4},
+publisher = {IEEE},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/NORCHIP.2018.8573451doi:10.1109/NORCHIP.2018.8573451Close Mück, Tiago;  Fröhlich, Antonio A;  Gracioli, Giovani;  Rahmani, Amir M;  Reis, João Gabriel;  Dutt, Nikil DCHIPS-AHOy: a predictable holistic cyber-physical hypervisor for MPSoCs Inproceedings  Mudge, Trevor N;  Pnevmatikatos, Dionisios N (Ed.): Proceedings of the 18th International Conference on Embedded Computer 
+ Systems: Architectures, Modeling, and Simulation, Pythagorion, Greece, 
+ July 15-19, 2018, pp. 73–80, ACM, 2018.Links | BibTeX@inproceedings{DBLP:conf/samos/MuckFGRRD18,
+title = {CHIPS-AHOy: a predictable holistic cyber-physical hypervisor for MPSoCs},
+author = {Tiago Mück and Antonio A. Fröhlich and Giovani Gracioli and Amir M Rahmani and João Gabriel Reis and Nikil D Dutt},
+editor = {Trevor N Mudge and Dionisios N Pnevmatikatos},
+url = {https://doi.org/10.1145/3229631.3229642},
+doi = {10.1145/3229631.3229642},
+year  = {2018},
+date = {2018-01-01},
+booktitle = {Proceedings of the 18th International Conference on Embedded Computer 
+ Systems: Architectures, Modeling, and Simulation, Pythagorion, Greece, 
+ July 15-19, 2018},
+pages = {73--80},
+publisher = {ACM},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/3229631.3229642doi:10.1145/3229631.3229642Close Betemps, Carlos Michel;  Melo, Mateus Santos De;  Rahmani, Amir M;  Miele, Antonio;  Dutt, Nikil D;  Zatt, BrunoExploring Heterogeneous Task-Level Parallelism in a BMA Video Coding 
+ Application using System-Level Simulation Inproceedings VIII Brazilian Symposium on Computing Systems Engineering, SBESC 
+ 2018, Salvador, Brazil, November 5-8, 2018, pp. 75–82, IEEE, 2018.Links | BibTeX@inproceedings{DBLP:conf/sbesc/BetempsMRMDZ18,
+title = {Exploring Heterogeneous Task-Level Parallelism in a BMA Video Coding 
+ Application using System-Level Simulation},
+author = {Carlos Michel Betemps and Mateus Santos De Melo and Amir M Rahmani and Antonio Miele and Nikil D Dutt and Bruno Zatt},
+url = {https://doi.org/10.1109/SBESC.2018.00020},
+doi = {10.1109/SBESC.2018.00020},
+year  = {2018},
+date = {2018-01-01},
+booktitle = {VIII Brazilian Symposium on Computing Systems Engineering, SBESC 
+ 2018, Salvador, Brazil, November 5-8, 2018},
+pages = {75--82},
+publisher = {IEEE},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/SBESC.2018.00020doi:10.1109/SBESC.2018.00020Close
+
+2017
+
+ Nejatollahi, Hamid;  Dutt, Nikil;  Cammarota, RosarioTrends, Challenges and Needs for Lattice-based Cryptography Implementations: Special Session Inproceedings Proceedings of the Twelfth IEEE/ACM/IFIP International Conference on Hardware/Software Codesign and System Synthesis Companion, pp. 6:1–6:3, ACM, Seoul, Republic of Korea, 2017, ISBN: 978-1-4503-5185-0.Links | BibTeX@inproceedings{Nejatollahi:2017:TCN:3125502.3125559,
+title = {Trends, Challenges and Needs for Lattice-based Cryptography Implementations: Special Session},
+author = {Hamid Nejatollahi and Nikil Dutt and Rosario Cammarota},
+url = {http://doi.acm.org/10.1145/3125502.3125559},
+doi = {10.1145/3125502.3125559},
+isbn = {978-1-4503-5185-0},
+year  = {2017},
+date = {2017-10-15},
+booktitle = {Proceedings of the Twelfth IEEE/ACM/IFIP International Conference on Hardware/Software Codesign and System Synthesis Companion},
+pages = {6:1--6:3},
+publisher = {ACM},
+address = {Seoul, Republic of Korea},
+series = {CODES '17},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.acm.org/10.1145/3125502.3125559doi:10.1145/3125502.3125559Close Nejatollahi, Hamid;  Dutt, Nikil;  Ray, Sandip;  Regazzoni, Francesco;  Banerjee, Indranil;  Cammarota, RosarioSoftware and Hardware Implementation of Lattice-Cased Cryptography Schemes Technical Report University of California Irvine, (CECS TR 17-04), 2017.Abstract | Links | BibTeX@techreport{2017-Hamid-TR_Survey,
+title = {Software and Hardware Implementation of Lattice-Cased Cryptography Schemes},
+author = {Hamid Nejatollahi and Nikil Dutt and Sandip Ray and Francesco Regazzoni and Indranil Banerjee and Rosario Cammarota},
+url = {https://www.researchgate.net/publication/320963262_Software_and_Hardware_Implementation_of_Lattice-Cased_Cryptography_Schemes
+http://www.cecs.uci.edu/files/2018/06/2017-tr-1.pdf
+
+},
+year  = {2017},
+date = {2017-01-01},
+journal = {University of California Irvine, CECS TR 17-04},
+number = {CECS TR 17-04},
+institution = {University of California Irvine,},
+abstract = {Advances in computing steadily erode computer security at its foundation, and call for fundamental innovations to strengthen current practices in computer security, specifically in applied cryptography, from theory to standardization to actual implementations. At the same time, the emergence of new computing paradigms, such as cloud computing, software defined networks and Internet of Everything, demands devices to adopt an increasing number of security standards - with a diverse set of cryptographic primitives. This in turn calls for innovations in security beyond the foundational aspects, down to the actual design and deployment of such primitives and protocols while satisfying conflicting design constraints such as latency, compactness, and energy efficiency. The advent of Quantum computing threatens to break many classical cryptographic schemes, leading to innovations in public key cryptography that focus on post-quantum cryptography primitives and their protocols that are resistant to quantum computing threats. In particular, lattice-based cryptography is a promising post-quantum cryptography family, both in terms of foundational properties, as well as its application to both traditional and emerging security problems such as encryption (asymmetric, but also symmetric), digital signature, key exchange, homomorphic encryption etc. While such techniques provide guarantees in theory, their realization on contemporary computing platforms requires careful design choices and tradeoffs to manage both the diversity of computing platforms (e.g., high-performance to resource constrained), as well as agility for deployment in the face of emerging and changing standards. In this work we survey trends in lattice-based cryptographic schemes, some fundamental recent proposals for the use of lattices in computer security, challenges for their implementation in software and hardware, and emerging needs for their adoption.},
+keywords = {},
+pubstate = {published},
+tppubtype = {techreport}
+}
+CloseAdvances in computing steadily erode computer security at its foundation, and call for fundamental innovations to strengthen current practices in computer security, specifically in applied cryptography, from theory to standardization to actual implementations. At the same time, the emergence of new computing paradigms, such as cloud computing, software defined networks and Internet of Everything, demands devices to adopt an increasing number of security standards - with a diverse set of cryptographic primitives. This in turn calls for innovations in security beyond the foundational aspects, down to the actual design and deployment of such primitives and protocols while satisfying conflicting design constraints such as latency, compactness, and energy efficiency. The advent of Quantum computing threatens to break many classical cryptographic schemes, leading to innovations in public key cryptography that focus on post-quantum cryptography primitives and their protocols that are resistant to quantum computing threats. In particular, lattice-based cryptography is a promising post-quantum cryptography family, both in terms of foundational properties, as well as its application to both traditional and emerging security problems such as encryption (asymmetric, but also symmetric), digital signature, key exchange, homomorphic encryption etc. While such techniques provide guarantees in theory, their realization on contemporary computing platforms requires careful design choices and tradeoffs to manage both the diversity of computing platforms (e.g., high-performance to resource constrained), as well as agility for deployment in the face of emerging and changing standards. In this work we survey trends in lattice-based cryptographic schemes, some fundamental recent proposals for the use of lattices in computer security, challenges for their implementation in software and hardware, and emerging needs for their adoption.Closehttps://www.researchgate.net/publication/320963262_Software_and_Hardware_Impleme[...]http://www.cecs.uci.edu/files/2018/06/2017-tr-1.pdfClose Jantsch, Axel;  Dutt, Nikil D;  Rahmani, Amir MSelf-Awareness in Systems on Chip - A Survey Journal Article IEEE Des. Test, 34 (6), pp. 8–26, 2017.Links | BibTeX@article{DBLP:journals/dt/JantschDR17b,
+title = {Self-Awareness in Systems on Chip - A Survey},
+author = {Axel Jantsch and Nikil D Dutt and Amir M Rahmani},
+url = {https://doi.org/10.1109/MDAT.2017.2757143},
+doi = {10.1109/MDAT.2017.2757143},
+year  = {2017},
+date = {2017-01-01},
+journal = {IEEE Des. Test},
+volume = {34},
+number = {6},
+pages = {8--26},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/MDAT.2017.2757143doi:10.1109/MDAT.2017.2757143Close Shoushtari, Majid;  Dutt, Nikil DSAM: Software-Assisted Memory Hierarchy for Scalable Manycore Embedded 
+ Systems Journal Article IEEE Embed. Syst. Lett., 9 (4), pp. 109–112, 2017.Links | BibTeX@article{DBLP:journals/esl/ShoushtariD17b,
+title = {SAM: Software-Assisted Memory Hierarchy for Scalable Manycore Embedded 
+ Systems},
+author = {Majid Shoushtari and Nikil D Dutt},
+url = {https://doi.org/10.1109/LES.2017.2748098},
+doi = {10.1109/LES.2017.2748098},
+year  = {2017},
+date = {2017-01-01},
+journal = {IEEE Embed. Syst. Lett.},
+volume = {9},
+number = {4},
+pages = {109--112},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/LES.2017.2748098doi:10.1109/LES.2017.2748098Close Kanduri, Anil;  Haghbayan, Mohammad Hashem;  Rahmani, Amir M;  Liljeberg, Pasi;  Jantsch, Axel;  Tenhunen, Hannu;  Dutt, Nikil DAccuracy-Aware Power Management for Many-Core Systems Running Error-Resilient 
+ Applications Journal Article IEEE Trans. Very Large Scale Integr. Syst., 25 (10), pp. 2749–2762, 2017.Links | BibTeX@article{DBLP:journals/tvlsi/KanduriHRLJTD17b,
+title = {Accuracy-Aware Power Management for Many-Core Systems Running Error-Resilient 
+ Applications},
+author = {Anil Kanduri and Mohammad Hashem Haghbayan and Amir M Rahmani and Pasi Liljeberg and Axel Jantsch and Hannu Tenhunen and Nikil D Dutt},
+url = {https://doi.org/10.1109/TVLSI.2017.2694388},
+doi = {10.1109/TVLSI.2017.2694388},
+year  = {2017},
+date = {2017-01-01},
+journal = {IEEE Trans. Very Large Scale Integr. Syst.},
+volume = {25},
+number = {10},
+pages = {2749--2762},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/TVLSI.2017.2694388doi:10.1109/TVLSI.2017.2694388Close Shoushtari, Majid;  Rahmani, Amir M;  Dutt, Nikil DQuality-configurable memory hierarchy through approximation: special 
+ session Inproceedings Proceedings of the 2017 International Conference on Compilers, Architectures 
+ and Synthesis for Embedded Systems, CASES 2017, Seoul, Republic 
+ of Korea, October 15-20, 2017, pp. 2:1–2:2, ACM, 2017.Links | BibTeX@inproceedings{DBLP:conf/cases/ShoushtariRD17b,
+title = {Quality-configurable memory hierarchy through approximation: special 
+ session},
+author = {Majid Shoushtari and Amir M Rahmani and Nikil D Dutt},
+url = {https://doi.org/10.1145/3125501.3125525},
+doi = {10.1145/3125501.3125525},
+year  = {2017},
+date = {2017-01-01},
+booktitle = {Proceedings of the 2017 International Conference on Compilers, Architectures 
+ and Synthesis for Embedded Systems, CASES 2017, Seoul, Republic 
+ of Korea, October 15-20, 2017},
+pages = {2:1--2:2},
+publisher = {ACM},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/3125501.3125525doi:10.1145/3125501.3125525Close Sarma, Santanu;  Dutt, Nikil DArchitecture and Cross-Layer Design Space Exploration Incollection  Ha, Soonhoi;  ü, J (Ed.): Handbook of Hardware/Software Codesign, pp. 247–270, Springer, 2017.Links | BibTeX@incollection{DBLP:reference/hwswco/SarmaD17,
+title = {Architecture and Cross-Layer Design Space Exploration},
+author = {Santanu Sarma and Nikil D Dutt},
+editor = {Soonhoi Ha and J ü},
+url = {https://doi.org/10.1007/978-94-017-7267-9_9},
+doi = {10.1007/978-94-017-7267-9_9},
+year  = {2017},
+date = {2017-01-01},
+booktitle = {Handbook of Hardware/Software Codesign},
+pages = {247--270},
+publisher = {Springer},
+keywords = {},
+pubstate = {published},
+tppubtype = {incollection}
+}
+Closehttps://doi.org/10.1007/978-94-017-7267-9_9doi:10.1007/978-94-017-7267-9_9Close Park, Young-Hwan;  Khajeh, Amin;  Shin, Jun Yong;  Kurdahi, Fadi J;  Eltawil, Ahmed M;  Dutt, Nikil DMicroarchitecture-Level SoC Design Incollection  Ha, Soonhoi;  ü, J (Ed.): Handbook of Hardware/Software Codesign, pp. 867–913, Springer, 2017.Links | BibTeX@incollection{DBLP:reference/hwswco/ParkKSKED17,
+title = {Microarchitecture-Level SoC Design},
+author = {Young-Hwan Park and Amin Khajeh and Jun Yong Shin and Fadi J Kurdahi and Ahmed M Eltawil and Nikil D Dutt},
+editor = {Soonhoi Ha and J ü},
+url = {https://doi.org/10.1007/978-94-017-7267-9_28},
+doi = {10.1007/978-94-017-7267-9_28},
+year  = {2017},
+date = {2017-01-01},
+booktitle = {Handbook of Hardware/Software Codesign},
+pages = {867--913},
+publisher = {Springer},
+keywords = {},
+pubstate = {published},
+tppubtype = {incollection}
+}
+Closehttps://doi.org/10.1007/978-94-017-7267-9_28doi:10.1007/978-94-017-7267-9_28Close Jantsch, Axel;  Dutt, Nikil DGuest Editorial: Special Issue on Self-Aware Systems on Chip Journal Article IEEE Design & Test, 34 (6), pp. 6–7, 2017.Links | BibTeX@article{DBLP:journals/dt/JantschD17,
+title = {Guest Editorial: Special Issue on Self-Aware Systems on Chip},
+author = {Axel Jantsch and Nikil D Dutt},
+url = {https://doi.org/10.1109/MDAT.2017.2757445},
+doi = {10.1109/MDAT.2017.2757445},
+year  = {2017},
+date = {2017-01-01},
+journal = {IEEE Design & Test},
+volume = {34},
+number = {6},
+pages = {6--7},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/MDAT.2017.2757445doi:10.1109/MDAT.2017.2757445Close Azimi, Iman;  Anzanpour, Arman;  Rahmani, Amir M;  Pahikkala, Tapio;  Levorato, Marco;  Liljeberg, Pasi;  Dutt, Nikil DHiCH: Hierarchical Fog-Assisted Computing Architecture for Healthcare  IoT Journal Article ACM Trans. Embedded Comput. Syst., 16 (5), pp. 174:1–174:20, 2017.Links | BibTeX@article{DBLP:journals/tecs/AzimiARPLLD17,
+title = {HiCH: Hierarchical Fog-Assisted Computing Architecture for Healthcare  IoT},
+author = {Iman Azimi and Arman Anzanpour and Amir M Rahmani and Tapio Pahikkala and Marco Levorato and Pasi Liljeberg and Nikil D Dutt},
+url = {http://doi.acm.org/10.1145/3126501},
+doi = {10.1145/3126501},
+year  = {2017},
+date = {2017-01-01},
+journal = {ACM Trans. Embedded Comput. Syst.},
+volume = {16},
+number = {5},
+pages = {174:1--174:20},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://doi.acm.org/10.1145/3126501doi:10.1145/3126501Close Mück, Tiago Rogério;  Ghaderi, Zana;  Dutt, Nikil D;  Bozorgzadeh, EliExploiting Heterogeneity for Aging-Aware Load Balancing in Mobile 
+ Platforms Journal Article IEEE Trans. Multi-Scale Computing Systems, 3 (1), pp. 25–35, 2017.Links | BibTeX@article{DBLP:journals/tmscs/MuckGDB17,
+title = {Exploiting Heterogeneity for Aging-Aware Load Balancing in Mobile 
+ Platforms},
+author = {Tiago Rogério Mück and Zana Ghaderi and Nikil D Dutt and Eli Bozorgzadeh},
+url = {https://doi.org/10.1109/TMSCS.2016.2627541},
+doi = {10.1109/TMSCS.2016.2627541},
+year  = {2017},
+date = {2017-01-01},
+journal = {IEEE Trans. Multi-Scale Computing Systems},
+volume = {3},
+number = {1},
+pages = {25--35},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/TMSCS.2016.2627541doi:10.1109/TMSCS.2016.2627541Close Donyanavard, Bryan;  Monazzah, Amir Mahdi Hosseini;  Mück, Tiago;  Dutt, Nikil DExploring fast and slow memories in HMP core types: work-in-progress Inproceedings Proceedings of the Twelfth IEEE/ACM/IFIP International Conference 
+ on Hardware/Software Codesign and System Synthesis Companion, CODES+ISSS 
+ 2017, Seoul, Republic of Korea, October 15-20, 2017, pp. 4:1–4:2, 2017.Links | BibTeX@inproceedings{DBLP:conf/codes/DonyanavardMMD17,
+title = {Exploring fast and slow memories in HMP core types: work-in-progress},
+author = {Bryan Donyanavard and Amir Mahdi Hosseini Monazzah and Tiago Mück and Nikil D Dutt},
+url = {http://doi.acm.org/10.1145/3125502.3125545},
+doi = {10.1145/3125502.3125545},
+year  = {2017},
+date = {2017-01-01},
+booktitle = {Proceedings of the Twelfth IEEE/ACM/IFIP International Conference 
+ on Hardware/Software Codesign and System Synthesis Companion, CODES+ISSS 
+ 2017, Seoul, Republic of Korea, October 15-20, 2017},
+pages = {4:1--4:2},
+crossref = {DBLP:conf/codes/2017},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.acm.org/10.1145/3125502.3125545doi:10.1145/3125502.3125545Close Anzanpour, Arman;  Azimi, Iman;  Gotzinger, Maximilian;  Rahmani, Amir M;  Taherinejad, Nima;  Liljeberg, Pasi;  Jantsch, Axel;  Dutt, Nikil DSelf-awareness in remote health monitoring systems using wearable  electronics Inproceedings Design, Automation & Test in Europe Conference & Exhibition, 
+ DATE 2017, Lausanne, Switzerland, March 27-31, 2017, pp. 1056–1061, 2017.Links | BibTeX@inproceedings{DBLP:conf/date/AnzanpourAGRTLJ17,
+title = {Self-awareness in remote health monitoring systems using wearable  electronics},
+author = {Arman Anzanpour and Iman Azimi and Maximilian Gotzinger and Amir M Rahmani and Nima Taherinejad and Pasi Liljeberg and Axel Jantsch and Nikil D Dutt},
+url = {https://doi.org/10.23919/DATE.2017.7927146},
+doi = {10.23919/DATE.2017.7927146},
+year  = {2017},
+date = {2017-01-01},
+booktitle = {Design, Automation & Test in Europe Conference & Exhibition, 
+ DATE 2017, Lausanne, Switzerland, March 27-31, 2017},
+pages = {1056--1061},
+crossref = {DBLP:conf/date/2017},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.23919/DATE.2017.7927146doi:10.23919/DATE.2017.7927146Close Park, Jurn-Gyu;  Dutt, Nikil D;  Lim, Sung-SooML-Gov: a machine learning enhanced integrated CPU-GPU DVFS governor 
+ for mobile gaming Inproceedings Proceedings of the 15th IEEE/ACM Symposium on Embedded Systems for 
+ Real-Time Multimedia, ESTImedia 2017, Seoul, Republic of Korea, October 
+ 15 - 20, 2017, pp. 12–21, 2017.Links | BibTeX@inproceedings{DBLP:conf/estimedia/ParkDL17,
+title = {ML-Gov: a machine learning enhanced integrated CPU-GPU DVFS governor 
+ for mobile gaming},
+author = {Jurn-Gyu Park and Nikil D Dutt and Sung-Soo Lim},
+url = {http://doi.acm.org/10.1145/3139315.3139317},
+doi = {10.1145/3139315.3139317},
+year  = {2017},
+date = {2017-01-01},
+booktitle = {Proceedings of the 15th IEEE/ACM Symposium on Embedded Systems for 
+ Real-Time Multimedia, ESTImedia 2017, Seoul, Republic of Korea, October 
+ 15 - 20, 2017},
+pages = {12--21},
+crossref = {DBLP:conf/estimedia/2017},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.acm.org/10.1145/3139315.3139317doi:10.1145/3139315.3139317Close Monazzah, Amir Mahdi Hosseini;  Shoushtari, Majid;  Miremadi, Seyed Ghassem;  Rahmani, Amir M;  Dutt, Nikil DQuARK: Quality-configurable approximate STT-MRAM cache by fine-grained 
+ tuning of reliability-energy knobs Inproceedings 2017 IEEE/ACM International Symposium on Low Power Electronics and 
+ Design, ISLPED 2017, Taipei, Taiwan, July 24-26, 2017, pp. 1–6, 2017.Links | BibTeX@inproceedings{DBLP:conf/islped/MonazzahSMRD17,
+title = {QuARK: Quality-configurable approximate STT-MRAM cache by fine-grained 
+ tuning of reliability-energy knobs},
+author = {Amir Mahdi Hosseini Monazzah and Majid Shoushtari and Seyed Ghassem Miremadi and Amir M Rahmani and Nikil D Dutt},
+url = {https://doi.org/10.1109/ISLPED.2017.8009198},
+doi = {10.1109/ISLPED.2017.8009198},
+year  = {2017},
+date = {2017-01-01},
+booktitle = {2017 IEEE/ACM International Symposium on Low Power Electronics and 
+ Design, ISLPED 2017, Taipei, Taiwan, July 24-26, 2017},
+pages = {1--6},
+crossref = {DBLP:conf/islped/2017},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ISLPED.2017.8009198doi:10.1109/ISLPED.2017.8009198Close Aliee, Hananeh;  BanaiyanMofrad, Abbas;  ß, Michael Gla;  ü, J;  Dutt, Nikil DRedundancy-aware Design Space Exploration for Memory Reliability in 
+ Many-cores Inproceedings Methoden und Beschreibungssprachen zur Modellierung und Verifikation 
+ von Schaltungen und Systemen, MBMV 2017, Bremen, Germany, February 
+ 8-9, 2017., pp. 1–12, 2017.BibTeX@inproceedings{DBLP:conf/mbmv/AlieeBGTD17,
+title = {Redundancy-aware Design Space Exploration for Memory Reliability in 
+ Many-cores},
+author = {Hananeh Aliee and Abbas BanaiyanMofrad and Michael Gla ß and J ü and Nikil D Dutt},
+year  = {2017},
+date = {2017-01-01},
+booktitle = {Methoden und Beschreibungssprachen zur Modellierung und Verifikation 
+ von Schaltungen und Systemen, MBMV 2017, Bremen, Germany, February 
+ 8-9, 2017.},
+pages = {1--12},
+crossref = {DBLP:conf/mbmv/2017},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Close Dutt, Nikil D;  Rahmani, Amir M;  Jantsch, AxelEmpowering autonomy through self-awareness in MPSoCs Inproceedings 15th IEEE International New Circuits and Systems Conference, NEWCAS 
+ 2017, Strasbourg, France, June 25-28, 2017, pp. 73–76, 2017.Links | BibTeX@inproceedings{DBLP:conf/newcas/DuttRJ17,
+title = {Empowering autonomy through self-awareness in MPSoCs},
+author = {Nikil D Dutt and Amir M Rahmani and Axel Jantsch},
+url = {https://doi.org/10.1109/NEWCAS.2017.8010108},
+doi = {10.1109/NEWCAS.2017.8010108},
+year  = {2017},
+date = {2017-01-01},
+booktitle = {15th IEEE International New Circuits and Systems Conference, NEWCAS 
+ 2017, Strasbourg, France, June 25-28, 2017},
+pages = {73--76},
+crossref = {DBLP:conf/newcas/2017},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/NEWCAS.2017.8010108doi:10.1109/NEWCAS.2017.8010108Close Shahosseini, Sina;  Moazzemi, Kasra;  Rahmani, Amir M;  Dutt, Nikil DDependability evaluation of SISO control-theoretic power managers  for processor architectures Inproceedings IEEE Nordic Circuits and Systems Conference, NORCAS 2017: NORCHIP 
+ and International Symposium of System-on-Chip (SoC), Linköping, 
+ Sweden, October 23-25, 2017, pp. 1–6, 2017.Links | BibTeX@inproceedings{DBLP:conf/norchip/ShahosseiniMRD17,
+title = {Dependability evaluation of SISO control-theoretic power managers  for processor architectures},
+author = {Sina Shahosseini and Kasra Moazzemi and Amir M Rahmani and Nikil D Dutt},
+url = {http://duttgroup.ics.uci.edu/wp-content/uploads/2018/05/NORCAS_drg.pdf
+https://doi.org/10.1109/NORCHIP.2017.8124983},
+doi = {10.1109/NORCHIP.2017.8124983},
+year  = {2017},
+date = {2017-01-01},
+booktitle = {IEEE Nordic Circuits and Systems Conference, NORCAS 2017: NORCHIP 
+ and International Symposium of System-on-Chip (SoC), Linköping, 
+ Sweden, October 23-25, 2017},
+pages = {1--6},
+crossref = {DBLP:conf/norchip/2017},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://duttgroup.ics.uci.edu/wp-content/uploads/2018/05/NORCAS_drg.pdfhttps://doi.org/10.1109/NORCHIP.2017.8124983doi:10.1109/NORCHIP.2017.8124983Close Mück, Tiago;  Donyanavard, Bryan;  Dutt, Nikil DPoIiCym: rapid prototyping of resource management policies for HMPs Inproceedings International Symposium on Rapid System Prototyping, RSP 2017, Shortening 
+ the Path from Specification to Prototype, October 19-20, 2017, Seoul, 
+ South Korea., pp. 23–29, 2017.Links | BibTeX@inproceedings{DBLP:conf/rsp/MuckDD17,
+title = {PoIiCym: rapid prototyping of resource management policies for HMPs},
+author = {Tiago Mück and Bryan Donyanavard and Nikil D Dutt},
+url = {http://doi.acm.org/10.1145/3130265.3130321},
+doi = {10.1145/3130265.3130321},
+year  = {2017},
+date = {2017-01-01},
+booktitle = {International Symposium on Rapid System Prototyping, RSP 2017, Shortening 
+ the Path from Specification to Prototype, October 19-20, 2017, Seoul, 
+ South Korea.},
+pages = {23--29},
+crossref = {DBLP:conf/rsp/2017},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.acm.org/10.1145/3130265.3130321doi:10.1145/3130265.3130321Close Das, Anup;  Pradhapan, Paruthi;  Groenendaal, Willemijn;  Adiraju, Prathyusha;  Rajan, Raj Thilak;  Catthoor, Francky;  Schaafsma, Siebren;  Krichmar, Jeffrey L;  Dutt, Nikil D;  Hoof, Chris VanUnsupervised Heart-rate Estimation in Wearables With Liquid States 
+ and A Probabilistic Readout Journal Article CoRR, abs/1708.05356 , 2017.Links | BibTeX@article{DBLP:journals/corr/abs-1708-05356,
+title = {Unsupervised Heart-rate Estimation in Wearables With Liquid States 
+ and A Probabilistic Readout},
+author = {Anup Das and Paruthi Pradhapan and Willemijn Groenendaal and Prathyusha Adiraju and Raj Thilak Rajan and Francky Catthoor and Siebren Schaafsma and Jeffrey L Krichmar and Nikil D Dutt and Chris Van Hoof},
+url = {http://arxiv.org/abs/1708.05356},
+year  = {2017},
+date = {2017-01-01},
+journal = {CoRR},
+volume = {abs/1708.05356},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://arxiv.org/abs/1708.05356Close Detorakis, Georgios;  Sheik, Sadique;  Augustine, Charles;  Paul, Somnath;  Pedroni, Bruno U;  Dutt, Nikil D;  Krichmar, Jeffrey L;  Cauwenberghs, Gert;  Neftci, EmreNeural and Synaptic Array Transceiver: A Brain-Inspired Computing 
+ Framework for Embedded Learning Journal Article CoRR, abs/1709.10205 , 2017.Links | BibTeX@article{DBLP:journals/corr/abs-1709-10205,
+title = {Neural and Synaptic Array Transceiver: A Brain-Inspired Computing 
+ Framework for Embedded Learning},
+author = {Georgios Detorakis and Sadique Sheik and Charles Augustine and Somnath Paul and Bruno U Pedroni and Nikil D Dutt and Jeffrey L Krichmar and Gert Cauwenberghs and Emre Neftci},
+url = {http://arxiv.org/abs/1709.10205},
+year  = {2017},
+date = {2017-01-01},
+journal = {CoRR},
+volume = {abs/1709.10205},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://arxiv.org/abs/1709.10205Close
+
+2016
+
+ Jeong, Gu Min;  Park, Chang Woo;  Choi, Sang Il;  Lee, Kyoungwoo;  Dutt, Nikil DRobust Face Recognition Against Soft-errors Using a Cross-layer Approach Journal Article Int. J. Comput. Commun. Control, 11 (5), pp. 657–665, 2016.Links | BibTeX@article{DBLP:journals/ijccc/JeongPCLD16,
+title = {Robust Face Recognition Against Soft-errors Using a Cross-layer Approach},
+author = {Gu Min Jeong and Chang Woo Park and Sang Il Choi and Kyoungwoo Lee and Nikil D Dutt},
+url = {https://doi.org/10.15837/ijccc.2016.5.2020},
+doi = {10.15837/ijccc.2016.5.2020},
+year  = {2016},
+date = {2016-01-01},
+journal = {Int. J. Comput. Commun. Control},
+volume = {11},
+number = {5},
+pages = {657--665},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.15837/ijccc.2016.5.2020doi:10.15837/ijccc.2016.5.2020Close Shrivastava, Aviral;  Dutt, Nikil D;  Cai, Jian;  Shoushtari, Majid;  Donyanavard, Bryan;  Tajik, HosseinAutomatic management of Software Programmable Memories in Many-core 
+ Architectures Journal Article IET Computers & Digital Techniques, 10 (6), pp. 288–298, 2016.Links | BibTeX@article{DBLP:journals/iet-cdt/ShrivastavaDCSD16,
+title = {Automatic management of Software Programmable Memories in Many-core 
+ Architectures},
+author = {Aviral Shrivastava and Nikil D Dutt and Jian Cai and Majid Shoushtari and Bryan Donyanavard and Hossein Tajik},
+url = {https://doi.org/10.1049/iet-cdt.2016.0024},
+doi = {10.1049/iet-cdt.2016.0024},
+year  = {2016},
+date = {2016-01-01},
+journal = {IET Computers & Digital Techniques},
+volume = {10},
+number = {6},
+pages = {288--298},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1049/iet-cdt.2016.0024doi:10.1049/iet-cdt.2016.0024Close Dutt, Nikil D;  Jantsch, Axel;  Sarma, SantanuToward Smart Embedded Systems: A Self-aware System-on-Chip (SoC) 
+ Perspective Journal Article ACM Trans. Embedded Comput. Syst., 15 (2), pp. 22:1–22:27, 2016.Links | BibTeX@article{DBLP:journals/tecs/DuttJS16,
+title = {Toward Smart Embedded Systems: A Self-aware System-on-Chip (SoC) 
+ Perspective},
+author = {Nikil D Dutt and Axel Jantsch and Santanu Sarma},
+url = {http://doi.acm.org/10.1145/2872936},
+doi = {10.1145/2872936},
+year  = {2016},
+date = {2016-01-01},
+journal = {ACM Trans. Embedded Comput. Syst.},
+volume = {15},
+number = {2},
+pages = {22:1--22:27},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://doi.acm.org/10.1145/2872936doi:10.1145/2872936Close Tajik, Hossein;  Donyanavard, Bryan;  Dutt, Nikil D;  Jahn, Janmartin;  ö, JSPMPool: Runtime SPM Management for Memory-Intensive Applications 
+ in Embedded Many-Cores Journal Article ACM Trans. Embedded Comput. Syst., 16 (1), pp. 25:1–25:27, 2016.Links | BibTeX@article{DBLP:journals/tecs/TajikDDJH16,
+title = {SPMPool: Runtime SPM Management for Memory-Intensive Applications 
+ in Embedded Many-Cores},
+author = {Hossein Tajik and Bryan Donyanavard and Nikil D Dutt and Janmartin Jahn and J ö},
+url = {http://dl.acm.org/citation.cfm?id=2968447},
+year  = {2016},
+date = {2016-01-01},
+journal = {ACM Trans. Embedded Comput. Syst.},
+volume = {16},
+number = {1},
+pages = {25:1--25:27},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://dl.acm.org/citation.cfm?id=2968447Close Sarma, Santanu;  Mück, Tiago;  Shoushtari, Majid;  BanaiyanMofrad, Abbas;  Dutt, Nikil DCross-layer virtual/physical sensing and actuation for resilient heterogeneous 
+ many-core SoCs Inproceedings 21st Asia and South Pacific Design Automation Conference, ASP-DAC 
+ 2016, Macao, Macao, January 25-28, 2016, pp. 395–402, 2016.Links | BibTeX@inproceedings{DBLP:conf/aspdac/SarmaMSBD16,
+title = {Cross-layer virtual/physical sensing and actuation for resilient heterogeneous 
+ many-core SoCs},
+author = {Santanu Sarma and Tiago Mück and Majid Shoushtari and Abbas BanaiyanMofrad and Nikil D Dutt},
+url = {https://doi.org/10.1109/ASPDAC.2016.7428044},
+doi = {10.1109/ASPDAC.2016.7428044},
+year  = {2016},
+date = {2016-01-01},
+booktitle = {21st Asia and South Pacific Design Automation Conference, ASP-DAC 
+ 2016, Macao, Macao, January 25-28, 2016},
+pages = {395--402},
+crossref = {DBLP:conf/aspdac/2016},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ASPDAC.2016.7428044doi:10.1109/ASPDAC.2016.7428044Close Donyanavard, Bryan;  Mück, Tiago;  Sarma, Santanu;  Dutt, Nikil DSPARTA: runtime task allocation for energy efficient heterogeneous  many-cores Inproceedings Proceedings of the Eleventh IEEE/ACM/IFIP International Conference 
+ on Hardware/Software Codesign and System Synthesis, CODES 2016, 
+ Pittsburgh, Pennsylvania, USA, October 1-7, 2016, pp. 27:1–27:10, 2016.Links | BibTeX@inproceedings{DBLP:conf/codes/DonyanavardMSD16,
+title = {SPARTA: runtime task allocation for energy efficient heterogeneous  many-cores},
+author = {Bryan Donyanavard and Tiago Mück and Santanu Sarma and Nikil D Dutt},
+url = {http://doi.acm.org/10.1145/2968456.2968459},
+doi = {10.1145/2968456.2968459},
+year  = {2016},
+date = {2016-01-01},
+booktitle = {Proceedings of the Eleventh IEEE/ACM/IFIP International Conference 
+ on Hardware/Software Codesign and System Synthesis, CODES 2016, 
+ Pittsburgh, Pennsylvania, USA, October 1-7, 2016},
+pages = {27:1--27:10},
+crossref = {DBLP:conf/codes/2016},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.acm.org/10.1145/2968456.2968459doi:10.1145/2968456.2968459Close Dutt, Nikil D;  Kurdahi, Fadi J;  Ernst, Rolf;  Herkersdorf, AndreasConquering MPSoC complexity with principles of a self-aware information 
+ processing factory Inproceedings Proceedings of the Eleventh IEEE/ACM/IFIP International Conference 
+ on Hardware/Software Codesign and System Synthesis, CODES 2016, 
+ Pittsburgh, Pennsylvania, USA, October 1-7, 2016, pp. 37:1–37:4, 2016.Links | BibTeX@inproceedings{DBLP:conf/codes/DuttKEH16,
+title = {Conquering MPSoC complexity with principles of a self-aware information 
+ processing factory},
+author = {Nikil D Dutt and Fadi J Kurdahi and Rolf Ernst and Andreas Herkersdorf},
+url = {http://doi.acm.org/10.1145/2968456.2973275},
+doi = {10.1145/2968456.2973275},
+year  = {2016},
+date = {2016-01-01},
+booktitle = {Proceedings of the Eleventh IEEE/ACM/IFIP International Conference 
+ on Hardware/Software Codesign and System Synthesis, CODES 2016, 
+ Pittsburgh, Pennsylvania, USA, October 1-7, 2016},
+pages = {37:1--37:4},
+crossref = {DBLP:conf/codes/2016},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.acm.org/10.1145/2968456.2973275doi:10.1145/2968456.2973275Close Tajik, Hossein;  Donyanavard, Bryan;  Dutt, Nikil DOn Detecting and Using Memory Phases in Multimedia Systems Inproceedings Proceedings of the 14th ACM/IEEE Symposium on Embedded Systems for 
+ Real-Time Multimedia, ESTIMedia 2016, Pittsburgh, PA, USA, October 
+ 6-7, 2016, pp. 57–66, 2016.Links | BibTeX@inproceedings{DBLP:conf/estimedia/TajikDD16,
+title = {On Detecting and Using Memory Phases in Multimedia Systems},
+author = {Hossein Tajik and Bryan Donyanavard and Nikil D Dutt},
+url = {http://dl.acm.org/citation.cfm?id=2993566},
+year  = {2016},
+date = {2016-01-01},
+booktitle = {Proceedings of the 14th ACM/IEEE Symposium on Embedded Systems for 
+ Real-Time Multimedia, ESTIMedia 2016, Pittsburgh, PA, USA, October 
+ 6-7, 2016},
+pages = {57--66},
+crossref = {DBLP:conf/estimedia/2016},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://dl.acm.org/citation.cfm?id=2993566Close Kanduri, Anil;  Haghbayan, Mohammad Hashem;  Rahmani, Amir-Mohammad;  Liljeberg, Pasi;  Jantsch, Axel;  Dutt, Nikil D;  Tenhunen, HannuApproximation knob: power capping meets energy efficiency Inproceedings Proceedings of the 35th International Conference on Computer-Aided 
+ Design, ICCAD 2016, Austin, TX, USA, November 7-10, 2016, pp. 122, 2016.Links | BibTeX@inproceedings{DBLP:conf/iccad/KanduriHRLJDT16,
+title = {Approximation knob: power capping meets energy efficiency},
+author = {Anil Kanduri and Mohammad Hashem Haghbayan and Amir-Mohammad Rahmani and Pasi Liljeberg and Axel Jantsch and Nikil D Dutt and Hannu Tenhunen},
+url = {http://doi.acm.org/10.1145/2966986.2967002},
+doi = {10.1145/2966986.2967002},
+year  = {2016},
+date = {2016-01-01},
+booktitle = {Proceedings of the 35th International Conference on Computer-Aided 
+ Design, ICCAD 2016, Austin, TX, USA, November 7-10, 2016},
+pages = {122},
+crossref = {DBLP:conf/iccad/2016},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.acm.org/10.1145/2966986.2967002doi:10.1145/2966986.2967002Close Park, Jurn-Gyu;  Dutt, Nikil D;  Kim, Hoyeonjiki;  Lim, Sung-SooHiCAP: Hierarchical FSM-based Dynamic Integrated CPU-GPU Frequency 
+ Capping Governor for Energy-Efficient Mobile Gaming Inproceedings Proceedings of the 2016 International Symposium on Low Power Electronics 
+ and Design, ISLPED 2016, San Francisco Airport, CA, USA, August 
+ 08 - 10, 2016, pp. 218–223, 2016.Links | BibTeX@inproceedings{DBLP:conf/islped/ParkDKL16,
+title = {HiCAP: Hierarchical FSM-based Dynamic Integrated CPU-GPU Frequency 
+ Capping Governor for Energy-Efficient Mobile Gaming},
+author = {Jurn-Gyu Park and Nikil D Dutt and Hoyeonjiki Kim and Sung-Soo Lim},
+url = {http://doi.acm.org/10.1145/2934583.2934588},
+doi = {10.1145/2934583.2934588},
+year  = {2016},
+date = {2016-01-01},
+booktitle = {Proceedings of the 2016 International Symposium on Low Power Electronics 
+ and Design, ISLPED 2016, San Francisco Airport, CA, USA, August 
+ 08 - 10, 2016},
+pages = {218--223},
+crossref = {DBLP:conf/islped/2016},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.acm.org/10.1145/2934583.2934588doi:10.1145/2934583.2934588Close Moazzemi, Kasra;  Hsieh, Chen-Ying;  Dutt, Nikil DHAMEX: heterogeneous architecture and memory exploration framework Inproceedings 2016 International Symposium on Rapid System Prototyping, RSP 2016, 
+ Pittsburg, PA, USA, October 6-7, 2016, pp. 100–106, 2016.Links | BibTeX@inproceedings{DBLP:conf/rsp/MoazzemiHD16,
+title = {HAMEX: heterogeneous architecture and memory exploration framework},
+author = {Kasra Moazzemi and Chen-Ying Hsieh and Nikil D Dutt},
+url = {https://doi.org/10.1145/2990299.2990316},
+doi = {10.1145/2990299.2990316},
+year  = {2016},
+date = {2016-01-01},
+booktitle = {2016 International Symposium on Rapid System Prototyping, RSP 2016, 
+ Pittsburg, PA, USA, October 6-7, 2016},
+pages = {100--106},
+crossref = {DBLP:conf/rsp/2016},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/2990299.2990316doi:10.1145/2990299.2990316Close Park, Jurn-Gyu;  Hsieh, Chen-Ying;  Dutt, Nikil D;  Lim, Sung-SooCo-Cap: energy-efficient cooperative CPU-GPU frequency capping for 
+ mobile games Inproceedings Proceedings of the 31st Annual ACM Symposium on Applied Computing, 
+ Pisa, Italy, April 4-8, 2016, pp. 1717–1723, 2016.Links | BibTeX@inproceedings{DBLP:conf/sac/ParkHDL16,
+title = {Co-Cap: energy-efficient cooperative CPU-GPU frequency capping for 
+ mobile games},
+author = {Jurn-Gyu Park and Chen-Ying Hsieh and Nikil D Dutt and Sung-Soo Lim},
+url = {http://doi.acm.org/10.1145/2851613.2851671},
+doi = {10.1145/2851613.2851671},
+year  = {2016},
+date = {2016-01-01},
+booktitle = {Proceedings of the 31st Annual ACM Symposium on Applied Computing, 
+ Pisa, Italy, April 4-8, 2016},
+pages = {1717--1723},
+crossref = {DBLP:conf/sac/2016},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.acm.org/10.1145/2851613.2851671doi:10.1145/2851613.2851671Close Dutt, Nikil D;  Taherinejad, NimaSelf-Awareness in Cyber-Physical Systems Inproceedings 29th International Conference on VLSI Design and 15th International 
+ Conference on Embedded Systems, VLSID 2016, Kolkata, India, January 
+ 4-8, 2016, pp. 5–6, 2016.Links | BibTeX@inproceedings{DBLP:conf/vlsid/DuttT16,
+title = {Self-Awareness in Cyber-Physical Systems},
+author = {Nikil D Dutt and Nima Taherinejad},
+url = {https://doi.org/10.1109/VLSID.2016.129},
+doi = {10.1109/VLSID.2016.129},
+year  = {2016},
+date = {2016-01-01},
+booktitle = {29th International Conference on VLSI Design and 15th International 
+ Conference on Embedded Systems, VLSID 2016, Kolkata, India, January 
+ 4-8, 2016},
+pages = {5--6},
+crossref = {DBLP:conf/vlsid/2016},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/VLSID.2016.129doi:10.1109/VLSID.2016.129Close
+
+2015
+
+ Halvorsen, Pål;  Dutt, Nikil D (Ed.)Proceedings of the 7th ACM International Workshop on Mobile Video, 
+ MoVid 2015, Portland, OR, USA, March 18-20, 2015 Proceeding ACM, 2015, ISBN: 978-1-4503-3353-5.Links | BibTeX@proceedings{DBLP:conf/mmsys/2015movid,
+title = {Proceedings of the 7th ACM International Workshop on Mobile Video, 
+ MoVid 2015, Portland, OR, USA, March 18-20, 2015},
+editor = {Pål Halvorsen and Nikil D Dutt},
+url = {http://dl.acm.org/citation.cfm?id=2727040},
+isbn = {978-1-4503-3353-5},
+year  = {2015},
+date = {2015-01-01},
+publisher = {ACM},
+keywords = {},
+pubstate = {published},
+tppubtype = {proceedings}
+}
+Closehttp://dl.acm.org/citation.cfm?id=2727040Close Shoushtari, Majid;  BanaiyanMofrad, Abbas;  Dutt, Nikil DExploiting Partially-Forgetful Memories for Approximate Computing Journal Article Embedded Systems Letters, 7 (1), pp. 19–22, 2015.Links | BibTeX@article{DBLP:journals/esl/ShoushtariBD15,
+title = {Exploiting Partially-Forgetful Memories for Approximate Computing},
+author = {Majid Shoushtari and Abbas BanaiyanMofrad and Nikil D Dutt},
+url = {https://doi.org/10.1109/LES.2015.2393860},
+doi = {10.1109/LES.2015.2393860},
+year  = {2015},
+date = {2015-01-01},
+journal = {Embedded Systems Letters},
+volume = {7},
+number = {1},
+pages = {19--22},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/LES.2015.2393860doi:10.1109/LES.2015.2393860Close Shin, Jun Yong;  Kurdahi, Fadi J;  Dutt, Nikil DCooperative On-Chip Temperature EstimationUsing Multiple Virtual Sensors Journal Article Embedded Systems Letters, 7 (2), pp. 37–40, 2015.Links | BibTeX@article{DBLP:journals/esl/ShinKD15,
+title = {Cooperative On-Chip Temperature EstimationUsing Multiple Virtual Sensors},
+author = {Jun Yong Shin and Fadi J Kurdahi and Nikil D Dutt},
+url = {https://doi.org/10.1109/LES.2015.2400992},
+doi = {10.1109/LES.2015.2400992},
+year  = {2015},
+date = {2015-01-01},
+journal = {Embedded Systems Letters},
+volume = {7},
+number = {2},
+pages = {37--40},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/LES.2015.2400992doi:10.1109/LES.2015.2400992Close Wanner, Lucas Francisco;  Lai, Liangzhen;  Rahimi, Abbas;  Gottscho, Mark;  Mercati, Pietro;  Huang, Chu-Hsiang;  Sala, Frederic;  Agarwal, Yuvraj;  Dolecek, Lara;  Dutt, Nikil D;  Gupta, Puneet;  Gupta, Rajesh K;  Jhala, Ranjit;  Kumar, Rakesh;  Lerner, Sorin;  Mitra, Subhasish;  Nicolau, Alexandru;  Rosing, Tajana Simunic;  Srivastava, Mani B;  Swanson, Steven;  Sylvester, Dennis;  Zhou, YuanyuanNSF expedition on variability-aware software: Recent results and 
+ contributions Journal Article it - Information Technology, 57 (3), pp. 181–198, 2015.Links | BibTeX@article{DBLP:journals/it/WannerLRGMHSADD15,
+title = {NSF expedition on variability-aware software: Recent results and 
+ contributions},
+author = {Lucas Francisco Wanner and Liangzhen Lai and Abbas Rahimi and Mark Gottscho and Pietro Mercati and Chu-Hsiang Huang and Frederic Sala and Yuvraj Agarwal and Lara Dolecek and Nikil D Dutt and Puneet Gupta and Rajesh K Gupta and Ranjit Jhala and Rakesh Kumar and Sorin Lerner and Subhasish Mitra and Alexandru Nicolau and Tajana Simunic Rosing and Mani B Srivastava and Steven Swanson and Dennis Sylvester and Yuanyuan Zhou},
+url = {https://doi.org/10.1515/itit-2014-1085},
+doi = {10.1515/itit-2014-1085},
+year  = {2015},
+date = {2015-01-01},
+journal = {it - Information Technology},
+volume = {57},
+number = {3},
+pages = {181--198},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1515/itit-2014-1085doi:10.1515/itit-2014-1085Close Krichmar, Jeffrey L;  Coussy, Philippe;  Dutt, Nikil DLarge-Scale Spiking Neural Networks using Neuromorphic Hardware Compatible 
+ Models Journal Article JETC, 11 (4), pp. 36:1–36:18, 2015.Links | BibTeX@article{DBLP:journals/jetc/KrichmarCD15,
+title = {Large-Scale Spiking Neural Networks using Neuromorphic Hardware Compatible 
+ Models},
+author = {Jeffrey L Krichmar and Philippe Coussy and Nikil D Dutt},
+url = {http://doi.acm.org/10.1145/2629509},
+doi = {10.1145/2629509},
+year  = {2015},
+date = {2015-01-01},
+journal = {JETC},
+volume = {11},
+number = {4},
+pages = {36:1--36:18},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://doi.acm.org/10.1145/2629509doi:10.1145/2629509Close Beyeler, Michael;  Oros, Nicolas;  Dutt, Nikil D;  Krichmar, Jeffrey LA GPU-accelerated cortical neural network model for visually guided 
+ robot navigation Journal Article Neural Networks, 72 , pp. 75–87, 2015.Links | BibTeX@article{DBLP:journals/nn/BeyelerODK15,
+title = {A GPU-accelerated cortical neural network model for visually guided 
+ robot navigation},
+author = {Michael Beyeler and Nicolas Oros and Nikil D Dutt and Jeffrey L Krichmar},
+url = {https://doi.org/10.1016/j.neunet.2015.09.005},
+doi = {10.1016/j.neunet.2015.09.005},
+year  = {2015},
+date = {2015-01-01},
+journal = {Neural Networks},
+volume = {72},
+pages = {75--87},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1016/j.neunet.2015.09.005doi:10.1016/j.neunet.2015.09.005Close Gottscho, Mark;  BanaiyanMofrad, Abbas;  Dutt, Nikil D;  Nicolau, Alex;  Gupta, PuneetDPCS: Dynamic Power/Capacity Scaling for SRAM Caches in the Nanoscale 
+ Era Journal Article TACO, 12 (3), pp. 27:1–27:26, 2015.Links | BibTeX@article{DBLP:journals/taco/GottschoBDNG15,
+title = {DPCS: Dynamic Power/Capacity Scaling for SRAM Caches in the Nanoscale 
+ Era},
+author = {Mark Gottscho and Abbas BanaiyanMofrad and Nikil D Dutt and Alex Nicolau and Puneet Gupta},
+url = {http://doi.acm.org/10.1145/2792982},
+doi = {10.1145/2792982},
+year  = {2015},
+date = {2015-01-01},
+journal = {TACO},
+volume = {12},
+number = {3},
+pages = {27:1--27:26},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://doi.acm.org/10.1145/2792982doi:10.1145/2792982Close Gottscho, Mark;  Bathen, Luis Angel D;  Dutt, Nikil D;  Nicolau, Alex;  Gupta, PuneetViPZonE: Hardware Power Variability-Aware Virtual Memory Management 
+ for Energy Savings Journal Article IEEE Trans. Computers, 64 (5), pp. 1483–1496, 2015.Links | BibTeX@article{DBLP:journals/tc/GottschoBDNG15,
+title = {ViPZonE: Hardware Power Variability-Aware Virtual Memory Management 
+ for Energy Savings},
+author = {Mark Gottscho and Luis Angel D Bathen and Nikil D Dutt and Alex Nicolau and Puneet Gupta},
+url = {https://doi.org/10.1109/TC.2014.2329675},
+doi = {10.1109/TC.2014.2329675},
+year  = {2015},
+date = {2015-01-01},
+journal = {IEEE Trans. Computers},
+volume = {64},
+number = {5},
+pages = {1483--1496},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/TC.2014.2329675doi:10.1109/TC.2014.2329675Close BanaiyanMofrad, Abbas;  Homayoun, Houman;  Dutt, Nikil DUsing a Flexible Fault-Tolerant Cache to Improve Reliability for Ultra 
+ Low Voltage Operation Journal Article ACM Trans. Embedded Comput. Syst., 14 (2), pp. 32:1–32:24, 2015.Links | BibTeX@article{DBLP:journals/tecs/BanaiyanMofradH15,
+title = {Using a Flexible Fault-Tolerant Cache to Improve Reliability for Ultra 
+ Low Voltage Operation},
+author = {Abbas BanaiyanMofrad and Houman Homayoun and Nikil D Dutt},
+url = {http://doi.acm.org/10.1145/2629566},
+doi = {10.1145/2629566},
+year  = {2015},
+date = {2015-01-01},
+journal = {ACM Trans. Embedded Comput. Syst.},
+volume = {14},
+number = {2},
+pages = {32:1--32:24},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://doi.acm.org/10.1145/2629566doi:10.1145/2629566Close Mück, Tiago;  Sarma, Santanu;  Dutt, Nikil DRun-DMC: Runtime dynamic heterogeneous multicore performance and power 
+ estimation for energy efficiency Inproceedings 2015 International Conference on Hardware/Software Codesign and System 
+ Synthesis, CODES+ISSS 2015, Amsterdam, Netherlands, October 4-9, 
+ 2015, pp. 173–182, 2015.Links | BibTeX@inproceedings{DBLP:conf/codes/MuckSD15,
+title = {Run-DMC: Runtime dynamic heterogeneous multicore performance and power 
+ estimation for energy efficiency},
+author = {Tiago Mück and Santanu Sarma and Nikil D Dutt},
+url = {https://doi.org/10.1109/CODESISSS.2015.7331380},
+doi = {10.1109/CODESISSS.2015.7331380},
+year  = {2015},
+date = {2015-01-01},
+booktitle = {2015 International Conference on Hardware/Software Codesign and System 
+ Synthesis, CODES+ISSS 2015, Amsterdam, Netherlands, October 4-9, 
+ 2015},
+pages = {173--182},
+crossref = {DBLP:conf/codes/2015},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/CODESISSS.2015.7331380doi:10.1109/CODESISSS.2015.7331380Close Balaji, Bharathan;  Faruque, Mohammad Abdullah Al;  Dutt, Nikil D;  Gupta, Rajesh K;  Agarwal, YuvrajModels, abstractions, and architectures: the missing links in cyber-physical 
+ systems Inproceedings Proceedings of the 52nd Annual Design Automation Conference, San Francisco, 
+ CA, USA, June 7-11, 2015, pp. 82:1–82:6, 2015.Links | BibTeX@inproceedings{DBLP:conf/dac/BalajiFDGA15,
+title = {Models, abstractions, and architectures: the missing links in cyber-physical 
+ systems},
+author = {Bharathan Balaji and Mohammad Abdullah Al Faruque and Nikil D Dutt and Rajesh K Gupta and Yuvraj Agarwal},
+url = {http://doi.acm.org/10.1145/2744769.2747936},
+doi = {10.1145/2744769.2747936},
+year  = {2015},
+date = {2015-01-01},
+booktitle = {Proceedings of the 52nd Annual Design Automation Conference, San Francisco, 
+ CA, USA, June 7-11, 2015},
+pages = {82:1--82:6},
+crossref = {DBLP:conf/dac/2015},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.acm.org/10.1145/2744769.2747936doi:10.1145/2744769.2747936Close Sarma, Santanu;  Mück, Tiago;  Bathen, Luis Angel D;  Dutt, Nikil D;  Nicolau, AlexandruSmartBalance: a sensing-driven linux load balancer for energy efficiency 
+ of heterogeneous MPSoCs Inproceedings Proceedings of the 52nd Annual Design Automation Conference, San Francisco, 
+ CA, USA, June 7-11, 2015, pp. 109:1–109:6, 2015.Links | BibTeX@inproceedings{DBLP:conf/dac/SarmaMBDN15,
+title = {SmartBalance: a sensing-driven linux load balancer for energy efficiency 
+ of heterogeneous MPSoCs},
+author = {Santanu Sarma and Tiago Mück and Luis Angel D Bathen and Nikil D Dutt and Alexandru Nicolau},
+url = {http://doi.acm.org/10.1145/2744769.2744911},
+doi = {10.1145/2744769.2744911},
+year  = {2015},
+date = {2015-01-01},
+booktitle = {Proceedings of the 52nd Annual Design Automation Conference, San Francisco, 
+ CA, USA, June 7-11, 2015},
+pages = {109:1--109:6},
+crossref = {DBLP:conf/dac/2015},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.acm.org/10.1145/2744769.2744911doi:10.1145/2744769.2744911Close Sarma, Santanu;  Dutt, Nikil D;  Gupta, Puneet;  Venkatasubramanian, Nalini;  Nicolau, AlexandruCyberphysical-system-on-chip (CPSoC): a self-aware MPSoC paradigm 
+ with cross-layer virtual sensing and actuation Inproceedings Proceedings of the 2015 Design, Automation & Test in Europe Conference 
+ & Exhibition, DATE 2015, Grenoble, France, March 9-13, 2015, pp. 625–628, 2015.Links | BibTeX@inproceedings{DBLP:conf/date/SarmaDGVN15,
+title = {Cyberphysical-system-on-chip (CPSoC): a self-aware MPSoC paradigm 
+ with cross-layer virtual sensing and actuation},
+author = {Santanu Sarma and Nikil D Dutt and Puneet Gupta and Nalini Venkatasubramanian and Alexandru Nicolau},
+url = {http://dl.acm.org/citation.cfm?id=2755895},
+year  = {2015},
+date = {2015-01-01},
+booktitle = {Proceedings of the 2015 Design, Automation & Test in Europe Conference 
+ & Exhibition, DATE 2015, Grenoble, France, March 9-13, 2015},
+pages = {625--628},
+crossref = {DBLP:conf/date/2015},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://dl.acm.org/citation.cfm?id=2755895Close550 entries « ‹  3 of 11 › » 
+
+
+
+
+
+
+
+
+
+
+Find Us Address
+3069 Donald Bren Hall
+University of California, Irvine
+Irvine, CA 92697-3435, USA
+Email
+drg@ics.uci.edu
+
+ 
+
+
+
+
+
+
+
+
+
+					Copyright © 2022 Dutt Research Group.				
+
+					Powered by WordPress and HitMag.				
+
+
+
+
+
+
+
+
+
+
+
+
+

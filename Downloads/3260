@@ -1,0 +1,188 @@
+https://ngs.ics.uci.edu/mir-1-data-sets
+
+
+
+
+
+
+
+
+MIR 1: Data Sets – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				MIR 1: Data Sets    			
+
+
+I have been thinking a bit about multimedia information retrieval.  So there maybe a few posts related to this topic.
+I will start by saying that it has been nice to see that there is a nice data set that is collected and could be used for testing and evalyation purposes.  This data set is available from http://cophir.isti.cnr.it/  .  They claim to have collected 100 Million images from Flickr in this collection.  The following is the abstract of the white paper on this site — giving idea about the collection:
+
+As the number of digital images is growing fast and Content-based
+Image Retrieval (CBIR) is gaining in popularity, CBIR systems should
+leap towards Web-scale datasets. In this paper, we report on our experience
+in building a test collection of more than 50 million images, with
+the corresponding descriptive features, to be used in experimenting new
+techniques for similarity searching. Since no collection of this scale was
+available for research purpose, we had to tackle the non-trivial process of
+image crawling and descriptive feature extraction (we used five MPEG-7
+features) using the European EGEE computer GRID. The result of this
+effort is a test collection, the first of such scale, that will be opened to the
+research community for experiments and comparisons.
+
+
+
+
+By Ramesh |
+    				August 3, 2008 |
+    				             		Experiential Computing |
+             	 
+    				             		1 Comment |
+             	 		          				
+    			
+
+
+← Hypelinking Videos — Google getting into it
+TinEye — An Image Search Engine →
+
+
+
+			One thought on “MIR 1: Data Sets”		
+
+
+Pingback: MIR 1: Data Sets 
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

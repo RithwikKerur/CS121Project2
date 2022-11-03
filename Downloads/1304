@@ -1,0 +1,155 @@
+http://www.ics.uci.edu/~jacobson/ics23/SettingUpJava.html
+
+
+
+
+
+ICS 23 Spring 2012
+
+
+
+
+
+ICS 23 Spring 2012
+Setting Up Java and Eclipse On Your Computer
+
+
+A word of warning
+One of the advantages of programming in Java is that it's possible to set up your own computer as a Java development environment easily and cheaply.  On the other hand, working in the Help Center has some genuine benefits, particularly for those of you who are new to ICS.  In the lab, you'll find that help is more readily available when you get stuck, that your machine setup will generally be stable and designed well for the task of working on your assignments, you're free from the distractions of your home and, importantly, your development environment will be the same as the production environment, so you won't have to worry about whether what you wrote "at home" will work "in the lab."
+Do remember: "To be fair, and to be sure we can check your running program, to obtain full credit for an assignment your work must compile and run correctly under Sun's Java Standard Edition SDK version 7 in the Eclipse environment on the ICS Lab network. In particular, it is irrelevant whether your program runs perfectly on some other system: if it does not run on the ICS Lab network in Eclipse, using Java 7, you will not receive full (and may not receive any) credit for it." [ICS23 Spring 2012 Lab Manual]
+Nevertheless, we're aware that many of you, either out of want or need, will choose to do some percentage of your work on your own machines, so, as a courtesy, we provide below enough information to have your Windows-based or Macintosh computer support Java and the Eclipse development environment, using freely available software. (You are free to use any development environment you like, but, as noted above, your resulting programs must work in the "production environment" for this course.
+Even though the assignments can be written using only the features provided in Java 1.6, the first two labs must be run in the Java 1.7 run time environment (JRE) because, for those assignments, we provide you class files that were compiled under Java 1.7. If you try to run these files in another version of Java, you will likely get a runtime exception saying that a class file does not exist or was not "defined" -- even though it does exist -- or an UnsupportedClassVersionError exception. If this occurs, you will have to install and set up Java 1.7 on your machine, or move to a machine that has 1.7 installed, or (a particularly good option for Mac users) install an O/S emulator (e.g,, VM Fusion) on your computer, then install Windows or a Unix O/S via that emulator, and then install Java 1.7.
+
+
+
+What's in this document?
+Before you get started, be aware that this document only describes how to set up Java and Eclipse on a computer running Windows or Mac OS X, and it applies to installing SE7 on Windows, the version of Java we use in the labs, and SE6 on the Mac (SE 7 for the Mac from Apple is not yet out of "pre production"; if you want to install 1.7 on your Mac, there is a version from the OpenJDK group, available at http://code.google.com/p/openjdk-osx-build/. The version you want is at http://code.google.com/p/openjdk-osx-build/downloads/detail?name=OpenJDK-OSX-1.7-universal-jdk-b222-20111220.dmg.
+If you use Linux or Solaris, JDK 7 Update 3 can be downloaded from Java SE Downloads, the same way it can for Windows; we do not discuss the details of installation here as there is ample documentation available on the web.
+To install Java and Eclipse on Windows or on Mac OS X, see the applicable section below.
+
+
+
+Setting up Java on Windows
+Getting started
+What you'll need to get started is a Java compiler and Java virtual machine, both of which support Java 7.  A great option is to download the Java SE 7 JDK (JDK 7) from Java SE Downloads, the latest version of which, as of this writing, is JDK 7 Update 3.  Just click on the  JDK Download  button in the Java SE 7 Update 3 section of the screen, accept the license agreement and then choose the version of Java that matches your operating system and save the downloaded exe file. For those using Windows 7 and earlier, related OS, such as Windows Vista, 2000, and XP, choose the download for Windows x86 systems.)
+  Be sure you download the JDK and not the JRE!  The JDK includes a Java compiler (javac), a Java virtual machine (java), and all of the standard Java library components — in other words, everything you need to write Java programs in a wide variety of problem domains, and more than enough firepower for the assignments we'll be giving you.  (The JRE is the Java Runtime Environment, which includes the necessary code to allow you to run Java programs, but not to write and compile them!)
+Installation: the easy part
+The JDK includes an installation program, which places all of the files into the appropriate places and sets up some desktop shortcuts for you: Double-click on the exe file you downloaded; if asked, say "yes" to allowing the program to modify your computer, and then follow the instructions on the installation screens (it's typically best to just accept the default settings).  
+
+Once Java is installed, the installation program may bring up a screen for you to install JavaFX. We do not use Java FX in this course, so fell free to cancel that (part of the) installation.
+When installation completes, you'll be taken to a web page to register your installation; registration is optional.
+After running the installation program, you still won't be able to execute javac or java without making a couple of modifications "under the hood" of your system.
+The (not all that) hard part: PATH and CLASSPATH
+You can execute programs from a command prompt by simply typing their names, such as javac or java.  But there's a catch: Windows has to know where it can find these programs.  This is the job of the PATH environment variable.  Whenever you try to execute a program, Windows will look for it in the list of folders in the PATH. Each folder in the PATH list is separated from the next by a semicolon; forgetting or misplacing semicolons is a major cause of the PATH not finding javac or java.
+Similarly, whenever the Java compiler or Java virtual machine need to be able to use a Java class (such as when you import a class from the Java library), the compiler or virtual machine needs to be able to know where to find it.  This is the job of the CLASSPATH environment variable.  CLASSPATH is a list of folders, separated by semicolons, in which the Java compiler or virtual machine will look for a Java class whenever it's trying to find one. Forgetting or misplacing semicolons is a major cause of the CLASSPATH not finding clases your program needs
+So, to make the JDK work, you have to modify the PATH and CLASSPATH environment variables on your system, so that Windows will be able to find javac and java, and so that javac and java will be able to find all of the necessary Java classes.
+How you get to these environment variables is slightly different on different versions of Windows.
+On Windows 7 and Vista, click the start orb in the lower-left corner of the screen, move your mouse over Computer, right-click, and select Properties from the pop-up menu.  Click the Advanced System Settings link, then click the Environment Variables... button.
+On Windows XP and 2000, right-click the My Computer icon on your desktop and select Properties.  Select the Advanced tab.  Click the Environment Variables... button.
+Once you've brought up the environment variables, find the PATH variable listed under "System variables" and add this to the end of it:
+
+;C:Program Files\Java\jdk1.7.0_03\bin
+
+Then find the CLASSPATH variable.  If it doesn't exist (and it probably won't, if you've never used your system to develop Java code), click the New... button, specifying CLASSPATH as its name, and the following value:
+
+.;C:Program Files\Java\jdk1.7.0_03\lib
+
+If you're using javac and java from the command line, you will need to bring up a new Command Prompt window, in order for these changes to take effect.
+That's it!
+At this point, your Java installation is ready to go; you're now ready to proceed to installing Eclipse.
+
+
+
+Setting up Eclipse on Windows
+Downloading Eclipse
+There are several different distirbutions of Eclipse available for download at eclipse.org, each geared toward users with different kinds of needs: Java programming, web development, and so on.  So the first thing to know is which distribution to download.  For our work in this course, we expect you to be using Eclipse Classic 3.7.2.  Start by downloading this: click on the big Download Eclipse button, then find  Eclipse Classic 3.7.2. If you are using Windows 7 or an earlier, related OS such as Vista, 2000, or XP, click the Windows 32 Bit button. Then click on a download site and save the downloaded ZIP file to your computer.
+Installing Eclipse
+Eclipse is distributed as files in a Zip archive and, unlike most software you install on Windows, has no installation program.  Instead, you'll need to do a few things on your own in order to get it installed.
+
+Find the .zip file that you downloaded.  Extract it to C:\eclipse, or somewhere else you feel comfortable putting it.  (On Windows 7, you can extract by opening the ZIP folder and draging the enclosed Eclipse folder to where you want to store eclipse. The extraction process is likely to take a while — several minutes or more is not uncommon.
+Once you've extracted Eclipse into a folder, go into that folder using Windows Explorer.  Find the file eclipse.exe — it may show up as eclipse if you have Windows Explorer configured to hide file extension, but you can recognize it because its icon will be the circular purple logo you see at eclipse.org.
+
+From here, your next step depends on which version of Windows you're running.
+On Windows 7.  Double-click on eclipse.exe to start Eclipse.  When asked for a workspace, use the default for now.  Once the program starts, you'll see the Eclipse icon show up on your taskbar.  Right-click that icon and select Pin this program to taskbar, so that you'll be able to run Eclipse any time you'd like.
+On Windows 2000, XP, and Vista.  Right-click on the eclipse.exe file you found, select Create Shortcut to create a shortcut to allow you to run Eclipse.  Drag this shortcut to your desktop or Quick Launch bar.  You can then use this shortcut to open Eclipse any time you'd like.
+That's it!  Eclipse is installed and ready to go.
+
+
+
+Setting up Java on Mac OS X
+Getting started
+First, we assume that you're running at least version 10.5 of Mac OS X on a 64-bit Mac.  (On Mac OS X, you can find your version number by selecting About This Mac under the apple menu.)
+If you're running an earlier version of Mac OS X or are running 10.5 on a 32-bit Mac, there may still be hope available at this link, though you'll need to be comfortable with the Terminal application and getting around your Mac.  Note that, if you go this route, you won't need to set up Java FX or NetBeans.
+If you're running MacOS 9 (or older version of the Mac OS), it's time to upgrade — probably to a new machine.
+Mac OS X 10.5 and 10.6 can be updated to the most recent version of Java through the regular Software Updates feature of Mac OS X , or by installing the latest Java update for OS X 10.5 or for OS X 10.6, whichever is appropriate.
+Mac OS X 10.7 ("Lion") does not come with Java installed; you can install it by following the instructions on the  Java for OS X Lion page.
+
+Checking if you have the latest version installed and selected as default
+The first thing you should do is to check if you have the latest version of Java installed.  To do so, first open a new Terminal window (by command-N or choosing New Shell on the File menu); then type the following command:
+
+    java -version
+
+If you have the latest version of Java installed, you should see something like the following:
+
+    java version "1.6.0_22"
+	Java(TM) SE Runtime Environment (build 1.6.0_22-b04-307-9M3263)
+	Java HotSpot(TM) 64-Bit Server VM (build 17.1-b03-307, mixed mode)
+
+If you see that the version number starts with "1.6," you're in business!  Your machine is ready to go.
+If you see a version number that starts with something other than "1.6" (like "1.5" or "1.4"), you'll need to continue following these instructions.
+Checking what version of Java is the default on your machine
+Mac OS X is perfectly happy to let different versions of Java coexist on your machine; installing a newer version of Java doesn't remove any earlier versions and doesn't even make the newer version the default Java on your machine.  So, the next step is to see if the latest Java is installed but is not the default.
+Launch Applications, then select Utilities, then Java, then Java Preferences.  Click on the General tab, if it's not already selected.  In the Java Application Runtime Settings box, see if Java SE 6 (64 bit) is in the list; if so, drag it to the top of the list, making sure that it is the first item.  Close the dialog box.
+If Java SE 6 (64 bit) is not in the list at all, you'll need to download and install the latest version of Java for your OS, then make it the default version (if it is not already) as discussed above.
+What else you'll need to know
+If you're used to the Mac environment and not used to Unix or other command-line processing systems, you'll want to learn at least a little Unix so you can find your way around.
+
+
+
+Setting up Eclipse on Mac OS X
+Determining which version of Eclipse is right for you
+There are two separate downloads of Eclipse Classic 3.7.2 for Mac OS X on the main download page, Mac OS X 32 Bit and Mac OX X 64 Bit.  All modern Macs are 64 bit machines; you only need the 32-bit version of Eclipse if your machine is on the order of ten or more years old. 
+If you are unsure which version to use, download the 64-bit version and try it. If it fails to work, then delete it and download the 32-bit version.
+
+Installing Eclipse on Mac OS X
+To install Eclipse Classic 3.7.2:
+
+Go to http://www.eclipse.org/downloads/.
+Under the last entry, Eclipse Classic 3.7.2, click on Mac OS X 64-Bit or Mac OS X 32-Bit, whichever is appropriate for your Mac.
+Click on the main or a mirror download site.  Choose Save File in the dialog box that appears and click OK.
+The file will download — this may take a few minutes.
+Double-click on the resulting .gz file to unzip and untar it.  The result will be a folder called "eclipse".  This, too, can take a few to several minutes.
+Open the "eclipse" folder and double-click on the Eclipse icon (not the "eclipse" — note lower-case — shortcut).  On first launch, a dialog box might appear asking if you're sure you want to launch; say yes.  After a minute or two, a dialog will ask you to select a workspace, at which time you'll be ready to use Eclipse!
+
+
+
+
+
+Updated to specifically discuss what to do if computer being used does not have Java 1.7,  to remind reader that programs must work in the 
+	production environment, and say where to find OpenJDK 17 for the Mac, by Norman Jacobson, April 2012.
+	Updated to reflect new versions of software and fix minor typos, by Norman Jacobson, March 2012.
+	Updated to reflect new versions of software and changes to web sites, by Norman Jacobson, January 2012.
+	Updated to reflect new versions of software and changes to web sites, and to place the emphasis on Windows 7, the version of Windows now
+	used in the Help Center, by Norman Jacobson, June and September 2011.
+	Added direct inks to Java downloads for  OS X 10.5 and 10.6, by Norman Jacobson, January 2011.
+	Updated to reflect new versions of software and new web addresses; slight changes to section on Linux and Solaris, by Norman Jacobson, December 2010.
+  	Added instructions for installing Eclipse on Mac OS X, thanks to Norm Jacobson, Winter 2010.
+Instructions for modifying environment variables using Windows Vista and Windows 7 added by Alex Thornton, Fall 2009.
+Link to Soy Latte version of JDK 6 for older Macs added by Alex Thornton (with a tip of the hat to Norm Jacobson and one 
+	of his students from last quarter), Winter 2009.
+The Mac OS X section rewritten to describe a simpler installation procedure (with thanks to Norm Jacobson for the information) 
+	by Alex Thornton, Fall 2008.
+The Mac OS X section reworked, to describe Java 6 availability on Mac, by Alex Thornton, Spring 2008.
+Tightened up a bit — removing documentation regarding ancient versions of Windows, updating version numbers — 
+	by Alex Thornton, Winter 2008.
+A few minor changes by Alex Thornton, Winter 2007.
+Restructured by Alex Thornton to include information about setting up Java on Mac OS X, mostly written by David G. Kay, Winter 2006.
+Brief information about Mac OS X and Linux added by Alex Thornton, Fall 2005.
+A few minor changes by Alex Thornton, Winter 2005.
+Several changes made (in light of the release of J2SE 5.0) by Alex Thornton, Fall 2004.
+A few minor changes by Alex Thornton, Fall 2002.
+Originally written by Alex Thornton for ICS 21 and ICS 22, Summer 2002.
+
+
+
+

@@ -1,0 +1,182 @@
+https://sli.ics.uci.edu/PmWiki/WikiGroups
+
+
+
+SLI | PmWiki / WikiGroup 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+WikiGroup
+
+
+(redirected from PmWiki.WikiGroups)
+
+
+
+< Wiki structure | Documentation Index | Group headers >
+
+authors (basic) 
+
+PmWiki pages are organized into groups of related pages.  This feature was added to PmWiki to allow authors to create their own wiki spaces of specialized content on their own, without having to become, or rely on, wiki administrators.  See Pm's post to the pmwiki-users mailing list.
+
+By default, page links are between pages of the same group; to create a link to a page in another group, add the name of the other group and a dot or slash to the page name.  For example, links to Main/WikiSandbox could be written as:
+
+
+* [[Main.WikiSandbox]]
+* [[Main/WikiSandbox]]
+* [[(Main.Wiki)Sandbox]]
+* [[Main.WikiSandbox | link text]]
+* [[Main.WikiSandbox | +]]
+Main.WikiSandbox
+WikiSandbox
+Sandbox
+link text
+WikiSandbox
+
+
+To link to the default home page of a group, the name of the page can be omitted, like this:
+
+
+* [[Main.]]
+* [[Main/]]
+Main.
+Main
+
+
+Creating groups
+Creating a new group is as easy as creating new pages; simply edit an existing page to include a link to the new group's default home page  (or any page in the new group) then click on the '?' to edit the page. As a rule, group names must start with a letter (but this can be changed by the wiki administrator by adding 
+$GroupPattern = '[[:upper:]\\d][\\w]*(?:-\\w+)*';
+in config.php).
+
+For example, to make a default page in the group Foo, create a link to [[Foo/]] (or [[Foo.]]).  
+To make a page called Bar in the group Foo, create a link to [[Foo/Bar]] and follow the link to edit that page.
+
+Groups in a standard PmWiki distribution
+Main: The default group. On many wikis, it contains most of the author-contributed content. Main.HomePage and Main.WikiSandbox come pre-installed.
+PmWiki: An edit-protected group that contains PmWiki documentation and help pages.
+Site: Holds a variety of utility and configuration pages used by PmWiki, including SideBar, Search, Preferences, Templates, and AllRecentChanges.
+SiteAdmin: Holds a number of password protected administration and configuration pages used by PmWiki, including  ApprovedUrls, and Blocklist
+To list all the groups in a site, try searching for "fmt=group".
+To list all the pages in a group, try searching for "GroupName/".
+
+Special Pages in a Group
+By default, the Recent Changes? page of each group shows only the pages that have changed within that group; the Site.All Recent Changes page shows all pages that have changed in all groups.
+
+Each group can also have Group Header or Group Footer pages that contain text to be automatically prepended or appended to every page in the group.  A group can also have a Group Attributes page that defines attributes (read and edit passwords) shared by all pages within the group.  
+
+Each page can also have its own individual read/edit password that overrides the group passwords (see Passwords).
+
+Finally, wiki administrators can set local customizations on a per-group basis--see Group Customizations.
+
+
+Group's default page
+The default "start page" for a group is a page whose name can be: 
+the same as the group (Foo/Foo)
+HomePage (Foo/HomePage)
+a name that the administrator has assigned to the {$DefaultName} variable in the configuration ([farm]config.php) file.  
+Note, on this site, the value of {$DefaultName} is HomePage and, thus, the default home page would be Foo/HomePage.   
+
+You can usefully change the default search order for an entered page name by setting the variable $PagePathFmt  in config.php, eg
+ $PagePathFmt = array('$Group.$1', '$1.$DefaultName', '$1.$1', '$DefaultGroup.$1', 'Profiles.$1'); 
+where "$1" is the name of the page entered. 
+
+If you are setting $DefaultName in order to make a start page for your groups, you will need to also define $PagePathFmt (see above) to get consistent use of this functionality. The simplest setting would be this:
+ $PagePathFmt = array('$Group.$1', '$1.$DefaultName'); 
+Note that the order of the definitions of these variables ($DefaultName and $PagePathFmt) is important - it must occur before any call to ResolvePageName() and it (therefore) it cannot occur in a per-page or per-group customization script.
+
+As noted above, when linking to the default home page, authors can omit the page name and simply identify the group followed by a  forward slash ([[Foo/]]).
+
+Note the forward slash is required to ensure that the link unambiguously points to the identified group.  
+If the slash is omitted, the link can end up being interpreted as pointing to an existing (or new) page in the current group (if the group, or its default home page, do not exist).  
+
+Subgroups? Subpages?
+No, PmWiki does not have subpages.  Pm's reasons for not having subgroups are described at PmWiki:Hierarchical Groups, but it comes down to not having a good page linking syntax.  If you create a link or pagename like [[A.B.C]] PmWiki doesn't think of "B.C" as being in group "A", it instead thinks of "C" as being in group "AB", which is a separate group from "A".  Wiki administrators can look at Cookbook:Subgroup Markup and Cookbook:Include With Edit for recipes that may be of some help with developing subgroups or subpages.
+
+Restricting the creation of new groups
+You can set PmWiki's $GroupPattern variable to only accept the group names you want to define. For example, to limit pages to the "PmWiki", "Main", "Profiles", and "Example" groups, add the following to local/config.php:
+
+$GroupPattern = '(?:Site|SiteAdmin|PmWiki|Main|Profiles|Example)';
+With this setting, only the listed groups will be considered valid WikiGroups. You can add more groups to the list by placing additional group names separated by pipes (|).
+
+See other solutions to this at Cookbook:Limit Wiki Groups and Cookbook:New Group Warning.
+
+ 
+ How can I get rid of the 'Main' group in urls for pages pointing to Main?
+ See Cookbook:Get Rid Of Main.
+
+ How can I limit the creation of new groups?
+ See Cookbook:Limit Wiki Groups.
+
+ Why doesn't [[St. Giles and St. James]] work as a link?  (It doesn't display anything.)
+ Because it contains periods, and destroys PmWiki's file structure, which saves pages as Group.PageName. Adding those periods disrupts this format. Links may only contain words. If you need a link precisely as shown, the page must be named eg StGilesAndStJames then you can use the (:title:) directive to have the page's title appear with periods (:title St. Giles and St. James:). (Although in US grammar the period is often omitted and in UK grammar the period must be omitted for contractions like St).
+
+ How can I delete a wiki group?
+ Normally you can't, as this requires an admin with server-side access to delete the file that makes up the group's RecentChanges page.  But there is an option method of making it possible to delete RecentChanges pages from within the wiki if the admin enables the code found on Cookbook:RecentChanges Deletion.
+
+ How can I delete a wiki group's Group.RecentChanges page?
+ Normally you can't, as this requires an admin with server-side access to delete a file.  But there is an optional method of making it possible to delete RecentChanges pages from within the wiki if the admin enables the code found on Cookbook:RecentChanges Deletion.
+
+ Can I delete a wiki group inside wiki.d folder on the server to eliminate the group?
+ Yes, if you delete all files named YourGroup.*, the pages from that group will be removed from the wiki. Note that the documentation (group PmWiki) and the site configuration (groups Site and SiteAdmin) that exist in the default installation, are located in wikilib.d and not in wiki.d, and some recipes provide files located in a wikilib.d subdirectory in the cookbook directory. (You shouldn't delete the groups Site and SiteAdmin, required for normal function.)
+
+ How can I list all pages in a WikiGroup?
+ In a wiki page use (:pagelist group=GroupName list=all:) or in a search box type GroupName/ list=all.
+ 
+
+< Wiki structure | Documentation Index | Group headers >
+
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:WikiGroup, and  a talk page: PmWiki:WikiGroup-Talk.
+
+
+
+
+
+
+ Last modified November 23, 2015, at 10:39 AM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

@@ -1,0 +1,193 @@
+https://cbcl.ics.uci.edu/doku.php/teaching/cs295w11/start
+
+
+
+
+
+    teaching:cs295w11:start – Machine Learning and Bioinformatics Lab  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Machine Learning and Bioinformatics Lab Search
+
+
+
+				⚙
+			
+
+Show pagesourceOld revisionsBacklinks 
+
+
+
+			⚒
+		
+Recent ChangesSitemapLog In
+
+
+
+
+
+
+
+
+CBCL Lab @ UCI
+Publications
+Software
+Data
+People
+Teaching
+Contact
+Internal Projects
+
+
+
+Convex Optimization
+
+
+Course information
+
+
+ Instructor: Xiaohui Xie
+
+ Meeting information: TT 3:30-4:50pm    Room: ICS 180
+
+ Office hours: TT after class
+
+
+
+Prerequisites
+
+
+ multivariate calculus and linear algebra
+
+
+
+Course Description
+
+
+This course will focus on formulating and solving convex optimization problems arising in engineering and science. Topics include: convex analysis, linear and quadratic programming, semidefinite programming, optimality conditions, duality theory, interior-point methods, subgradient methods, convex relaxation.
+
+
+Textbook
+
+
+ Convex Optimization by Stephen Boyd and Lieven Vandenberghe, available online
+
+ Convex Analysis Rockafellar (suppl reference)
+
+
+
+Lectures
+
+
+ Introduction
+
+ Convex Sets
+
+  Convex Functions
+
+  Optimization Problems
+
+  Optimality Conditions
+
+  Duality
+
+  Unconstrained minimization
+
+  Equality constrained minimization
+
+  Interior-point methods
+
+  Introduction to Semidefinite Programming (SDP)
+
+  SDP
+
+
+
+Modeling and application
+
+
+  Stochastic subgradient methods
+
+  more details
+
+
+
+ Multitask feature learning
+
+  More details
+
+
+
+  Beamforming Optimization of MIMO Interference Network
+
+  Color Constancy
+
+  Approximation and fitting 
+
+  Detecting genetic variation using fused Lasso
+
+  Load balancing on a heterogeneous cluster
+
+  Detecting graph isomorphism
+
+  Load balancing on a heterogeneous cluster
+
+   Modeling marketing promotion choices
+
+  Conjugate gradient method
+
+
+
+Key dates
+
+
+ Final exam: Mar 15, 4:00-6:00pm  (Bring one examination blue book!) 
+
+ Final project due: Mar 18, 5pm, hard copy in Bren Hall 4058
+
+
+
+Exercise
+
+
+ Convex sets: 2.1, 2.9, 2.12, 2.15, 2.23, 2.24, 2.33  (from the textbook)
+
+ Convex functions: 3.2, 3.15, 3.16, 3.36, 3.42
+
+ Convex problems; 4.1, 4.65
+
+ Duality:  5.1, 5.13, 5.38, 5.42
+
+
+
+
+
+
+You are here: startteachingcs295w11 
+
+
+
+

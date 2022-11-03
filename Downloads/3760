@@ -1,0 +1,169 @@
+https://ngs.ics.uci.edu/objective-self-5-finally-we-may-have-objective-self
+
+
+
+
+
+
+
+
+Objective Self 5:  Finally We may have Objective Self – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Objective Self 5:  Finally We may have Objective Self    			
+
+
+As discussed above, the quantified-self movement is an important step in bringing scientific framework to understand an individual based on data collected continuously.  This is the first time in history of humanity that this has become feasible.  The early stages of scientific framework based on sustained observations of controlled as well as natural experiments are being converted to laws related to the physical, social, and spiritual systems representing an individual.  This opportunity is revolutionary on many fronts.
+Importance for an Individual in Society
+To each of us, the most important object or entity is self.  All human beings are interested in understanding self to maximize satisfaction from their life.  This satisfaction maximization requires having a better model for individual life.  Most sociological and medical knowledge in the past suffered from two major problems: availability of objective quality data for individuals, and utilization of this data for building reliable models.  The obstacles in this ranges from ability to measure data, store and analyze data, and privacy concerns of people.  Technology and cultural changes are definitely resulting in some major changes in this area.  However, obstacles like privacy issues still need to be solved.  
+Now there are sensors that people may use while going through their regular life activities.  These wearable sensors are continuously recording.  By analyzing data from these sensors, as shown in the following sections, one can determine what life activity, or event, a person is engaged in at any given time.  Some sensors can also be used to understand reactions of a person to an activity at a given time.  All these measurements from wearable sensors, GPS, social media, and any other relevant source are used to detect one of the predetermined class of life events and relevant attributes of that life event.  Since this is continuously done, effectively we get a chronicle of the person’s activities.  This is a personal chronicle; we call it personicle.  A personicle represents all activities of a person and is stored so it can be used for forming models, reminiscing, and recollections.  In this paper, we will address only the model building aspect.
+Self-correcting Loops
+We all know the importance of feedback in dynamic systems.  For implementing effective closed loop feedback systems, one has to know the model of the system being controlled and generate correcting signals with minimal latency.  In building dynamic feedback loops for individuals, two things are essential: having models of the individual and collecting current situation information.  Wearable devices, other physiological sensors, Internet of Things, and social media are all enabling collection of individual-centric information with minimal delay.  Techniques to determine the state of person at any time using all available information sources have been a topic of research in several areas, particularly related to interactions on the Web, and are likely to keep advancing rapidly.  If one could build better models for an individual, then it may be possible to build individualized feedback systems.
+Model building is always an analytic process that uses observed data.  Models built based on sparse data are poor in quality and perform badly.  Having sufficient data covering all situations of interest is essential in model building.  This means that it is not enough just to observe using appropriate sensors; one must collect this data in a form that could be used in model building process.  In the following section, we discuss such a process.
+Available data should be analyzed for building models.  A model is always developed with a particular analysis/prediction goal in mind.  This requires understanding what individual attribute variables must be considered in the models that will be used to build individualized feedback control systems.  Effect of such variables and temporal properties and effects or causality may be required.
+Once these models are formulated, it is possible to design a closed loop system that will observe current signals to determine the state and then use the model to compute the action required and notify the person or appropriate sources that could facilitate the implementation of those actions.
+
+								Tagged on: big data, Objective Self, quantified self 
+
+
+
+By Ramesh |
+    				August 18, 2014 |
+    				             		General Updates |
+             	 
+    				 		          				
+    			
+
+
+← Objective Self 4:  You are the Most Important.
+Objective Self 6: From an individual to society →
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

@@ -1,0 +1,333 @@
+http://www.ics.uci.edu/~kay/scheme/infx-tunes.scm
+;; InfxTunes:  A Music Manager
+;; Originally by Alex Thornton, Fall 2006.
+;; Modified by David G. Kay, Fall 2007 and Fall 2008.
+;; Use DrScheme's Intermediate Student with Lambda language.
+
+;                                                                               
+;                                                                               
+;           ;;   ;;                                                             
+;            ;    ;                                                             
+;    ;;;     ;    ; ;;  ;;  ;; ;;; ;                  ;;;;   ;;;  ;; ;;    ;; ;;
+;   ;   ;    ;    ;;  ;  ;   ;  ; ; ;                ;   ;  ;   ;  ;;  ;  ;  ;; 
+;    ;;;;    ;    ;   ;  ;   ;  ; ; ;                 ;;;   ;   ;  ;   ;  ;   ; 
+;   ;   ;    ;    ;   ;  ;   ;  ; ; ;                    ;  ;   ;  ;   ;  ;   ; 
+;   ;   ;    ;    ;   ;  ;  ;;  ; ; ;    ;;          ;   ;  ;   ;  ;   ;  ;   ; 
+;    ;;;;; ;;;;; ;;;;;    ;; ;;;;;;;;;   ;           ;;;;    ;;;  ;;; ;;;  ;;;; 
+;                                       ;;                                    ; 
+;                                       ;                                  ;;;  
+;                                                                               
+;                                                                               
+
+;; An album is:
+;;   * a unique ID number [number]
+;;   * an artist [string]
+;;   * a title [string]
+;;   * a year of release [number]
+;;   * a list of songs [list-of-songs]
+
+;; A song is:
+;;   * a track number [number]
+;;   * a title [string]
+;;   * a length in seconds [number]
+;;   * a play count [number] - how many times have I listened to it?
+
+(define-struct album (id artist title year songs))
+(define-struct song (track-num title length play-count))
+
+(define MUSIC (list (make-album 1 "Peter Gabriel" "Up" 2002
+                                (list (make-song 1 "Darkness" 411 5)
+                                      (make-song 2 "Growing Up" 453 5)
+                                      (make-song 3 "Sky Blue" 397 2)
+                                      (make-song 4 "No Way Out" 473 2)
+                                      (make-song 5 "I Grieve" 444 2)
+                                      (make-song 6 "The Barry Williams Show" 735 1)
+                                      (make-song 7 "My Head Sounds Like That" 389 1)
+                                      (make-song 8 "More Than This" 362 1)
+                                      (make-song 9 "Signal to Noise" 456 2)
+                                      (make-song 10 "The Drop" 179 1)))
+                    (make-album 2 "Simple Minds" "Once Upon a Time" 1985
+                                (list (make-song 1 "Once Upon a Time" 345 9)
+                                      (make-song 2 "All the Things She Said" 256 10)
+                                      (make-song 3 "Ghost Dancing" 285 7)
+                                      (make-song 4 "Alive and Kicking" 326 26)
+                                      (make-song 5 "Oh Jungleland" 314 13)
+                                      (make-song 6 "I Wish You Were Here" 282 12)
+                                      (make-song 7 "Sanctify Yourself" 297 7)
+                                      (make-song 8 "Come a Long Way" 307 5)))
+                    (make-album 3 "The Postal Service" "Give Up" 2003
+                                (list (make-song 1 "The District Sleeps Alone" 284 13)
+                                      (make-song 2 "Such Great Heights" 266 13)
+                                      (make-song 3 "Sleeping In" 261 12)
+                                      (make-song 4 "Nothing Better" 226 18)
+                                      (make-song 5 "Recycled Air" 269 13)
+                                      (make-song 6 "Clark Gable" 294 12)
+                                      (make-song 7 "We Will Become Silhouettes" 300 11)
+                                      (make-song 8 "This Place is a Prison" 234 9)
+                                      (make-song 9 "Brand New Colony" 252 9)
+                                      (make-song 10 "Natural Anthem" 307 7)))
+                    (make-album 4 "Midnight Oil" "Blue Sky Mining" 1989
+                                (list (make-song 1 "Blue Sky Mine" 258 12)
+                                      (make-song 2 "Stars of Warburton" 294 11)
+                                      (make-song 3 "Bedlam Bridge" 266 11)
+                                      (make-song 4 "Forgotten Years" 266 8)
+                                      (make-song 5 "Mountains of Burma" 296 9)
+                                      (make-song 6 "King of the Mountain" 231 8)
+                                      (make-song 7 "River Runs Red" 322 9)
+                                      (make-song 8 "Shakers and Movers" 268 9)
+                                      (make-song 9 "One Country" 353 7)
+                                      (make-song 10 "Antarctica" 258 6)))
+                    (make-album 5 "The Rolling Stones" "Let It Bleed" 1969
+                                (list (make-song 1 "Gimme Shelter" 272 3)
+                                      (make-song 2 "Love In Vain" 259 2)
+                                      (make-song 3 "Country Honk" 187 0)
+                                      (make-song 4 "Live With Me" 213 2)
+                                      (make-song 5 "Let It Bleed" 327 2)
+                                      (make-song 6 "Midnight Rambler" 412 1)
+                                      (make-song 7 "You Got the Silver" 170 0)
+                                      (make-song 8 "Monkey Man" 251 13)
+                                      (make-song 9 "You Can't Always Get What You Want" 448 10)))))
+
+;; quicksort (predefined): (listof X) (X X -> boolean) -> (listof X)
+;; Return original list in order according to comparison function.
+(check-expect (quicksort '(23 235 24 632 14 432 36 23 113) >) (list 632 432 235 113 36 24 23 23 14))
+(check-expect (quicksort '(23 235 24 632 14 432 36 23 113) <) (list 14 23 23 24 36 113 235 432 632))
+
+;; Sort music in ascending order by album-year
+;; The lambda expression is something we could have called "album-earlier?"
+(check-expect (quicksort MUSIC (lambda (A1 A2) (< (album-year A1) (album-year A2))))
+              (list
+               (make-album
+                5
+                "The Rolling Stones"
+                "Let It Bleed"
+                1969
+                (list
+                 (make-song 1 "Gimme Shelter" 272 3)
+                 (make-song 2 "Love In Vain" 259 2)
+                 (make-song 3 "Country Honk" 187 0)
+                 (make-song 4 "Live With Me" 213 2)
+                 (make-song 5 "Let It Bleed" 327 2)
+                 (make-song 6 "Midnight Rambler" 412 1)
+                 (make-song 7 "You Got the Silver" 170 0)
+                 (make-song 8 "Monkey Man" 251 13)
+                 (make-song 9 "You Can't Always Get What You Want" 448 10)))
+               (make-album
+                2
+                "Simple Minds"
+                "Once Upon a Time"
+                1985
+                (list
+                 (make-song 1 "Once Upon a Time" 345 9)
+                 (make-song 2 "All the Things She Said" 256 10)
+                 (make-song 3 "Ghost Dancing" 285 7)
+                 (make-song 4 "Alive and Kicking" 326 26)
+                 (make-song 5 "Oh Jungleland" 314 13)
+                 (make-song 6 "I Wish You Were Here" 282 12)
+                 (make-song 7 "Sanctify Yourself" 297 7)
+                 (make-song 8 "Come a Long Way" 307 5)))
+               (make-album
+                4
+                "Midnight Oil"
+                "Blue Sky Mining"
+                1989
+                (list
+                 (make-song 1 "Blue Sky Mine" 258 12)
+                 (make-song 2 "Stars of Warburton" 294 11)
+                 (make-song 3 "Bedlam Bridge" 266 11)
+                 (make-song 4 "Forgotten Years" 266 8)
+                 (make-song 5 "Mountains of Burma" 296 9)
+                 (make-song 6 "King of the Mountain" 231 8)
+                 (make-song 7 "River Runs Red" 322 9)
+                 (make-song 8 "Shakers and Movers" 268 9)
+                 (make-song 9 "One Country" 353 7)
+                 (make-song 10 "Antarctica" 258 6)))
+               (make-album
+                1
+                "Peter Gabriel"
+                "Up"
+                2002
+                (list
+                 (make-song 1 "Darkness" 411 5)
+                 (make-song 2 "Growing Up" 453 5)
+                 (make-song 3 "Sky Blue" 397 2)
+                 (make-song 4 "No Way Out" 473 2)
+                 (make-song 5 "I Grieve" 444 2)
+                 (make-song 6 "The Barry Williams Show" 735 1)
+                 (make-song 7 "My Head Sounds Like That" 389 1)
+                 (make-song 8 "More Than This" 362 1)
+                 (make-song 9 "Signal to Noise" 456 2)
+                 (make-song 10 "The Drop" 179 1)))
+               (make-album
+                3
+                "The Postal Service"
+                "Give Up"
+                2003
+                (list
+                 (make-song 1 "The District Sleeps Alone" 284 13)
+                 (make-song 2 "Such Great Heights" 266 13)
+                 (make-song 3 "Sleeping In" 261 12)
+                 (make-song 4 "Nothing Better" 226 18)
+                 (make-song 5 "Recycled Air" 269 13)
+                 (make-song 6 "Clark Gable" 294 12)
+                 (make-song 7 "We Will Become Silhouettes" 300 11)
+                 (make-song 8 "This Place is a Prison" 234 9)
+                 (make-song 9 "Brand New Colony" 252 9)
+                 (make-song 10 "Natural Anthem" 307 7)))))
+
+;; Sort music in ascending order by album-title
+(check-expect (quicksort MUSIC (lambda (A1 A2) (string (listof songs) /  list-of-album -> list-of-song
+;; Return a list of the 10 songs with the highest play counts.
+(define top-10-songs
+  (lambda (collection)
+    ;; take first 10 from sorted list of songs by play-count.
+    ;;    (first-n 10 (quicksort all-songs-in-collection comparison-by-playcount))))
+    (first-n 10 (quicksort (all-songs collection) playcount-greater?))))
+
+;; playcount-greater?: song song -> boolean
+;; Return true if first song's play count is greater than second song's.
+(define playcount-greater?
+  (lambda (S1 S2)
+    (> (song-play-count S1) (song-play-count S2))))
+
+;; first-n: number (listof X) -> (listof X)
+;; Return the first n items on list (assuming list is at least that long)
+(define first-n
+  (lambda (n L)
+    (cond
+      ((zero? n) empty)
+      (else (cons (first L) (first-n (sub1 n) (rest L)))))))
+
+;; all-songs: (listof album) -> (listof song)
+;; Returns a list of all the songs on all the albums in the input.
+;; Input is : (  A1  A2  A3  ...)   ;; an Album is (N T A Y (S1 S2 S3 ...))
+;; Output is: ( (S1 S2 S3 ...)  (S7 S8 S9 ...)  (S23 S24 ...) )
+;; Drawing a picture of the input and output like this is helpful sometimes;
+;; consider doing it yourself.
+(define all-songs
+  (lambda (collection)
+    (foldr append empty (map album-songs collection))))
+
+(check-expect (all-songs MUSIC)
+              (list
+               (make-song 1 "Darkness" 411 5)
+               (make-song 2 "Growing Up" 453 5)
+               (make-song 3 "Sky Blue" 397 2)
+               (make-song 4 "No Way Out" 473 2)
+               (make-song 5 "I Grieve" 444 2)
+               (make-song 6 "The Barry Williams Show" 735 1)
+               (make-song 7 "My Head Sounds Like That" 389 1)
+               (make-song 8 "More Than This" 362 1)
+               (make-song 9 "Signal to Noise" 456 2)
+               (make-song 10 "The Drop" 179 1)
+               (make-song 1 "Once Upon a Time" 345 9)
+               (make-song 2 "All the Things She Said" 256 10)
+               (make-song 3 "Ghost Dancing" 285 7)
+               (make-song 4 "Alive and Kicking" 326 26)
+               (make-song 5 "Oh Jungleland" 314 13)
+               (make-song 6 "I Wish You Were Here" 282 12)
+               (make-song 7 "Sanctify Yourself" 297 7)
+               (make-song 8 "Come a Long Way" 307 5)
+               (make-song 1 "The District Sleeps Alone" 284 13)
+               (make-song 2 "Such Great Heights" 266 13)
+               (make-song 3 "Sleeping In" 261 12)
+               (make-song 4 "Nothing Better" 226 18)
+               (make-song 5 "Recycled Air" 269 13)
+               (make-song 6 "Clark Gable" 294 12)
+               (make-song 7 "We Will Become Silhouettes" 300 11)
+               (make-song 8 "This Place is a Prison" 234 9)
+               (make-song 9 "Brand New Colony" 252 9)
+               (make-song 10 "Natural Anthem" 307 7)
+               (make-song 1 "Blue Sky Mine" 258 12)
+               (make-song 2 "Stars of Warburton" 294 11)
+               (make-song 3 "Bedlam Bridge" 266 11)
+               (make-song 4 "Forgotten Years" 266 8)
+               (make-song 5 "Mountains of Burma" 296 9)
+               (make-song 6 "King of the Mountain" 231 8)
+               (make-song 7 "River Runs Red" 322 9)
+               (make-song 8 "Shakers and Movers" 268 9)
+               (make-song 9 "One Country" 353 7)
+               (make-song 10 "Antarctica" 258 6)
+               (make-song 1 "Gimme Shelter" 272 3)
+               (make-song 2 "Love In Vain" 259 2)
+               (make-song 3 "Country Honk" 187 0)
+               (make-song 4 "Live With Me" 213 2)
+               (make-song 5 "Let It Bleed" 327 2)
+               (make-song 6 "Midnight Rambler" 412 1)
+               (make-song 7 "You Got the Silver" 170 0)
+               (make-song 8 "Monkey Man" 251 13)
+               (make-song 9 "You Can't Always Get What You Want" 448 10)))
+
+(check-expect (top-10-songs MUSIC)
+              (list
+               (make-song 4 "Alive and Kicking" 326 26)
+               (make-song 4 "Nothing Better" 226 18)
+               (make-song 5 "Oh Jungleland" 314 13)
+               (make-song 1 "The District Sleeps Alone" 284 13)
+               (make-song 2 "Such Great Heights" 266 13)
+               (make-song 5 "Recycled Air" 269 13)
+               (make-song 8 "Monkey Man" 251 13)
+               (make-song 6 "I Wish You Were Here" 282 12)
+               (make-song 3 "Sleeping In" 261 12)
+               (make-song 6 "Clark Gable" 294 12)))
+
+
+;                                                                                      
+;                                                                                      
+;                                         ;;    ;                   ;;                 
+;                                          ;                         ;                 
+;    ;;;;   ;;;  ;; ;;    ;; ;;         ;; ;  ;;;     ;;;; ;; ;;     ;     ;;;  ;;; ;;;
+;   ;   ;  ;   ;  ;;  ;  ;  ;;         ;  ;;    ;    ;   ;  ;;  ;    ;    ;   ;  ;   ; 
+;    ;;;   ;   ;  ;   ;  ;   ;  ;;;;;  ;   ;    ;     ;;;   ;   ;    ;     ;;;;   ;  ; 
+;       ;  ;   ;  ;   ;  ;   ;         ;   ;    ;        ;  ;   ;    ;    ;   ;   ; ;  
+;   ;   ;  ;   ;  ;   ;  ;   ;         ;   ;    ;    ;   ;  ;   ;    ;    ;   ;    ;;  
+;   ;;;;    ;;;  ;;; ;;;  ;;;;          ;;;;; ;;;;;  ;;;;   ;;;;   ;;;;;   ;;;;;   ;   
+;                            ;                              ;                      ;   
+;                         ;;;                              ;;;                   ;;;;  
+;                                                                                      
+;                                                                                      
+
+
+;; Problem:  Don't have enough info for a helpful display
+;; (i.e., need album info for each song).
+;; Don't want to store multiple copies of album info; it's inefficient.
+;; So let's generate it when we need it.
+
+(define-struct song-display (artist a-title year track-num s-title play-count))
+
+;; top-10-songs-to-display: (listof album) -> (listof song-display)
+;; Return song-display structures for the top 10 songs by play-count.
+(define top-10-songs-to-display
+  (lambda (collection)
+    (first-n 10 (quicksort (all-song-displays collection)
+                           (lambda (SD1 SD2) (> (song-display-play-count SD1)
+                                                (song-display-play-count SD2)))))))
+
+;; all-song-displays: (listof album) -> (listof song-display)
+;; Return a list of the display format structures of each song on the album list.
+(define all-song-displays
+  (lambda (collection)
+    (foldr append empty 
+           (map (lambda (A) ; for each album in the collection:
+                  (map (lambda (S) ; for each song in this album:
+                         (make-song-display (album-artist A)
+                                            (album-title A)
+                                            (album-year A)
+                                            (song-track-num S)
+                                            (song-title S)
+                                            (song-play-count S)))
+                       (album-songs A)))
+                collection))))
+;; could create album->song-display, song-display-from-album-info, ...
+(check-expect (top-10-songs-to-display MUSIC) 
+              (list
+               (make-song-display "Simple Minds" "Once Upon a Time" 1985 4 "Alive and Kicking" 26)
+               (make-song-display "The Postal Service" "Give Up" 2003 4 "Nothing Better" 18)
+               (make-song-display "Simple Minds" "Once Upon a Time" 1985 5 "Oh Jungleland" 13)
+               (make-song-display "The Postal Service" "Give Up" 2003 1 "The District Sleeps Alone" 13)
+               (make-song-display "The Postal Service" "Give Up" 2003 2 "Such Great Heights" 13)
+               (make-song-display "The Postal Service" "Give Up" 2003 5 "Recycled Air" 13)
+               (make-song-display "The Rolling Stones" "Let It Bleed" 1969 8 "Monkey Man" 13)
+               (make-song-display "Simple Minds" "Once Upon a Time" 1985 6 "I Wish You Were Here" 12)
+               (make-song-display "The Postal Service" "Give Up" 2003 3 "Sleeping In" 12)
+               (make-song-display "The Postal Service" "Give Up" 2003 6 "Clark Gable" 12)))

@@ -1,0 +1,951 @@
+https://sli.ics.uci.edu/PmWiki/ChangeLog
+
+
+
+SLI | PmWiki / ChangeLog 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+ChangeLog
+
+
+
+
+
+< Release notes | Documentation Index | Glossary >
+
+
+
+See the cookbook recent changes page for additional updates and activity by other developers, or join the PmWiki  mailing lists to discuss feature development with us.
+
+Version 2.2.93 (2016-12-31) 
+Update documentation.
+Version 2.2.92 (2016-11-30) 
+Skip checking for $AllowPassword if empty or false.
+Enable FmtPageName() to expand PageVariables with asterisks.
+Update documentation.
+Version 2.2.91 (2016-09-30) 
+Update documentation.
+Version 2.2.90 (2016-08-31) 
+Add action parameter to upload form URL.
+Add imgonly and imgcaption CSS classes (PITS:01390).
+Fix plus-links with suffix [[Page|+]]s (PITS:01392).
+Update documentation.
+Version 2.2.89 (2016-07-30) 
+Add identifiers to Site.EditForm elements to enable easier styling.
+Add $SimpleTableDefaultClassName, default unset (PITS:00638).
+Add temporary $new['=html'] entry, in SaveAttributes().
+Fix superfluous line breaks in SiteAdmin.AuthList.
+Add optional placeholder attribute in (:searchbox:).
+Add $SearchBoxInputType, default 'text'.
+Set $HTMLStylesFmt via SDVA() in vardoc.php, urlapprove.php, and xlpage-utf-8.php.
+Fix vardoc.php to recognize and link variables $pagename, $Author, $Skin, and to sort case insensitively.
+Update documentation.
+Version 2.2.88 (2016-06-29) 
+Fix invalid HTML output of WikiTrail links (PITS:01388).
+Add 4th argument $double_encode to PHSC() for safe replacement of htmlspecialchars().
+Add page variable {$SiteAdminGroup} (PITS:00951).
+Update documentation.
+Version 2.2.87 (2016-05-31) 
+Add $HTMLTagAttr, to allow inclusion of lang, manifest and other attributes.
+Add $EnableRevUserAgent,  $FmtV['$DiffUserAgent'].
+Fix relative link in Site.UploadQuickReference.
+Update documentation.
+Version 2.2.86 (2016-04-28) 
+Fix PageStore() for PHP 7.
+Fix $DefaultPasswords for PHP 7.
+Update documentation.
+Version 2.2.85 (2016-03-31) 
+Add svg(z) and SVG(Z) as embeddable image extensions (PITS:00197, PITS:00435).
+Add *.svgz as allowed upload extension.
+Update documentation.
+Version 2.2.84 (2016-02-21) 
+Update/fix URL in UPGRADES.txt (PITS:01378).
+Fix indent and outdent CSS for RTL languages (PITS:01379).
+Add $EnableLinkPlusTitlespaced (PITS:01140).
+Update documentation.
+Version 2.2.83 (2015-12-31) 
+Update documentation.
+Version 2.2.82 (2015-11-30) 
+Enable stripmagic() to process arrays recursively.
+Update documentation.
+Version 2.2.81 (2015-10-31) 
+Fix single line PageTextVariable definition (reported by HansB).
+Add .ltr and .rtl CSS classes for UTF-8.
+Update documentation.
+Version 2.2.80 (2015-09-30) 
+Modify (:searchbox:) to use type="search" input.
+Update documentation.
+Version 2.2.79 (2015-08-27) 
+Modify guiedit.js::insMarkup() to accept a custom function name processing the text, and a custom id for the text area.
+Add CSS basic colors 'fuchsia','olive','lime','teal','aqua','orange' and 'grey' as WikiStyles (PITS:01373).
+Add $EnableROSEscape, default 0 (PmWiki:TextFormattingRules-Talk).
+Remove 'target' attribute in input forms (breaks PmForm).
+Add HTML5 input types email, url, number, date, search.
+Add attribution in script comments.
+Update documentation.
+Version 2.2.78 (2015-07-21) 
+Update $RobotPattern with current user agents.
+Accept 'target' attribute in input forms.
+Update documentation.
+Version 2.2.77 (2015-06-19) 
+Add generic function MakeNames() to process MakePageNames().
+Extend (:if attachments:) to specify file and page names (PITS:01087).
+Optimize PageStore::recode() to cache utf8_decode and utf8_encode callbacks.
+Add {$WikiTitle} page variable.
+Update documentation.
+Version 2.2.76 (2015-05-31) 
+Recover posted arrays (indexed or associative, not multidimensional) when a password is required (PITS:00835, PITS:01110).
+Add label argument to checkbox and radio inputs (PITS:01367).
+Enable PHSC() to process arrays recursively.
+Enable processing of arrays as input values (PITS:01032).
+Add CSS classes to standalone image div and caption (PITS:00489, PITS:00497).
+Update documentation.
+Version 2.2.75 (2015-04-26) 
+Fix uploads to respect $EnableReadOnly.
+Escape HTML special characters when printing failed callback creation.
+Add pmcrypt() for PHP 5.6 compatibility.
+Add markup for HTML5 semantic tags article, section, nav, header, footer, aside, address.
+Update documentation.
+Version 2.2.74 (2015-03-28) 
+Allow translation of the "OK" string in forms (PITS:01363).
+Update documentation.
+Version 2.2.73 (2015-02-28) 
+Update documentation.
+Version 2.2.72 (2015-01-27) 
+Enable markup debug messages even when debug_backtrace() is not available.
+Add $AbortFunction.
+Restore ability to set a custom $MarkupWordwrapFunction, add $MarkupWrapTag (related to earlier fix for PITS:01360).
+Update documentation.
+Version 2.2.71 (2014-12-29) 
+Add $DraftActionsPattern.
+Enable "input default source" parameter to contain multiple pages.
+Enable "pagelist request" parameter to contain a list of (dis)allowed parameters.
+Enable Markup() backtrace for ?action=ruleset.
+Fix strict warning for blacklisted uploads (PITS:01359).
+Fix wrong hard wrap in (:markup:) code examples (PITS:01360).
+Update documentation.
+Version 2.2.70 (2014-11-08) 
+Update documentation.
+Version 2.2.69 (2014-10-13) 
+Fix DRange() for ISO-8601 dates +/- X days.
+Fix wording in Site.UploadQuickReference.
+Update documentation.
+Version 2.2.68 (2014-09-01) 
+Add Skins: InterMap prefix.
+Add signature to Site.EditQuickReference (PITS:01350).
+Allow $PostConfig entries to be launched after per-page customization, before other stdconfig.php inclusions if values<50.
+Add WikiStyles clear, min and max width and height (PITS:00860), fix %p class=...% with more than one space.
+Update documentation.
+Version 2.2.67 (2014-08-02) 
+Fix InputDefault/PageTextVariables inconsistency (PITS:01337).
+Update documentation.
+Version 2.2.66 (2014-07-02) 
+Fix Author in Notifcations when deleting pages (PITS:01112).
+Exclude "_" to be considered as a function name in various $*Patterns.
+Update documentation.
+ Version 2.2.65 (2014-06-07)
+Fix {$$PseudoVars} containing {*$PageVars} in PageList Templates.
+Fix wording in scripts/.htaccess (PITS:01345).
+Fix fixperms() if directory owner is root (PITS:01346).
+Update documentation.
+ Version 2.2.64 (2014-05-08)
+Add {(mod)} markup expression.
+Add tel: and geo: URI schemes?.
+Add $SysMergePassthru to allow Merge() to use passthru() instead of popen().
+Update documentation.
+ Version 2.2.63 (2014-04-05)
+Allow form elements to have a dash in the attribute names.
+Strip magic slashes for pagelist/search request vars.
+Allow input attributes readonly, placeholder and autocomplete for HTML5 sites.
+Update documentation.
+ Version 2.2.62 (2014-02-28)
+Add $CallbackFnTemplates["return"].
+Add 4th argument to Markup_e() - $template.
+Add $EnableTableAutoValignTop.
+Update documentation.
+ Version 2.2.61 (2014-01-31)
+Add $TableCellAlignFmt.
+Remove unused snippet in prefs.php (reported by Oliver Betz).
+Remove unused calls to PSS() (reported by John Rankin).
+Update documentation.
+ Version 2.2.60 (2014-01-12)
+Revert to previous pmwiki.css file.
+ Version 2.2.59 (2014-01-11)
+Fix checking multiple posted fields in blocklist.php (reported by Randy Brown).
+Allow Markup_e() to accept a callback as well as code.
+Fix "+" shortcut for internal anchor links.
+Disable HTML cache if count($_GET)>1 not >2 (PITS:01278).
+Fix query string if a "?" is encoded to uppercase "%3F".
+Replace CSS font sizes from points (fixed) to percents (relative) for the default skin.
+Fix nested conditionals containing $pagename (reported by Benjamin Grassineau).
+Update documentation.
+ Version 2.2.58 (2013-12-25)
+Allow $LinkUpload to be usable in (:attachlist:).
+Enable customizations of (:input auth_form:).
+Remove unused variable $Block in FormatTableRow(), reported by Klonk.
+Fix $EnableBlocklistImmediate to check all posted fields for blocked terms.
+Add $GLOBALS['MarkupToHTML'] to pass parameters such as $pagename to markup calls.
+Update documentation.
+ Version 2.2.57 (2013-11-03)
+Encode international character used for detection of a recode function.
+Enable $IMapLinkFmt['Attach:'] to be used in (:attachlist:) links.
+Add $MakePageNameSplitPattern.
+Update documentation.
+ Version 2.2.56 (2013-09-30)
+Work in progress to remove the core dependency of the deprecated "eval" feature of the preg_replace() function (PITS:01319).
+Add functions PCCF(), PPRE(), PPRA(), Markup_e(), migrating all core calls to these functions.
+Fix detection of proper PageStore->recodefn.
+Update documentation.
+ Version 2.2.55 (2013-09-16)
+Add $EnableDraftAtomicDiff (PITS:01007).
+Update documentation.
+ Version 2.2.54 (2013-08-13)
+Fix broken page history for draft pages, reported by ChuckG.
+Update documentation.
+ Version 2.2.53 (2013-07-08)
+Show a message when the post has been blocked because of too many unapproved links.
+Update documentation.
+ Version 2.2.52 (2013-06-08)
+Add docx, pptx, xlsx upload extentions.
+Hide E_DEPRECATED warnings for PHP 5.5.
+Update documentation.
+ Version 2.2.51 (2013-05-08)
+Update url to MoinMoin's blocklist.
+Comment-out blacklist.chongqed.org as the domain appears to have expired.
+Fix possible XSS vulnerability in prefs.php, discovered today.
+Fix access keys to be a single character.
+Fix $AuthorPage if there is a group named the same as the author (PITS:01259).
+Update documentation.
+ Version 2.2.50 (2013-04-08)
+Update documentation.
+ Version 2.2.49 (2013-03-09)
+Add $UploadBlacklist array.
+Update documentation.
+ Version 2.2.48 (2013-02-11)
+Fix bug introduced yesterday with some links, reported by Michael Weiner (PITS:01308).
+ Version 2.2.47 (2013-02-10)
+Enable tooltip titles for links to anchors on the same page.
+Update documentation.
+ Version 2.2.46 (2013-01-07)
+Add third parameter to fixperms() explicitly setting the permissions.
+Add $UploadPermAdd and $UploadPermSet variables.
+Update documentation.
+ Version 2.2.45 (2012-12-02)
+Cleanup some PHP notices (PITS:01304).
+Update documentation.
+ Version 2.2.44 (2012-10-21)
+Better display of whitespace in page histories.
+Fix definition for PageTextVariables containing a dash (PITS:00978).
+Update documentation.
+ Version 2.2.43 (2012-09-20)
+Allow for HTML attribute names to contain dashes, eg. data-transition, data-role etc.
+Remove warning when previewing Site.EditForm.
+Update documentation.
+ Version 2.2.42 (2012-08-20)
+Convert the line-endings in the docs/ directory to \r\n compatible with Windows.
+Modify PHSC() to call  htmlspecialchars() with a single-byte encoding argument.
+Update documentation.
+ Version 2.2.41 (2012-08-12)
+Change $KeepToken to "\034\034" which is compatible with more encodings.
+Update documentation.
+ Version 2.2.40 (2012-07-21)
+Add PHSC() helper function as a replacement of htmlspecialchars() for PHP 5.4 (PITS:01292).
+Update documentation.
+ Version 2.2.39 (2012-06-25)
+Fix URL encoding of attachment links.
+Update documentation.
+ Version 2.2.38 (2012-05-21)
+Fix "Wrong parameter count for utf8_decode" warning, reported by Simon.
+Update documentation.
+ Version 2.2.37 (2012-05-01)
+Add page filename encoding functions.
+Better handling of dots in [[#anchor_1.2]] sections (PITS:01285).
+Expand PageVariables in PageList templates defaults (PITS:01282).
+Add test for iconv() and mb_convert_encoding(), refactor recode().
+Update documentation.
+ Version 2.2.36 (2011-12-28)
+Add $EnableOldCharset variable and $page["=oldcharset"] entry.
+Refactor PageStore->recode() to recover Windows-1252 characters.
+Add exit line to xlpage-iso-8859-2.php (PITS:01275).
+Fix difference in defining and removing "invisible" PTVs.
+Update documentation.
+ Version 2.2.35 (2011-11-11)
+Fix critical PHP injection vulnerability (PITS:01271, reported by Egidio Romano).
+Important change: Disable script loading from XLPage().
+Move the processing of [[link|+]] inside LinkPage() and delete markup rule from stdmarkup.php.
+Modify MakeLink() to better handle link titles.
+Add optional $LinkTitleFunction allowing recipes to customize the link titles.
+Fix ReadTrail() to better handle links with titles.
+Add title attributes for the HTML templates in the  $LinkPage*Fmt  variables.
+Add upload extensions svg, xcf, ogg, flac, ogv, mp4, webm, odg, epub.
+Minor optimization for the MarkupExpressions for UTF-8 strings.
+Minor optimization of the rendering of page history.
+ Version 2.2.34 (2011-10-10)
+Add MarkupExpressions replacements for UTF-8.
+Reset timestamps of Site(Admin).AuthUser to 1000000000, used in upgrades.php.
+Update documentation.
+ Version 2.2.33 (2011-09-23)
+Fix locked states for Site and SiteAdmin GroupAttributes (reported by Brijesh Kothari).
+Fix intermap.txt entries PITS: and Wikipedia: to point to their current locations.
+Fix refcount.php to produce valid HTML (PITS:01266).
+ Version 2.2.32 (2011-09-18)
+Add required html xmlns attribute to the print skin template.
+Add PageStore->recode() function.
+Add $DefaultPageCharset array.
+Optimize for speed the inline diff for page history when too many lines were added or deleted.
+Update and convert to UTF-8 the documentation.
+ Note: Due to a manipulation error, a version 2.2.31 was created before it was ready for a release.
+
+ Version 2.2.30 (2011-08-13)
+Fix $Charset definition in iso-8859-*.php files.
+Add $EnableRangeMatchUTF8, set it to 1 to enable range matches in UTF-8.
+Update documentation.
+ Version 2.2.29 (2011-07-24)
+Fix Attach links that were broken with the Path fix in 2.2.28.
+Add $IMapLocalPath array containing InterMap prefixes that should be treated as local.
+ Version 2.2.28 (2011-07-24)
+Fix potential XSS vulnerability in refcount.php (PITS:01262).
+Fix bug in Path: links (PITS:01260).
+Fix potential XSS vulnerability in custom SitePreferences (PITS:01263).
+Update documentation.
+ Version 2.2.27 (2011-06-19)
+Add block WikiStyle %justify% (PITS:01253).
+Remove unused <vspace> after a redirection (PITS:01255).
+Add ?nodiff=1 parameter for page history to disable diff rendering and show only restore links.
+Update documentation.
+ Version 2.2.26 (2011-05-21)
+Fix ReadTrail(), redundant replacing of hashes, already done in MakePageName().
+Update documentation.
+ Version 2.2.25 (2011-03-22)
+Update documentation.
+ Version 2.2.24 (2011-02-15)
+Add {$$PageTrailDepth} pseudovariable for PageList templates.
+Fix PageVar(), add $authpage array for an authenticated page data, removed $EnablePageVarAuth.
+Update documentation.
+ Version 2.2.23 (2011-01-25)
+Default $EnablePageVarAuth to 0 until the resolution of PITS:01242.
+ Version 2.2.22 (2011-01-16)
+Add $EnableXLPageScriptLoad to XLPage() to prevent editors from changing the encoding.
+PageVariables now respect authentications (PITS:01213).
+Add $EnablePageVarAuth.
+Update documentation.
+ Version 2.2.21 (2010-12-14)
+Fix potential XSS vulnerability, reported by DFaure.
+Fix invalid HTML for simple table captions, reported by JL.
+Fix WikiStyles could work not properly if a value was empty like accesskey="".
+ Version 2.2.20 (2010-12-14)
+Fix Pagelist {$$variable} didn't work in template none (PITS:01212).
+Fix interface access keys in browse mode (PITS:01188).
+Add PmL10n: intermap prefix for the Localization/ group on pmwiki.org (PITS:01180).
+Fix AuthUser excluding members didn't work (PITS:01201).
+Update documentation.
+ Version 2.2.19 (2010-11-10)
+Update documentation.
+ Version 2.2.18 (2010-09-04)
+Fix $SaveAttrPatterns to skip nested conditionals (reported by RandyB).
+Fix RecentChanges when an edit summary contains the dollar sign (PITS:01217).
+Fix RDF feed number of elements (PITS:01198).
+Update documentation.
+ Version 2.2.17 (2010-06-20)
+Add tabindex as a valid form attribute (PITS:01190).
+Collapse adjacent insertions in DiffRenderSource (PITS:01192).
+Fix HandleDownload to flush() output before exit (PITS:01199).
+Fix HandleDownload to respect $EnableIMSCaching (PITS:01191).
+Add $PostConfig functions and scripts, loaded after stdconfig.php (PITS:01132).
+Add $AuthUserPat variable for the regexp pattern in AuthUserId() (PITS:01202).
+Pass $authlist as last parameter to $AuthUserFunctions (PITS:01197).
+Fix "exists" conditional to work with old link markup.
+Update documentation.
+ Version 2.2.16 (2010-05-10)
+Allow "exists" conditional to accept wildcards (PITS:01184)
+Fix GUI button %center% which didn't work correctly.
+Fix incorrectly parsed quote in PQA(), possible script injection (discovered by Hanno Boeck).
+ Version 2.2.15 (2010-03-27)
+Add  (Auth|Edit)Form  to auto-translated titles.
+Fix  (:if auth LEVEL:)  to respect $HandleAuth (PITS:01164).
+Skip loading of the second half of draft.php if $action!="edit".
+Fix bug with  (:template none:)  introduced in 2.2.14, reported by Holger.
+Fix HandleDownload() to use binary file-read.
+ Version 2.2.14 (2010-02-27)
+Fix inline styles in WikiTrails (PITS:01121).
+Add a negation parameter to pagelist first/last templates (PITS:01127).
+Refactor FPLTemplateFormat(), move repeated code blocks into FPLExpandItemVars().
+Add $EnableUndefinedTemplateVars allowing to hide or show undefined template/include {$$variables} (PITS:01152).
+Add "title" attribute to external links (PITS:00657).
+Add FmtPageTitle() to allow automatic i18n titles for RecentChanges and other technical pages (PITS:01157).
+Update documentation.
+ Version 2.2.13 (2010-02-21)
+Replace deprecated in PHP 5.3 function split() with explode().
+Add $WordDiffFunction default to PHPDiff().
+Use existing border colors as highlighting background.
+Refactor/optimize DiffRenderSource(), merge with DiffRenderInline().
+Change default history to show word-level highlighting.
+Fix bug with $DiffKeepNum which kept less revisions than it should.
+Fix RetrieveAuthPage() call from HandleDiff().
+Update documentation.
+ Version 2.2.12 (2010-02-17)
+Allow a custom $DiffHTMLFunction to skip the line rendering if it returns false.
+Add $EnableDiffInline, simple word-level diffs (PITS:00571).
+Update documentation.
+ Version 2.2.11 (2010-02-14)
+Break PrintDiff() into customizable functions (PITS:01106).
+Add anchors to individual diffs (PITS:00796).
+Remove unused $RecipeInfo definition in markupexpr.php (reported by P.Bowers).
+Add (:head:) and (:headnr:) table directives (PITS:00535).
+Fix $GroupPattern and $NamePattern in xlpage-utf-8.php.
+Update documentation.
+  Version 2.2.9, 2.2.10 (2010-01-17)
+Fix i18n string in PasswdVar(), reported by SteP.
+Fix sample-config.php with correct information about $EnableWSPre (PITS:01145).
+Fix range searches for wikis in UTF-8 (reported by Maxim).
+Fix global variable $StringFolding in scripts/xlpage-utf-8.php.
+Fix markup for italics in creole.php.
+Fix previews for PTVs, PageList templates and included sections (PITS:01098).
+Add $DiffKeepNum - number of revisions kept, even if older than $DiffKeepDays.
+Add Yandex to robots.php.
+Change default $EnableRelativePageVars to 1 (PITS:01145).
+Add fifth parameter to SetProperty() : keep existing property.
+Add $EnablePageTitlePriority (PITS:00266, PITS:00779).
+Update documentation.
+ Version 2.2.8 (2009-12-07)
+Fix apostrophes in Author field (PITS:01155).
+Fix Condition "exists" for PHP 5.3 (PITS:01156).
+Update documentation.
+ Version 2.2.7 (2009-11-08)
+Fix GlobToPCRE() to work with !excl and -excl with PHP 5.3 (PITS:01149).
+Fix HandleDownload() correctly quote the filenames (PITS:01150).
+Fix SessionAuth() for PHP 5.3, the $_REQUEST array doesn't contain the $_COOKIE array (PITS:01141).
+Fix default timezone for PHP 5.3 (PITS:01141).
+Update documentation.
+ Version 2.2.6 (2009-10-04)
+Escape apostrophes for multiline textarea/hidden form fields.
+Fix global unset of $MarkupRules in Markup() and DisableMarkup(), reported by D.Faure.
+Fix call to BuildMarkupRules() in MarkupToHTML(), suggested by Pm.
+Allow disabling of $PageListFilters and $FPLTemplateFunctions if set to -1 and thus allow replacing a core function with a custom one.
+Fix DRange() returned timestamps +1min or +1day when it shouldn't (PITS:01125).
+Add $MarkupWordwrapFunction to allow custom (:markup:) line width for multibyte wikis (PITS:00703).
+Add $MakeUploadNamePatterns to allow custom filename normalization for uploads.
+Add a fourth argument to PostRecentChanges() to allow this function to be called with a custom $RecentChangesFmt array.
+Add $RecentUploadsFmt, to allow logging of new uploads to the RecentChanges pages (PITS:00088).
+Fix Notify for some installations in safe_mode (PITS:00976).
+Add $HTMLHeaderFmt['guiedit'] variable in guiedit.php to allow customization (PITS:01146).
+Update documentation.
+ Version 2.2.5 (2009-08-25)
+Add *.7z as accepted upload extension (PITS:00813).
+Fix global variable $HandleAttrFmt in HandleAttr (PITS:01126).
+Allow brackets in input element names (PITS:01131).
+Fix CSS class applied twice (PITS:01071).
+Fix Not-Modified headers could prevent caching (PITS:00802).
+Break FPLTemplate() into configurable sub-parts (PITS:01102).
+Add (:template none:) section for PageList templates.
+Fix attr-protected page could be deleted with edit permissions (PITS:00238).
+Update documentation.
+ Version 2.2.4 (2009-07-16)
+Fix bug with page attributes, which somehow didn't make it in the 2.2.3 release.
+Fix bug with HTML entities in XLPages introduced earlier today in 2.2.3 (reverted, PITS:01114).
+ Version 2.2.3 (2009-07-16)
+Fix action=logout could incorrectly set a session cookie (PITS:01062).
+Fix page history trim in vardoc.php (PITS:01103).
+Add $EnableUploadGroupAuth, use group password for downloads (PITS:01104).
+Fix recursive PTV loops, added $MaxPageTextVars (PITS:00915, PITS:01099).
+Fix mkdirp() messages for absolute paths (PITS:00396).
+Fix sample-config.php order for urlapprove.php (PITS:01037).
+Fix broken signature links on preview.
+Fix crypt.php (action=crypt) could malfunction for passwords with quotes or apostrophes.
+Fix  @_site_* passwords to work in GroupAttributes (PITS:00836, PITS:00998).
+Fix possible XSS vulnerabilities, reported by Michael Engelke.
+Update documentation.
+ Version 2.2.2 (2009-06-21)
+Fix class in pages not on the breadcrumbs trail, reported by Ed W.
+Fix tabindex and onclick to guiedit buttons.
+Fix $GroupPrintHeaderFmt in print.php (PITS:01073).
+Fix global vars in xlpage-utf-8.php (PITS:00980).
+Fix $txt in LinkPage (reported by Eemeli Aro).
+Add $EnableNotifySubjectEncode for international wikis (Cookbook:UTF-8).
+Fix international message in Abort().
+Fix security bug with AuthUser, reported by Eemeli Aro. See Release notes.
+Fix $ActionTitleFmt for login and upload, reported by Eemeli Aro.
+ Version 2.2.1 (2009-03-28)
+Fix $FPLTemplateMarkupFunction which somehow didn't get in the 2.2.0 archive.
+Fix wikitrails to work cross-group (PITS:00407).
+Add $EnableRedirectQuiet variable (PITS:00919).
+Fix {$Title} could display global variables (reported by HansB).
+Fix reloaded form submissions could lose values (reported by DaveG).
+Fix preview while restoring a version from history (PITS:01081).
+Fix relative links with international characters (reported by G. Hermanowicz).
+Add in sample-config.php example call to xlpage-utf-8.php (PITS:01066).
+Update documentation.
+Fix guiedit.php to produce valid HTML.
+ Version 2.2.0 (2009-01-18)
+Convert beta series to official release series.
+Add $FPLTemplateMarkupFunction (PITS:00984, requested by John Rankin).
+ Version 2.2.0-beta68 (2008-08-14)
+Fix E_NOTICE errors reported by Dominique Faure.
+Enable (:redirect:) directives in pagelists.
+ Version 2.2.0-beta67 (2008-07-13)
+Add {$LastModifiedTime} page variable.
+Add $EnableSessionPasswords variable to control session password usage.
+Add $SessionEncode and $SessionDecode variables to specify functions for encoding/decoding sensitive session data.
+Updated httpauth.php to use SessionAuth instead of poking in session guts directly.
+ Version 2.2.0-beta66 (2008-07-04)
+Add content-type/charset to Abort() output (suggested by Petko).
+Close minor XSS vulnerability (PITS:01030).
+Add "nested if" capability.
+Fix bug in $Transition handling that would enable all transitions if any were set (reported by John Rankin).
+ Version 2.2.0-beta65 (2007-11-17)
+Fix SiteAdmin.AuthList so that it defaults to list=all (reported by Roman).
+Fix pmwiki skin to include xmlns= attribute in <html> tag (PITS:00989, reported by Mateusz Czaplinski and Petko Yotov).
+ Version 2.2.0-beta64 (2007-11-13)
+Add times to PmWiki date parsing (e.g., 2007-08-09T12:22:04).
+Suppress warning from ini_set in diag.php (suggested by Petko).
+Fix handling of -> links in trails (reported by Eemeli Aro).
+Add .kml and .kmz as valid attachment types. 
+Fix handling of &amp; in markup (PITS:00988, reported by Stirling Westrup).
+Fix duplication of language markers in $XLLangs (PITS:00987, reported by Stirling Westrup).
+Correct typo in DRange() call in stdmarkup.php (reported by Stirling Westrup).
+Turn on error displays when diagnostics are enabled.
+Default PHP's pcre.backtrack_limit to at least 1000000.
+ Version 2.2.0-beta63 (2007-07-31)
+Added $SkinDirectivesPattern to allow adjustments to available skin directives (requested by Petko).
+Fix default permissions on Site.AuthUser and Site.AuthList (reported by Scott Connard).
+Add "monospace" to pmwiki.css default (reported by Joshua Timberman, with assistance from H. Fox)
+Fix problem with slashes in wildcards to name= and group= parameters (reported by Ian MacGregor).
+Version 2.2.0-beta62 (2007-07-21)
+Fix bug in trails introduced by beta61 (reported by charlequin).
+Version 2.2.0-beta61 (2007-07-19)
+Add ability to grab trails by section.
+Add an "ontrail" condition (from suggestions by charlequin).
+Version 2.2.0-beta59, 2.2.0-beta60 (2007-07-18)
+Fix problem with upgrade.php on wiki farms (reported by Scott Connard).
+Fix problem with distributed version of Site.AuthUser (reported by Jon Haupt).
+Version 2.2.0-beta58 (2007-07-17)
+Significant change: Site.AuthUser, Site.Blocklist, Site.ApprovedUrls, and Site.NotifyList now appear in the SiteAdmin group by default.
+Note: if you limit groups by setting $GroupPattern, you now need to include SiteAdmin (see Cookbook:LimitWikiGroups)
+Abort if ldap: authentication requested and libraries aren't present.
+Added "upgrades.php" script to handle various migration issues.
+Current PmWiki version is now held in SiteAdmin.Status .
+Fix ?action=postupload to follow ?action=upload settings.
+Improvements to SiteAdmin.AuthList page (suggestions and fixes from Ian MacGregor).
+Allow leading underscores in attachment names (requested by Christophe David).
+Version 2.2.0-beta57 (2007-06-15)
+Fix AsSpacedUTF8() to work like AsSpaced() (reported by Petko).
+Qualify page links that contain parentheses (reported by Petko).
+Fix bug in (:input default $:var ... :) (reported by Crisses).
+Version 2.2.0-beta56 (2007-06-13)
+Fix AsSpaced() to not add spaces before leading digit, and treat hyphenated digits as complete numbers.
+Fix infinite recursion in self-referencing page text variables (PITS:00915).
+Fix bug introduced in beta55 not handling end anchors correctly (reported by Roman).
+Version 2.2.0-beta55 (2007-06-11)
+Fix attributes to (:input e_form:) (PITS:00387, re-reported by Crisses).
+UpdatePage() now calls StopWatch() to record posting.
+Display stopwatch output as part of redirect.
+Fix wiki styles bug when $EnableLinkPageRelative is set (reported by Petko).
+Revise TextSection() code to hopefully avoid pcre limits (reported by Kathryn Andersen, Knut Alboldt).
+Add wrap=inline and wrap=none options to page list.
+Version 2.2.0-beta53, 2.2.0-beta54 (2007-06-02)
+Improve error message reporting for markup rules (suggestion by Knut Alboldt).
+Clean up more E_NOTICE warnings (reported by Ian MacGregor).
+Add focus= option to (:input:) controls.
+Added CSS .faqtoc class, to be able to display only the questions coming from the #includefaq page list template.
+Changed PmWiki.FAQ to use .faqtoc class.
+Fix bug in TextSection (PITS:00935, reported by Jean-Fabrice).
+Fix bug in page list caching of trails.
+Version 2.2.0-beta52 (2007-05-26)
+Add per-PageStore attributes (from a suggestion by Tobias Thelen).
+Add {$PasswdRead}, {$PasswdEdit}, etc. to display page password settings.
+Add Site.AuthList to display all password permissions on a site.
+Reorder $PageListFilters slightly.
+Add "passwd=" option to page list, to return only those pages that have some sort of password attribute on them.
+Add line numbers to StopWatchHTML output.
+Clean up handling of $AuthCascade.
+Version 2.2.0-beta51 (2007-05-23)
+Add fmt=count to page list (reminder from Hans).
+Ignore hidden files in skin directories when searching for .tmpl (suggestion by Stephan Becker).
+Clean up queuing of pages to be updated in .pageindex .
+Reset $LinkTargets() at beginning of each UpdatePage() sequence.
+Version 2.2.0-beta50 (2007-05-22)
+Fix HTML cache when drafts are enabled, or other recipes using CondAuth().
+Prevent page lists with protected pages from HTML cache.
+Version 2.2.0-beta48, 2.2.0-beta49 (2007-05-21)
+Fix spurious value= attribute in <textarea> tag generated by (:input textarea ... :).
+Allow either (:input default ...:) or (:input defaults ...:).
+Fix problem with page text variable handling in (:input defaults:).
+Allow either (:template default:) or (:template defaults:) in page list templates.
+Fix a bug handling dates with suffixes (reported by Crisses).
+Version 2.2.0-beta47 (2007-05-20)
+Fix bug with quote handling in (:include:) options (reported by Hans).
+Version 2.2.0-beta46 (2007-05-19)
+Moved $PageTextVarPatterns definition from scripts/stdmarkup.php to pmwiki.php.
+Ignore Markup() rules that have unresolved $when parameters.
+Fix issue in authuser.php when $auth array isn't set (contributed by Ben Stallings).
+The (:include:) directive now performs template argument processing on the included text.
+Optimized (:pagelist:) slightly when sorting on page variables.
+Refactored (:input ... :) markups.
+Added HandleDispatch(), which allows action handlers to easily redispatch to other actions (and add messages).
+Added FmtTemplateVars(), to perform various template-substitutions.
+Version 2.2.0-beta45 (2007-05-02)
+Update pmwiki's date parsing to use a common routine, recognizing dates within strings and restricting range to 1900-2039.
+Add additional parameter to "date" conditional.
+Add if= option to page list (suggested by Crisses).
+Refactor code to use TextSection() and RetrieveAuthSection() functions.
+The value= parameter to (:input textarea:) now works properly (including values loaded from $InputValues).
+The (:input default:) directive now allows loading input control defaults from another page via the source= parameter.
+Remove automatic call to FmtPageName() in $ROSPatterns.  Add $ROEPatterns (from suggestions by JB and others).
+Fix minor variable bugs in scripts/crypt.php.
+Remove E_NOTICE errors (reported by Hans).
+Fix handling of page variables when pagename is empty or not provided.
+Add $EnableLinkPageRelative configuration option.
+Clean up handling of arguments to {(ftime ...)}.
+Remove mailposts.php call in stdconfig.php (reported by Christophe David).
+Version 2.2.0-beta44 (2007-04-16)
+Fix case conversion of U+027D and U+026B (reported by Petko).
+Add $FTimeFmt to set default formatting for {(ftime)}.
+Add %s conversion to {(ftime)} for systems that don't have it by default.
+Report an error if edit form cannot be read (suggested by Hans).
+Don't report ?cannot acquire lockfile when simply browsing pages.
+Add $EnableReadOnly flag to signal when PmWiki is to be run in read-only mode.
+Version 2.2.0-beta43 (2007-04-15)
+Update drafts code to add $EnablePublishAttr and change button labels when drafts are enabled (PITS:00755).
+Removed no-longer-needed 'compat1x.php' and 'mailposts.php' from distribution.
+Added $DraftRecentChangesFmt.
+Added "markup expressions" {(...)} into the core.
+Added charset= attribute to saved pages.
+Update pagelist.php and xlpage-utf-8.php to handle case-insensitive searches.
+Added some optimizations to phpdiff.php script to produce more useful history information.
+Version 2.2.0-beta42 (2007-03-27)
+Fix a bug with order=title in pagelists (reported by Anno).
+Version 2.2.0-beta41 (2007-03-26)
+Added $EnableWSPre option, which allows easy adjustment of the "leading space -> preformatted text" (or "whitespace") rule.
+Added a new "pre" wikistyle, to designate blocks that are to be treated as preformatted text.
+Version 2.2.0-beta40 (2007-03-24)
+Fix bug with order=title in pagelists when using $Titlespaced (PITS:00906, reported by Feral).
+Report state of allow_url_fopen when downloads fail in blocklist.php.
+Version 2.2.0-beta39 (2007-03-23)
+Allow page variable filters to appear as options in (:template defaults:) (reported by SteP).
+Updated Site.PageListTemplates to use (:template:) directives.
+Remove '#wikileft h1' and '#wikileft h5' from pmwiki default stylesheet.
+Version 2.2.0-beta38 (2007-03-22)
+Strip control characters from $ChangeSummary.
+Fix problem with count=m..n where m..n is outside the range of available pages (reported by SteP).
+Allow (:template default ...:) to specify a class= option.
+Redirect pagename can now include an anchor (PITS:00558)
+Version 2.2.0-beta37 (2007-03-16)
+Allow an optional space after comma separators in wildcard patterns (reported by Han Baas).
+Version 2.2.0-beta36 (2007-03-16)
+Allow nested page text variables to work, remove extraneous ENT_NOQUOTES parameter.
+Add new (:template ...:) directives for PageList templates.
+Modify count= option to pagelists to allow for alternate ranges.
+Version 2.2.0-beta35 (2007-03-05)
+Fix bug in conditional markup parsing (reported by Christophe David).
+Version 2.2.0-beta33, 2.2.0-beta34 (2007-03-01)
+Refactor wildcard handling into its own GlobToPCRE function.
+Allow negated wildcards for page variable filters in pagelists (PITS:00878, reported by Jiri)
+Fix wildcards so that spaces no longer separate patterns (use commas).
+Fix handling of '&' prior to (:input:) and other directives (reported by Luigi).
+Adjust position of %define=...% wiki styles to occur after ampersands.
+Adjust copyright dates on many files.
+Allow spaces around text variable names in page text variable markups.
+ Version 2.2.0-beta32 (2007-02-28)
+Fix erroneous $EnableCreole item in docs/sample-config.php (reported by Sigurd).
+Added (:elseif:) and (:else:) markups (PITS:00787).
+Fix global $Skin variable handling when using SetSkin from within markup.
+Make sure directives aren't treated like page text variables (reported by Petko).
+Remove call to ResolvePageName() from authuser.php .
+Simplify LDAP authentication for Active Directory sites.
+Cache lowercase/uppercase patterns in AsSpacedUTF8().
+Version 2.2.0-beta31 (2007-02-11)
+Fix bug with sorting on pagelist variables (reported by Kathryn Andersen).
+Version 2.2.0-beta29, 2.2.0-beta30 (2007-02-09)
+MakePageName now uses the first matching entry of $PagePathFmt as the home page of groups without a home page.
+Add AsSpacedUTF8() to handle title spacing in utf-8 (PITS:00875, contributed by Petko, Celok)
+Fix $RequestedPage when running with utf-8.
+Add <meta> content-type tag for utf-8.
+Add an experimental caching system for pagelists.
+Fix $SuffixPattern and link suffixes for utf-8 (PITS:00881, reported by ppip).
+Version 2.2.0-beta28 (2007-02-03)
+Update blocklist.php so that all posted fields are checked for block values (PITS:00850).
+Version 2.2.0-beta27 (2007-01-25)
+Fix markup processing sequence for (:input default:), (:input select:), etc. (problem noted by Marc).
+Fix default value of order= parameter to MakePageList().
+
+Version 2.2.0-beta26 (2007-01-23)
+Fix a bug where pagelist list= option had no effect when reading from trails (from an rss problem noted by Russ Fink).
+
+Version 2.2.0-beta24, 2.2.0-beta25 (2007-01-22)
+Add a scripts/creole.php module for Creole markup (http://www.wikicreole.org/).
+Move WikiWords out of the core defaults -- can be enabled via $EnableWikiWords.
+Fix handling of WikiWords following & or #, as in &AElig; and #FFFF00 (reported by Moni Kellermann).
+Adjust FormatTableRow() to support Creole-style tables (using single |'s).
+Update docs/sample-config.php with new configurations and options.
+Added code to allow Abort() to refer to additional information on pmwiki.org.
+Added $EnableSkinDiag, which checks templates for required <!--HTMLHeader--> and <!--HTMLFooter--> directives.
+Removed deprecated $BasicLayoutVars support from skins.php.
+
+Version 2.2.0-beta22, 2.2.0-beta23 (2007-01-17)
+Added $EnableActions, to allow pmwiki.php to be included without generating output (from a suggestion by Wouter Groeneveld).
+Fix bug in "order=" option to (:pagelist:) (reported by Mike Bishop).
+Change DisplayStopWatch() function to StopWatchHTML().
+Allow multiple lines for markup:, wiki:, and page: template directives (reported by Marc)
+
+Version 2.2.0-beta21 (2007-01-12)
+Fix <vspace> bug in searchresults output (PITS:00846, reported by M. Czaplinski, marc, and others).
+Fix numerous E_NOTICE warnings and incorrect constants (PITS:00853, contributed by AndrewFyfe).
+
+Version 2.2.0-beta20 (2007-01-11)
+$FeedPageListOpt needs to be declared global in feeds.php.
+Add "404 Not Found" status code to ?invalid page name aborts (PITS:00854, suggested by Athan).
+Remove stale entries from $PageExistsCache when a new PageStore is added (reported by Hans).
+
+Version 2.2.0-beta19 (2006-12-29)
+Have blocklist check $_POST['text'] only when it is set (from a report by Simon).
+Version 2.2.0-beta18 (2006-12-28)
+Change $pagename parameter in UpdatePage() to be passed by reference (suggestion by J. Meijer).
+Fix $EnableRobotsCloakActions so that it works again with page variables.
+Add "XML Sitemaps" to $RobotPattern.
+Change $MetaRobots to return "nofollow,noindex" for non-existent pages.
+Prefer "404 Not Found" to "403 Forbidden" for robots attempting to do invalid actions on non-existent pages.
+Add rel='nofollow' to "create attachment" links.
+Added class='inputbox' to select boxes (suggested by Hans).
+Added .odt, .ods, and .odp file extensions to allowed uploads (suggested by Algis Kabaila, Robin Sheat, and others).
+Clean up some error warnings (PITS:00801, contributed by psvo).
+Set $ScriptUrl to 'https:' when accessed via SSL link (suggestions from C. Ridderström, H. Fox, PITS:00410, PITS:00527, PITS:00595).
+Fix bug in link= and trail= options to (:pagelist:) (reported by C. Ridderström).
+Version 2.2.0-beta17 (2006-12-13)
+Fix spurious hidden field in (:searchbox:) output (reported by Hans).
+Fix $CaseConversions array for \xc4\xb1 and \xc5\xbf (reported by Petko Yotov).
+Refactor (:input:) markup handling.
+Add (:input select ...:) markup (PITS:00567).
+Add (:input default ...:) markup -- may change before 2.2.0 release.
+Add ability to set defaults for radio/checkbox/select controls.
+Version 2.2.0-beta16 (2006-11-10)
+Fix problem with (:e_preview:) directive when viewing an edit form (reported by Dominique Faure).
+Fix out-of-memory problem in scripts/compat1x.php when dealing with large pages to be converted (contributed by Donald Gordon).
+Fix problem of Variable: lines immediately followed by newline (reported by Hans).
+Fix uninitialized variable errors in FormatTableRow() (reported by Bob Sanders).
+Fix second argument of MakeBaseName() (provided by Stirling Westrup).
+Version 2.2.0-beta15 (2006-10-16)
+Fix bug with displaying multi-line (:var:value:) page text variables (reported by Pico).
+Improve PageStore ls() method slightly, to restrict pagename searches to directories of a given depth (based on an issue reported by Chris Cox).
+Added $IsBlocked status variable to scripts/blocklist.php.
+Added $UnapprovedLink array to report unapproved links.
+Added $TimeISOFmt, $TimeISOZFmt, and $CurrentTimeISO variables.
+Switched scripts/feeds.php to use $TimeISOZFmt instead of $ISOTimeFmt.
+Added request= option to (:pagelist:), switched pagelist to default to not use url/form parameters.
+Fixed bug with array {$$options} in pagelist.
+Version 2.2.0-beta14 (2006-10-06)
+Fix problem with extra parameter to mail when $NotifyParameters is empty (reported by Tom Lederer).
+Improve configurability of $SearchPatterns (from suggestions by Stirling Westrup).
+Add ability for $WikiWordCount to disable wikiword spacing (PITS:00327).
+Version 2.2.0-beta13 (2006-10-04)
+Fix handling of angle brackets (and potential XSS) in pagelists combined with page text variables (noted by Pico).
+Version 2.2.0-beta12 (2006-10-03)
+Added the UpdatePage() function into the core.  
+Version 2.2.0-beta11 (2006-10-03)
+Added ability to automatically create targets.
+Added sample code to docs/sample-config.php for automatic generation of Category.* pages.
+Fixed character escapes in pagelist {$$option} variables.
+Version 2.2.0-beta10 (2006-10-02)
+Added {$$option} variables to get option values from (:pagelist:) (based on a recipe from Martin Fick).
+Changed {$PageCount}, {$GroupPageCount}, and {$GroupCount} to be {$$PageCount}, {$$GroupPageCount}, and {$$GroupCount}.
+Added {$BaseName} page variable and $BaseNamePatterns.
+Version 2.2.0-beta9 (2006-10-01)
+Fix bug with $EnablePageListProtect (reported by Brent Zupp).
+Added ability to select based on page variables in (:pagelist:).
+Version 2.2.0-beta8 (2006-09-30)
+Update scripts/blocklist.php to check only $_POST['text'] instead of entire markup text.
+Fix bug in pagelist.php that wouldn't return correctly formatted array in certain circumstances (noted by Florian Fischer and JDem).
+Version 2.2.0-beta7 (2006-09-30)
+Added scripts/blocklist.php to core.
+Updated handling of $PageTextVarPatterns.
+Eliminated need for extra flush() steps in notify.php, pagelist.php.
+Version 2.2.0-beta6 (2006-09-27)
+Fix bug with initialization of $FeedPageListOpt in scripts/feeds.php (reported by Roman).
+Fix bug with over-eager (:textvar:value:) markup (from a bug reported by Chris Cox).
+Version 2.2.0-beta4, 2.2.0-beta5 (2006-09-27)
+Fix bug with name= option in pagelist (reported by Ben Wilson).
+Fix bug with array_merge under PHP 5 (reported by Kathryn Andersen).
+Version 2.2.0-beta3 (2006-09-26)
+Remove extra <!----> comment at end of table directives (noted by Ben Stallings).
+Fix directive form of page text variables (reported by Kathryn Andersen).
+Add first version of new modular pagelist code.
+Version 2.2.0-beta2 (2006-09-25)
+Add support for {$:var} page text variables, and (:var:...:) markup.
+Fix default setting of $EnableRelativePageVars in docs/sample-config.php .
+Version 2.2.0-beta1 (2006-09-25)
+Added {*$var} page variables (always the currently browsed page).
+Convert link and page variable handling in (:include:) to be relative to the included page.
+Added $EnableRelativePageVars and $EnableRelativePageLinks variables, as well as transition options.
+Added basepage= option to (:include:).
+Updated $GroupHeaderFmt and $GroupFooterFmt to use basepage= option.
+Adjusted $MakePageNamePatterns to automatically strip any #... or ?... from the end of a pagename input string (solution to a problem reported by J. Meijer).
+Version 2.1.27 (2006-12-11)
+Backport in bug fix for TableRowFormat (from 2.2.0-beta16).
+Add support for {*$Variable} syntax (from 2.2.0 page variables).
+Version 2.1.26 (2006-09-11)
+Fix a bug with variable referencing that caused feeds.php to get a confused PCache (reported by Helge Larsen).
+Version 2.1.25 (2006-09-08)
+Fixed a bug in authuser.php that would fail if $AuthUser isn't defined (reported by Hans Huijgen).
+Added <!--XMLHeader--> and <!--XMLFooter--> aliases to <!--HTMLHeader--> and <!--HTMLFooter--> directives in skin templates (suggested by John Rankin).
+Added $PageExistsCache (suggested by John Rankin).
+Version 2.1.24 (2006-09-06)
+Fixed a bug in authuser.php that had trouble dealing with non-array entries in $AuthUser (reported by Udo).
+Can now specify authorization groups using $AuthUser['@group'] entries.
+Can now specify an Apache .htgroup-formatted file for authorization groups via $AuthUser['htgroup'].
+Versions 2.1.21, 2.1.22, 2.1.23 (2006-09-05, 2006-09-06)
+Close a potential security hole with $FarmD when register_globals is set "On".
+Correct a syntax error in feeds.php (noted by Ben Wilson).
+Fix a bug that prevented PmWiki from reading page files generated by versions prior to 0.5.6 (discovered by Milan Avramovic).
+Version 2.1.20 (2006-09-04)
+Fixed a bug in (:attachlist:) when passed a wikiword argument (reported by Kathryn Andersen).
+Changed $HTMLStylesFmt['markup'] to honor config.php setting (reported by Hans).
+Version 2.1.19 (2006-08-30)
+Corrected a bug in the pageindex code that was causing the .pageindex to not update as quickly as it should.
+Slightly changed the handling of 'width' and 'height' in wikistyles.php, so that they can be be applied as attributes to <object> and <embed> tags.
+Updated the Keep() function to recognize closing block tags as being in the 'B' block pool.
+Fixed a bug with wikistyles and form tags.
+Version 2.1.18 (2006-08-28)
+Closed a potential cross-site scripting vulnerability in table markups (reported by JB).
+Added (:input image:) markup (requested by JB).
+Fixed problem with ?action=print failing to set {$Action} (reported by Bart).
+Version 2.1.17 (2006-08-26)
+Added some improvements to IMS caching to better handle logout and authorization actions (PITS:00573, reported by floozy and Henrik Bechmann).
+Version 2.1.16 (2006-08-26)
+Added $SkinLibDirs variable, to select filesystem and url locations where skins may be found (resolves PITS:00708, as reported by Hagan Fox, with additional suggestions from Ben Wilson).
+Changed <!--HeaderText--> to <!--HTMLHeader--> in skin templates, and added an optional <!--HTMLFooter--> directive (PITS:00767).
+Adjusted the pmwiki and print skins to use the new directives.
+Version 2.1.15 (2006-08-25)
+Fixed issue dealing with order of @_site_* passwords (reported by Jean-Fabrice and others).
+Added $LocalDir variable (requested by John Rankin).
+Removed an unnecessary setting of $DefaultPage in scripts/pgcust.php (it's now handled by ResolvePageName() ).
+Added some variables and changes in wikistyles.php to better support wikipublisher (contributed by John Rankin).
+RetrieveAuthPage (PmWikiAuth) now recognizes a $level of 'ALWAYS' as indicating that access should always be allowed, regardless of current passwords or identities.
+Added filter specifier for AuthUser LDAP authentication (contributed by Balu).
+Version 2.1.13, 2.1.14 (2006-08-15, 2006-08-16)
+Updated scripts/authuser.php to allow ldaps://... authentications (contributed by Michael Brenner).
+Fixed problem with numeric passwords introduced in 2.1.beta20 (reported by Christophe David and Dirk Blaas).
+Version 2.1.12 (2006-08-07)
+Corrected typo in Site.SideBar file (reported by Judith Zacharie).
+Suppressed warning message for search on sites without a wikilib.d/ directory.
+Added capability for nested divs.
+Use $Transition['nodivnest'] to restore previous non-nesting div/table behavior.
+Including authuser.php now automatically resolves pagename.
+Added (:noaction:) directive to turn off actions.
+Fixed bug in wikistyles prior to image blocks.
+Added white-space as allowed wikistyle (suggested by C. Ridderström).
+Allow colons, hyphens, and dots in id= tags.
+Version 2.1.11 (2006-06-09)
+Fixed generation of empty paragraphs around %define=...% wikistyles (PITS:00753).
+Version 2.1.10 (2006-06-04)
+Added a <span> around the RecentChanges link in the pmwiki skin (PITS:00750, suggested by Hagan Fox).
+Changed the $Action variable to $ActionTitle (PITS:00749, reported by Hagan Fox).
+Changed $FPLTemplatePageFmt to be an array of pages to be searched for page templates, enabled searching of current page and Site.LocalTemplates page.
+Updated .vspace margin in sidebar for pmwiki skin (PITS:00751, by Hagan Fox).
+Version 2.1.9 (2006-06-02)
+Fixed a bug with [[~Author]] links (PITS:00530 reported by Klonk, PITS:00611 reported by weijang, PITS:00671 reported by Stirling Westrup, and helpful clues provided by Clayton Curtis).
+Version 2.1.8 (2006-06-01)
+Added ability to specify notification entries from local/config.php as well as Site.Notify (suggested by Christophe David).
+Fixed $Transition['vspace'] from 2.1.7.
+Version 2.1.7 (2006-05-31)
+Adjusted width of edit form for IE browsers (contributed by Roman and H. Fox).
+Suppress authentication failure error from LDAP (PITS:00739).
+Fixed problem with invalid page names resulting in redirect loop (PITS:00723, reported by jojoo).
+Added "Group." and "Group/" page name syntax, resolving PITS:00736 (from a suggestion by Pico).
+Changed handling of "vspace" paragraphs.
+Fixed some XSS vulnerabilities in uploads.php and url links (reported by Moritz Naumann, http://moritz-naumann.com).
+Added notify.php script, allowing finer control of email notifications.
+Version 2.1.6 (2006-05-22)
+Optimized performance of urlapprove.php.
+Added (:if auth xyz PageName:) syntax.
+Corrected XSS bug in trails.php.
+Slightly improved performance of free links.
+Restore ability to use hyphens in InterMap links (reported by Henrik Bechmann).
+Version 2.1.4, 2.1.5 (2006-03-29)
+Fixed problem with pagelist-based feeds (PITS:00709, reported by Jon Haupt).
+Added {$Action} page variable. (PITS:00696, reported by Sebastian Pipping).
+Added stripmagic() around variables submitted to authuser.php.
+Fixed problem with multi-term searches containing special characters (PITS:00713, reported by Leo).
+Switched (:attachlist:) to use a natural case sort (suggested by H. Fox).
+Version 2.1.3 (2006-03-17)
+Re-fixed problem with PHP 5.1.1 and lines= option to (:include:) (PITS:00620).
+Fixed empty LDAP password issue (reported by Thomas Lederer).
+Version 2.1.2 (2006-03-16)
+Fixed <h1>/<h2> tag mismatches (PITS:00702, reported by Martin Hason).
+Fixed bug with $AllowPassword and "nopass" (reported by M. Weiner and bram brambring).
+Improved the speed of RSS and other web feeds when $EnablePageListProtect is not set.
+Version 2.1.1 (2006-03-13)
+Fixed a bug with multiple authorization groups as a password (PITS:00699, reported by Ari Epstein).
+Updated the authorization code to be a bit more liberal with password/group settings.
+Updated PmWiki.FAQ page to be able to grab FAQ items from other pages in the documentation.
+Version 2.1.0 (2006-03-12)
+Many many documentation updates (special thanks to many authors).
+Allow trailing underscores in upload names (requested by Hans).
+Fixed 'ak_print' problem causing accesskey='a' for print (noted by Pico).
+Added code to make sure each anchor is generated only once per page (for XHTML validity).
+Added a $BlockPattern variable to recognize block HTML tags.
+Made an adjustment to Keep() so that it places strings with block HTML into the 'B' pool.
+Adjusted stdmarkup.php to not produce paragraphs for keep blocks in the 'B' pool.
+Corrected a variety of i18n phrases.
+Added class='escaped' to distinguish @@...@@ from [@...@] (from a comment by Hans).
+Slightly changed styling of .faq divs.
+Made the edit textarea a couple of rows smaller to better fit on smaller displays (suggested by H. Fox).
+
+ChangeLog Archive - changes prior to version 2.1.0.
+ 
+
+< Release notes | Documentation Index | Glossary >
+
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:ChangeLog, and  a talk page: PmWiki:ChangeLog-Talk.
+
+
+
+
+
+
+ Last modified December 31, 2016, at 09:42 AM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

@@ -1,0 +1,275 @@
+https://ngs.ics.uci.edu/cyber-persona
+
+
+
+
+
+
+
+
+Cyber Persona – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Cyber Persona    			
+
+
+Increasingly many people spend a significant amount of their life in cyberspace.  We participate in professional and social activities through many disfferent mechanisms.  We search for information, we buy things, we communicate, we socialize, we participate in entertainment, we now participate even in political activities.  Of course many people particpate in activities in cyberspace that they normally would not like to talk.  Cyber presence for many of us has become a significant part of our life.  Wil mobile internet increasing its reach, many more will start spending more time in cyberspace.
+It is well known that search engine companies have recruited lots of data mining related researchers and experts to help them in ‘profiling’ users so they can understand their visitors better and provide them better information — but more importantly more targeted advertisements.  The goal of all research in data mining is to analyze what you do to understand you.  In a true sense they are trying create a persona for you.  On surface some people may react negatively to this and call it invasion of privacy, but for a moment, lets ignore the negative aspect of creating a persona in cyber space for a person in real space.  So lets say for each John Doe (JD), we want to create a cyber persona for this John Doe (cJD).  
+What are the key aspects of JD that we should capture in cJD?  I think there are four important dimensions that could represent a cyber persona:
+
+General Info:  Under this you could store all general things like name, current address, any ID numbers that are allowed, marital status, and so forth.
+Personal Networks: This may include information about family members, personal friends, social friends, professional friends, and so on.  This will include other humans that this person may be connected to in some way.
+Preferences: What does this person like?  And this should be stored in all apects ranging from music to clothes, food to electronics, books to people.
+Important Events: Starting from birth to schooling to all other events that may be considered significant for the person.
+
+These four facets represent a person — so a cyber persona should include these factors.  Now suppose that if you have cJD at required level of details then you could really use it to help cJD in many different ways, starting from searching for information to shopping or to make new friends in cyber space.  Effectively cJD can be used as a personal Butler (or say personal assistant) for JD in all his activities in cyber space.
+Some activity has started in this direction.  I feel that this could be very useful, but there are serious issues related to privacy also here.  So to make this successful, one will have to develop methods that will help in creating cJD in a way that privacy issues are not violated.
+
+
+
+By Ramesh |
+    				March 8, 2009 |
+    				             		Experiential Computing |
+             	 
+    				             		8 Comments |
+             	 		          				
+    			
+
+
+← Real Virtuality
+British Grand Challenges →
+
+
+
+			8 thoughts on “Cyber Persona”		
+
+
+Pingback: Posts about Mobile Internet as of March 9, 2009 | IMHO Conferences & Consulting 
+
+
+
+
+Ankit Jain March 9, 2009 at 1:17 pm 
+
+Well, that’s the age of personalization and personalized agents.  Privacy is most important issue an cannot be neglected in such ‘cyber persona’. Keep it at first priority. (I’d like to extend your idea.)
+Privacy issues can be handled by giving each user his personalized software agent, that interacts with real world and remains in the limits of user’s consent.
+A lot of research has been going on in ‘software agents’ and their interop alternatives. Certainly, I think it will take at least 5 years down the lane to have various (Internet) agents communicate with each other. The day when you have a software installed on your machine (NLP capable), you dictate ‘what’s weather out there?’, it searches for available weather agents in the ‘directory’, downloads and installs one, and start communication with it… giving u update within seconds. Or say you want to book ticket, then u have railway-booking agent out there 🙂 .
+– ankit
+
+
+
+
+
+
+
+
+Knowledgebase March 11, 2009 at 12:40 am 
+
+Fantastic , really good explanationnnnnnnn……
+ As per you view , even i think that those data mining may violate the security problems . So they should take necessary steps so that customer privacy is the main concept ……………
+
+
+
+
+
+
+
+
+Fris Arvz March 12, 2009 at 2:47 am 
+
+As for me… When i create a cyber persona, its not a complete mirror of what really I am… It has a little bit difference… Of course, I have different approach in cyberspace and in real world.
+
+
+
+
+
+
+
+
+MarkM March 12, 2009 at 4:54 am 
+
+In marketing segmentation, data crunchers look at macro data about you and infer things about how you behave or your propensity to spend. They can do this based on your postal address, for example. It does not have any privacy implications if it is done at this level. 
+There are two things we need to do to build the persona that you mention IMO. 
+ 1 Recognise and seperate business and personal behavior online – the same person could do different things in different contexts.
+2 Focus on behaviors and demographics, rather than events – who can tell if you are buying a wedding dress for yourself, for your daughter, or for your best friend.
+
+
+
+
+
+
+
+
+Ramesh  Post authorMarch 13, 2009 at 8:06 pm 
+
+And that will be true for many people.  Of course then the response in cyber world will depending on the cyber persona.
+
+
+
+
+
+
+
+
+Pelle Pelle March 13, 2009 at 8:25 pm 
+
+There are bits of software to help you do this today.  For example wallet or one password type applications that let you keep your information handy for easy/secure online shopping.  Then you have facebook, linkedin, myspace, etc which allow you to control how much of your cJD is public and how much is private or only shared to a trusted group (aka friends and family).
+So many services today already are starting down the path of creating, storing and managing cJD but I agree it would be great to:
+ a) standardize
+b) ensure privacy levels
+and
+c) centralize that data
+The question is who do you trust to hold this data for you?  Yahoo, Google, Microsoft?  Facebook, MySpace?  Or a new service just for this purpose not tied to a particular company or application.
+
+
+
+
+
+
+
+
+Chinese Dress May 17, 2009 at 9:40 pm 
+
+For me, that is one of the best thing to do in cyberspace in order for us to be safe from any harm that existed now over the web. Through cyberspace persona we can easily determine who are the responsible for doing such crime. 
+We all know that web nowadays is very famous, even a one year old kids know about it.. So need need to have an identification.
+
+
+
+
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

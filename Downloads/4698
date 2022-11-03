@@ -1,0 +1,1169 @@
+https://isg.ics.uci.edu/publications/?limit=3&
+
+
+
+
+
+
+Publications – Information Systems Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+
+Faculty
+Students
+Recent Alumni
+Research Staff
+Visitors
+
+
+Research
+
+Projects
+Publications
+
+
+Teaching
+
+Courses
+DB Qual
+
+
+Events
+
+Talks
+News
+
+
+About
+
+Sponsors & Partners
+Visitor Info
+Contact us
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Publications
+
+179 entries « ‹  3 of 4 › » 
+
+2014
+
+ Zhang, Liyan;  Kalashnikov, Dmitri V;  Mehrotra, SharadContext-assisted face clustering framework with human-in-the-loop Journal Article IJMIR, 3 (2), pp. 69–88, 2014.Links | BibTeX@article{DBLP:journals/ijmir/ZhangKM14,
+title = {Context-assisted face clustering framework with human-in-the-loop},
+author = {Liyan Zhang and Dmitri V Kalashnikov and Sharad Mehrotra},
+url = {https://doi.org/10.1007/s13735-014-0052-1},
+doi = {10.1007/s13735-014-0052-1},
+year  = {2014},
+date = {2014-01-01},
+journal = {IJMIR},
+volume = {3},
+number = {2},
+pages = {69--88},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1007/s13735-014-0052-1doi:10.1007/s13735-014-0052-1Close Xu, Jie;  Kalashnikov, Dmitri V;  Mehrotra, SharadEfficient Summarization Framework for Multi-attribute Uncertain Data Inproceedings Proceedings of the 2014 ACM SIGMOD International Conference on Management of Data, pp. 421–432, ACM, Snowbird, Utah, USA, 2014, ISBN: 978-1-4503-2376-5.Links | BibTeX@inproceedings{Xu:2014:ESF:2588555.2588580,
+title = {Efficient Summarization Framework for Multi-attribute Uncertain Data},
+author = {Jie Xu and Dmitri V Kalashnikov and Sharad Mehrotra},
+url = {http://doi.acm.org/10.1145/2588555.2588580},
+doi = {10.1145/2588555.2588580},
+isbn = {978-1-4503-2376-5},
+year  = {2014},
+date = {2014-01-01},
+booktitle = {Proceedings of the 2014 ACM SIGMOD International Conference on Management of Data},
+pages = {421--432},
+publisher = {ACM},
+address = {Snowbird, Utah, USA},
+series = {SIGMOD '14},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.acm.org/10.1145/2588555.2588580doi:10.1145/2588555.2588580Close ş, Hakan Hac{i}gümü;  Iyer, Bala;  Mehrotra, SharadSecure Computation on Outsourced Data: A 10-year Retrospective Inproceedings  Bhowmick, Sourav S;  Dyreson, Curtis E;  Jensen, Christian S;  Lee, Mong Li;  Muliantara, Agus;  Thalheim, Bernhard (Ed.): Database Systems for Advanced Applications, pp. 16–27, Springer International Publishing, Cham, 2014, ISBN: 978-3-319-05810-8.Abstract | BibTeX@inproceedings{10.1007/978-3-319-05810-8_2,
+title = {Secure Computation on Outsourced Data: A 10-year Retrospective},
+author = {Hakan Hac{i}gümü{ş} and Bala Iyer and Sharad Mehrotra},
+editor = {Sourav S Bhowmick and Curtis E Dyreson and Christian S Jensen and Mong Li Lee and Agus Muliantara and Bernhard Thalheim},
+isbn = {978-3-319-05810-8},
+year  = {2014},
+date = {2014-01-01},
+booktitle = {Database Systems for Advanced Applications},
+pages = {16--27},
+publisher = {Springer International Publishing},
+address = {Cham},
+abstract = {This paper outlines the ``behind the scene'' story of how we wrote the DASFAA 2004 paper on secure computation on outsourced data to support SQL aggregation queries. We then describe some of the research we have done following the paper.},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+CloseThis paper outlines the ``behind the scene'' story of how we wrote the DASFAA 2004 paper on secure computation on outsourced data to support SQL aggregation queries. We then describe some of the research we have done following the paper.Close Kim, Kyungbaek;  Mehrotra, Sharad;  Venkatasubramanian, NaliniEfficient and Reliable Application Layer Multicast for Flash Dissemination Journal Article IEEE Trans. Parallel Distrib. Syst., 25 (10), pp. 2571–2582, 2014.Links | BibTeX@article{DBLP:journals/tpds/KimMV14,
+title = {Efficient and Reliable Application Layer Multicast for Flash Dissemination},
+author = {Kyungbaek Kim and Sharad Mehrotra and Nalini Venkatasubramanian},
+url = {https://doi.org/10.1109/TPDS.2013.280},
+doi = {10.1109/TPDS.2013.280},
+year  = {2014},
+date = {2014-01-01},
+journal = {IEEE Trans. Parallel Distrib. Syst.},
+volume = {25},
+number = {10},
+pages = {2571--2582},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/TPDS.2013.280doi:10.1109/TPDS.2013.280Close Vaisenberg, Ronen;  Motta, Alessio Della;  Mehrotra, Sharad;  Ramanan, DevaScheduling sensors for monitoring sentient spaces using an approximate 
+POMDP policy Journal Article Pervasive and Mobile Computing, 10 , pp. 83–103, 2014.Links | BibTeX@article{DBLP:journals/percom/VaisenbergMMR14,
+title = {Scheduling sensors for monitoring sentient spaces using an approximate 
+POMDP policy},
+author = {Ronen Vaisenberg and Alessio Della Motta and Sharad Mehrotra and Deva Ramanan},
+url = {https://doi.org/10.1016/j.pmcj.2013.10.014},
+doi = {10.1016/j.pmcj.2013.10.014},
+year  = {2014},
+date = {2014-01-01},
+journal = {Pervasive and Mobile Computing},
+volume = {10},
+pages = {83--103},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1016/j.pmcj.2013.10.014doi:10.1016/j.pmcj.2013.10.014Close Zhang, Liyan;  Kalashnikov, Dmitri V;  Mehrotra, Sharad;  Vaisenberg, RonenContext-based person identification framework for smart video surveillance Journal Article Mach. Vis. Appl., 25 (7), pp. 1711–1725, 2014.Links | BibTeX@article{DBLP:journals/mva/ZhangKMV14,
+title = {Context-based person identification framework for smart video surveillance},
+author = {Liyan Zhang and Dmitri V Kalashnikov and Sharad Mehrotra and Ronen Vaisenberg},
+url = {https://doi.org/10.1007/s00138-013-0535-8},
+doi = {10.1007/s00138-013-0535-8},
+year  = {2014},
+date = {2014-01-01},
+journal = {Mach. Vis. Appl.},
+volume = {25},
+number = {7},
+pages = {1711--1725},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1007/s00138-013-0535-8doi:10.1007/s00138-013-0535-8Close Saini, Mukesh Kumar;  Atrey, Pradeep K;  Mehrotra, Sharad;  Kankanhalli, Mohan SW3-privacy: understanding what, when, and where inference channels 
+in multi-camera surveillance video Journal Article Multimedia Tools Appl., 68 (1), pp. 135–158, 2014.Links | BibTeX@article{DBLP:journals/mta/SainiAMK14,
+title = {W3-privacy: understanding what, when, and where inference channels 
+in multi-camera surveillance video},
+author = {Mukesh Kumar Saini and Pradeep K Atrey and Sharad Mehrotra and Mohan S Kankanhalli},
+url = {https://doi.org/10.1007/s11042-012-1207-9},
+doi = {10.1007/s11042-012-1207-9},
+year  = {2014},
+date = {2014-01-01},
+journal = {Multimedia Tools Appl.},
+volume = {68},
+number = {1},
+pages = {135--158},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1007/s11042-012-1207-9doi:10.1007/s11042-012-1207-9Close
+
+2013
+
+ Oktay, Kerim Yasin;  Khadilkar, Vaibhav;  Kantarcioglu, Murat;  Mehrotra, SharadRisk Aware Approach to Data Confidentiality in Cloud Computing Inproceedings Information Systems Security - 9th International Conference, ICISS 
+2013, Kolkata, India, December 16-20, 2013. Proceedings, pp. 27–42, 2013.Links | BibTeX@inproceedings{DBLP:conf/iciss/OktayKKM13,
+title = {Risk Aware Approach to Data Confidentiality in Cloud Computing},
+author = {Kerim Yasin Oktay and Vaibhav Khadilkar and Murat Kantarcioglu and Sharad Mehrotra},
+url = {https://doi.org/10.1007/978-3-642-45204-8_3},
+doi = {10.1007/978-3-642-45204-8_3},
+year  = {2013},
+date = {2013-01-01},
+booktitle = {Information Systems Security - 9th International Conference, ICISS 
+2013, Kolkata, India, December 16-20, 2013. Proceedings},
+pages = {27--42},
+crossref = {DBLP:conf/iciss/2013},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1007/978-3-642-45204-8_3doi:10.1007/978-3-642-45204-8_3Close Adam, Nabil;  Stiles, Randy;  Zimdars, Andrew;  Timmons, Ryan;  Leung, Jackie;  Stachnick, Greg;  Merrick, Jeff;  Coop, Robert;  Slavin, Vadim A;  Kruglikov, Tanya;  Galmiche, John;  Mehrotra, SharadConsequence analysis of complex events on critical U.S. infrastructure Journal Article Commun. ACM, 56 (6), pp. 83–91, 2013.Links | BibTeX@article{DBLP:journals/cacm/AdamSZTLSMCSKGM13,
+title = {Consequence analysis of complex events on critical U.S. infrastructure},
+author = {Nabil Adam and Randy Stiles and Andrew Zimdars and Ryan Timmons and Jackie Leung and Greg Stachnick and Jeff Merrick and Robert Coop and Vadim A Slavin and Tanya Kruglikov and John Galmiche and Sharad Mehrotra},
+url = {http://doi.acm.org/10.1145/2461256.2461276},
+doi = {10.1145/2461256.2461276},
+year  = {2013},
+date = {2013-01-01},
+journal = {Commun. ACM},
+volume = {56},
+number = {6},
+pages = {83--91},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://doi.acm.org/10.1145/2461256.2461276doi:10.1145/2461256.2461276Close Jammalamadaka, Ravi Chandra;  Gamboni, Roberto;  Mehrotra, Sharad;  Seamons, Kent E;  Venkatasubramanian, NaliniA middleware approach for outsourcing data securely Journal Article Computers & Security, 32 , pp. 252–266, 2013.Links | BibTeX@article{DBLP:journals/compsec/JammalamadakaGMSV13,
+title = {A middleware approach for outsourcing data securely},
+author = {Ravi Chandra Jammalamadaka and Roberto Gamboni and Sharad Mehrotra and Kent E Seamons and Nalini Venkatasubramanian},
+url = {https://doi.org/10.1016/j.cose.2012.07.005},
+doi = {10.1016/j.cose.2012.07.005},
+year  = {2013},
+date = {2013-01-01},
+journal = {Computers & Security},
+volume = {32},
+pages = {252--266},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1016/j.cose.2012.07.005doi:10.1016/j.cose.2012.07.005Close Mehrotra, Sharad;  Qiu, Xiaogang;  Cao, Zhidong;  Tate, AustinTechnological Challenges in Emergency Response Journal Article IEEE Intelligent Systems, 28 (4), pp. 5–8, 2013.Links | BibTeX@article{DBLP:journals/expert/MehrotraQCT13,
+title = {Technological Challenges in Emergency Response},
+author = {Sharad Mehrotra and Xiaogang Qiu and Zhidong Cao and Austin Tate},
+url = {https://doi.org/10.1109/MIS.2013.118},
+doi = {10.1109/MIS.2013.118},
+year  = {2013},
+date = {2013-01-01},
+journal = {IEEE Intelligent Systems},
+volume = {28},
+number = {4},
+pages = {5--8},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/MIS.2013.118doi:10.1109/MIS.2013.118Close Li, Chen;  Mehrotra, Sharad;  Jin, LiangRecord Linkage: A 10-Year Retrospective Inproceedings Database Systems for Advanced Applications, 18th International Conference, 
+DASFAA 2013, Wuhan, China, April 22-25, 2013. Proceedings, Part 
+I, pp. 3–12, 2013.Links | BibTeX@inproceedings{DBLP:conf/dasfaa/LiMJ13,
+title = {Record Linkage: A 10-Year Retrospective},
+author = {Chen Li and Sharad Mehrotra and Liang Jin},
+url = {https://doi.org/10.1007/978-3-642-37487-6_3},
+doi = {10.1007/978-3-642-37487-6_3},
+year  = {2013},
+date = {2013-01-01},
+booktitle = {Database Systems for Advanced Applications, 18th International Conference, 
+DASFAA 2013, Wuhan, China, April 22-25, 2013. Proceedings, Part 
+I},
+pages = {3--12},
+crossref = {DBLP:conf/dasfaa/2013-1},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1007/978-3-642-37487-6_3doi:10.1007/978-3-642-37487-6_3Close Altwaijry, Hotham;  Kalashnikov, Dmitri V;  Mehrotra, SharadQuery-Driven Approach to Entity Resolution Journal Article PVLDB, 6 (14), pp. 1846–1857, 2013.Links | BibTeX@article{DBLP:journals/pvldb/AltwaijryKM13,
+title = {Query-Driven Approach to Entity Resolution},
+author = {Hotham Altwaijry and Dmitri V Kalashnikov and Sharad Mehrotra},
+url = {http://www.vldb.org/pvldb/vol6/p1846-altwaijry.pdf},
+doi = {10.14778/2556549.2556567},
+year  = {2013},
+date = {2013-01-01},
+journal = {PVLDB},
+volume = {6},
+number = {14},
+pages = {1846--1857},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://www.vldb.org/pvldb/vol6/p1846-altwaijry.pdfdoi:10.14778/2556549.2556567Close Kalashnikov, Dmitri VSuper-EGO: fast multi-dimensional similarity join Journal Article VLDB J., 22 (4), pp. 561–585, 2013.Links | BibTeX@article{DBLP:journals/vldb/Kalashnikov13,
+title = {Super-EGO: fast multi-dimensional similarity join},
+author = {Dmitri V Kalashnikov},
+url = {https://doi.org/10.1007/s00778-012-0305-7},
+doi = {10.1007/s00778-012-0305-7},
+year  = {2013},
+date = {2013-01-01},
+journal = {VLDB J.},
+volume = {22},
+number = {4},
+pages = {561--585},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1007/s00778-012-0305-7doi:10.1007/s00778-012-0305-7Close Zhang, Liyan;  Kalashnikov, Dmitri V;  Mehrotra, SharadA unified framework for context assisted face clustering Inproceedings International Conference on Multimedia Retrieval, ICMR'13, Dallas, 
+TX, USA, April 16-19, 2013, pp. 9–16, 2013.Links | BibTeX@inproceedings{DBLP:conf/mir/ZhangKM13,
+title = {A unified framework for context assisted face clustering},
+author = {Liyan Zhang and Dmitri V Kalashnikov and Sharad Mehrotra},
+url = {http://doi.acm.org/10.1145/2461466.2461469},
+doi = {10.1145/2461466.2461469},
+year  = {2013},
+date = {2013-01-01},
+booktitle = {International Conference on Multimedia Retrieval, ICMR'13, Dallas, 
+TX, USA, April 16-19, 2013},
+pages = {9--16},
+crossref = {DBLP:conf/mir/2013},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.acm.org/10.1145/2461466.2461469doi:10.1145/2461466.2461469Close Vaisenberg, Ronen;  Motta, Alessio Della;  Mehrotra, Sharad;  Ramanan, DevaScheduling sensors for monitoring sentient spaces using an approximate 
+POMDP policy Inproceedings 2013 IEEE International Conference on Pervasive Computing and Communications, 
+PerCom 2013, San Diego, CA, USA, March 18-22, 2013, pp. 141–150, 2013.Links | BibTeX@inproceedings{DBLP:conf/percom/VaisenbergMMR13,
+title = {Scheduling sensors for monitoring sentient spaces using an approximate 
+POMDP policy},
+author = {Ronen Vaisenberg and Alessio Della Motta and Sharad Mehrotra and Deva Ramanan},
+url = {https://doi.org/10.1109/PerCom.2013.6526724},
+doi = {10.1109/PerCom.2013.6526724},
+year  = {2013},
+date = {2013-01-01},
+booktitle = {2013 IEEE International Conference on Pervasive Computing and Communications, 
+PerCom 2013, San Diego, CA, USA, March 18-22, 2013},
+pages = {141--150},
+crossref = {DBLP:conf/percom/2013},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/PerCom.2013.6526724doi:10.1109/PerCom.2013.6526724Close Saini, Mukesh Kumar;  Atrey, Pradeep K;  Mehrotra, Sharad;  Kankanhalli, Mohan SPrivacy aware publication of surveillance video Journal Article IJTMCC, 1 (1), pp. 23–51, 2013.Links | BibTeX@article{DBLP:journals/ijtmcc/SainiAMK13,
+title = {Privacy aware publication of surveillance video},
+author = {Mukesh Kumar Saini and Pradeep K Atrey and Sharad Mehrotra and Mohan S Kankanhalli},
+url = {https://doi.org/10.1504/IJTMCC.2013.052523},
+doi = {10.1504/IJTMCC.2013.052523},
+year  = {2013},
+date = {2013-01-01},
+journal = {IJTMCC},
+volume = {1},
+number = {1},
+pages = {23--51},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1504/IJTMCC.2013.052523doi:10.1504/IJTMCC.2013.052523Close Deshpande, Mayur;  Kim, Kyungbaek;  Hore, Bijit;  Mehrotra, Sharad;  Venkatasubramanian, NaliniReCREW: A Reliable Flash-Dissemination System Journal Article IEEE Trans. Computers, 62 (7), pp. 1432–1446, 2013.Links | BibTeX@article{DBLP:journals/tc/DeshpandeKHMV13,
+title = {ReCREW: A Reliable Flash-Dissemination System},
+author = {Mayur Deshpande and Kyungbaek Kim and Bijit Hore and Sharad Mehrotra and Nalini Venkatasubramanian},
+url = {https://doi.org/10.1109/TC.2012.68},
+doi = {10.1109/TC.2012.68},
+year  = {2013},
+date = {2013-01-01},
+journal = {IEEE Trans. Computers},
+volume = {62},
+number = {7},
+pages = {1432--1446},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/TC.2012.68doi:10.1109/TC.2012.68Close Nuray-Turan, Rabia;  Kalashnikov, Dmitri V;  Mehrotra, SharadAdaptive Connection Strength Models for Relationship-Based Entity Resolution Journal Article J. Data and Information Quality, 4 (2), pp. 8:1–8:22, 2013.Links | BibTeX@article{DBLP:journals/jdiq/Nuray-TuranKM13,
+title = {Adaptive Connection Strength Models for Relationship-Based Entity Resolution},
+author = {Rabia Nuray-Turan and Dmitri V Kalashnikov and Sharad Mehrotra},
+url = {http://doi.acm.org/10.1145/2435221.2435224},
+doi = {10.1145/2435221.2435224},
+year  = {2013},
+date = {2013-01-01},
+journal = {J. Data and Information Quality},
+volume = {4},
+number = {2},
+pages = {8:1--8:22},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://doi.acm.org/10.1145/2435221.2435224doi:10.1145/2435221.2435224Close Mehrotra, Sharad;  Qiu, Xiaogang;  Cao, Zhidong;  Tate, AustinTechnological Challenges in Emergency Response Journal Article IEEE Intelligent Systems, 28 (4), pp. 5–8, 2013.Links | BibTeX@article{DBLP:journals/expert/MehrotraQCT13b,
+title = {Technological Challenges in Emergency Response},
+author = {Sharad Mehrotra and Xiaogang Qiu and Zhidong Cao and Austin Tate},
+url = {https://doi.org/10.1109/MIS.2013.118},
+doi = {10.1109/MIS.2013.118},
+year  = {2013},
+date = {2013-01-01},
+journal = {IEEE Intelligent Systems},
+volume = {28},
+number = {4},
+pages = {5--8},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/MIS.2013.118doi:10.1109/MIS.2013.118Close
+
+2012
+
+ Khadilkar, Vaibhav;  Oktay, Kerim Yasin;  Kantarcioglu, Murat;  Mehrotra, SharadSecure Data Processing over Hybrid Clouds Journal Article IEEE Data Eng. Bull., 35 (4), pp. 46–54, 2012.Links | BibTeX@article{DBLP:journals/debu/KhadilkarOKM12,
+title = {Secure Data Processing over Hybrid Clouds},
+author = {Vaibhav Khadilkar and Kerim Yasin Oktay and Murat Kantarcioglu and Sharad Mehrotra},
+url = {http://sites.computer.org/debull/A12dec/hybrid.pdf},
+year  = {2012},
+date = {2012-01-01},
+journal = {IEEE Data Eng. Bull.},
+volume = {35},
+number = {4},
+pages = {46--54},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://sites.computer.org/debull/A12dec/hybrid.pdfClose Adam, Nabil;  Eledath, Jayan;  Mehrotra, Sharad;  Venkatasubramanian, NaliniSocial media alert and response to threats to citizens (SMART-C) Inproceedings 8th International Conference on Collaborative Computing: Networking, 
+Applications and Worksharing, CollaborateCom 2012, Pittsburgh, PA, 
+USA, October 14-17, 2012, pp. 181–189, 2012.Links | BibTeX@inproceedings{DBLP:conf/colcom/AdamEMV12,
+title = {Social media alert and response to threats to citizens (SMART-C)},
+author = {Nabil Adam and Jayan Eledath and Sharad Mehrotra and Nalini Venkatasubramanian},
+url = {https://doi.org/10.4108/icst.collaboratecom.2012.250713},
+doi = {10.4108/icst.collaboratecom.2012.250713},
+year  = {2012},
+date = {2012-01-01},
+booktitle = {8th International Conference on Collaborative Computing: Networking, 
+Applications and Worksharing, CollaborateCom 2012, Pittsburgh, PA, 
+USA, October 14-17, 2012},
+pages = {181--189},
+crossref = {DBLP:conf/colcom/2012},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.4108/icst.collaboratecom.2012.250713doi:10.4108/icst.collaboratecom.2012.250713Close Hore, Bijit;  Chang, Ee-Chien;  Diallo, Mamadou H;  Mehrotra, SharadIndexing Encrypted Documents for Supporting Efficient Keyword Search Inproceedings Secure Data Management - 9th VLDB Workshop, SDM 2012, Istanbul, 
+Turkey, August 27, 2012. Proceedings, pp. 93–110, 2012.Links | BibTeX@inproceedings{DBLP:conf/sdmw/HoreCDM12,
+title = {Indexing Encrypted Documents for Supporting Efficient Keyword Search},
+author = {Bijit Hore and Ee-Chien Chang and Mamadou H Diallo and Sharad Mehrotra},
+url = {https://doi.org/10.1007/978-3-642-32873-2_7},
+doi = {10.1007/978-3-642-32873-2_7},
+year  = {2012},
+date = {2012-01-01},
+booktitle = {Secure Data Management - 9th VLDB Workshop, SDM 2012, Istanbul, 
+Turkey, August 27, 2012. Proceedings},
+pages = {93--110},
+crossref = {DBLP:conf/sdmw/2012},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1007/978-3-642-32873-2_7doi:10.1007/978-3-642-32873-2_7Close Oktay, Kerim Yasin;  Khadilkar, Vaibhav;  Hore, Bijit;  Kantarcioglu, Murat;  Mehrotra, Sharad;  Thuraisingham, Bhavani MRisk-Aware Workload Distribution in Hybrid Clouds Inproceedings 2012 IEEE Fifth International Conference on Cloud Computing, Honolulu, 
+HI, USA, June 24-29, 2012, pp. 229–236, 2012.Links | BibTeX@inproceedings{DBLP:conf/IEEEcloud/OktayKHKMT12,
+title = {Risk-Aware Workload Distribution in Hybrid Clouds},
+author = {Kerim Yasin Oktay and Vaibhav Khadilkar and Bijit Hore and Murat Kantarcioglu and Sharad Mehrotra and Bhavani M Thuraisingham},
+url = {https://doi.org/10.1109/CLOUD.2012.128},
+doi = {10.1109/CLOUD.2012.128},
+year  = {2012},
+date = {2012-01-01},
+booktitle = {2012 IEEE Fifth International Conference on Cloud Computing, Honolulu, 
+HI, USA, June 24-29, 2012},
+pages = {229--236},
+crossref = {DBLP:conf/IEEEcloud/2012},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/CLOUD.2012.128doi:10.1109/CLOUD.2012.128Close Diallo, Mamadou H;  Hore, Bijit;  Chang, Ee-Chien;  Mehrotra, Sharad;  Venkatasubramanian, NaliniCloudProtect: Managing Data Privacy in Cloud Applications Inproceedings 2012 IEEE Fifth International Conference on Cloud Computing, Honolulu, 
+HI, USA, June 24-29, 2012, pp. 303–310, 2012.Links | BibTeX@inproceedings{DBLP:conf/IEEEcloud/DialloHCMV12,
+title = {CloudProtect: Managing Data Privacy in Cloud Applications},
+author = {Mamadou H Diallo and Bijit Hore and Ee-Chien Chang and Sharad Mehrotra and Nalini Venkatasubramanian},
+url = {https://doi.org/10.1109/CLOUD.2012.122},
+doi = {10.1109/CLOUD.2012.122},
+year  = {2012},
+date = {2012-01-01},
+booktitle = {2012 IEEE Fifth International Conference on Cloud Computing, Honolulu, 
+HI, USA, June 24-29, 2012},
+pages = {303--310},
+crossref = {DBLP:conf/IEEEcloud/2012},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/CLOUD.2012.122doi:10.1109/CLOUD.2012.122Close Bu, Yingyi;  Howe, Bill;  Balazinska, Magdalena;  Ernst, Michael DThe HaLoop approach to large-scale iterative data analysis Journal Article VLDB J., 21 (2), pp. 169–190, 2012.Links | BibTeX@article{DBLP:journals/vldb/BuHBE12,
+title = {The HaLoop approach to large-scale iterative data analysis},
+author = {Yingyi Bu and Bill Howe and Magdalena Balazinska and Michael D Ernst},
+url = {https://doi.org/10.1007/s00778-012-0269-7},
+doi = {10.1007/s00778-012-0269-7},
+year  = {2012},
+date = {2012-01-01},
+journal = {VLDB J.},
+volume = {21},
+number = {2},
+pages = {169--190},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1007/s00778-012-0269-7doi:10.1007/s00778-012-0269-7Close Jalali, Leila;  Talcott, Carolyn L;  Venkatasubramanian, Nalini;  Mehrotra, SharadFormal specification of multisimulations using Maude Inproceedings 2012 Spring Simulation Multiconference, SpringSim '12, Orlando, FL, 
+USA, March 26-29, 2012, Proceedings of the 2012 Symposium on Theory 
+of Modeling and Simulation - DEVS Integrative M&S Symposium, pp. 22, 2012.Links | BibTeX@inproceedings{DBLP:conf/springsim/JalaliTVM12,
+title = {Formal specification of multisimulations using Maude},
+author = {Leila Jalali and Carolyn L Talcott and Nalini Venkatasubramanian and Sharad Mehrotra},
+url = {http://dl.acm.org/citation.cfm?id=2346638},
+year  = {2012},
+date = {2012-01-01},
+booktitle = {2012 Spring Simulation Multiconference, SpringSim '12, Orlando, FL, 
+USA, March 26-29, 2012, Proceedings of the 2012 Symposium on Theory 
+of Modeling and Simulation - DEVS Integrative M&S Symposium},
+pages = {22},
+crossref = {DBLP:conf/springsim/2012-4},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://dl.acm.org/citation.cfm?id=2346638Close Saini, Mukesh Kumar;  Atrey, Pradeep K;  Mehrotra, Sharad;  Kankanhalli, Mohan SAdaptive Transformation for Robust Privacy Protection in Video Surveillance Journal Article Adv. in MM, 2012 , pp. 639649:1–639649:14, 2012.Links | BibTeX@article{DBLP:journals/amm/SainiAMK12,
+title = {Adaptive Transformation for Robust Privacy Protection in Video Surveillance},
+author = {Mukesh Kumar Saini and Pradeep K Atrey and Sharad Mehrotra and Mohan S Kankanhalli},
+url = {https://doi.org/10.1155/2012/639649},
+doi = {10.1155/2012/639649},
+year  = {2012},
+date = {2012-01-01},
+journal = {Adv. in MM},
+volume = {2012},
+pages = {639649:1--639649:14},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1155/2012/639649doi:10.1155/2012/639649Close Nuray-Turan, Rabia;  Kalashnikov, Dmitri V;  Mehrotra, SharadExploiting Web querying for Web people search Journal Article ACM Trans. Database Syst., 37 (1), pp. 7:1–7:41, 2012.Links | BibTeX@article{DBLP:journals/tods/Nuray-TuranKM12,
+title = {Exploiting Web querying for Web people search},
+author = {Rabia Nuray-Turan and Dmitri V Kalashnikov and Sharad Mehrotra},
+url = {http://doi.acm.org/10.1145/2109196.2109203},
+doi = {10.1145/2109196.2109203},
+year  = {2012},
+date = {2012-01-01},
+journal = {ACM Trans. Database Syst.},
+volume = {37},
+number = {1},
+pages = {7:1--7:41},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://doi.acm.org/10.1145/2109196.2109203doi:10.1145/2109196.2109203Close Grover, Raman;  Carey, Michael JExtending Map-Reduce for Efficient Predicate-Based Sampling Inproceedings IEEE 28th International Conference on Data Engineering (ICDE 2012), 
+Washington, DC, USA (Arlington, Virginia), 1-5 April, 2012, pp. 486–497, 2012.Links | BibTeX@inproceedings{DBLP:conf/icde/GroverC12,
+title = {Extending Map-Reduce for Efficient Predicate-Based Sampling},
+author = {Raman Grover and Michael J Carey},
+url = {https://doi.org/10.1109/ICDE.2012.104},
+doi = {10.1109/ICDE.2012.104},
+year  = {2012},
+date = {2012-01-01},
+booktitle = {IEEE 28th International Conference on Data Engineering (ICDE 2012), 
+Washington, DC, USA (Arlington, Virginia), 1-5 April, 2012},
+pages = {486--497},
+crossref = {DBLP:conf/icde/2012},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ICDE.2012.104doi:10.1109/ICDE.2012.104Close Nuray-Turan, Rabia;  Kalashnikov, Dmitri V;  Mehrotra, Sharad;  Yu, YamingAttribute and Object Selection Queries on Objects with Probabilistic Attributes Journal Article ACM Trans. Database Syst., 37 (1), pp. 3:1–3:41, 2012, ISSN: 0362-5915.Links | BibTeX@article{Nuray-Turan:2012:AOS:2109196.2109199,
+title = {Attribute and Object Selection Queries on Objects with Probabilistic Attributes},
+author = {Rabia Nuray-Turan and Dmitri V Kalashnikov and Sharad Mehrotra and Yaming Yu},
+url = {http://doi.acm.org/10.1145/2109196.2109199},
+doi = {10.1145/2109196.2109199},
+issn = {0362-5915},
+year  = {2012},
+date = {2012-01-01},
+journal = {ACM Trans. Database Syst.},
+volume = {37},
+number = {1},
+pages = {3:1--3:41},
+publisher = {ACM},
+address = {New York, NY, USA},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://doi.acm.org/10.1145/2109196.2109199doi:10.1145/2109196.2109199Close Hore, Bijit;  Mehrotra, Sharad;  Canim, Mustafa;  Kantarcioglu, MuratSecure multidimensional range queries over outsourced data Journal Article VLDB J., 21 (3), pp. 333–358, 2012.Links | BibTeX@article{DBLP:journals/vldb/HoreMCK12,
+title = {Secure multidimensional range queries over outsourced data},
+author = {Bijit Hore and Sharad Mehrotra and Mustafa Canim and Murat Kantarcioglu},
+url = {https://doi.org/10.1007/s00778-011-0245-7},
+doi = {10.1007/s00778-011-0245-7},
+year  = {2012},
+date = {2012-01-01},
+journal = {VLDB J.},
+volume = {21},
+number = {3},
+pages = {333--358},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1007/s00778-011-0245-7doi:10.1007/s00778-011-0245-7Close Jafarpour, Hojjat;  Hore, Bijit;  Mehrotra, Sharad;  Venkatasubramanian, NaliniCCD: A Distributed Publish/Subscribe Framework for Rich Content 
+Formats Journal Article IEEE Trans. Parallel Distrib. Syst., 23 (5), pp. 844–852, 2012.Links | BibTeX@article{DBLP:journals/tpds/JafarpourHMV12,
+title = {CCD: A Distributed Publish/Subscribe Framework for Rich Content 
+Formats},
+author = {Hojjat Jafarpour and Bijit Hore and Sharad Mehrotra and Nalini Venkatasubramanian},
+url = {https://doi.org/10.1109/TPDS.2011.212},
+doi = {10.1109/TPDS.2011.212},
+year  = {2012},
+date = {2012-01-01},
+journal = {IEEE Trans. Parallel Distrib. Syst.},
+volume = {23},
+number = {5},
+pages = {844--852},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/TPDS.2011.212doi:10.1109/TPDS.2011.212Close
+
+2011
+
+ Jalali, Leila;  Mehrotra, Sharad;  Venkatasubramanian, NaliniMultisimulations: Towards Next Generation Integrated Simulation Environments Inproceedings Formal Modeling: Actors, Open Systems, Biological Systems - Essays 
+Dedicated to Carolyn Talcott on the Occasion of Her 70th Birthday, pp. 352–367, 2011.Links | BibTeX@inproceedings{DBLP:conf/birthday/JalaliMV11,
+title = {Multisimulations: Towards Next Generation Integrated Simulation Environments},
+author = {Leila Jalali and Sharad Mehrotra and Nalini Venkatasubramanian},
+url = {https://doi.org/10.1007/978-3-642-24933-4_18},
+doi = {10.1007/978-3-642-24933-4_18},
+year  = {2011},
+date = {2011-01-01},
+booktitle = {Formal Modeling: Actors, Open Systems, Biological Systems - Essays 
+Dedicated to Carolyn Talcott on the Occasion of Her 70th Birthday},
+pages = {352--367},
+crossref = {DBLP:conf/birthday/2011talcott},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1007/978-3-642-24933-4_18doi:10.1007/978-3-642-24933-4_18Close Saini, Mukesh Kumar;  Atrey, Pradeep K;  Mehrotra, Sharad;  Kankanhalli, Mohan SAnonymous surveillance Inproceedings Proceedings of the 2011 IEEE International Conference on Multimedia 
+and Expo, ICME 2011, 11-15 July, 2011, Barcelona, Catalonia, Spain, pp. 1–6, 2011.Links | BibTeX@inproceedings{DBLP:conf/icmcs/SainiAMK11,
+title = {Anonymous surveillance},
+author = {Mukesh Kumar Saini and Pradeep K Atrey and Sharad Mehrotra and Mohan S Kankanhalli},
+url = {https://doi.org/10.1109/ICME.2011.6012206},
+doi = {10.1109/ICME.2011.6012206},
+year  = {2011},
+date = {2011-01-01},
+booktitle = {Proceedings of the 2011 IEEE International Conference on Multimedia 
+and Expo, ICME 2011, 11-15 July, 2011, Barcelona, Catalonia, Spain},
+pages = {1--6},
+crossref = {DBLP:conf/icmcs/2011},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ICME.2011.6012206doi:10.1109/ICME.2011.6012206Close Wu, Sai;  Li, Feng;  Mehrotra, Sharad;  Ooi, Beng ChinQuery optimization for massively parallel data processing Inproceedings ACM Symposium on Cloud Computing in conjunction with SOSP 2011, 
+SOCC '11, Cascais, Portugal, October 26-28, 2011, pp. 12, 2011.Links | BibTeX@inproceedings{DBLP:conf/cloud/WuLMO11,
+title = {Query optimization for massively parallel data processing},
+author = {Sai Wu and Feng Li and Sharad Mehrotra and Beng Chin Ooi},
+url = {http://doi.acm.org/10.1145/2038916.2038928},
+doi = {10.1145/2038916.2038928},
+year  = {2011},
+date = {2011-01-01},
+booktitle = {ACM Symposium on Cloud Computing in conjunction with SOSP 2011, 
+SOCC '11, Cascais, Portugal, October 26-28, 2011},
+pages = {12},
+crossref = {DBLP:conf/cloud/2011},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.acm.org/10.1145/2038916.2038928doi:10.1145/2038916.2038928Close Behm, Alexander;  Borkar, Vinayak R;  Carey, Michael J;  Grover, Raman;  Li, Chen;  Onose, Nicola;  Vernica, Rares;  Deutsch, Alin;  Papakonstantinou, Yannis;  Tsotras, Vassilis JASTERIX: towards a scalable, semistructured data platform for evolving-world 
+models Journal Article Distributed and Parallel Databases, 29 (3), pp. 185–216, 2011.Links | BibTeX@article{DBLP:journals/dpd/BehmBCGLOVDPT11,
+title = {ASTERIX: towards a scalable, semistructured data platform for evolving-world 
+models},
+author = {Alexander Behm and Vinayak R Borkar and Michael J Carey and Raman Grover and Chen Li and Nicola Onose and Rares Vernica and Alin Deutsch and Yannis Papakonstantinou and Vassilis J Tsotras},
+url = {https://doi.org/10.1007/s10619-011-7082-y},
+doi = {10.1007/s10619-011-7082-y},
+year  = {2011},
+date = {2011-01-01},
+journal = {Distributed and Parallel Databases},
+volume = {29},
+number = {3},
+pages = {185--216},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1007/s10619-011-7082-ydoi:10.1007/s10619-011-7082-yClose Zheng, Yabin;  Li, Chen;  Sun, MaosongCHIME: An Efficient Error-Tolerant Chinese Pinyin Input Method Inproceedings IJCAI 2011, Proceedings of the 22nd International Joint Conference 
+on Artificial Intelligence, Barcelona, Catalonia, Spain, July 16-22, 
+2011, pp. 2551–2556, 2011.Links | BibTeX@inproceedings{DBLP:conf/ijcai/ZhengLS11,
+title = {CHIME: An Efficient Error-Tolerant Chinese Pinyin Input Method},
+author = {Yabin Zheng and Chen Li and Maosong Sun},
+url = {https://doi.org/10.5591/978-1-57735-516-8/IJCAI11-424},
+doi = {10.5591/978-1-57735-516-8/IJCAI11-424},
+year  = {2011},
+date = {2011-01-01},
+booktitle = {IJCAI 2011, Proceedings of the 22nd International Joint Conference 
+on Artificial Intelligence, Barcelona, Catalonia, Spain, July 16-22, 
+2011},
+pages = {2551--2556},
+crossref = {DBLP:conf/ijcai/2011},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.5591/978-1-57735-516-8/IJCAI11-424doi:10.5591/978-1-57735-516-8/IJCAI11-424Close Zhang, Liyan;  Vaisenberg, Ronen;  Mehrotra, Sharad;  Kalashnikov, Dmitri VVideo entity resolution: Applying ER techniques for Smart Video 
+Surveillance Inproceedings Ninth Annual IEEE International Conference on Pervasive Computing 
+and Communications, PerCom 2011, 21-25 March 2011, Seattle, WA, USA, 
+Workshop Proceedings, pp. 26–31, 2011.Links | BibTeX@inproceedings{DBLP:conf/percom/ZhangVMK11,
+title = {Video entity resolution: Applying ER techniques for Smart Video 
+Surveillance},
+author = {Liyan Zhang and Ronen Vaisenberg and Sharad Mehrotra and Dmitri V Kalashnikov},
+url = {https://doi.org/10.1109/PERCOMW.2011.5766881},
+doi = {10.1109/PERCOMW.2011.5766881},
+year  = {2011},
+date = {2011-01-01},
+booktitle = {Ninth Annual IEEE International Conference on Pervasive Computing 
+and Communications, PerCom 2011, 21-25 March 2011, Seattle, WA, USA, 
+Workshop Proceedings},
+pages = {26--31},
+crossref = {DBLP:conf/percom/2011w},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/PERCOMW.2011.5766881doi:10.1109/PERCOMW.2011.5766881Close Sinha, Pinaki;  Mehrotra, Sharad;  Jain, RameshSummarization of personal photologs using multidimensional content 
+and context Inproceedings Proceedings of the 1st International Conference on Multimedia Retrieval, 
+ICMR 2011, Trento, Italy, April 18 - 20, 2011, pp. 4, 2011.Links | BibTeX@inproceedings{DBLP:conf/mir/SinhaMJ11,
+title = {Summarization of personal photologs using multidimensional content 
+and context},
+author = {Pinaki Sinha and Sharad Mehrotra and Ramesh Jain},
+url = {http://doi.acm.org/10.1145/1991996.1992000},
+doi = {10.1145/1991996.1992000},
+year  = {2011},
+date = {2011-01-01},
+booktitle = {Proceedings of the 1st International Conference on Multimedia Retrieval, 
+ICMR 2011, Trento, Italy, April 18 - 20, 2011},
+pages = {4},
+crossref = {DBLP:conf/mir/2011},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.acm.org/10.1145/1991996.1992000doi:10.1145/1991996.1992000Close Sinha, Pinaki;  Jain, RameshExtractive summarization of personal photos from life events Inproceedings Proceedings of the 2011 IEEE International Conference on Multimedia 
+and Expo, ICME 2011, 11-15 July, 2011, Barcelona, Catalonia, Spain, pp. 1–6, 2011.Links | BibTeX@inproceedings{DBLP:conf/icmcs/SinhaJ11,
+title = {Extractive summarization of personal photos from life events},
+author = {Pinaki Sinha and Ramesh Jain},
+url = {https://doi.org/10.1109/ICME.2011.6011843},
+doi = {10.1109/ICME.2011.6011843},
+year  = {2011},
+date = {2011-01-01},
+booktitle = {Proceedings of the 2011 IEEE International Conference on Multimedia 
+and Expo, ICME 2011, 11-15 July, 2011, Barcelona, Catalonia, Spain},
+pages = {1--6},
+crossref = {DBLP:conf/icmcs/2011},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ICME.2011.6011843doi:10.1109/ICME.2011.6011843Close Jalali, Leila;  Mehrotra, Sharad;  Venkatasubramanian, NaliniInteroperability of Multiple Autonomous Simulators in Integrated Simulation Environments Journal Article Spring SIW, 11 , 2011.BibTeX@article{jalali2011interoperability,
+title = {Interoperability of Multiple Autonomous Simulators in Integrated Simulation Environments},
+author = {Leila Jalali and Sharad Mehrotra and Nalini Venkatasubramanian},
+year  = {2011},
+date = {2011-01-01},
+journal = {Spring SIW},
+volume = {11},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Close Kalashnikov, Dmitri V;  Mehrotra, Sharad;  Xu, Jie;  Venkatasubramanian, NaliniA Semantics-Based Approach for Speech Annotation of Images Journal Article IEEE Trans. Knowl. Data Eng., 23 (9), pp. 1373–1387, 2011.Links | BibTeX@article{DBLP:journals/tkde/KalashnikovMXV11,
+title = {A Semantics-Based Approach for Speech Annotation of Images},
+author = {Dmitri V Kalashnikov and Sharad Mehrotra and Jie Xu and Nalini Venkatasubramanian},
+url = {https://doi.org/10.1109/TKDE.2010.185},
+doi = {10.1109/TKDE.2010.185},
+year  = {2011},
+date = {2011-01-01},
+journal = {IEEE Trans. Knowl. Data Eng.},
+volume = {23},
+number = {9},
+pages = {1373--1387},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/TKDE.2010.185doi:10.1109/TKDE.2010.185Close
+
+2010
+
+ Jalali, Leila;  Mehrotra, Sharad;  Venkatasubramanian, NaliniMiddleware Solutions for Integrated Simulation Environments Inproceedings Proceedings of the 7th Middleware Doctoral Symposium, pp. 2–7, ACM, Bangalore, India, 2010, ISBN: 978-1-4503-0457-3.Links | BibTeX@inproceedings{Jalali:2010:MSI:1891748.1891749,
+title = {Middleware Solutions for Integrated Simulation Environments},
+author = {Leila Jalali and Sharad Mehrotra and Nalini Venkatasubramanian},
+url = {http://doi.acm.org/10.1145/1891748.1891749},
+doi = {10.1145/1891748.1891749},
+isbn = {978-1-4503-0457-3},
+year  = {2010},
+date = {2010-01-01},
+booktitle = {Proceedings of the 7th Middleware Doctoral Symposium},
+pages = {2--7},
+publisher = {ACM},
+address = {Bangalore, India},
+series = {MDS '10},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.acm.org/10.1145/1891748.1891749doi:10.1145/1891748.1891749Close Alsubaiee, Sattam;  Behm, Alexander;  Li, ChenSupporting location-based approximate-keyword queries Inproceedings 18th ACM SIGSPATIAL International Symposium on Advances in Geographic 
+Information Systems, ACM-GIS 2010, November 3-5, 2010, San Jose, 
+CA, USA, Proceedings, pp. 61–70, 2010.Links | BibTeX@inproceedings{DBLP:conf/gis/AlsubaieeBL10,
+title = {Supporting location-based approximate-keyword queries},
+author = {Sattam Alsubaiee and Alexander Behm and Chen Li},
+url = {http://doi.acm.org/10.1145/1869790.1869802},
+doi = {10.1145/1869790.1869802},
+year  = {2010},
+date = {2010-01-01},
+booktitle = {18th ACM SIGSPATIAL International Symposium on Advances in Geographic 
+Information Systems, ACM-GIS 2010, November 3-5, 2010, San Jose, 
+CA, USA, Proceedings},
+pages = {61--70},
+crossref = {DBLP:conf/gis/2010},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.acm.org/10.1145/1869790.1869802doi:10.1145/1869790.1869802Close Kim, Kyungbaek;  Venkatasubramanian, NaliniAssessing the impact of geographically correlated failures on overlay-based data dissemination Inproceedings Global Telecommunications Conference (GLOBECOM 2010), 2010 IEEE, pp. 1–5, IEEE 2010.BibTeX@inproceedings{kim2010assessing,
+title = {Assessing the impact of geographically correlated failures on overlay-based data dissemination},
+author = {Kyungbaek Kim and Nalini Venkatasubramanian},
+year  = {2010},
+date = {2010-01-01},
+booktitle = {Global Telecommunications Conference (GLOBECOM 2010), 2010 IEEE},
+pages = {1--5},
+organization = {IEEE},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Close Saini, Mukesh Kumar;  Atrey, Pradeep K;  Mehrotra, Sharad;  Emmanuel, Sabu;  Kankanhalli, Mohan SPrivacy modeling for video data publication Inproceedings Proceedings of the 2010 IEEE International Conference on Multimedia 
+and Expo, ICME 2010, 19-23 July 2010, Singapore, pp. 60–65, 2010.Links | BibTeX@inproceedings{DBLP:conf/icmcs/SainiAMEK10,
+title = {Privacy modeling for video data publication},
+author = {Mukesh Kumar Saini and Pradeep K Atrey and Sharad Mehrotra and Sabu Emmanuel and Mohan S Kankanhalli},
+url = {https://doi.org/10.1109/ICME.2010.5583334},
+doi = {10.1109/ICME.2010.5583334},
+year  = {2010},
+date = {2010-01-01},
+booktitle = {Proceedings of the 2010 IEEE International Conference on Multimedia 
+and Expo, ICME 2010, 19-23 July 2010, Singapore},
+pages = {60--65},
+crossref = {DBLP:conf/icmcs/2010},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ICME.2010.5583334doi:10.1109/ICME.2010.5583334Close Canim, Mustafa;  Kantarcioglu, Murat;  Hore, Bijit;  Mehrotra, SharadBuilding Disclosure Risk Aware Query Optimizers for Relational Databases Journal Article PVLDB, 3 (1), pp. 13–24, 2010.Links | BibTeX@article{DBLP:journals/pvldb/CanimKHM10,
+title = {Building Disclosure Risk Aware Query Optimizers for Relational Databases},
+author = {Mustafa Canim and Murat Kantarcioglu and Bijit Hore and Sharad Mehrotra},
+url = {http://www.comp.nus.edu.sg/%7Evldb2010/proceedings/files/papers/R01.pdf},
+doi = {10.14778/1920841.1920849},
+year  = {2010},
+date = {2010-01-01},
+journal = {PVLDB},
+volume = {3},
+number = {1},
+pages = {13--24},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://www.comp.nus.edu.sg/%7Evldb2010/proceedings/files/papers/R01.pdfdoi:10.14778/1920841.1920849Close Xing, Bo;  Mehrotra, Sharad;  Venkatasubramanian, NaliniDisruption-Tolerant Spatial Dissemination Inproceedings Proceedings of the Seventh Annual IEEE Communications Society Conference 
+on Sensor, Mesh and Ad Hoc Communications and Networks, SECON 2010, 
+June 21-25, 2010, Boston, Massachusetts, USA, pp. 403–411, 2010.Links | BibTeX@inproceedings{DBLP:conf/secon/XingMV10,
+title = {Disruption-Tolerant Spatial Dissemination},
+author = {Bo Xing and Sharad Mehrotra and Nalini Venkatasubramanian},
+url = {https://doi.org/10.1109/SECON.2010.5508274},
+doi = {10.1109/SECON.2010.5508274},
+year  = {2010},
+date = {2010-01-01},
+booktitle = {Proceedings of the Seventh Annual IEEE Communications Society Conference 
+on Sensor, Mesh and Ad Hoc Communications and Networks, SECON 2010, 
+June 21-25, 2010, Boston, Massachusetts, USA},
+pages = {403--411},
+crossref = {DBLP:conf/secon/2010},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/SECON.2010.5508274doi:10.1109/SECON.2010.5508274Close Vaisenberg, Ronen;  Mehrotra, Sharad;  Ramanan, DevaSEMARTCam scheduler: emphsemantics driven emphreal-emphŧime 
+data collection from indoor emphcamera networks to maximize event 
+detection Journal Article J. Real-Time Image Processing, 5 (4), pp. 215–230, 2010.Links | BibTeX@article{DBLP:journals/jrtip/VaisenbergMR10,
+title = {SEMARTCam scheduler: emphsemantics driven emphreal-emphŧime 
+data collection from indoor emphcamera networks to maximize event 
+detection},
+author = {Ronen Vaisenberg and Sharad Mehrotra and Deva Ramanan},
+url = {https://doi.org/10.1007/s11554-009-0147-8},
+doi = {10.1007/s11554-009-0147-8},
+year  = {2010},
+date = {2010-01-01},
+journal = {J. Real-Time Image Processing},
+volume = {5},
+number = {4},
+pages = {215--230},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1007/s11554-009-0147-8doi:10.1007/s11554-009-0147-8Close179 entries « ‹  3 of 4 › » 
+ 
+
+
+
+
+
+
+
+Search for :
+
+
+Latest News 
+
+
+
+Upcoming Talk: How to build your own Business
+
+											July 25, 2022																																
+
+
+Upcoming Talk: Couchbase and Distributed Computing Backends for big data processing
+
+											May 31, 2022																																
+
+
+Upcoming Talk: Shedding Light on Opaque Database Queries
+
+											May 31, 2022																																
+
+
+ISG researchers won the  Mark Weiser Best Paper Award at IEEE PERCOM 2022
+
+											March 24, 2022																																
+
+
+
+
+Upcoming Events
+
+
+
+
+Qiushi Bai: QueryBooster-Improving SQL Performance Using Middleware Services for Human-Centered Query Rewriting + Demo
+
+
+
+October 14 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Xiaozhen Liu: Demonstration of Collaborative and Interactive Workflow-based Data Analytics in Texera
+
+
+
+October 21 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Abhishek Singh: WedgeBlock – An Off-Chain Secure Logging Platform for Blockchain Applications
+
+
+
+October 28 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Juncheng Fang: PeloPartition- Improving Blockchain Resilience to Partitioning by Sharding
+
+
+
+November 4 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Peeyush Gupta: A Demonstration of TippersDB
+
+
+
+November 18 @ 12:30 pm - 2:00 pm 
+
+
+
+View All Events
+
+Please follow & like us :) 
+
+Follow  
+
+ 
+
+
+
+
+
+
+
+			Copyright 2018 | ISG-UCI		
+
+
+
+
+
+
+cross
+
+
+
+
+
+
+
+
+
+
+Hit ENTER to search or ESC to close
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

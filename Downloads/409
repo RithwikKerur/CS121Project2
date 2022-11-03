@@ -1,0 +1,611 @@
+https://www.ics.uci.edu/~epaikari
+
+
+
+
+
+
+
+Elahe Paikari
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Elahe Paikari
+
+          Menu
+          
+
+
+
+
+About
+
+
+Skills
+
+
+Resume
+
+
+Portfolio
+
+
+Contact
+
+
+
+
+
+
+
+
+
+Hello, I'm Elahe
+PhD Student / Software Developer
+LEARN MORE
+
+
+
+
+
+
+
+
+About Me
+
+              I've started my PhD studies in Software Engineering in Fall 2017 at University of California, Irvine. My advisor is Professor 
+              Andre van der Hoek 
+              and I'm currently working on Software Chatbots at 
+              SDCL 
+              lab.
+              
+              Before I moved to US, I worked for Software companies in Canada, for almost 3 years (2014 - 2017).
+              
+              On summer 2014, I finished my Master's studies in Software Engineering at University of Calgary, Canada. My supervisor was Professor  
+              Behrouz H. Far. 
+               
+              On fall 2012, I moved to Canada, right after I finished my undergrad in Software Engineering in Tehran, Iran.
+                            
+              Over the past couple of years, I've got experienced in analysis, design and implementation of software applications.
+              I have strong background in data structures, algorithms and object-oriented programming.
+              I am goal-oriented and team player.
+            
+MY WORKS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+My Experience
+
+
+
+
+
+
+
+
+ Sept 2017
+                    
+                      - 
+                    
+                       Present
+                  
+
+
+
+PhD Student
+University of California, Irvine
+
+
+
+                      	• Designing and implementing a bug report chatbot to help users turn a bad bug report to a good one.
+                      	
+						• Designing and developing a code conflict avoidance chatbot for early detection of potential development conflicts arising from concurrent code changes.
+						
+						• Developing a comparison framework to examine current state of software chatbots and their directions for future work.
+						
+						• Designing and developing a voice-based interface to an electronic whiteboard sketching tool.
+                      
+                      	• Developing a comparison framework to examine the current state of software chatbots and their directions for future work.
+                      
+
+
+
+
+
+
+ Feb 2015
+                    
+                      - 
+                    
+                      Aug 2017 
+                  
+
+
+
+Software Developer
+Intelliview Technologies Inc.
+
+
+
+                      • Design, develop and unit test core Intelliview software components and features (video
+                        analytics solutions for industrial surveillance applications) as a service.
+                      
+                      • Design, implement and test web application/UI.
+                      
+                      • Work with QA staff and other stakeholders to resolve bugs and implement feature requests.
+                      
+                      • Participate in and lead code reviews, development processes and standards.
+                      
+                      • Participate in estimating, scheduling, and prioritization of development work with the technical team. 
+                      
+                      • Conduct research on emerging technologies, and implementing prototypes and proof of concepts.
+                    
+
+
+
+
+
+July 2014 
+                    
+                      - 
+                    
+                      Jan 2015 
+                  
+
+
+
+Research Assistant
+University of Calgary
+
+
+
+                      • Analyzed Calgary road info databases in Microsoft SQL Server and developed ETL processes, using
+                        Pentaho, to form a data mart.
+                        
+                      • Analyzed and designed data models via statistical and mining methods, using Weka.
+                      
+                      • Designed an online/offline safety feedback system, applying multi-agent methods and UML, using
+                      Aimsun traffic network simulator.
+                      
+                      • Developed a video driven traffic system, applying image-processing techniques.
+                    
+
+
+
+
+
+Sept 2012 
+                    
+                      - 
+                    
+                      July 2014 
+                  
+
+
+
+MSc Software Engineering,
+                      
+                      Research and Teaching Assistant
+University of Calgary
+
+
+
+                      • Integrated PARAMICS traffic simulator with OPNET wireless network simulator using open source
+                        applications to evaluate Connected Vehicle (CV) communication ranges in Wi-Fi and WLAN protocols.
+                      
+                      • Developed ETL processes to extract output CSV files from PARAMICS, transformed the data into the
+                        XML format, for the use of OPNET.
+                      
+                      • Designed and analyzed a Connected Vehicle (CV) system as a multi agent system.
+                      
+                      • Implemented APIs to develop a system model to support simulation of CV systems, leading to the
+                        simulator being able to compete with commercial simulators.
+                      
+                      • Addressed client’s requests and provided optimum outputs, resulted in willingness of the University to
+                        invest in similar projects.
+                      
+                      • Validated the developed CV system by reducing accidents and travel time index in Deerfoot trail, Calgary,
+                        Alberta; recommendations and assessment results are currently being used by the client to implement CV
+                        systems in Calgary and having the potential to be applied in other cities of Canada.
+                    
+
+
+
+
+
+Aug 2008 
+                    
+                      - 
+                    
+                      Aug 2012 
+                  
+
+
+
+BSc Software Engineering
+Tehran Shomal University
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            Download My Resume
+
+
+
+
+
+
+
+
+
+My Portfolio
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MSc Thesis
+
+
+
+
+
+
+
+
+
+
+
+
+
+Publications
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sayme
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bug Report Chatbot
+
+
+
+
+
+
+
+
+
+
+
+
+
+Contact Me
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      Send me a message
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © eliipik 
+            
+            2018
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+My MSc Thesis
+Connected Vehicle Extension and Integration of Traffic and Discrete Event Simulation Systems  Applied to Evaluations Based on Dedicated Short Range Communication for Safety and Mobility Indices
+
+This study is aimed at developing and modeling a specific extension of Connected Vehicles (CV) system and its applications in the Intelligent Transportation System (ITS) through the designated traffic and wireless simulation networks. A typical traffic micro-simulator and a discrete event simulator individually lack the ability of fully capturing the behavior of the CV system. In this research I investigate modeling the CV system, for Vehicle-to-Vehicle (V2V) and Vehicle-to-Infrastructure (V2I) communications based on Dedicated Short Range Communication (DSRC) by enabling the two simulators communicate sequentially. PARAMICS is selected as the traffic micro-simulator. OPNET is used as the discrete event simulator. The contributions are: (1) designing the CV system as a Multiagent System (MAS) using MaSE methodology and implementing its outcomes as extensions for the PARAMICS using two distinctive APIs (Application Programming Interface); and (2) developing the integration of PARAMICS and OPNET for implementation and evaluation of DSRC-based vehicular communication protocols and their utilizations in the context of ITS. The results are verified through experiments that demonstrate the overall effectiveness of the CV. Three case studies are presented: impacts of CV on improving (1) traffic safety and (2) mobility on a section of Deerfoot trail, Calgary, Alberta; (3) the optimum selection of DSRC communication range of Road Side Units (RSUs) and a definitive percentage of CVs in the network to have the least data loss and delay in V2V and V2I data transmission for weekdays’ traffic counts.
+
+Date: July 2014
+Advisor: Behrouz H. Far
+University of Calgary
+
+
+
+                    Close
+
+
+                      Full View
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+My Publications
+Here are my published papers!
+
+
+
+
+A chatbot for conflict detection and resolution
+                      
+
+
+
+
+A Framework for Understanding Chatbots and their Future
+                      
+
+
+
+
+A simulation-based benefit analysis of deploying connected vehicles using dedicated short range communication
+                      
+
+
+
+
+Modeling And Simulation Of Advisory Speed And Re-routing Strategies In Connected Vehicles Systems For Crash Risk And Travel Time Reduction
+                      
+
+
+
+
+Analysis, Design and Implementation of an Agent Based System for Simulating Connected Vehicles
+                      
+
+
+
+
+Analysis, Design and Implementation of an Agent Based System for Simulating Connected Vehicles
+                      
+
+
+
+
+                    Close
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sayme
+Code Conflict Detection Chatbot
+
+Sayme offers awareness of parallel work by informing developers of any emerging conflicts in real-time and helping them to resolve those conflicts. Sayme particularly detects when developers work on the same code at the same time, or on two different pieces of code that are dependent on one another. Once it detects such a conflict, Sayme informs both developers and then guides them to a resolution, so that the developers can avoid running into a future merge conflict. This way, conflicts can be addressed when they are small and initially emerging, which saves developers significant time and effort./p>
+                  
+
+
+
+
+                    Close
+
+                      Collaborate
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bug Report Chatbot
+Improving the quality of bug reports through a conversational AI-based interface
+ My bug report chatbot helps users in writing better bug reports. Many bug reports are submitted every day, and many of them lack the information that developers need to act on them.  They may be incomplete, not precise, or lack the context in which the bug appears. To address this problem, we are designing a new chatbot that uses natural language understanding techniques to analyze the information that users provides and, when needed (i.e., when the chatbot detects problems with the information), interacts with the user to improve the information they submit.
+
+
+
+
+
+                    Close
+
+                      Collaborate
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

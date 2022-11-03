@@ -1,0 +1,171 @@
+https://ngs.ics.uci.edu/abstractions-and-experiential-computing
+
+
+
+
+
+
+
+
+Abstractions and Experiential Computing – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Abstractions and Experiential Computing    			
+
+
+Most abstractions in early computing stages were close to data level.  Computation was considered as ‘data processing’ and hence addressed issues related to data.  Once comuting matured, abstractions related to text started taking center stage and resulted in what we know as WWW, Information Technology, or Information and Communication Technology.  These abstractions became very popular and widespread because they satisfied needs of common people in developed world.  Many new scientific abstractions were also developed for specific applications but they are just that — abstractions for specific applications.
+Technology has made it very easy to get data from image, audio, and other sensors.  Researchers in several fields have been working on abstractions that are related to images, video, audio, and other sensing modalities.  these abstractions also start at data level and some of them have even become part of common vocabularity — one of them is pixel.  Much progress has been made in using such abstraction for compressing, transmission, and storage of such data.  It is very easy, infact easier than text, to capture and render audio and visual data now.  
+All abstractions related to sensory data are close to data level.  Human being use abstractions in audio visual (and othe sensory data) that are currently represented sometimes using text and many times are just not there.  In fact ther term semantic gap is commonly used to refer to the gap in these abstractions in processing that do not have appraches or algorithms to transform from the lower (closer to data) level to higher level (closer to what humans use).
+The last decade has seen an explosion in data creation, using sensors, in the form of audio, visual, tactile, and other sensory data.  Since humans commonly experience this data using the five sensory mechanisms that are natural to us, I call the data coming from all these sensory sources as experiential data.  
+A challenge for computer scientists and engieers that is not just ‘nice to have’ but is essential due to changed technical landscape is to develop abstractions, operations, and transformations that will allow to go from data to experiences — or the commonly used terminology to express their experiences and general knowledge — in one system.  We can not do this even for text today.  And for experiential data, we are still more primitive.
+
+
+
+By Ramesh |
+    				August 23, 2008 |
+    				             		Experiential Computing |
+             	 
+    				             		No Comments |
+             	 		          				
+    			
+
+
+← Abstractions, Operations, and Transformations in Computing
+Indian Medals at Olympic — an interesting perspective →
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

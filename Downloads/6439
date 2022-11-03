@@ -1,0 +1,96 @@
+http://www.ics.uci.edu/~kay/courses/h21/hw/lab8.html
+
+
+
+
+
+
+Lab Assignment 8
+
+
+
+
+
+
+
+
+ICS H21 • UC IRVINE • DAVID G. KAY • FALL 2009
+Lab Assignment 8
+This assignment is due at the end of lab on
+  Wednesday, November 25, which is the day before Thanksgiving. 
+
+Choose a partner for this twelve-day assignment, someone
+you haven't worked with already.  Choose someone whose Thanksgiving schedule is compatible with yours; if you won't be here for lab on the day before Thanksgiving (when the lab is due), pick someone who's able to work with you for a few extra out-of-lab hours before then.
+(a) We have posted some code to implement parts of a music-playing application like iTunes.  You should download, install, and run this code now. And then you should read it. Reading code is an important skill,  one that beginning programmers ignore all too often. Sure, code isn't as easy to read as a novel; you need to go over it carefully and ask yourself what it does and how it works. Don't let this intimidate you; just take it one function at a time.
+We used  the following data definitions to define a music collection in the form of "albums of songs":
+
+ A music collection is a list of albums.
+    An album is a unique ID (number), an artist (string), a title (string),
+    a year (number), and a list of songs.
+    A song is a track number (number), a title (string), a length in seconds (number), and a play count (number).  The play count indicates how many times the song has been played.
+These data definitions led us to write these structure definitions:
+(define-struct album (id artist title year songs))
+(define-struct song (track-num title length play-count))
+
+(a.1) We wrote a function called top-10-songs, which finds the songs in a music collection that have the ten highest play counts.  Generalize this function as top-n-songs, which takes a number n and a list of albums and returns a list of the n songs with the highest play count.  This is simple given the existing code.
+(a.2) Write a function unplayed-songs, which takes a list of albums and returns a list of the songs that have never been played.
+(a.3) Write a function favorite-album, which takes a list of albums and returns the album that is the "favorite."  We'll define the "favorite" album to be the one that the user has spent the most time listening to.  (Hint: The total time the user has spent listening to an album is a function of the play counts and song lengths.)
+(a.4) Time spent listening to an album isn't the only metric for defining a "favorite" album.  Generalize your favorite-album function so that it takes another argument, a "favorite measurement function"; that way, favorite-album can be called with any metric for determining the favorite.  (Before you get too far, consider what the appropriate contract for the favorite function might be, if the goal is to find the one and only favorite, rather than a list of many albums that the user likes.)  Add a comment after your generalized function that suggests, in English, at least two other ways to define a favorite album; show, for each of your suggestions, how you would call your generalized function to find the favorite album according to your suggestion.
+(a.5) One useful option that iTunes provides is a "Search" box, into which you can type a keyword, and iTunes will automatically search your collection for songs containing that keyword in their title, their artist, or their album's title.  Implement a function music-search that does the same, returning a list of matching songs given a string containing the search keyword.  (You'll likely find the string processing code from Lab 6 helpful.)
+ Submit your definitions via Checkmate.
+ (b) Three of the five functions you wrote in part (a) return a list of songs.  Unfortunately, our "album of songs" model for a music collection has a drawback: An individual song by itself doesn't contain enough information to display it usefully (in a GUI or on a web page) because the album information is not included.  In the code, we solved this problem by introducing a new structure definition that combines information about a song and the album that contains it.  That definition looks like this:
+
+    (define-struct song-display (artist a-title year track-num s-title length play-count))
+
+Rewrite top-n-songs, unplayed-songs, and music-search so that they each return a list of song-displays, rather than a list of songs.  (Note that if you solved top-n-songs and unplayed-songs using a similar technique to the one we used for top-10-songs, you'll find that you don't have to change very much of your existing code to make this work.  On the other hand, it's likely that music-search can be significantly simplified.)
+ Submit your definitions via Checkmate.
+ (c) We have talked often in class about how the model (the data structure) that you choose to represent your data can  have a profound impact on how hard it is to operate on that data—how difficult it will be to write the code and also how much time it will take for the computer to execute it.  Sometimes, the data model you choose may even make some tasks impossible or too inefficient (e.g., you can't search an unordered list in logarithmic time).
+Let's consider three ways that we might model a music collection.  (This is hardly an exhaustive list, but it includes three alternatives that are available to us based on what we've learned so far this quarter.)
+
+The "album of songs" model we used in parts (a) and (b), where a music collection is a list of albums, each of which contains a list of songs.
+The "list of songs" model, where a music collection is represented as a list of song-displays, using the definition of song-display from part (b).
+The "BST of albums of songs" model, where a music collection is a binary search tree of albums, each of which contains a list of songs, implemented using the following structure definitions: 
+      
+    (define-struct node (value left right))
+    (define-struct album-info (id artist title year songs))
+    (define-struct song-info (track-num title length play-count))
+
+      Each node in the binary search tree contains one album as its value.  The albums are sorted in order by the albums' names.  An empty binary search tree is represented by empty.
+
+
+ (c.1) Using the "albums of songs" model, write the function album-names, which takes a music collection and returns a list of the names of all albums in the collection.
+ (c.2) Write the album-names function again, this time so it takes a music collection in the "list of songs" model.  A particular album name should only appear once in the output list.
+ (c.3) Write the album-names function one more time, this time so it takes a "BST of albums of songs."
+ (c.4) All three of these functions has the same basic contract—take a music collection as input and return a list of the names of all the albums in the collection—but differ in terms of how they expect the collection to be organized.  Will all three functions give the same output if given the same input collection?  If not, what will be different about the output of one as opposed to the others?  What does your answer to these questions suggest about which of the models are appropriate to use in an actual music application like iTunes?
+ (c.5) Which of the models would you expect to enable the best implementation of a find-album function, if we measure "best" based on which one will run the fastest if given a music collection with tens of thousands of albums in it?  Why?
+ Collect your definitions and your answers to (c.4) and (c.5), expressed as comments, and submit them to Checkmate.
+ (d) (optional; extra credit) A favorite feature of iTunes is the "smart playlist" feature.  Rather than selecting songs manually to include into a playlist, a "smart playlist" allows you to specify a set of qualities that a song can have—year of release, play count, artist, and so on—and then allow iTunes to select them for you, and even keep the list updated as your collection changes over time.  We can implement this easily in Scheme like this:
+
+    (define smart-playlist
+      (lambda (quality-func collection)
+        (filter quality-func (all-song-displays collection))))
+
+Recall that all-song-displays is a function that takes a music collection and turns it into a list of song-display structures.  (While our version takes an "albums of songs" collection and returned a list of song-displays, you could replace all-song-displays with a function that takes a collection implemented using some other model and transforms it into a list of song displays.) The quality-func parameter is a Scheme function that selects songs that have whatever quality defines our smart playlist.
+ The challenge in implementing a "smart playlist" feature in Scheme is handling the quality function.  While you could easily implement a single quality function, the trick is that you'd like users to be able to specify multiple qualities—say, short songs about love written before 1970. We need a way to combine into one function a series of predicates (here, the length less than, say, 3 minutes; the title containing "love"; and the year less than 1970). One way would be to code up a Scheme function using and. We could do that by hand, but we'd like to design a more automated way.
+Suppose we already have a user interface that prompts the user for smart playlist qualities.  You've seen this kind of thing: There's a pull-down menu for which field, a pull-down for the comparison operator, and a text field for the value to compare it with, for example. How might that user interface (part of the "controller" portion of the program) represent each quality for the "model" part of our program to process? (The "model" part would then have to turn a list of these qualities into Scheme predicates and filter the songs by each item on the list in turn.) One way to represent the qualities (following an idiom we'll see often in Java) is as "quality-func-options": Each quality-func-option describs one kind of predicate, one kind of question we can ask about a song. Let's say that each quality-func-option will be one of these structures:
+;; Songs played by a particular artist.
+  (define-struct quality-func-artist-option (val))
+;; Songs with a particular title.
+  (define-struct quality-func-title-option (val))
+;; Songs released between "from-val" and "to-val". 
+  (define-struct quality-func-year-option (from-val to-val))
+;; Songs played at least a specified number of times. 
+  (define-struct quality-func-min-play-count-option (val))
+ Write a function called make-quality-func that takes a list of quality-func-options and returns a function that takes a song-display and returns true if it is a "quality" song (according to the options given) or false if it's not.  When the list of qualities is empty, the quality function should always return true.  (Hint: The quality function ends up being a chain of functions, each one checking one quality and then calling the next function in the chain; there's one link in the chain for each quality option in the list.)
+ Submit your definitions to Checkmate.
+(e) Remember that each partner must
+  complete a partner evaluation form via the Survey tool on eee.uci.edu.
+
+
+Based in part on ICS H21assignments by David
+G. Kay from Fall 2001; modified by David G. Kay, Fall 2004, Fall 2005, Fall 2008. Infx-tunes example originally by Alex Thornton, Fall 2006.
+
+David G. Kay, kay@uci.edu 
+
+Friday, November 14, 2008 2:20 PM
+

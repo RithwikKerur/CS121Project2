@@ -1,0 +1,979 @@
+https://sli.ics.uci.edu/PmWiki/ReleaseNotes
+
+
+
+SLI | PmWiki / Release Notes 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+Release Notes
+
+
+
+
+
+< Design notes | Documentation Index | Change log >
+
+
+
+See also: Upgrades, Change log and Road map.
+
+Version 2.2.93 (2016-12-31) 
+This is a documentation update version.
+
+Version 2.2.92 (2016-11-30) 
+This version allows administrators to disable the "nopass" password by setting $AllowPassword to false. The function FmtPageName() will now expand PageVariables with asterisks like {*$FullName}. The documentation was updated.
+
+Version 2.2.91 (2016-09-30) 
+This is a documentation update version.
+
+Version 2.2.90 (2016-08-31) 
+This version adds a parameter to the upload form which can improve analytics from the server logs. Two new CSS classes were added to help skin developers: imgonly and imgcaption, for standalone embedded pictures with or without a caption. A bug with the plus-links was fixed. The documentation was updated.
+
+Version 2.2.89 (2016-07-30) 
+This version allows to set a default class name for simple tables. The (:searchbox:) directive can now have a "placeholder" attribute, and the input type can be changed from "text" to "search" for HTML5 websites. The edit form elements have now identifier attributes to allow easier styling. All core scripts will now inject CSS into the skin only if it hasn't already been defined. The vardoc.php script now recognizes and links to the documentation for the variables $pagename, $Author and $Skin. The documentation was updated.
+
+Version 2.2.88 (2016-06-29) 
+This version fixes invalid HTML output of some WikiTrail links. The function PHSC() can now have an optional fourth argument for a safe replacement of htmlspecialchars(). A new page variable {$SiteAdminGroup} was added and the documentation was updated. 
+
+Version 2.2.87 (2016-05-31) 
+This version adds the $HTMLTagAttr variable to be used in the <html> tag in skins for additional attributes like "lang" or "manifest". To enable it, use it in your skin, for example:
+
+  <html xmlns="http://www.w3.org/1999/xhtml" $HTMLTagAttr>
+The variable $EnableRevUserAgent, if set to 1, will cause the User-Agent string from browsers to be stored with each page history entry (as opposed to only storing the last user agent string). The output variable $DiffUserAgent can be used in history templates like $DiffStartFmt.
+
+A wrong page variable in Site.UploadQuickReference was corrected, and the documentation was updated.
+
+Version 2.2.86 (2016-04-28) 
+This version adds updates for PHP 7, for the PageStore() class and for the $DefaultPasswords default/unset definitions (no action should be needed upon upgrades). The documentation was updated.
+
+Version 2.2.85 (2016-03-31) 
+This version adds Scalable Vector Graphics (*.svg, *.svgz) as allowed uploads and as embeddable picture extensions (with the html tag <img/>). The documentation was updated.
+
+Version 2.2.84 (2016-02-21) 
+This version fixes "indent" and "outdent" styles for right-to-left languages. A new variable $EnableLinkPlusTitlespaced allows "plus links" [[Link|+]] to display the "Spaced Title" of the page instead the "Title". The documentation was updated.
+
+Version 2.2.83 (2015-12-31) 
+This is a documentation update version.
+
+Version 2.2.82 (2015-11-30) 
+This version enables stripmagic() to process arrays recursively and updates the documentation.
+
+Version 2.2.81 (2015-10-31) 
+This version fixes an inconsistency with single line page text variables. International wikis enabling UTF-8 will now be able to use the CSS classes "rtl" and "ltr" to override the text direction when inserting right to left languages. The documentation was updated.
+
+Version 2.2.80 (2015-09-30) 
+This version modifies the (:searchbox:) directive to use type="search" semantic input, and updates the documentation.
+
+Version 2.2.79 (2015-08-27) 
+This version adds WikiStyles for the CSS basic colors "fuchsia", "olive", "lime", "teal", "aqua", "orange" and "gray"/"grey". New input elements "email", "url", "number", "date", and "search" can now be used in wiki forms. 
+
+Note: the "target" attribute of input forms which was added in the previous version broke the PmForm processor, and was removed until we find a solution. If you don't use PmForm and require this attribute (or others), the usual way to add it is to redefine the $InputAttrs array in your local configuration.
+
+A new variable $EnableROSEscape can be set to 1 if $ROSPatterns and $ROEPatterns should not process source text wrapped with [=...=] or [@...@]. By default "replace on edit" patterns are performed even in such text.
+
+The insMarkup() function in guiedit.js was refactored to allow custom input ids and/or custom functions to process the selected text.
+
+The documentation was updated.
+
+Version 2.2.78 (2015-07-21) 
+This version updates the $RobotPattern list with currently active user agents. Input forms can have a "target" attribute (removed in 2.2.79). The documentation was updated.
+
+Note, this release broke the Cookbook:PmForm module. Please do upgrade to 2.2.79 or newer if your wiki uses PmForm.
+
+Version 2.2.77 (2015-06-19) 
+This version extends the (:if attachments:) conditional to specify file and page names. A {$WikiTitle} page variable was added. A MatchNames() function was introduced as a generic way to match array values the same way MatchPageNames() does currently with lists of pages -- recipe authors can use it to get a subset of attachments for example. The PageStore() class was slightly optimized when recoding pages from-to UTF-8. The documentation was updated.
+
+Version 2.2.76 (2015-05-31) 
+This version improves support for arrays in form elements: setting default values and recovering values from posted forms. A new "label" argument to checkbox and radio input elements allows easy insertion of clickable text labels after the form elements. Division blocks wrapping standalone images, and standalone image captions, now receive CSS classes allowing greater control via stylesheets. The documentation was updated.
+
+Version 2.2.75 (2015-04-26) 
+This version adds a pmcrypt($pass, $salt) function which can be used as a replacement for the PHP crypt() function when encrypting passwords. From PHP 5.6 on, crypt() should not be used without a $salt parameter and would raise a notice. If pmcrypt() is called with a $salt parameter it will simply call crypt() in order to check a password. If it is called without a $salt parameter,  pmcrypt() will create a password hash with the password_hash() function or with crypt() depending on your installation. You can replace any calls to crypt() with pmcrypt(), notably in config.php when defining $DefaultPasswords entries.
+
+Markup was added for the semantic HTML5 tags article, section, nav, header, footer, aside, address.
+
+A bug with the uploads feature was fixed when $EnableReadOnly is set, and the documentation was updated.
+
+Version 2.2.74 (2015-03-28) 
+This version allows the translation of the word "OK" in authentication forms. The documentation was updated to the latest state on pmwiki.org.
+
+Version 2.2.73 (2015-02-28) 
+This release only updates the documentation to the latest state on pmwiki.org.
+
+Version 2.2.72 (2015-01-27) 
+This version improves the ?action=ruleset display for markup rules potentially incompatible with PHP 5.5 when the function debug_backtrace() is not available. It restores the ability to set a custom function handling the (:markup:) demos. A variable $AbortFunction was added allowing administrators to override the core Abort() function. The documentation was updated.
+
+Version 2.2.71 (2014-12-29) 
+This version removes the hard word wrap in (:markup:) wikicode examples, and instead of <pre> tags, it wraps it in <code> tags. This allows newcomers to copy and paste the code in their wikis without inserted line breaks (which often cause the markup to not work).
+
+The release also adds back-tracing for markup rules potentially incompatible with PHP 5.5. Such rules, often added by recipes, can trigger "Deprecated: preg_replace()" warnings. To find out which recipes may trigger the warnings, enable diagnostic tools in config.php with $EnableDiag = 1; then open a page with the 'ruleset' action, eg. [[HomePage?action=ruleset]]. The PHP-5.5-incompatible rules will be flagged with filenames, line numbers and patterns. See also the pages Troubleshooting and CustomMarkup on pmwiki.org.
+
+The variable $DraftActionsPattern was added, the pagelist "request" parameter can now contain a list of allowed or disallowed parameters that can be overridden by the user, the "input default source" parameter can now contain multiple pages, and a minor bug was fixed in upload.php ('strict' warning). See the updated documentation for more information. 
+
+Version 2.2.70 (2014-11-08) 
+This release only updates the documentation to the latest state on pmwiki.org.
+
+Version 2.2.69 (2014-10-13) 
+This version fixes a bug when dates are defined as relative to other dates, eg. "2014-10-13 -3 days". The documentation was updated; note that the instructions in Site.UploadQuickReference were updated to reflect the display of the upload form in current browsers.
+
+Version 2.2.68 (2014-09-01) 
+This version adds a Skins: InterMap prefix pointing to the Skins section on PmWiki.org, a "signature" markup in the edit quick reference, new WikiStyles clear, min-width and max-width and the documentation was updated.
+
+Version 2.2.67 (2014-08-02) 
+This version fixes an inconsistency with input forms when values are taken from PageTextVariables. The documentation was updated to the latest state on pmwiki.org.
+
+Version 2.2.66 (2014-07-02) 
+This version fixes a minor longstanding bug in the default Notification format when a page is deleted. In custom patterns, the "_" character will no longer be considered a function name. The documentation was updated.
+
+Version 2.2.65 (2014-06-07) 
+This version fixes Pagelist handling of {$$PseudoVars} when they contain page variables. File permissions handling was improved when the current directory is owned by "root". The documentation was updated.
+
+Version 2.2.64 (2014-05-08) 
+This version adds the "{(mod)}" markup expression for modulo/remainder calculations, and the "tel:" and "geo:"  URI schemes which, on compatible devices like smartphones, allow the creation of links to dial telephone numbers and open map/location applications. 
+
+The $SysMergePassthru switch was added, if enabled, it allows the "Simultaneous Edits" conflict resolution to use the passthru() function instead of popen().
+
+The documentation was updated.
+
+Version 2.2.63 (2014-04-05) 
+This version allows for form elements to have custom attributes containing a dash in the attribute names and enables the attributes 'required', 'placeholder' and 'autocomplete' for HTML5 forms. A minor bug with pagelist {$$RequestVariables} appearing on some installations was fixed. The documentation was updated.
+
+Version 2.2.62 (2014-02-28) 
+This version adds the variable $EnableTableAutoValignTop which allows to make advanced tables compatible with HTML5. For developers, a fourth argument $template was added to the Markup_e() function, and a callback template 'return' was added. The documentation was updated.
+
+Version 2.2.61 (2014-01-31) 
+This version removes unnecessary snippets of code and adds the variable $TableCellAlignFmt which allows to make simple tables compatible with HTML5. The documentation was updated.
+
+Version 2.2.60 (2014-01-12) 
+This version reverts the changes to the pmwiki.css file made in 2.2.59. 
+
+Version 2.2.59 (2014-01-11) 
+This version has an improvement for Blocklist when multiple text fields are posted. A bug with some nested markup conditionals was fixed. The default skin switched font sizes from points (fixed) to percents (relative). A couple of other minor bugs were fixed and the documentation was updated.
+
+Version 2.2.58 (2013-12-25) 
+This version enables customization of (:input auth_form:), and fixes a couple of minor bugs. The documentation was updated.
+
+Version 2.2.57 (2013-11-03)
+This version enables the use of the Attach: link format in the (:attachlist:) directive. The documentation was updated.
+
+Version 2.2.56 (2013-09-30)
+This version aims to fix a PHP 5.5 compatibility issue with a deprecated feature of the preg_replace() function. The PageStore() class now detects and works around a bug with the iconv() function, and the documentation was updated.
+
+Version 2.2.55 (2013-09-16)
+This version adds the variable $EnableDraftAtomicDiff. If enabled, publishing from a draft version will clear the history of intermediate draft edits, and the published version will contain a single combined diff from the previous published version. The documentation was updated.
+
+Version 2.2.54 (2013-08-13)
+This version fixes a bug when old versions are restored from draft pages. The documentation was updated.
+
+Version 2.2.53 (2013-07-08)
+This version enables a message to be shown when a post is blocked because of too many unapproved links. The documentation was updated.
+
+Version 2.2.52 (2013-06-08)
+This version hides warnings about a deprecated feature in PHP 5.5 installations (preg_replace with /e eval flag). Three new upload extensions were added: docx, pptx and xlsx produced by recent versions of some office suites. The documentation was updated.
+
+Version 2.2.51 (2013-05-08)
+This version updates the addresses for the remote blocklists. A minor XSS vulnerability for open wikis, which was discovered today, was fixed. The documentation was updated.
+
+Version 2.2.50 (2013-04-08)
+This release only updates the documentation to the latest state on pmwiki.org.
+
+Version 2.2.49 (2013-03-09)
+This version adds an array $UploadBlacklist containing forbidden strings of an uploaded filename (case insensitive). Some Apache installations try to execute a file which has ".php", ".pl" or ".cgi" anywhere in the filename, for example, "test.php.txt" may be executed. To disallow such files to be uploaded via the PmWiki interface, add to config.php such a line:
+
+  $UploadBlacklist = array('.php', '.pl', '.cgi', '.py', '.shtm', '.phtm', '.pcgi', '.asp', '.jsp', '.sh');
+The documentation was updated.
+
+Version 2.2.48 (2013-02-11)
+This version fixes a bug introduced yesterday with some links. 
+
+Version 2.2.47 (2013-02-10)
+This version enables tooltip titles in links to anchors in the same page, and the documentation was updated.
+
+Version 2.2.46 (2013-01-07)
+This version adds $UploadPermAdd and $UploadPermSet variables, and the documentation was updated.
+
+If your wiki has uploads enabled, it is recommended to set the variable $UploadPermAdd to 0. 
+
+The $UploadPermAdd variable sets additional unix permissions applied to newly uploaded files, and should be 0 (recommended as of 2013). If uploaded files cannot be downloaded and displayed on the website, for example with the error 403 Forbidden, set this value to 0444 (core setting, default since 2004). 
+    $UploadPermAdd = 0; # recommended
+The $UploadPermSet variable unconditionally sets the file permissions on newly uploaded files. Only advanced administrators should use it.
+
+Version 2.2.45 (2012-12-02)
+This version fixes some PHP notices appearing on some installations. The documentation was updated.
+
+Version 2.2.44 (2012-10-21)
+This version improves the display of consecutive whitespaces in page histories, and fixes the definition of PageTextVariables containing a dash. The documentation was updated.
+
+Version 2.2.43 (2012-09-20)
+This version makes it possible to use HTML attribute names that contain dashes, and removes a warning when editing and previewing Site.EditForm. The documentation was updated.
+
+Version 2.2.42 (2012-08-20)
+This version provides a workaround for cases when a wiki page contains a character nonexistent in the active encoding. The documentation was updated.
+
+Version 2.2.41 (2012-08-12)
+This version changes the internal $KeepToken separator to be compatible with more encodings. The documentation was updated.
+
+Version 2.2.40 (2012-07-21)
+This version provides a helper function replacing htmlspecialchars() and compatible with PHP 5.4. The documentation was updated.
+
+Version 2.2.39 (2012-06-25)
+This version provides a fix for links to attachments containing international characters. The documentation was updated.
+
+Version 2.2.38 (2012-05-21)
+This version fixes a "parameter count" warning which appeared on some websites.
+
+Version 2.2.37 (2012-05-01)
+This version provides a workaround for installations with broken iconv() function, while optimizing the recode function. This should fix the "Unable to retrieve edit form" problem in some wikis. Dots in  sections are now better supported, PageVariables are expanded in PageList template defaults, and the documentation is updated.
+
+Version 2.2.36 (2011-12-28)
+This version fixes the recode function to try to recover Windows-1252 characters in ISO-8859-1 files. A new variable $EnableOldCharset enables the $page["=oldcharset"] entry which will be used in the future. A couple of minor bugs were fixed and the documentation was updated.
+
+ Version 2.2.35 (2011-11-11)
+This release fixes a critical PHP injection vulnerability, reported today by Egidio Romano. PmWiki versions 2.2.X, 2.1.X, 2.0.X and 2.0.beta33 and newer are vulnerable. When you upgrade, please read carefully the Release notes for all PmWiki versions since yours.
+
+If you cannot upgrade, it is recommended to disable Searches at the earliest opportunity (even if your wiki skin doesn't have a search form). Add to config.php such a line:
+  if ($action == 'search') $action = 'browse';
+If your old version wiki allows editing by not entirely trusted visitors, even on limited pages like a WikiSandbox, you should also disable PageLists. Add to config.php this line:
+  $EnablePageList = 0;
+This version has an important change for international wikis: the XLPage() function no longer loads encoding scripts such as xlpage-utf-8.php. When you upgrade, you need to include those scripts from config.php, before calling XLPage():
+
+  include_once("scripts/xlpage-utf-8.php"); # if your wiki uses UTF-8
+  XLPage('bg','PmWikiBg.XLPage');
+All links can now have tooltip titles. Previously, only images and external links could have tooltip titles, now this feature is enabled for internal links. To set a tooltip title, add it in quotes after the link address:
+
+  [[Main.HomePage"This is a tooltip title"]]
+  [[Main.HomePage"This is a tooltip title"|Home]]
+  [[http://www.pmwiki.org"Home of PmWiki"]]
+  Attach:image.jpg"Tooltip title of the image"
+
+The following new upload extensions were added: svg, xcf, ogg, flac, ogv, mp4, webm, odg, epub. A couple of minor optimizations were added (MarkupExpressions and rendering of page history) and the documentation was updated.
+
+Version 2.2.34 (2011-10-10)
+This version resets the timestamps of the default pages Site(Admin).AuthUser which are expected in case of upgrades from the versions 2.1.*. Core MarkupExpressions which manipulate strings should now work better with international characters. The documentation was updated to its latest state from pmwiki.org.
+
+Version 2.2.33 (2011-09-23)
+This version fixes a security bug introduced in 2.2.32 which left the groups Site and SiteAdmin open for reading and editing because the pages Site.GroupAttributes and SiteAdmin.GroupAttributes didn't have all necessary attributes. 
+
+All wikis running 2.2.32 should upgrade. If you cannot immediately upgrade, you can set the attributes from your wiki:
+open the attributes page [[SiteAdmin.GroupAttributes?action=attr]] and set a "read" and an "edit" password,  @lock  is recommended.
+open the attributes page [[Site.GroupAttributes?action=attr]] and set an "edit" password,  @lock  is recommended. Do not set a "read" password here.
+The release also fixes the refcount.php script to produce valid HTML, and updates intermap.txt entries PITS: and Wikipedia: to point to their current locations.
+
+Version 2.2.32 (2011-09-18)
+This is the first version shipping with the core documentation in the UTF-8 encoding. PmWiki will automatically convert it on the fly for wikis using an older encoding.
+
+It is recommended that all new PmWiki installations enable UTF-8. Migration of existing wikis from an older encoding to UTF-8 shouldn't be rushed: it is not trivial and will be documented in the future.
+
+A required HTML xmlns attribute was added to the print skin template. The history rendering is now faster when many lines are added or removed.
+
+ Note: Due to a manipulation error, a version 2.2.31 was created before it was ready for a release.
+
+Version 2.2.30 (2011-08-13)
+This version fixes a $Charset definition in international iso-8859-*.php files. This will help for a future transition to UTF-8. 
+
+A variable $EnableRangeMatchUTF8 was added, set it to 1 to enable range matches of pagenames in UTF-8 like [A-D]. Previously the range matches were always enabled in UTF-8, but we found out that on some installations this feature breaks all pagelists, even those without range matches. In case the feature worked for you, you can re-enable it.
+
+Version 2.2.29 (2011-07-24)
+This release fixes Attach links that were broken with the Path fix in 2.2.28 earlier today.
+
+Version 2.2.28 (2011-07-24)
+This release fixes 2 potential XSS vulnerabilities and a bug with Path: links.
+
+Version 2.2.27 (2011-06-19)
+This release fixes a validation bug on pages after a redirection. A new block WikiStyle %justify% was added, allowing left and right aligned text. The page history now accepts a URL parameter ?nodiff=1 which hides the rendering of edit differences, showing only timestamps, authors, summaries and "Restore" links; it allows to restore a vandalized page with a huge contents or history which otherwise would break the memory or time limits of the server.
+
+Version 2.2.26 (2011-05-21)
+This release fixes a redundant removal of link hashes from WikiTrails, and updates the documentation to the most recent version from PmWiki.org.
+
+Version 2.2.25 (2011-03-22)
+This release only updates the documentation to the latest state on pmwiki.org.
+
+Version 2.2.24 (2011-02-15)
+This version reverts the way existing PageVariables are processed, like version 2.2.21 or earlier, but it adds a special variable $authpage which can be used in PageVar definitions. It is the same as the $page array, but exists only if the visitor has read permissions. For example, an administrator can set to config.php:
+
+  $FmtPV['$LastModifiedSummary'] = '@$authpage["csum"]'; # instead of '@$page["csum"]'
+Then, the edit summary metadata will only be available if the user has read permissions.
+
+Version 2.2.23 (2011-01-25)
+This version sets the default value of $EnablePageVarAuth to 0 until we investigate a reported problem with authentication.
+
+Version 2.2.22 (2011-01-16)
+This version adds the variable $EnableXLPageScriptLoad which, if set to 0, will prevent authors to load scripts from XLPage and to accidentally change the encoding of the wiki. If you use it, make sure you include the required files, eg. xlpage-utf-8.php from local config files.
+
+PageVariables should now respect authentications: without read permissions, the title, description, change summary, author of a protected page are unavailable. PageVariables that are computed without reading the page are still available (eg. $Group, $Namespaced, $Version etc.). Administrators can revert the previous behavior by adding to config.php such a line:
+
+ $EnablePageVarAuth = 0; 
+
+Version 2.2.21 (2010-12-14)
+Due to a mis-configuration of a local svn repository, some of the changes intended for 2.2.20 didn't make it in the correct branch. This release corrects this.
+
+Version 2.2.20 (2010-12-14)
+This version fixes a potential XSS vulnerability, reported today. An AuthUser bug with excluding users from authgroups was fixed. A new InterMap prefix PmL10n: was added, it leads to the Localization section on PmWiki.org and should help the work of translators. A couple of other minor bugs were fixed and the documentation was updated.
+
+Version 2.2.19 (2010-11-10)
+This is a documentation-update release.
+
+Version 2.2.18 (2010-09-04)
+This version fixes 3 minor bugs, and updates the documentation.
+
+Version 2.2.17 (2010-06-20)
+This version adds a variable $PostConfig containing functions and scripts to be loaded after stdconfig.php. Tabindex was added as a valid form field attribute. Protected downloads now respect existing browser caches. AuthUser now allows more flexible cookbook recipe integration. A couple of bugs were fixed and the documentation was updated.
+
+Version 2.2.16 (2010-05-10)
+This version fixes a bug with parsing html attributes which could allow XSS injection. Wikis allowing unprotected editing are encouraged to upgrade.
+
+A bug with the "center" button of the GUI edit toolbar was corrected.
+
+The "exists" conditional now accepts wildcards, for example:
+  (:if exists Main.*:)There are pages in the Main group (:if:)
+The documentation was updated.
+
+Version 2.2.15 (2010-03-27)
+This version adds some minor bugfixes and optimizations notably a bug with (:template none:) introduced in the last version 2.2.14.
+
+Version 2.2.14 (2010-02-27)
+This release corrects inline styles for WikiTrail links. Undefined include/template  {$$variables}  are now removed from the included section, like Page(Text)Variables, and can be used in conditional expressions. If needed, this change can be reverted by adding to config.php such a line:
+
+
+  $EnableUndefinedTemplateVars = 1; # keep and display unset {$$variables}
+
+PageList templates now accept the sections  !first  and  !last  for markup to appear for every page in list except the first or last one.
+
+"Title" attributes were added to external links. You can have tooltip titles on external links, including InterMap and attachments, by adding the link title in double quotes after the URL:
+  [[http://www.pmwiki.org"Home of PmWiki"| External link]]
+For international wikis, PmWiki now automatically translates the titles of technical pages like GroupAttributes or RecentChanges -- just define these strings as usual in XLPage, for example, in French:
+  'AllRecentChanges' => 'Tous les changements récents',
+Some minor optimizations were done and the documentation was updated.
+
+Version 2.2.13 (2010-02-21)
+This release fixes a bug with $DiffKeepNum introduced in 2.2.10 -- the count of revisions was incorrect and a page could drop more revisions than it should.
+
+The page history layout was modified with a rough consensus in the community. The history now defaults to "source" view with word-level highlighting of the differences. Authors can see the changes in rendered output by clicking on the link "Show changes to output". Admins can switch back the default by adding such a line to config.php:
+
+  $DiffShow['source'] = (@$_REQUEST['source']=='y')?'y':'n';
+To disable word-level highlighting and show plain text changes:
+
+  $EnableDiffInline = 0;
+In the page history rendering, a few minor bugs were fixed and the code was slightly optimized.
+
+The documentation was updated.
+
+Version 2.2.12 (2010-02-17)
+This release adds simple word-level highlighting of differences in the page history, when "Show changes to markup" is selected. To enable the feature, add to config.php such a line:
+  $EnableDiffInline = 1;
+This feature is like what the InlineDiff recipe provides, but not exactly the same, and the implementation is simpler. It is enabled on PmWiki.org and can be improved -- your comments are welcome.
+
+Version 2.2.11 (2010-02-14)
+This release adds two new table directives for header cells, (:head:) and (:headnr:). They work the same way as (:cell:) and (:cellnr:) except that create <th> instead of <td> html tags.
+
+The pagerev.php script was refactored into separate functions to allow easier integration of recipes displaying the page history.
+
+A couple of minor bugs were fixed and the documentation was updated.
+
+Version 2.2.9, 2.2.10 (2010-01-17)
+Most important in this release is the official change of $EnableRelativePageVars to 1. The change is about how {$Variable} in included pages is understood by PmWiki.
+When $EnableRelativePageVars is set to 0, {$Name} displays the name of the currently browsed page. Even if {$Name} is in an included page, it will display the name of the browsed page.
+When $EnableRelativePageVars is set to 1, {$Name} displays the name of the physical page where it written. If {$Name} is in an included page, it will display the name of the included page.
+{*$Name} always displays the name of the currently browsed page, regardless of $EnableRelativePageVars.
+So, if your wiki relies on page variables from included pages, and doesn't have $EnableRelativePageVars set to 1, after upgrading to 2.2.9, you can revert to the previous behavior by adding to config.php such a line:
+  $EnableRelativePageVars = 0;
+More information about page variables can be found at:
+  http://www.pmwiki.org/wiki/PmWiki/PageVariables
+This release adds a new variable $EnablePageTitlePriority which defines how to treat multiple (:title..:) directives. If set to 1, the first title directive will be used, and if a page defines a title, directives from included pages cannot override it. PmWiki default is 0, for years, the last title directive was used (it could come from an included page or GroupFooter).
+
+This release also adds a new variable $DiffKeepNum, specifying the minimum number (default 20) of edits that will be kept even if some of them are older than the limit of $DiffKeepDays.
+
+A number of bugs were fixed and the documentation was updated.
+
+Version 2.2.8 (2009-12-07)
+This release fixes another PHP 5.3 compatibility issue with conditional markup. The Author field now handles apostrophes correctly. The documentation was updated.
+
+Version 2.2.7 (2009-11-08)
+This release fixes most PHP 5.3 compatibility issues. Unfortunately some specific builds for Windows may still have problems, which are unrelated to PmWiki. Notably, on Windows, all passwords need to be 4 characters or longer.
+
+Upload names with spaces are now correctly quoted. The documentation was updated.
+
+Version 2.2.6 (2009-10-04)
+With this release it is now possible to display recently uploaded files to the RecentChanges pages -- if you have been using the RecentUploadsLog recipe, please uninstall it and follow the instructions at http://www.pmwiki.org/wiki/Cookbook/RecentUploadsLog.
+
+The release also introduces $MakeUploadNamePatterns to allow custom filename normalization for attachements. It is now possible to replace $PageListFilters and $FPLTemplateFunctions with custom functions. Notify should now work in safe_mode. Some bugs were fixed, among which one with conditional markup with dates. The documentation was updated.
+
+Version 2.2.5 (2009-08-25)
+This release adds a new markup for Pagelist templates, (:template none:) which allows a message to be set when the search found no pages. The FPLTemplate() function was broken into configurable sub-parts to allow development hooks. A number of bugs were fixed, and the documentation was updated.
+
+Version 2.2.4 (2009-07-16)
+This release fixes a bug introduced earlier today with HTML entities in XLPages.
+
+Version 2.2.3 (2009-07-16)
+This release fixes six potential XSS vulnerabilities, reported by Michael Engelke. The vulnerabilities may affect wikis open for editing and may allow the injection of external JavaScripts in their pages. Public open wikis should upgrade.
+
+A new variable $EnableUploadGroupAuth was added; if set to 1, it allows password-protected uploads to be checked against the Group password. 
+
+It is now possible to use  @_site_edit, @_site_read, @_site_admin or  @_site_upload  global passwords in GroupAttributes pages.
+
+A number of other small bugs were fixed, and the documentation was updated.
+
+Version 2.2.2 (2009-06-21)
+The major news in this release is a fix of an AuthUser vulnerability.
+
+The vulnerability affects only wikis that (1) rely on the AuthUser core module 
+for User:Password authentication, -AND- (2) where the PHP installation runs 
+with the variable "magic_quotes_gpc" disabled.
+
+All PmWiki 2.1.x versions from pmwiki-2.1.beta6 on, all 2.2.betaX, 2.2.0, and 
+2.2.1 are affected.
+
+The PmWiki SiteAnalyzer? can detect if your wiki needs to upgrade:
+  http://www.pmwiki.org/wiki/PmWiki/SiteAnalyzer
+If your wiki is vulnerable, you should do one of the following at the earliest 
+opportunity:
+
+Upgrade to a version of PmWiki at least 2.2.2 or greater.
+Turn on magic_quotes_gpc in the php.ini file or in a .htaccess file.
+Alternatively, you can temporarily disable AuthUser until you upgrade.
+
+Note that even if your wiki does not have the AuthUser vulnerability at the 
+moment, you are strongly encouraged to upgrade to PmWiki version 2.2.2 or 
+later, as some future configuration of your hosting server might put you at 
+risk.
+
+This release also comes with minor updates in the local documentation; fixes 
+were applied for international wikis - notably global variables in 
+xlpage-utf-8.php and a new variable $EnableNotifySubjectEncode, which allows 
+e-mail clients to correctly display the Subject header; and a number of other 
+small bugs were fixed.
+
+Version 2.2.1 (2009-03-28)
+This release comes with an updated local documentation; wiki trails now work cross-group; guiedit.php now produces valid HTML, and other small bugs were fixed.  We also added $EnableRedirectQuiet, which allows redirects to take place without any mention of "redirected from page ....".
+
+
+Version 2.2.0 (2009-01-18)
+This is a summary of changes from 2.1.x to 2.2.0.
+
+Several pages that were formerly in the Site.* group are now in a separate SiteAdmin.* group, which is read-restricted by default.  The affected pages include Site.AuthUser, Site.AuthList, Site.NotifyList, Site.Blocklist, and Site.ApprovedUrls .  If upgrading from an earlier version of PmWiki, PmWiki will prompt to automatically copy these pages to their new location if needed.  If a site wishes to continue using the old Site.* group for these pages, simply set
+$SiteAdminGroup = $SiteGroup;
+when carrying out this upgrade inspect your config files for lines such as
+$BlocklistDownload['Site.Blocklist-PmWiki'] = array('format' => 'pmwiki');
+as you may wish to fix then, eg
+$BlocklistDownload[$SiteAdminGroup . '.Blocklist-PmWiki'] = array('format' => 'pmwiki');
+Important Change in Passwords in PmWiki 2.2 indicating that the group can be edited even if a site password is set will be done by "@nopass" prior it was done by "nopass"
+When migrating a wiki you will have to manually modify the permission or by a script replace in all the page concerned passwdread=nopass: by passwdread=@nopass (see PITS:00961) --isidor
+PmWiki now ships with WikiWords entirely disabled by default.  To re-enable them, set either $LinkWikiWords or $EnableWikiWords to 1.  To get the 2.1 behavior where WikiWords are spaced and parsed but don't form links, use the following:
+$EnableWikiWords = 1;
+$LinkWikiWords = 0;
+It's now easy to disable the rule that causes lines with leading spaces to be treated as preformatted text -- simply set $EnableWSPre=0; to disable this rule.
+Important: There is ongoing discussion that the leading whitespace rule may be disabled by default in a future versions of PmWiki.  If you want to make sure that the rule will continue to work in future upgrades, set $EnableWSPre=1; in local/config.php.
+The $ROSPatterns variable has changed somewhat -- replacement strings are no longer automatically passed through FmtPageName() prior to substitution (i.e., it must now be done explicitly).
+Page variables and page links inside of (:include:) pages are now treated as relative to the included page, instead of the currently browsed page.  In short, the idea is that links and page variables should be evaluated with respect to the page in which they are written, as opposed to the page in which they appear.  This seems to be more in line with what authors expect.  There are a number of important ramifications of this change:
+
+We now have a new {*$var} form of page variable, which always refers to "the currently displayed page".  Pages such as Site.PageActions and Site.EditForm that are designed to work on "the currently browsed page" should generally switch to using {*$FullName} instead of {$FullName}.
+The $EnableRelativePageLinks and $EnableRelativePageVars settings control the treatment of links and page variables in included pages.  However, to minimize disruption to existing sites, $EnableRelativePageVars defaults to disabled.  This will give existing sites an opportunity to convert any absolute {$var} references to be {*$var} instead.
+Eventually $EnableRelativePageVars will be enabled by default, so we highly recommend setting $EnableRelativePageVars = 1; in local/config.php to see how a site will react to the new interpretation.  Administrators should especially check any customized versions of the following:
+Site.PageActions
+Site.EditForm
+Site.PageNotFound
+SideBar pages with ?action= links for the current page
+$GroupHeaderFmt, $GroupFooterFmt
+Page lists that refer to the current group or page, etc in sidebars, headers, and footers
+The (:include:) directive now has a basepage= option whereby an author can explicitly specify the page upon which relative links and page variables should be based.  If no basepage= option is specified, the included page is assumed to be the base.
+Sites that want to retain the pre-2.2 behavior of (:include:) and other items can set $Transition['version'] = 2001900; to automatically retain the 2.1.x defaults.
+Text inserted via (:include:) can contain "immediate substitutions" of the form {$$option} -- these are substituted with the value of any options provided to the include directive.
+PmWiki now recognizes when it is being accessed via "https:" and switches its internal links appropriately.  This can be overridden by explicitly setting $ScriptUrl and $PubDirUrl.
+A new $EnableLinkPageRelative option allows PmWiki to generate relative urls for page links instead of absolute urls.
+Draft handling capabilities have been greatly improved.  When $EnableDrafts is set, then the "Save" button is relabeled to "Publish" and a "Save draft" button appears.  In addition, an $EnablePublishAttr configuration variable adds a new "publish" authorization level to distinguish editing from publishing.  See PmWiki:Drafts for more details.
+
+There is a new {$:var} "page text variable" available that is able to grab text excerpts out of markup content.  For example, {SomePage$:Xyz} will be replaced by a definition of "Xyz" in SomePage.  Page text variables can be defined using definition markup, a line beginning with the variable name and a colon, or a special directive form (that doesn't display anything on output):
+
+:Xyz: some value            # definition list form
+Xyz: some value             # colon form
+(:Xyz: some value:)         # directive form
+
+
+
+The (:pagelist:) command can now filter pages based on the contents of page variables and/or page text variables.  For example, the following directive displays only those pages that have an "Xyz" page text variable with "some value":
+(:pagelist $:Xyz="some value":)
+Wildcards also work here, thus the following pagelist command lists pages where the page's title starts with the letter "a":
+(:pagelist $Title=A* :)
+The if= option to (:pagelist) can be used to filter pages based on conditional markup:
+(:pagelist if="auth upload {=$FullName}":)  pages with upload permission
+(:pagelist if="date today.. {=$Name}":) pages with names that are dates later than today
+Spaces no longer separate wildcard patterns -- use commas.  (Most people have been doing this already.)
+Because page variables are now "relative", the {$PageCount}, {$GroupCount}, {$GroupPageCount} variables used in pagelist templates are now {$$PageCount}, {$$GroupCount}, {$$GroupPageCount}.
+One can now use {$$option} in a pagelist template to obtain the value of any 'option=' provided to the (:pagelist:) command.
+The (:pagelist:) directive no longer accepts parameters from urls or forms by default.  In order to have it accept such parameters (which was the default in 2.1 and earlier), add a request=1 option to the (:pagelist:) directive.
+The count= option to pagelists now accepts negative values to count from the end of the list.  Thus count=5 returns the the first five pages in the list, and count=-5 returns the last five pages in the list.  In addition, ranges of pages may be specified, as in count=10..19 or count=-10..-5.
+Pagelist templates may have special (:template first ...:) and (:template last ...:) sections to specify output for the first or last page in the list or a group.  There's also a (:template defaults ...:) to allow a template to specify default options.
+PmWiki comes with an ability to cache the results of certain (:pagelist:) directives, to speed up processing on subsequent visits to the page.  To enable this feature, set $PageListCacheDir to the name of a writable directory (e.g., work.d/).
+The (:if ...:) conditional markup now also understands (:elseif ...:) and (:else:).  In addition, markup can nest conditionals by placing digits after if/elseif/else, as in (:if1 ...), (:elseif1 ...:), (:else1:), etc.
+The (:if date ...:) conditional markup can now perform date comparisons for dates other than the current date and time.
+WikiTrails can now specify #anchor identifiers to use only sections of pages as a trail.
+A new (:if ontrail ...:) condition allows testing if a page is listed on a trail.
+The extensions .odt, .ods, and .odp (from OpenOffice.org) are now recognized as valid attachment types by default.
+A new blocklist capability has been added to the core distribution.  It allows blocking of posts based on IP address, phrase, or regular expression, and can also make use of publicly available standard blocklists.  See PmWiki.Blocklist for details.
+There is a new SiteAdmin.AuthList page that can display a summary of all password and permissions settings for pages on a site.  This page is restricted to administrators by default.
+There are new {$PasswdRead}, {$PasswdEdit}, etc. variables that display the current password settings for a page (assuming the browser has attr permissions or whatever permissions are set in $PasswdVarAuth).
+Forms creation via the (:input:) markup has been internally refactored somewhat (and may still undergo some changes prior to 2.2.0 release).  The new (:input select ...:) markup can be used to create select boxes, and (:input default ...:) can be used to set default control values, including for radio buttons and checkboxes.
+The (:input textarea:) markup now can take values from other sources, including page text variables from other pages.
+Specifying focus=1 on an (:input:) control causes that control to receive the input focus when a page is loaded.  If a page has multiple controls requesting the focus, then the first control with the lowest value of focus= "wins".
+PmWiki now provides a scripts/creole.php module to enable Creole standard markup.  To enable this, add include_once('scripts/creole.php') to a local customization file.
+PmWiki adds a new {(...)} markup expression capability, which allows various simple string and data processing (e.g., formatting of dates and times).  This is extensible so that recipe authors and system administrators can easily add custom expression operators.
+It's now possible to configure PmWiki to automatically create Category pages whenever a page is saved with category links and the corresponding category doesn't already exist.  Pages are created only if the author has appropriate write permissions into the group.  To enable this behavior, add the following to local/config.php:
+$AutoCreate['/^Category\\./'] = array('ctime' => $Now);
+Sites with wikiwords enabled can now set $WikiWordCount['WikiWord'] to -1 to indicate that 'WikiWord' should not be spaced according to $SpaceWikiWords.
+WikiWords that follow # or & are no longer treated as WikiWords.
+Links to non-existent group home pages (e.g., [[Group.]] and [[Group/]]) will now go to the first valid entry of $PagePathFmt, instead of being hardcoded to "Group.Group".  For example, to set PmWiki to default group home pages to $DefaultName, use
+$PagePathFmt = array('{$Group}.$1', '$1.{$DefaultName}', '$1.$1');
+PmWiki now provides a $CurrentTimeISO and $TimeISOFmt variables, for specifying dates in ISO format.
+Cookbook authors can use the internal PmWiki function UpdatePage (temporarily documented at DebuggingForCookbookAuthors) to change page text while preserving history/diff information, updating page revision numbers, updating RecentChanges pages, sending email notifications, etc.
+Skin templates are now required to have <!--HTMLHeader--> and <!--HTMLFooter--> directives.  Setting $EnableSkinDiag causes PmWiki to return an error if this isn't the case for a loaded skin.  Skins that explicitly do not want HTMLHeader or HTMLFooter sections can use <!--NoHTMLHeader--> and <!--NoHTMLFooter--> to suppress the warning.
+Added a new "pre" wikistyle for preformatted text blocks.
+The xlpage-utf-8.php script now understands how to space UTF-8 wikiwords.  
+Searches on utf-8 site are now case-insensitive for utf-8 characters.
+Many Abort() calls now provide a link to pages on pmwiki.org that can explain the problem in more detail and provide troubleshooting assistance.
+PmWiki no longer reports "?cannot acquire lockfile" if the visitor is simply browsing pages or performing other read-only actions.
+The $EnableReadOnly configuration variable can be set to signal PmWiki that it is to run in "read-only" mode (e.g., for distribution on read-only media).  Attempts to perform actions that write to the disk are either ignored or raise an error via Abort().
+Including authuser.php no longer automatically calls ResolvePageName().
+Authentication using Active Directory is now simplified.  In Site.AuthUser or the $AuthUser variable, set "ldap://name.of.ad.server/" with no additional path information (see PmWiki.AuthUser for more details).
+Pages are now saved with a "charset=" attribute to identify the character set in effect when the page was saved.
+The phpdiff.php algorithm has been optimized to be smarter about finding smaller diffs.
+Removed the (deprecated) "#wikileft h1" and "#wikileft h5" styles from the pmwiki default skin.
+The mailposts.php and compat1x.php scripts have been removed from the distribution.
+Version 2.1.27 (2006-12-11)
+This version backports from 2.2.0-beta a bugfix for $TableRowIndexMax and also support for the {*$Variable} markup.
+
+Version 2.1.26 (2006-09-11)
+This version fixes a bug in feeds.php that would cause feed entries to be mixed up.
+
+Version 2.1.25 (2006-09-08)
+This release fixes a bug in authuser.php introduced by the 2.1.24 release.
+
+The skin template code has also been extended to allow <!--XMLHeader--> and <!--XMLFooter--> as aliases for <!--HTMLHeader--> and <!--HTMLFooter-->.
+
+Version 2.1.24 (2006-09-06)
+This release makes some improvements and fixes to the AuthUser
+capability.
+
+A bug in authuser.php that had trouble dealing with non-array values in $AuthUser has been fixed.
+
+It is now possible to specify group memberships from local/config.php (remember that such entries must come before including the authuser.php script):
+
+    # alice and bob's passwords
+    $AuthUser['alice'] = crypt('alicepassword');
+    $AuthUser['bob'] = crypt('bobpassword');
+
+    # members of the @writers and @admins groups
+    $AuthUser['@writers'] = array('alice',  'bob');
+    $AuthUser['@admins'] = array('alice', 'dave');
+
+    # carol is a member of @editors and @writers
+    $AuthUser['carol'] = array('@editors', '@writers');
+AuthUser can now read from Apache-formatted .htgroup files.  The location of the .htgroup file can be done either in local/config.php or Site.AuthUser
+
+    # local/config.php:
+    $AuthUser['htgroup'] = '/path/to/.htgroup';
+
+    # Site.AuthUser
+    htgroup: /path/to/.htgroup
+Versions 2.1.21, 2.1.22, 2.1.23 (2006-09-05, 2006-09-06)
+This release closes a potential security vulnerability for sites 
+that are running with 'register_globals' set to on.  Details of
+the vulnerability will be forthcoming on the mailing list
+and site.
+
+Sites that are running with PHP 'register_globals' and 'allow_url_fopen'
+set to 'On' should upgrade to this release at the earliest
+opportunity.  If upgrading isn't an option, contact Pm for
+a patch to older versions.
+
+There is now a tool available to analyze PmWiki sites for security
+and other configuration settings, see PmWiki:SiteAnalyzer.
+
+Version 2.1.23 also corrects a bug that prevented PmWiki from being
+able to read pagefiles created by versions of PmWiki before 0.5.6.
+
+Version 2.1.20 (2006-09-04)
+More minor bugfixes:
+Corrected a bug with WikiWord references appearing in the (:attachlist:) markup.
+Restore ability to remove/override PmWiki's default CSS settings.
+Version 2.1.19 (2006-08-30)
+This release provides a number of very minor bugfixes and
+enhancements:
+
+Fixed a bug in the pageindex code that was causing it to not regenerate as quickly as it should.
+Fixed image/object/embed handling in wikistyles to better support the Cookbook:Flash recipe.
+Fixed a bug with wikistyles and input form tags.
+The next release(s) may have a number of substantial code
+enhancements and changes, so this release simply closes out
+a few items before introducing those changes.
+
+Version 2.1.18 (2006-08-28)
+This release closes a potential cross-site scripting vulnerability
+that could allow authors to inject Javascript code through the
+various table markups.
+
+The release also adds a new (:input image:) markup to generate
+image input tags in forms.
+
+Finally, this release corrects a problem with ?action=print
+failing to properly set the {$Action} page variable.
+
+Version 2.1.17 (2006-08-26)
+This release fixes a long-standing bug with $EnableIMSCaching
+(PITS:00573), whereby login/logout operations wouldn't invalidate 
+browser caches, causing some people to see versions of a page prior
+to the login/logout taking place.  
+
+The new IMS caching code maintains a "imstime" cookie in the 
+visitor's browser that keeps track of the time of last login, 
+logout, author name change, or site modification.  This cookie
+is then used to determine the proper response to browser requests
+containing If-Modified-Since headers.  (Previously only the
+time of the last site modification was available.)  
+
+Browsers which do not accept cookies will effectively act as
+though IMS caching is disabled.
+
+Version 2.1.16 (2006-08-26) 
+This release makes some improvements to skin handling -- primarily
+this improves the capability of relocating skin files to other
+locations, and to provide the ability for recipes to insert items
+at the end of HTML output.
+
+This release introduces a <!--HTMLFooter--> directive into
+skin templates, which allows recipes and local
+customizations to insert output near the end of a document 
+using a $HTMLFooterFmt array from PHP.
+
+Also, the <!--HeaderText--> directive, which inserts the
+contents of $HTMLHeaderFmt into the output, has now been
+renamed to <!--HTMLHeader-->.  PmWiki will continue to
+recognize <!--HeaderText--> to preserve compatibility with
+existing skins, but <!--HTMLHeader--> is preferred.
+
+A new $SkinLibDirs array has been introduced which allows
+the source locations and urls for skins to be specified from
+a customization file.  By default $SkinLibDirs is set as
+
+  $SkinLibDirs = array("./pub/skins/\$Skin"      => "$PubDirUrl/skins/\$Skin",
+                  "$FarmD/pub/skins/\$Skin" => "$FarmPubDirUrl/skins/\$Skin");
+The keys (on the left) indicate the places to look for a "skin .tmpl 
+file" in the filesystem, while the values (on the right) indicate the
+url location of the "skin css file".  Modifying the value of 
+$SkinLibDirs allows a skin .tmpl file to be located anywhere on the 
+filesystem.
+
+As far as I can see, none of the changes introduced by this
+release should have any sort of negative impact on existing
+sites, so it should be safe to upgrade.  (If I'm wrong, please
+let me know.)
+
+Version 2.1.15 (2006-08-25)
+This release includes a number of feature enhancements and code cleanups
+as reported or requested by administrators.
+
+First, AuthUser's LDAP authentication system now allows the use of
+a ?filter parameter, consistent with urls used for mod_auth_ldap
+authorization in Apache.  See the newly updated LDAP section of the
+AuthUser documentation for more details.
+
+A chicken-and-egg problem with the @_site_* authorization groups
+has been resolved.  It's now possible to have a page's read authorization
+refer to things such as _site_edit.
+
+Also, the RetrieveAuthPage() function -- used for retrieving pages only
+if the visitor is authorized to do so -- now recognizes a special
+level parameter of 'ALWAYS', which means to always authorize access
+regardless of the browser or visitors current permissions.  This
+may be useful for allowing certain operations to take place from
+within trusted scripts without having to grant full authorization
+to the browser.
+
+Hardcoded instances of the local/ directory now use a
+customizable $LocalDir variable.  This variable controls where
+PmWiki looks for local/config.php and per-group customization 
+files.  It may be useful for some Wiki Farm contexts.  Note that
+this does not change or affect the location of 
+$FarmD/local/farmconfig.php.
+
+Some minor internal changes have been made to 
+scripts/wikistyles.php to better accommodate the 
+wikipublisher recipe.  It's probably better if we don't try
+to explain them.  :-)
+
+Version 2.1.13, 2.1.14 (2006-08-15, 2006-08-16)
+This release fixes a bug in handling numeric passwords, and also
+allows ldaps:// authentication sources.
+
+Version 2.1.12 (2006-08-07)
+This version introduces the ability to nest divs and tables.
+The standard (:table:) and (:div:) markups are still
+available, except that a (:div:) may contain a (:table:)
+and vice-versa.  
+
+As in previous versions of PmWiki, the (:div:) markup
+automatically closes any previous (:div:).  However, there
+are now (:div1:), (:div2:), etc. markups (and the
+corresponding (:div1end:), (:div2end:), ...) which can be
+used to uniquely distinguish divs for nesting purposes.
+
+To restore PmWiki's previous "non-nested" div behavior, set
+$Transition['nodivnest'] = 1; in a local customization file.
+
+Other changes in this release:
+Add a (:noaction:) directive to suppress display of page actions.
+Allow anchor tags to contain colons, hyphens, and dots.
+Add "white-space" as an allowed wikistyle.
+Other minor bug fixes and typographical corrections.
+Version 2.1.11 (2006-06-09)
+This is a minor update that prevents %define=% wikistyles
+from generating empty paragraphs in the HTML output.  Prior to
+this release, markup lines containing only wikistyle definitions
+would often generate empty paragraphs (<p></p>), this release
+changes things so that a markup line beginning with %define=
+and containing only wikistyle definitions will not initiate
+a new paragraph.
+
+Version 2.1.10 (2006-06-03)
+Version 2.1.4 introduced an {$Action} page variable that would
+contain the current ?action= value.  Unfortunately, this page
+variable conflicted with a pre-existing $Action global variable
+that was being used by skins to display a human-friendly form of
+the current action.  Since there's not really a clean way to resolve
+this, I've decided to keep {$Action} as a page variable
+with the current action value (as introduced in 2.1.4), and change 
+the global for skins to be $ActionTitle.  This will require updating
+skins to use $ActionTitle instead of $Action.  I apologize for the
+conflict.
+
+This release adds a Site.LocalTemplates page for the fmt=#xyz
+option in pagelist and search results.  The list of pages to be
+searched can be customized via the $FPLTemplatePageFmt variable.
+The fmt=#xyz option will now also search the current page for
+a matching template before searching Site.LocalTemplates
+and Site.PageListTemplates.
+
+The 'pmwiki' skin now places a <span> around the "Recent Changes"
+link in the header to make it somewhat easier to style.
+
+Version 2.1.9 (2006-06-02)
+This release fixes a long-standing and difficult-to-find bug with
+the handling of [[~Author]] links.
+
+Version 2.1.8 (2006-06-01)
+This release simply changes the $NotifyListFmt variable to be
+$NotifyListPageFmt (more descriptive), and adds a $NotifyList
+array that can be used to specify notification entries from
+a configuration file.
+
+Version 2.1.7 (2006-05-31)
+This release introduces a variety of improvements and bugfixes.
+
+Vspace paragraphs are now divs:
+Version 2.1.7 changes the way that PmWiki handles vertical
+space in output (the infamous <p class='vspace></p> sequence).
+Instead of using paragraphs, PmWiki now generates 
+<div class='vspace'></div> for vertical space sequences.
+In addition, PmWiki is able to collapse the vspace <div> with
+any subsequent paragraph tags, such that a sequence like
+
+    <div class='vspace></div><p>...paragraph text...</p>
+is automatically converted to
+
+    <p class='vspace'>...paragraph text...</p>
+This allows for better control over paragraph spacing.  It is
+expected that this change in vspace handling will not have
+any detrimental effects on existing sites.  Sites that have
+set custom values for $HTMLVSpace will continue to use the
+custom value.  A site that wants to restore PmWiki's earlier
+handling of vspace can do so by adding the following to
+local/config.php:
+
+    $HTMLVSpace = "<p class='vspace'></p>";
+Improved email notifications of changes:  Version 2.1.7
+incorporates a notify.php script that provides improved
+capabilities for sending email notifications in response to
+page changes.  This script is intended to replace the previous
+MailPosts capability, which is now deprecated (but will
+continue to be supported in PmWiki 2.1.x).  Details and 
+instructions for using notify.php are in the PmWiki.Notify page.
+
+Added 'group home page' syntax: A group name followed
+by only a dot or slash is automatically treated as a reference
+to the group's home page, whatever it happens to be.  This simplifies
+some pagelist templates as well as a number of other items. 
+In particular, group links in pagelist output now points to the
+correct locations (instead of being a page in the current group).
+
+Several bugs and vulnerabilities have been fixed:
+The default width of edit forms is now more appropriate for Internet Explorer.
+Authentication failure messages from LDAP are now suppressed.
+Some cross-site scripting vulnerabilities in uploads and page links have been corrected (courtesy Moritz Naumann, http://moritz-naumann.com).
+A problem with invalid pagenames resulting in redirect loops has been corrected.
+Version 2.1.6 (2006-05-22)
+The primary improvement in this release is the addition of 
+a pagename argument to the (:if auth:) conditional markup.
+Thus one can display markup based on a visitor's authorization
+to a page other than the current one.  For example, to test
+for edit privileges to Main.WikiSandbox, one would use
+(:if auth edit Main.WikiSandbox:).  As before, if the
+pagename is omitted the directive tests authorization to
+the current page.
+
+This release also restores the ability to have hyphens in
+InterMap link names.
+
+Lastly, the release closes a potential cross-site scripting
+vulnerability in the WikiTrail markup, and provides some small
+performance improvements.
+
+Version 2.1.4, 2.1.5 (2006-03-29)
+This release fixes a few more bugs:
+Pagelist-based feeds using ?action=rss work again.
+Multi-term searches with special characters is fixed.
+The release also adds a couple of items:
+There is now an {$Action} page variable.
+Usernames and passwords submitted to authuser.php can contain quotes.
+The (:attachlist:) command now uses a natural case sort.
+Version 2.1.3 (2006-03-17)
+This release fixes a bug that prevents the lines= option from
+working on sites running PHP 5.1.1 or later.  It also re-fixes
+a bug involving empty passwords and LDAP authentication.
+
+Version 2.1.2 (2006-03-16)
+This release fixes a bug with handling "nopass" passwords.  It also
+makes some speed improvements to large web feeds, and fixes a couple
+of minor HTML tag mismatches.
+
+Version 2.1.1 (2006-03-13)
+This release primarily fixes a bug with passwords containing
+multiple authorization groups, and in the process slightly liberalized
+the formatting of "@group" and "id:name" handling.  This release also 
+adds a new mechanism for managing and displaying FAQ pages.
+
+Version 2.1.0 (2006-03-12)
+This set of release notes is fairly lengthy, as it chronicles all of the changes since 2.0.13 (four months of development).  A lot remains the same, but some changes warrant extra care when upgrading from a 2.0.x version to 2.1.0 (thus the major revision number change).  As always, questions and issues can be mailed to the pmwiki-users mailing list.
+
+Here's the list:
+
+WikiWords are now disabled by default.  To enable them, set "$LinkWikiWords = 1;" in a local customization file.  As of 2.1.beta2, you can now leave WikiWords enabled but have links to non-existent pages display without decoration -- to do this, place the following lines in pub/css/local.css:
+    span.wikiword a.createlink { display:none; }
+    span.wikiword a.createlinktext 
+      { border-bottom:none; text-decoration:none; color:inherit; }
+The (:pagelist:) code has been substantially revised.  Pagelist formatting can now be specified using markup, and several defaults are available from Site.PageListTemplates.  Also, several built-in pagelist formatting functions (FPLSimple, FPLByGroup, FPLGroup) are now removed in favor of the template code.  The FPLByGroup function can be restored by setting $Transition['fplbygroup']=1; . Remark: Check to see if your page Site.PageListTemplates is not passwordprotected for viewing, otherwise the resulting pagelist will not be shown. 
+(:pagelist:) now also understands wildcards in group= and name= arguments, as well as excluding specific names and groups.
+(:pagelist:) now has an "order=random" option.
+(:searchbox:) now accepts "group=", "link=", "list=", etc. options to be passed along to the search results.  It also accepts a "target=" option that identifies the page on which to send the search query.
+?action=search will display the contents of the current page if it contains a (:searchresults:) directive, otherwise it uses the content of the page identified by $PageSearchForm (default is the search page for the current language translation).  
+PmWiki no longer maintains a ".linkindex" file -- it now has a ".pageindex" file that contains not only a table of links, but also words used in each page (to speed up term searches).  The maintenance of the .pageindex file can be disabled by setting $PageIndexFile=''; 
+The $EnablePageListProtect variable now defaults to true, so that read-only pages appear in pagelists only if the visitor has read authorization.  Note that this can also slow down some (:pagelist:) and search commands, so if the site doesn't have any read-only pages or if you aren't worried with cloaking read-only pages from searchlists, it might be worth setting $EnablePageListProtect=0; .
+Whitespace indentation rules now exist and are enabled by default.  Any line that begins with whitespace and aligns with a previous list item is considered to be "within" that list item.  Text folds and wraps as normal, and the (:linebreaks:) directive is honored.  To turn off whitespace indentation, use DisableMarkup('^ws');.
+A single blank line after a !!Heading is silently ignored.
+The (:redirect:) directive is now a true markup, and can be embedded inside conditional markups or includes.  It also allows redirecting to an anchor in a page, such as (:redirect PageName#anchor:).  A new from= option allows the redirect to take place only from pages that match the given wildcard specification.  The status= option allows a 301, 302, 303, or 307 HTTP status code to be returned.
+The built-in authorization function has gone through some substantial internal changes, however these changes should be fully backward compatible so that it doesn't impact any existing sites.  (If it does cause a problem, please let me know so I can investigate why!)  The password prompts are now specified by an admin-customizable Site.AuthForm page.  In addition, the authorization function no longer creates PHP sessions for visitors that aren't being authenticated.
+The authuser.php has likewise been substantially updated.  The new version should have complete backwards compatibility with previous authuser.php settings, but this version also offers the ability to configure authentication resources and authorization groups through the Site.AuthUser page.  Note that by default the Site.AuthUser page can only be edited using the admin password.
+The $EnableSessionPasswords variable can be used to control whether passwords are held in PHP sessions.  (This does not affect user authentication via AuthUser, however.)
+The $Author variable now defaults to $AuthId if not otherwise set by a script or cookie.
+The Site.SideBar page now defaults its edit password to the sitewide edit password (in $DefaultPasswords['edit']).
+PmWiki now supports a "draft edit" mode, enabled by $EnableDrafts = 1.  This creates a "Save as draft" button that will save a page under a "-Draft" suffix, for intermediate edits.
+There is now an ?action=login action available.
+A potential security vulnerability for sites running PHP 5 with register_globals enabled has been fixed.
+The [[PageName |+]] markup is now available by default; this creates a link to PageName and uses that page's title as the link text.
+What used to be "markup variables" are now "page variables".  These are always specified using the {$variable} syntax, and can be used in markup and in $...Fmt strings.  In addition, one can request a value for a specific page by placing the pagename in front of the variable, as in {pagename$variable}.
+The scripts/rss.php script is now scripts/feeds.php, and is a complete redesign for web feed generation.  The new version supports UTF-8 and other encodings, can generate Atom 1.0 (?action=atom), Dublin Core Metadata (?action=dc) output, and enclosures for podcasting.  It also allows feeds to be generated from trails, groups, categories, and backlinks, and provides options (same as pagelists) for sorting and filtering the contents of the feed.  Most sites can simply switch to using include_once("scripts/feeds.php"); instead of the previous rss.php include.  The rss.php file has been removed from the distribution (but still works with PmWiki 2.1 for those sites that wish to continue using it).
+InterMap entries can now come from a Site.InterMap page as well as the local/localmap.txt and local/farmmap.txt files.  The format of these files has changed slightly, in that the InterMap name should now have a colon after it (previously the colon was omitted).
+We can now provide better control of robot (webcrawler) interactions with a site to reduce server load and bandwidth.  The $RobotPattern variable is used to detect robots based on the user-agent string, and any actions not listed in the $RobotActions array will return a 403 Forbidden response to robots.  In addition, setting $EnableRobotCloakActions will eliminate any forbidden ?action= values from page links returned to robots, which will reduce bandwidth loads from robots even further (PITS:00563).
+Non-existent page handling has been improved; whenever a browser hits a non-existent page, PmWiki returns the contents of Site.PageNotFound and a 404 ("Not Found") status code.
+Page links that have "?action=" in their query arguments are now treated as "existing page" links even if the page does not exist.
+The PmWiki default skin now adds rel='nofollow' to various action links.
+Some of the CSS styles in the PmWiki default skin have been changed for better presentation.
+The gui edit buttons have transparent (instead of white) borders so they integrate better into skins.
+The $EnableIMSCaching variable is now much smarter, it can detect changes in local customization files as well as pages.
+WikiStyles can now make percentage specifications by using "pct" to mean "%".
+Class attributes in WikiStyle shortcuts are now cumulative, so that %class1 class2% results in class='class1 class2' instead of just class='class2' in the output.
+A problem with the (:include PageName#from#:) markup not working has been fixed (PITS:00560).
+Viewing a GroupHeader or GroupFooter page no longer displays the contents twice.
+It's now easier to share pages among multiple sites (e.g., WikiFarms), see Cookbook:SharedPages (PITS:00459).
+A problem with nested apostrophe markups has been fixed (PITS:00590).
+PmWiki is now smarter about not surrounding block HTML tags with <p>...</p> tags.
+If an [[#anchor]] is used more than once in a page, only the first generates an actual anchor (to preserve XHTML validity).
+There are now (:if equal ...:) and (:if exists pagename:) conditional markups.
+Compound conditional markup expressions are now possible -- e.g. (:if [ group PmWiki && ! name PmWiki ] :) .
+Added an $InputValues array that can supply default values for certain form controls (PITS:00566).
+The default setting of $UploadUrlFmt is now based on $PubDirUrl instead of $ScriptUrl.
+The $text global variable has been removed (use $_GET['text'], $_POST['text'], or $_REQUEST['text']).
+A possible problem with url-encoding of attachments with non-ASCII characters has been addressed (PITS:00588).
+Page actions in non-existent pages no longer display with non-existent link decorations.
+A README.txt file has been added, and several documentation files are now available through the docs/ directory.
+PmWiki is no longer available through CVS on sourceforge.net.  It is now available via SVN on pmwiki.org, at svn://pmwiki.org/pmwiki/tags/latest .  For more details, see PmWiki:Subversion.
+The $NewlineXXX variable (deprecated in 2.0.0) has been removed.
+There is experimental support for server-side caching of pages that take a long time to render; this is currently an unsupported feature and may be removed in future releases.
+Wiki administrators should note that from this release on PmWiki defaults to having WikiWords disabled.
+
+To make sure WikiWords are enabled, use $LinkWikiWords = 1; in
+the local/config.php file.
+
+
+Bugs and other requests can be reported to the PmWiki Issue Tracking 
+System at http://www.pmwiki.org/wiki/PITS/PITS.  Any help
+in testing, development, and/or documentation is greatly appreciated..
+
+Release Notes archive - notes for versions older than 2.1.0.
+
+
+
+< Design notes | Documentation Index | Change log >
+
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:ReleaseNotes, and  a talk page: PmWiki:ReleaseNotes-Talk.
+
+
+
+
+
+
+ Last modified December 31, 2016, at 09:43 AM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

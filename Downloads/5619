@@ -1,0 +1,197 @@
+http://sdcl.ics.uci.edu/reserarch/chatbots
+
+
+
+
+
+
+	Chatbots – Software Design and Collaboration Laboratory
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SDCL Software Design and Collaboration Laboratory
+
+
+
+
+
+
+Chatbots
+
+Description
+The rapid rise in the use of bots has changed how developers perform their work.  A variety of tasks, typically fairly simple ones that can be automated in a straightforward manner, are now performed by bots rather than the developers themselves.
+A particular type of bots are chatbots: bots that use a conversational interface to interact with developers to get the work done.  Despite their potential to engage in more complex tasks than bots can, to date relatively few chatbots exist.  In our work, we are exploring the design and development of advanced chatbots that work with software developers to achieve complex tasks.
+
+Code Conflict Detection Chatbot (Sayme)
+Sayme offers awareness of parallel work by informing developers of any emerging conflicts in real-time and helping them to resolve those conflicts. Sayme particularly detects when developers work on the same code at the same time, or on two different pieces of code that are dependent on one another. Once it detects such a conflict, Sayme informs both developers and then guides them to a resolution, so that the developers can avoid running into a future merge conflict. This way, conflicts can be addressed when they are small and initially emerging, which saves developers significant time and effort.
+
+
+Bug Report Chatbot
+Our bug report chatbot helps users in writing better bug reports. Many bug reports are submitted every day, and many of them lack the information that developers need to act on them.  They may be incomplete, not precise, or lack the context in which the bug appears. To address this problem, we are designing a new chatbot that uses natural language understanding techniques to analyze the information that users provides and, when needed (i.e., when the chatbot detects problems with the information), interacts with the user to improve the information they submit.
+
+
+
+
+
+
+Highlights
+Mini conversations – while numerous chatbots are designed to engage in chitchat – conversation for the sake of conversation – our chatbots are designed with the goal of accomplishing work. As such, they need to interact, but seek to hold short, productive conversations.
+Personality – to promote a feeling of engagement, our chatbots are designed to vary their conversations and employ personalized messages.
+Predictive heuristics and machine learning  – our chatbots are designed to anticipate some of the things that may be happening or needed in future.  To do so, they employ predictive heuristics and machine learning techniques.
+Enhancing collaboration – whereas most bots focus on automating certain tasks, our chatbots are designed to enhance human-to-human collaboration. Specifically, they seek to initiate conversations when they should happen, or assist users in providing clearer information so others can do their work better.
+Key publications
+
+E. Paikari, J. Choi, S. Kim, S. Baek, M. Kim, S. Lee, C. Han, Y. Kim, K. Ahn, C. Cheong, and A. van der Hoek, A Chatbot for Conflict Detection and Resolution, First International Workshop on Bots in Software Engineering, May 2019, pages 29-33.
+E. Paikari and A. van der Hoek, A Framework for Understanding Chatbots and their Future, Eleventh International Workshop on Cooperative and Human Aspects of Software Engineering, May 2018, pages 13–16.
+
+Current developers
+
+Elahe Paikari
+Yu Lu
+Minho Heo
+Joonhan Park
+Byungchan kim
+
+Past developers
+
+Hyeri Jung
+Jaeun Choi
+Seonkyu Kim
+Sooyoung Baek
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+Collaborators
+
+Anita Sarma
+David Redmiles
+Marian Petre
+Shinobu Saito
+Thomas LaToza
+
+
+
+
+
+
+
+
+
+
+Home
+Research
+
+Chatbots
+KnoCap
+Past projects
+
+Lighthouse
+CrowdDesign
+Crowd Debugging
+Calico
+CodeExchange
+Code Orb
+Crowd Development
+PorchLight
+
+
+
+
+Papers
+
+Technical reports
+Dissertations
+Books
+
+
+Opportunities
+People
+
+Previous members
+
+
+Sponsors
+Contact
+
+Directions
+
+
+
+
+
+
+
+
+
+
+
+ The Software Design and Collaboration Laboratory is housed in the Department of Informatics in the Donald Bren School of Information and Computer Sciences at the University of California, Irvine.
+
+
+
+
+
+    
+
+
+
+
+
+   
+
+
+
+
+Copyright ©             
+            SDCL |   eDegree° Theme by Top Blog Formula on WordPress |   
+                            Log In
+
+
+
+
+
+

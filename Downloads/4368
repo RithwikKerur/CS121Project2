@@ -1,0 +1,184 @@
+https://cml.ics.uci.edu/2022/10/fall-2022
+
+
+
+
+
+Fall 2022 | Center for Machine Learning and Intelligent Systems
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+University of California, Irvine
+
+
+Menu
+Skip to content
+Home
+About CML
+
+About us
+News
+Contact Us
+
+
+People
+
+Faculty
+Alumni
+
+
+Events & Seminars
+
+AI/ML Seminar Series
+AI/ML Seminar Live Stream
+CML Distinguished Speakers
+ML Reading Group
+
+
+Education & Resources
+
+Courses
+Books
+
+
+UCI Machine Learning Archive
+Sponsors & Funding
+Subscribe to CML List
+ 
+
+
+
+
+
+Fall 2022 Standard
+
+October 4, 2022
+AIML
+
+
+
+
+
+
+
+Oct. 10DBH 40111 pm
+Furong HuangAssistant Professor of Computer ScienceUniversity of Maryland Trustworthy Machine Learning in Complex EnvironmentsWith the burgeoning use of machine learning models in an assortment of applications, there is a need to rapidly and reliably deploy models in a variety of environments. These trustworthy machine learning models must satisfy certain criteria, namely the ability to: (i) adapt and generalize to previously unseen worlds although trained on data that only represent a subset of the world, (ii) allow for non-iid data, (iii) be resilient to (adversarial) perturbations, and (iv) conform to social norms and make ethical decisions.  In this talk, towards trustworthy and generally applicable intelligent systems, I will cover some reinforcement learning algorithms that achieve fast adaptation by guaranteed knowledge transfer, principled methods that measure the vulnerability and improve the robustness of reinforcement learning agents, and ethical models that make fair decisions under distribution shifts.
+
+Bio: Furong Huang is an Assistant Professor of the Department of Computer Science at University of Maryland. She works on statistical and trustworthy machine learning, reinforcement learning, graph neural networks, deep learning theory and federated learning with specialization in domain adaptation, algorithmic robustness and fairness. Furong is a recipient of the NSF CRII Award, the MLconf Industry Impact Research Award, the Adobe Faculty Research Award, and three JP Morgan Faculty Research Awards. She is a Finalist of AI in Research – AI researcher of the year for Women in AI Awards North America 2022. She received her Ph.D. in electrical engineering and computer science from UC Irvine in 2016, after which she completed postdoctoral positions at Microsoft Research NYC.
+
+
+
+Oct. 17DBH 40111 pm
+Bodhi MajumderPhD Student, Department of Computer Science and EngineeringUniversity of California, San Diego Effective, explainable, and equitable predictions in NLP models with world knowledge and conversationsThe use of artificial intelligence in knowledge-seeking applications (e.g., for recommendations and explanations) has shown remarkable effectiveness. However, the increasing demand for more interactions, accessibility and user-friendliness in these systems requires the underlying components (dialog models, LLMs) to be adequately grounded in the up-to-date real-world context. However, in reality, even powerful generative models often lack commonsense, explanations, and subjectivity — a long-standing goal of artificial general intelligence.  In this talk, I will partly address these problems in three parts and hint at future possibilities and social impacts. Mainly, I will discuss: 1) methods to effectively inject up-to-date knowledge in an existing dialog model without any additional training, 2) the role of background knowledge in generating faithful natural language explanations, and 3) a conversational framework to address subjectivity—balancing task performance and bias mitigation for fair interpretable predictions. 
+
+Bio: Bodhisattwa Prasad Majumder is a final-year PhD student at CSE, UC San Diego, advised by Prof. Julian McAuley. His research goal is to build interactive machines capable of producing knowledge grounded explanations. He previously interned at Allen Institute of AI, Google AI, Microsoft Research, FAIR (Meta AI) and collaborated with U of Oxford, U of British Columbia, and Alan Turing Institute. He is a recipient of the UCSD CSE Doctoral Award for Research (2022), Adobe Research Fellowship (2022), UCSD Friends Fellowship (2022), and Qualcomm Innovation Fellowship (2020). In 2019, Bodhi led UCSD in the finals of Amazon Alexa Prize. He also co-authored a best-selling NLP book with O’Reilly Media that is being adopted in universities internationally.  Website: http://www.majumderb.com/.
+
+
+
+Oct. 24DBH 40111 pm
+Mark SteyversProfessor of Cognitive SciencesUniversity of California, Irvine Human-AI collaborationArtificial intelligence (AI) and machine learning models are being increasingly deployed in real-world applications. In many of these applications, there is strong motivation to develop hybrid systems in which humans and AI algorithms can work together, leveraging their complementary strengths and weaknesses. In the first part of the presentation, I will discuss results from a Bayesian framework where we statistically combine the predictions from humans and machines while taking into account the unique ways human and algorithmic confidence is expressed. The framework allows us to investigate the factors that influence complementarity, where a hybrid combination of human and machine predictions leads to better performance than combinations of human or machine predictions alone. In the second part of the presentation, I will discuss some recent work on AI-assisted decision making where individuals are presented with recommended predictions from classifiers. Using a cognitive modeling approach, we can estimate the AI reliance policy used by individual participants. The results  show that AI advice is more readily adopted if the individual is in a low confidence state, receives high-confidence advice from the AI and when the AI is generally more accurate. In the final part of the presentation, I will discuss the question of “machine theory of mind” and “theory of machine”, how humans and machines can efficiently form mental models of each other. I will show some recent results on theory-of-mind experiments where the goal is for individuals and machine algorithms to predict the performance of other individuals in image classification tasks. The results show performance gaps where human individuals outperform algorithms in mindreading tasks. I will discuss several research directions designed to close the gap. 
+
+Bio: Mark Steyvers is a Professor of Cognitive Science at UC Irvine and Chancellor’s Fellow. He has a joint appointment with the  Computer Science department and is affiliated with the Center for Machine Learning and Intelligent Systems. His publications span work in cognitive science as well as machine learning and has been funded by NSF, NIH, IARPA, NAVY, and AFOSR. He received his PhD from Indiana University and was a Postdoctoral Fellow at Stanford University. He is currently serving as Associate Editor of Computational Brain and Behavior and Consulting Editor for Psychological Review and has previously served as the President of the Society of Mathematical Psychology, Associate Editor for Psychonomic Bulletin & Review and the Journal of Mathematical Psychology. In addition, he has served as a consultant for a variety of companies such as eBay, Yahoo, Netflix, Merriam Webster, Rubicon and Gimbal on machine learning problems. Dr. Steyvers received New Investigator Awards from the American Psychological Association as well as the Society of Experimental Psychologists. He also received an award from the Future of Privacy Forum and Alfred P. Sloan Foundation for his collaborative work with Lumosity.
+
+
+
+Oct. 31DBH 40111 pm
+Alex BoydPhD Student, Department of StatisticsUniversity of California, Irvine To Be AnnouncedTBD. 
+
+Bio: TBD.
+
+
+
+Nov. 7DBH 40111 pm
+Yanning ShenAssistant Professor of Electrical Engineering and Computer ScienceUniversity of California, Irvine To Be AnnouncedTBD. 
+
+Bio: TBD.
+
+
+
+Nov. 14DBH 40111 pm
+Muhao ChenAssistant Research Professor of Computer ScienceUniversity of Southern California To Be AnnouncedTBD. 
+
+Bio: TBD.
+
+
+
+Nov. 21DBH 40111 pm
+TBD To Be AnnouncedTBD. 
+
+Bio: TBD.
+
+
+
+Nov. 28
+No Seminar (NeurIPS Conference)
+
+
+
+
+
+
+
+Post navigation
+← Jyothi Named a Rising Star by N2Women
+
+
+
+
+ 
+Search
+
+
+
+ 
+
+
+(c) 2015 Center for Machine Learning and Intelligent Systems
+
+WordPress/BonPress
+
+
+
+
+
+

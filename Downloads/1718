@@ -1,0 +1,75 @@
+http://sli.ics.uci.edu/Classes-2008F/JigsawPuzzleSolvers
+
+
+
+SLI | Classes-2008F / JigsawPuzzleSolvers 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Classes-2008F /
+JigsawPuzzleSolvers
+
+
+Back to Puzzle
+
+1998 Chung, Forsyth JIGSAW PUZZLE SOLVER USING SHAPE AND COLOR
+PDF -- Finds four corners of each piece.
+2002 Goldberg A Global Approach to Automatic Solution of Jigsaw Puzzles
+PDF -- finds indents and outdents
+2003 Yao A shape and image merging technique to solve jigsaw puzzles
+PDF -- nice history of computer vision solutions to the jigsaw puzzle problem nice pictures of reconstruction challenges This guy had been working on the jigsaw problem for at least 6 years before publishing this paper - his first publication on this topic was in 1997, he also has a 2002 paper that deals with puzzle piece extraction and corner detection
+2004 DeBock CONSTRUCTING THE TOPOLOGICAL SOLUTION OF JIGSAW PUZZLES
+PDF -- this guy did his masters thesis on computer vision and jigsaw puzzles he seems to be one of the first to do non-canonical work, but I cant seem to find the paper cited by many after him called "Computer Vision Techniques for Semiautomatic Reconstruction of Ripped-up Documents." Here is his home page -you can view his thesis here too http://telin.ugent.be/~jdebock/
+2006 Makridis A NEW TECHNIQUE FOR SOLVING A JIGSAW PUZZLE
+PDF -- non-canonical jigsaw puzzles
+2006 Zhu A Partial Curve Matching Method for Automatic Reassembly of 2D Fragments
+PDF -- non-canonical - ripped up document
+
+
+
+
+
+
+ Last modified October 13, 2008, at 06:18 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

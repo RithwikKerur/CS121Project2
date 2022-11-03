@@ -1,0 +1,165 @@
+https://sli.ics.uci.edu/PmWiki/UrlApprovals
+
+
+
+SLI | PmWiki / UrlApprovals 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+UrlApprovals
+
+
+
+
+
+< Ref count | Documentation Index | Variables >
+
+
+
+This page explains how to discourage "link spamming" on your wiki site using PmWiki's urlapprove.php script. This script is already included in PmWiki files, but not activated by default.
+
+Using urlapprove.php
+Occasionally spammers may try to add large number of (sometimes hidden) URLs to pages because they think it will improve their search engine rankings -- which it probably won't.  The urlapprove.php script works against these spammers' purpose by
+
+requiring approval of links to Internet sites before a link to them are created in the wiki, and
+allowing you to limit the number of unapproved links that may be added to a page.
+To enable urlapprove.php, add the following line to a configuration file:
+
+include_once("$FarmD/scripts/urlapprove.php");
+By default, unapproved links display what ever should be displayed normally (the URL or a text), but not linked and next to it a link (approve links).
+A click on the link will approve all unapproved URLs on the page, but only if you are authorized to edit the SiteAdmin.ApprovedUrls page.  You may also pre-approve sites by by adding them directly to the SiteAdmin.ApprovedUrls? page.
+
+Limiting unapproved urls per page
+You can limit the number of unapproved links per page. If the limit is exceeded, the page cannot be saved.  This is useful because spammers like to write long link lists, which is rare for normal authors.
+
+Example: To set the limit to 5 unapproved links, add the following line to a configuration file:
+
+$UnapprovedLinkCountMax = 5;
+include_once('scripts/urlapprove.php');
+Note that $UnapprovedLinkCountMax must be set before including the urlapprove.php script.
+
+Handling of Unapproved Links
+You can also change the disapproval message defined in the $UnapprovedLinkFmt variable, for example:
+
+
+include_once('scripts/urlapprove.php');
+$UnapprovedLinkFmt =
+ "[$[Link requires approval]]<a class='apprlink'
+  href='\$PageUrl?action=approvesites'>$[(approve)]</a>";
+
+"Link requires approval" is whatever you want to see in place of the unapproved link and "(approve)" is the blue text. Using this feature may prove usefull if you want to always hide the unapproved link.
+
+If you wish to totally forbid unapproved links you can use
+
+$UnapprovedLinkFmt = "<b>external link not allowed</b>";
+SideBar caveat 
+Please note that in general you need to go to the sidebar page in order to approve links in the sidebar. The reason for this is that the approve mechanism only approves links on the current page.
+
+Initial setup
+After initial setup all existing links become unapproved. You need to visit your pages and approve all links, where needed. See AllRecentChanges for a list of all pages that were created on your wiki.
+
+Password approval of URLs
+To approve external links, an author needs permissions to edit the page SiteAdmin.ApprovedUrls?.
+
+Technical tips
+
+URL Whitelist
+Urls can also be approved by adding them to a "white list", 
+defined in the variable $WhiteUrlPatterns, 
+which is set in the local/config.php file.To add multiples urls, use the separator | (vertical bar).  For example:
+
+
+$WhiteUrlPatterns =
+  "(http://example.com|http://example.net|http://example.org)";
+
+To add all urls from, say New Zealand and Australia, use:
+
+
+$WhiteUrlPatterns[] = 'http://[^/]+\\.nz';
+$WhiteUrlPatterns[] = 'http://[^/]+\\.au';
+
+Change Approved URLs page name
+If you want to change the default name of SiteAdmin.ApprovedUrls, set the following in local/config.php:
+
+$ApprovedUrlPagesFmt = array('OtherGroup.OtherName');
+Previewing the unapproved URL
+To see what link is to be approved without editing the page a tool tip can be displayed when the cursor hovers over the (approve links) link that displays the URL. e.g. Example.
+
+Add the following setting in your local/config.php:
+
+
+$UnapprovedLinkFmt =
+  "\$LinkText<a class='apprlink' href='\$PageUrl?action=approvesites'
+   title='\$LinkUrl'>$[(approve links)]</a>";
+
+Some browsers show only the link and not the tooltip title. In this case, you can use the following code to see the unapproved link at the end of the tooltip :
+$UnapprovedLinkFmt =
+  "\$LinkText<a class='apprlink' href='\$PageUrl?action=approvesites&XES_url=\$LinkUrl'
+   title='\$LinkUrl'>$[(approve sites)]</a>";
+
+About rel='nofollow' 
+By default, PmWiki creates external links that are not followed by search engines.  
+Here are release notes from pmwiki-2.0.beta20 (30-Jan-2005):
+
+First, the $UrlLinkFmt variable has been modified so that links to external urls automatically have a rel='nofollow' attribute added to them, to help combat wiki spam as described in http://googleblog.blogspot.com/2005/01/preventing-comment-spam.html. Site administrators can customize $UrlLinkFmt and $UnapprovedLinkFmt to supply or omit rel='nofollow' as appropriate.
+See Also
+Blocklist - Blocking postings based on content or IP address
+Security - Securing your PmWIki
+
+
+< Ref count | Documentation Index | Variables >
+
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:UrlApprovals, and  a talk page: PmWiki:UrlApprovals-Talk.
+
+
+
+
+
+
+ Last modified September 10, 2011, at 09:08 AM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

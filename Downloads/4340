@@ -1,0 +1,162 @@
+http://www.ics.uci.edu/~willmlam
+
+
+
+
+
+
+
+William Lam, UC Irvine
+
+
+
+
+
+
+
+
+
+
+
+
+HomeCoursesTeaching
+
+
+William Lam
+
+
+
+
+Information
+			Alumnus (PhD)
+Computer Science
+UC Irvine
+Office: DBH 4099
+will...@ics.uci.edu 
+
+
+
+
+
+
+
+
+About Me
+
+
+
+			I was a PhD student in Prof. Rina Dechter’s Automated Reasoning group.  I am currently a Software Engineer at Google working on Personal Data Infrastructure.
+			
+
+			I successfully defended my thesis, titled "Advancing Heuristics for Search over Graphical Models", in March 2017, submitted the final version in May 2017, and officially received my degree in June 2017.
+			
+
+			The main contributions of my graduate work included improvements over state-of-the-art heuristics used within the AND/OR search framework to extend the reach of search algorithms for both exact and anytime MPE inference.  I also explored the AND/OR Decision Diagram framework, using it to performing exact inference on high treewidth problems with problem specific structures such as determinism and context-specific independence.
+
+
+
+Before UC Irvine, I was an undergraduate research assistant in R-LAIR (Riverside Lab for Artificial Intelligence Research) with Prof. Christian Shelton at UC Riverside.I worked on the CTBN-RLE code base. Specifically, I implemented the structure learning component, which learns Bayesian network and continuous time Bayesian network structures from trajectory data.  It seamlessly incorporates any of the inference methods available in CTBN-RLE to handle the case of partially observed trajectories through structural EM.  I also implemented the mean field variational inference algorithm inside CTBN-RLE. 
+
+Education
+
+PhD in Computer Science (September 2010 - June 2017)
+	Bren School of Information and Computer Sciences, UC Irvine.
+
+
+MS in Computer Science (September 2010 - December 2012)
+	Bren School of Information and Computer Sciences, UC Irvine.
+
+
+BS in Computer Science (September 2006 - June 2010)
+	Bourns College of Engineering, UC Riverside.
+
+
+
+Work Experience
+
+Software Engineer (March 2017 - now)
+	Google, Sunnyvale, CA. Personal Data Infrastructure.
+
+
+Software Engineering Intern (June 2015 - September 2015)
+	Google, New York, NY. Search Infrastructure.
+
+
+Software Engineering Intern (June 2014 - September 2014)
+	Google, Los Angeles, CA. YouTube.
+
+
+
+Publications
+Dissertation
+
+William Lam
+Advancing Heuristics for Search over Graphical Models.
+PhD Thesis, UC Irvine.
+[pdf]
+
+Journal Papers
+
+William Lam, Kalev Kask, Javier Larrosa, and Rina Dechter
+Subproblem Ordering Heuristics for AND/OR Best-First Search.In Journal of Computer and System Sciences, 94, 41-62, March 2018.
+
+[pdf | doi]
+
+
+William Lam, Kalev Kask, Javier Larrosa, and Rina Dechter
+Residual Guided Look-ahead in AND/OR Search for Graphical Models.In Journal of Artificial Intelligence Research, 60, 287-346, October 2017. 
+[pdf]
+
+
+Christian R. Shelton, Yu Fan, William Lam, Joon Lee, and Jing Xu.
+Continuous Time Bayesian Network Reasoning and Learning Engine.
+In Journal of Machine Learning Research, 11, 1137-1140, March 2010.
+[link]
+
+Conference/Workshop Papers
+
+William Lam, Kalev Kask, Rina Dechter, and Javier Larrosa
+On the Impact of Subproblem Orderings on Anytime AND/OR Best-First Search for Lower-Bounds.In Proceedings of ECAI 2016, The Hague, Netherlands, August 2016. 
+[pdf]
+
+
+Rina Dechter, Kalev Kask, William Lam, and Javier Larrosa
+Look-ahead with Mini-Bucket Heuristics for MPE.In Proceedings of AAAI 2016, Phoenix, AZ, USA, February 2016. 
+[pdf]
+
+
+William Lam, Kalev Kask, and Rina Dechter
+Empowering Mini-Bucket in Anytime Heuristic Search with Look-Ahead: Preliminary Evaluation.In Proceedings of SoCS 2015, Ein Gedi, the Dead Sea, Israel, June 2015.
+[pdf]
+
+
+William Lam, Kalev Kask, Rina Dechter, and Alexander Ihler
+Beyond Static Mini-Bucket: Towards Integrating with Iterative Cost-Shifting Based Dynamic Heuristics.In Proceedings of SoCS 2014 , Prague, Czech Republic, August 2014.
+[pdf]
+
+Junkyu Lee, William Lam, and Rina Dechter.
+Benchmark on DAOOPT and GUROBI with the PASCAL2 Inference Challenge Problems.In DISCML 2013 (a workshop of NIPS 2013), Lake Tahoe, NV, USA, December 2013.
+[pdf]
+
+
+William Lam and Rina Dechter.
+Empirical Evaluation of AND/OR Multivalued Decision Diagrams for Inference.
+In Doctoral Programme of CP 2012, Québec City, QC, Canada, October 2012.
+[pdf | extended version]
+
+
+E. Busra Celikkaya, Christian R. Shelton, and William Lam.
+Factored Filtering of Continuous-Time Systems.
+In Proceedings of UAI 2011, Barcelona, Spain, July 2011.
+[pdf]
+
+
+
+
+© 2018 William Lam
+
+
+
+
+
+

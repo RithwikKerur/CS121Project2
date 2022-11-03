@@ -1,0 +1,30 @@
+http://www.ics.uci.edu/~sysarch/projects/FPGA.html
+
+
+
+
+FPGA-based acceleration
+
+
+
+FPGAs offer many advantages and opportunities for use as accelerators. This project initially started as an approach to
+accelerate computer vision algorithms, in particular OpenVX graphs, in collaboration and sponsored by Intel. We have also 
+started investigating the use of FPGA accleration to support graphs processing and neurobiological applications.
+
+
+The goal of this project is to extend and improve the performance of OpenVX kernels and to investigate
+how an OpenVX graph (aka a graphics pipeline) can be partitioned between the host and the FPGA and accelerated.  It has several thrusts:
+ Identify best approaches to accelerate individual kernels using either HLS or OpenCL and compare quality of resulitng "code", programmer productivity, and power consumption. 	
+
+
+Develop several non-trivial pipelines using OpenVX and investigate how to best partition/map these to FPGAs
+
+
+Compare performance and power consumption vis a vis GPUs.
+
+
+
+This project is supported by Intel Corp.
+
+
+

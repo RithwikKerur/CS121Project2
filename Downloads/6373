@@ -1,0 +1,182 @@
+http://www.ics.uci.edu/~kay/courses/i42/quiz/old
+
+
+
+
+
+Past Quizzes
+
+
+
+
+
+Informatics 42 • Winter 2012 • David G. Kay
+• UC Irvine
+PAST QUIZZES
+This is the complete set of past quizzes from Informatics
+  42.  The best way to use them is to try to solve the problems yourself, and ask
+  in section if you can't. Note that Informatics 42 was taught in Java except for Winter 2012, when it used Python.
+ These quizzes are the best guide available
+  to the kinds of questions we might ask on this quarter's quizzes, but
+  they are not a perfect match.  We may cover topics at a different
+  pace, in a different order, or of an entirely different nature; that means
+  that Quiz N on this list will not be an exact mach for what's on Quiz
+  N this quarter.  Come to class, come to section, do your assignments in
+  a timely way, ask questions where necessary, and you should be well prepared.
+Quizzes from Winter 2012 (in Python)
+
+ First Quiz:
+    Evaluating Python expressions, writing test cases
+
+ Second Quiz (with code):
+    Modifying restaurant colleciton code
+
+ Third Quiz:
+    Writing imperative code to traverse a list, recognizing bugs, behavior of classic data structures
+
+ Fourth Quiz (with code):
+    Reading Python code, classic data structures that represent real-world situations, how arrays provide constant-time access
+
+ Fifth Quiz:
+    O-notation from code, O-notation from polynomials, writing code for objects and lists
+
+ Sixth Quiz:
+    FSAs, transition tables, BST deletion, hashing
+
+ Seventh Quiz:
+    Grammars, software crisis
+Eighth Quiz: Writing code for lists, sorting algorithms, relevance trees, expected value
+Ninth Quiz (with code): Writing code for lists of structures/namedtuples, questions on simulator code
+Tenth Quiz: List comprehensions, programming languages (philosophy and history/development)
+
+Quizzes from Winter 2008 
+
+ First Quiz:
+    Class definition, printing selected elements in an ArrayList, meaning and usage of static fields
+
+ Second Quiz:
+    Average of selected ArrayList elements, classic data structures that represent
+    real-world situations
+
+ Third Quiz:
+    Execution-time polynomials from code, O-notations from polynomials, modifying restaurants program to count the restaurants serving a dish below a specified price
+
+ Fourth Quiz:
+    O-notations
+    for different operations on alternative data structures
+
+ Fifth Quiz:
+    Grammars, state machines, transition tables
+
+ Sixth Quiz:
+    Relevance trees, expected value, formal verification, structured programming, n-version programming, implementing classic data structures
+
+ Seventh Quiz:
+    Natural language understanding and human-computer interaction, decision-making under uncertainty (optimist/pessimist/regretist), simulator code (identifying algorithms and performance characteristics, calculating average time in park)
+Eighth Quiz: Deriving performance from iterative and recursive code, sorting algorithms, programming languages (history, development, comparison)
+
+Quizzes from Winter 2007 
+
+ First Quiz:
+    Class definition, printing elements in an ArrayList, reasons for automatic garbage collection 
+
+ Second Quiz:
+    Average of selected ArrayList elements, classic data structures that represent
+    real-world situations
+
+ Third Quiz:
+    Execution-time polynomials from code, O-notations from polynomials, modifying restaurants program to find lowest value meeting some criterion 
+
+ Fourth Quiz:
+    O-notations
+    for different operations on alternative data structures
+
+ Fifth Quiz:
+    Grammars, state machines, transition tables
+
+ Sixth Quiz:
+    Relevance trees, expected value, formal verification, structured programming, n-version programming
+
+ Seventh Quiz:
+    Natural language understanding, test-driven development, decision-making under uncertainty (optimist/pessimist/regretist)
+Eighth Quiz:
+  Sorting algorithms and how we compare their performance, refactoring the simulator code
+
+Quizzes from Winter 2006
+
+
+First Quiz:
+ Class definition, printing elements in an ArrayList, reasons for different
+loop syntax
+
+
+Second Quiz:
+ Average of selected ArrayList elements, classic data structures that represent
+real-world situations
+
+
+Third Quiz:
+ Execution-time polynomials from code, O-notations from polynomials, O-notations
+for different operations on alternative data structures (plus two extra
+practice problems)
+
+
+Fourth Quiz:
+Exception handling, methods for calculating average and finding maximum
+of ArrayList elements
+
+
+Fifth Quiz:
+ Grammars, state machines, transition tables
+
+
+Sixth Quiz:
+ Relevance trees, formal verification and n-version programming, expected
+value, O-notations of sorting algorithms
+
+
+Seventh Quiz:
+ Recurrence relations, user-centered HCI design, reasons for concurrency,
+navigating through the simulator code
+
+
+Quizzes from Winter 2005
+
+
+First Quiz:
+ Class definition, summing elements in an ArrayList, reasons for access
+modifiers
+
+
+Second Quiz:
+ Average of ArrayList elements, execution-time polynomials from code, O-notations
+from polynomials, classic data structures that represent real-world situations
+
+
+Third Quiz:
+ Finding maximum value in an ArrayList, adding a new menu item to existing
+code and "composition of methods" (e.g., C.getHighestPricedRrant().getName()),
+O-notations for different operations on alternative data structures
+
+
+Fourth Quiz:
+Exception handling, methods for increasing software reliability, finite-state
+machines (state transition diagrams and transition table)
+
+
+Fifth Quiz:
+ Grammars, relevance trees, probability
+
+
+Sixth Quiz:
+ Recurrence relations, test-driven development, natural language understanding,
+sorting algorithms
+
+
+Seventh Quiz:
+ Navigating through the simulator code, counting rides and customers, programming
+languages
+
+
+
+

@@ -1,0 +1,34 @@
+http://computableplant.ics.uci.edu/sw/CambiumPlenum
+
+Cambium-Plenum Translator
+
+
+This translator provides automatic, bidirectional syntactic transformations 
+between the Cambium intermediate process language and dynamical grammar models 
+that can be simulated in Plenum.
+
+
+
+Usage
+
+
+The translations operate through Mathematica transformation rules.  
+Within Mathematica, translation from Plenum to Cambium can be executed via
+
+	cambiumVersion = plenumGrammar //. TranslateP2C
+	
+where "//." is Mathematica's ReplaceRepeated operator.  
+Similarly, Cambium-to-Plenum translation is executed as 
+
+	plenumGrammar = cambiumVersion //. TranslateC2P
+	
+Translation examples can be found in the download below.
+
+
+
+Download
+
+
+The Mathematica notebook for the translator, along with several examples, 
+can be found here.  For other Plenum grammar examples, see the Plenum
+and Plenum Models pages.

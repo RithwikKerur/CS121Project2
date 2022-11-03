@@ -1,0 +1,34 @@
+http://www.ics.uci.edu/~kay/courses/h21/hw/hw8.html
+
+
+
+
+
+
+Eighth Homework
+
+
+
+
+
+
+ICS H21 • UC IRVINE • DAVID G. KAY • FALL 2009
+Eighth Homework 
+ Complete this assignment by the start of lab on
+  Monday, November 16.
+(1) Chapter 30 of HtDP introduces
+accumulators; Chapter 31 continues the topic.  Being able to rewrite a function
+using an accumulator can give you significantly better performance, so it's
+a technique worth mastering.  Chapter 32 gives three longer examples. Do exercises 30.1.1 and 30.1.2.
+ (2) We're not doing Intermezzo
+  6 (Chapter 33).  You'll see this material in ICS 51.
+ (3) We have posted some code to implement parts of an iTunes-like system. Look it over in preparation for the next lab. There's nothing to turn in for this part.
+
+
+Based in part on ICS H21assignments by David
+G. Kay from Fall 2001; modified by David G. Kay, Fall 2004, Fall 2005, Fall 2008, Fall 2009.
+
+David G. Kay, kay@uci.edu 
+
+Saturday, November 21, 2009 9:57 AM
+

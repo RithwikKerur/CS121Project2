@@ -1,0 +1,184 @@
+https://ngs.ics.uci.edu/back-to-cyber-2-computational-cybernetics
+
+
+
+
+
+
+
+
+Back to Cyber – 2: Computational Cybernetics – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Back to Cyber – 2: Computational Cybernetics    			
+
+
+From computational perspective, there are the following major steps in building a cybernetic system:
+•	Building model of the system
+•	Measuring appropriate parameters continuously
+•	Estimating State
+•	Deciding actions to be applied to the system
+The easiest to understand and deal with were mechanical systems.  And that’s where much early progress in systems took place.  Most dynamic systems that we design, from household air-conditioning system to a sophisticated mission to Mars are all example of cybernetics in action.  This was possible because for mechanical systems, it was relatively easier to model the systems, estimate the state, and apply control signals.  
+The complexity of biological and social systems eluded bringing them easily under cybernetics paradigm.  All aspects listed above are significantly more challenging for both biological and social systems.  In the following we discuss these challenges for social systems and suggest how increasingly it will become feasible to build desirable systems in these areas also.
+Big Data to Societal Systems through Cybernetics
+Cybernetics is all about data, information, and knowledge.  It is well recognized that observations result in collecting information and that knowledge is the final product of the data-information-knowledge pyramid.   Knowledge accumulation is a continuous process resulting in building a strong knowledge base over time.   Knowledge in the form of models is used to convert data to information as well as for actions through information communicated to appropriate actuators.  These actions result in changes that are again sensed by sensors as data.  This cycle has been identified by practitioners in many fields.  A common version of this is usually articulated as sense-recognize-act cycle.
+An important thing to emphasize for building cybernetic systems is that the first step above is an off line process, while the other three are real time processes.
+Building Models Using Big Data
+The idea of a laboratory for collecting data to model a particular object or concept is fundamental to progress of science.  It was not possible to build laboratories for studying some types of systems particularly those involving human beings.  Social sciences relied on collecting data using surveys and similar tools.  Those approaches had their limitations and could only be used in few limited cases.
+The arrival of 21st century brought to us sensors, storage devices, processing power and computing methodologies, and then it brought social networks and social media along with mobile phones and internet of things.  Big data became the biggest buzz world with the big expectation that big problems could be solved now.  
+Big data is really a warehouse of all event related data.  As new events take place, new data is generated, collected, and saved.  In many cases, people don’t know how this data may be used; they just think that somebody will figure out how to use it.  And that is a good thing.  Our understanding of the societal systems is in its very early stages.  We have no idea what is important and what is irrelevant.  In such a situation, if resources allow, it is better to over collect than otherwise.
+This event warehouse can be successfully used to build models for simple human activities like recognizing a dog in a photo to complex social phenomena like what results in traffic congestion.  Even for creating more precise models for diseases in population and their spread.
+Measuring Parameters
+The models describe what are important parameters for determining the state of the system.  Measurement of these parameters could be done using different types of sensors.  Sensors could be devices or could also be humans acting as sensors.  Also, sensors could be passive normally, while in some cases they may be active in the sense that they measure particular parameters in specific situations.  Here we will simply assume that these parameters are being measured and are available.  Since we are dealing with the world we live in, it is important to model the world in terms of spatial and time dimensions.  Based on our current understanding, we consider three dimensional space and one dimension of time.  Normally, we perceive these dimensions as continuous, but in the digital age we discretize this to appropriate resolutions representing samples in space and time and represent them as a grid structure.  At every grid point, appropriate observations are collected and are available for analysis.
+Estimating States
+State of a system refers to a set of variables that help in characterizing the system with the goal to control it.  Based on the state, a cybernetic system uses the model and computes the action required to achieve desired state.  In this sense, the variables included in the state are selected based on their relevance to determining the action.  
+In a societal system, one commonly uses the term situation to represent different states of interest in a given context.  In this sense, a situation is a region in state space that specifies appropriate combination of state variables.  Situation is defined based on the goal of the system and is used to select appropriate actions.  
+In emerging societal cybernetic systems, situation recognition may become one of the most challenging problems.  As is well known, object recognition, event recognition, speech recognition, or any other concept classification systems usually require powerful techniques to classify based on appropriate features.  Situation recognition may be one of the most challenging recognition tasks.  The challenge starts with selecting appropriate state variables, similar to features in object recognition, their evolution over time, similar to speech and event recognition, and their classification into classes that may very well be overlapping and varying over time.  This will definitely be a major challenge for machine learning techniques, as the primary goal of machine learning techniques is to design a classifier based on available data rather than a priori models.  Machine learning approaches model different classes and design classifiers based on a large set of labeled data.  In situation recognition the state may also depend on several parameters that may not appear relevant to situation such as terrain or remote events.
+Controlling the System
+Depending on the goal and the disparity between the goal and the current state,  actions to be taken is determined.  In simple systems this is easy as it may mean just sending some signals to an actuator or a set of actuators.  In social systems, this becomes a complex action because the actuators could be mechanical devices, humans, or a combination of humans and devices.  Clearly, actuation signals to machines and to humans have to be very different.  Also, in many societal situations, one may be dealing with sending action instructions to hundreds of thousands, or even millions, of people who need to be considered as individuals with specific characteristics.
+In societal cybernetic systems, it is very likely that actions will be generated by a set of situation action rules that will be communicated to several people using their smart phones or other devices as well as to several actuators who will be effectively part of the IoT connected to different actuators or devices under the control of humans.  
+
+								Tagged on: big data, cyber, cybernetics, Social Systems 
+
+
+
+By Ramesh |
+    				October 7, 2014 |
+    				             		General Updates, Technical Thoughts |
+             	 
+    				 		          				
+    			
+
+
+← Back to Cyber – 1
+Back to Cyber – 3: Now and Future →
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

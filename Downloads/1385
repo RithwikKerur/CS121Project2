@@ -1,0 +1,9 @@
+http://plrg.ics.uci.edu/publications/450.bib
+@inproceedings{key,
+ author = {Yong hun Eom and Brian Demsky},
+ title = {Self-Stabilizing Java},
+ booktitle = {Proceedings of the 2012 Conference on Programming Language Design and Implementation},
+ location = {Beijing, China},
+ month = {June},
+ year = {2012}
+}

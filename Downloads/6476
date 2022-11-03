@@ -1,0 +1,188 @@
+http://vision.ics.uci.edu/pocv2012/index.html
+
+
+
+The Eighth IEEE Computer Society Workshop on Perceptual Organization in Computer Vision
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POCV
+2012
+
+The Eighth IEEE Computer Society Workshop on Perceptual Organization in Computer Vision
+
+
+      Providence, Rhode Island, USA
+June 16, 2012
+In Conjunction with IEEE CVPR 2012
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+
+
+Technical Program
+
+Program Committee
+
+Workshop Chairs
+
+
+
+
+Iasonas Kokkinos,
+Ecole Centrale Paris
+
+Charless Fowlkes, 
+University of California, Irvine
+
+
+
+
+
+
+
+
+
+
+NEWS
+
+The submission deadline is now April 9th. 
+The electronic submission system is now online at: https://cmt.research.microsoft.com/POCV2012.
+
+Theme
+
+Perceptual Organization is the process of establishing a meaningful relational
+structure over raw visual data so as visual primitives arising from the common
+physical cause are grouped together. A driving motivation behind perceptual
+organization research in computer vision is to deliver compact representations
+and to reduce the space of hypotheses for higher-level visual tasks. Since
+early demonstrations in the 1980s underscored its usefulness in object
+recognition, the computer vision community has seen various applications of PO
+in artificial vision systems such as in figure-ground segmentation, contour
+completion, stereo matching, model indexing, change detection, activity
+recognition, and more. Recent progress in PO has encouraged more participation
+from experts in related areas such as object recognition, texture and motion
+analysis.
+
+Because of its wide applicability, the potential payoff from perceptual
+organization research is enormous.  Among the objectives of POCV is to
+encourage presentation of new ideas and facilitate discussion on the future of
+PO. To this end, papers introducing novel concepts will be considered for
+acceptance even if they lack full experimental validation. The schedule will
+include longer periods for questions and answers after each talk than CVPR to
+enable dialogue and the exchange of ideas. 
+
+This POCV workshop will place a special emphasis on works that use PO to build
+a bridge between low- and high-level vision. 
+
+
+Invited Speakers
+
+Kristin Grauman, University of Texas, Austin
+Pedro Felzenszwalb, Brown University
+Ronen Basri, Weizmann Institute
+Jitendra Malik, University of California, Berkeley
+
+
+Scope
+Papers are solicited in all areas of perceptual organization, including but not limited to:
+
+ image segmentation
+ contour completion
+ spatiotemporal/motion segmentation
+ figure-ground discrimination
+ integration of top-down and bottom-up methods
+ perceptual organization for object or activity detection/recognition
+ unification of segmentation, detection and recognition
+ biologically-motivated methods
+ neural basis for perceptual organization
+ learning in perceptual organization
+ graphical methods
+ natural scene statistics 
+ evaluation methods 
+
+This POCV workshop will place a special emphasis on works that use PO to bridge the gap between low- and high-level vision. 
+
+
+Paper Submission
+
+Submission is electronic, and must be in PDF format. Papers must not exceed 8
+double-column pages. Submissions must follow standard IEEE CVPR 2-column format
+of single-spaced text in 10 point Times Roman, with 12 point interline space.
+All submissions must be anonymous. Please us the IEEE Computer Society CVPR
+format kit.
+All reviewing will be double blind, so the paper must not
+include any information which allows the authors to be identified. For example,
+this might require that some references to the authors' previous work be left
+blank or that authors refer to their previous work in the third person. This is
+not optional. Papers that provide obvious identifying information may be
+rejected without review.
+
+As per conference policy, camera ready versions of accepted papers will be
+submitted to IEEE and authors must submit the IEEE copyright transfer form.
+Each paper is allocated 6 pages for no additional cost. Additional pages, up to
+8 total, are $100/page which must be paid with the author's registration. No
+paper may be more than 8 pages.  One author of each paper must register for the
+conference by the camera-ready due date, or the paper will not be included on
+the conference DVD or in IEEE Explorer. There will be 1-day registration too,
+if anyone wants to just attend a workshop. Otherwise the regular CVPR
+registration will cover all workshops as usual.
+
+In submitting a paper to the POCV Workshop, authors acknowledge that no paper
+of substantially similar content has been or will be submitted to another
+conference or workshop during the POCV review period. Dual submission of 
+accepted CVPR papers allowed as long as there is at least 30% new content
+
+
+Important Dates
+
+ Submission deadline: 11:59pm PST, April 9, 2012
+ Reviews Due: April 22, 2012
+ Notification: April 24, 2012
+ Camera ready versions due May 1, 2012
+
+Past POCV Workshops
+
+ 2010 CVPR (San Francisco, CA) 
+ 2008 CVPR (Anchorage, AK) 
+ 2006 CVPR (New York, NY) 
+ 2004 CVPR (Washington, DC) 
+ 2001 ICCV (Vancouver, Canada) 
+ 1999 ICCV (Crete, Greece)
+ 1998 CVPR (Santa Barbara, CA)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,174 @@
+http://www.ics.uci.edu/~jutts/201-F13
+
+Statistics 201
+
+
+ 
+ Statistics 201 - Fall 2013  
+Department of Statistics
+  University of California, Irvine
+
+  Welcome to the homepage for Statistics 201: Statistical Methods for Data Analysis I (Graduate Level)
+  
+Class Time
+
+  Lecture 
+ Discussion  
+
+ 1200 Donald Bren Hall (DBH)Mon, Wed, 2:00 - 3:20pm 
+ 1300 Donald Bren HallWed 3:30 - 4:20pm
+ 
+
+
+How, when and where to find me:
+  Professor Jessica Utts
+ 2038 Donald Bren Hall  (949) 824-0649
+ jutts_at_uci.edu [Not clickable to avoid spam]
+ Tues 4-5:30pm, Wed 5:00-6:00pm, and by appointment
+Office hour change for Finals week: Tues Dec 10 and Thurs Dec 12: 1-2:30pm  
+ Syllabus, resources and material from class lectures and discussions
+
+ Syllabus
+ Tentative Outline
+ Link to website to accompany the textbook, including data sets and downloadable pdf of Chapters 1, 2 and 13
+ Powerpoint slides from Monday Sept 30 (as a pdf file, 6 to a page)
+ Discussion 2: Review of some basic statistics; t, chi-square, F distributions and Compact version (6 slides per page)
+ Slides from Wed, Oct 16 on checking assumptions, Compact version, and  Version with hand-written notes
+ Summary of General Linear Tests, from October 21 lecture
+ Example of Lack of Fit test, from October 21 lecture
+ Example of multiple regression, from October 23 lecture and discussion
+ Review for Midterm
+ Example showing how order matters, from Nov 4 lecture
+ Multicollinearity example from Nov 6 lecture
+ Power point slides from Wed, Nov 13
+ Power point slides from Mon, Nov 18
+ Case Diagnostics in R (for Nov 20 lecture and homework) and PDF version 
+ Case Diagnostics Example, Wed Nov 20
+ Case Diagnostics Example, Expanded Version (Wed, Nov 20)
+ British Regions Example from Nov 20 discussion
+ ANOVA Example 1 from Mon, Nov 24 (GPA by seat location)
+ ANOVA Example 2 from Mon, Nov 24 (PartyDays by seat location)
+ Lecture for Wed, Nov 27
+ Two Factor ANOVA Example 
+ Lecture covered on Wed, Nov 27 and Wed, Dec 4
+ Analysis of variance examples from Dec 4 discussion, with answers
+
+ Information about Installing R and R Commander, and getting an ICS Computing Account
+  How to get an account to use the ICS Labs
+ ICS Lab Hours
+ How to Install R and R Commander (Word) or pdf
+ Additional notes on how to install R commander, helpful for Mac users
+
+ Instructions for Using R and R Commander (Updated throughout the quarter)
+
+ The R Project Homepage
+ Helpful website on learning and using R, from UCLA Academic Technology Services
+ An R Commander website, by John Fox, who developed R Commander
+ R Session showing how to get results for the Sign reading by Age example, including confidence and prediction intervals
+ Height and weight example in R, Lecture 5 (Oct 14)
+ R Session to accompany Lecture 6 on checking assumptions
+
+ R Instructions, mostly using Exercises 1.19 and 6.9 as examples; Modified from materials prepared by my UC Davis TA Michael McAssey. Thanks, Michael!
+
+ Getting Data into R
+ Making a Scatterplot in R
+ Simple Linear Regression in R
+ Regression Inferences in R
+ More Regression Inferences in R
+ Diagnostics in R
+ Transformations in R
+ Conducting a Lack of Fit Test in R
+ Matrices in R
+ Multiple Regression in R
+ Extra Sums of Squares in R
+ Some notes on dealing with indicator variables and factors in R
+ Polynomial and Interaction Regression Models in R
+ Model Selection in R
+ Case Diagnostics in R (created by Prof Utts)
+
+Data Sets and Applets (Posted as needed)
+
+ Highway Sign data, with Age listed first, then Distance
+ Data from Exercise 1.19, with GPA listed first, then ACT
+ Drawing regression line by eye (applet)
+ Effect of outliers on regression line (applet)
+ Data from Exercise 1.27, with muscle mass listed first, then age
+ Height and Weight data (Excel file)
+ Data from Exercise 3.18, with Y = production time listed first, then X = lot size
+ Data for Exercise 3.15 with Y = solution concentration listed first, then X = time in hours
+ UC Davis height data, for Homework #5
+ Data for Exercises 6.15, 7.5 and 7.6 with Y listed first, then X1 to X3, no variable names in file
+
+ Practice Exams and Exam Keys 
+ Review for Midterm
+ Practice Midterm Exam
+ Practice Midterm Exam Key
+ Midterm Exam Key (Posted after the exam)
+ Topics covered after the midterm (Review for final by combining with the "Review for Midterm" above)
+ Practice Final on Regression
+ Practice Final on ANOVA
+ Practice Final on Regression Key
+ Practice Final on ANOVA Key
+ Final Exam Key (Posted after the exam)  
+ Homework Solutions, posted after they are due 
+
+ Assignment #1, Due Wed, Oct 9
+ Assignment #2, Due Wed, Oct 16
+ Assignment #3, Due Wed, Oct 23
+ Assignment #4, Due Mon, Oct 28
+ Assignment #5, Due Wed, Nov 6
+ Assignment #6, Due Wed, Nov 13
+ Assignment #7, Due Wed, Nov 20
+ Assignment #8, Due Wed, Nov 27
+ Assignment #9, Due Wed, Dec 4
+ 
+ Homework assignments:   
+ Date Assigned Date Due
+Assignment
+Sections covered and skipped; other topics covered
+
+ Mon Sept 30 Wed Oct 9  Chapter 1: #12, 13, 29, 30 Overview of Regression; Start Chapter 1 
+ Wed Oct 2 Wed Oct 9 Chapter 1: #2, 5, 8, 17, 18 Finish Chapter 1 
+ Oct 2 Disc.     Introduction to R and R Commander 
+         
+ Mon Oct 7 Wed Oct 16  Chapter 1: #27 (use R or R Commander); Chapter 2: #9, 10, 28ab Sections 2.1, 2.2, 2.4; Skip 2.3 
+ Wed Oct 9 Wed Oct 16  Chapter 2: #12, 27 Sections 2.4, 2.5; Skip 2.6, 2.11; Do 2.8 with Ch. 3 
+ Oct 9 Disc.   Review of some basic statistics; t, chi-square, F distributions 
+         
+ Mon Oct 14 Wed Oct 23  Chapter 2: #18, 29bcde, 33bc, 56a, 57a  Sections 2.7 to 2.9 
+ Wed Oct 16 Wed Oct 23 Chapter 3: #1, 18 Data for 3.18, 20 Sections 3.1 to 3.4, 3.8, 3.9; Skip 3.5, 3.6, 3.10; Read 3.11 on your own; Skip Ch 4 
+ Oct 16 Disc.    No discussion 
+         
+ Mon Oct 21 Mon Oct 28 Chapter 3: #15 Data for 3.15 Section 3.7; Start Chapter 5 (Skip most of Chapter 4) (Practice problems Ch 5, #1, 2 and  Solutions) 
+ Wed Oct 23 Mon Oct 28 Ch. 5: #5, 8ab, 17a; Ch. 6: #2, 25; Ch. 8: #21a; Show the matrix H is idempotent(These are all short answer, no computer work!)Finish Chapter 5; Start Sections 6.1 to 6.5 
+ Oct 23 Disc.     Continue 6.1 to 6.5 and Data analysis example 
+         
+ Mon Oct 28 Wed Nov 6 Assignment for Oct 28 and UCD.txt, Data for Homework #5  Part of Section 4.1; Sections 6.6, 6.7; Read 6.9 on your own  
+ Wed Oct 30     Midterm exam on Chapters 1 to 6 
+ Oct 30 Disc.     No discussion 
+         
+ Mon Nov 4 Wed Nov 13  Chapter 7: #1, 2, 5, 6; Data for Exercises 6.15, 7.5 and 7.6 with Y listed first, then X1 to X3, no variable names in file
+ Parts of Section 6.8; Sections 7.1 to 7.3; Skip 7.4, 7.5 
+ Wed Nov 6 Wed Nov 13 Assignment for Nov 6 and PhysicalData.txt, Data for Nov 6  Sections 7.6, 8.3 and 8.4 
+ Nov 6 Disc.    Catch up time if needed; go over midterm
+         
+ Mon Nov 11  Veterans' Day Holiday 
+ Wed Nov 13 Wed Nov 20 Chapter 8: #4abeg (Data with muscle mass listed first), 17, 34  Sections 8.2 and 8.5, then 8.1 
+ Nov 13 Disc.  No discussion
+         
+ Mon Nov 18 Wed Nov 27November 18 homework assignment (See Nov 4 for data.)  Parts of Sections 9.3, 9.4; Read 9.1, 9.2 
+ Wed Nov 20 Wed Nov 27November 20 homework assignment, clarifications added Nov 24; and data Nov20Hmwk.txtSections 10.2 to 10.4 
+ Nov 20 Disc.    Two sample t-test using the ANOVA framework 
+         
+ Mon Nov 25 Wed Dec 4 Assignment for Nov 24;
+choose Student0405.txt with tab separators or student0405.txt with comma separators  One-way analysis of variance 
+ Wed Nov 27 Wed Dec 4 S4.4 and S4.10 to S4.14 in the Chapter (from Utts/Heckard textbook) posted under "Class Files" here (You will need to log in with your UCI password.) Two factor ANOVA 
+ Nov 27 Disc.    No discussion (day before Thanksgiving) 
+         
+ Mon Dec 2 Wed Dec 4 S4.5 to S4.9 in the Chapter (from Utts/Heckard textbook) posted under "Class Files" here (You will need to log in with your UCI password.)  Finish two factor ANOVA; random effects 
+ Wed Dec 4  No homework Randomized block design, nested effects, repeated measures 
+ Dec 4 Disc.   Analysis of variance examples from Dec 4 discussion, with answers
+ 
+         
+ Fri Dec 13  Final Exam, 1:30-3:30pm  
+      

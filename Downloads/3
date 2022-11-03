@@ -1,0 +1,22 @@
+http://www.ics.uci.edu/~stasio/Papers/cjkt04-abs.html
+A Robust Multisignature Scheme with Applications to Multicast Acknowledgement 
+			Aggregation 
+
+	Claude Castelluccia, Stanislaw Jarecki, Jihye Kim, Gene Tsudik
+ABSTRACT:
+
+
+The source of multicast communication needs to securely verify which 
+multicast group members have received a multicast message, 
+but verification of individually signed acknowledgments from each 
+receiver imposes unnecessary computation and communication 
+costs.  We propose a solution which allows the intermediate 
+nodes along the multicast distribution tree to aggregate the authenticated 
+acknowledgments sent by the multicast receivers to the source. 
+Our solution consists of a new multisignature scheme, secure under the 
+	discrete logarithm assumption in the random oracle model, which blends the 
+	well-known Schnorr signature scheme with the Merkle hash tree structure. The 
+	multisignature scheme we propose has a novel property of robustness, which 
+	allows for an efficient multisignature generation even in the presence 
+	of maliciously faulty nodes.
+

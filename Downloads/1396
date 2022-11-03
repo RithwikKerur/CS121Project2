@@ -1,0 +1,9 @@
+http://plrg.ics.uci.edu/publications/550.bib
+@inproceedings{key,
+ author = {Khanh Nguyen and Lu Fang and Guoqing Xu and Brian Demsky},
+ title = {Speculative Region-based Memory Management for Big Data Systems},
+ booktitle = {Proceedings of the 8th Workshop on Programming Languages and Operating Systems},
+ location = {Monterey, California},
+ month = {October},
+ year = {2015}
+}

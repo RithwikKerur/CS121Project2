@@ -1,0 +1,151 @@
+http://www.ics.uci.edu/~goodrich/teach/cs162/syll.html
+
+CS 162 - Syllabus
+
+
+
+
+
+
+
+  Syllabus - CS 162 - Formal Languages and Autamata Theory
+Michael T. Goodrich 
+
+	  http://www.ics.uci.edu/~goodrich/teach/cs162/
+
+
+Course Description.
+Formal aspects of describing and recognizing languages by grammars and automata.
+Parsing regular and context-free languages.
+Ambiguity, nondeterminism. 
+Elements of computability; Turing machines, random access machines, 
+undecidable problems, NP-completeness. 
+
+Coursework. Coursework will consist of weekly homeworks,
+midterms, and a comprehensive final exam. The overall grade
+will be determined 20% from homework, 25% from each midterm, and
+30% from the final.
+Group work on homeworks is permitted, but each
+student must list his or her collaborators in writing for each problem.
+If a student turns in a solution without listing
+the others who helped produce this solution,
+this act will be considered cheating (for it is plagarism).
+Late homework assignments will not be accepted, but
+for the overall total homework score, 
+the lowest homework score will be dropped.
+
+
+Exam policy.
+Exam performance must be 100% individual effort; no collaboration
+is allowed on exams.  Any collaboration or copying on exams 
+will be considered cheating.
+In addition to the procedures of the
+ICS 
+Cheating Policy, students caught cheating on exams will be given a 
+failing grade in the class.
+
+Laptop policy.
+Open laptop computers are not allowed during lectures.
+Here's one reason why.
+Here is another.
+
+Text. The course text will be 
+Introduction to the Theory of Computation,
+Third Edition,
+by Michael Sipser. (Do not use the International Edition.)
+
+
+
+Tentative Schedule
+
+Week 1:
+
+
+Regular Languages, finite automata, DFA.
+
+
+Week 2:
+
+
+NFA, Regular expressions, Nonregular languages.
+
+
+
+Week 3:
+
+Context free grammars.
+Pushdown automata.
+
+
+
+Week 4:
+Midterm I
+
+
+Equivalence of CFGs and PDAs. 
+Chomsky Normal Form (CNF).
+
+
+
+Week 5:
+
+
+Non-context-free languages. 
+Parsing (CYK Algorithm).
+
+
+
+Week 6:
+
+
+Turing machines.
+Church-Turing Thesis. 
+
+
+
+Week 7:
+Midterm II
+
+
+Decidability.
+Rice's Theorem.
+
+
+
+Week 8:
+
+
+Time complexity.
+NP-completeness.
+Cook's Theorem.
+
+
+
+Week 9:
+
+
+Polynomial-time reductions.
+More NP-complete problems.
+
+
+
+Week 10:
+Space complexity.
+
+
+
+PSPACE-complete problems.
+
+
+
+
+
+Copyright © 2019
+
+Michael T. Goodrich, as to all lectures. 
+Students are prohibited from selling 
+(or being paid for taking) notes during this course to or by any
+person or commercial firm without the express written permission of the
+professor teaching this course or from Disabled Services Center (DSC).
+
+

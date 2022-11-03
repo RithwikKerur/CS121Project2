@@ -1,0 +1,9 @@
+http://plrg.ics.uci.edu/publications/590.bib
+@inproceedings{key,
+ author = {Peizhao Ou and Brian Demsky},
+ title = {Towards Understandings the Costs of Avoiding Out-of-Thin-Air Results},
+ booktitle = {Proceedings of the 2018 Conference on Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA 2018)},
+ location = {Boston, MA},
+ month = {October},
+ year = {2018}
+}

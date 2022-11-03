@@ -1,0 +1,189 @@
+https://ngs.ics.uci.edu/presentation-of-flickr-story-on-newscom
+
+
+
+
+
+
+
+
+Presentation of Flickr story on News.com – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Presentation of Flickr story on News.com    			
+
+
+While browsing the Flickr story on News.com, I noted a very interesting approach to presentation.
+This story is a video.  But this video is presented in segmented form with specific annotations to specif parts of the story.  Clearly in its current form, the segmentation of video has been done manually and the annotations are by the authors.  Independent how these segmentations are done, the fact is that the presentation of the video in this form is a big help to the reader (browser) id deciding which part of the interview video she wants to view.    This is the form of the video viewing that is a lot more desirable than putting the complete video.  It has several advantages:  based on annotations, search techniques could take the interested user to the relevant section of the video; each section of the video could be considered an indepndent (but related) ‘story’ making it wasily reusable; and since each section (segment) has now beome independent, users can them reorder according to their priority.
+This approach is not new — has been around for long time — but its use in a popular site is refreshing to see.  Also, one can see the advantages mentioned above in action immediately by viewing the right panel on the same page.  While showing related stories, each segment of the story is shown as an independent story in the related link-tree.
+While this is being doen manually today, some of this could be done automatically or using folksonomy.  Multimedia and computer vision researchers have been working on making video segmentation automatic for some time and are making progress.  Such presentations of video will motivate these researchers to become more creative.
+
+
+
+By Ramesh |
+    				December 17, 2005 |
+    				             		Technical Thoughts |
+             	 
+    				             		1 Comment |
+             	 		          				
+    			
+
+
+← Government in India
+Sourav Ganguli ISSUE →
+
+
+
+			One thought on “Presentation of Flickr story on News.com”		
+
+
+
+
+lorenzo December 18, 2005 at 9:15 am 
+
+Ramesh,
+Lulop2 (http://lulop2.sf.net) is an open source video CMS which will be soon capable of automatic video segmentation (and Mpeg7 output) thanks to a module developed at the University of Florence, Italy as a course assignment for Multimedia Database (http://makeclean.iobloggo.com/archive.php?eid=188 – http://makeclean.iobloggo.com/archive.php?eid=211). 
+maybe you can think of someone at your University who is willing to contribute an advanced audio-video analysis tool to our user-friendly publishing platform, helping the diffusion among end-users of technologies widely deployed in computer vision laboratories.
+More on Lulop2 automatic segmentation module on LULOP2 weblog: http://lulop.org/open/index.php?submit=Search&s=segmentation
+Check also the University of Florence Viplab website page for examples of automatic video analysis and annotation applied to sports and news footage: http://viplab.dsi.unifi.it/research/CBIR/video
+
+
+
+
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

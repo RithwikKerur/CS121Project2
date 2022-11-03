@@ -1,0 +1,180 @@
+https://ngs.ics.uci.edu/quantifying-semantic-gap
+
+
+
+
+
+
+
+
+Quantifying Semantic Gap – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Quantifying Semantic Gap    			
+
+
+One hears commonly about the semantic gap, and approaches to bridging it, but never hears about quantifying it and using that in developing better recognition system.  I don’t know how to do it, but want to at least think os taking a step in understanding the problem better.
+Semantic gap (SG) is manifestation of the fact that a symbol (object or concept) in visual (or any signal) space may have multiple representations and representations in visual space could be interpreted as multiple symbols.  For quantitative manifestation of the gap, lets look at the problem from a fundamental perspective.  This may help us in characterizing semantic gap better and using it in emerging applications.
+Suppose that there are n Symbols, Si, in the vocabulary of the system.
+Suppose that visual representations are captured by m features â€“ giving m-dimensional feature space.  A point in feature space is represented by fk.
+Semantics  is about mapping a given fk to the right Si.
+The semantic gap should capture how difficult is the task of this mapping.The semantic gap (SG) represents relative distance between the symbol and its visual representation as captured by the feature vector.
+Now lets consider the following cases:
+1.	There is a unique mapping between fk and Si â€“ so for any Si only one fk is possible and for any fk there is only one Si.  In this case SG = 0.  One may consider bar codes and q-codes as example of these.  No wonder those are successfully used at so many places now.
+2.	The second case is when for multiple fk there is only one Si.  In this case also there is no ambiguity and SG=0. Printed character recognition and similar applications could be considered in this class.
+3.	In the third case we consider that for a fk there are multiple Si.  In this case, the features used are insufficient for capturing the semantics â€“ makes semantic gap â€˜infiniteâ€™.  In this case, one must add/modify features.  With given features, there is no way to solve the problem.  Using other contextual information, one could try to recognize which symbol may be the most relevant and make decision.  In this case, the decision is based all on context, not on visual features.
+4.	Finally, there is many to many mapping, meaning for a fk there are many Si and for a Si there are many fk.  This is the case where we need to quantitatively measure Semantic gap.  Here the feature space can not be easily partitioned for defining specific classes.  If there are no overlaps, then this will become one of the above cases.  So one must measure somehow the spread of features as well as the spread of the symbols to quantitatively characterize the gap.
+If we can develop an approach for characterizing SG then possibly we can use other contextual information where SG is high.  At this point, I am not aware of any approach to characterize SG.  It will be a useful approach to formulate this and run experiments to verify it.
+
+								Tagged on: Computer Vision, Pattern Recognition, semantic gap 
+
+
+
+By Ramesh |
+    				July 22, 2011 |
+    				             		Experiential Computing |
+             	 
+    				             		No Comments |
+             	 		          				
+    			
+
+
+← Contextual Circles
+VisR:  Organizing and sharing visual experiences of Events →
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

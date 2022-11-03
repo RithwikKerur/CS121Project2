@@ -1,0 +1,166 @@
+https://sli.ics.uci.edu/PmWiki/CustomWikiStyles
+
+
+
+SLI | PmWiki / CustomWikiStyles 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+CustomWikiStyles
+
+
+
+
+
+< Custom markup | Documentation Index | Internationalizations >
+
+administrators (intermediate) 
+
+This page describes the predefined Wiki Styles and how a Wiki Administrator can define additional Wiki Styles as a local customization for all pages (in local/config.php) or specific groups (in local/$Group.php).
+
+All predefined Wiki Styles are setup in the global array $WikiStyle.
+To define your own Wiki Styles, add the setting of the correspondent WikiStyle within the array.
+
+
+Predefined Wiki Styles
+The following array-values are set by scripts/wikistyles.php using the SDV()-function (so you can overwrite them by setting them prior in config.php or farmconfig.php):
+
+
+markup:definition:
+text colors:(equivalent to %define=xxxx color=xxxx%)
+black$WikiStyle['black']['color'] = 'black';
+white$WikiStyle['white']['color'] = 'white';
+red$WikiStyle['red']['color'] = 'red';
+yellow$WikiStyle['yellow']['color'] = 'yellow';
+blue$WikiStyle['blue']['color'] = 'blue';
+gray$WikiStyle['gray']['color'] = 'gray';
+silver$WikiStyle['silver']['color'] = 'silver';
+maroon$WikiStyle['maroon']['color'] = 'maroon';
+green$WikiStyle['green']['color'] = 'green';
+navy$WikiStyle['navy']['color'] = 'navy';
+purple$WikiStyle['purple']['color'] = 'purple';
+list-styles:
+decimal$WikiStyle['decimal']['apply'] = 'list';$WikiStyle['decimal']['list-style'] = 'decimal';
+roman$WikiStyle['roman']['apply'] = 'list';$WikiStyle['roman']['list-style'] = 'lower-roman';
+ROMAN$WikiStyle['ROMAN']['apply'] = 'list';$WikiStyle['ROMAN']['list-style'] = 'upper-roman';
+alpha$WikiStyle['alpha']['apply'] = 'list';$WikiStyle['alpha']['list-style'] = 'lower-alpha';
+ALPHA$WikiStyle['ALPHA']['apply'] = 'list';$WikiStyle['ALPHA']['list-style'] = 'upper-alpha';
+special:
+open links in a new browser-window:
+newwin$WikiStyle['newwin']['target'] = '_blank';
+Turns markup into a comment via display:none CSS
+comment$WikiStyle['comment']['display'] = 'none';
+wiki styles
+frameborder:1px solid #cccccc; padding:4px; background-color:#f9f9f9;
+lfloatfloat:left; margin-right:0.5em;
+rfloatfloat:right; margin-left:0.5em;
+thumb
+lframeframe lfloat
+rframeframe rfloat
+cframe
+preblock white-space:pre
+sideheadblock class:sidehead
+
+Author-Defined Wiki Styles
+The first index of the array defines the style name (e.g. mynewstyle, projectentry etc)
+the second index defines the attribute name (e.g. color, background-color, etc.)
+the value set defines the attribute value (e.g. red, bold, #00ffcc, etc.)
+Sample: If you want to define a (site-wide) style the same as the page style
+%define=projectentry color:red%
+use
+$WikiStyle['projectentry']['color'] = 'red';
+The $WikiStyle['projectentry']['apply'] variable may be defined if the wikistyle concerns a particular tag. It may be 'item' (for li|dt), 'list' (for ul|ol|dl), 'div', 'pre', 'img', 'p' or the combining 'block' (for p|div|ul|ol|dl|li|dt|pre|h[1-6]). Example:
+
+ $WikiStyle['top']['apply'] = 'item';
+ $WikiStyle['top']['class'] = 'top';
+then a markup
+ * %top% An important list-item
+will output
+ <li class="top">An important list-item</li>
+Printer-Friendly Styles
+If your custom-styles (in local/config.php) are getting very colorful it might be useful to disable them in print-view. This can be done easily by putting them into a condition.
+
+if($action!="print") {
+  // your custom-styles
+}
+Notes
+To be done:
+Questions:
+I tried this but background didn't work, thou border and float worked? /Vincent 2008-04-08
+
+$WikiStyle['vMenu']['background']='#ffffcc' ;
+$WikiStyle['vMenu']['float']='left' ;
+$WikiStyle['vMenu']['border']='1px dotted red' ;
+
+Try using $WikiStyle['vMenu']['background-color']='#ffffcc'; -- unlike background, background-color is defined in the $WikiStyleCSS array, which is checked for valid properties.
+
+Q: How would I set an image to the left of a paragraph in a WikiStyle? I'd like to provide an icon for paragraphs that are notes, important, warnings, etc.
+
+See WikiStylesPlus and Callout.
+
+ 
+FAQ
+How can I remove underlining from a link, but make it underlined blue when the mouse hovers?
+Put in pub/css/local.css:
+ .noul a {text-decoration: none;}
+ .noul a:hover {text-decoration: underline; color: blue;}
+Then use this markup:
+  %noul% [[Link]] %%
+
+
+< Custom markup | Documentation Index | Internationalizations >
+
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:CustomWikiStyles, and  a talk page: PmWiki:CustomWikiStyles-Talk.
+
+
+
+
+
+
+ Last modified April 19, 2014, at 01:01 AM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

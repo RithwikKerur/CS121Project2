@@ -1,0 +1,132 @@
+https://sli.ics.uci.edu/PmWiki/MailingLists
+
+
+
+SLI | PmWiki / MailingLists 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+MailingLists
+
+
+
+
+
+< Contributors | Documentation Index | PmWiki philosophy >
+
+
+
+There are several mailing lists available for PmWiki.
+
+[ pmwiki-users ] This is a great resource where a very helpful group of people will answer questions and discuss PmWiki development. As of 2016, traffic is around 20-40 messages a month. 
+If you ask a question on the list and it doesn't get answered, don't feel let down. Just ask it again. It probably slipped by unnoticed.
+Archives are available from:
+http://www.pmichaud.com/pipermail/pmwiki-users/
+http://news.gmane.org/gmane.comp.web.wiki.pmwiki.user (searchable)
+http://groups.google.com/group/pmwiki-users  (searchable, but disconnected from main list in 2012.04)
+http://www.mail-archive.com/pmwiki-users@pmichaud.com/info.html (searchable)
+ 
+[ pmwiki-users-de ] A mailing list for german-speaking users of PmWiki.  Archived at
+http://www.pmichaud.com/pipermail/pmwiki-users-de
+[ pmwiki-users-es ] Lista de usuarios PmWiki en Español.
+[ pmwiki-users-fr ] A mailing list for french-speaking users of PmWiki.
+[ pmwiki-devel ] This list was created to lower the traffic on pmwiki-users, it focuses on discussions surrounding code development for PmWiki (both core and recipe development).
+Archives are available from:
+http://www.pmichaud.com/pipermail/pmwiki-devel/
+http://news.gmane.org/gmane.comp.web.wiki.pmwiki.devel (searchable)
+http://groups.google.com/group/pmwiki-devel  (searchable)
+http://www.mail-archive.com/pmwiki-devel@pmichaud.com/info.html (searchable)
+[ pmwiki-announce ] Announcements of new version releases and urgent information, about 1-2 messages per month. If you use PmWiki in a production environment, this low-volume list is highly recommended. The archive is at:
+http://www.pmichaud.com/pipermail/pmwiki-announce
+Suggestions:
+If you reply to a digest message, please remove the messages irrelevant to your reply before sending it back to the list.  
+It's also helpful to change "Re: pmwiki-users Digest, Vol [...]" to "Re: [the original subject]" because some mail programs determine threads based on the subject.
+If you address a reply to a single list member, please take the [pmwiki-users] off the subject line, or it's possible for your message to get lost in the mailing list traffic. Many people filter list traffic to a separate mailbox.
+If you ask a question, you should disable "digest" mode, this way you'll receive the replies as soon as people post them, and you could follow-up. In digest mode you might receive the replies a week or two later.
+Changing mail list settings
+Here are some tips regarding changing the mailing list settings:
+
+Logging in...
+First go to http://www.pmichaud.com/mailman/listinfo/pmwiki-users
+and enter your e-mail address in the field at the bottom of the page,
+to the left of the button Unsubscribe or edit options.
+Next you need to enter your password. As you've probably forgotten this,
+use the button Remind at the bottom of the page to get a new password.
+Finally enter the password you should get momentarily via e-mail.
+You can directly go to the options web page through a URI such as the
+following:
+http://host.pmichaud.com/mailman/options/pmwiki-users/<user>%40<domain>
+where <user> is everything before the @ in an e-mail address,
+and <domain> is everything after (
+For those who wonder, the %40 in the URI just stands for '@'.
+You can also obtain various help by sending an email to
+pmwiki-users-request@pmichaud.com with the text help in either
+the subject or the body.
+Newsgroups (NNTP)
+You may be interested, that the lists are also accessible as newsgroups.
+
+The NNTP server is:
+news.gmane.org [1]
+The groups are:
+gmane.comp.web.wiki.pmwiki.user
+gmane.comp.web.wiki.pmwiki.announce
+gmane.comp.web.wiki.pmwiki.user.de
+
+
+< Contributors | Documentation Index | PmWiki philosophy >
+
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:MailingLists, and  a talk page: PmWiki:MailingLists-Talk.
+
+
+
+
+
+
+ Last modified July 30, 2016, at 09:46 AM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

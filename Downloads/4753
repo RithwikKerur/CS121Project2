@@ -1,0 +1,774 @@
+http://www.ics.uci.edu/~shantas/publications.html
+
+
+
+Shantanu Sharma - Publications
+
+
+
+
+
+
+
+
+
+ Shantanu Sharma
+
+					Postdoc, Computer Science 
+					University of California, Irvine, USA.
+			    
+
+
+Home
+Hiring
+Publications
+Teaching
+Info
+Tutorials
+Projects
+Highlights
+Pics
+
+Others 
+
+Narratives
+Software
+Links
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              
+		Note: In most of the publications, author names are written in the alphabetical order.
+		
+		Notations:
+		PA: Work as the primary or lead author.
+		NPA: Work as the non-primary or non-lead author.
+		EA: Equal contribution authorship.
+
+
+Publication Summary: 
+1. 6 IEEE or ACM Transaction papers as a primary author. 
+2. 3 tier-1 conference papers (SIGMOD, VLDB, ICDE) as a primary author. 
+3. 5 tier-2 conference papers (EDBT, IEEE NCA, ACM CODASPY, SSS) as a primary author or equal contribution, and IEEE NCA 2019 paper has received the best paper award. 
+4. 3 tutorials as a primary author at IEEE ICDE, IEEE Big-Data, and ACM IWSPA.
+
+
+
+
+
+Journal Publications
+
+
+
+
+PA
+
+J14. 
+ IoT Notary: 
+         Attestable Sensor Data Capture in IoT Environments
+[Paper/PDF]
+[
+Presentation slides/PPT]
+
+Nisha Panwar, Shantanu Sharma, 
+	Guoxi Wang, 
+	Sharad Mehrotra, 
+	Nalini Venkatasubramanian, 
+	Mamadou H. Diallo, and 
+	Ardalan Amiri Sani
+
+  (The first two authors have an equal contribution.) 
+   
+    ACM Transactions on Internet Technology, 2021.
+    
+Full version of the Best Paper Award of IEEE NCA, 2019.
+
+
+
+PA
+
+J13. 
+ Panda: Partitioned Data Security on Outsourced Sensitive 
+         and Non-sensitive Data
+[Paper/PDF]
+[Presentation slides/PPT]
+
+Sharad Mehrotra, 
+Shantanu Sharma, 
+Jeffrey D. Ullman,
+Dhrubajyoti Ghosh, and 
+Peeyush Gupta
+
+  ACM Transactions on Management Information Systems (ACM TMIS), Volume 11, Issue 4, 2020 (Accepted).
+
+
+
+PA
+
+J12. 
+ Obscure: Information-Theoretic Oblivious and Verifiable
+ Aggregation Queries
+[Paper/PDF]
+[Presentation slides/PPT]
+
+Peeyush Gupta, 
+Yin Li, 
+Sharad Mehrotra, 
+Nisha Panwar, Shantanu Sharma, and Sumaya Almanee
+  
+  IEEE Transactions on Knowledge and Data Engineering (IEEE TKDE), 2020 (Accepted).
+
+
+
+NPA
+
+J11. 
+ Canopy: A Verifiable Privacy-Preserving 
+  Token Ring based Communication Protocol for Smart Homes
+[Paper/PDF]
+[Presentation slides/PPT]
+
+Nisha Panwar, Shantanu Sharma, 
+Guoxi Wang, 
+Sharad Mehrotra, and 
+Nalini Venkatasubramanian
+
+ACM Transactions on Cyber-Physical Systems (ACM TCPS), 2020 (Accepted).
+
+
+
+NPA
+
+J10. 
+ Transitioning from testbeds to ships: 
+    an experience study in deploying the TIPPERS Internet of Things platform to the US Navy
+[Paper/PDF]
+
+Dave Archer, 
+Michael A August, 
+Georgios Bouloukakis, 
+Christopher Davison, Mamadou H Diallo, 
+Dhrubajyoti Ghosh, 
+Christopher T Graves, 
+Michael Hay, Xi He, 
+Peeter Laud, 
+Steve Lu, 
+Ashwin Machanavajjhala, 
+Sharad Mehrotra, 
+Gerome Miklau, 
+Alisa Pankova, Shantanu Sharma, 
+Nalini Venkatasubramanian, 
+Guoxi Wang,  
+and 
+Roberto Yus.
+
+The Journal of Defense Modeling and Simulation: Applications, Methodology, Technology, 2020.
+
+
+
+PA
+
+J9. Privacy-Preserving Secret Shared Computations using MapReduce [Paper/PDF]
+[Presentation slides/PPT]
+
+Shlomi Dolev, Peeyush Gupta, Yin Li, Sharad Mehrotra, and Shantanu Sharma
+
+IEEE Transactions on Dependable and Secure Computing (IEEE TDSC), 
+2019 (Accepted).
+
+
+NPA
+
+J8. 
+        On the Complexity of Hybrid n-Term Karatsuba Multiplier for Trinomials 
+[Paper/PDF]
+
+Yin Li, 
+Shantanu Sharma, Yu Zhang, Xingpo Ma, and Chuanda Qi
+
+IEEE Transactions on Circuits and Systems I: Regular Papers (IEEE TCAS1), Volume 67-I(3), 2020.
+
+
+
+PA
+
+J7. 
+        A Survey on Geographically Distributed Big-Data Processing using MapReduce [Paper/PDF]
+
+Shlomi Dolev, Patricia Florissi, Ehud Gudes, Shantanu Sharma, and Ido Singer
+
+IEEE Transactions on Big Data (IEEE TBData), Volume 5, Issue 1, 2019.
+
+
+
+NPA
+
+J6. Computing Marginals Using MapReduce
+[Paper/PDF]
+
+Foto Afrati, Shantanu Sharma, Jonathan R. Ullman, and 
+Jeffrey D. Ullman
+
+Elsevier Journal of Computer and System Sciences (Elsevier JCSS), Volume 94, 2018.
+
+
+
+PA
+
+J5. Assignment Problems of Different-Sized Inputs in MapReduce
+[Paper/PDF] [Presentation slides/PPT]
+
+Foto Afrati, Shlomi Dolev, Ephraim Korach, Shantanu Sharma, and Jeffrey D. Ullman
+
+ACM Transactions on Knowledge Discovery from Data (ACM TKDD), Volume 11, Issue 2, 2016.
+
+
+
+PA
+
+J4. Security and Privacy Aspects in MapReduce on Clouds: A Survey
+[Paper/PDF]
+
+Philip Derbeko, Shlomi Dolev, Ehud Gudes, and Shantanu Sharma
+
+Elsevier Computer Science Review,  Volume 20, 2016.
+
+
+
+PA
+
+J3. A Survey on 5G: The Next Generation of Mobile Communication
+[Paper/PDF]
+ [Presentation slides/PPT]
+ [Video (4:30 mins)] 
+
+Nisha Panwar, Shantanu Sharma, and Awadhesh Kumar Singh 
+
+(The first two authors have an equal contribution.)
+
+Physical Communication (Elsevier PHYCOM), Volume 18, Part 2, 2016.
+
+
+
+
+PA
+
+J2. 
+An Election Algorithm to Ensure the High Availability of Leader in Large Mobile Ad Hoc Networks
+ [Paper/PDF]
+
+Shantanu Sharma and Awadhesh Kumar Singh
+
+International Journal of Parallel, Emergent and Distributed Systems (T&F IJPEDS), 2016.
+
+
+
+PA
+J1. On Detecting Termination in Cognitive Radio Networks
+ [Paper/PDF]
+ [Presentation slides/PPT]
+
+Shantanu Sharma and Awadhesh Kumar Singh
+
+International Journal of Network Management (Wiley IJNM), Volume 24, Issue 6, 2014.
+
+
+
+
+Conference and Workshop Publications
+
+
+
+
+PA
+
+C20. 
+Prism: Private Verifiable Set Computation over Multi-Owner Outsourced Databases
+[Paper/PDF]
+[Presentation slides/PPT]
+[YouTube]
+
+Yin Li, 
+Dhrubajyoti Ghosh, 
+Peeyush Gupta, 
+Sharad Mehrotra, 
+Nisha Panwar, and Shantanu Sharma
+  
+  Proceedings of the International Conference on Management of Data (ACM SIGMOD), 2021.
+
+
+
+PA
+
+C19. 
+Concealer: SGX-based Secure, Volume Hiding, and Verifiable Processing of Spatial Time-Series Datasets
+[Paper/PDF]
+[Presentation slides/PPT]
+
+Peeyush Gupta, 
+Sharad Mehrotra, 
+Shantanu Sharma, 
+Nalini Venkatasubramanian, 
+Guoxi Wang
+
+  Proceedings of the International Conference on Extending Database Technology (EDBT), 2021.
+
+
+
+NPA
+
+C18. 
+          Security and Privacy Aspects in 5G Networks
+[Paper/PDF]
+[Presentation slides/PPT]
+
+Nisha Panwar and Shantanu Sharma
+  19th IEEE International Symposium on Network Computing and Applications (IEEE NCA)
+  Cambridge, MA, USA, Sept 24-27, 2020.
+  
+
+
+
+PA
+
+C17. 
+IoT Expunge: Implementing Verifiable Retention of IoT Data
+[Paper/PDF]
+[Presentation slides/PPT]
+[YouTube]
+
+Nisha Panwar, Shantanu Sharma, 
+	Peeyush Gupta, 
+	Dhrubajyoti Ghosh, 
+	Sharad Mehrotra, 
+	and
+	Nalini Venkatasubramanian
+
+	 (The first two authors have an equal contribution.) 
+  
+  10th ACM Conference on Data and Application Security and Privacy (ACM CODASPY), 
+New Orleans, Louisiana, USA, March 16-18, 2019.
+  
+
+
+
+
+PA
+
+C16. 
+IoT Notary: Sensor Data Attestation in Smart Environment
+[Paper/PDF]
+[Presentation slides/PPT]
+
+Nisha Panwar, Shantanu Sharma, 
+	Guoxi Wang, 
+	Sharad Mehrotra, 
+	Nalini Venkatasubramanian, 
+	Mamadou H. Diallo, and 
+	Ardalan Amiri Sani
+
+  (The first two authors have an equal contribution.) 
+  
+  18th IEEE International Symposium on Network Computing and Applications (IEEE NCA)
+  Cambridge, MA, USA, Sept 26-28, 2019.
+  
+Best Paper Award
+
+
+
+PA
+
+C15. 
+ Obscure: Information-Theoretic Oblivious and Verifiable
+ Aggregation Queries
+[Paper/PDF]
+[Presentation slides/PPT]
+
+Peeyush Gupta, 
+Yin Li, 
+Sharad Mehrotra, 
+Nisha Panwar, Shantanu Sharma, and Sumaya Almanee
+  
+  Proceedings of the VLDB Endowment, Vol. 12, No. 9., 2019.
+
+
+
+PA
+
+C14. 
+          Partitioned Data Security on Outsourced Sensitive and Non-sensitive Data
+[Paper/PDF]
+[Presentation slides/PPT]
+
+Sharad Mehrotra, Shantanu Sharma, Jeffrey D. Ullman, and Anurag Mishra
+  
+  35th IEEE International Conference on Data Engineering (IEEE ICDE), Macau, China, April, 2019.
+
+
+
+NPA
+
+C13. 
+          Verifiable Round-Robin Scheme for Smart Homes
+[Paper/PDF]
+[Presentation slides/PPT]
+
+Nisha Panwar, Shantanu Sharma, 
+Guoxi Wang, 
+Sharad Mehrotra, and Nalini Venkatasubramanian
+
+  9th ACM Conference on Data and Application Security and Privacy (ACM CODASPY), Richardson, Texas, USA, March 25-27, 2019.
+
+
+
+PA
+
+C12. 
+Private and Secure Secret Shared MapReduce (Extended Abstract)
+[Paper/PDF]
+[Presentation slides/PPT]
+
+Shlomi Dolev, Yin Li, and Shantanu Sharma
+  
+30th Annual IFIP WG 11.3 Working Conference on Data and Applications Security and Privacy (DBSec), Trento, Italy, July 2016.
+
+
+
+NPA
+
+C11. Computing Marginals Using MapReduce: Keynote talk paper
+[Paper/PDF]
+
+Foto Afrati, Shantanu Sharma, and Jeffrey D. Ullman, and Jonathan R. Ullman
+
+20th International Database Engineering & Applications Symposium (ACM IDEAS), Montreal, QC, Canada, July 2016.
+
+
+
+PA
+
+C10. 
+          Brief Announcement: Meta-MapReduce: A Technique for Reducing Communication in MapReduce Computations
+[Paper/PDF]
+[Presentation slides/PPT]
+
+Foto Afrati, Shlomi Dolev, Shantanu Sharma, and Jeffrey D. Ullman
+
+17th International Symposium on Stabilization, Safety, and Security of Distributed Systems (Springer SSS), Edmonton, Canada, August 2015.
+
+
+
+PA
+
+C9. Assignment of Different-Sized Inputs in MapReduce [Paper/PDF]  [Presentation slides/PPT]
+
+Foto Afrati, Shlomi Dolev, Shantanu Sharma, and Jeffrey D. Ullman
+
+Proceedings of the Workshops of the EDBT/ICDT 2015 Joint Conference, Brussels, Belgium, March 2015.
+
+
+
+PA
+
+C8. Bounds for Overlapping Interval Join on MapReduce
+[Paper/PDF]
+ [Presentation slides/PPT]
+
+Foto Afrati, Shlomi Dolev, Shantanu Sharma, and Jeffrey D. Ullman
+
+Proceedings of the Workshops of the EDBT/ICDT 2015 Joint Conference, Brussels, Belgium, March 2015.
+
+
+
+PA
+
+C7. Brief Announcement: Assignment of Different-Sized Inputs in MapReduce
+[Paper/PDF]
+ [Presentation slides/PPT]
+
+Foto Afrati, Shlomi Dolev, Ephraim Korach, Shantanu Sharma, and Jeffrey D. Ullman
+
+   28th International Symposium on Distributed Computing (Springer DISC), Austin, Texas, USA, October 2014.  
+
+
+
+EA
+
+C6. 
+        Self-Stabilizing End-to-End Communication in Bounded Capacity, Omitting, Duplicating and non-FIFO Dynamic Networks (Extended Abstract)
+[Paper/PDF] [Presentation slides/PPT]
+
+Shlomi Dolev, Ariel Hanemann, Elad M. Schiller and Shantanu Sharma
+
+14th International Symposium on Stabilization, Safety, and Security of Distributed Systems (Springer SSS), Toronto, Canada, October 2012.
+
+
+
+PA
+
+C5. On Detecting Termination in Cognitive Radio Networks
+
+Shantanu Sharma and Awadhesh Kumar Singh
+
+17th Pacific Rim International Symposium on Dependable Computing (IEEE PRDC), Pasadena, California, USA, December 2011.
+
+
+
+PA
+
+C4. Elite Leader Finding Algorithm for MANETs
+
+Awadhesh Kumar Singh and Shantanu Sharma
+
+10th International Symposium on Parallel and Distributed Computing (IEEE ISPDC), Cluj Napoca, Romania, July 2011.
+
+
+
+PA
+
+C3. Trivial Solution for Non-trivial Problem in MANETs
+
+Awadhesh Kumar Singh and Shantanu Sharma
+
+International Conference on Advances in Computing and Artificial Intelligence (ACM ACAI), Chandigarh, India, July 2011.
+
+
+
+
+PA
+
+C2. Democratic Leader Finding Algorithm for Large Mobile Ad Hoc Networks
+
+Shantanu Sharma and Awadhesh Kumar Singh
+
+ICDCS 8th International Workshop on Wireless Ad hoc and Sensor Networks (IEEE WWASN), Minneapolis, USA, June 2011.
+
+
+
+PA
+
+C1. Message Efficient Leader Finding Algorithm for Mobile Ad Hoc Networks
+
+Awadhesh Kumar Singh and Shantanu Sharma
+
+COMSNETS Workshop on Intelligent Networks: Adaptation, Communication and Reconfiguration (IEEE IAMCOM), Bangalore, India, January 2011.
+
+
+
+
+
+Poster Publications
+
+
+
+
+EA
+
+P6. 
+A privacy-enabled platform for COVID-19 applications: Poster Abstract
+ [Poster Description]
+
+Michael August, Christopher Davison,
+               Mamadou H. Diallo,
+               Dhrubajyoti Ghosh,
+               Peeyush Gupta, 
+               Christopher T. Graves,
+               Shanshan Han,
+               Michael Holstrom,
+               Pramod Khargonekar,
+               Megan Kline,
+              Sharad Mehrotra, 
+               Shantanu Sharma,
+               Nalini Venkatasubramanian, 
+               Guoxi Wang, 
+			   and
+               Roberto Yus
+
+18th ACM Conference on Embedded Networked Sensor
+               Systems (ACM SenSys), Virtual Event, Japan, November 16-19, 2020.
+
+
+
+PA
+
+P5. 
+ Obscure: Information-Theoretically Secure, Oblivious, and Verifiable Aggregation Queries
+ [Poster]
+[Poster Description]
+
+Peeyush Gupta, 
+Yin Li, 
+Sharad Mehrotra, 
+Nisha Panwar, and Shantanu Sharma
+
+10th ACM Conference on Data and Application Security and Privacy (ACM CODASPY), 
+New Orleans, Louisiana, USA, March 16-18, 2019.
+
+
+
+PA
+
+P4. Scaling Cryptographic Techniques by Exploiting Data Sensitivity at a Public Cloud
+ [Poster]
+[Poster Description]
+
+Sharad Mehrotra, Shantanu Sharma, and Jeffrey D. Ullman
+
+9th ACM Conference on Data and Application Security and Privacy (ACM CODASPY), Richardson, Texas, USA, March 25-27, 2019.
+
+Distinguished Poster Award
+
+
+
+PA
+
+P3. Privacy-Preserving Computations on MapReduce
+ [Poster][Poster Description]
+
+Shlomi Dolev, Yin Li, and Shantanu Sharma
+
+2nd Security Research Seminar, Haifa, Israel, December 2015.
+
+
+
+PA
+
+P2. Reducer Capacity and Communication Cost in MapReduce Algorithms Design [Poster][Poster Description]
+
+Foto Afrati, Shlomi Dolev, Ephraim Korach, Shantanu Sharma, and Jeffrey D. Ullman
+
+8th ACM International Systems and Storage Conference (ACM SYSTOR), Haifa, Israel, June 2015.
+
+
+
+PA
+
+P1. Self-Stabilizing End-to-End Communication in Bounded Capacity, Omitting, Duplicating and non-FIFO Dynamic Networks [Poster][Poster Description]
+
+Shlomi Dolev, Ariel Hanemann, Elad M. Schiller and Shantanu Sharma
+
+5th ACM International Systems and Storage Conference (ACM SYSTOR), Haifa, Israel, June 2012.
+
+
+
+
+Tutorials
+
+
+
+PA
+
+T3. 
+          Advances in Cryptography and Secure Hardware for Data Outsourcing
+[Description PDF]
+[Presentation slides/PPT]
+[Video]
+[YouTube 1]
+[YouTube 2]
+
+  Shantanu Sharma, 
+	Anton Burtsev,
+and 	
+	Sharad Mehrotra
+
+36th IEEE International Conference on Data Engineering (IEEE ICDE), Dallas, Texas, USA, April 20-24, 2020.
+
+
+
+PA
+
+T2. 
+          Recent Advances in Information-Theoretically Secure Data Outsourcing
+[PDF]
+[Presentation slides/PPT]
+[YouTube]
+
+Sharad Mehrotra
+  and Shantanu Sharma
+  
+6th ACM International Workshop on Security and Privacy Analytics (IWSPA) asscociated with
+10th ACM Conference on Data and Application Security and Privacy (CODASPY), New Orleans, Louisiana, USA, March 18, 2020.
+
+
+
+PA
+
+T1. 
+          Secure and Privacy-Preserving Big-Data Processing
+[Presentation slides/PPT]
+
+Anton Burtsev, 
+	Sharad Mehrotra, 
+	and Shantanu Sharma
+  
+IEEE Big-Data, Los Angeles, CA, USA, Dec 09-12, 2019.
+
+
+
+
+Other Publications
+
+
+
+
+PA
+
+N4. 
+          Five do's and don'ts as a postdoctoral scholar
+[PDF]
+
+Shantanu Sharma
+  
+ACM Crossroads, Volume 26, Issue 2, 2019.
+
+
+
+EA
+
+N3. Exploiting Data Sensitivity on Partitioned Data
+[Book Chapter (PDF)]
+
+Sharad Mehrotra, Kerim Yasin Oktay, and Shantanu Sharma
+  
+From Database to Cyber Security - Essays Dedicated to Sushil Jajodia on the Occasion of His 70th Birthday, 2018.
+
+
+
+PA
+
+N2. Meta-MapReduce: A Technique for Reducing Communication in MapReduce Computations
+
+Foto Afrati, Shlomi Dolev,  Shantanu Sharma, and Jeffrey D. Ullman
+
+arXiv, abs/1508.01171, 2015.
+
+
+
+EA
+
+N1. The Excessive Power of Ctrl+C and Ctrl+V in CS Research and Career Development
+[PDF]
+
+Nisha Panwar and Shantanu Sharma
+  
+ACM Crossroads, Volume 24, Issue 2, 2017.
+
+
+
+
+
+

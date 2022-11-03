@@ -1,0 +1,8 @@
+http://plrg.ics.uci.edu/publications/30.bib
+@techreport{key,
+ author = {Brian Demsky and Martin C. Rinard},
+ title = {Automatic Detection and Repair of Errors in Data Structures},
+ number = {MIT LCS Technical Report 875},
+ month = {December},
+ year = {2002}
+}

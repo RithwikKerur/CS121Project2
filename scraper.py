@@ -21,27 +21,31 @@ def extract_next_links(url, resp):
     #         resp.raw_response.url: the url, again
     #         resp.raw_response.content: the content of the page!
     # Return a list with the hyperlinks (as strings) scrapped from resp.raw_response.content
-    links = []
-    parser = None
-    
-    if resp.status == 200:
-        #print(resp.raw_response.content)
-        parser = BeautifulSoup(resp.raw_response.content, 'lxml')
-        for link in parser.findAll('a'):
-            defrag = link.get('href')
-            if defrag is not None:
-                defrag = defrag.split('#')[0]
-                links.append(defrag)
-    
-    with open ('Downloads/' + str(val), 'w') as file:
-        file.write(url + '\n')
-        parser = BeautifulSoup(resp.raw_response.content, 'html.parser')
+    try:
+        links = []
+        parser = None
+        global val
+        if resp.status == 200:
+            #print(resp.raw_response.content)
+            parser = BeautifulSoup(resp.raw_response.content, 'lxml')
+            for link in parser.findAll('a'):
+                defrag = link.get('href')
+                if defrag is not None:
+                    defrag = defrag.split('#')[0]
+                    links.append(defrag)
+            
+            with open ('Downloads/' + str(val), 'w') as file:
+                file.write(url + '\n')
+                parser = BeautifulSoup(resp.raw_response.content, 'html.parser')
 
-        file.write(parser.get_text())
-        #file.write(''.join([x for x in parser.body.find_all(text=True)]))
-        val += 1
-    
-    return links
+                file.write(parser.get_text())
+                #file.write(''.join([x for x in parser.body.find_all(text=True)]))
+                val += 1
+        
+        return links
+    except Exception as e:
+        print(e)
+        return []
 
 def is_valid(url):
     # Decide whether to crawl this url or not. 

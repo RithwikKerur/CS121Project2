@@ -1,0 +1,9 @@
+http://plrg.ics.uci.edu/publications/560.bib
+@inproceedings{key,
+ author = {Byron Hawkins and Brian Demsky and Michael Taylor},
+ title = {BlackBox: Lightweight Security Monitoring for COTS Binaries},
+ booktitle = {Proceedings of the 2016 International Symposium on Code Generation and Optimization (CGO 2016)},
+ location = {Barcelona, Spain},
+ month = {March},
+ year = {2016}
+}

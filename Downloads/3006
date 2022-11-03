@@ -1,0 +1,191 @@
+https://ngs.ics.uci.edu/piracy-protection-using-content-video-recognition
+
+
+
+
+
+
+
+
+Piracy protection using Content (Video) recognition – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Piracy protection using Content (Video) recognition    			
+
+
+NYT has a story that talks about detecting even degraded quality of video and audio in the clips posted illegally at different sites on the web.
+The new technological weapon is content-recognition software, which makes it possible to identify copyrighted material, even, for example, from blurry video clips.
+The technology could address what the entertainment industry sees as one of its biggest problems â€” songs and videos being posted on the Web without permission.
+…
+The systems being developed by companies like Audible Magic and Gracenote make use of vast databases that store digital representations of copyrighted songs, TV shows and movies.
+When new files are uploaded to a Web site that is using the system, it checks the database for matches using a technique known as digital fingerprinting. Copyrighted material can then be blocked or posted, depending on whether it is licensed for use on the site.
+This is a good area for research for computer vision and multimedia researchers.Â  Several research projects tried to develop approaches to detect specific advertisements and similar parts.Â  Now those techniques can be extended to do some ‘fingerprinting’ of each copyrighted content and could be used to for detecting presence even in degraded — intentionally or otherwis — quality copies.Â 
+
+
+
+By Ramesh |
+    				February 19, 2007 |
+    				             		Experiential Computing |
+             	 
+    				             		1 Comment |
+             	 		          				
+    			
+
+
+← New media and face-to-face interactions
+The Next YouTube →
+
+
+
+			One thought on “Piracy protection using Content (Video) recognition”		
+
+
+
+
+phoenix February 22, 2007 at 10:39 am 
+
+As Richard Stallman says, its not piracy (they are not pirates who kill and steal).. The word is “unauthorized copying” 🙂
+Using his terminology, unauthorized copying,  in my opinion, can never be curbed.  Using the above technique, only a certain part of the web can be monitored for unauthorized media. Websites like rapidshare, the plethora of P2P networks share more media than one can imagine. Processing all of this can take up tonnes of processing power. 
+Also,  a main reason of unauthorized copying, besides many others, are the high prices of the original goods. If the original prices are reduced, we may see a marked reduction in P2P transfers. 
+A possible threat to media sharing may be imposed in the form of DRM. But this again has ways to be tackled. Personally, I do not like DRM and would prefer Vance Ikezoye’s approach to curb unauthorized media sharing.
+
+
+
+
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

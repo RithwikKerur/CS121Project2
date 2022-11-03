@@ -1,0 +1,82 @@
+https://asterix.ics.uci.edu
+
+
+
+
+
+
+
+
+
+
+ASTERIX
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Toggle navigation
+
+
+
+
+Overview
+
+
+
+Publications
+Theses
+Supporters
+NSF Award
+Apache AsterixDB 
+
+
+
+
+
+
+ASTERIX
+Welcome to the home page of the ASTERIX Big Data management research project, the NSF-sponsored effort that led to the creation of the Apache AsterixDB Big Data Management System (BDMS). That open source data management platform was the result of about four years of initial R&D (2009-2013) involving researchers at UC Irvine, UC Riverside, and UC San Diego. The resulting Apache AsterixDB code base includes over 250K lines of Java code that was co-developed at UC Irvine and UC Riverside, and its newest query language (SQL++) was developed at UC San Diego.
+Initiated in 2009, the NSF-sponsored ASTERIX project has been consistently focused on the development of new technologies for ingesting, storing, managing, indexing, querying, and analyzing vast quantities of semi-structured information. The original project set out to combine ideas from three distinct areas—semi-structured data, parallel databases, and data-intensive computing (a.k.a. today’s Big Data platforms, e.g., Hadoop and friends)—in order to create a next-generation, open-source software platform that scales by running on large, shared-nothing commodity computing clusters.  Current work is focused on hardening the system for use by others world-wide as well as on extending the system to support active as well as passive Big Data use cases.
+The ASTERIX effort has targeted a wide range of semi-structured information, ranging from “data” use cases—where information is well-typed and highly regular—to “content” use cases—where data tends to be irregular, much of each datum may be textual, and the ultimate schema for the various data types involved may be hard to anticipate up front. The ASTERIX project has focused on technical issues including highly scalable data storage and indexing, semi-structured query processing on very large clusters, and merging time-tested parallel database techniques with modern data-intensive computing techniques to support performant yet declarative solutions to the problem of storing and analyzing semi-structured information effectively.
+The first fruits of this labor were captured in a mid-2013 open source university release of the AsterixDB system. It has now moved to the Apache Software Foundation and is known as the Apache AsterixDB project. ASTERIX was one of the first efforts to approach Big Data from a non-Hadoop angle using time-tested ideas from parallel database research rather than Map/Reduce; our intention was for AsterixDB to mark the beginning of a post-Hadoop “BDMS era”.  We hope that both the Big Data community and the database community will find the result - in the form of today’s Apache AsterixDB system - to be interesting and useful for a much broader class of problems than can be addressed with other of today’s current Big Data platforms and related technologies (e.g., Hadoop, Pig, Hive, HBase, MongoDB, and so on). One of our ongoing project mottos has been “one size fits a bunch”—at least that has always been our aim.
+
+
+
+
+
+
+ 
+
+
+© Copyright 2013-2018 University of California
+Apache AsterixDB, Apache, and the Apache feather logo are trademarks of the Apache Software Foundation
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+

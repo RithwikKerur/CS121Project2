@@ -1,0 +1,175 @@
+https://ngs.ics.uci.edu/context-in-computer-vision
+
+
+
+
+
+
+
+
+Context in Computer Vision – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Context in Computer Vision    			
+
+
+Most fields go through cycles.  Computer vision is no exception.  The role of context in computer vision has been something that emerges every few years as if it is a new topic.  Since, this time it appeared that people were thinking that this is something very novel in computer vision, I decided to ‘play’ my experience (or should we say my age) in this area and even decided to select this as the theme of my talk at University of Central Florida.  UCF has become a powerhouse in Computer Vision due to primarily efforts and leadership of Prof. Mubarak Shah.  Since Mubarak was my student (and has remained a good friend — and academic family member) I decided to accept his invitation to give a talk and thought I will use this context at a strong computer vision group.  The abstract that I sent there is:
+Contenxt: Bridging the semantic gap
+Ramesh Jain
+Department of Computer Science
+University of California, Irvine
+Irvine, CA 92617
+jain@ics.uci.edu
+Progress in many technologies related to pattern recognition, computer vision, machine learning, and multimedia processing face the semantic gap as a major hurdle in progress.  Research in these areas has focused on developing increasingly rigorous techniques using the content, but with little rewards.  Lately, many commercial systems have ignored content in favor of context and demonstrated limited success.  We believe that it is not Content Versus Context; rather it is Contenxt (Content and Context) that is required to bridge the semantic gap.  In this presentation, first we will discuss reasons for our approach and then present approaches that appropriately combine content and context to solve some problems in computer vision and multimedia.
+I plan to share my thoughts here to build my talk — maybe with help of some of you — and then will post my talk here.
+
+
+
+By Ramesh |
+    				March 30, 2010 |
+    				             		Technical Thoughts |
+             	 
+    				             		No Comments |
+             	 		          				
+    			
+
+
+← Next Generation Search in 2010
+Situation Awareness – emerging approaches →
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

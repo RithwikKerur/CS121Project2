@@ -1,0 +1,442 @@
+https://isg.ics.uci.edu/event/david-lomet-tbd
+
+
+
+
+
+
+David Lomet: Better Database Cost/Performance via Programmable SSD Batched I/O – Information Systems Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+
+Faculty
+Students
+Recent Alumni
+Research Staff
+Visitors
+
+
+Research
+
+Projects
+Publications
+
+
+Teaching
+
+Courses
+DB Qual
+
+
+Events
+
+Talks
+News
+
+
+About
+
+Sponsors & Partners
+Visitor Info
+Contact us
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ISG Talks are sponsored by Couchbase.
+<< All Talks
+
+
+
+ « All Events
+
+
+This event has passed.
+David Lomet: Better Database Cost/Performance via Programmable SSD Batched I/O
+
+April 17, 2020 @ 12:30 pm - 2:00 pm 
+
+
+
+
+
+« Babak Salimi: Causal Inference for Responsible Data Science
+Redesigning Storage Systems for Future Workloads, Hardware, and Performance Requirements (CS Faculty Candidate Seminar) »
+
+
+
+
+
+
+
+
+
+Abstract: A database storage manager should place data at the most cost/performance-effective tier in the storage hierarchy.  While performance and cost both decrease with distance from the CPU, the cost/performance trade-off depends on how efficiently a storage manager can move data across tiers.  Log structuring (LS) is designed to improve the cost/performance of secondary storage by writing batches of pages from main memory to secondary storage when using a conventional block-at-a-time I/O interface.  The advent of programmable SSDs changes the game.  A storage manager no longer has to work within the limitations of the block-at-a-time interface.  In this paper, we re-program an SSD controller’s flash translation layer into one that enables a storage manager to batch pages without itself needing to implement LS.  This removes the CPU computational and I/O load associated with LS recovery and garbage collection.  We compare the Bw-tree key-value store with its LLAMA host-based LS to the same key-value software stack but executing on our batch-interface SSD.  Our experimental results show the benefits of eliminating redundancies, minimizing interactions across storage layers, and avoiding the CPU cost of providing LS.
+Short Bio:
+David Lomet founded the Database Group at Microsoft Research Redmond in 1995 and managed it for 20 years. His research career began at IBM where, while on a 1975-76 sabbatical at the University of Newcastle-on-Tyne, he invented atomic actions (a form of transactions).  He later worked at Wang Institute as a faculty member, and at Digital Equipment Corporation as a software architect and research staff member. He received a Ph.D. in computer science from the University of Pennsylvania.
+Lomet’s primary focus has been the engineering of database systems, with a focus on database system kernels.  His work on concurrency control and recovery contributed to making DEC’s Rdb and Microsoft’s SQL Server database management systems leaders in cost/performance. His Deuteronomy research project’s latch-free Bw-tree index and log structure store are key elements in Microsoft’s Hekaton main memory database and Azure Cosmos DB cloud data service.  Deuteronomy won the Microsoft Research Redmond “2017 Best Research Project” Award.  Lomet is an author of over 120 papers and over 60 patents.
+Lomet has won IEEE awards as well as the ACM SIGMOD Contributions Award and the Computer Society TCDE Service Award  for his 25 year tenure as EIC of the IEEE Data Engineering Bulletin.  HE has also served as editor of ACM TODS, VLDB Journal and others, and has been a member of the VLDB Board.  He has been a PC co-chair for ICDE and VLDB.  He is a member of the IEEE Computer Society Board of Governors and society Secretary, and has been First Vice President and Treasurer.  He is a fellow of IEEE, ACM, and AAAS, and a member of the National Academy of Engineering.
+ 
+Lunch provided.
+ 
+
++ Google Calendar+ iCal Export
+
+
+
+ Details 
+
+ Date: 
+
+ April 17, 2020 
+
+ Time: 
+
+
+					12:30 pm - 2:00 pm				
+
+
+
+
+ Venue 
+
+ DBH 3011 
+
+
+
+
+ 
+
+
+
+
+
+« Babak Salimi: Causal Inference for Responsible Data Science
+Redesigning Storage Systems for Future Workloads, Hardware, and Performance Requirements (CS Faculty Candidate Seminar) »
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+Search for :
+
+
+Latest News 
+
+
+
+Upcoming Talk: How to build your own Business
+
+											July 25, 2022																																
+
+
+Upcoming Talk: Couchbase and Distributed Computing Backends for big data processing
+
+											May 31, 2022																																
+
+
+Upcoming Talk: Shedding Light on Opaque Database Queries
+
+											May 31, 2022																																
+
+
+ISG researchers won the  Mark Weiser Best Paper Award at IEEE PERCOM 2022
+
+											March 24, 2022																																
+
+
+
+
+Upcoming Events
+
+
+
+
+Qiushi Bai: QueryBooster-Improving SQL Performance Using Middleware Services for Human-Centered Query Rewriting + Demo
+
+
+
+October 14 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Xiaozhen Liu: Demonstration of Collaborative and Interactive Workflow-based Data Analytics in Texera
+
+
+
+October 21 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Abhishek Singh: WedgeBlock – An Off-Chain Secure Logging Platform for Blockchain Applications
+
+
+
+October 28 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Juncheng Fang: PeloPartition- Improving Blockchain Resilience to Partitioning by Sharding
+
+
+
+November 4 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Peeyush Gupta: A Demonstration of TippersDB
+
+
+
+November 18 @ 12:30 pm - 2:00 pm 
+
+
+
+View All Events
+
+Please follow & like us :) 
+
+Follow  
+
+ 
+
+
+
+
+
+
+
+			Copyright 2018 | ISG-UCI		
+
+
+
+
+
+
+cross
+
+
+
+
+
+
+
+
+
+
+Hit ENTER to search or ESC to close
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

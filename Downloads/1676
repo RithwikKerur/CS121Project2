@@ -1,0 +1,253 @@
+http://www.ics.uci.edu/~lab/students/unixfiles.php
+
+
+
+
+uc irvine::bren school::lab - student
+
+
+
+
+
+
+
+
+
+
+Skip over navigation
+
+This site will look much better in a browser that supports web standards, but it is accessible to any browser or Internet device.
+
+
+
+
+
+
+
+
+
+
+
+ABOUT
+
+About the School
+Dean's Welcome
+Facts and Figures
+Donald Bren Hall
+Visit the Bren School
+Equity & Diversity
+Contact Us
+
+
+
+ DEPARTMENTS 
+
+Computer Science
+Informatics
+Statistics
+
+
+
+ RESEARCH 
+
+Research Areas
+Research Centers
+Research Highlights
+
+
+
+ STUDENTS 
+
+Graduate ▸ 
+
+Prospective Students
+How to Apply
+Programs of Study
+Academic Year Plan
+Forms
+Policies
+Funding & Housing
+Computing Support
+Campus Resources
+Visit the Bren School
+Graduate Student Handbook
+Contact
+
+
+Undergraduate ▸ 
+
+Contact
+Academic Advising
+Course Updates
+Academic Year Plan
+Petitions
+ICS Majors
+ICS Minors
+Policies: Academic Integrity
+Policies: Academic Standing
+Policies: Add, drop, & change options
+Policies: Coursework outside UCI
+Policies: Grade policy
+Policies: Laptop & computer use
+Policies: Withdrawal/Readmission
+Policies: CS 199 / IN4MATX 199 Courses
+Graduation
+ICS Student Life
+Upcoming Events
+Computing Support
+
+
+Scholarships & Fellowships
+Student Jobs & Internships
+
+
+
+PEOPLE
+
+Faculty
+Staff
+Graduate Students
+
+
+
+NEWS & EVENTS
+
+Newsroom
+Events
+Press Releases
+Annual Reports
+Student Blogs
+
+
+
+GET INVOLVED
+
+Make a Gift
+Alumni
+Leadership Council
+Corporate Partners
+Sponsor Projects
+Product Development Competition
+
+
+
+
+
+
+
+Bren school home / labs home / student information
+
+
+
+Replacing Unix .(dot) Files »
+
+
+
+If you are unable to use the module command or if your prompt looks
+          unual, then you're probably missing "." files. Every account
+          start off with basic statup files. These files may have been removed
+          mistakenly if the user was not careful. 
+
+          The following files MUST be in your home directory (H-drive):
+
+ .login
+ .logout
+ Depending on which shell you're using, you will also have
+on of the following file:
+
+.cshrc (If you've never changed your shell, this is the default one setup for all users.)
+.bashrc
+.tcshrc
+.zshrc
+
+
+
+If one or all of the above files is missing, you will have problems
+          logging onto the ICS hosts.
+You can add them by following these steps:
+
+ SSH to openlab.ics.uci.edu from a Windows machine
+
+If you can NOT SSH to openlab, have the lab assistant reset your
+            password and try again.
+If it still does not work, please ask the lab assistant to file
+                an online report form.
+
+
+
+Type in the following command at the prompt:
+
+%cd /opt/local/etc/skel/
+
+
+
+Copy all missing files ending with "@" to /home/"login_name"/."filename"
+            Remember to put the dot before the destination file.
+
+For example, if you are missing the .cshrc file you would type the
+            following at the prompt:
+
+%cp cshrc /home/"login_name"/.cshrc
+
+You may also want to look at the other example.* files as some have more options than other that you may like to use.
+
+
+
+After copying all the files you are missing, return to your home
+            directory by typing the following command at the prompt:
+
+%cd
+
+
+
+Finally, you need to chmod
+            all the files you copied. This basically means changing the permission
+            on the file so that it is only changeable by you. Type the following
+            command for each of the files you copied:
+            
+%chmod 744 ."filename"
+For example, for the cshrc file, it would be:
+%chmod 744 .cshrc
+
+
+
+
+You're DONE! 
+
+If you have any questions regarding the above procedure, please
+          contact the Lab Assistant. 
+
+
+
+
+
+
+
+More labs»
+
+Hours
+Hardware/Software
+Students
+Faculty
+Policies
+Lab Assistants
+Project ICS
+Computing Support
+
+
+
+Copyright Inquiries |
+UCI Directory |
+Intranet |
+   
+   
+icswebmaster |
+
+Updated: 
+May 09 2012
+
+
+
+
+
+

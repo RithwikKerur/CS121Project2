@@ -1,0 +1,187 @@
+https://ngs.ics.uci.edu/cav-indexing-towards-contenxt
+
+
+
+
+
+
+
+
+CAV Indexing: Towards Contenxt – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				CAV Indexing: Towards Contenxt    			
+
+
+Multimedia indexing has been receiving significant attention both in academia, as evidenced by increasing number of conference coverage of this from different disciplinary perspective in computer and information sciences, and from industry as is clear from all the search engines.  There are two distinct approaches being pursued: Content based (popular among academia) and text based (popular in industry).  Content-based approaches have been specific to a particular media such as images, video, or audio.  These approaches utilize some media related features and try to judge similarity using these features.  Text based approaches effectively try to infer the context using name of the file, text on the same page where the media appears, and similar indirect approaches.  Recently â€˜tagsâ€™ have become popular for indexing and searching media.  Despite their initial success, it is well known that tags tell more about the person tagging than they do about the data.  
+Most modern media capture devices, such as a consumer digital camera,  have built in sensors and record many parameters related to the data captured.  These sensors essentially try to capture some aspect of the context in which the data is acquired.  For example, for a digital photo in addition to intensity values, each picture file contains camera model, time, optical parameters, and (soon) location.  This data, commonly called as meta data,  is commonly called EXIF in case of digital cameras.  There are fields reserved to store number of faces and similar other things.  This context information is very useful in interpretation of photographs [Sin08].  If a MP is used as a photo, video, or audio acquisition device then in addition to the context like that in EXIF, one also has significant information about the user.  There may be calendar, addressbook, and history of calls made, photos taken and similar things that may be available.  All this could help in starting to interpret a sequence of data collected by the user in a specific context. [Gong08]
+The problem of automatic interpretation of audio-visual information is known to be a hard problem based only on audio or visual data.  Search techniques based only on text based context (as in commercial search engines) and based on tags had limited success.  Our research has demonstrated that by combining content and context, it is possible to organize, manage, and search photos more efficiently and more effectively than using either content or context.  In fact, it appears that appropriate weighting of content and context may be a key to solving the problem in organizing and utilizing multimedia information.
+
+
+
+By Ramesh |
+    				March 13, 2008 |
+    				             		Experiential Computing |
+             	 
+    				             		2 Comments |
+             	 		          				
+    			
+
+
+← East and West
+Basic Research in Singapore →
+
+
+
+			2 thoughts on “CAV Indexing: Towards Contenxt”		
+
+
+Pingback: CAV Indexing: Towards Contenxt 
+
+
+
+
+Joann April 2, 2008 at 11:42 pm 
+
+The European Commission has cleared Franceâ€™s $151.8 million state aid for Quaero, a Euro-centric multimedia search index being built by a consortium of electronics and 22 other companies.
+
+
+
+
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

@@ -1,0 +1,334 @@
+https://cml.ics.uci.edu/aiml/page/27
+
+
+
+
+
+AI/ML Seminar Series | Center for Machine Learning and Intelligent Systems | Page 27
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+University of California, Irvine
+
+
+Menu
+Skip to content
+Home
+About CML
+
+About us
+News
+Contact Us
+
+
+People
+
+Faculty
+Alumni
+
+
+Events & Seminars
+
+AI/ML Seminar Series
+AI/ML Seminar Live Stream
+CML Distinguished Speakers
+ML Reading Group
+
+
+Education & Resources
+
+Courses
+Books
+
+
+UCI Machine Learning Archive
+Sponsors & Funding
+Subscribe to CML List
+ 
+
+
+
+
+
+
+AI/ML Seminar Series Standard 
+
+Weekly Seminar in AI & Machine LearningSponsored by Cylance
+
+
+
+
+
+
+
+Navigation
+
+‹Earlier
+Spring 2013 Later ›
+
+
+
+
+
+
+
+  
+
+
+March 11Bren Hall 40111 pm
+
+
+Furong HuangGraduate StudentDepartment of Electrical Engineering and Computer ScienceUniversity of California, Irvine
+
+Learning Mixtures of Tree Graphical ModelsWe consider unsupervised estimation of mixtures of discrete graphical models, where the class variable is hidden and each mixture component can have a potentially different Markov graph structure and parameters over the observed variables. We propose a novel method for estimating the mixture components with provable guarantees. Our output is a tree-mixture model which serves as a good approximation to the underlying graphical model mixture. The sample and computational requirements for our method scale as $\poly(p, r)$, for an $r$-component mixture of $p$-variate graphical models, for a wide class of models which includes tree mixtures and mixtures over bounded degree graphs.
+
+
+  
+
+
+March 18Bren Hall 40111 pm
+
+
+John TurnerAssistant ProfessorOperations and Decision Technologies, The Paul Merage School of BusinessUniversity of California, Irvine
+
+Planning and Scheduling of Guaranteed Delivery AdvertisingOver the past decade, improvements in information technology have led to the development of new media and new forms of advertising. One example is dynamic in-game advertising, in which ads served over the Internet are seamlessly integrated into the 3D environments of video games played on consoles like the XBox 360. We begin by introducing a plan-track-revise approach for an in-game ad scheduling problem posed by Massive Inc., a pioneer in dynamic in-game advertising that is now part of Microsoft. Using 26 weeks of historical data from Massive, we compare our algorithm’s ad slotting performance with Massive’s legacy algorithm over a rolling horizon, and find that we reduce make-good costs by 80-87%, reserve more premium ad slots for future sales, increase the number of unique individuals that see each ad campaign, and deliver ads in a smoother, more consistent fashion over time. Next, we build on our real-world experience and formulate a single-period ad planning problem which emphasizes the core structure of how ads should be planned in a broad class of new media. We develop two efficient algorithms which intelligently aggregate the high-dimensional audience space that results when ad campaigns target very specific cross-sections of the overall population, and use duality theory to show that when the audience space is aggregated using our procedure, near-optimal schedules can be produced despite significant aggregation. Optimality in this case is with respect to a quadratic objective chosen for tractability, however, by explicitly modeling the stochastic nature of viewers seeing ads and the low-level ad slotting heuristic of the ad server, we derive sufficient conditions that tell us when our solution is also optimal with respect to two important practical objectives: minimizing the variance of the number of impressions served, and maximizing the number of unique individuals that are shown each ad campaign.
+
+
+  
+
+
+April 1Bren Hall 40111 pm
+
+
+Bart KnijnenburgGraduate StudentDepartment of InformaticsUniversity of California, Irvine
+
+ML Opportunities in Privacy ResearchAbstract:
+Personalized systems often require a relevant amount of personal information to properly learn the preferences of the user. However, privacy surveys demonstrate that Internet users want to limit the collection and dissemination of their personal data. In response, systems may give users additional control over their information disclosure. But privacy-decisions are inherently difficult: they have delayed and uncertain repercussions that are difficult to trade-off with the possible immediate gratification of disclosure.
+Can we help users to balance the benefits and risks of information disclosure in a user-friendly manner, so that they can make good privacy decisions?
+My idea is to develop a Privacy Adaptation Procedure that offers tailored privacy decision support. This procedure gives users personalized “nudges” and personalized “justifications” based on a context-aware prediction of their privacy preferences. In this talk I will present two pieces of research that each take a step towards this Privacy Adaptation Procedure. I then hope to start a discussion with the audience on how to proceed with this endeavor.
+Bio:
+Bart Knijnenburg is a Ph.D candidate in Informatics at the University of California, Irvine. His work focuses on privacy decision-making and recommender systems. He received his B.S. degree in Innovation Sciences and his M.S. degree in Human-Technology Interaction from Eindhoven University of Technology, The Netherlands, and his M.A. degree in Human- Computer Interaction from Carnegie Mellon University. Bart is a leading advocate of user-experience research in recommender systems, and studies the (ir)regularities of privacy decision making. His academic work lives at http://www.usabart.nl.
+
+
+  
+
+
+April 8Bren Hall 40111 pm
+
+
+Qiang LiuGraduate StudentDepartment of Computer ScienceUniversity of California, Irvine
+
+Belief Propagation for CrowdsourcingCrowdsourcing on platforms like Amazon’s Mechanical Turk have become a popular paradigm for labeling large datasets. However, it has given rise to the computational task of properly aggregating the crowdsourced labels provided by a collection of unreliable and diverse annotators. On the other side, graphical models are powerful tools for reasoning on systems with complicated dependency structures. In this talk, we approach thecrowdsourcing problem by transforming it into a standard inference problem in graphical models, and apply powerful inference algorithms such as belief propagation (BP). We show both the naive majority voting and a recent algorithm by Karger, Oh, and Shah are special cases of our BP algorithm under particular modeling choices. With more careful choices, we show that our simple BP performs surprisingly well on both simulated and real-world datasets, competitive with state-of-the-art algorithms based on more complicated modeling assumptions. Our work sheds light on the important tradeoff between better modeling choices and better inference algorithms.
+
+
+  
+
+
+April 15Bren Hall 60111 pm
+
+
+William NobleProfessorDepartment of Genome Sciences/Department of Computer Science and EngineeringUniversity of Washington
+
+The one-dimensional and three-dimensional structure of the genomeAbstract:
+A variety of molecular biology technologies have recently made it clear that the function of the genome in vivo is determined both by the linear sequences of nucleotides along the chromosome and the three-dimensional conformation of chromosomes within the nucleus. In this talk, I will describe computational and statistical methods that we have developed and applied to a variety of genomes, with the goal of characterizing genome architecture and function. In particular, we have used unsupervised and semisupervised machine learning methods to infer the linear state structure of the genome, as defined by a large panel of epigenetic data sets generated by the NIH ENCODE Consortium, and we have developed methods to assign statistical confidence and infer the 3D structure of genomes from Hi-C data.
+About the Speaker:
+Dr. William Stafford Noble is Professor in the Department of Genome Sciences in the School of Medicine at the University of Washington where he has a joint appointment in the Department of Computer Science and Engineering in the College of Engineering. Previously he was a Sloan/DOE Postdoctoral Fellow with David Haussler at the University of California, Santa Cruz before he became an Assistant Professor in the Department of Computer Science at Columbia University. He graduated from Stanford University in 1991 with a degree in Symbolic Systems before receiving a Ph.D in computer science and cognitive science from UC San Diego in 1998. His research group develops and applies statistical and machine learning techniques for modeling and understanding biological processes at the molecular level. Noble is the recipient of an NSF CAREER award and is a Sloan Research Fellow.
+
+
+  
+
+
+April 22Bren Hall 40111 pm
+
+
+Pierre BaldiChancellor’s ProfessorDepartment of Computer ScienceUniversity of California, Irvine
+
+The Dropout Learning AlgorithmDropout is a new learning algorithm recently introduced by Hinton and his group. As stated in their abstract: “When a large feedforward neural network is trained on a small training set, it typically performs poorly on held-out test data. This overfitting is greatly reduced by randomly omitting half of the feature detectors on each training case. This prevents complex co-adaptations in which a feature detector is only helpful in the context of several other specific feature detectors. Instead, each neuron learns to detect a feature that is generally helpful for producing the correct answer given the combinatorially large variety of internal contexts in which it must operate. Random gdropouth gives big improvements on many benchmark tasks and sets new records for speech and object recognition.” This seminar will present a mathematical analysis of the dropout algorithm and its intriguing properties.
+
+
+  
+
+
+April 29Bren Hall 40111 pm
+
+
+Shimon WhitesonAssistant ProfessorInformatics InstituteUniversity of Amsterdam
+
+Multi-Objective Decision Making in Collaborative Multi-Agent SystemsIn collaborative multi-agent systems, teams of agents must coordinate their behavior in order to maximize their common utility.  Such systems are useful, not only for addressing tasks that are inherently distributed, but also for decomposing tasks that would otherwise be too complex to solve. Unfortunately, computing coordinated behavior is computationally expensive because the number of possible joint actions grows exponentially in the number of agents. Consequently, exploiting loose couplings between agents, as expressed in graphical models, is key to rendering such decision making efficient. However, existing methods for solving such models assume there is only a single objective. In contrast, many real-world problems are characterized by the presence of multiple objectives to which the solution is not a single action but the set of actions optimal for all trade-offs between the objectives. In this talk, I will propose a new method for multi-objective multi-agent graphical games that prunes away dominated solutions.  I will also discuss the theoretical support for this method and present an empirical study that shows that it can tackle multi-objective problems much faster than alternatives that do not exploit loose couplings.
+
+
+  
+
+
+May 6Bren Hall 40111 pm
+
+
+Anoop KorattikaraGraduate StudentDepartment of Computer ScienceUniversity of California, Irvine
+
+Markov Chain Monte Carlo and the Bias-Variance TradeoffBayesian posterior sampling can be painfully slow on very large datasets, since traditional MCMC methods such as Hybrid Monte Carlo are designed to be asymptotically unbiased and require processing the entire dataset to generate each sample. Thus, given a small amount of sampling time, the variance of estimates computed using such methods could be prohibitive. We argue that lower risk estimates can often be obtained using gapproximateh MCMC methods that mix very fast (and thus lower the variance quickly) at the expense of a small bias in the stationary distribution. I will first talk about two such biased algorithms: Stochastic Gradient Langevin Dynamics and its successor Stochastic Gradient Fisher Scoring, both of which use stochastic gradients estimated from mini-batches of data, allowing them to mix very fast. Then I will present our current work on a new (biased) MCMC algorithm that uses a sequential hypothesis test to approximate the Metropolis-Hastings test, allowing us to accept/reject samples with high confidence using only a fraction of the data required for the exact test.
+
+
+  
+
+
+May 13Bren Hall 40111 pm
+
+
+Katerina FragkiadakiGraduate StudentDepartment of Computer ScienceUniversity of Pennsylvania
+
+Multi-Granularity Steering for Human Actions: Motion, Pose and IntentionTracking people and their body pose in videos is a central problem in computer vision. Standard tracking representations typically reason about temporal coherence of detected bodies and parts. They have difficulty tracking people under partial occlusions or wild body deformations, where people and body pose detectors are often inaccurate, due to the small number of training examples in comparison to the exponential variability of such configurations.
+In this talk, I will present novel tracking representations that allow to track people and their body pose by exploiting information at multiple granularities when available, whole body, parts or pixel-wise motion correspondences and their segmentations. A key challenge is resolving contradictions among different information granularities, such as detections and motion estimates in the case of false alarm detections or leaking motion affinities. I will introduce graph steering, a framework that specifically targets inference under potentially sparse unary detection potentials and dense pairwise motion affinities – a particular characteristic of the video signal – in contrast to standard MRFs.
+We will present three instances of steering. First, we study people detection and tracking under persistent occlusions. I will demonstrate how to steer dense optical flow trajectory affinities with repulsions from sparse confident detections to reach a global consensus of detection and tracking in crowded scenes. Second, we study human motion and pose estimation. We segment hard to detect, fast moving body limbs from their surrounding clutter and match them against pose exemplars to detect body pose and improve body part motion estimates with kinematic constraints. Finally, I will show how we can learn certainty of detections under various pose and motion specific contexts, and use such certainty during steering for jointly inferring multi-frame body pose and video segmentation.
+We show empirically that such multi-granularity tracking representation is worthwhile, obtaining significantly more accurate body and pose tracking in popular datasets.
+Bio:
+Katerina Fragkiadaki is a Ph.D. student in Computer and Information Science in the University of Pennsylvania. She received her diplomat in Computer Engineering from the National Technical University of Athens. She works on tracking, segmentation and pose estimation of people under close interactions, for understanding their actions and intentions. She also works on segmenting and tracking cell populations for understanding and modeling cell behavior.
+
+
+  
+
+
+May 20Bren Hall 40111 pm
+
+
+Dennis ParkGraduate StudentDepartment of Computer ScienceUniversity of California, Irvine
+
+Multiple Solutions via M-Best MAPThis talk will serve two purposes. In the first part, I will provide a tutorial motivating and introducing M-best algorithms particularly for those who are new to these approaches. As other intelligent systems, applications in computer vision heavily rely on MAP hypotheses of probabilistic models. However, predicting a single (most probable) hypothesis is often suboptimal when training data is noisy or underlying model is complex. As an alternative, various M-best algorithms have been introduced mainly in speech recognition community.  By walking through a simple example using two M-best algorithms, Nilsson’98 and Yanover & Weiss’03, the audience will gain insights into the algorithms and their application to various graphical models.
+In the second part, I will talk about a more recent work on applications of M-best algorithm to computer vision problems. The main hurdle for a direct application of traditional M-best algorithms to computer vision applications is a lack of diversity : the second best hypothesis is only one-pixel off from the best one. To overcome this limitation, we developed a novel M-best algorithm which incorporates non-maximal suppression into Yanover & Weiss’s algorithm. When applied to a model for pose estimation of human body, the algorithm produces diverse and high-scoring poses which are re-evaluated using tracking models for videos, achieving more accurate tracks of human poses.
+
+
+  
+
+
+May 27 (no seminar)
+
+
+Memorial Day
+
+
+
+  
+
+
+June 3Bren Hall 40111 pm
+
+
+Kamalika ChaudhuriAssistant ProfessorDepartment of Computer Science and EngineeringUniversity of California, San Diego
+
+Challenges in Differentially-Private Data AnalysisMachine learning algorithms increasingly work with sensitive information on individuals, and hence the problem of privacy-preserving data analysis — how to design data analysis algorithms that operate on the sensitive data of individuals while still guaranteeing the privacy of individuals in the data– has achieved great practical importance. In this talk, we address two problems in differentially private data analysis.
+First, we address the problem of privacy-preserving classification, and present an efficient classifier which is private in the differential privacy model of Dwork et al. Our classifier works in the ERM (empirical loss minimization) framework, and includes privacy preserving logistic regression and privacy preserving support vector machines. We show that our classifier is private, provide analytical bounds on the sample requirement of our classifier, and evaluate it on real data. We next address the question of differentially private statistical estimation. We draw a concrete connection between differential privacy, and gross error sensitivity, a measure of robustness of a statistical estimator, and show how these two notions are quantitatively related.
+Based on joint work with Claire Monteleoni (George Washington University), Anand Sarwate (TTI Chicago), and Daniel Hsu (Microsoft Research).
+Bio:
+Kamalika Chaudhuri received a Bachelor of Technology degree in Computer Science and Engineering in 2002 from the Indian Institute of Technology, Kanpur, and a PhD in Computer Science from UC Berkeley in 2007. After a stint as a postdoctoral researcher at the Information Theory and Applications Center at UC San Diego, she joined the CSE department at UCSD as an assistant professor in 2010. Kamalika’s research is on the design and analysis of machine-learning algorithms and their applications. In particular, her interests lie in clustering, online learning, and privacy-preserving machine-learning, and applications of machine-learning and algorithms to practical problems in other areas.
+
+
+  
+
+
+June 7Bren Hall 301111 am
+
+
+Maja MatarićProfessor and Chan Soon-Shiong ChairDepartment of Computer Science/Neuroscience/PediatricsUniversity of Southern California
+
+Human-Machine Interaction Methods for Socially Assistive RoboticsSocially assistive robotics (SAR) is a new field of intelligent robotics that focuses on developing machines capable of assisting users through social rather than physical interaction. The robot’s physical embodiment is at the heart of SAR’s effectiveness, as it leverages the inherently human tendency to engage with lifelike (but not necessarily human-like or otherwise biomimetic) social behavior. People readily ascribe intention, personality, and emotion to robots; SAR leverages this engagement stemming from non-contact social interaction involving speech, gesture, movement demonstration and imitation, and encouragement, to develop robots capable of monitoring, motivating, and sustaining user activities and improving human learning, training, performance and health outcomes. Human-robot interaction (HRI) for SAR is a growing multifaceted research area at the intersection of engineering, health sciences, neuroscience, social, and cognitive sciences. This talk will describe our research into embodiment, modeling and steering social dynamics, and long-term user adaptation for SAR. The research will be grounded in projects involving analysis of multi-modal activity data, modeling personality and engagement, formalizing social use of space and non-verbal communication, and personalizing the interaction with the user over a period of months, among others. The presented methods and algorithms will be validated on implemented SAR systems evaluated byhuman subject cohorts from a variety of user populations, including stroke patients, children with autism spectrum disorder, and elderly with Alzheimers and other forms of dementia.
+Bio:
+ Maja Mataric is professor and Chan Soon-Shiong chair in Computer Science, Neuroscience, and Pediatrics at the University of Southern California, founding director of the USC Center for Robotics and Embedded Systems (cres.usc.edu), co-director of the USC Robotics Research Lab (robotics.usc.edu) and Vice Dean for Research in the USC Viterbi School of Engineering. She received her PhD in Computer Science and Artificial Intelligence from MIT in 1994, MS in Computer Science from MIT in 1990, and BS in Computer Science from the University of Kansas in 1987. She is a Fellow of the American Association for the Advancement of Science (AAAS), Fellow of the IEEE, and recipient of the Presidential Awards for Excellence in Science, Mathematics & Engineering Mentoring (PAESMEM), the Anita Borg Institute Women of Vision Award for Innovation, Okawa Foundation Award, NSF Career Award, the MIT TR100 Innovation Award, and the IEEE Robotics and Automation Society Early Career Award. She served as the elected president of the USC faculty and the Academic Senate. At USC she has been awarded the Viterbi School of Engineering Service Award and Junior Research Award, the Provost’s Center for Interdisciplinary Research Fellowship, the Mellon Mentoring Award, the Academic Senate Distinguished Faculty Service Award, and a Remarkable Woman Award. Her research is currently developing robot-assisted therapies for children with autism spectrum disorders, stroke and traumatic brain injury survivors, and individuals with Alzheimer’s Disease and other forms of dementia. Details about her research are found at http://robotics.usc.edu/interaction/.
+
+
+  
+
+
+June 10Bren Hall 40111 pm
+
+
+Mark StalzerExecutive DirectorCenter for Advanced Computing ResearchCalifornia Institute of Technology
+
+Trends in Scientific Discovery Engines and ApplicationsThis talk is about trends in computing technology that are leading to exascale-class systems for both scientific simulations and data reduction. The underlying themes are power consumption, the massive increase in concurrency, and architectural balance for “Big Data” systems. Applications that require balance are presented in astronomy, high-energy physics, and engineering. Optimal uncertainty quantification is shown as a way to rigorously connect simulations with Big Data.
+
+
+  
+
+
+June 14Bren Hall 40112 pm
+
+
+Nima DokoohakiPostdoctoral Research AssistantDepartment of Software and Computer SystemsRoyal Institute of Technology (KTH)
+
+Trust-Aware User Profile Mining, Recommendation and RetrievalWe have introduced the notion of augmenting user profiling process with trust, as a solution to the problem of uncertainty and unmanageable exposure of personal data during access, mining and retrieval by web applications. Our solution suggests explicit modeling of trust and embedding trust metrics and mechanisms within very fabric of user profiles. This has in turn allowed information systems to consume and understand this extra knowledge in order to improve interaction and collaboration among individuals and system. When formalizing such profiles, another challenge is to realize increasingly important notion of privacy preferences of users. The profiles are designed in a way to incorporate preferences of users allowing target systems to understand privacy concerns of users during their interaction. Highlighted results start from modeling of adaptive user profiles incorporating users taste, trust and privacy preferences. This in turn led to proposal of several ontologies for user and content characteristics modeling for improving indexing and retrieval of user content and profiles across the platform. Sparsity and uncertainty of profiles were studied through frameworks of data mining and machine learning of profile data taken from on-line social networks. Results of mining and population of data from social networks along with profile data increased the accuracy of intelligent suggestions made by system to improving navigation of users in on-line and off-line museum interfaces. These results were highlighted mainly under the context of EU FP7 Smartmuseum project.
+We also introduced several trust-based recommendation techniques and frameworks capable of mining implicit and explicit trust across ratings networks taken from social and opinion web. Resulting recommendation algorithms have shown to increase accuracy of profiles, through incorporation of knowledge of items and users and diffusing them along the trust networks. At the same time focusing on automated distributed management of profiles, we showed that coverage of system can be increased effectively, surpassing comparable state of art techniques. We have clearly shown that trust clearly increases accuracy of suggestions predicted by system. To assure overall privacy of such value-laden systems, privacy was given a direct focus when architectures and metrics were proposed and shown that a joint optimal setting for accuracy and perturbation techniques can maintain accurate output. Finally, focusing on hybrid models of web data and recommendations motivated us to study impact of trust in the context of topic-driven recommendation in social and opinion media, which in turn helped us to show that leveraging content-driven and tie-strength networks can improve systems accuracy for several important web computing tasks.
+Speaker Bio:
+Nima Dokoohaki holds a MSc (2007) in software engineering of distributed systems, and a PhD (2013) in information and communication technologies from KTH-Royal Institute of Technology, Sweden. He is currently a postdoctoral research assistant at software and computer systems (SCS) lab at KTH, where he focuses on big data and social informatics, particularly his research interests include trust, social network mining and analysis and recommender systems.
+
+
+
+
+
+March 1, 2013
+AIML
+
+
+
+Posts navigation
+
+‹Older posts
+Newer posts ›
+
+
+
+
+
+ 
+Search
+
+
+
+ 
+
+
+(c) 2015 Center for Machine Learning and Intelligent Systems
+
+WordPress/BonPress
+
+
+
+
+
+

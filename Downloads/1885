@@ -1,0 +1,289 @@
+https://sli.ics.uci.edu/PmWiki/Images
+
+
+
+SLI | PmWiki / Images 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+Images
+
+
+
+
+
+< Links | Documentation Index | Text formatting rules >
+
+
+
+To place an image into a page, enter the address (url) of the image into the markup text.  
+Any alternate text (used for tooltips and for browsers that do not display images) is placed in double quotes immediately following the image url.
+A caption can follow separated by a vertical bar (|), and may include simple formatting
+
+http://pmichaud.com/img/misc/pc.jpg"Paper clips" | [- %newwin% [[ Wikipedia:Paper_clips | Paper clips ]] are ''fun'' to work with. -]
+ Paper clips are fun to work with. 
+
+Images can also be specified as uploaded files (i.e., Attach:image.jpeg) and using InterMap links.  
+By default PmWiki supports the following image types for embedding into the page:
+  gif, jpg, jpeg, png, svg, svgz
+ (See also Uploads and Notes below for image files that lack extensions.)
+
+To create a link to an image (like http://pmichaud.com/img/misc/pc.jpg as opposed to displaying the image itself), use double brackets to mark the link, as in [[http://pmichaud.com/img/misc/pc.jpg]] or [[Attach:image.jpeg]].
+
+To have an image link to another location, use the image as the link text as in 
+
+[[http://pmwiki.org/ | http://pmichaud.com/img/misc/pc.jpg"PmWiki"]]
+
+
+or [[http://example.com|Attach:Groupname./image.jpeg]].
+
+
+Tool tips or alternate text
+A tool tip, or alternate text, can be displayed when the cursor hovers over the image by placing the description in double quotes directly following the image's URL.
+The description cannot contain any formatting.
+
+http://pmichaud.com/img/misc/pc.jpg"Coloured paper clips"
+
+
+
+Captions
+A caption can be added to an image using a vertical bar and the caption text.
+
+http://pmichaud.com/img/misc/pc.jpg | '''Figure 1'''
+Figure 1
+
+
+Image alignment
+Normally, images are displayed "in line" with the surrounding text.
+
+Use %center% to center an image on its own paragraph, %right% to align it to the right. 
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+%center%http://pmichaud.com/img/misc/pc.jpg"Paper clips"%%
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+
+
+
+Floating images
+To left or right-align an image with text wrapping around it, use the %lfloat% or %rfloat% wiki styles. 
+
+%lfloat text-align=center margin-top=5px margin-right=25px margin-bottom=5px margin-left=25px% http://pmichaud.com/img/misc/gem.jpg | '''Rock on!'''
+'''The image is left-aligned, with margins set; the caption is centered; the text wraps on the right side of the image.'''
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+ Rock on!
+The image is left-aligned, with margins set; the caption is centered; the text wraps on the right side of the image.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+
+The [[<<]] markup breaks floating text, and the text continues at the bottom of the image.
+
+
+%lfloat% http://pmichaud.com/img/misc/gem.jpg
+'''The image is left-aligned, and the text wraps on the right side of the image. The text after the ''[@[[<<]]@]'' markup continues below the image.'''
+[[<<]]
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+ 
+The image is left-aligned, and the text wraps on the right side of the image. The text after the [[<<]] markup continues below the image.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
+
+Use the %lframe% or %rframe% styles to float an image and place a frame around the image and its caption.  The frame can be formatted via wikistyles:
+
+
+%rframe% http://pmichaud.com/img/misc/gem.jpg | '''Rock on!'''
+'''The image is right-aligned, and the text wraps on the left side of the image.'''
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+ Rock on!
+The image is right-aligned, and the text wraps on the left side of the image.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+
+
+%cframe width=100px bgcolor=lightblue border='3px solid red' padding=20px% http://pmichaud.com/img/misc/gem.jpg
+ 
+
+Example to show failure to fully apply width setting:-
+
+%cframe width=50px bgcolor=lightblue border='3px solid red' padding=20px% http://pmichaud.com/img/misc/gem.jpg
+ 
+
+Use %block rframe% to set off multiple images and caption text to be stacked vertically in a right-floating frame.
+
+
+%block rframe width=300px%http://pmichaud.com/img/misc/gem.jpg\\
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\\\
+http://pmichaud.com/img/misc/bubble.jpg\\
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.%%
+
+Text subsequent to the defined block wraps to the left of the frame. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Text subsequent to the defined block wraps to the left of the frame. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+
+Resizing images 
+To resize an image via wikistyles, use %width=50px% or %height=50px% in front of an image.    The %thumb% wikistyle is a helpful shortcut for %width=100px%.
+
+
+%width=50px% http://pmichaud.com/img/misc/bubble.jpg \
+%height=50px% http://pmichaud.com/img/misc/bubble.jpg \
+%thumb% http://pmichaud.com/img/misc/bubble.jpg
+   
+
+Note: Resizing an image via wikistyles only affects how it is displayed in a browser; it does not reduce the transfer size of the image itself - hence resizing via wikistyles is not an acceptable method of generating a page-full of images, or 'gallery'.
+
+If you want a resized image within a link, you have to specify the size before the link as well as close it off with  a %%.
+
+
+%width=60%[[http://pmwiki.org/ | http://pmichaud.com/img/misc/pc.jpg"PmWiki"]]%% \
+%height=60%[[http://pmwiki.org/ | http://pmichaud.com/img/misc/pc.jpg"PmWiki"]]%% \
+  
+
+To open the link in new window, you place %newwin% before the size specification.
+
+
+%newwin%[[http://pmwiki.org/ | http://pmichaud.com/img/misc/pc.jpg"PmWiki"]]%%
+
+
+Resized images using %thumb% can also be floated with frames, as well as made into links.
+
+
+%lframe thumb% [[http://pmichaud.com/img/misc/bubble.jpg | http://pmichaud.com/img/misc/bubble.jpg"Burst the bubble"]] | [-Bubble-]
+%lframe thumb% http://pmichaud.com/img/misc/pc.jpg"Clip the ticket" | [-Paper Clips-]
+%lframe thumb% [[DocumentationIndex | http://pmichaud.com/img/misc/gem.jpg"Visit the Documentation Index"]] | [[DocumentationIndex | [-Rock On-]]]
+ Bubble
+ Paper Clips
+ Rock On
+
+
+Images as links
+To use an image as a link specify an image instead of text in the link markup.
+
+[[PmWiki/Links | http://pmichaud.com/img/2003/atc-1.gif"Information about wiki links"]]
+
+
+
+Notes
+An image file that lacks a correct extension can be displayed by addition of a "false" extension to the URL. For example, if the url is http://example.com/script/tux, add a fake query string on the end with the desired extension (e.g., http://example.com/script/tux?format=.png). If query strings are unsuitable, a fragment identifier should work, e.g. http://example.com/script/tux#file.png.
+Relative width is possible by using percentages.
+
+%width=10pct% http://pmichaud.com/img/misc/bubble.jpg \
+%height=30pct% http://pmichaud.com/img/misc/bubble.jpg 
+   
+
+Flowing text is possible, like captions, within a frame
+
+>>lframe width=130px<<
+%thumb width=130% [[http://pmichaud.com/img/misc/bubble.jpg | http://pmichaud.com/img/misc/bubble.jpg"Burst the bubble"]] | [--Long caption for an image like [[http://pmichaud.com/img/misc/bubble.jpg | the bubble]]. This is just to show some text flowing within the frame.--]
+>><<
+
+ Long caption for an image like the bubble. This is just to show some text flowing within the frame.
+
+
+See also
+Cookbook:Images - adding image galleries, automatic thumbnails, background images and more. 
+Credits
+The images on this page were obtained from http://flickr.com and are redistributed under a Creative Commons License.
+
+ 
+ Is it possible to link an image on PmWiki without using a fully qualified URL?
+ Yes. For images that are attachments, the general format is Attach:Groupname./image.gif.  To link to an image that is on the same server, use Path:/path/to/image.gif.
+
+ Can I attach a client image file on PmWiki?
+ Yes, see Uploads .
+
+ How can I include a page from another group that contains an attached image?
+ Include the page in the normal way, ie (:include GroupName.Pagename:). In the page to be included (that contains the image) change Attach:filename.ext to Attach:{$Group}./filename.ext. 
+
+ Why, if I put an image with rframe or rfloat and immediatly after that I open a new page section with ! the section title row is below the image instead of on the left side?
+ Because the CSS for headings such as ! contains an element clear:both which forces this behaviour. Redefine the CSS locally if you want to stop this happening, but I think the bottom border (that underlines the heading) would need further re-definition. I just use bolding for the title, and 4 dashes below ---- to separate a new section, and it saves the effort of fiddling with the core definitions.
+
+Unlike the lframe and rframe directives, cframe does not fully honour the width setting. While the frame itself resizes to match the request, the enclosed image does not, and retains its original width. Effect is the same in IE and Fx. I've added an example beneath the standard example above.
+
+ Is it possible to disallow all images?  I already disabled uploads but I also want to disallow external images from being shown on my wiki pages.
+ Yes, add to config.php:
+
+DisableMarkup('img');
+$ImgExtPattern = "$^";
+
+ How can I make it so that when I place an image in a page, the block of text it is in is a <p> (paragraph) rather than a <div> (division)?
+ If you just want it to happen for a single image (instead of all), then
+try putting [==] at the beginning of the line, as in:
+
+[==] http://www.pmwiki.org/pub/pmwiki/pmwiki-32.gif
+Having [==] at the beginning of a line forces whatever follows to
+be part of a paragraph.
+
+ Is there any way to use relative paths for images?
+ See Cookbook:RelativeLinks and $EnableLinkPageRelative.
+
+ Is there a way to attach a BMP and have it display rather than link?
+ Add to config.php the following line: $ImgExtPattern = "\\.(?:gif|jpg|jpeg|png|bmp|GIF|JPG|JPEG|PNG|BMP)";Note that BMP images are uncompressed and quite heavy. You may wish to convert them to PNG (lossless) or JPG (lossy) format, and thus reduce 5-20 times their filesizes.
+
+ Is there a way to have a table to the left or right of an image?
+ Yes, see TableAndImage.
+ 
+
+< Links | Documentation Index | Text formatting rules >
+
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:Images, and  a talk page: PmWiki:Images-Talk.
+
+
+
+
+
+
+ Last modified June 24, 2016, at 08:07 AM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

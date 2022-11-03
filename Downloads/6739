@@ -1,0 +1,170 @@
+https://www.ics.uci.edu/~givargis
+
+Tony Givargis
+
+
+
+
+
+
+
+Tony Givargis
+Professor and Chair
+Department of Computer Science
+University of California, Irvine
+curriculum vitae
+
+
+Books
+
+B4. S. Peter, T. Givargis. Generation and Verification of Timing Attack Resilient Schedules During the High-Level Synthesis of Integrated Circuits. Book Chapter in Behavioral Synthesis for Hardware Security, Springer, ISBN: 978-3-030-78840-7, 2022.
+B3.  F. Vahid, T. Givargis. Programming Embedded Systems - An Introduction to Time-Oriented Programming. UniWorld Publishing, ISBN: 978-0-9829626-4-0, 2012.
+B2.  A. Nacul, M. Lajolo, T. Givargis. Interface-Centric Abstraction level for Rapid Hardware/Software Integration, Book Chapter in Applications of Specification and Design Languages for SOCs, Springer, ISBN: 1-4020-4997-8, 2006.
+B1.  F. Vahid, T. Givargis. Embedded System Design: A Unified Hardware/Software Introduction. John Wiley and Sons, ISBN: 0471386782, 2001.
+
+Patents
+
+P13.  T. Givargis. Storage Device Embedded Strand Architecture. United States Patent, 10,558,567, February 11, 2020.
+P12.  T. Givargis. Tree Structure Serialization and Deserialization Systems and Methods. United States Patent, 10,216,627, February 26, 2019.
+P11.  T. Givargis, R. Sadri. Methods for Optimizing Data Movement in Solid State Devices. United States Patent, 8,612,719, December 2013.
+P10.  T. Givargis. Systems and Methods for Managing Key-Value Stores. United States Patent, 8,612,402, December 2013.
+P9.  A. Nacul, T. Givargis. Phantom Serializing Compiler and Method of Operation of Same. United States Patent, 7,886,283, February 2011.
+P8.  J. Addink, S. Addink, T. Givargis. Methods and Apparatus for Using Water Use Signatures and Water Pressure in Improving Water Use Efficiency. United States Patent 7,330,796, February 2008.
+P7.  J. Addink, S. Addink, T. Givargis. Methods and Apparatus for Using Water use Signatures in Improving Water use Efficiency. United States Patent 6,963,808, November 2005.
+P6.  J. Addink, T. Givargis. Interactive Irrigation System. United States Patent 6,950,728, September 2005.
+P5.  J. Addink, K. Buhler, T. Givargis. Modifying Irrigation Schedules of Existing Irrigation Controllers. United States Patent 6,892,114, May 2005.
+P4.  J. Henkel, T. Givargis, F. Vahid. Method for Core-Based System-Level Power Modeling using Object-Oriented Techniques. United States Patent 6,865,526, March 2005.
+P3.  K. Buhler, T. Givargis. Two Tire Irrigation Valve Controller. United States Patent 6,812,826, November 2004.
+P2.  J. Addink, T. Givargis. Detecting Weather Sensor Malfunctions. United States Patent 6,714,134, March 2004.
+P1.  J. Addink, K. Buhler, T. Givargis. Irrigation Accumulation Controller. United States Patent 6,298,285, October 2001.
+
+Peer-Reviewed/Archived Journal
+
+J35.  P. Poduval, H. Alimohamadi, A. Zakeri, F. Imani, M. Najafi, T. Givargis, M. Imani. GrapHD: Graph-Based Hyperdimensional Memorization for Brain-Like Cognitive Learning. Frontiers in Neuroscience, vol 16, pp. 1-20, February 2022. pdf
+J34.  N. Watkinson, F. Zaitsev, A. Shivam, M. Demirev, M. Heddes, T. Givargis, A. Nicolau, A. Veidenbaum. EdgeAvatar: An Edge Computing System for Building Virtual Beings. Electronics, vol 10, no. 3(229), pp. 1-19, January 2021. pdf
+J33.  M. Amir, T. Givargis. Pareto Optimal Design Space Exploration of Cyber-Physical Systems. Internet of Things (IoT), vol 12, no. 100308, pp. 1-13, December 2020. pdf
+J32.  F. Vahid, T. Givargis, R. Lysecky. A Pattern Recognition Framework for Embedded Systems. The American Society for Engineering Education (ASEE) Computers in Education (CoED) Journal, vol 11, no. 1, pp. 1-13, March 2020. pdf
+J31.  M. Amir, T. Givargis, F. Vahid. Switching Predictive Control Using Reconfigurable State-Based Model. ACM Transactions on Design Automation of Electronic Systems (TODAES), vol. 24, no. 1, pp. 1-21, November 2018. pdf
+J30.  M. Amir, T. Givargis. Priority Neuron: A Resource-Aware Neural Network for Cyber-Physical Systems. IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD), pp. 1-11, DOI: 10.1109/TCAD.2018.2857319, September 2018. pdf
+J29.  H. Buini, S. Peter, T. Givargis. Adaptive Embedded Control of Cyber-Physical Systems using Reinforcement Learning. IET Cyber-Physical Systems: Theory & Applications (IET), vol. 2, no. 3, pp. 127-135, June 2017. pdf
+J28.  S. Peter, B. Reddy, F. Momtaz, T. Givargis. Design of Secure ECG-Based Biometric Authentication in Body Area Sensor Networks. Sensors, vol. 16, no. 4, pp. 570-591, April 2016. pdf
+J27.  T. Springer, S. Peter, T. Givargis. Fuzzy Logic Based Adaptive Hierarchical Scheduling for Periodic Real-Time Tasks. ACM Special Interest Group on Embedded Systems (SIGBED) Review, vol. 13, no. 1, pp. 8-14, January 2016. pdf
+J26.  S. Peter, T. Givargis. Component-Based Synthesis of Embedded Systems using Satisﬁability Modulo Theories. ACM Transactions on Design Automation of Electronic Systems (TODAES), vol. 20, no. 4, pp. 49:1-49:27, September 2015. pdf
+J25.  T. Springer, S. Peter, T. Givargis. Adaptive Resource Synchronization In Hierarchical Real-Time Systems. ACM Special Interest Group on Embedded Systems (SIGBED) Review, vol. 11, no. 4, pp. 37-42, December 2014. pdf
+J24.  V. Gunes, S. Peter, T. Givargis, F. Vahid. A Survey on Concepts, Applications, and Challenges in Cyber-Physical Systems. KSII Transactions on Internet and Information Systems (TIIS), vol. 8, no. 12, pp. 4242-4268, December 2014. pdf
+J23.  B. Miller, F. Vahid, T. Givargis, P. Brisk. Graph-Based Approaches to Placement of Processing Element Networks on FPGAs for Physical Model Simulation. ACM Transactions on Reconfigurable Technology and Systems (TRETS), vol. 7, no. 4, article 10, December 2014. pdf
+J22.  C. Huang, F. Vahid, T. Givargis. Automatic Synthesis of Physical System Differential Equation Models to a Custom Network of General Processing Elements on FPGAs. ACM Transactions on Embedded Computing Systems (TECS), vol 13, no. 2, article 23, September 2013. pdf
+J21.  C. Huang, B. Miller, F. Vahid, T. Givargis. Synthesis of Networks of Custom Processing Elements for Real-Time Physical System Emulation. ACM Transactions on Design Automation of Electronic Systems (TODAES), vol. 18, no. 2, pp. 22-42, March 2013. pdf
+J20.  C. Huang, F. Vahid, T. Givargis. A Custom FPGA Processor for Physical Model Ordinary Differential Equation Solving. IEEE Embedded Systems Letters, vol. 3, no. 4, pp. 113-116, September 2011. pdf
+J19.  S. Choudhuri, T. Givargis. Deterministic Service Guarantees for NAND Flash using Partial Block Cleaning. Academy Publisher Journal of Software (JSW), vol. 4, no. 7, pp. 728-737, September 2009. pdf
+J18.  M. Ghodrat, T. Givargis, A. Nicolau. Optimizing Control Flow in Loops using Interval and Dependence Analysis. Springer Journal on Design Automation of Embedded Systems (DAES), vol. 13, no. 3, pp. 193-221, September 2009. pdf
+J17.  S. Sirowy, D. Sheldon, T. Givargis, F. Vahid. Virtual Microcontrollers. ACM SIGBED Review, vol. 6, no. 1, January 2009. pdf
+J16.  A. Nacul, T. Givargis. Synthesis of Time-Constrained Multitasking Embedded Software. ACM Transactions on Design Automation of Electronic Systems (TODAES), vol. 11, no. 4, pp. 822-847, October 2006. pdf
+J15.  M. Ghodrat, T. Givargis, A. Nicolau. Expression Equivalence Checking using Interval Analysis. IEEE Transactions on Very Large Scale Integration Systems (TVLSI), vol. 14, no. 8, pp. 830-842, August 2006. pdf
+J14.  C. Lopes, A. Haghighat, A. Mandal, T. Givargis, P. Baldi. Localization of Off-the-Shelf Mobile Devices Using Audible Sound: Architectures, Protocols and Performance Assessment. ACM Mobile Computing and Communications Review (MC2R), vol. 10, no. 2, pp. 38-50, April 2006. pdf
+J13.  T. Givargis. Zero Cost Indexing for Improved Processor Cache Performance. ACM Transactions on Design Automation of Electronic Systems (TODAES), vol. 11, no. 1, pp. 3-25, January 2006. 2006 TODAES Best Paper Award. pdf
+J12.  T. Givargis, David Eppstein. Memory Reference Caching for Activity Reduction on Address Buses. Elsevier Journal of Microprocessors and Microsystems (MICPRO), vol. 29, no. 4, pp. 145-153, May 2005. pdf
+J11.  A. Ghosh, T. Givargis. Cache Optimization for Embedded Processor Cores: An Analytical Approach. ACM Transactions on Design Automation of Electronic Systems (TODAES), vol. 9, no. 4, pp. 419-440, October 2004. pdf
+J10.  A. Nacul, T. Givargis. Adaptive Cache Management for Low Power Embedded Systems. Korea Multimedia Society, Key Technology of Next Generation IT, ISSN 1229-778X, pp. 30-39, December 2003. pdf
+J9.  T. Givargis, F. Vahid, J. Henkel. Instruction-Based System-Level Power Evaluation of System-on-a-Chip Peripheral Cores. IEEE Transactions on Very Large Scale Integration Systems (TVLSI), vol. 10, no. 6, pp. 856-863, December 2002. pdf
+J8.  T. Givargis, F. Vahid, J. Henkel. System-Level Exploration for Pareto-Optimal Configurations in Parameterized System-on-a-Chip. IEEE Transactions on Very Large Scale Integration Systems (TVLSI), vol. 10, no. 4, pp. 416-422, December 2002. pdf
+J7.  T. Givargis, F. Vahid. Platune: A Tuning Framework for System-on-a-Chip Platforms. IEEE Transactions on Computer Aided Design (TCAD), vol. 21, no. 11, pp. 1317-1327, November 2002. pdf
+J6.  F. Vahid, T. Givargis, S. Cotterell. Power Estimator Development for Embedded System Memory Tuning. Journal of Circuits, Systems, and Computers (JCSC), vol. 11, no. 5, pp. 459-476, October 2002. pdf
+J5..  T. Givargis, F. Vahid. Tuning of Cache Ways and Voltage for Low-Energy Embedded System Platforms. Springer Journal on Design Automation of Embedded Systems, vol. 7, issue 1-2, pp. 35-51, September 2002. pdf
+J4.  T. Givargis, F. Vahid, J. Henkel. Evaluating Power Consumption of Parameterized Cache and Bus Architectures in System-on-a-Chip Designs. IEEE Transactions on Very Large Scale Integration Systems (TVLSI), vol. 9, no. 4, pp. 500-508, August 2001. pdf
+J3.  F. Vahid, T. Givargis. Platform Tuning for Embedded Systems Design. IEEE Computer, vol. 34, no. 3, pp. 112-114, March 2001. pdf
+J2.  J. Farrell, T. Givargis, M. Barth. Real-Time Differential Carrier Phase GPS-Aided INS. IEEE Transactions on Control Systems Technology (TCST), vol. 8, no. 4, pp. 709-721, July 2000. pdf
+J1.  J. Farrell, T. Givargis. Differential GPS Reference Station Algorithm - Design and Analysis. IEEE Transactions on Control Systems Technology (TCST), vol. 8, no. 3, pp. 519-531, May 2000. pdf
+
+Peer-Reviewed/Archived Conference
+
+C75. M. Heddes, I. Nunes, T. Givargis, A. Nicolau, A. Veidenbaum. Hyperdimensional Hashing: A Robust and Efficient Dynamic Hash Table. Design Automation Conference (DAC), pp. 907-912, San Francisco, July 2022. pdf
+C74. F. Vahid, B. Miller, T. Givargis. ANON: A Task Scheduler in Source Code for Teaching and Implementing Concurrent or Real-Time Software. ASEE Annual Conference & Exposition (ASEE), pp. 1-14, Minneapolis, June 2022. pdf
+C73. I. Nunes, M. Heddes, T. Givargis, A. Nicolau, A. Veidenbaum. GraphHD: Efficient Graph Classification Using Hyperdimensional Computing. Design Automation and Test in Europe (DATE), pp. 1485-1490, Virtual, March 2022. 2022 DATE Best Paper Candidate. pdf
+C72. N. Watkinson, T. Givargis, V. Joe, A. Nicolau, A. Veidenbaum. Detecting COVID-19 Related Pneumonia on CT Scans using Hyperdimensional Computing. International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), pp. 3970-3973, Virtual, November 2021. pdf
+C71. N. Watkinson, T. Givargis, V. Joe, A. Nicolau, A. Veidenbaum. Class-Modeling of Septic Shock With Hyperdimensional Computing. International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), pp. 1653-1659, Virtual, November 2021. pdf
+C70. T. Givargis. Gravity: An Artificial Neural Network Compiler for Embedded Applications. IEEE/ACM Asian and South Pacific Design Automation Conference (ASP-DAC), pp. 715-721, Tokyo, January 2021. 2021 ASP-DAC Best Paper Candidate. pdf
+C69. H. Buini, G. Sharon, S. Boyles, T. Givargis, P. Stone. Enhanced Delta-tolling: Traffic Optimization via Policy Gradient Reinforcement Learning. IEEE International Conference on Intelligent Transportation Systems (ITSC), pp. 47-52, Maui, November 2018. pdf
+C68. H. Buini, G. Sharon, S. Boyles, T. Givargis, P. Stone. Link-based Parameterized Micro-tolling Scheme for Optimal Traffic Management. International Conference on Autonomous Agents and Multiagent Systems (AAMAS), pp. 2013-2015, Stockholm, July 2018. pdf
+C67.  M. Amir, T. Givargis. Hybrid State Machine Model for Fast Model Predictive Control: Application to Path Tracking. International Conference on Computer-Aided Design (ICCAD), pp. 185-192, Irvine, November 2017. pdf
+C66.  M. Amir, T. Givargis. HES Machine: Harmonic Equivalent State Machine Modeling for Cyber-Physical Systems. IEEE International High-Level Design Validation and Test Workshop (HLDVT), pp. 31-38, Santa Cruz, October 2017. pdf
+C65.  H. Buini, M. Fathollahi, T. Givargis. OPEB: Open Physical Environment Benchmark for Artificial Intelligence. IEEE International Forum on Research and Technologies for Society and Industry (RTSI), pp. 1-6, Modena, September 2017. pdf
+C64.  H. Buini, T. Givargis. Fine-Grained Acceleration Control for Autonomous Intersection Management Using Deep Reinforcement Learning. IEEE Smart World Congress (SWC), pp. 1-8, San Francisco, August 2017. pdf
+C63.  S. Peter, T. Givargis. Towards a Timing Attack Aware High-level Synthesis of Integrated Circuits. IEEE International Conference on Computer Design (ICCD), pp. 452-455, Phoenix, October 2016. pdf
+C62.  F. Vahid, A. Edgcomb, B. Miller, T. Givargis. Learning Materials for Introductory Embedded Systems Programming using a Model-Based Discipline. American Society for Engineering Education (ASEE), 10.18260/p.27324, New Orleans, June 2016. pdf
+C61.  S. Peter, F. Momtaz, T. Givargis. From the Browser to the Remote Physical Lab: Programming Cyber-Physical Systems. IEEE Frontiers in Education (FIE), pp. 1-7, El Paso, October 2015. pdf
+C60.  V. Gunes, S. Peter, T. Givargis. Improving Energy Efficiency and Thermal Comfort of Smart Buildings with HVAC Systems in the Presence of Sensor Faults. IEEE International Conference on Embedded Software and Systems (ICESS), pp. 945-950, New York, August 2015. pdf
+C59.  V. Gunes, T. Givargis. XGRID: A Scalable Many-Core Embedded Processor. IEEE International Conference on Embedded Software and Systems (ICESS), pp. 1143-1146, New York, August 2015. pdf
+C58.  H. Buini, S. Peter, T. Givargis. Including Variability of Physical Models into the Design Automation of Cyber-Physical Systems. Design Automation Conference (DAC), pp. 153:1-153:6, San Francisco, June 2015. pdf
+C57.  T. Springer, S. Peter, T. Givargis. Resource Synchronization in Hierarchically Scheduled Real-Time Systems using Preemptive Critical Sections. IEEE International Symposium on Object/Component-Oriented Real-Time Distributed Computing (ISORC), pp. 293-300, Reno, June 2014. pdf
+C56.  V. Gunes, S. Peter, T. Givargis. Modeling and Mitigation of Faults in Cyber-Physical Systems with Binary Sensors. IEEE International Conference on Computational Science and Engineering (CSE), pp. 515-522, Sydney, December 2013. pdf
+C55.  S. Peter, T. Givargis. Utilizing Intervals in Component-Based Design of Cyber Physical Systems. IEEE International Conference on Computational Science and Engineering (CSE), pp. 635-642, Sydney, December 2013. pdf
+C54.  B. Miller, F. Vahid, T. Givargis. Exploration with Upgradeable Models Using Statistical Methods for Physical Model Emulation. Design Automatic Conference (DAC), pp. 1-6, Austin, June 2013. pdf
+C53.  S. Peter, F. Vahid, T. Givargis. A Ball Goes to School - Our Experiences from a CPS Design Experiment. Workshop on Cyber-Physical Systems Education (CPS-Ed) at Cyber Physical Systems Week (CPSWeek), pp. 1-4, Philadelphia, April 2013. pdf
+C52.  B. Miller, F. Vahid, T. Givargis. Embedding-Based Placement of Processing Element Networks on FPGAs for Physical Model Simulation. International Symposium on Field-Programmable Gate Arrays (FPGA), pp. 181-190, Monterey, February 2013. pdf
+C51.  T. Chou, C. Huang, B. Miller, F. Vahid, T. Givargis. An Efficient Compression Scheme for Checkpointing of FPGA-Based Digital Mockups. IEEE/ACM Asian and South Pacific Design Automation Conference (ASP-DAC), pp. 632-637, Yokohama, January 2013. pdf
+C50.  B. Miller, F. Vahid, T. Givargis. RIOS: A Lightweight Task Scheduler for Embedded Systems. Workshop on Embedded Systems Education (WESE), pp. 1-7, Tampere, October 2012. pdf
+C49.  C. Huang, B. Miller, F. Vahid, T. Givargis. Synthesis of Custom Networks of Heterogeneous Processing Elements for Complex Physical System Emulation. International Conference on Hardware/Software Codesign and System Synthesis (CODES+ISSS), pp. 215-224, Tampere, October 2012. pdf
+C48.  B. Miller, F. Vahid, T. Givargis. MEDS: Mockup Electronic Data Sheets for Automated Testing of Cyber-Physical Systems Using Digital Mockups. Design Automation and Test in Europe (DATE), pp. 1417-1420, Grenoble, March 2012. pdf
+C47.  B. Miller, F. Vahid, T. Givargis. Digital Mockups for the Testing of a Medical Ventilator. ACM SIGHIT International Health Informatics Symposium (IHI), pp. 859-862, Miami, January 2012. pdf
+C46.  B. Miller, F. Vahid, T. Givargis. Application-Specific Codesign Platform Generation for Digital Mockups in Cyber-Physical Systems. Electronic System Level Synthesis Conference (ESLsyn), pp. 1-6, San Diego, June 2011. pdf
+C45.  M. Ghodrat, T. Givargis. Efficient Dynamic Voltage/Frequency Scaling through Algorithmic Loop Transformation. International Conference on Hardware/Software Codesign and System Synthesis (CODES+ISSS), pp. 203-209, Grenoble, October 2009. pdf
+C44.  S. Sirowy, F. Vahid, T. Givargis. Digitally-Bypassed Transducers: Interfacing Digital Mockups to Real-Time Medical Equipment. International Conference of the IEEE Engineering in Medicine and Biology Society (EMBS), pp. 919-922, Minneapolis, September 2009. pdf
+C43.  A. Ghosh, T. Givargis. Source Routing made Practical in Embedded Networks. International Conference on Computer Communications and Networks (ICCCN), pp. 1-6, San Francisco, August 2009. pdf
+C42.  A. Ghosh, T. Givargis. QoS Routing in Wired Sensor Networks with Partial Updates. World Academy of Science, Engineering and Technology (WASED), pp. 389-393, Oslo, July 2009. pdf
+C41.  S. Mylavarapu, S. Choudhuri, A. Shrivastava, J. Lee, T. Givargis. FSAF: File System Aware Flash Translation Layer for NAND Flash Memories. Design Automation and Test in Europe (DATE), pp. 339-344, Dresden, April 2009. pdf
+C40.  S. Choudhuri, T. Givargis. FlashBox: A System for Logging Non-Deterministic Events in Deployed Embedded Systems. International ACM Symposium on Applied Computing (SAC), pp. 1676-1682, Honolulu, March 2009. pdf
+C39.  M. Ghodrat, T. Givargis, A. Nicolau. Control Flow Optimization in Loops using Interval Analysis. International Conference on Compilers, Architecture, and Synthesis for Embedded Systems (CASES), pp. 157-166, Atlanta, October 2008. 2008 CASES Best Paper Award. pdf
+C38.  F. Vahid, T. Givargis. Timing is Everything - Embedded Systems Demand Teaching of Structured Time-Oriented Programming. Workshop on Embedded Systems Education (WESE), Atlanta, October 2008. pdf
+C37.  S. Sirowy, D. Sheldon, T. Givargis, F. Vahid. Virtual Microcontrollers. Workshop on Embedded Systems Education (WESE), Atlanta, October 2008. pdf
+C36.  F. Vahid, T. Givargis. Highly-Cited Ideas in System Codesign and Synthesis. International Conference on Hardware/Software Codesign and System Synthesis (CODES+ISSS), pp. 191-196, Atlanta, October 2008. pdf
+C35.  S. Choudhuri, T. Givargis. Deterministic Service Guarantees for NAND Flash using Partial Block Cleaning. International Conference on Hardware/Software Codesign and System Synthesis (CODES+ISSS), pp. 19-24, Atlanta, October 2008. pdf
+C34.  S. Choudhuri, T. Givargis. Real-Time Access Guarantees for NAND Flash using Partial Block Cleaning. IEEE Workshop on Software Technologies for Future Embedded & Ubiquitous Systems (SEUS), pp. 138-149, Italy, September 2008. pdf
+C33.  A. Ghosh, T. Givargis. A Software Architecture for Accessing Data in Sensor Networks. International Conference on Networked Sensing Systems (INSS), pp. 67-70, Japan, June 2008. pdf
+C32.  S. Choudhuri, T. Givargis. Performance Improvement of Block Based NAND Flash Translation Layer. International Conference on Hardware/Software Codesign and System Synthesis (CODES+ISSS), pp. 257-262, Salzburg, September 2007. pdf
+C31.  M. Ghodrat, T. Givargis. A. Nicolau. Short-Circuit Compiler Transformation: Optimizing Conditional Blocks. Asia and South Pacific Design Automation Conference (ASP-DAC), pp. 504-510, Tokyo, January 2007. pdf
+C30.  S. Choudhuri, T. Givargis. System Architecture for Software Peripherals. Asia and South Pacific Design Automation Conference (ASP-DAC), pp. 56-61, Tokyo, January 2007. pdf
+C29.  A. Nacul, T. Givargis. Phantom: A Serializing Compiler for Multitasking Embedded Software. American Control Conference (ACC), Minneapolis, pp. 1918-1923, Minneapolis, June 2006. 2006 ACC Best Paper Award. pdf
+C28.  M. Ghodrat, T. Givargis, A. Nicolau. Equivalence Checking of Arithmetic Expressions using Fast Evaluation. International Conference on Compilers, Architecture, and Synthesis for Embedded Systems (CASES), pp. 147-156, San Francisco, September 2005. pdf
+C27.  A. Nacul, T. Givargis. Lightweight Multitasking Support for Embedded Systems using the Phantom Serializing Compiler. Design Automation and Test in Europe (DATE), pp. 740-747, Munich, March 2005. pdf
+C26.  A. Ghosh, T. Givargis. LORD: A Localized, Reactive and Distributed Protocol for Node Scheduling in Wireless Sensor Networks. Design Automation and Test in Europe (DATE), pp. 190-195, Munich, March 2005. pdf
+C25.  A. Mandal, C. Lopes, T. Givargis, A. Haghighat, R. Jurdak, P. Baldi. Beep: 3D Indoor Positioning Using Audible Sound. IEEE Consumer Communications and Networking Conference (CCNC), pp. 348-353, Las Vegas, January 2005. pdf
+C24.  A. Nacul, T. Givargis. Code Partitioning for Synthesis of Embedded Applications with Phantom. International Conference on Computer-Aided Design (ICCAD), pp. 190-196, San Jose, November 2004. pdf
+C23.  A. Nacul, T. Givargis. Dynamic Voltage and Cache Reconfiguration for Low Power. Design Automation and Test in Europe (DATE), pp. 1376-1377, Paris, February 2004. pdf
+C22.  M. Buss, T. Givargis, N. Dutt. Exploring Efficient Operating Points for Voltage Scaled Embedded Processor Cores. Real-Time Systems Symposium (RTSS), pp. 275-281, Cancun, December 2003. pdf
+C21.  A. Ghosh, T. Givargis. Cache Optimization for Embedded Processor Cores: An Analytical Approach. International Conference on Computer-Aided Design (ICCAD), pp. 342-347, San Jose, November 2003. pdf
+C20.  T. Givargis. Improved Indexing for Cache Miss Reduction in Embedded Systems. Design Automation Conference (DAC), pp. 872-880, Anaheim, June 2003. pdf
+C19.  A. Ghosh, T. Givargis. Analytical Design Space Exploration of Caches for Embedded Systems. Design Automation and Test in Europe (DATE), pp. 650-655, Munich, March 2003. pdf
+C18.  T. Givargis, D. Eppstein. Reference Caching Using Unit Distance Redundant Codes for Activity Reduction on Address Buses. International Workshop on Embedded System Hardware/Software Codesign (ESCODES), San Jose, September 2002. pdf
+C17.  M. Palesi, T. Givargis. Multi-Objective Design Space Exploration Using Genetic Algorithms. International Workshop on Hardware/Software Codesign (CODES), Estes Park, May 2002. pdf
+C16.  T. Givargis, F. Vahid, J. Henkel. System-Level Exploration for Pareto-Optimal Configurations in Parameterized Systems-on-a-Chip. International Conference on Computer-Aided Design (ICCAD), San Jose, November 2001. pdf
+C15.  T. Givargis, F. Vahid. J. Henkel. Trace-Driven System-Level Power Evaluation of System-on-a-Chip Peripheral Cores. Asia and South Pacific Design Automation Conference (ASP-DAC), Yokohama, January 2001. pdf
+C14.  G. Stitt, F. Vahid, T. Givargis, R. Lysecky. A First-Step Towards an Architecture Tuning Methodology. International Conference on Compilers, Architecture, and Synthesis for Embedded Systems (CASES), San Jose, November 2000. pdf
+C13.  T. Givargis, F. Vahid, J. Henkel. Instruction-Based System-Level Power Evaluation of System-on-a-ChipPeripheral Cores. International Symposium on System Synthesis (ISSS), Madrid, September 2000. pdf
+C12.  R. Lysecky, F. Vahid, T. Givargis. Experiments with the Peripheral Virtual Component Interface. International Symposium on System Synthesis (ISSS), Madrid, September 2000. pdf
+C11.  T. Givargis, F. Vahid. Parameterized System Design. International Workshop on Hardware/Software Codesign (CODES), San Diego, May 2000. pdf
+C10.  T. Givargis, F. Vahid, J. Henkel. Fast Cache and Bus Power Estimation for Parameterized System-on-a-Chip Design. Design Automation and Test in Europe (DATE), Paris, March 2000. pdf
+C9.  R. Lysecky, F. Vahid, T. Givargis. Techniques for Reducing Read Latency of Core Bus Wrappers. Design Automation and Test in Europe (DATE), Paris, March 2000. 2000 DATE Best Paper Award. pdf
+C8.  T. Givargis, F. Vahid. J. Henkel. A Hybrid Approach for Core-Based System-Level Power Modeling. Asia and South Pacific Design Automation Conference (ASP-DAC), Yokohama, January 2000. pdf
+C7.  T. Givargis, J. Henkel, F. Vahid. Interface and Cache Power Exploration for Core-Based Embedded System Design. International Conference on Computer-Aided Design (ICCAD), San Jose, November 1999. pdf
+C6.  R. Lysecky, F. Vahid, T. Givargis, R. Patel. Pre-Fetching for Improved Core Interfacing. International Symposium on System Synthesis (ISSS), San Jose, November 1999. pdf
+C5.  J. Farrell, T. Givargis. Experimental Differential GPS Reference Station Evaluation. American Control Conference (ACC), San Diego, June 1999. pdf
+C4.  J. Farrell, T. Givargis. M. Barth. Differential Carrier Phase GPS-Aided INS for Automotive Applications. American Control Conference (ACC), San Diego, June 1999. pdf
+C3.  F. Vahid, T. Givargis. The Case for a Configure-and-Execute Paradigm. International Workshop on Hardware/Software Codesign (CODES), Rome, May 1999. pdf
+C2.  F. Vahid, T. Givargis. Incorporating Cores into System-Level Specification. International Symposium on System Synthesis (ISSS), Hsinchu, December 1998. pdf
+C1.  T. Givargis, F. Vahid. Interface Exploration for Reduced Power in Core-Based Systems. International Symposium on System Synthesis (ISSS), Hsinchu, December 1998. pdf
+
+Workshop
+
+W2.  A. Nacul, M. Lajolo, T. Givargis. Interface-Centric Abstraction Level for Rapid Hardware/Software Integration. Forum on Specification and Design Languages (FDL), Lausanne, September 2005. pdf
+W1.  A. Haghighat, C. Lopes, T. Givargis, A. Mandal. Location-Aware Web System. Workshop on Building Software for Pervasive Computing at the Object-Oriented Programming, Systems, Languages and Applications (OOPSLA) Conference, Vancouver, October 2004. pdf
+
+Miscellaneous
+
+M1.  U. Brinkschulte, M. Cinque, T. Givargis, S. Russo. Guest Editorial. Journal of Software, vol. 4, no. 7, pp. 631-633, September 2009.
+
+
+
+
+
+

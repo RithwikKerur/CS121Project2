@@ -1,0 +1,463 @@
+https://www.informatics.uci.edu/informatics-capstone-team-designs-pengwin-prototype-for-children-with-autism
+
+
+
+
+
+
+
+
+
+Informatics Capstone Team Designs PengWin Prototype for Children with Autism | Informatics @ the University of California, Irvine
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+People
+Contact
+Site Map
+News
+
+
+
+
+Search for:
+
+
+
+ 
+
+
+
+
+
+Menu
+Skip to content
+Explore
+
+
+Chair’s Welcome
+Faculty Profiles
+Books We Read
+History of the Department
+Seminar Series
+Blogs We Author
+Department Vision
+Books We Have Written
+Visiting the Department
+Facts & Figures
+
+
+
+Graduate Degrees
+
+
+Overview
+Ph.D. Software Engineering
+Policies
+Ph.D. Informatics
+M.S. Software Engineering
+Diversity Ambassador
+M.S. Informatics
+Master of Software Engineering
+Student Profiles
+Master of Human-Computer Interaction & Design
+Courses
+Student Groups
+ 
+ 
+Upcoming Course Schedule
+
+
+
+Undergraduate Degrees
+
+
+B.S. Informatics
+B.S. Information & Computer Science
+Policies
+B.S. Business Information Management
+Special Opportunities
+Student Profiles
+B.S. Game Design and Interactive Media
+Minors
+Student Groups
+B.S. Software Engineering
+Courses
+Upcoming Course Schedule
+
+
+
+Admissions
+
+
+Graduate Application Process
+Coming from Abroad
+Housing
+Undergraduate Application Process
+Student Life
+
+
+
+Research
+
+
+Labs & Centers
+Ph.D. Research
+Undergraduate Research
+Areas of Expertise
+Past Dissertations
+Gifts & Grants
+Example Projects
+Masters Research
+
+
+
+Impact
+
+
+Research that Matters
+Undergraduate Alumni Spotlights
+Outreach
+Graduate Alumni Spotlights
+Community Engagement
+
+
+
+Support
+
+
+Champion Research
+Become a Corporate Partner
+Share Your Talent
+Support Students
+Provide Projects
+Set Future Agenda
+Post Jobs
+Graduate Resources
+
+
+
+
+
+
+MenuExplore
+
+Chair’s Welcome
+History of the Department
+Department Vision
+Facts & Figures
+Faculty Profiles
+Seminar Series
+Books We Have Written
+Books We Read
+Blogs We Author
+Visiting the Department
+
+
+Graduate Degrees
+
+Ph.D. Informatics
+M.S. Informatics
+Ph.D. Software Engineering
+M.S. Software Engineering
+Master of Human-Computer Interaction & Design
+Master of Software Engineering
+Courses
+Policies
+Diversity Ambassador
+Student Profiles
+Student Groups
+Upcoming Course Schedule
+
+
+Undergraduate Degrees
+
+B.S. Informatics
+B.S. Business Information Management
+B.S. Game Design and Interactive Media
+B.S. Software Engineering
+B.S. Information & Computer Science
+Special Opportunities
+Minors
+Courses
+Policies
+Student Profiles
+Student Groups
+Upcoming Course Schedule
+
+
+Admissions
+
+Graduate Application Process
+Undergraduate Application Process
+Coming from Abroad
+Student Life
+Housing
+
+
+Research
+
+Labs & Centers
+Areas of Expertise
+Example Projects
+Ph.D. Research
+Past Dissertations
+Masters Research
+Undergraduate Research
+Gifts & Grants
+
+
+Impact
+
+Research that Matters
+Graduate Alumni Spotlights
+Undergraduate Alumni Spotlights
+Community Engagement
+Outreach
+
+
+Support
+
+Champion Research
+Support Students
+Become a Corporate Partner
+Provide Projects
+Post Jobs
+Share Your Talent
+Set Future Agenda
+
+
+ 
+
+
+
+
+
+
+
+		← Site Map  News
+
+
+
+
+
+Informatics Capstone Team Designs PengWin Prototype for Children with Autism
+July 14, 2020
+
+
+
+Since 2013, the Innovation Institute has been collaborating with healthcare providers and the general public to bring new ideas to market that help transform care delivery. This year, the institute tested out a new kind of collaboration, partnering with UCI students working on senior capstone projects. In particular, its Innovation Lab sponsored two student teams through the Informatics Senior Design Project course in the Donald Bren School of Information and Computer Sciences (ICS) and sponsored a third student team through the Department of Biomedical Engineering in the Samueli School of Engineering.
+
+“We take ideas and early-stage concepts from caregivers and other physicians [and] then we put them through our rigorous process to evaluate the opportunity of bringing a new product or service to market,” explains Suzy Engwall, national director of the Innovation Lab. “We identified a handful of submissions in the queue to bring forward for student teams to consider for their capstone projects.”
+One of those ideas came from Adam Gold, chief technology officer at Children’s Hospital of Orange County (CHOC). “I had been carrying around the idea for a while, probably close to six or seven years,” he says, referring to his vision of a mobile app to help children with autism and their parents manage everyday tasks. “I think it hit me one day when I realized the power of mobile devices and the level of engagement they inspire with children.”
+So the goal of the capstone project for a team of six ICS students — Ahaz Bhatti, Archita Ganesh, Genesis Garcia, Danielle Muhlenberg, Om Mungra and Akshita Nathani — was to design a product that would bring Gold’s vision to life. The result is PengWin, an app featuring a friendly looking penguin that guides children through daily routines while providing positive reinforcement and feedback to parents. (The second ICS project, Team Chubby Cats, worked to address noise pollution in hospitals in real time. The project was sponsored by Mohammad Otahbachi of Covenant Health System.)
+Informatics capstone students working on PengWin (from left): Ahaz Bhatti, Archita Ganesh, Genesis Garcia, Danielle Muhlenberg, Om Mungra and Akshita Nathani.
+Designing PengWinThe team started by doing their homework. “User research is an essential part of the design process to be able to cultivate empathy for the target audience,” explains Nathani, a recent informatics graduate who is now interning as a product designer at cybersecurity company Proofpoint and hoping to continue solving problems at the intersection of technology and people. She notes that through surveys and interviews, the team “managed to get some great insights that helped us create a user-focused app.” To avoid scope creep, the team decided to focus on those with high-functioning autism. “In addition, we had to be mindful of features such as parental controls as well as UI decisions like the use of colors, fonts and a gender-neutral character.”
+Based on their research, the team created “personas” to represent various users and their needs. 
+Their resulting application appears in an online demo. “The designers were able to design a product from start to finish — from user research and stakeholder interviews to bringing everything to life with sketches turned to high-fidelity mock-ups and interactive prototypes,” says Muhlenberg, another recent informatics graduate who is interning as a software engineer at Microsoft and whose research has focused on computer science education for underprivileged youth. “The development team pushed themselves out of their comfort zones by learning the ins and outs of a new framework; building out a large, well-structured database in SQL; and taking on the challenge of implementing a fully functional image recognition system.”
+A storyboard for the app’s image recognition functionality (left) and the login screen for the app (right).
+Image recognition was used to help parents confirm task completion, but the team also viewed it as an engaging activity for the kids. “We tried to do this in a way that allows kids with autism to have fun and stay engaged while completing their basic everyday activities such as brushing teeth or wearing shoes,” says Garcia, a first-generation American who, after earning her degree in software engineering in winter, hopes to help underrepresented communities learn STEM subjects. “We use image recognition so that parents can ensure their child has completed a task, but also so that kids can have fun with their cameras!” The app also lets parents easily customize routines to their child’s specific needs through the use of images, videos and descriptions.
+While the team faced many challenges, including a global pandemic that forced the entire university to move to remote learning, they persisted. “We embraced our challenges as a team, kept up a strong work ethic, communicated consistently, and learned from each other to push through and create a wonderful product that can ultimately help change the way children with autism are motivated to perform activities and routines,” says Ganesh, who is interning as a software engineer at Microsoft this summer and will be graduating in the fall. Through her involvement as the EVP of UCI’s Women in Information and Computer Sciences (WICS) and a previous mentor for AppJam+, she says she has been inspired to help empower women and children from underrepresented communities with technology.
+“Working with the Innovation Lab gave us an opportunity to integrate our diverse skill set in design and computer science with the real world in the healthcare industry,” says Mungra, who graduated this spring and is now looking for a job in consulting, software engineering or software design while growing his platforms in photography and videography. “We resonated with their purpose of helping others and were able to channel that energy into our application.”
+Delivering for the Innovation LabAccording to Engwall, the collaboration with UCI has paid off. “We’re already looking for projects for next year,” she says. “The students have been fabulous.”
+The capstone projects provide an avenue for Innovation Lab to research and build low-cost proofs of concepts. “For us, one of the big benefits is we can get to a minimum viable product for testing,” notes Engwall. “This approach provides a cost-effective way to advance products through early stages of development.”
+In addition to potential products, Engwall says the capstone course offers connections to potential employees. “We’re also providing first-hand experience to these students, and another benefit for us is the opportunity to potentially hire someone from one of these student teams after they graduate.”
+Gold was similarly impressed with the students and their talent. “Working with the UCI team was truly an amazing experience,” he says. “I was fascinated how they could take an idea from concept to completion in such a quick manner.” He then adds, “who knows, I might just be working for one of them someday.”
+If you are interested in sponsoring a capstone project, contact Informatics Professor Hadar Ziv.
+— Shani Murray
+
+
+
+Post navigation
+← Informatics Ph.D. Candidate Daniel Gardner Leads Teams Looking at Representation in Games
+The Scientist: “Publishers Develop Inclusive Name-Change Policies” (Tess Tanenbaum quoted) →
+
+
+
+
+
+
+ 
+
+October 2022
+September 2022
+July 2022
+June 2022
+May 2022
+April 2022
+March 2022
+February 2022
+January 2022
+December 2021
+November 2021
+October 2021
+September 2021
+August 2021
+July 2021
+June 2021
+May 2021
+April 2021
+March 2021
+February 2021
+January 2021
+December 2020
+November 2020
+October 2020
+September 2020
+August 2020
+July 2020
+June 2020
+May 2020
+April 2020
+March 2020
+February 2020
+January 2020
+December 2019
+November 2019
+October 2019
+September 2019
+August 2019
+July 2019
+June 2019
+May 2019
+April 2019
+March 2019
+February 2019
+January 2019
+December 2018
+November 2018
+October 2018
+September 2018
+August 2018
+July 2018
+June 2018
+May 2018
+April 2018
+March 2018
+February 2018
+January 2018
+December 2017
+November 2017
+October 2017
+September 2017
+August 2017
+July 2017
+June 2017
+May 2017
+April 2017
+March 2017
+February 2017
+January 2017
+December 2016
+November 2016
+October 2016
+September 2016
+August 2016
+July 2016
+June 2016
+May 2016
+April 2016
+March 2016
+February 2016
+January 2016
+December 2015
+November 2015
+October 2015
+September 2015
+August 2015
+July 2015
+June 2015
+May 2015
+April 2015
+March 2015
+February 2015
+January 2015
+December 2014
+November 2014
+September 2014
+August 2014
+July 2014
+June 2014
+
+ 
+
+
+
+People
+Contact
+Site Map
+News
+
+
+
+
+
+
+
+Feedback
+Privacy Policy
+					© 2022 UC Regents
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

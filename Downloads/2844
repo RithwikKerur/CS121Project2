@@ -1,0 +1,174 @@
+https://ngs.ics.uci.edu/words-atoms-of-semantics
+
+
+
+
+
+
+
+
+Words: Atoms of Semantics – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Words: Atoms of Semantics    			
+
+
+The difficult problem in applying the BoW to other than text is, however, more fundamental problem also.  Words are a crisp semantic unit in text.  Letters do not have semantic significance until a juxtaposition of letters is identified as a valid word.  Thus, â€˜ogdâ€™ or â€˜gdoâ€™ do not represent words but â€˜dogâ€™ and â€˜godâ€™ do.  What is important is that words were identified and listed in a lexicon and then letters are used to provide a symbolic existence for those words.  If we are considering â€˜informationâ€™ that is in words not in letters.  Words are the atoms of the semantics in text.
+In images what is the atomic unit of this semantics?  
+Many researchers have been addressing image retrieval problem.  Some approached this as retrieval based on attributes such as color, texture, and shape of regions in images.  Since finding meaningful regions, commonly called segmentation of an image, has been a difficult problem, some approaches just considered attributes for each pixel or for well defined regions around a pixel in an image.  Other approaches try to apply some segmentation algorithms to find regions in images and selected some larger regions to represent these images.  Attributes of these segments were used to represent these regions.  Some researchers recently tried to apply well developed mathematical approaches to assign probabilistic correspondence between these regions and a BoW (depending on the application or collection domain).  
+Can these approaches be effective?  Iâ€™d love to see them successful, but I am a skeptic.  I hope somebody will prove me wrong.  Here is the reason for my skepticism.  What is the basic semantic unit in images and how do we identify it and represent it?  In text words are the semantic units and letters are used to represent words.  A simple string matching can be used to detect words.  What can we do in images that will help in identifying letters and form words from the legal juxtaposition of these letters?  Can there be some analog of this or should we adopt a different approach?  If we adopt a different approach then we will have to develop a different framework than the BoW or text oriented framework for images.
+Words, not the textual representation of words, are definitely an effective semantic careers.  Words are used to represent objects or concepts in real world and images, video, and other sensory representation of the world are going to use these words to describe the world.  We should not confuse words with their textual representations.  Human knowledge has been evolving in terms of these words and the network of these words to represent our understanding of the world.  The lexicon is the collection of known words.  Clearly with refinements in the understanding of the world the lexicon has been increasing and this will continue to happen as long as human beings keep contributing to the growth of knowledge.  As is well known, most humans use only a very small fraction of this lexicon.
+The problem in image retrieval is thus the problem of analyzing images to identify words that are in images.  What do we mean by words in images?  And here is the problem.  When we look at a text file in well structured format, words are delineated and marked.  This delineation is not as clear in handwritten textual documents and hence our retrieval systems are for computerized text where the issue of delineation is very easily solved.  Each letter in our electronic documents is precisely represented.  There is no problem of recognizing letters and forming words â€“ it is a well defined process.  
+Can we do that to images?  Not today.  
+We need to develop a process that will allow analyzing images and representing them in a form that will allow us to identify words in images.  And this is where the challenge lies.
+
+
+
+By Ramesh |
+    				July 1, 2006 |
+    				             		Technical Thoughts |
+             	 
+    				             		No Comments |
+             	 		          				
+    			
+
+
+← SEraja Updates
+Words: A picture is worth a thousand words →
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

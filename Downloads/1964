@@ -1,0 +1,105 @@
+https://sli.ics.uci.edu/Classes-CS271-Notes/SearchHeuristic
+
+
+
+SLI | Classes-CS271-Notes / SearchHeuristic 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Classes-CS271-Notes /
+SearchHeuristic
+
+
+A*-search
+
+ open   = pqueueCell(1000);              % pre-allocate memory for 1000 nodes
+ closed = containers.Map(toKey(start),H(start));
+ parent = containers.Map(toKey(start),'start');
+ open.push(-H(start),{start, 'start'});  % nodes consist of {state, parent}
+ nExpand=0; nMax=0;                      % initialize search statistics
+
+ while (~open.empty())
+   % Track A* statistics
+   nMax = max(nMax,open.size());
+   nExpand=nExpand+1;
+
+   % Get current best from the priority queue
+   [fnode,node]=open.pop(); fnode=-fnode; % pop the current best node
+   state = node{1};                       %  and its state representation
+   stateKey = toKey(state);               % (convert to a string key)
+   parent(stateKey)=node{2};              % Memorize its parent (as a string) 
+
+   % If we found a goal, it's the optimum; return
+   if Goal(state)                         % 
+     cost = fnode;                        % Save its cost
+     name=stateKey; d=1;                  % Recurse back through parents to get the path
+     while (~strcmp(name,'start')) path{d}=name; d=d+1; name=parent(name); end;
+     path = path(end:-1:1);
+     % Print statistics on the search
+     fprintf('A-Star expanded d, closed %d\n',nExpand,nMax,closed.Count);
+     return;
+   end; 
+
+   % Otherwise, expand the node and add its children to the queue
+   gnode = fnode-H(state);             % Compute cost so far from eval function
+   closed(stateKey)=fnode;             % Remember the best-so-far cost for this state
+   [next,costs]=Suc(state);            % Get list of successor states
+   for i=1:length(next),
+     if (strcmp(toKey(next{i}),node{2})) continue; end;
+     fnext=gnode+costs(i)+H(next{i});  % find eval function for each successor
+     kNext = toKey(next{i});           % check for repeated (worse) states
+     if (~closed.isKey(kNext) || closed(kNext)>fnext)
+       open.push(-fnext, {next{i},stateKey});    % if new or better, insert into open
+     end;
+   end;
+
+ end;
+
+
+
+
+
+
+ Last modified April 22, 2011, at 02:01 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

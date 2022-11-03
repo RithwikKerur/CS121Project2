@@ -1,0 +1,143 @@
+https://sli.ics.uci.edu/PmWiki/PathVariables
+
+
+
+SLI | PmWiki / PathVariables 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+PathVariables
+
+
+
+
+
+< Pagelist Variables | Variables | Security Variables >
+
+
+
+When dealing with file or path variables, one has to recognize the difference between working with URLs and files on disk.  For example:
+The include() statements are used to include other files (on disk) into the currently running PmWiki script.  Thus they require paths on the server's filesystem. 
+The $ScriptUrl and $PubDirUrl variables are used to tell a browser, connecting via the webserver, how to execute the pmwiki script ($ScriptUrl) and the base url for getting files from PmWiki's pub/ directory ($PubDirUrl).
+Note that a browser needs a URL (http://example.com/pmwiki/pub) while an include statement requires a server file path ($FarmD/scripts/something.php).
+
+$FarmD The directory on the server where the farm is located (i.e., the directory containing the farm's copy of pmwiki.php and the scripts/ directory).  This directory is automatically determined by pmwiki.php when it runs, and can be used to distinguish the farm's cookbook/ and pub/ subdirectories from a field's subdirectories.
+$FarmPubDirUrl is the url that refers to the pub directory for an entire farm. It defaults to the same value as $PubDirUrl. 
+$PageCSSListFmt is an associative array which PmWiki uses to find any local css configuration files. It consists of a set of (key,value) pairs  that point to the same file. The key is a possible path to a file on disk holding the css data, while the value is the coresponding URL for that same file. They keys are tested in turn, and for each named file that exists, the browser is instructed to load the corresponding URL. This allows for PMWiki to only load the css file if it exists. (Why see if a CSS exists?)  The default value for this variable is:
+
+$PageCSSListFmt = array(
+  'pub/css/local.css' => '$PubDirUrl/css/local.css',
+  'pub/css/{$Group}.css' => '$PubDirUrl/css/{$Group}.css',
+  'pub/css/{$FullName}.css' => '$PubDirUrl/css/{$FullName}.css');
+
+Note that the default (as of version pmwiki-2.1.beta26) makes no reference to $FarmPubDirUrl for css configuration files. If you wish to be able to place css configuration files in both the field's pub directory, and the farm's pub directory, you may want to add these lines to your local/config.php file (as described in Cookbook:SharedPages):
+ # this adds farm.css to all wikis
+
+$PageCSSListFmt = array(
+  '$FarmD/pub/css/farm.css' => '$FarmPubDirUrl/css/farm.css',
+  'pub/css/local.css' => '$PubDirUrl/css/local.css',
+  'pub/css/$Group.css' => '$PubDirUrl/css/$Group.css',
+  'pub/css/$FullName.css' => '$PubDirUrl/css/$FullName.css');
+
+ # this enables farm css files in a similar manner to a local wiki
+
+$PageCSSListFmt = array(
+  '$FarmD/pub/css/local.css' => '$FarmPubDirUrl/css/local.css',
+  '$FarmD/pub/css/$Group.css' => '$FarmPubDirUrl/css/$Group.css',
+  '$FarmD/pub/css/$FullName.css' => '$FarmPubDirUrl/css/$FullName.css',
+  'pub/css/local.css' => '$PubDirUrl/css/local.css',
+  'pub/css/$Group.css' => '$PubDirUrl/css/$Group.css',
+  'pub/css/$FullName.css' => '$PubDirUrl/css/$FullName.css');
+
+Note the difference between CSS configuration files and CSS files associated with a skin. Skin files, including associated CSS, can be put in either the farm or the field pub/skins directory, and the program will find them.
+$PubDirUrl is the URL that refers to the pub directory. That directory contains all the files and subdirectories that must be directly accessible from a browser (e.g. CSS and HTML files). Most prominent here is the skins subdirectory.
+The following may work for you[1]
+  $ScriptUrl = 'http://'.$_SERVER['HTTP_HOST'].'/pmwiki/pmwiki.php';
+  $PubDirUrl = 'http://'.$_SERVER['HTTP_HOST'].'/pmwiki/pub';
+http://sli.ics.uci.edu
+$ScriptUrl is the URL that you want people's browsers to use when accessing PmWiki, either as a field or farm.  It's used whenever PmWiki needs to generate a link to another PmWiki page or action. PmWiki is usually fairly good about "guessing" the correct value for $ScriptUrl on its own, but sometimes an admin needs to set it explicitly because of URL manipulations by the webserver (such as Cookbook:CleanUrls, mod_rewrite, bizarre PHP configurations, and so on).
+$SkinDirSet by scripts/skins.php to be the base url of the current skin's directory (i.e., within a 'pub/skins/' directory).  This variable is typically used inside of a skin .tmpl file to provide access to .css files and graphic images associated with the skin. See security note regarding use.
+$SkinDirUrlSet by scripts/skins.php to be the base path of the current skin's directory (i.e., within a 'pub/skins/' directory).  This variable is typically used inside of a skin .tmpl file to provide access to secondary files. See security note regarding use.
+$WorkDir This variable is a string that gives a local path to a directory where the pmwiki engine can create temporary files etc. 
+ PmWiki needs this for a variety of things, such as building merged edits, caching mailposts entries, keeping track of the last modification time of the site, other types of cache, etc.  Do not confuse this variable with $WikiDir; the reason that both $WorkDir and $WikiDir refer by default to the directory wiki.d/ is merely to simplify things for the administrator. 
+$WikiDir A PageStore-object that refers to how wiki pages are stored. 
+ This can be a simple reference to a directory (typically wiki.d/), or something more advanced such as a MySQL backend or a .dbm-file.  Do not confuse this variable with $WorkDir; the reason that both $WorkDir and $WikiDir refer by default to the directory wiki.d/ is merely to simplify things for the administrator.
+ To store groups of pages in subdirectories add $WikiDir = new PageStore('wiki.d/$Group/$FullName'); to the start of your config file. [2]
+$WikiLibDirs An array of PageStore objects that specify where to look for pages.  
+ By default it is set up to look in wiki.d/ and wikilib.d/, but can be changed to look other places.  
+ For example, to exclude the pages that are bundled in the PmWiki distribution, use the line below.  (Note that some features such as editing and search rely on having certain pages available, so you may need to copy them to the $WikiDir.)
+$WikiLibDirs = array(&$WikiDir); 
+ Another example
+
+ 	## for any page name, use the version located in wiki.d if it exists,
+ 	## use the version located in wikilib2.d, if a wiki.d version does not, and
+ 	## the version located in wikilib.d, if neither of the above exists
+	$WikiLibDirs = array(&$WikiDir,
+	    new PageStore('wikilib2.d/{$FullName}'),
+	    new PageStore('$FarmD/wikilib.d/{$FullName}'));
+
+  See also CustomPageStore.
+$LocalDir The filesystem location of the local/ directory, holding local customization and per group customizations files.  Typically set in a WikiFarm's farmconfig.php.  (Note that farm configuration files always occur in $FarmD/local/farmconfig.php, regardless of any setting for $LocalDir.)
+See also
+Layout Variables for URL layout options
+Link Variables - variables that control the display of links in pages
+Edit Variables - variables used when editing pages
+Upload Variables - variables used for uploads/attachments
+
+
+< Pagelist Variables | Variables | Security Variables >
+
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:PathVariables, and  a talk page: PmWiki:PathVariables-Talk.
+
+
+
+
+
+
+ Last modified January 08, 2015, at 08:58 AM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

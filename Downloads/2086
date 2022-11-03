@@ -1,0 +1,446 @@
+https://isg.ics.uci.edu/event/large-scale-and-low-latency-data-distribution-from-database-to-servers
+
+
+
+
+
+
+Sushant Jain : Large scale and low latency data distribution from database to servers – Information Systems Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+
+Faculty
+Students
+Recent Alumni
+Research Staff
+Visitors
+
+
+Research
+
+Projects
+Publications
+
+
+Teaching
+
+Courses
+DB Qual
+
+
+Events
+
+Talks
+News
+
+
+About
+
+Sponsors & Partners
+Visitor Info
+Contact us
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ISG Talks are sponsored by Couchbase.
+<< All Talks
+
+
+
+ « All Events
+
+
+This event has passed.
+Sushant Jain : Large scale and low latency data distribution from database to servers
+
+November 2, 2018 @ 11:00 am - 12:00 pm 
+
+
+
+
+
+
+Dr. Andrey Balmin and Mayank Pradhan (Workday): Workday Prism Analytics: Unifying Interactive and Batch Data Processing Using Apache Spark »
+
+
+
+
+
+
+
+
+
+
+Many applications at Google are structured with data stored in a transactional database (source of truth) and same data being required by servers distributed worldwide. For efficient and fast computation servers store this data in memory. Further, the database is changing continuously and we need to update the in-memory view of these large number of servers in real-time. For example, in Google Search Ads application we have Advertisers configuration stored in a database and this data is loaded in the memory of various servers to compute Ads in a scalable and fast way. In this talk, we describe our solution to this data distribution problem and the challenges that we encountered in providing a highly reliable and low latency service.
+ 
+Speaker Bio: 
+Sushant Jain is a member of the Ads Quality Infrastructure group at Google Inc. His research interests include distributed systems and network routing. He is currently an engineering director and a lead engineer for multiple products in Ads Quality Infrastructure with a focus on data management and distribution. Many of the systems developed as part of his work at Google (such as WhyHigh, Bandwidth Enforcer, B4 Network) are actively deployed at Google and have had significant research impact as well. He is a recipient of the Best Paper Award at ACM SIGCOMM IMC 2011. He received his Ph.D. from the University of Washington in 2005 and a B.Tech. from IIT Delhi in 1999.
+ 
+
++ Google Calendar+ iCal Export
+
+
+
+ Details 
+
+ Date: 
+
+ November 2, 2018 
+
+ Time: 
+
+
+					11:00 am - 12:00 pm				
+
+Event Tags:Talk
+
+
+
+ Venue 
+
+ DBH 6011 
+
+
+
+Organizer
+
+
+
+				Sushant Jain			
+
+
+
+ 
+
+
+
+
+
+
+Dr. Andrey Balmin and Mayank Pradhan (Workday): Workday Prism Analytics: Unifying Interactive and Batch Data Processing Using Apache Spark »
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+Search for :
+
+
+Latest News 
+
+
+
+Upcoming Talk: How to build your own Business
+
+											July 25, 2022																																
+
+
+Upcoming Talk: Couchbase and Distributed Computing Backends for big data processing
+
+											May 31, 2022																																
+
+
+Upcoming Talk: Shedding Light on Opaque Database Queries
+
+											May 31, 2022																																
+
+
+ISG researchers won the  Mark Weiser Best Paper Award at IEEE PERCOM 2022
+
+											March 24, 2022																																
+
+
+
+
+Upcoming Events
+
+
+
+
+Qiushi Bai: QueryBooster-Improving SQL Performance Using Middleware Services for Human-Centered Query Rewriting + Demo
+
+
+
+October 14 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Xiaozhen Liu: Demonstration of Collaborative and Interactive Workflow-based Data Analytics in Texera
+
+
+
+October 21 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Abhishek Singh: WedgeBlock – An Off-Chain Secure Logging Platform for Blockchain Applications
+
+
+
+October 28 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Juncheng Fang: PeloPartition- Improving Blockchain Resilience to Partitioning by Sharding
+
+
+
+November 4 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Peeyush Gupta: A Demonstration of TippersDB
+
+
+
+November 18 @ 12:30 pm - 2:00 pm 
+
+
+
+View All Events
+
+Please follow & like us :) 
+
+Follow  
+
+ 
+
+
+
+
+
+
+
+			Copyright 2018 | ISG-UCI		
+
+
+
+
+
+
+cross
+
+
+
+
+
+
+
+
+
+
+Hit ENTER to search or ESC to close
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

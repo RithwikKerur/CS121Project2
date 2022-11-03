@@ -1,0 +1,188 @@
+https://www.ics.uci.edu/~skong2/mgpff.html
+
+
+ Image Reconstruction using Predictive Filter Flow - Shu Kong (Aimery) - UC Irvine - Computer Vision
+
+
+
+
+
+
+
+
+
+
+
+
+Unsupervised Learningfor instance tracking
+
+
+
+
+Multigrid Predictive Filter Flow for Unsupervised Learning on Videos
+
+Shu Kong, 
+          Charless Fowlkes
+
+
+Last update: March 24, 2019.
+
+We introduce multigrid Predictive Filter Flow (mgPFF), a framework for
+   unsupervised learning on videos.
+   The mgPFF takes as input a pair of frames and outputs per-pixel filters
+   to warp one frame to the other.
+   Compared to optical flow used for warping frames,
+   mgPFF is more powerful in modeling sub-pixel movement and dealing with corruption
+   (e.g., motion blur).
+   We develop a multigrid coarse-to-fine modeling strategy that avoids the
+   requirement of learning large filters to capture large displacement.
+   This allows us to train an extremely compact model (4.6MB)
+   which operates in a progressive way over multiple resolutions with shared
+   weights.
+   We train mgPFF on unsupervised, free-form videos and
+   show that mgPFF is able to not only estimate long-range flow for frame reconstruction
+   and detect video shot transitions,
+   but also readily amendable for video object segmentation and pose tracking,
+   where it substantially outperforms the published state-of-the-art
+   without bells and whistles.
+   Moreover,
+   owing to mgPFF's nature of per-pixel filter prediction,
+   we have the unique opportunity to visualize how each pixel is evolving
+   during solving these tasks, thus gaining better interpretability.
+
+
+
+
+
+keywords: 
+Unsupervised Learning, Multigrid Computing, Long-Range Flow, Video Segmentation, Instance Tracking, Pose Tracking,
+Video Shot/Transition Detection, Optical Flow, Filter Flow, Low-level Vision,
+
+
+
+
+
+ S. Kong, C. Fowlkes, "Multigrid Predictive Filter Flow for Unsupervised Learning on Videos", 
+arXiv 1904.01693, 2019.
+
+[project page]
+[paper]
+[demo]
+[github]
+[slides]
+[poster]
+
+
+
+
+Acknowledgements: 
+This project is supported by NSF grants IIS-1813785, IIS-1618806, IIS-1253538
+and a hardware donation from NVIDIA.
+Shu Kong personally thanks Teng Liu and Etthew Kong who initiated this research,
+and the academic uncle Alexei A. Efros for the encouragement and discussion.
+
+
+
+
+
+Teaser for Ablation
+
+These videos are recorded to demonstrate how mgPFF performs with different setup. Go to 
+Youtube Playlist and refer
+to the description under each video for the setup.
+
+
+
+
+Video Object Segmentation/Tracking
+Propagating the mask using the predicted filter flow. Through visualization, 
+we have a unique opportunity to track each pixel and understand how every single pixel evolves over time.
+
+
+
+
+
+
+
+
+
+
+Human Pose Tracking
+Propagating the keypoints with the predicted filter flow. Through visualization, we have the unique opportunity to track each pixel along the skeleton and understand how every single pixel evolves over time.
+
+
+
+
+
+
+
+
+
+
+Long-Range Flow for Frame Reconstruction
+mgPFF captures well the long-range flow, even though we did not train with large frame intervals.
+This is owing to the excellent reconstruction power by multigrid computing and filter flow model (powerful in capturing
+subpixel movement and dealing with corruption, e.g., motion blur).
+This is reminiscent of a variety of flow-based applications, e.g., video compression, unsupervised optical flow learning, frame interpolation, etc.
+
+
+
+
+
+
+
+
+
+
+Video Transition Shot Detection
+Purely based on the reconstruction by mgPFF, we are able to detection video transition shot. This makes training our mgPFF possible on free-form videos, e.g., long movies.
+
+
+
+
+
+
+
+
+
+
+Style Transfer by mgPFF
+
+The power of mgPFF in long-range flow learning enables a native style transfer.
+Just grab the sunset in Newport Beach and Monet's painting, and translate between each other (A->B).
+They are not great, but it seems to work :-)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sketch to Photo
+
+This simple sketch-photo translation demonstrates the power of mgPFF in correspondence learning.
+Note how the details are synthesized from the given image/sketch.
+
+  
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+

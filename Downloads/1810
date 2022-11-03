@@ -1,0 +1,386 @@
+https://sli.ics.uci.edu/PmWiki/WikiStyles
+
+
+
+SLI | PmWiki / WikiStyles 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+WikiStyles
+
+
+
+
+
+< Table directives | Documentation Index | Wiki style examples >
+
+authors (basic, advanced) 
+
+
+Contents
+Basics
+Scope
+In tables and directives
+Attributes
+Enabling Styles
+Custom style shortcuts
+Predefined Style Shortcuts
+Defining scope for other HTML elements
+Examples
+Known Issues
+See Also
+
+
+WikiStyle basics
+WikiStyles allow authors to modify the color and other styling attributes of the contents of a page.  
+A WikiStyle is written using percent-signs, as in %red% or %bgcolor=lightblue%.
+
+
+WikiStyle attributes
+The style attributes recognized within a WikiStyle specification are:
+
+------------ CSS -------------
+--HTML--
+
+ bgcolor
+ background-color
+ border1
+ color
+ background-color
+ border
+ display
+ float
+ clear
+ font-size
+ font-family
+ font-weight
+ font-style
+
+ height*
+ list-style
+ margin1
+ padding1
+ text-align
+ text-decoration
+ white-space
+ width* 
+
+ accesskey 
+ align
+ class
+ hspace 
+ id 
+ target 
+ rel 
+ vspace 
+ value
+
+ Special: define, apply
+
+The attributes in the first two columns correspond to the cascading style sheet (CSS) properties of the same name.  The attributes in the last column apply only to specific items:
+
+class= and id= assign a CSS class or identifier to an HTML element
+target=name opens links that follow in a browser window called "name"
+rel=name in a link identifies the relationship of a target page
+accesskey=x uses 'x' as a shortcut key for the link that follows
+value=9 sets the number of the current ordered list item
+ The width and height attributes have asterisks because they are handled specially for <img .../> tags.  If used by themselves (i.e., without anything providing an "apply=" parameter to the WikiStyle), then they set the 'width=' and 'height=' attributes of any <img ... /> tags that follow. Otherwise, they set the 'width:' and 'height:' properties of the element being styled.
+ margin, padding, and border can be suffixed by -left, -right, -top, and -bottom
+WikiStyles versus CSS styles
+WikiStyles, as written in the wiki page, are not exactly CSS styles or CSS classes. WikiStyles allow authors to use both pre-defined by the administrator CSS classes, and to define new combinations of styles, without any need to edit/update local CSS files on the server.
+
+Note that PmWiki allows advanced authors to use of  class=  and  style=  in tables and division blocks, but these are raw HTML attributes, and not WikiStyles, knowledge of CSS is required to use them.
+
+Text color and font
+The most basic use of WikiStyles is to change text attributes such as color, background color, and font.  
+PmWiki defines several WikiStyles for changing the text color to %black%, %white%, %red%, %yellow%, %blue%, %gray% (%grey%), %silver%, %maroon%, %green%, %navy%, %fuchsia%, %olive%, %lime%, %teal%, %aqua%, %orange% and %purple%.
+
+
+The basket contains %red% apples, %blue% blueberries, %purple% eggplant, %green% limes, %% and more.
+The basket contains  apples,  blueberries,  eggplant,  limes,  and more.
+
+
+For colors other than the predefined colors, use the %color=...% WikiStyle.  (Note: RGB colors (#rrggbb) should always be specified with lowercase letters to avoid WikiWord conflicts.)
+
+
+I'd like to have some %color=#ff7f00% tangerines%%,  too!
+I'd like to have some  tangerines,  too!
+
+
+To change the background color, use %bgcolor=...% as a WikiStyle:
+
+
+This sentence contains %bgcolor=green yellow% yellow text on a green background.
+This sentence contains  yellow text on a green background.
+
+
+See WikiStyle Colors for more color help.
+
+Text justification
+WikiStyles are used to control the text justification
+
+
+%center% This text is centered. 
+
+%right% Right justified.
+ This text is centered. 
+
+ Right justified.
+
+
+and to create floating text:
+
+
+%rfloat% This text floats to the right
+
+%rframe% floats to the right with a frame
+
+Lorem ipsum dolor sit amet, consectetuer sadipscing elitr
+ This text floats to the right
+
+ floats to the right with a frame
+
+Lorem ipsum dolor sit amet, consectetuer sadipscing elitr
+
+
+
+Scope
+WikiStyles can also specify a scope; with no scope, the style is applied to any text that follows up to the next WikiStyle specification or the end of the paragraph, whichever comes first. The apply= attribute and its shortcuts allow to change the scope as follows:
+
+
+apply attributeshortcutstyle applies to...
+%apply=img ...%-all images that follow until another style applied
+%apply=p ...%%p ...%the current paragraph
+%apply=pre ...%-the current preformatted text
+%apply=list ...%%list ...%the current list
+%apply=item ...%%item ...%the current list item
+%apply=div ...%-the current div
+%apply=block ...%%block ...%to the current block, whether it's a paragraph, list, list item, heading, or division.
+
+Thus, %p color=blue% is the same as %apply=p color=blue%, and %list ROMAN% is the same as %apply=list list-style=upper-roman%.
+
+Some predefined style shortcuts also make use of apply, thus %right% is a shortcut for %text-align=right apply=block%.
+
+Example: Apply a style to a paragraph:
+
+%p bgcolor=#ffeeee% The WikiStyle specification at the beginning of this line applies to the entire paragraph, even if there are %blue% other WikiStyle specifications %% in the middle of the paragraph.
+ The WikiStyle specification at the beginning of this line applies to the entire paragraph, even if there are  other WikiStyle specifications  in the middle of the paragraph.
+
+
+Caveat: An applied WikiStyle will only take effect if it's on the
+line that starts the thing it's supposed to modify.  In other
+words, a WikiStyle in the third markup line of a paragraph
+can't change the attributes of the paragraph:
+
+
+after the first line of the paragraph,
+we try to %apply=p color=blue% change color.
+This does't work because the style comes after the first line of the paragraph.
+after the first line of the paragraph,
+we try to  change color.
+This does't work because the style comes after the first line of the paragraph.
+
+
+
+However, this %apply=p color=red% paragraph
+''will'' be in red because its block style does
+occur in the first line of its text.
+However, this  paragraph
+will be in red because its block style does
+occur in the first line of its text.
+
+
+
+* Here's a list item
+* %list red% Oops, too late to affect the list!
+Here's a list item
+ Oops, too late to affect the list!
+
+
+If you want to break a list in two, you need to have a line not part of the list between, that is a line that has any content other than space and newlines, otherwise PmWiki considers the vertical space part of the previous list item. You can have an non-breaking space, or the escaped null character:
+
+
+* %list red% first item
+* second item
+&nbsp;
+* %apply=list bgcolor=lightgreen% second list - first item
+* second list - second item
+[==]
+* %list class=mambo% third list - first item
+* third list - second item
+ first item
+second item
+ 
+ second list - first item
+second list - second item
+
+ third list - first item
+third list - second item
+
+
+
+Larger blocks
+The >>WikiStyle<< block can be used to apply a WikiStyle to a large block of items.  
+The style is applied until the next >><< is encountered.
+
+
+>>blue font-style:italic bgcolor=#ffffcc<<
+Everything after the above line is styled with blue italic text,
+
+This includes
+    preformatted %red%text%%
+* lists
+-> indented items
+>><<
+
+Everything after the above line is styled with blue italic text,
+
+This includes
+    preformatted text
+lists
+indented items
+
+
+Note, the (:div style="..." class="...":) directive does not work the same way as >>WikiStyle<<, it can only contain the regular HTML style and class attributes.
+
+
+HTML "class" and "style" attributes for tables and divisions
+WikiStyles are only the commands between %...% percent signs.
+
+Tables, table directives and (:div:) division blocks allow advanced authors to incorporate the HTML/CSS attributes  class=  and  style=.  Note that these attributes are not WikiStyles, knowledge of CSS is required to use them.
+
+
+(:table style="font-style:italic; color:green; border:1px solid blue; background-color:#ffffcc":)
+(:cellnr:)
+Everything after the above line is styled with green italic text,
+
+This includes
+    preformatted text
+* lists
+-> indented items
+(:tableend:)
+
+Everything after the above line is styled with green italic text,
+
+This includes
+    preformatted text
+lists
+indented items
+
+
+Note, the (:div style="..." class="...":) directive does not work the same way as >>style<<, as mentioned above, it can only contain the HTML style and class attributes.
+
+
+Custom style shortcuts
+The define= attribute can be used to assign a shorthand name to any WikiStyle specification.
+This shorthand name can then be reused in later WikiStyle specifications.
+
+
+%define=box block bgcolor=#ddddff border="2px dotted blue"%
+
+%box% [@some sort of text@]
+
+%box font-weight=bold color=green% [@some sort of text@]
+ some sort of text
+
+ some sort of text
+
+
+Tip:  It's often a good idea to put common style definitions into Group Header pages so that they can be shared among multiple pages in a group.  Or, the wiki administrator can predefine styles site-wide as a local customization (see Custom WikiStyles).
+Tip: Use custom style definitions to associate meanings with text instead of just colors.  For example, if warnings are to be displayed as green text, set %define=warn green% and then use %warn% instead of %green% in the document.  Then, if you later decide that warnings should be styled differently, it's much easier to change the (one) definition than many occurrences of %green% in the text.
+Tip: Any undefined WikiStyle is automatically treated as a request for a class, thus %pre% is the same as saying %class=pre%.
+ Predefined style shortcuts
+PmWiki defines a number of style shortcuts.
+
+Text colors: black, white, red, yellow, blue, gray (grey), silver, maroon, green, navy, purple, fuchsia, olive, lime, teal, aqua, orange   (shortcut for %color=...%)
+Justification: %center% and %right%
+Images and boxes
+Floating left or right: %rfloat% and %lfloat%
+Framed items: %frame%, %rframe%, and %lframe%
+Thumbnail sizing: %thumb%
+Open link in new window: %newwin%  (shortcut for %target=_blank%)
+Comments: %comment% (shortcut for %display=none%)
+Ordered lists: %decimal%, %roman%, %ROMAN%, %alpha%, %ALPHA% (see also Cookbook:OutlineLists)
+
+Enabling Styles
+Styles not listed above can be enabled by a PmWiki Administrator by modifying the local/config.php file.  
+For instance to enable the "line-height" style attribute add the following line to the local/config.php file:
+
+$WikiStyleCSS[] = 'line-height';
+
+Defining scope for other HTML elements
+You can add additional HTML elements to $WikiStyleApply to apply WikiStyles to other HTML elements. For example to allow styling on anchor tags:
+
+  $WikiStyleApply['link'] = 'a';
+
+Examples
+WikiStyle Examples contains a number of examples of ways to use WikiStyles in pages.
+
+
+Known Issues
+Percents in style definitions (like: %block width=50% %) require the use of "pct" instead of "%". PmWiki will convert the "pct" into "%" so that it becomes valid CSS.
+If you specify multiple values for an attribute, like border="2px solid blue" make sure you place the values in quotes.
+Be sure to use lowercase letters for red-green-blue hex colors, %color=#aa3333% will work, %color=#AA3333% may not.
+
+See Also
+Custom WikiStyles Predefined PmWiki styles & adding custom wiki styles
+PmWiki:List Styles
+WikiStylesPlus
+
+
+< Table directives | Documentation Index | Wiki style examples >
+
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:WikiStyles, and  a talk page: PmWiki:WikiStyles-Talk.
+
+
+
+
+
+
+ Last modified June 10, 2016, at 03:46 AM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

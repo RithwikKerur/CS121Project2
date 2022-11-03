@@ -1,0 +1,9 @@
+http://plrg.ics.uci.edu/publications/420.bib
+@inproceedings{key,
+ author = {James C. Jenista and Yong hun Eom and Brian Demsky},
+ title = {OoOJava: Software Out-of-Order Execution},
+ booktitle = {Proceedings of the ACM SIGPLAN Annual Symposium on Principles and Practice of Parallel Programming},
+ location = {San Antonio, TX},
+ month = {February},
+ year = {2011}
+}

@@ -1,0 +1,1113 @@
+http://www.ics.uci.edu/~skong2
+auto redirect to 
+new website in seconds...
+
+
+
+Shu Kong - Computer Vision
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Shu Kong 
+
+
+I'm a postdoc fellow with Deva Ramanan
+in   
+ RI 
+| CMU.
+I got PhD advised by  
+Charless Fowlkes,
+at CV 
+| CS 
+| ICS 
+| UCI.
+
+
+
+
+My research is motivated by a desire to create intelligent systems that benefit human life, 
+primarily through visual signals and interaction between human and machines.
+My methodology is "data-driven through learning". 
+My focus is on pixel-level learning and prediction for finer-grained visual perception.
+
+
+
+
+
+
+Contact
+
+
+Email: aimerykong (at) gmail.com
+Office:
+EDSH 218, 5000 Forbes Ave, Pittsburgh, PA, 15213
+
+
+Other links
+
+
+Github,
+Google Scholar, ...
+
+Recent Update Highlights
+
+
+
+
+thanks to the Kleist family for the generous support through Bob & Barbara Kleist Endowed Graduate Fellowship 
+(1/13/2020)
+
+
+
+
+
+
+starting a new journey as postdoc working with Deva Ramanan in CMU
+(1/2/2020)
+
+
+
+
+
+
+successful thesis defense, titled "Pixel-Level Prediction: Models and Applications" 
+(slides)
+(11/20/2019)
+
+
+
+
+
+
+Demo videos 
+are released for our project
+"Video-Sentence Grounding with Referring Attention and Weak Supervision".
+(4/9/2019)
+
+
+
+
+
+
+Project page is created for "Multigrid Predictive Filter Flow for Unsupervised Learning 
+on Videos";
+see also  teaser videos at Youtube playlist,
+github code and demo,
+and the arxiv paper.
+(4/3/2019)
+
+
+
+
+
+
+Our paper "Modularized Textual Grounding for Counterfactual Resilience" appears at 
+ ,
+code and data will be released soon!
+(2/24/2019)
+
+
+
+
+
+ joining  as summer intern (1/22/2019)
+
+
+
+
+
+Project page is created for "Image Reconstruction with Predictive Filter Flow", with released paper,
+slides
+and 
+demo script. (11/28/2018)
+
+
+
+
+
+
+Project page is created for our  work "Pixel-wise Attentional Gating for Scene Parsing", which is our Robust Vision Challenge entry for depth estimation and  semantic segmentation. (05/06/2018)
+
+
+
+
+
+
+Project page is created for "Fine-Grained Facial Expression Analysis Using Dimensional Emotion Model", with released demos, code and models. (05/03/2018)
+
+
+
+
+
+
+Our paper "Recurrent Pixel Embedding for Instance Grouping" is accepted by  as Spotlight Presentation. Read more at the Project page  for demo, code, models, poster, slides, etc. (02/18/2018) 
+
+
+
+
+
+Our paper "Recurrent Scene Parsing with Perspective Understanding in the Loop" is accepted by . Read more at the Project page for demo/code/models/poster/slides. (02/18/2018) 
+
+
+
+
+
+Thank  Google Graduate Student Award for the generous support. (9/2/2017)
+
+
+
+
+
+Project page is created for the google internal project. (9/2/2017) 
+
+
+
+
+
+Project page is created for our automated pollen recognition system. (6/2/2017) 
+
+
+
+
+ Our paper ''Low-rank Bilinear Pooling for Fine-grained Classification'' is accepted by  See github for demo, model and code. (3/2/2017)
+
+
+
+
+ joining  as summer intern (1/10/2017)
+
+
+
+
+ advanced to candidacy [slides] (11/30/2016)
+
+
+
+
+Project page is created for "deep image aesthetics analysis" of our  work, with
+code, demo and dataset.
+
+
+
+
+Project page is created for "fossilized pollen grain identification" of our 
+ work, with
+ code, demo and dataset.
+
+
+
+
+Research Projects
+
+
+
+
+ 
+
+ Multigrid Filter Flow for Unsupervised Learning on Videos
+
+
+
+
+
+ 
+
+ Language-Video Grounding with Referring Attention and Weak Supervision
+
+
+
+
+
+ 
+
+ Image Reconstruction with Predictive Filter Flow
+
+
+
+
+
+ 
+
+ Tracklet Learning for Long-Term Tracking-by-Detection
+
+
+
+
+
+ 
+
+ Textual Grounding with Counterfactual Resilience
+
+
+
+
+
+ 
+
+ Fine-Grained Facial Expression Analysis Using Dimensional Emotion Model 
+
+
+
+
+
+ 
+
+ Pixel-wise Attentional Gating for Scene Parsing
+
+
+
+
+
+ 
+
+ Recurrent Pixel Embedding for Instance Grouping
+
+
+
+
+
+ 
+
+ Recurrent Scene Parsing with Perspective Understanding in the loop
+
+
+
+
+
+ 
+
+ Low-rank Bilinear Pooling for Fine-grained Classification
+
+
+
+
+
+ 
+
+ Deep Understanding of Image Aesthetics
+
+
+
+
+
+ 
+
+ Camera Distance Estimation for 360 Spherical Panoramas 
+
+
+
+
+
+ 
+
+ Automated Pollen Recognition System 
+
+
+
+
+
+ 
+
+ Pollen Grains Detection, Segmentation, and Categorization
+
+
+
+
+
+
+ 
+
+ C. Elegans Detection, Segmentation, and Counting
+
+
+
+
+
+ 
+
+ Sparse Coding, Dictionary Learning, and Applications
+
+
+
+
+
+ 
+
+ Tensor Computation and Applications
+
+
+
+
+
+ 
+
+ Theory and Application of Neural Networks -- A Collection of My Projects
+
+
+
+
+Papers
+
+
+
+ S. Kong, C. Fowlkes, "Multigrid Predictive Filter Flow for Unsupervised Learning on Videos",
+arXiv:1904.01693, 2019.
+
+[project page]
+[arxiv]
+[github]
+[demo]
+[slides]
+[poster]
+
+
+
+
+
+Zhiyuan Fang, S. Kong, 
+C. Fowlkes, Yezhou Yang, "Modularized Textual Grounding for Counterfactual Resilience",
+CVPR, Long Beach, CA, June 2019.
+
+[paper]
+[project page]
+[github]
+[slides]
+[poster]
+
+
+
+
+
+
+Derek Haselhorst,  Shu Kong,
+Charless Fowlkes, Surangi Punyasena,
+" Automated identification of diverse palynological samples using convolutional neural nets",
+2019. (on the way)
+
+[page]
+[code]
+
+
+
+
+
+
+I. Romero, S. Kong,
+C. Fowlkes, M.A. Urban, C. Jaramillo, F. Oboh-Ikuenobe, C. D'Apolito, S.W. Punyasena,
+"Automated fossil pollen classification using Airyscan microscopy and convolutional neural networks. Case study: Striatopollis (Amherstieae - Fabaceae)",
+2019. (on the way)
+
+
+
+
+
+
+ S. Kong, C. Fowlkes, "Image Reconstruction with Predictive Filter Flow",
+arXiv:1811.11482, 2018.
+
+[project page]
+[high-res paper (44MB)]
+[github]
+[slides]
+[poster]
+
+
+
+
+
+ S. Kong, C. Fowlkes, "Pixel-wise Attentional Gating for Scene Parsing",
+WACV, Hawaii,2019.
+
+[project page]
+[arxiv]
+[github]
+[slides]
+[ROB Entry of Depth Est.]
+[ROB Entry of Segm.]
+
+
+
+
+
+ S. Kong*, F. Zhou*, C. Fowlkes, T. Chen, B. Lei, "Fine-Grained Facial Expression Analysis Using Dimensional Emotion Model",
+arxiv 1805.01024, 2018.
+
+[project page]
+[arxiv]
+[demo]
+[models]
+[github]
+
+
+
+
+
+ S. Kong, C. Fowlkes, "Recurrent Pixel Embedding for Instance Grouping",
+CVPR, 2018 (Spotlight Presentation).
+
+[project page]
+[arxiv]
+[demo]
+[models]
+[github]
+[poster]
+[slides]
+
+
+
+
+
+ S. Kong, C. Fowlkes, "Recurrent Scene Parsing with Perspective Understanding in the Loop",
+CVPR, 2018.
+
+[project page]
+[technical report]
+[demo]
+[model]
+[poster]
+[slides]
+
+
+
+
+
+ S. Kong, C. Fowlkes, "Low-rank Bilinear Pooling for Fine-Grained Classification",
+CVPR, 2017.
+
+[project page]
+[technical report]
+[abstract]
+[demo]
+[model]
+[poster]
+[slides]
+
+
+
+
+
+ S. Kong, X. Shen, Z. Lin, R. Mech, C. Fowlkes, "Photo Aesthetics Ranking Network with Attributes and Content Adaptation",
+ECCV, Amsterdam, the Netherlands, (Oct. 2016).
+
+[project page]
+[paper]
+[code&demo]
+[dataset&model]
+[bibtex]
+[poster]
+[AMT instruction]
+[patent filed]
+
+
+
+
+
+ S. Kong, S. Punyasena, C. Fowlkes, "Spatially Aware Dictionary Learning and Coding for Fossil Pollen Identification",
+        CVPR CVMI Workshop, Los Vegas, NV, (July 2016).
+
+[project page with code&demo] [paper]
+[bibtex]
+[talk]
+[poster]
+
+
+
+
+
+ Shu Kong, Zhuolin Jiang, Qiang Yang, "Modeling Neuron Selectivity over Simple Mid-Level Features for Image Classification",
+IEEE Trans. on Image Processing, 2015
+
+[paper]
+
+
+
+
+
+ Yuetan Lin, Shu Kong, Donghui Wang, Yueting Zhuang, "Saliency Detection within a Deep Convolutional Architecture",
+AAAI'14 Workshop on Cognitive Computing for Augmented Human Intelligence, 2014.
+
+[paper]
+
+
+
+
+
+ Shu Kong*, Donghui Wang* "A Classification-Oriented Dictionary Learning Model: Explicitly Learning the Particularity and Commonality Across Categories", Pattern Recognition, 2014.
+
+[paper]
+[code]
+
+
+
+
+
+ Shu Kong, Donghui Wang, "Learning Exemplar-Represented Manifolds in Latent Space for Classification", ECML/PKDD, 2013.
+
+[paper]
+[code]
+
+
+
+
+
+ Donghui Wang, Xikui Wang, Shu Kong, "Integration of Multi-Feature Fusion and Dictionary Learning for Face Recognition", Image and Vision Computing (IVC), 2013.
+
+[paper]
+[code]
+
+
+
+
+
+ Shu Kong, Donghui Wang, "Learning Individual-Specific Dictionaries with Fused Multiple Features for Face Recognition", FG, 2013.
+
+[paper]
+
+
+
+
+
+ Shu Kong, Xikui Wang, Donghui Wang, "Multiple Feature Fusion for Face Recognition", FG, 2013.
+
+[paper]
+[code]
+
+
+
+
+
+ Shu Kong, Donghui Wang, "A Dictionary Learning Approach for Classification: Separating the Particularity and the commonality",
+ECCV, 2012.
+
+[paper]
+[code]
+
+
+
+
+
+ Shu Kong, Donghui Wang, "Transfer Heterogeneous Unlabeled Data for Unsupervised Clustering", ICPR, 2012.
+
+[paper]
+[code]
+
+
+
+
+
+ Shu Kong, Donghui Wang, "A Multi-task Learning Strategy for Unsupervised Clustering via Explicitly Separating the Commonality", ICPR, 2012.
+
+[paper]
+
+
+
+
+
+ Donghui Wang, Shu Kong, "Learning Class-Specific Dictionaries for Digit Recognition from Spherical Surface of a 3D Ball",  Machine Vision and Applications (MVA), 2012.
+
+[paper]
+ [SingleBall_dataset (288MB)]
+[MultiBall_dataset (121MB)]
+
+
+
+
+
+ Donghui Wang, Shu Kong, "Feature Selection from High-Order Tensorial Data via Sparse Decomposition",  Pattern Recognition Letters, 2012.
+
+ [paper]
+[code]
+
+
+
+
+Abstract/Workshop
+
+
+
+Zhiyuan Fang, Shu Kong, Charless Fowlkes ,Yezhou Yang,
+" Modularized Textual Grounding for Counterfactual Resilience",
+Language And Vision workshop joint with CVPR, 2019.
+
+
+
+
+
+Surangi W. Punyasena,  Shu Kong, Charless C. Fowlkes, 
+"Improving the taxonomic accuracy and precision of fossil pollen identifications",  
+North American Paleontological Convention, Riverside, USA, 2019.
+
+
+
+
+
+Ingrid Romero,  Shu Kong, Charless C. Fowlkes, Michael A. Urban, Surangi W. Punyasena, "Automated Neotropical Fossil Pollen Fabaceae Analysis Using Convolutional Neural Networks",  GSA Annual Meeting in Indianapolis, Indiana, USA, 2018.
+
+
+
+
+
+Zhiyuan Fang,  Shu Kong, Tianshu Yu, Yezhou Yang, "Weakly Supervised Attention Learning for Textual Phrases Grounding",  Language and Vision Workshop jointwith CVPR, 2018.
+
+
+
+
+
+ Shu Kong, Charless C. Fowlkes, "Low-rank Bilinear Pooling for Fine-Grained Classification",  the Fourth Workshop on Fine-grained Visual Categorization joint with CVPR, 2017.
+
+
+
+
+
+ Shu Kong, Charless C. Fowlkes, "Recurrent Scene Parsing with Perspective Understanding in the Loop",   Southern California Machine Learning Symposium, 2017.
+
+
+
+
+
+ Ingrid Romero, Shu Kong, Charless C. Fowlkes, Michael A. Urban, Carlos D'Apolito, Carlos Jaramillo, OBOH-IKUENOBEA, Francisca E. Oboh-Ikuenobea, Surangi W. Punyasena, "NOVEL MORPHOLOGICAL ANALYSIS OF A FOSSIL FABACEAE POLLEN TYPE, STRIATOPOLLIS CATATUMBUS (TRIBE DETARIAE)",  GSA, 2017.
+
+
+
+
+
+
+ Romero, I.C., S. Kong, C.C. Fowlkes, M.A. Urban, C.A. D'Apolito, C. Jaramillo, F. Oboh-Ikuenobe, and S.W.
+Punyasena, "Cenozoic biogeography of Striatopollis catatumbus (Fabaceae  Detariae)",   AASP-The
+Palynological Society, 2017.
+
+
+
+
+
+
+ Derek S. Haselhorst, Shu Kong, Charless C. Fowlkes, J. Enrique Moreno, David K. Tcheng, Surangi W. Punyasena, "Automating tropical pollen counts using convolutional neural nets: from image acquisition to identification",  the iDigBio inaugural conference, 2017.
+
+
+
+
+
+
+ Surangi W. Punyasena, Shu Kong, Charless C. Fowlkes, and Stephen P. Jackson, "Reconstructing the extinction dynamics of Picea critchfieldii - the application of computer vision to fossil pollen analysis
+",  the iDigBio inaugural conference, 2017.
+
+
+
+
+
+
+ Shu Kong, Charless C. Fowlkes, "Low-rank Bilinear Pooling for Fine-Grained Classification",  Southern California Machine Learning Symposium, 2016.
+
+
+
+
+
+Patents
+
+Utilizing deep learning to rate attributes of digital images, US 2018 / 0268535 A1 
+ UTILIZING DEEP LEARNING FOR RATING AESTHETICS OF DIGITAL IMAGES, US 20170294010
+ Method and Apparatus for Image Content Recognition, CN 201410350987.X 
+ Method and Apparatus for Image Feature Extraction, CN 201410223300.6 
+
+Funding/Support
+
+Bob & Barbara Kleist Endowed Graduate Fellowship
+ 2019
+
+NIA R01AG057748 2019
+
+ CVPR PhD Consortium, 2019
+
+IIS-1253538 2016-
+
+NSF DBI-1262547 2015-
+
+  WACV PhD Consortium, 2019
+
+ Google Graduate Student Award, 2017
+
+ Hardware donation from NVIDIA, 2016
+
+ Janelia Junior Scientist Workshop Travel Grant 2016
+
+  Adobe Research Gift 2015
+
+Multidisciplinary Design Program Grant 2014-2015
+
+
+Presentation/Talk
+
+
+
+ "Pixel-Level Learning and Prediction for Fine-Grained Visual Understanding", 
+GVV @ MPI-Informatik, hosted by Prof. Christian Theobalt, November 4, 2019.
+
+
+
+
+
+ "Unsupervised Depth Learning from Monocular Videos: Is It Done Right?", 
+Mobile Vision, Oculus, Facebook Research, August 22, 2019.
+
+
+
+
+
+ "Attending to Pixels, Embedding Pixels, Predicting Pixels", CMU VASC Seminar, hosted by Prof. Deva Ramanan and bro Peiyun Hu, Aug. 6, 2019.
+
+
+
+
+
+ "Attending Pixels, Embedding Pixels, Predicting Pixels",
+Mobile Vision, Oculus, Facebook Research, July 18, 2019.
+
+
+
+
+
+ "Attending Pixels, Embedding Pixels, Predicting Pixels", CVPR PhD Consortium with Prof. Cordelia Schmid, June 19, 2019.
+
+
+
+
+
+ "Attending Pixels, Embedding Pixels, Predicting Pixels", 
+vision@Caltech, hosted by Prof. Pietro Perona and Oisin Mac Aodha, June 6, 2019.
+
+
+
+
+
+ "Attention to Pixels, embed pixels, track pixels", UC Berkeley BAIR of
+Prof. Alyosha Efros and Prof. Hany Farid, May 24, 2019.
+
+
+
+
+
+ "Video Mining by Weakly/Un-supervised Learning", CLVR@USC of
+Prof. Joseph Lim, May 16, 2019.
+
+
+
+
+
+ "Video Mining: from Sub-pixel to Causality", Video Computing Group at UC Reverside of 
+Prof. Amit Roy-Chowdhury, April 25, 2019.
+
+
+
+
+
+ "Predictive Filter Flow: Diving into (Sub)pixels with Unsupervised, Controllable and Interpretable Learning", 
+hosted by "Academic Uncle" Alyosha Efros@BAIR
+and Andrew Owens, Feb. 18, 2019.
+
+
+
+
+
+ ""Fine-Grained Visual Understanding and Learning, WACV PhD Consortium of
+Prof. Larry S. Davis, Jan. 8, 2019.
+
+
+
+
+
+ "Fine-Grained Image Understanding", Traceup, Sep. 14, 2018.
+
+
+
+
+
+ "More to Say About ImageNet Models", UCI Computational Vision Group, May 29, 2018.
+
+
+
+
+
+ "Pay Attention to the Pixel, Understand the Scene Better", Center for Machine Learning and Intelligent Systems, UCI, May 14, 2018.
+[talk]
+
+
+
+
+
+ "(Dis)entangling Fine-Grained Scene Parsing", UCI Computational Vision Group, May 9, 2018.
+
+
+
+
+
+ "Scene Parsing through Per-Pixel Labeling: a better and faster way", ASU Active Perception Group Seminar,
+hosted by Prof. Yezhou Yang and bro Jacob Fang,
+ ASU, March 23, 2018.
+[talk]
+
+
+
+
+
+ "Towards Human-Object Interaction, and Beyond", UCI Computational Vision Group, February 27, 2018.
+
+
+
+
+
+ "Learning to Group Pixels into Boundaries, Objectness, Segments and Instances", UCI Computational Vision Group, October 31, 2017.
+
+
+
+
+
+ "Predicting Real-World Distance between 360 Photos using Deep Learning", Geo, Google, September 5, 2017.
+[talk]
+
+
+
+
+
+ "Recurrent Scene Parser with Perspective Estimation in the Loop, and beyond", DBH, UCI, April 19, 2017.
+[talk]
+
+
+
+
+
+ "Semantic Segmentation: Tricks of the Trade", UCI Computational Vision Group, Feb 22, 2017.
+
+
+
+
+
+ "Ubiquitous Fine-Grained Computer Vision
+", UCI Computational Vision Group, Nov 30, 2016.
+[talk]
+
+
+
+
+
+ "Instance Segmentation", UCI Computational Vision Group, Nov 21, 2016.
+
+[talk]
+
+
+
+
+
+ "Low-rank Bilinear Pooling for Fine-Grained Classification",
+
+Southern California Machine Learning Symposium, Caltech, Nov 18, 2016.
+
+
+
+
+
+
+ "Automated Biological Image Analysis using Computer Vision and Machine Learning through Identification, Counting, Detection and Segmetnation ",
+
+Junior Scientist Workshop on Machine Learning and Computer Vision, Janelia Research Campus, Oct 2-7, 2016.
+
+
+
+
+
+
+ "Spatially Aware Dictionary Learning and Coding for Fossil Pollen Identification", CVPR CVMI Workshop, July 1, 2016.
+[talk][poster]
+
+
+
+
+
+
+ "Geographically Aware Knowledge Mining on Mobile Data", UCI Data Hackathon, May 15, 2016.
+ [slides]
+
+
+
+
+
+ "Selecting Patches, Matching Species: Fossil Pollen Identification by Spatially Aware Coding", UCI Computational Vision Group, Apr. 06, 2016.
+ [slides]
+
+
+
+
+
+ "From Linear to Bilinear, and Beyond", UCI Computational Vision Group, Jan. 20, 2016.
+ [slides]
+
+
+
+
+
+ "Deep Understanding Image Aesthetics", UCI Computational Vision Group, Sep. 30, 2015.
+ [slides]
+
+
+
+
+
+ "Image Quality and Aesthetics Estimation",  Adobe Research, Sep. 18, 2015.
+
+
+
+
+
+ "Automated Biological Image Analysis using Computer Vision and Machine Learning", Multi-Disciplinary Project Research Symposium, Calit2 Auditorium, May. 30, 2015.
+
+
+
+
+
+ "Beyond R-CNN detection: Learning to Merge Contextual Attribute", UCI Computational Vision Group, UCI, Jan. 29, 2015.
+ [slides]
+
+
+
+
+
+ "A Story from Saliency to Objectness and Extension by Deep Neural Network with Perspective and Doubt", UCI Computational Vision Group, Nov. 6, 2014.
+ [slides]
+
+
+
+
+Services
+
+Active Reviewer/Program Committee
+
+
+
+
+ Conference:
+CVPR, ICCV, ECCV, ICLR, NeuriPS, ICML, UAI, AAAI, BMVC.
+
+
+
+
+
+
+ Journal: IEEE PAMI (2019), IEEE Access (2019), IEEE CYB (2019), JVLC (2019), Palaeo Electronica (2018), PLOS ONE (2018), IEEE TIP (2018), IEEE CYB (2018), IEEE JBHI (2017), IEEE TIP (2017), PLOS ONE (2017), IEEE TKDE(2017), IEEE CYB (2017), IEEE PAMI (2017), PRLetters (2017), IEEE CYB (2017), IEEE TIP (2016), IEEE THMS (2016), IEEE TIP (2014), MVAP (2014), DSP (2012), IEEE SPLetters (2012). 
+
+
+
+
+
+Consultant
+
+
+
+ Trace (2018-2019), 
+US Cabinets Online (2018),
+ Paralian Tech (2017)
+
+
+
+
+
+Mentorship Program
+
+
+
+ Undergrad GradSchool Q&A Panel (2017), UROP (2015), MDP (2015), Individual Study CompSci299 (2015~2019) 
+
+
+
+
+
+Department/School/University Service
+
+
+
+ Student Committee of Faculty Hiring CS-ICS-UCI: 2018, 2019 
+
+
+
+
+Graduate Open House Host: 2018, 2019 
+
+
+
+
+Panelist@ASUCI Research Mobilization Commission, 2019 
+
+
+
+
+
+Teaching
+
+
+
+ Big Data Image Processing & Analysis Course Information (2017Fall), Computational Photography and Vision (2017Spring), Big Data Image Processing & Analysis Course Information (2016Fall), Graph Algorithms (2016Spring), Machine Learning and Data Mining (2015Winter), Introduction to Graphic Models (2015Fall), Graph Algorithms (2015Spring), Machine Learning and Data Mining (2014Winter), Introduction to Artificial Intelligence (2013Spring), Computer Vision (2012Fall), Logic and Computer Design Fundamentals (2011Fall).
+
+
+
+
+Misc
+
+
+
+ I love mentoring and educating, probably due to my blood that I am a 76th generation descendant of Confucius, with my family seniority as Ling (令).
+
+
+
+
+
+བཀྲ་ཤིས་བདེ་ལེགས, a Tibetan friend gave me a Tibetan name 15 years ago, Tenzing Luobu, 单增罗布. 
+But I don't know how to spell -- this fascinates me so much (teach me if you know).
+
+
+
+
+
+ I was a co-founder of SEED -- a Registered Campus Organization to promote harmony and love within the campus, to bring critical thinking and loving attitude across cultures towards daily lives.
+
+
+
+
+
+ I'm very slow in responding to messages from all kinds of social media. 
+So email should be the best way to reach me.
+
+
+
+
+
+ I will get involved in cross-discipline research actively, like Big Data Image Processing and Analysis (Big DIPA).
+
+
+
+
+
+ Joan Agulilar and I designed "almighty search" for Snake game. The "almighty search" can always achieve the highest score, see description here, and technical report here.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

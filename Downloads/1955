@@ -1,0 +1,84 @@
+https://sli.ics.uci.edu/Code/MxGraphModel
+
+
+
+SLI | Code / MxGraphModel 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Code /
+MxGraphModel
+
+
+Planning
+
+ Factor list   (cell array)
+ Vacant list   (stack: vector + scalar)
+ Variables & dimensions somehow
+ Variable adjacency (cell array)
+
+ Factor()                              // blank constructor
+
+ FL[3] *= 2.2 (?) -- should this change the matlab factor or not? (it does; good?)
+ msg[i,j] = newmsg -- this needs to, but can call "set"...
+
+mex::set<T>
+
+ copy the vector toolkit, but with set operations
+ add equal operator for matlab 
+ extensible to Variables class? (dimensions?)
+   probably not (probably need code repetition)?
+
+cellVector
+
+ just the vector toolkit, but with cells? 
+ Is it necessary?  Or can I just use the vector class somehow?
+
+
+
+
+
+
+ Last modified February 21, 2011, at 11:54 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

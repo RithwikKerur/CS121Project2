@@ -1,0 +1,221 @@
+https://cml.ics.uci.edu/2017/10/fall-2017
+
+
+
+
+
+Fall 2017 | Center for Machine Learning and Intelligent Systems
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+University of California, Irvine
+
+
+Menu
+Skip to content
+Home
+About CML
+
+About us
+News
+Contact Us
+
+
+People
+
+Faculty
+Alumni
+
+
+Events & Seminars
+
+AI/ML Seminar Series
+AI/ML Seminar Live Stream
+CML Distinguished Speakers
+ML Reading Group
+
+
+Education & Resources
+
+Courses
+Books
+
+
+UCI Machine Learning Archive
+Sponsors & Funding
+Subscribe to CML List
+ 
+
+
+
+
+
+Fall 2017 Standard
+
+October 9, 2017
+AIML
+
+
+
+
+
+
+
+
+
+ 
+
+
+Oct 9
+
+
+No Seminar (Columbus Day)
+
+
+
+ 
+
+
+Oct 16Bren Hall 30111 pm
+
+
+Bailey KongPhD CandidateDepartment of Computer ScienceUniversity of California, Irvine
+
+Cross-Domain Forensic Shoeprint MatchingWe investigate the problem of automatically determining what type of shoe left an impression found at a crime scene. This recognition problem is made difficult by the variability in types of crime scene evidence (ranging from traces of dust or oil on hard surfaces to impressions made in soil) and the lack of comprehensive databases of shoe outsole tread patterns. We find that mid-level features extracted by pre-trained convolutional neural nets are surprisingly effective descriptors for these specialized domains. However, the choice of similarity measure for matching exemplars to a query image is essential to good performance.  For matching multi-channel deep features, we propose the use of multi-channel normalized cross-correlation and analyze its effectiveness. Finally, we introduce a discriminatively trained variant and fine-tune our system end-to-end, obtaining state-of-the-art performance.
+
+
+ 
+
+
+Oct 23Bren Hall 30111 pm
+
+
+Geng JiPhD CandidateDepartment of Computer ScienceUniversity of California, Irvine
+
+From Patches to Images: A Nonparametric Generative ModelWe propose a hierarchical generative model that captures the self-similar structure of image regions as well as how this structure is shared across image collections. Our model is based on a novel, variational interpretation of the popular expected patch log-likelihood (EPLL) method as a model for randomly positioned grids of image patches. While previous EPLL methods modeled image patches with finite Gaussian mixtures, we use nonparametric Dirichlet process (DP) mixtures to create models whose complexity grows as additional images are observed. An extension based on the hierarchical DP then captures repetitive and self-similar structure via image-specific variations in cluster frequencies. We derive a structured variational inference algorithm that adaptively creates new patch clusters to more accurately model novel image textures. Our denoising performance on standard benchmarks is superior to EPLL and comparable to the state-of-the-art, and we provide novel statistical justifications for common image processing heuristics. We also show accurate image inpainting results.
+
+
+ 
+
+
+Oct 30Bren Hall 40111 pm
+
+
+Qi LouPhD CandidateDepartment of Computer ScienceUniversity of California, Irvine
+
+Dynamic Importance Sampling for Anytime Bounds of the Partition FunctionComputing the partition function is a key inference task in many graphical models. In this paper, we propose a dynamic importance sampling scheme that provides  anytime finite-sample bounds for the partition function. Our algorithm balances the advantages of the three major inference strategies, heuristic search, variational bounds, and Monte Carlo methods, blending sampling with search to refine a variationally defined proposal. Our algorithm combines and generalizes recent work on anytime search and probabilistic bounds of the partition function. By using an intelligently chosen weighted average over the samples, we construct an unbiased estimator of the partition function with strong finite-sample confidence intervals that inherit both the rapid early improvement rate of sampling with the long-term benefits  of an improved proposal from search. This gives significantly improved anytime behavior, and more flexible trade-offs between memory, time, and solution quality. We demonstrate the effectiveness of our approach empirically on real-world problem instances taken from recent UAI competitions.
+
+
+ 
+
+
+Nov  6Bren Hall 30111 pm
+
+
+Vladimir MininProfessorDepartment of StatisticsUniversity of California, Irvine
+
+Advances of Bayesian nonparametrics in population genetics of infectious diseasesEstimating evolutionary trees, called phylogenies or genealogies, is a fundamental task in modern biology. Once phylogenetic reconstruction is accomplished, scientists are faced with a challenging problem of interpreting phylogenetic trees. In certain situations, a coalescent process, a stochastic model that randomly generates evolutionary trees, comes to rescue by probabilistically connecting phylogenetic reconstruction with the demographic history of the population under study. An important application of the coalescent is phylodynamics, an area that aims at reconstructing past population dynamics from genomic data. Phylodynamic methods have been especially successful in analyses of genetic sequences from viruses circulating in human populations. From a Bayesian hierarchal modeling perspective, the coalescent process can be viewed as a prior for evolutionary trees, parameterized in terms of unknown demographic parameters, such as the population size trajectory. I will review Bayesian nonparametric techniques that can accomplish phylodynamic reconstruction, with a particular attention to analysis of genetic data sampled serially through time.
+
+
+ 
+
+ 
+
+
+Nov 20
+
+
+No Seminar (Thanksgiving Week)
+
+
+
+ 
+
+ 
+
+
+Dec  4
+
+
+No Seminar (NIPS Conference)
+
+
+
+ 
+
+
+Dec 13Bren Hall 40111 pm
+
+
+Yutian ChenResearch ScientistGoogle DeepMind
+
+Learning to Learn without Gradient Descent by Gradient DescentWe learn recurrent neural network optimizers trained on simple synthetic functions by gradient descent. We show that these learned optimizers exhibit a remarkable degree of transfer in that they can be used to efficiently optimize a broad range of derivative-free black-box functions, including Gaussian process bandits, simple control objectives, global optimization benchmarks and hyper-parameter tuning tasks. Up to the training horizon, the learned optimizers learn to trade-off exploration and exploitation, and compare favourably with heavily engineered Bayesian optimization packages for hyper-parameter tuning.
+
+
+
+
+
+
+Post navigation
+← Singh talk, OC ACM Chapter New Faculty Member: Erik Sudderth →
+
+
+
+
+ 
+Search
+
+
+
+ 
+
+
+(c) 2015 Center for Machine Learning and Intelligent Systems
+
+WordPress/BonPress
+
+
+
+
+
+

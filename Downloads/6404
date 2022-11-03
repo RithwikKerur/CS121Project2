@@ -1,0 +1,173 @@
+http://www.ics.uci.edu/~kay/courses/i41/hw/lab4.html
+
+
+
+
+
+
+Lab Assignment 4
+
+
+
+
+
+
+INFORMATICS 41 • DAVID G. KAY • UC IRVINE • FALL 2011
+Lab Assignment 4 
+
+This assignment is due at the end of lab on
+Friday, October 21. 
+
+Choose a partner for this assignment, someone
+you haven't worked with already. Make sure you use the signup sheet to register your partnership.
+
+(a) Do exercises 22.5.20 (for which the predefined length function will be useful) and 23.2.1 (is substitute a mapping, filtering, or folding/reducing operation?).
+
+(b)  In class we wrote a function like
+in-ascending-order? as described below; we used it in testing the results of a sorting program. 
+;; in-ascending-order?: list-of-numbers -> boolean
+;; Return true if the list is empty or if each item <= all following items
+(check-expect (in-ascending-order? empty) true)
+(check-expect (in-ascending-order? (list 17)) true)
+(check-expect (in-ascending-order? (list 12 14 16 18 20)) true)
+(check-expect (in-ascending-order? (list 12 14 18 16 20)) false)
+The function as described above only works for numbers and ascending order. As we did in class with the sorting functions, generalize this function so that it works for ascending or descending order, numbers or strings or restaurants, or lists of any type of data for which two elements can be compared and put into order. Take a minute to go back and look at the code we wrote in class to see how this was done. Rename your generalized function in-order?.  Write check-expect tests that demonstrate your function's correctness on lists of numbers (correctly ordered or not), strings, and restaurants, in both ascending and descending order, correctly ordered or not. (If you're counting, that's at least 12 tests).
+Here's a question to think about:  If we want to test the correctness
+  of a sorting function, is it enough to have tests of
+  the form (check-expect (in-ascending-order? (sort L)) true)?
+  That is, if the results of our sorting function are
+  in ascending order, are we satisfied that our
+  sorting function works correctly?  (Put another way,
+  can we think of a way to write sort so that its result
+  always passes the in-ascending-order? test but the 
+  result is not correctly sorted?)
+Collect your definitions
+  for parts (a) and (b) into one Scheme file, make sure both partners' names
+  are in a comment at the top, and submit it via Checkmate. (Remember to make just one submission for both partners.)
+(c)  As you start working with the restaurants program, change your language level to Intermediate Student.
+Copy the code for the restaurants
+  program to your machine and run it to make sure it works properly in your
+  environment. See the Fourth Homework for details.
+Add one new feature to the program: c:
+      Change prices for the dishes served.
+        When the user types "c",
+          the program should ask the user for an amount (positive or negative) representing
+          a percentage change in price (so that 100 would double a price and –50 would
+          cut it in half).  Then it should apply that price change to the prices for
+          all the restaurants in the collection.  [Here are some hints on how to approach
+          this.  Before reading further, you might want to think, yourselves, about how you'd do it; you'll learn better if you think about it before reading on. You might approach
+          this task by first writing a rrant-change-price
+          function that takes a restaurant and a percentage change number, as above,
+          and returns a restaurant that has all the same information, except that
+          the price is changed appropriately.  Next you might write a function to
+          apply rrant-change-price
+          to all the restaurants in the collection.  Finally, you can incorporate
+          these calls into the main program, adding the appropriate command handling
+  and so on.]
+Submit your modified restaurants program (the whole definitions file, including parts you didn't change) via Checkmate.
+(d) As we start this part of the lab, we'll review a feature of Scheme we mentioned in class: the quote operator. If we type (+ 2 2) in the interactions window, Scheme evaluates it by applying the 
+    + 
+operator to its arguments to get 4. If we type 
+"(+ 2 2)",
+Scheme doesn't evaluate it as an arithmetic expression; the quotation marks just say to evaluate it as a string, and return the literal value 
+"(+ 2 2)".
+  Sometimes we want Scheme to evaluate what we type; sometimes we just want Scheme to treat it as data.  The way we say "don't evaluate" in Scheme is not to use double quote marks (which actually say "evaluate this as a string").  Instead, we use the quote operator, which can take the form 
+  (quote x)
+   or 
+   'x.
+     This is particularly convenient if we want to indicate a constant list in our code:  We can still say
+     (list 1 2 3),
+      but we can also say 
+      (quote (1 2 3))
+       or 
+       '(1 2 3).
+         Of course 
+         (1 2 3)
+          (without the 
+          list
+           or 
+           quote
+            or apostrophe) would give us an error, because 
+            1
+isn't the name of a defined function.  In this lab problem, you can see how we mght want to use quoted lists.
+In this problem, we're also using symbols instead of strings. For our purposes, they're basically the same thing, but symbols are single words (whereas strings can include spaces and punctuation and anything you can type on the keyboard). Because symbols are single words, we can quote them with a single apostrophe instead of with double-quotes.
+A recipe is a structure
+    (make-recipe T IL SL)
+where T is the title (a symbol), IL is a list
+of ingredients, and SL is a list of steps.
+
+An single ingredient is a symbol (like 
+'eggs);
+    a single step is a list of symbols (like 
+'(beat the eggs)).
+      A recipe contains a list
+of ingredients and a list of steps; for example:
+(make-recipe 'ThaiIcedCoffee 
+     '(coffee sugar condensed-milk ice) 
+     '((brew coffee) (add sugar and condensed-milk) (pour coffee mixture over ice)))
+ (Here you can see one advantage of using symbols instead of strings; with strings, we'd have to double-quote every individual word, but with symbols, we can just single-quote the whole list of them. Ask yourselves: What would be the problem with double-quoting the whole list of symbols here?)
+(d.1) Write the structure definition
+  for a recipe, using "title," "ingredients," and "steps"
+  as the names of the fields.
+
+(d.2) Some people say that any recipe
+    can be improved by the addition of chocolate.  (Others say sesame oil, or
+  Tabasco sauce.)  Write a definition of 
+add-special-ingredient
+.
+      You may use an auxiliary function if you like.
+  ; add-special-ingredient:  list-of-recipes  symbol   ->  list-of-recipes 
+; Return a list containing all the recipes in the input list, but with the symbol added
+;      at the beginning of the ingredients list of each recipe.
+
+(d.3)  Write a definition for 
+  complete-ingredients-list
+
+; complete-ingredients-list:  list-of-recipes  ->  list-of-symbols
+; Return a list containing all the ingredients from all the recipes in the list,
+;     with no duplications.  (You may assume that all the elements of a single
+;     ingredients list are unique.)
+
+[Hint:  Define an auxiliary function called add-unique.]
+
+(d.4) Sometimes we have to substitute
+  one ingredient for another in a recipe. Write a definition for replace-ingredient as described below.  Auxiliary functions are essential here. 
+
+; replace-ingredient: symbol1  symbol2  recipe  ->  recipe 
+; Return a recipe like the input, but with every instance of symbol1 replaced by symbol2, 
+;     both in the ingredients list and in the list of steps. 
+; Example: Suppose TIC is the Thai Iced Coffee recipe defined above. 
+;    (replace-ingredient 'coffee 'decaf  TIC) would return 
+;    (make-recipe 'ThaiIcedCoffee 
+;        '(decaf sugar condensed-milk ice)
+;        '((brew decaf) (add sugar and condensed-milk) (pour decaf mixture over ice)))
+ (d.5) (optional) Some recipes are so complex that they include in their steps some references to other recipes. A cake recipe in a cookbook, for example, might have as one step, "Use the chocolate icing recipe on page 23." To reflect this in our Scheme recipes, we change our definition of a "list of steps":
+A list of steps (LOS) is either
+
+empty;
+(cons S LOS), where S is a single step (i.e., a list of symbols); or
+(cons R LOS), where R is a recipe.
+
+ Write a definition for complete-ingredients-list2 that accommodates these (possibly nested) recipes.
+; complete-ingredients-list2:  list-of-recipes ->  list-of-symbols 
+; Return a list containing all the ingredients from all the recipes in the list, 
+;     including nested recipes, with no duplications.  (You may assume that all the
+;     elements of a single ingredients list are unique.)  
+Collect these definitions and submit them via Checkmate.  Turn in what you have by the due date; then consult with the TA if you'd like to keep working.
+
+ (e) If you have time, do exercises 22.5.15, 22.6.7, and 23.4.1. 
+(f) Remember that each partner must
+  complete a partner evaluation form on eee.uci.edu.
+
+
+Based in part on ICS H21assignments by David
+G. Kay; modified by David G. Kay for the Informatics Core Course, Fall 2004–Fall 2009. Modified to reflect the Picturing Programs text by David G. Kay, Fall 2010 and Fall 2011.
+
+David G. Kay, kay@uci.edu 
+
+Monday, October 24, 2011 6:54 AM
+
+
+
+
+

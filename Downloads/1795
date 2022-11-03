@@ -1,0 +1,80 @@
+https://sli.ics.uci.edu/Site/Site
+
+
+
+SLI | Site / Site Administration 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Site /
+Site Administration
+
+
+Here you find some links to Site configuration pages. Add links to other pages you may need for your site's configuration here, as necessary. Some links may only apply to certain configurations or skins.
+
+Note to new administrators: All pages in the 'Site' group (except Site.SideBar) are locked for editing as the default. Site.SideBar is locked with the site-wide edit password, if one is set.  In order to edit any other page in this group you need to create in local/config.php a sitewide admin password (see PmWiki.PasswordsAdmin). Then you can edit pages and change the access protection of individual pages  by changing the page attributes with ?action=attr.
+
+Configuration & Menu Pages
+SideBar - Default SideBar contents
+EditForm - Template to create your own edit page layout.
+PageActions - Contains the 'action' links (like Browse, Edit, History, etc.), to be placed at the top of the page
+PageNotFound - Template shown if a page is not found.
+PageListTemplates - Contains templates for (:pagelist:) output.
+Preferences - Template to set access key and other configurations
+AuthForm - form displayed when requesting a password or username/password
+AuthUser - configuration of identity-based authorization
+HtPasswd - administrate Wiki/SVN passwords
+EditQuickReference - quick reference for editing pages
+UploadQuickReference - quick reference for uploading pages
+AllRecentChanges
+ListAllPages
+UserCreation
+
+
+
+
+
+
+ Last modified September 30, 2008, at 03:48 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

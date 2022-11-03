@@ -1,0 +1,229 @@
+http://www-db.ics.uci.edu/pages/research/quasar/index.shtml
+
+
+Quality Aware Sensing Architecture (QUASAR)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+
+
+
+QUality Aware Sensing ARchitecture
+[ People
+    | Motivation
+    | Talks
+    | Papers
+    | Funding
+    ] 
+
+
+
+
+
+
+
+
+
+People
+
+Faculty
+
+Sharad Mehrotra 
+Nalini Venkatasubramanian 
+
+Students
+
+Ambarish De 
+Qi Han 
+Iosif Lazaridis 
+Daniel Massaguer 
+Suraj Nagasrinivasa 
+Weiwen (Raymond) Yang 
+Xingbo Yu 
+Xing Zheng 
+
+Alumni
+
+Rajat Mathur 
+Asim Memon 
+Koushik Niyogi 
+
+
+
+
+
+
+Motivation
+
+Sensor devices are promising to revolutionize our interaction with the
+  physical world by allowing continuous monitoring and reaction to natural and
+  artificial processes at an unprecedented level of spatial and temporal
+  resolution. As sensors become smaller, cheaper and more configurable, systems
+  incorporating large numbers of them become feasible. Besides the
+  technological aspects of sensor design, a critical factor enabling future
+  sensor-driven applications will be the availability of an integrated
+  infrastructure taking care of the onus of data management. Ideally, accessing
+  sensor data should be no difficult or inconvenient than using simple SQL. 
+In the Quality-Aware Sensing Architecture (QUASAR) project we investigate
+  some of the issues that such an infrastructure must address. Unlike
+  conventional distributed database systems, a sensor data architecture must
+  handle extremely high data generation rates from a large number of small
+  autonomous components. And, unlike the emerging paradigm of data streams, it
+  is infeasible to think that all this data can be streamed into the query
+  processing site, due to severe bandwidth and energy constraints of
+  battery-operated wireless sensors. Thus, sensing data architectures must
+  become quality-aware, regulating the quality of data at all levels of
+  the distributed system, and supporting user applications' quality
+  requirements in the most efficient manner possible. 
+
+
+
+
+Talks
+
+Sharad Mehrotra,
+       Nalini Venkatasubramanian, Rajesh Gupta, "System Support for
+       Sensor Networks" (Tutorial), HiPC 2003, Hyderabad, India,
+       December 2003. [Powerpoint Slides]
+       
+Sharad Mehrotra "Quality-Aware
+       Sensor Infrastructure (QUASAR) Project" (Talk at UCLA), October
+       2003. [Powerpoint Slides] 
+Sharad Mehrotra "Quality-Aware
+       Sensor Database (QUASAR) Project" (Talk at UCLA), October 2002.
+       [Powerpoint Slides] 
+
+
+
+
+Papers
+
+Iosif Lazaridis, Qi
+       Han, Sharad Mehrotra, Nalini Venkatasubramanian, "Fault-Tolerant
+       Evaluation of Continuous Selection Queries over Sensor-Generated
+       Data", (submitted for publication). 
+Iosif Lazaridis and
+       Sharad Mehrotra, "Approximate Selection Queries over Imprecise
+       Data", International Conference on Data Engineering (ICDE)
+       2004, Boston,
+       Massachussets, March 2004. [pdf]
+       
+Iosif Lazaridis, Qi
+       Han, Xingbo Yu, Sharad Mehrotra, Nalini Venkatasubramanian, Dmitri V.
+       Kalashnikov, Weiwen Yang, "QUASAR: Quality-Aware Sensing
+       Architecture" SIGMOD Record 33(1): 26-31, March 2004. [pdf]
+       
+Qi Han, Sharad
+       Mehrotra and Nalini Venkatasubramanian, "Energy Efficient Data Collection
+       in Distributed Sensor Environments", The 24th IEEE
+       International Conference on Distributed Computing Systems (ICDCS),
+       Tokyo, Japan, March, 2004. [pdf]
+       
+Xingbo Yu, Koushik
+       Niyogi, Sharad Mehrotra, and Nalini Venkatasubramanian, "Adaptive
+       Target Tracking in Sensor Networks", The 2004 Communication
+       Networks and Distributed Systems Modeling and Simulation Conference
+       (CNDS), San Diego, January 2004. [pdf] 
+Qi Han and Nalini
+       Venkatasubramanian, "Addressing Timeliness/Accuracy/Cost
+       Tradeoffs in Information Collection for Dynamic Environments",
+       The 24th IEEE International Real-time Systems Symposium (RTSS), Cancun, Mexico, December, 2003. [pdf] 
+Xingbo Yu and Sharad
+       Mehrotra, "Capturing Uncertainty in Spatial Queries over
+       Imprecise Data", The 14th International Conference on Database
+       and Expert Systems Applications (DEXA), Prague, Czech
+         Republic, September 2003. [pdf] 
+Xingbo Yu, Koushik
+       Niyogi, Sharad Mehrotra, and Nalini Venkatasubramanian, "Adaptive
+       Middleware for Distributed Sensor Environments", Middleware2003
+       WiP paper, IEEE DS Online, May 2003, Vol. 4, No.5. [html] 
+Iosif Lazaridis and
+       Sharad Mehrotra, "Capturing Sensor-Generated Time Series with
+       Quality Guarantees", International Conference on Data
+       Engineering (ICDE) 2003, Bangalore,
+        India. [pdf]
+       
+Kriengkrai Porkaew,
+       Iosif Lazaridis and Sharad Mehrotra, "Querying Mobile Objects in
+       Spatio-Temporal Databases", 7th Int'l Symposium on Spatial and
+       Temporal Databases, Redondo Beach, California, July 2001. [pdf]
+       
+Iosif Lazaridis,
+       Sharad Mehrotra, Kriengkrai Porkaew and Robert Winkler "Database
+       Support for Situational Awareness", Book Chapter, ARL Handbook,
+       2001. [MS
+       Word] 
+Iosif Lazaridis and
+       Sharad Mehrotra "Incorporating Aggregate Queries in Interactive
+       Visualization", Appeared in Proceedings of the 5th Annual
+       Federated Laboratory Symposium, Maryland, March 21-23, 2001. [MS
+       Word] 
+Iosif Lazaridis and
+       Sharad Mehrotra, "Progressive Approximate Aggregate Queries with
+       a Multi-Resolution Tree Structure", 2001 ACM SIGMOD Conference
+       on Management of Data, Santa
+         Barbara, May, 2001. [pdf]
+       
+
+
+
+
+Project Funding
+
+Funding is provided by
+  the National Science Foundation under Grant No. IIS-0086124 and Award No.
+  0331707, the Army Research Laboratory under Cooperative Agreements No.
+  DAAL-01-96-2-0003 and No. DAAD-19-00-1-0188, and the Office of Naval Research
+  under contract number N00014-02-1-0715. 
+
+
+
+
+
+Sensor-Related Information
+
+
+[Dani] Power issues on MICAz and its sensor
+       boards 
+MICAz,
+       MICA2, MICA2Dot and Programming Board User's Manual (specs on Power
+       consumption among others) 
+CrossBow
+       Sensor and Data AcquisitionBoards specs 
+Excel sheet for
+       calculating life-time of MICA motes (change the values to match your
+       specific MICA mote (MICAz, MICA2, MICA2DOT) 
+
+
+
+
+
+
+
+[Dani]
+       ZigBee standard 
+
+
+
+
+
+
+ 
+
+
+

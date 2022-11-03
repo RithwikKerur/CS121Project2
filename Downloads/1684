@@ -1,0 +1,1007 @@
+http://sli.ics.uci.edu/extras/cs178/Intro_Tutorial.html
+
+
+
+Intro_Tutorial
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NumPy, MatPlotLib, and course tools tutorial¶In this notebook, we will go through some basics of the python tools for numerical computing and plotting, as well as some of the code framework we will be using in class.
+NumPy¶There are many libraries for scientific computing in python, but NumPy (http://www.numpy.org/) is one of the most common and well established.  NumPy gives a relatively efficient framework for manipulating fixed-type arrays, such as vectors, matrices, and tensors, as well as extensive libraries for common operations on those structures, such as computing data statistics, linear algebraic operations, and much more.  Many of its core operations are similar to Matlab/Octave, although it is more flexible and Pythonic.
+MatPlotLib¶MatPlotLib (http://matplotlib.org/) is a library for generating plots and figures in Python, specifically modeled to mimic the capabilities of Matlab for generating easy visualizations.  There are many alternative libraries for plotting data, some with featurs that matplotlib lacks, but matplotlib's simplicity and similarity to Matlab syntax and capabilities have made it fairly popular.
+SciPy¶We will also occasionally need SciPy (http://www.scipy.org/), which has some functions not included in NumPy.
+All three libraries should be fairly simple to install; I would recommend installing the "full SciPy stack" (which includes iPython notebook and a few other things), as detailed here: http://www.scipy.org/install.html
+You may find iPython notebooks very helpful in creating nice homework reports; they allow you both a nice interactive format for experimentation, as well as re-running the whole thing from scratch if desired.
+Here is some math, using LaTeX, for example:
+$$f(x;\theta) = \theta_0 + \theta_1 x_1$$
+PyTorch¶PyTorch is a framework for machine learning software with excellent auto-differentiation and optimization support.  Many machine learning algorithms can be implemented compactly and easily in PyTorch.  You can find documentation at  https://pytorch.org/
+
+
+
+
+
+
+Course Tools¶We will also use some simple machine learning tools developed for the class.  These are not an offical library, so you'll just install them like your own source code -- place the "mltools" directory (not just the files, but the directory itself) in either your current working directory, or in a directory on your python path.  (You can check that this is working by e.g.
+python -c "import mltools as ml"
+
+If you get an error, the code is not located correctly.
+If you are working interactively (for example, in Jupyter), you can also add a path to the tools manually, by e.g.,
+import sys
+sys.path.append('/my/path/to/parentdir')
+
+Again, you should provide the path to the directory that contains the mltools directory, not to the directory itself.
+Note that, while these tools are useable for your own projects, they are intended to provide a simplified skeleton of how various machine learning techniques work, for the educational purpose of understanding the concepts and writing and examining a number of fundamental algorithms.  If you are interested in using a more fully-featured library for practice, there are a number of excellent options, including
+
+Scikit-Learn (Python), https://scikit-learn.org/
+PyLearn2 (Python), http://deeplearning.net/software/pylearn2/
+PMTK3 (Octave), https://github.com/probml/pmtk3
+
+
+
+
+
+
+
+NumPy Basics¶We will use NumPy for representing data matrices and vectors.
+Defining arrays of data¶To define one-dimensional arrays (vectors), we can use numpy's "array" object and pass it a list of values:
+
+
+
+
+
+In [1]:
+
+
+import numpy as np
+
+a = np.array([1,2,3,4,5,6,7])
+# or equivalently, using Python iterables:
+a = np.array( range(1,8) )
+print(a)
+
+
+
+
+
+
+
+
+
+[1 2 3 4 5 6 7]
+
+
+
+
+
+
+
+
+
+To make a 2D array (matrix), provide the constructor with a list of lists:
+
+
+
+
+
+In [2]:
+
+
+A = np.array( [[1,2,3,4],[5,6,7,8],[9,10,11,12]] )
+print(A)
+
+
+
+
+
+
+
+
+
+[[ 1  2  3  4]
+ [ 5  6  7  8]
+ [ 9 10 11 12]]
+
+
+
+
+
+
+
+
+
+For linear algebra-like operations will usually want "vectors" of size (m,1) or size (1,n) -- in other words, two-dimensional matrices.  (Note: there is a numpy class "matrix" that is specialized to linear algebra, but you should be a bit careful mixing "array" and "matrix" objects; so for now we'll stick with arrays).
+
+
+
+
+
+In [3]:
+
+
+# A row vector can be created as:
+b = np.array( [[1,2,3,4,5,6,7]])
+# and a column vector as
+bT = np.array( [[1],[2],[3],[4],[5],[6],[7]] )
+# that's pretty inconvient, so we usually just use the "transpose" operator:
+bT = np.array( [[1,2,3,4,5,6,7]]).T
+
+
+
+
+
+
+
+
+One thing to notice is that $a$ and $b$ are not quite the same!  $a$ is a vector with shape (7,), while $b$ is actually a matrix with shape (1,7) -- it has two dimensions, one of which just happens to be one.
+
+
+
+
+
+In [4]:
+
+
+print("a's shape: ",a.shape,"; \t b's shape: ",b.shape)
+
+
+
+
+
+
+
+
+
+a's shape:  (7,) ; 	 b's shape:  (1, 7)
+
+
+
+
+
+
+
+
+
+The difference here is pretty semantic, but can make a difference to python -- 
+so if you're getting shape errors, check what shape your variables are and make
+sure that's what's expected.
+You can use "atleast_2d" to force a vector to become a matrix, but be careful of what size is created:
+
+
+
+
+
+In [5]:
+
+
+aNew = np.atleast_2d(a)
+print("shape after 2D: ", aNew.shape)
+
+
+
+
+
+
+
+
+
+shape after 2D:  (1, 7)
+
+
+
+
+
+
+
+
+
+There are several useful constructors for matrices that automatically "fill" a matrix of some shape:
+
+
+
+
+
+In [6]:
+
+
+A0 = np.zeros( (3,4) )    # create a 3x4 matrix of all zeros
+A1 = np.ones( (4,4) )     # create a 4x4 matrix of all ones
+Ru = np.random.rand(2,2)  # create a 2x2 matrix of uniform random numbers, in [0,1)
+Rn = np.random.randn(3,2) # create a 3x2 matrix of Gaussian random numbers, with mean 0 and variance 1
+B = np.tile(b, (3,2))     # create a matrix by "tiling" copies of b (3 copies by 2 copies)
+
+
+
+
+
+
+
+
+A very useful constructor is linspace (and similarly logspace)
+
+
+
+
+
+In [7]:
+
+
+b = np.linspace(1.0,7.0,4) # length-4 vector interpolating between 1.0 and 7.0
+c = np.logspace(0.0,2.0,7) # length-7 vector interpolating between 10^0 and 10^2 logarithmically
+
+
+
+
+
+
+
+
+Array indexing¶
+
+
+
+
+
+
+Arrays can be indexed in simple and useful ways.
+The (i,j)th entry in a matrix is simply:
+
+
+
+
+
+In [8]:
+
+
+print("A[2,0]=",A[2,0])   # 3rd row, 1st column
+
+
+
+
+
+
+
+
+
+A[2,0]= 9
+
+
+
+
+
+
+
+
+
+To reference an entire row or column, use the slice operator ":"
+
+
+
+
+
+In [9]:
+
+
+print("A[0,:]=",A[0,:])
+print("A[:,1]=",A[:,1])
+
+
+
+
+
+
+
+
+
+A[0,:]= [1 2 3 4]
+A[:,1]= [ 2  6 10]
+
+
+
+
+
+
+
+
+
+Note that these are now vectors, not size-1 matrices, per the previous discussion.
+You can use more general slicing with steps:
+
+
+
+
+
+In [10]:
+
+
+print("A[1,0:2]=",A[1,0:2])
+print("A[0,0:4:2]=",A[0,0:4:2])
+
+
+
+
+
+
+
+
+
+A[1,0:2]= [5 6]
+A[0,0:4:2]= [1 3]
+
+
+
+
+
+
+
+
+
+It is often useful to use lists to slice out particular rows or columns.
+You can do this with one row and several columns (or vice versa):
+
+
+
+
+
+In [11]:
+
+
+print("A[2, [1,4]]=",A[2, [0,3]])
+
+
+
+
+
+
+
+
+
+A[2, [1,4]]= [ 9 12]
+
+
+
+
+
+
+
+
+
+or all rows and selected columns (or vice versa)
+
+
+
+
+
+In [12]:
+
+
+print("A[:, [1,4]]=\n",A[:, [0,3]])
+
+
+
+
+
+
+
+
+
+A[:, [1,4]]=
+ [[ 1  4]
+ [ 5  8]
+ [ 9 12]]
+
+
+
+
+
+
+
+
+
+Arithmetic operations¶
+
+
+
+
+
+
+Arithmetic operations are defined for arrays, i.e.,
+
+
+
+
+
+In [13]:
+
+
+a  = a+2
+# or
+a += 2
+
+
+
+
+
+
+
+
+adds the scalar value 2 to every entry of a; similarly for *,-,/, etc.
+You can add two vectors if they are the same size:
+
+
+
+
+
+In [14]:
+
+
+print("a + 2*c = ",a+2*c)
+
+
+
+
+
+
+
+
+
+a + 2*c =  [  7.          10.30886938  16.28317767  28.          52.0886938
+ 102.83177667 211.        ]
+
+
+
+
+
+
+
+
+
+but you cannot add two vectors that are not the same size (unless one is a scalar):
+
+
+
+
+
+In [15]:
+
+
+try:
+    print("a + b = ",a+b)  # raises a ValueError exception
+except:
+    print("Got exception!")
+
+
+
+
+
+
+
+
+
+Got exception!
+
+
+
+
+
+
+
+
+
+Operators are interpreted as elementwise, so that a*c is a vector:
+
+
+
+
+
+In [16]:
+
+
+print(a * c)
+
+
+
+
+
+
+
+
+
+[   5.           12.92660814   32.49112184   80.          193.8991221
+  464.15888336 1100.        ]
+
+
+
+
+
+
+
+
+
+Linear-algebraic operations are also defined for vectors and matrices:
+
+
+
+
+
+In [17]:
+
+
+a.dot(c.T)  # The dot product between vectors a and c
+A.dot(b.T)  # The matrix-vector product of A and  c
+
+
+
+
+
+
+
+Out[17]:
+
+array([ 50., 114., 178.])
+
+
+
+
+
+
+
+
+Elementwise powers are ** while matrix powers use the linalg module:
+
+
+
+
+
+In [18]:
+
+
+R=A**2                          # The elementwise square of A: R(i,j)=A(i,j)^2
+R=np.linalg.matrix_power(A1,2)  # The matrix product R=A1*A1: R(i,j)=\sum_k A1(i,k)*A1(k,j)
+
+
+
+
+
+
+
+
+NOTE¶numpy also includes a "matrix" class, which wraps / redefines the "array" class
+for matrix objects, the operator "*" means matrix multiplication, and "**" matrix power
+So, be careful which type of object you make!
+We usually want both matrix-like operators and array-like operators, so for consistency
+I usually define the objects to be arrays, and use "dot" when I want matrix operations.
+(These days, even NumPy has deprecated the use of "matrix", so you probably shouldn't use it!)
+
+
+
+
+
+
+Logical operands and logical indexing¶
+
+
+
+
+
+
+It's often useful to use elementwise logical operations, which produce new (logical) vectors and matrices:
+
+
+
+
+
+In [19]:
+
+
+a = np.array([0,1,2])
+b = np.array([0,0,2])
+
+# comparison operators produce new logical vectors or matrices:
+print("a==b : ",a==b)    # prints logical vector [1,0,1]
+print("a!=b : ",a!=b)    # prints logical vector [0,1,0]
+print("a<2  : ",a<2)     # prints logical vector [1,1,0]
+
+
+
+
+
+
+
+
+
+a==b :  [ True False  True]
+a!=b :  [False  True False]
+a<2  :  [ True  True False]
+
+
+
+
+
+
+
+
+
+For us in flow control (if, etc.), you probably want to convert these to scalars with any or all:
+
+
+
+
+
+In [20]:
+
+
+print("Any? ",np.any( a!=b ))   # true if any a(i)!=b(i) for some i 
+print("All? ",np.all( a==b ))   # true if all a(i)=b(i) for every i 
+
+
+
+
+
+
+
+
+
+Any?  True
+All?  False
+
+
+
+
+
+
+
+
+
+For matrices, you may want to only collapse one or more dimensions:
+
+
+
+
+
+In [21]:
+
+
+M=[[0,1],[0,0]]; 
+print(np.any( M , axis=0))      # acts on individual columns of M; returns a logical row vector 
+
+
+
+
+
+
+
+
+
+[False  True]
+
+
+
+
+
+
+
+
+
+We can use these logical vectors and matrices for indexing, such as to extract sub-matrices:
+
+
+
+
+
+In [22]:
+
+
+print("Positive entries of a: ", a[ a>0 ])
+
+
+
+
+
+
+
+
+
+Positive entries of a:  [1 2]
+
+
+
+
+
+
+
+
+
+MatPlotLib for plotting¶MatPlotLib gives a nice plotting interface similar to Matlab / Octave.
+Scatterplots and line plots¶The most typical action is to plot one sequence (x-values) against another (y-values); this can be done using disconnected points (a scatterplot), or by connecting adjacent points in the sequence (in the order they were provided).  The latter is usually used to give a nice (piecewise linear) visualization of a continuous curve, by specifying x-values in order, and the y-values given by the function at those x-values:
+
+
+
+
+
+In [23]:
+
+
+import matplotlib.pyplot as plt   # use matplotlib for plotting with inline plots
+%matplotlib inline
+#import mpld3                       # mpld3 is a "interactive plot" widget for ipython notebook
+#mpld3.enable_notebook()            # uncomment to be able to zoom into plots, etc.
+
+
+
+
+
+
+
+
+Plotting a scatter of data points:
+
+
+
+
+
+In [24]:
+
+
+x_values = np.random.rand(1,10)   # unformly in [0,1)
+y_values = np.random.randn(1,10)  # Gaussian distribution
+plt.plot(x_values, y_values, 'ko');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The string determines the plot appearance -- in this case, black circles.  You can use color strings ('r', 'g', 'b', 'm', 'c', 'y', ...) or use the "Color" keyword to specify an RGB color.  Marker appearance ('o','s','v','.', ...) controls how the points look.
+If we connect those points using a line appearance specification ('-','--',':',...), it will not look very good, because the points are not ordered in any meaningful way.  Let's try a line plot using an ordered sequence of x values:
+
+
+
+
+
+In [25]:
+
+
+x_values = np.linspace(0,8,100)
+y_values = np.sin(x_values)
+plt.plot(x_values,y_values,'b-');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+This is actually a plot of a large number of points (100), with no marker shape and connected by a solid line.
+For plotting multiple point sets or curves, you can pass more vectors into the plot function, or call the function multiple times:
+
+
+
+
+
+In [26]:
+
+
+x_values = np.linspace(0,8,100)
+y1 = np.sin(x_values)         # sinusoidal function
+y2 = (x_values - 3)**2 / 12   # a simple quadratic curve
+y3 = 0.5*x_values - 1.0       # a simple linear function
+
+plt.plot(x_values, y1, 'b-', x_values, y2, 'g--');  # plot two curves
+plt.plot(x_values, y3, 'r:'); # add a curve to the plot
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+You may want to explicitly set the plot ranges -- perhaps the most common pattern is to plot something, get the plot's ranges, and then restore them later after plotting another function:
+
+
+
+
+
+In [27]:
+
+
+x_values = np.linspace(0,8,100)
+y1 = np.sin(x_values)         # sinusoidal function
+y3 = 0.5*x_values - 1.0       # a simple linear function
+
+plt.plot(x_values, y1, 'b-') 
+axis = plt.axis()               # get the x and y axis ranges
+print(axis)
+# you can set or modify the axis values explicitly if you want...
+
+# now plot something else (which will change the axis ranges):
+plt.plot(x_values, y3, 'r:'); # add the linear curve
+plt.axis(axis);               # restore the original plot's axis ranges
+
+
+
+
+
+
+
+
+
+(-0.4, 8.4, -1.099652011574681, 1.0998559934443881)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Histograms¶Histograms are also useful visualizations:
+
+
+
+
+
+In [28]:
+
+
+plt.hist(y2, bins=20);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The outputs of hist include the bin locations, the number of data in each bin, and the "handles" to the plot elements to manipulate their appearance, if desired.
+
+
+
+
+
+
+Subplots and plot sizes¶It is often useful to put more than one plot together in a group; you can do this using the subplot function.  There are various options; for example, "sharex" and "sharey" allow multiple plots to share a single axis range (or, you can set it manually, of course).
+I often find it necessary to also change the geometry of the figure for multiple subplots -- although this is more generally useful as well, if you have a plot that looks better wider and shorter, for example.
+
+
+
+
+
+In [29]:
+
+
+#plt.figure( figsize = (12,3) );  # make a wide, short canvas for a single figure
+
+# Or, create a 1 x 3 grid of plots; useful to make this wide & short also
+fig,ax = plt.subplots(1,3, figsize=(12,3));   
+ax[0].plot(x_values, y1, 'b-');   # plot y1 in the first subplot
+ax[1].plot(x_values, y2, 'g--');  #   y2 in the 2nd
+ax[2].plot(x_values, y3, 'r:');   #   and y3 in the last
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Plotting over time¶
+
+
+
+
+
+
+Sometimes we may want to update a plot while performing a long computation (for example, training a model to fit our data).  The easiest way to do this in Jupyter is to simply clear the display and then re-plot (being careful to make the plot the same size and same axis ranges, so that it doesn't appear to change in strange ways):
+
+
+
+
+
+In [30]:
+
+
+from IPython import display
+import time
+
+for i in range(len(y1)//5):
+    display.clear_output(wait=True);
+    time.sleep(1)
+    plt.plot(x_values[:5*i],y1[:5*i],'b-');
+    plt.axis([0,8,-1,1]);
+    plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

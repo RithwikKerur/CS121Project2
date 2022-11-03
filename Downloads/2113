@@ -1,0 +1,151 @@
+https://www.cs.uci.edu/uci-news-risk-to-reward-one-alums-journey
+
+
+
+
+UCI News: “Risk to reward: One alum’s journey” 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ this is a widget called second front page widget area
+
+Explore
+
+Contact Us
+
+
+Faculty
+Research
+
+Research Areas
+Research Centers
+
+
+Graduate Degrees
+
+Computer Science Programs
+Current Graduate Students
+
+
+Undergraduate Degrees
+News  & Events
+
+News
+Seminar Series
+Distinguished Lecture Series
+Research Showcase
+
+
+Apply Now
+
+Undergraduate Admissions
+Graduate Admissions
+Faculty Candidates
+
+
+UCI News: “Risk to reward: One alum’s journey”
+April 28, 2021 
+Rosario Cammarota, who left ‘respectable job’ in Italy to earn Ph.D. at UCI, now leads cutting-edge research project at Intel Labs
+
+“UCI has been a gateway for me. I was able to build numerous and long-lasting relationships, not only with my advisers – with whom I still spend countless hours debating, laughing and learning – but also with many other professors, students and administrators,” says Rosario Cammarota, who earned a Ph.D. in computer science at UCI’s Donald Bren School of Information & Computer Sciences in 2013 and now works at Intel Labs. Nga Dang
+Naples, Italy, native Rosario Cammarota earned a Ph.D. in computer science at UCI in 2013. The expertise he gained and the connections he made during his time at the Donald Bren School of Information & Computer Sciences helped Cammarota land in his current role as a principal engineer at Intel Labs in Santa Clara, where he is now in charge of a new, federally funded data security collaboration. Here, Cammarota describes that project and shares some details of his background that brought him to where he is today.
+There have been media reports about a new collaboration between Intel Labs and the federal Defense Advanced Research Projects Agency. Could you describe this project?
+We recently announced that Intel has signed an agreement with DARPA to participate in its Data Protection in Virtual Environments program. Through DPRIVE, we’re architecting an innovative and high-performance processor for encrypted data.
+Here’s why that’s important: Fully homomorphic encryption allows us to protect the confidentiality of data during processing without decryption. This is a pretty radical concept, as it would enable technologies such as artificial intelligence to extract full value from massive datasets without ever compromising data privacy. An example would be the ability to deliver highly personalized recommendations to consumers without ever revealing any of their personally identifiable information.
+Processing data with fully homomorphic encryption is possible but expensive due to various forms of inefficiencies introduced during encryption to keep the data secure. A computation that would take milliseconds to complete on a standard laptop would take weeks to compute on a conventional server running homomorphic encryption in software today. We currently estimate that we’re about a million times slower to compute in the homomorphic encryption world than we are in the plain-text world.
+The goal of the DPRIVE program is to nearly eliminate the homomorphic encryption performance tax as compared to the computational speeds we see on plain text. If we’re able to achieve this goal while enabling the technology to scale, DPRIVE will have a significant impact on our ability to protect and preserve data and user privacy while sustaining innovation through AI and intelligent automation.
+What prompted you to leave Italy and enroll at UCI’s Donald Bren School of Information & Computer Sciences?
+I came to UCI in 2008 to pursue a master’s degree in computer science. It was part of an arrangement with the Italian National Labs; I remember it was nicknamed “the Italy program.”
+I had a stable and respectable job as a research engineer at a local company incubated in Italy’s Institute of Cybernetics in my hometown of Naples. But my aspiration to pursue higher education – to become a scientist and innovate, along with the chance to learn from pioneers in computer science – counterbalanced any argument to stop me from making such an investment of time and effort. Gaining mastery in subjects such as computer architecture, parallelizing compilers, embedded systems, distributed systems, and computer and network security would complement my original background in telecommunications engineering. The opportunity was tremendous.
+A few months later, I landed at LAX. I worked hard at UCI, so much so that once I obtained my master’s degree, I was given the chance to stay a little longer to pursue a Ph.D. in computer science under the supervision of professors Alex Veidenbaum and Alex Nicolau. I earned the doctorate in 2013. The journey confirmed my initial intuition to seize that unique opportunity that I had been searching for relentlessly.
+Do you feel that your education at UCI prepared you for the work you’re now doing with Intel Labs?
+The program in computer science at UCI included courses in areas such as modern microprocessors, high-performance architecture and compilers, embedded and cyber-physical systems, networking, computer and network security, and computer graphics. These courses required doing research in the subject and had a considerable component of hands-on learning, which is a plus. What I enjoyed most was the interaction with the professors, including and beyond my advisers. That interaction awakened me and put me on the right track. It provided me with a solid foundation to become independent as a researcher and contributor to science and technology for the good of society. It eventually led me to where I am right now.
+The journey has been rewarding ever since. Prior to joining Intel Labs and the security and privacy world as a professional researcher, I was at Qualcomm Research in a security role that largely drew on my background in traditional computer science and telecommunications engineering. I still say that I received my postdoctoral education in applied cryptography during my time at Qualcomm. The combination of what I studied at UCI and my “postdoctoral work” opened up several doors for me, including but not limited to being a thought leader in the field, which ultimately brought me to my current role as principal investigator on the DPRIVE project at Intel Labs. It also helped nourish a healthy professional network spanning academic, industry and government research groups.
+Do you have any interesting memories from your time at UCI that you’d like to share, such as projects you worked on or people you worked with?
+UCI has been a gateway for me. I was able to build numerous and long-lasting relationships, not only with my advisers – with whom I still spend countless hours debating, laughing and learning – but also with many other professors, students and administrators. Nearly a decade later, I still hang out with my sailing/surfing buddy, get together from time to time with alums who have become friends, and meet people from the school now scattered around the world when I travel. I remember UCI as being a diverse and inclusive environment that enabled many young, budding researchers like myself to find their wings early on. I feel very thankful.
+But the best of my memories, the one that eclipses all, is that I met my wife at UCI. She was also a student in the computer science department but with a different adviser. We’ve been married for more than 10 years, as happy as when we met, and are parents of a 4-year-old. Someday, we hope to give him a tour of the campus where Mom and Dad first met!
+What are some of your interests and pursuits away from work?
+When I don’t ride my skateboard side by side with my son or dedicate time to my wife, I love playing electric guitar. I have a collection of five guitars, each with a different personality. I’ve been playing for about two decades, and I can’t imagine ever stopping. I also try to exercise regularly – but not always successfully!
+Originally posted at UCI News.
+« 2020 Amazon Research Awards recipients announced (Sameer Singh awarded)UCI News: “Michael Franz wins ACM Chuck Thacker Breakthrough in Computing Award” »
+
+Latest news
+
+
+Senior Spotlight: Tennis Player and CS Major Matthew Sah Serves Up Aces On and Off the Court
+September 28, 2022
+
+
+Register Today for the Southern California AI & Biomedicine Symposium
+September 20, 2022
+
+
+CPO Magazine: “A Legal View of New NIST Quantum-Resistant Algorithms” by Bryan Cunningham
+September 19, 2022
+
+
+UCI Ranked 24th in Undergraduate Computer Science Programs by U.S. News & World Report
+September 16, 2022
+
+
+Senior Spotlight: Jose Cisneros Builds Impressive Resume with Trio of Internships
+September 15, 2022
+
+
+
+
+ 
+
+
+
+
+
+© 2022 UC Regents
+Feedback
+Privacy Policy
+
+
+
+ 
+
+
+
+

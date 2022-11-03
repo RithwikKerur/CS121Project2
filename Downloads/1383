@@ -1,0 +1,9 @@
+http://plrg.ics.uci.edu/publications/430.bib
+@inproceedings{key,
+ author = {James C. Jenista and Yong hun Eom and Brian Demsky},
+ title = {Using Disjoint Reachability for Parallelization},
+ booktitle = {Proceedings of the 20th International Conference on Compiler Construction},
+ location = {Saarbrücken, Germany},
+ month = {April},
+ year = {2011}
+}

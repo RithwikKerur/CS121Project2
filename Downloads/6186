@@ -1,0 +1,259 @@
+https://cml.ics.uci.edu/aiml/page/25
+
+
+
+
+
+AI/ML Seminar Series | Center for Machine Learning and Intelligent Systems | Page 25
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+University of California, Irvine
+
+
+Menu
+Skip to content
+Home
+About CML
+
+About us
+News
+Contact Us
+
+
+People
+
+Faculty
+Alumni
+
+
+Events & Seminars
+
+AI/ML Seminar Series
+AI/ML Seminar Live Stream
+CML Distinguished Speakers
+ML Reading Group
+
+
+Education & Resources
+
+Courses
+Books
+
+
+UCI Machine Learning Archive
+Sponsors & Funding
+Subscribe to CML List
+ 
+
+
+
+
+
+
+AI/ML Seminar Series Standard 
+
+Weekly Seminar in AI & Machine LearningSponsored by Cylance
+
+
+
+
+
+
+
+Navigation
+
+‹Earlier
+Fall 2013 Later ›
+
+
+
+
+
+
+
+  
+
+
+Sept 26Bren Hall 40111 pm
+
+
+Vittorio FerrariReaderDepartment of InformaticsUniversity of Edinburgh
+
+Searching for objects driven by contextThe dominant visual search paradigm for object class detection is sliding windows. Although simple and effective, it is also wasteful, unnatural and rigidly hardwired. We propose strategies to search for objects which intelligently explore the space of windows by making sequential observations at locations decided based on previous observations. Our strategies adapt to the class being searched and to the content of a particular test image, exploiting context as the statistical relation between the appearance of a window and its location relative to the object, as observed in the training set. In addition to being more elegant than sliding windows, we demonstrate experimentally on the PASCAL VOC 2010 dataset that our strategies evaluate two orders of magnitude fewer windows while achieving higher object detection performance.
+
+
+  
+
+
+Oct 7Bren Hall 40111 pm
+
+
+Babak ShahbabaAssistant ProfessorDepartment of StatisticsUniversity of California, Irvine
+
+Towards Scalable Bayesian InferenceMassive datasets have imposed new challenges for the scientific community. Data-intensive problems are especially challenging for Bayesian methods, which typically involve intractable models that rely on Markov Chain Monte Carlo (MCMC) algorithms for their implementation. In this talk, I will discuss our recent attempts to develop a new class of scalable computational methods to facilitate the application of Bayesian statistics in data-intensive scientific problems. One approach uses geometrically motivated methods that explore the parameter space more efficiency by exploiting its geometric properties. Another approach uses techniques that are designed to speed up sampling algorithms through faster exploration of the parameter space. I will also discuss a possible integration of geometric methods with proper computational techniques to improve the overall efficiency of sampling algorithms so that they can be used for Big Data analysis.
+
+
+  
+
+
+Oct 14Bren Hall 40111 pm
+
+
+James FouldsPhD CandidateDepartment of Computer ScienceUniversity of California, Irvine
+
+Modeling Scientific Impact with Topical Influence RegressionWhen reviewing scientiﬁc literature, it would be useful to have automatic tools that identify the most inﬂuential scientiﬁc articles as well as how ideas propagate between articles. In this context, this paper introduces topical inﬂuence, a quantitative measure of the extent to which an article tends to spread its topics to the articles that cite it. Given the text of the articles and their citation graph, we show how to learn a probabilistic model to recover both the degree of topical inﬂuence of each article and the inﬂuence relationships between articles. Experimental results on corpora from two well-known computer science conferences are used to illustrate and validate the proposed approach.
+
+
+  
+
+
+Oct 21Bren Hall 40111 pm
+
+
+Mohammad AzarPostdoctoral FellowSchool of Computer ScienceCarnegie Mellon University
+
+A Spectral Approach to Sequential Transfer in Multi-armed Bandit with Finite Set of ModelsLearning from prior tasks and transferring that experience to improve future performance is critical for building lifelong learning agents. Although results in supervised and reinforcement learning show that transfer may significantly improve the learning performance, most of the literature on transfer is focused on batch learning tasks. In this paper we study the problem of \textit{sequential transfer in online learning}, notably in the multi-armed bandit framework, where the objective is to minimize the cumulative regret over a sequence of tasks by incrementally transferring knowledge from prior tasks. We introduce a novel bandit algorithm based on a method-of-moments approach for the estimation of the possible tasks and derive regret bounds for it.
+Bio:
+Mohammad Gheshlaghi Azar studied  Electrical Engineering (control theory) at University of Tehran, Iran from 2003 till 2006. He then moved to Netherlands for Ph.d., where he worked with Professor Bert Kappen and Professor Remi Munos on the subject of statistical machine learning and reinforcement learning.  Following finishing his Ph.D. in 2012, he joined the school of computer science at Carnegie Mellon university as a postdoctoral fellow, where he is working with Professor  Brunskill on the subject of transfer of knowledge in sequential decision making problems. His research is focused on developing new machine learning algorithms which apply to  life-long and real-world learning and decision making problems.
+
+
+  
+
+
+Oct 28Bren Hall 40111 pm
+
+
+Brian MilchSoftware EngineerGoogle (Los Angeles)
+
+From Text to Concepts at GoogleThis talk will describe Rephil, a system used widely within Google to identify the concepts or topics that underlie a given piece of text.  Rephil determines, for example, that “apple pie” relates to some of the same concepts as “chocolate cake”, but has little in common with “apple ipod”.  The concepts used by Rephil are not pre-specified; instead, they are derived by an unsupervised learning algorithm running on massive amounts of text.  The result of this learning process is a Rephil model — a giant Bayesian network with concepts as nodes.  I will discuss the structure of Rephil models, the distributed machine learning algorithm that we use to build these models from terabytes of data, and the Bayesian network inference algorithm that we use to identify concepts in new texts under tight time constraints.  I will also discuss how Rephil relates to ongoing academic research on probabilistic topic models.
+Bio:
+Brian Milch is a software engineer at Google’s Los Angeles office.  He first joined Google in 2000, after completing a B.S. in Symbolic Systems at Stanford University.  A year later, he entered the Computer Science Ph.D. program at U.C. Berkeley.  He received his doctorate in 2006, with a thesis focused on the integration of probabilistic and logical approaches to artificial intelligence.  He then spent two years as a post-doctoral researcher at MIT before returning to Google in 2008.  He has contributed to Google production systems for spelling correction, transliteration, and semantic modeling of text.
+
+
+  
+
+
+Nov 4Bren Hall 40111 pm
+
+
+Yifei ChenPhD CandidateDepartment of Computer ScienceUniversity of California, Irvine
+
+A gradient boosting algorithm for survival analysis via direct optimization of concordance indexSurvival analysis focuses on modeling and predicting the time to an event of interest. Traditional survival models (e.g., the prevalent proportional hazards model) often impose strong assumptions on hazard functions, which describe how the risk of an event changes over time depending on covariates associated with each individual. In this paper we propose a nonparametric survival model (GBMCI) that does not make explicit assumptions on hazard functions. Our model trains an ensemble of regression trees by the gradient boosting machine to optimize a smoothed approximation of the concordance index, which is one of the most widely used metrics in survival model evaluation. We benchmarked the performance of GBMCI against other popular survival models with a large-scale breast cancer prognosis dataset. Our experiment shows that GBMCI consistently outperforms other methods based on a number of covariate settings.
+
+
+  
+
+
+Nov 11
+
+
+Veterans Day(no seminar)
+
+
+
+  
+
+
+Nov 18Bren Hall 40111 pm
+
+
+Shiwei LanPhD CandidateDepartment of StatisticsUniversity of California, Irvine
+
+Spherical Hamiltonian Monte Carlo for Constrained Target DistributionsStatistical models with constrained probability distributions are abundant in machine learning. Some examples include regression models with norm constraints (e.g., Lasso), probit models, many copula models, and Latent Dirichlet Allocation (LDA) models. Bayesian inference involving probability distributions confined to constrained domains could be quite challenging for commonly used sampling algorithms. For such problems, we propose a novel Markov Chain Monte Carlo (MCMC) method that provides a general and computationally efficient framework for handling boundary conditions. Our method first maps the $D$-dimensional constrained domain of parameters to the unit ball ${\bf B}_0^D(1)$, then augments it to the $D$-dimensional sphere ${\bf S}^D$ such that the original boundary corresponds to the equator of ${\bf S}^D$. This way, our method handles the constraints implicitly by moving freely on sphere generating proposals that remain within boundaries when mapped back to the original space. To improve the computational efficiency of our algorithm, we divide the dynamics into several parts such that the resulting split dynamics has a partial analytical solution as a geodesic flow on the sphere. We apply our method to several examples including truncated Gaussian, Bayesian Lasso, Bayesian bridge regression, and a copula model for identifying synchrony among multiple neurons. Our results show that the proposed method can provide a natural and efficient framework for handling several types of constraints on target distributions.
+
+
+  
+
+
+Nov 25
+
+
+Thanksgiving week(no seminar)
+
+
+
+  
+
+
+Dec 2Bren Hall 40111 pm
+
+
+Rosario CammarotaSystem Security ArchitectQualcomm Research
+
+Rescheduled 
+
+
+
+
+
+September 1, 2013
+AIML
+
+
+
+Posts navigation
+
+‹Older posts
+Newer posts ›
+
+
+
+
+
+ 
+Search
+
+
+
+ 
+
+
+(c) 2015 Center for Machine Learning and Intelligent Systems
+
+WordPress/BonPress
+
+
+
+
+
+

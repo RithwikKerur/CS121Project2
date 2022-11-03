@@ -1,0 +1,483 @@
+https://www.informatics.uci.edu/trio-of-ics-professors-preview-tech-trends-for-2019
+
+
+
+
+
+
+
+
+
+Trio of ICS Professors Preview Tech Trends for 2019 | Informatics @ the University of California, Irvine
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+People
+Contact
+Site Map
+News
+
+
+
+
+Search for:
+
+
+
+ 
+
+
+
+
+
+Menu
+Skip to content
+Explore
+
+
+Chair’s Welcome
+Faculty Profiles
+Books We Read
+History of the Department
+Seminar Series
+Blogs We Author
+Department Vision
+Books We Have Written
+Visiting the Department
+Facts & Figures
+
+
+
+Graduate Degrees
+
+
+Overview
+Ph.D. Software Engineering
+Policies
+Ph.D. Informatics
+M.S. Software Engineering
+Diversity Ambassador
+M.S. Informatics
+Master of Software Engineering
+Student Profiles
+Master of Human-Computer Interaction & Design
+Courses
+Student Groups
+ 
+ 
+Upcoming Course Schedule
+
+
+
+Undergraduate Degrees
+
+
+B.S. Informatics
+B.S. Information & Computer Science
+Policies
+B.S. Business Information Management
+Special Opportunities
+Student Profiles
+B.S. Game Design and Interactive Media
+Minors
+Student Groups
+B.S. Software Engineering
+Courses
+Upcoming Course Schedule
+
+
+
+Admissions
+
+
+Graduate Application Process
+Coming from Abroad
+Housing
+Undergraduate Application Process
+Student Life
+
+
+
+Research
+
+
+Labs & Centers
+Ph.D. Research
+Undergraduate Research
+Areas of Expertise
+Past Dissertations
+Gifts & Grants
+Example Projects
+Masters Research
+
+
+
+Impact
+
+
+Research that Matters
+Undergraduate Alumni Spotlights
+Outreach
+Graduate Alumni Spotlights
+Community Engagement
+
+
+
+Support
+
+
+Champion Research
+Become a Corporate Partner
+Share Your Talent
+Support Students
+Provide Projects
+Set Future Agenda
+Post Jobs
+Graduate Resources
+
+
+
+
+
+
+MenuExplore
+
+Chair’s Welcome
+History of the Department
+Department Vision
+Facts & Figures
+Faculty Profiles
+Seminar Series
+Books We Have Written
+Books We Read
+Blogs We Author
+Visiting the Department
+
+
+Graduate Degrees
+
+Ph.D. Informatics
+M.S. Informatics
+Ph.D. Software Engineering
+M.S. Software Engineering
+Master of Human-Computer Interaction & Design
+Master of Software Engineering
+Courses
+Policies
+Diversity Ambassador
+Student Profiles
+Student Groups
+Upcoming Course Schedule
+
+
+Undergraduate Degrees
+
+B.S. Informatics
+B.S. Business Information Management
+B.S. Game Design and Interactive Media
+B.S. Software Engineering
+B.S. Information & Computer Science
+Special Opportunities
+Minors
+Courses
+Policies
+Student Profiles
+Student Groups
+Upcoming Course Schedule
+
+
+Admissions
+
+Graduate Application Process
+Undergraduate Application Process
+Coming from Abroad
+Student Life
+Housing
+
+
+Research
+
+Labs & Centers
+Areas of Expertise
+Example Projects
+Ph.D. Research
+Past Dissertations
+Masters Research
+Undergraduate Research
+Gifts & Grants
+
+
+Impact
+
+Research that Matters
+Graduate Alumni Spotlights
+Undergraduate Alumni Spotlights
+Community Engagement
+Outreach
+
+
+Support
+
+Champion Research
+Support Students
+Become a Corporate Partner
+Provide Projects
+Post Jobs
+Share Your Talent
+Set Future Agenda
+
+
+ 
+
+
+
+
+
+
+
+		← Site Map  News
+
+
+
+
+
+Trio of ICS Professors Preview Tech Trends for 2019
+January 29, 2019
+
+
+How will technology trends and advances in computing influence various industries and affect our day-to-day lives in 2019? Offering predictions for the year ahead are three faculty members from the Donald Bren School of Information and Computer Science (ICS):
+Assistant Professor of Informatics Stacy Branham, whose research sits at the intersection of human-centered computing and accessible computing;Professor of Statistics Michele Guindani, an expert in Bayesian modeling and the analysis of high-dimensional data; andAssistant Professor of Computer Science Sang-Woo Jun, who works on building innovative system architectures for low-cost high-performance computing.
+Here, Branham, Guindani and Jun discuss everything from universal usability and mobile health to future computer architectures, weighing in on what they think will be the top trends of the year.
+
+Let’s start with 2018. What were some of the biggest surprises?
+
+Branham: Often, new platforms are introduced without including the expertise of people from marginalized communities, leading to unintended consequences. Systems such as Amazon’s Alexa and Alibaba’s AliPay grew more pervasive in 2018, but people who are deaf usually can’t use speech-controlled technology, and those with non-binary gender identities can be misidentified by face-recognition systems. I was surprised to see an academic focus on better integrating feedback from marginalized communities through, for example, robots that collaborate with people to help those who are blind and voice interfaces that replace visual interfaces, considering the needs of those who are deaf. Some of my own work has considered the ramifications of gender recognition systems. Research shows that designing for diverse needs can improve the experience for everyone, leading to “universal access,” so I hope this trend continues.
+
+Guindani: For me, the biggest surprise of 2018 has been the difficulty in tackling — from a computational and statistical perspective — the challenges of misinformation in a globalized environment. At the 2018 Joint Statistical Meetings of the American Statistical Association, the ASA President’s Invited Address [by Laura Evans] was aptly titled, “Helping to Save the Business of Journalism, One Data Insight at a Time.” We base our decisions on the data we acquire, so it’s imperative that the information we receive is of the highest quality; computing and statistics have a fundamental role to play in this respect.
+
+Jun: I was surprised at the traction that alternative system designs gained in both research and industry. Non-conventional, heterogeneous architectures, such as computational storage or network-attached accelerator units, are being explored by more than just first movers in order to continue performance scaling with reasonable power consumption. Deep-learning projects like Microsoft Brainwave have already gone into production. It’s truly an exciting time to be an architect.
+What will be the main ICS trends for 2019?
+Branham: One of the best features of informatics, especially at UCI, is that its multidisciplinary nature enables us to consider social as well as technological trends. The field will continue to be influenced by the social activism we see around us — through movements such as Black Lives Matter, Me Too and Crip the Vote, along with social theories of (dis)empowerment such as colonialism, intersectionality and posthumanism. As a result, I suspect we will see profound changes in how we organize as scientific communities and will discover more inclusive ways to theorize the design process, engage with participants and report study findings.
+Guindani: I expect the data science revolution to continue well into 2019. It will be interesting to see how current advances in computer science, machine learning and statistics will come together to improve our everyday experiences through, for example, data from wearable devices that can inform decisions about our behavior, consumption and health.
+Jun: Although it might be some time before novel system architectures reach the masses, more generic heterogeneous computation in the form of GPU or field-programmable gate array (FPGA) accelerators are becoming widespread and necessary, thanks in part to popular computation-intensive workloads such as deep learning. I think this trend will continue, reducing the cost of computation in the face of increasing requirements.
+What industries will be most affected by these trends?
+Branham: Unfortunately, I think collaborative robots will be used to reduce human-human interaction with our most vulnerable populations. Healthcare, childcare and assisted-living facilities will likely be big beneficiaries of robots that can dress, feed and otherwise physically interact with humans. Gender recognition will likely be integrated into every facial recognition application, and companies will strive to have their own voice-activated AI (car companies will want it for hands-free driving, for example, and manufacturers use it to help agents do field work without a holding a screen and keyboard). My job as a researcher and designer is to identify how we can leverage these same technology trends to empower marginalized groups.
+Guindani: The health industry will certainly benefit from the development of novel mobile health applications and their use in precision medicine. From a research standpoint, mobile health will also allow innovative and targeted randomized trials that monitor people’s conditions much more closely and effectively. Mobile health will likely impact other industries as well, including sports and entertainment. Consider the information that can be gathered by studying the association between stress and performance while playing a game. Concurrently, I expect the security business to grow in relevance as it safeguards the individual information channeled through these mobile health apps.
+Jun: Any industry with data analytics or data science requirements will be affected, because embracing new technologies directly translates into a comparative business advantage. As data science changes many more fields of science and business, it might be difficult to find fields that are not affected.
+Is there an underexplored area that you would like to see get more attention in 2019?
+Branham: I’d like to see more research that takes people with disabilities or marginalized gender identities as the starting point. For example, if we involve blind users — for whom audio and voice interaction are a key part of daily experience — in the design of voice assistants from the beginning, I think we will all win.
+Guindani: As new technologies appear and old technologies are creatively applied to new areas, our ways of analyzing data will adapt. However, there is still quite some uncertainty surrounding how to use the combined information of multiple technologies to inform our decisions. Therefore, the opportunities created by integrating different technologies are still underexplored. In biostatistics, for example, models that combine the information from radiology-based imaging techniques and genetic information are increasingly being recognized as a way to deliver more precise and individualized treatments.
+Jun: We are entering a renaissance of sorts for system design, so it would be great if we could use this period of malleability to explore drastically new and more effective operating system concepts and programming models to reach a much wider audience. I’d be very excited to see what we have learned over decades of research applied on a larger scale. Outside of computer science, I’d love to see more research into interplanetary travel!
+What should people be most excited about in terms of technology affecting their day-to-day lives?
+Branham: One of my key areas of research is mobility — how we get from place to place with technology. By pairing robots that “go” with computers that “talk,” we are looking at some serious innovations in how we experience space and time and freedom of movement. What’s the best way to get from your house to the care clinic downtown? Do you want a route with smooth sidewalks and no construction? Should the route avoid stairs or include ramps? Do you need an all-gender bathroom or hope to avoid crowds? With the availability of voice-driven turn-by turn directions both inside and outside of buildings, and smart response systems, you could say “take me to the 1st Street entrance” or “I prefer routes with windows,” and you wouldn’t even have to take your phone out of your pocket!
+Guindani: People should be excited about the opportunities that mobile health offers for improved decision-making in so many domains — but first and foremost in patient treatment.
+Jun: I would say cyber-physical systems and augmented reality allowing interactions with the real world as convenient as with a cyber one. Technologies I used to daydream about, like using ctrl-F to find misplaced physical items or using practical telepresence, might soon become realities.
+What should people be most concerned about?
+Branham: Every new technology has a tendency to reproduce existing power structures. Technologies touted as “progress” can actually pose significant setbacks to people who have been excluded from the design. For example, the touchscreen phone was initially inaccessible to people who are blind. So, when we purchase the latest gadgets, we should be concerned about whether we’re supporting continued subjugation of our friends, family, neighbors and even our future selves. We should demand that technology innovators — particularly large corporations — have diverse design and engineering teams that can anticipate the potential downsides of new technology.
+Guindani: The challenges lie mostly with how our wealth of data will be used. In addition to the already mentioned security issues, another challenge will be ensuring high standards for data analysis. Even without considering the case of blatant misconduct, naïve or superficial analyses could do more harm than good. There are quite a few examples of clinical trials abruptly stopped because the original findings were irreproducible.
+Jun: Technology makes it possible for some people, malicious or otherwise, to have disproportionately loud voices and influence. It will be a challenge for industry as well as the public to adjust to this new system of influence in order to cultivate a healthy and accurate perception of what is happening.
+What research projects will you be focused on in the coming year?
+Branham: My lab is teaming up with companies like TRX Systems and Toyota to create exciting personal mobility technologies. With TRX, we are studying turn-by-turn routing in indoor spaces — such as metro centers and stadiums — for people with disabilities. With Toyota, we’re exploring novel mobility applications with older adults, so that they can safely get around town when and how they want.
+Guindani: My research focuses mostly on the integrative analysis of modern high-dimensional biomedical datasets, especially in imaging and genetics, to help provide individually targeted treatments. In particular, I am currently interested in studying dynamic functional connectivity — that is, how interactions among brain regions change dynamically when we perform different activities. On June 2-4, 2019, UCI will host the annual meeting of the Statistics in Imaging Section of the American Statistical Association, bringing together campus resources for imaging analysis and further increasing cross-talk between data scientists and medical imaging scientists. I am also involved in the Microbiome Initiative at UCI. We are only beginning to discover the complex interrelationships between the body’s microbiome, health and disease. There are many opportunities for fascinating research directions related to the analysis of the human microbiome.
+Jun: I will continue to work on effective computer architectures as well as their applications. One prominent project is transparently accelerating large-scale data analytics using flash storage arrays and FPGA acceleration. I’m always looking for people interested in building future computer architectures and accelerating the applications they use.
+Any long-term predictions for the next five to 10 years based on technological foundations being built this year?
+Branham: The big secret of pure research labs is that the best labs have already invented the technologies that will dominate our futures — the technology just isn’t profitable enough to launch or small enough to fit in your pocket or budget! So, in the next five to 10 years, I predict we’ll see similarities with the 2018 trends, with some interesting twists. Maybe your scooter (a robot!) will grow retractable arms to help you pack your grocery cart and carry the bags to your car. Or rather than asking your smart speaker to play music, you’ll ask it to help you author a book — without even touching a keyboard. And maybe an ex-employee of your favorite social media company will reveal that, back in 2018, the company was already using gender recognition on your pictures to set up your filter bubble.
+Guindani: More and more, the most important decisions pertaining to our health and behavior will be based on specific individual information, which will be discretely processed through sophisticated machine learning and statistical algorithms. I expect an increased realization of the role of the microbiome as a key biological interface between human genetics and environmental conditions.
+Jun: I think programming expertise might become further fragmented, as no single set of tools or even a paradigm is able to maintain efficiency across the various applications and systems of the future. How we adapt to that in terms of teaching and learning will be an interesting challenge.
+— Shani Murray
+
+
+
+Post navigation
+← Motherboard: “Social Media Is Broken, But You Should Still Report Hate” (Kat Lo quoted)
+Marketplace: “Your car is not self-driving, no matter how much it seems like it is” (Ph.D. student Hillary Abraham quoted) →
+
+
+
+
+
+
+ 
+
+October 2022
+September 2022
+July 2022
+June 2022
+May 2022
+April 2022
+March 2022
+February 2022
+January 2022
+December 2021
+November 2021
+October 2021
+September 2021
+August 2021
+July 2021
+June 2021
+May 2021
+April 2021
+March 2021
+February 2021
+January 2021
+December 2020
+November 2020
+October 2020
+September 2020
+August 2020
+July 2020
+June 2020
+May 2020
+April 2020
+March 2020
+February 2020
+January 2020
+December 2019
+November 2019
+October 2019
+September 2019
+August 2019
+July 2019
+June 2019
+May 2019
+April 2019
+March 2019
+February 2019
+January 2019
+December 2018
+November 2018
+October 2018
+September 2018
+August 2018
+July 2018
+June 2018
+May 2018
+April 2018
+March 2018
+February 2018
+January 2018
+December 2017
+November 2017
+October 2017
+September 2017
+August 2017
+July 2017
+June 2017
+May 2017
+April 2017
+March 2017
+February 2017
+January 2017
+December 2016
+November 2016
+October 2016
+September 2016
+August 2016
+July 2016
+June 2016
+May 2016
+April 2016
+March 2016
+February 2016
+January 2016
+December 2015
+November 2015
+October 2015
+September 2015
+August 2015
+July 2015
+June 2015
+May 2015
+April 2015
+March 2015
+February 2015
+January 2015
+December 2014
+November 2014
+September 2014
+August 2014
+July 2014
+June 2014
+
+ 
+
+
+
+People
+Contact
+Site Map
+News
+
+
+
+
+
+
+
+Feedback
+Privacy Policy
+					© 2022 UC Regents
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

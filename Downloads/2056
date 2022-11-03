@@ -1,0 +1,441 @@
+https://isg.ics.uci.edu/event/locater-cleaning-wifi-connectivity-datasets-for-semantic-localization
+
+
+
+
+
+
+Yiming Lin (UCI): LOCATER – Cleaning WiFi Connectivity Datasets for Semantic Localization – Information Systems Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+
+Faculty
+Students
+Recent Alumni
+Research Staff
+Visitors
+
+
+Research
+
+Projects
+Publications
+
+
+Teaching
+
+Courses
+DB Qual
+
+
+Events
+
+Talks
+News
+
+
+About
+
+Sponsors & Partners
+Visitor Info
+Contact us
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ISG Talks are sponsored by Couchbase.
+<< All Talks
+
+
+
+ « All Events
+
+
+This event has passed.
+Yiming Lin (UCI): LOCATER – Cleaning WiFi Connectivity Datasets for Semantic Localization
+
+November 20, 2020 @ 3:00 pm - 4:00 pm 
+
+
+
+
+
+« Karthik Ranganathan: YugabyteDB – Bringing Together the Best of Amazon Aurora and Google Spanner
+Phil Bernstein (MSR): Adding Data Management to Orleans – A Journey »
+
+
+
+
+
+
+
+
+
+Speaker:
+Yiming Lin, UCI
+Abstract:
+Sensor data is abundant in our life but often dirty to generate services with high quality. This talk explores the data cleaning challenges that arise in using WiFi connectivity data to locate users to semantic indoor locations such as buildings, regions, rooms. WiFi connectivity data consists of sporadic connections between devices and nearby WiFi access points (APs), each of which may cover a relatively large area within a building. Our system, entitled semantic LOCATion cleanER (LOCATER), postulates semantic localization as a series of data cleaning tasks – first, it treats the problem of determining the AP to which a device is connected between any two of its connection events as a missing value detection and repair problem. It then associates the device with the semantic subregion (e.g., a conference room in the region) by postulating it as a location disambiguation problem. LOCATER uses a bootstrapping semi-supervised learning method for  coarse localization and a probabilistic method to achieve finer localization. Evaluation on both real and synthetic datasets shows that LOCATER can achieve significantly high accuracy  at both the coarse and fine levels.
+Bio:
+Yiming Lin is a Ph.D. student in the Department of Computer Science at the University of California, Irvine. He is currently doing research on data cleaning and data stream analysis. He is the recipient of Hasso Plattner Institute Fellowship since 2020. 
+Zoom Link:
+https://uci.zoom.us/j/95066121155
+ 
+
++ Google Calendar+ iCal Export
+
+
+
+ Details 
+
+ Date: 
+
+ November 20, 2020 
+
+ Time: 
+
+
+					3:00 pm - 4:00 pm				
+
+
+
+
+ Venue 
+
+ https://uci.zoom.us/j/95066121155 
+
+
+
+
+ 
+
+
+
+
+
+« Karthik Ranganathan: YugabyteDB – Bringing Together the Best of Amazon Aurora and Google Spanner
+Phil Bernstein (MSR): Adding Data Management to Orleans – A Journey »
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+Search for :
+
+
+Latest News 
+
+
+
+Upcoming Talk: How to build your own Business
+
+											July 25, 2022																																
+
+
+Upcoming Talk: Couchbase and Distributed Computing Backends for big data processing
+
+											May 31, 2022																																
+
+
+Upcoming Talk: Shedding Light on Opaque Database Queries
+
+											May 31, 2022																																
+
+
+ISG researchers won the  Mark Weiser Best Paper Award at IEEE PERCOM 2022
+
+											March 24, 2022																																
+
+
+
+
+Upcoming Events
+
+
+
+
+Qiushi Bai: QueryBooster-Improving SQL Performance Using Middleware Services for Human-Centered Query Rewriting + Demo
+
+
+
+October 14 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Xiaozhen Liu: Demonstration of Collaborative and Interactive Workflow-based Data Analytics in Texera
+
+
+
+October 21 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Abhishek Singh: WedgeBlock – An Off-Chain Secure Logging Platform for Blockchain Applications
+
+
+
+October 28 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Juncheng Fang: PeloPartition- Improving Blockchain Resilience to Partitioning by Sharding
+
+
+
+November 4 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Peeyush Gupta: A Demonstration of TippersDB
+
+
+
+November 18 @ 12:30 pm - 2:00 pm 
+
+
+
+View All Events
+
+Please follow & like us :) 
+
+Follow  
+
+ 
+
+
+
+
+
+
+
+			Copyright 2018 | ISG-UCI		
+
+
+
+
+
+
+cross
+
+
+
+
+
+
+
+
+
+
+Hit ENTER to search or ESC to close
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

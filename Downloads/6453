@@ -1,0 +1,57 @@
+http://www.ics.uci.edu/~kay/courses/h21/hw/hw3.html
+
+
+
+
+
+
+Third Homework
+
+
+
+
+
+
+
+ICS H21 • UC IRVINE • DAVID G. KAY • FALL 2009
+Third Homework
+
+This assignment is due at the start of lab on
+Monday, October 12. There are fewer questions on this homework than on last week's, but the concepts (of working with lists) are fundamental to the rest of the cours.
+
+(1)  If there were problems from
+Chapter 6 that you didn't get through when you worked on the previous
+homework assignment, be sure that you go through them now so that you
+know how to do them. Likewise, make sure you can do all the Scheme Finger Exercises; you should have these concepts down as you start to work with lists.
+
+(2) As you read Chapter 9 of the HtDP
+text, do exercises 9.1.1, 9.1.2, 9.2.3, and 9.5.2 (except write how-many-strings instead of 
+how-many-symbols).
+
+(3)  As you read Chapter 10, do exercise 10.1.1.
+As you look at exercises 10.1.2, 10.1.4, 10.1.5,
+and 10.1.6 (which are assigned for the lab below), note that they perform
+these related tasks:  Change every item (in 10.1.4), keep selected items
+(in 10.1.5), substitute new values (in 10.1.6).  You'll see these patterns
+over and over.  Determine which of those patterns exercise 10.1.7 follows
+most closely.
+
+Do exercises 10.2.1, 10.2.3, 10.2.4,
+10.2.5, 10.2.6, and 10.2.8, all of which are similar to the restaurant examples
+we did in class.
+
+(4)  In Chapter 11, the authors use
+the concepts we already know to define the natural numbers.  Even if you
+don't find number theory particularly compelling, you might appreciate
+how elegantly it all fits together.
+
+
+Based in part on ICS H21assignments by David
+G. Kay from Fall 2001; modified by David G. Kay, Fall 2004–Fall 2009.
+
+David G. Kay, kay@uci.edu 
+
+Wednesday, October 7, 2009 8:29 PM
+
+
+

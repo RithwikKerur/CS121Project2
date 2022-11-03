@@ -1,0 +1,294 @@
+http://www.ics.uci.edu/~jutts/8
+
+Statistics 8
+
+
+
+
+ Statistics 8, Fall 2010
+
+
+
+Department of Statistics
+  University of California, Irvine
+
+  Welcome to the homepage for Statistics 8: Introduction to Biostatistics
+  
+Class Time
+
+  Lecture 
+ Discussion Sections  
+ DBH 1100
+Mon, Wed, Fri 12:00 - 12:50pm 
+ 
+
+
+
+1)Mon 4:00 - 4:50pmICS 180Shandong Min
+2)Mon 4:00 - 4:50pmICS 174Jason Kramer
+3)Mon 5:00 - 5:50pmICS 174Jason Kramer
+4)Mon 6:00 - 6:50pmICS 174Shandong Min
+
+ 
+
+
+How, when and where to find us:
+
+ Professor Jessica Utts
+TA (Sections 2 and 3): Jason Kramer TA (Sections 1 and 4): Shandong Min  
+ 2212 Donald Bren Hall (DBH)
+2032 Donald Bren Hall
+2032 Donald Bren Hall
+ (949) 824-0649no phoneno phone
+ jutts_at_uci.edu jskramer_at_uci.edu shandonm_at_uci.edu 
+ Mon, Wed 3-4or by appointment
+Mon 1-3Fri 1-2Tues 3-4Thurs 3-5
+
+Office hours by day:
+Mon1-3 (Kramer)3-4 (Utts)
+Tues3-4 (Min)
+Wed3-4 (Utts)
+Thurs3-5 (Min)
+Fri1-2 (Kramer)
+
+Extra office hours for final exam:
+(Final exam is Monday, Dec 6, 1:30 - 3:30)
+Fri, Dec 31-3 instead of 1-2 (Kramer)
+Weekend of Dec 4, 5Utts available by email most times
+Mon, Dec 610-noon (Utts)
+
+
+ 
+Links to Resources
+(News stories about statistical studies, Surveys and polls, Interactive learning tools, Statistics jokes, etc.)
+ 
+Register your iclicker to receive credit for clicker questions!
+Even if you registered it last year, you need to do it again each fall. "Student ID" is your 8-digit UCI ID number.
+ 
+ Instruction and Resources for R and R Commander: (These files will be posted as needed)
+
+ How to get an account to use the ICS Labs
+ ICS Lab Hours
+ How to Install and Use R and R Commander (Word)
+ Additional notes on how to install R commander, helpful for Mac users
+ The R Project Homepage
+ An R Commander website, by John Fox, who developed R Commander
+ How to use R Commander for assignment from Chapters 2 and 5 (Word)
+ How to use R Commander for Contingency Tables (Section 6.4)
+ Using R Commander to find binomial probabilities
+
+ 
+ Data sets and Descriptions (These will be posted as needed)
+Description of the data sets in Mind On Statistics, 3rd edition
+UCDavis1.txt (for practice using R Commander)
+rainfall.txt (if you want to use it for the assignment given on Monday, Sept 27))
+oldfaithful.txt, for Exercise 5.76 (Note that a line such as " ,80" indicates that "duration" is missing. R Commander will know what to do.)
+deprived.txt, for Exercise 11.78
+
+ 
+ Announcements (also see first page of notes from each lecture for announcements)
+Known typos in Mind On Statistics, 3rd edition
+
+ 
+ Jump to:
+
+Syllabus and Class Lectures
+Homework Solutions
+Sample Exams
+Exam Keys
+
+ 
+ Homework assignments and dates for Assignment Weeks #1 to #9 (but #9 is not due):
+
+
+
+Lecture# and Date
+Sections Covered(Tentative schedule, may be updated after each class)
+Date HW Due
+Assignment (or discussion topic)
+  Assignment Week #1 (Quiz available 1pm Wed 9/29 to noon Fri 10/1) 
+1. Fri. Sept 24 Chapter 1 and Sections 2.1 to 2.3; READ Chapter 1 Fri. Oct 11.10, 2.9, 2.27 
+2. Mon. Sept 27 Sections 2.4 to 2.6 Fri. Oct 12.42ac, 2.51, 2.61, 2.75
+ 
+Mon. Sept 27 Disc.
+Hands on team project 1, participation points awarded  Discussion: Relationships in two-way tables 
+3. Wed. Sept 29 Section 2.7; Using R Commander Fri. Oct 1 2.81, 2.84, 2.99
+  Assignment Week #2 (Quiz available 1pm Wed 10/6 to noon Fri 10/8) 
+4. Fri. Oct 1 Sections 5.1 and 5.2 Fri. Oct 8 5.5a, 5.17, 5.18, 5.76 (Use R Commander) oldfaithful.txt  
+5. Mon. Oct 4 Sections 5.3 to 5.5 Fri. Oct 8 5.29, 5.34, 5.43, 5.51 
+Mon. Oct 4 Disc.
+Learn R Commander, no participation points  Discussion: R Commander 
+6. Wed. Oct 6 Sections 6.1 to 6.3; READ "Misleading Statistics...", pgs 201-202, on your own. Fri. Oct 86.23, 6.36
+  Assignment Week #3 (Quiz available 1pm Wed 10/13 to noon Fri 10/15) 
+7. Fri. Oct 8 Section 6.4 Fri. Oct 15 6.44*, 6.45*, 6.50bcde, 6.52 (*44 and 45 count together for one point) 
+8. Mon. Oct 11 Chapter 3 Fri. Oct 153.13, 3.23, 3.63, 3.86
+Mon. Oct 11 Disc.
+Hands on team project 2, participation points awarded  Discussion: Distracted behavior, relative risk and chi-square test 
+9. Wed. Oct 13 Chapter 4 Fri. Oct 154.13, 4.21, 4.36 
+  Review and Midterm #1 
+10. Fri. Oct 15 Catch up and Review No assignment  
+11. Mon. Oct 18 First Midterm, on Chapters 1 to 6 No assignment  
+Mon. Oct 18 Disc.
+Hands on team project 3, participation points awarded  Discussion: Let's Make a Deal 
+  Assignment Week #4 (Quiz available 1pm Mon 10/25 to noon Wed 10/27) 
+12. Wed. Oct 20 Sections 7.1 to 7.3 Wed. Oct 27 7.17, 7.27, 7.28 
+13. Fri. Oct 22 Sections 7.4 and 7.5; Skip 7.6 Wed. Oct 27 7.35, 7.51, 7.53 (answer in back, show work), 7.55 
+14. Mon. Oct 25 Sections 8.1 to 8.3 Wed. Oct 27 8.1, 8.14, 8.27
+Mon. Oct 25 Disc.
+Hands on team project 4, participation points awarded  Discussion: Gambling and lotteries 
+  Assignment Week #5 (Quiz available 1pm Mon 11/1 to noon Wed 11/3) 
+15. Wed. Oct 27 Section 7.7 and supplemental material on intuition and probability Wed. Nov 3 Homework Assignment 
+16. Fri. Oct 29 Section 8.4 and extra material Wed. Nov 3 8.33, 8.39, 8.87 (will want to use computer) 
+17. Mon. Nov 1 Sections 8.5 to 8.7; Skip 8.8 Wed. Nov 3 8.48a, 8.55c and 8.56 (count together as 1 problem), 8.67a
+Mon. Nov 1 Disc.
+Hands on team project 5, participation points awarded  Discussion: Birthday problem and team problem solving; Problems and solutions 
+ Assignment Week #6 (Quiz available 1pm Mon 11/8 to noon Wed 11/10) 
+18. Wed. Nov 3Sections 9.1 to 9.4Mon. Nov 8 9.15, 9.25, 9.37, 9.44
+19. Fri. Nov 5 Sections 9.5 and 9.9, Lessons 1 and 2 Mon. Nov 8 9.50 (each of the 6 parts counts as 1 point) 
+20. Mon. Nov 8 Chapter 10 Not due 10.5, 10.22, 10.42 
+  Review and Midterm #2 
+Mon. Nov 8 Disc.
+Review for Midterm 2, no participation points  Discussion: Review for Midterm 
+21. Wed. Nov 10 Second Midterm, on Chapters 7 to 10 (except 7.6, 8.8, 9.6 to 9.8, 9.9 - Lesson 3) No assignment 
+ Assignment Week #7 (Quiz available 1pm Wed 11/17 to noon Fri 11/19 
+22. Fri. Nov 12 Sections 12.1 to 12.3, except 12.2-Lesson 3 Fri. Nov 19 12.15b and 12.16b (count together as 1 pt), 12.19, 12.85 (worth 2 pts) 
+23. Mon. Nov 15 12.4, 12.2-Lesson 3Fri. Nov 1912.62, 12.83, 12.101 
+Mon. Nov 15 Disc.
+Discussion cancelled today.  No discussion today. 
+24. Wed. Nov 17 Sections 9.6 to 9.8, 9.9-Lesson 3 Fri. Nov 19 9.66, 9.90, 9.91
+ Assignment Week #8 (Quiz available 1pm Wed 11/24 to noon Mon 11/29) 
+25. Fri. Nov 19 Chapter 11 Mon. Nov 29 11.40, 11.53, 11.78 (Use R Commander,data under "DataSets" above; counts double)  
+26. Mon. Nov 22 Sections 13.1 to 13.3 Mon. Nov 29 13.15, 13.24ac, 13.25 (partial answer in back, show work) 
+Mon. Nov 22 Disc.
+Hands on team project 6, participation points awarded  Discussion: Animal eyes- confidence intervals and test 
+27. Wed. Nov 24 Section 15.3 Mon. Nov 29 15.6, 15.26bd, 15.35 
+ Week #9 (No Quiz) 
+28. Mon. Nov 29 Sections 16.1, 16.2 Assignment not due 16.1, 16.7, 16.8, 16.16, 16.17 
+Mon. Nov 29 Disc.
+Hands on team project 7, participation points awarded  Discussion: Interpreting medical journal articles 
+29. Wed. Dec 1 Sections 12.5, 13.5, 13.6, 13.8, parts of Chapter 17; Skip 13.7 Assignment not due 12.73, 12.80, 13.50, 13.51, 17.2, 17.14
+30. Fri. Dec 3 Review for Final Exam No assignment  
+ Final Exam 
+Mon. Dec 6 Final Exam, 1:30pm to 3:30pm  
+
+
+
+ 
+Syllabus and class lectures; these will be posted shortly before each lecture
+
+ Syllabus (pdf)
+ Lecture 1, Sept 24
+ Lecture 1, Compact version
+ Lecture 2, Sept 27
+ Lecture 2, Compact version
+ Lecture 3, Sept 29
+ Lecture 3, Compact version
+ Lecture 4, Oct 1 (No compact version)
+ Lecture 5, Oct 4
+ Lecture 5, Compact version
+ Lecture 6, Oct 6
+ Lecture 6, Compact version
+ Lecture 7, Oct 8
+ Lecture 8, Oct 11
+ Lecture 8, Compact version, but missing pages 8 and 9 of full version (Census pages)
+ Lecture 9, Oct 13
+ Lecture 9, Compact version
+ Review for first midterm, covered Fri Oct 15 (Review and Midterm count as lecture days 10 and 11)
+ Lecture 12, Oct 20, updated Oct 28 with answers to non-credit clicker questions
+ Lecture 12, Compact version
+ Lecture 13, Oct 22
+ Lecture 13, Compact version
+ Lecture 14, Oct 25
+ Lecture 14, Compact version
+ Lecture 15, Oct 27
+ Lecture 15, Compact version
+ Lecture 16, Oct 29
+ Lecture 16, Compact version
+ Lecture 16 power point slides on remote viewing
+ Lecture 17, Nov 1
+ Lecture 17, Compact version
+ Lecture 18, Nov 3
+ Lecture 18, Compact version
+ Lecture 19, Nov 5
+ Lecture 19, Compact version
+ Lecture 20, Nov 8
+ Lecture 20, Compact version (missing pages 3 and 26 from full version)
+ Review for second midterm, covered in Discussion, Nov 8
+ Lecture 22, Nov 12 (Class #21 is midterm exam)
+ Lecture 22, Compact version
+ Lecture 23, Nov 15
+ Lecture 23, Compact version
+ Lecture 24, Nov 17
+ Lecture 24, Compact version
+ Lecture 25, Nov 19
+ Lecture 25, Compact version
+ Lecture 26, Nov 22
+ Lecture 26, Compact version
+ Lecture 27, Nov 24
+ Lecture 27, Compact version
+ Lecture 28, Nov 29
+ Lecture 28, Compact version
+ Lecture 29, Dec 1
+ Lecture 29, Compact version
+ Review for the final exam, Dec 3
+ Lecture 30 with announcements, slide on error bars, and review for the final exam, Dec 3
+ Concepts from the quarter that seem to need extra review
+
+ 
+ Homework Solutions (The solutions will be posted the day after homework
+is due.)
+
+ Assignment #1, Due Fri, October 1
+ Assignment #2, Due Fri, October 8
+ Assignment #3, Due Fri, October 15
+ Assignment #4, Due Wed, October 27
+ Assignment #5, Due Wed, November 3
+ Assignment #6, Due Mon, November 8
+ Assignment #7, Due Fri, November 19
+ Assignment #8, Due Mon, November 29
+ Solutions to problems assigned Mon 11/29 and Wed 12/1 (not due)
+
+ 
+ Sample Exams
+
+ Midterm 1 will be a mix of free response and multiple choice questions. Here are samples of both types:
+Sample Midterm 1 Free Response Exam and Key
+Sample Midterm 1 Multiple Choice Questions and Key
+
+ Midterm 2 will be a mix of free response and multiple choice questions. Here are samples of both types:
+Sample Midterm 2 Free Response Exam and Key
+Sample Midterm 2 Multiple Choice Questions and Key
+
+The final exam will include 30 to 40 points of free response questions on material covered since the 2nd midterm,
+     and 30 to 35 multiple choice questions worth 2 points each from material covered anytime in the course. (Total of 100 points.) Here are samples of both types (these sample multiple choice
+     questions are based on the new material only - see sample multiple choice for the midterms to see examples for the remainder of the course):
+Sample Final Exam Free Response Questions and Key
+Sample Final Exam Multiple Choice Questions and Key
+
+
+ 
+Practice Problems for Chapters 7 to 9 will be provided as each chapter is covered:
+
+Chapter 7: 9, 15, 20, 36, 41, 47, 48, 49, 52, 54, 78; Solutions
+Chapter 8: 3, 10, 20, 31, 34, 35, 40, 48b, 55ab, 57, 66, 67b; Solutions
+Chapter 9: 2, 5, 9, 10, 13, 18, 24ab, 31, 36, 45, 48a, 85cd, 123, 124; Solutions
+
+ 
+Exam Keys (The keys will be posted shortly after each exam has been given.)
+
+Midterm 1 Keys: Your exam may have had questions in a different order than these. 
+Version A
+Version B
+
+Midterm 2 Keys: 
+Version A
+Version B
+Version C
+Version D
+
+Final Exam Key:
+Final exam key (Your exam may have had questions in a different order.)
+
+
+
+

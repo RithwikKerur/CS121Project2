@@ -1,0 +1,152 @@
+http://www.ics.uci.edu/~kay/courses/i41/hw/lab0.html
+
+
+
+
+Lab Assignment 0
+
+
+
+
+INFORMATICS 41 • DAVID G. KAY • UC IRVINE • FALL 2011
+ Lab Assignment 0 
+ This lab assignment is due at the end of lab on
+  Friday, September 23. 
+ The next lab assignment (Lab Assignment 1) will be available on
+  the web by Friday and will be due the following Friday at the end of lab; we'll follow
+  that pattern all quarter.  
+ (a) Choose a partner for this assignment and make sure the TA knows who your partner is. Remember that you'll choose a different partner for each lab assignment, so you'll work with this partner only this Friday. All your computer-based work on this (and every) lab assignment must follow the pair programming guidelines.
+ (b) It's especially important that
+  you be able to receive electronic mail sent to your UCInet ID (you@uci.edu).
+    You may redirect this mail to another account of your choosing (see the
+    course reference sheet), but don't let that mail go unread.  Also, be
+    sure your UCInet account doesn't exceed its disk quota.  When it does, you
+    won't receive official Email.
+ With your partner, test this out by sending
+  each other Email at your UCI addresses. There's nothing to turn in for this part. 
+ (c) Locate and launch the DrRacket
+  software. 
+ Each DrRacket window has two panes:  The bottom
+  half is the interactions (or transcript) window, where you can type Scheme
+  expressions and see the interpreter evaluate them immediately.  To type expressions or programs you
+  wish to save, you will use the top pane (the definitions window) and click "Run" (at the top right) to evaluate the code (this makes the code
+  available for use in the interactions window below).
+ The DrRacket system actually includes many
+  different versions of Scheme.  We'll be using  a graduated series of languages that build up to full
+  Scheme step by step; in DrRacket, this series is called the "How to Design Programs teaching languages."  (One might wonder why it's necessary to take these
+  "baby steps"; the answer is that by restricting the language features
+  to those that a student needs at the moment, DrRacket can provide error
+  messages that describe the actual problem more clearly.  Programming language
+  error messages are notoriously inaccurate. The compiler is just a computer
+  program, so it can't know for sure what the programmer intended when
+  it finds something wrong. But with these different language levels, DrRacket
+  does better than most.)  We will start with the "Beginning Student"
+  language; if it's not the level currently installed (look for "Programming language"
+  in the lower pane), change it in the Language menu and click Run again.
+Most modern programming languages provide some basic features and allow the programmer to select specific, specialized features for the task at hand (e.g., network programming or animations or cryptography). We call these specialized collections libraries (or "teachpacks" in DrRacket). For much of the course, we will use a teachpack called picturing-programs.rkt; this supports the image processing and animation described in the textbook.
+The ICS lab machines should already be set up with DrRacket, Beginning Student Language, and the picturing-programs.rkt teachpack. Chapter 0 of the textbook describes how to install the picturing-programs.rkt teachpack on your own machine. There's nothing to turn in for this part.
+ (d) Experiment with DrRacket to get
+  familiar with it, following the suggestions below. One person "drives" (types); the other "navigates" (observes, questions, suggests); if you don't know what this is about, go back and read the pair programming guidelines. The point of this assignment is to get you familiar with the mechanics of DrRacket, Scheme, and pair programming.
+ Try evaluating some expressions, like 
+(* 3 4 5)
+ and 
+(expt 2
+    5)
+  
+ and 
+(gcd 15 230).  (In DrScheme, calculating
+        greatest common divisors is predefined (built in)). 
+ Type in some definitions of symbols in the
+  interactions window, like 
+(define
+    number-of-students 54)
+ and 
+(define number-of-staff 7)
+ and then try 
+(+  number-of-students number-of-staff).  There's nothing to turn in for this part.
+ (e) The "driver" and "navigator" should switch roles now. Even though you haven't typed anything in the definitions window, click the Run button before doing these image-processing exercises; that activates the picturing-programs.rkt teachpack.  (But don't click Run again while you're working on this part.  You're working in the 
+interactions window and clicking Run clears it out before you can save it.)
+Do exercise 1.2.1 in the Picturing Programs textbook; you can find it on line at www.picturingprograms.com.  (As the book suggests, pick smallish images.  DrRacket can handle a 12-megapixel image from a digital camera, but when the time comes to submit your work, huge images will clog up Checkmate.)
+Switch roles, then do exercise 1.2.2. Switch again and do exercise 1.2.3. Do exercises 1.2,4, 1.2.5, and 1.2.6, switching roles after each one.
+Save a copy of the interactions window that shows
+  your work for this part (using Save Other and Save Interactions As from the File menu).  A
+  good name for the file would be lab0e.rkt; stick with a naming pattern like this for the rest of the quarter.
+  It's fine if your interactions show false starts and mistakes; it's also fine
+  if you just produce a short, clean copy.  Edit the file to make sure it
+includes your name and your partner's; submit this file via Checkmate. (Don't know what Checkmate is? Look at the "What to do this week" section of the course syllabus).
+(f) The "driver" and "navigator" should switch roles again. The factorial function (written
+  in mathematical notation with an exclamation point, so "n factorial" would be n!)
+  is used in calculating how many ways there are to arrange things (like the number of different ways to arrange five students in a row).  The value
+  of n! is n · (n-1) · (n-2) · ... · 1, so 5!
+  = 5 · 4 · 3 · 2 · 1 = 120.
+ Type the following function definition into
+  the definitions window.  Actually do the typing so you can get used to the
+  way it works; don't just copy and paste.  (We'll go over the details
+  of this code in class some time soon; for now, this is just a typing exercise
+and you shouldn't try too hard to figure out how it works. If you're not used to typing programs, be careful to type accurately.) Watch what happens every time you type a right-parenthesis.
+
+;; fact: number -> number
+;; Compute n! (n factorial).
+(check-expect (fact 0) 1)
+(check-expect (fact 5) 120)
+
+(define fact
+  (lambda (n)
+    (cond
+      ((<= n 0)  1 )                 ; 0! is 1 by definition
+      (else (* n (fact (- n 1)))))))
+Notice how DrRacket indents and highlights
+  blocks of code so you don't lose your place.
+ Don't forget to click Run.  Now try evaluating
+  expressions like 
+(fact 5), (fact 50), (fact 120), and (fact 500).
+      Next, evaluate
+(fact (fact 5)).  Scheme can handle long numbers
+          effortlessly, but any computer is finite; what do you think might happen
+          if you evaluate
+(fact (fact 50))?  You can try it, but you'll
+              have to stop the evaluation (click the stop sign) if you don't want to wait until the machine
+              finally runs out of memory.
+ Save a copy of the interactions window that shows
+  your work for this part, as described in part (e).  Make sure both partners' names are in the saved file.
+ (g) Switch roles again. Follow this role-switching pattern in all your lab work this quarter; we won't keep mentioning it.
+Scheme represents and manipulates numbers more flexibly than most programming languages, in part because it doesn't tie what the user sees to the way the hardware stores the number.
+What is the value produced by 
+(/ pi 2)?  The result is prefixed by #i,
+    which signals "inexact representation"; this means that the decimal
+    number may be rounded off (as the value of pi would have to be).
+ Enter this definition (you can copy and paste
+  it into the definitions window): 
+
+
+(define decimal-format
+  (lambda (num)
+    (string->number (number->string (exact->inexact num)))))
+ Then evaluate (decimal-format (/ pi 2)). Type it at the bottom of the definitions window and click Run; that will save you from retyping it later.
+Using decimal-format  gives you a more human-readable number, in case you need
+  to produce polished results.  (There are also ways to specify the precise
+  number of digits, but that's for another time.) Next, evaluate 
+(/ 4 3)and 
+(+ 125 (/ 22 7));
+    DrScheme indicates that the results are repeating decimals with a bar over the repeating digits. Evaluate (/ (fact 5) (expt 7 2)); this result repeats, too, but not in a discernible pattern. Save a copy of the interactions window that shows your work for this part so far.
+ Now, go to the Language menu, select Choose
+  Language, and click Show Details.  Then select Mixed Fractions.
+ Next, evaluate again the four expressions above. (See why it's convenient to have them in the definitions window?) These results, in fractional form, are not what we expect to see on a computer, but they're useful in further calculations because nothing is lost by rounding off to a decimal representation. Try some other divisions.
+Save a copy of the interactions window that shows your work for this second part, following the instructions in part (e) above. Notice that the fractions in the file are saved in a slightly different form than the one DrScheme uses in the interactions window. Combine both files for this part into one, remembering to include both partners' names, and submit the file via Checkmate.
+ (h) Remember that each partner must
+  complete a partner evaluation form and submit it individually.
+  Do this by connecting to eee.uci.edu and choosing the Survey tool for Informatics 41.   Make sure you know your partner's name, first and last, so you can evaluate the right person. Please complete your evaluation
+    by the end of the day on Friday, or Saturday morning at the latest.  It
+only takes a couple of minutes and not doing it hurts your participation score.
+What to turn in: Submit via Checkmate the interactions (transcripts) for parts (e), (f), and (g) above. It would be an excellent idea to go back and re-read parts (e), (f), and (g) carefully now, to make sure you've completed all the steps specified. Also remember that each student must complete a partner evaluation form by logging in to eee.uci.edu and selecting the Survey tool; these evaluations contribute to your class participation score. Get in the habit of doing this every week. 
+ Based in part on ICS H21 and H22 assignments
+  by David G. Kay from Fall 2003 and earlier; modified by David G. Kay for
+  the Informatics Core Course, Fall 2004–Fall 2007 (with Alex Thornton in Fall 2006 and Rich Pattis in Fall 2008. Modified by David G. Kay to reflect Picturing Programs by Stephen Bloch, Fall 2010.
+
+David G. Kay, kay@uci.edu
+
+Tuesday, September 27, 2011 9:08 AM
+
+ 
+
+

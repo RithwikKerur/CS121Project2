@@ -1,0 +1,165 @@
+https://www.cs.uci.edu/tech-trends-for-2022
+
+
+
+
+Tech Trends for 2022 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ this is a widget called second front page widget area
+
+Explore
+
+Contact Us
+
+
+Faculty
+Research
+
+Research Areas
+Research Centers
+
+
+Graduate Degrees
+
+Computer Science Programs
+Current Graduate Students
+
+
+Undergraduate Degrees
+News  & Events
+
+News
+Seminar Series
+Distinguished Lecture Series
+Research Showcase
+
+
+Apply Now
+
+Undergraduate Admissions
+Graduate Admissions
+Faculty Candidates
+
+
+Tech Trends for 2022
+January 10, 2022 
+ICS Professors Daniel Epstein, Mohsen Imani and Tianchen Qian discuss their research and the technological developments they expect in the coming year.
+The new year starts with healthcare front and center, as COVID-19 continues to impact people’s daily lives. Throughout the pandemic, the fields of computer science, informatics and statistics have all played an important role in helping people move their lives online, stay connected, and analyze vast amounts of data for informed decision making. How will these fields continue to advance virtual and augmented spaces, find new ways to bring people together, and improve healthcare analytics and interventions in the coming year?
+
+Here to answer these questions while covering an array of topics — including artificial intelligence (AI), wearables, the aging population, mental health and cybersecurity — are three professors from the Donald Bren School of Information and Computer Sciences (ICS):
+Daniel Epstein, assistant professor of informatics and leader of the Personal Informatics Everyday (PIE) Lab, studies personal-tracking technology and designs devices and apps that help people better track everything from health and fitness to finances and productivity.Mohsen Imani, assistant professor of computer science, is working on a wide range of practical problems in the area of bio-inspired computing, machine learning, computer architecture and embedded systems.Tianchen Qian, assistant professor of statistics, works to develop methodology to understand causal relationships through the analysis of highly complex data, with applications focusing on health and wearable technology.
+The unique structure of ICS as a standalone school with three departments — Computer Science, Informatics and Statistics — makes it the perfect environment for exploring all aspects of computing and technology and the impact on society. Let’s see what technological developments these three scholars expect to see in 2022.
+What technology advances are you most excited about as we head into 2022?
+Daniel Epstein
+Epstein: Far from my area of expertise, augmented reality has only recently become viable on people’s everyday phones. While I’m skeptical that it will revolutionize the way we communicate with one another, I’m hopeful that it will help us create richer experiences once we find the right niches where the technology is really valuable.
+I’m also excited to hopefully see us take all of the big advances in conversational agents into important areas where people find them useful; current research says they’re mainly just used for setting timers and playing music. My student Lucas Silva has been examining how voice assistants can make food journaling less burdensome and fit in with everyday technology use, like using an Alexa instead of your phone to log what you just ate while your hands are busy doing the dishes.
+Mohsen Imani
+Imani: This pandemic has proven that virtual reality (VR) is an essential technology for our future communication. VR will make significant changes in how we communicate with computers and each other. It will shorten physical boundaries by giving us virtual feelings.
+Besides VR, I am also excited to see the next generation of wearable devices and health monitoring technologies that could change the quality of healthcare systems.
+Tianchen Qian
+Qian: I’m most excited about the advances in wearable device and sensor technology, and in particular their increasing applications in healthcare. With these technology, we are getting better at detecting the state of an individual (such as stress level and location) and potentially delivering behavior change interventions to them in real time. This provides ample opportunity to improve health but also brings a lot of challenges, such as how to balance the therapeutic effect of the interventions and the burden of receiving interventions through smartphone and wearable devices.
+What is the next big challenge you think society will face, and how will your field help?Epstein: COVID-19 forced us to radically restructure how we live and work with one another. While there is certainly some appetite to “return to normal,” for many people, normal was worse or wasn’t good either. I think the big challenge for society is thinking through what changes for the better emerged from our situation, and how do we not lose those in a foolhardy attempt to wipe the memory of the pandemic.
+From the vantage point of informatics, I particularly see us helping out in understanding how technology helped move activities that were in-person to online, and advocating for the things that became better from being online — everything from online education to telemedicine to how people socialize with one another.
+Imani: We face increasing needs for efficient and real-time processing for diverse cognitive tasks using a vast volume of generated data. Deep learning and AI are predicted to make evolutionary changes in many areas, including healthcare, finance and cybersecurity. To extract useful information, applications often rely on sophisticated and costly machine learning and AI algorithms that lack transparency, robustness, and have long latency and high-power consumption. For realistic intelligent and effective systems to be developed and deployed, there are crucial needs for scalable learning and computing methods on embedded devices. For example, algorithms that now run on large-scale data centers with kilowatt power consumption need to be processed in real time on our daily used smart devices — for example, a smartwatch and smart glass. This requires fundamental changes on the algorithm and underlying hardware.
+Qian: The current one is obviously the pandemic, which my colleagues have thoughtfully commented on. The next big challenge, in my view, is the aging population and how to improve the quality of life for the elderly. With longer life expectancy and lower birth rate, the composition of the age pyramid is transitioning toward an older population, and there are many challenges ahead. How would the society take care of the elderly when a large proportion of the society are themselves old? How can we empower the elderly with modern technology so that they can enjoy their lives without the assistance of another human for a longer period of time? How can their quality of life be further improved while respecting the inevitable decline in physical and mental capabilities?
+My collaborators from UCI Mind and I are investigating the early signs for Alzheimer’s disease and other cognitive disorders. We are looking at the data from UCI’s 90+ Study, where hundreds of individuals over 90 years old have been followed for years and have has their cognitive performance assessed over time. We hope to identify features that can be used to predict cognitive disorders and bring new insights into the process everyone will face — aging.
+How is your field affecting people’s day-to-day lives?Epstein: In my mind, informatics is at the forefront of taking technology advances and seriously thinking about how they can, should, and even shouldn’t impact people’s everyday lives. In my specific area of personal health, we’re understanding how people feel about the well-being technology they use every day and are testing out new ideas for improving those technologies. Based on research, we’ve seen health apps like Apple Health move from showing people pretty boring bar graphs of how much they walk each day to more useful insights and trends. We’ve also seen apps improve (since earlier work in 2017) how they support people of more varied identities and goals, such as menstrual health apps better supporting transgender and non-binary individuals and all people across their health lifecycle. Some changes might feel subtle, but they go a long way toward helping people get the health support they need from technology.
+Imani: My research on hyperdimensional computing (HDC) aims to redesign algorithms using strategies that more closely model the human brain. This new direction is an alternative paradigm that mimics important brain functionalities toward high-efficiency and noise-tolerant computation. HDC is motivated by the observation that the human brain operates on high-dimensional data representations. HDC incorporates learning capability along with typical memory functions of storing/loading information.
+HDC has shown several advantages as the next generation of cognitive machines to enable human-like intelligence. First, instead of requiring many iterations and data points for training, HDC can learn in a single iteration from just a few examples. Second, HDC operations are highly parallel and lightweight, thus empowering online learning on our daily used smart devices. Finally, HDC has a natural robustness to noise, which is essential for current unreliable network and hardware technologies.
+Qian: I would like to talk about the elephant in the room, which is having a huge impact on people’s day-to-day lives right now: the COVID-19 pandemic. Statistics has played an important role in our society’s joint effort to combat COVID-19, enabling us to efficiently and appropriately use data to make informed decisions. It has helped us monitor cases, model disease spread, develop vaccines and assess their effectiveness, establish guidelines on dosage and boosters, and predict the future trajectory of the pandemic to guide policymaking.
+What industry will experience the most changes based on computing advances in the next five years?Epstein: Like every year recently, the question is which industries won’t be heavily impacted by computing advances! Closest to my work, I’m expecting we’ll reach an inflection point where healthcare takes more seriously what patients are experiencing outside of their clinical visits. We’re already seeing telehealth and messaging-a-doctor systems being widely available and used, but I think we’ll start seeing these systems extended to include more options for care. For example, at-home COVID tests have become big, and I wouldn’t be surprised to see those sorts of records be better digitized and structured to support population health. But I also expect other industries will be seriously changed, too.
+Imani: There is no doubt that all industries will experience major changes using emerging AI techniques, but I will highlight two in particular: healthcare and cybersecurity.
+AI-powered health monitoring technology can help doctors prioritize patients and provide urgent care to those in the most danger, thereby saving lives. In addition, such technology — for example, in the form of a lightweight wearable device like a bracelet — also offers a convenient method for patients to monitor their own health.
+AI technologies are also stepping in to help improve cyber resilience, as security issues have started presenting a day-to-day struggle for businesses. Attackers are getting smarter, so our cybersecurity must grow smarter too. It is essential to deploy effective cybersecurity technology based on future machine learning algorithms with higher intelligence, efficiency and human-like reasoning capability.
+Qian: I think one of them would be healthcare. Our healthcare model is transitioning from episodic, event-based care to integrated, preventative and holistic care. The advances in computation and AI are among the key facilitators for this transition. With the rapid advances in wearable technology, more and more people will be able to get care when and where they need it the most. And I’m not just talking about physical health — mental health is an equally important aspect, and its care stands to be greatly transformed by technology advances.Imagine someone who is trying to quit smoking. Wearable sensors nowadays allow us to use prediction algorithms to detect in real time when a user is stressed (a big risk factor for relapse in smokers). Furthermore, we now have the capability to immediately act on this real-time prediction through digital interventions delivered through the wearable device or a smartphone, such as recommending a mindfulness exercise to the individual to help reduce their stress level. All these can be done without the involvement of another human being.These type of smartphone- and wearable-based health interventions are also being developed in various other domains such as physical activity, bipolar disorder, substance abuse, and so on. I can only imagine how many more there will be in the next five years to transform healthcare and people’s well-being.
+What research/projects will you be focused on in the coming year?Epstein: Together with my students, I’m focused on moving people’s health tracking practices beyond individual apps or experiences and into the complex circumstances where people use technology. For example, supported by an ICTS Pilot Award, my student Eunkyung Jo is planning to bridge the gap between health data that patients collect and how doctors use that data. We’re planning to develop ways to annotate health questionnaires that your doctor might give you to fill out at home, like symptom logs, with your own data. Two of my other students, Dennis Wang and Xi Lu, are looking at what role social media should play in helping people get support and advice around the health data they collect, and understanding why apps like MyFitnessPal and Weight Watchers don’t seem to be enough to serve those goals. Supported by Snap research, we’ve been working on using data to help people who are meditating together become more aware of each other’s mental states.
+Imani: We aim to explore alternative computational models that enable further energy scaling by abandoning the deterministic requirement of today’s computing systems. These approaches will be particularly effective in the realization of cognitive functions such as recognition, decision making and learning. These functions are gaining rapid importance in a world that is infused with sensing modalities and in need of efficient information extraction.
+Qian: My research focuses on the experimental design and statistical methods for developing mobile health interventions. In particular, I aim to develop efficient methods to utilize wearable data in order to answer the question of “when, where and under what context should a (mobile health) intervention be delivered?” One of the projects I will be focusing on in the coming year is a collaboration with Professor Pathik Wadhwa from the UCI School of Medicine and other colleagues, where we aim to develop “just-in-time adaptive interventions” for reducing stress among pregnant women and women of childbearing age. This project involves building a prediction algorithm for detecting real-time stress, designing a “micro-randomized trial” to collect data and constructing the algorithm to deliver the interventions in an optimal way.
+On a more personal note, what is your New Year’s resolution and is there anything from your bucket list you hope to cross off in 2022?Epstein: Yikes, big question! I picked back up trail running this fall and did a few races for the first time in a while. So my big goal there is to stick with staying active!
+Imani: After two years of pandemic and remote working, I believe it is finally the time to explore the world. I am so excited to use summertime to travel with my family. As Helen Keller once said, “Life is either a daring adventure or nothing at all.”
+Qian: I just had a newborn in the summer of 2021. One of my New Year’s resolutions is to spend more time with my son and my family, to cherish the moments when he is so little and so adorable.
+— Shani Murray
+« Tech Startup Emerge is Transforming Virtual CommunicationUCI’s New University: “UCI Students Launch the ZotMeal App” »
+
+Latest news
+
+
+Senior Spotlight: Tennis Player and CS Major Matthew Sah Serves Up Aces On and Off the Court
+September 28, 2022
+
+
+Register Today for the Southern California AI & Biomedicine Symposium
+September 20, 2022
+
+
+CPO Magazine: “A Legal View of New NIST Quantum-Resistant Algorithms” by Bryan Cunningham
+September 19, 2022
+
+
+UCI Ranked 24th in Undergraduate Computer Science Programs by U.S. News & World Report
+September 16, 2022
+
+
+Senior Spotlight: Jose Cisneros Builds Impressive Resume with Trio of Internships
+September 15, 2022
+
+
+
+
+ 
+
+
+
+
+
+© 2022 UC Regents
+Feedback
+Privacy Policy
+
+
+
+ 
+
+
+
+

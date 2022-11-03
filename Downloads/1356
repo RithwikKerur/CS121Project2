@@ -1,0 +1,11 @@
+http://plrg.ics.uci.edu/publications/130.bib
+@article{key,
+ author = {Brian Demsky and Martin C. Rinard},
+ title = {Goal-Directed Reasoning for Specification-Based Data Structure Repair},
+ journal = {IEEE Transactions on Software Engineering},
+ volume = {32},
+ number = {12},
+ pages = {931--951},
+ month = {December},
+ year = {2006}
+}

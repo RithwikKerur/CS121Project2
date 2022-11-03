@@ -1,0 +1,313 @@
+https://dgillen.ics.uci.edu/publications
+
+
+
+
+
+
+
+Publications – Daniel Gillen, PhD | Statistics
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to content
+
+
+
+ 
+
+
+
+Daniel Gillen, PhD | Statistics
+University of California, Irvine
+
+
+
+
+
+
+
+
+    Menu	
+Home
+News
+Curriculum Vitae
+Research
+Lab Members
+Publications
+Teaching
+Book
+
+
+
+
+
+
+
+
+
+
+
+
+Publications 
+
+
+
+
+* The following manuscripts are selected from over 180 peer-reviewed publications.  For a complete list of publications, please click on the CV tab at the top of this page.  Most of my publications are available via PubMed by clicking here. If you are unable to obtain access to a specific manuscript, feel free to contact me for a re-print. In addition, my Google Scholar page is available here.
+
+
+
+
+
+
+Hertel L, Baldi P, Gillen DL. Reproducible Hyperparameter Optimization. Journal of Computational and Graphical Statistics. 2021.
+Nuño MM, Gillen DL. On Estimation in the Nested Case‐Control Design Under Non‐Proportional Hazards. Scandinavian Journal of Statistics. 2021.
+Nuño MM, Gillen DL. Robust estimation in the nested case-control design under a misspecified covariate functional form. Stat Med. 2021 Jan 30;40(2):299-311. doi: 10.1002/sim.8775. Epub 2020 Oct 26. PMID: 33105514.
+Tang Y, Vieira VM, Bartell SM, Gillen DL. A stratified generalized additive model and permutation test for temporal heterogeneity of smoothed bivariate spatial effects. Stat Med. 2020 Dec 10;39(28):4187-4200. doi: 10.1002/sim.8718. Epub 2020 Aug 13. PMID: 32794222.
+Vegetabile BG, Gillen DL, Stern HS. Optimally balanced Gaussian process propensity scores for estimating treatment effects. Journal of the Royal Statistical Society: Series A (Statistics in Society). 2020 Jan;183(1):355-77.
+Ryan MM, Spotnitz WD, Gillen DL. Variance estimation for the Kappa statistic in the presence of clustered data and heterogeneous observations. Stat Med. 2020 Jun 30;39(14):1941-1951. doi: 10.1002/sim.8522. Epub 2020 Mar 16. PMID: 32180248.
+Holbrook A, Lumley T, Gillen D. Estimating prediction error for complex samples. Canadian Journal of Statistics. 2020 Jun;48(2):204-21.
+Cruz M, Gillen DL, Bender M, Ombao H. Assessing health care interventions via an interrupted time series model: Study power and design considerations. Stat Med. 2019 May 10;38(10):1734-1752. doi: 10.1002/sim.8067. Epub 2019 Jan 7. PMID: 30616298.
+Bai L, Gillen DL, Bartell SM, Vieira VM. Mapping smoothed spatial effect estimates from individual-level data: MapGAM. R journal. 2019.
+Gao X*, Gillen D, Ombao H. Fisher information matrix of binary time series. METRON. 2018 Dec 1;76(3):287-304.
+Nuño MM*, Gillen DL. “Alternative Sampling Designs for Time-to-Event Data With Applications to Biomarker Discovery in Alzheimer’s Disease”. Handbook of Statistics 2017 Jan 1 (Vol. 36, pp. 105-166). Elsevier.
+Johnson WO, Ward EB*, Gillen DL. “Bayesian Methods in Public Health”. Handbook of Statistics 2017 Jan 1 (Vol. 36, pp. 407-442). Elsevier.
+Bai L* and Gillen D. “Survival analysis via Cox proportional hazards additive models”. Encyclopedia with Semantic Computing and Robotic Intelligence. 2017 Mar;1(01):1650003.
+McLaren CE, Chen WP, O’Sullivan TD, Gillen DL, Su MY ,Chen JH, Tromberg BJ. “Sample size and power determination when limited preliminary information is available”. BMC Medical Research Methodology. 2017 Apr 26;17(1):75.
+Kim SB* and Gillen DL, “A Bayesian adaptive dose-finding algorithm for balancing individual- and population-level ethics in Phase I clinical trials”, Sequential Analysis, In Press.
+Nguyen V.* and Gillen D. “Censoring-robust estimation in observational survival studies: Assessing the relative effectiveness of vascular access type on patency among end-stage renal disease patients”, Statistics in Bioscience in Press.  
+Kim SB*, Bartell SM, Gillen DL, “Inference for the existence of hormetic dose-response relationships in toxicology studies.” Biostatistics In Press (2016).
+Lumley T and Gillen DL,“Characterising Transitive Two-Sample Tests.” Statistics and Probability Letters In Press. (2015) 
+Yu Z, Demetriou M, Gillen DL, “Genome-Wide Analysis of Gene-Gene and Gene-Environment Interactions Using Closed-Form Wald Tests.” Genetic Epidemiology (2015) 
+Ellenberg SS, Culbertson R, Gillen DL, Goodman S, Schrandt S, Zirkle M. “Data Monitoring Committees for Pragmatic Clinical Trials.” Clinical Trials (2015) 
+Kim SB*, Bartell SM, Gillen DL. Estimation of a Benchmark Dose in the Presence or Absence of Hormesis Using Posterior Averaging. Risk Analysis (2014) Nov 10. 
+Brummel S.* and Gillen D. “Flexibly Monitoring Group Sequential Survival Trials Using Constrained Boundaries”, Sequential Analysis,  Vol. 33 (2014) pp. 39-59.  
+Brummel S.* and Gillen D. “On the use of local assessments for monitoring centrally reviewed endpoints with missing data in clinical trials”, Open Journal of Statistics. Vol. 3, No. 4 (2013) pp. 41-54. 
+Gillen D. and Emerson S., “Designing, Monitoring, and Analyzing Group Sequential Clinical Trials Using the RCTdesign Package for R”, Proceedings of the Fourth Seattle Symposium in Biostatistics: Clinical Trials, Springer: Lecture Notes in Statistics (2013), pp. 177-208.  
+Yu Z., , Gillen D., Li C., and Demetriou M. “Incorporating Parental Information Into Family-Based Association Tests”, Biostatistics. Vol. 14, No. 3 (2013) pp. 556-72. 
+Nguyen V.* and Gillen D. “Robust Inference in Semiparametric Discrete Hazard Models for Randomized Clinical Trials”, Lifetime Data Analysis, Vol. 18, No. 4 (2013), pp. 446-69. 
+Haneuse S., Schildcrout J., and Gillen D. “A two-stage strategy to accommodate general patterns of confounding in the design of observational studies”, Biostatistics, Vol. 13, No. 2 (2012), pp. 274-88. 
+Boyd A.*, Kittelson J., and Gillen D. “Estimation of treatment effect under nonproportional hazards and conditionally independent censoring”, Statistics in Medicine, Vol. 31, No. 28 (2012), pp. 3504-15. 
+Gillen D., “A Random walk approach for quantifying uncertainty in group sequential survival trials”, Computational Statistics & Data Analysis, Vol. 53, No. 3 (2009), pp. 603-620. 
+Gillen , D. and Johnson, W.O. “Comment on The nested Dirichlet Process” by Rodriguez, Dunson and Gelfand.” Journal of the American Statistical Association, No. 103 (2008), 1144-1146. 
+Haneuse S., Rudser K., and Gillen D. “The separation of timescales in Bayesian survival modeling of the time-varying effect of a time-dependent exposure”, Biostatistics, 2008 Jul;9(3), pp. 400-10. 
+Schildcrout J., Jenkins C., Ostroff J., Gillen D., Harrell F., and Trost D. “Analysis of longitudinal laboratory data in the presence of common selection mechanisms: a view toward greater emphasis on pre-marketing pharmaceutical safety”, Statistics In Medicine,  2008 May 30;27(12), pp. 2248-66. 
+Emerson S., Kittelson J., and Gillen D., “Frequentist evaluation of group sequential clinical trial designs”, Statistics In Medicine, Vol. 26, No. 28 (2007), pp. 5047-80. 
+Emerson S., Kittelson J., and Gillen D., “Bayesian evaluation of group sequential clinical trial designs”, Statistics In Medicine, Vol. 26, No. 7 (2007), pp. 1431-49. 
+Gillen D. and Emerson S., “Non-transitivity in a class of weighted logrank statistics under nonproportional hazards”, Statistics and Probability Letters, Vol. 77, No. 2 (2007), pp. 123-130. 
+Gillen D. and Emerson S., “A note on P-values under group sequential testing and nonproportional hazards”, Biometrics, Vol. 61 (2005), pp. 546-551. 
+Gillen D. and Emerson S., “Information growth in a family of weighted logrank statistics under interim analyses”, Sequential Analysis, Vol. 24 (2005), pp. 1-22.
+
+
+
+
+
+
+
+
+
+
+
+
+
+		Proudly powered by WordPress	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

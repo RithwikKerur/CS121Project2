@@ -1,0 +1,137 @@
+http://sli.ics.uci.edu/Classes/2009S
+
+
+
+SLI | Classes / Applications of Probability in Computer Science 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Classes /
+Applications of Probability in Computer Science
+
+
+ CLOSED : 2009 OFFERING  
+
+Assignments and Exams:
+
+HW1 Due 04/08/09  
+Matlab functions: 1,2,3,Sols
+HW2,Sols Due 04/15/09  
+Matlab functions: 1,2,Data,Sols
+HW3,Sols Due 04/22/09  
+Matlab functions: 1,2,Features,Labels
+HW4,Sols Due 04/29/09  
+Midterm,Sols Fri 5/01/09 in class  
+HW5,Sols Due 05/15/09  
+HW6,Sols Due 05/27/09  
+HW7,Data Due 06/05/09  
+Final Mon 6/8/09, 10:30-12:30  
+     
+Student Comment Page
+
+Lecture: Donald Bren Hall (DBH) 1423, MWF 10-11am
+Discussion: ICS 243, Mon 1-2pm
+Instructor: Prof. Alex Ihler
+TA: Tuan Nguyen
+
+Applications of Probability in Computer Science.
+In this course students will build on the basic probability concepts learned in Math 67 and learn how these ideas can be applied to a broad range of problems in modern computer science. The methods and models used will be mathematical in nature, but will be illustrated using real-world applications. Among the application areas that we will discuss are modeling of text and Web data, network traffic modeling, probabilistic analysis of algorithms and graphs, reliability modeling, simulation algorithms, data mining, and speech recognition. The mathematical methods that we will use to analyze these applications will include basic principles of probability such as Bayes rule, conditional probability, random variables, expectation, and Markov chains. 
+
+Background. 
+Students are expected to have taken Math 67 (Introduction to Probability and Statistics for Computer Scientists), as it is a prerequisite for the course.
+
+Course format. 
+Three lectures per week. Approximately 8 homeworks, due in class on Wednesdays. Two exams (midterm and final). Grading: 40% homework, 25% midterm, 35% final.  Lowest homework score will be dropped.
+
+Office Hours and Miscellaneous.
+Office hours for the course are Tuesday 2-3pm (was 1-2pm), or by appointment.
+
+The TA's office hours are Thursday 11-12pm, or by appointment.
+
+For questions regarding the homeworks and homework grading, please email the TA (...) with your questions.  For more general questions about the class, please email Prof. Ihler directly.  Please start your subject line with [cs177] (and I will do the same) in order to help keep track of class emails.
+
+Collaboration.
+Discussion of the course concepts and methods among the students is encouraged; however, all work handed in should be completely your own.  In order to strike a balance, we'll use the "work product" rule: while discussing anything related to the homework, you should retain no work product created during the discussion.  In other words, you can meet and discuss the problems, describe the solution, etc., but then all parties must go away from the meeting with no record (written notes, code, etc.) from the meeting and do the homework problem on your own.  If you work on a whiteboard, just erase it when you're done discussing.  Don't show someone else your homework, or refer to it during the discussion, since by this policy you must then throw it away.
+
+This is particularly important for code-based problems and solutions.  All code must be written by you, personally.  You may discuss general code principles, algorithms, and Matlab tricks, but do not share code directly.
+
+Textbooks. 
+The required textbook for the course is Probability, Statistics, and Stochastic Processes, by Peter Olofsson.  ISBN 0471679690.  It should be in stock at the bookstore.
+
+Matlab
+Often we will write code for the course using the Matlab environment.  Matlab is accessible through NACS computers at several campus locations (e.g., 
+MSTB-A, 
+MSTB-B,
+and several ICS labs), and if you want a copy for yourself student licenses are fairly inexpensive ($100).  Personally, I do not recommend the open-source Octave program as a replacement, as the syntax is not 100% compatible and may cause problems (for me or you).  
+
+If you are not familiar with Matlab, there are a number of tutorials on the web:
+University of Utah, very short
+CMU / UMichigan tutorial, also short
+University of Florida's tutorial, more complete
+Union College / Cyclismo.Org tutorial, also good
+UMaryland guide, lots of pointers to other tutorials and reference manuals
+You may want to start with one of the very short tutorials, then use the longer ones as a reference during the rest of the term.
+
+(Tentative) Schedule of Topics.
+ TopicsReadingSupplemental
+Week 1Review of basic concepts in probability, random variables, expectation of a random variable, examples and applications.Ch 1.1-1.4; 2.1-2.2; 2.4; 2.5.1-2.5.2
+Week 2Multiple random variables, joint distributions (for discrete random variables), factorization, law of total probability, conditional probability, Bayes rule.Ch 1.5-1.6.1; 2.5.3Tutorial on power-law distributions
+Week 3Independence and conditional independence. Applications to data mining and text classification, including discussion of classifying spam emails.No text; review class notes.  For more coverage, see these wikipedia articles: Naive Bayes and Bayesian Spam Filtering.Articles on Bayesian spam filtering 1,2; links to the conference on email and anti-spam, CEAS, and associated spam filtering competition.
+Week 4Entropy and Basic Coding Theory (Compression and Error Correction).No text; review notes.  See also: Info Theory, Hamming (7,4) codes, and Huffman codes.
+Week 5Markov Chains;Chapman-Kolmogorov equations; stationary probabilities.  In-class midterm on Friday. 
+Week 6Markov Chains (continued), applications to ranking of Web pages using the PageRank algorithm. 
+Week 7Continuous random variables: uniform, Gaussian/Normal. Central Limit Theorem.Ch. 2.3, 2.7; 4.2, 4.3Plinko
+Week 8The exponential model, memoryless waiting times, and the Poisson process.Ch. 2.6, 2.10; 3.12
+Week 9Introduction to Queueing Theory: analysis of a simple M/M/1 queueing model. 
+Week 10Simulation Techniques: pseudorandom number generators, algorithms and methods for generating non-uniform random variates. Applications of Monte Carlo simulation methods. WSJ article on MC
+Final Exam06/08/2009Final exam
+
+
+
+
+
+
+
+ Last modified February 13, 2017, at 02:20 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

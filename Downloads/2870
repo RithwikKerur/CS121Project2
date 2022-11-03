@@ -1,0 +1,202 @@
+https://ngs.ics.uci.edu/words-visual-words
+
+
+
+
+
+
+
+
+Words: Visual words – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Words: Visual words    			
+
+
+Earlier this week I visited Prof. JiangPing Fan’s group at University of North Carolina, Charlotte.  He has been working on developing image segmentation and classification approaches for annotating images. (Disclosure: I am intereacting with  him in this research, but my role is small; he is the lead.)  Some information and experiences related to this trip are available here.
+Prof. Fan has developed a machine learning approach to identify a few words like grass, sand, mountain, sky, water, flower in images based on visual characteristics like colore and texture.  But his technique goes far beyond this and he can detect ‘concepts’ like beach, garden, city, mountains scene, etc.  This work is reported in technical terms in a paper to appear at ACM Multimedia Conference in October in Santa Barbara.  A preprint of this paper is available.
+If today one could be reasonably successful in automatically identifying some basic visual objects and a few visual concepts, clearly by scaling it up to a few hundred visual objects and visual concepts, it will be possible to automatically annotate photos with some important tags.  And this technology could help in automatic tagging of images.
+Now why am I more optimistic about this approach compared to other approaches developed earlier in computer vision community?  Because we can start using EXIF data, the meta data associated with images to refine these processes of annotations significantly.  I see that finally computer vision approaches may start using other sources of information in identifying visual objects.  Moreover, these tags are just tags and in the search engine like environment, people are willing to tolerate significant inaccuracies.  
+It will be nice to scale up these approaches to say 500 visual objects and 200 visual concepts.  In fact even one tenth of those will make these approaches powerful enough to revolutionize how we organize and access photos.  
+
+
+
+By Ramesh |
+    				August 4, 2006 |
+    				             		Experiential Computing, Technical Thoughts |
+             	 
+    				             		1 Comment |
+             	 		          				
+    			
+
+
+← Photo Albums into Navigable 3-D worlds
+Live Art →
+
+
+
+			One thought on “Words: Visual words”		
+
+
+
+
+Nicolas Maillot August 11, 2006 at 1:38 am 
+
+Dear Ramesh, 
+This idea of building a large-scale ontology is fascinating.
+A paper from A.Hauptmann at CIVR 2004 was talking about this idea for broadcast videos: “Towards a Large Scale Concept Ontology for Broadcast Video”. I know that some important work currently done at IBM  goes in the same direction as well.
+Do you know how far are these people from getting this large-scale ontology ?
+There are several issues:
+Building the ontology (i.e. getting the ontological commitment from people) itself is tough.
+Getting the associated concept detectors working properly is even more difficult.
+Another issue is to share the whole thing. Ontologies are designed to be shared aren’t they?
+If shared, should everybody be able to improve the detectors?
+If it is the case, incremental machine learning techniques should be very useful. 
+If you have a look at my web-page (www.nicolas-maillot.net), you will understand that I have a particular interest in the notion of visual concept.
+I am very interested in having your definition of a visual concept and of a visual object.
+With my colleagues, we have defined visual concepts as independant from any domain kowledge.
+They are used to describe the visual appearance (i.e. texture, color, shape, spatial relations) of high-level concepts (e.g. car, building)
+From a computer vision point of view, visual concepts link high-level knowledge and image processing. They contribute to reduce the semantic gap.
+regards, 
+Nicolas
+
+
+
+
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

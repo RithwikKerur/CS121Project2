@@ -1,0 +1,197 @@
+https://ngs.ics.uci.edu/research/research-papers/multimedia-information-management
+
+
+
+
+
+
+
+
+Multimedia Information Management – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+ 
+
+
+
+    				Multimedia Information Management    			
+
+
+While working in computer vision, Ramesh started seeing the role that a powerful knowledge system plays in solving vision problems. This encouraged him to look at organizing models in an indexed database to use them effectively in hypothesis testing and verification mode. From there he got interested in organizing images and video in databases and finding ways to index them. That was the beginning of his interest in multimedia information. Since his shift in interest coincided with increasing in popularity of multimedia data, it is not surprising that the research area of multimedia was strongly influenced by his research. Moreover, he contributed to the growth in multimedia information systems by co-founding first Virage and then Praja.
+
+A. Gupta, T. Weymouth, and R. Jain, “Semantic Queries with Pictures, The VIMSYS Model,” Proceedings of VLDB’91, 17th International Conference on Very Large Data Bases, Barcelona, Spain. Sept. 3-6, 1991.
+
+
+[This was the first paper that took steps towards unification of image and video understanding with data bases.]
+
+
+J. Bach, S. Paul, and R. Jain, “An Interactive Image Management System for Face Information Retrieval,”IEEE Transactions on Knowledge and Data Engineering, Special Section on Multimedia Information Systems. Publication. 1993.
+
+
+[First system that addressed implementation of a visual information system. Many concepts addressed in this paper are very relevant to systems that are being designed even now in 2012.]
+
+
+R. Jain and A. Hampapur, “Metadata in Video Databases,” SigMod Record 23(4), 27-33. December 1994.
+
+
+[This paper emphasized the role of meta data in the days where people did not want to consider anything but intensity values in analysis and organization of images and video.]
+
+
+Hampapur, R. Jain, and T. Weymouth, “Production Model Based Digital Video Segmentation,” Multimedia Tools and Applications, 1(1), 9-46. March 1995.
+
+
+[One of the first paper that introduced the concept of shot detection for segmentation of video and proposed an approach to do that.]
+
+
+D. White and R. Jain, “Similarity Indexing with the SS-tree,” Proc. 12th IEEE International Conference on Data Engineering, New Orleans, LA. 516-523. February 1996.
+
+
+[Images are represented using high-dimensional feature vectors. Indexing of these images based on features is a challenging problem. SS-tree was one of the first approaches proposed to index images for retrieving similar images.]
+
+
+Simone Santini, and Ramesh Jain, “Similarity Measures,” IEEE Transactions on Pattern Analysis and Machine Intelligence (21), 9, September 1999.
+
+
+[Judging similarity of two items (images, objects, documents, concepts, etc) is fundamental to classification or recognition as well as grouping operations so common in many fields of sciences. This paper is a review of several different approaches adopted for similarity computation.]
+
+
+Simone Santini, Amarnath Gupta, and Ramesh Jain, “Emergent semantics through interaction in Image Databases,” IEEE Transactions on Knowledge and Data Engineering, summer 2001.
+
+
+[Semantics in multimedia is usually considered as one-shot approach. In this paper, it is shown that semantics can be handled more effectively by considering it as an emergent process. This promising direction has not received appropriate attention in academia. There are many signs of emergent semantics being used in practical systems.]
+
+
+Arnold Smeulders, Marcel Worring, Simone Santini, Amarnath Gupta, and Ramesh Jain “Image Databases at the end of the Early Years” IEEE Transactions on Pattern Analysis and Machine Intelligence 23(1), January 2001.
+
+
+[One of the most influential paper. This paper introduced Semantic Gap while discussing early approaches.]
+
+
+Ramesh Jain, Pinaki Sinha: Content without context is meaningless. ACM Multimedia 2010: 1259-1268
+
+
+[Ramesh has been emphasizing role of contextual knowledge in analysis of visual data. This paper addresses types of knowledge that is easily available in modern cameras and how it could be used for analyzing and indexing images.]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

@@ -1,0 +1,222 @@
+https://sli.ics.uci.edu/PmWiki/TableDirectives
+
+
+
+SLI | PmWiki / Table directives 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+Table directives
+
+
+
+
+
+< Tables | Documentation Index | Wiki styles >
+
+authors (intermediate) 
+
+There are six directives for table processing. All must be at the beginning of a line to have any effect.
+
+(:table [attr...]:)
+Generates a new HTML <table> tag with the attributes provided in attr....
+Closes the previous table, if any.
+Valid attributes and values are:
+border (a positive integer)
+bordercolor (a color name or hex number; doesn't display in all browsers)
+cellspacing (a positive integer indicating the space between cells)
+cellpadding (a positive integer indicating the interior border of a cell)
+width (a positive integer or percent)
+bgcolor (a color name or hex number)
+align (left, center or right)
+summary (does not display; used primarily to help visually disabled people navigate)
+(:cellnr [attr...]:), (:cell [attr...]:), (:headnr [attr...]:), (:head [attr...]:) 
+The  (:head:)  directive opens a new "header cell" of the table (creates  <th>  tag in HTML).
+The  (:cell:)   directive opens a new "regular cell" of the table (creates  <td>  tag in HTML).
+The directives  (:headnr:)  and  (:cellnr:)  open a new cell on a new row in the table.
+These directives close any previous cell and/or row. Note, the  (:head:)  and  (:headnr:)  directives exist from PmWiki version 2.2.11 or newer.
+
+Valid attributes and values are:
+align (left, center or right)
+valign (top, middle or bottom) * default is "top", see note below
+colspan (a positive integer)
+rowspan (a positive integer)
+bgcolor (a color name or hex number)
+width (a positive integer or percent)
+class (a CSS class of the cell)
+style (custom CSS styles of the cell)
+ (:tableend:) 
+Closes the previous table cell and closes off any table. Generates </th>, </td>, </tr>, and </table> tags as needed.
+
+* valign attribute
+If not already set, PMWiki will automatically include the attribute valign='top' with all (:cell[nr]:) and (:head[nr]:).  Pm said "Table Directives were created for layout purposes and in that case it makes the most sense for each cell (column) to have its content at the top of the row.  The attribute is placed in each cell and not in the row because certain browsers didn't recognize valign='top' in the row tag.
+
+See $EnableTableAutoValignTop on how to disable the automatic insertion of the attribute.
+
+Notes
+For the table, cell, and cellnr tags the author can specify any attributes that would be valid in the HTML <table> or <td> tags.  Thus you can specify rowspan, colspan, etc. arguments to build arbitrary tables.  However, it's not possible to nest a (:table:) inside of a (:cell:) or (:cellnr:) -- the next paragraph explains why.
+
+Many are likely to ask why we didn't just use the standard HTML table markup (<table>, <tr>, <td>, <th>) instead of creating a new markup, and allowing nested tables as a result.  There are two answers:  first, the HTML table markup is very ugly for naive authors (see PmWiki.Audiences and PmWikiPhilosophy #2), and second, it'd be very easy for authors to create tables that are incorrect HTML and that display incorrectly (or not at all) on some browsers.  Even seasoned web professionals sometimes get the table markup wrong, so it's a bit unrealistic to expect the average author to always get it right, or to be able to read arbitrary HTML table markup that someone else has created.
+
+ Common comment: Surely, the average or naive author would not be writing HTML directly, but using a tool, such as FrontPage, or even MSWord, to generate the HTML. This would be a lot simpler than learning even the simplest PmWiki markups.
+
+ Pm's Response: And once the HTML has been generated and posted, how is someone else going to edit or modify the table if they don't have the original FrontPage or MSWord file used to create it?  Remember that we're talking about collaborative authoring.  The HTML that those packages generate is among the hardest to read and edit of all!
+It's difficult to write the code needed to make PmWiki understand and fix arbitrary table markup, so PmWiki uses the simplified version above.  Still, this version is able to handle most table requirements (with the possible exception of nested tables).
+
+And, this is not to say that nested HTML tables are impossible in PmWiki --they just can't be easily created by wiki authors using the default wiki markup.  A site administrator can of course create header/footer HTML code and other local customizations that make use of nested tables.
+
+Example 1.  A table using table directive markup.
+"&nbsp;" is a non-breaking space in html. Place it in a cell if a cell is to be empty or the border of the cell will not be drawn properly.
+
+
+(:table border=1 cellpadding=5 cellspacing=0:)
+(:head:) a1
+(:cell:) b1
+(:cell:) c1
+(:cell:) d1
+(:headnr:) a2
+(:cell:) b2
+(:cell:) c2
+(:cell:) &nbsp;
+(:tableend:)
+ a1
+ b1
+ c1
+ d1
+ a2
+ b2
+ c2
+  
+
+
+In HTML, this is the same as
+
+
+<table border='1' cellpadding='5' cellspacing='0'>
+  <tr>
+    <th>a1</th>
+    <td>b1</td>
+    <td>c1</td>
+    <td>d1</td>
+  </tr>
+  <tr>
+    <th>a2</th>
+    <td>b2</td>
+    <td>c2</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
+
+Floating Table with bulleted navigation list
+What if you wanted to create a nice little table like a table of contents in a page like this? In this example, the table is floating right and contains some links in a bulleted list. This is a nice demonstration of how it's possible to build a little table of contents in the page, which might navigate to other pages just within the same wiki group. Note that having a bulleted list won't work in a ordinary table - it only works inside an  table created with table directives such as the example code used here.
+
+
+(:table border=1 width=30% align=right bgcolor=#cccc99 cellspacing=0 :)
+(:cellnr:)
+'''Navigation Links'''
+(:cellnr:)
+*[[Tables]]
+*[[Table directives]]
+(:tableend:)
+
+Navigation Links
+
+Tables
+Table directives
+
+
+
+(:table border=1 width=30% align=right bgcolor=#cccc99 cellspacing=0 :)
+(:cellnr colspan=2 align=center:)
+'''Navigation Links'''
+(:cellnr align=center:)
+[[Tables]]
+(:cell align=center:)
+[[Table directives]]
+(:tableend:)
+
+Navigation Links
+
+Tables
+
+Table directives
+
+
+Looking at the markup here, notice that we have used a #cccc99 hex color for the table background. Also, the (:cellnr:) markup creates a new row, a new cell and closes the row at the end.
+
+You could take this concept a little further: since you might want each page in the group to contain the same table of contents, you can make ONE table like the above and put it in its own page.  Then use an include  on any of your pages and bring in the table. The float (align) property will be honored in each page where it's included.
+
+ 
+ Can I define table headers using the table directive markup?
+ Yes, use (:head:) or (:headnr:) with PmWiki version 2.2.11 or newer. See also Cookbook:AdvancedTableDirectives.
+
+ Is it possible to do nested tables?
+ Yes, if you nest simple tables inside advanced tables. See also Cookbook:AdvancedTableDirectives.
+
+ Is it possible to add background images to tables and table cells?
+ Yes, see Cookbook:BackgroundImages.
+
+ Is it possible to apply styles to the elements of the table, like an ID to the table row, or a class/style to the TD?
+ Yes, see $WikiStyleApply.
+
+ Is it possible to automatically generate columns or rows in tables, i.e. without having to do a lot of counting?
+ Yes, this is possible with the Cookbook:CreateColumns recipe - it allows you to specify a certain number of columns, and/or to specify a certain number of items per column. Plus, someone has provided some similar markup on the TableDirectives-Talk page.
+ 
+
+< Tables | Documentation Index | Wiki styles >
+
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:TableDirectives, and  a talk page: PmWiki:TableDirectives-Talk.
+
+
+
+
+
+
+ Last modified February 28, 2014, at 04:16 AM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

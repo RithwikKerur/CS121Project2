@@ -1,0 +1,9 @@
+http://plrg.ics.uci.edu/publications/220.bib
+@inproceedings{key,
+ author = {Brian Demsky},
+ title = {Garm: Cross Application Data Provenance and Policy Enforcement},
+ booktitle = {4th USENIX Workshop on Hot Topics in Security},
+ location = {Montreal, Canada},
+ month = {August},
+ year = {2009}
+}

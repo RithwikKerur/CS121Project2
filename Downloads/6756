@@ -1,0 +1,169 @@
+http://www.ics.uci.edu/~jutts/110
+
+Statistics 110
+
+
+ 
+ Statistics 110 and 201 - Fall 2017  
+Department of Statistics
+  University of California, Irvine
+
+  Welcome to the homepage for Statistics 110/201: Statistical Methods for Data Analysis I
+  
+Class Time
+
+  Lecture 
+ Lab/Discussion  
+
+ 174 ICSLecture A (33790/37890) Mon, Wed 9:30 - 10:50am 
+Lecture B (37800/37895) Mon, Wed 12:30 - 1:50pm 
+ 103 Interim Classroom Facility (ICF)
+A1: Fri  9:00  -  9:50; A2: Fri 10:00 - 10:50B1: Fri 11:00 - 11:50; B2: Fri 12:00 - 12:50
+
+ 
+
+
+How, when and where to find us:
+  Professor Jessica Utts
+Lecture A TA: Wendy RummerfieldLecture B TA: Brandon Berman
+ 2212 Donald Bren Hall 2032 Donald Bren Hall2013 Donald Bren Hall  (949) 824-0649 no phoneno phone 
+ jutts_at_uci.edu [Not clickable to avoid spam] wrummerf_at_uci.edu bermanb_at_uci 
+ Mon, Wed 2:00 to 3:30 and by appointment
+Mon 11-12:30, Tues 3:30-5Mon 3:30-5, Fri 1-2:30 
+
+By Day of Week; See table above for location for each of us
+
+ Mon TuesWedThursFri
+ 11:00-12:30, Rummerfield; 2:00-3:30, Utts; 3:30-5:00, BermanFinals week (Dec 11):11:00-1:00, Berman, 2032 DBH
+3:30-5:00, RummerfieldFinals week (Dec 12):3:30-5:00, Utts, 2032 DBH2:00-3:30, UttsFinals week: NoneNone
+1-2:30, BermanFinals week: None 
+ Syllabus and other information
+
+ Syllabus
+Look up your homework and exam ID code (listed by first 5 digits of student ID#) for Lecture A and Lecture B 
+ Link to website to accompany the textbook, including data sets  Good resource for reviewing Stat 7 material; OpenIntro free textbook and videos
+ Penn State online regression course, good resource for material similar to the regression part of this course
+ Penn State online ANOVA course, parts of it are good resources for ANOVA material in this course
+
+ Information about getting an ICS Computing Account, and Installing and Using R and R Studio (Updated throughout the quarter)
+  How to get an account to use the ICS Labs
+ ICS Lab Hours
+ How to Install R and R Studio (pdf)
+ A Tutorial on installing and using R and R Studio
+ The R Project Homepage
+ Helpful website on learning and using R, from UCLA Institute for Digital Research and Education
+
+Data Sets and Applets that will be used in the course (additional ones posted as needed)
+
+ Highway Sign data, with Age listed first, then Distance
+ Height and weight data on n = 43 males, used for examples in class
+ Applet for guessing and viewing the regression line when you input data
+ Applet that allows you to place and move points on scatter plot and view regression line
+ Confidence interval applet
+ PhysicalData.txt Salary data for Nov 3 discussion
+
+ Practice Exams and Exam Keys 
+ Review for Midterm (posted at least a week before the midterm)
+ Practice Midterm Exam
+ Practice Midterm Exam Key
+ Midterm Exam Key for Lecture A and Lecture B (Posted after both exams are over)  Blank copies of Midterm Lecture A and Midterm Lecture B in case you want to try the one you didn't take.
+ Final Exam Review (topics since the midterm only; posted by the last week of classes)
+ Practice Final andPractice Final Key
+ More practice: The 2015 Statistics 110 final exam
+and the 2015 Statistics 110 final exam solutions
+ Final Exam Key for Lecture B (Monday) Final Exam and Lecture A (Wed) Final Exam (Posted after both exams are over)  
+ Cover Sheet for points reconsideration 
+ Homework Solutions, posted after they are due 
+
+ Assignment #1, Due Wed, Oct 11
+ Assignment #2, Due Wed, Oct 18
+ Assignment #3, Due Wed, Oct 25
+ Assignment #4, Due Mon, Oct 30
+ Assignment #5, Due Wed, Nov 15
+ Assignment #6 for 110, Due Wed, Nov 22
+ Assignment #6 for 201, Due Wed, Nov 22
+ Assignment #7, Due Wed, Nov 29
+ Assignment #8, Due Wed, Dec 6
+ 
+ Daily Schedule   
+ Date Sections covered and skipped; other topics covered
+ Material from class lectures and discussion (posted when covered)Assignment and Date Due
+
+ Fri Sept 29 NO DISCUSSION SECTIONS TODAY  
+         
+ Mon Oct 2 Introduction and start Chapter 0 Lecture 1 slides (as a pdf file, 6 to a page) 
+ Wed Oct 4 Finish Chapter 0; Sections 1.1, 1.2 Lecture 2 slides or Compact version Homework assignment #1, due Wed, Oct 11 
+ Fri Oct 6 Disc Introduction to R and R Studio 
+Notes for Oct 6 discussion in html, and in pdf 
+         
+ Mon Oct 9 Sections 1.3 to 1.5 Lecture 3 slides or Compact version 
+ Wed Oct 11 Review hypothesis testing, confidence intervals and distributions; Section 2.1Lecture 4 slides or Compact version
+R code and results for Highway sign-reading example  Homework assignment #2, due Wed, Oct 18 
+ Fri Oct 13 Disc R for Regression (plots, linear models, etc) 
+Notes for Oct 13 discussion in html, and in pdf
+         
+ Mon Oct 16 Sections 2.2 and 2.3
+Lecture 5 slides or Compact version
+Skin cancer example
+ 
+Wed Oct 18 Confidence and prediction intervals, Section 2.4Lecture 6 slides or Compact version
+Highway sign example showing CI and PI commands and results Homework assignment #3, due Wed, Oct 25   
+Fri Oct 20 Disc More R for Regression; Question and Answer 
+Notes for Oct 20 discussion in pdf 
+         
+ Mon Oct 23 Sections 3.1 and 3.2Lecture 7 slides or Compact version 
+ Wed Oct 25 Section 3.3 and Section 3.6 as applied to material in 3.3 Lecture 8 slides (in color) or Compact version (in black and white)  Homework assignment #4, due Mon, Oct 30Pulse data for this assignment is part of the Stat2Data library
+ Fri Oct 27 Disc Midterm review
+Review for Midterm 
+         
+ Mon Oct 30 Section 3.5; More about ANOVA (not in book) No lecture slides today - on white board, and these 2 examples:
+ Multicollinearity example and Example of why order matters 
+ Wed Nov 1 MIDTERM EXAM (covers through Fri, Oct 27) No homework this week 
+ Fri Nov 3 Disc More about R for multiple regression 
+Notes for Nov 3 discussion in html, and in pdf Salary data
+ 
+         
+ Mon Nov 6 Section 3.4 and finish Section 3.6Lecture 11 slides in color or
+ in black and white or Compact version  Homework assignment #5, due Wed, Nov 15 (covers 10/30 and 11/6 lectures)
+ Exercises 3.23 to 3.26 from book (in case you don't have the book)
+ 
+ Wed Nov 8 Section 4.2 (Skip 4.1) Lecture 12 slides or Compact versionBest Subsets Real Estate Example
+ Fri Nov 10 Disc Veterans' Day Holiday - no class  
+         
+ Mon Nov 13 Sections 1.5 and 4.3 Finish Lecture 12 first. Lecture 13 slides or Compact version
+Case diagnostics for the real estate example
+Case diagnostics in R
+Homework assignment #6 for Stat 110 students only;Hmwk6 data for Stat 110  as txt file or  as Excel file
+Homework assignment #6 for Stat 201 students only;StateSAT data for Stat 201  as txt file  or  as Excel file
+Description of State SAT data
+Both due Wed, Nov 22 (covers 11/8 and 11/13 lectures) 
+ Wed Nov 15 R for creating and comparing models; variable selection methods in R
+R code for Nov 15 lecture in html, and in pdf
+County Demographic Information (CDI) data 
+ Fri Nov 17 Disc Case diagnostics in R; Regression hypotheses stated as models
+Notes for Nov 17 discussion, pdf only 
+         
+ Mon Nov 20 Start Chapter 5 Lecture 15 slides or Compact version
+GPA and seat location example
+Party Days and seat location example
+ 
+ Wed Nov 22 Continue Chapter 5; Section 7.2 Lecture 16 outline (Lecture on the white board) Party Days and seat location example (Continued from last time) Homework assignment #7, due Wed, Nov 29  
+ Fri Nov 24 Thanksgiving Holiday - no class 
+         
+ Mon Nov 27 Chapter 6Lecture 17 slides or Compact versionTwo factor ANOVA Example  
+ Wed Nov 29 Other topics in analysis of variance (unbalanced two-factor, random effects, nested factors, repeated measures) Lecture 18 slides or Compact version
+ANOVA scenarios for discussion and Answers (posted after class)Homework assignment #8, due Dec 6
+ Fri Dec 1 Disc R for analysis of variance; comparing lm, anova and aov
+Notes for Dec 1 discussion, pdf only 
+         
+ Mon Dec 4  Sections 4.4, 7.5 and 7.6 (Analysis of covariance)
+Lecture 19 outline; Lecture will be on white board
+Analysis of covariance example 
+Wed Dec 6 Analysis of variance with more than two factors; Review for final exam
+Review for final exam
+ 
+ Fri Dec 8 Disc Final exam review, questions and answers 
+         
+ Mon Dec 11 Lecture B Final Exam, 1:30 to 3:30pm  
+ Wed Dec 13 Lecture A Final Exam, 8:00 to 10:00am  
+      

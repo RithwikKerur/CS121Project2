@@ -1,0 +1,984 @@
+http://www.ics.uci.edu/~kibler
+
+
+
+
+
+
+
+
+
+Dennis F. Kibler
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dennis F. Kibler
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+Position: 
+
+
+Professor Emeritus 
+
+
+
+
+
+
+
+Area: 
+
+
+Artificial
+  Intelligence 
+
+
+
+
+
+
+
+Office: 
+
+
+Bren Hall 4044 
+
+
+
+
+
+
+
+Email: 
+
+
+dfkibler70@gmail.com 
+
+
+
+
+
+
+
+Office Hours: 
+
+
+By appointment 
+
+
+
+
+
+I have retired and am not accepting new students
+Research
+
+Publications
+
+Students
+
+Courses
+
+CS174:
+     Bioinformatics 
+
+Genomic Analysis via Machine Learning Methods
+These research projects are being done in collaboration with a number of
+faculty from the School of Biological Science and the College of Medicine.
+For validation of the computational approach each project is focussed on a
+particular genome. 
+
+Promoter modelling.
+     Collaborator: Ming Tan. Students: Hilda Yu and Johnny Ackers. We have
+     developed a bimotif variable gap model that has been successful at
+     predicting the sigma-28 promoter site in Chlamydia and E. coli
+     Extensions of this model will be applied to search for dimer binding
+     sites. 
+Hydra database Collaborators: Hans
+     Bode, Robert Steele, and Steve Hampson. Analysis and data from Hydra ests,
+     as they are being sequenced. Currently we have about 140,000 ests
+     available and new sequences are added monthly. The main goals are to
+     identify genes, their functions, and their evolutionary histories. 
+Discovery of Chlamydial
+     Transcription factor Binding Sites Collaborator: Ming Tan. Student:
+     Bob Chan. Chlamydia is an unusual bacterial that lives entirely within
+     human cells. We are developing algorithms that combine various forms of
+     evidence to identify the transcription binding sites that control the
+     early and late genes. 
+
+In general our goal is to develop programs that can
+use the available data to help determine biological significant substructures
+or patterns in genomes. 
+
+
+
+Current Graduate Advisees and Projects
+·       
+Johnny Akers (Bio phd student): Advisor Ming
+Tan. Identifying regulatory elements in Chlamydia arising from dimerization. 
+·       
+Martin Brandon  
+Advisor Pierre Baldi   MitoMap
+
+
+
+Graduate students completing
+with doctorate
+
+
+Bob Chan (2007)
+      Discovery of Local Patterns in DNA that Predict CRMs and Protein
+      Structural Similarity 
+Hilda Yu (2006)
+      co-advisor with Ming Tan 
+Catherine Blake
+      (2003), Assistant Professor, University
+      of North Carolina, Chapel Hill 
+Yuh-Jyh Hu (1999),
+      Assistant Professor in Computer Science and Engineering Department, Tatung University,
+      Taipei. 
+Piew Datta (1997),
+      Researcher at GTE Research Laboratory. 
+Pedro Domingos (1997),
+      Associate Professor, University
+       of Washington. 
+Pat Murphy (1996),
+      Reseacher Scientist at JPL. 
+David Ruby (1993),
+      Independent Consultant. 
+David Aha (1990),
+      Researcher at Naval Research Laboratory. 
+Etienne Wenger (1990),
+      Research scientist at the Institute for Research on Learning, Xerox Park 
+Rogers Hall (1990),
+      Associate Professor at Vanderbilt, Department of Education. 
+Douglas Fisher (1987),
+      Associate Professor at Vanderbilt
+University. 
+Paul Morris (1984),
+      Researcher at Intellicorp, Menlo
+        Park, California.
+      
+Bruce W. Porter
+      (1984), Professor at University
+       of Texas. 
+Steven Hampson (1983),
+      Research Scientist at UCI. 
+John Conery (1983),
+      Professor at University
+       of Oregon. 
+Stephen Fickas (1983),
+      Professor at University
+       of Oregon. 
+
+
+
+
+
+Notable Undergraduates
+
+
+Kimberly
+      Ferguson(2003) Computing Research Award (honorable mention) 
+
+
+
+
+
+Undergraduate Advisees and Projects
+
+
+Frank Chen: Building a
+      monad and dyad motif detector. 
+Timothy Uy: (High
+      school student) Evaluating Genetic Algorithm on BSAT 
+Bach Ho: Extending
+      Weka with improved Nearest Neighbor and k-means algorithms 
+Gary Suh: Diagnose Colon cancer using
+      Protein expression data (Ciphergen) 
+Vishahk: Creating a
+      web-interface and mysql database for HYDRA data. 
+David Hu: Building a
+      dimer binding site detector for chlamydia trachomatis. 
+
+
+
+
+
+Course Offerings:
+Cosmos: Data Mining 
+
+
+Course for Gifted High
+      School Students 
+Geometric and
+      intuitive approach to three problems in Data Mining 
+
+Classification 
+Regression 
+Clustering 
+
+Course will use the
+      freely available Weka software 
+Prerequisites:
+      Comfortable with algebra, geometry and computers 
+No programming
+      experience required 
+
+
+Cosmos
+(2005) BioInformatics: Understanding our Genome 
+The goal of this course is to introduce students to
+the bioinformatics research paradigm by studying three significant problems in
+understanding the genome. The paradigm consists of starting with a biological
+problem, biological data and biological knowledge and then building an
+approximate computational model. The model is then applied to real data and its
+predictions are then validated by additional biological experiments. Ideally
+this cycle repeats. The course will begin with the problem of identifying genes
+from sequence data using the GENSCAN program. After genes are identified, their
+function will be hypothesized using the BLAST program. How genes are regulated
+will be answered using programs for finding surprising subsequences. In all of
+these studies students will work with real data using programs freely available
+on the web. The ideas underlying the algorithms, their limitations, and their
+connection to biology will be stressed. 
+Student Projects with draft abstracts 
+
+
+Homosexuality:
+      Determined by genetics or social environment by Mansi Shah and Wendy
+      Kim 
+Applying Microarray
+      Technology to predicting Adverse drug reaction in children with acute
+      lymphoblastic leukemia by Ruwani Ekanayake, Amy Henry, and Brittany
+      Horth
+Abstract: Pharmacogenomics, the study of how an individual's
+      genetic inheritance affects the body's response to drugs, has expanded exponentially
+      since the completion of the Human Genome Project in 2003. Now, thanks to
+      emerging microarray technology, pharmacogenomics is being applied with
+      great success to cancer research. Our project will explore the benefits
+      of microarray technology in pharmacogenomics, specifically as applied to
+      cancers. 
+Stem Cells by Micheal
+      Jenkins, Uchechukwu Nnadi, and Tom Garrett 
+Predicting SNPs and
+      Their Effects on Proteins using SIFT and Polyphen by Eve Shih and Kuo
+
+Predicting Leukemia
+      Classes Based on gene expression data using WEKA by Alex Doo,
+      Stehpanie Lang . and George Quinonez 
+Similarity Sequencing
+      and its use for Generation of Phylogenetic Trees by Ivan Cvitkovic and
+      Daniel Kaufman 
+Abstract: We plan to explore the concept of similarity sequencing.
+      Through our research, we will discuss the different algorithms for
+      similarity sequencing and a basic description of how they work.
+      Additionally we will discuss the application of similarity sequencing for
+      the generation of phylogenetic trees. During our project we will generate
+      two separate phylogenetic trees, based on different proteins. 
+Pharmacogenomics and
+      Bioinformatcis of Long QT Syndrome by Daryl Serrano and Carlos
+      Palacios . 
+Abstract: Long QT syndrome is a genetic disease that affects the
+      heart. One's heart has electrical activity that is made by a flow of
+      ions. This causes the heart to beat normally. People with LQTS have a
+      slower QT interval (heartbeat) than normal. People can acquire LQTS
+      through prescription/over the counter medications or inherit the disease
+      from their parents at birth. LQTS can cause many symptoms in a person
+      that can greatly affect their everyday lives. However, there are
+      treatments for LQTS that help people live normal lives. Acquired LQTS is
+      caused by medications that include antihistamines, antidepressants,
+      mental illness medications, heart medications, etc. LQTS is also
+      congenital, or caused by a mutation in the gene that forms ion channels.
+      There are different classifications of LQTS, such as LQT1, LQT2, LQT3,
+      LQT4, and LQT5. These different forms of LQTS affect different ion
+      channels in the human heart. When LQTS slows one's heart beat, one is
+      likely to faint, have a seizure, or die. One will most likely experience
+      these symptoms when exercising or becomes emotionally excited. Although
+      LQTS may be fatal, doctors have found treatments that help shorted the QT
+      interval. and allow patients to live normal lives. 
+How Breast Cancer
+      response to chemotherapy by Amanda Farrar and Rosalinda Ruiz
+Abstract:< Chemotherapy is very important in metastasis Breast
+      Cancer. Doxorubicin, epirubicin, Paclitaxel, and docetaxle are the most
+      active chemical drugs used in Breast Cancer treatment. Activating
+      tumor-suppressor genes are emerging as important targets for therapy.
+      Researchers test various models to see which combinations of drugs
+      improve Breast Cancer treatment. By understanding the molecular processes
+      underlying Breast Cancer, researchers hope to create specific drugs that
+      will prevent the growth of Breast Cancer. The malfunction of genes allows
+      cancer to spread to various parts of the bodies. Understanding these
+      processes will help find a cure for this disease. 
+Title: What is DEB and
+      how is it treated by Maritza Navarro and Alexandria Magallan 
+Abstract: Dystrophic epidermolysis bullosa (DEB) is caused by a
+      mutation in the collagen, type VII alpha 1 protein, which is found in
+      chromosome 3. Type VII collagen, is a protein that helps keep your skin
+      intact. Those who have dystrophic epidermolysis bullosa are usually
+      diagnosed at birth. Patients with the disease have "butterfly
+      skin" which is so thin that any minor trauma to the skin causes it
+      to blister and scar. The disease is a rare genetic disease that can be
+      both recessive and dominant. If a person has dominant DEB then he or she
+      has no real cure except for the nurture from those who care for them. But
+      those who have recessive DEB, may have a chance since there has recently
+      been 4 cases of skin graphs, or cutaneous pinch grafts, that helps to
+      heal the wounds of the patients. 
+Similarity Sequencing
+      and its use for phylogenetic trees by Ivan Cvitkovic and Daniel Kaufman. 
+The genetic causes and
+      physiological effect of sickle cell anemia by Alda Caan and Blanca
+      Trujillo 
+How gene therapy may
+      be applied to the curing genetic diseases by Michael Jenkins and
+      Uchechukwu (Uli)Nnadi. 
+
+
+Freshman Seminar: Artificial Intelligence: Is it
+for Real? 
+
+
+Discussion of
+      historical and significant papers in Artificial Intelligence dealing with
+      the creating and evaluation of computational artifacts that do or do not
+      exhibit intelligence. Students will be encouraged to suggest their own
+      approaches to the problems. Brainstorming and constructive evaluation
+      will be encouraged. 
+Prerequisite: ICS21
+      with a grade of B. 
+Readings: Significant papers will be
+      chosen, corresponding to student interest. If you miss class, then you
+      can pick up the paper outside my office. Also if you miss class, you are
+      required to write a one paragraph comment on the reading which you should
+      send to me via email. 
+First Paper: the Turing test (1950)
+
+Syllabus 
+Meetings Wednesdays:
+      3-3:50, CSE 310. 
+First Class: April 2;
+      Last Class: June 4 
+Grading: Grades are
+      based on class participation and written assignments. Attendance is not
+      sufficient. Each week you are expected to hand in a one paragraph comment
+      on the reading. 
+
+
+H22 Honors Introduction to Computer Science II
+
+
+
+Introduction to basic
+      abstract data structures and associated algorithms, including their
+      implementation, selection, and complexity. Data structures include lists,
+      stacks, queues, tables, and trees. 
+Prerequisite: H21 or
+      consent of instructor 
+Required Texts: 
+
+Data Structures and
+       Algorithms with Object-Oriented Design Patterns in Java by Bruno Priess.
+       
+Core Java (2nd ed) by
+       Horstmann and Cornell 
+
+Recommended: Any book
+      on Java that works for you. Many students like Core Java 2. Java Texts . 
+Syllabus 
+Ethics 
+
+
+
+Honors 23 Problem Solving and Data Structures 
+
+
+Further analysis of
+      basic and non-basic data structures and associated algorithms. With
+      respect to representation, covers arrays, lists, trees and graphs. With
+      respect to algorithms covers recursion, divide-and-conquer, backtracking,
+      and dynamic programming. 
+Prerequisite: H22 or
+      consent of instructor 
+Required Text: Data
+      Structures and Problem Solving in Java 
+Author: Mark Allen
+      Weiss 
+Recommended for Swing:
+      Up to Speed with Swing by Steven Gutz. 
+Syllabus 
+Homework Details
+
+Ethics 
+
+
+ICS 23 Problem Solving and Data Structures 
+
+
+Further analysis of
+      basic and non-basic data structures and associated algorithms. With
+      respect to representation, covers arrays, lists, trees and graphs. With
+      respect to algorithms covers recursion, divide-and-conquer, and
+      separate-and-conquer, 
+Prerequisite: ICS22 or
+      consent of instructor 
+Required Text: Data
+      Structures and Problem Solving in Java 
+Author: Mark Allen
+      Weiss 
+Suggested for Gui's: Up
+      to Speed with Swing by Steven Gutz. 
+Syllabus 
+Homework Details 
+Ethics
+
+
+
+171 Introduction to Artificial
+Intelligence (4) 
+
+
+The course is divide
+      into four major topics and we will spend about two weeks on each topic.
+      The major topics are: Problem Solving via search, Logical reasoning in
+      propositional and first-order logic, Probabilistic Reasoning and
+      Learning. 
+Prerequisites: ICS 52
+      and and Mathematics 2A-B and 67. 
+Text: Artificial
+      Intelligence: A Modern Approach 
+Authors: Stuart
+      Russell and Peter Norvig 
+Grading. There will be
+      4 quizzes,2 coding assignments, and 3 written homeworks. The quizzes will
+      each count 15% of your grade. The lowest homework/coding score will be
+      dropped. Scores on late homework will be reduced by 20% per day. 
+Class Lectures: MWF
+      2:00-2:50 CS174 
+Time: June 28 - Sept
+      3. 
+Teaching Assistant:
+      Rajyashree Mukherjee mukherjr@uci.edu 
+Course email:
+      36490-M04@classes.uci.edu 
+Discussion Section:
+      Wed 3:00-3:50 CS174 
+Syllabus and Lectures
+
+Ethics
+
+Homework Details Future homeworks will be
+      collected in class and returned via the distribution center. 
+
+
+172 Programming Techniques in Artificial
+Intelligence (4) W. 
+
+
+The study of the
+      object-oriented design as applied to AI algorithms and representations.
+      The goal is to create an in-depth understanding of some of the important
+      AI approaches by coding various algorithms in an object-oriented
+      language. On the coding side, we will examine graphical displays,
+      user-interfaces, and code libraries. On the AI side, we will implement
+      algorithms for problem-solving, optimization, decision-making, and
+      learning. There will be three to five coding/design assigments. The code
+      will be in Java or Python. 
+Prerequisites: ICS
+      171, knowledge of object-oriented programming 
+Texts: Any Java text
+      you like plus any AI text you like. 
+Syllabus plus fuller description of course. 
+Programming Language:
+      Java 
+Ethics
+
+
+
+CS 174 BioInformatics (4) S.
+
+
+
+Meetings:
+      M-W-F: 11-11:50 ELH 110 
+Office Hours:
+      M-W: 9-10 and by appointment. Room 414D CS 
+First Class:
+      Monday, April 3 
+Last Class:
+      Friday, June 9 
+Final: Friday,
+      June 16, 8am -10am 
+Questions: Do
+      not hesitate to ask questions in class, in my office hours or by email. Do
+      hesitate to ask questions on the weekends - that's family time for me.
+      Untimely questions may not be answered. 
+Text:
+      Fundamental Concepts of BioInformatics by Dan Krane and Michael Raymer 
+Course Mailing List:
+      TBD 
+Teaching Assistant:
+      Daniel Sanchez (valencid@ics.uci.edu) 
+Teaching Assistant
+      Office hours: Wed- Fri, 10-11, TA office in the ICS Trailers 
+Grading: There
+      will be eight assignments plus one quiz and a final. The lowest score on
+      a assignment will be dropped. The final will count 20% of your grade, the
+      quiz 10% and the best seven of your assignment scores will each count
+      10%. Homeworks can be turned in one day late for 1/2 credit. All
+      homeworks are due a week after the assignment on Monday by 10 am. If it
+      is turned in at 10:01, then you can only get at most 1/2 credit.
+      Homeworks will be deposited using the checkmate program. 
+Course Goals:
+      Bioinformatics is the study of biological problems via computational
+      tools. The goal of the course is to provide students with sufficient
+      biological knowledge and computational methods that they can use,
+      understand, and possibly generate algorithms that are appropriate for
+      available biological data. This course will concentrate on approaches
+      that deal with the most voluminous and accurate data, namely DNA data, protein
+      data, and gene-expression data. As part of the course students will use
+      current tools on existing databases to a) locate genes and determine
+      their function, b) build phylogenic trees, c) locate regulatory elements
+      and d) predict protein structure. 
+Overview of Course:
+      Problems in Biology and Computational Approaches 
+Week 1: Basic structure of DNA, RNA, genes and proteins.
+Week 2&3: Methods: Dot Matrices, Local, Global and Multiple
+      Alignment algorithms.
+      Problems: Gene identification and gene function
+Week 4&5. Methods: Tree building: UPGMA, clustering, maximum
+      likelihood
+      Problems: Tree of Life: fitting all organism into an evolutionary history
+Week 6&7: Methods: Pattern discover by search (exhaustive and
+      heuristic)
+      Problems: Gene regulation in Prokaryotes and Eukaryotes 
+Week 8&9: Methods: Dynamic Programming, machine learning 
+      Problems: Determine Secondary and Tertiary structure of RNA and Proteins.
+Week 10: Methods: Machine Learning
+      Problem: Determining proteomic disease diagnoses. 
+Course Workload:
+      Expect weekly assignments. You will have four assignments where you
+      implement basic algorithms for a particular biological problem. These
+      assignments will alternate with using existing, more sophisticated
+      algorithms for related tasks. In particular you will write algorithms for
+      finding genes, determining similarity between DNA and protein sequences,
+      building evolutionary trees, and locating regulatory elements. I will
+      provide a sketch or design for these algorithms so that they are all
+      implementable in one afternoon plus, at least for me, another afternoon
+      for debugging. Only the next homework assignment is guarantee to be
+      correct - other assignments may change as the class progresses. 
+Quiz: Multiple
+      choice and fill in the blank. Monday of the second week of classes. This
+      will be based on chapter 1 of the text (pages 1-20) plus the lectures.
+      For computer scientist learning the basic vocabulary of molecular biology
+      is somewhat difficult. I recommend reading the chapter at least twice,
+      making note of the important concepts. 
+First Assignment
+      to hand in: Due the beginning of the 3rd week of classes. The assignment
+      has two parts for submission: a coding part and question part. The
+      assignment is due by 10am on Monday of the third week of classes. In
+      general assignment are due by 10am on Monday of week after the assignment
+      is made. Assignments are to be deposited in the appropriate folder using checkmate.
+      Most of you have already used this software, but just in case: To set up
+      for electronic submission, go to checkmate.ics.uci.edu, log in with your
+      UCInet ID, choose "Course Listing" for "Spring 2006,"
+      click "Go" next to ICS 174, and then click "List me for
+      this course." For the answers to questions, you will submit a word
+      file hwkn.doc file. For the coding part, when they occur, submit a single
+      hwkn.java. To do this you will need collect your java files into a single
+      file. You may also do the homework in Python. I reserve the right to
+      change assignments as the course progresses. 
+Assignment Details 
+
+
+CS 175A Projects in
+Artificial Intelligence (4) S. 
+§                                
+Meetings: MWF 3:00-3:50 SE2 1304 
+§                                
+Office Hours: MW before and after class and by
+appointment. 
+§                                
+Course Mailing List: 36485-F05@classes.uci.edu 
+§                                
+Course Project web site TBD 
+§                                
+Final paper and code due TBD. 
+§                                
+Teaching Assistants: James Worcester
+(jworcest@uci.edu) Office hours: TBD 
+§                                
+Poster Presentations (Power-point) with demonstration;
+Date to be decided. 
+§                                
+First Class: September 23 Last Class: December 2
+
+§                                
+Work Load: Several presentations, interim
+documents, design documents, website, power-point presentation, Java code, and
+a final paper. The final paper should include at least two references, either
+to papers or texts. The final presentation will be done in PowerPoint and
+should include a demonstration and evaluation of the program. Each project will
+have an associated WebSite 
+§                                
+Grading: All students in a group will assign
+credit to one another. The individual grade will be based on the total project
+grade (decided by me) distributed as group members decided. 
+§                                
+In this course students will build Java programs
+that demonstrate AI techniques. The potential topics include Expert Systems,
+Natural Language Processing, Problem Solving, Search, Game Playing, Learning,
+Reasoning, Perception, etc. A more specific but still incomplete list of
+potential projects is listed under AI projects. One common approach would be to
+implement some AI method and apply it to some domain. The AI text by Russell
+and Norvig provides many examples of possible projects. 
+Each student will be involved in one project done
+in a group of three people. In the project each object will be identified with
+its author. All students are responsible for some of the code. The programs
+generated will be made public so that all can view, use, and evaluate. Students
+will be responsible for maintaining their programs. There will be an emphasis
+on design so every project will go through a design review in which the entire
+class participates. Each group will be responsible for several presentations:
+the basic goal, the history on the problem, the design, and the final
+demonstration with evaluation. Each group is also responsible for a report that
+corresponds to each presentation. 
+§                                
+Prerequisites: ICS 171, knowledge of Java 
+§                                
+AI Projects. 
+§                                
+Work Schedule. 
+§                                
+Ethics 
+202 Seminar in Research in ICS (2) F.
+Graduate orientation program and colloquium series.
+Includes talks by ICS faculty in all areas about their current research.
+Satisfactory/Unsatisfactory Only. Formerly ICS 295.
+209 Seminar in Bioinformatics(2)
+Graduate seminar in which recent papers and
+research are discussed and analyzed. Papers will concentrate on analysis of
+genomic and gene expression data. Supporting papers on biology, machine
+learning, and statistics may also be included. It is likely that each enrolled
+person will present two papers. The first presentation will be informal and
+will likely include necessary background material. The second presentation will
+be a formal one, done either via PowerPoint or overheads. During the second
+presentation background material can be assumed.
+§                                
+ICS 249 Mondays12-2pm (Note new place and
+time) 
+§                                
+Bioinformatic Papers
+
+
+
+CS 270A: Introduction to Artificial Intelligence
+§                                
+Introduction to basic AI representations and
+algorithms, problem solving, planning, logical and probabilistic reasoning,
+natural language processing and learning. 
+§                                
+Text: Artificial Intelligence: A Modern Approach
+by Stuart Russell and Peter Norvig 2nd Edition. I suggest ordering this
+from Amazon. 
+§                                
+Lecture Time: Tues/Thurs 9:30 - 10:50 Room:
+cs253 
+§                                
+Office hours: 11-12 tues/thurs and by
+appointment. 
+§                                
+First class: Sept 30 2003. Last
+class: Dec. 4 2003. 
+§                                
+Grading: Three coding assignments and a final:
+all weighted equally. 
+§                                
+Final: Thursday Dec 11 8am-10am 
+§                                
+Click here for
+lectures and assignments. 
+
+CS273: Machine Learning (4). 
+§                                
+Computational approaches to learning,
+concentrating on classification and regression. Covers standard learning
+representations (rules, decision trees, instances, linear threshold units,
+neural nets, etc), their representation, limitations, and evaluation. 
+§                                
+Prerequisite: ICS 270A. Formerly ICS 275. 
+§                                
+Required Text: Introduction to Data Mining 
+§                                
+Authors: Pang-Ning Tan, Michael Steinbach, Vipin
+Kumar 
+§                                
+Publisher: Addison-Wesley ISBN 0-321-32136-7 
+§                                
+Recommended Text: Data Mining: Practical Machine
+Learning Tools and Techniques with Java Implementations. 2nd Edition. 
+§                                
+Authors: Ian H. Witten and Eibe Frank.
+Publisher: Morgan Kaufman 
+§                                
+Recommended Text: Machine Learning by Tom
+Mitchell. Publisher: McGraw-Hill 
+§                                
+First Class: Jan 10. Last class: Thursday March
+16 
+§                                
+Final: Thursday March 23 8am - 10am 
+§                                
+Lectures: tues-thurs 9:30-10:50 
+§                                
+Room: CS-213 
+§                                
+Office Hours: tuesday/thursday after class and
+by appointment. 
+§                                
+Syllabus 
+§                                
+Ethics 
+277A Representations and
+Algorithms for Molecular Biology(4)
+o                               
+The primary goal of this class is to introduce
+molecular biologists to computer science and computer scientist to molecular
+biology. It is not expected that biologist will become programmers, but they
+will learn what might be accomplished with computational analysis. Nor is it
+expected that computer scientists will conduct biological experiments, but they
+will learn enough biology to understand the important problems in biology that
+are addressable by computational means. 
+§                                
+Required Text: Bioinformatics: Sequence and
+Genome Analysis by David W. Mount 2nd Edition 
+§                                
+Recommended Text: Introduction to Computation
+Molecular Biology by Sebutal and Meidanis 
+§                                
+Recommended (undergraduate text): Fundamental
+Concepts of Bioinformatics by Krane and Kramer 
+§                                
+First Class: Thursday Jan 8, 2006. Last class:
+Thursday March 16 
+§                                
+Final: Thurs Dec 12, 1:30-3:30pm 
+§                                
+Meetings: Tuesday/Thursday 9:30- 10:50 CS253 
+§                                
+Course Work: Weekly readings from the text and
+papers, a few homeworks, and a final project. 
+§                                
+Course Mailing List: 36774-F05@classes.uci.edu 
+§                                
+Project: A joint project and presentation
+teaming a biologist with a computer scientist. 
+§                                
+Syllabus 
+
+
+
+
+
+
+280 Seminar in Computational Biology 
+This is an advanced course that concentrates on recent computational methods
+that aid in the functional analysis of genomes. Papers will be drawn primarily
+from Bioinformatics, Proceedings of the Conference on Intelligent Systems for
+Molecular Biology, Journal of Molecular Biology, Proceedings of the National
+Academy of Science, Science, and the Journal of Computational Biology. The
+course will focus on algorithms that find patterns in DNA, particularly those
+that relate to gene regulation, such as finding regulatory elements, finding
+promoters, and clustering gene expression data. There is no text. We will all
+be reading, discussing, and presenting papers as well as any
+research-in-progress.
+
+
+
+Java Demos:
+o                               
+Traveling Salesman. Not available now. 
+This
+Java (JDK1.0) program illustrates the use of hill-climbing to solve the
+traveling saleman program. The program is simple so that the general ideas can
+be understood. Many valuable extensions are possible. The program only uses one
+operator, that of uncrossing edges that intersect. Additional operators are
+useful. The general problem of defining useful operators for hill-climbing is
+unsolved. Simulated annealing, multiple restarts, better initialization would
+all be useful. If your browser executes JDK1.1, then you might prefer the
+following similar demo: Not available now. 
+
+o                               
+Dynamic Programming. Dynamic
+Programming 
+This program illustrate the use of dynamic programming to find the minimum edit
+distance between two strings. This distance depends on the cost one associates
+with various edit operations. It can be used for spell checking but major
+applications are in comparing amino acid and nucleotide sequences. If you look
+at the source,the main action is in the routine doSimMatch. This was one of my
+first Java programs, so the program can be greatly improved. 
+o                               
+Kmean clustering. Not available now. 
+You'll
+see that is doesn't always work. Requires JDK1.1. 
+o                               
+Valdimir Vapnik's applet on Support Vector
+Machines . This is a beautiful applet that displays the probability
+density function associated with the generated decision surface. 
+o                               
+N Queens
+Problem. Not available now. 
+N Queens
+problem is solved by local improvement or repair search. This same method is
+most applied to scheduling problems, where it can generate anytime and
+approximate solutions. Coded in ics175 by Son Tran. 
+
+
+
+Publications
+2006 
+In silico prediction and functional validation of
+sigma-28-regulated genes in Chlamydia and E. coli. Yu, H.H.Y., Ming Tan, and
+Dennis Kibler. Journal of Bacteriology. Online at JB01082-06 
+2005 
+Using Hexamers to Predict Cis-Regulatory Modules in
+Drosophila. Bob Chan and Dennis Kibler, BMC Bioinformatics.
+http://www.biomedcentral.com/1471-2105/6/262 6: 262, October 2005. 
+2004 
+A horizontally transferred protist gene in
+the Hydra genome Figure 1 Current
+Biology. Robert E. Steele, Steven E. Hampson, Nicholas A. Stover, Dennis F.
+Kibler, Hans R. Bode. Volume 14, number 8. 
+2003 
+Using DNA MicroArrays to Identify SP1 as a
+Transcription Regulatory Element of Insulin-Like Growth Factor in Cardiac
+Muscle Cells. Circulation Research. Tao Li, Yung-Hsiang Chen, Tsun-Jui Lui,
+Jia Jia, Steven Hampson, Yue-Xin Shan, Dennis Kibler, Ping H. Wang. pp 1-35.
+2003 
+Evaluating Representations for the Shine-Dalgarno
+Site in Escherichia coli Steven Hampson and Dennis Kibler. TR#03-14.
+School of Information and Computer Science. University of California,
+Irvine. 
+2002
+Characterizing the E. coli Shine-Dalgarno Site:
+Probability Matrices and Weight Matrices Dennis Kibler and Steven Hampson,
+International Conference on Mathematical and Engineering Techniques in Medicine
+and Biological Science ( METMBS-2002). pp. 358-364.
+Distribution Patterns of over-represented k-mers
+in non-coding yeast DNA Steven Hampson, Dennis Kibler, and Pierre Baldi,
+BioInformatics. vol. 18 no.4 pp. 513-528. 
+2001
+Learning Weight Matrices for Identifying
+Regulatory Elements, Dennis Kibler and Steven Hampson, International
+Conference on Mathematical and Engineering Techniques in Medicine and
+Biological Science ( METMBS-2001). pp. 208-214.
+Bay, S. D., Kibler, D., Pazzani, M. J., and Smyth, P. (2001). The UCI KDD
+Archive of Large Data Sets for Data Mining Research and Experimentation. In
+Information Processing Society of Japan Magazine. Volume 42, Number
+5, pages 462-466. English language version reprinted in SIGKDD Explorations.
+Volume 2, Issue 2, pp. 81-85, 2000. 
+2000
+Analysis of Yeast's ORF Upstream Regions by
+Parallel Processing, Microarrays, and Computational Methods. Steve Hampson,
+Pierre Baldi, Dennis Kibler, and Suzanne Sandmeyer. Tenth International
+Conference on Intelligent Systems for Molecular Biology ( ISMB-2000). pp.
+109-201.
+Combinatorial Motif Analysis and
+Hypothesis Generation on a Genomic Scale , with Yuh-Jyh Hu, Suzanne
+Sandmeyer, Calvin McLaughlin. BioInformatics, Vol 16, 222-232.
+1999
+Minimum Generalization via Reflection: A Fast
+Linear Threshold Learner , with Steven Hampson, Machine Learning 37
+pp. 51-73. 1999.
+Detecting Motifs from Sequences with Yuh-Jyh Hu
+and Susan Sandmeyer, International Conference on Machine Learning 1999.
+1997 
+Symbolic Nearest Mean Classifiers , with Piew
+Datta, AAAI-97.
+Learning Symbolic Prototypes , with Piew Datta,
+ICML-97.
+GalaII: Integrating Construction of Boolean and
+Prototypical Features , with Yuh-Jyh Hu, ECML-97 (in press).
+1996 
+A Generative Approach to Constructive Induction ,
+with Yuh-Jyh Hu, AAAI-96.
+1995 
+``Plateaus and Plateau Search in Boolean Satisfiability
+Problems: When to Give Up Searching and Start Again,'' with Steven Hampson.
+DIMACS Challenge, 1995.
+Learning Prototypical Concept Descriptions ,
+with Piew Datta, Twelfth International Conference on Machine Learning.
+1993 
+``Learning recurring subplans'' with David Ruby. in Machine Learning Methods
+for Planning, Minton, S., 466--497, Morgan Kaufman, 1993.
+Concept Sharing: A Means to Improve Multi-Concept
+Learning , with Piew Datta, Machine Learning Conference.
+1992 
+``The Utility of Knowledge in Inductive Learning'', with Michael Pazzani,
+Machine Learning, 9, 57--94, 1992.
+Utilizing Prior Concepts , with Piew Datta,
+Machine Learning Workshop on Bias.
+1991 
+``Instance-Based Learning Algorithms'', with David Aha and Marc Albert, Machine
+Learning, 37--66, 1991.
+``SteppingStone: An Empirical and Analytic Evaluation'', with David Ruby,
+Proceedings of the Ninth National Conference on Artificial Intelligence,
+527--531, Morgan Kaufmann, 1991.
+1990 
+``Machine Learning as an Experimental Science'', with Pat Langley. Readings in Machine
+Learning, Dietterich, T., and Shavlik, J. (eds.), 38--43, Morgan Kaufmann,
+1990.
+1989 
+``Instance-Based Prediction of Real-Valued Attributes'', with David Aha and
+Marc Albert, Computational Intelligence: an International Journal, Vol 6, 3,
+51--57, 1989.
+``Exploring the Episodic Structure of Algebra Story Problem Solving'', with
+Rogers Hall, Etienne Wenger, and Chris Truxaw, Cognition and Instruction, 1989.
+1986 
+``Experimental Goal Regression A Method for Learning Problem Solving
+Heuristics'', with Bruce Porter, Machine Learning 3, 245--289, 1986.
+1985 
+``Differing Methodological Perspectives in Artificial Intelligence Research'',
+with Rogers P. Hall, Artificial Intelligence Magazine, Volume 6, Number 3, pp.
+166-178, August 1985. 
+
+
+
+Professional Activities:
+Reviewer for Bioinformatics, Machine Learning, KDD, IEEE
+Scientific Advisor for Oncotech.
+CEP and UCEP member.
+
+
+
+Other Interests:
+Reading, bridge, hiking. 
+
+
+
+Information and Computer Science
+University of California, Irvine CA 92717-3425
+Last modified: May 16, 2005 
+
+
+

@@ -1,0 +1,524 @@
+https://www.ics.uci.edu/~alfchen
+
+
+Alfred Chen's Homepage
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Alfred Chen
+
+
+
+Assistant Professor
+Department of Computer Science, 
+University of California, Irvine
+
+
+Office: 
+ICS1 420 (inside ICS1 418), Inner 
+				Ring Rd
+Phone: 949-824-7865
+Email: alfchen at uci dot edu
+CV  Google Scholar 
+				(cite: 2300+, h-index: 23, i10-index: 37)
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Research positions available 
+for self-motivated students interested in computer security, especially 
+AI/systems/network security in exciting emerging CPS/IoT  systems such as 
+autonomous cars/drones/robots (link1, 
+link2), intelligent transportation (link1, link2), and smart home (link1, link2).
+ »  [New] PhD applicants: 
+ 
+Fall-2023 PhD Positions at CS@UC Irvine (AI/System/Network Security Focus)
+«
+  BS/MS students: Please fill out this form if looking for 
+research experience in my group. 
+
+
+
+
+
+Come here for AI security research in autonomous driving (AD) & smart transportation?
+Collection of our latest efforts is at
+our AD & CV Security Website and
+
+YouTube channel
+
+
+» 
+(2022) 
+[arXiv'22] 
+Systematization of Knowledge (SoK) of the semantic AD AI security research 
+space + Proposal of PASS platform  
+« 
+»  (2022) 
+[NDSS'22] PlanFuzz: 
+First automated method to discover security vulnerabilities specific to AD 
+planning (semantic DoS-focused)  
+«
+»  (2022) 
+[Workshop] AutoSec 
+(Automotive & Autonomous Vehicle Security) @NDSS'22 (15 papers+15 
+demos)@autosec_conf
+  
+«
+
+»  (2022) 
+ 
+[Contest] 2nd AutoDriving CTF @ DEFCON (one of world's largest & most notable hacker conventions)Follow @autodrivingctf
+  
+«
+»  (2021)
+
+[Usenix Sec'21] DRP attack: Seemingly-benign dirty road 
+pattern can attack self-driving & cause lane departure in 1 sec  
+«
+»
+(2021) 
+ [Contest] 1st AutoDriving CTF @ DEFCON (one of world's largest & most notable hacker conventions)
+  
+« »  (2021) [IEEE S&P'21] MSF-ADV attack: Fundamentally challenge 
+sensor fusion based AD perception in practical settings  
+«
+»   
+(2021) 
+
+[Workshop] AutoSec 
+(Automotive & Autonomous Vehicle Security) @NDSS'21 (17 papers+10 
+demos) 
+«
+»  (2020)
+[Usenix Sec'20] 
+FusionRipper: First security analysis of fusion based AD localization, discover strategic GPS spoofing to break fusion  
+«
+»  (2020)
+[Usenix Sec'20] 
+First general adversarial sensor attack & defense for LiDAR-based perception in autonomous driving  
+«
+»  (2019)
+[ACM CCS'19] 
+First security analysis & adversarial sensor attack design for LiDAR-based perception in autonomous driving  
+«
+»  (2018)
+[NDSS'18] 
+First security analysis & congestion attack design for CV/V2X-based intelligent traffic light control  
+«
+
+
+
+
+
+
+
+
+
+I am teaching the undergraduate security course at Fall'22: 
+CS134: Computer and Network 
+Security!
+
+
+
+[News] (12/2021) [Award] 
+Thrilled to annouce that I just received the NSF CAREER award! 
+Excited to leverage this award to keep exploring AI security in the emerging 
+Internet of Autonomous Things (IoAT) such as autonomous cars, drones, and 
+robots.
+[News] (05/2021) [Award] 
+Congratulations to Kanglan Tang, an undergraduate student in my 
+group, for receiving the prestigous UCI Chancellor’s Award for Excellence in Undergraduate 
+Research! This award is given to only
+1 student per school. Kanglan 
+is extremely excellent with a 1st-author paper published, presented herself, and 
+accepted for demos at multiple academic venues, and also awarded multiple travel grants to top-tier security 
+venues. Look forward to her continued success at UC Berkeley!
+
+  
+
+[News] (04/2021) [Award] 
+Our
+undergrad cyberseucrity team Cyber@UCI 
+finished 5st place nation-wide at
+National CCDC, out of 168+ 
+university/college teams in US! 
+Absolutely a huge achievement for the first time at National. Can't wait for 
+next year :)>> News coverage:
+
+UCI Finishes in Top 5 at National Collegiate Cyber Defense Competition
+[News] (04/2021) [Award] Our
+undergrad cyberseucrity team Cyber@UCI won 
+the 1st place (Gold Medal) at
+CCDC Western Regional, and advanced to
+National CCDC for the first time! 
+We beat many strong rivals such as Stanford, UCSD, ASU, and UCR. Super proud of 
+the team!>> News coverage:
+
+UCI advances to national cyber defense competition following “historic” 
+regionals win
+
+  
+
+[News] (09/2020) [Award] My 
+research group ASGuard (Autonomous Systems Guard) won the 
+champion 
+(1st place) at
+the world's 
+first Autonomous Driving Security CTF organized by Baidu Security! Was quite 
+a close game, and we were able to beat 20+ teams! Congratulations to my students Junjie Shen (Captain), Ningfei 
+Wang, Takami Sato, Ziwen Wan, Yunpeng Luo, and BS Alumni Zeyuan Chen (now at 
+CMU)!>> News coverage:
+
+ICS Team Takes 1st Place at Baidu’s AutoDriving Capture the Flag Competition
+
+  
+
+[News] (06/2020) [Usenix Security'20 (3)] Our paper on the first 
+security analysis of Multi-Sensor Fusion (MSF) based localization in autonomous 
+driving 
+got into Usenix Security'20! Discovered a novel & 
+general attack, FusionRipper, that can 
+fundamenally defeat MSF design principle! 
+Attack demos are in 
+our project website. Earlier version of this work also won NDSS'19
+Distinguished Poster Presentation Award.
+[News] (06/2020) [Usenix Security'20 (2)] Our paper on the first 
+general adversarial sensor attack & defense for LiDAR-based perception in 
+autonomous driving 
+got into Usenix Security'20! Discovered a general 
+black-box attack based on LiDAR spoofing, and designed novel 
+physical invariants based defense at both system & 
+DNN model levels!
+
+More details are in our project website.
+[News] (02/2020) [Award] Our poster "Security 
+of Deep Learning based Lane Keeping Assistance System under Physical-World 
+Adversarial Attack" wins the NDSS'20 Best Technical Poster Award (top 
+1/30)! 
+Congratulations to my students Takami, Junjie, and Ningfei! Junjie has 
+been winning NDSS Best Poster Award for 2 consecutive years, bravo!
+
+     
+
+[News] (02/2020) [EuroS&P'20] Our paper 
+on the first study of publish-subscribe overprivilege 
+vulnerability in autonomous driving software got into 
+EuroS&P'20! It's the first to discover this new class of 
+domain-specific vulnerability, and contributes not only a novel 
+static detection method but also an efficient & 
+module-transparent defense solution! Website & attack demos coming 
+soon.
+[News] (01/2020) [NDSS'20] Our paper 
+on reverse engineering CAN bus commands using mobile apps got into 
+NDSS'20! It's the first cost-effective (no real car 
+needed) & automatic (no human intervention required) approach 
+for reverse engineering CAN bus commands!
+[News] (12/2019) [ICLR'20] Our paper on the first 
+adversarial physical-world attack against object tracking in autonomous driving 
+got into ICLR'20 (top-tier conference in machine learning)!
+[News] (12/2019) [ICSE'20] Our paper on the first 
+comprehensive study of autonomous driving software bugs 
+got into ICSE'20 (top-tier conference in software engineering)!
+[News] (11/2019) [Usenix Security'20 (1)] Our paper on the first 
+security analysis of car IoT dongles 
+got into Usenix Security'20! Identified 5 types of 
+security vulnerabilities that can cause safety threat 
+and car theft, with 4 CVEs 
+newly generated (and more to come)!
+[News] (11/2019) [News Coverage] Our ACM CCS'19 work on
+attacking 
+LiDAR-based perception in self-driving cars is recognized by Forbes:
+
+Five Components Of Autonomous Car Security
+
+[News] (07/2019) Please check out the
+project 
+website and 
+attack demo for our new ACM CCS'19 work on autonomous 
+driving systems security! A collection of our recent research progress 
+in this space is here: Connected 
+and Autonomous Vehicle Systems Security.
+[News] More...
+ 
+Introduction
+ 
+
+
+
+
+I am an Assistant Professor in the Department of Computer Science at the University of California, Irvine. Before coming to UCI, I received my Ph.D. degree from Computer Science and Engineering at the University of Michigan, Ann Arbor in 2018.
+My research generally focuses on network and systems security. More specifically, my research interest includes software security, network protocol security, DNS system security, smartphone system security, CPS/IoT system security, access control system security, vulnerability discovery and analysis, side channel attack and defense. Most recently, my research focuses mainly on security problems in smart systems and IoT, e.g., smart home systems, smart transportation systems, and autonomous vehicle systems.
+The major theme of my research is to proactively address security challenges through systematic problem analysis and design, leveraging techniques such as static/dynamic program analysis, software testing, and network measurement. My research has developed such approaches to systematically discover, analyze, detect, and fix vulnerabilities in a wide range of important computer systems and components such as smartphone OSes, network protocols, DNS, GUI systems, access control systems, and very recently intelligent traffic signal control systems. 
+
+
+
+
+
+
+
+ 
+Selected Publications (Full list) 
+
+
+
+
+  [Usenix Security'20] Drift with Devil: Security of Multi-Sensor Fusion based Localization in High-Level Autonomous Driving under GPS Spoofing 
+			Junjie Shen, Jun Yeon Won, Zeyuan Chen, and Qi Alfred Chen
+			USENIX Security Symposium 2020. (acceptance rate 16.3%=158/972) 
+			[PDF (available upon request due to responsible disclosure process)] [Slides] [Talk] [Project website] [Attack Demo 1] [Attack Demo 2]
+		
+		
+
+
+  [Usenix Security'20] Towards Robust LiDAR-based Perception in Autonomous Driving: General Black-box Adversarial Sensor Attack and Countermeasures 
+			Jiachen Sun, Yulong Cao, Qi Alfred Chen, and Z. Morley Mao
+			USENIX Security Symposium 2020. (acceptance rate 16.3%=158/972) 
+			[PDF] [Project website]
+		
+		
+
+  [Usenix Security'20] Plug-N-Pwned: Comprehensive Vulnerability Analysis of OBD-II Dongles as A New Over-the-Air Attack Surface in Automotive IoT 
+			Haohuang Wen, Qi Alfred Chen, and Zhiqiang Lin
+			USENIX Security Symposium 2020. (acceptance rate 16.3%=158/972) 
+			[PDF (available upon request due to responsible disclosure process)]
+		
+
+[ICSE'20] A Comprehensive Study of Autonomous Vehicle Bugs 
+			Joshua Garcia, Yang Feng, Junjie Shen, Sumaya Almanee, Yuan Xia, and Qi Alfred Chen
+			International Conference on Software Engineering (ICSE'20), 2020. (acceptance rate 23.5% = 129/550) 
+			[PDF]
+		
+
+[ICLR'20] Fooling Detection Alone is Not Enough: Adversarial Attack against Multiple Object Tracking 
+			Yunhan Jia, Yantao Lu, Junjie Shen, Qi Alfred Chen, Hao Chen, Zhenyu Zhong, and Tao Wei
+			International Conference on Learning Representations (ICLR'20), 2020. (acceptance rate 26.5% = 687/2594) 
+			[PDF]
+		
+
+[CCS'19] Adversarial Sensor Attack on LiDAR-based Perception in Autonomous Driving 
+			Yulong Cao, Chaowei Xiao, Benjamin Cyr, Yimeng Zhou, Won Park, Sara Rampazzi, Qi Alfred Chen, Kevin
+Fu, and Z. Morley Mao
+			Proceedings of the 26th ACM Conference on Computer and Communications Security (CCS'19), London, UK, Nov. 2019. (acceptance rate 16.0% = 149/933) 
+
+			[PDF] [BIB] [Website] [Attack demo]
+  		
+
+[NDSS'18] Exposing Congestion Attack on Emerging Connected Vehicle based Traffic Signal Control 
+Qi Alfred Chen, Yucheng Yin, Yiheng Feng, Z. Morley Mao, and Henry X. Liu
+			Proceedings of the 25th Network and Distributed System Security Symposium (NDSS'18), San Diego, Feb. 2018. (acceptance rate 21.5% = 71/331) 
+
+			[PDF] [BIB] [Slides] [Website] [Attack demo] 			
+                        Media coverage: My article in The Conversation, The Register, Trend Micro, Naked Security, Slashdot, Bleeping Computer, Smart Cities Dive, Boing Boing, The Morning Paper, Michigan Engineer, PriusChat ...
+		
+
+
+
+ 
+Research Impact
+ 
+
+Selected Media Coverage (more)
+
+
+
+
+Apps Available for Your Smartphone Could Steal Your Personal Information, WXYZ-TV (ABC afflicated), 06/28/2017
+	
+
+An Obsure App Flaw Creates Backdoors in Millions of Smartphones, Wired, 04/28/2017
+	
+
+US-CERT: Leaked WPAD Queries Could Expose Corporate to MitM Attacks, SecurityAffairs, 05/26/2016
+	
+
+When Domain Names Attack: the WPAD Name Collision Vulnerability, NakedSecurity, 05/25/2016
+	
+
+Android Attack Improves Timing, Allows Data Theft, Ars Technica, 08/24/2014
+	
+
+Gmail Smartphone App Hacked by Researchers, BBC News, 08/22/2014
+	
+
+Researchers Find Way to Hack Gmail with 92 Percent Success Rate, CNET News, 08/21/2014
+	
+
+New Hack Could Steal Personal Information from Gmail, Other Popular Apps, CBS News, 08/21/2014
+	
+
+Sneak Attack: Android Apps Can Spy on Each Other, NBC News, 08/21/2014
+	
+
+
+
+Selected Vulnerability Disclosures (more)
+
+
+
+
+US-CERT Alert TA16-144A: WPAD Name Collision Vulnerability
+	
+
+CVE-2016-3898: Privilege escalation vulnerability in Android Telephony service
+	
+
+CVE-2016-5227: Device authentication hijacking vulnerability in AirDroid
+	
+
+	AndroidID-21669196: Privilege escalation vulnerability in Android Short Message Service (SMS) service
+	
+
+	AndroidID-22541289: Privilege escalation vulnerability in Android Network Service Discovery (NSD) service
+	
+
+
+
+Selected Industry Discussions & Responses (more)
+
+
+
+
+	Email acknowledgements from Apple, Microsoft and Comcast on the reported client-side name collision vulnerabilities.
+	
+
+	RIPE 72 discussion, 05/23/2016: Alert (TA16‐144A) WPAD Name Collision Vulnerability
+
+
+	Verisign's remediation suggestions for enterprise: White Paper: Enterprise Remediation for WPAD Name Collision Vulnerability
+
+
+
+
+ 
+Selected Awards & Honors 
+(Full list)
+
+
+
+
+
+1st place (champion), Baidu Autonomous Driving Security CTF competition (2020, top 1/24)
+	
+
+Best Technical Poster Award for "Security of Deep Learning based Lane Keeping Assistance System under Physical-World Adversarial Attack" at NDSS 2020 (2020, top 1/30)
+	
+
+Most Amusing Award and Most Engaging Award for talk ”Ghost Cars & Fake Obstacles: First Look at Control Software Stack Security in Emerging Smart Transportation” at HotSec’19 (2019, both top 1/17)
+	
+
+Distinguished Poster Presentation Award for "Security Analysis of Multi-Sensor Fusion based Localization in Autonomous Vehicles" at NDSS 2019 (2019, top 2/36)
+
+	
+
+ProQuest Distinguished Dissertation Award, University of Michigan (2019, top 10 in University of Michigan, across all graduate schools ranging from science and engineering to archaeology and history)
+	
+
+Rackham Predoctoral Fellowship, Rackham School, University of Michigan (2017, 1-2 each dept. to support students working
+on dissertation that are unusually creative, ambitious and risk-taking)
+	
+
+	Internet of Things (IoT) Technology Research Award, Google (2016)
+	
+
+Top 100 Excellent Undergraduate Students of the Year (top 100 of China), China Computer Federation (2012)
+	
+
+
+
+ 
+Teaching
+
+
+
+
+	Fall 2022 - 
+CS134: Computer and Network Security
+
+
+	Spring 2022 - CS205: Computer and Systems Security
+
+
+	Fall 2021 - 
+CS134: Computer and Network Security
+
+
+	Spring 2021 - CS205: Computer and Systems Security
+
+
+	Fall 2020 - 
+CS134: Computer and Network Security
+
+
+	Spring 2020 - CS295: Advanced Computer and Network Security
+
+
+	Fall 2019 - 
+CS134: Computer and Network Security
+
+
+	Spring 2019 - 
+CS295: Advanced Computer and Network Security
+
+
+
+
+ 
+Selected Academic Services
+
+
+
+
+
+	Chair/co-chair: ACM/ISOC AutoSec'19-22 (co-founder, co-located with ISOC NDSS'21-22 and ACM CODASPY'19-20), IEEE SafeThings'21 (co-located with IEEE S&P'21).
+	
+
+	PC member (selected): Usenix Security'21-23, ISOC NDSS'22-23, ACM CCS'21, CVPR'22, ECCV'22, INFOCOM'22, ACSAC'20-22, ICCPS'22, ACM AsiaCCS'21, Escar USA'20-21.
+	
+
+	Journal reviewer: IEEE Transactions on Information Forensics & Security (T-IFS), IEEE Transactions on Dependable and Secure Computing (TDSC), IEEE Communications Magazine, IEEE Transactions on Intelligent Transportation Systems (T-ITS), IEEE Transactions on Mobile Computing (TMC), IEEE Transactions on Cyber-Physical Systems (T-CPS), IEEE Transactions on Network and Service Management (TNSM), MDPI Sensors.
+	
+
+
+
+ 
+Misc.
+ My attack videos on YouTube attracted over 60,000 views (as of 09/07/2014) from all over the world, with a daily peak of over 17,000 views.
+I am a Distinguished Active member of Tau Beta Pi Michigan Gamma (MI-G) Chapter.
+
+I initialized the first Flyer Book for the CS dept. of Nanjing University, guiding students to apply for graduate schools outside China.
+
+ 
+
+ 
+
+
+
+
+
+
+

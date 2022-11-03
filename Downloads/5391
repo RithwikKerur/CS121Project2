@@ -1,0 +1,463 @@
+https://www.informatics.uci.edu/ics-researchers-win-best-paper-award-for-detecting-covid-19-misinformation
+
+
+
+
+
+
+
+
+
+ICS Researchers Win Best Paper Award for Detecting COVID-19 Misinformation | Informatics @ the University of California, Irvine
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+People
+Contact
+Site Map
+News
+
+
+
+
+Search for:
+
+
+
+ 
+
+
+
+
+
+Menu
+Skip to content
+Explore
+
+
+Chair’s Welcome
+Faculty Profiles
+Books We Read
+History of the Department
+Seminar Series
+Blogs We Author
+Department Vision
+Books We Have Written
+Visiting the Department
+Facts & Figures
+
+
+
+Graduate Degrees
+
+
+Overview
+Ph.D. Software Engineering
+Policies
+Ph.D. Informatics
+M.S. Software Engineering
+Diversity Ambassador
+M.S. Informatics
+Master of Software Engineering
+Student Profiles
+Master of Human-Computer Interaction & Design
+Courses
+Student Groups
+ 
+ 
+Upcoming Course Schedule
+
+
+
+Undergraduate Degrees
+
+
+B.S. Informatics
+B.S. Information & Computer Science
+Policies
+B.S. Business Information Management
+Special Opportunities
+Student Profiles
+B.S. Game Design and Interactive Media
+Minors
+Student Groups
+B.S. Software Engineering
+Courses
+Upcoming Course Schedule
+
+
+
+Admissions
+
+
+Graduate Application Process
+Coming from Abroad
+Housing
+Undergraduate Application Process
+Student Life
+
+
+
+Research
+
+
+Labs & Centers
+Ph.D. Research
+Undergraduate Research
+Areas of Expertise
+Past Dissertations
+Gifts & Grants
+Example Projects
+Masters Research
+
+
+
+Impact
+
+
+Research that Matters
+Undergraduate Alumni Spotlights
+Outreach
+Graduate Alumni Spotlights
+Community Engagement
+
+
+
+Support
+
+
+Champion Research
+Become a Corporate Partner
+Share Your Talent
+Support Students
+Provide Projects
+Set Future Agenda
+Post Jobs
+Graduate Resources
+
+
+
+
+
+
+MenuExplore
+
+Chair’s Welcome
+History of the Department
+Department Vision
+Facts & Figures
+Faculty Profiles
+Seminar Series
+Books We Have Written
+Books We Read
+Blogs We Author
+Visiting the Department
+
+
+Graduate Degrees
+
+Ph.D. Informatics
+M.S. Informatics
+Ph.D. Software Engineering
+M.S. Software Engineering
+Master of Human-Computer Interaction & Design
+Master of Software Engineering
+Courses
+Policies
+Diversity Ambassador
+Student Profiles
+Student Groups
+Upcoming Course Schedule
+
+
+Undergraduate Degrees
+
+B.S. Informatics
+B.S. Business Information Management
+B.S. Game Design and Interactive Media
+B.S. Software Engineering
+B.S. Information & Computer Science
+Special Opportunities
+Minors
+Courses
+Policies
+Student Profiles
+Student Groups
+Upcoming Course Schedule
+
+
+Admissions
+
+Graduate Application Process
+Undergraduate Application Process
+Coming from Abroad
+Student Life
+Housing
+
+
+Research
+
+Labs & Centers
+Areas of Expertise
+Example Projects
+Ph.D. Research
+Past Dissertations
+Masters Research
+Undergraduate Research
+Gifts & Grants
+
+
+Impact
+
+Research that Matters
+Graduate Alumni Spotlights
+Undergraduate Alumni Spotlights
+Community Engagement
+Outreach
+
+
+Support
+
+Champion Research
+Support Students
+Become a Corporate Partner
+Provide Projects
+Post Jobs
+Share Your Talent
+Set Future Agenda
+
+
+ 
+
+
+
+
+
+
+
+		← Site Map  News
+
+
+
+
+
+ICS Researchers Win Best Paper Award for Detecting COVID-19 Misinformation
+December 4, 2020
+
+
+Sameer Singh
+Earlier this year, as the global pandemic started shutting down much of the world, medical researchers quickly moved to better understand the virus and work on a vaccine. Researchers from UCI’s Donald Bren School of Information and Computer Sciences (ICS) took a different approach. As Assistant Professor of Computer Science Sameer Singh explains, “work started as an outlet for the students to positively contribute to the fight against COVID-19 the one way we know how — by throwing machine learning at it!”
+
+However, they first had to figure out how best to apply their expertise. Informatics Professor Sean Young, who has a joint appointment between ICS and UCI’s School of Medicine (SOM), had an idea.
+Sean Young
+Young had been sitting in on nightly calls with the Emergency Department, talking about COVID-19 patients, the need for more personal protective equipment, and risks for COVID at UCI and within Orange County. “To try to address this, my team began running a number of COVID studies on online communities and noticed a lot of misinformation that was furthering the problem.” Young reached out to his ICS colleague, knowing that Singh’s expertise in natural language process (NLP) could help address the issue.
+Singh and Young, along with computer science graduate students Tamanna Hossain, Robert Logan IV, and Yoshitomo Matsubara and SOM staff research associate Arjuna Ugarte, spent the next seven months working on the problem. In November, their paper, “COVIDLIES: Detecting COVID-19 Misinformation on Social Media,” won the Best Paper Award at the NLP COVID-19 Workshop at the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP).
+Tackling the “Infodemic”It turns out that Young and his colleagues weren’t the only ones to notice the threat of misinformation at the start of the pandemic. There were reports of a related “infodemic,” and a study suggested that as many as 800 people might have died worldwide between January and March because of misinformation.
+As the team of ICS researchers started taking a closer look, they found countless false statements on Twitter, such as “Coronavirus cannot be spread by practicing holy communion,” “boiled ginger can cure coronavirus,” and “COVID-19 is only as deadly as the seasonal flu.”
+Recognizing the need for automated misinformation detection systems, the team of researchers started working on an online tool for verifying information about COVID-19. They collaborated with Nicole Woodruff, a psychobiology undergraduate at UCLA; Aileen Guillen, a medical student at UCI; and ICS undergraduates Armin Abaye, Ali Al-Hakeem, Victoria Rong, Venkata Sai Abhishek and Sadhika Yamasani at UCI.
+The plan was to develop a plug-in tool for social media platforms that could notify users when viewing or posting misinformation. “Sameer and his students took the lead on the tech behind this,” notes Young, “and my team and I worked on finding sources of misinformation and categorizing it for the AI models.” 
+For more information, watch the video presentation about the work:
+
+
+
+Evaluating and Advancing Detection SystemsAs the researchers outline in their paper, the tool is a first step in using NLP systems to combat COVID-19-related misinformation. They hope that the COVIDLIES dataset they created will help other researchers better understand NLP systems and their deployment. The dataset contains 6,761 expert-annotated tweets to evaluate the performance of misinformation detection systems on 86 different pieces of COVID-19 related misinformation. The researchers evaluate existing NLP systems on this dataset, providing initial benchmarks and identifying key challenges for future models to improve upon.
+“This is a paper on the development of an artificial intelligence-style tool to detect misinformation posted online about COVID-19,” says Young. “If we can detect misinformation, then we can develop interventions to prevent its negative impact.” This type of approach could also be applied to other COVID-19-related areas, including misinformation about testing, masks and vaccines. “This is a great example of needed collaborations between medicine and ICS,” says Young.
+The researchers were pleased to see their work receive the top award at the NLP workshop.
+“I’m really proud of this work,” says Singh. “It’s great to see it being recognized by a community that’s actually thinking about the important problems in this area.”
+— Shani Murray
+
+
+
+Post navigation
+← Fellowship Fuels Ph.D. Student Nika Nour’s Study of Deepfakes
+Expanding Technology Access to Support People with Visual Disabilities During the Pandemic →
+
+
+
+
+
+
+ 
+
+October 2022
+September 2022
+July 2022
+June 2022
+May 2022
+April 2022
+March 2022
+February 2022
+January 2022
+December 2021
+November 2021
+October 2021
+September 2021
+August 2021
+July 2021
+June 2021
+May 2021
+April 2021
+March 2021
+February 2021
+January 2021
+December 2020
+November 2020
+October 2020
+September 2020
+August 2020
+July 2020
+June 2020
+May 2020
+April 2020
+March 2020
+February 2020
+January 2020
+December 2019
+November 2019
+October 2019
+September 2019
+August 2019
+July 2019
+June 2019
+May 2019
+April 2019
+March 2019
+February 2019
+January 2019
+December 2018
+November 2018
+October 2018
+September 2018
+August 2018
+July 2018
+June 2018
+May 2018
+April 2018
+March 2018
+February 2018
+January 2018
+December 2017
+November 2017
+October 2017
+September 2017
+August 2017
+July 2017
+June 2017
+May 2017
+April 2017
+March 2017
+February 2017
+January 2017
+December 2016
+November 2016
+October 2016
+September 2016
+August 2016
+July 2016
+June 2016
+May 2016
+April 2016
+March 2016
+February 2016
+January 2016
+December 2015
+November 2015
+October 2015
+September 2015
+August 2015
+July 2015
+June 2015
+May 2015
+April 2015
+March 2015
+February 2015
+January 2015
+December 2014
+November 2014
+September 2014
+August 2014
+July 2014
+June 2014
+
+ 
+
+
+
+People
+Contact
+Site Map
+News
+
+
+
+
+
+
+
+Feedback
+Privacy Policy
+					© 2022 UC Regents
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

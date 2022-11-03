@@ -1,0 +1,172 @@
+https://ngs.ics.uci.edu/eventweb7-spatio-temporal-links
+
+
+
+
+
+
+
+
+EventWeb7: Spatio-temporal Links – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				EventWeb7: Spatio-temporal Links    			
+
+
+For events that are considered interval events, there is a dominant structure that is commonly used.  These events have strong spatio-temporal taxonomic structure.  This structure is present in both organized events as well as natural events.  
+An event may contain many other events that took place during this event.  The world cup soccer tournament has many subevents â€“ first there are league games,  Each league game has many games in which two teams belonging to the same league play games.  Of course each game is itself an event.  And in each game, there are two halfs.  Again each half can be divided into many possessions, penalties, scores and whatever else is considered a relevant event.  After the league games there are play-off rounds leading to finals.  This is the temporal structure.  There is spatial structure also.  Each game is played in a different location â€“ in a different city â€“ and even the events in a game take place at the different part of the play-field.  Similar structures are used by people to represent different natural event.  The Tsunami of 2004 hit different countries at different times.  And the after effects also came at different times.  The rescue efforts and the rebuilding efforts due to this Tsunami could also be considered part of the event and will have different subevents that will be spatially and temporally different but structurally part of the major event.
+The above spatio-temporal structure of event could be considered the human desire to organize related events in a structure that could be easily and efficiently represented.  Since this is usually imposed by humans, and humans found taxonomy to be an efficient mechanism to represent such relations,  the spatio-temporal structure is naturally represent as a taxonomy.  As you may have noticed in the above two examples, the first one, the world-cup, is designed by humans and has strong taxonomic structure.  Yje second, the Tsunami, is effort by humans based on their observations to bring them under a structure and hence uses an implied spatio-temporal structure.  
+Organized events will usually have strong taxonomy structure.  Natural events will have taxonomy structure imposed by human analysts.  In these cases, events and subevents will be defined using some attributes of these events and will be usually fit in this structure.  Like all taxonomy structures imposed on natural observations, like the periodic table and animal species, one may find exceptions and situations where an event may clearly belong to two parents leading to â€˜weak taxonomyâ€™, rather than a pure tree like taxonomy structure.  
+Another important difference in these two types of events is that in organized events the structure is given and the events are generated from that structure.  In natural events, multiple events will take place.  Powerful event mining techniques based on space time and attributes of events will be required to group them into meaningful classes that will fit into the taxonomy structure.  In simpler cases, one may use a known structure and fit given events into that structure, while in other cases the structure will evolve from given events based on general characteristics of events.
+In both cases this structure plays very important role in our understanding of the relationship among events.  The relationships among these events can be represented by spatial and temporal subevent and superevent links.  And these links will be important part of the EventWeb. 
+
+
+
+By Ramesh |
+    				September 10, 2006 |
+    				             		Experiential Computing |
+             	 
+    				             		No Comments |
+             	 		          				
+    			
+
+
+← In Bali
+Search on phones →
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

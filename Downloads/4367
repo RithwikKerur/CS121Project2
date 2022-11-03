@@ -1,0 +1,170 @@
+https://cml.ics.uci.edu/2022/04/spring-2022
+
+
+
+
+
+Spring 2022 | Center for Machine Learning and Intelligent Systems
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+University of California, Irvine
+
+
+Menu
+Skip to content
+Home
+About CML
+
+About us
+News
+Contact Us
+
+
+People
+
+Faculty
+Alumni
+
+
+Events & Seminars
+
+AI/ML Seminar Series
+AI/ML Seminar Live Stream
+CML Distinguished Speakers
+ML Reading Group
+
+
+Education & Resources
+
+Courses
+Books
+
+
+UCI Machine Learning Archive
+Sponsors & Funding
+Subscribe to CML List
+ 
+
+
+
+
+
+Spring 2022 Standard
+
+April 28, 2022
+AIML
+
+
+
+Live Stream for all Spring 2022 CML Seminars
+
+
+
+
+May 2DBH 4011 &Live Stream1 pm
+Maurizio FilipponeAssociate Professor, EURECOMandBa-Hien TranPhD Student, EURECOMYouTube Stream: https://youtu.be/oZAuh686ipw Functional Priors for Bayesian Deep LearningThe Bayesian treatment of neural networks dictates that a prior distribution is specified over their weight and bias parameters. This poses a challenge because modern neural networks are characterized by a huge number of parameters and non-linearities. The choice of these priors has an unpredictable effect on the distribution of the functional output which could represent a hugely limiting aspect of Bayesian deep learning models. Differently, Gaussian processes offer a rigorous non-parametric framework to define prior distributions over the space of functions. In this talk, we aim to introduce a novel and robust framework to impose such functional priors on modern neural networks for supervised learning tasks through minimizing the Wasserstein distance between samples of stochastic processes. In addition, we extend this framework to carry out model selection for Bayesian autoencoders for unsupervised learning tasks. We provide extensive experimental evidence that coupling these priors with scalable Markov chain Monte Carlo sampling offers systematically large performance improvements over alternative choices of priors and state-of-the-art approximate Bayesian deep learning approaches.
+
+Bio: Maurizio Filippone received a Master’s degree in Physics and a Ph.D. in Computer Science from the University of Genova, Italy, in 2004 and 2008, respectively. In 2007, he was a Research Scholar with George Mason University, Fairfax, VA. From 2008 to 2011, he was a Research Associate with the University of Sheffield, U.K. (2008-2009), with the University of Glasgow, U.K. (2010), and with University College London, U.K (2011). From 2011 to 2015 he was a Lecturer at the University of Glasgow, U.K, and he is currently AXA Chair of Computational Statistics and Associate Professor at EURECOM, Sophia Antipolis, France. His current research interests include the development of tractable and scalable Bayesian inference techniques for Gaussian processes and Deep/Conv Nets with applications in life and environmental sciences.
+Bio: Ba-Hien Tran is currently a PhD student within the Data Science department of EURECOM, under the supervision of Professor Maurizio Filippone. His research focuses on Accelerating Inference for Deep Probabilistic Modeling. In 2016, he received a Bachelor of Science degree with honors in Computer Science from Vietnam National University, HCMC. His thesis investigated Deep Learning approaches for data-driven image captioning. In 2020, he received a Master of Science in Engineering degree in Data Science from Télécom Paris. His thesis focused on Bayesian Inference for Deep Neural Networks.
+
+
+
+May 9DBH 4011 &Live Stream1 pm
+Ties van RozendaalSenior Machine Learning ResearcherQualcomm AI ResearchYouTube Stream: https://youtu.be/LQu-kwpfFg4 Instance-adaptive data compression: Improving Neural Codecs by Training on the Test SetNeural data compression has been shown to outperform classical methods in terms of rate-distortion performance, with results still improving rapidly. These models are fitted to a training dataset and cannot be expected to optimally compress test data in general due to limitations on model capacity, distribution shifts, and imperfect optimization. If the test-time data distribution is known and has relatively low entropy, the model can easily be finetuned or adapted to this distribution. Instance-adaptive methods take this approach to the extreme, adapting the model to a single test instance, and signaling the updated model along in the bitstream. In this talk, we will show the potential of different types of instance-adaptive methods and discuss the tradeoffs that these methods pose. 
+
+Bio: Ties is a senior machine learning researcher at Qualcomm AI Research. He obtained his masters’s degree at the University of Amsterdam with a thesis on personalizing automatic speech recognition systems using unsupervised methods. At Qualcomm AI research he has been working on neural compression, with a focus on using generative models to compress image and video data. His research includes work on semantic compression and constrained optimization as well as instance-adaptive and neural-implicit compression.
+
+
+
+May 16DBH 4011 &Live Stream1 pm
+Robin JiaAssistant Professor of Computer ScienceUniversity of Southern CaliforniaYouTube Stream: https://youtu.be/ALqqlgbzAB0 Out-of-Distribution Evaluation: The How, the Which, and the “What?!”Natural language processing (NLP) models have achieved impressive accuracies on in-distribution benchmarks, but they are unreliable in out-of-distribution (OOD) settings. In this talk, I will give an exclusive preview of my group’s ongoing work on evaluating and improving model performance in OOD settings. First, I will propose likelihood splits, a general-purpose way to create challenging non-i.i.d. benchmarks by measuring generalization to the tail of the data distribution, as identified by a language model. Second, I will describe the advantages of neurosymbolic approaches over end-to-end pretrained models for OOD generalization in visual question answering; these results highlight the importance of measuring OOD generalization when comparing modeling approaches. Finally, I will show how synthesized examples can improve open-set recognition, the task of abstaining on OOD examples that come from classes never seen at training time.
+
+Bio: Robin Jia is an Assistant Professor of Computer Science at the University of Southern California. He received his Ph.D. in Computer Science from Stanford University, where he was advised by Percy Liang. He has also spent time as a visiting researcher at Facebook AI Research, working with Luke Zettlemoyer and Douwe Kiela. He is interested broadly in natural language processing and machine learning, with a particular focus on building NLP systems that are robust to distribution shift. Robin’s work has received best paper awards at ACL and EMNLP.
+
+
+
+May 23
+No Seminar
+
+
+
+May 30
+No Seminar (Memorial Day Holiday)
+
+
+
+June 6DBH 4011 &Live Stream1 pm
+Bobak PezeshkiPhD Student, Department of Computer ScienceUniversity of California, IrvineYouTube Stream: https://youtu.be/Yl_aCTieVqc AND/OR Branch-and-Bound for Computational Protein Design Optimizing K*Computational protein design (CPD) is the task of creating new proteins to fulfill a desired function.  In this talk, I will share work recently accepted at UAI 2022 based on a new formulation of CPD as a graphical model designed for optimizing subunit binding affinity.  These new methods showed promising results when compared with state-of-the-art algorithm BBK* that is part of a long-time developed software package dedicated to CPD.  In the talk, I will first describe CPD in general and for optimizing a quantity called K* (which approximates binding affinity).  I will relate this to the well known task of MMAP for which many powerful algorithms have been recently developed and from which our methods are inspired.  Next I will give a preview of the promising results of our new framework. I will then go on to describe the framework, presenting the formulation of the problem as a graphical model for K* optimization and introducing a weighted mini-bucket heuristic for bounding K* and guiding search. Finally, I will share our algorithm AOBB-K* and modifications that can enhance it, describing some of the empirical benefits and limitations of our scheme.  To conclude, I will outline some future directions for advancing the use of this framework.
+
+Bio: Bobak Pezeshki is a fifth year PhD student of Computer Science at the University of California, Irvine, under advisement of Professor Rina Dechter.  His research focus is in automated reasoning over graphical models with focus in Abstraction Sampling and applying automated reasoning over graphical models to computational protein design.  He completed his undergraduate studies at UC Berkeley majoring in Molecular and Cell Biology (with an emphasis in Biochemistry) and Integrative Biology.  Before pursuing his PhD at UCI, he was involved in protein biochemistry research at the Stroud Lab, UCSF, and at Novartis Vaccines and Diagnostics.
+
+
+
+
+
+
+
+Post navigation
+← CML faculty elected as AAAS Fellows CML Researchers win NAACL Paper Award →
+
+
+
+
+ 
+Search
+
+
+
+ 
+
+
+(c) 2015 Center for Machine Learning and Intelligent Systems
+
+WordPress/BonPress
+
+
+
+
+
+

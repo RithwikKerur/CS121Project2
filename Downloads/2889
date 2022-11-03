@@ -1,0 +1,270 @@
+http://ngs.ics.uci.edu/blog/?p=601
+
+
+
+
+
+
+
+
+Vision and/or Hype in Search – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Vision and/or Hype in Search    			
+
+
+Sometimes it is difficult to separate vision from hype.  A recent report about search engines (see News.com report) is a good example of this.    It reports:
+“Search engines try to train us to become good keyword searchers. We dumb down our intelligence so it will be natural for the computer,” said Pell, whose company, Powerset, is based in Palo Alto, Calif.
+“The big shift that will happen in society is that instead of moving human expressions and interactions into what’s easy for the computer, we’ll move computers’ abilities to handle expressions that are natural for the human,” he said.
+Powerset, which hasn’t divulged its launch date yet, is using AI to train computers not just to read words on the page, but make connections between those words and make inferences in the language. That way a search engine could think through and redefine relevance beyond the most popular page or the site with the most occurrences of keywords entered in a search box.
+AI had similar dreams since 1960 and Moore’s law has only a small role in helping with this — more important is our ability to structuralize and analyze natural language.  Progress has taken place but also has convinced researchers how difficult the problem is.
+Later this article gets to an area that is close to my own research and experience.  It talks about Riya.com and says:
+Imagine uploading a picture to the Web of your favorite ratty couch, and then asking a search engine to find another one like it. The tool wouldn’t just produce a similar couch but it might even point to a store where you could buy it.
+Right now, most image search engines rely on keywords, or descriptive text that is linked to a photo in order to retrieve a list of results that match a Web surfer’s keyword query. That method can be unreliable, however, if photos or images lack sufficient descriptions.
+Bradley Horowitz — where are you?  Do you hear these words — are they exactly (in the sense that this article referes to matching)  same as we used in 1993 when we started Virage.  And now Bradley jokes in his talks about Computer Vision being tough and hence using tags on Flickr.
+My very best wishes to Munjal Shah in his efforts.  I want him to be successful — I want to see visual search here.  My own research at UC Irvine is very much in this direction — but that is research not a product.
+
+
+
+By Ramesh |
+    				August 30, 2006 |
+    				             		Experiential Computing, Prospecting Information |
+             	 
+    				             		8 Comments |
+             	 		          				
+    			
+
+
+← Events: Flickr and Upcoming
+EventWeb6: Explicit Referential Links →
+
+
+
+			8 thoughts on “Vision and/or Hype in Search”		
+
+
+
+
+Bradley Horowitz August 30, 2006 at 9:24 pm 
+
+I’m here Ramesh!
+My reaction to those words is one mostly of “whimsy…”  Remembering fondly the sweet vanities of youth! 😉  Seriously though, I don’t feel I’ve abandoned Computer Vision so much as graduated to an expanded perspective.  We were trying to solve through brute force a problem that begged for a socio-technical solution.  I’m enamored not only of Flickr, but also approaches like Luis von Anh’s espgame and peekaboom.
+The joke in my talk is not that I realized Computer Vision is hard and hence we need tagging.  Actually the joke is that most my mentors in the field have themselves “declared success and moved on.”  Moved on to grander endeavors like “Affective Computing” (Roz Picard), “Human Dynamics” (Sandy Pentland), and “Experiential Computing” (see title of this blog.)
+The truth is that I’m very much committed to the vision we had at Virage.  Our vision there was always pragmatic – by all means possible, including human editorial.
+It’s with some measure of chagrin that I note the quote is from Riya.  This company was touted with much fanfare earlier this year as “the Flickr killer.”  Ummmm….  Didn’t happen!  In fact, I’m not sure Flickr experienced even so much as a noticable “blip” in the wake of Riya’s launch.
+Anyway, for me (and for us at Yahoo), it has never been an issue of man v. machine.  It’s always been a simple equation:  man + machine > machine (alone).  We continue to work on what you’d know as “pure computer vision”, much more than the outside world might expect (and granted more than we talk about!)
+I also applaud and commend Munjal’s work.  I’m excited about improving the “machine” aspect of the equation, and there remains a lot of work to be done!
+
+
+
+
+
+
+
+
+Ramesh  Post authorSeptember 1, 2006 at 5:23 pm 
+
+Thanks, Bradley.
+This space is really getting hot.  You must have seen the Google effort in tagging that is being talked about.
+
+
+
+
+
+
+
+
+Rajan September 1, 2006 at 10:43 pm 
+
+Prof, 
+      Could’nt help but smile on the pun in the beginning words of your post “seperating vision from hype” .
+    I have a little background in vision and thus can perfectly understand the sentiments that you reflected about the field of vision. 
+    Vision is young and one of the hottest field in CS and though a lot of important problems have been solved in it and probably only about small % of key problems in it still needs solution but it is  these small % of the problem which really hinders in  vision making transition from research to technology.
+
+
+
+
+
+
+
+
+Ramesh  Post authorSeptember 2, 2006 at 12:48 pm 
+
+Thanks.
+Computer vision can, and hopefully soon will, play important role in many applications.  Image retrieval will be only one of those.  There are some interesting challenges that must be solved in vision for that to happen.  
+Because you caught the pun, did you see ‘Ignorance, Myopia, and Naivette in Computer Vision’ that appeared in Computer vision, Graphics, and Image processing about 15 years ago?
+
+
+
+
+
+
+
+
+Munjal shah October 4, 2006 at 5:39 pm 
+
+Ramesh and Bradley,
+You are write.  The hard part about Riya is that when you talk to people about it, their imagination runs wild.  When we launched Riya our registration flow even said it was “only as smart as a two year old.(interms of recognition ability).”  
+I do however feel that if you narrow your application there are areas that computer vision can succeed in.  I would love for both of you to join our private alpha for Riya’s next product which will be launched in about a month.  I would love your feedback and advice.  Email me at blog3 at munjal.com
+
+
+
+
+
+
+
+
+Barney Pell October 11, 2006 at 2:26 am 
+
+Ramesh,
+You are absolutely right that Moore’s law is only one piece of the problem for bringing AI capabilities into actual products.  The fundamental science has to advance enough as well. I think we are converging in both NLP and Computer Vision over the next 5-10 years sufficient to make large-scale applications that really change things (though I know more about the former than the latter). 
+So far the two technologies have been isolated, but it will be interesting to see what happens when they can work together. For example, a vision system may tag objects, scenes, and relationships, which could then be queried in natural language.
+I also agree with Bradley that man + machine > machine.  A little bit of human effort can go a long way.  As a slightly otherworldly example,
+there is some interesting work at NASA by Terry Fong in which mobile robots call on humans to solve perceptual subproblems, while the AI controls the overall process.
+
+
+
+
+
+
+Pingback: LULOP.org [opensource] » Visual search or social search ? 
+
+
+Pingback: Ramesh Jain’s Blog » Blog Archive » NYT likes Like 
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

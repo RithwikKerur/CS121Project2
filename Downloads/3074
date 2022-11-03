@@ -1,0 +1,200 @@
+https://ngs.ics.uci.edu/photo-eco-system-i-need-to-solve-my-problem
+
+
+
+
+
+
+
+
+Photo Eco System: I need to solve my problem – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Photo Eco System: I need to solve my problem    			
+
+
+Iâ€™ve been working on this problem of image retrieval since before digital images became commonly available to the average consumer. Now digital photos are not only available, theyâ€™re part of everybodyâ€™s lifestyle. And in this time, weâ€™ve not developed any systems that can help organize and retrieve photos. I started doing research in this area in around 1990 and co-founded a company called Virage (that really meant Visual Information Retrieval Age) in 1993.
+Â 
+Today, I have more than 15,000 digital photos (increasing by about 1,000 every other month) on my computer, all in different folders.Â  Thereâ€™s no system to help me. And Iâ€™m getting frustrated with the situation. I need a system that will help me organize my photos. Believe me, Iâ€™m not only the person with this situation. This is a serious problem that needs a solution.
+Â 
+I would love to see researchers in the field of multimedia information systems leave their obsession with only using image intensity values and use any and all information that comes from cameras, personal calendars, maps, and any other sources on the Web to help solve the problem.
+Todayâ€™s search enginesâ€”including Google and Yahooâ€”use only metatdata available on the page on which the image appears. And photo-oriented systems also use very limited, if any, information.
+Â 
+I for one have decided to consider photo retrieval a true multimedia problem, and hence use all the metadata from cameras, calendars, maps, the Web, and also intensity values in images.
+
+
+
+
+By Ramesh |
+    				June 29, 2007 |
+    				             		Technical Thoughts |
+             	 
+    				             		2 Comments |
+             	 		          				
+    			
+
+
+← Photo Eco System: Analyzing digital photos
+Rising wages in India starting to hurt →
+
+
+
+			2 thoughts on “Photo Eco System: I need to solve my problem”		
+
+
+Pingback: University Update - Yahoo - Photo Eco System: I need to solve my problem 
+
+
+
+
+Kent Tenney July 23, 2007 at 11:26 am 
+
+Howdy,
+I think it would be a great benefit to browsing and tag a collection of camera files if they were processed to determine ‘batches’.
+Each photo would be given a dprev and dnext value, the time delta between the previous and next image. Batches would be created according to a minimum dprev value. Browse would display one or two images from each batch. I could quite accurately locate a desired image by viewing an image from the batch. This would reduce the number of images to scan by a factor of … 5 to 50 … or so.
+I almost always shoot a batch of photos at a time, and those photos are related in location and subject.
+It could also offer a search aid;
+ I shot lots of photos that day, show me batches with a 12 hour delta, sorted on batch size.
+Thanks,
+Kent
+
+
+
+
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

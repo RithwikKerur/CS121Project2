@@ -1,0 +1,169 @@
+https://www.ics.uci.edu/~pattis/common/handouts/mingweclipse/mingw.html
+
+
+
+MinGW C++ Download and Installation Instructions
+
+
+
+MinGW C++ Download and Installation
+
+
+
+
+Install MinGW
+
+MinGW means Minimalist GNU for Windows: GNU is a source
+  of open source programming tools (GNU stands for GNU is Not Unix).
+
+In this handout you will download the files needed by GNU C++; in the next
+  you will download a version of Eclipse that is already set up to use
+  MinGW.
+
+You may want to print these instructions before proceeding, so that you can
+  refer to them while downloading and installing MinGW.
+Or, just keep this document in your browser.
+You should read each step completely before performing the action that it
+  describes.
+
+
+MinGW
+
+Downloading
+
+Click
+       
+     MinGW.
+    The following page will appear in your browser (from the SourceForge
+       web site).
+       
+
+
+Click the Download mingw-get-setup.exe(86.5 kB)
+      link.
+    
+    This file should start downloading in your standard download folder.
+    This file is only 85KB so it should download very quickly.
+    
+    The file should appear as
+    
+
+
+    Terminate the window browsing the SourceForge web site.
+
+
+Move this file to a more permanent location, so that you can install MinGW
+      (and reinstall it later, if necessary).
+
+Start the Installation instructions directly below.
+
+
+
+Installing
+
+Double-click the  icon.
+    
+    The following pop-up window will appear.
+    
+
+
+Click Run.
+    
+    The following pop-up window will appear.
+    
+
+
+Click Install.
+    
+    The following pop-up window will appear.
+    
+
+
+    You can install this software anywhere, but I recommend installing it
+       in the default directory: C:\MinGW.
+
+
+Click Continue.
+    
+    The following pop-up window will appear, showing the downloading progress.
+    After about a minute, it should appear as follows.
+    
+
+
+Click Continue.
+    
+    The following pop-up window will appear.
+    Ensure on the left that Basic Setup is highlighted.
+    Click the three boxes indicated below: mingw32-base,
+       mingw32-gcc=g++, msys-base.
+    After clicking each, select Mark for selection.
+    This window should appear as follows.
+    
+
+
+Terminate (click X on) the MinGW Installation Manager
+    (I know this is weird).
+    
+    The following pop-up window should appear
+    
+
+
+Click Review Change
+
+    The following pop-up window should appear
+    
+
+
+Click Apply.
+    
+    The following pop-up window will appear, showing the downloading progress.
+    
+
+
+    After a while (a few minutes to an hour, depending on your download speed),
+       it should start extracting the donwloaded files.
+    A few minutes after that, the following pop-up window should appear.
+    
+
+
+Click Close.
+
+
+Edit Path so that the MinGW and MSYSM software
+      is findable by Eclipse.
+    
+Click Start
+Click Control Panel
+Click System
+Click Advance system settings; you will see
+    
+
+
+Click Enviroment Variables...; you will see
+    
+
+
+In the System variables (lower) part, scroll to line starting
+           with Path and click that line.
+IMPORTANT: Even though you see a highlighted PATH in the User
+             variables (top part) look for Path (not CLASSPATH) in the lower
+             part to change it.
+Click Edit...
+Copy C:\MinGW\bin;C:\MinGW\msys\1.0\bin;
+          (include everything from C to ;) and then paste
+          it at the very start of the Variable Value text entry.
+        
+        When done it should look like
+    
+
+
+Click OK (3 times)
+    
+
+MinGW is now installed.
+You are now ready to install Eclipse....But it is probaby a good idea to
+  reboot your machine first, to ensure the new path is correct.
+
+
+
+

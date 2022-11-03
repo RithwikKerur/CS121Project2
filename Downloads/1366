@@ -1,0 +1,9 @@
+http://plrg.ics.uci.edu/publications/40.bib
+@inproceedings{key,
+ author = {Brian Demsky and Martin C. Rinard},
+ title = {Automatic Data Structure Repair for Self-Healing Systems},
+ booktitle = {First Workshop on Algorithms and Architectures for Self-Managing Systems},
+ location = {San Diego, California},
+ month = {June},
+ year = {2003}
+}

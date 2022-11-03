@@ -1,0 +1,442 @@
+https://isg.ics.uci.edu/event/depending-on-appending
+
+
+
+
+
+
+Pat Helland (Salesforce.com) : Depending on Appending – Information Systems Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+
+Faculty
+Students
+Recent Alumni
+Research Staff
+Visitors
+
+
+Research
+
+Projects
+Publications
+
+
+Teaching
+
+Courses
+DB Qual
+
+
+Events
+
+Talks
+News
+
+
+About
+
+Sponsors & Partners
+Visitor Info
+Contact us
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ISG Talks are sponsored by Couchbase.
+<< All Talks
+
+
+
+ « All Events
+
+
+This event has passed.
+Pat Helland (Salesforce.com) : Depending on Appending
+
+February 28, 2020 @ 3:00 pm - 4:00 pm 
+
+
+
+
+
+« Dr. Alfred Spector(Two Sigma) : Opportunities and Perils of Data Science: A Roadmap (ICS Distinguished Lecture)
+Babak Salimi: Causal Inference for Responsible Data Science »
+
+
+
+
+
+
+
+
+
+Speaker:  Pat Helland (Salesforce.com)
+Abstract:
+    Increasingly, we see “Gray Failures” in the datacenter and public cloud.  This happens when a server, router, or other device just plain goes slow.  This may result in severe problems in the user perceived performance as the slowness cascades, sometimes not slow enough to cause the exclusion of the bad devices.
+    In this talk, we briefly examine Gray Failures and consider the use of  “append” to support our work.  How has append been used in distributed systems?  What are some novel ways that new cloud-centric databases use forms of append to partially address these issues?  We conclude that it seems likely we can get relief by “Depending on Appending”.
+Bio:
+    Pat Helland has been working building databases, transaction systems, and distributed systems since 1978, a couple of years after dropping out of UC Irvine to feed his new family.
+    He is keenly interested in strong consistency, eventual consistency, scale, and making complex systems easy for application developers.  Pat writes regularly for ACM Queue and Communications of the ACM.
+ 
+
++ Google Calendar+ iCal Export
+
+
+
+ Details 
+
+ Date: 
+
+ February 28, 2020 
+
+ Time: 
+
+
+					3:00 pm - 4:00 pm				
+
+
+
+
+ Venue 
+
+ DBH 3011 
+
+
+
+
+ 
+
+
+
+
+
+« Dr. Alfred Spector(Two Sigma) : Opportunities and Perils of Data Science: A Roadmap (ICS Distinguished Lecture)
+Babak Salimi: Causal Inference for Responsible Data Science »
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+Search for :
+
+
+Latest News 
+
+
+
+Upcoming Talk: How to build your own Business
+
+											July 25, 2022																																
+
+
+Upcoming Talk: Couchbase and Distributed Computing Backends for big data processing
+
+											May 31, 2022																																
+
+
+Upcoming Talk: Shedding Light on Opaque Database Queries
+
+											May 31, 2022																																
+
+
+ISG researchers won the  Mark Weiser Best Paper Award at IEEE PERCOM 2022
+
+											March 24, 2022																																
+
+
+
+
+Upcoming Events
+
+
+
+
+Qiushi Bai: QueryBooster-Improving SQL Performance Using Middleware Services for Human-Centered Query Rewriting + Demo
+
+
+
+October 14 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Xiaozhen Liu: Demonstration of Collaborative and Interactive Workflow-based Data Analytics in Texera
+
+
+
+October 21 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Abhishek Singh: WedgeBlock – An Off-Chain Secure Logging Platform for Blockchain Applications
+
+
+
+October 28 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Juncheng Fang: PeloPartition- Improving Blockchain Resilience to Partitioning by Sharding
+
+
+
+November 4 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Peeyush Gupta: A Demonstration of TippersDB
+
+
+
+November 18 @ 12:30 pm - 2:00 pm 
+
+
+
+View All Events
+
+Please follow & like us :) 
+
+Follow  
+
+ 
+
+
+
+
+
+
+
+			Copyright 2018 | ISG-UCI		
+
+
+
+
+
+
+cross
+
+
+
+
+
+
+
+
+
+
+Hit ENTER to search or ESC to close
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

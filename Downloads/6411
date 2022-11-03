@@ -1,0 +1,51 @@
+http://www.ics.uci.edu/~kay/courses/i41/hw/lab2.html
+
+
+
+
+
+
+Lab Assignment 2
+
+
+
+
+
+
+
+
+
+
+
+INFORMATICS 41 • DAVID G. KAY • UC IRVINE • FALL 2011
+Lab Assignment 2 
+
+This assignment is due at the end of lab on
+Friday, October 8.
+
+Choose a partner for this assignment, someone
+you haven't worked with already, and make sure the TA knows who your partner is. Remember to follow the pair programming model throughout; sometimes students are tempted just to split the work up, but that totally misses the point.
+
+(a) In Chapter 7, do exercises 7.2.4, 7.2.7, and 7.3.2. Then do 7.7.4, 7.7.7, 7.7.8, 7.7.9, and 7.7.10. Next, do 7.7.20 (for which the predefined function round may be helpful; check the Help Desk), 7.7.22, and 7.7.24. Finally, do 7.8.2, 7.8.9, 7.8.11, 7.9.2, 7.9.3, and 7.9.4.
+Again, remember to follow the design recipe for every function you define. (See part (c) of Lab 1 for details.)
+
+(b) In Chapter 8, do exercises 8.2.3, 8.3.3, 8.3.9, 8.4.5, and 8.5.3. In Chapter 9, do exercise 9.2.7. 
+
+(c) In Chapter 10, do exercises 10.2.4 and 10.2.6. In Chapter 11, do exercises 11.6.1 and 11.6.2.
+[All groups should try to submit solutions to the problems above (part (c), Chapter 11); doing that much can get you full credit if your solutions are good. You'll start next week's lab with next week's partner where you left off this week, though, so it's better to work further if you can.]
+(d) In Chapter 13, do exercises 13.2.5, 13.4.2, and 13.7.13. In Chapter 14, do exercises 14.1.6, 14.1.10, and 14.1.11.
+(e) In Chapter 15, do exercises 15.3.7, 15.5.6, and 15.8.2. In Chapter 17, do exercises 17.1.3, 17.1.6, and 17.2.6. If time permits, do exercises 18.1.2, 18.1.3, 18.2.4, and 18.2.5.
+(f) Combine all your definitions from parts (a) through (e) into one file. Run it to make sure everything still works. Then submit it via Checkmate.
+(g) Remember that each partner must
+  complete a partner evaluation form and submit it individually using the Survey tool at eee.uci.edu. Do this by the end of the day on Friday. 
+
+
+Written by David G. Kay to reflect Picturing Programs by Stephen Bloch, Fall 2010.  
+
+
+David G. Kay, kay@uci.edu
+
+
+Friday, October 7, 2005 -- 6:25 PM
+
+

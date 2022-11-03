@@ -1,0 +1,101 @@
+https://sli.ics.uci.edu/PmWiki/ChangesFromPmWiki1
+
+
+
+SLI | PmWiki / ChangesFromPmWiki1 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+ChangesFromPmWiki1
+
+
+
+
+
+
+This page is intended to describe features of PmWiki 1.0 that have been changed or eliminated in PmWiki 2.0.  For now this page will be maintained as a simple list and will probably need some restructuring later.
+
+Markup changes
+Double brackets are used for all links, including [[free links]].  Providing alternate text for a link is performed using either a vertical brace  [[PageName | link text]] or an arrow [[link text -> PageName]].  See PmWiki.Links.
+So far, the ThisPage:, ThisGroup:, etc., InterMap shortcuts are not defined.  In fact, they may not be needed in PmWiki 2.  If someone needs them, add an entry to PITS:NewIssue explaining why.Ok, so as an example, how next lines, which are in a sidebar, may be written in pmwiki2 ?*[[ThisPage:?action=upload Upload]]*[[ThisGroup:SideBar&action=edit Edit menu]]
+ You can write them as [[{$Name}?action=upload | Upload]] and [[{$Group}/SideBar?action=edit | Edit menu]].  
+(The variables {$Name} and {$Group} are page variables.)
+Changes affecting skins
+$PageTemplateFmt is obsolete, but $PageTemplateFmt still works, and this may change yet again before the 2.0 official release. To use a different skin, you can use the $Skin variable ($Skin = 'skinname';) and just fill it with the name of the skin, it will assume it's in the pub/skins/[skinname] folder containing the [skinname].tmpl file.
+$HTMLTitleFmt no longer exists -- just place the <title> information directly into the template.
+In $...Fmt strings, $Title_ and $Title are currently represented by $Name.  $Title is now used to refer to a page's title (which may be different from its name and could have different formatting, such as spaces).
+The css/stdlayout.css file no longer exists; PmWiki and other modules now place required formatting styles directly into the $HTMLStylesFmt array.
+$PageName is now $FullName.  $PageName still functions but will be removed in the 2.0 official release.
+Searching now uses the q= variable to provide the text to be searched (formerly the search text went in the text= variable.
+Other Customization Changes
+PmWiki 2 now uses session-based authentication by default.  If you want to continue to use HTTP-Basic authentication, add the following line to config.php:
+        include_once('scripts/httpauth.php');
+Disabling WikiWords is now done by setting $LinkWikiWords .  Previously this was controlled by $WikiWordCountMax .
+$HTMLLineBreak is now $HTMLPNewline.  See Cookbook:Line Breaks.
+The skins system has been revised, and is now much more flexibly controlled by the $Skin and $ActionSkins variables.  See PmWiki.Skins.  But $PageTemplateFmt still works.
+The $BrowseReplacements, $DoubleBrackets, and $InlineReplacements arrays are no longer used -- see custom markup.
+?action=post no longer exists -- posting a new page is now performed by using ?action=edit with the post control set to a true value.
+$WikiWordPagePathFmt is now $PagePathFmt, which is applied to all page links not qualified by a group.
+$WikiPageExistsFmt, $WikiPageCreateFmt, etc. are now $LinkPageExistsFmt, $LinkPageCreateFmt, etc.
+$DeleteKeyWord is now $DeleteKeyPattern.
+$GroupHeaderFmt and $GroupFooterFmt now specify the markup to be added to the beginning and end of each page, rather than the name of the page.  The default settings of $GroupHeaderFmt and $GroupFooterFmt perform the equivalent of an (:include:) of the GroupHeader and GroupFooter pages.
+PmWiki's ReadPage() function no longer supplies default text for non-existent pages -- this is now decided by whatever functions need the page.  (As of 2.0.devel9 the default text is still stored in $DefaultPageTextFmt, however.)
+$SearchExcludePatterns is now simply $SearchPatterns and can be chosen by the list= parameter to (:searchresults:) and (:pagelist:).  See Cookbook:SearchResults.
+$EnablePerGroupCust is now $EnablePGCust.
+$TableCellAttr is now $TableCellAttrFmt.
+$Url is now $LinkUrl.
+<<  | PmWiki.Documentation Index |  >>
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:ChangesFromPmWiki1, and  a talk page: PmWiki:ChangesFromPmWiki1-Talk.
+
+
+
+
+
+
+ Last modified August 25, 2006, at 10:22 AM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

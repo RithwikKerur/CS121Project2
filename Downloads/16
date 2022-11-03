@@ -1,0 +1,15 @@
+http://www.ics.uci.edu/%7Eirani/f04-h22/lab6/Rider.java
+// These are returned by the Event Generator.
+public class Rider {
+
+    int arrivalTime;
+    int loadTime;
+    int rideTime;
+
+    public Rider( int a, int l, int r )
+    {
+        arrivalTime = a;
+        loadTime = l;
+        rideTime = r;
+    }
+}

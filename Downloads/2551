@@ -1,0 +1,261 @@
+https://ngs.ics.uci.edu/iptv-will-bring-folktv
+
+
+
+
+
+
+
+
+IPTV will bring FolkTV – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				IPTV will bring FolkTV    			
+
+
+After a false start about a decade ago, Video-on-Demand (VoD) may really be arriving.  Of course things have changed a lot in the last 10 years, both in technology and social-business aspects, and hence the character of VoD appearing now will be very different.  For one thing, it may not even be called VoD, though some key players like Comcast still refer to it as VoD.  More commonly people call it IPTV.  And I would not be surprised if MobTV (Mobile TV using phones) may emerge as an important distribution mechanism for the future generations of IPTV in addition to PCs and TVs.
+When Video on Demand first appeared, it was considered to be a vehicle for providing a time shifted TV for popular video content so people can watch any movie or a popular program at their convenience in the comfort of their home.  The basic idea was to store the content on a video server and develop distribution network to provide access and delivery of these videos.  After much optimism and discussion of this concept, the interest slowly disappeared.  It was clear that the cost of the infrastructure was too high compared to the demand.  In place of VoD becoming a big buzz world, it slowly became dormant.  All the excitement shifted towards WWW.  And the WWW was all about text â€“ at least the way it evolved in early stages.
+Things are taking a turn towards multimedia now.  The rise of sensor nets, cameras, storage systems, bandwidth and phones have resulted in a strong movement towards multimedia.  And the main driver for this is video.  There is much excitement about IP and TV now.  IPTV is in simple terms video on internet.  The major difference is that it is assumed that this video could be shown on any device including TV, PC, and phones.  This is a bigger change than it appears at first.  And this is rebirth of VoD but in a much broader scope.  This in fact is the convergence of communication, computing, and content.  People commonly talk about the convergence of communication and computing.  In terms of content, people were used to thinking mostly in terms of text and â€˜blobsâ€™ where a blob could be any media item but that was considered atomic entity for the information system.  So a three hour video could be played as a three hour video but there was no indexing or content bases access possible.  In the new world, that is not going to be acceptable.  Content could also be stored and accessed at different levels of granularities based on its semantics.
+IPTV does require advances in infrastructure.  Even today distribution, or communication, mechanisms used in TV and Internet are significantly different.  They have been slowly moving towards each other, but are far from convergence.  The TV structure, whether broadcast, cable, or satellite, is primarily based on the broadcast metaphor or the push metaphor.  All the programs are pushed to the user.  The only choice a user has is to change the channel or to turn off the TV.  On the other hand the Internet infrastructure is based on lot more personal choice in access.  On Internet people combine push and pull depending on their need and interest.  Once video is available on Internet, people will expect to use all the tools and functionalities that they commonly use with text.
+The major change required is not really the infrastructure, however.  Internet culture will result in people starting to produce lots of video content for many different applications.  The â€˜long tailâ€™ effect will dominate this area also.  People will start producing and placing videos on Internet that they know will be used by only a very limited number of other people â€“ in some case may be only 5 other people.  This will however happen only if the production tools for editing video will allow people to capture and prepare video to put on the Internet as easily as they author web pages.  Current video editing tools are very difficult to use.  The tools that are easy to use do not give enough control to author what an amateur producer may want.  This is a interesting challenge to multimedia community â€“ and was correctly identified in the Berkeley retreat in 2003 as a grand challenge problem for multimedia.
+The second and equally important problem is how to find videos of interest.  Search engines have trained current generation of Internet users, even regular computer users, to search for information using easy tools like specifying some keywords.  How will we search video on internet?  Current search techniques on internet are direct extension of  text based techniques and are definitely going to be very limiting in accessing video.  Multimedia information retrieval research community and the practicing video retrieval community are poles apart.  They are developing more or less disjoint approaches â€“ research community wants to use only visual characteristics because thatâ€™s where interesting research challenges are and practicing people want to just apply text based approaches because thatâ€™s what they know.  Everybody recognizes that to be successful, one must use all knowledge sources and all possible techniques for accessing video information.  Unfortunately, thatâ€™s where most of the time it ends â€“ just talking that combining multiple sources is vital to solving this puzzle and then going to your workplace and keep doing what you have been doing.  We require people who take this challenge seriously and start developing techniques to access video information using text processing, visual computing , audio recognition.
+IPTV is a real transformation in the society.   IPTV brings TV media to masses not only as a consumer but also as a producer.  Common people start using TV medium to share their experiences and producing contents of interest to other people, not necessarily only with commercial interest in mind.  People will use it to share family birthdays with other family members who could not be there to share the moment in person.  And that could be done live or time displaced.   If the last major revolution brought WWW and  information revolution, this will be the next revolution and a major step in bringing experiences to people.  IPTV is  really FolkTV.
+
+
+
+By Ramesh |
+    				June 3, 2005 |
+    				             		Technical Thoughts |
+             	 
+    				             		7 Comments |
+             	 		          				
+    			
+
+
+← Welcome to my blog at UCI
+When in Where →
+
+
+
+			7 thoughts on “IPTV will bring FolkTV”		
+
+
+
+
+Andy Tai June 4, 2005 at 8:40 am 
+
+This may be of interest, an organization for realizing the IPTV scenario described in the blog:
+Participatory Culture Foundation
+http://participatoryculture.org/
+
+
+
+
+
+
+
+
+Justin Gardner June 23, 2005 at 1:26 pm 
+
+Great new look to the site! Wow. A big improvement to say the least.
+However, this is just a personal grip of mine, but the whole notion of “FolkTV” seems demeaning to the person creating it. It brings about notions of untrained and unschooled, when many pieces of IPTV will be created by people who have been shooting videos and producing content for years. 
+I have the same problem with the terminology being used to describe “folk art”. I recently saw a textile weaving that was HEAVILY influenced by the work of Henry Darger, but nobody would dare call it folk art because the artist was classicly trained. Darger worked for decades putting together his work and he got labeled a folk artist, when this (very talented) young woman who probably just got out of art school would never be called such. Why label the two differently? 
+And by the way. FolkTV is also incredibly catchy so I’m sure people will start to use it. Double drat! However, don’t go to the web addy if you don’t want to find pr0n*s. Woops.
+Anyway, I know you meant no offense Ramesh, so I’ll step off my soapbox for now. But boy it felt good to get that off my chest. 😉
+
+
+
+
+
+
+Pingback: Broadband Blog  » Blog Archive   » Personal Perspectives 
+
+
+
+
+Ramesh  Post authorJuly 16, 2005 at 8:21 am 
+
+Justin,
+Thanks.
+You are right that I do not use FolkTV in any negative sense — I consider FolkTV to be the wave of the future.  About the quality issue that you raise implied by FolkTV, I believe that the measure of quality and credibility are going to emerge differently in the ‘new world’.  This is a topic that needs some thoughts and discussion — will definitely do that sometime soon.
+
+
+
+
+
+
+
+
+casino en ligne July 28, 2005 at 4:11 am 
+
+Your site is very good.
+casino en ligne
+
+
+
+
+
+
+
+
+forumqueen001 May 21, 2006 at 8:08 pm 
+
+“Internet Protocol Television describes a system where a digital television service is delivered to subscribing consumers using the Internet Protocol over a broadband connection…” 
+..a quote from the site..
+this site is really useful for those who want to learn more about IPTV.
+
+
+
+
+
+
+
+
+persiancat July 29, 2006 at 1:19 am 
+
+Fresh IPTV News gives up-to-date report and information
+on IPTV, reviews on the latest products and services, IPTV software and
+hardware, features on the latest developments in the IPTV industry and
+answers all the questions you have about IPTV.
+http://freshiptvnews.com
+
+
+
+
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

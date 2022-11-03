@@ -1,0 +1,44 @@
+http://www.ics.uci.edu/~kay/courses/i41/hw/hw7.html
+
+
+
+
+
+
+Seventh Homework
+
+
+
+
+
+
+
+INFORMATICS 41 • DAVID G. KAY • UC IRVINE • FALL 2011
+ Seventh Homework 
+
+This assignment is due in lab next week. Try to do it
+by Monday, but expect that it will generate some questions
+that you'll need to get answered before you can finish it.
+(1) Read Chapter 29, which talks about sequential programming and input/output, topics we've been doing since the first restaurant program. You can skip sections 29.5, 29.6, and 29.7.
+(2)  At http://www.ics.uci.edu/~kay/courses/i41/hw/DeusXercises.pdf there are a couple of problems that will give you some concrete practice
+  with machine-level programming.  Download the file, do the problems, and
+  turn them in (on paper) to the TA at the start of lab on Monday, if possible.  Each of
+  you should submit a solution individually because everyone should get the
+  practice of working through the steps.  But feel free to work together and
+  help each other out.  
+
+We almost certainly will ask a question about machine
+  language and the Deus X on a quiz and on the final.  If we do, we will provide
+  a copy of the Deus X Instruction Set sheet; it would be nuts to expect anyone
+  to memorize it.
+
+
+Based in part on ICS H21assignments by David
+    G. Kay; modified by David G. Kay for the Informatics Core Course, Fall 2004
+and Fall 2005. Modified by David G. Kay, Fall 2010.
+
+David G. Kay, kay@uci.edu 
+
+Friday, November 4, 2011 8:00 AM
+
+

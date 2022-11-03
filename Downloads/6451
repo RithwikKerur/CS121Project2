@@ -1,0 +1,56 @@
+http://www.ics.uci.edu/~kay/courses/h21/hw/hw4.html
+
+
+
+
+
+
+Fourth Homework
+
+
+
+
+
+
+ICS H21 • UC IRVINE • DAVID G. KAY • FALL 2009
+Fourth Homework 
+
+This assignment is due at the start of lab on
+Monday, October 19.
+
+(1)  In Chapter 12 of the HtDP text,
+do exercise 12.2.2 (noting that both functions, search and search-sorted,
+are examples of linear search because they look through the list, item by
+item, in a straight line)
+
+(2)  In Intermezzo 2 (Chapter 13),
+do the manipulations in exercises 13.0.3 through 13.0.7.
+
+(3) The code for the restaurants program
+we will do in class is available at http://www.ics.uci.edu/~kay/scheme/restaurants1.scm
+.  The teachpack for text input and output is at http://www.ics.uci.edu/~kay/scheme/simple-text-io.ss.   If you're using your own machine, download and install these files so you can run the restaurants program. (Download the teachpack rather than just copying and pasting its text; to do this, right-click or control-click on the link and then choose to download or save the linked file into the folder where you'll be storing your own code. Then you can add the teachpack via the Language menu in DrScheme. Be sure to change the language level to Intermediate Student.)  [Technical problems are always possible when installing new software; as always, let us know if things don't work as you think they should.] 
+Look over the
+  restaurants code to become familiar with how it's organized. The first time you see a few pages of code, it can be daunting, but learning to find your way through a whole program is an important skill and now's the time to start developing it. (Real programs, of course, are hundreds of pages long.) So don't just glance at it and say, "Yeah, whatever." Spend some time studying it. Reading code is an excellent (and under-appreciated) way to build your own programming skills.
+Recognize that this code is divided into parts: One part describes individual restaurants and the operations on them; another part describes the collection of restaurants and operations on the collection; another part (that starts on the first page) controls the whole program, presenting the menu to the user and accepting the commands. In model-view-controller terms, the restaurant and collection parts make up the model, and the first page (plus the get-it function at the end) make up the view and controller.
+Now, try these
+  two tasks.
+
+Change the command for adding a new restaurant to 'n' instead of
+      'a'.
+See if you know how to add an additional menu choice: e: Remove (erase) all the
+      restaurants from the collection.
+      If the user types 'e' and then 'p', for example, nothing would
+      be printed.  [This will require modifications or additions in a few places. You can do the
+      main part of the work very easily indeed, with a single procedure call. The key is to think
+      functionally, not of changing values but of describing or creating the new value.]
+
+
+Based in part on ICS H21assignments by David
+G. Kay from Fall 2001; modified by David G. Kay, Fall 2004–Fall 2009.
+
+David G. Kay, kay@uci.edu 
+
+Sunday, October 18, 2009 4:53 PM
+
+
+

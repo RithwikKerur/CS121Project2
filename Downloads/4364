@@ -1,0 +1,196 @@
+https://cml.ics.uci.edu/2021/01/winter-2021
+
+
+
+
+
+Winter 2021 | Center for Machine Learning and Intelligent Systems
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+University of California, Irvine
+
+
+Menu
+Skip to content
+Home
+About CML
+
+About us
+News
+Contact Us
+
+
+People
+
+Faculty
+Alumni
+
+
+Events & Seminars
+
+AI/ML Seminar Series
+AI/ML Seminar Live Stream
+CML Distinguished Speakers
+ML Reading Group
+
+
+Education & Resources
+
+Courses
+Books
+
+
+UCI Machine Learning Archive
+Sponsors & Funding
+Subscribe to CML List
+ 
+
+
+
+
+
+Winter 2021 Standard
+
+January 6, 2021
+AIML
+
+
+
+Live Stream for all Winter 2021 CML Seminars
+
+
+
+
+Jan. 4
+No Seminar
+
+
+
+Jan. 11Live Stream1 pm
+Florian WenzelPostdoctoral ResearcherGoogle Brain BerlinYouTube Stream:  https://youtu.be/9n8_5tjt_Lw Towards Reliable Deep LearningDeep learning models are bad at detecting their failure. They tend to make over-confident mistakes, especially, under distribution shift. Making deep learning more reliable is important in safety-critical applications including health care, self-driving cars, and recommender systems. We discuss two approaches to reliable deep learning. First, we will focus on Bayesian neural networks that come with many promises to improved uncertainty estimation. However, why are they rarely used in industrial practice? In this talk, we will cast doubt on the current understanding of Bayes posteriors in deep networks. We show that Bayesian neural networks can be improved significantly through the use of a “cold posterior” that overcounts evidence and hence sharply deviates from the Bayesian paradigm. We will discuss several hypotheses that could explain cold posteriors. In the second part, we will discuss a classical approach to more robust predictions: ensembles. Deep ensembles combine the predictions of models trained from different initializations. We will show that the diversity of predictions can be improved by considering models with different hyperparameters. Finally, we present an efficient method that leverages hyperparameter diversity within a single model.
+
+Bio: Florian Wenzel is a machine learning researcher who is currently on the job market. His research has focused on probabilistic deep learning, uncertainty estimation, and scalable inference methods. From October 2019 to October 2020 he was a postdoctoral researcher at Google Brain. He received his PhD from Humboldt University in Berlin and worked with Marius Kloft, Stephan Mandt, and Manfred Opper.
+
+
+
+Jan. 18
+No Seminar (Martin Luther King, Jr. Holiday)
+
+
+
+Jan. 25Live Stream1 pm
+Yezhou YangAssistant ProfessorSchool of Computing, Informatics, and Decision Systems EngineeringArizona State UniversityYouTube Stream:  https://youtu.be/IcSUBZraB3s Visual Recognition beyond Appearances, and its Robotic ApplicationsThe goal of Computer Vision, as coined by Marr, is to develop algorithms to answer What are Where at When from visual appearance. The speaker, among others, recognizes the importance of studying underlying entities and relations beyond visual appearance, following an Active Perception paradigm. This talk will present the speaker’s efforts over the last decade, ranging from 1) reasoning beyond appearance for visual question answering, image understanding and video captioning tasks, through 2) temporal knowledge distillation with incremental knowledge transfer, till 3) their roles in a Robotic visual learning framework via a Robotic Indoor Object Search task. The talk will also feature the Active Perception Group (APG)’s ongoing projects (NSF RI, NRI and CPS, DARPA KAIROS, and Arizona IAM) addressing emerging challenges of the nation in autonomous driving, AI security and healthcare domains, at the ASU School of Computing, Informatics, and Decision Systems Engineering (CIDSE).
+
+Bio: Yezhou Yang is an Assistant Professor at School of Computing, Informatics, and Decision Systems Engineering, Arizona State University.  He is directing the ASU Active Perception Group. His primary interests lie in Cognitive Robotics, Computer Vision, and Robot Vision, especially exploring visual primitives in human action understanding from visual input, grounding them by natural language as well as high-level reasoning over the primitives for intelligent robots. Before joining ASU, Dr. Yang was a Postdoctoral Research Associate at the Computer Vision Lab and the Perception and Robotics Lab, with the University of Maryland Institute for Advanced Computer Studies. He is a recipient of Qualcomm Innovation Fellowship 2011, the NSF CAREER award 2018 and the Amazon AWS Machine Learning Research Award 2019. He receives his Ph.D. from University of Maryland at College Park, and B.E. from Zhejiang University, China.
+
+
+
+Feb. 1Live Stream1 pm
+Joe MarinoPhD StudentComputation and Neural SystemsCalifornia Institute of TechnologyYouTube Stream: https://youtu.be/iVz6uwD7i6A Connecting Variational Autoencoders Back to the BrainUnsupervised machine learning has recently dramatically improved our ability to model and extract structure from data. One such approach is deep latent variable models, which includes variational autoencoders (VAEs) [Kingma & Welling, 2014; Rezende et al., 2014]. These models can be traced back to the Helmholtz machine [Dayan et al., 1995], which, in turn, was inspired by ideas from theoretical neuroscience [Mumford, 1992]. In the intervening years, neuroscientists have further developed these ideas into a popular theory: predictive coding [Rao & Ballard, 1999; Friston, 2005]. Yet, the machine learning community remains largely unaware of these connections. In this talk, I discuss the links between modern deep latent variable models and predictive coding, yielding several striking implications for the correspondences between machine learning and neuroscience. This motivates a more nuanced view in connecting these fields, including the search for backpropagation in the brain.
+
+Bio: Joe Marino is a PhD candidate in the Computation & Neural Systems program at Caltech, advised by Yisong Yue. His work focuses on improving probabilistic models and inference techniques, using neuroscience-inspired ideas, within the areas of generative modeling and reinforcement learning.
+
+
+
+Feb. 8Live Stream1 pm
+Junkyu LeeAI Planning GroupIBM ResearchYouTube Stream:  https://youtu.be/p7X-L1T9ULk Decomposition Bounds for Influence DiagramsInfluence diagrams (IDs) extend Bayesian networks with decision variables and utility functions to model the interaction between an agent and a system to capture the preferences.  The standard task in IDs is to compute the maximum expected utility (MEU) over the influence diagram and optimal policies.  However, it is the most challenging task in graphical models. Therefore, computing upper bounds on the MEU is desirable because upper bounds can facilitate anytime-solutions by acting as heuristics to guide search or sampling-based methods. In this talk, I will present bounding schemes for solving IDs. The first approach builds on top of the tree decomposition scheme in probabilistic graphical models and extends variational decomposition bounds in marginal MAP. The second approach is a new tree decomposition method called submodel tree decomposition.  The empirical evaluation results show that presented bounding schemes generate upper bounds that are orders of magnitude tighter than previous methods. Finally, I will conclude the talk with future directions.
+
+Bio: Junkyu Lee received his Ph.D. from the CS department at UC Irvine, where Rina Dechter supervised him. Currently, he is a resident at the IBM Research AI planning group. His research focuses on graphical model inference and heuristic search for sequential decision making under uncertainty. He is also broadly interested in related areas such as planning and reinforcement learning.
+
+
+
+Feb. 15
+No Seminar (Presidents’ Holiday)
+
+
+
+Feb. 22
+No Seminar
+
+
+
+March 1Live Stream1 pm
+Robert LoganPhD StudentDepartment of Computer ScienceUniversity of California, IrvineYouTube Stream:  https://youtu.be/Mim1pmEn1UU Fill in the _____: Prompt-Based Solutions for NLPRecent progress in natural language processing (NLP) has been predominantly driven by the advent of large neural language models (e.g., GPT-2 and BERT) that are “pretrained” using a self-supervised learning objective on billions of tokens of text before being “finetuned” (i.e., transferred) to downstream tasks. The exceptional success of these models has motivated many NLP researchers to study what exactly these models are learning during pretraining that causes them to be more successful than their non-self-supervised counterparts. In this talk, we will describe the technique of prompting, an approach that answers this question by reformulating tasks as fill-in-the-blanks questions. We will begin by showing how prompts can be used to measure the amount of factual, linguistic, and task-specific knowledge contained in language models. We will then introduce an approach for automatically constructing prompts based on gradient-guided search that provides a scalable alternative to manually writing prompts by hand. Lastly, we will cover our ongoing work investigating whether prompting can be used as a replacement for finetuning of language models, describing some early results that demonstrate that prompting can indeed be more effective in few-shot learning scenarios while being substantially more parameter efficient.
+
+Bio: Robert L. Logan IV is a 4th year PhD Candidate at UC Irvine, co-advised by Sameer Singh and Padhraic Smyth. His research focuses on leveraging external knowledge sources to measure and improve NLP models’ ability to reason with factual and common sense knowledge. He was selected as a Noyce Fellow and has been awarded the 2020 Rose Hills Foundation Scholarship. Robert received his B.A. in mathematics at the University of California, Santa Cruz, and has held research positions at Google and Diffbot.
+
+
+
+March 8
+No Seminar
+
+
+
+March 15
+Finals Week
+
+
+
+
+
+
+
+Post navigation
+← Fall 2020 Spring 2021 →
+
+
+
+
+ 
+Search
+
+
+
+ 
+
+
+(c) 2015 Center for Machine Learning and Intelligent Systems
+
+WordPress/BonPress
+
+
+
+
+
+

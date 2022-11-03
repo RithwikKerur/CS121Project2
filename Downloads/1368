@@ -1,0 +1,10 @@
+http://plrg.ics.uci.edu/publications/60.bib
+@inproceedings{key,
+ author = {Brian Demsky and Martin C. Rinard},
+ title = {Static Specification Analysis for Termination of Specification-Based Data Structure Repair},
+ booktitle = {Proceedings of the 14th IEEE International Symposium on Software Reliability Engineering},
+ pages = {71--84},
+ location = {Denver, Colorado},
+ month = {November},
+ year = {2003}
+}

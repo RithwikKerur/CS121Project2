@@ -1,0 +1,64 @@
+http://www.ics.uci.edu/~kay/courses/i41/hw
+
+
+
+
+
+Informatics 41 Assignments
+
+
+
+
+
+INFORMATICS 41 • DAVID G. KAY • UC IRVINE • FALL 2011
+Assignments 
+
+Read this introduction at the beginning of the course, but read it again in a couple of weeks.
+Each week there will be two separate assignments listed on this web page, usually by Friday afternoon: 
+
+Homeworks, which you will do individually over the weekend and show to the TA in lab on Monday. These will usually involve some reading and a few short problems to introduce you to a topic and help prepare you to ask questions and work in the lab the following week. 
+Lab Assignments, which you will do in pairs and submit electronically at the end of your lab session the following Friday. 
+
+The first week's lab assignment (Lab Assignment 0) is very short so you can complete it at the first lab session on Friday, September 23.
+The lab  assignments will require you to do pair programming:
+  You and a classmate will work together at one computer, following specific guidelines.  This makes the scheduled lab
+  hours on Monday/Wednesday/Friday particularly valuable as a time when everyone
+  in the class is certain to be available (along with the TA and lab tutor).
+ We encourage you to talk with each other and
+  help each other understand how to do the assignments.  There are some limits,
+  though.  Everyone should read the guidelines for collaboration and independent work.
+Don't expect every answer to every problem to be immediately obvious. If you find yourself stuck on a problem, take these five steps:  (1) Re-read the problem; (2) follow the design recipe; (3) go back and look at how you (or we) solved similar problems; (4) recheck the explanation in the textbook or lecture notes; and (5) if you've spent three solid minutes thinking about the problem without making any progress, it's time to ask somebody (a classmate, or i41@uci.edu). If you're making progress, if you have an educated guess (not a blind guess) about what to try next, then keep going—we're not saying that every problem can be solved in three minutes. But after you've spent three minutes of hard thinking with no progress and no idea of what to do next, more thinking isn't likely to help.  We want to minimize your frustration, and in cases like this we (or sometimes your classmates) can often get you past your trouble pretty quickly.  (If you haven't followed the steps above, though—especially reading the problem and following the design recipe—we'll probably just send you back to do them.  You have to do your part, but after that we're happy to step in and do ours.) 
+
+ Setup, DrRacket, and Picturing Programs (PP) Chapters 0–2:  Lab Assignment 0 (due at the end of lab on September 23); PP Chapters 3–6: First Homework (show your work to the TA at the start of lab on September 26). Lab Assignment 1 is due at the end of lab on Friday, September 30.
+PP Chapters 6–18: Second Homework (show your work to the TA at the start of lab on October 3); Lab Assignment 2 (due at the end of lab on October 7).
+PP Chapters 13–22:  Third Homework (show your work to the TA at the start of lab on October 10); Third Lab Assignment (due at the end of lab on October 14).
+
+PP Chapters 22–24: Fourth Homework (show your work to the TA at the start of lab on October 17);
+Fourth Lab Assignment 
+ (due at the end of lab on October 21).  
+
+PP Chapters 25-27: Fifth Homework (show your work to the TA at the start of lab on October 24); Fifth Lab Assignment (due at the end of lab on October 28).
+
+ PP Chapter 28, higher-order functions: Sixth Homework (show your work to the TA at the start of lab on October 31);
+
+Sixth Lab Assignment 
+
+(due at the end of lab on November 4).
+
+PP Chapter 29; Deus X machine, restaurants with files, and more: Seventh Homework (show your work to the TA at the start of lab on  November 7); Seventh Lab Assignment (due at the end of the day on Friday, November 11).
+      Solutions to the Deus X problrems are available on line, but if you look at them before working the problems out completely by hand, you won't learn it well enough to do problems on the quizzes. (The password for access was sent to the class mailing list).
+
+InfxTunes program: Eighth Homework (show your work to the TA at the start of lab on November 14); Eighth Lab Assignment (due at the end of lab on Wednesday, November 23—this is the day before Thanksgiving, so choose a partner whose Thanksgiving schedule is compatible with yours; if you won't be here for lab on the day before Thanksgiving, when the lab is due, pick someone who's able to work with you for a few extra out-of-lab hours before then).
+O-notation, vectors, vectors containing vectors, PP Chapter 30: Ninth Homework (show your work to the TA at the start of lab on November 21); finish the Eighth Lab Assignment (due by the end of lab on Wednesday, November 23).
+
+PP Chapter 31, program design: Tenth (and last!) Homework (no work to show to your TA this week); Ninth Lab Assignment (due at the end of lab on Friday, December 2).
+
+ 
+
+
+David G. Kay, kay@uci.edu 
+
+Wednesday, November 23, 2011 12:32 PM
+
+
+

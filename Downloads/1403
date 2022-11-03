@@ -1,0 +1,9 @@
+http://plrg.ics.uci.edu/publications/610.bib
+@inproceedings{key,
+ author = {Christian Navasca and Cheng Cai and Khanh Nguyen and Brian Demsky and Shan Lu and Miryung Kim and Guoqing Harry Xu},
+ title = {Gerenuk: Thin Computation over Big Native Data Using Speculative Program Transformation},
+ booktitle = {Proceedings of the 2019 ACM SIGOPS Symposium on Operating Systems Principles (SOSP 2019)},
+ location = {Ontario, Canada},
+ month = {October},
+ year = {2019}
+}

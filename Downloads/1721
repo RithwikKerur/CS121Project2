@@ -1,0 +1,118 @@
+http://sli.ics.uci.edu/Classes-2008F/Discussion
+
+
+
+SLI | Classes-2008F / Planning and Discussion, CS295 (Fall 2008) 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Classes-2008F /
+Planning and Discussion, CS295 (Fall 2008)
+
+
+Back to Course Page
+
+Class discussion email list: 35550-F08@classes.uci.edu
+Individual student emails:
+Yutian Chen: yutianc@ics
+Drew Frank: ajfrank@ics
+Jon Hutchins: johutchi@uci
+Todd Johnson: johnsong@ics
+Minh
+Raman Grover: ramang@uci
+America Holloway: ahollowa@ics
+Tony Tran: ttran28@uci
+Ian Porteous: iporteou@ics
+Sidharth Shekhar: shekhars@uci
+Dave Orendorff: dorendor@uci
+Ronen Vaisenberg: ronen@uci
+Vikram Bodicherla: vikramb@uci
+Vijay Rajakumar: vrajakum@uci
+
+Here are some references to finance related items
+
+R package to download data from several different sources. This is what I referred to in class.  
+http://cran.r-project.org/web/packages/fImport/
+
+Economagic is one source of historical economic data. The R function fImport in rmetrics can download from this site.
+http://www.economagic.com/
+
+A few websites dedicated to the topic
+
+There are lots of other web sites
+
+http://www.rmetrics.org/
+
+http://www.quantmod.com/
+
+http://www.quantmod.com/links/
+
+A good book is Paul Wilmott Quantitative Finance
+
+I left my copy in BH 4059 if people want to browse it.
+
+R packages for finance/econometrics
+
+http://cran.r-project.org/web/views/Finance.html
+
+http://cran.r-project.org/web/views/Econometrics.html
+
+http://www.rmetrics.org/rmetricsPackages.htm
+
+A current finance competition
+Equitrader is running its second annual Colligate Challenge with $25,000 in prizes.  Equitrader uses the same competition based business model as TopCoder but rather than designing software, we run virtual stock trading competitions. Registration runs from September 1, 2008 through October 31, 2008, and is open to all students over age 18.  The competition will run from September 29, 2008 to March 15, 2009.  Whether you are a new-comer, novice, or expert, come test your skills against other students from around the world.
+
+For more details and registration visit the Equitrader home page(www.equitrader.com) and click on the Collegiate Challenge banner in the center of the page.  Thank you and good luck!
+
+
+Bayer Filter Demosaic problem is explained pretty well on wikipedia http://en.wikipedia.org/wiki/Demosaicing The article also makes the link between demosaicing and super resolution.
+
+
+
+
+
+
+
+ Last modified November 24, 2008, at 11:39 AM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

@@ -1,0 +1,373 @@
+http://www.ics.uci.edu/~dillenco/compsci161
+
+
+CompSci 161 - Design and Analysis of Algorithms - Fall, 2022 (Dillencourt)
+
+CompSci 161 - Design and Analysis of Algorithms - Fall, 2022 (Dillencourt)
+
+This web site is a work in progress.  
+Information will be added as it becomes available.
+
+
+To view the information on this page, either scroll down or
+click one of these links:
+
+
+Class Announcements
+Class meetings
+Course staff: Instructor, Teaching Assistants, Readers
+Sending us email. Please Read this section 
+before sending us email.
+Ed Discussion question-and-answer forum
+Academic dishonesty
+Required Textbook
+Additional Resources
+Grading.  This section has a link to a page with
+informations about the tests.
+Class  Notes
+Homework Assignments. This section has
+a link to the homework assignment page, which includes the GradeScope
+course code.
+Reading Assignments. This section has
+a link to the homework assignment page, which includes the GradeScope
+course code.
+Schedule of deliverables (tests, quizzes,
+homework due dates)
+
+
+Class announcements
+
+ Class announcements will be made on canvas.  
+ The most recent ones will appear at the top of the course home page on canvas.
+ Please check there frequently.
+
+
+Class meetings
+
+ Lectures: 9:00-9:50AM MWF PCB 1100 [This is the 
+  Parkview Classroom Building]
+  
+ Midterm Exams will be given during the lecture time, in
+         the same classroom as the lectures
+     The first lecture will be held on Friday, September 23
+     There will be no lecture on the following days:
+    
+ Friday, November 11 (Veteran's Day Holiday)
+       Friday, November 25 (Thanksgiving Holiday)
+    
+
+ Discussion sections: [Note that MSTB is the 
+         Multipurpose Science & Technology Building]
+  
+ 7-7:50PM Tu Th MSTB 118
+     8-8:50PM Tu Th MSTB 118
+     If you were expecting to see a  6PM discussion section listed, please 
+          read 
+ this canvas announcement.
+     The first discussion section meetings will be on 
+         Tuesday, September 27
+     There will be no discussion section on the following days:
+    
+ Thursday, November 10 
+       Thursday, November 24 (Thanksgiving Holiday)
+    
+
+
+
+Course staff
+
+
+ Instructor:
+  
+ Professor Michael Dillencourt
+     Email: dillenco at ics dot uci dot edu.  But please note:
+    
+ Questions of general interest about the course material, the homework,
+           and the tests  should be posted to Ed Discussion.
+       Regrade requests on the homework and midterm will be handled through
+           GradeScope.
+       It is much better to use the compsci-161 questions list as discussed
+           in the section on email.
+    
+Office hours: 
+    
+ My office is DBH 4086.  (To get there, take the elevator
+           to the fourth floor and keep taking left turns until you
+           come to my office on the right.  If you find yourself on the
+           fire escape, you have gone too far.)
+       I will hold a regular office hour Wednesday 10:30-11:30 AM.
+       I am also available after each lecture.  
+           I will stay either in the lecture hall or just outside the exit 
+           as long as there are students asking questions.
+       One more option: 
+           I can usually make myself available in my office on Monday or Friday
+           mornings between 10:30 and 11:30.  
+           Let me know after class if you want to come
+           talk to me in my office, and unless I have something else scheduled
+           we can meet there.
+           Note that on Mondays and Fridays this is "by appointment" in the
+           sense that I may not be in my office if nobody has told me they
+           are coming.  On Wednesdays I will be there anyway because it
+           is a scheduled office hour.
+    
+
+ Teaching Assistant:
+  
+ Ramtin Afshar
+    
+ Email: afsharr at uci dot edu.
+         But it is better to use the compsci-161 questions list as discussed
+         in the section on email.
+     Office hours: Will be posted on the home page of the course Canvas 
+         space.  
+         For now you can find Ramtin's office hours in 
+         this
+         Ed Discussion post.
+    
+
+ Reader:
+  
+ Maya Lee
+    
+ Email: mayadl1 at uci dot edu.
+         But it is better to use the compsci-161 questions list as discussed
+         in the section on email.
+    
+
+
+
+Sending us email
+
+ Rather than sending email to one of us individually,
+      it is much better to send email to the address:
+      compsci161-questions at uci dot edu
+      This is an alias for the instructor, the TA and the Reader.
+      Sending your question here ensures that all of us see your message
+      and the response.
+      It may also give you better turnaround time.
+  Please put the string "CompSci 161 - " in the subject line, followed by 
+      something meaningful.  
+ 
+ NOTE:It is very important to put spaces around 161.  
+       I have noticed that sometimes my mail server's search function gets 
+       confused when there is a word preceding a number with no 
+       intervening space.
+ 
+ If you are posting a question of general interest, please post it
+      on Ed Discussion instead
+
+
+Ed Discussion question-and-answer forum
+
+We will be  using the Ed Discussion question-and-answer forum.
+Access to the Ed Discussion forum will be made available through the 
+class Canvas space.
+Although posters can hide their identity from other students,
+the instructor and the teaching assistants are able to determine the
+identity of posters.
+The forum is intended as an open and respectful forum for the exchange
+of questions and answers about the class and the course material.
+Inappropriate, insulting, or offensive posts will not be tolerated.
+Such posts will be deleted, and
+may result in the suspension or termination of access to the forum.
+In extreme cases, offensive posts may be referred to other University entities
+for appropriate disciplinary action.
+
+
+Academic Dishonesty:
+
+Academic dishonesty (cheating) is a serious offense
+in the eyes of the instructor, the instructional assistants,
+ICS, and the university.
+Incidents of academic dishonesty will usually result in your receiving
+a grade of F in the course and not being allowed to drop the course.
+Additional consequences may occur at the academic unit or campus level.
+Examples of academic dishonesty include, but are not limited to:
+
+ Copying from others during an examination
+ Using unauthorized materials during an examination.
+ Sharing answers or 
+allowing another student to copy off your work during an  examination.
+ Tampering with an examination after it has been
+corrected,  then returning it for more credit.
+ Intentionally disrupting the educational process in any way.
+
+For more complete information about academic honesty policies and
+procedures, consult the following resources:
+
+
+     Academic Honesty Policy for Information & Computer Science.
+
+    UCI Office of Academic Integrity & Student Conduct Manual on Academic
+    Integrity for Students.
+ 
+UCI Academic Senate Policy on Academic Integrity.  
+
+
+
+Required Textbook
+
+ We will be using the online, web-based version of the textbook 
+  
+ [GT] Algorithm Design and Applications, 
+         by Michael T. Goodrich and Roberto Tamassia, 
+         published by Zybooks.
+  
+ You are required to subscribe to the book if you are
+  enrolled in the class.
+  The material in the book includes interactive exercises which will count as
+  a small portion of your grade.
+  Instructions for subscribing can be found here.
+   Copies of the book in traditional (non-Zybook) form 
+  are available in hard copy from the usual sources,
+  and an online PDF is available for free.  
+
+
+Additional resources
+
+Optional additional reading:
+
+ You may find the following books helpful as well.  
+         These are not required, but they may provide useful additional 
+         perspective and, in for some topics, more detailed coverage.  
+         I have requested that a copy of each of them be placed on reserve 
+         in the Science Library:
+    
+[BvG] Baase and van Gelder,  Computer Algorithms, 
+          Addison-Wesley.
+      [KT] Kleinberg and Tardos, Algorithm Design, Addison Wesley.
+      [CLRS] Cormen, Leiserson, Rivest, and Stein,
+          Introduction to Algorithms, MIT Press.
+    
+
+
+Prerecorded lectures from previous quarters:
+
+Prerecorded lectures from previous quarters can be found on the class 
+      canvas page.  Please note the following:
+  
+ These prerecorded lectures are intended as a supplement 
+       to the in-class lectures, not as an alternative to or a substitute
+       for attending the in-class lectures.  
+   The material covered in the prerecorded lectures will overlap 
+       considerably with the in-class lectures,
+       but it will not be identical.  There will be topics
+       covered in the in-class lectures that are not covered in the prerecorded
+       lectures, and you will be responsible for these topics on exams.
+   On occasion I may explicitly assign you to watch a specific prerecorded 
+       lecture.
+       If I do so, you will be responsible for the material covered on 
+       that specific prerecorded lecture on exams.  
+       Otherwise, you will not be responsible for
+       material in the prerecorded lectures that is not coved in the in-class
+       lectures.
+   I will not fix errors in the prerecorded lectures.  
+       Here is a list of known errors.
+       If you think you have found an error, let me know, and once I have
+       verified it I will add it to the list of known errors.
+  
+
+
+
+ Grading
+
+ Based on two midterms, a final exam, 
+       weekly homework assignments, 
+       and assigned readings in the online textbook.
+   The individual components will be weighted as follows when
+       computing the course grade:
+  
+ Test score (weighted average on midterms and final exam):  85%.  
+    
+The test score will be computed as follows:
+      
+ Midterm 1: 23%
+         Midterm 2: 23%
+         Final Exam: 54%
+      
+
+ Homework assignments:  8%
+     Readings in the online textbook:  7%
+  
+
+ Midterms and Final: 
+
+ There will be two midterms. 
+     The midterms will be given Monday of weeks 5 and 9.
+     No make up midterms will be given, no matter how 
+        compelling the reason.
+        If you miss a midterm for a valid reason that can be documented
+        and you notify us via email before the start of the midterm,
+        we will assign a score for your missing midterm based on your score
+        on the final exam.
+     The final exam will be given during finals week, in the
+          time period designated by the registrar.
+    
+Click here for more information about the 
+        midterms and the final exam, including exact date/time. 
+
+  
+Homework:
+
+ There will be weekly homework assignments.  
+        They will generally be due Wednesday evenings.
+        The first assignment will be due during week 2.
+    Your lowest homework assignment score will be dropped.  
+    A consequence of this policy is that if you do not turn in a homework 
+   assignment and hence receive a zero on it, 
+   that homework score will be dropped.
+   This means that failing to turn in one homework assignment will not
+   negatively impact your grade as long as you do well on all the other
+   homework assignments.
+    For a link to the homework assignment page, scroll down or click
+        here. 
+  
+Reading Assignments:
+
+ There will be reading assigments from the online Zybook textbook.
+     In each section you are assigned to read, you will need to 
+         complete the Participation Activities.
+     Generally there will be a reading assignment due one minute before 
+         the start of each lecture. 
+     You will be deemed to have satisfactorily completed the reading 
+         of a particular section if and only if the Zybook log says that 
+         you completed all Participation Activities in the section by the
+         deadline.  
+     For a link to the reading assignment page, scroll down or click
+        here. 
+ 
+
+
+Class Notes:
+
+ The class notes consist of the slides used in the lectures.
+ Other material may be added to the class notes page over the course
+of the quarter.
+ Access to class notes is restricted to students enrolled in the class.
+ Click here to access the class notes.
+Authentication information can be found on the class canvas page.
+
+
+Homework Assignments
+
+ Homework assigment page:
+The homework assignments and instructions for submitting the homework
+are posted here.
+
+
+Reading Assignments
+
+ Reading assigment page:
+The reading assignments to be completed before each lecture 
+are posted here.
+
+
+ Schedule of deliverables (tests, homework due dates):
+
+Click here.
+
+
+
+
+Last modified: September 30, 2022
+

@@ -1,0 +1,239 @@
+https://ngs.ics.uci.edu/photo-stream-segmentation-photo-organization
+
+
+
+
+
+
+
+
+Photo-stream segmentation: Photo Organization – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Photo-stream segmentation: Photo Organization    			
+
+
+Digital cameras have changed our habits significantly.  In early days, we wwaited for ‘kodak moments’ and used our camera thoughtfully.  Now we use our camera all the time and take photos generously — photos are becoming our inexpensive secondary memory to preserve our experiences and memories.  
+A major problem has been how to use all the photos that we take.  People take so many photos but how to organize them to retrieve them when needed has become a challenging problem.  Flickr, iPhotos, Picasa and such are good starts but lack the flexibility and competence that will help consumers organize these experiences easily for visiting and sharing them.  Tags are much hyped so far because who wants to take time to tag?  And there is no easy way to tag them.
+In computer vision, multimedia, and related communities people realized that most people organize and retrieve photos based on events (time and location).  It would be great if automatic techniques could be developed to assign tags automatically to photos when they are loaded on a computer or a web site.  SOme research has started in this area.  Yesterday Bo Gong defended his doctoral thesis in this area In School of Information and COmputer Sciences on this topic. (Disclosure:  I am his advisor.)  This work shows how one can take some concrete steps in using context information — coming from EXIF data stored with each picture in modern cameras — in this direction.  This is an early work, but is a strong indicator of things that could be done.
+A good thing about such research is that it is needed to solve a pain point that the technology has created in the last few years.
+
+
+
+By Ramesh |
+    				June 21, 2008 |
+    				             		Technical Thoughts |
+             	 
+    				             		4 Comments |
+             	 		          				
+    			
+
+
+← One Month Later
+Hammer Syndrome in Sciences →
+
+
+
+			4 thoughts on “Photo-stream segmentation: Photo Organization”		
+
+
+
+
+Web design June 23, 2008 at 10:08 pm 
+
+I think Adobe will done a great job later.
+
+
+
+
+
+
+
+
+Kent Tenney June 25, 2008 at 5:06 am 
+
+There are a number of metrics which are easily harvested programatically which
+might be useful if assigned to an image. Given a collection of images, they are
+scanned and the following attributes are determined.
+time delta
+    duration between this image and prev, next.
+geometric complexity
+    indicated by the degree that the image can be compressed.
+chromatic complexity
+    number of discrete colors in image
+average color
+    dominant color of image
+I’m sure others will become evident, they share the characteristic of being
+available solely by examining the image data.    
+When images are tagged, a Bayesian filter correlates the above attributes with
+tags. I think there’s a real chance that patterns would emerge which, if not
+leading to automation, would provide an improving level of assistance.
+The time delta attribute is valuable in determining batches. Within a batch,
+defined by a set of photos shot within a specified time frame, the tags will
+tend to be the same.
+Thanks,
+Kent
+
+
+
+
+
+
+
+
+MBA Programs June 30, 2008 at 4:15 am 
+
+Quite frankly, I would rather like to save or organize my photos locally on my machine rather than doing it on internet. Although I donâ€™t feel any harm in doing so but somehow the security concerns are always there. 
+There’s no doubt that many websites have very strong security settings as far as images are concerned i.e. you can not just copy the images, but loopholes are always there. I would rather say that arrange for some good photo organizing software (adobe provides such software) and then organize your photos locally.
+
+
+
+
+
+
+
+
+PC Camera September 17, 2009 at 8:24 pm 
+
+It’s a major problem to organize photos.  The idea of tags is fantastic.
+
+
+
+
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

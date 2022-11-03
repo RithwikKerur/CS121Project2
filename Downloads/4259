@@ -1,0 +1,244 @@
+https://cml.ics.uci.edu/category/news
+
+
+
+
+
+News | Center for Machine Learning and Intelligent Systems
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+University of California, Irvine
+
+
+Menu
+Skip to content
+Home
+About CML
+
+About us
+News
+Contact Us
+
+
+People
+
+Faculty
+Alumni
+
+
+Events & Seminars
+
+AI/ML Seminar Series
+AI/ML Seminar Live Stream
+CML Distinguished Speakers
+ML Reading Group
+
+
+Education & Resources
+
+Courses
+Books
+
+
+UCI Machine Learning Archive
+Sponsors & Funding
+Subscribe to CML List
+ 
+
+
+
+
+
+News 
+
+
+
+
+
+Jyothi Named a Rising Star by N2Women Standard 
+
+Congratulations to Sangeetha Abdu Jyothi for being named a 2022 Rising Star in Computer Networking and Communications by N2Women.  Prof. Jyothi explores innovative applications of machine learning to systems and networking problems, including award-winning recent work characterizing the resilience of the internet to solar superstorms.
+
+
+September 1, 2022
+
+
+
+
+
+
+CML Researchers win NAACL Paper Award Standard 
+
+Congratulations to CML PhD student Robert Logan, and his advisor Prof. Sameer Singh, who received a Best New Task Paper Award at the 2022 Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL).  Their method, FRUIT: Faithfully Reflecting Updated Information in Text, uses language models to automatically update articles (like those on Wikipedia) when new evidence is obtained. This work is motivated not only by a desire to assist the volunteers who maintain Wikipedia, but by the ways it pushes the boundaries of the NLP field.
+
+
+July 25, 2022
+
+
+
+
+
+
+CML faculty elected as AAAS Fellows Standard 
+
+Two faculty affiliated with the UCI Center for Machine Learning and Intelligent Systems have been elected as 2021 AAAS Fellows, joining 190 other AAAS Fellows at UC Irvine.  Rina Dechter, Distinguished Professor of Computer Science and Associate Dean for Research in the Donald Bren School of Information & Computer Sciences, was elected for contributions to computational aspects of automated reasoning and knowledge representation, including search, constraint processing, and probabilistic reasoning, and for service to the computing community.  Padhraic Smyth, Chancellor’s Professor of Computer Science and Associate Director of the UCI Center for Machine Learning, was elected for distinguished contributions to the field of machine learning, particularly the development of statistical foundations and methodologies. 
+ Congratulations to them both!
+
+
+February 1, 2022
+
+
+
+
+
+
+NSF CAREER Awards for Stephan Mandt and Sameer Singh Standard 
+
+Congratulations to each of Professors Stephan Mandt and Sameer Singh for recently being awarded prestigious CAREER awards for basic research from the National Science Foundation. Professor Mandt’s research will focus on a unified set of mathematical and statistical tools for resource-efficient deep learning, with expected applications to new methods for compressing both neural networks and their data (e.g., images and video), as well as new algorithms for faster training. Professor Singh will develop new techniques and methodologies to address vulnerabilities in current state-of-the-art natural language processing models based on deep learning by developing several techniques in support of more robust training and evaluation, with applications to automated methods for finding and detecting problems in such models, explaining them to users, and fixing them.
+
+
+July 25, 2021
+
+
+
+
+
+
+New Book from Pierre Baldi on the Sciences and Deep Learning Standard 
+
+Professor Pierre Baldi has published a new text that bridges the gap between deep learning and the natural sciences. Titled Deep Learning in Science (Cambridge University Press, 2021), the text provides readers with a perspective that there is “a principled, foundational approach to machine learning” and readers “are made aware of the many interesting applications in natural sciences as opposed to just in engineering and commerce” (quoting Professor Baldi).
+
+
+July 25, 2021
+
+
+
+
+
+
+Rina Dechter Receives AI Journal’s Classic Paper Award Standard 
+
+Distinguished Prof. Rina Dechter has been awarded the 2020 Classic Paper Award from the Artificial Intelligence Journal. Given to papers “published at least 15 calendar years ago in the AI Journal that are exceptional in their significance and impact,” this year’s award recognized “Temporal Constraint Networks,” which Dechter co-authored with Itay Meiri and Judea Pearl in 1991.
+Read more:  https://www.ics.uci.edu/community/news/view_news?id=1866
+
+
+September 29, 2020
+
+
+
+
+
+
+Sameer Singh Wins Best Paper Award at ACL 2020 Standard 
+
+While researchers know that contemporary natural language processing models aren’t as accurate as their leaderboard performance makes them appear, there hasn’t been a structured way to test them. The best paper award at ACL 2020 went to Prof. Sameer Singh, and collaborators Marco Tulio Ribeiro of Microsoft Research and Tongshuang Wu and Carlos Guestrin at the University of Washington, for their paper Beyond Accuracy: Behavioral Testing of NLP Models with CheckList.  Their CheckList framework uses a matrix of general linguistic capabilities and test types to reveal weaknesses in state-of-the-art cloud AI systems.
+Read more:  https://www.ics.uci.edu/community/news/view_news?id=1817
+
+
+July 31, 2020
+
+
+
+
+
+
+UCI and Disney Research scientists develop AI-enhanced video compression model Standard 
+
+Assistant professor of computer Science Stephan Mandt
+photo:  Steve Zylius/UCI
+A new artificial intelligence-enhanced video compression model developed by computer scientists at the University of California, Irvine and Disney Research has demonstrated that deep learning can compete against established video compression technology.
+Unveiling their work in December at the Conference on Neural Information Processing Systems in Vancouver, British Columbia, the UCI/Disney Research team members showed that their compressor – while still in an early phase – yielded less distortion and significantly smaller bits-per-pixel rates than classical coding-decoding algorithms such as H.265 when trained on specialized video content and achieved comparable results on downscaled, publicly available YouTube videos.
+Read more:  https://www.ics.uci.edu/community/news/view_news?id=1714 
+
+
+February 21, 2020
+
+
+
+
+
+
+Upgrading the UCI ML Repository Standard 
+
+The UCI Machine Learning Repository has been a tremendous resource for empirical and methodological research in machine learning for decades.  Yet with the growing number of machine learning (ML) research papers, algorithms and datasets, it is becoming increasingly difficult to track the latest performance numbers for a particular dataset, identify suitable datasets for a given task, or replicate the results of an algorithm run on a particular dataset. To address this issue, CML Professors Sameer Singh and Padhraic Smyth along with Philip Papadopoulos, Director of UCI’s Research Cyberinfrastructure Center (RCIC), have planned a “next-generation” upgrade. The trio was recently awarded $1.8 million for their NSF grant, “Machine Learning Democratization via a Linked, Annotated Repository of Datasets.”
+
+
+January 24, 2020
+
+
+
+
+
+
+AI/NLP Research Partnership with Allen Institute for AI (AI2) Image 
+
+
+Professor Sameer Singh and his group have developed a thriving partnership working with researcher Dr. Matt Gardner and colleagues from the Allen Institute for AI (AI2), producing a series of high-profile papers in the past several months on topics such as language modeling and automated question answering systems. AI2 is providing funding to support graduate student researchers who work closely with AI2 researchers co-located in the Computer Science Department in Donald Bren Hall.
+
+
+September 30, 2019
+
+
+
+Posts navigation
+
+‹Older posts
+
+
+
+
+
+ 
+Search
+
+
+
+ 
+
+
+(c) 2015 Center for Machine Learning and Intelligent Systems
+
+WordPress/BonPress
+
+
+
+
+
+

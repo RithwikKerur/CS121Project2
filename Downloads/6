@@ -1,0 +1,28 @@
+http://www.ics.uci.edu/~stasio/Papers/cjt04-abs.html
+Secret Handshakes from CA-oblivious Encryption 
+
+Claude Castelluccia, Stanislaw Jarecki, Gene Tsudik
+
+ABSTRACT:
+
+	Secret handshakes were recently introduced 
+		[BDSS+03] to allow members of the same group to authenticate each 
+	other secretly, in the sense that someone who is not
+	a group member cannot tell, by engaging some party in the handshake protocol, 
+	whether that party is a member of this group. On the other hand, any two 
+	parties who are
+members of the same group will recognize each other as members. Thus, a secret 
+handshake protocol can be used in any scenario where group members need to 
+identify each other without revealing their group affiliations to outsiders.
+
+	The work of [BDSS+03] constructed secret handshakes secure under the Bilinear 
+		Diffie-Hellman (BDH) assumption in the Random Oracle Model (ROM). We 
+	show how to build secret handshake protocols secure under a more standard 
+	cryptographic assumption of Computational Diffie Hellman (CDH), 
+	using a novel tool of CA-oblivious public key encryption, which 
+	is an encryption scheme s.t. neither the public key nor the ciphertext reveal 
+	any information about the Certification Authority (CA) which certified the 
+	public key. We construct such CA-oblivious encryption, and hence a handshake 
+	scheme, based on CDH (in ROM). The new scheme takes 3 communication rounds like 
+	the BDH-based scheme, but it is about twice cheaper computationally, and it 
+	relies on a weaker computational assumption.

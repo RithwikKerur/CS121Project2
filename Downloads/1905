@@ -1,0 +1,96 @@
+https://sli.ics.uci.edu/PmWiki/CreatingNewPages
+
+
+
+SLI | PmWiki / Creating New Pages 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+Creating New Pages
+
+
+
+
+
+< Basic editing | Documentation Index | Links >
+
+authors (basic) 
+
+The first step to create a new page is to edit an existing page and add a link to the page you want to create.  
+
+To link to your new page, you must choose a name for it.  The best names describe the page's contents well, so that everyone can remember and type the name easily.
+To create a link, surround the page name with double brackets. Typing [[my new page]] will create a link to my new page?.  There's a lot you can do with double bracket links.
+You can see that the links to my new page? all have question marks after them.  That's because my new page? hasn't been written yet.  Clicking the link as second step will take you to an edit form where you could write and finally save the new page. 
+
+
+Another way to create a page:  in your browser's address bar (where the page URL is), replace the name of the current page with the name of the page you wish to create, and hit Enter or do whatever you would normally do to go to a new location.  PmWiki will then dutifully tell you that the page you entered doesn't exist, but you can click on the "Edit" link in order to create, edit, and save the new page.
+
+The drawback to this method is that there are no links to your new page, so you're the only person who knows it exists.  It will be an orphan, unread, unlinked, unloved.  That's why adding a link to an existing page or to the SideBar is a better way to create a page.
+
+Learn more:
+You can also organize related pages into groups, and link between pages in different groups.
+ 
+
+ How do I create a new page?
+ Typing [[my new page]] will create a link to the new page. There's a lot you can do with double bracket links.
+
+ Why do some new pages have a title with spaces like "Creating New Pages" and others end up with a WikiWord-like title like "CreatingNewPages"?
+ The default page title is simply the name of page, which is normally stored as "CreatingNewPages."  However, you can override a page's title by using the (:title Creating New Pages:) directive.  This is especially useful when there are special characters or capitalization that you want in the title that cannot be used in the page name.
+ 
+
+< Basic editing | Documentation Index | Links >
+
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:CreatingNewPages, and  a talk page: PmWiki:CreatingNewPages-Talk.
+
+
+
+
+
+
+ Last modified September 10, 2012, at 03:12 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

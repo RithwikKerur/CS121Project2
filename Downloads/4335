@@ -1,0 +1,242 @@
+https://cml.ics.uci.edu/2014/09/fall-2014
+
+
+
+
+
+Fall 2014 | Center for Machine Learning and Intelligent Systems
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+University of California, Irvine
+
+
+Menu
+Skip to content
+Home
+About CML
+
+About us
+News
+Contact Us
+
+
+People
+
+Faculty
+Alumni
+
+
+Events & Seminars
+
+AI/ML Seminar Series
+AI/ML Seminar Live Stream
+CML Distinguished Speakers
+ML Reading Group
+
+
+Education & Resources
+
+Courses
+Books
+
+
+UCI Machine Learning Archive
+Sponsors & Funding
+Subscribe to CML List
+ 
+
+
+
+
+
+Fall 2014 Standard
+
+September 1, 2014
+AIML
+
+
+
+
+
+
+
+  
+
+
+Oct 6Bren Hall 40111 pm
+
+
+James SupancicGraduate StudentDepartment of Computer ScienceUC Irvine
+
+Self-paced learning for long-term tracking / Efficient Matching of 3D Hand Exemplars in RGB-D ImagesSelf-paced learning for long-term tracking 
+ We address the problem of long-term object tracking, where the object may become occluded or leave-the-view. In this setting, we show that an accurate appearance model is considerably more effective than a strong motion model. We develop simple but effective algorithms that alternate between tracking and learning a good appearance model given a track. We show that it is crucial to learn from the “right” frames, and use the formalism of self-paced curriculum learning to automatically select such frames. We leverage techniques from object detection for learning accurate appearance-based templates, demonstrating the importance of using a large negative training set (typically not used for tracking). We describe both an offline algorithm (that processes frames in batch) and a linear-time online (i.e. causal) algorithm that approaches real-time performance. Our models significantly outperform prior art, reducing the average error on benchmark videos by a factor of 4.  
+ Efficient Matching of 3D Hand Exemplars in RGB-D Images 
+ We focus on the task of single-image hand detection and pose estimation from RGB-D images. While much past work focuses on estimation from temporal video sequences, we consider the problem of single-image pose estimation, necessary for (re) initialization. The high number of degrees-of-freedom, frequent self-occlusions, and pose ambiguities make this problem rather challenging. While previous approaches tend to rely on articulated hand models or local part classifiers, our models are based on discriminative pose exemplars that can be quickly indexed with parts. We propose novel metric depth features that make the search over exemplars accurate and fast. Importantly, our exemplar models can reason about depth-aware occlusion. Finally, we also provide an extensive evaluation of the state-of-the-art, including academic and commercial systems, on a real-world annotated dataset. We show that our model outperforms such methods, providing promising results even in the presence of occlusions.
+
+
+  
+
+
+Oct 13Bren Hall 40111 pm
+
+
+Pranjal AwasthiPostDoc FellowDepartment of Computer SciencePrinceton University
+
+Learning Mixtures of Ranking ModelsProbabilistic modeling of ranking data is an extensively studied problem with applications ranging from understanding user preferences in electoral systems and social choice theory, to more modern learning tasks in online web search, crowd-sourcing and recommendation systems. This work concerns learning the Mallows model — one of the most popular probabilistic models for analyzing ranking data. In this model, the user’s preference ranking is generated as a noisy version of an unknown central base ranking. The learning task is to recover the base ranking and the model parameters using access to noisy rankings generated from the model.  
+ Although well understood in the setting of a homogeneous population (a single base ranking), the case of a heterogeneous population (mixture of multiple base rankings) has so far resisted algorithms with guarantees on worst case instances. In this talk I will present the first polynomial time algorithm which provably learns the parameters and the unknown base rankings of a mixture of two Mallows models. A key component of our algorithm is a novel use of tensor decomposition techniques to learn the top-k prefix in both the rankings. Before this work, even the question of identifiability in the case of a mixture of two Mallows models was unresolved.  
+ Joint work with Avrim Blum, Or Sheffet and Aravindan Vijayaraghavan.
+
+
+  
+
+
+Oct 20Bren Hall 40111 pm
+
+
+Sepehr AkhavanGraduate StudentStatistics DepartmentUC Irvine
+
+A Flexible Joint Longitudinal-Survival Model For Quantifying The Association Between Within-Subject Volatility In Serum Biomarkers And MortalityWe propose a joint longitudinal-survival model for associating summary measures of a longitudinally collected biomarker with a time-to-event endpoint. The model is robust to common parametric and semi-parametric assumptions in that it avoids simple distributional assumptions on longitudinal measures and allows for non-proportional hazards covariate effects in the survival component. Specifically, we use a Gaussian process model with a parameter that captures within-subject volatility in the longitudinally sampled biomarker, where the unknown distribution of the parameter is assumed to have a Dirichlet process prior. We then estimate the association between within-subject volatility and the risk of mortality using a flexible survival model constructed via a Dirichlet process mixture of Weibull distributions. Fully joint estimation is performed to account for uncertainty in the estimated within-subject volatility measure. Simulation studies are presented to assess the operating characteristics of the proposed model. Finally, the method is applied to data from the United States Renal Data System where we estimate the association between within-subject volatility in serum album and the risk of mortality among patients with end-stage renal disease.
+
+
+  
+
+
+Oct 27Bren Hall 40111 pm
+
+
+Yan LiuAssitant ProfessorDepartment of Computer ScienceUSC
+
+Learning and Mining in Large-scale Time Series DataMany emerging applications of machine learning involve time series and spatio-temporal data. In this talk, I will discuss a collection of machine learning approaches to effectively analyze and model large-scale time series and spatio-temporal data, including temporal causal models, sparse extreme-value models, and fast tensor-based forecasting models. Experiment results will be shown to demonstrate the effectiveness of our models in practical applications, such as climate science, social media and biology.  
+ Bio: 
+ Yan Liu is an assistant professor in Computer Science Department at University of Southern California from 2010. Before that, she was a Research Staff Member at IBM Research. She received her M.Sc and Ph.D. degree from Carnegie Mellon University in 2004 and 2006. Her research interest includes developing scalable machine learning and data mining algorithms with applications to social media analysis, computational biology, climate modeling and business analytics. She has received several awards, including NSF CAREER Award, Okawa Foundation Research Award, ACM Dissertation Award Honorable Mention, Best Paper Award in SIAM Data Mining Conference, Yahoo! Faculty Award and the winner of several data mining competitions, such as KDD Cup and INFORMS data mining competition.
+
+
+  
+
+
+Nov  3Bren Hall 40111 pm
+
+
+Rodrigo de Salvo BrazResearcherAI CenterSRI
+
+Probabilistic Logic and Lifted Probabilistic Inferenceinference with uncertainty, and form a main field in Artificial Intelligence today. However, their usual form is restricted to a *propositional* representation, in the same way propositional logic is restricted when compared to relational first-order logic.  
+ For encoding complex probabilistic models, we need richer, relational, quantified representations that yield a form of Probabilistic Logic. While propositionalization is an option for processing such encodings, it is not scalable. The field of *lifted* probabilistic inference seeks to process first-order relational probabilistic models on the relational level, avoiding grounding or propositionalizing as much as possible.  
+ I will talk about relational probabilistic models and give the main ideas about lifted probabilistic inference, and also comment on the relationship of all that to Probabilistic Programming, exemplified by probabilistic programming languages such as Church and BLOG.  
+ Bio: 
+ Rodrigo de Salvo Braz is a Computer Scientist at SRI International. He earned a PhD from the University of Illinois in 2007 with a thesis contributing some of the earliest ideas on Lifted Probabilistic Inference. He did a postdoc at UC Berkeley with Stuart Russell, working on the BLOG language, and is currently the PI of SRI’s project for DARPA’s Probabilistic Programming Languages for Advanced Machine Learning.
+
+
+  
+
+
+Nov 10Bren Hall 40111 pm
+
+
+Kyle CranmerAssistant ProfessorPhysics DepartmentNYU
+
+New Directions for Machine Learning in Particle PhysicsI will review the ways that machine learning is typically used in particle physics, some recent advancements, and future directions. In particular, I will focus on the integration of machine learning and classical statistical procedures. These considerations motivate a novel construction that is a hybrid of machine learning algorithms and more traditional likelihood methods.
+
+
+  
+
+
+Nov 17Bren Hall 40111 pm
+
+
+Yisong YueAssitant ProfessorComputing and Mathematical Sciences departmentCaltech
+
+Balancing the Explore/Exploit Tradeoff in Interactive Structured PredictionMany prediction domains, ranging from content recommendation in a digital system to motion planning in a physical system, require making structured predictions. Broadly speaking, structured prediction refers to any type of prediction performed jointly over multiple input instances, and has been a topic of active research in the machine learning community over the past 10-15 years. However, what has been less studied is how to model structured prediction problems for an interactive system. For example, a recommender system necessarily interacts with users when recommending content, and can learn from the subsequent user feedback on those recommendations. In general, each “prediction” is an interaction where the system not only predicts a structured action to perform, but also receives feedback (i.e., training data) corresponding to the utility of that action.  
+ In this talk, I will describe methods for balancing the tradeoff between exploration (collecting informative feedback) versus exploitation (maximizing system utility) when making structured predictions in an interactive environment. Exploitation corresponds to the standard prediction goal in non-interactive settings, where one predicts the best possible action given the current model. Exploration refers to taking actions that maximize the informativeness of the subsequent feedback, so that one can exploit more reliably in future interactions. I will show how to model and optimize for this tradeoff in two settings: diversified news recommendation (where the feedback comes from users) and adaptive vehicle routing (where the feedback comes from measuring congestion).  
+ This is joint work with Carlos Guestrin, Sue Ann Hong, Ramayya Krishnan and Siyuan Liu.
+
+
+  
+
+
+Nov 24Bren Hall 40111 pm
+
+
+Majid JanzaminGraduate StudentEECSUC Irvine
+
+Learning overcomplete latent variable models through tensor methodsLearning several latent variable models including multiview mixtures, mixture of Gaussians, independent component analysis and so on can be done by the decomposition of a low-order moment tensor (e.g., 3rd order tensor) to its rank-1 components. Many earlier studies using tensor methods only consider undercomplete regime where the number of hidden components is smaller than the observed dimension. In this talk, we show that the tensor power iteration (as the key element for tensor decomposition) works well even in the overcomplete regime where the hidden dimension is larger than the observed dimension. We establish that a wide range of overcomplete latent variable models can be learned efficiently with low computational and sample complexity through tensor power iteration.
+
+
+  
+
+
+Dec  1Bren Hall 40111 pm
+
+
+Mohammad Hossein RohbanPostDoc Research ScholarInformation and Data SciencesBoston University
+
+Provable Efficient Topic Modeling under Separability AssumptionDesigning latent variable learning methods, which have guaranteed bounded sample complexity, has become one of the recent research trend in the last few years. I will pick topic modeling as an example and discuss various learning algorithms along with their sample/computational complexity bounds. These bounds has been derived under the so-called topic separability assumption, which requires every topic to have at least a single word unique to it. It could be shown that under separability of topics, \ell_1 normalized rows of the word-word co-occurence probability matrix are embedded inside a convex polytope, whose vertices correspond only to the novel words of different topics. Moreover, these vertices characterize the topic proportion matrix. I will elaborate how these two facts could be used to design provable, highly distributable, and computational efficient algorithms for topic modeling.
+
+
+
+
+
+
+Post navigation
+← Baldi, Kobsa, Mark receive Google Faculty Research Awards Mjolsness named American Association for the Advancement of Science fellow →
+
+
+
+
+ 
+Search
+
+
+
+ 
+
+
+(c) 2015 Center for Machine Learning and Intelligent Systems
+
+WordPress/BonPress
+
+
+
+
+
+

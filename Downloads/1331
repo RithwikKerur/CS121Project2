@@ -1,0 +1,126 @@
+http://plrg.ics.uci.edu/fidelius
+
+
+
+
+
+
+
+
+Fidelius – Programming Languages Research Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+									Programming Languages Research Group								
+
+
+
+
+
+
+Brian Demsky
+Students
+Publications
+Software
+
+Software Verifiers
+
+PSan
+Yashme
+Jaaru
+Satune
+C11Tester
+
+
+Software for Relaxed Memory Models
+Irvine Research Java Compiler
+Views
+Smart Home
+
+Fidelius
+IoTCheck
+PingPong
+Vigilia
+
+
+
+
+Navigation
+
+
+
+
+ 
+
+
+
+
+
+
+
+Fidelius:  Securing Smart Home Devices against Compromised Cloud Servers 
+This paper presents FIDELIUS—a runtime system for secure cloud-based storage and communication even in the presence of compromised servers. FIDELIUS’s design is tailored for smart home systems that have intermittent Internet access. In particular, it supports local control of smart home devices in the event that communication with the cloud is lost, and provides a consistency model using transactions to mitigate inconsistencies that can arise due to network partitions. We have implemented FIDELIUS, developed a smart home benchmark that uses FIDELIUS, and measured FIDELIUS’s performance and power consumption. Our experiments show that compared to the commercial Particle.io framework, FIDELIUS reduces more than 50% of the data communication time and increases battery life by 2×. Compared to PyORAM, an alternative (ORAM-based) oblivious storage implementation, FIDELIUS has 4-7× faster access times with 25-43× less data transferred. 
+Please read our Fidelius poster from here, the short paper from here, and the technical report from here to find out more.
+Downloads
+Please get the source code and the PDF documentation for Fidelius using Git. After the download process is over, you can find the documentation in the PDF format inside the folder iotcloud.
+     git clone git://plrg.eecs.uci.edu/iotcloud.git
+See Also
+The Fidelius source on Gitweb:
+http://plrg.eecs.uci.edu/git/?p=iotcloud.git
+Disclaimer
+We make no warranties that Fidelius is free of errors. Please read the poster, technical report, and the documentation file so that you understand what the tool is supposed to do.
+Contact
+Please feel free to contact us for more information. Bug reports are welcome, and we are happy to hear from our users.
+Contact Rahmadi Trimananda at rtrimana@uci.edu or Brian Demsky at bdemsky@uci.edu for questions about Fidelius.
+Copyright
+Copyright © 2020 Regents of the University of California. All rights reserved.
+Acknowledgments
+This material is based upon work supported by the National Science Foundation.
+Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
+
+
+
+
+
+
+
+
+
+
+
+Back to Top 
+
+

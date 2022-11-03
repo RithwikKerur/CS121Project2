@@ -1,0 +1,438 @@
+https://isg.ics.uci.edu/event/systems-and-ml-at-riselab-cs-distinguished-seminar-series
+
+
+
+
+
+
+Systems and ML at RISELab (CS Distinguished Seminar Series) – Information Systems Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+
+Faculty
+Students
+Recent Alumni
+Research Staff
+Visitors
+
+
+Research
+
+Projects
+Publications
+
+
+Teaching
+
+Courses
+DB Qual
+
+
+Events
+
+Talks
+News
+
+
+About
+
+Sponsors & Partners
+Visitor Info
+Contact us
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ISG Talks are sponsored by Couchbase.
+<< All Talks
+
+
+
+ « All Events
+
+
+This event has passed.
+Systems and ML at RISELab (CS Distinguished Seminar Series)
+
+February 21, 2020 @ 11:00 am - 12:00 pm 
+
+
+
+
+
+« Effective Filters and Linear Time Verification for Tree Similarity Joins
+Dr. Alfred Spector(Two Sigma) : Opportunities and Perils of Data Science: A Roadmap (ICS Distinguished Lecture) »
+
+
+
+
+
+
+
+
+
+Speaker: Prof. Ion Stoica (University of California at Berkeley)
+Abstract: In this talk, I will present several of the projects we are developing at RISELab, a two-year old lab at UC Berkeley that focuses on building platforms and algorithms for real-time intelligent decisions, decisions that are secure and explainable. These projects include both systems to better support machine learning (ML) workloads, and leveraging ML to build better systems. In the first category, I will present, Ray, a general-purpose distributed system which provides both task-parallel and actor abstractions. Ray is highly scalable employing an in-memory storage system and a distributed scheduler. Ray already supports several popular libraries, including a reinforcement learning library (RLlib) and a hyperparameter search library (Tune), and it is deployed in production at tens of organizations. In the second category, I will present Autopandas, a system that synthesizes snippets of API calls from input-output examples for Pandas, the most popular data science library today, and NeuroCuts, a tool to generate decision trees that implement network packet classifiers.
+Bio: Ion Stoica is a Professor in the EECS Department at the University of California at Berkeley, and the Director of RISELab (https://rise.cs.berkeley.edu/). He is currently doing research on cloud computing and AI systems. Past work includes Apache Spark, Apache Mesos, Tachyon, Chord DHT, and Dynamic Packet State (DPS). He is an ACM Fellow and has received numerous awards, including the Mark Weiser Award (2019), SIGOPS Hall of Fame Award (2015), the SIGCOMM Test of Time Award (2011), and the ACM doctoral dissertation award (2001). He also co-founded three companies, Anyscale (2019), Databricks (2013) and Conviva (2006).
+ 
+
++ Google Calendar+ iCal Export
+
+
+
+ Details 
+
+ Date: 
+
+ February 21, 2020 
+
+ Time: 
+
+
+					11:00 am - 12:00 pm				
+
+
+
+
+ Venue 
+
+ DBH 6011 
+
+
+
+
+ 
+
+
+
+
+
+« Effective Filters and Linear Time Verification for Tree Similarity Joins
+Dr. Alfred Spector(Two Sigma) : Opportunities and Perils of Data Science: A Roadmap (ICS Distinguished Lecture) »
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+Search for :
+
+
+Latest News 
+
+
+
+Upcoming Talk: How to build your own Business
+
+											July 25, 2022																																
+
+
+Upcoming Talk: Couchbase and Distributed Computing Backends for big data processing
+
+											May 31, 2022																																
+
+
+Upcoming Talk: Shedding Light on Opaque Database Queries
+
+											May 31, 2022																																
+
+
+ISG researchers won the  Mark Weiser Best Paper Award at IEEE PERCOM 2022
+
+											March 24, 2022																																
+
+
+
+
+Upcoming Events
+
+
+
+
+Qiushi Bai: QueryBooster-Improving SQL Performance Using Middleware Services for Human-Centered Query Rewriting + Demo
+
+
+
+October 14 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Xiaozhen Liu: Demonstration of Collaborative and Interactive Workflow-based Data Analytics in Texera
+
+
+
+October 21 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Abhishek Singh: WedgeBlock – An Off-Chain Secure Logging Platform for Blockchain Applications
+
+
+
+October 28 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Juncheng Fang: PeloPartition- Improving Blockchain Resilience to Partitioning by Sharding
+
+
+
+November 4 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Peeyush Gupta: A Demonstration of TippersDB
+
+
+
+November 18 @ 12:30 pm - 2:00 pm 
+
+
+
+View All Events
+
+Please follow & like us :) 
+
+Follow  
+
+ 
+
+
+
+
+
+
+
+			Copyright 2018 | ISG-UCI		
+
+
+
+
+
+
+cross
+
+
+
+
+
+
+
+
+
+
+Hit ENTER to search or ESC to close
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,93 @@
+https://sli.ics.uci.edu/Code/MxObjects
+
+
+
+SLI | Code / MxObjects 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Code /
+MxObjects
+
+
+Mex-enabled / Matlab-compatible C++ container objects 
+mex::vector
+mex::list
+mex::set
+mex::dequeue
+mex::cellvector
+mex::multimap
+
+ //All mex-able objects share this interface
+ void  mxInit();            // initialize any matlab-specific implementation
+ bool  mxAvail();           // true if we already represent a matlab object
+ bool mxCheckValid(const mpointer) = 0; // check validity of mxArray* for this c++ object type
+ void mxCopy(mpointer m);   // create a *copy* (deep copy) of the matlab data & wrap it
+                            //   for a shallow copy use: mxSet(); mxRelease(); mxGet();
+ void mxSet(mpointer) = 0;  // wrap passed matlab data; assumes irrevocable, exclusive ownership 
+ mpointer mxGet() = 0;      // Return a pointer to the wrapped object (created if required)
+ void mxRelease() = 0;      // Disassociate from matlab object, leaving memory to matlab garbage collection
+ void mxDestroy() = 0;      // Delete matlab object and revert *this to a clean T()
+                            //   to keep a copy use e.g. Obj2=Obj; Obj.mxDestroy(); Obj.mxSwap(Obj2);
+ mxObject& operator=(const myType&) = 0; // copy constructor (copy data contents)
+ void mxSwap(myType&) = 0;  // exchange *matlab* identities of two objects (implement for each type)
+
+
+ //For built-in data types; T = double, uint32_t, etc.
+ vector<T>(n,val)                      // length-n vector filled with val
+
+ reserve(n)                            // ensure enough memory for n data
+ resize(n,val)                         // extend/reduce length to n, filling extras with val
+ size()                                // current vector length
+ capacity()                            // current memory size
+ empty()                               // boolean empty check
+ max_size()                            // maximum possible length
+
+
+
+
+
+
+ Last modified March 19, 2011, at 10:36 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

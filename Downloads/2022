@@ -1,0 +1,137 @@
+https://sli.ics.uci.edu/Site/EditForm
+
+
+
+SLI | Site / EditForm 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Site /
+EditForm
+
+
+Editing Site.EditForm 
+
+(:input e_form :)(:e_guibuttons:)(:input e_textarea :)Summary: (:input e_changesummary :)Author: (:input e_author :) (:input e_minorcheckbox :) This is a minor edit(:input e_savebutton :) (:input e_savedraftbutton :) (:input e_saveeditbutton :) (:input e_previewbutton :) (:input e_cancelbutton :)
+
+
+
+ Basic editing - Text formatting rules - Documentation index
+
+Tables: simple - advanced
+
+Paragraphs: for a new paragraph, use a blank line;
+
+Line break: 
+\\ or 
+[[<<]]
+
+-> to indent text, 
+-< hanging text 
+
+Join line: \
+
+Lists: 
+* for bulleted, 
+# for numbered, 
+:term:definition for definition lists
+
+Emphasis: 
+''italics''  
+'''bold'''  
+'''''bold italics'''''  
+@@monospaced@@
+
+References: 
+[[another page]], 
+[[http://example.com/]], 
+[[another page | link text]], 
+[[#anchor]],
+[[#anchor | link text]]
+
+Signatures: name: ~~~
+
+Groups: 
+[[Group/Page]] displays Page,
+[[Group.Page]] displays Group.Page,
+[[Group(.Page)]] displays Group,
+[[Group/]] links Group homepage
+
+name and date: ~~~~
+
+Separators: 
+!!, 
+!!! for headings, 
+---- for horizontal line
+
+Prevent formatting: 
+[=...=]
+
+Other: 
+[+big+]  
+[++bigger++]  
+[-small-]  
+[--smaller--]  
+'^superscript^'  
+'_subscript_'  
+{+inserted+}  
+{-deleted-}
+
+Preformatted: 
+[@...@]  or 
+>>pre<<...>><<
+
+Preview Site.EditForm
+Page is unsaved
+(:e_preview:)
+
+End of preview -- remember to saveTop
+
+
+
+
+
+
+ Last modified September 17, 2011, at 04:04 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

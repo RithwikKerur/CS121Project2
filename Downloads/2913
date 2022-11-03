@@ -1,0 +1,179 @@
+https://ngs.ics.uci.edu/eventweb9-causality-deterministic
+
+
+
+
+
+
+
+
+EventWeb9:  Causality (Deterministic) – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				EventWeb9:  Causality (Deterministic)    			
+
+
+Wikipedia says:
+
+Causality is the centerpiece of the universe and so the main subject of human knowledge; for comprehending the nature, meaning, kinds, varieties, and ordering of cause and effect amounts to knowing the beginnings and endings of things, to uncovering the implicit mechanisms of world dynamics, or to having the fundamental scientific knowledge.
+
+Â 
+Given two events W and X it is possible that W is the cause of X; or that X is the effect or the result of W.Â  This causal relationship among events plays a key role in understanding why something happened or why some event took place.Â  Most of the analysis is concerned with finding this cause and effect relationship.Â  Of course, many times one finds that people get confused between cause and effect, but that is not the issue here.Â 
+Â 
+The important point here is that events could be related using causality or causal links.Â  A causal link will exist between W and X if W is the cause and X is the effect.Â  If there is another causal link between X and Y then there is a causal chain between W and Y.Â  And this chain could be extended further.Â  Most present events are the result of some earlier events and they result in some future events.Â  This is a continuous process.Â  Most tools for dynamic analysis try to capture and utilize causality using powerful mathematical tools.Â  Dynamic systems use powerful approaches to deal with causality.Â  At any given time, the state of a system is defined as the result of the summation of the effects of all inputs (causes) coming from various sources.Â 
+Â 
+Of course in nature and in most other systems, causality links are not explicitly specified.Â  One of the main objectives of analysis of systems is to uncover causal links between different components of the system and the events taking place there.Â  Much of science is concerned with discovering all these causal relationships.Â  Once these relationships are discovered, they are formalized become part of the established knowledge.
+Â 
+When we have all these events taking place, if causal relationships are known and can be represented explicitly then one can easily answer questions related to why a particular event took place by reverse tracking the causal events.Â  But this assumes deterministic situations in which there is only one way in which an event takes place â€“ as a result of some other event.Â  Deterministic situations have a single causal chain and hence are easy to create and maintain.Â Â Â  Even in those cases, when causal links are not known, people can identify and easily create and maintain those.Â  Such links are easy to traverse and explore.Â  In fact, except for the label that these links are causal, in all aspects these are similar to referential links that are the common links in the current WWW.
+
+
+
+
+By Ramesh |
+    				October 4, 2006 |
+    				             		Technical Thoughts |
+             	 
+    				             		No Comments |
+             	 		          				
+    			
+
+
+← A9 Scaling back key features
+Using youself in emoticons →
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

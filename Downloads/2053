@@ -1,0 +1,445 @@
+https://isg.ics.uci.edu/event/yannis-chronis-university-of-wisconsin-madison-analytic-query-processing-using-associative-computing
+
+
+
+
+
+
+Yannis Chronis (University of Wisconsin-Madison): Analytic Query Processing using Associative Computing – Information Systems Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+
+Faculty
+Students
+Recent Alumni
+Research Staff
+Visitors
+
+
+Research
+
+Projects
+Publications
+
+
+Teaching
+
+Courses
+DB Qual
+
+
+Events
+
+Talks
+News
+
+
+About
+
+Sponsors & Partners
+Visitor Info
+Contact us
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ISG Talks are sponsored by Couchbase.
+<< All Talks
+
+
+
+ « All Events
+
+
+This event has passed.
+Yannis Chronis (University of Wisconsin-Madison): Analytic Query Processing using Associative Computing
+
+October 25, 2021 @ 12:00 pm - 1:00 pm 
+
+
+
+
+
+« Jerry Power (I3 Systems): Managing Digital Flows in a Data Driven World
+Nandit Soparkar (Ubiquiti): Data-driven AI technologies for a Consumer webapp »
+
+
+
+
+
+
+
+
+
+Speaker:
+Yannis Chronis (University of Wisconsin-Madison)
+Title:
+Analytic Query Processing using Associative Computing
+Abstract:
+We are in the midst of a “Cambrian” hardware evolution in which a variety of architectures are being invented with a flurry that we haven’t seen in a long time. The associative computing paradigm enables designs that utilize memories in new ways and packs storage and computing closely together.  Associative computing processors offer massive data-level parallelism and single-cycle search and update primitives. The focus of our work is on exploring how database analytic workloads can run efficiently on this new computing substrate. Our vehicle for this research is the Castle project in which we are building a data processing engine to run on the CAPE hardware, which is a specific SRAM-based associative processor. To fully exploit CAPE’s potential, we adapt data query processing operators and query optimization methods to leverage the style of data-parallel computing that can be carried out natively inside CAPE. We experiment with both individual query processing operators and end-to-end queries and show that the performance gains using our methods are significant, and up to 128X in some cases. Tentatively, these results point to the exciting potential in accelerating database analytic workloads using associative computing.
+Bio:
+Yannis is a fifth-year Ph.D. student in the Computer Sciences Department at the University of Wisconsin-Madison advised by Prof. Jignesh Patel. His research focuses on efficient data processing using modern and emerging hardware.
+ 
+
++ Google Calendar+ iCal Export
+
+
+
+ Details 
+
+ Date: 
+
+ October 25, 2021 
+
+ Time: 
+
+
+					12:00 pm - 1:00 pm				
+
+ Website: 
+ https://uci.zoom.us/j/92273445926 
+
+
+
+ Venue 
+
+ DBH 4011 
+
+
+
+
+ 
+
+
+
+
+
+« Jerry Power (I3 Systems): Managing Digital Flows in a Data Driven World
+Nandit Soparkar (Ubiquiti): Data-driven AI technologies for a Consumer webapp »
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+Search for :
+
+
+Latest News 
+
+
+
+Upcoming Talk: How to build your own Business
+
+											July 25, 2022																																
+
+
+Upcoming Talk: Couchbase and Distributed Computing Backends for big data processing
+
+											May 31, 2022																																
+
+
+Upcoming Talk: Shedding Light on Opaque Database Queries
+
+											May 31, 2022																																
+
+
+ISG researchers won the  Mark Weiser Best Paper Award at IEEE PERCOM 2022
+
+											March 24, 2022																																
+
+
+
+
+Upcoming Events
+
+
+
+
+Qiushi Bai: QueryBooster-Improving SQL Performance Using Middleware Services for Human-Centered Query Rewriting + Demo
+
+
+
+October 14 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Xiaozhen Liu: Demonstration of Collaborative and Interactive Workflow-based Data Analytics in Texera
+
+
+
+October 21 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Abhishek Singh: WedgeBlock – An Off-Chain Secure Logging Platform for Blockchain Applications
+
+
+
+October 28 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Juncheng Fang: PeloPartition- Improving Blockchain Resilience to Partitioning by Sharding
+
+
+
+November 4 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Peeyush Gupta: A Demonstration of TippersDB
+
+
+
+November 18 @ 12:30 pm - 2:00 pm 
+
+
+
+View All Events
+
+Please follow & like us :) 
+
+Follow  
+
+ 
+
+
+
+
+
+
+
+			Copyright 2018 | ISG-UCI		
+
+
+
+
+
+
+cross
+
+
+
+
+
+
+
+
+
+
+Hit ENTER to search or ESC to close
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

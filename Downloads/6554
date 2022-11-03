@@ -1,0 +1,210 @@
+http://www.ics.uci.edu/%7Emagda/ics_x33/outlineU.html
+
+
+
+
+
+
+
+
+Course Outline
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Course
+Outline
+ 
+This
+course is a lab. The goal of the course is to reinforce some of the networking
+concepts that were taught in any introductory networking course. The lab is
+structured around exercises that highlight topics such as addressing,
+subnetting, bridging, ARP, routing (RIP, OSPF), TCP, ICMP, NAT, DHCP, DNS, etc.
+The course consists of 10 weeks of networking labs. In lab quizzes are used to
+evaluate the students’ understanding of the material and ensure that students
+have attempted the lab exercises in the class handouts. Students are required
+to review introductory networking material for each lab.  
+ 
+Prerequisites: Introduction to Networking Course
+(a strict requirement!)
+ 
+Class
+Notes: Available online on my website.
+Software: Available via online public
+downloads.
+Labs: Available online on my website.
+ 
+Class Communication: Piazza Classroom -
+Students will be added to a classroom account. All  queries/questions
+related to labs and quizzes should be directed thru Piazza to the TA, Reader,
+myself and other students. Students are recommended highly to participate in
+the Piazza discussions. We will monitor activity and give credit (see grading
+below) to those that are vocal and have intelligent and coherent responses. Any
+fake or irresponsible participation will have a negative impact.
+ 
+Class
+Time:
+Wednesday:  6:00pm – 8:50pm
+Class
+Room: 
+ICS 174
+ 
+Discussion
+Session: ICS
+174 Monday 6pm - 7:20pm
+Quiz Lab Rooms:
+ICS  183, 189, 192 
+
+ 
+TA:  Chenxing Ji, chenxij1@uci.edu, Siddhan Harasimhan,
+siddhan@uci.edu 
+Readers:
+ 
+TA Office: 
+Chengxing Ji: Rm 3219
+Siddhan Harasimhan: Rm ICS2
+215
+TA Office Hours:
+Cehngxing Ji: Runs discussion session on Monday 6 -
+7:20 for lab related questions. Bring your laptop
+Siddhan Harasimhan:
+Friday 12-4pm
+ 
+ 
+My
+coordinates:
+DBH 3216, elzarki@uci.edu
+My
+office hours:
+Mon/Wed 2-3pm
+ 
+Course Requirements:  2 In Lab Quizzes (20%,
+35%), Final (40%), Piazza Participation (5% - - no grade for
+"Anonymous" participation)
+ 
+ 
+
+
+ 
+Course Overview 
+·       Course Overview - Lab0_W
+(Windows only) Lab0_M (Mac only) Lab 1 (all)
+
+
+
+
+
+Lab Set Up
+       
+Intro to
+      Networks
+
+
+
+
+·       Single
+Segment Networks - Lab 2 
+
+Data Link Layer and ARP
+
+
+
+Single
+      segment networks
+Addressing
+      and ARP
+Ethernet
+ARP
+      Spoofing
+
+
+
+IP and
+     Static Routing - Lab 3 
+
+IP Overview , IP Forwarding, IP
+Control Protocol (ICMP)
+
+
+Configuring
+      a Cisco router
+Static
+      Routing
+ICMP
+
+
+·      
+IP Dynamic Routing -
+Lab 4 
+Dynamic
+Routing 
+
+
+Configuring
+      Cisco routers for Dynamic routing
+Intra
+      vs Inter
+RIP
+      and OSPF
+BGP
+
+
+·      
+Lan Switching - Lab 5 
+LAN Switching
+
+
+Configuring
+      a Cisco router as a bridge
+Simple
+      Bridge Experiment
+Spanning
+      Tree Experiment
+Mixed
+      Bridge Router Experiment
+
+
+·      
+Transport Layer Protocols:
+Lab 6
+
+UDP, TCP
+
+
+
+UDP
+      and TCP
+TCP
+      Connection Management
+TCP
+      Error, Flow and Congestion Control 
+
+
+
+NAT and
+     DHCP - Lab 7
+
+
+NAT and DHCP
+
+
+
+Configuring
+      DHCP
+Different
+      NAT configurations
+
+
+ 
+
+
+

@@ -1,0 +1,274 @@
+https://duttgroup.ics.uci.edu/projects/self-aware-adaptive-computing/upr
+
+
+
+
+
+
+Unified Parallel Runtime – Dutt Research Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to content
+
+
+
+
+
+
+ 
+
+Dutt Research Group
+DRG-Lab Webpage
+
+
+
+
+
+
+
+
+DRG Home
+Group Members
+Projects
+
+Self-Aware & Adaptive Computing
+
+Information Processing Factory (IPF)
+MARS
+Unified Parallel Runtime
+Memory Adaptation
+
+
+Health Care IoT
+
+Internet of Cognitive Things in healthcare
+Pain Assessment
+Maternity Care
+NSF Unite Project
+
+
+Domain-specific Hardware Accelerators
+Neuromorphic Computing
+
+
+Publications
+Sister Groups
+News
+
+
+
+
+Main Menu
+
+
+
+
+
+
+
+
+
+
+Unified Parallel Runtime 
+
+
+
+
+
+Unified Parallel Runtime
+
+Contemporary mobile architectures are integrating more programmable accelerators such as GPU, DSP, and FPGA. The chips are also shipped with the support of certain programming frameworks such as OpenCL to program the accelerators. Meanwhile, more mobile applications such as computer vision and deep neural network applications have high demand of computation resources to fulfill their performance requirement. When multiple applications vie for acceleration by specific compute resources, it can cause resource contention and inefficient resource utilization. Hence, we propose a unified parallel runtime framework which has a centralized management of the acceleration task requests from applications. The runtime schedules the tasks to the best compute resource according to application and system requirements.
+
+
+
+Sponsor:
+
+
+
+
+
+				UC Irvine
+				
+
+
+
+
+People:
+
+
+
+
+
+				Chen-Ying Hsieh
+				
+
+
+
+
+				Junghyun Park
+				
+
+
+
+
+				Nikil Dutt
+				
+
+
+
+
+				Ardalan Sani
+				
+
+
+
+
+Articles
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chenying Hsieh’s paper got accepted in DATE’19. Titled “The Case for Exploiting Underutilized Resources in Heterogeneous Mobile Architectures”
+
+
+
+
+
+Publications
+
+
+
+2018
+
+ Hsieh, Chenying;  Dutt, Nikil;  Sani, ArdalanThe Case for Exploiting Underutilized Resources in Heterogeneous Mobile Architectures Conference 2018.Abstract | Links | BibTeX@conference{Hsieh2018,
+title = {The Case for Exploiting Underutilized Resources in Heterogeneous Mobile Architectures},
+author = {Chenying Hsieh and Nikil Dutt and Ardalan Sani},
+url = {https://ieeexplore.ieee.org/document/8714970},
+year  = {2018},
+date = {2018-11-08},
+abstract = {Heterogeneous architectures are ubiquitous in mobile platforms, with mobile SoCs typically integrating multiple processors along with accelerators such as GPUs (for data parallel kernels) and DSPs (for signal processing kernels). This strict partitioning of application execution on heterogeneous compute resources often results in underutilization of resources such as DSPs. We present a case study executing a mix of popular data-parallel workloads such as convolutional neural networks (CNNs), computer vision filters and graphics rendering kernels on mobile devices, and show that both performance and energy consumption of mobile platforms can be improved by synergistically deploying these underutilized compute resources. Our experiments on a mobile Snapdragon 835 platform under both single and multiple application scenarios executing the aforementioned workloads demonstrates average performance and energy improvements of 15-46% and 18-80%, respectively, by synergistically deploying all available compute resources, especially the underutilized DSP. These studies make a strong case for developing a unified runtime system that can better exploit underutilized resources in the face of increasing accelerator diversity in heterogeneous mobile platforms.
+},
+keywords = {},
+pubstate = {published},
+tppubtype = {conference}
+}
+CloseHeterogeneous architectures are ubiquitous in mobile platforms, with mobile SoCs typically integrating multiple processors along with accelerators such as GPUs (for data parallel kernels) and DSPs (for signal processing kernels). This strict partitioning of application execution on heterogeneous compute resources often results in underutilization of resources such as DSPs. We present a case study executing a mix of popular data-parallel workloads such as convolutional neural networks (CNNs), computer vision filters and graphics rendering kernels on mobile devices, and show that both performance and energy consumption of mobile platforms can be improved by synergistically deploying these underutilized compute resources. Our experiments on a mobile Snapdragon 835 platform under both single and multiple application scenarios executing the aforementioned workloads demonstrates average performance and energy improvements of 15-46% and 18-80%, respectively, by synergistically deploying all available compute resources, especially the underutilized DSP. These studies make a strong case for developing a unified runtime system that can better exploit underutilized resources in the face of increasing accelerator diversity in heterogeneous mobile platforms.
+Closehttps://ieeexplore.ieee.org/document/8714970Close
+
+Contact Us about This Project 
+Your Name
+ 
+ Your Email
+ 
+ Subject
+ 
+ Message
+ 
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+Find Us Address
+3069 Donald Bren Hall
+University of California, Irvine
+Irvine, CA 92697-3435, USA
+Email
+drg@ics.uci.edu
+
+ 
+
+
+
+
+
+
+
+
+
+					Copyright © 2022 Dutt Research Group.				
+
+					Powered by WordPress and HitMag.				
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+

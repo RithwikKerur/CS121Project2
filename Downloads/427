@@ -1,0 +1,184 @@
+http://sdcl.ics.uci.edu/?page_id=25
+
+
+
+
+
+
+	Calico – Software Design and Collaboration Laboratory
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SDCL Software Design and Collaboration Laboratory
+
+
+
+
+
+
+Calico
+
+Description
+Calico is an intuitive sketch-based design environment for use on touch-based devices, with a particular focus on supporting the early stages of software design. Most software developers, when faced with a design problem, forgo existing modeling tools altogether in favor of pen-and-paper or the whiteboard to work through the problem and come up with a solution. A hallmark of this activity is that the developers sketch: they create rough, imprecise approximations of the design they have in mind that are modified and refined continuously as part of the design activity. Calico explores touch-based hardware, including electronic whiteboards, tablet PCs, slates, and iPads, to create a novel software design environment in support of software developers engaged in design sketching.
+
+
+ 
+Highlights
+Calico’s features are designed to amplify various key practices in creative software design, including exploration of alternatives, frequent shifts in focus, use of a mix of typically low-fidelity notations, and incremental refinement from initial sketches to more complete diagrams. Highlights include:
+Fluid interaction – Calico’s interface design balances the fluidity and flexibility of traditional whiteboard or pen and paper design with advanced features that seamlessly enhance the sketching experience.
+Scraps – Scraps turn passive strokes into active sketches by “lifting” drawn content from the canvas onto first-class objects that can be freely moved, stacked, resized, rotated, combined, and connected.
+Grid – Multiple drawing canvases are organized into a rectangular grid, where they can be rearranged, copied, compared, (selectively) merged, erased, and e-mailed for further consideration.
+Collaborative support  – A client-server architecture enables multiple software developers, each possibly using a different kind of device, to work collaboratively, even across geographically distributed locations.
+History – Calico stores all interactions in a central archive, enabling developers to return to, replay, and branch from previous design sessions, as well as to reflect upon their own and others’ design practices.
+Demo
+A demo is now available. Please click the button below to launch Calico via Java Web Start.
+
+
+The demo automatically connects to the public server, and will automatically assign your username based on your machine settings.
+Key publications
+
+N. Mangano, T.D. LaToza, Marian Petre, and A. van der Hoek, Supporting Informal Design with Interactive Whiteboards, Conference on Human Factors in Computing Systems, April 2014.
+D. Loksa, N. Mangano, T.D. LaToza, and A. van der Hoek, Enabling a Classroom Design Studio with a Collaborative Sketch Design Tool, Thirty-fifth International Conference on Software Engineering Education Track, May 2013, pages 1073–1082.
+A. Motta, N. Mangano, and A. van der Hoek, Light-weight Analysis of Software Design Models at the Whiteboard Fifth International Workshop on Modeling in Software Engineering, May 2013, pages 18–23.
+N. Mangano and A. van der Hoek, The design and evaluation of a tool to support software designers at the whiteboard, Automated Software Engineering, 19(4): 2012, pages 381–421.
+N. Mangano, M. Dempsey, N. Lopez, and A. van der Hoek, A Demonstration of a Distributed Software Design Sketching Tool, Thirty-third International Conference on Software Engineering Demonstration Track, May 2011, pages 1028–1030.
+N. Mangano, A. Baker, M. Dempsey, E. Navarro, and A. van der Hoek, Software Design Sketching with Calico, Twenty-fifth IEEE/ACM International Conference on Automated Software Engineering, September 2010, pages 23–32.
+N. Mangano, A. Baker, M. Dempsey, E. Navarro, and A. van der Hoek, Calico: A Tool for Early Software Design Sketching, Workshop on Sketch Tools for Diagramming, September 2008, pages 51–56.
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+Collaborators
+
+Anita Sarma
+David Redmiles
+Marian Petre
+Shinobu Saito
+Thomas LaToza
+
+
+
+
+
+
+
+
+
+
+Home
+Research
+
+Chatbots
+KnoCap
+Past projects
+
+Lighthouse
+CrowdDesign
+Crowd Debugging
+Calico
+CodeExchange
+Code Orb
+Crowd Development
+PorchLight
+
+
+
+
+Papers
+
+Technical reports
+Dissertations
+Books
+
+
+Opportunities
+People
+
+Previous members
+
+
+Sponsors
+Contact
+
+Directions
+
+
+
+
+
+
+
+
+
+
+
+ The Software Design and Collaboration Laboratory is housed in the Department of Informatics in the Donald Bren School of Information and Computer Sciences at the University of California, Irvine.
+
+
+
+
+
+    
+
+
+
+
+
+   
+
+
+
+
+Copyright ©             
+            SDCL |   eDegree° Theme by Top Blog Formula on WordPress |   
+                            Log In
+
+
+
+
+
+

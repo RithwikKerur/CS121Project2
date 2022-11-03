@@ -1,0 +1,9 @@
+http://plrg.ics.uci.edu/publications/670.bib
+@inproceedings{key,
+ author = {Weiyu Luo and Brian Demsky},
+ title = {C11Tester: A Fuzzer for C/C++ Atomics},
+ booktitle = {Proceedings of the International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 2021)},
+ location = {Virtual},
+ month = {April},
+ year = {2021}
+}

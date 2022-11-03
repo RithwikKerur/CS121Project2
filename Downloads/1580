@@ -1,0 +1,142 @@
+http://www.ics.uci.edu/~rohit
+
+Rohit Khare's ICS Home Page
+
+
+
+
+Dr. Rohit Khare
+
+I am a graduate of Prof. Richard N. Taylor's
+software research group in the Department of Informatics at UC
+Irvine's School of Information and Computer Science. Depending upon
+how you count my leave of absence as co-founder of KnowNow with Adam Rifkin, it took me either four
+or six years to complete my dissertation, entitled Extending the
+REpresentational State Transfer Architectural Style for
+Decentralized Systems (also formatted for easier duplex 
+printing). It was summarized in a 10-page SIGSOFT Distinguished Paper at ICSE-26
+ and an earlier ISR Tech
+Report)
+
+
+Arguably the most important contribution of my research is the answer
+to the challenge posed on page xiv: I'm thrilled to be engaged to marry the wonderful
+Mme. Smruti Jayant
+Vidwans. 
+
+I've recently joined CommerceNet as
+Director of a new research lab; some of our team's thoughts are
+available on our blog, The Now
+Economy; our website for the 
+zLab Center for Decentralization; and our Technical
+Reports.
+
+
+Contributions of the Dissertation
+
+Academically, however, the central insight of my work can be
+summarized by the injuction “Decentralization ≠
+Distribution”, as shown in this summary quad chart. Basically,
+distributed systems are about letting multiple parties come to
+consensus on a single decision; decentralization requires
+permitting independent parties to make their own decisions. 
+
+Of course, permitting disagreement can descend into chaos; the hard
+part is managing the risk caused by disagreement. But manage them we
+must, since in the long-term, today's consensus-driven, client/server,
+central database architectural styles cannot cope with increasing
+network latency and the security threat of conflicting agencies. 
+
+The result is a sequel of sorts to Dr. Roy
+Fielding's pioneering work on the 
+REpresentational State Transfer architectural style
+for the World Wide Web. Starting with the ordinary request/response
+style of interaction characteristic of today's Web, I attempted to
+shift from the classic ‘ACID’ transaction properties to our new
+‘BASE’ measures of decentralization (Best-effort
+networking, Approximate estimates, Self-centered trust management, and
+Efficient encoding) by successively adding new features to REST. The
+final result was Asynchronous, Routed REST with Estimates and
+decentralized Decision functions (ARRESTED).
+
+Perhaps the most practical stepping-stone along the way, though, was
+ARREST: adding publish/subscribe event notification to the Web. In
+retrospect, ARREST best described the open-source Mod_PubSub project
+that eventually grew into KnowNow. At the time, we called it the Two-Way
+Web, because it changed the one-way data flow, one-to-one
+topology, and one-shot unreliability of ordinary HTTP interaction.
+
+
+
+Selected Articles on Application-Layer Protocols
+
+I was a columnist for for IEEE Internet Computing,
+bentitled Seventh Heaven on
+application-layer message transfer protocols.  These columns were
+about Telnet, FTP, SMTP, a memorial to Jon Postel and (NNTP), Gopher & HTTP, the APPLCORE protocol unification
+initiative, the not-invented here risks of the Wireless Application Protocol suite, and
+the a pair of columns on Internet-Scale Namespaces: Anatomy of a
+URI and  What's in a Name?
+Trust, as well as pair on How
+<FORM> Functions and Transforming XForms.
+
+
+Ultimately, this vision comes together as Application-Layer
+InterNetworking, an architectural style for integrating
+decentralized systems. Its primary avatar is a SOAP Router, as
+described in a presentation from the O'Reilly Emerging Technology
+Conference, SOAP Routing: The Missing
+Link, some corresponding raw notes,
+a few slides from ISR asking "Will
+Decentralization Drive Event-Based Architectures?", and a
+1998 draft written jointly with Adam Rifkin, The
+Evolution of Internet-Scale Event Notification Services: Past,
+Present, and Future.
+
+
+
+Biography
+
+Rohit Khare is the Director
+of CommerceNet Labs, which is
+investigating decentralized electronic commerce. Prior to that, he
+founded KnowNow in 2000 based on
+his doctoral research at the Bren School of Information and
+Computer Science  at the University of California, Irvine. There,
+he studied the development of application-layer Internet protocols and
+architectural styles for decentralized systems with Prof. Richard N. Taylor,
+for which he won an ACM SIGSOFT
+Distinguished Paper Award and has been nominated for the 
+ACM
+Distinguished Dissertation Award. 
+
+Dr. Khare's participation in Internet standards development with
+world-renowned technical teams at MCI's Internet Architecture group
+and the World Wide Web Consortium
+(W3C) at the MIT Laboratory for Computer Science, where he focused
+on security and eCommerce issues, led him to found 4K Associates, a
+standards-strategy consultancy, as well as editing the World Wide Web Journal (W3J) for O'Reilly & Associates. Rohit received
+his B.S. in Economics and in Engineering and Applied Science with
+honors from Caltech in 1995 and his Master's and Ph.D. in Software
+Engineering from UC Irvine in 2000 and 2003, respectively. 
+
+His resume (PDF), a full curriculum vitæ and an old overview of his W3C activities are also
+available. He is also the RK in FoRK.
+
+
+
+ Telephone
+ Email
+ Postal
+ 
+Cell: +1-650-714-5529 
+Office: +1-650-323-6951
+
+
+khare@alumni.caltech.edu
+
+
+304 O'Keefe St.
+Menlo Park, CA 94025
+
+

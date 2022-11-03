@@ -1,0 +1,191 @@
+http://sdcl.ics.uci.edu/research/past-projects/crowd-development
+
+
+
+
+
+
+	Crowd Development – Software Design and Collaboration Laboratory
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SDCL Software Design and Collaboration Laboratory
+
+
+
+
+
+
+Crowd Development
+
+Crowd development is a development process designed for transient workers of varying skill. Work is organized into microtasks, which are short, self-descriptive, and modular. Microtasks recursively spawn other microtasks and are matched to workers, who accrue points by completion and quality. Crowd development could help to reduce time to market and software development costs, increase programmer productivity, and make programming more fun.
+
+ 
+Highlights
+What if a large application could be built in a day? What if software development felt more like a game? What if grandma or grandpa’s hobby was writing software? Realizing this vision requires addressing many challenges. But these challenges reflect important, fundamental questions about the nature of software engineering work, whose answers might lead to a better understanding of topics such as modularity, expertise, task interdependencies, and coordination.
+Decomposing tasks into microtasks – How can software development tasks be decomposed into microtasks that are only a few seconds or minutes long? Can a software development microtask be done by a transient worker with no knowledge of the project? Can a worker reason completely modularly about only an artifact and the interfaces of artifacts on which it depends?
+Coordinating the crowd – How can a crowd create a system with conceptual integrity? What interdependencies between microtasks must be managed? How can a crowd make decisions? How can knowledge be presented to transient workers that do not know the right questions to ask.
+Ensuring quality – How can quality software be produced by workers that come and go and that may be malicious or mistaken?
+Incentivizing good behavior – How can workers be motivated to work on an unpopular microtask or invest extra effort to achieve long-term benefits?
+ 
+Key publications
+
+T. D. LaToza, E. Chiquillo, W. B. Towne, C. M. Adriano, and A. van der Hoek. (2013). CrowdCode: a platform for crowd development. In CrowdConf, October 2013.
+T. D. LaToza, W. B. Towne, A. van der Hoek, J. D. Herbsleb, Crowd development, Sixth International Workshop on Cooperative and Human Aspects of Software Engineering, May 2013, pages 85–88. poster
+
+ 
+Team Members
+
+Thomas LaToza (contact)
+Ben Towne
+Christian M. Adriano
+
+ 
+Past Team Members
+
+Arturo Di Lecce
+Fabio Ricci
+Lucinda Lim
+Janina Paragele
+Eric Chiquillo
+Vasken Houdoverdov
+Steven Morad
+Patrick Nguyen
+
+ 
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+Collaborators
+
+Anita Sarma
+David Redmiles
+Marian Petre
+Shinobu Saito
+Thomas LaToza
+
+
+
+
+
+
+
+
+
+
+Home
+Research
+
+Chatbots
+KnoCap
+Past projects
+
+Lighthouse
+CrowdDesign
+Crowd Debugging
+Calico
+CodeExchange
+Code Orb
+Crowd Development
+PorchLight
+
+
+
+
+Papers
+
+Technical reports
+Dissertations
+Books
+
+
+Opportunities
+People
+
+Previous members
+
+
+Sponsors
+Contact
+
+Directions
+
+
+
+
+
+
+
+
+
+
+
+ The Software Design and Collaboration Laboratory is housed in the Department of Informatics in the Donald Bren School of Information and Computer Sciences at the University of California, Irvine.
+
+
+
+
+
+    
+
+
+
+
+
+   
+
+
+
+
+Copyright ©             
+            SDCL |   eDegree° Theme by Top Blog Formula on WordPress |   
+                            Log In
+
+
+
+
+
+

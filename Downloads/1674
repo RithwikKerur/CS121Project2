@@ -1,0 +1,272 @@
+http://www.ics.uci.edu/~lab/labs_specs/software.php
+
+
+
+
+uc irvine::bren school::lab software
+
+
+
+
+
+
+
+
+
+
+Skip over navigation
+
+This site will look much better in a browser that supports web standards, but it is accessible to any browser or Internet device.
+
+
+
+
+
+
+
+
+
+
+
+ABOUT
+
+About the School
+Dean's Welcome
+Facts and Figures
+Donald Bren Hall
+Visit the Bren School
+Equity & Diversity
+Contact Us
+
+
+
+ DEPARTMENTS 
+
+Computer Science
+Informatics
+Statistics
+
+
+
+ RESEARCH 
+
+Research Areas
+Research Centers
+Research Highlights
+
+
+
+ STUDENTS 
+
+Graduate ▸ 
+
+Prospective Students
+How to Apply
+Programs of Study
+Academic Year Plan
+Forms
+Policies
+Funding & Housing
+Computing Support
+Campus Resources
+Visit the Bren School
+Graduate Student Handbook
+Contact
+
+
+Undergraduate ▸ 
+
+Contact
+Academic Advising
+Course Updates
+Academic Year Plan
+Petitions
+ICS Majors
+ICS Minors
+Policies: Academic Integrity
+Policies: Academic Standing
+Policies: Add, drop, & change options
+Policies: Coursework outside UCI
+Policies: Grade policy
+Policies: Laptop & computer use
+Policies: Withdrawal/Readmission
+Policies: CS 199 / IN4MATX 199 Courses
+Graduation
+ICS Student Life
+Upcoming Events
+Computing Support
+
+
+Scholarships & Fellowships
+Student Jobs & Internships
+
+
+
+PEOPLE
+
+Faculty
+Staff
+Graduate Students
+
+
+
+NEWS & EVENTS
+
+Newsroom
+Events
+Press Releases
+Annual Reports
+Student Blogs
+
+
+
+GET INVOLVED
+
+Make a Gift
+Alumni
+Leadership Council
+Corporate Partners
+Sponsor Projects
+Product Development Competition
+
+
+
+
+
+
+
+Bren school home / labs home / lab specifications
+
+ 
+Lab software »
+
+ 
+All general ICS computing lab workstations are setup and configured with a set of software reviewed annually with ICS faculty. This
+        section lists the software available in the Windows 10 Computing Labs, as well as how to
+        obtain a display of software available on our Linux hosts.
+
+ 
+CS 183, 189, 192, and 364 Windows 10 Computing Labs
+
+*Please note: The versions used of each software will be the stable versions available as of the end of July 2022 for the upcoming 2022-2023 academic year, unless otherwise noted.
+
+
+
+Dev-C++ and Glut
+Eclipse IDE 
+Emacs
+GIMP
+Intel FPGA Standard Edition (Altera)
+ModelSim
+Quartus
+
+
+GSview Ghostview
+GNU Ghostscript
+GNS3
+Go Programming Language
+Google Chrome
+Haskell
+IrfanView
+Java OpenJDK (due to licensing restrictions)
+JetBrains
+CLion
+PyCharm
+
+Junit 
+MinGW
+
+Microsoft Office 2019
+Microsoft Visual Studio Community Edition (Microsoft account required)
+
+MobaXterm
+Mozilla Firefox
+Notepad++
+
+Putty
+Python
+
+IDLE (included as part of Python)
+PyDev
+Subclipse
+ 
+R
+ 
+Racket
+RStudio
+
+BYOB Scratch (web-based) available via internet browser at:  http://snap.berkeley.edu/run 
+Scratch (web-based) available via internet browser at:  http://scratch.mit.edu 
+Steel Bank Common Lisp
+Stata 10
+TextPad
+
+VMware - **due to recent licensing constraints, availability of VMware licensed software is no longer available to all ICS students. Please see the ICS VMware wiki for more details:  https://wiki.ics.uci.edu/doku.php/accounts:VMware
+Weka
+Wing IDE 101 
+
+
+Note: Every year, our Windows Support staff review the available software with faculty
+      to make additions, deletions, and other changes as they become necessary.
+ 
+Linux and Unix based Environments
+The Modules application handles software in our Linux/Unix environments.
+        To get the latest list of available software modules, type the following
+        command at a Unix prompt:
+
+module avail
+
+If you are unable to use the module command, please follow these instructions:
+      
+http://www.ics.uci.edu/~lab/students/unixfiles.php
+
+
+For more details about the Linux servers and software modules, please refer to the following page:
+      
+http://www.ics.uci.edu/computing/linux/hosts.php
+
+
+
+
+
+
+If there are any concerns or questions regarding specific versions of a program on this list, please let us know by emailing
+	   Helpdesk@ics.uci.edu
+
+
+
+
+
+
+More labs»
+
+Hours
+Hardware/Software
+Students
+Faculty
+Policies
+Lab Assistants
+Project ICS
+Computing Support
+
+
+
+
+
+
+
+
+Copyright Inquiries |
+UCI Directory |
+Intranet |
+   
+   
+icswebmaster |
+
+Updated: 
+May 27 2022	
+
+
+
+
+

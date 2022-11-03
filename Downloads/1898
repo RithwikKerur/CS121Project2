@@ -1,0 +1,202 @@
+https://sli.ics.uci.edu/PmWiki/DocumentationIndex
+
+
+
+SLI | PmWiki / Documentation Index 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+Documentation Index
+
+
+
+
+
+
+
+ Table of Contents
+Beginner Topics for Creating/Editing Pages
+Intermediate Editing Topics
+Wiki Structures: Organizing and Protecting Pages
+PmWiki Site Administration
+Install
+Customise
+Troubleshoot
+Security
+Development
+About PmWiki
+
+The pages below describe various aspects of using, administering and troubleshooting a PmWiki installation, as well as aspects of the PmWiki community.
+
+As you know, documentation is always incomplete. 
+Feel free to help yourself and others by contributing to it.  
+Just edit the pages on pmwiki.org.  
+You might want to follow or contribute to the documentation guidelines.
+
+
+Introduction
+ Beginner Topics for Creating and Editing Pages
+Basic editing        - PmWiki's basic edit syntax
+Creating new pages   - How to create a new page
+Links                - Multiple mechanisms for creating links
+Images               - Placing images in pages
+Text formatting rules - A list of some of the markup sequences available
+ Intermediate Editing Topics
+Markup master index  - Tabulation of all PmWiki markup
+Uploads              - Allow authors to upload files, also known as page attachments
+Tables               - Simple tables with double pipe markup, one row per line
+Table directives     - Directives for table processing
+Wiki styles          - Modifying the style of page contents
+Wiki style examples - Styling text for colour and other attributes
+Access keys          - Access keys are keyboard shortcuts for tasks that would otherwise require a mouse
+Page directives      - Directives to specify page titles, descriptions, keywords, and display
+Include other pages  - Include contents from other PmWiki pages
+InterMap links       - Interwiki links definition and use
+Conditional markup   - The if directive allows portions of a page to be included or excluded from rendering
+Page variables       - variables that are associated with pages
+Page text variables  - Page variables automatically made available through natural or explicit page markup
+Markup expressions   - String and formatting operations
+Forms                - How you can embed input forms into wiki pages
+Simultaneous edits   - Handling multiple attempts to edit a page nearly simultaneously
+ Organizing and Protecting Pages
+Wiki structure     - PmWiki structural support for page organization
+Wiki groups        - Organising pages into related groups
+Group headers      - Group Header and Group Footer page usage
+Wiki trails        - Trails from lists items from a single page
+Page history       - History of previous edits to a page
+Passwords          - General use of passwords and login
+Categories         - Categories are a way to organize and find related pages
+Page lists         - Listing pages by multiple criteria with templated output
+ Attach lists - Get a list of files uploaded and attached to a group using (:attachlist:) (Directives to specify page titles, descriptions, keywords, and display)
+Deleting pages     - Removing wiki pages
+Wiki elements      - 
+Special pages      - 
+ PmWiki Site Administration
+Installation and maintenance
+Installation          - Obtaining and installing PmWiki
+Initial setup tasks   - First steps following a fresh installation
+Upgrades              - How to upgrade an existing PmWiki installation
+Backup and Restore - background information and some basic backup and restore procedures
+Uploads administration - Administration of PmWiki uploads
+Security              - Resources for securing your PmWiki installation
+ Customisation
+Custom markup        - Using the Markup() function for custom wiki syntax; migration to PHP 5.5
+Custom wiki styles   - Predefined PmWiki styles & adding custom wiki styles
+Internationalizations - Language internationalisation of web pages
+Local customizations  - Customize your PmWiki installation through config.php and local.css
+Group customizations  - How to customize a subset of your wiki
+Skins               - Change the look and feel of part or all of PmWiki
+Skin templates      - Skin templates (.tmpl files)
+Site Preferences    - Customisable browser setting preferences: Access keys, edit form
+Web feeds           - Web feed notification of changes
+Wiki Farms          - Running multiple wikis from a single installation
+ Troubleshooting
+Frequently answered questions
+Answers to some other questions
+FAQ Candidate - more answered questions
+Questions
+How to get assistance
+Troubleshooting - Advice for troubleshooting an installation
+Available actions - documentation for developers
+ Security
+AuthUser          - Authorization system that uses usernames and passwords
+Blocklist         - Blocking IP addresses, phrases, and expressions to counteract spam and vandalism. 
+Notify            - How to receive email messages whenever pages are changed on the whole wiki site, individual groups or selected watchlists of pages
+Passwords administration - More password options for the administrator
+Ref count         - Link references counts on pages
+Url approvals     - Require approval of Url links
+ Development
+Variables        - Variables available for local customisation
+Functions        - How some of the functions in pmwiki.php work
+Page file format - Create wiki formatted pages in bulk and for upload to your pmwiki site
+ About PmWiki
+Audiences      - Patrick Michaud's comments regarding the "audiences" for which PmWiki was designed
+Contributors   - A list of contributors to PmWiki development and improvement
+Mailing lists  - The email discussion lists available and their archives
+PmWiki philosophy - This page describes some of the ideas that guide the design and implementation of PmWiki
+Design notes   - Some of the features and notes about PmWiki's design decisions
+Release notes  - Notes about new versions, important for upgrades
+Change log     - Log of changes made to PmWiki by Release
+References - References to PmWiki media coverage
+Glossary            - Terms related to PmWiki
+Introduction    loop trail
+
+
+
+Note: The following pages are listed here so that they can include a #faq section and have the questions appear on the FAQ page. 
+
+The problem is that these pages become part of the trail 
+
+Basic Variables
+Edit Variables
+File Permissions
+Fmt Page Name
+I18n Variables
+Layout Variables
+Link Variables
+Other Variables
+Pagelist Variables
+PageList Templates
+Path Variables
+Requirements
+Skin Templates
+Special Characters
+Upload Variables
+Wiki Administrator
+Wiki Page
+Wiki Wiki Web
+Wiki Word
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:DocumentationIndex, and  a talk page: PmWiki:DocumentationIndex-Talk.
+
+
+
+
+
+
+ Last modified October 25, 2012, at 07:38 AM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

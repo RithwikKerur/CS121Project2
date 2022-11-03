@@ -1,0 +1,178 @@
+https://ngs.ics.uci.edu/eventweb-11-causal-chains
+
+
+
+
+
+
+
+
+EventWeb 11: Causal Chains – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				EventWeb 11: Causal Chains    			
+
+
+In many cases there may be many causes for an event and these could even be different possible combinations.Â  Thus a an event X may result because one of the events W1, W2, â€¦ , Wn .Â  Or it could result because W1 and W2 occurred or W2, and W3, and W4 occurred.Â Â  Three are many potential combinations of events that could be the cause of the event X.Â  In some cases it may be known what are the potential causes for X to occur; while in equal or more number of cases, it may not even be known what are the potential cause (or causes) for X.Â 
+Â 
+There is an interesting causal chain.Â  So let us say for X to occur events W1 and W2 should occur.Â  Now for W1 to occur, V11 and V12 should occur and for W2 to occur, V21 and V22 and V23 should occur.Â  Now letâ€™s extend this one more level.Â  For V11 to occur, U111 and U112 and U113 and U114 should occur.Â  And for V23 to occur, U231 and U232 should occur.Â  So you can keep expanding this chain further in the past.Â  As you can see, there is exponential growth that takes place in the causal chain as we go in the past.Â  The rate of growth clearly depends on how many events could be the cause of events on this chain.Â 
+Â 
+And how does this chain stop?Â  Or does it ever stop?Â  Are there some well establishedÂ  areas where they faced similar situations and they developed an approach for similar situation?
+Â 
+The above are some interesting questions that need explorations.Â  One thing is clear that most intellectual efforts and even some of our routine analysis involves a reasoning similar to the one presented above.Â  And we will look into this in more details.
+Â 
+What about an area that comes the closest to this?Â  I think much of the systems theory, particularly the control system theory, is based on causality.Â  It is assumed that the response of a system at any time is the sum of all responses to inputs that may have been applied to the system in any form. Thus, the output or response of the system is not necessarily the result of the input applied to it only at that time instant.Â  The response at a time is the result of inputs, over an extended time period in the past.Â  The time period depends on the characteristics of the system.
+Â 
+Control theory is behind some of the most marvelous engineering systems that humans have designed.Â  Are there somethings that we can learn from these systems?
+
+
+
+
+By Ramesh |
+    				October 22, 2006 |
+    				             		Technical Thoughts |
+             	 
+    				             		No Comments |
+             	 		          				
+    			
+
+
+← Indian Internet Future — in Mobiles
+Telepresence →
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

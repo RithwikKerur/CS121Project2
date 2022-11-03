@@ -1,0 +1,9 @@
+http://plrg.ics.uci.edu/publications/620.bib
+@misc{key,
+ author = {Rahmadi Trimananda and Ali Younis and Thomas Kwa and Brian Demsky and Harry Xu},
+ title = {Securing Smart Home Devices against Compromised Cloud Servers},
+ booktitle = {Poster presentation at the 3rd USENIX Workshop on Hot Topics in Edge Computing (HotEdge 2020)},
+ location = {Virtual},
+ month = {June},
+ year = {2020}
+}

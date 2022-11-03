@@ -1,0 +1,203 @@
+http://plrg.ics.uci.edu/yashme
+
+
+
+
+
+
+
+
+Yashme – Programming Languages Research Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+									Programming Languages Research Group								
+
+
+
+
+
+
+Brian Demsky
+Students
+Publications
+Software
+
+Software Verifiers
+
+PSan
+Yashme
+Jaaru
+Satune
+C11Tester
+
+
+Software for Relaxed Memory Models
+Irvine Research Java Compiler
+Views
+Smart Home
+
+Fidelius
+IoTCheck
+PingPong
+Vigilia
+
+
+
+
+Navigation
+
+
+
+
+ 
+
+
+
+
+
+
+
+Yashme: Detecting Persistency Races
+Persistent memory (PM) or Non-Volatile Random-Access Memory (NVRAM) hardware such as Intel’s Optane memory product promises to transform how programs store and manipulate information. Ensuring that persistent memory programs are crash-consistent is a major challenge. We present a novel class of crash consistency bugs for persistent memory programs, which we call persistency races. Persistency races can cause non-atomic stores to be made partially persistent. Persistency races arise due to the interaction of standard compiler optimizations with persistent memory semantics.
+We present Yashme (Also known as PMRace), the first detector for persistency races. A major challenge is that in order to detect persistency races, the execution must crash in a very narrow window between a store with a persistency race and its corresponding cache flush operation, making it challenging for naïve techniques to be effective. Yashme overcomes this challenge with a novel technique for detecting races in executions that are prefixes of the pre-crash execution. This technique enables Yashme to effectively find persistency races even if the injected crashes do not fall into that window. We have evaluated  Yashme on a range of persistent memory benchmarks and have found 26 real persistency races that have never been reported before.
+Setting up  Yashme 
+This section shows how to setup  Yashme on any Linux machine. You can use our artifact evaluation to automatically setup  Yashme and PMDK, Redis, Memcached, and Recipe benchmarks on a virtual machine to repeat our experiment. Otherwise, you can use the following step-by-step tutorial to setup up  Yashme and run it on your program on your machine.
+Dependencies
+To properly set up  Yashme and Our benchmarks, some packages are required. Use the following commands to install all the necessary dependencies:
+sudo apt-get update
+apt-get -y install cmake g++ clang pkg-config autoconf pandoc libevent-dev libseccomp-dev xsltproc
+Building PMCPass
+Yashme is implemented on top of Jaaru model checker. Jaaru requires an LLVM pass (i.e., PMCPass) to annotate all memory and cache operations of your tool. You can download the binary file from here or build the PMCPass with LLVM. To build it you need to download LLVM and register our pass and build it:
+git clone https://github.com/llvm/llvm-project.git
+git clone https://github.com/uci-plrg/jaaru-llvm-pass
+cd llvm-project
+git checkout 7899fe9da8d8df6f19ddcbbb877ea124d711c54b
+cd ../jaaru-llvm-pass
+git checkout vagrant
+cd ..
+mv jaaru-llvm-pass llvm-project/llvm/lib/Transforms/PMCPass
+To register our pass in LLVM append ‘add_subdirectory(PMCPass)’  to  CMakeLists.txt file in the ‘Transforms’ directory by using the following command:
+echo "add_subdirectory(PMCPass)" >> llvm-project/llvm/lib/Transforms/CMakeLists.txt
+After registering the pass, use the following commands to build the pass and LLVM:
+cd llvm-project
+mkdir build
+cd build
+cmake -DLLVM_ENABLE_PROJECTS=clang -G "Unix Makefiles" ../llvm
+make
+To verify the building process was successful, our pass can be found in the following directory:
+touch llvm-project/build/lib/libPMCPass.so
+Setting up  Yashme 
+This section shows how to set up Yashme (PMRace) and use it to debug your tool. First, we need to checkout Jaaru, the underlying model checker, which contains Yashme plugin. Then, use the following commands to build PMRace:
+cd ~/
+git clone https://github.com/uci-plrg/jaaru.git
+mv jaaru pmcheck
+cd pmcheck/
+git checkout pmrace
+# Setting LLVMDIR and JAARUDIR in wrapper scripts
+sed -i 's/LLVMDIR=.*/LLVMDIR=~\/llvm-project\//g' Test/gcc
+sed -i 's/JAARUDIR=.*/JAARUDIR=~\/pmcheck\/bin\//g' Test/gcc
+sed -i 's/LLVMDIR=.*/LLVMDIR=~\/llvm-project\//g' Test/g++
+sed -i 's/JAARUDIR=.*/JAARUDIR=~\/pmcheck\/bin\//g' Test/g++
+# Building test cases
+make test
+PMRace supports different APIs to access the persistent memory including pmem in PMDK library and volatile memory allocator (libvmemmalloc). In PMDK there are separate APIs for allocating persistent memory. However, libvmemmalloc overrides normal malloc APIs to allocate memory on persistent memory instead of RAM. If the tool-under-test uses libvmemmalloc, a flag needs to be set in PMRace to activate the corresponding support. Otherwise, Jaaru supports pmem APIs by default. To enable libvmemmalloc, uncomment the following flag in ‘pmcheck/config.h’ file and recompile Jaaru:  
+//In config.h file uncomment the following line
+#define ENABLE_VMEM
+Running Yashme test cases
+Yashme (PMRace) test cases are located in the ‘Test’ directory. To run them with Yashme, we need to modify ‘run.sh’ script to become as following:
+#!/bin/bash
+export LD_LIBRARY_PATH=~/pmcheck/bin/
+# For Mac OSX
+export DYLD_LIBRARY_PATH=~/pmcheck/bin/
+export PMCheck="-y"
+echo $@
+$@
+By using ‘PMCheck’ variable, we can set different options for Jaaru.  PMCheck=”-y” enables Yashme plugin in Jaaru. To see a full list of Jaaru’s options, set PMCheck=”–help” and run the test cases. For example, to run ‘testrace’ test case use the following commands:
+cd ~/pmcheck
+make test
+cd bin
+./run.sh testrace
+Running your tools
+To run your test cases, you need to compile your tool with Yashme and our LLVM pass (i.e., PMCPass). To make this process easier, we use a coding pattern which is described as follows: If you check ‘pmcheck/Test’ directory, there are 4 scripting files g++, gcc, clang, and clang++. In each of these files, we define appropriate flags for the compiler. You can modify ‘LLVMDIR’ and ‘JAARUDIR’ environment variables in these files to point to the location of LLVM and Jaaru (i.e., PMCheck) on your machine. Then, modify the building system of your tool to use these script wrappers instead of the actual compilers. For example, your ‘~/pmcheck/Test/g++’ file can look like this:
+LLVMDIR=~/llvm-project/
+CC=${LLVMDIR}/build/bin/clang++
+LLVMPASS=${LLVMDIR}/build/lib/libPMCPass.so
+JAARUDIR=~/pmcheck/bin/
+$CC -Xclang -load -Xclang $LLVMPASS -L${JAARUDIR} -lpmcheck -Wno-unused-command-line-argument -Wno-address-of-packed-member -Wno-mismatched-tags -Wno-unused-private-field -Wno-constant-conversion -Wno-null-dereference $@
+To verify the script wrappers you can build our test cases without any errors:
+cd ~/pmcheck/
+make test
+Debugging RECIPE
+We tested Yashme on RECIPE benchmarks. RECIPE uses libvmemmalloc to access persistent memory, so vmem flag has to be activated to debug this benchmark (See Setting up Yashme). Here you can download the working version of the RECIPE that contains our bug fixes: 
+git clone https://github.com/uci-plrg/nvm-benchmarks
+cd nvm-benchmarks
+git checkout pmrace
+cd RECIPE
+To compile and run any benchmarks, you need to modify the Makefile to change the compiler to point to the corresponding wrapper script. For example in FAST_FAIR makefile add the following line to ‘Makefile’:
+CXX=~/pmcheck/Test/g++
+To run each test case, you need to modify the ‘run.sh’ file in ‘FAST_FAIR’ directory to look like the following:
+#!/bin/bash
+export LD_LIBRARY_PATH=~/pmcheck/bin/
+export PMCheck="-y"
+$@
+Now you can run RECIPE benchmarks by using ‘run.sh’ script file. For instance, to run FAST_FAIR with two threads and 3 keys we use the following command:
+./run.sh ./example 3 2
+Debugging with GDB
+Yashme supports running under GDB to debug your program further. To use GDB, add ‘-g’ option to ‘CFLAGS‘ and ‘CPPFLAGS‘ variables in pmcheck/common.mk. Then recompile Yashme and your tool and use gdb to run your program. For example, you can run FAST_FAIR example with gdb by using the following commands: 
+./run.sh gdb ./example
+(gdb) run 3 2
+Disclaimer
+We make no warranties that Yashme is free of errors. Please read the paper and the README file to understand the tool’s limitations, capabilities, and how/where to use it.
+Contact
+Please feel free to contact us for more information. Bug reports are welcome, and we are happy to hear from our users and how Yashme found persistency races in your programs.
+Contact Hamed Gorjiara at hgorjiar@uci.edu, Harry Xu at harryxu@g.ucla.edu, or Brian Demsky at bdemsky@uci.edu for any questions about Yashme.
+Copyright
+Copyright © 2022 Regents of the University of California. All rights reserved.
+
+
+
+
+
+
+
+
+
+
+
+Back to Top 
+
+

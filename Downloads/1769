@@ -1,0 +1,141 @@
+http://sli.ics.uci.edu/Classes/2013-iCamp
+
+
+
+SLI | Classes / iCAMP Undergraduate Summer Research: Collaborative Filtering 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Classes /
+iCAMP Undergraduate Summer Research: Collaborative Filtering
+
+
+ CLOSED : 2013 OFFERING  
+See also the main iCamp page
+
+Schedule
+Skills workshops: Tuesdays 1-3pm, Roland Hall 306 
+Group meetings: Thurs 2+pm, Roland Hall 421 (PRISM Lab)
+Instructor: Prof. Alex Ihler (ihler@ics.uci.edu), Office Bren Hall 4066
+Lab Hours: Mondays 1-2pm; Wed 4-5pm, PRISM Lab
+Teaching Assistant: Sholeh Forouzan (sforouza@uci.edu)
+Lab Hours: Mondays 4-5pm, Fri 1-3pm, PRISM Lab
+
+Overview
+Many companies collect data at an unprecedented scale. Online stores such as Amazon collect click patterns and purchases by people navigating their webpages, credit score companies such as Experian and banks record clients' financial histories, Netflix records peoples' interest in movies, and so on.  A new field is starting to emerge known as "collaborative filtering" where this type of data is used to predict quantities of interest: What is the next book a customer would buy? Will this person pay his/her loan?, What are the next movies this customer will be interested in?
+
+For our summer undergraduate research project, we will participate in an international competition in collaborative filtering and recommendation systems, sponsored by the 2013 RecSys Conference.  The competition aspect is run by Kaggle, an online data science and prediction hosting system.  This year, the RecSys competition data comes from Yelp, and involves predicting business ratings given past ratings by the same and other users, as well as a host of metadata such as business location, check-in information, and rating feedback from other users.  For the data and more details, please see the Kaggle RecSys competition site.
+
+
+Handouts and code
+New train/validation split for testing: MAT (contains Dtrain and Dval), or Script to construct MAT file
+Even newer data (Sholeh) ZIP
+NEW DATA FORMAT (Alex) ZIP : run "help yelp_data"
+Reprocessed data (UPDATED) ZIP
+Old reprocessed data: ZIP
+
+
+ % Some basic code for manipulating the data: 
+ load yelp_data.mat  % Load formatted data 
+ % Splitting the data into training and validation sets:  nTotal = length(rev_train(:,4));
+ pi = randperm(nTotal); nTrain = ceil(.8*nTotal);
+ iTrain = pi(1:nTrain); iVal = pi(nTrain+1:end);
+ % Split into Training / Validation / Test   user/business/rating sets  uTr = rev_train(iTrain,2); uVal = rev_train(iVal,2); uTe = rev_test(:,1);
+ bTr = rev_train(iTrain,3); bVal = rev_train(iVal,3); bTe = rev_test(:,2);
+ rTr = rev_train(iTrain,4); rVal = rev_train(iVal,4); rTe = -1 + 0*uTe;
+
+ % Construct sparse matrix formats with training & validation data  Dtr  = sparse([uTr;uVal;uTe],[bTr;bVal;bTe],[rTr;-1+0*rVal;-1+0*rTe]);
+ Dval = sparse([uTr;uVal;uTe],[bTr;bVal;bTe],[rTr;rVal;-1+0*rTe]);
+
+Some plots:
+
+ % The data exhibit a classic "scale free" property
+ uTrainIDs = find(user_average_stars > 0); uTestIDs = find(user_average_stars < 0);
+ Htrain = hist( user_review_count(uTrainIDs), max(user_review_count) );
+ Htest  = hist( user_review_count(uTestIDs), max(user_review_count) );
+ figure; plot(log10(1:length(Htrain)),log10(Htrain+.5),'b.',log10(1:length(Htest)),log10(Htest+.5),'r.');
+ % offset shift mostly just due to different #s of training & test data 
+
+ % Here's the geospatial distribution of businesses
+ lat = [business(:).latitude]; lon = [business(:).longitude];
+ figure; plot(lat,lon,'b.');
+
+ % And here's the same thing with "test businesses" marked in red
+ bTestIDs = [business(:).stars]<0;
+ figure; plot(lat,lon,'b.',lat(bTestIDs),lon(bTestIDs),'r.');
+
+ % You can also try to highlight e.g. number of reviews at each business through size or color:
+ figure; scatter(lat,lon,log([business(:).review_count]));    % size parameter
+ figure; scatter(lat,lon,[],log([business(:).review_count])); % color parameter
+
+ % let's look at some histograms of the data
+ figure; hist(rTr,1:5);                                                           % more 4&5 than 1&2 ratings
+ % Look at the errors of the per-item predictions:
+ Dhat = yelpMean(Dtr',Dval', 3)';  figure; hist(Dtr(Dtr>0)-Dhat(Dtr>0),-5:.01:5); 
+ % The biggest errors are on the low side; items averaging ~4 but rated 1-2 (?)
+
+A simple "sparse mean" function:
+
+ function [D] = yelpMean(Dtrain,Dval, reg)
+ %function [D] = yelpMean(Dtrain, Dval, reg)
+ % Take mean over items (so, per-user average) in sparse=missing data matrix
+ % Dtrain : training values; -1 to be predicted; Dval : some -1's replaced with validation #s
+ % Use  D = yelpMean(Dtrain',Dval',reg)'  to do per-item average
+
+ D = Dtrain;
+ [nUsers,nItems]=size(D);
+ DT = D';
+
+ mnAll = mean(D(D(:)>0));
+
+ mn = (sum(DT,1)+reg*mnAll+sum(DT<0,1))./(sum(DT>0,1)+reg);
+ for u=1:nUsers, fill=find(DT(:,u)); D(u,fill) = mn(u); end;
+
+
+
+
+
+
+ Last modified January 19, 2015, at 04:35 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

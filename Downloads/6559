@@ -1,0 +1,121 @@
+https://www.ics.uci.edu/~dsm/scifire/research.html
+
+
+
+
+
+
+SciFire - Research
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                SciFire - Enabling Infrastructure and Information Resiliencefor Smart Firefighting
+                
+
+
+
+
+Home
+
+
+Research
+
+
+People
+
+
+Publications
+
+
+Posters
+
+
+
+
+                Research Activities
+            
+
+
+            Click on the previews for full-sized image files or original photos (if available).
+
+            
+                Creating a resilient infrastructure for fire situational awareness
+            
+
+                The key goal of this task is to design methods for the collection and integration of multiple heterogeneous sensory inputs of relevance to the fire practice. 
+                Time is of essence in a fire response scenario; accurate and up-to-date information is critical to generate meaningful decisions for evacuation and rescue. Interesting information may include visibility, structure damage, temperature, concentration of poisonous gases, occupancy of buildings, etc. Traditionally, such first-hand information is collected mostly through in situ sensors and real-time reports from responders. An additional source of information include mobile data collection platforms that can augment sensing and communication capabilities in fire scenarios - these include devices on-board fire personnel or autonomous devices (robots,drones) combined with wireless networking technologies (long range wireless, cellular) that can provide improved accessibility and capacity for communication. New challenges arise when this information is required in near real-time. 
+                
+                The first issue that should be addressed includes aspects of data size, priority, and spatial/temporal resolution requirements. Information in a fire event can be large in size due to attached details (e.g. visual/video information on fire and structural changes) or can be sporadic (e.g. text/binary messages with information on gas levels/concentrations, and reports of victims and damages). There are energy costs associated with continuous sensing/ networking communication and timely communication places stress on the network infrastructure. Failing to manage the combined set of mobile and in-situ devices and their sensing/communication capabilities can result in shorter lifetimes and redundant data, which lowers the overall efficiency of data collection and leads to potential network congestion. We propose an online scheduling framework to handle the hybrid mobile and in-situ sensor platforms. In our setting, participating devices will be coordinated and scheduled to occasionally activate/deactivate their sensing capacity (partially) to reduce the amount of redundant data that arises due to automated operation of a large swarm of devices. The idea is to maintain reasonably high spatial/temporal resolution for each type of data collected. The online scheduling framework implements a highest-score-first greedy heuristic and a Lyapunov-control based budget management algorithm. Simulations are driven by data collected from three different real testbeds (UCI, Montgomery County, NTHU). Results show our proposed approach could achieve near-to-best spatiotemporal data coverage with up-to 30% fewer active nodes.
+                This work resulted in a full conference paper as well as a poster presentation at the IEEE INFOCOM '18 conference. 
+                In the coming months, we are aiming to improve the reliability of the information collected from unreliable and heterogeneous sensing platforms through intelligent sensor calibration.
+                The key plan is to leverage finely tuned reference sensors (carried by mobile agents or data mules) to recalibrate less capable IoT sensors instrumented more densely in the smart building. 
+            
+
+
+
+                Enabling a resilient information architecture for fire situational awareness
+            
+
+
+
+
+                RIDE uses Software-­defined Networking (SDN) and edge computing concepts to improve reliability and performance of current cloud-­based IoT applications. RIDE’s two-phase workflow extends existing publish-subscribe- oriented IoT data exchanges without client modifications to facilitate resilient real-time event-collection and emergency alert dissemination despite prevalent network failures and congestion. The first phase, RIDE-C, leverages programmable SDN-enabled infrastructure for gathering and utilizing network-awareness to improve IoT data collection. The second phase, RIDE-D, uses this information to disseminate time critical alerts via an intelligent network and application-aware reliable multicast mechanism. RIDE-C uses resource-conserving adaptive network probing to monitor cloud cloud connections and adapt to congestion or failures. It re-routes IoT data publishers through an alternative cloud path if possible and to the edge if all cloud connections are down. RIDE-D leverages network awareness collected by RIDE-C to pre-configure multiple Maximally-Disjoint Multicast Trees (MDMTs) and select the best from them for alert forwarding. It selects them based on novel strategies that leverage network state awareness derived entirely from knowledge about recently-received publications. We implemented RIDE as an extension to our original SDN proof of concept test-bed for SCALE. This original prototype system used an OpenFlow­-capable switch (Summit x440p from Extreme Networks managed by OpenDaylight SDN controller) to demonstrate fail-over from cloud to edge. Since then, we integrated our new RIDE mechanisms into SCALE and linked it to the SDN controller (now the distributed ONOS controller) with a REST API adapter we developed.
+                A paper detailing our proposed middleware, implementation in SCALE, and emulated experimental evaluations was presented on IoTDI '18.
+                
+                We designed and developed FireDeX, a middleware to explore the challenge of balancing the needs of mission-critical IoT applications running at the edge. 
+                Using a smart building context where there are multiple events, including detection and confirmation of a potential fire event, FireDEX aims to understand how multiple sensing technologies (BLE beacons, environmental sensors, wearable and mobile sensors, human provided information) can be integrated into a data exchange platform for improved awareness for multiple application domains in a prioritized manner. To support communication prioritization in an IoT setting, FireDEX adapts a pub/sub-style data exchange and the underlying SDN-enabled network infrastructure according to the relative importance of various subscriptions issued by multiple subscribing applications, devices, or persons. Subscribers specify a utility function for each subscription; these are used by the middleware in prioritizing and assigning bandwidth to flow of information relevant to each subscription. FireDeX leverages a queueing theory-based model of the cross-layer (network, data exchange, application) system and middleware to compute this configuration in a manner that optimizes performance and the overall value of information captured. FireDeX ensures that emergency responders receive pertinent data in a timely manner despite multiple applications simultaneously vying for constrained resources in a hostile environment. This work resulted in a full paper published and presented on Middleware '18.
+                
+                We have also initiated work to improve the reliability of the information collected from unreliable and heterogeneous sensing platforms through intelligent sensor calibration. The key plan is to leverage finely tuned reference sensors (carried by mobile agents or data mules) to recalibrate less capable IoT sensors instrumented more densely in the smart building. This work is recently accepted for publication on ICDCS '19.
+            
+
+                Prototype system design and validation with fire practitioners
+            
+
+
+                We utilize a smart building testbed on the UCI campus to help design the prototype systems and as the validation scenario for our work. As part of a recent DARPA project, TIPPERS, we have worked to design and deploy a smart building management system based on IOT at the Donald Bren Hall Information and Computer Science Building at UC Irvine. Building Management Systems (BMS) are cyber-physical systems that are used to manage buildings by monitoring different utility services. As an example, Donald Bren Hall (DBH) is a 90,000+ square feet, 6-story building at University of California, Irvine (UCI) equipped with a BMS. DBH is equipped with more than 400 sensors including
+                
+Surveillance cameras covering all the corridors and doors (for security purposes),
+WiFi Access Points (AP) (for Internet connectivity),
+Bluetooth beacons (for broadcasting information of interest to inhabitants),
+Power outlet meters (for monitoring energy usage),
+SCALE multi-sensor platforms that include multiple sensors including -- PIR, smoke, explosive gases, light, temperature sensors
+
+                Through our research techniques, we have already begun to utilize Donald Bren Hall and the TIPPERS infrastructure as a base platform for the design of the FirEBox middleware architecture as well as incorporate information from the TIPPERS infrastructures in designing a preliminary version of the EBoX. We are implementing RIDE and FireDEX using an SDN (software defined networking) based approach. We have experimented using an OpenFlow­capable switch; a state of the art SDN controller with REST APIs to support the interactions. The testbed is evaluated using scenarios from real world fire incidents that NFPA and FPRF have access to in their efforts on exploring smart firefighting opportunities. Example scenarios include an apartment driven wind fire. We are continuously working with NFPA and FPRF, and have already had several interactions and meetings with the stakeholders to gather information and use their intuitions in the design of our algorithms, in particular the data needs for RIDE and prioritization needs for FireDEX.
+            
+
+
+
+
+
+
+
+                This web page was last updated on Thursday, April 11, 2019.
+            
+Webmaster: Qiuxi (Charles) Zhu <qiuxiz (-AT-) ics (-DOT-) uci (-DOT-) edu>
+            
+
+
+
+
+
+ 
+
+
+
+
+

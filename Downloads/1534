@@ -1,0 +1,463 @@
+https://www.informatics.uci.edu/mswe-capstone-project-modernizes-database-for-elder-abuse-forensic-center
+
+
+
+
+
+
+
+
+
+MSWE Capstone Project Modernizes Database for Elder Abuse Forensic Center | Informatics @ the University of California, Irvine
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+People
+Contact
+Site Map
+News
+
+
+
+
+Search for:
+
+
+
+ 
+
+
+
+
+
+Menu
+Skip to content
+Explore
+
+
+Chair’s Welcome
+Faculty Profiles
+Books We Read
+History of the Department
+Seminar Series
+Blogs We Author
+Department Vision
+Books We Have Written
+Visiting the Department
+Facts & Figures
+
+
+
+Graduate Degrees
+
+
+Overview
+Ph.D. Software Engineering
+Policies
+Ph.D. Informatics
+M.S. Software Engineering
+Diversity Ambassador
+M.S. Informatics
+Master of Software Engineering
+Student Profiles
+Master of Human-Computer Interaction & Design
+Courses
+Student Groups
+ 
+ 
+Upcoming Course Schedule
+
+
+
+Undergraduate Degrees
+
+
+B.S. Informatics
+B.S. Information & Computer Science
+Policies
+B.S. Business Information Management
+Special Opportunities
+Student Profiles
+B.S. Game Design and Interactive Media
+Minors
+Student Groups
+B.S. Software Engineering
+Courses
+Upcoming Course Schedule
+
+
+
+Admissions
+
+
+Graduate Application Process
+Coming from Abroad
+Housing
+Undergraduate Application Process
+Student Life
+
+
+
+Research
+
+
+Labs & Centers
+Ph.D. Research
+Undergraduate Research
+Areas of Expertise
+Past Dissertations
+Gifts & Grants
+Example Projects
+Masters Research
+
+
+
+Impact
+
+
+Research that Matters
+Undergraduate Alumni Spotlights
+Outreach
+Graduate Alumni Spotlights
+Community Engagement
+
+
+
+Support
+
+
+Champion Research
+Become a Corporate Partner
+Share Your Talent
+Support Students
+Provide Projects
+Set Future Agenda
+Post Jobs
+Graduate Resources
+
+
+
+
+
+
+MenuExplore
+
+Chair’s Welcome
+History of the Department
+Department Vision
+Facts & Figures
+Faculty Profiles
+Seminar Series
+Books We Have Written
+Books We Read
+Blogs We Author
+Visiting the Department
+
+
+Graduate Degrees
+
+Ph.D. Informatics
+M.S. Informatics
+Ph.D. Software Engineering
+M.S. Software Engineering
+Master of Human-Computer Interaction & Design
+Master of Software Engineering
+Courses
+Policies
+Diversity Ambassador
+Student Profiles
+Student Groups
+Upcoming Course Schedule
+
+
+Undergraduate Degrees
+
+B.S. Informatics
+B.S. Business Information Management
+B.S. Game Design and Interactive Media
+B.S. Software Engineering
+B.S. Information & Computer Science
+Special Opportunities
+Minors
+Courses
+Policies
+Student Profiles
+Student Groups
+Upcoming Course Schedule
+
+
+Admissions
+
+Graduate Application Process
+Undergraduate Application Process
+Coming from Abroad
+Student Life
+Housing
+
+
+Research
+
+Labs & Centers
+Areas of Expertise
+Example Projects
+Ph.D. Research
+Past Dissertations
+Masters Research
+Undergraduate Research
+Gifts & Grants
+
+
+Impact
+
+Research that Matters
+Graduate Alumni Spotlights
+Undergraduate Alumni Spotlights
+Community Engagement
+Outreach
+
+
+Support
+
+Champion Research
+Support Students
+Become a Corporate Partner
+Provide Projects
+Post Jobs
+Share Your Talent
+Set Future Agenda
+
+
+ 
+
+
+
+
+
+
+
+		← Site Map  News
+
+
+
+
+
+MSWE Capstone Project Modernizes Database for Elder Abuse Forensic Center
+December 21, 2021
+
+
+UCI’s 15-month Master of Software Engineering (MSWE) professional degree program concluded with a quarter-long capstone project that, in addition to the program’s internship component, ensures students graduate with real-world experience in software design and development. The projects often have real-world impact as well, such as with the Digital Referral Database project, presented at the 2021 MSWE Showcase. Four team members — Brandon Apana, Zenyu Chang, Weiyu Guan and Mandy Tsai — collaborated with UCI’s Elder Abuse Forensic Center (EAFC) on the project, working to modernize the center’s outdated referral system.
+
+“The Forensic Center has a database that we use to keep track of our cases and the outcomes, but the database is quirky and has some issues,” says UCI EAFC Assistant Director Jorge Solé. “It’s something we have been wrestling with for several years.”
+The four MSWE students who worked on the Digital Referral Database capstone project.
+The Digital Referral Database ProjectHoused in the UCI School of Medicine’s Division of Geriatric Medicine and Gerontology, EAFC has been partnering with medical agencies, social services, legal professionals and law enforcement since 2003. The goal is to help those 65 and older who are (or are at risk of) experiencing maltreatment. UCI EAFC turns the referrals they receive from outside professionals into cases, which it stores in a database. However, the aging database is difficult to navigate and frequently crashes.
+So, over 10 weeks, the MSWE team worked closely with Solé to update the current database using cutting-edge technologies such as Vue.js, Flask and MongoDB.
+Slides presented during the MSWE 2021 showcase introducing the Digital Referral System (left) and providing a system overview (right).
+
+“We basically built a web portal where you can see all the referral cases, you can add new cases, and you can import [new data],” says Apana. “It was a 10 week project, which is a really short amount of time for a software project, but [our] system ended up being something actually usable.”
+The next step is for the center’s IT department to implement the code in the UCI server and migrate the old data into the new database. Solé hopes that by next year, UCI EAFC will be using the new database.
+“I was very impressed with the team and their poise in the face of challenges,” says Solé. “I had a very good experience working with the capstone project, and with this particular group, so if I had another project, I would definitely reach out again.”
+A Win for EveryoneSolé stresses that the capstone project was a win-win situation. “This opportunity to have this [database upgrade] done by the students, as part of their project, was great for us because there was no financial commitment on our part.” Instead, he explains, the “commitment was to meet with them regularly and give them guidance and provide them with the experience they needed.”
+The team agreed that Solé held up his end of the bargain. “It was really great working with him,” says Apana. The team gained experience relevant to their career goals, as they divided up the project based on their background and interests. “I guess a good analogy might be almost like a sandwich,” says Apana of how they approached the work. “So you have the front end, which is what the user sees, and then you have the in-between, which involves getting information from the front end and delivering it to the back end and vice versa. Then you have the database, which is all the way in the back, hidden from the user, storing all the information.”
+Guan was the team’s front-end expert, so he took charge of the interface. “The most useful thing I learned from the project is the actual experience to follow a full circle of project management and collaboration with my wonderful teammates using modern team management tools,” says Guan, who was recently hired as a Rust developer at ByteDance.
+Apana, who earned his computer science degree from UCI prior to joining the MSWE program, took the “in between” section of the project and worked on the API. “I graduated in 2020, which was not a great time for the job market, so this was my plan B,” he admits of the MSWE program. “But I was able to build my skills, [and] part of the program requirement is actually to have an internship [and] I got a job offer from that, so it totally worked out for me!”
+Tsai and Chang, both of whom also graduated from UCI in 2020, tackled the back end. Tsai, who earned her undergraduate degree in informatics with a specialization in organizations and IT, designed the database structure and the interface that the back end uses to interact with the database. She studied informatics to focus on the “connection between technologies and humans,” and she joined the MSWE program to further her technical expertise. “With the deeper technical knowledge acquired from the program, I am now able to develop more plausible designs and to bring those designs to life!”
+Chang was a bioscience major with a minor in computer science. “My interest in bioscience waned after four years,” he says, “and I just wanted to get back into computer science.” He’s now a junior data engineer at Retina AI. During the project, he focused on the parser for the Word docx import and Excel imports and export. “This involves going through the docx and pulling all the information, then mapping that information to their respective column names,” he explains. “This process is fairly similar with the Excel import, in addition to being compatible with the old Access Excel and the new MongoDB Excel.”
+The team is now hopeful that their new referral system “will prove to be a powerful tool for the EAFC and their mission for years to come.”
+“Every year, I learn a lot from new projects and new project sponsors,” says Informatics Professor Hadar Ziv, who leads the MSWE capstone course. “I especially appreciate and learn from projects for social or medical good, and this one certainly does good. The student team helped the center redesign and re-implement an old and crumbling database system and, in so doing, helped the center improve its services and social mission.”
+— Shani Murray
+
+
+
+Post navigation
+← UCI News: “Games + Learning + Society Conference set for June 2022 on UCI campus”
+Tech Trends for 2022 →
+
+
+
+
+
+
+ 
+
+October 2022
+September 2022
+July 2022
+June 2022
+May 2022
+April 2022
+March 2022
+February 2022
+January 2022
+December 2021
+November 2021
+October 2021
+September 2021
+August 2021
+July 2021
+June 2021
+May 2021
+April 2021
+March 2021
+February 2021
+January 2021
+December 2020
+November 2020
+October 2020
+September 2020
+August 2020
+July 2020
+June 2020
+May 2020
+April 2020
+March 2020
+February 2020
+January 2020
+December 2019
+November 2019
+October 2019
+September 2019
+August 2019
+July 2019
+June 2019
+May 2019
+April 2019
+March 2019
+February 2019
+January 2019
+December 2018
+November 2018
+October 2018
+September 2018
+August 2018
+July 2018
+June 2018
+May 2018
+April 2018
+March 2018
+February 2018
+January 2018
+December 2017
+November 2017
+October 2017
+September 2017
+August 2017
+July 2017
+June 2017
+May 2017
+April 2017
+March 2017
+February 2017
+January 2017
+December 2016
+November 2016
+October 2016
+September 2016
+August 2016
+July 2016
+June 2016
+May 2016
+April 2016
+March 2016
+February 2016
+January 2016
+December 2015
+November 2015
+October 2015
+September 2015
+August 2015
+July 2015
+June 2015
+May 2015
+April 2015
+March 2015
+February 2015
+January 2015
+December 2014
+November 2014
+September 2014
+August 2014
+July 2014
+June 2014
+
+ 
+
+
+
+People
+Contact
+Site Map
+News
+
+
+
+
+
+
+
+Feedback
+Privacy Policy
+					© 2022 UC Regents
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

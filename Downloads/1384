@@ -1,0 +1,9 @@
+http://plrg.ics.uci.edu/publications/440.bib
+@inproceedings{key,
+ author = {Yong hun Eom and Stephen Yang and James C. Jenista and Brian Demsky},
+ title = {DOJ: Dynamically Parallelizing Object-Oriented Programs},
+ booktitle = {Proceedings of the ACM SIGPLAN Annual Symposium on Principles and Practice of Parallel Programming},
+ location = {New Orleans, Louisiana},
+ month = {February},
+ year = {2012}
+}

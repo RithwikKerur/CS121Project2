@@ -1,0 +1,90 @@
+http://www.ics.uci.edu/~kibler/H23syllabus.html
+
+
+
+
+
+Honors ICS 23 
+
+
+Honors Data Structures and Algorithms
+A collaborative problem-solving approach
+
+Professor: Dennis Kibler kibler@ics.uci.edu
+Class Meetings: 10-10:50 Mondays, Wednesdays, Fridays (ET204)
+	Office Hours: 11-12 Mondays,Wednesdays (414 CS)
+	Teaching Assistant: Li Zhang
+Discussion: 11:30-12:50 Mondays, Wednesdays (CS193)
+
+
+
+Course Goals
+Using the Java language students will learn the properties and implementation details of the fundamental data
+structures (arrays, lists, queues, stacks, dictionaries, hashtables, trees, graphs) that often are at the heart
+of any program. Students will also learn basic problem solving methods, such as divide and conquer, separate and
+conquer, dynamic programming, greedy algorithms, tree and search algorithms as well as some useful applications.
+As part of the coding assigments, students will be expected to analyse their code and follow good object-oriented
+design. 
+
+Grading
+There will be approximately 8 programming assignments two quizzes and a final. The coding assignments will be
+in Java. Your lowest homework score will be dropped. Roughly, the exams and homeworks will count equally. The final
+exam will be based on the text, lecture notes, and homeworks. Each chapter ends with a summary. Be sure that you
+know every concept discussed in the summary. The fastest way to get questions answered is to email either the TA
+or me. Answers of general interest will be posted on the bulletin board (ics.H23). You may also use the bulletin
+board to ask classmates for appropriate help. Any form of inappropriate help will result in an F grade in the class
+and a letter in your file. 
+
+Text
+Text Data Structures and Problem Solving using Java by Mark Allen Weiss
+Recommended: UP to speed in Swing by Steven Gutz 
+
+Java Language Notes
+Lecture notes for the Java Language are available on-line Java
+Notes . Please tell me if you find any errors or misrepresentations. 
+
+Tests
+Quiz: April 23
+Quiz: May 21  12:00- 1:00
+Final: June 11 10:30am-12:30, same room as lecture
+
+
+Tentative schedule.
+
+Week 1 GUI interfaces and Object Oriented Design
+Telephone Address book
+	Instructor grading program
+	Hwk:Banking: deposits, withdrawals, opening, closing
+	Week 2 O notation and Fundamental Data Structures via Collections
+Collections: Lists, Trees, HashTables
+	Hwk: Lexicon with Gui
+	Week 3 Problem Solving I: Divide and Conquer
+Dynamic Programming: fibonacci, longest common subsequece, matrix multiplication 
+	Hwk: Needleman-Wunsch
+	Week 4 Problem Solving II: Backtracking, Local Improvement
+Heuristic search, boolean satisifiability, np-completeness
+	Hwk: N-queens (exhaustive and heuristic)
+	Week 5 Linked Lists Implementation Ch. 16
+singly, doubly, circular, sorted
+	Hwk: Traveling Salesman Problem (arrays and lists)
+	Week 6 Hash Tables Ch. 19
+hash functions, collisions, linear and quadratic probing
+	Midterm!
+	Week 7 Queue, Dequeues, Priority Queues Ch. 15, 20
+heap, priority queue, heapsort
+	Hwk: Bounded priority queue
+	Week 8 Balanced Trees Ch. 13
+AVL trees, red-black trees, AA-trees, B-trees
+	Hwk: build, evaluate, and display expression trees
+	Week 9 Tree Search
+Depth first, breadth first, iterative deepening
+	Hwk: Evaluation of efficiency
+	Week 10 Graphs Ch. 14
+Adjacency representation, Kruskal's, Prim's and Dijsktra's algorithm, topological sorting
+	Hwk: You gotta be kidding
+	
+
+
+Homework Details http://www.ics.uci.edu/~kibler/H23Homeworks.htm
+
+

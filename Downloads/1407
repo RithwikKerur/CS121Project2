@@ -1,0 +1,9 @@
+http://plrg.ics.uci.edu/publications/660.bib
+@inproceedings{key,
+ author = {Hamed Gorjiara and Guoqing Harry Xu and Brian Demsky},
+ title = {Jaaru: Efficiently Model Checking Persistent Memory Programs},
+ booktitle = {Proceedings of the International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 2021)},
+ location = {Virtual},
+ month = {April},
+ year = {2021}
+}

@@ -1,0 +1,221 @@
+https://cml.ics.uci.edu/2013/01/winter-2013
+
+
+
+
+
+Winter 2013 | Center for Machine Learning and Intelligent Systems
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+University of California, Irvine
+
+
+Menu
+Skip to content
+Home
+About CML
+
+About us
+News
+Contact Us
+
+
+People
+
+Faculty
+Alumni
+
+
+Events & Seminars
+
+AI/ML Seminar Series
+AI/ML Seminar Live Stream
+CML Distinguished Speakers
+ML Reading Group
+
+
+Education & Resources
+
+Courses
+Books
+
+
+UCI Machine Learning Archive
+Sponsors & Funding
+Subscribe to CML List
+ 
+
+
+
+
+
+Winter 2013 Standard
+
+January 1, 2013
+AIML
+
+
+
+
+
+
+
+  
+
+
+January 7Bren Hall 40111 pm
+
+
+Majid JanzaminGraduate StudentDepartment of Electrical Engineering and Computer ScienceUniversity of California, Irvine
+
+High-Dimensional Covariance Decomposition into Sparse Markov and Independence DomainsFitting high-dimensional data involves a delicate tradeoff between faithful representation and the use of sparse models. Too often, sparsity assumptions on the fitted model are too restrictive to provide a faithful representation of the observed data. In this talk, we present a novel framework incorporating sparsity in different domains. We decompose the observed covariance matrix into a sparse Gaussian Markov model (with a sparse precision matrix) and a sparse independence model (with a sparse covariance matrix). Our framework incorporates sparse covariance and sparse precision estimations as special cases and thus introduces a richer class of high-dimensional models. We characterize sufficient conditions for identifiability of the two models, \viz Markov and independence models. We propose an efficient decomposition method based on a modification of the popular $\ell_1$-penalized maximum-likelihood estimator ($\ell_1$-MLE). We establish that our estimator is consistent in both the domains, i.e., it successfully recovers the supports of both Markov and independence models, when the number of samples $n$ scales as $n = \Omega(d^2 \log p)$, where $p$ is the number of variables and $d$ is the maximum node degree in the Markov model. Our experiments validate these results and also demonstrate that our models have better inference accuracy under simple algorithms such as loopy belief propagation.
+
+
+  
+
+
+January 14Bren Hall 40111 pm
+
+
+Christian SheltonAssociate ProfessorDepartment of Computer Science and EngineeringUniversity of California, Riverside
+
+Machine Learning for Critical Care MedicineMedicine is becoming a “big data” discipline.  In many ways, it shares more in common with engineering and business than with lab sciences: while controlled experiments can be performed, most data are available from live practice with the aim of solving a problem, not exploration of hypotheses.  This this talk I will discuss my work in collaboration with Children’s Hospital Los Angeles in applying machine learning to improve health care, particularly pediatric intensive care.  I will use two current projects to drive the discussion: (1) monitoring of blood CO2 and pH levels for patients on mechanical ventilation and (2) predicting acute kidney injury and identifying potential causes.  I will describe the data collection, how the data do and do not fit into machine learning assumptions, and the current state and trends in medical data.  Both problems have been tackled with a variety of methods and I will summarize our findings and lessons in applying machine learning to medical data.
+Bio:
+Christian Shelton is an Associate Professor of Computer Science and Engineering at the University of California at Riverside.  His research is in machine learning with a particular interest in dynamic processes. He has worked on applications as varied as computer vision, sociology, game theory, decision theory, and computational biology.  He has been a faculty member at UC Riverside since 2003.  He received his PhD from MIT in 2001 and his bachelor degree from Stanford in 1996.
+
+
+  
+
+
+January 21 (no seminar)
+
+
+Martin Luther King, Jr. Day
+
+
+
+  
+
+
+January 28Bren Hall 40111 pm
+
+
+Ragupathyraj ValluvanGraduate StudentDepartment of Electrical Engineering and Computer ScienceUniversity of California, Irvine
+
+Predicting and Interpreting Dynamic Social Interactions via Conditional Latent Random FieldsWe consider the problem of predicting and interpreting dynamic social interactions among a time-varying set of participants. We model the interactions via a dynamic social network with joint edge and vertex dynamics. It is natural to expect that the accuracy of vertex prediction (i.e. whether an actor participates or not at a given time) strongly affects the ability to predict dynamic network evolution accurately.  A conditional latent random field (CLRF) model is employed here to model the joint vertex evolution. This model family can incorporate dependence in vertex co-presence, found in many social settings (e.g., subgroup structure, selective pairing). Moreover, it can incorporate the effect of covariates (e.g. seasonality).  We introduce a novel approach for fitting such CLRF models which leverages on the recent results for learning latent tree models and combines it with a parametric model for covariate effects and a logistic model for edge prediction (i.e. social interactions) given the vertex predictions. We apply this approach to both synthetic data and a classic social network data set involving interactions among windsurfers on a Southern California beach. Experiments conducted show the potential to discover hidden social relationship structures and a significant improvement in prediction accuracy of the vertex and edge set evolution (about 45% for conditional vertex participation accuracy and 122% for overall edge prediction accuracy) over the baseline dynamic network regression approach.
+
+
+  
+
+
+February 4Bren Hall 40111 pm
+
+
+Matthias BlumeSenior Director of AnalyticsCoreLogic
+
+Entity DisambiguationEntity disambiguation (a.k.a. Entity Resolution, Record Linking, People Search, Customer Pinning, Merge/Purge, …)  determines which data records correspond to distinct entities (persons, companies, locations, etc.) when IDs such as SSN are not available.  Matthias will present an overview of the field and a technique that can utilize any available attributes including co-occurring entities, relations, and topics from unstructured text.  It automatically learns the information value of each feature from the data.  By using a greedy merge approach and some tricks to avoid unnecessary match operations, it is fast.  Finally, we will explore possible vector space and graph representations of the problem, alternative approaches that have been tried, and suggest future work based on reinforcement learning and active learning.
+Bio
+Matthias Blume is Senior Director of Analytics at CoreLogic, the nation’s largest real estate data provider.  His team develops solutions for mortgage fraud detection, consumer credit scoring, automated valuation models, and more.  Previously, he worked in marketing optimization, text analytics, and the gamut of financial services analytics at Redlign, Covario, and HNC/FICO.  He received his PhD in Electrical and Computer Engineering from UCSD and a BS from Caltech.
+
+
+  
+
+
+February 11Bren Hall 40111 pm
+
+
+Eric BaxDirector, Marketplace DesignYahoo!
+
+Validating Network Classifiers with CohortsNetworks play important roles in our lives, from protein activation networks that determine how our bodies develop to social networks and networks for transportation and power transmission. Networks are interesting for machine learning because they grow in interesting ways. A person joins a social network because their friend is already in it. A patient joins a network of disease infection because they are in contact with someone who has been infected. A new bridge is built because there are major transportation facilities on both sides of a body of water. Networks form iteratively; each new cohort of nodes depends on nodes already present. This talk discusses a way to apply machine learning methods to network classifiers for networks that grow by adding cohorts.
+
+
+  
+
+
+February 18 (no seminar)
+
+
+Presidents’ Day
+
+
+
+  
+
+
+February 25Bren Hall 40111 pm
+
+
+Kristina LermanProject LeaderUniversity of Southern California/Information Sciences Institute
+
+Social Dynamics of InformationIt is widely believed that information spreads through a social network much like a virus, with “infected” individuals transmitting it to their friends, enabling information to reach many people. However, our studies of social media indicate that most information epidemics fail to reach viral proportions. We show that psychological factors fundamentally distinguish social contagion from viral contagion. Specifically, people have finite attention, which they divide over all incoming stimuli. This makes highly connected people less “susceptible” to infection and stops information spread.
+ In the second part of the talk I explore the connection between dynamics and network structure. I show that to find interesting structure, network analysis has to consider not only network’s links, but also dynamics of information flow. I introduce dynamics-aware network analysis methods and demonstrate that they can identify more meaningful structures in social media networks than popular alternatives.
+
+
+
+
+
+
+Post navigation
+← Fall 2012 Former CML PhD student Seyoung Kim awarded $50k Sloan Research Fellowship →
+
+
+
+
+ 
+Search
+
+
+
+ 
+
+
+(c) 2015 Center for Machine Learning and Intelligent Systems
+
+WordPress/BonPress
+
+
+
+
+
+

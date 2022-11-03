@@ -1,0 +1,204 @@
+https://ngs.ics.uci.edu/taxonomy-and-folksonomy
+
+
+
+
+
+
+
+
+Taxonomy and Folksonomy – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Taxonomy and Folksonomy    			
+
+
+It is common that we find a problem difficult to solve completely satisfactorily after significant efforts and conclude that the current approaches may not be correct approaches for the problem.  We then start exploring an entirely different â€“ sometime opposite — approach.  This new approach may give us some early success and appear promising.  This early success results in a euphoria in which we declare that earlier approaches were really duds and the new approach is what will solve it to our complete satisfaction.  In this phase we abandon old approaches and ignore the success that those approaches produced.  Moreover, we assume that the new approaches solve our problem to complete satisfaction, without even being close to what the old approaches were.  This is the phase of confusion.  I think in several areas of Search, particularly in Multimedia search (images, video, audio, â€¦) we are going through this state.  
+It is clear that the problem of automatically extracting content from images or any other media is a difficult problem.  Even in text we could not do it.  That resulted in all our search engines using simple keyword based approaches or developing approaches that will have significant manual component and will address only specific areas.  Another interesting finding was that for an amorphous and large collection of information, taxonomy based approach was too rigid for navigation.  Since it was found relatively easier to develop inverted file structures to search for keywords in large collections, people found the idea of tags attractive.  By somehow assigning tags, we could organize relatively unstructured files and search.  About the same time that this was found, the idea of the wisdom of crowd became popular.  So it is easy to argue that tags could be assigned by people and will result in â€˜wise tagsâ€™ (because they are assigned by the crowd) and will be much better approach than the dictatorial taxonomy.  
+The idea is appealing and made Del.icio.us and flickr.com a darling of many people.  These sites are given as examples of huge success for folksonomy.  I am excited about this approach, but can not help asking myself and you whether this approach is really working â€“ or can it be made to work?  
+If everybody assigned several appropriate tags to a photo that she uploaded and then the crowd seeing that photo also assigned appropriate tags then the wisdom of crowd may come in action.  But if the up loader rarely assigns tags and viewers, if any, assign tags even more rarely, then there is no crowd and there is no wisdom.  Interesting game like approaches (See WWW.ESPGAME.ORG) are being developed to assign tags to images.
+How successful is this approach really?  Based on my unscientific and ad hoc analysis it seems that very few tags are being assigned to photos on flickr by people who upload images and fewer are being assigned by viewers.  Also, just todaqy I saw that the tags assigned to the same event â€“ I believe â€“ could be nycmarathon, nymarathon, newyorkcitymarathon and similar combination.  It appears that without any guidance people really get confused about how to assign tags.  
+Remember for information retrieval purpose at one time, many journals started asking  authors to select index words for their articles.  It is clear that automatically extracted keywords have made search engines successful where those index words failed.
+Based on what I have seen so far, it appears that the success may come from some interesting combination of taxonomy and folksonomy.  It would be great to hear about your experience in this area.
+
+
+
+By Ramesh |
+    				November 12, 2005 |
+    				             		Technical Thoughts |
+             	 
+    				             		2 Comments |
+             	 		          				
+    			
+
+
+← Workshops at ACM Multimedia
+Not alone →
+
+
+
+			2 thoughts on “Taxonomy and Folksonomy”		
+
+
+
+
+Ramesh Sarukkai February 21, 2006 at 5:21 pm 
+
+This is an interesting and important debate that Prof. Ramesh Jain brings out. Here are my personal thoughts on this.
+One of the goals in media search is to have a large searchable media index that enables consumers to search, discover and consume  media content. It is clear that pure content analysis is still not a viable option for achieving this for millions of videos/images. The main attraction with tagging (social or derived from web pages) is that we have large scale systems with video/image/audio search capabilities with more precision than comparable CBIR systems. Products such as Yahoo! video, Flickr  and image search that millions use on a daily basis. 
+That said, tagging/meta-data alone is not the complete long-term solution to the Multi-media information retrieval problem, and there will be continued opportunities/techniques leveraged down the road to combine different sources of information (whether it be from community tagging or content analysis). Even if you look at related areas such as automatic speech recognition or Optical Character Recognition, it is clear that augmenting media specific models with *large amounts of data* from non-media sources to provide context (such as the Wall Street Journal text corpus) greatly boosted the ability to build viable products: A similar trend will ensue for media search, with community tagging being the “baby step” towards helping build large repositories of labeled media.
+To answer the original question, “taxonomy or folksonomy”, we look at the emergent trends in search: web directories didn’t live long. Then came the glorious text search. To enable community to add more value to the web content, we now have social search. With billions of documents indexable on the web, a good guess for the future would be convergence on a combination of taxonomy and folksonomy, especially for media content.
+-Dr. Ramesh Sarukkai
+
+
+
+
+
+
+
+
+tera RMT April 17, 2012 at 10:49 pm 
+
+Hello! I just wish to make a huge thumbs up for the terrific advice you have here on this article. I will be returning to your site for more shortly.
+Good write-up, Iâ€™m regular visitor of oneâ€™s website, maintain up the nice operate, and It is going to be a regular visitor for a lengthy time.
+
+
+
+
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

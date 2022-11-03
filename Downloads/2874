@@ -1,0 +1,195 @@
+https://ngs.ics.uci.edu/eventweb-what-is-an-event
+
+
+
+
+
+
+
+
+EventWeb:  What is an event? – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				EventWeb:  What is an event?    			
+
+
+What is an Event?
+The term â€˜eventâ€™ means different events to different people.  The meaning of event depends on the context and the granularity used in that context. There is inherent ambiguity associated with the term event as seen from its multiple usages.
+Wikipedia (http://en.wikipedia.org/wiki/Event ) defines it as
+An event is something that takes placeâ€”an occurrence and arbitrary point in time. The term also refers to a significant occurrence or happening, or a social gathering or activity.
+Dictionaries and encyclopedias are as confusing as the regular usage of the term is.  Events are indeed different in different contexts.  A wedding is an event, so is the wedding reception, and the cake-cutting.  Also the first meeting of the bride and groom is as much an event as the birth of the bride, and the wedding of her parents, and so on.  And yes the world cup Soccer final between Italy and France was an event and so is my grandsons first kick in his backyard.  My pressing the key to type the next word is an event and so will be the posting of this article and then comes the event of your reading this post and then reading this part and thinking that I am being silly!  Theoretically even my moving finger to a specific key is an event.  So events depend on context and take place at different granularities or resolutions.  
+Events are combined in many different ways to define events.  And these combinations may again be combined with other events to define yet another set of events.  So this process of definition of events continues.  These definitions are clearly determined by an application.
+On the other side an event is the result of one or more past events, which were in turn results of other events and so on.  Similarly, an event may result, maybe in combination with other events, in multiple events, which in turn may result in many other events.  So this process of creation of events is a process that has been going on and will continue in future.
+But, how do we define an event?  What can be considered an event and what can not be.  If all these things are events then how can we capture that in our computing systems â€“ or can we?  On first thought it appears that this is a confusing situation!  
+But this situation is not new.  Objects are equally confusing.  Objects could be physical things or a concepts.   Also objects could also exist at many resolutions.  Once again Wikipedia ( http://en.wikipedia.org/wiki/Objects ) clearly shows how confusing it could be.  So, I am an object, so is the shirt I am wearing, and the buttons on the shirt.  I will not get into details of this â€“ you get the idea.
+We know that concept of objects have played a key role in the development of computer science.  Object-oriented programming and object-oriented design concepts have dominated computer science for more than decade.  And this has been a powerful paradigm.  Once again, Wikipedia gives a good definition of objects in the context of computer science:
+
+a language mechanism for binding data with methods that operate on that data.
+See how nicely any reference to any physical or conceptual or any other kind of objects that we use in our regular language is avoided and an elegant new functional definition is provided here.  Objects become a mechanism for binding data with methods that operate on that data.
+Can we do a similar thing to events?
+
+
+
+By Ramesh |
+    				August 10, 2006 |
+    				             		Experiential Computing, Technical Thoughts |
+             	 
+    				             		1 Comment |
+             	 		          				
+    			
+
+
+← Fun can be stressful
+SEraja →
+
+
+
+			One thought on “EventWeb:  What is an event?”		
+
+
+
+
+Milind Bhandarkar August 22, 2006 at 1:57 pm 
+
+Let me try my hand at defining an event. An event is a “time-stamped” object. Time could refer to conventional time. Or could refer to anything that imposes causality. The second part refers to events in computer systems that cause reactive behavior.
+
+
+
+
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

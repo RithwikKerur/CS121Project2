@@ -1,0 +1,192 @@
+https://ngs.ics.uci.edu/test-images-in-computer-vision-research
+
+
+
+
+
+
+
+
+Test Images in Computer Vision research – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Test Images in Computer Vision research    			
+
+
+MIT News had an article  that comments on the test images and standards used in object recognition research in computer vision.
+
+“With only two types of objects to distinguish, this test should have been easier for the ‘toy’ computer model, but it proved harder,” Cox says. The team’s conclusion: “Our model did well on the Caltech101 image set not because it is a good model but because the ‘natural’ images fail to adequately capture real-world variability.” 
+As a result, the researchers argue for revamping the current standards and images used by the computer-vision community to compare models and measure progress. Before computers can approach the performance of the human brain, they say, scientists must better understand why the task of object recognition is so difficult and the brain’s abilities are so impressive. 
+
+The problem mentioned here is not new — this has been the central problem.  In computer vision, we design data to make algorithms successful — goal is not to develop algorithms or theory that will work, but to design data that will show success of a theory.  A common set of similar data set used by image retrieval people is to use Corel Database for testing algorithms in image retrieval.  This is similar situation as above — carefully selected data that does little to capture the variability of the real world.
+Computer vision could be one of the most powerful discipline in computer science that could be central mechanism for input of real world data.  This will not happen until we learn to face real problems, rather than ignore them and develop theories and customize data to prove our theories with the only goal of publishing a research paper.
+
+
+
+By Ramesh |
+    				January 27, 2008 |
+    				             		Technical Thoughts |
+             	 
+    				             		2 Comments |
+             	 		          				
+    			
+
+
+← Padma Vibhushan
+Face recognition — one more claim →
+
+
+
+			2 thoughts on “Test Images in Computer Vision research”		
+
+
+Pingback: Teste » Test Images in Computer Vision research 
+
+
+
+
+computer help May 14, 2008 at 3:54 pm 
+
+Interesting tests here 🙂
+CM
+
+
+
+
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

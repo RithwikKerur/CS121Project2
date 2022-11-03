@@ -1,0 +1,421 @@
+http://plrg.ics.uci.edu/publications_page
+
+
+
+
+
+
+
+
+Publications – Programming Languages Research Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+									Programming Languages Research Group								
+
+
+
+
+
+
+Brian Demsky
+Students
+Publications
+Software
+
+Software Verifiers
+
+PSan
+Yashme
+Jaaru
+Satune
+C11Tester
+
+
+Software for Relaxed Memory Models
+Irvine Research Java Compiler
+Views
+Smart Home
+
+Fidelius
+IoTCheck
+PingPong
+Vigilia
+
+
+
+
+Navigation
+
+
+
+
+ 
+
+
+
+
+
+
+
+Conferences and Workshops
+Checking Robustness to Weak Persistency Models
+Hamed Gorjiara, Weiyu Luo, Alex Lee, Guoqing Harry Xu, and Brian Demsky
+PLDI 2022: Proceedings of the 43rd ACM SIGPLAN International Conference on Programming Language Design and Implementation
+San Diego, CA , USA June 2022
+Yashme: Detecting Persistency Races
+Hamed Gorjiara, Guoqing Harry Xu, and Brian Demsky
+Proceedings of the International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 2022)
+Lausanne, Switzerland February-March 2022
+Stateful Dynamic Partial Order Reduction for Model Checking Event-Driven Applications that Do Not Terminate (bibtex)
+Rahmadi Trimananda, Weiyu Luo, Brian Demsky, and Guoqing Harry Xu
+Proceedings of the 23rd International Conference on Verification, Model Checking, and Abstract Interpretation (VMCAI 2022)
+Philadelphia, Pennsylvania January 2022
+C11Tester: A Fuzzer for C/C++ Atomics (bibtex)
+Weiyu Luo and Brian Demsky
+Proceedings of the International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 2021)
+Virtual April 2021
+Jaaru: Efficiently Model Checking Persistent Memory Programs (bibtex)
+Hamed Gorjiara, Guoqing Harry Xu, and Brian Demsky
+Proceedings of the International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 2021)
+Virtual April 2021
+SATUNE: Synthesizing Efficient SAT Encoders (bibtex)
+Hamed Gorjiara, Guoqing Harry Xu, and Brian Demsky
+Proceedings of the ACM on Programming Languages (OOPSLA 2020)
+Virtual November 2020
+Understanding and Automatically Detecting Conflicting Interactions between Smart Home Applications (bibtex)
+Rahmadi Trimananda, Seyed Amir Hossein Aqajari, Jason Chuang, Brian Demsky, Guoqing Harry Xu, and Shan Lu
+Proceedings of the ACM SIGSOFT International Symposium on Foundations of Software Engineering 2020 (ESEC/FSE 2020)
+Virtual November 2020
+Packet-Level Signatures for Smart Home Devices (bibtex)
+Rahmadi Trimananda, Janus Varmarken, Athina Markopoulou, and Brian Demsky
+Proceedings of the 2020 Network and Distributed Systems Security (NDSS 2020)
+San Diego, CA February 2020
+Gerenuk: Thin Computation over Big Native Data Using Speculative Program Transformation (bibtex)
+Christian Navasca, Cheng Cai, Khanh Nguyen, Brian Demsky, Shan Lu, Miryung Kim, and Guoqing Harry Xu
+Proceedings of the 2019 ACM SIGOPS Symposium on Operating Systems Principles (SOSP 2019)
+Ontario, Canada October 2019
+Vigilia: Securing Smart Home Edge Computing (bibtex)
+Rahmadi Trimananda, Ali Younis, Bojun Wang, Bin Xu, Brian Demsky, and Guoqing (Harry) Xu
+Proceedings of the ACM/IEEE Symposium on Edge Computing 2018 (SEC 2018)
+Bellevue, WA October 2018
+Slides
+Towards Understandings the Costs of Avoiding Out-of-Thin-Air Results (bibtex)
+Peizhao Ou and Brian Demsky
+Proceedings of the 2018 Conference on Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA 2018)
+Boston, MA October 2018
+Skyway: Connecting Managed Heaps in Distributed Big Data Systems (bibtex)
+Khanh Nguyen, Lu Fang, Christian Navasca, Guoqing Xu, Brian Demsky, and Shan Lu
+Proceedings of the Twenty-Third International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 18)
+Williamsburg, VA March 2018
+ZenIDS: Introspective Intrusion Detection for PHP Applications (bibtex)
+Byron Hawkins and Brian Demsky
+Proceedings of the 39th International Conference on Software Engineering (ICSE 2017)
+Buenos Aires, Argentina May 2017
+Checking Concurrent Data Structures Under the C/C++11 Memory Model (bibtex)
+Peizhao Ou and Brian Demsky
+Proceedings of the 22nd ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming (PPoPP 2017)
+Austin, TX January 2017
+Yak: A High-Performance Big-Data-Friendly Garbage Collector (bibtex)
+Khanh Nguyen, Lu Fang, Guoqing Xu, Brian Demsky, Shan Lu, Sanazsadat Alamian, and Onur Mutlu
+Proceedings of the 12th USENIX Symposium on Operating Systems Design and Implementation (OSDI 2016)
+Savannah, Georgia November 2016
+A Runtime Approach to Security and Privacy (bibtex)
+Byron Hawkins, Brian Demsky, and Michael Taylor
+European Security and Privacy (Short paper/poster)
+March 2016
+BlackBox: Lightweight Security Monitoring for COTS Binaries (bibtex)
+Byron Hawkins, Brian Demsky, and Michael Taylor
+Proceedings of the 2016 International Symposium on Code Generation and Optimization (CGO 2016)
+Barcelona, Spain March 2016
+Speculative Region-based Memory Management for Big Data Systems (bibtex)
+Khanh Nguyen, Lu Fang, Guoqing Xu, and Brian Demsky
+Proceedings of the 8th Workshop on Programming Languages and Operating Systems
+Monterey, California October 2015
+Interruptible Tasks: Treating Memory Pressure as Interrupts for Highly Scalable Data-Parallel Programs (bibtex)
+Lu Fang, Khanh Nguyen, Guoqing Xu, Brian Demsky, and Shan Lu
+Proceedings of the 25th ACM Symposium on Operating Systems Principles
+Monterey, California October 2015
+AutoMO: Automatic Inference of Memory Order Parameters for C/C++11 (bibtex)
+Peizhao Ou and Brian Demsky
+Proceedings of the 2015 Conference on Object-Oriented Programming, Systems, Languages, and Applications
+Pittsburg, Pennsylvania October 2015
+SATCheck: SAT-Directed Stateless Model Checking for SC and TSO (bibtex)
+Brian Demsky and Patrick Lam
+Proceedings of the 2015 Conference on Object-Oriented Programming, Systems, Languages, and Applications
+Pittsburg, Pennsylvania October 2015
+Optimizing Binary Translation of Dynamically Generated Code (bibtex)
+Byron Hawkins, Brian Demsky, Derek Bruening, and Qin Zhao
+Proceedings of the 13th Annual IEEE/ACM International Symposium on Code Generation and Optimization
+San Francisco, California February 2015
+Outlawing Ghosts: Avoiding Out-of-Thin-Air Results (bibtex)
+Hans Boehm and Brian Demsky
+Proceedings of ACM SIGPLAN Workshop on Memory Systems Performance and Correctness
+Edinburgh, United Kingdom June 2014
+A Model Counter For Constraints Over Unbounded Strings (bibtex)
+Loi Luu, Shweta Shinde, Prateek Saxena, and Brian Demsky
+Proceedings of the 35th Annual ACM SIGPLAN Conference on Programming Language Design and Implementation
+Edinburgh, United Kingdom June 2014
+Research Challenges for Approximate Computing (bibtex)
+Brian Demsky
+ISAT/DARPA Workshop on Accuracy Trade-Offs Across the System Stack for Performance and Energy
+Orlando, Florida February 2014
+SInfer: Inferring Information Flow Lattices for Checking Self-Stabilization (bibtex)
+Yong hun Eom and Brian Demsky
+Proceedings of the 24th IEEE International Symposium on Software Reliability Engineering
+Pasadena, California November 2013
+CDSChecker: Checking Concurrent Data Structures Written with C/C++ Atomics (bibtex)
+Brian Norris and Brian Demsky
+Proceedings of the 2013 Conference on Object-Oriented Programming, Systems, Languages, and Applications
+Indianapolis, Indiana October 2013
+Memory Management for Many-Core Processors (bibtex)
+Jin Zhou and Brian Demsky
+Proceedings of the 2012 Internation Symposium on Memory Management
+Beijing, China June 2012
+Self-Stabilizing Java (bibtex)
+Yong hun Eom and Brian Demsky
+Proceedings of the 2012 Conference on Programming Language Design and Implementation
+Beijing, China June 2012
+DOJ: Dynamically Parallelizing Object-Oriented Programs (bibtex)
+Yong hun Eom, Stephen Yang, James C. Jenista, and Brian Demsky
+Proceedings of the ACM SIGPLAN Annual Symposium on Principles and Practice of Parallel Programming
+New Orleans, Louisiana February 2012
+Using Disjoint Reachability for Parallelization (bibtex)
+James C. Jenista, Yong hun Eom, and Brian Demsky
+Proceedings of the 20th International Conference on Compiler Construction
+Saarbrücken, Germany April 2011
+OoOJava: Software Out-of-Order Execution (bibtex)
+James C. Jenista, Yong hun Eom, and Brian Demsky
+Proceedings of the ACM SIGPLAN Annual Symposium on Principles and Practice of Parallel Programming
+San Antonio, TX February 2011
+Automatically Generating Symbolic Prefetches for Distributed Transactional Memories (bibtex)
+Alokika Dash and Brian Demsky
+Proceedings of the ACM/IFIP/USENIX 11th International Middleware Conference
+Bangalore, India November 2010
+Recovery Tasks: An Automated Approach to Failure Recovery (bibtex)
+Brian Demsky, Jin Zhou, and William Montaz
+Proceedings on the First International Conference on Runtime Verification
+Malta November 2010
+OoOJava: An Out-of-Order Approach to Parallel Programming (bibtex)
+James C. Jenista, Yonghun Eom, and Brian Demsky
+Proceedings of the Second USENIX Workshop on Hot Topics in Parallelism
+Berkeley, California June 2010
+Bamboo: A Data-Centric, Object-Oriented Approach to Multi-core Software (bibtex)
+Jin Zhou and Brian Demsky
+Proceedings of the 2010 Conference on Programming Language Design and Implementation
+Toronto, Canada June 2010
+Views: Object-Inspired Concurrency Control (bibtex)
+Brian Demsky and Patrick Lam
+Proceedings of the 2010 International Conference on Software Engineering
+Cape Town, South Africa May 2010
+Evaluating Contention Management Using Discrete Event Simulation (bibtex)
+Brian Demsky and Alokika Dash
+Fifth ACM SIGPLAN Workshop on Transactional Computing
+Paris, France April 2010
+Automatically Tuning Task-Based Programs for Multi-core Processors (bibtex)
+Jin Zhou and Brian Demsky
+The 4th International Workshop on Automatic Performance Tuning
+Tokyo, Japan October 2009
+Slides
+Garm: Cross Application Data Provenance and Policy Enforcement (bibtex)
+Brian Demsky
+4th USENIX Workshop on Hot Topics in Security
+Montreal, Canada August 2009
+AFID: An Automated Fault Identification Tool (bibtex)
+Alex Edwards, Sean Tucker, Sebastien Worms, Rahul Vaidya, and Brian Demsky
+Proceedings of the 2008 International Symposium on Software Testing and Analysis
+Seattle, Washington July 2008
+Slides
+Bristlecone: A Language for Robust Software Systems (bibtex)
+Brian Demsky and Alokika Dash
+Proceedings of the 22nd European Conference on Object-Oriented Programming (Lecture Notes in Computer Science)
+Paphos, Cyprus July 2008
+Slides
+Inference and Enforcement of Data Structure Consistency Specifications (bibtex)
+Brian Demsky, Michael D. Ernst, Philip J. Guo, Stephen McCamant, Jeff H. Perkins, and Martin Rinard
+Proceedings of the 2006 International Symposium on Software Testing and Analysis
+Portland, Maine July 2006
+Data Structure Repair Using Goal-Directed Reasoning (bibtex)
+Brian Demsky and Martin C. Rinard
+Proceedings of the 2005 International Conference on Software Engineering
+St. Louis, Missouri May 2005
+ACM SIGSOFT Distinguished Paper Award
+Slides
+Efficient Specification-Assisted Error Localization (bibtex)
+Brian Demsky, Cristian Cadar, Daniel Roy, and Martin C. Rinard
+Proceedings of the Second International Workshop on Dynamic Analysis
+Edinburgh, Scotland May 2004
+Slides
+Static Specification Analysis for Termination of Specification-Based Data Structure Repair (bibtex)
+Brian Demsky and Martin C. Rinard
+Proceedings of the 14th IEEE International Symposium on Software Reliability Engineering
+Denver, Colorado November 2003
+Slides
+Automatic Detection and Repair of Errors in Data Structures (bibtex)
+Brian Demsky and Martin C. Rinard
+Proceedings of the 18th Annual ACM SIGPLAN Conference on Object-Oriented Programming, Systems, Languages, and Applications
+Anaheim, California October 2003
+Slides
+Automatic Data Structure Repair for Self-Healing Systems (bibtex)
+Brian Demsky and Martin C. Rinard
+First Workshop on Algorithms and Architectures for Self-Managing Systems
+San Diego, California June 2003
+Slides
+Role-Based Exploration of Object-Oriented Programs (bibtex)
+Brian Demsky and Martin C. Rinard
+Proceedings of the 2002 International Conference on Software Engineering
+Orlando, Florida May 2002
+Slides
+Journals
+A Practical Approach for Model Checking C/C++11 Code (bibtex)
+Brian Norris and Brian Demsky
+ACM Transactions on Programming Languages and Systems (TOPLAS)
+Volume 38, Number 3, May 2016
+Integrating File Operations into Transactional Memory (bibtex)
+Brian Demsky and Navid Farri Tehrany
+Journal of Parallel and Distributed Computing
+Volume 71, Number 10, October 2011
+Views: Synthesizing Fine-Grained Concurrency Control (bibtex)
+Brian Demsky and Patrick Lam
+Transactions on Software Engineering and Methodology
+Volume 22, Number 1, March 2013
+Using Discrete Event Simulation to Analyze Contention Managers (bibtex)
+Brian Demsky
+International Journal of Parallel Programming
+Volume 39, Number 6, December 2011
+Integrating Caching and Prefetching Mechanisms in a Distributed Transactional Memory (bibtex)
+Alokika Dash and Brian Demsky
+IEEE Transactions on Parallel and Distributed Systems
+Volume 22, Number 8, August 2011
+AFID: An Automated Approach to Collecting Software Faults (bibtex)
+Alex Edwards, Sean Tucker, and Brian Demsky
+Automated Software Engineering Journal
+Volume 17, Number 3, September 2010
+Cross Application Data Provenance and Policy Enforcement (bibtex)
+Brian Demsky
+ACM Transactions on Information and System Security
+Volume 14, Number 1, May 2011
+Bristlecone: Language Support for Robust Software Applications (bibtex)
+Brian Demsky and Sivaji Sundaramurthy
+IEEE Transactions on Software Engineering
+Volume 37, Number 1, Jan-Feb 2011
+Automatic Extraction of Heap Reference Properties in Object-Oriented Programs (bibtex)
+Brian Demsky and Martin Rinard
+IEEE Transactions on Software Engineering
+Volume 35, Number 3, May-June 2009
+Goal-Directed Reasoning for Specification-Based Data Structure Repair (bibtex)
+Brian Demsky and Martin C. Rinard
+IEEE Transactions on Software Engineering
+Volume 32, Number 12, December 2006
+Cavity dark states for quantum computing (bibtex)
+M.S. Shahriar, J.A. Bowers, B. Demsky, P.S. Bhatia, S. Lloyd, P.R. Hemmer, and A.E. Craig
+Optics Communications
+Volume 195, Number 5-6, August 2001
+Technical Reports
+Disjoint Reachability Analysis (bibtex)
+James C Jenista, Yong hun Eom, and Brian Demsky
+Technical Report UCI-ISR-10-4
+June 2010
+Disjointness Analysis for Java-Like Languages (bibtex)
+James C. Jenista and Brian Demsky
+Technical Report UCI-ISR-09-1 REVISED
+April 2009
+Software Transactional Distributed Shared Memory (bibtex)
+Alokika Dash and Brian Demsky
+Technical Report UCI-ISR-09-2
+February 2009
+Disjointness Analysis for Java-Like Languages (bibtex)
+James C. Jenista and Brian Demsky
+Technical Report UCI-ISR-09-1
+February 2009
+Static Analysis of Task Interactions in Bristlecone for Program Understanding (bibtex)
+Brian Demsky and Sivaji Sundaramurthy
+Technical Report UCI-ISR-07-7
+October 2007
+Bristlecone: A Language for Robust Software Systems (bibtex)
+Brian Demsky and Alokika Dash
+Technical Report UCI-ISR-07-6
+October 2007
+Data Structure Repair Using Goal-Directed Reasoning (bibtex)
+Brian Demsky and Martin C. Rinard
+MIT LCS Technical Report 950
+May 2004
+Efficient Specification-Assisted Error Localization and Correction (bibtex)
+Brian Demsky, Cristian Cadar, Daniel Roy, and Martin C. Rinard
+MIT CSAIL Technical Report 927
+November 2003
+Automatic Detection and Repair of Errors in Data Structures (bibtex)
+Brian Demsky and Martin C. Rinard
+MIT LCS Technical Report 875
+December 2002
+Posters
+Securing Smart Home Devices against Compromised Cloud Servers (bibtex)
+Rahmadi Trimananda, Ali Younis, Thomas Kwa, Brian Demsky, and Harry Xu
+Poster presentation at the 3rd USENIX Workshop on Hot Topics in Edge Computing (HotEdge 2020)
+Virtual June 2020
+Slides
+Symbolic Prefetching in Transaction Distributed Shared Memory (bibtex)
+Alokika Dash and Brian Demsky
+Poster at the 2010 ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming
+Bangalore, India January 2010
+Software Transactional Distributed Shared Memory (bibtex)
+Alokika Dash and Brian Demsky
+Poster at the 2009 ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming
+Raleigh, North Carolina February 2009
+Thesis
+Data Structure Repair Using Goal-Directed Reasoning (bibtex)
+Brian Demsky
+Ph.D. Thesis, MIT
+January 2006
+Slides
+An Empirical Study of Technologies to Implement Servers in Java (bibtex)
+Brian C. Demsky
+M.S. Thesis, MIT
+May 2001
+
+
+
+
+
+
+
+
+
+
+
+Back to Top 
+
+

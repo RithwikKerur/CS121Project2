@@ -1,0 +1,100 @@
+http://www.ics.uci.edu/~smyth/courses/cs274
+
+
+CS 274A | Winter 2022
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+  CS 274A: Probabilistic Learning: Theory and Algorithms, Winter 2022 
+ General Information 
+
+ Lectures on Monday and Wednesday, 9:30 to 10:50am. This will be a remote course for all 10 weeks in Winter 2022. Lectures will be on Zoom  at scheduled times with the Zoom link available via Canvas. Recordings of lectures will be available later for review.
+ Instructor: 
+Professor Padhraic Smyth: Office Hours (on Zoom), Thursdays 5:30 to 6:30
+  TA:  Kun Han: Office Hours (on Zoom), Monday and Thursday afternoons, 4:30 to 5:30pm   
+
+Syllabus and Schedule 
+  Class Notes, Background Reading, Textbooks: 
+ 
+  Class Notes and links to additional reading 
+  Relevant Textbooks for additional reading 
+
+ Questions?  please use the Ed Discussion platform (accessible via Canvas) for all questions to the instructor and TA. You can post your questions publicly to the class (e.g., lecture or homework related clarification questions) or privately to the instructor or TA. Feel free to answer questions that other students post (e.g., clarification questions about lectures or homeworks). Please do not use email unless EdD does not work for some reason.
+
+
+
+ Background knowledge for taking this class 
+Knowledge of basic concepts in probability, multivariate calculus, and linear algebra are important for this course. 
+A good understanding of basic concepts in probability is particularly important.  
+ NOTE: if you are not sure whether you have the relevant background or not, please read Chapters 5.1 to 5.5 and 6.1 to 6.5 in    Mathematics for Machine Learning: you should be comfortable with this material to take this class. 
+Alternatively, if you have already taken some ML and/or statistics courses, its possible that this course might mostly cover material you already know: please read the course syllabus to make sure this course is matched to your interests.
+
+
+Homeworks
+
+ Approximately 5 or 6 homeworks during the quarter. Homeworks and deadlines will be posted here as they become available. Homeworks will be submitted and graded via Gradescope.
+
+ Homework 1.   
+Due by 11:59pm Tuesday January 11th. 
+
+
+ Homework 2.   
+Due by 11:59pm Sunday Jan 23rd.
+
+
+ Homework 3.   
+Due by 11:59pm Thursday Feb 3rd.
+
+
+ Homework 4.   
+Due by 11:59pm Wednesday Feb 16th.
+
+
+ Homework 5 with 
+ data and Python code.   
+Due by 11:59pm Monday Feb 28th.
+
+
+ Homework 6 with 
+ datasets and Python templates.   
+Due by 11:59pm Friday March 11th.
+
+
+
+
+
+ Course Goals 
+Students will develop a comprehensive understanding of probabilistic approaches to machine learning. 
+Probabilistic learning is a key component in many areas within modern computer science, 
+including artificial intelligence, data mining, speech recognition, computer vision, bioinformatics, and so forth. 
+The course will provide a tutorial introduction to the basic principles of probabilistic modeling and then 
+demonstrate the application of these principles to the analysis, development, and practical 
+use of machine learning algorithms.  Topics covered will include probabilistic modeling, 
+defining likelihoods, parameter estimation using likelihood and Bayesian techniques, 
+probabilistic approaches to classification, clustering, and regression, and related topics 
+such as model selection and bias/variance tradeoffs. References to approaches such as deep learning will be mentioned where appropriate, but be aware that this is not a course that goes into depth on deep learning methods.
+
+
+ Grading Policy 
+Final grades will be based on a combination of homework assignments and exams: 50% homeworks, 20% midterm, and 30% final. 
+Your lowest scoring homework will be dropped and not included in your score. No credit for late homeworks.  
+
+
+ Academic Integrity 
+Students are expected to be read and be familiar with the Academic
+Integrity Policy for this class. 
+Failure to adhere to this policy can result in a student receiving a failing grade in the class.  
+
+
+

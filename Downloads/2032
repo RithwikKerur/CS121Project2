@@ -1,0 +1,96 @@
+http://www.ics.uci.edu/~smyth/courses/cs175
+
+
+CS 175 | Fall 2022
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+  CS 175: Project in Artificial Intelligence, Fall 2022 
+
+ General Information 
+
+ Lecture Times:  Tuesday and Thursday, 2:00pm to 3:20pm 
+ Location:  Social Science Lab, SSL 228
+
+ Instructor: 
+Professor Padhraic Smyth, 
+   Office Hours: Weeks 1 to 4: Wednesday, 5 to 6pm, on Zoom. For weeks 5 through 10, office hours will be in person during lecture times (2 to 3:20 on Tues/Thurs).
+   
+
+ Teaching Assistants:
+
+  Mitra Bezhadi, Office hours: Wednesdays, 2-4pm 
+  Markelle Kelly,  Office hours: Thursdays, 11:30am to 1:30pm, in ICS1 458A 
+
+ Discussion Sections:  HICF 100N, Fridays at 2pm and at 3pm 
+
+
+
+ Weekly Schedule  
+
+ Lecture Slides:  will be  available online after each lecture  
+
+
+ Project Resources
+
+  Reference Texts  
+  Ideas and Resources for Projects 
+  Examples of Datasets for Projects 
+  Software  
+
+ Questions?  Use the Ed discussion board   (accessible via Canvas) for all of your questions to the instructor or TA.  Please do not use email. Ed is your first option for asking questions outside of class or office hours. Please also feel free on Ed to answer other students' clarification questions about assignments, to initiate
+discussions on project-related topics, etc. 
+To communicate directly with only the instructor and/or TA you can send a private message to them within Ed.  
+
+
+
+ Course Description  
+Students in this project class will work in teams to develop 
+artificial intelligence and machine learning algorithms with a particular focus on natural language and text analysis. These problems can include, for example, document classification 
+and clustering, sentiment analysis, dialog/chatbot systems, information extraction, word prediction, text synthesis, question-answering systems,
+and so on. Projects can make use of real-world publicly-available data from sources such as Twitter, Wikipedia, Reddit, news articles, 
+product and movie reviews, email data sets, the US patent database, and more. 
+Note: this offering of CS 175 will focus on text/natural-language aspects of AI. If you are interested in other topics (e.g., game-playing agents, computer vision, etc) you may want to  take a different offering of this course in Winter or Spring quarter.
+
+
+
+
+Assignments  
+ There will be 2 individual assignments in the first 2 weeks of the course and then project reports and updates (by group) after that. Assignments will be posted and submitted via Canvas.
+
+
+
+
+ Grading Policy   A weighted combination of Assignments 1 and 2 (10% each, individual submission),  project proposal (20%, team-based), progress report (20%, team-based), weekly updates (10%, individual submission), in-class presentation (5%, team-based), and final report (25%, team-based).  
+
+
+
+ Academic Integrity  
+Please read the guidelines on academic integrity below. Academic integrity is taken seriously in this class.  
+
+ Failure to adhere to the policies below can result in a student receiving a failing grade in the class.  
+
+ For individual assignments you are allowed to discuss the assignments verbally (no written communication) with other class members. You are not allowed to look at or to copy anyone else's written solutions or code. 
+All problem solutions and code submitted must be material you have personally written during 
+this quarter, except for any standard publicly-available library or utility functions. 
+  For team projects all the text in your reports  must be written by you or members of your project team. If you wish to quote text from another source you need to clearly indicate this by putting it in within quotation marks or in italic font and providing a citation to the source. 
+The code that you use for your class projects will be a combination of code written by you and your team members and publicly-available library code. You should clearly indicate in your reports and in your
+code documentation which parts of your code was written by you or your team
+and which parts of your code were imported from somewhere else. 
+  It is the responsibility of each student to be familiar with 
+UCI's Academic Integrity Policies
+and
+ UCI's definitions and examples of
+academic misconduct.
+
+

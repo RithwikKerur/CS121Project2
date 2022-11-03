@@ -1,0 +1,177 @@
+https://ngs.ics.uci.edu/where-20-first-afternoon
+
+
+
+
+
+
+
+
+Where 2.0 (first afternoon) – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Where 2.0 (first afternoon)    			
+
+
+Based on several presentations in the afternoon on June 29, it is obvious that people â€“ or developers from many different areas â€“ have realized that information displayed on maps, where relevant, is very compelling.  Many applications were shown.  The basic idea is to attach relevant information to its geographic location.
+In a way, this is using an array, currently a 2-dimensional, of data that represents the surface of the earth.  This array can contain different attributes, really any attributes, or any other annotations.  And this becomes attached to that location.  A major difference in this array and a regular array in programming is that each element is a location on earth and hence is not independent of its neighboring locations.  There are some spatial relationships among these array indices and thatâ€™s what makes them maps.  The ground truth (pun intended) under these array elements is what we call maps.  And this ground truth is maintained by all these mapping agencies.  They also provide tools to navigate through this array in spatially meaningful way.  And thatâ€™s what mapping is all about.  With powerful computing tools it can be done very fast, with emerging web technology it can be represented, maintained, shared, and accessed easily and rapidly.  At Where 2.0 this fundamental concept is demonstrated in compelling form.
+My talk on experiential computing was different from other talks because it emphasized the importance of When with Where in the context of events.  It also emphasized the role of experiencing events and treating events just as an item on a calendar.  Here is the description of my presentation from the conference program (  http://conferences.oreillynet.com/cs/where2005/view/e_sess/7411 )
+Session
+Experiential Computing
+Ramesh Jain 
+Date: Wednesday, June 29
+Time: 4:30pm – 4:45pm
+Location: Grand Ballroom
+ TrackBack
+Computing began with a focus on data and later shifted to information and communication. To address the requirements of todayâ€™s emerging network-based applications and mobile hand-computer-phone dominated society, the focus must shift again, this time to experience and insight. Events are central to experiences. Now that the cyberspace and physical world have started mingling with each other, technical infrastructure must go beyond objects and deal with events also. Event representation requires dealing with time and space as primary attributes and with both informational as well as experiential data sources. We present a system that will bring information as well 
+
+
+
+By Ramesh |
+    				June 30, 2005 |
+    				             		Technical Thoughts |
+             	 
+    				             		No Comments |
+             	 		          				
+    			
+
+
+← First morning of Where 2.0
+Events and paradigms →
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

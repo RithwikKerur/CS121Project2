@@ -1,0 +1,740 @@
+http://www.ics.uci.edu/~vazirani
+
+Vijay V. Vazirani
+
+
+
+
+Vijay V. Vazirani
+
+
+
+Distinguished Professor
+ Computer Science Department  
+ University of California, Irvine 
+
+
+Director, 
+  ACO Center @ UCI 
+
+
+
+Ph.D., University of California, Berkeley 
+S.B., Massachusetts Institute of Technology 
+
+
+
+
+
+
+
+Two Recent Talks:
+
+1).    Online Bipartite Matching and Adwords
+
+  Talk at Institute of Advanced Studies, Princeton, March 2022..
+
+
+2).   New Insights into Shapley-Shubik
+
+  Talk at Harvard University, April 2022..
+
+
+
+
+
+
+
+
+
+
+
+
+
+Some Interesting Asides:
+
+
+1).   My father's books
+
+2).    TCS: Looking into the Future
+
+3).    A worthy cause
+
+Research Interests
+
+Algorithmic problems in mathematical economics and game theory,
+design of efficient exact and approximation algorithms, 
+computational complexity theory.
+
+
+Books
+
+
+
+ 1). Approximation Algorithms, Springer-Verlag, Berlin, 2001.
+ Preface, Table of Contents, and Chapter 1.
+
+
+Translations:
+
+
+ Japanese
+
+ Polish 
+
+ French
+
+ Chinese 
+
+
+
+
+
+2). Algorithmic Game Theory,
+Noam Nisan, Tim Roughgarden, Eva Tardos, and Vijay V. Vazirani, editors,
+Cambridge University Press, Cambridge, 2007.
+
+ Non-printable version
+on the web and
+
+DIMAP Workshop (Warwick University)  introducing the book.
+
+
+
+
+
+
+
+3). Online and Matching-Based Market Design,  Federico Echenique, Nicole Immorlica and Vijay V. Vazirani, editors,  
+Cambridge University Press, Cambridge, to appear in 2022. 
+
+See flyer.
+
+
+
+Some Algorithms-Oriented Chapters:
+
+
+ 1). Two-Sided Matching Markets
+
+
+ 2). One-Sided Matching Markets
+
+
+ 3). Matching Markets with Transfers and Salaries
+
+
+ 4). Online Matching
+
+
+ 5). Online Matching  in Advertisement Auctions
+
+
+
+Selected Recent Papers
+
+Matching-Based Papers
+
+
+
+		``A Theory of Alternating Paths and Blossoms, from the Perspective of Minimum Length'', Submitted to Math of Operations Research, 2021.
+
+
+
+
+		"Towards a Practical, Budget-Oblivious Algorithm for the Adwords Problem under Small Bids", Submitted 2022. 
+                
+
+
+
+
+                ``The General Graph Matching Game: Approximate Core'', Games and Economic Behavior, vol 132 (2022).
+
+
+
+
+		``Cores of Games via Total Dual Integrality, with Applications to Perfect Graphs and Polymatroids'', arXiv, 2022.
+
+
+
+
+		``New Characterizations of Core Imputations of Matching and b-Matching Games'', arXiv, 2022.
+
+
+
+
+		``Online Bipartite Matching and Adwords'', Mathematical Foundations of Computer Sceince, 2022.
+
+
+
+
+		``Combinatorial Algorithms for Matching Markets via Nash Bargaining: One-Sided, Two-Sided and Non-Bipartite*'', 
+with I. Panageas and T. Trobst,  arXiv, 2021.
+
+
+
+
+		``Nash-Bargaining-Based Models for Matching Markets: One-Sided and Two-Sided; Fisher and Arrow-Debrew'', 
+with M. Hosseini, ITCS, 2022.
+
+
+
+
+		``One-Sided Matching Markets with Endowments: Equilibria and Algorithms'',
+with J. Garg and T. Trobst,  AAMAS, 2022.
+
+
+
+
+                ``An Extension of the Birkhoff-von Neumann Theorem to Non-Bipartite Graphs'', arXiv, 2020.
+
+
+
+
+''A Structural and Algorithmic Study of Stable Matching Lattices of ``Nearby'' Instances, with Applications'',
+with R. Gangam, T. Mai and N. Raju, in arXiv, 2022.
+
+
+
+
+``Stability-Preserving, Time-Efficient Mechanisms for School Choice in Two Rounds'',
+with K. Gajulapalli,, J. Liu and T. Mai, FSTTCS, 2020.
+
+
+
+
+``Computational Complexity of the Hylland-Zeckhauser Scheme for One-Sided Matching Markets'',
+with M. Yannakakis, ITCS, 2021.
+
+
+
+``A Real Polynomial for Bipartite Graph Minimum Weight Perfect Matchings'',
+	with T. Trobst, Information Processing Letters, 2022. 
+
+
+
+
+``Matching is as Easy as the Decision Problem, in the NC Model'',
+with N. Anari,  ITCS, 2020.
+
+
+
+
+``Planar Graph Perfect Matching is in NC''.
+with N. Anari,  FOCS, 2018. Journal of ACM 67(4), 2020. 
+
+
+
+
+        ``NC Algorithms for Perfect Matching and Maximum Flow
+in One-Crossing-Minor-Free Graphs''.
+with D. Eppstein,  SIAM J. COMPUT 50(3), 2021.
+
+
+
+
+``Finding Stable Matchings that are Robust to Errors in the Input''.
+with T. Mai, ESA, 2018.
+
+
+
+Algorithms for Markets and Bargaining
+
+
+
+``Nash Social Welfare for Indivisible Items under Separable, Piecewise-Linear Concave Utilities''.
+with N. Anari, T. Mai and S. Oveis Gharan, SODA, 2018.
+
+
+
+``A Performance-Based Scheme for Pricing Resources in the Cloud''.
+with K. Jain and T. Mai, WINE, 2017.
+
+
+
+``Settling the Complexity of Arrow-Debreu Markets under Leontief
+and PLC Utilities, using the Classes FIXP and âˆƒR''.
+with J. Garg, R. Mehta and S. Yazdanbod, STOC, 2017.
+
+
+
+
+``Convex Program Duality, Fisher Markets, and Nash Social Welfare''.
+with R. Cole, N. Devanur, V. Gkatzelis, K. Jain, T. Mai and S. Yazdanbod, ACM EC, 2017.
+
+
+
+
+``A New Class of Combinatorial Markets with Covering Constraints: Algorithms and Applications''.
+with N. Devanur, J. Garg, R. Mehta and S. Yazdanbod, SODA, 2017.
+
+
+
+
+``Allocation of Divisible Goods under Lexicographic Preferences'',
+with L. Schulman, FSTTCS (2015).
+
+
+
+
+``Dichotomies in Equilibrium Computation, and Complementary Pivot Algorithms for a New Class of Non-Separable Utility Functions'',
+with J. Garg and R. Mehta, STOC (2014).
+
+
+
+
+	``An Incentive Compatible, Efficient Market for Air Traffic Flow Management,
+with R. Mehta, Theoretical Computer Science (2020). 
+
+
+
+
+``On Computability of Equilibria in Markets with Production'',
+with J. Garg,  SODA (2014).
+
+
+
+
+``A Complementary Pivot (Practical) Algorithm for Markets Under Separable, Piecewise-Linear Concave Utilities'',
+with J. Garg, R. Mehta and M. Sohoni, STOC (2012).
+
+
+
+
+``The Notion of a Rational Convex Program, and an Algorithm for the Arrow-Debreu Nash Bargaining Game'',
+Journal of ACM, vol. 59(2) (2012).
+
+
+
+
+	``Market Equilibrium under Separable, Piecewise-Linear, Concave Utilities'',
+with M. Yannakakis,  Journal of ACM, vol. 58(3) (2011).
+
+
+
+
+	``Equilibrium Pricing of Semantically Substitutable Digital Goods'',
+with K. Jain, in arXiv, (2012).
+
+
+
+
+``How Many Tiers? Pricing in the Internet Transit Market'',
+with V. Valancius, C. Lumezanu, N. Feamster and R. Johari,
+SIGCOMM (2011).
+
+
+
+
+``Non-Separable, Concave Utilities are Easy -- in a Perfect Price Discrimination Market Model'', 
+SIAM J. Discrete Math, 27(1) (2013).
+
+
+
+
+``Rational Convex Programs and Efficient Algorithms for 2-Player Nash and Nonsymmetric Bargaining Games'',  
+SIAM J. Discrete Math, 26(3) (2012).
+
+
+
+
+	``A Perfect Price Discrimination Market Model with Production, and a Rational Convex Program for it'',
+with G. Goal, Math of Operations Research, 36: 762-782 (2011).
+
+
+
+
+``Continuity Properties of Equilibrium Prices and Allocations in Linear Fisher Markets'',
+with N. Megiddo, WINE (2007).
+
+
+
+
+``Spending Constriant Utilities, with Applications to the Adwords Market'',
+Math of Operations Research 35(2), 2010.
+
+
+
+
+``New Results on Rationality and Strongly Polynomial Solvability in Eisenberg-Gale Markets with Two Agents'',
+with D. Chakrabarty and N. Devanur, SIAM J. Discrete Math, 24(3), 2010.
+
+
+
+
+``Eisenberg-Gale Markets: Algorithms and Game-Theoretic Properties'',
+with K. Jain, Games and Economic Behavior, 70(1), 2010.
+
+
+
+
+``Adwords and Generalized Online Matching'',
+with A. Mehta, A. Saberi and U. Vazirani, Journal of ACM 54(5), 2007.
+SIAM News  article by
+ Sara Robinson on this work.
+
+
+
+
+``Market Equilibria for Homothetic, Quasi-Concave Utilities and Economies of Scale in Procudtion'',
+with K. Jain and Y. Ye, SODA (2005). 
+
+
+
+
+``Rate Control as a Market Equilibrium'',
+with F. P. Kelly, unpublished note (2002).
+
+
+
+
+``Market Equilibrium via a Primal-Dual Algorithm for a Convex Program'',
+with N. Devanur, C. Papadimitriou, and A. Saberi, Journal of ACM, vol. 55(5) (2008).
+
+
+
+Other Recent Papers
+
+
+
+``Cycles in Zero-Sum Differential Games and Biological Diversity'',
+with T. Mai, M. Mihail, I. Panageas, W. Ratcliff and P. Yunker, ACM EC, 2018.
+
+
+
+
+``Mutation, Sexual Reproduction and Survival in Dynamic Environments'',
+with R. Mehta, I. Panageas, G. Piliouras and P. Tetali, ITCS, 2017.
+
+
+
+
+``Settling Some Open Problems on 2-Player Symmetric Nash Equilibria'',
+with R. Mehta and S. Yazdanbod, SAGT (2015).
+
+
+
+
+``ETR-Completeness for Decision Versions of
+Multi-Player (Symmetric) Nash Equilibria'',
+with J. Garg, R. Mehta and S. Yazdanbod, ICALP (2015).
+
+
+
+
+``New Geometry-Inspired Relaxations and Algorithms for
+the Metric Steiner Tree Problem'',
+with D. Chakrabarty and N. Devanur,  Math Programming, Series A  (2009).
+
+
+
+
+``Solvency Games'',
+with N. Berger, N. Kapur, and L. Schulman, FSTTCS 2008.
+
+
+
+
+``Design is as Easy as Optimization'',
+with D. Chakrabarty and A. Mehta, SIAM Journal on Discrete Math, 24(1) (2010).
+
+
+
+
+``Diversity in Times of Adversity: Probabilistic Strategies in Microbial Survival Games'',
+with D. Wolf and A. Arkin, Journal of Theoretical Biology, vol. 234, 2005.
+
+ Reviewed in Faculty of 1000.
+
+
+
+
+``A Microbial Modified Prisoner's Dilemma Game: How Frequency-Dependent Selection can Lead to Random Phase Variation'',
+with D. Wolf and A. Arkin, Journal of Theoretical Biology, vol. 234, 2005.
+
+
+
+
+``The Spending Constraint Model for Market Equilibrium:
+Algorithmic, Existence and Uniqueness Results'',
+with N. Devanur, STOC 2004.
+
+
+
+
+``On the Capacity of Multiple Unicast Sessions in Unidrected Networks'',
+with K. Jain, R. Yeung and G. Yuval,  ISIT 2005.
+
+
+
+
+``Improved Simulated Annealing Algoirthm for the Permanent and Combinatorial Counting
+Problems'',
+with I. Bezakova, D. Stefankovic and E. Vigoda, SIAM Journal of Computing, 37(5) (2008) 1429 -1454.
+
+
+
+
+``A stochastic process on the hypercube with applications to peer-to-peer
+networks'',
+with M. Adler, E. Halperin, and R. M. Karp, Proc. STOC 2003.
+
+
+
+
+``Greedy Facility Location Algorithms Analyzed using Dual Fitting with
+Factor-Revealing LP'',
+with K. Jain, M. Mahdian, E. Markakis, and A. Saberi,
+Journal of ACM, 50(6) (2003), 795-824.
+
+
+
+
+``A computationally motivated definition of parametric estimation
+and its applications to the Gaussian distribution'',
+with L. J. Schulman, Combinatorica 25(4) (2005) 465-486.
+
+
+
+
+``Applications of Approximation Algorithms to Cooperative Games'',
+with K. Jain, Proc. STOC 2001.
+
+
+
+
+``Approximation Algorithms for Metric
+Facility Location and k-Median Problems
+Using the Primal-Dual Schema and Lagrangian Relaxation'',
+with K. Jain, Journal of ACM, Vol. 48 (2001) 274-296.
+
+
+
+
+``A Graph Theoretic Approach to Software Watermarking'',
+with R. Venkatesan and S. Sinha, 4th International Information Hiding
+Workshop, Pittsburgh (2001).
+
+
+
+
+``Pfaffian Orientations, 0/1 Permanents, and Even Cycles in Directed Graphs.'',
+with M. Yannakakis, Discrete and Applied Mathematics, 25. (1989).
+
+
+
+
+Other Selected Papers:  Click here  
+
+Selected Talks
+
+  Online Bipartite Matching and Adwords
+
+  Talk at Institute of Advanced Studies, Princeton, March 2022..
+
+
+  New Insights into Shapley-Shubik
+
+  Talk at Harvard University, April 2022..
+
+
+TAU Theory-Fest, Plenary Session, 2019:               Matching is as Easy as the Decision Problem, in the NC Model.
+
+
+
+
+Simons Institute Richard M. Karp Distinguished Lecture, 2019:  Algorithmic Opportunities in Matching Markets.
+
+
+Simons Institute, 2018:  Google's AdWords Market: How Theory Influenced Practice.
+
+
+ University of Washington TV, 2010: 	
+	The "Invisible Hand of the Market": Algorithmic Ratification and the Digital Economy.
+
+
+Two talks for the algorithmically inclined on
+``Combinatorial Algorithms for Convex Programs Capturing Market Equilibria and Nash Bargaining Solutions''
+
+
+
+Egervary Research Group on Combinatorial Optimization, Budapest, Hungary, September 2009.
+
+
+ 1) The Problems
+
+ 2) Algorithms
+
+
+
+
+``Nash Bargaining via Flexible Budget Markets''
+   talk ppt
+
+ Youtube, Google Research, September 2008.
+
+
+
+
+``New Market Models and Algorithms''
+   talk ppt
+
+ Webcast from Microsoft Research, May 2006.
+
+ ACO Distinguished Lecture, April 2006.
+
+
+
+
+``Markets and the Primal-Dual Paradigm''
+   talk ppt
+
+
+Keynote address, DIMAP Workshop, Warwick University, March 2007.
+
+
+MS&E Colloquium (Distinguished lecture), Stanford University, May 2007.
+
+
+Plenary talk, WINE, San Diego, December 2007.
+
+
+
+Past and Present Ph.D. Students
+
+
+ Mark Krentel
+
+ Samir Khuller
+
+ Naveen Garg
+
+ Kamal Jain
+
+ Ion Mandoiu
+
+ Amin Saberi
+
+ Aranyak Mehta
+
+Nikhil R. Devanur
+
+ Deeparnab Chakrabarty
+
+ Gagan Goel
+
+ Chinmay Karande
+
+ Lei Wang
+
+ Pushkar Tripathi
+
+Sadra Yazdanbod
+
+Tung Mai
+
+Thorben Trobst
+
+Rohith Reddy Gangam
+
+Nitya Raju
+
+Parnian Shahkar
+
+Nikolas Patris
+
+
+
+Past and Present Postdocs
+
+
+ Gagan Goel
+
+Laszlo Vegh
+
+Ruta Mehta
+
+Jugal Garg
+
+Tung Mai
+
+
+
+
+Selected Workshops and Programs Co-organized
+
+
+
+
+Computational Issues in Game Theory and Mechanism Design,
+DIMACS, October 2001.
+
+
+
+
+Algorithmic Game Theory and the Internet
+Schloss Dagstuhl, Germany, July 2003.
+
+
+
+Workshop on the Interface between Biology and Game Theory
+DIMACS, Rutgers, April 2004.
+
+
+
+Equilibrium Computation
+Schloss Dagstuhl, Germany, April 2010.
+
+
+
+
+Approximation Algorithms: The Last Decade and the Next
+Princeton University, June 2011.
+
+
+
+Equilibrium Computation
+Schloss Dagstuhl, Germany, August 2014.
+
+
+
+Online and Matching-Based Market Design,
+Simons Institute, Fall 2019.
+
+
+
+
+Workshops on the Computational Worldview and the Sciences:
+
+1).  
+Princeton, NJ, December 11 and 12, 2006.
+
+2). 
+Caltech, CA, March 15 and 16, 2007.
+
+
+
+Selected Blog Posts
+
+
+Like a Swarm of Locusts...
+Blind Folks and the Evolving Elephant
+A Market for TCS Papers??
+A New ACO Center
+Radical change to Conferences
+The Choices Are: Slick and Exponential, or Brute Force and Polynomial
+Foundational ... or simply a curiosity
+Vazirani: Seeking Combinatorial Algorithms for Convex Programs
+Noam and I
+
+
+
+
+Department of Computer Science
+Donald Bren School of Information and Computer Sciences
+University of California, Irvine
+4032 Donald Bren Hall
+Irvine, CA 92697-3435
+vazirani AT ics DOT uci DOT edu
+
+

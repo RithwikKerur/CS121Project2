@@ -1,0 +1,104 @@
+https://sli.ics.uci.edu/PmWiki/UTF-8
+
+
+
+SLI | PmWiki / UTF-8 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+UTF-8
+
+
+
+
+
+
+Summary: Enabling UTF-8 Unicode language encoding in your wiki. 
+
+UTF-8 supports all languages and alphabets, including Asian languages and their character depth. It is a widely supported and flexible character encoding. 
+
+It's fairly simple to enable UTF-8 on your wiki pages. Current PmWiki versions have the UTF-8 file which needs to be enabled.
+
+Enabling UTF-8 on a new wiki
+If you start a new wiki in any language with the latest PmWiki version, it is highly recommended to enable UTF-8. In the future, PmWiki will change to use the UTF-8 encoding by default, so if you already use it, you will not need a complex "migration" to UTF-8 later.
+
+To enable UTF-8 for a new wiki, add this line near the beginning of config.php:
+
+  include_once("scripts/xlpage-utf-8.php");
+This line should come before a call to the XLPage() function in international wikis.
+
+Enabling UTF-8 on existing wikis
+Currently, this is possible only if your group and page names, as well as upload names, don't contain international characters. The names of wiki pages are used as file names, and we don't have yet an easy way to rename the disk files.
+
+If your wiki doesn't have international page/file names, first upgrade to the latest PmWiki version. To enable UTF-8, add these lines near the beginning of config.php:
+
+  include_once("scripts/xlpage-utf-8.php");
+  $DefaultPageCharset = array(''=>'ISO-8859-1'); # see below
+These lines should come before a call to the XLPage() function in international wikis.
+
+The $DefaultPageCharset line is there to fix and correctly handle some pages with missing or wrong attributes, created by older PmWiki versions.
+
+Most wikis in European languages are likely to be in the ISO-8859-1 encoding and should use: $DefaultPageCharset = array(''=>'ISO-8859-1');
+Wikis in Czech and Hungarian language are likely to be in the ISO-8859-2 encoding, they should use this line instead:  $DefaultPageCharset = array(''=>'ISO-8859-2', 'ISO-8859-1'=>'ISO-8859-2'); 
+Wikis in Turkish language are likely to be in the ISO-8859-9 encoding, they should use this line instead:  $DefaultPageCharset = array(''=>'ISO-8859-9', 'ISO-8859-1'=>'ISO-8859-9'); 
+You should also delete the file  wiki.d/.pageindex. This file contains a cache of links and words from your pages and is used for searches and pagelists. PmWiki will rebuild it automatically with the new encoding.
+
+Notes
+You need to save your config.php file in the UTF-8 encoding, and "Without Byte Order Mark (BOM)". See Character encoding of config.php.
+This page concerns the most recent versions of PmWiki. See Cookbook:UTF-8 for tips on older versions.
+In the case your pmwiki installation displays wrong encoding, or save an UTF-8 page to an other encoding without explanation, you can double check your custom .htaccess settings at the root of your served pages.
+
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:UTF-8, and  a talk page: PmWiki:UTF-8-Talk.
+
+
+
+
+
+
+ Last modified September 13, 2016, at 11:47 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

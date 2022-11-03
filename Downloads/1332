@@ -1,0 +1,131 @@
+http://plrg.ics.uci.edu/software_page/views
+
+
+
+
+
+
+
+
+Views – Programming Languages Research Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+									Programming Languages Research Group								
+
+
+
+
+
+
+Brian Demsky
+Students
+Publications
+Software
+
+Software Verifiers
+
+PSan
+Yashme
+Jaaru
+Satune
+C11Tester
+
+
+Software for Relaxed Memory Models
+Irvine Research Java Compiler
+Views
+Smart Home
+
+Fidelius
+IoTCheck
+PingPong
+Vigilia
+
+
+
+
+Navigation
+
+
+
+
+ 
+
+
+
+
+
+
+
+Views are a novel language extension which enables developers to declaratively specify fine-grained (sub-object-level) locking policies. Views provide static support for detecting many race conditions.
+Publications
+Views: Synthesizing Fine-Grained Concurrency Control
+(Postscript)
+Brian Demsky and Patrick Lam
+Under review for publication in ACM Transactions on Software Engineering and Methodology
+Views: Object-Inspired Concurrency Control
+(Postscript)
+Brian Demsky and Patrick Lam
+Proceedings of the 2010 International Conference on Software Engineering
+May 2010
+View Compiler
+View Compiler Version 1.0
+Benchmarks
+Vuze
+Mailpuccino
+jphonelite
+TupleSoup
+
+Please contact  bdemsky@uci.edu for more information.
+
+
+Please contact  p.lam@ece.uwaterloo.ca for more information.
+
+
+
+
+
+
+
+
+
+
+
+
+Back to Top 
+
+

@@ -1,0 +1,781 @@
+http://computableplant.ics.uci.edu/papers
+
+
+
+Research Overview
+
+
+
+
+
+
+
+
+Eric Mjolsness, and the UCI
+
+ Scientific Inference Systems Laboratory
+
+
+Home
+
+			| Publications 
+			| Research Projects  
+			| People 
+			| Opportunities 
+			| Newsletter
+
+
+
+
+
+
+
+
+
+
+
+
+
+Publications, by Topic
+
+
+
+Computational Biology 
+Machine Learning 
+Image Analysis 
+Optimization 
+
+
+
+
+Cognition 
+Modeling Frameworks 
+Reviews and Essays 
+Theses 
+
+
+
+
+
+
+
+
+
+
+
+
+My research interests are largely connected with the construction of scientific inference systems, using techniques from machine learning, pattern recognition, nonlinear optimization, statistical physics and other mathematical disciplines to further research into computational biology and other sciences. 
+
+
+This list is still not quite complete, especially for earlier papers.
+
+
+Computational Biology
+
+
+
+(2010) 
+Mjolsness, E.
+		  Towards Measurable Types for Dynamical Process Modeling Languages , To appear in Electronic Notes in Theoretical Computer Science (ENTCS), Elsevier.
+[  Author's technical report version, PDF ]
+
+
+(2010) 
+Wang, Y., Christley, S., Mjolsness, E., and Xie, X.
+		  Parameter inference for discretely observed stochastic kinetic models using stochastic gradient descent , BMC Systems Biology 4:99.
+[  Published PDF ]
+
+
+(2010) 
+Mironova, V.V., Omelyanchuk, N.A., Yosiphon, G. Fadeev, S.I., Kolchanov, N.A., Mjolsness, E. and Likhoshvai, V.A.
+		  A plausible mechanism for auxin patterning along the developing root , BMC Systems Biology 4:98.
+[  Published PDF ]
+
+
+(2010) 
+Najdi, T.S., Hatfield, G. W. and Mjolsness, E. D.
+		  A `Random Steady State` Model for the Pyruvate Dehydrogenase and Alpha-Ketogluterate Dehydrogenase Enzyme Complexes , Physical Biology, 7 (2010) 016016
+[ Author's version, PDF
+|  View published paper at publisher`s web site  ]
+
+
+(2009) 
+Golubyatnikov, V.P., Mjolsness, E., Gaidov, Yu.A.
+		  Topological index of the p53-Mdm2 circuit , The Herald of Vavilov Society for geneticists and breeding scientists (Informatzionnyi Vestnik Vavilovskogo obshchestva genetikov i selektzionerov) v. 13, N 1, 2009, pp 160 - 162. In English, 2009.
+[ Published PDF ]
+
+
+(2009) 
+Mjolsness E, Orendorff D, Chatelain P,  Koumoutsakos P.
+             An Exact Accelerated Stochastic Simulation Algorithm, Journal of Chemical Physics 130:144110, 2009. Technical Report UCI-ICS 08-09 [Journal paper 
+|  View paper at publisher's web site 
+| Technical report ]
+
+
+(2008) 
+            Yosiphon G, Mjolsness E.
+             Towards the Inference of Stochastic Biochemical Network and Parameterized Grammar Models, In N. Lawrence , M. Girolami, M. Rattray, and G. Sanguinetti eds., Learning and Inference in Computational Systems Biology, MIT Press, 2010. Also Technical Report UCI-ICS 08-07 
+[ Authors' version, PDF ]
+
+
+(2007) 
+Nikolaev SV, Penenko AV, Lavreha VV, Mjolsness ED, Kolchanov NA
+
+      A Model Study of the Role of Proteins CLV1, CLV2, CLV3, and WUS in Regulation of the Structure  of the Shoot Apical Meristem,
+Originally published in Russian, Ontogenez 2007, 38(6):457-462.
+[ Download PDF preprint ]
+
+
+
+(2007) 
+ Likhoshvai VA, Omel'yanchuk NA, Mironova VV, Fadeev SI, Mjolsness ED and Kolchanov NA Mathematical Model of Auxin Distribution in the Plant Root  Russian Journal of Developmental Biology, 38(6):374-384; Original Russian Verison published in Ontogenez 38(6):446-456(2007). [ Download PDF ]
+            
+(2007) 
+ Towards a Calculus of Biomolecular Complexes at Equilibrium .
+Eric Mjolsness, Briefings in Bioinformatics, 8(4):226-33 July 2007.
+[  Authors' Version  (Technical Report)  
+| View Paper at Publisher's Web Site
+]
+
+
+(2007) 
+On Cooperative Quasi-Equilibrium Models of Transcriptional Regulation.
+Eric Mjolsness, Journal of Bioinformatics and Computational Biology, vol 5 no 2(b) pp 467-490, 2007. Also
+ Technical Report UCI-ICS 06-13,
+2006.
+[  Technical Report 
+| View Paper at Publisher's Web Site
+]
+
+(2006) 
+Stochastic Process Semantics for Dynamical Grammars.
+Eric Mjolsness and Guy Yosiphon,
+Annals of Mathematics and Artificial Intelligence,
+47(3-4) August 2006.
+[  Authors' Version  (Technical Report)  
+| View Paper at Publisher's Web Site
+]
+
+(2006) 
+Connectivity in the Yeast Cell Cycle Transcription Network: Inferences from Neural Networks.
+Christopher Hart, Eric Mjolsness, Barbara Wold,
+PLOS Computational Biology vol. 2 no. 12, December 2006.
+[ Published paper, in PDF Site
+| Authors' version  ]
+
+(2006) 
+The Growth and Development of Some Recent Plant Models: A Viewpoint.
+Eric Mjolsness,
+Journal of Plant Growth Regulation,
+Journal of Plant Growth Regulation 25(4), 270-277, December 2006.
+ [Authors' version 
+| View Paper at Publisher's Web Site ] 
+
+(2006) 
+Static and dynamic models of biological networks.
+Ashish Bhan and Eric Mjolsness,
+Complexity ,
+11(6), 2006.
+[ View Paper at Publisher's Web Site
+| Authors' version ]
+
+(2006) 
+Analysis of a one-dimensional model for the regulation of the size of the renewable zone in biological tissue.
+S.I. Fadeev, S.V. Nikolaev, V.V. Kogay, E. Mjolsness , N.A. Kolchanov,
+Computational Technologies,
+11(2), 2006.
+[
+
+| Authors' version (In Russian)
+| Authors' version (partial English translation)
+  ]
+
+(2006) 
+Application of a Generalized MWC Model for the Mathematical Simulation of Metabolic Pathways Regulated by Allosteric Enzymes.
+Tarek S. Najdi, Chin-Ran Yang, Bruce E. Shapiro, G. Wesley Hatfield, and Eric D. Mjolsness,
+Journal of Bioinformatics and Computational Biology,
+4:335-355, 2006.
+[ View Paper at Publisher's Web Site
+| Authors' version  ]
+
+(2006) 
+An auxin-driven polarized transport model for phyllotaxis.
+Henrik Jönsson, Marcus G. Heisler, Bruce E. Shapiro, Elliot M. Meyerowitz, and Eric Mjolsness,
+Proceedings of the National Academy of Sciences,
+ 13 January 2006. 
+[ View Paper at Publisher's Web Site
+| Authors' version  
+|PNAS Commentary  
+| Supplementary Information 
+| Cellerator  Notebook ]. 
+
+
+(2005) 
+The Generalized Monod, Wyman, Changeux model for mathematical modeling of metabolic enzymes with allosteric regulation.
+Tarek S. Najdi, Chin-Rang Yang, Bruce E. Shapiro, G. Wesley Hatfield and Eric D. Mjolsness,
+IEEE Computational Systems Bioinformatics Conference,
+ Stanford University, August 8-12 2005.
+[ View Paper at Publisher's Web Site ]. 
+
+(2005) 
+
+Sigmoid: Towards an Intelligent, Scalable, Software Infrastructure for Pathway Bioinformatics and Systems Biology .
+Jianlin Cheng, Lucas Scharenbroich, Pierre Baldi, Eric Mjolsness,  IEEE Intelligent Systems ,
+ May/June 2005.
+[ Journal article ]
+
+(2005) 
+
+A Mathematical Model for the Branched Chain Amino Acid Biosynthetic Pathways of Escherichia coli K12 .
+Chin-Ran Yang, Bruce E. Shapiro, She-pin Hung, Eric D. Mjolsness, and G. Wesley Hatfield, Journal of Biological Chemistry,
+ 2005 Mar 25;280(12):11224-32 .
+[ Authors' version  
+| View Paper at Publisher's Web Site ]. 
+
+(2005) 
+
+An enzyme mechanism language for the mathematical modeling of metabolic pathways .
+Yang, C-R., Shapiro, B.E., Mjolsness, E.D., and Hatfield, G.W..
+Bioinformatics, vol. 21 no. 6, pages 774-780, March 2005.
+[ Authors' version  
+| View Paper at Publisher's Web Site ]. 
+
+(2005) 
+Modeling the organization of the WUSCHEL expression domain in the shoot apical meristem. 
+Jönsson H, Heisler M, Reddy GV, Agrawal V, Gor V, Shapiro BE, Mjolsness E, and Meyerowitz E.M.   
+Bioinformatics 21(S1): i232-i240.[ View Abstract or Paper at Publisher's Web Site. | Supplementary Material
+| PDF ]
+
+(2005) 
+
+A mathematical and computational framework for quantitative comparison and integration of large scale gene expression data.
+Hart CE, Sharenbroich L, Bornstein BJ, Trout D. King B., Mjolsness E., and Wold BJ. Nucleic Acids Research, May 10;33(8):2580-94, 2005.
+[ Abstract | Paper ]
+
+(2004-05) 
+
+A Software architecture for developmental modeling in plants: The Computable Plant project.
+Gor V, Shapiro BE, Jönsson H, Heisler M, Reddy GV,Meyerowitz EM, Mjolsness E,
+Presented at the  Fourth International Conference on Bioinformatics of Genome Regulation and Structure (BGRS-2004) , Novosibirsk, Russia, July 2004. 
+In:  Bioinformatics of Genome Regulation and Structure II,
+(Eds. N.Kolchanov and R. Hofestaedt) Springer Science+Business Media, Inc. 2005, pp. 345-354.
+  
+[ Abstract | Preprint ]
+(2004)  
+Modeling plant development with gene regulation networks including signaling and cell division. 
+Jönsson, H., Shapiro, B.E., Meyerowitz, E.M., and Mjolsness, E. ,
+in Bioinformatics of Genome Regulation and Structure, eds R. Hofestaedt and N. Kolchanov, Kluwer Publications, pp 311-318, 2004. [ Abstract ]
+(2003)  
+Signaling in multicellular models of plant development. Jönsson, H., Shapiro, B.E., Meyerowitz, E.M. and Mjolsness, E. 
+In S. Kumar and P.J. Bentley (Eds.) On Growth, Form, and Computers, Academic Press, London, UK, pages 156-161. 
+[ Author's copy
+| Abstract 
+|Publisher's Web Site ]
+(2003)  
+	Cellerator: extending a computer algebra system to include biochemical arrows for signal transduction simulations. 
+Shapiro, B.E., Levchenko, A., Meyerowitz, E.M., Wold, B.J., and Mjolsness, E.D. Bioinformatics, 19(5):677-678. [ View Abstract or Paper at Publisher's Web Site 
+| PDF
+] 
+(2003)  
+
+Gene Expression Clustering with Functional Mixture Models. 
+Padhraic Smyth, Darya Chudova, Christopher Hart, Eric Mjolsness, 
+ Advances in Neural Information Processing Systems, 2003. 
+NIPS2003_AP15
+[ Preprint  ]
+
+(2003) 
+The systems biology markup language (SBML): a medium for representation and exchange of biochemical network models. 
+M. Hucka, A. Finney, H. M. Sauro, H. Bolouri, J. C. Doyle, H. Kitano , A. P. Arkin, B. J. Bornstein, D. Bray, A. Cornish-Bowden, A. A. Cuellar, S. Dronov, E. D. Gilles, M. Ginkel, V. Gor, I. I. Goryanin, W. J. Hedley, T. C. Hodgman, J.-H. Hofmey, P. J. Hunter, N. S. Juty, J. L. Kasberger, A. Kremling, U. Kummer, N. Le Nov` ere, L. M. Loew, D. Lucio , P. Mendes, E. Minch, E. D. Mjolsness, Y. Nakayama, M. R. Nelson, P. F. Nielsen, T. Sakurada, J. C. Schaff , B. E. Shapiro, T. S. Shimizu, H. D. Spence, J. Stelling. 
+Bioinformatics Vol 19, no 4, 2003 pp 524-531.
+[ View Abstract or Paper at Publisher's Web Site ] 
+(2003) 
+
+Gene Network Models and Neural Development. 
+George Marnellos and Eric D. Mjolsness.  In Modeling Neural Development, 
+edited by Arjen van Ooyen.  The MIT Press, Cambridge, Massachusetts,  2003.
+[ Preprint ]
+
+(2002)  
+Modeling plant development with gene regulation networks including signaling and cell division. 
+Mjolsness E, Jönsson H, Shapiro BE, Meyerowitz EM. 
+Paper presented at the Third International Conference on Bioinformatics of Genome Regulation and Structure (BGRS 2002), Novosibirsk, Russia, July 14-20, 2002. 
+ 
+[ Abstract 
+| Paper | Conference Proceedings ].
+(2002)  
+Automatic model generation for signal transduction with applications to map kinase pathways. 
+Shapiro BE, Levchenko A, Mjolsness E. 
+In: Foundations of Systems Biology, H. Kitano, ed, MIT Press, pages 145-162) ISBN 0-262-11266-3 
+[ Publisher's web site  |
+Preprint ]
+ 
+(2001) 
+Developmental simulations with Cellerator. 
+Shapiro BE, Mjolsness ED. 
+Paper presented at the Second International Conference on Systems Biology, Pasadena, CA, Novemeber 2001. 
+[ 
+
+Preprint ]
+
+(2001) 
+
+Gene regulation networks for modeling Drosophila development.  
+Eric Mjolsness, in 
+Computational Methods in Molecular Biology,
+ eds. J. M. Bower and H. Bolouri, MIT Press 2001. 
+[ Preprint ]
+
+(2001) 
+
+Modeling the activity of single genes.  
+Michael Gibson and Eric Mjolsness, in 
+Computational Methods in Molecular Biology, eds. J. M. Bower and H. Bolouri, MIT Press 2001.
+[ Preprint ]
+
+(2000) 
+
+Delta-Notch lateral inhibitory patterning in the emergence of ciliated cells in Xenopus: experimental observations and a gene network model..  
+Marnellos G, Deblandre GA, Mjolsness E, Kintner C.
+Pacific Symposium on Biocomputing pp. 329-40 2000.
+[ Abstract |
+Abstract |
+ Paper ]
+
+(1999) 
+
+From Coexpression to Coregulation: An Approach to Inferring Transcriptional Regulation among Gene Classes from Large-Scale Expression Data.  
+E. Mjolsness, T. Mann, R. Castano, and B. Wold. Advances in Neural Information Processing Systems 1999. 
+[ Paper ]
+
+(1998) 
+
+A Gene Network Model of Resource Allocation to Growth and Reproduction.  
+G. Marnellos and E. Mjolsness, Artificial Life VI, eds. C. Adami, R. K. Belew, H. Kitano, and C. E. Taylor, MIT Press, 1998. 
+[ Preprint ]
+
+(1998) 
+
+Probing the Dynamics of Cell Differentiation in a Model of Drosophila Neurogenesis.  
+G. Marnellos and E. Mjolsness, Artificial Life VI, eds. C. Adami, R. K. Belew, H. Kitano, and C. E. Taylor, MIT Press, 1998. 
+[ Preprint ]
+
+(1998) 
+
+A Gene Network Approach to Modeling Early Neurogenesis in Drosophila.  
+G. Marnellos and E. Mjolsness, in Pacific Symposium on Biocomputing, eds. R. B. Altman, A. K. Dunker, L. Hunter and T. Klein, World Scientific, 1998. 
+[ Preprint ]
+
+(1995)  
+Model for cooperative control of positional information in Drosophila by bcd and maternal hb.  
+John Reinitz, Eric Mjolsness and David H. Sharp, 
+Journal of Experimental Zoology 271:47-56, 1995. 
+[ Abstract  |
+ Paper ]
+
+(1995) 
+
+Modeling the Connection between Development and Evolution: Preliminary Report.  
+Eric Mjolsness, Charles D. Garrett, John Reinitz, and David H. Sharp, 
+in  Evolution and Biocomputation: Computational Models of Evolution 
+ eds. Wolfgang Banzhaf and Frank H. Eeckman, Lecture Notes in Computer Science, Springer, Berlin, 1995.
+[ Paper ]
+
+(1992) 
+A Connectionist Model of the Drosophila Blastoderm.  
+J. Reinitz, E. Mjolsness, and D. H. Sharp, 
+in  The Principles of Organization in Organisms , eds. Jay E. Mittenthal and Arthur B. Baskin, Santa Fe Institute Studies in the Sciences of Complexity, Addison-Wesley 1992. 
+
+(1991)  
+A connectionist model of development.
+Mjolsness E, Sharp DH, Reinitz J. 
+ Journal of Theoretical Biology 152: 429-453. 
+[ Abstract  |
+ Paper ]
+
+(1990) 
+
+A connectionist Model of the Drosophila Blastoderm.
+John Reinitz, Eric Mjolsness, and David H. Sharp,
+Report LA-UR--90-3923, Los Alamos National Laboratory, November 1990. 
+[ Technical Report, Scanned PDF ]
+
+
+
+
+Go to top of Page
+
+Machine Learning
+
+
+
+(2010) 
+Wang, Y., Christley, S., Mjolsness, E., and Xie, X.
+		  Parameter inference for discretely observed stochastic kinetic models using stochastic gradient descent , BMC Systems Biology 4:99 .
+[  Published PDF ]
+
+(2003) 
+
+Clustering analysis of microarray gene expression data by splitting algorithm . 
+Ruye Wang, Lucas Scharenbroich, Christopher Hart, Barbara Wold, and Eric Mjolsness.  Journal of Parallel and Distributed Computing, Volume 63, Numbers 7-8, pp. 692-706, July-August 2003.
+[ Preprint ]
+
+(2001) 
+
+Machine learning for science:  State of the art and future prospects. 
+Eric Mjolsness and Dennis DeCoste, Science 293, 2051-2055, September 14, 2001.
+[ Paper ]
+
+(1996) 
+	Learning with preknowledge: Clustering with point and graph matching distance measures. 
+Steven Gold, Anand Rangarajan, and Eric Mjolsness, Neural Computation , vol 8 no 4, May 15 1996. Reprinted in Unsupervised Learning: Foundations of Neural Computation , eds. G. Hinton and T. J. Sejnowski, MIT Press 1999. 
+[ PDF Preprint 
+| Postscript Preprint ]
+
+(1994) 
+	
+Clustering with a Domain-Specific Distance Measure. 
+Steven Gold, Anand Rangarajan, and Eric Mjolsness, 
+ Advances in Neural Information Processing Systems 6 , editors Cowan, Tesauro, Alspector, Morgan-Kaufmann 1994. 
+[  Preprint  ]
+
+(1989) 
+	Scaling, machine learning, and genetic neural nets, Eric Mjolsness, David H. Sharp, and Bradley K. Alpert. 
+Advances in Applied Mathematics, June 1989. 
+[ Paper ]
+
+
+Go to top of Page
+
+Image Analysis
+
+(2005) 
+Gor V. Bacarian T, Elowitz M, Mjolsness E. 	
+Tracking cell signals in fluorescent images. Workshop on Computer Vision in Bioinformatics, IEEE CVPR Annual Meeting, 2005 [ Abstract  |  Paper ]
+(2001) 
+A relationship between spline-based deformable models and weighted graphs in non-rigid matching.  
+Anand Rangarajan, Haili Chui and Eric Mjolsness, 
+IEEE Computer Vision and Pattern Recognition (CVPR),
+ volume I, 897-904, 2001.
+[ Paper ]
+
+(2000) 
+
+Strategies for autonomous rovers and Mars . 
+Martha S. Gilmore, Rebecca Casta–o, Tobias Mann, Robert C. Anderson, Eric D. Mjolsness, Roberto Manduchi, and R. Stephen Saunders, 
+Journal of Geophysical Research - Planets, December 25 2000. 
+[ Authors' version 
+]
+
+(2000) 
+Fast and globally convergent pose estimation from video images.  C.-P. Lu, G. D. Hager and E. Mjolsness, 
+IEEE Pattern Analysis and Machine Intelligence 22(6), 610-622, 2000. 
+[Journal paper |
+Journal |
+Publisher's abstract  | Preprint ]
+
+
+(1999) 
+ A new distance measure for non-rigid image matching .
+Anand Rangarajan, Haili Chui and Eric Mjolsness, 
+Energy Minimization Methods in Computer Vision and Pattern Recognition (EMMCVPR),
+ Edwin Hancock and Marcello Pelillo, editors, pages pages 237-252, Springer, 1999.
+[ Paper ]
+
+(1998) 
+New algorithms for 2D and 3D point matching: Pose estimation and correspondence.  Steven Gold, Chien- Ping Lu, Anand Rangarajan, Suguna Pappu, and Eric Mjolsness, 
+Pattern Recognition vol. 31 no. 8, pp. 1019-1031 August 1998. 
+
+(1997) 
+A Robust point matching algorithm for autoradiograph alignment.  Anand Rangarajan, Haili Chui, Eric Mjolsness, Suguna Pappu, Lila Davachi, Patricia S. Goldman-Rakic, and James S. Duncan, 
+Medical Image Analysis, vol 1 no 4, 1997. 
+
+(1996) 
+Online computation of exterior orientation with application to hand-eye calibration.  Chien-Ping Lu, Eric Mjolsness, and Gregory D. Hager, Mathematical and Computer Modelling Journal, vol. 24 no. 5-6, pp. 121-43, September 1996. 
+
+(1994) 
+
+Two-Dimensional Object Localization by Coarse-to-Fine Correlation Matching.  
+Chien-Ping Lu and Eric Mjolsness, 
+Advances in Neural Information Processing Systems 6, editors Cowan, Tesauro, Alspector, Morgan-Kaufmann 1994. 
+[ Preprint  ]
+
+
+Go to top of Page
+
+Optimization
+
+(1999) 
+Convergence properties of the softassign quadratic assignment algorithm.  Anand Rangarajan, Alan Yuille, and Eric Mjolsness, 
+Neural Computation 11(6), 1455-1474 1999. 
+[ Preprint  ]
+
+(1996) 
+A Lagrangian relaxation network for graph matching.  Anand Rangarajan and Eric Mjolsness, 
+IEEE Transactions on Neural Networks, vol 7 no 6, November 1996. 
+[  Preprint  ]
+
+(1996) 
+A novel optimizing network architecture with applications. 
+Anand Rangarajan, Steven Gold, and Eric Mjolsness, 
+Neural Computation, vol 8 no 5, July 1996. 
+[ PDF Preprint  
+| Postscript Preprint ]
+
+
+(1994) 
+
+Optimization dynamics for partitioned neural networks 
+Dimitris I. Tsioutsias and Eric Mjolsness. 
+International Journal of Neural Systems, December 1994. 
+
+(1993) 
+
+Accelerating neural net dynamics by boundary layer methods
+Willard L. Miranker and Eric Mjolsness, 
+Applied Mathematics Letters, vol 6, no 3, pp. 85-89, 1993. 
+[ Paper ]
+
+(1991) 
+
+Multiscale optimization in neural networks, Eric Mjolsness, Charles Garrett, and Willard Miranker, 
+IEEE Transactions on Neural Networks, vol 2 no 2, March 1991. 
+[ Paper ]
+
+(1990) 
+
+Algebraic transformations of objective functions. 
+Eric Mjolsness and Charles Garrett,  Neural Networks ,
+vol 3, no 6, pp 651-669, 1990. 
+[ Paper  ]
+
+
+Go to top of Page
+Cognition
+
+(1997) 
+
+Symbolic Neural Networks Derived from Stochastic Grammar Domain Models.
+Eric Mjolsness, in  Connectionist Symbolic Integration , eds. R. Sun and F. Alexandre, Lawrence Erlbaum Associates, 1997. 
+[ Preprint  ]
+
+
+(1996) 
+
+A Multiscale Attentional Framework for Relaxation Neural Networks.
+Dimitris I. Tsioutsias and Eric Mjolsness,
+ Advances in Neural Information Processing Systems 8,
+ MIT Press, 1996. 
+[ Paper ]
+
+(1994) 
+
+Connectionist Grammars for High-Level Vision.
+Eric Mjolsness, in  Artificial Intelligence and Neural Networks: Steps Toward Principled Integration , eds. Vasant Honavar and Leonard Uhr, Academic Press, 1994. 
+
+(1992) 
+A Center-of-Mass Computation Describes the Precision of Random Dot Displacement Discrimination.
+Joy Hirsch and Eric Mjolsness,
+Vision Research, vol 32 no 2, pp 335-346, February 1992. 
+[ Abstract  ]
+
+(1989) 
+
+Connectionist Variable-Binding by Optimization.
+P. Anandan, Stanley Letovsky, and Eric Mjolsness. August 1989 Cognitive Science conference proceedings. 
+
+(1989) 
+
+Optimization in Model Matching and Perceptual Organization.
+Eric Mjolsness, Gene Gindi, and P. Anandan. 
+Neural Computation, vol 1 no 2, Summer 1989. 
+
+(1989) 
+
+Neural Networks for Model Matching and Perceptual Organization.
+Eric Mjolsness, Gene Gindi, and P. Anandan.  Advances in Neural Information Processing Systems 1 , editor David S. Touretsky, Morgan- Kaufman 1989. 
+[ Paper  ]
+
+
+Go to top of Page
+
+ Frameworks for Modeling
+ 
+
+
+
+
+(2010) 
+Mjolsness, E.
+		  Towards Measurable Types for Dynamical Process Modeling Languages , To appear in Electronic Notes in Theoretical Computer Science (ENTCS), Elsevier.
+[  Author's technical report version, PDF ]
+
+(2006) 
+Stochastic Process Semantics for Dynamical Grammars.
+Eric Mjolsness and Guy Yosiphon,
+Annals of Mathematics and Artificial Intelligence,
+47(3-4) August 2006.
+[  Authors' Version  (Technical Report)  
+| View Paper at Publisher's Web Site
+]
+
+(2005) Mjolsness, E. Stochastic Process Semantics for Dynamical Grammer Syntax: An Overview. For 9th International Symposium on Artificial Intelligence and Mathematics, presented Jan 2006. Written versions November 2005:
+ [ 
+Preprint from arXiv.org
+|  Technical Report  ]
+
+ 
+(2005) 
+Static and Dynamic Models of Biological Networks. 
+Ashish Bhan and Eric Mjolsness, UCI ICS TR# 05-15. 
+December 2005.
+[ Technical Report  ]
+
+
+(2005) 
+Variable-structure systems from graphs and grammars. 
+Eric Mjolsness, UCI ICS TR# 05-09. July 2005.
+[ Technical Report  ]
+
+(2004) 
+Labeled graph notations for graphical models: Extended Report.  Eric Mjolsness, UCI ICS TR# 04-03. March 2004.
+[ Technical Report  ]
+
+(1998) 
+A Lagrangian formulation of neural networks I: Theory and analog dynamics. , Eric Mjolsness and Willard L. Miranker, 
+Neural, Parallel and Scientific Computations vol 6 no. 3, pp. 297-336, 1998. 
+[  Scanned PDF
+| Journal   ]
+
+(1998) 
+A Lagrangian formulation of neural networks II: Clocked objective functions and applications.  Willard L. Miranker and Eric Mjolsness, 
+Neural, Parallel and Scientific Computations, vol 6 no. 3, pp. 337-372, 1998. 
+[  Scanned PDF
+| Journal   ]
+
+(1993) 
+Multiscale models of developmental processes
+David H. Sharp, John Reinitz, and Eric Mjolsness, 
+Open Systems and Information Dynamics, vol 2 no 1, pp. 1-10, Nicholas Copernicus University Press, Torun, Poland, 1993. 
+[  Scanned PDF
+| Journal   ]
+/ 
+
+
+(1993) 
+
+Animation of plant development
+Przemyslaw Prusinkiewicz, Mark S. Hammel, and Eric Mjolsness, SIGGRAPH '93 Conference Proceedings, ACM 1993. 
+[ Preprint ]
+
+(1992) 
+
+Visual grammars and their neural nets
+Eric Mjolsness, 
+Advances in Neural Information Processing Systems 4, editors Moody, Hanson and Lippmann, pp. 428-435, Morgan-Kaufman 1992. 
+[ Paper ]
+
+(1991) 
+
+A Lagrangian Approach to Fixed Points.
+Eric Mjolsness and Willard L. Miranker, 
+Advances in Neural Information Processing Systems 3,
+ editors Lippmann, Moody and Touretsky, Morgan-Kaufman 1991. 
+[ Paper ]
+
+(1991) 
+
+Multiscale optimization in neural networks, Eric Mjolsness, Charles Garrett, and Willard Miranker, IEEE Transactions on Neural Networks , vol 2 no 2, March 1991. 
+[ Paper ]
+
+(1991)  
+A connectionist model of development. 
+Mjolsness E, Sharp DH, Reinitz J. 
+Journal of Theoretical Biology 152: 429-453. 
+[ Abstract  |
+ Paper ]
+
+(1990) 
+
+Bayesian inference on visual grammars by neural nets that optimize.
+Eric Mjolsness, Report YALEU/DCS/TR- 854, May 1990. 
+[ Technical Report ]
+
+
+Go to top of Page
+Reviews, Tutorials, and Essays
+
+(2006) 
+The Growth and Development of Some Recent Plant Models: A Viewpoint.
+Eric Mjolsness,
+Journal of Plant Growth Regulation,
+Journal of Plant Growth Regulation 25(4), 270-277, December 2006.
+[Authors' version ]
+
+
+(2001) 
+
+Machine learning for science:  State of the art and future prospects. 
+
+Eric Mjolsness and Dennis DeCoste, Science 293, 2051-2055, September 14, 2001.
+[ Paper ]
+
+(2001) 
+
+Gene regulation networks for modeling Drosophila development.  
+Eric Mjolsness, in Computational Methods in Molecular Biology, eds. J. M. Bower and H. Bolouri, MIT Press 2001. 
+[ Preprint ]
+
+(2001) 
+
+Modeling the activity of single genes.  
+Michael Gibson and Eric Mjolsness, in 
+Computational Methods in Molecular Biology, eds. J. M. Bower and H. Bolouri, MIT Press 2001.
+[ Preprint ]
+
+(2000) 
+The Synergy of Biology, Intelligent Systems, and Space Exploration.
+E. Mjolsness and A. Tavormina,  IEEE Expert Systems  April-May 2000. 
+[ Journal article ]
+
+
+
+Go to top of Page
+Theses
+		
+
+These theses are the work of their respective authors, performed with 
+the supervision of Prof. Mjolsness.
+
+
+(2009) 
+Guy Yosiphon,  Stochastic Parameterized Grammars: Formalization, Inference, and Modeling Applications , June 2009.
+[ 
+Thesis web site ]
+(2008) 
+Li Zhang,  Dynamic Biological Signal Pathway Modeling and Parameter Estimation through Optimization , June 2008.
+(2005) 
+Tarek Najdi,  Biological Analysis and Mathematical Modeling of Glucose Metabolism and the Aspartate and Pyruvate Family Amino Acid Biosyntheses in Escherichia coli K12 ,  jointly supervised with Prof. Wesley Hatfield, UC Irvine, March 2008.
+(2005) 
+Christopher Hart, Inferring genetic regulatory network structure: Integrative analysis of genome-scale data ,  jointly supervised with Prof. Barbara Wold, California Institute of Technology, March 2005.
+
+(1997) 
+Dimitris Tsioutsias, Multiscale attention as a globally convergent framework for large-scale nonlinear optimization, Yale University, May 1997. 
+
+(1997) 
+Georgios Marnellos, Gene network models applied development and evolution, Yale University, May 1997. 
+
+(1996) 
+Steven Gold, Matching and learning structural and spatial representations with neural networks, Yale University, May 1996 . 
+
+(1996) 
+Chien-Ping Lu, Online pose estimation and model matching, Yale University, May 1996.
+
+
+Go to top of Page
+
+
+
+
+
+

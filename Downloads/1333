@@ -1,0 +1,114 @@
+http://plrg.ics.uci.edu/software_page/irvine-research-java-compiler
+
+
+
+
+
+
+
+
+Irvine Research Java Compiler – Programming Languages Research Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+									Programming Languages Research Group								
+
+
+
+
+
+
+Brian Demsky
+Students
+Publications
+Software
+
+Software Verifiers
+
+PSan
+Yashme
+Jaaru
+Satune
+C11Tester
+
+
+Software for Relaxed Memory Models
+Irvine Research Java Compiler
+Views
+Smart Home
+
+Fidelius
+IoTCheck
+PingPong
+Vigilia
+
+
+
+
+Navigation
+
+
+
+
+ 
+
+
+
+
+
+
+
+The Irvine Research Compiler (IRC) compiles a subset of Java source into C. It was designed to support research projects that crosscut both the compiler frontend and the runtime system. It is straightforward to develop new features that require extending both the source language and the runtime system. It contains support for Bamboo, Bristlecone, Software Transactional Memory, Distributed Transactional Memory, standard threaded Java, and Disjointness analysis. It contains a precise copying garbage collector.
+The latest version of the Bristlecone compiler is available for download:
+To checkout the GIT repository type:
+git clone git://plrg.eecs.uci.edu/IRC.git
+Acknowledgments
+This material is based upon work supported by the National Science Foundation under Grant Nos CCF-0846195, CCF-1217854, CNS-1228995, and CCF-1319786.
+Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
+
+
+
+
+
+
+
+
+
+
+
+Back to Top 
+
+

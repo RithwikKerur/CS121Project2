@@ -1,0 +1,197 @@
+https://ngs.ics.uci.edu/the-web-you-trust
+
+
+
+
+
+
+
+
+The Web You Trust – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				The Web You Trust    			
+
+
+Popular search engines (GYM: Google, Yahoo, Microsoft) help consumers find home pages or web pages very fast using keyword based indexing that brings all pages relevant to those keywords and presented in order of their relevance.  A major factor in judging the relevance is the ‘popularity’ of the page determined by the link structure of the web.  This link structure plays a really major role in the page rank and similar algorithms.
+Is it possible to develop an approach for determining the relevance based on expertise or trust.  The answer by Claude Vogel to this question is a BIG YES.  Claude Vogel and Paul Gardner gave a talk in the Next Generation Search Systems seminar series related my class with the same title.
+Claude is CTO of Convera who has developed Excalibur system to license to people to explore the web for finding information.  His search approach has more depth than GYM because it clearly tries to bring elements of vertical search that many other players in the field are trying to bring.  The major difference is that his system prepares the complete index, unlike most vertical search systems, and uses ontology and other tools at the query time to get the answers, organize them into relevant facets corresponding to the query and then present results for each facet.  Of course this process is recursive so he creates facets in each facet.  If you are  looking for ‘mercury’ then the system will create facets corresponding to the planet, heavy metal and name of a person.  It may first present results only for the planet and tell you that there are other facets that maybe of interest.
+This system is operational and is very interesting.  It is much deeper exploration and hence is much slower.  Clearly, this approach is designed for people who want to analyze rather than just be informed.  
+
+
+
+By Ramesh |
+    				April 13, 2006 |
+    				             		Prospecting Information |
+             	 
+    				             		1 Comment |
+             	 		          				
+    			
+
+
+← User Video on Microsoft
+Best jobs — Well I am in one. →
+
+
+
+			One thought on “The Web You Trust”		
+
+
+
+
+udaya January 2, 2008 at 5:13 pm 
+
+perhaps the simplest way to ease/enable vertical search would be to ask the user himself. like Google’s site: and inurl: tags, one can create a tag common to all search engines, which says t0,t1…tn, where t0 ->tn are topic verticals in increasing degrees of specialisation. to use your terminology, t0 to tn act as steering wheels for the engine per se. 
+OR simply say t: tech,web2.0,review and have the search engine read it in order…
+with the search engine software already doing the heavy handling during and post crawling, this tag system can help return better results for users and also help reduce load on the servers. 
+such a heirarchial tag system can also help search engines thin slice user expectations, a user going in for a higher degree of specialisation is looking for a result that cannot come say from a wiki, a blog or a newspaper post. 
+[vice versa, for non casual users, the search engine can return its response heirarchy too and allow users to choose branching trees that lead to areas of interest.]
+Such a system will also allow for the development of fine grained semantic heirarchies so that at a later stage a user can simply ask for simple or advanced (levels) and get information at a level appropriate to their needs. 
+Given that voice to text systems are rapidly gaining maturity, the same can be applied succesfully to voice based domains too. Imagine applying that to the Event web.
+This heirarchy can not only be based on topic, it could be based on historical time too, merely calls for another set of tags, say p for period with values like, now, 2he, 2hl, 2de, 2dl, 22.2.2003 -22.4.2007 and so on. The idea is extensible and as long as it is standardised across search engines and to the W3 specs, it will work fine.
+Universalising such a system could prove easier than providing say a form based or image based interface for the end user. On the outset this might look like a retrograde step, but the success of keywords proves two things; one that people trust themselves to choose the information suitable to them, at least for now; next that in addition to looking for the info we need we also love to be diverted, once in a while….
+Now that we have the bandwidth and tech to show maps, it should be trivial to show information trees and have users zoom in and out of them. that will make search a more pleasant experience.
+Sorry these are rather quick and random thoughts about the front end rather than the back end idea referred to in this post. Oops I need to catch up with facets….
+Udaya
+PS: And of course help create 3D taglists. Most tag lists today are flat, soon we should be having multi dimensional tag lists that follow tree like approaches that drill progressively deeper in and laterally. Such a multi dimensional tag list call allow the rise of heirarchial semantic clusters and more importantly interlinked trees.
+
+
+
+
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

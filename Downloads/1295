@@ -1,0 +1,104 @@
+http://www.ics.uci.edu/%7Ejacobson/ics80f/ICS80F.html
+
+
+
+
+
+ICS 80 Spring 2008
+
+
+
+
+
+ICS 80 Spring 2008
+Introduction to Forensic Computing
+Course Grades
+Note about Course Grades
+
+Topics:  This seminar introduces the student to forensic computing, the locating, recovery and presentation of digital information (for example, documents, pictures and video, emails, server logs) done so it is admissible as evidence in a legal proceeding. We will look at some of the techniques and tools forensic computing practitioners employ to investigate and analyze digital information, especially that which has been "deleted" or hidden. We'll also discuss the civil or criminal areas in which forensic computing is often employed, such as indentifying the senders of spoof or spam emails, software development contract disputes, theft or misuse of intellectual property, sexual or other workplace harassment, and possession or distribution of illegal materials (such as illegal pornography or weapons information). The specific topics investigated, and at what depth, will be primarly determined by the class' interests.
+Since forensics computing is typically done by or in conjunction with an expert witness, we will also look at the role expert witnesses have in our legal system and the activities they typically undertake, such as discovery, educating counsel, writing expert reports, preparing exhibits, and testifying at deposition, arbitration and trial. 
+Suggested Prerequisites: There are no formal prerequisites for this course. We recommend that a student have a basic understanding of computer hardware, operating systems, software, and the Internet and Web (such as one would gain from an introduction to computing course), good verbal communication skills, and composition competence at the level of one who has completed the lower division writing requirement.
+Enrollment: Enrollment information and the final  exam time are available at the WebSoc listing for this course.
+
+The class is currently almost full. We will add students during the first two weeks of the quarter as space permits (if students drop, I'll add students into their 'slots'). If you want to add the course, write me an email explaining the reasons you wish to take the course, attend class and work on the first project, so that, if you are added, you are not "behind" in the course. In the case of more students wanting to add then there is space, those students who make the most compelling cases and have attended class the most will have priority.
+You can get my signautre to drop or change your grade option at any time through the end of week 10. However, note that some majors have stricter policies about when drops and change-of-grade requests will be granted; it is your responsibility to be aware of and to follow those policies. Also note that a W is recorded for your grade if your drop after the last day of week 6 of the quarter (if your major school allows you to drop after week 6 at all...).
+Activities: As a seminar course, ICS80 will have little traditional lecturing and no in-class exams. Rather, three times during the quarter, I will introduce a major topic area and facilitate discussion in it--so class attendance is critical. For each area, you will then choose a topic within it, research the topic, prepare a report about it, and present your findings to the class. The three topics areas for which you will undertake the above are
+
+Gathering of Personal Information: Report on the information you were able to obtain about yourself or another "not famous" individual available via digitial (e.g., the Web) and print sources; you do not need to tell us the information itself, just what you found (e.g., "I found my birthday")
+Forensic Activities and Tools: Provide an overview of tools available for analyzing or recovering digital information (e.g., file comparison programs), an in-depth look at a particular tool (e.g., the Araxis file comparison utility), detailed information on the format of digitial information likely to be of interest in an investigation (e.g., the Unix file system, the format of Outlook email databases, the organization of Apache server logs), sources for finding or places that have documentation and information about older computer devices and languaes (e.g., a bookstore specializing in old computer language manuals), or a civil or criminal area in which forensic computing plays a significant role (e.g., copyright infringement of software)
+Expert Witness Legalities, Ethics and Organizations: Discuss laws that apply to expert witness investigation and testimony; expert witness codes of conduct; ethical dilemmas and issues that experts face; expert witness organizations; or a similar topic. The student can give an overview and survey of the area, or choose a specific aspect of an area to discuss in detail
+
+You will register your topic choices with me, in class, as indicated in the schedule below.
+Topics are subject to my approval.
+Each report is due at the start of the presentation associated with that report.
+Plan for your presentation to take no more than 10 minutes (and less time is fine, as long as you present all your substantive findings); you will then lead a discussion period, lasting up to another 10 minutes or so. The date on which you give a presentation will be arranged in class, and will depend upon the topic you choose--it may make more sense for a given topic to be presented before another--and upon your preferences and those of your classmates.
+Schedule: This schedule is subject to change as the course progresses, to take into account topics on which you all wish to spend more time, and to ensure we allow enough time for all the presentations:
+
+
+Week 1
+Intro to the course and the subject
+How to find personal information
+
+Week 2
+Monday: Recording of person about whom to find information
+Monday: Intro. to Forensic Activities and Tools
+Project 1 presentations
+
+Week 3
+Project 1 presentations
+
+Week 4
+Monday: Project 2 topics recorded
+Project 1 presentations
+
+Week 5
+Project 2 presentations
+
+Week 6
+Monday: Intro. to Expert Witness Topics
+Project 2 presentations
+
+Week 7
+Monday: Project 3 topics recorded
+Project 2 presentations
+
+
+Week 8
+Project 3 presentations
+
+Week 9
+Project 3 presentations
+
+Week 10
+Project 3 presentations
+
+
+
+If necessary, Project 3 presentations will continue at the scheduled final exam time.
+Announcements: During the quarter, important  announcements will be made in class; particularly urgent annoucements will be sent to your UCInetID email address. You are required as part of this course to read your UCI email at least daily on weekdays.
+Required Texts: None. We will use web-based and other resources are needed.
+Office Hours: Mondays and Wednesdays, from 3:30 pm to 4:45 pm, except on UCI holidays. During my office hours, course-related matters will have first priority.
+Of course emergencies may come up, but I‘ll try to give advance notice
+of any changes to my hours. If I‘m not immersed in something else, 
+I‘ll be glad to answer short questions whenever I‘m in my office, so feel free to drop by.
+ I will also be available after class for short questions or discussions. You can also schedule an appointment with me, as well as reach me by email. 
+Disability Accomodation: Any student who feels s/he may need an accommodation based on 
+  the impact of a disability should contact the instructor privately to discuss 
+  the specific needs.  Also contact the Disability Services 
+  Center at (949) 824-7494 as soon as possible to better ensure that 
+  such accommodations are implemented in a timely fashion.
+Grading: 
+In-class participation: 25%
+Each of the three projects: 25% -- 10% on in-class presentation and discussion, 15% on the written report
+Each of the seven graded aspects of the course (three reports, three presentations, participation) will be scored on a 0 to 3 scale: 0 - did not do the project, or did not partidipate; 1 - minimally acceptable accomplishment or participation; 2 - satisfactory accomplishment or participation; 3 - excellent accomplishment or participation. If it is difficult to determine whether your work is best represented by a score of x or x + 1 points (x ranging from 0 to 2), I may award a grade of x + 0.5 (that is, half points may be awarded).
+	We will assign final grades on at least the following scale; the cutoffs may be lower: Grades in the A range (A–, A, and in exceptional cases, A+), 84% and above; grades in the B range, 67%–83%; grades in the C range, 50%–66%; grades in the D range, 33%–49%; and F grades below that. Using an established point scale means that you are not graded in direct competition with your classmates. 
+At quarter's end, I'll post on this site a spreadsheet of the grades and their computation, along with an explanatory note.
+Academic honesty policies: You are expected to know and follow UCI and Bren School academic honesty policies; do read them. The ICS policy can be found  (among other
+places) on the 
+ICS undergraduate web site; the UCI policy is on the UCI Academic Senate site.
+
+In particular, you must do your own work, and whenever your work references or incorporates work that is not your own, you must cite your sources. 
+
+If you are unsure whether certain actions are acceptable, ask before you engage in them!
+If you violate an academic honesty policy, I will impose sanctions consistent with the severity of the offense. (These sanctions are spelled out in the above policy documents.)
+

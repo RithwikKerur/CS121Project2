@@ -1,0 +1,112 @@
+https://sli.ics.uci.edu/Code/Learners
+
+
+
+SLI | Code / Learners 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Code /
+Learners
+
+
+Matlab learner classes for CS178 / CS273a 
+The following are matlab functions and classes designed to assist in exploring machine learning, and for use in homework and projects in my courses.
+
+Preprocessing and data manipulation
+
+ % Data splitting and re-ordering operations
+ [X Y]             = reorderData(X,Y);                   % reorder (permute) data set
+ [X Y]             = bootstrapData(X,Y,nBoot);           % resample (bootstrap) data set
+ [Xtr Xte Ytr Yte] = crossValidate(X,Y,nFolds,iFold);    % split data for n-fold cross validation
+ [Xtr Xte Ytr Yte] = splitData(X, Y, trainFraction);     % split data into training and test sets
+
+ % Data pre-processing and feature operations
+ [X scale]  = rescale(X [,scale])                        % scale data to unit variance
+ [X mu sig] = whiten(X  [,mu,sig])                       % whiten (decorrelate) data
+ [X feat] = fsubset(X, K [,feat])                        % extract (random) subset of features
+ [X proj] = fproject(X, K [,proj])                       % (random) linear projection of features
+ [X hash] = fhash(X, K [,hash])                          % create random hash projection of F into K features
+ X = fpoly(X, degree)                                    % Xout = polynomial combinations of Xin
+ X = fkitchenSink(X, K [,opt])                           % create random transform of F into dimension K
+ [X T] = fsvd(X, K [,T])                                 % PCA-based (SVD) projection of X into K dimensions
+ % [X L] = fLDA(X, Y, K [,L])                            % Fisher's LDA proj of X into K dimensions
+
+
+ % Plotting
+ plotClassify2D(learner, X,Y ,pre???);                   % plot data and classifier outputs on 2D data
+ h = plotGauss2D( gMean, gCov, colorString, varargin)    % plot a Gaussian ellipse shape in 2D
+
+
+ % Basic Learners
+ knnRegress(xTrain, yTrain, K)                           % k-nearest-neighbors regression using given training data
+ linearRegress(xTrain,yTrain,l2reg)                      % linear regression, with optional L2-regularization
+ treeRegress(xTrain,yTrain [,options{:}])                % decision-tree least-squares regression
+ %neuralNet???
+
+ knnClassify(xTrain, yTrain, K)                          % k-nearest-neighbors classifier using given training data
+ gaussBayesClassify(xTrain, yTrain, equalCovar)          % learn Gaussian class-conditional distributions
+ logisticClassify(xTrain,yTrain [,...])                  % learn (mse loss) logistic regression classifier 
+ %perceptron???
+
+ %decisionTree???
+ %treeClassify???
+ %simpleStump
+ %svmPrimal???  (or liblinear wrapper?)
+ %svmDual???
+
+ %Ensembling methods
+ baggedClassif(baseLearner,N [,Xtr,Ytr,...])             % learn N bagged classifiers of type baseLearner
+ gradBoostRegress(baseLearner, N, [,Xtr,Ytr,...])        % learn N gradient boosted regressors of type baseLearner
+ adaboost(baseLearner [,Xtr,Ytr,N])                      % learn N boosted classifiers
+ %ALSO: weighted combination?  (1) Add classifiers, choose weight by hold-out; (2) Add with MSE, Netflix method?
+
+
+
+
+
+
+
+ Last modified October 09, 2012, at 03:04 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

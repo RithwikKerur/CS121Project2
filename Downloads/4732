@@ -1,0 +1,1033 @@
+http://www.ics.uci.edu/~respond/net-status1
+
+
+
+
+HostMonitor Rescue Sensor Report for Bren Hall/Calit2 Responsphere Sensors
+
+
+
+HostMonitor Rescue Sensor Report for Bren Hall/Calit2 Responsphere Sensors
+Generated on 12/3/2011 at 8:41:04 AM
+
+
+
+Test name
+Status
+Recurrences
+Reply
+Last test time
+Last status
+Last reply
+Interval
+Test method
+Comment
+Related URL
+Master test
+Alive %
+Dead %
+Unknown %
+Total time
+Alive time
+Dead time
+Total tests
+Passed tests
+Failed tests
+Average reply
+Min reply
+Max reply
+Status changed at
+Status changes
+Modified at
+
+ Folder: Root\ 
+
+ Bren Hall Cam: 128.200.218.52 
+ No answer 
+ 12302 
+  
+ 12/3/2011 8:39:52 AM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 49.05 % 
+ 50.95 % 
+ 0.00 % 
+ 718 days 04:47:43 
+ 346 days 05:35:24 
+ 371 days 23:02:18 
+ 101530 
+ 49798 
+ 51731 
+ 336 
+ 203 
+ 9296 
+ 9/5/2011 8:47:45 PM 
+ 14 
+ 3/13/2009 9:27:40 AM 
+
+
+ Bren Hall Cam: 128.200.218.53 
+ No answer 
+ 12301 
+  
+ 12/3/2011 8:40:12 AM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 80.91 % 
+ 19.09 % 
+ 0.00 % 
+ 718 days 04:59:15 
+ 577 days 22:26:16 
+ 140 days 06:22:56 
+ 102725 
+ 83111 
+ 19613 
+ 315 
+ 16 
+ 6140 
+ 9/5/2011 8:57:27 PM 
+ 12 
+ 3/13/2009 9:29:43 AM 
+
+
+ Bren Hall Cam: 128.200.218.54 
+ No answer 
+ 12191 
+  
+ 12/3/2011 8:39:51 AM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 74.92 % 
+ 25.08 % 
+ 0.00 % 
+ 690 days 20:30:46 
+ 514 days 01:56:03 
+ 176 days 18:14:39 
+ 98681 
+ 73934 
+ 24745 
+ 329 
+ 15 
+ 9594 
+ 9/6/2011 3:59:22 PM 
+ 16 
+ 3/13/2009 9:29:25 AM 
+
+
+ Bren Hall Cam: 128.200.218.55 
+ No answer 
+ 12298 
+  
+ 12/3/2011 8:39:52 AM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 31.63 % 
+ 68.37 % 
+ 0.00 % 
+ 690 days 20:39:29 
+ 214 days 00:32:37 
+ 476 days 19:46:51 
+ 97359 
+ 30792 
+ 66565 
+ 371 
+ 125 
+ 3672 
+ 9/5/2011 9:28:42 PM 
+ 18 
+ 3/13/2009 9:30:06 AM 
+
+
+ Bren Hall Cam: 128.200.218.56 
+ No answer 
+ 8296 
+  
+ 12/3/2011 8:40:12 AM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 82.01 % 
+ 17.99 % 
+ 0.00 % 
+ 690 days 20:33:42 
+ 564 days 00:16:24 
+ 126 days 20:07:15 
+ 98910 
+ 81112 
+ 17797 
+ 314 
+ 16 
+ 3328 
+ 10/4/2011 4:26:08 PM 
+ 14 
+ 3/13/2009 9:30:32 AM 
+
+
+ Bren Hall Cam: 128.200.218.57 
+ No answer 
+ 8296 
+  
+ 12/3/2011 8:39:51 AM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 91.26 % 
+ 8.74 % 
+ 0.00 % 
+ 690 days 20:42:39 
+ 628 days 14:41:51 
+ 62 days 05:50:46 
+ 99056 
+ 90397 
+ 8658 
+ 339 
+ 31 
+ 2625 
+ 10/4/2011 4:26:24 PM 
+ 10 
+ 3/13/2009 9:30:54 AM 
+
+
+ Bren Hall Cam: 128.200.218.58 
+ No answer 
+ 12302 
+  
+ 12/3/2011 8:39:52 AM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 68.92 % 
+ 31.08 % 
+ 0.00 % 
+ 690 days 20:26:38 
+ 471 days 03:57:33 
+ 219 days 16:09:02 
+ 98324 
+ 67763 
+ 30559 
+ 335 
+ 16 
+ 9266 
+ 9/5/2011 8:48:03 PM 
+ 16 
+ 3/13/2009 9:31:17 AM 
+
+
+ Bren Hall Cam: 128.200.218.59 
+ No answer 
+ 8295 
+  
+ 12/3/2011 8:39:52 AM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 91.61 % 
+ 8.39 % 
+ 0.00 % 
+ 690 days 20:26:17 
+ 631 days 01:48:13 
+ 59 days 18:28:04 
+ 99066 
+ 90757 
+ 8308 
+ 286 
+ 15 
+ 2672 
+ 10/4/2011 4:36:29 PM 
+ 8 
+ 3/13/2009 9:31:41 AM 
+
+
+ Bren Hall Cam: 128.200.218.60 
+ No answer 
+ 46633 
+  
+ 12/3/2011 8:39:51 AM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 52.29 % 
+ 47.71 % 
+ 0.00 % 
+ 690 days 20:24:05 
+ 355 days 08:12:56 
+ 335 days 12:01:06 
+ 97752 
+ 51112 
+ 46639 
+ 318 
+ 31 
+ 11141 
+ 5/8/2010 9:38:07 PM 
+ 16 
+ 3/13/2009 9:32:05 AM 
+
+
+ Bren Hall Cam: 128.200.218.61 
+ No answer 
+ 12300 
+  
+ 12/3/2011 8:39:59 AM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 54.95 % 
+ 45.04 % 
+ 0.00 % 
+ 690 days 20:33:24 
+ 373 days 19:43:13 
+ 317 days 00:30:10 
+ 97837 
+ 53765 
+ 44070 
+ 406 
+ 203 
+ 1203 
+ 9/5/2011 9:08:03 PM 
+ 12 
+ 3/13/2009 9:32:26 AM 
+
+
+ Bren Hall Cam: 128.200.218.62 
+ No answer 
+ 12301 
+  
+ 12/3/2011 8:40:12 AM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 70.20 % 
+ 29.80 % 
+ 0.00 % 
+ 690 days 20:15:03 
+ 480 days 00:21:45 
+ 210 days 19:33:14 
+ 98339 
+ 69032 
+ 29305 
+ 408 
+ 31 
+ 9578 
+ 9/5/2011 8:57:34 PM 
+ 10 
+ 3/13/2009 9:32:46 AM 
+
+
+ Bren Hall Cam: 128.200.218.63 
+ No answer 
+ 12194 
+  
+ 12/3/2011 8:39:52 AM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 66.36 % 
+ 33.64 % 
+ 0.00 % 
+ 690 days 20:43:36 
+ 453 days 03:47:57 
+ 237 days 16:45:36 
+ 98220 
+ 65176 
+ 33043 
+ 333 
+ 16 
+ 10703 
+ 9/6/2011 3:30:23 PM 
+ 16 
+ 3/13/2009 9:36:30 AM 
+
+
+ Bren Hall: RFID Reader #1 
+ No answer 
+ 28788 
+  
+ 12/3/2011 8:40:23 AM 
+ No answer 
+  
+ 00:10:00 
+ ping (timeout - 2000 ms) 
+ Test the RFID Reader 2nd Floor hallway door 
+  
+  
+ 69.33 % 
+ 30.67 % 
+ 0.01 % 
+ 690 days 14:40:20 
+ 476 days 09:05:55 
+ 214 days 04:53:48 
+ 98898 
+ 68565 
+ 30328 
+ 0.2 
+ 0 
+ 47 
+ 2/18/2011 3:59:05 PM 
+ 16 
+ 7/2/2009 10:23:22 AM 
+
+
+ Bren Hall: RFID Reader #2 
+ No answer 
+ 13275 
+  
+ 12/3/2011 8:40:23 AM 
+ No answer 
+  
+ 00:10:00 
+ ping (timeout - 2000 ms) 
+ Test the RFID Reader 2nd Floor Hallway Next to Project Room 
+  
+  
+ 85.63 % 
+ 14.37 % 
+ 0.00 % 
+ 643 days 18:57:42 
+ 549 days 23:24:14 
+ 93 days 19:03:22 
+ 92437 
+ 79155 
+ 13279 
+ 0.1 
+ 0 
+ 31 
+ 7/6/2011 10:30:35 AM 
+ 10 
+ 7/2/2009 10:23:10 AM 
+
+
+ Bren Hall: RFID Reader #3 
+ No answer 
+ 27994 
+  
+ 12/3/2011 8:40:23 AM 
+ No answer 
+  
+ 00:10:00 
+ ping (timeout - 2000 ms) 
+ Test the RFID Reader 2nd , Entrance to Project Room  
+  
+  
+ 67.44 % 
+ 32.55 % 
+ 0.00 % 
+ 643 days 18:52:46 
+ 431 days 20:46:16 
+ 211 days 21:36:24 
+ 92163 
+ 62158 
+ 30002 
+ 0.2 
+ 0 
+ 32 
+ 2/24/2011 6:33:03 AM 
+ 20 
+ 7/2/2009 10:22:48 AM 
+
+
+ Bren Hall: RFID Reader coffee pot 
+ Host is alive 
+ 11936 
+ 0 ms 
+ 12/3/2011 8:33:23 AM 
+ Host is alive 
+ 16 ms 
+ 00:10:00 
+ ping (timeout - 2000 ms) 
+ Test the RFID Reader 2nd Floor, Coffee Pot,  Project Room 
+  
+  
+ 79.32 % 
+ 20.68 % 
+ 0.00 % 
+ 643 days 18:38:21 
+ 508 days 22:34:46 
+ 134 days 19:43:32 
+ 92336 
+ 73242 
+ 19092 
+ 0.5 
+ 0 
+ 47 
+ 9/11/2011 9:14:18 AM 
+ 17 
+ 7/2/2009 10:22:29 AM 
+
+
+ Calit2 Loading Dock North Cam: 128.195.201.68 
+ Host is alive 
+ 20 
+ 250 ms 
+ 12/3/2011 8:35:13 AM 
+ Host is alive 
+ 250 ms 
+ 00:10:00 
+ URL request 
+ Retrieves image from Calit2 Outdoor cam on North loading dock 
+  
+  
+ 89.94 % 
+ 10.06 % 
+ 0.00 % 
+ 690 days 18:12:38 
+ 621 days 01:27:35 
+ 69 days 16:35:01 
+ 99298 
+ 89304 
+ 9993 
+ 344 
+ 15 
+ 2390 
+ 12/3/2011 5:24:51 AM 
+ 8241 
+ 3/13/2009 11:48:58 AM 
+
+
+ Calit2 Loading Dock West Cam: 128.195.201.60 
+ Host is alive 
+ 7 
+ 266 ms 
+ 12/3/2011 8:36:59 AM 
+ Host is alive 
+ 281 ms 
+ 00:10:00 
+ URL request 
+ Retrieves image from Calit2 Outdoor cam on West loading dock 
+  
+  
+ 95.53 % 
+ 4.46 % 
+ 0.00 % 
+ 690 days 18:01:47 
+ 659 days 21:31:36 
+ 30 days 20:20:08 
+ 99325 
+ 94890 
+ 4434 
+ 337 
+ 140 
+ 2422 
+ 12/3/2011 7:36:52 AM 
+ 8715 
+ 3/13/2009 11:50:10 AM 
+
+
+ Calit2 Outdoorl Cam: 128.195.201.11 
+ No answer 
+ 10339 
+  
+ 12/3/2011 8:39:51 AM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves image from Calit2 Outdoor cam on back door exit 
+  
+  
+ 22.61 % 
+ 77.39 % 
+ 0.00 % 
+ 690 days 19:23:15 
+ 153 days 01:30:42 
+ 537 days 17:42:32 
+ 97420 
+ 22026 
+ 75393 
+ 8.0 
+ 0 
+ 3062 
+ 9/19/2011 11:48:48 PM 
+ 16 
+ 3/13/2009 11:00:22 AM 
+
+
+ Calit2 Outdoorl Cam: 128.195.201.12 
+ No answer 
+ 96968 
+  
+ 12/3/2011 8:40:13 AM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves image from Calit2 Outdoor cam on  lamp post 
+  
+  
+ 0.00 % 
+ 100.00 % 
+ 0.00 % 
+ 690 days 19:22:24 
+ 00:00:00 
+ 690 days 19:12:20 
+ 96968 
+ 0 
+ 96967 
+ 0.0 
+ 0 
+ 0 
+  
+ 0 
+ 3/13/2009 10:59:50 AM 
+
+
+ Calit2 Outdoorl Cam: 128.195.201.13 
+ Host is alive 
+ 11935 
+ 0 ms 
+ 12/3/2011 8:37:27 AM 
+ Host is alive 
+ 0 ms 
+ 00:10:00 
+ URL request 
+ Retrieves image from Calit2 Outdoor cam on loading dock 
+  
+  
+ 99.98 % 
+ 0.02 % 
+ 0.00 % 
+ 690 days 18:59:28 
+ 690 days 15:44:47 
+ 02:54:37 
+ 99419 
+ 99400 
+ 17 
+ 3.6 
+ 0 
+ 2297 
+ 9/11/2011 9:26:34 AM 
+ 13 
+ 3/13/2009 10:59:04 AM 
+
+
+ Calit2 People Counter Front 128.195.201.14 
+ No answer 
+ 13974 
+  
+ 12/3/2011 8:39:57 AM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Front of Building People Counter 
+  
+  
+ 83.92 % 
+ 16.08 % 
+ 0.00 % 
+ 690 days 19:00:31 
+ 576 days 10:47:23 
+ 114 days 08:03:06 
+ 98822 
+ 82927 
+ 15894 
+ 24 
+ 0 
+ 19984 
+ 6/1/2011 12:13:16 PM 
+ 14 
+ 3/13/2009 11:08:20 AM 
+
+
+ Calit2 People Counter Rear 128.195.201.77 
+ Host is alive 
+ 11935 
+ 15 ms 
+ 12/3/2011 8:37:28 AM 
+ Host is alive 
+ 15 ms 
+ 00:10:00 
+ URL request 
+ Rear of Building People Counter 
+  
+  
+ 99.98 % 
+ 0.02 % 
+ 0.00 % 
+ 690 days 18:55:41 
+ 690 days 16:01:04 
+ 02:34:31 
+ 99374 
+ 99357 
+ 15 
+ 25 
+ 14 
+ 15782 
+ 9/11/2011 9:26:36 AM 
+ 11 
+ 3/13/2009 11:09:08 AM 
+
+
+ Calit2 -Rescue Access Point  - Loading Dock 
+ Host is alive 
+ 11936 
+ 0 ms 
+ 12/3/2011 8:33:23 AM 
+ Host is alive 
+ 0 ms 
+ 00:10:00 
+ ping (timeout - 2000 ms) 
+ Test the rescue SSID outdoors on loading dock 
+  
+  
+ 99.98 % 
+ 0.02 % 
+ 0.00 % 
+ 690 days 18:39:47 
+ 690 days 15:20:28 
+ 03:19:18 
+ 99418 
+ 99397 
+ 20 
+ 0.3 
+ 0 
+ 1954 
+ 9/11/2011 9:14:16 AM 
+ 13 
+ 3/13/2009 11:14:19 AM 
+
+
+ Service: ArcIMS ESRI software on rescue-ibm 
+ Ok 
+ 1402 
+ 45015 ms 
+ 12/3/2011 8:40:18 AM 
+ Ok 
+ 45016 ms 
+ 00:10:00 
+ check service 
+ Service ArcIMS (ESRI) on rescue-ibm.calit2.uci.edu 
+  
+  
+ 95.45 % 
+ 1.82 % 
+ 2.72 % 
+ 690 days 15:11:01 
+ 658 days 08:09:58 
+ 12 days 13:34:56 
+ 99093 
+ 94585 
+ 1808 
+ 849 
+ 0 
+ 792385 
+ 11/22/2011 7:32:39 PM 
+ 403 
+ 3/13/2009 1:25:29 PM 
+
+
+ Service: DB2 on rescue-ibm 
+ Ok 
+ 129 
+ 45015 ms 
+ 12/3/2011 8:40:18 AM 
+ Ok 
+ 45016 ms 
+ 00:10:00 
+ check service 
+ Service DB2DAS00 on rescue-ibm.calit2.uci.edu 
+  
+  
+ 95.80 % 
+ 1.48 % 
+ 2.72 % 
+ 690 days 15:18:50 
+ 660 days 18:37:56 
+ 10 days 04:06:27 
+ 99096 
+ 94937 
+ 1463 
+ 838 
+ 0 
+ 792370 
+ 12/2/2011 9:30:56 AM 
+ 399 
+ 7/2/2009 10:20:47 AM 
+
+
+ Service: Helix Server on rescue-ibm 
+ Ok 
+ 1402 
+ 45015 ms 
+ 12/3/2011 8:40:18 AM 
+ Ok 
+ 45016 ms 
+ 00:10:00 
+ check service 
+ Service Helix Server on rescue-ibm.calit2.uci.edu 
+  
+  
+ 31.23 % 
+ 66.05 % 
+ 2.72 % 
+ 690 days 12:53:59 
+ 215 days 20:45:04 
+ 454 days 23:32:46 
+ 99081 
+ 30945 
+ 65440 
+ 2483 
+ 0 
+ 792370 
+ 11/22/2011 7:32:36 PM 
+ 79 
+ 3/13/2009 3:15:57 PM 
+
+
+ Service: IIS Web Server on rescue-ibm 
+ Ok 
+ 1402 
+ 45015 ms 
+ 12/3/2011 8:40:18 AM 
+ Ok 
+ 45016 ms 
+ 00:10:00 
+ check service 
+ Service IIS Web Server on rescue-ibm.calit2.uci.edu 
+  
+  
+ 97.27 % 
+ 0.00 % 
+ 2.73 % 
+ 690 days 13:24:04 
+ 670 days 19:40:37 
+ 00:20:00 
+ 99081 
+ 96379 
+ 2 
+ 834 
+ 0 
+ 792370 
+ 11/22/2011 7:32:31 PM 
+ 407 
+ 3/13/2009 3:11:20 PM 
+
+
+ Service: Oracle on rescue-ibm 
+ Ok 
+ 1402 
+ 45015 ms 
+ 12/3/2011 8:40:18 AM 
+ Ok 
+ 45016 ms 
+ 00:10:00 
+ check service 
+ Service Oracle on rescue-ibm.calit2.uci.edu 
+  
+  
+ 97.28 % 
+ 0.00 % 
+ 2.72 % 
+ 690 days 13:11:28 
+ 670 days 20:07:16 
+ 00:00:00 
+ 99080 
+ 96382 
+ 0 
+ 832 
+ 0 
+ 792370 
+ 11/22/2011 7:32:34 PM 
+ 401 
+ 3/13/2009 3:17:49 PM 
+
+
+ Service: Satware Server on rescue-ibm 
+ Bad 
+ 91049 
+  
+ 12/3/2011 8:36:18 AM 
+ Bad 
+  
+ 00:10:00 
+ check service 
+ Service Satware server on rescue-ibm.calit2.uci.edu 
+  
+  
+ 1.61 % 
+ 95.67 % 
+ 2.72 % 
+ 690 days 15:09:06 
+ 11 days 01:23:26 
+ 659 days 20:31:18 
+ 99093 
+ 1593 
+ 94801 
+ 11 
+ 0 
+ 5875 
+ 5/8/2009 2:41:40 PM 
+ 8 
+ 3/13/2009 3:24:23 PM 
+
+
+ SNMP : Cisco Access Point Calit2 Loading Dock 
+ Ok 
+ 11936 
+ 2673546996 
+ 12/3/2011 8:33:23 AM 
+ Ok 
+ 2673486929 
+ 00:10:00 
+ SNMP test 
+ SNMP Uptime for Outdoor Cisco AP 350 - rescue 
+  
+  
+ 99.98 % 
+ 0.00 % 
+ 0.02 % 
+ 690 days 15:46:26 
+ 690 days 12:42:40 
+ 00:00:00 
+ 99370 
+ 99351 
+ 0 
+ 1304977826 
+ 4606 
+ 4294939278 
+ 9/11/2011 9:13:15 AM 
+ 11 
+ 6/13/2009 1:08:39 PM 
+
+
+ SNMP: 5G Wireless Engineering Tower Sector 1 
+ Ok 
+ 11936 
+ 1487508108 
+ 12/3/2011 8:33:23 AM 
+ Ok 
+ 1487448006 
+ 00:10:00 
+ SNMP test 
+ SNMP Uptime for Outdoor 5G Wireless WiFi 
+  
+  
+ 99.96 % 
+ 0.00 % 
+ 0.04 % 
+ 690 days 15:36:40 
+ 690 days 08:43:10 
+ 00:00:00 
+ 99394 
+ 99353 
+ 0 
+ 252652806 
+ 3632 
+ 1487508108 
+ 9/11/2011 9:13:11 AM 
+ 41 
+ 3/13/2009 2:51:53 PM 
+
+
+ SNMP: 5G Wireless Engineering Tower Sector 2 
+ Ok 
+ 11936 
+ 1487530033 
+ 12/3/2011 8:33:23 AM 
+ Ok 
+ 1487469930 
+ 00:10:00 
+ SNMP test 
+ SNMP Uptime for Outdoor 5G Wireless WiFi 
+  
+  
+ 99.96 % 
+ 0.00 % 
+ 0.04 % 
+ 690 days 15:26:32 
+ 690 days 09:03:24 
+ 00:00:00 
+ 99393 
+ 99355 
+ 0 
+ 250458520 
+ 1184 
+ 1487530033 
+ 9/11/2011 9:13:17 AM 
+ 35 
+ 3/13/2009 2:51:01 PM 
+
+
+ SNMP: 5G Wireless Engineering Tower Sector 3 
+ Ok 
+ 11936 
+ 1487534949 
+ 12/3/2011 8:33:23 AM 
+ Ok 
+ 1487474845 
+ 00:10:00 
+ SNMP test 
+ SNMP Uptime for Outdoor 5G Wireless WiFi 
+  
+  
+ 99.96 % 
+ 0.00 % 
+ 0.04 % 
+ 690 days 15:30:59 
+ 690 days 09:17:46 
+ 00:00:00 
+ 99394 
+ 99357 
+ 0 
+ 261104675 
+ 2032 
+ 1487534949 
+ 9/11/2011 9:13:13 AM 
+ 33 
+ 3/13/2009 2:51:37 PM 
+
+
+
+This report was generated by Advanced Host Monitor
+

@@ -1,0 +1,113 @@
+https://sli.ics.uci.edu/PmWiki/DeletingPages
+
+
+
+SLI | PmWiki / DeletingPages 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+DeletingPages
+
+
+
+
+
+< Page lists | Documentation Index | Installation >
+
+
+
+To delete a wiki page, edit the page, select (highlight) all text in the edit textarea, and replace it with the single word
+
+delete
+It is a good idea to add a comment to the summary field
+explaining why you deleted the page. (The field summary is usually found
+just below the edit textarea).
+
+On saving the change the page is deleted.  As an added safety feature, the deleted page still exists on the server (with a timestamp) and can be restored to the former page by the wiki administrator.
+
+If you suspect that a page has been deleted but aren't sure, have a look at the wikigroup's RecentChanges. Erasing a page counts as editing the page, and the activity is recorded there and on Site.AllRecentChanges.
+
+The default word used for page deletion ("delete") can be changed in config.php by setting the variable $DeleteKeyPattern (see Edit Variables). 
+If there is a danger of malicious page deletion it may be a good idea to change the delete word to something more obscure. 
+There is also a recipe for creating a separate delete action at Cookbook:DeleteAction.
+
+
+Removing deleted pages
+The deleted pages are retained in the same wiki.d directory in which they were created.
+They are renamed with an extension of ,del-123456789 where 123456789 is a unique number (timestamp). 
+A wiki administrator may log into the server via FTP or SSH and periodically remove these files.
+
+One way to remove the files is to delete them. 
+If you have shell access, you could use different commands, for example, go into the wiki.d directory and type one of these lines:
+rm -f *,del-*
+find . -name '*,del-*' -delete
+Alternatively, the Cookbook:CleanUp recipe can purge those unused files. See also BackupAndRestore.
+
+ 
+ How is a Wiki Group deleted?
+ An admin can remove the group pages from wiki.d/.  Note that a wiki page may also have related uploads.
+
+ Fully deleting a group via the wiki isn't possible, since a delete counts as an "update" which causes the Recent Changes? page to be re-created.
+It is possible to modify the site's configuration to allow deletion of the group's RecentChanges page -- see Cookbook:RecentChangesDeletion.
+
+ How is a Category deleted?
+ To delete a category, delete all the [[!Category]] references from all pages where they occur, then delete the category page as explained above.
+
+maintenance
+
+< Page lists | Documentation Index | Installation >
+
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:DeletingPages, and  a talk page: PmWiki:DeletingPages-Talk.
+
+
+
+
+
+
+ Last modified August 20, 2013, at 07:17 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

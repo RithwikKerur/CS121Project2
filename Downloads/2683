@@ -1,0 +1,172 @@
+https://ngs.ics.uci.edu/privacy-and-security
+
+
+
+
+
+
+
+
+Privacy and Security – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Privacy and Security    			
+
+
+Yesterday I was at National Science Foundation in connection with a research project (review) presentation.  There were several program managers.  Most of these program managers are responsible for managing research in areas related to information systems and their implications.
+It is very interesting to see how much emphasis is being put by NSF on making sure that future information systems are designed with very tight privacy and security issues.  This trend started in the last few years and has been gaining strong momentum.  I am not a very privacy minded person.  But I find this idea of including privacy and security issues as fundamental parameters in the design of a system as a very interesting technical issue.  
+Privacy and security have a very interesting relationship among them.  During the times when security is the most important concern, people are willing to forget about the security.  And during secure times, people start being concerned about privacy.  Clearly, concern for security and privacy are not something that are intrinsic, but are determined by extrinsic parameters.  A concrete example is that during the time of the war (including against terrorism) people are willing to sacrifice privacy easily.
+Privacy issues are also cultural issues.  People in different parts of the world have different sensitivity to privacy.  Something that may be serious privacy concern in one culture may be a common thing another culture.  
+For an information system designer, these issues pose a serious problem.  One can think about designing these systems by developing privacy and security as inter-related (software) knobs.  Depending on the requirement this could be adjusted.  However, the problem starts getting more interesting when one starts considering the issue that we may want not to believe any person and hence want to develop policies that will allow collection and access of data in a way that even in those cases when no body in the information systems group could be trusted, the privacy of the person should be maintained.  When people start talking about such strict privacy issues, then issues become really challenging.  From the early days of society, people have been talking about these issues and developing tools.    And one important thing that we have seen is that most of the breaches in privacy and security come because of untrustworthy humans.  It appears that in designing completely trustworthy information system, once again the weakes link is human beings.
+But that does not make the problem less interesting.  It will still be very challenging and interesting problem to design information systems that could consider privacy and security issues in a way that depending on the need, one could control it.  Of course, for the past data, no changes will be possible. 
+
+
+
+By Ramesh |
+    				December 2, 2005 |
+    				             		General Updates, Technical Thoughts |
+             	 
+    				             		No Comments |
+             	 		          				
+    			
+
+
+← Calendars are just a structuring mechanism
+video on skype →
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

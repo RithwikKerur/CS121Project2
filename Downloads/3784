@@ -1,0 +1,186 @@
+https://ngs.ics.uci.edu/i-htm
+
+
+
+
+
+
+
+
+Community Computing – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Community Computing    			
+
+
+Communities are for people, designed by people, and managed by people.Connecting people to resources and information effectively, efficiently, and promptly is critical for community wellbeing. A community could be any organization that cares for the wellbeing of its members, such as a smart city, a police department, a housing society, a hospital, or a school.
+Recently three major innovations have made significant difference in computing: Power of creating and sharing reports in real time, community based applications for helping people, and situation-based real time coordination of needs and resources. This is resulting in a new computing that considers all data and information from people in a community, from all sensors and IoT, and from traditional data sources to solve routine, life threatening, and long term complex problems of the community. We call this Community Computing. Community computing builds on data, information, and resources for community wellbeing but considers each person and her needs in accomplishing its goals. The goal of community computing is to find needs of each individual and satisfy those by connecting to appropriate resources. A community is a sum of all its individual members and its wellbeing depends on the wellbeing of its members.
+
+Community computing builds on four major components: Micro reports, Situation Recognition, Holistic dashboards, and real-time need-resource coordination and planning.
+
+Micro-Reports
+The growth in social media, Internet of things, wearable devices, mobile phones, and planetary-scale sensing has resulted in incessant multimodal data streams that form the Big Data. An important element in these streams is a micro-report of an observation at that moment. Currently the most popular sources for these reports are micro-blogs from services like Twitter, Facebook, Instagram, and Snapchat. Soon information from sensors, cameras, and IoT devices may also be considered in the form of such micro reports that provide timely information related to What, When, Where, Who, Why, and How (W5H) of events. For detecting emerging situations in Cyber-Physical-Social systems, there is an unprecedented need and opportunity to assimilate, aggregate, and analyze torrent of these micro-reports related to events.
+Micro-blogs were developed for rapid dissemination of opinions of events by people. Their efficacy for disseminating rapidly resulted in making them popular for breaking News. Micro-blogs have been used for other applications also. Traditional micro-blogs were a promising start but are subjective, noisy, and difficult to analyze and aggregate. Micro-reports build on micro-blogs by following basic journalistic principles that reports should be spontaneous, objective, and as factual as possible. They should capture all essential facts effortlessly and provide facilities to add subjective opinions.
+Given all sensors in a smart phone combined with tremendous progress in machine learning, computer vision, and contextual reasoning, it is now easy to capture an objective micro report effortlessly and attach all essential information related to W5H in the form of standard approaches like JSON to each such report. In addition to this objective information captured automatically by sensors, such reports may also allow capture of subjective opinions of the reporter. This use of explicit objective (facts) and subjective (opinions) information makes such micro reports effective in understanding the evolving situations. Explicit representation of objective and subjective information opens up many opportunities to combine micro-reports for situation recognition and appropriate actions.
+Situation Recognition
+Most emerging applications assume that all data is in stream format and must be used to address real time situations and actions. With the rising tide of data streams from Internet of Thing (IoT), micro report sites, sensor webs, and other geospatial metadata, we have humongous volumes of spatio-temporal data in real-time. Emerging real-world challenges require that all data be represented using space, time, and theme (STT) as the primary dimensions. This STT data can be used to observe the real-world evolving situations at different spatio-temporal granularities across the world.
+
+Information just from one sensor is rarely complete and reliable for understanding the physical world. Each sensor measures just one attribute of the world and provides only partial information. To get a complete picture, one must assimilate information from multiple sensors and knowledge sources. Humans use multiple sensors often from multiple viewpoints to understand the world around them. Similarly, to understand evolving situations in the world, our systems must assimilate information from diverse sources ranging from sensors, to databases, IoT, and people acting as an intelligent participating sensors. Many research efforts address this information assimilation (also called data fusion or information integration) challenge. At UCI, we developed an open source modeling and recognition platform EventShop, which enables detection and prediction of situations using multiple diverse data streams. Similar framework is being developed at personal level to determine evolving personal situations. By combining personal and environmental situations, it is possible to connect needs of people to appropriate resources efficiently, effectively, and promptly.
+Situation awareness has been recognized as a major factor in making right decision at right place at right time. Recognizing situations at the right moment to take right actions can save lives and resources in various aspects of human community.
+Situation recognition is the next frontier for recognition approaches including computer vision, machine learning (deep learning as well as convolution networks) and other areas of AI. Recent success in areas like object detection in images using machine learning has prepared AI community to address a significantly more challenging problem: recognition of evolving situations at different locations in real time using diverse data streams. It may very well be the most important frontier.
+Real Time Dashboards
+Many data streams are required to understand situations, but result in overload of data for humans causing confusion if not presented in intuitive form. For different stakeholders in an application, different information is relevant. The relevance and overload issues related to multiple diverse data streams may be solved by appropriate design of dashboards. Essentially a dashboard is an easy to understand, real-time user interface, which shows a graphical presentation of the current situation and recent and emerging trends of key performance indicators to facilitate prompt and informed decisions. Dashboards bring information from diverse data streams together in an intuitive representation that facilitates understanding of current and evolving situations, needs of people, and resource availability. This is essential for people as well as decision makers for deploying and distributing resources.
+
+Connecting Needs to Resources
+Most people are comfortable when they make decisions about resources that they need. People feel most comfortable when they can make decisions knowing the holistic situation and all available options. A dashboard that shows their own situation as well as availability of resources with relevant context is preferred by most people. It engages them.
+Decision makers also need a clear representation of all needs and resources as well as some visibility into how these needs and resources are going to change in the near future. This visibility to near future allows better and more optimal decisions by reorganizing, reinforcing, and controlling general infra structure and resources.
+The problem of connecting needs to resources is a sophisticated high dimensionality recommendation engine problem. Obviously compared to current state of art this requires solution of many challenging problems including dynamic needs of people as well as dynamic resource availability in rapidly evolving situations. Most recommendation engines deal with static needs and static resources.
+Towards Community Computing 
+
+Time is right to build community computing by bringing together many components that have now proven their efficacy in various applications. Obviously, there could be multiple approaches to realize basic community computing platforms that could then be used for different applications. The components discussed above are all part of this framework along with other data sources. The key difference in this community computing framework and existing traditional approaches is the emphasis on people engagement for providing data and information, presenting real time evolving situation and related information to them, and getting them involved as much in transparent decision making as possible.
+Community computing reflects how human society is evolving: people centric, transparent, participatory approach to solving complex real time problems. Technology is accelerating the pace of what society has been slowly evolving towards.
+
+								Tagged on: challenge for Machine learning, community wellbeing, Contextual reasoning, situation awareness, situation recognition 
+
+
+
+By Ramesh |
+    				July 8, 2016 |
+    				             		Technical Thoughts |
+             	 
+    				 		          				
+    			
+
+
+← Healthy Foodie
+Health Intelligence →
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

@@ -1,0 +1,171 @@
+https://ngs.ics.uci.edu/focused-microblogs-fmbs-going-beyond-twitter
+
+
+
+
+
+
+
+
+Focused MicroBlogs (FMBs): Going Beyond Twitter – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Focused MicroBlogs (FMBs): Going Beyond Twitter    			
+
+
+Twitter became a very powerful medium and its popularity soared rapidly.  Twitter became a major News source for the latest events.  And it remains a popular site.  Many academic researchers are exploring all aspects of twitter ranging from how it is used, how information propagates on it, how can one get information, how can one detect sentiments, and so on.  Twitter data has become a good source of research papers for many budding researchers in different research fields.  On the other hand, many companies build products using Twitter data. Products ranging from early detection of trends, popularity of politicians, to sentiments of people on a particular topic have been productized.  However, there are some limitations of Twitter data for many applications.  
+Twitter data is so broad in scope that any topics can be found in tweets, but unfortunately all topics are mixed together. If we treat the relevant information as signal, and all others as noise, twitter data has very low signal-noise-ratio (SNR).  Use of tools like hash-tags help, but do not really solve the problem.  Given this about current Twitter like social network, we believe that they all suffer serious issue of low SNR and are less effective as information sources. Therefore, we propose the concept of Focused Micro Blogs (FMB).  FMBs are on a focused topic and are targeted to a specific source.  Since the topic is fixed, the information in a FMB could be easily structured and parsed.   FMBs retain the important feature of sending brief real time information of Tweets, while overcoming their weakness of combining too many different topics in one place. This information is aggregated at a server designed for a specific task.
+Letâ€™s consider one concrete example of FMB in a popular application for traffic â€“ the Waze.  Waze is an application on phones that takes GPS data periodically from the phone and uses this to compute the speed of the device.  This is aggregated at the server to know traffic conditions in different areas.  A user may also do a micro-blog using specific input mechanisms so that the system knows about a stalled car or a police officer at a specific location.  By using sensor data from the phone and specific micro-blog-inputs, a Waze server provides very useful information to its users.  This is an FMB in action.
+
+								Tagged on: MicroBlog, Signal-to-Noise-ratio, Twitter 
+
+
+
+By Ramesh |
+    				March 11, 2013 |
+    				             		Entrepreneurism, General Updates, Prospecting Information |
+             	 
+    				             		No Comments |
+             	 		          				
+    			
+
+
+← Creating Health Persona
+Building on the Disruption in Learning and Education →
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

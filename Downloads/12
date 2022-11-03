@@ -1,0 +1,10 @@
+http://www.ics.uci.edu/%7Eirani/f04-h22/lab6/IllegalTimeValueException.java
+
+// to be thrown when trying to set a time value to be a non-positive number
+public class IllegalTimeValueException extends NumberFormatException {
+
+    public IllegalTimeValueException()
+    {
+        super(" Any value of time must be a positive integer");
+    }
+}

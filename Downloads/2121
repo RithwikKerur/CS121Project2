@@ -1,0 +1,147 @@
+https://www.cs.uci.edu/new-security-threat-for-self-driving-cars-invisible-road-obstacles
+
+
+
+
+New Security Threat for Self-Driving Cars: Invisible Road Obstacles 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ this is a widget called second front page widget area
+
+Explore
+
+Contact Us
+
+
+Faculty
+Research
+
+Research Areas
+Research Centers
+
+
+Graduate Degrees
+
+Computer Science Programs
+Current Graduate Students
+
+
+Undergraduate Degrees
+News  & Events
+
+News
+Seminar Series
+Distinguished Lecture Series
+Research Showcase
+
+
+Apply Now
+
+Undergraduate Admissions
+Graduate Admissions
+Faculty Candidates
+
+
+New Security Threat for Self-Driving Cars: Invisible Road Obstacles
+May 24, 2021 
+On May 14, 2021, a self-driving taxi stopped dead in its tracks when it became confused by traffic cones on the road. In a statement, the company noted that “while the situation was not ideal, the [autonomous] Waymo Driver operated the vehicle safely until roadside assistance arrived.” But what if instead of stopping because of a cone, an autonomous vehicle drove through one? What if the “cone” had been designed to avoid detection?
+
+This is the type of scenario Ningfei Wang, a second-year Ph.D. student in UCI’s Donald Bren School of Information and Computer Sciences (ICS), discussed this week at the 42nd IEEE Symposium on Security and Privacy (IEEE S&P 2021), a top-tier computer security conference. Wang presented the paper, “Invisible for both Camera and LiDAR: Security of Multi-Sensor Fusion based Perception in Autonomous Driving Under Physical-World Attacks.”
+The work is a joint effort among researchers from UCI, the University of Michigan, Arizona State University, the University of Illinois at Urbana-Champaign, NVIDIA Research, Baidu Research and the National Engineering Laboratory of Deep Learning Technology and Application in China, and Inceptio.
+“With the increased use of self-driving cars comes the need to better understand potential security threats,” says Wang. “Recognizing this, we have conducted a study of high-level self-driving car systems and discovered a vulnerability to physical-world adversarial attacks that pretend to be a benign obstacle in the roadway, but can cause self-driving cars to misdetect it and crash into it.”
+Exploring a New Security ThreatThe self-driving revolution might be a few years off, but with more than 40 auto brands investing in related technology and companies such as Google Waymo, Baidu Apollo Go, and Pony.ai already running self-driving services, now is the time to identify and address any potential threats.
+Autonomous driving (AD) systems rely on a “perception” module to detect surrounding objects in real time. In particular, the module focuses on detecting “in-road obstacles” such as pedestrians, traffic cones and other cars to avoid collisions. Most high-level AD systems adopt multi-sensor fusion (MSF), leveraging different perception sources (including LiDAR and cameras) to ensure detection is accurate and robust. However, this team of researchers has identified a vulnerability in MSF-based systems.
+“We found that a normal road object (for example, a traffic cone or a rock) can be maliciously shaped to become invisible in both state-of-the-art camera and LiDAR detection — the two most important perception modalities for self-driving cars today,” explains Qi Alfred Chen, an assistant professor of computer science at UCI and Wang’s adviser. “This has severe safety implications for self-driving, as an attacker can just place such an object in the roadway to trick self-driving cars and cause accidents.”
+Using 3D printing, the researchers created sample adversarial objects, testing them in various physical-world experiments.
+Examples of maliciously-shaped objects 3D-printed to test with self-driving vehicles.
+
+“We designed a novel attack with an adversarial 3D object as a physical-world attack vector that can simultaneously attack all perception sources popularly used in MSF-based AD perception,” says Wang. “This thus fundamentally challenges the basic design assumption of using multi-sensor fusion for security in practical AD settings.” Testing in simulations and with real vehicles revealed that the printed objects could in fact fool both camera and LiDAR perception models in industry-grade AD systems.
+Visualization of the LiDAR (left) and camera (right) perception results in miniature-scale experiments for a 3D-printed traffic cone (benign case) and the “malicious” cone (adversarial case). In the the adversarial case, neither the LiDAR nor camera percpetion models identified the traffic cone. (See a demo of the visualization.)
+In a physical-world experiment settings, the team tested a car with LiDAR and camerasensing using a box (benign case) and 3D-printed rock-shaped object (adversarial case). In the adversarial case, neither the LiDAR nor camera perception models identified the rock-shaped object. (See a demo of the vehicle-based test.)
+
+Building a Defense MechanismThe researchers have experimentally examined possible defense designs, decreasing the attack rate to 66%, but they continue to explore more effective strategies such as those based on adversarial training and certified robustness. As of May 20, 2021, the researchers had disclosed the vulnerability to 31 companies developing and testing AD vehicles, and 19 had indicated they are investigating the new threat. “Some already had meetings with us to facilitate their investigation,” says Chen.
+The team is also building awareness and gaining feedback by presenting their work at security conferences such as IEEE S&P. “This valuable feedback will guide my further research to best address this problem,” says Wang, “and thus better ensure the security and safety of the emerging self-driving technology before wide deployment.”
+— Shani Murray
+« 11 ICS Professors Included on Guide2Research’s 2021 Ranking of Top Scientists in Computer ScienceMedium: “Epic Women in Cyber — Saltanat Mashirova” (ICS alumna) »
+
+Latest news
+
+
+Senior Spotlight: Tennis Player and CS Major Matthew Sah Serves Up Aces On and Off the Court
+September 28, 2022
+
+
+Register Today for the Southern California AI & Biomedicine Symposium
+September 20, 2022
+
+
+CPO Magazine: “A Legal View of New NIST Quantum-Resistant Algorithms” by Bryan Cunningham
+September 19, 2022
+
+
+UCI Ranked 24th in Undergraduate Computer Science Programs by U.S. News & World Report
+September 16, 2022
+
+
+Senior Spotlight: Jose Cisneros Builds Impressive Resume with Trio of Internships
+September 15, 2022
+
+
+
+
+ 
+
+
+
+
+
+© 2022 UC Regents
+Feedback
+Privacy Policy
+
+
+
+ 
+
+
+
+

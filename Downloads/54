@@ -1,0 +1,160 @@
+http://www.ics.uci.edu/~stasio/fall04/outline268.html
+
+
+ICS 180: Schedule and Handouts
+
+ICS 268, Fall'04
+Lecture Summaries, Homeworks, Solutions, Handouts
+		
+[+ a tentative schedule for what's to come]
+[back to course main 
+				page]
+
+Lectures 
+				1-2  
+(lect1.pdf)
+Lectures 3-4 
+				(h1-primes.pdf)  
+				,  (h2-composites.pdf)  
+				,  
+							(Dana Angluin's notes on computation and number theory.pdf).
+			
+
+We 
+			covered some basic modular arithmetic in the "primes" handout, and the extended 
+			Euclidean algorithm for computing gcd and modular inverses from chapter 4 of 
+			Dana's notes.
+Lecture 5 
+We 
+			showed that modular exponentation can be done efficiently (polynomial time), 
+			but we posed the inverse of the exponentiation, namely the discrete logarithm 
+			problem, as a problem for which no known efficient algorithm is 
+			known.  We looked at two trivial attacks against discrete 
+			logarithm: exhaustive search and guessing, and concluded that the first 
+			runs in exponential time while the second one has a negligible probability of 
+			success.  We saw Shank's discrete logarithm running in time O(\sqrt(q)) 
+			and the index calculus methods which run in time about O(2^{|p|^{1/3}), and we 
+			translated these two algorithms into bounds on the size of p and q needed to 
+			achieve security for the discrete logarithm in practice.  Finally, we 
+			stated the discrete logarihtm assumption.
+Reading:  
+			Most of this material is in Stinson, chapter 6, sections 6.1, 6.2 
+			(esp 6.2.1, the other attacks are an optional reading), and 6.6.
+In 
+			the next lecture we'll abstract the assumption that discrete logarithm is hard 
+			into an assumption that "exponentiation is a one-way function".  The best 
+			lecture notes which introduce one-way functions is Yevgeni 
+					Dodis's lecture notes #2.pdf.  For now read up 
+			sections 1-7.
+[If 
+			you are curious why we are skipping Stinson 6.3-5, here is a quick 
+			overview of that material: Chapter 6.3 gives another type of evidence that 
+			the discrete logarithm is hard.  Namely, it shows 
+			that any attack logarithm which is "generic", must run in time at 
+			least \Omega(\sqrt(q)).  This shows that a type of a DL 
+			computing algorithm like the Shank's algorithm in 
+			fact cannot be improved.  This is an optional but very recommended 
+			reading.  Sections 6.4 and 6.5 show that the discrete logarithm problem 
+			can be posed in other groups than the Z_p^*.  Section 6.4 describes the DL 
+			problem in the extension field of Z_p, and section 6.5 descibes the DL problem 
+			over elliptic curves.  Both are important, but not essential to the 
+			progress of ideas in this class, so they can be left as an optional 
+			reading.]
+Lecture 6
+
+We 
+			have defined a (weak) secure authentication and shown how to use 
+			one-way permutation (for example based on modular exponentiation) to build an 
+			authentication protocol that satisfies this security property.  One of the 
+			weaknesses of this authentication scheme considered in the previous lecture is 
+			that it is stateful and that every verifier which might want to authenticate 
+			the client needs a separate verification key.
+This 
+			material is in section 11 of the above lecture notes.
+Lectures 7-8 
+
+We 
+			define the strong notion of security for the authentication scheme (a.k.a. 
+			"identification scheme").  We show a public-key (and stateless) 
+			authentication scheme which is based on modular exponentiation.  
+			We introduce the concept of zero-knowledge proof and of the simulation proof 
+			technique, and we show that this identification scheme is based on a 
+			zero-knowledge proof of knowledge of discrete logarithm.  This scheme is 
+			similar to the Fiat-Shamir identification scheme, and it forms a basis of the 
+			Schnorr Signature scheme [Schnorr, Crypto'89].  We show that this 
+			scheme is secure under the discrete logarithm assumption, i.e. the 
+			assumption that modular exponentiation is a one-way function.  
+			In its general form, this scheme actually works using any one-way 
+			function with certain "homomorphic" properties. 
+Lectures 9-10
+We 
+			introduce preimage resistant, second-preimage resistant, and collision 
+			resistant hash functions.  We introduce the random oracle model for hash 
+			functions, which implies all these properites.  We show Merkle tree and 
+			Merkle-Damgard construction of hash function on infinite domain from a hash 
+			function that takes element from a small domain (such hash functions are called 
+			"compression functions"), and we argue that both constructions preserve all the 
+			needed properties of the hash function.  We define message authentication 
+			schemes (MACs), and we define a strong notion of security for MACs as 
+			resistance against chosen message attack (CMA).  We show a secure MAC 
+			scheme based on a hash function, and argue that this scheme is CMA-secure as 
+			long as the hash function can be modeled as a random oracle.  We show also 
+			a number-theoretical hash scheme, by Pedersen [Crypto'91], which is collision 
+			resistant under the discrete logarithm assumption.
+The 
+			material for these lectures is Stinson's chapter 4, sections 4.1 to 4.4, with 
+			section 4.5 as a recommended optional reading.  For a different 
+			take, see Tal Malkin's lecture 22.pdf
+			 and Yevgeni Dodis's lecture 11.pdf.
+Lecture 11
+We 
+			define signature schemes and various notions of their security.  We 
+			show the Schnorr Signature scheme based on the authentiaction protocol from 
+			lectures 7-8 above.  We argue that it is existentially unforgeable under 
+			the CMA attack under the discrete logarithm assumption and assuming the random 
+			oracle model for a hash function used in this scheme.  We show the 
+			standard Digital Signature Standard (DSS) signature, which can be looked at as 
+			a variant of the Schnorr signature scheme (historically DSS was first, but 
+			Schnorr signature has better understood security).
+
+			See Stinson's 7.1, 7.2, 7.4.1, 7.4.2.  For the background reading 
+			with optional subjects like one-time signatues (which are also 
+			covered in Stinson's chapter 7.5.1), see Yevgeni 
+					Dodis's lecture 12.pdf or 
+Tal Malkin's lecture 18.pdf,   
+lecture 19.pdf, and lecture 21.pdf,
+Lectures 12-13
+
+		We introduce the RSA permutation, examine its relation to factoring, and argue 
+		why it is assumed to be a trapdoor permuation.  We show Rabin's 
+		permutation and argue that Rabin is a Trapdoor permutation if and only if 
+		factoring RSA moduli is hard.  We show several signature schemes based on 
+		RSA permutation, with varying degrees of security: plain RSA, padded RSA, and 
+		full-domain hash RSA signature.  Only the last scheme is known to be 
+		existentially unforgeable under the CMA attack assuming RSA is a trapdoor 
+		permutation and assuming the random oracle model for the hash function.
+		
+			Stinson covers the RSA cryptosystem in chapter 5.  So far we covered 
+			material in Sections 5.1-5.3 and 5.7-5.8.  Sections 5.4-5.6 are optional 
+			reading.  We will come back Section 5.9 when discussing RSA encryption.
+			
+
+
+Homework 
+				1 (due Tuesday, 10/5) 
+(hmw1.pdf), (sol1.pdf)
+Homework 2 (due 
+				Thursday, 10/14) 
+(hmw2.pdf), (sol2.pdf)
+Homework 3 (due 
+				Thursday, 10/21) 
+(hmw3.pdf), (sol3.pdf)
+Homework 4 (due 
+				Thursday, 11/04) 
+(hmw4.pdf), (sol4.pdf)
+
+Homework 5 (due 
+				after the final week) 
+(hmw5.pdf)
+
+

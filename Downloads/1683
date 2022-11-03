@@ -1,0 +1,543 @@
+http://sli.ics.uci.edu/extras/cs178/Perceptron_Demo.html
+
+
+
+
+Perceptron demo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In [1]:
+
+
+import numpy as np
+np.random.seed(0)
+import mltools as ml
+import matplotlib.pyplot as plt   # use matplotlib for plotting with inline plots
+# "notebook" is useful for interactive plots
+%matplotlib notebook
+# "inline" is better if you're running it as a script
+#%matplotlib inline
+
+def newPlot(h=5.0,w=4.0):
+    plt.close("all")
+    plt.rcParams['figure.figsize'] = (h,w)
+
+
+
+
+
+
+
+
+
+
+The perceptron algorithm¶The perceptron algorithm is a simple technique for trying to find 
+a linear classifier that separates a data set.
+Let's start with a binary classification problem, whose class values $y^{(i)}$ are in canonical "signed" form, e.g., $y^{(i)} \in \{-1, +1\}$.
+The perceptron algorithm follows a simple
+update rule:
+$$ \theta \leftarrow \theta + (y^{(i)}-\hat y^{(i)}) x^{(i)} $$
+If the true class $y^{(i)}$ is correctly predicted ($\hat y^{(i)} = y^{(i)}$),
+this update leaves the linear weights theta unchanged; if they are not
+equal, then it will update theta to be more "in line" with example $x^{(i)}$
+and its sign $y^{(i)}$.
+
+
+
+
+
+In [2]:
+
+
+import mltools.datagen
+np.random.seed(1)
+X,Y = ml.datagen.data_GMM(100,2, get_Z=True)
+Y[Y==0] = -1   # convert from 0,1 to -1,+1 format
+newPlot()
+ml.plotClassify2D(None,X,Y)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In [3]:
+
+
+class perceptron(ml.classifier):
+    def predict(self, X):
+        Z = self.theta[:,0].T + X.dot( self.theta[:,1:].T )
+        Y = 2*(Z>0)-1  # np.sign(Z) without sign(0)=0
+        return Y
+
+percept = perceptron()
+#percept.theta = np.random.rand(1,3)   # start with a random linear classifier
+percept.theta = np.array([[-3,-1,.5]])
+newPlot()
+ml.plotClassify2D(percept,X,Y)
+print "Theta: ",percept.theta
+print "Error rate: ",percept.err(X,Y)
+
+
+
+
+
+
+
+
+Theta:  [[-3.  -1.   0.5]]
+Error rate:  0.74
+
+
+
+
+
+
+
+
+
+
+
+
+
+In [4]:
+
+
+from numpy import atleast_2d as twod
+
+M,N = X.shape
+percept.theta = np.array([[-3,-1,.5]])
+
+alpha = 0.005
+for it in range(10):   # 100 iterations:
+    for i in range(M):
+        xi = twod(X[i,:])              # useful shorthand for x^{(i)}
+        yhati = percept.predict( xi )  # predict y^i from x^i
+        # Now, update according to the perceptron rule:
+        percept.theta += alpha * (Y[i]-yhati) * [1,xi[0,0],xi[0,1]]
+    print "Error rate: {} \t(iter {})".format(percept.err(X,Y),it)
+
+
+
+
+
+
+
+
+Error rate: 0.27 	(iter 0)
+Error rate: 0.08 	(iter 1)
+Error rate: 0.06 	(iter 2)
+Error rate: 0.05 	(iter 3)
+Error rate: 0.03 	(iter 4)
+Error rate: 0.02 	(iter 5)
+Error rate: 0.02 	(iter 6)
+Error rate: 0.01 	(iter 7)
+Error rate: 0.01 	(iter 8)
+Error rate: 0.01 	(iter 9)
+
+
+
+
+
+
+
+
+In [5]:
+
+
+# Let's check out the final classifier:
+newPlot()
+ml.plotClassify2D(percept,X,Y)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Often, we want to plot something while our training procedure runs -- particularly error rates, etc., such as we just printed above.  We can do that using 
+"%matplotlib notebook"  (see first cell, at top)
+along with some functions that change the data being used in our plot.
+
+
+
+
+
+In [6]:
+
+
+from numpy import atleast_2d as twod
+
+M,N = X.shape
+percept.theta = np.array([[-3,-1,.5]])
+
+J=[percept.err(X,Y)]
+newPlot()
+fig = plt.figure()
+axes= fig.add_subplot(111)
+lines = plt.plot([0],J,'g-')   # plot our error rate -- so far zero iterations
+
+alpha = 0.005
+for it in range(20):   # 100 iterations:
+    for i in range(M):
+        xi = twod(X[i,:])              # useful shorthand for x^{(i)}
+        yhati = percept.predict( xi )  # predict y^i from x^i
+        # Now, update according to the perceptron rule:
+        percept.theta += alpha * (Y[i]-yhati) * [1,xi[0,0],xi[0,1]]
+    J.append( percept.err(X,Y) )       # keep track of error
+    
+    # Now, "auto-updating" plot:
+    lines[0].set_xdata(range(len(J)))  # change the original line's x & y data
+    lines[0].set_ydata(J)              # to their new values
+    axes.relim()                       # update the plot axes ranges if needed
+    axes.autoscale_view(True,True,True)
+    plt.draw()                         # and re-draw the plot
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Multi-class generalization¶It's quite easy to generalize linear classifiers to more than two classes.
+The simplest of these is to 
+include a set of weights (linear coefficients) 
+for each class, and choose the class with the highest linear
+response, e.g.,
+  $$ z^{(i)}_c = x^{(i)} \cdot \theta_c $$
+  $$ y^{(i)} = \arg \max_c z^{(i)}_c $$
+We'll do that in code first:
+
+
+
+
+
+In [7]:
+
+
+# Make a trivial 4-class data set with four data points:
+X = np.array([[-4,2], [-4,-3], [4,1], [5,-2]]) / 8.0
+Y = np.array([  0   ,   1    ,  2   ,  3    ])
+
+newPlot()
+ml.plotClassify2D(None,X,Y)
+#plt.axis([-5,6,-4,3]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In [8]:
+
+
+import mltools as ml
+reload(ml)
+reload(ml.plot)
+class perceptronMulti(ml.classifier):
+    def predict(self, X):
+        # Define theta[c,i] = weight of feature i for class c:
+        Z = self.theta[:,0].T + X.dot( self.theta[:,1:].T )
+        Y = np.argmax(Z,axis=1)
+        return Y
+
+percept = perceptronMulti()
+np.random.seed(100)
+percept.theta = np.random.randn(4,3)   # start with a random linear classifier
+plt.close("all")
+plt.ion()
+ml.plotClassify2D(percept,X,Y)
+#print "Theta: ",percept.theta
+#print "Error rate: ",percept.err(X,Y)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+We can see that there are now four regions predicted by the classifier; the boundary between each pair of classes $(c,c')$ is a line, defined by the equation
+$$ x \cdot (\theta_c - \theta_{c'}) = 0 $$
+i.e., those points where we change from $x \cdot \theta_c$ being larger to being smaller than $x \cdot \theta_{c'}$.
+The modified perceptron rule is also simple: update theta to increase the response of the correct class, and decrease the response of the predicted class.
+$$ \theta_{y^{(i)}} \leftarrow \theta_{y^{(i)}} + \alpha x^{(i)} $$
+$$ \theta_{\hat y^{(i)}} \leftarrow \theta_{\hat y^{(i)}} - \alpha x^{(i)}$$
+If the predicted class is correct (matches $y^{(i)}$), this has no net effect; otherwise, it will change $(\theta_c - \theta_{c'})$ to improve that pair's boundary.
+
+
+
+
+
+In [9]:
+
+
+from numpy import atleast_2d as twod
+
+M,N = X.shape
+percept.theta = np.zeros((4,3))
+
+J=[percept.err(X,Y)]
+newPlot()
+fig = plt.figure()
+axes= fig.add_subplot(111)
+lines = plt.plot([0],J,'g-')   # plot our error rate -- so far zero iterations
+
+alpha = 0.1
+for it in range(20):   # 100 iterations:
+    for i in range(M):
+        yhati = percept.predict( twod(X[i,:]) )  # predict y^i from x^i
+        # Now, update according to the perceptron rule:
+        percept.theta[int(Y[i]),:] += alpha/(it+1) * np.array([1,X[i,0],X[i,1]])
+        percept.theta[int(yhati),:]-= alpha/(it+1) * np.array([1,X[i,0],X[i,1]])
+    J.append( percept.err(X,Y) )       # keep track of error
+
+    # Now, "auto-updating" plot:
+    lines[0].set_xdata(range(len(J)))  # change the original line's x & y data
+    lines[0].set_ydata(J)              # to their new values
+    axes.relim()                       # update the plot axes ranges if needed
+    axes.autoscale_view(True,True,True)
+    plt.draw()                         # and re-draw the plot
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In [10]:
+
+
+plt.close("all")
+plt.ion()
+ml.plotClassify2D(percept,X,Y)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In [11]:
+
+
+percept.theta
+
+
+
+
+
+
+Out[11]:
+
+array([[ 0.00833333, -0.00416667,  0.06458333],
+       [-0.025     , -0.0875    , -0.05625   ],
+       [ 0.01666667,  0.02916667,  0.03541667],
+       [ 0.        ,  0.0625    , -0.04375   ]])
+
+
+
+
+
+
+
+
+
+
+Non-separable data¶Now let's take a look at a data set that is not linearly separable, and see what happens.
+
+
+
+
+
+In [12]:
+
+
+np.random.seed(8)
+X,Y = ml.datagen.data_GMM(100,4, get_Z=True)
+newPlot()
+ml.plotClassify2D(None,X,Y)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In [13]:
+
+
+from numpy import atleast_2d as twod
+
+M,N = X.shape
+percept.theta = np.zeros((4,3))
+
+J=[percept.err(X,Y)]
+newPlot()
+fig = plt.figure()
+axes= fig.add_subplot(111)
+lines = plt.plot([0],J,'g-')   # plot our error rate -- so far zero iterations
+
+alpha = 0.05
+for it in range(20):   # 100 iterations:
+    for i in range(M):
+        yhati = percept.predict( twod(X[i,:]) )  # predict y^i from x^i
+        # Now, update according to the perceptron rule:
+        percept.theta[int(Y[i]),:] += alpha * np.array([1,X[i,0],X[i,1]])
+        percept.theta[int(yhati),:]-= alpha * np.array([1,X[i,0],X[i,1]])
+    J.append( percept.err(X,Y) )       # keep track of error
+
+    # Now, "auto-updating" plot:
+    lines[0].set_xdata(range(len(J)))  # change the original line's x & y data
+    lines[0].set_ydata(J)              # to their new values
+    axes.relim()                       # update the plot axes ranges if needed
+    axes.autoscale_view(True,True,True)
+    plt.draw()                         # and re-draw the plot
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+We see the performance oscillating -- the data are not separable, so the perceptron algorithm will not converge.  If we were really interested in using this technique, we could (for example) keep track of the best model found and use that one; but we'll just use the last:
+
+
+
+
+
+In [14]:
+
+
+plt.close("all")
+plt.ion()
+ml.plotClassify2D(percept,X,Y)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,193 @@
+http://plrg.ics.uci.edu/jaaru
+
+
+
+
+
+
+
+
+Jaaru – Programming Languages Research Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+									Programming Languages Research Group								
+
+
+
+
+
+
+Brian Demsky
+Students
+Publications
+Software
+
+Software Verifiers
+
+PSan
+Yashme
+Jaaru
+Satune
+C11Tester
+
+
+Software for Relaxed Memory Models
+Irvine Research Java Compiler
+Views
+Smart Home
+
+Fidelius
+IoTCheck
+PingPong
+Vigilia
+
+
+
+
+Navigation
+
+
+
+
+ 
+
+
+
+
+
+
+
+Jaaru: Efficiently Model Checking Persistent Memory Programs
+Recently persistent memory technologies have become commercially available. Ensuring that persistent data structures are crash-consistent (i.e., power failures) is a major challenge. Stores to persistent memory are not immediately made persistent — they initially reside in processor cache and are only written to persistent memory when space constraints or explicit flush operations force the cache line to be written to persistent memory. Testing crash consistency is extremely difficult.
+We present the first efficient model checking algorithm for persistent memory. We introduce a new constraint refinement-based partial order technique that reduces the number of executions that must be explored by many orders of magnitude. Our technique explores all possible executions that arise from the non-determinism from cache line persistency. For common persistent data structure coding patterns, our technique reduces the model checking complexity from exponential in the length of program executions to quadratic. We have implemented this approach in the tool Jaaru, and show that Jaaru can find persistency bugs in all of our benchmarks.
+In the following, you will the step-by-step procedure for setting up Jaaru on vagrant (i.e., a virtual machine) and how to use Jaaru to debug your tools. If you want to use Jaaru on your machine you can skip the instructions for setting up the virtual machine. As a working example, we will show the steps to found bugs in RECIPE and PMDK. 
+Setting up Jaaru
+This section shows how to setup Jaaru on any Linux machine. You can use our artifact evaluation to automatically setup Jaaru and the benchmarks on a virtual machine or you can use the following step-by-step tutorial to setup up Jaaru on your machine.
+Dependencies
+To properly set up Jaaru, some packages are required. Use the following commands to install all the necessary dependencies:
+sudo apt-get update
+sudo apt-get -y install cmake g++
+Setting up Vagrant
+Use the following commands to set up a virtual machine (i.e., Vagrant) in ~/jaaru directory:
+sudo apt-get -y vagrant virtual-box
+cd ~/jaaru
+vagrant init hashicorp/bionic64
+If you want to build LLVM in your virtual machine, you need to specify more memory to your VM. In order to increase the memory add the following config in the configuration file (i.e., Vagrantfile):
+config.disksize.size = '80GB'
+config.vm.provider :virtualbox do |v|
+   v.customize ["modifyvm", :id, "--memory", 8172]
+   v.customize ["modifyvm", :id, "--cpus", "4"]
+end
+Now you can start your VM and ssh to it:
+vagrant up
+vagrant ssh
+Building PMCPass
+Jaaru requires an LLVM pass (i.e., PMCPass) to annotate all loads/stores of your tool. You can download the binary file from here or build the PMCPass with LLVM. To build it you need to download LLVM and register our pass and build it:
+git clone https://github.com/llvm/llvm-project.git
+git clone https://github.com/uci-plrg/jaaru-llvm-pass
+cd llvm-project
+git checkout 7899fe9da8d8df6f19ddcbbb877ea124d711c54b
+cd ../jaaru-llvm-pass
+git checkout 0b639997a1a990cfaa0adb29a4f3a1c9f784d8ca 
+cd ..
+mv jaaru-llvm-pass llvm-project/llvm/lib/Transforms/PMCPass
+To register our pass in LLVM append ‘add_subdirectory(PMCPass)’  to  CMakeLists.txt file in ‘Transforms’ directory by using the following command:
+echo "add_subdirectory(PMCPass)" >> llvm-project/llvm/lib/Transforms/CMakeLists.txt
+After registering the pass, use the following commands to build it:
+cd llvm-project
+mkdir build
+cd build
+cmake -DLLVM_ENABLE_PROJECTS=clang -G "Unix Makefiles" ../llvm
+make
+To verify the building process was successful, our pass can be find in the following directory:
+touch llvm-project/build/lib/libPMCPass.so
+Setting up Jaaru
+This section shows how to setup Jaaru (i.e., PMCheck) and use it to debug RECIPE benchmarks and PMDK benchmarks. To download and build Jaaru use the following commands:
+cd ~/
+git clone https://github.com/uci-plrg/jaaru
+mv jaaru pmcheck
+cd pmcheck/
+git checkout b4a60d7110e7d5f8849c771b84ee09c81e216186
+make
+Jaaru supports different APIs to access the persistent memory including pmem in PMDK library and volatile memory allocator (libvmemmalloc). In PMDK there are separate APIs for allocating persistent memory. However, libvmemmalloc overrides normal malloc API to allocate memory on persistent memory instead of RAM. If the tool-under-test uses libvmemmalloc, a flag needs to be set in Jaaru to activate the corresponding support. to do that uncomment the following flag in ‘pmcheck/config.h’ file and recompile Jaaru:  
+//In config.h file uncomment the following line
+#define ENABLE_VMEM
+Running your tools
+To run your test cases, you need to compile your tool with Jaaru (i.e., pmcheck) and our LLVM pass (i.e., PMCPass). To make this process easier, we use a coding pattern which is described as follows: If you check ‘pmcheck/Test’ directory, there are 4 scripting files g++, gcc, clang, and clang++. In each of these files we define appropriate flags for the compiler. You can modify ‘LLVMDIR’ and ‘JAARUDIR’ environment variables in these files to point to the location of LLVM and Jaaru (i.e., PMCheck) on your machine. Then, modify the building system of your tool to use these script wrappers instead of the actual compilers. For example, your ‘~/pmcheck/Test/g++’ file can look like this:
+LLVMDIR=~/llvm-project/
+CC=${LLVMDIR}/build/bin/clang++
+LLVMPASS=${LLVMDIR}/build/lib/libPMCPass.so
+JAARUDIR=~/pmcheck/bin/
+$CC -Xclang -load -Xclang $LLVMPASS -L${JAARUDIR} -lpmcheck -Wno-unused-command-line-argument -Wno-address-of-packed-member -Wno-mismatched-tags -Wno-unused-private-field -Wno-constant-conversion -Wno-null-dereference $@
+To verify the script wrappers you can build our test cases without any errors:
+cd ~/pmcheck/
+make test
+Debugging RECIPE
+For evaluating Jaaru, we tested it on RECIPE benchmarks. RECIPE uses libvmemmalloc to access persistent memory, so vmem flag has to be activated to debug this benchmark (See Setting up Jaaru). We found a couple of bugs that we reported them all and they are fixed by the authors. Here you can download the working version of the RECIPE that contains our bug fixes: 
+git clone https://github.com/uci-plrg/nvm-benchmarks
+cd nvm-benchmarks
+git checkout 4fb82ecb29cdec628630f9433c58813f44aabf90
+cd RECIPE
+To compile and run any benchmarks, you need to modify the Makefile to change the compiler to point to the corresponding wrapper script. For example in FAST_FAIR makefile add the following line:
+CXX=~/pmcheck/Test/g++
+To run each test case, you need to replace the ‘run’ file in ‘nvm-benchmarks’ directory. Here’s how it should look:
+export LD_LIBRARY_PATH=~/pmcheck/bin/
+
+Now you can run RECIPE benchmarks by using ‘run.sh’ script file. For instance, to run FAST_FAIR with two threads and 3 keys we use the following command:
+./run.sh ./example 3 2
+The bugs that we found in RECIPE and PMDK are guarded by ‘BUGFIX’ flag. To reproduce the bugs, one needs to comment out our fix and run the program with Jaaru. Then, it can be observed Jaaru can find an execution that crashes the program without that fix. 
+Disclaimer
+We make no warranties that Jaaru is free of errors. Please read the paper and the README file so that you understand what the tool is supposed to do.
+Contact
+Please feel free to contact us for more information. Bug reports are welcome, and we are happy to hear from our users.
+Contact Hamed Gorjiara at hgorjiar@uci.edu, Harry Xu at harryxu@g.ucla.edu, or Brian Demsky at bdemsky@uci.edu for any questions about Jaaru.
+Copyright
+Copyright © 2020 Regents of the University of California. All rights reserved.
+
+
+
+
+
+
+
+
+
+
+
+Back to Top 
+
+

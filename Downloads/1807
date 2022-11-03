@@ -1,0 +1,102 @@
+https://sli.ics.uci.edu/PmWiki/WikiWord
+
+
+
+SLI | PmWiki / WikiWord 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+WikiWord
+
+
+
+
+
+
+A WikiWord is a set of two or more words run together, where the first letter of each word is capitalized. This syntax is also sometimes referred to as "mixed case" or "camel case". Other descriptions of WikiWords are available from Wiki:WikiWord and Wikipedia:WikiWord.
+
+Usage as page titles
+WikiWords are used as page titles in a wiki-based system.  
+
+Usage as links
+In some wikis (depending on the configuration of PmWiki), a valid link can be created by writing it as WikiWord. In such PmWiki installations, WikiWords surrounded by [=...=] or preceded by a backquote (`) are not turned into links: 
+
+
+LikeThis compared to `LikeThis or even [=LikeThis=]LikeThis compared to LikeThis or even LikeThis
+
+
+See Links for information about PmWiki's rules for forming links and forming page titles.
+
+Enabling WikiWord links
+WikiWord links are disabled by default since Pmwiki version 2.1 beta2. To enable WikiWord links you need to set in config.php
+
+    $EnableWikiWords = 1;
+See also $LinkWikiWords and $SpaceWikiWords.
+
+WikiWord links to non-existent pages without decoration
+If you want to display links to non-existent pages without decoration, place the following lines in pub/css/local.css: 
+
+ span.wikiword a.createlink { display:none; }
+span.wikiword a.createlinktext { border-bottom:none; text-decoration:none; color:inherit; }
+Finding WikiWord links
+If you upgraded from an earlier version and want to convert WikiWord links to standard links, the following will help to find those WikiWord links easier by highlighting them. Set in config.php:
+
+ $HTMLStylesFmt['wikiword'] = "span.wikiword { background:yellow; }";
+Disabling certain WikiWords links
+The variable $WikiWordCount controls WikiWord conversion on a per word basis.
+
+
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:WikiWord, and  a talk page: PmWiki:WikiWord-Talk.
+
+
+
+
+
+
+ Last modified October 18, 2016, at 01:29 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

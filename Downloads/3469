@@ -1,0 +1,189 @@
+https://ngs.ics.uci.edu/machine-learning-hammer
+
+
+
+
+
+
+
+
+Machine Learning Hammer – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Machine Learning Hammer    			
+
+
+Mark Twain said: “To a man with a hammer, everything looks like a nail.”   His observation is definitely very relevant to current trends in computer vision and multimedia content analysis. We have a Machine Learning Hammer (ML Hammer) that we want to use for solving any problem that needs to be solved.  The problem is not with the hammer; the problem is with people who fail to learn that not every problem is solvable using machine learning.
+ Content analysis uses decisions at every level â€“ starting from the lowest level of feature detection.  In fact, every decision assumes existence of a model.  For example even edge detection assumes a step discontinuity in intensity values or some other characteristics.  The famous object recognition problem fundamentally tries to see whether a given feature pattern satisfies a model representing an object.  The complexity in object recognition increases as the number of objects increase.  The most difficult part in object recognition is defining models of objects clear enough so that each object occupies a distinct are in the feature space.  This problem also requires identifying measurable features which will result in providing distinct areas in the feature space for each of the given set of objects.  If we can identify such a feature set, then we can easily model each object by its appropriate feature values.
+The challenges are:
+1.	to identify a right set of features
+2.	to identify feature values for representing each object
+In reality, both problems are related.  There is a right set of features for recognizing a given set of objects.  Most of the content analysis focuses on the second problem and assumes that they have to live with a given set of features (such as color, texture, and shape) and try to use machine learning techniques for solving the second problem.  This is because content analysis people discovered machine learning (because supervised and unsupervised learning approaches for classification have been around for more than at least 40 years) as a convenient hammer.  Progress in storage and processing technology has facilitated application of solving the model building process.  Unfortunately, we ignore the first problem and use our ML Hammer on whatever problem we are given.  Surprisingly, we are happy even when get less than 20% right results.
+
+								Tagged on: computer-vision multimedia 
+
+
+
+By Ramesh |
+    				July 24, 2010 |
+    				             		Experiential Computing |
+             	 
+    				             		1 Comment |
+             	 		          				
+    			
+
+
+← Likes, loyalties, and choices
+Milkshake, Drunk Researcher, and Problem Solving →
+
+
+
+			One thought on “Machine Learning Hammer”		
+
+
+
+
+Urmi July 25, 2010 at 11:06 pm 
+
+Got to learn a lot about content analysis from this post of yours.Please keep me updated if further developments take place in this regard.It is through your post that i am able to stay updated about the latest inventions and innovations in the field of technology.Look froward to hearing from you soon again.
+
+
+
+
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

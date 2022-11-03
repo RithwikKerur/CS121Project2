@@ -1,0 +1,194 @@
+https://ngs.ics.uci.edu/photo-eco-system-digital-cameras
+
+
+
+
+
+
+
+
+Photo Eco System: Digital cameras – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Photo Eco System: Digital cameras    			
+
+
+A modern digital camera is no longer just a simple pinhole camera (the old camera obscura model) that records only optical information about the environment as a projectionÂ  of intensity values on a chemical surface.Â  A modern day digital camera, even the simplest point-and-shoot camera that is now used by close to a billion people, has many different types of Â sensors and a flash to capture and modify the environment. Along with the intensity values, it records several additional optical and other parameters. Most importantly, it records the focal length, aperture opening, aperture time, and flash-related information. It also stores the clock and the camera model.
+In many cameras, a user can set a specific scene mode to declare the intended nature of the image so the camera can adjust appropriate parametersâ€” and this mode is also recorded with the picture.Â 
+Â 
+Already cameras are available with GPS, and this functionality will become common soon, so youâ€™ll know exactly where the picture was taken. In short, a digital camera is no longer a simple camera; itâ€™s a multimedia device that stores the environment where a photo is taken. All this information is explicitly available along with the pictureâ€™s intensity values. Most digital cameras use standards like the exchangeable image format
+(EXIF) that stores all this and more information in each digital photo (see http://www.exif.org for
+more about EXIF).
+Â 
+What is equally important to realize and remember is that the intensity values for mega-pixels â€“ currently 10 Mega-pixel seems to be the target â€“ are stored in several mega bytes but all other information is stored in almost negligible size of a few Kilo bytes at max. Â Also this information, commonly called meta data, is explicitly available while intensity values are a convolution of many factors and must be analyzed rigorously to get any information out of those. Â 
+Â 
+Most research papers in image retrieval demonstrate search-related solutions as if we can solve the problem using only intensity values.Â  Research in this area has been going on for more than a decade with several thousand researchers addressing this problem in almost all technologically developed and developing countries.Â  Most, at least more than 95% research has been to somehow utilize intensity values to sole the problem of indexing, organizing, and retrieving photos.Â  I could understand the obsession with using only intensity values some time ago â€“ when digital cameras were not common â€“ but now in the changed situation I expected that the problem of photo retrieval will be redefined in the research community. Â Itâ€™s a mystery to me that researchers are still reluctant to use all of the other obvious information thatâ€™s easily available and helpful.
+Â 
+If we consider all the information available from digital cameras in digital photos, we can get a significant head start, even before we open the so-called image. One important factor to remember is that all this informationâ€”letâ€™s call it metadata in digital photosâ€”is easily available and can be processed several orders of magnitude faster than processing the images themselves (which are becoming increasingly larger in size).
+
+
+
+
+By Ramesh |
+    				June 22, 2007 |
+    				             		Technical Thoughts |
+             	 
+    				             		1 Comment |
+             	 		          				
+    			
+
+
+← Creating a Photo Eco System: The problem
+Offline Social Networks →
+
+
+
+			One thought on “Photo Eco System: Digital cameras”		
+
+
+
+
+Zoe Hellar November 18, 2008 at 3:41 am 
+
+The digital camera is ever evolving to the point that it will not be a camera.  Today it morphs into a mobile phone or an i-phone and tomorrow it will be a Satellite Navigation unit. The demise of the stand alone digital camera is near.
+
+
+
+
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

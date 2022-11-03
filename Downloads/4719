@@ -1,0 +1,135 @@
+https://www.ics.uci.edu/~rjammala/projects.html
+
+
+
+
+
+
+
+ Home page of Ravi Chandra Jammalamadaka 
+
+
+
+
+
+
+
+Ravi Chandra's Home Page 
+
+
+
+
+
+
+
+
+ During the course of my research, I was involved in the following projects: 
+ DataGuard:  
+
+
+Businesses that provide data storage facilities on the internet
+(IDP) have exploded recently. Such businesses provide the following
+benefits to end users: a) anytime, anywhere access to data; b) low
+cost; and c) good quality of service. Examples of data storage
+providers include Amazon S3 service, Windows SkyDrive, Nirvarnix,
+etc.
+
+Users face two challenges in utilizing the storage infrastructures
+of the IDPs: a) Heterogeneity: Different IDPs provide
+different interfaces to application developers to store and fetch
+data with them due to lack of accepted standards; and b)
+Security: Data outsourced to IDPs is vulnerable to attacks
+from the internet thieves and from malicious employees of IDPs.
+
+To combat the above problems we present DataGuard, which is a client
+side interoperable security middleware that adapts to the
+heterogeneity of interfaces of IDP and enforces security constraints
+on outsourced data. This significantly simplifies the effort for
+application development. To combat heterogeneity, DataGuard
+incorporates an abstract service model that can be easily customized
+to several IDPs. To address the security challenges, DataGuard
+supports a security model that protects the confidentiality and
+integrity of outsourced data. We propose a novel indexing technique
+that allows search on the encrypted data stored at the IDPs. We
+illustrate the feasibility/efficacy of DataGuard, by implementing
+the middleware and executing it on two of the popular IDPs, Amazon
+S3 service and Gmail.com. 
+
+ 
+For more information regarding the project please visit  http://DataGuard.ics.uci.edu . Here you will also find the prototype
+of the system available for free download.   
+ DataProtector:  
+
+
+Outsourcing personal information to web based data services (WDS) is a common recent trend. 
+Websites such as Gmail.com, Flickr.com and Google Docs are examples of such services. 
+Current WDSs provide a variety of data services that allow data storage, backup, sharing, etc. 
+These services have become so popular that they are now a part of our daily life. 
+The biggest drawback of such services is the requirement to trust the service provider. 
+Data outsourced is stored in plaintext and is vulnerable to outsider attacks from hackers/Internet thieves and insider attacks from malicious employees. 
+
+To combat the above issues, we propose DataProtector, a security middleware for web based data services. 
+DataProtector acts as a transparent middleman between the browser and the web server and enforces security requirements at 
+the level of HTTP requests. DataProtector utilizes a rule based framework for determining the 
+flow of sensitive information via HTTP requests/responses and protects the confidentiality and integrity of 
+such information using cryptographic techniques. DataProtector is a generic middleware that can protect data outsourced 
+to a wide variety of WDSs. We implemented a proof-of-concept DataProtector prototype to measure its performance.  
+
+For more information regarding the project please visit  http://DataProtector.ics.uci.edu .  
+ DataVault:  
+
+DataVault is an architecture designed for Web users that allows them to securely access their data from any machine connected to the Internet 
+and also lets them selectively share their data with trusted peers. The DataVault architecture is built on the outsourced database model (ODB), 
+where clients/users outsource their database to a remote service provider who provides data management services such backup, recovery, 
+transportability and data sharing. In DataVault, the service provider is untrusted. The confidentiality and integrity of the user's data 
+is preserved using cryptographic techniques. The service provider manages encrypted data. 
+DataVault utilizes a novel PKI infrastructure and encrypted storage model that allow data sharing to take place via an untrusted server. 
+
+For more information regarding the project please visit  http://ics.uci.edu/~rjammala/DataVault . Here you will also find the prototype
+of the system available for free download.  
+ pVault:  
+
+Pvault software is a personal data manager that stores and retrieves data 
+from a remote untrusted data server securely. The major advantage of Pvault is that it allows users to access 
+their personal data from any trusted remote computer. We will describe the issues and solutions for maintaining 
+data confidentiality and integrity when the data is stored at the remote sever, since the server itself is untrusted.
+Pvault also prevents Phishing and Pharming attacks and we will describe the solutions for the same.  
+
+
+
+For more information regarding the project please visit  http://www.itr-rescue.org/pVault/ 
+. Here you will also find the prototype of the system available for free download. 
+
+ 
+
+
+
+
+Navigation
+
+Home
+Publications
+Projects
+Contact
+ Resume 
+
+
+Announcements
+
+
+
+
+
+
+Web design by Cirkuit Networks, Inc. Modified by Ravi Chandra Jammalamadaka, ICS, UCI. 
+ Web page created by Ravi Chandra Jammalamadaka, ICS, UCI.
+
+
+
+
+
+
+
+
+
+

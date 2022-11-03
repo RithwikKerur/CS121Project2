@@ -1,0 +1,451 @@
+https://isg.ics.uci.edu/event/fatemeh-nargesian-data-enrichment-for-data-science
+
+
+
+
+
+
+Fatemeh Nargesian: Data Enrichment for Data Science – Information Systems Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+
+Faculty
+Students
+Recent Alumni
+Research Staff
+Visitors
+
+
+Research
+
+Projects
+Publications
+
+
+Teaching
+
+Courses
+DB Qual
+
+
+Events
+
+Talks
+News
+
+
+About
+
+Sponsors & Partners
+Visitor Info
+Contact us
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ISG Talks are sponsored by Couchbase.
+<< All Talks
+
+
+
+ « All Events
+
+
+This event has passed.
+Fatemeh Nargesian: Data Enrichment for Data Science
+
+March 21, 2019 @ 2:00 pm - 3:00 pm 
+
+
+
+
+
+« Xiangyao Yu: Transaction Processing at Scale
+Pat Helland: There’s No Substitute for Interchangeability »
+
+
+
+
+
+
+
+
+
+
+Data Enrichment for Data Science
+Fatemeh Nargesian, University of Toronto
+
+March 21, Thursday, 2019
+
+2:00 – 3 pm, DBH 3011
+Refreshments start at 1:30 pm
+
+
+
+
+Data Science is built on the power of data processing and data preparation. In this talk, I discuss the challenges of data preparation for end-to-end data science. Particularly, I talk about data enrichment via discovery where the goal is to discover and integrate the right data to solve a given data science problem. I introduce two paradigms of data discovery. In the first paradigm, the query is a dataset and a data scientist is interested in interactively finding datasets that can be integrated (e.g unioned) with the query. I introduce a probabilistic framework for searching for top-k unionable tables and discuss the need for distribution-aware techniques for data discovery. In the second paradigm, search does not start with a query, instead, it is data-driven. I will talk about data lake organization problem where the goal is to build a directory structure that enables users to most efficiently navigate data lakes. I will present a navigation model of how users interact with a directory structure and introduce a scalable local search algorithm for optimizing data lake organizations.
+
+————————————–
+
+Bio:
+Fatemeh Nargesian is a PhD candidate in the Data Curation Group of the Department of Computer Science at University of Toronto. Her primary research interests are in the data management challenges of end-to-end data science. A paper she co-authored on data discovery was accorded the Best Demonstration Award at VLDB 2017. While at University of Toronto, Fatemeh was a joint Research intern at IBM Research-NY. Prior to University of Toronto, she worked on clinical data management at the Clinical Informatics Research Group at McGill University, and received M.Sc. degrees in Computer Science at University of Ottawa and Artificial Intelligence at Sharif University of Technology.
+ 
+
++ Google Calendar+ iCal Export
+
+
+
+ Details 
+
+ Date: 
+
+ March 21, 2019 
+
+ Time: 
+
+
+					2:00 pm - 3:00 pm				
+
+
+
+
+ Venue 
+
+ DBH 3011 
+
+
+
+
+ 
+
+
+
+
+
+« Xiangyao Yu: Transaction Processing at Scale
+Pat Helland: There’s No Substitute for Interchangeability »
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+Search for :
+
+
+Latest News 
+
+
+
+Upcoming Talk: How to build your own Business
+
+											July 25, 2022																																
+
+
+Upcoming Talk: Couchbase and Distributed Computing Backends for big data processing
+
+											May 31, 2022																																
+
+
+Upcoming Talk: Shedding Light on Opaque Database Queries
+
+											May 31, 2022																																
+
+
+ISG researchers won the  Mark Weiser Best Paper Award at IEEE PERCOM 2022
+
+											March 24, 2022																																
+
+
+
+
+Upcoming Events
+
+
+
+
+Qiushi Bai: QueryBooster-Improving SQL Performance Using Middleware Services for Human-Centered Query Rewriting + Demo
+
+
+
+October 14 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Xiaozhen Liu: Demonstration of Collaborative and Interactive Workflow-based Data Analytics in Texera
+
+
+
+October 21 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Abhishek Singh: WedgeBlock – An Off-Chain Secure Logging Platform for Blockchain Applications
+
+
+
+October 28 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Juncheng Fang: PeloPartition- Improving Blockchain Resilience to Partitioning by Sharding
+
+
+
+November 4 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Peeyush Gupta: A Demonstration of TippersDB
+
+
+
+November 18 @ 12:30 pm - 2:00 pm 
+
+
+
+View All Events
+
+Please follow & like us :) 
+
+Follow  
+
+ 
+
+
+
+
+
+
+
+			Copyright 2018 | ISG-UCI		
+
+
+
+
+
+
+cross
+
+
+
+
+
+
+
+
+
+
+Hit ENTER to search or ESC to close
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

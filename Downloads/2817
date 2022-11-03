@@ -1,0 +1,189 @@
+https://ngs.ics.uci.edu/convergence-in-search-and-databases
+
+
+
+
+
+
+
+
+Convergence in Search and databases – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Convergence in Search and databases    			
+
+
+Search engines started with an idea to provide all pages in response to their queries.  The basic idea is very simple â€“ process all pages to find particular words and organize the index to provide links to all documents containing those words.  Of course, in practice the issue becomes a bit more complex because there are just too many pages â€“ mostly millions — containing  most words that are requested by people in that tiny keyword box.  This required techniques to determine relevance of pages.  These ranking techniques use all potential sources that could be used.  On the other hand, there were these navigation techniques that started using taxonomies â€“ or classification trees.  Yahoo championed these in early days.  Realizing difficulties of using taxonomy, people started developing navigation using facets.  The concept of facets was first introduced by Ranganathan in library science to provide â€“ guess what â€“ more flexible navigation of library catalogs.  Facets are basically dynamic trees that recognize two limitations of classic taxonomies:  taxonomies are a rigid structure that allow only one way of navigation and are one dimensional.  If that data should be organized based on multiple dimensions then a taxonomy is too rigid.  Facets are multidimensional navigational approaches.
+The success of search engines made people forget about navigation.  If search can give results very fast why worry about navigation?  For some time this was good.  But then people started getting impatient with the quality of results given by search engines â€“ even by Google.  People realized that words are ambiguous and word based search engines work well in â€˜shallowâ€™ cases, but as soon as one requires some depth, their inadequacy is painfully obvious.  On one hand search engines are trying to develop techniques that will allow â€˜deeperâ€™ searches by understanding the documents better.  On the other hand, people want to take results of a shallow search engine and use clustering or other techniques to provide some depth to search results.  As usual, some researchers donâ€™t like the â€˜imprecisionâ€™ in clustering results, they would rather use human knowledge for organizing all knowledge or information and develop more powerful multidimensional navigation techniques.  Again facets may come into picture here.  But there is something else that could be very interesting.  One could also learn to apply some database techniques, particularly from OLAP area (On Line Analytical Processing) to develop dynamic facet based navigational techniques.  One more thing, one can also use information visualization and search in this faceted environment to guide a user about what direction the user should go in her navigation.  
+In fact, it is interesting that after remaining more-or-less relatively independent of each other, search engines and databases may be coming together.  Shallow search techniques are not satisfactory in many applications; and the structure of databases comes in the way of free-spirited Web.  Now free-spirited web is willing to accept some structure and structured databases are willing to accept some â€˜unstructureâ€™.  And this will allow development of popular techniques.
+Today in Next Generation Search Systems seminar series we had Marti Hearst of UC Berkely.  She talked about faceted metadata for navigation.  Her talk was interesting â€“ it did result in many more questions and ideas to me.  How should search and database techniques can be synergistically applied to develop deeper search and navigation â€“ or should we say prospecting â€“ environments.  Similarly, how can foksonomy, taxonomy, and search be combined?    Clearly this area is in its early infancy â€“ lots of exciting possibilities.
+
+
+
+By Ramesh |
+    				May 15, 2006 |
+    				             		Prospecting Information |
+             	 
+    				             		1 Comment |
+             	 		          				
+    			
+
+
+← Human and Search
+Micrsoft in enterprise search →
+
+
+
+			One thought on “Convergence in Search and databases”		
+
+
+
+
+Harish Mallipeddi June 6, 2006 at 12:39 am 
+
+Just a few thoughts:
+I looked at the Flamenco search project started by Marti Hearst (http://flamenco.berkeley.edu/). But from what I gather by looking at the demos, it looks like the idea is very similar to Google Base. The last time I looked at Google Base, they seemed to support something which is very similar to what Marti calls facets in Flamenco. 
+I guess what is interesting about Flamenco is the ability to quickly expose your database directly via an interesting web UI with minimum configuration (a .csv file describing facets and a couple of other things is all that it takes).
+Cheers,
+Harish
+
+
+
+
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

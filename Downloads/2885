@@ -1,0 +1,213 @@
+https://ngs.ics.uci.edu/eventweb5-creating-a-web
+
+
+
+
+
+
+
+
+EventWeb5: Creating a Web – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				EventWeb5: Creating a Web    			
+
+
+ A fundamental insight brought into the creation of WWW by Sir Tim Barners-Lee was that documents could be linked to each other by creating links explicitly among them.  Before that each document on Internet was an independent document.  By creating tools and environment so documents could be linked and could be created and accessed easily, he created the Web.  The tradition of linking documents explicitly has existed for long time â€“ through footnotes, references at the end of articles or books, and by explicitly mentioning other documents in the text.  The tradition of creating a link between an article and another one started with concept of hyperlinks.  And this was taken to a very different utility level in the Web.  These links are created to refer to another document explicitly that is considered relevant in that context.  We will call them referential links.
+Ultimately the Web is the Web due to links among documents.
+EventWeb will be created by creating such explicit links among different events.  I believe that the links among events are much stronger in many senses, as discussed in the following, than they are in documents.  Links among events are also much more natural than they are in documents.  There are implicit relationships among documents of different kinds and techniques for discovering and presenting such links are emerging slowly.  The same will happen in case of events.  In fact, as we will discuss later, insights is the result of discovering such links among the myriad events that surround us in all aspects of our life.
+In our discussion, we will discuss following types of relationships among events:
+â€¢	Referential,
+â€¢	Structural,
+â€¢	Causal, and
+â€¢	Similarity.
+Referential links are similar to the links in documents.  An event may refer to other event by creating explicit links from the first to the second.  These links are usually one directional â€“ the pointed node does not necessarily point to the pointing node.  This is a big feature in the DocumentWeb that has been utilized by many systems, most notably Google in their Pagerank algorithm.
+An event (node) can also refer to another event (node) using any of the creative ways that the author wants to use.  This could range creating a link from the title, description, or reports.  The referential node, like referential nodes in DocumentWeb, will be one way node and will be created by the publisher of the pointing (or referring) event.  The referenced node may not be aware of this link.
+
+
+
+By Ramesh |
+    				August 28, 2006 |
+    				             		Experiential Computing, Technical Thoughts |
+             	 
+    				             		2 Comments |
+             	 		          				
+    			
+
+
+← EventWeb4:  Experiential Data
+Photo Software: Revised Reality →
+
+
+
+			2 thoughts on “EventWeb5: Creating a Web”		
+
+
+
+
+Debt Consolidation December 16, 2009 at 12:05 am 
+
+In Creating a Web :  This  information very useful
+â€¢ Referential,
+â€¢ Structural,
+â€¢ Causal, and
+â€¢ Similarity.
+Thanks
+
+
+
+
+
+
+
+
+Communication Skills December 17, 2009 at 10:27 pm 
+
+This is an interesting concept.
+It closely follows the way that the human mind is “wired “in that we make connections based on several different criteria.
+When we experience a significant event it affects the sytem that contains and experiences the experiences.
+I guess that this is a long winded way of saying that everything  we experience goes through our brain and in so doing also goes through filters.
+These filters are contextual and sort out the information into Bits ( or bytes ) that make sense to what we have already decided these types of experiences actually mean.
+Great article and thought provoking,
+Michael
+
+
+
+
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

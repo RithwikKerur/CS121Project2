@@ -1,0 +1,156 @@
+https://sli.ics.uci.edu/PmWiki/MailPosts
+
+
+
+SLI | PmWiki / MailPosts 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+MailPosts
+
+
+
+
+
+
+ administrators (basic)
+<<  | PmWiki.Variables |  >>
+
+ As of PmWiki 2.1.7, the MailPosts capability is being superceded by the more advanced notify.php script.  See Notify for details.
+The mailposts.php script allows a site administrator to configure PmWiki to send email messages whenever pages are changed on the wiki site. MailPosts can be configured so that multiple page changes over a short period of time are combined into a single email message (to avoid flooding a mailbox).
+
+The MailPosts feature is especially useful for sites that have infrequent updates, eliminating the need to frequently check RecentChanges pages just to see if anything has changed.
+
+Full configuration details are available in scripts/mailposts.php.
+
+Below is a brief synopsis of what needs to go in config.php or a per-group customization script for MailPosts:
+
+ <?php if (!defined('PmWiki')) exit();
+ $EnableMailPosts=1;                   # to enable mailposts
+ $MailPostsTo="somebody@example.com";  # where to send mail 
+ $MailPostsDelay=1800;                 # wait 30+ min after initial post
+ $MailPostsSquelch=7200;               # require 2+ hours between mails
+Note that $MailPostsTo may be a comma-separated list of addresses if multiple recipients are desired.
+
+For newbies:  The ONLY file that needs editing is the local/config.php for this recipe to work.  Add any or all of the configurations to the config.php file and it should work rather easily, assuming your host meets the other requirements.  
+
+On a per group basis you could set local/MyGroup.php (Create the MyGroup.php file if necessary) to:
+
+ <?php if (!defined('PmWiki')) exit();
+ $EnableMailPosts=1;                           # Enable mailposts
+ $MailPostsTo="xxx@mail1.com, yyy@mail2.com";  # where to send mail
+ $MailPostsFrom="bbb@mail4.com";
+ $MailPostsDelay=1800;            # Wait 30+ minutes after initial post
+ $MailPostsSquelch=7200;          # Require 2+ hours between mails@]
+ $pagename = ResolvePageName($pagename);
+ $group = PageVar($pagename, '$Group');
+ $MailPostsMessage = "Recent wiki posts:\n"
+    ."  ($ScriptUrl/$group/RecentChanges)\n\n\$MailPostsList\n";
+ $MailPostsFile = "$WorkDir/.$group.mailposts";
+Now make a change or add a document to one of the MyGroup documents and save it. You should receive an email. Be patient. Even if you set (my test settings)
+
+ $MailPostsDelay=18;              # Wait 18 seconds after initial post
+ $MailPostsSquelch=72;            # Wait 72 seconds after initial post
+it took between 5 and 10 minutes for me to get the email.
+
+Since an initial post is often followed by several posts containing minor edits, it's useful to wait a short period of time before sending an email.  $MailPostsDelay is the minimum amount of time that must elapse from an initial post before a message is sent. A delay of zero means to immediately send a message whenever an update is received. Any additional posts occuring during the delay period are included in the message when it is sent.  The message is sent on the first execution of pmwiki.php after the delay period has expired (which for inactive sites could be much longer than the delay period). pmwiki.php calls mailposts.php so if no one visits the section that calls mailposts.php the email will be delayed. For clarification and an example using per Group settings: The $MailPostsDelay is set to 1800 (1/2 hour) in MyGroup and the person editing MyGroup finishes in less than 1/2 hour and leaves MyGroup. No one visits MyGroup again for two days. The email message indicating that the editing of MyGroup has taken place will not be sent for two days. This will not be a problem as Site or Group activity increases.
+
+$MailPostsSquelch specifies the minimum amount of time that must elapse before sending another notification message.  This is useful to prevent large number of rapid-succession messages if $MailPostsDelay is set to a small value.  
+
+The defaults for $MailPostsDelay and $MailPostsSquelch are 0 and 7200. With these values, an email is sent as soon as a page is changed, and subsequent changes are "held" for at least two hours before being sent in another message.
+
+The variables used to control MailPosts are given below, and also described in the mailposts.php script.
+
+Note for Windows installations
+Sites running PHP under Windows may not have PHP's mail function configured correctly.  Such sites may need to add a line like
+
+    ini_set('SMTP','smtp.server.com');
+to config.php, where smtp.server.com is the name of your host's preferred outgoing mail server.
+
+ MailPosts Variables
+<<  | Variables |  >>
+
+$EnableMailPostsTells stdconfig.php to enable the MailPosts script.
+        $EnableMailPosts = 1;          # enable mailposts
+        $EnableMailPosts = 0;          # disable mailposts
+$MailPostsToA comma separated list of email recipients.
+        $MailPostsTo = 'admin@example.com, joe@somewhere.org';
+$MailPostsFromReturn email address to be used in the sent email.
+        $MailPostsFrom = 'wiki@example.com';
+        $MailPostsFrom = 'Wiki server <wiki@example.com>';
+$MailPostsDelayThe length of time (seconds) to wait before sending mail after the first post.  Defaults to zero - posts are sent as soon as the $MailPostsSquelch period has expired.
+        $MailPostsDelay = 360;    # send mail 6+ min after first post
+$MailPostsSquelchThe minimum length of time (seconds) that must elapse between sending mail messages.  Useful when $MailPostsDelay is set to a small value to keep the number of mail notification messages down.  Defaults to 7200 (two hours).
+        $MailPostsSquelch = 43200;  # wait 12+ hours between mailings
+$MailPostsItemFmtThe text to be sent for each changed item in the post.  The string "$PostTime" is substituted with the time of the post (controlled by $MailPostsTimeFmt below).
+        # default
+        $MailPostsItemFmt = ' * $FullName . . . $PostTime by $Author';
+        # include the page's URL in the message
+        $MailPostsItemFmt =
+          " * \$FullName . . . \$PostTime by \$Author\n     \$PageUrl";
+$MailPostsTimeFmtThe format for dates/times in $PostTime above.  Defaults to the value of $TimeFmt.
+        $MailPostsTimeFmt = 'm-H:%M';  # 2004-03-20 17:44
+$MailPostsMessageThe body of the message to be sent.  The string "$MailPostsList" is replaced with the list of posts (as formatted by $MailPostsItemFmt above).
+$MailPostsSubjectThe subject line of the mail to be sent.
+$MailPostsHeadersString of extra mail headers to be passed to the mail() function.
+$MailPostsFunctionName of the function to be called to send the mail.  Defaults to using PHP's built-in mail() function, but some systems may not be configured correctly.  Can be set to 'MailPostsSendmail' to explicitly call /usr/lib/sendmail.
+        # call /usr/lib/sendmail directly instead of using mail()
+        $MailPostsFunction = 'MailPostsSendmail';
+$MailPostsFileThe scratch file where MailPosts keeps track of recent posting information.  Defaults to "$WikiDir/.mailposts".  Note that this file must generally be writable by the webserver process.
+Discussion that was here has been moved to PmWiki:MailPosts-Discussion.
+
+ <<  | DocumentationIndex |  >>
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:MailPosts, and  a talk page: PmWiki:MailPosts-Talk.
+
+
+
+
+
+
+ Last modified July 10, 2006, at 07:30 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

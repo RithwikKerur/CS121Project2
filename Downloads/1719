@@ -1,0 +1,88 @@
+http://sli.ics.uci.edu/Classes-2008F/Outline
+
+
+
+SLI | Classes-2008F / Outline 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Classes-2008F /
+Outline
+
+
+Back to Puzzle
+
+Segmentation
+Input: Photo of puzzle piecesOutput: List of (x,y) pairs for each puzzle piece
+
+Level set methods
+Yutian's ncut-derived method
+NJ's ideas from media class
+Contour extraction / representation
+Input: List of (x,y) pairs for each puzzle pieceOutput: Some nicer representation?  Perhaps a bunch of "piece objects"?
+
+Relative angles
+Discretised directions --> BLAST
+"Continuous" directions --> Correlation?
+Eamon's shape representation
+Alter slightly to accommodate comparisons
+Local polynomials, curvature
+Raman's n-gram approach
+Comparison / local matching
+Techniques depend on representation
+Can include color, texture, etc.
+Global solution / energy minimization
+Jon's approach for canonical puzzles
+Belief propagation / affinity propagation
+More ideas?  Simple BFS?
+Final reconstruction / assembly
+Stitch the pieces together so they look nice
+
+
+
+
+
+
+ Last modified October 17, 2008, at 10:40 AM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

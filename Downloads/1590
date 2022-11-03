@@ -1,0 +1,445 @@
+https://www.ics.uci.edu/community/news/view_news?id=1965
+
+
+
+In the News @ Donald Bren School of Information and Computer Sciences
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to main content
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HOME
+
+
+ABOUT
+
+
+About the School
+
+
+Dean's Welcome
+
+
+Facts and Figures
+
+
+Donald Bren Hall
+
+
+Visit the Bren School
+
+
+Equity & Diversity
+                            
+
+
+Contact Us
+
+
+
+
+DEPARTMENTS
+
+
+Computer Science
+
+
+Informatics
+
+
+Statistics
+
+
+
+
+RESEARCH
+
+
+Research Areas
+
+
+Research Centers
+
+
+Research Highlights
+
+
+
+
+STUDENTS
+
+
+Graduate ▸
+
+
+Orientation
+
+
+Prospective Students
+
+
+How to Apply
+
+
+Programs of Study
+
+
+Academic Year Plan
+
+
+Course Updates
+
+
+Forms And Policies
+
+
+Admissions FAQ
+
+
+Funding
+
+
+Housing
+
+
+Computing Support
+
+
+Campus Resources
+
+
+Visit the Bren School
+
+
+Contact
+
+
+
+
+Undergraduate ▸
+
+
+Contact
+
+
+Academic Advising
+
+
+Course Updates
+
+
+Academic Year Plan
+
+
+Petitions
+
+
+ICS Majors
+
+
+ICS Minors
+
+
+Policies: Academic Integrity
+
+
+Policies: Academic Standing
+
+
+Policies: Add, drop, & change options
+
+
+Policies: Coursework outside UCI
+
+
+Policies: Grade policy
+
+
+Policies: Laptop & computer use
+
+
+Policies: Withdrawal/Readmission
+
+
+Policies: CS 199 / IN4MATX 199 Courses
+
+
+Graduation
+
+
+ICS Student Life
+
+
+Upcoming Events
+
+
+Computing Support
+
+
+
+
+Scholarships & Fellowships
+
+
+Student Jobs & Internships
+
+
+
+
+PEOPLE
+
+
+Faculty
+
+
+Staff
+
+
+Graduate Students
+
+
+
+
+NEWS & EVENTS
+
+
+Newsroom
+
+
+Events
+
+
+Social Media
+
+
+Publications
+
+
+
+
+GET INVOLVED
+
+
+Make a Gift
+                                
+
+
+
+Leadership Council
+
+
+Corporate Partners
+
+
+Sponsor Projects
+
+
+Product Development Competition
+
+
+Alumni
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bren school home / Community / News
+
+
+In the News
+
+
+
+April 22,  2021
+
+
+The Role of Computing in Sustainability and Solutions that Scale
+
+
+As Scientific American reiterated this month, we are in the midst of a climate emergency. 2020 saw record-breaking wildfires and hurricanes and ended in a tie with 2016 as the hottest year on record. Aware of the massive scope of challenges that lie ahead in fighting climate change, UCI announced in January a new initiative called Solutions that Scale. Recognizing that “solutions to planetary problems must reach planetary proportions,” the initiative aims to “converge scientists and academics, policy makers, business leaders, and global citizens to identify and accelerate climate change solutions that scale.”
+
+Professor Bill Tomlinson
+“It’s really interesting to see people from so many different disciplines coming together to coordinate how their disciplines can contribute to addressing climate change,” says Bill Tomlinson, a professor of informatics in the Donald Bren School of Information and Computer Sciences (ICS). With faculty from Earth system science, engineering, ICS, public health, social ecology and other fields, the initiative is a multidisciplinary effort to explore new energy infrastructures, social systems and technologies that address sustainability at a global scale. As an executive board member of the Solutions that Scale initiative, Tomlinson is focused on “the role that computing can play in sustainability efforts.”
+ICS 5: Global Disruption and Information TechnologyTomlinson brings to the initiative more than a decade of experience in exploring computing as it relates to sustainability. He is co-founder of LIMITS, a community of researchers focused on developing computing systems for a future defined by a scarcity of resources, and he teaches a UC-wide online course, ICS 5: Global Disruption and Information Technology. Through this course, he is helping shape how tomorrow’s leaders think about the role of information technology in supporting a sustainable civilization.
+“This year, we’re developing a new set of assignments based on knowledge graphs,” says Tomlinson, explaining that such graphs are “similar to concept maps but with an added layer of computational formalism.” Work on the new assignment stems from the research of Hayden Freedman, a first-year software engineering Ph.D. student who is being co-advised by Tomlinson and Andre van der Hoek, department chair and professor of informatics.
+Knowledge graphs are at the foundation of many different technological systems, everything from how Facebook thinks about the networks of people in its user base to how Netflix identifies movie recommendations and Google determines what content to present with search results. The question the team is exploring is whether knowledge graphs can help students map how all the different pieces of sustainability are connected.
+“One of the things that makes understanding climate change challenging is how many different pieces there are, everything from geophysical factors to ecological relationships to social issues,” says Tomlinson. “It’s hard to get your head around how they’re all connected.”
+Connecting Sustainability Concepts
+Software engineering Ph.D. student Hayden Freedman
+Freedman has experience with knowledge graphs from his work as a software developer at the University of Pennsylvania’s Institute for Biomedical Informatics. “I was very excited by the way that they allow data from a variety of different sources to be interconnected into a single schema,” he says. However, after a few years, he wanted to start applying his knowledge of computation structures to something other than patient data. “I decided to try to pivot toward something that I was passionate about, such as sustainability, and I thought grad school would be a good outlet, so that’s how I found Bill Tomlinson.”
+Freedman is currently focused on how student-generated knowledge graphs might be used to both capture and create knowledge. “Sustainability education is very important,” he says. “Right now, we’re asking students to make knowledge graphs every two weeks [to help us] understand what aspects of the course are sinking in,” he explains. “At the same time, we’re also investigating the knowledge graph structure itself as a pedagogical tool because it’s allowing students to continuously construct their mental models throughout the course, so we’re excited to see how it works out.” At the end of the course, the knowledge graphs generated by all the students will be computationally integrated into a single, larger graph. This integrated graph will let students see how their own interests connect with ideas other students have been having. This is particularly useful given that ICS 5 satisfies a general education elective, so it attracts students from a wide variety of majors.
+A knowledge graph generated by one of the students participating in ICS 5 at the beginning of the course. This assignment was an attempt to capture student prior knowledge about topics relating to sustainability and technology, using a concept and relationship structure.
+This work also has the potential to develop into a larger crowdsourcing effort to contribute to a shared data resource of sustainability knowledge. Based on findings from a pilot study in which 10 undergraduate students from UCI who had taken the ICS 5 course were asked to create a sustainability knowledge graph, it seems students may be able to identify new sustainability-related concepts and relationships.
+Freedman will discuss this work in a talk he’s giving in June at the International Symposium on Sustainable Systems and Technology (ISSST), one of the longest-running research conferences related to sustainability and the intersection of technology, policy and behavior. The talk will outline the use of knowledge graphs as a pedagogical tool and the possibility of students around the world contributing to shared public resources.
+Building Bridges“Capturing people’s beliefs in general about sustainability and technology, and understanding on a granular level the exact relationships that they feel exist in the world is powerful,” notes Freedman. “It could allow policymakers, scientists, researchers — everyone — to understand how their work is being perceived and how certain findings may be misconstrued potentially by the media or other sources.”
+Tomlinson agrees. “We’re just in the early stages [but] we are seeing this potentially as one of the ways computing can contribute to the broader Solutions that Scale initiative,” he says. “Through these knowledge graphs, we aspire to help with interdisciplinary undertakings by [finding ways to] build bridges between communities based on how they think about the world.”
+Professor Andre van der Hoek
+The work has already influenced the research focus of van der Hoek, who is also a Solutions that Scale executive board member. “I am a software engineering researcher at heart, but there is no greater question than that of climate and our long-term sustainability,” he says. “Working with Bill and Hayden, dipping my toes into sustainability research, has shown me how much more there is to do.” In response, van der Hoek says he has recruited a new Ph.D. student for next year with whom he will be further switching his work into sustainability at the intersection of software engineering.
+“It is essential that ICS plays a significant role in the Solutions that Scale initiative,” he adds. “From large-scale modeling, to prediction, to monitoring, to understanding people’s perceptions about climate change, to finding ways to educate — the scale at which these are needed requires computing at the core.”
+— Shani Murray
+
+The Role of Computing in Sustainability and Solutions that Scale
+< Previous
+ Hal S. Stern is named UCI provost and executive vice chancellor
+            
+Next >
+ Computer Science Student Cheng Zhang Receives Facebook Ph.D. Fellowship
+            
+
+
+
+
+
+
+
+More news and events
+
+News Stories
+Video highlights
+Annual reports
+Calendar of events
+
+
+Media Inquiries Media interested in interviewing ICS faculty, students or alumni should contact Matt Miller at (949) 824-1562 or matt.miller@uci.edu
+
+
+
+
+
+
+
+
+Tweets by UCIbrenICS 
+
+View Social Media
+
+
+
+
+
+
+
+
+
+
+
+
+                        Donald Bren School of Information and Computer Sciences
+                		University of California, Irvine
+    					6210 Donald Bren Hall
+    					Irvine, CA 92697-3425
+                    
+
+
+
+  
+  
+  
+  
+  
+ 
+
+
+
+UCI Homepage
+UCI Directory
+Faculty & Staff
+Employment
+ICS Intranet
+Research Development
+Kay Family Foundation Lab
+Facilities
+
+
+
+
+News
+Events
+Map & Directions
+Accessibility Statement
+Safety Procedures
+Privacy Policy
+Coronavirus Resources
+
+
+
+
+Apply
+Contact
+Gift 
+
+
+
+
+©  UCI Donald Bren School of Information & Computer Sciences
+
+
+
+
+
+
+➤
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,80 @@
+http://esl.ics.uci.edu/research.html
+
+
+
+
+
+
+
+ESL
+
+
+
+
+
+
+
+
+
+
+
+
+
+Experiential Systems Lab
+
+
+
+
+
+
+
+
+Home
+People
+Research
+Publications
+Demo
+
+
+
+
+
+
+ E2E 
+Environment to Environment Connectivity. Environment-to-Environment (E2E) connection is a new paradigm for communication which allows natural interactions among users. Each Environment is instrumented using as many different types of sensors as may be required to detect presence and activity of objects and to determine the situation of an environment. This object position and situation information is used by a scalable event-based multimodal information system called EventServer to share the appropriate experiential information with other environments as well as to present or render incoming multimedia information on right devices to make interactions effortless.
+You can see the demos here.
+ EMME 
+Experiential Media Management Environment. Most current systems for media management are media-centric and manage their users experiences according to the media assets captured. These systems are very limited in their functionality due to their focus on a medium. Even when multiple media types are supported, they are considered separately within the system.  We are developing concepts, architecture, and implementation of an event-based media management system. Events are a natural approach for organizing and managing human experience and their accompanying media assets. Events and entities work together to form a powerful mechanism to represent events in the real world and help manage multiple media in a natural and efficient manner.  In contrast to the media-centric approach, the event-based approach puts the actual experience of the users in terms of events in the focus. These ideas are being implemented in Experiential Media Management Environment (EMME) systems that will be publicly available for use in the second half of 2009.
+You can see the demos here.
+
+
+
+
+Current  Projects
+
+E2E
+
+Environment To Environment Connectivity
+
+
+EMME
+
+Experiential Media Management Environment 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright ESL Lab, ICS, UCI, 2009.
+
+
+
+

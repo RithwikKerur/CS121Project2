@@ -1,0 +1,190 @@
+https://ngs.ics.uci.edu/controlling-health
+
+
+
+
+
+
+
+
+Controlling Health – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Controlling Health    			
+
+
+How do you control your health?  What is the lifeblood of health? Are there any fundamental processes used in controlling health? 
+Most people think of health only when they are sick.  
+When they’re under the weather, they visit a doctor.  A successful doctor’s visit results in the diagnosis of their health state (possibly a disease) and a prescription for medicine and any other regimen that will help cure the disease, or at least ease their discomfort.  Usually, the doctor’s office then schedules a follow-up visit.  
+Let’s examine this process in a bit more detail:
+1.	You go to a doctor because you feel sick.
+2.	The doctor asks you questions about your health status and history while observing your reactions.
+3.	The doctor examines your body and may order some tests (such as x-rays or blood work).
+4.	Based on your exam and test results, the doctor estimates your health state (disease and its severity).
+5.	A prescription and regimen are stipulated and explained.
+6.	You try to follow those instructions.
+7.	The doctor sees you periodically, as needed. 
+This is the standard process, whether you go to a conventional doctor or an equivalent, such as an alternative medicine practitioner from another school of health.  Or even when you try to self-doctor using the Web.
+Now let’s look at this process from a slightly different perspective:
+1)	You feel that some of your health state parameters are not in their normal range and that is resulting in an abnormal state. Once the state is beyond your tolerance, you reluctantly go see a doctor.
+2)	The doctor asks you questions related to your health status and your family and health history, while observing your reactions. In addition to trying to estimate your current health state, the doctor is attempting to build and update your personal model.
+3)	To get a better understanding of your health parameters, the doctor examines your body and checks your vital signs.  In many cases, imaging or pathology tests are ordered to obtain further data about your internals.
+4)	Combining all observations and using all known data, the doctor estimates your current health state, characterizes it as one of the known disease states, and establishes its severity.
+5)	Using your personal model and current state, based on medical knowledge, the doctor recommends corrective actions in the form of prescriptions and a regimen.
+6)	You try to follow the regimen and take the prescriptions.  There is generally no mechanism to check on compliance, but the assumption is that you are interested and able to comply.
+7)	The doctor sees you periodically to repeat steps 2-6, as needed.  The period depends on criticality: you may revisit the doctor’s office, be admitted to the hospital, or receive critical care. 
+What do you find here?
+The lifeblood of your health is your data.  Data comes in a variety of forms and is measured using a variety of different “sensors,” such as personal feelings, the doctor’s estimation based on data collected via his/her audio-visual-tactile senses, vital sign measurements, imaging, pathology, and many more.  
+Steps 1–3 here involve data acquisition, step 4 is state estimation, step 5 is a recommendation, step 6 is compliance, and step 7 is follow-up or repetition.  Everything is dealing with data to information using knowledge.
+Another way to view these steps is to look at the major functions they play in the traditional health cycle:
+A.	Data acquisition:  Both qualitative and quantitative data is acquired by a person and his/her doctor.  It is always better to have quantitative data, but a lack of precise sensing technology today often results in only qualitative and unreliable data.  Care and treatment decisions must be made based on the available data, however, regardless of its quality.  With advances in technology, the data will become increasingly quantitative, resulting in more precise diagnoses.
+B.	Personal model building:  Prescriptions and regimens should be as much based on the person as they are on the disease.  Personal models play an important role in all health decisions.  Two basic factors determine personal models: genetics and lifestyle.  We inherit genetics from our biological parents, and until recently, this information was only qualitative.  Significant advances in genomic technology during this century have enabled the field to evolve.  Specifically, the new field of omics can offer precise information about a person’s basic structure and propensities.  Similarly, until recently, it was difficult to quantitatively determine Personal lifestyle, environmental factors, and emotional situations resulting from social-economic situations.  Now advanced sensors coupled with smartphones and wearable are making rapid progress toward a more holistic picture.  Soon we will be able to model individuals precisely using their genetics and lifestyle data.
+C.	Health-state estimation:  The human body is a complex system.  Determining its state involves measuring many vital parameters.  Systems theory has made significant progress in this area in the context of complex mechanical and environmental systems.  New health-state estimation algorithms must be developed that can unlock the combined power of personal models, demographic models, and general health science knowledge.
+D.	Prescription recommendation:  Medical practices are based on recommending prescriptions based on a person’s health state and personal model.  Once more comprehensive data is available, appropriate recommendation techniques could be determined using health knowledge aggregated from all scientific and empirical sources and the personal model.
+E.	Follow-up:  To improve one’s health state, it’s important to follow all medical recommendations.  Just as important is the doctor’s ability to closely monitor the effect of that recommendation in order to refine or even change it.  The frequency at which this follow-up should take place depends on both a person’s current health state and its rate of change. The consequences of failing to monitor and follow-up with patients can be fatal.  In the future, a person’s rate of change could be determined using cybernetic principles.  
+The future of health lies in understanding and developing new data-acquisition methods, building better personal modeling techniques, developing precise health-state estimation, and using these in conjunction with all medical knowledge to recommend and then monitor health perpetually.
+
+								Tagged on: digital health, Health, health state, personal model 
+
+
+
+By Ramesh |
+    				September 28, 2017 |
+    				             		Technical Thoughts |
+             	 
+    				 		          				
+    			
+
+
+← Techology Propels Health
+Empowering Personal Health →
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

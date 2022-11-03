@@ -1,0 +1,179 @@
+https://ngs.ics.uci.edu/semantic-link-in-photos
+
+
+
+
+
+
+
+
+Semantic Link in Photos – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Semantic Link in Photos    			
+
+
+A picture is worth a thousand words …. 
+Although this phrase emerged in the analog age of the early 20th century, the rise of digital photography offers the tantalizing possibility of joining each image’s thousand words with those of others, creating visual connections and conversations beyond anything we’ve yet seen.
+Analog print photos have limited our associations among photos to those devised by an album or photo book’s creators. Such associations were often chronological and sometimes by an event (as in a book of Vietnam War photography) or a person (as in a year-by-year album of darling cousin Jessie). 
+A similar limited and typically linear navigation had long existed in documents, which emerged as a visual representation of sequential speech. Enter the digital age, which radically altered our experience of documents through hyperlinking. This referential linking (which was initially manual) opened up new navigation possibilities, letting us jump from one document to another—perhaps located across the planet—at will. A new paradigm was born.
+The rise of digital photography in general—and smartphone cameras, in particular—is beginning to shatter the old analog paradigms for photos in a similar manner. Photos, however, are fundamentally different from text documents in several key ways.
+•	Photos are inherently non-sequential because they capture three-dimensional space in two-dimensional representation such that we can traverse it in any direction.
+•	Photos are comprised of pixels that could be grouped in an infinite number of ways; effective grouping lets us understand or interpret photos easily, though such interpretations are sometimes ambiguous (as in visual illusions).
+•	Photos typically capture real, immediate moments in the real world; text describes such moments from the point of view of the author or authors.
+•	Photos present objects, scenery, and people instantaneously; to represent the same in text often requires numerous words, which are often hard-pressed to do justice to a single image and the relationships within it.
+•	Photo content is significantly more subjective than text; people see what they want to see in pictures. Even the same person might view a single picture differently over time, depending on changes in the viewer and real-world situations and events.
+•	The boundaries between objects and background in a picture are at best fuzzy. To experience this, just try to draw an outline of an object in a picture, and you’ll find different outlines for the same object. This makes representing an object from a photo ambiguous.
+•	A photo’s semantics depend not only on its pixel values, but also on the context in which the picture was taken. Content and context are yang and yin; if content is king, then context is queen. Content and context alone represent incomplete, often misleading—or simply wrong—semantics. Complete semantics emerge when the two elements are combined.
+Given these differences, associations and linking among photos will be different from that in documents. In text, you can introduce a link simply by highlighting well-defined text representation. Also, in the original Web, there was only one type of link—a reference to other documents. In photos, links will depend on the type of objects, contexts, and references. 
+As in documents, we’ll create some explicit links manually; other implicit links might be automatically created based on technology such as a smartphone’s use of sensors to analyze and capture context or content. Sensors, for example, might automatically create links or tags based on location (GPS technology), time (the phone’s clock), or the photo’s subject (facial recognition). Combining this implicit tagging with tags created manually by the photographer makes many scenarios possible.
+For example, a marine biologist might see and photograph an unusual creature. To investigate it further, she might search the Web for photos of other marine creatures with a similar shape or from nearby locations. On a more day-to-day level, the photo Web could help people locate and find information based on a photograph. Say, for example, that Mary sees someone carrying an interesting purse; she could then take a picture of that purse to find more about it, such as whether it is going up or down in terms of fashion trends in her town, where she can buy similar purses at a reasonable price, which store carries purses like it in the most colors, and even who among her friends owns one.
+To get there, however, we must develop both new technologies and new habits as camera users. Using smartphone cameras along with contextual reasoning and content analysis, each photo taken could be automatically assigned several tags, which could be used as links, related to important aspects of the image, such as the location, weather, event, and people in the photo. Camera users could also assign additional links at capture time, such as the significance of the photo or its relevance to other photos. Advances in content analysis might soon allow development of environments to link specific objects in photos to those in other photos or information sources. 
+As this progresses, we will see different types of implicit links (captured by sensors) and explicit links (assigned by photographers). These implicit and explicit links could exist for both the complete photo and for individual objects within it. And all of these links will become part of the photo to be used when and as desired. 
+To achieve this advance, we must develop something similar to HTML for photos—a kind of markup language used to specify all links, along with a photo’s pixel-based content. We might, for example, look to update the digital camera industry’s Exif standard (for Exchangeable image file format) to make it more meaningful to human readers as well as to machines for display, search, and navigation of linked photos. 
+As digital photographers, we’ll also need to be aware of the photo as a linked knowledge element that could be very effectively associated with other knowledge elements to provide a more holistic view of events and experiences, A photo thus captured might be, by itself, worth only a thousand words—but as a strongly multi-linked element that is part of thousands of thousand-word elements, it could be worth millions of words or more.
+
+								Tagged on: LifeLog, Photos, Semantic Links, Storytelling, visual web 
+
+
+
+By Ramesh |
+    				April 24, 2015 |
+    				             		General Updates, Technical Thoughts |
+             	 
+    				 		          				
+    			
+
+
+← Photo Album 2015: Breaking the Boundaries
+AI = Contextual Reasoning + Learning →
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

@@ -1,0 +1,433 @@
+https://www.ics.uci.edu/community/news/view_news?id=2063"
+
+
+
+In the News @ Donald Bren School of Information and Computer Sciences
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to main content
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HOME
+
+
+ABOUT
+
+
+About the School
+
+
+Dean's Welcome
+
+
+Facts and Figures
+
+
+Donald Bren Hall
+
+
+Visit the Bren School
+
+
+Equity & Diversity
+                            
+
+
+Contact Us
+
+
+
+
+DEPARTMENTS
+
+
+Computer Science
+
+
+Informatics
+
+
+Statistics
+
+
+
+
+RESEARCH
+
+
+Research Areas
+
+
+Research Centers
+
+
+Research Highlights
+
+
+
+
+STUDENTS
+
+
+Graduate ▸
+
+
+Orientation
+
+
+Prospective Students
+
+
+How to Apply
+
+
+Programs of Study
+
+
+Academic Year Plan
+
+
+Course Updates
+
+
+Forms And Policies
+
+
+Admissions FAQ
+
+
+Funding
+
+
+Housing
+
+
+Computing Support
+
+
+Campus Resources
+
+
+Visit the Bren School
+
+
+Contact
+
+
+
+
+Undergraduate ▸
+
+
+Contact
+
+
+Academic Advising
+
+
+Course Updates
+
+
+Academic Year Plan
+
+
+Petitions
+
+
+ICS Majors
+
+
+ICS Minors
+
+
+Policies: Academic Integrity
+
+
+Policies: Academic Standing
+
+
+Policies: Add, drop, & change options
+
+
+Policies: Coursework outside UCI
+
+
+Policies: Grade policy
+
+
+Policies: Laptop & computer use
+
+
+Policies: Withdrawal/Readmission
+
+
+Policies: CS 199 / IN4MATX 199 Courses
+
+
+Graduation
+
+
+ICS Student Life
+
+
+Upcoming Events
+
+
+Computing Support
+
+
+
+
+Scholarships & Fellowships
+
+
+Student Jobs & Internships
+
+
+
+
+PEOPLE
+
+
+Faculty
+
+
+Staff
+
+
+Graduate Students
+
+
+
+
+NEWS & EVENTS
+
+
+Newsroom
+
+
+Events
+
+
+Social Media
+
+
+Publications
+
+
+
+
+GET INVOLVED
+
+
+Make a Gift
+                                
+
+
+
+Leadership Council
+
+
+Corporate Partners
+
+
+Sponsor Projects
+
+
+Product Development Competition
+
+
+Alumni
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bren school home / Community / News
+
+
+In the News
+
+
+
+October 26,  2021
+
+
+Sang-Woo Jun and Collaborators Win Best Paper Award for Predictive Maintenance at the Edge
+
+
+
+Sang-Woo Jun, an assistant professor of computer science in the Donald Bren School of Information and Computer Sciences (ICS), was pleased with the Best Paper Award announcement at the 31st International Conference on Field-Programmable Logic and Applications (FPL 21). The award went to “Eciton: Very Low-Power LSTM Neural Network Accelerator for Predictive Maintenance at the Edge,” a paper he co-authored that introduces a Long Short-Term Memory (LSTM) neural network accelerator for low-power edge sensor nodes. The work was a collaboration with ICS graduate students Jeffrey Chen and Sehwan Hong, Diamond Bar High School student Warrick He, and Professor Jinyeong Moon of Florida State University.
+
+“The work focuses on predictive maintenance, where we collect vibration, voltage, and other sensor data from mechanical machinery and try to predict imminent failures using machine learning techniques,” says Jun. “The restriction of this particular project was that we wanted to deploy in existing facilities — including ships and factories — many of which do not provide power outlets.”
+A Tight Power BudgetAs outlined in the paper, today’s Cyber-Physical Systems (CPS), coupled with the Internet-of-Things (IoT), have created “swarms of small, low-power sensor nodes communicating over a wireless network.” The potential of such swarms is deeper, data-driven analytics, but data collection can increase power consumption. “The distributed sensor nodes that we target run on power harvesters, which generate a few hundred milliwatts of power from the ambient magnetic field,” says Jun. “All sensors, networking and computation needs to fit in that power budget.”
+To ensure their solution remained with that budget, the researchers implemented a neural network inference accelerator for sensor data streams that could filter out “uninteresting data” to reduce power consumption. “We chose a very low power, restrictive FPGA platform (Lattice iCE40), and implemented a neural network accelerator that uses aggressively compressed neural network models,” explains Jun. “In the end, the power consumption for the accelerator measured at 17 mW, an acceptably low number.”
+A Young ContributorJun highlighted the contributions of Warrick He, a local high school student who had contacted him in search of research opportunities. “What he did was, after trial and error, discover that the training data was not enough to properly train an accurate neural network model,” says Jun. To address this issue, He sampled the input data to reduce dimensionality, explored different neural network model architectures, and used gaussian noise to create more training data from existing ones. “He created a neural network model with over 90% of accuracy in predicting electric motor failures, which was used as an evaluation workload in the paper.”
+Future WorkIn the future, Jun plans to explore other CPS/IoT domains where such a platform can be beneficial, such as agriculture and healthcare. “I’m very excited about this line of work.”
+— Shani Murray
+
+Sang-Woo Jun and Collaborators Win Best Paper Award for Predictive Maintenance at the Edge
+< Previous
+ Gillian Hayes Receives Impact Award for Connecting Disability Studies to Assistive Technology
+            
+Next >
+ Senior Spotlight: Kazeem Salaam Promotes STEM Learning, Combining Programming Skills with a Passion for Helping Others
+            
+
+
+
+
+
+
+
+More news and events
+
+News Stories
+Video highlights
+Annual reports
+Calendar of events
+
+
+Media Inquiries Media interested in interviewing ICS faculty, students or alumni should contact Matt Miller at (949) 824-1562 or matt.miller@uci.edu
+
+
+
+
+
+
+
+
+Tweets by UCIbrenICS 
+
+View Social Media
+
+
+
+
+
+
+
+
+
+
+
+
+                        Donald Bren School of Information and Computer Sciences
+                		University of California, Irvine
+    					6210 Donald Bren Hall
+    					Irvine, CA 92697-3425
+                    
+
+
+
+  
+  
+  
+  
+  
+ 
+
+
+
+UCI Homepage
+UCI Directory
+Faculty & Staff
+Employment
+ICS Intranet
+Research Development
+Kay Family Foundation Lab
+Facilities
+
+
+
+
+News
+Events
+Map & Directions
+Accessibility Statement
+Safety Procedures
+Privacy Policy
+Coronavirus Resources
+
+
+
+
+Apply
+Contact
+Gift 
+
+
+
+
+©  UCI Donald Bren School of Information & Computer Sciences
+
+
+
+
+
+
+➤
+
+
+
+
+
+
+
+
+
+
+

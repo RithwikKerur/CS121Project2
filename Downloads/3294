@@ -1,0 +1,172 @@
+https://ngs.ics.uci.edu/multimedia-semantics-bridging-the-semantic-gap
+
+
+
+
+
+
+
+
+Multimedia Semantics — Bridging the Semantic Gap – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Multimedia Semantics — Bridging the Semantic Gap    			
+
+
+In “Content-Based Image Retrieval at the End of the Early YearsFound in: IEEE Transactions on Pattern Analysis and Machine Intelligence Arnold Smeulders , Marcel Worring , Simone Santini , Amarnath Gupta , Ramesh Jain December 2000” the semantic gap was defined as:
+The semantic gap is the lack of coincidence between the information that one can extract from the visual data and the interpretation that the same data have for a user in a given situation.  A linguistic description is almost always contextual, whereas an image may live by itself. 
+This semantic gap exists in all media.  Even in text.  There are all these techniques but are they solving the problem.  The two popular approaches in this direction are:
+Semantic Web tools (Ontologies, RDF, XML) help in creating relationships among â€˜symbolic dataâ€™, and
+Concept detection (and other media processing) that deal with â€˜signal dataâ€™.
+A deeper look at these two, however shows that they work on two different sides of the gap rather than doing anything really to bridge the gap.  Semantic tools are all about symbols while the models developed at that level do not allow going across the gap to apply the models there to signals.  And concept detection approaches at signal level have deep roots in implicit rather than explicit models.
+
+
+
+By Ramesh |
+    				October 22, 2008 |
+    				             		Experiential Computing, Technical Thoughts |
+             	 
+    				             		No Comments |
+             	 		          				
+    			
+
+
+← United India?
+Meeting Prof. H.-H. Nagel →
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

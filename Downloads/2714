@@ -1,0 +1,170 @@
+https://ngs.ics.uci.edu/face-processing-technology
+
+
+
+
+
+
+
+
+Face Processing Technology – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Face Processing Technology    			
+
+
+Just came back from XiD, a face processing company in Singapore.
+I am advisor to this company so my views are not totally objective, but I am trying to be as objective as possible in this post.
+Face detection and recognition have been topic of interest in many applications.  Surveillance and monitoring companies have been looking into this technology for quite some time.  Video processing company were interested in this — Virage used it in their systems.  Academia has been developing many techniques for this and many algorithms are available in this space.  XiD adopted a very interesting approach that was based on ‘face synthesis’.  A face image is used to generate many — thousands — synthetic variation of the face in different lighting, orientation, and scale conditions, also with glasses, facial hair and other potential changes.  And this set of synthetic images is then used to recognize faces.  XiD was focussed in Surveillance and related areas and was having some success.  The problem was that this market is quite difficult to penetrate.
+Since last July, they changed their approach.  That was the last time I visited them.  This time, it looked like a different company.  They call themself a face processing company because in addition to detection and recognition of faces, now they do a bunch of different things with faces.  They can track faces, create 3-d versions of faces and change expressions on this face my controlling certain muscle parameters, can replace one face with another with expressions from one imposed on the other, and so on and on.  This opens up possibilities that are very interesting and go far beyond simple face recognition technology.  It opens up applications in video greeting cards, Avatars in games or in IM, in videos, and others.  It was very exciting to see how computer graphics technology is being combined with computer vision technology to develop applications around human face — supposedly one of the most interesting ‘photo’ for humans. 
+
+
+
+By Ramesh |
+    				January 5, 2006 |
+    				             		Entrepreneurism, Experiential Computing |
+             	 
+    				             		No Comments |
+             	 		          				
+    			
+
+
+← India:  A mystery land
+Gutenberg’s revenge →
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

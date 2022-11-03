@@ -1,0 +1,313 @@
+https://sli.ics.uci.edu/PmWiki/Links
+
+
+
+SLI | PmWiki / Links 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+Links
+
+
+
+
+
+< Creating new pages | Documentation Index | Images >
+
+authors (basic) 
+
+A key feature of wiki-based systems is the ease of creating hyperlinks (or short links) in the text of a document.  
+PmWiki provides multiple mechanisms for creating such links.
+
+Links to other pages in the wiki
+To create an internal link to another page, simply enclose the name of the page inside double square brackets, as in [[wiki sandbox]] or [[installation]].  This results in links to wiki sandbox and installation, respectively.
+
+PmWiki creates a link by using the text inside the double brackets. It does this by removing spaces between the words, and automatically capitalizing the first letter of each word following spaces or other punctuation (like ~). Thus [[Wiki Sandbox]], [[wiki sandbox]], and [[WikiSandbox]] all display differently but create the same link to the page titled WikiSandbox.
+Or in other words, PmWiki will automatically create the "link path name" using the page name in CamelCase, but the "link text" will display in the format you have entered it.
+
+Some PmWiki sites (default not) will recognize words written in CamelCase, called a WikiWord, automatically as a link to a page of the same name.
+
+Links with different link text
+There are three ways to get a different link text:
+
+Hide link text. Link text within (parentheses) will not be not displayed, so that [[(wiki) sandbox]] links to WikiSandbox but displays as  sandbox. For addresses actually containing parentheses, use %28 and %29 http://www.example.com/linkwith%28parenthese%29.
+Change link text. You can specify another link text after a vertical brace, as in [[WikiSandbox | a play area]], or you can use an arrow (->) to reverse the order of the link text and the target, as in [[a play area -> WikiSandbox]]. Both links displays as a play area.
+Show page title instead of page name. The use of special characters in the page name is not a problem for PmWiki, but on some servers it may be better to use only plain A-Z letters for the page "name" (which is also a filename), and set the page "title" to the extended or international characters with the (:title PageTitle:) directive within the page.  The page title can be shown instead of the page name with the [[PageName|+]] link markup, e.g. page BasicEditing contains the directive (:title Basic PmWiki editing rules:) with the result that a link written as [[BasicEditing|+]] will display as Basic PmWiki editing rules. See also $EnableLinkPlusTitlespaced.Since PmWiki version 2.2.14 this works also for those technical pages that have an entry in the XLPage, without the need to add the (:title PageTitleName:) directive within that page (for more details see Localization.Localization).
+On top of above ways, a suffix can be added to the end of a link, which becomes part of the link text but not of the target page name.Note: This feature works with the [[PageName|+]] markup only since Version 2.2.90.
+
+
+
+
+What to type
+
+What it looks like
+
+
+
+
+* [[(wiki) sandbox]]
+* [[(wiki) sandbox]]es
+* [[WikiSandbox | wiki sandbox]],
+* [[WikiSandbox | wiki sandbox]]es
+* [[BasicEditing | +]]
+ sandbox
+ sandboxes
+wiki sandbox,
+wiki sandboxes
+Basic PmWiki editing rules
+
+
+ Links with tool tip
+From version 2.2.14 PmWiki can show tooltip titles with the following format:
+ external link  [[http://pmwiki.org"external tool tip title" | external link ]], eg external link or http://pmwiki.org 
+ internal link [[Links"internal tool tip title" | internal link ]], eg internal link or Links 
+ Anchor links [[#name"anchor tool tip title"|anchor link text]] (since Version 2.2.48), eg anchor link text or #name
+ InterMap link  [[Wikipedia:Wiki"tool tip title"| InterMap link ]], eg InterMap link or Wikipedia:Wiki 
+Links to nonexistent pages
+Links to nonexistent pages? are displayed specially, to invite others to create the page.
+See Creating new pages to learn more.
+
+Links to pages in other wiki groups
+Links as written above are links between pages of the same group. To create a link to a page in another group, add the name of that other group together with a dot or slash as prefix to the page name.  For example, links to Main/WikiSandbox could be written as:
+
+
+
+
+What to type
+
+What it looks like
+
+
+* [[Main.WikiSandbox]]
+* [[Main/WikiSandbox]]
+* [[(Main.Wiki)Sandbox]]
+* [[Main.WikiSandbox | link text]]
+* [[Main.WikiSandbox | +]]
+Main.WikiSandbox
+WikiSandbox
+Sandbox
+link text
+WikiSandbox
+
+
+To link to the "default home page" of a group, the name of the page can be omitted:
+
+
+* [[Main.]]
+* [[Main/]]
+Main.
+Main
+
+
+See Wiki Group to learn more about PmWiki groups.
+
+Category links
+Categories are a way to organize and find related pages. The idea is that every page that falls into a particular subject area should have a link to a shared page containing links to other pages on that subject. These shared pages are created in the special group Category, and thus these subject areas are called "categories".
+
+Adding a page to the category Subject is simple by adding the [[!Subject]] markup somewhere on that page. This will create a link to the page Category.Subject. So [[!Subject]] is a kind of link shortcut to the page Category.Subject. See Categories to learn more.
+
+User page links
+Similar is [[~Author]] a link shortcut to the page Author in the special group Profiles. PmWiki automatically creates this type of link for the current author, when it encounters three tilde characters (~) in a row (~~~) in the page text. The current author is the name found in the "Author" field, when you create or modify a page. The current date and time is appended when four tilde characters in a row are encountered (~~~~).
+
+So, when the Author field contains "Author":~~~ markup will be replaced by: Author?~~~~ markup will be replaced by: Author? October 10, 2010, at 04:50 PM
+
+Link shortcuts
+[[PageName|#]] creates a reference link as shown below[1].
+
+Links to specific locations within a page -- "anchors"
+To define a location, or bookmark, within a page to which you may jump directly, use the markup [[#name]].  This creates an "anchor" that uniquely identifies that location in the page.  Then to have a link jump directly to that anchor, use one of
+
+[[#name|link text]] within the same page, or
+[[PageName#name]] or [[PageName#name|link text]] for a location on another page
+The form [[PageName(#name)]] may be useful for hiding the anchor text in a link. 
+For example, here's a link to the Intermaps section, below. 
+
+Notes:
+The anchor itself must begin with a letter, not a number.
+Valid characters in the anchor are letters, digits, dash (-), underscore (_), and the period (.).
+A link to an anchor must have the same capitalization as the anchor itself. 
+Spaces are not allowed in an anchor:  "[[#my anchor]]" won't work,  "[[#myanchor]]" will.
+All anchor names in a page should be unique.
+Links to actions
+To link to a specific action for the current page use [[{$FullName}?action=actionname|linkname]].
+
+Examples:
+[[{$FullName}?action=edit|Edit]] for editing
+[[{$FullName}?action=diff|differences]] for differences.
+Links outside the wiki
+
+Links to external sites (URLs)
+Links to external sites simply begin with a prefix such as 'http:', 'ftp:', etc.  Thus http://google.com/ and [[http://google.com/]] both link to Google.  As with the above, an author can specify the link text by using the vertical brace or arrow syntax, as in [[http://google.com/ | Google]] and [[Google -> http://google.com]].
+
+If the external link includes (parentheses), escape these using %28 for "(" and %29 for ")" : 
+
+[[http://en.wikipedia.org/wiki/Wiki_%28disambiguation%29 | link to "Wiki (disambiguation)" ]]link to "Wiki (disambiguation)"
+
+
+The recipe Cookbook:FixURL makes it easy to encode parentheses and other special characters in link addresses.
+
+Links to intranet (local) files
+Not all browsers will follow such links (some Internet Explorer versions reportedly follow them). You can link to a file system by including the prefix 'file:///'. So file:///S:\ProjPlan.mpp and [[Shared S drive->file:///S:\]] are both valid links. On a Windows file system you may want to use network locations (eg \\server1\rootdirectory\subdirectory) rather than drive letters which may not be consistent across all users. Not all browsers will follow such links.
+
+See also Cookbook:DirList.
+
+Link characteristics
+Links as References
+Links may also be specified as References, so the target appears as an anonymous numeric reference rather than a textual reference. The following markup is provided to produce sequential reference numbering within a PmWiki page:
+
+Formatting the link as: [[http://google.com |#]] produces: [2] as the link.
+
+Subsequent occurrence of the reference link format on the same page will be incremented automatically as per the following example: Entering [[http://pmwiki.com |#]] produces [3], [[#intermaps |#]] produces [4], and so on for further reference links.
+
+Intermaps
+Inter Map links are also supported (see Inter Map).  In particular, the Path: InterMap entry can be used to create links using relative or absolute paths on the current site (e.g., Path:../../somedir/foo.html or Path:/dir/something.gif).
+
+Links that open a new browser window
+To have a link open in another window, use %newwin%...%%:
+
+%newwin%  http://pmichaud.com %% produces   http://pmichaud.com
+%newwin% [[http://google.com/ | Google]] %% produces  Google
+%newwin% [[Main.WikiSandbox]] %% produces   Main.WikiSandbox
+You can also specify that links should open in a new window via the %target=_blank%...%% attribute:
+
+
+The following link %target=_blank% http://pmichaud.com %%
+will open in a new window.
+The following link  http://pmichaud.com 
+will open in a new window.
+
+
+Links that are not followed by robots
+Prefix a link with %rel=nofollow% to advise robots and link checkers not to follow it.
+
+Links and CSS Classes
+PmWiki automatically gives classes to several types of links. Among other things, this enables you to format each type differently.
+
+Note: This may be an incomplete list.
+.selflinkA link to the current page. Useful in sidebars to show "you are here".
+.wikilinkA link to another page within the wiki.
+.urllinkA link to a page outside the wiki.
+Notes
+Note: The default behavior of "+" above can be overridden to display the spaced title, rather than simply the title by adding the following to config.php:
+
+## [[target |+]] title links
+Markup('[[|+', '<[[|',
+  "/(?>\\[\\[([^|\\]]+))\\|\\s*\\+\\s*]]/e",
+  "Keep(MakeLink(\$pagename, PSS('$1'),
+                 PageVar(MakePageName(\$pagename,PSS('$1')), '\$Titlespaced')
+                ),'L')");
+
+ 
+ How do I create a link that will open as a new window?
+ Use the %newwin% wikistyle, as in:
+
+%newwin% http://example.com/ %% http://example.com/
+
+
+ How do I create a link that will open a new window, and configure that new window?
+ This requires javascript. See Cookbook:PopupWindow.
+
+ How do I place a mailing address in a page?
+ Use the mailto: markup, as in one of the following:
+
+
+* mailto:myaddress@example.com
+* [[mailto:myaddress@example.com]]
+* [[mailto:myaddress@example.com | email me]]
+* [[mailto:myaddress@example.com?subject=Some subject | email me]]
+myaddress@example.com
+mailto:myaddress@example.com
+email me
+email me
+
+
+The markup [[mailto:me@example.com?cc=someoneelse@example.com&bcc=else@example.com&subject=Pre-set Subject&body=Pre-set body | display text]] =] lets you specify more parameters like the message body and more recipients (may not work in all browsers and e-mail clients).
+
+See also Cookbook:DeObMail for information on protecting email addresses from spammers.
+
+ How can I enable links to other protocols, such as nntp:, ssh:, xmpp:, etc?
+ See Cookbook:Add Url schemes
+
+ How do I make a WikiWord link to an external page instead of a WikiPage?
+ Use link markup.  There are two formats:
+
+[[http://example.com/ | WikiWord]]
+[[WikiWord -> http://example.com/]]
+ How do I find all of the pages that link to another page (i.e., backlinks)?
+ In the wiki search form, use link=Group.Page to find all pages linking to Group.Page.
+
+ Use the link= option of the (:pagelist:) directive, as in
+
+(:pagelist link=SomePage list=all:)   -- show all links to SomePage
+(:pagelist link={$FullName} list=all:)  -- show all links to the current page
+Note that (with a few exceptions)  includes, conditionals, pagelists, searchresults, wikitrails, and redirects are not evaluated for Wikilinks, and so any links they put on the page will not be found as backlinks. All other directives and markup, for example links brought to the page by (:pmform:), will be found.
+
+ What link schemes does PmWiki support?
+ See PmWiki:Link schemes
+
+ How do I open external links in a new window or mark them with an icon?
+ See Cookbook:External links
+
+ How can I use an image as a link?
+ Use [[Page| Attach:image.jpg ]] or [[ http://site | http://site/image.jpg ]]  See Images#links
+
+ Why my browser does not follow local file:// links?
+ For security reasons, most browsers will only enable file:// links if the page containing the link is itself on the local drive. In other words, most browsers do not allow links to file:// from pages that were fetched using http:// such as in a PmWiki site. See also Cookbook:DirList for a workaround.
+ 
+
+< Creating new pages | Documentation Index | Images >
+
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:Links, and  a talk page: PmWiki:Links-Talk.
+
+
+
+
+
+
+ Last modified December 06, 2016, at 12:22 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

@@ -1,0 +1,127 @@
+http://sli.ics.uci.edu/Classes-2008F/Flocking
+
+
+
+SLI | Classes-2008F / Flocking 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Classes-2008F /
+Flocking
+
+
+Members
+
+Members of the Finance-Flocking Group
+
+
+Nameemail
+Ian Porteousiporteou@ics.uci.edu
+Vikram Bodicherlavikramb@uci.edu
+Tony Tranttran28@uci.edu
+Vijay Rajakumarvrajakum@uci.edu
+America Hollowayamerica84@gmail.com
+
+Papers
+
+Should Network Structure Matter in Agent-Based Finance? S. Alfarano and M. Milakovic
+
+Flocks, Herds, and Schools: A Distributed Behavior Model. C.W. Reynolds
+
+A Simple Model of Global Cascades on Random Networks. D. J. Watts
+
+Novel Type of Phase Transition in a System of Self-Driven Particles. T. Vicsek et. al.
+
+Tamas Vicsek 1995 Paper on Flocking
+
+Empirical properties of asset returns: stylized facts and statistical issues
+
+Maybe this can help us look for features and impact co-efficients in news items. This also mentions the cyclic effects of news on stocks and stocks on news: Information sources, news, and rumors in financial markets: Insights into the foreign exchange market
+
+Other stuff
+
+Something interesting: Check out the links to Recognia on the page. They manually look for and announce about 50 patterns in market behavior. Chart game
+
+Model
+
+Here is a pdf for the formulas.
+Attach:model.pdf
+
+Code
+
+Attach:flock.m Δ
+
+Attach:test_flock.m Δ
+
+iGraph is an R/Python package that we can use to generate and display different types of social networks. Here is the link: http://cneurocvs.rmki.kfki.hu/igraph/documentation.html
+
+MATLAB Code for the BA algorithm
+http://webscripts.softpedia.com/script/Scientific-Engineering-Ruby/Statistics-and-Probability/B-A-ScaleFree-Network-Generation-and-Visualization-35557.html
+
+
+Plots
+
+Plot of kernel density estimate for the mean estimate of the flock after 50 steps versus a kernel density estimate for the 5000 samples from the corresponding normal distribution.
+
+
+Plot of the mean estimate for the flock over 50 time steps
+
+
+Histogram of the joint (r(t+day,day),r(t,day)). A histogram of the number of returns at time t+day between (a,b] and the return was between (c,d] at time t. The ranges for the histogram was determined by finding percentiles of the data 0:1:100
+
+
+Same as above except delta t = 5 min
+
+
+Same as above except delta t = 30 min
+
+
+
+
+
+
+
+
+ Last modified November 04, 2008, at 04:14 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

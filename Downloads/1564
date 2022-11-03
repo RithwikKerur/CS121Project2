@@ -1,0 +1,461 @@
+https://www.informatics.uci.edu/uci-ml-repository-highlights-four-impactful-projects-at-2022-ml-hackathon
+
+
+
+
+
+
+
+
+
+UCI ML Repository Highlights Four Impactful Projects at 2022 ML Hackathon | Informatics @ the University of California, Irvine
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+People
+Contact
+Site Map
+News
+
+
+
+
+Search for:
+
+
+
+ 
+
+
+
+
+
+Menu
+Skip to content
+Explore
+
+
+Chair’s Welcome
+Faculty Profiles
+Books We Read
+History of the Department
+Seminar Series
+Blogs We Author
+Department Vision
+Books We Have Written
+Visiting the Department
+Facts & Figures
+
+
+
+Graduate Degrees
+
+
+Overview
+Ph.D. Software Engineering
+Policies
+Ph.D. Informatics
+M.S. Software Engineering
+Diversity Ambassador
+M.S. Informatics
+Master of Software Engineering
+Student Profiles
+Master of Human-Computer Interaction & Design
+Courses
+Student Groups
+ 
+ 
+Upcoming Course Schedule
+
+
+
+Undergraduate Degrees
+
+
+B.S. Informatics
+B.S. Information & Computer Science
+Policies
+B.S. Business Information Management
+Special Opportunities
+Student Profiles
+B.S. Game Design and Interactive Media
+Minors
+Student Groups
+B.S. Software Engineering
+Courses
+Upcoming Course Schedule
+
+
+
+Admissions
+
+
+Graduate Application Process
+Coming from Abroad
+Housing
+Undergraduate Application Process
+Student Life
+
+
+
+Research
+
+
+Labs & Centers
+Ph.D. Research
+Undergraduate Research
+Areas of Expertise
+Past Dissertations
+Gifts & Grants
+Example Projects
+Masters Research
+
+
+
+Impact
+
+
+Research that Matters
+Undergraduate Alumni Spotlights
+Outreach
+Graduate Alumni Spotlights
+Community Engagement
+
+
+
+Support
+
+
+Champion Research
+Become a Corporate Partner
+Share Your Talent
+Support Students
+Provide Projects
+Set Future Agenda
+Post Jobs
+Graduate Resources
+
+
+
+
+
+
+MenuExplore
+
+Chair’s Welcome
+History of the Department
+Department Vision
+Facts & Figures
+Faculty Profiles
+Seminar Series
+Books We Have Written
+Books We Read
+Blogs We Author
+Visiting the Department
+
+
+Graduate Degrees
+
+Ph.D. Informatics
+M.S. Informatics
+Ph.D. Software Engineering
+M.S. Software Engineering
+Master of Human-Computer Interaction & Design
+Master of Software Engineering
+Courses
+Policies
+Diversity Ambassador
+Student Profiles
+Student Groups
+Upcoming Course Schedule
+
+
+Undergraduate Degrees
+
+B.S. Informatics
+B.S. Business Information Management
+B.S. Game Design and Interactive Media
+B.S. Software Engineering
+B.S. Information & Computer Science
+Special Opportunities
+Minors
+Courses
+Policies
+Student Profiles
+Student Groups
+Upcoming Course Schedule
+
+
+Admissions
+
+Graduate Application Process
+Undergraduate Application Process
+Coming from Abroad
+Student Life
+Housing
+
+
+Research
+
+Labs & Centers
+Areas of Expertise
+Example Projects
+Ph.D. Research
+Past Dissertations
+Masters Research
+Undergraduate Research
+Gifts & Grants
+
+
+Impact
+
+Research that Matters
+Graduate Alumni Spotlights
+Undergraduate Alumni Spotlights
+Community Engagement
+Outreach
+
+
+Support
+
+Champion Research
+Support Students
+Become a Corporate Partner
+Provide Projects
+Post Jobs
+Share Your Talent
+Set Future Agenda
+
+
+ 
+
+
+
+
+
+
+
+		← Site Map  News
+
+
+
+
+
+UCI ML Repository Highlights Four Impactful Projects at 2022 ML Hackathon
+July 6, 2022
+
+
+The UCI Machine Learning (ML) Repository hosted the 2022 Machine Learning Hackathon from May 18 to May 29. Throughout the hackathon, participants engaged with members of the UCI ML Repository and its datasets to build creative and meaningful projects. On June 3, hackathon organizers held an awards ceremony to review project submissions and recognize four winning hacks.
+
+Junior computer science major Angel Vilchis 
+Overall Best: Personalizing Recommendations Without User ActivityThe UCI ML Repository is home to over 600 datasets. While there are plenty of ways to filter for datasets, how about using ML to do the work for you? Angel Vilchis, a junior computer science major specializing in intelligent systems, built a model that recommends datasets related to a select dataset. Vilchis says the model’s recommendations are highly accurate, and it benefits all users browsing the UCI ML Repository. 
+You first select a dataset in the UCI ML Repository you’re interested in. Then, you specify how many related datasets you would like to be recommended. Datasets are recommended based on how similar they are to the selected dataset based on three measures: characteristics, context and popularity. You can also customize the model to prefer one similarity measure over the other. 
+Computer Science Professor Sameer Singh with the SEW.NLP team.
+Overall Runner Up: SEW.NLP – NLP for Dataset ParsingKnowing the context surrounding data that is collected is important and can help determine whether or not it’s suitable for your needs. To better understand datasets, the SEW.NLP team created a question-answering NLP model. They used SciBert and XLNet models and the Qasper dataset to extract information from scientific papers about datasets in the UCI ML Repository.
+SEW.NLP was created by:
+Edoardo Botta – senior economics and computer science major, Università BocconiWilliam Han – senior psychological science major, UCISanay Talsania – senior business information management major, UCI
+Most Creative: UnlimitedMonsterLearning – Automatic StatisticianWhat does it mean when a dataset is “good”? UnlimitedMonsterLearning strives to answer that question and address related concerns and ethics about the quality of datasets. The team evaluated the quality of datasets using statistical parameters and analyzed the pattern of dataset popularity with respect to a variety of statistical qualities. 
+Yiqin Chen and Hao Li from UnlimitedMonsterLearning.
+UnlimitedMonsterLearning was created by: 
+Yiqin Chen – junior business information management and data science major, UCIHao Li – junior mathematics major and statistics minor, UCI
+The four students who created Team Untitled.
+Most Impactful:  Team Untitled – SearchThe goal of Team Untitled is to improve and refine the process of searching for information in datasets using NLP. Team Untitled combined latent dirichlet allocation and latent semantic analysis modeling techniques to find the most relevant words in datasets. This helps expand search queries and find the most relevant datasets. 
+Team Untitled was created by: 
+John Lorenzini – freshman computer science major, UCIMeera Jagota – freshman computer science major, UCIJohn Daniel Norombaba – freshman software engineering major, UCINeel Ramesh – freshman computer science and engineering major, UCI
+— Karen Phan
+
+
+
+Post navigation
+← Alumni Spotlight: Rohit Khare’s Distinguished Career, Defined by the Web
+Conference Experience Confirms Competitive Edge of ICS Capstone Program →
+
+
+
+
+
+
+ 
+
+October 2022
+September 2022
+July 2022
+June 2022
+May 2022
+April 2022
+March 2022
+February 2022
+January 2022
+December 2021
+November 2021
+October 2021
+September 2021
+August 2021
+July 2021
+June 2021
+May 2021
+April 2021
+March 2021
+February 2021
+January 2021
+December 2020
+November 2020
+October 2020
+September 2020
+August 2020
+July 2020
+June 2020
+May 2020
+April 2020
+March 2020
+February 2020
+January 2020
+December 2019
+November 2019
+October 2019
+September 2019
+August 2019
+July 2019
+June 2019
+May 2019
+April 2019
+March 2019
+February 2019
+January 2019
+December 2018
+November 2018
+October 2018
+September 2018
+August 2018
+July 2018
+June 2018
+May 2018
+April 2018
+March 2018
+February 2018
+January 2018
+December 2017
+November 2017
+October 2017
+September 2017
+August 2017
+July 2017
+June 2017
+May 2017
+April 2017
+March 2017
+February 2017
+January 2017
+December 2016
+November 2016
+October 2016
+September 2016
+August 2016
+July 2016
+June 2016
+May 2016
+April 2016
+March 2016
+February 2016
+January 2016
+December 2015
+November 2015
+October 2015
+September 2015
+August 2015
+July 2015
+June 2015
+May 2015
+April 2015
+March 2015
+February 2015
+January 2015
+December 2014
+November 2014
+September 2014
+August 2014
+July 2014
+June 2014
+
+ 
+
+
+
+People
+Contact
+Site Map
+News
+
+
+
+
+
+
+
+Feedback
+Privacy Policy
+					© 2022 UC Regents
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

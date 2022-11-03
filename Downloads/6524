@@ -1,0 +1,105 @@
+http://www.ics.uci.edu/%7Emagda/cs620/introductionOG.html
+
+
+
+
+
+
+
+
+
+
+Intro to Lab
+
+
+
+
+ 
+ 
+
+Introduction
+
+
+ 
+
+Summary:
+
+
+This course covers the concepts underlying networked games (NGs)
+and networked virtual environments (NVEs), from their definition, to
+distributed systems, to networking fundamentals, quality of experience
+and game design needs.
+
+
+The objective of the course is to prepare the student for
+research and development of networking technologies for supporting
+large-scale, multi player online games. The students taking this course
+will have taken an introductory course to computer networks.
+
+
+Topics include: 
+
+
+
+the
+challenges of networked games 
+the
+origins of networked games technology
+communications
+architectures 
+managing
+dynamic shared state 
+systems
+design: client server vs peer to peer
+real-time
+collision detection and response 
+resource
+management for scalability and performance
+
+
+Audience: 
+
+
+Senior Undergraduates
+Graduates
+
+
+
+Suggested Texts:
+
+
+
+Grenville Armitage, Mark Claypool, Philip Branch, Networking
+and
+Online Games - Understanding and Engineering Multiplayer Internet
+Games, Publ. by Wiley
+
+Sandeep Singhal and Michael Zyda, Networked Games:  Design
+and
+Implementation, Publ. by Addison Wesley
+Anthony Steed and Manuel Fradinho Oliveira, Networked
+Graphics:
+Building Networked Games and Virtual Environments, Publ. by Morgan
+Kaufman
+
+Readings from recent papers in the networked game area
+
+
+
+
+Class Time: Mon-Thurs 2-3:25pm
+Class Room: SIC 205
+
+Office hours: Thurs 3:30 - 4:30pm
+My Coordinates: 
+
+
+Office: SIA 108
+Email: elzarki@uci.edu
+
+
+
+
+
+
+

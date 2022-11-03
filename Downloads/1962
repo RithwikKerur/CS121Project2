@@ -1,0 +1,85 @@
+https://sli.ics.uci.edu/Classes/CS178-Regression
+
+
+
+SLI | Classes / CS178-Regression 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Classes /
+CS178-Regression
+
+
+Supervised Learning
+Supervised learning tasks are those in which we have a concrete, measurable ``signal'' that we wish to predict, say , given a set of  observed features .  
+
+Regression problems
+Regression is a type of supervised learning task in which the target variable is real-valued.
+For example, we may wish to predict the sale price of a house, , given some of its observable characteristics, e.g.,
+: house size, in square footage
+: location, distance from the coast
+
+We are likely to base our prediction of the sale price , and its relationship to the observable features , on some set of training data, for example historical sales data.  
+
+Mini: PHP-GD image library not found. Exiting.
+
+We will initially focus on linear regression, in which our prediction about y is in the form of a linear function of the observed features , for example:
+
+
+It is also helpful to define all of our variables in a matrix form; this will allow us to write very compact equations, and will also translate well into Matlab syntax.
+
+We have chosen to represent each row of X as a training example (the values of each feature observed for a particular datum, such as a single house in the historical set), while each column indicates a particular feature.  The first column (of all ones) indicates "feature zero", a constant value that we prepend to our features to manage the offset term; each subsequent column represents the values of a particular feature (size, distance, etc.) that are observed across examples in the training data.
+
+Note that the most potentially confusing difference in syntax for most presentations is a result of transposition of one or more of these quantities.  It is helpful to keep in mind what the correct dimensionality of each vector is:  has  elements, the number of training data;  has  elements, one more than there are observed features; and  is .
+
+
+ %this is a Matlab comment  y = theta * X';
+
+
+
+
+
+
+ Last modified January 10, 2011, at 09:07 AM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

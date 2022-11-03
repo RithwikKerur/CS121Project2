@@ -1,0 +1,1011 @@
+https://duttgroup.ics.uci.edu/publications/?limit=4&
+
+
+
+
+
+
+Publications – Dutt Research Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to content
+
+
+
+
+
+
+ 
+
+Dutt Research Group
+DRG-Lab Webpage
+
+
+
+
+
+
+
+
+DRG Home
+Group Members
+Projects
+
+Self-Aware & Adaptive Computing
+
+Information Processing Factory (IPF)
+MARS
+Unified Parallel Runtime
+Memory Adaptation
+
+
+Health Care IoT
+
+Internet of Cognitive Things in healthcare
+Pain Assessment
+Maternity Care
+NSF Unite Project
+
+
+Domain-specific Hardware Accelerators
+Neuromorphic Computing
+
+
+Publications
+Sister Groups
+News
+
+
+
+
+Main Menu
+
+
+
+
+
+
+
+
+
+
+Publications 
+
+
+All publications:
+550 entries « ‹  4 of 11 › » 
+
+2015
+
+ Hsieh, Chen-Ying;  Park, Jurn-Gyu;  Dutt, Nikil D;  Lim, Sung-SooMemory-aware cooperative CPU-GPU DVFS governor for mobile games Inproceedings 13th IEEE Symposium on Embedded Systems For Real-time Multimedia, 
+ ESTIMedia 2015, Amsterdam, The Netherlands, October 8-9, 2015, pp. 1–8, 2015.Links | BibTeX@inproceedings{DBLP:conf/estimedia/HsiehPDL15,
+title = {Memory-aware cooperative CPU-GPU DVFS governor for mobile games},
+author = {Chen-Ying Hsieh and Jurn-Gyu Park and Nikil D Dutt and Sung-Soo Lim},
+url = {https://doi.org/10.1109/ESTIMedia.2015.7351775},
+doi = {10.1109/ESTIMedia.2015.7351775},
+year  = {2015},
+date = {2015-01-01},
+booktitle = {13th IEEE Symposium on Embedded Systems For Real-time Multimedia, 
+ ESTIMedia 2015, Amsterdam, The Netherlands, October 8-9, 2015},
+pages = {1--8},
+crossref = {DBLP:conf/estimedia/2015},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ESTIMedia.2015.7351775doi:10.1109/ESTIMedia.2015.7351775Close BanaiyanMofrad, Abbas;  Ebrahimi, Mojtaba;  Oboril, Fabian;  Tahoori, Mehdi Baradaran;  Dutt, Nikil DProtecting caches against multi-bit errors using embedded erasure 
+ coding Inproceedings 20th IEEE European Test Symposium, ETS 2015, Cluj-Napoca, Romania, 
+ 25-29 May, 2015, pp. 1–6, 2015.Links | BibTeX@inproceedings{DBLP:conf/ets/BanaiyanMofradE15,
+title = {Protecting caches against multi-bit errors using embedded erasure 
+ coding},
+author = {Abbas BanaiyanMofrad and Mojtaba Ebrahimi and Fabian Oboril and Mehdi Baradaran Tahoori and Nikil D Dutt},
+url = {https://doi.org/10.1109/ETS.2015.7138735},
+doi = {10.1109/ETS.2015.7138735},
+year  = {2015},
+date = {2015-01-01},
+booktitle = {20th IEEE European Test Symposium, ETS 2015, Cluj-Napoca, Romania, 
+ 25-29 May, 2015},
+pages = {1--6},
+crossref = {DBLP:conf/ets/2015},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ETS.2015.7138735doi:10.1109/ETS.2015.7138735Close Dutt, Nikil D;  Jantsch, Axel;  Sarma, SantanuSelf-Aware Cyber-Physical Systems-on-Chip Inproceedings Proceedings of the IEEE/ACM International Conference on Computer-Aided 
+ Design, ICCAD 2015, Austin, TX, USA, November 2-6, 2015, pp. 46–50, 2015.Links | BibTeX@inproceedings{DBLP:conf/iccad/DuttJS15,
+title = {Self-Aware Cyber-Physical Systems-on-Chip},
+author = {Nikil D Dutt and Axel Jantsch and Santanu Sarma},
+url = {https://doi.org/10.1109/ICCAD.2015.7372548},
+doi = {10.1109/ICCAD.2015.7372548},
+year  = {2015},
+date = {2015-01-01},
+booktitle = {Proceedings of the IEEE/ACM International Conference on Computer-Aided 
+ Design, ICCAD 2015, Austin, TX, USA, November 2-6, 2015},
+pages = {46--50},
+crossref = {DBLP:conf/iccad/2015},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ICCAD.2015.7372548doi:10.1109/ICCAD.2015.7372548Close Beyeler, Michael;  Carlson, Kristofor D;  Chou, Ting-Shuo;  Dutt, Nikil D;  Krichmar, Jeffrey LCARLsim 3: A user-friendly and highly optimized library for the  creation of neurobiologically detailed spiking neural networks Inproceedings 2015 International Joint Conference on Neural Networks, IJCNN 2015, 
+ Killarney, Ireland, July 12-17, 2015, pp. 1–8, 2015.Links | BibTeX@inproceedings{DBLP:conf/ijcnn/BeyelerCCDK15,
+title = {CARLsim 3: A user-friendly and highly optimized library for the  creation of neurobiologically detailed spiking neural networks},
+author = {Michael Beyeler and Kristofor D Carlson and Ting-Shuo Chou and Nikil D Dutt and Jeffrey L Krichmar},
+url = {https://doi.org/10.1109/IJCNN.2015.7280424},
+doi = {10.1109/IJCNN.2015.7280424},
+year  = {2015},
+date = {2015-01-01},
+booktitle = {2015 International Joint Conference on Neural Networks, IJCNN 2015, 
+ Killarney, Ireland, July 12-17, 2015},
+pages = {1--8},
+crossref = {DBLP:conf/ijcnn/2015},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/IJCNN.2015.7280424doi:10.1109/IJCNN.2015.7280424Close Shin, Jun Yong;  Kurdahi, Fadi J;  Dutt, Nikil DThermal sensor allocation for SoCs based on temperature gradients Inproceedings Sixteenth International Symposium on Quality Electronic Design, ISQED 
+ 2015, Santa Clara, CA, USA, March 2-4, 2015, pp. 29–34, 2015.Links | BibTeX@inproceedings{DBLP:conf/isqed/ShinKD15,
+title = {Thermal sensor allocation for SoCs based on temperature gradients},
+author = {Jun Yong Shin and Fadi J Kurdahi and Nikil D Dutt},
+url = {https://doi.org/10.1109/ISQED.2015.7085393},
+doi = {10.1109/ISQED.2015.7085393},
+year  = {2015},
+date = {2015-01-01},
+booktitle = {Sixteenth International Symposium on Quality Electronic Design, ISQED 
+ 2015, Santa Clara, CA, USA, March 2-4, 2015},
+pages = {29--34},
+crossref = {DBLP:conf/isqed/2015},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ISQED.2015.7085393doi:10.1109/ISQED.2015.7085393Close Dang, Nga;  Tajik, Hossein;  Dutt, Nikil D;  Venkatasubramanian, Nalini;  Bozorgzadeh, EliOrchestrated application quality and energy storage management in 
+ solar-powered embedded systems Inproceedings Sixteenth International Symposium on Quality Electronic Design, ISQED 
+ 2015, Santa Clara, CA, USA, March 2-4, 2015, pp. 227–233, 2015.Links | BibTeX@inproceedings{DBLP:conf/isqed/DangTDVB15,
+title = {Orchestrated application quality and energy storage management in 
+ solar-powered embedded systems},
+author = {Nga Dang and Hossein Tajik and Nikil D Dutt and Nalini Venkatasubramanian and Eli Bozorgzadeh},
+url = {https://doi.org/10.1109/ISQED.2015.7085430},
+doi = {10.1109/ISQED.2015.7085430},
+year  = {2015},
+date = {2015-01-01},
+booktitle = {Sixteenth International Symposium on Quality Electronic Design, ISQED 
+ 2015, Santa Clara, CA, USA, March 2-4, 2015},
+pages = {227--233},
+crossref = {DBLP:conf/isqed/2015},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ISQED.2015.7085430doi:10.1109/ISQED.2015.7085430Close Levorato, Marco;  Venkatasubramanian, Nalini;  Dutt, Nikil DHeat-aware transmission strategies Inproceedings 2015 Information Theory and Applications Workshop, ITA 2015, San 
+ Diego, CA, USA, February 1-6, 2015, pp. 154–162, 2015.Links | BibTeX@inproceedings{DBLP:conf/ita/LevoratoVD15,
+title = {Heat-aware transmission strategies},
+author = {Marco Levorato and Nalini Venkatasubramanian and Nikil D Dutt},
+url = {https://doi.org/10.1109/ITA.2015.7308981},
+doi = {10.1109/ITA.2015.7308981},
+year  = {2015},
+date = {2015-01-01},
+booktitle = {2015 Information Theory and Applications Workshop, ITA 2015, San 
+ Diego, CA, USA, February 1-6, 2015},
+pages = {154--162},
+crossref = {DBLP:conf/ita/2015},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ITA.2015.7308981doi:10.1109/ITA.2015.7308981Close Sarma, Santanu;  Dutt, Nikil DCross-Layer Exploration of Heterogeneous Multicore Processor Configurations Inproceedings 28th International Conference on VLSI Design, VLSID 2015, Bangalore, 
+ India, January 3-7, 2015, pp. 147–152, 2015.Links | BibTeX@inproceedings{DBLP:conf/vlsid/SarmaD15,
+title = {Cross-Layer Exploration of Heterogeneous Multicore Processor Configurations},
+author = {Santanu Sarma and Nikil D Dutt},
+url = {https://doi.org/10.1109/VLSID.2015.30},
+doi = {10.1109/VLSID.2015.30},
+year  = {2015},
+date = {2015-01-01},
+booktitle = {28th International Conference on VLSI Design, VLSID 2015, Bangalore, 
+ India, January 3-7, 2015},
+pages = {147--152},
+crossref = {DBLP:conf/vlsid/2015},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/VLSID.2015.30doi:10.1109/VLSID.2015.30Close
+
+2014
+
+ Beyeler, Michael;  Richert, Micah;  Dutt, Nikil D;  Krichmar, Jeffrey LEfficient Spiking Neural Network Model of Pattern Motion Selectivity 
+ in Visual Cortex Journal Article Neuroinformatics, 12 (3), pp. 435–454, 2014.Links | BibTeX@article{DBLP:journals/ni/BeyelerRDK14,
+title = {Efficient Spiking Neural Network Model of Pattern Motion Selectivity 
+ in Visual Cortex},
+author = {Michael Beyeler and Micah Richert and Nikil D Dutt and Jeffrey L Krichmar},
+url = {https://doi.org/10.1007/s12021-014-9220-y},
+doi = {10.1007/s12021-014-9220-y},
+year  = {2014},
+date = {2014-01-01},
+journal = {Neuroinformatics},
+volume = {12},
+number = {3},
+pages = {435--454},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1007/s12021-014-9220-ydoi:10.1007/s12021-014-9220-yClose Wang, Yi;  Huang, Min;  Shao, Zili;  Chan, Henry C B;  Bathen, Luis Angel D;  Dutt, Nikil DA Reliability-Aware Address Mapping Strategy for NAND Flash Memory 
+ Storage Systems Journal Article IEEE Trans. on CAD of Integrated Circuits and Systems, 33 (11), pp. 1623–1631, 2014.Links | BibTeX@article{DBLP:journals/tcad/WangHSCBD14,
+title = {A Reliability-Aware Address Mapping Strategy for NAND Flash Memory 
+ Storage Systems},
+author = {Yi Wang and Min Huang and Zili Shao and Henry C B Chan and Luis Angel D Bathen and Nikil D Dutt},
+url = {https://doi.org/10.1109/TCAD.2014.2347929},
+doi = {10.1109/TCAD.2014.2347929},
+year  = {2014},
+date = {2014-01-01},
+journal = {IEEE Trans. on CAD of Integrated Circuits and Systems},
+volume = {33},
+number = {11},
+pages = {1623--1631},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/TCAD.2014.2347929doi:10.1109/TCAD.2014.2347929Close BanaiyanMofrad, Abbas;  ã, Gustavo Gir;  Dutt, Nikil DNoC-based fault-tolerant cache design in chip multiprocessors Journal Article ACM Trans. Embedded Comput. Syst., 13 (3s), pp. 115:1–115:26, 2014.Links | BibTeX@article{DBLP:journals/tecs/BanaiyanMofradG14,
+title = {NoC-based fault-tolerant cache design in chip multiprocessors},
+author = {Abbas BanaiyanMofrad and Gustavo Gir ã and Nikil D Dutt},
+url = {http://doi.acm.org/10.1145/2567939},
+doi = {10.1145/2567939},
+year  = {2014},
+date = {2014-01-01},
+journal = {ACM Trans. Embedded Comput. Syst.},
+volume = {13},
+number = {3s},
+pages = {115:1--115:26},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://doi.acm.org/10.1145/2567939doi:10.1145/2567939Close Bathen, Luis Angel D;  Dutt, Nikil DEmbedded RAIDs-on-chip for bus-based chip-multiprocessors Journal Article ACM Trans. Embedded Comput. Syst., 13 (4), pp. 83:1–83:36, 2014.Links | BibTeX@article{DBLP:journals/tecs/BathenD14,
+title = {Embedded RAIDs-on-chip for bus-based chip-multiprocessors},
+author = {Luis Angel D Bathen and Nikil D Dutt},
+url = {http://doi.acm.org/10.1145/2533316},
+doi = {10.1145/2533316},
+year  = {2014},
+date = {2014-01-01},
+journal = {ACM Trans. Embedded Comput. Syst.},
+volume = {13},
+number = {4},
+pages = {83:1--83:36},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://doi.acm.org/10.1145/2533316doi:10.1145/2533316Close Dutt, Nikil D;  Tahoori, Mehdi BaradaranIntroduction to Special Issue on Cross-layer Dependable Embedded Systems Journal Article ACM Trans. Embedded Comput. Syst., 13 (4s), pp. 136:1–136:2, 2014.Links | BibTeX@article{DBLP:journals/tecs/DuttT14,
+title = {Introduction to Special Issue on Cross-layer Dependable Embedded Systems},
+author = {Nikil D Dutt and Mehdi Baradaran Tahoori},
+url = {http://doi.acm.org/10.1145/2588610},
+doi = {10.1145/2588610},
+year  = {2014},
+date = {2014-01-01},
+journal = {ACM Trans. Embedded Comput. Syst.},
+volume = {13},
+number = {4s},
+pages = {136:1--136:2},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://doi.acm.org/10.1145/2588610doi:10.1145/2588610Close Chakraborty, Arup;  Homayoun, Houman;  Djahromi, Amin Khajeh;  Dutt, Nikil D;  Eltawil, Ahmed M;  Kurdahi, Fadi JMulticopy Cache: A Highly Energy-Efficient Cache Architecture Journal Article ACM Trans. Embedded Comput. Syst., 13 (5s), pp. 150:1–150:27, 2014.Links | BibTeX@article{DBLP:journals/tecs/ChakrabortyHDDE14,
+title = {Multicopy Cache: A Highly Energy-Efficient Cache Architecture},
+author = {Arup Chakraborty and Houman Homayoun and Amin Khajeh Djahromi and Nikil D Dutt and Ahmed M Eltawil and Fadi J Kurdahi},
+url = {http://doi.acm.org/10.1145/2632162},
+doi = {10.1145/2632162},
+year  = {2014},
+date = {2014-01-01},
+journal = {ACM Trans. Embedded Comput. Syst.},
+volume = {13},
+number = {5s},
+pages = {150:1--150:27},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://doi.acm.org/10.1145/2632162doi:10.1145/2632162Close Bathen, Luis Angel D;  Dutt, Nikil DemphSPMCloud: Towards the Single-Chip Embedded ScratchPad Memory-Based 
+ Storage Cloud Journal Article ACM Trans. Design Autom. Electr. Syst., 19 (3), pp. 22:1–22:45, 2014.Links | BibTeX@article{DBLP:journals/todaes/BathenD14,
+title = {emphSPMCloud: Towards the Single-Chip Embedded ScratchPad Memory-Based 
+ Storage Cloud},
+author = {Luis Angel D Bathen and Nikil D Dutt},
+url = {http://doi.acm.org/10.1145/2611755},
+doi = {10.1145/2611755},
+year  = {2014},
+date = {2014-01-01},
+journal = {ACM Trans. Design Autom. Electr. Syst.},
+volume = {19},
+number = {3},
+pages = {22:1--22:45},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://doi.acm.org/10.1145/2611755doi:10.1145/2611755Close Wang, Yi;  Shao, Zili;  Chan, Henry C B;  Bathen, Luis Angel D;  Dutt, Nikil DA Reliability Enhanced Address Mapping Strategy for Three-Dimensional 
+ (3-D) NAND Flash Memory Journal Article IEEE Trans. VLSI Syst., 22 (11), pp. 2402–2410, 2014.Links | BibTeX@article{DBLP:journals/tvlsi/WangSCBD14,
+title = {A Reliability Enhanced Address Mapping Strategy for Three-Dimensional 
+ (3-D) NAND Flash Memory},
+author = {Yi Wang and Zili Shao and Henry C B Chan and Luis Angel D Bathen and Nikil D Dutt},
+url = {https://doi.org/10.1109/TVLSI.2013.2288687},
+doi = {10.1109/TVLSI.2013.2288687},
+year  = {2014},
+date = {2014-01-01},
+journal = {IEEE Trans. VLSI Syst.},
+volume = {22},
+number = {11},
+pages = {2402--2410},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/TVLSI.2013.2288687doi:10.1109/TVLSI.2013.2288687Close Carlson, Kristofor D;  Beyeler, Michael;  Dutt, Nikil D;  Krichmar, Jeffrey LGPGPU accelerated simulation and parameter tuning for neuromorphic 
+ applications Inproceedings 19th Asia and South Pacific Design Automation Conference, ASP-DAC 
+ 2014, Singapore, January 20-23, 2014, pp. 570–577, 2014.Links | BibTeX@inproceedings{DBLP:conf/aspdac/CarlsonBDK14,
+title = {GPGPU accelerated simulation and parameter tuning for neuromorphic 
+ applications},
+author = {Kristofor D Carlson and Michael Beyeler and Nikil D Dutt and Jeffrey L Krichmar},
+url = {https://doi.org/10.1109/ASPDAC.2014.6742952},
+doi = {10.1109/ASPDAC.2014.6742952},
+year  = {2014},
+date = {2014-01-01},
+booktitle = {19th Asia and South Pacific Design Automation Conference, ASP-DAC 
+ 2014, Singapore, January 20-23, 2014},
+pages = {570--577},
+crossref = {DBLP:conf/aspdac/2014},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ASPDAC.2014.6742952doi:10.1109/ASPDAC.2014.6742952Close Sarma, Santanu;  Dutt, Nikil D;  Gupta, Puneet;  Nicolau, Alexandru;  Venkatasubramanian, NaliniOn-chip self-awareness using Cyberphysical-Systems-on-Chip (CPSoC) Inproceedings 2014 International Conference on Hardware/Software Codesign and System 
+ Synthesis, CODES+ISSS 2014, Uttar Pradesh, India, October 12-17, 
+ 2014, pp. 22:1–22:3, 2014.Links | BibTeX@inproceedings{DBLP:conf/codes/SarmaDGNV14,
+title = {On-chip self-awareness using Cyberphysical-Systems-on-Chip (CPSoC)},
+author = {Santanu Sarma and Nikil D Dutt and Puneet Gupta and Alexandru Nicolau and Nalini Venkatasubramanian},
+url = {http://doi.acm.org/10.1145/2656075.2661648},
+doi = {10.1145/2656075.2661648},
+year  = {2014},
+date = {2014-01-01},
+booktitle = {2014 International Conference on Hardware/Software Codesign and System 
+ Synthesis, CODES+ISSS 2014, Uttar Pradesh, India, October 12-17, 
+ 2014},
+pages = {22:1--22:3},
+crossref = {DBLP:conf/codes/2014},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.acm.org/10.1145/2656075.2661648doi:10.1145/2656075.2661648Close Dutt, Nikil D;  Gupta, Puneet;  Nicolau, Alex;  BanaiyanMofrad, Abbas;  Gottscho, Mark;  Shoushtari, MajidMulti-Layer Memory Resiliency Inproceedings The 51st Annual Design Automation Conference 2014, DAC '14, San 
+ Francisco, CA, USA, June 1-5, 2014, pp. 48:1–48:6, 2014.Links | BibTeX@inproceedings{DBLP:conf/dac/DuttGNBGS14,
+title = {Multi-Layer Memory Resiliency},
+author = {Nikil D Dutt and Puneet Gupta and Alex Nicolau and Abbas BanaiyanMofrad and Mark Gottscho and Majid Shoushtari},
+url = {http://doi.acm.org/10.1145/2593069.2596684},
+doi = {10.1145/2593069.2596684},
+year  = {2014},
+date = {2014-01-01},
+booktitle = {The 51st Annual Design Automation Conference 2014, DAC '14, San 
+ Francisco, CA, USA, June 1-5, 2014},
+pages = {48:1--48:6},
+crossref = {DBLP:conf/dac/2014},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.acm.org/10.1145/2593069.2596684doi:10.1145/2593069.2596684Close Sarma, Santanu;  Venkatasubramanian, Nalini;  Dutt, Nikil DSense-making from Distributed and Mobile Sensing Data: A Middleware 
+ Perspective Inproceedings The 51st Annual Design Automation Conference 2014, DAC '14, San 
+ Francisco, CA, USA, June 1-5, 2014, pp. 68:1–68:6, 2014.Links | BibTeX@inproceedings{DBLP:conf/dac/SarmaVD14,
+title = {Sense-making from Distributed and Mobile Sensing Data: A Middleware 
+ Perspective},
+author = {Santanu Sarma and Nalini Venkatasubramanian and Nikil D Dutt},
+url = {http://doi.acm.org/10.1145/2593069.2596688},
+doi = {10.1145/2593069.2596688},
+year  = {2014},
+date = {2014-01-01},
+booktitle = {The 51st Annual Design Automation Conference 2014, DAC '14, San 
+ Francisco, CA, USA, June 1-5, 2014},
+pages = {68:1--68:6},
+crossref = {DBLP:conf/dac/2014},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.acm.org/10.1145/2593069.2596688doi:10.1145/2593069.2596688Close Gottscho, Mark;  BanaiyanMofrad, Abbas;  Dutt, Nikil D;  Nicolau, Alex;  Gupta, PuneetPower / Capacity Scaling: Energy Savings With Simple Fault-Tolerant 
+ Caches Inproceedings The 51st Annual Design Automation Conference 2014, DAC '14, San 
+ Francisco, CA, USA, June 1-5, 2014, pp. 100:1–100:6, 2014.Links | BibTeX@inproceedings{DBLP:conf/dac/GottschoBDNG14,
+title = {Power / Capacity Scaling: Energy Savings With Simple Fault-Tolerant 
+ Caches},
+author = {Mark Gottscho and Abbas BanaiyanMofrad and Nikil D Dutt and Alex Nicolau and Puneet Gupta},
+url = {http://doi.acm.org/10.1145/2593069.2593184},
+doi = {10.1145/2593069.2593184},
+year  = {2014},
+date = {2014-01-01},
+booktitle = {The 51st Annual Design Automation Conference 2014, DAC '14, San 
+ Francisco, CA, USA, June 1-5, 2014},
+pages = {100:1--100:6},
+crossref = {DBLP:conf/dac/2014},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.acm.org/10.1145/2593069.2593184doi:10.1145/2593069.2593184Close Sarma, Santanu;  Dutt, Nikil DMinimal sparse observability of complex networks: Application to MPSoC 
+ sensor placement and run-time thermal estimation & tracking Inproceedings Design, Automation & Test in Europe Conference & Exhibition, 
+ DATE 2014, Dresden, Germany, March 24-28, 2014, pp. 1–6, 2014.Links | BibTeX@inproceedings{DBLP:conf/date/SarmaD14,
+title = {Minimal sparse observability of complex networks: Application to MPSoC 
+ sensor placement and run-time thermal estimation & tracking},
+author = {Santanu Sarma and Nikil D Dutt},
+url = {https://doi.org/10.7873/DATE.2014.342},
+doi = {10.7873/DATE.2014.342},
+year  = {2014},
+date = {2014-01-01},
+booktitle = {Design, Automation & Test in Europe Conference & Exhibition, 
+ DATE 2014, Dresden, Germany, March 24-28, 2014},
+pages = {1--6},
+crossref = {DBLP:conf/date/2014},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.7873/DATE.2014.342doi:10.7873/DATE.2014.342Close Park, Jurn-Gyu;  Hsieh, Chen-Ying;  Dutt, Nikil D;  Lim, Sung-SooQuality-aware mobile graphics workload characterization for energy-efficient 
+ DVFS design Inproceedings 12th IEEE Symposium on Embedded Systems for Real-time Multimedia, 
+ ESTIMedia 2014, Greater Noida, India, October 16-17, 2014, pp. 70–79, 2014.Links | BibTeX@inproceedings{DBLP:conf/estimedia/ParkHDL14,
+title = {Quality-aware mobile graphics workload characterization for energy-efficient 
+ DVFS design},
+author = {Jurn-Gyu Park and Chen-Ying Hsieh and Nikil D Dutt and Sung-Soo Lim},
+url = {https://doi.org/10.1109/ESTIMedia.2014.6962347},
+doi = {10.1109/ESTIMedia.2014.6962347},
+year  = {2014},
+date = {2014-01-01},
+booktitle = {12th IEEE Symposium on Embedded Systems for Real-time Multimedia, 
+ ESTIMedia 2014, Greater Noida, India, October 16-17, 2014},
+pages = {70--79},
+crossref = {DBLP:conf/estimedia/2014},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ESTIMedia.2014.6962347doi:10.1109/ESTIMedia.2014.6962347Close Sarma, Santanu;  Dutt, Nikil DFPGA emulation and prototyping of a cyberphysical-system-on-chip 
+ (CPSoC) Inproceedings 25nd IEEE International Symposium on Rapid System Prototyping, RSP 
+ 2014, New Delhi, India, October 16-17, 2014, pp. 121–127, 2014.Links | BibTeX@inproceedings{DBLP:conf/rsp/SarmaD14,
+title = {FPGA emulation and prototyping of a cyberphysical-system-on-chip 
+ (CPSoC)},
+author = {Santanu Sarma and Nikil D Dutt},
+url = {https://doi.org/10.1109/RSP.2014.6966902},
+doi = {10.1109/RSP.2014.6966902},
+year  = {2014},
+date = {2014-01-01},
+booktitle = {25nd IEEE International Symposium on Rapid System Prototyping, RSP 
+ 2014, New Delhi, India, October 16-17, 2014},
+pages = {121--127},
+crossref = {DBLP:conf/rsp/2014},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/RSP.2014.6966902doi:10.1109/RSP.2014.6966902Close
+
+2013
+
+ Bathen, Luis Angel D;  Shin, Dongyoun;  Lim, Sung-Soo;  Dutt, Nikil DVirtualizing on-chip distributed ScratchPad memories for low power 
+ and trusted application execution Journal Article Design Autom. for Emb. Sys., 17 (2), pp. 377–409, 2013.Links | BibTeX@article{DBLP:journals/dafes/BathenSLD13,
+title = {Virtualizing on-chip distributed ScratchPad memories for low power 
+ and trusted application execution},
+author = {Luis Angel D Bathen and Dongyoun Shin and Sung-Soo Lim and Nikil D Dutt},
+url = {https://doi.org/10.1007/s10617-012-9100-3},
+doi = {10.1007/s10617-012-9100-3},
+year  = {2013},
+date = {2013-01-01},
+journal = {Design Autom. for Emb. Sys.},
+volume = {17},
+number = {2},
+pages = {377--409},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1007/s10617-012-9100-3doi:10.1007/s10617-012-9100-3Close Avery, Michael C;  Dutt, Nikil D;  Krichmar, Jeffrey LA large-scale neural network model of the influence of neuromodulatory 
+ levels on working memory and behavior Journal Article Front. Comput. Neurosci., 2013 , 2013.Links | BibTeX@article{DBLP:journals/ficn/AveryDK13,
+title = {A large-scale neural network model of the influence of neuromodulatory 
+ levels on working memory and behavior},
+author = {Michael C Avery and Nikil D Dutt and Jeffrey L Krichmar},
+url = {https://doi.org/10.3389/fncom.2013.00133},
+doi = {10.3389/fncom.2013.00133},
+year  = {2013},
+date = {2013-01-01},
+journal = {Front. Comput. Neurosci.},
+volume = {2013},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.3389/fncom.2013.00133doi:10.3389/fncom.2013.00133Close Beyeler, Michael;  Dutt, Nikil D;  Krichmar, Jeffrey LCategorization and decision-making in a neurobiologically plausible 
+ spiking network using a STDP-like learning rule Journal Article Neural Networks, 48 , pp. 109–124, 2013.Links | BibTeX@article{DBLP:journals/nn/BeyelerDK13,
+title = {Categorization and decision-making in a neurobiologically plausible 
+ spiking network using a STDP-like learning rule},
+author = {Michael Beyeler and Nikil D Dutt and Jeffrey L Krichmar},
+url = {https://doi.org/10.1016/j.neunet.2013.07.012},
+doi = {10.1016/j.neunet.2013.07.012},
+year  = {2013},
+date = {2013-01-01},
+journal = {Neural Networks},
+volume = {48},
+pages = {109--124},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1016/j.neunet.2013.07.012doi:10.1016/j.neunet.2013.07.012Close Gupta, Puneet;  Agarwal, Yuvraj;  Dolecek, Lara;  Dutt, Nikil D;  Gupta, Rajesh K;  Kumar, Rakesh;  Mitra, Subhasish;  Nicolau, Alexandru;  Rosing, Tajana Simunic;  Srivastava, Mani B;  Swanson, Steven;  Sylvester, DennisUnderdesigned and Opportunistic Computing in Presence of Hardware 
+ Variability Journal Article IEEE Trans. on CAD of Integrated Circuits and Systems, 32 (1), pp. 8–23, 2013.Links | BibTeX@article{DBLP:journals/tcad/GuptaADDGKMNRSSS13,
+title = {Underdesigned and Opportunistic Computing in Presence of Hardware 
+ Variability},
+author = {Puneet Gupta and Yuvraj Agarwal and Lara Dolecek and Nikil D Dutt and Rajesh K Gupta and Rakesh Kumar and Subhasish Mitra and Alexandru Nicolau and Tajana Simunic Rosing and Mani B Srivastava and Steven Swanson and Dennis Sylvester},
+url = {https://doi.org/10.1109/TCAD.2012.2223467},
+doi = {10.1109/TCAD.2012.2223467},
+year  = {2013},
+date = {2013-01-01},
+journal = {IEEE Trans. on CAD of Integrated Circuits and Systems},
+volume = {32},
+number = {1},
+pages = {8--23},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/TCAD.2012.2223467doi:10.1109/TCAD.2012.2223467Close Bathen, Luis Angel D;  Ahn, Yongjin;  Pasricha, Sudeep;  Dutt, Nikil DMultiMaKe: Chip-multiprocessor driven memory-aware kernel pipelining Journal Article ACM Trans. Embedded Comput. Syst., 12 (1s), pp. 59:1–59:25, 2013.Links | BibTeX@article{DBLP:journals/tecs/BathenAPD13,
+title = {MultiMaKe: Chip-multiprocessor driven memory-aware kernel pipelining},
+author = {Luis Angel D Bathen and Yongjin Ahn and Sudeep Pasricha and Nikil D Dutt},
+url = {http://doi.acm.org/10.1145/2435227.2435255},
+doi = {10.1145/2435227.2435255},
+year  = {2013},
+date = {2013-01-01},
+journal = {ACM Trans. Embedded Comput. Syst.},
+volume = {12},
+number = {1s},
+pages = {59:1--59:25},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://doi.acm.org/10.1145/2435227.2435255doi:10.1145/2435227.2435255Close Dutt, Nikil D;  Gupta, Puneet;  Nicolau, Alex;  Bathen, Luis Angel D;  Gottscho, MarkVariability-aware memory management for nanoscale computing Inproceedings 18th Asia and South Pacific Design Automation Conference, ASP-DAC 
+ 2013, Yokohama, Japan, January 22-25, 2013, pp. 125–132, 2013.Links | BibTeX@inproceedings{DBLP:conf/aspdac/DuttGNBG13,
+title = {Variability-aware memory management for nanoscale computing},
+author = {Nikil D Dutt and Puneet Gupta and Alex Nicolau and Luis Angel D Bathen and Mark Gottscho},
+url = {https://doi.org/10.1109/ASPDAC.2013.6509584},
+doi = {10.1109/ASPDAC.2013.6509584},
+year  = {2013},
+date = {2013-01-01},
+booktitle = {18th Asia and South Pacific Design Automation Conference, ASP-DAC 
+ 2013, Yokohama, Japan, January 22-25, 2013},
+pages = {125--132},
+crossref = {DBLP:conf/aspdac/2013},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ASPDAC.2013.6509584doi:10.1109/ASPDAC.2013.6509584Close Hara-Azumi, Yuko;  Azumi, Takuya;  Dutt, Nikil DVISA synthesis: Variation-aware Instruction Set Architecture synthesis Inproceedings 18th Asia and South Pacific Design Automation Conference, ASP-DAC 
+ 2013, Yokohama, Japan, January 22-25, 2013, pp. 243–248, 2013.Links | BibTeX@inproceedings{DBLP:conf/aspdac/Hara-AzumiAD13,
+title = {VISA synthesis: Variation-aware Instruction Set Architecture synthesis},
+author = {Yuko Hara-Azumi and Takuya Azumi and Nikil D Dutt},
+url = {https://doi.org/10.1109/ASPDAC.2013.6509603},
+doi = {10.1109/ASPDAC.2013.6509603},
+year  = {2013},
+date = {2013-01-01},
+booktitle = {18th Asia and South Pacific Design Automation Conference, ASP-DAC 
+ 2013, Yokohama, Japan, January 22-25, 2013},
+pages = {243--248},
+crossref = {DBLP:conf/aspdac/2013},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ASPDAC.2013.6509603doi:10.1109/ASPDAC.2013.6509603Close Carlson, Kristofor D;  Nageswaran, Jayram Moorkanikara;  Dutt, Nikil D;  Krichmar, Jeffrey LDesign space exploration and parameter tuning for neuromorphic applications Inproceedings Proceedings of the International Conference on Hardware/Software Codesign 
+ and System Synthesis, CODES+ISSS 2013, Montreal, QC, Canada, September 
+ 29 - October 4, 2013, pp. 20:1–20:2, 2013.Links | BibTeX@inproceedings{DBLP:conf/codes/CarlsonNDK13,
+title = {Design space exploration and parameter tuning for neuromorphic applications},
+author = {Kristofor D Carlson and Jayram Moorkanikara Nageswaran and Nikil D Dutt and Jeffrey L Krichmar},
+url = {https://doi.org/10.1109/CODES-ISSS.2013.6659007},
+doi = {10.1109/CODES-ISSS.2013.6659007},
+year  = {2013},
+date = {2013-01-01},
+booktitle = {Proceedings of the International Conference on Hardware/Software Codesign 
+ and System Synthesis, CODES+ISSS 2013, Montreal, QC, Canada, September 
+ 29 - October 4, 2013},
+pages = {20:1--20:2},
+crossref = {DBLP:conf/codes/2013},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/CODES-ISSS.2013.6659007doi:10.1109/CODES-ISSS.2013.6659007Close Namaki-Shoushtari, Majid;  Rahimi, Abbas;  Dutt, Nikil D;  Gupta, Puneet;  Gupta, Rajesh KARGO: Aging-aware GPGPU register file allocation Inproceedings Proceedings of the International Conference on Hardware/Software Codesign 
+ and System Synthesis, CODES+ISSS 2013, Montreal, QC, Canada, September 
+ 29 - October 4, 2013, pp. 30:1–30:9, 2013.Links | BibTeX@inproceedings{DBLP:conf/codes/Namaki-ShoushtariRDGG13,
+title = {ARGO: Aging-aware GPGPU register file allocation},
+author = {Majid Namaki-Shoushtari and Abbas Rahimi and Nikil D Dutt and Puneet Gupta and Rajesh K Gupta},
+url = {https://doi.org/10.1109/CODES-ISSS.2013.6659017},
+doi = {10.1109/CODES-ISSS.2013.6659017},
+year  = {2013},
+date = {2013-01-01},
+booktitle = {Proceedings of the International Conference on Hardware/Software Codesign 
+ and System Synthesis, CODES+ISSS 2013, Montreal, QC, Canada, September 
+ 29 - October 4, 2013},
+pages = {30:1--30:9},
+crossref = {DBLP:conf/codes/2013},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/CODES-ISSS.2013.6659017doi:10.1109/CODES-ISSS.2013.6659017Close ö, J;  Bauer, Lars;  Dutt, Nikil D;  Gupta, Puneet;  Nassif, Sani R;  Shafique, Muhammad;  Tahoori, Mehdi Baradaran;  Wehn, NorbertReliable on-chip systems in the nano-era: lessons learnt and future 
+ trends Inproceedings The 50th Annual Design Automation Conference 2013, DAC '13, Austin, 
+ TX, USA, May 29 - June 07, 2013, pp. 99:1–99:10, 2013.Links | BibTeX@inproceedings{DBLP:conf/dac/HenkelBDGNSTW13,
+title = {Reliable on-chip systems in the nano-era: lessons learnt and future 
+ trends},
+author = {J ö and Lars Bauer and Nikil D Dutt and Puneet Gupta and Sani R Nassif and Muhammad Shafique and Mehdi Baradaran Tahoori and Norbert Wehn},
+url = {http://doi.acm.org/10.1145/2463209.2488857},
+doi = {10.1145/2463209.2488857},
+year  = {2013},
+date = {2013-01-01},
+booktitle = {The 50th Annual Design Automation Conference 2013, DAC '13, Austin, 
+ TX, USA, May 29 - June 07, 2013},
+pages = {99:1--99:10},
+crossref = {DBLP:conf/dac/2013},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.acm.org/10.1145/2463209.2488857doi:10.1145/2463209.2488857Close Tajik, Hossein;  Homayoun, Houman;  Dutt, Nikil DVAWOM: temperature and process variation aware wearout management 
+ in 3D multicore architecture Inproceedings The 50th Annual Design Automation Conference 2013, DAC '13, Austin, 
+ TX, USA, May 29 - June 07, 2013, pp. 178:1–178:8, 2013.Links | BibTeX@inproceedings{DBLP:conf/dac/TajikHD13,
+title = {VAWOM: temperature and process variation aware wearout management 
+ in 3D multicore architecture},
+author = {Hossein Tajik and Houman Homayoun and Nikil D Dutt},
+url = {http://doi.acm.org/10.1145/2463209.2488953},
+doi = {10.1145/2463209.2488953},
+year  = {2013},
+date = {2013-01-01},
+booktitle = {The 50th Annual Design Automation Conference 2013, DAC '13, Austin, 
+ TX, USA, May 29 - June 07, 2013},
+pages = {178:1--178:8},
+crossref = {DBLP:conf/dac/2013},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.acm.org/10.1145/2463209.2488953doi:10.1145/2463209.2488953Close BanaiyanMofrad, Abbas;  Dutt, Nikil D;  ã, Gustavo GirModeling and analysis of fault-tolerant distributed memories for networks-on-chip Inproceedings Design, Automation and Test in Europe, DATE 13, Grenoble, France, 
+ March 18-22, 2013, pp. 1605–1608, 2013.Links | BibTeX@inproceedings{DBLP:conf/date/BanaiyanMofradDG13,
+title = {Modeling and analysis of fault-tolerant distributed memories for networks-on-chip},
+author = {Abbas BanaiyanMofrad and Nikil D Dutt and Gustavo Gir ã},
+url = {https://doi.org/10.7873/DATE.2013.326},
+doi = {10.7873/DATE.2013.326},
+year  = {2013},
+date = {2013-01-01},
+booktitle = {Design, Automation and Test in Europe, DATE 13, Grenoble, France, 
+ March 18-22, 2013},
+pages = {1605--1608},
+crossref = {DBLP:conf/date/2013},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.7873/DATE.2013.326doi:10.7873/DATE.2013.326Close Dutt, Nikil DOutlook for many-core systems: Cloudy with a chance of virtualization Inproceedings 18th IEEE European Test Symposium, ETS 2013, Avignon, France, 
+ May 27-30, 2013, pp. 1, 2013.Links | BibTeX@inproceedings{DBLP:conf/ets/Dutt13,
+title = {Outlook for many-core systems: Cloudy with a chance of virtualization},
+author = {Nikil D Dutt},
+url = {https://doi.org/10.1109/ETS.2013.6569347},
+doi = {10.1109/ETS.2013.6569347},
+year  = {2013},
+date = {2013-01-01},
+booktitle = {18th IEEE European Test Symposium, ETS 2013, Avignon, France, 
+ May 27-30, 2013},
+pages = {1},
+crossref = {DBLP:conf/ets/2013},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ETS.2013.6569347doi:10.1109/ETS.2013.6569347Close BanaiyanMofrad, Abbas;  Homayoun, Houam;  Kontorinis, Vasileios;  Tullsen, Dean M;  Dutt, Nikil DREMEDIATE: A scalable fault-tolerant architecture for low-power 
+ NUCA cache in tiled CMPs Inproceedings International Green Computing Conference, IGCC 2013, Arlington, 
+ VA, USA, June 27-29, 2013, Proceedings, pp. 1–10, 2013.Links | BibTeX@inproceedings{DBLP:conf/green/BanaiyanMofradHKTD13,
+title = {REMEDIATE: A scalable fault-tolerant architecture for low-power 
+ NUCA cache in tiled CMPs},
+author = {Abbas BanaiyanMofrad and Houam Homayoun and Vasileios Kontorinis and Dean M Tullsen and Nikil D Dutt},
+url = {https://doi.org/10.1109/IGCC.2013.6604500},
+doi = {10.1109/IGCC.2013.6604500},
+year  = {2013},
+date = {2013-01-01},
+booktitle = {International Green Computing Conference, IGCC 2013, Arlington, 
+ VA, USA, June 27-29, 2013, Proceedings},
+pages = {1--10},
+crossref = {DBLP:conf/green/2013},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/IGCC.2013.6604500doi:10.1109/IGCC.2013.6604500Close Carlson, Kristofor D;  Richert, Micah;  Dutt, Nikil D;  Krichmar, Jeffrey LBiologically plausible models of homeostasis and STDP: Stability 
+ and learning in spiking neural networks Inproceedings The 2013 International Joint Conference on Neural Networks, IJCNN 
+ 2013, Dallas, TX, USA, August 4-9, 2013, pp. 1–8, 2013.Links | BibTeX@inproceedings{DBLP:conf/ijcnn/CarlsonRDK13,
+title = {Biologically plausible models of homeostasis and STDP: Stability 
+ and learning in spiking neural networks},
+author = {Kristofor D Carlson and Micah Richert and Nikil D Dutt and Jeffrey L Krichmar},
+url = {https://doi.org/10.1109/IJCNN.2013.6706961},
+doi = {10.1109/IJCNN.2013.6706961},
+year  = {2013},
+date = {2013-01-01},
+booktitle = {The 2013 International Joint Conference on Neural Networks, IJCNN 
+ 2013, Dallas, TX, USA, August 4-9, 2013},
+pages = {1--8},
+crossref = {DBLP:conf/ijcnn/2013},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/IJCNN.2013.6706961doi:10.1109/IJCNN.2013.6706961Close Shin, Jun Yong;  Dutt, Nikil D;  Kurdahi, Fadi JVision-inspired global routing for enhanced performance and reliability Inproceedings International Symposium on Quality Electronic Design, ISQED 2013, 
+ Santa Clara, CA, USA, March 4-6, 2013, pp. 239–244, 2013.Links | BibTeX@inproceedings{DBLP:conf/isqed/ShinDK13,
+title = {Vision-inspired global routing for enhanced performance and reliability},
+author = {Jun Yong Shin and Nikil D Dutt and Fadi J Kurdahi},
+url = {https://doi.org/10.1109/ISQED.2013.6523616},
+doi = {10.1109/ISQED.2013.6523616},
+year  = {2013},
+date = {2013-01-01},
+booktitle = {International Symposium on Quality Electronic Design, ISQED 2013, 
+ Santa Clara, CA, USA, March 4-6, 2013},
+pages = {239--244},
+crossref = {DBLP:conf/isqed/2013},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ISQED.2013.6523616doi:10.1109/ISQED.2013.6523616Close Lim, Sung-Soo;  Im, Eun-Jin;  Dutt, Nikil D;  Lee, Kyung-Woo;  Shin, Insik;  Lee, Chang-Gun;  Lee, InsupA Reliable, Safe, and Secure Run-Time Platform for Cyber Physical 
+ Systems Inproceedings 2013 IEEE 6th International Conference on Service-Oriented Computing 
+ and Applications, Koloa, HI, USA, December 16-18, 2013, pp. 268–274, 2013.Links | BibTeX@inproceedings{DBLP:conf/soca/LimIDLSLL13,
+title = {A Reliable, Safe, and Secure Run-Time Platform for Cyber Physical 
+ Systems},
+author = {Sung-Soo Lim and Eun-Jin Im and Nikil D Dutt and Kyung-Woo Lee and Insik Shin and Chang-Gun Lee and Insup Lee},
+url = {https://doi.org/10.1109/SOCA.2013.65},
+doi = {10.1109/SOCA.2013.65},
+year  = {2013},
+date = {2013-01-01},
+booktitle = {2013 IEEE 6th International Conference on Service-Oriented Computing 
+ and Applications, Koloa, HI, USA, December 16-18, 2013},
+pages = {268--274},
+crossref = {DBLP:conf/soca/2013},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/SOCA.2013.65doi:10.1109/SOCA.2013.65Close
+
+2012
+
+ Tanimura, Kazuyuki;  Dutt, Nikil DHDRL: Homogeneous Dual-Rail Logic for DPA Attack Resistive Secure 
+ Circuit Design Journal Article Embedded Systems Letters, 4 (3), pp. 57–60, 2012.Links | BibTeX@article{DBLP:journals/esl/TanimuraD12,
+title = {HDRL: Homogeneous Dual-Rail Logic for DPA Attack Resistive Secure 
+ Circuit Design},
+author = {Kazuyuki Tanimura and Nikil D Dutt},
+url = {https://doi.org/10.1109/LES.2012.2193115},
+doi = {10.1109/LES.2012.2193115},
+year  = {2012},
+date = {2012-01-01},
+journal = {Embedded Systems Letters},
+volume = {4},
+number = {3},
+pages = {57--60},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/LES.2012.2193115doi:10.1109/LES.2012.2193115Close Xue, Chun Jason;  Dutt, Nikil DGuest Editorial Special Section on Memory Architectures and Organization Journal Article Embedded Systems Letters, 4 (4), pp. 81, 2012.Links | BibTeX@article{DBLP:journals/esl/XueD12,
+title = {Guest Editorial Special Section on Memory Architectures and Organization},
+author = {Chun Jason Xue and Nikil D Dutt},
+url = {https://doi.org/10.1109/LES.2012.2227452},
+doi = {10.1109/LES.2012.2227452},
+year  = {2012},
+date = {2012-01-01},
+journal = {Embedded Systems Letters},
+volume = {4},
+number = {4},
+pages = {81},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/LES.2012.2227452doi:10.1109/LES.2012.2227452Close Denker, Grit;  Dutt, Nikil D;  Mehrotra, Sharad;  Stehr, Mark-Oliver;  Talcott, Carolyn L;  Venkatasubramanian, NaliniResilient dependable cyber-physical systems: a middleware perspective Journal Article J. Internet Services and Applications, 3 (1), pp. 41–49, 2012.Links | BibTeX@article{DBLP:journals/jisa/DenkerDMSTV12,
+title = {Resilient dependable cyber-physical systems: a middleware perspective},
+author = {Grit Denker and Nikil D Dutt and Sharad Mehrotra and Mark-Oliver Stehr and Carolyn L Talcott and Nalini Venkatasubramanian},
+url = {https://doi.org/10.1007/s13174-011-0057-4},
+doi = {10.1007/s13174-011-0057-4},
+year  = {2012},
+date = {2012-01-01},
+journal = {J. Internet Services and Applications},
+volume = {3},
+number = {1},
+pages = {41--49},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1007/s13174-011-0057-4doi:10.1007/s13174-011-0057-4Close Ansaloni, Giovanni;  Tanimura, Kazuyuki;  Pozzi, Laura;  Dutt, Nikil DIntegrated Kernel Partitioning and Scheduling for Coarse-Grained Reconfigurable 
+ Arrays Journal Article IEEE Trans. on CAD of Integrated Circuits and Systems, 31 (12), pp. 1803–1816, 2012.Links | BibTeX@article{DBLP:journals/tcad/AnsaloniTPD12,
+title = {Integrated Kernel Partitioning and Scheduling for Coarse-Grained Reconfigurable 
+ Arrays},
+author = {Giovanni Ansaloni and Kazuyuki Tanimura and Laura Pozzi and Nikil D Dutt},
+url = {https://doi.org/10.1109/TCAD.2012.2209886},
+doi = {10.1109/TCAD.2012.2209886},
+year  = {2012},
+date = {2012-01-01},
+journal = {IEEE Trans. on CAD of Integrated Circuits and Systems},
+volume = {31},
+number = {12},
+pages = {1803--1816},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/TCAD.2012.2209886doi:10.1109/TCAD.2012.2209886Close Lee, Kyoungwoo;  Dutt, Nikil D;  Venkatasubramanian, NaliniEAVE: Error-Aware Video Encoding Supporting Extended Energy/QoS 
+ Trade-offs for Mobile Embedded Systems Journal Article ACM Trans. Embedded Comput. Syst., 11 (2), pp. 37:1–37:28, 2012.Links | BibTeX@article{DBLP:journals/tecs/LeeDV12,
+title = {EAVE: Error-Aware Video Encoding Supporting Extended Energy/QoS 
+ Trade-offs for Mobile Embedded Systems},
+author = {Kyoungwoo Lee and Nikil D Dutt and Nalini Venkatasubramanian},
+url = {http://doi.acm.org/10.1145/2220336.2220349},
+doi = {10.1145/2220336.2220349},
+year  = {2012},
+date = {2012-01-01},
+journal = {ACM Trans. Embedded Comput. Syst.},
+volume = {11},
+number = {2},
+pages = {37:1--37:28},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://doi.acm.org/10.1145/2220336.2220349doi:10.1145/2220336.2220349Close Kim, Minyoung;  Stehr, Mark-Oliver;  Talcott, Carolyn L;  Dutt, Nikil D;  Venkatasubramanian, NalinixTune: A formal methodology for cross-layer tuning of mobile embedded 
+ systems Journal Article ACM Trans. Embedded Comput. Syst., 11 (4), pp. 73:1–73:23, 2012.Links | BibTeX@article{DBLP:journals/tecs/KimSTDV12,
+title = {xTune: A formal methodology for cross-layer tuning of mobile embedded 
+ systems},
+author = {Minyoung Kim and Mark-Oliver Stehr and Carolyn L Talcott and Nikil D Dutt and Nalini Venkatasubramanian},
+url = {http://doi.acm.org/10.1145/2362336.2362340},
+doi = {10.1145/2362336.2362340},
+year  = {2012},
+date = {2012-01-01},
+journal = {ACM Trans. Embedded Comput. Syst.},
+volume = {11},
+number = {4},
+pages = {73:1--73:23},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://doi.acm.org/10.1145/2362336.2362340doi:10.1145/2362336.2362340Close Dick, Robert P;  Shang, Li;  Dutt, Nikil DIntroduction to special section SCPS'09 Journal Article ACM Trans. Embedded Comput. Syst., 11 (4), pp. 74:1, 2012.Links | BibTeX@article{DBLP:journals/tecs/DickSD12,
+title = {Introduction to special section SCPS'09},
+author = {Robert P Dick and Li Shang and Nikil D Dutt},
+url = {http://doi.acm.org/10.1145/2362336.2362341},
+doi = {10.1145/2362336.2362341},
+year  = {2012},
+date = {2012-01-01},
+journal = {ACM Trans. Embedded Comput. Syst.},
+volume = {11},
+number = {4},
+pages = {74:1},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://doi.acm.org/10.1145/2362336.2362341doi:10.1145/2362336.2362341Close Gordon-Ross, Ann;  Vahid, Frank;  Dutt, Nikil DCombining code reordering and cache configuration Journal Article ACM Trans. Embedded Comput. Syst., 11 (4), pp. 88:1–88:20, 2012.Links | BibTeX@article{DBLP:journals/tecs/Gordon-RossVD12,
+title = {Combining code reordering and cache configuration},
+author = {Ann Gordon-Ross and Frank Vahid and Nikil D Dutt},
+url = {http://doi.acm.org/10.1145/2362336.2399177},
+doi = {10.1145/2362336.2399177},
+year  = {2012},
+date = {2012-01-01},
+journal = {ACM Trans. Embedded Comput. Syst.},
+volume = {11},
+number = {4},
+pages = {88:1--88:20},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://doi.acm.org/10.1145/2362336.2399177doi:10.1145/2362336.2399177Close Khajeh, Amin;  Kim, Minyoung;  Dutt, Nikil D;  Eltawil, Ahmed M;  Kurdahi, Fadi JError-Aware Algorithm/Architecture Coexploration for Video Over Wireless 
+ Applications Journal Article ACM Trans. Embedded Comput. Syst., 11 (S1), pp. 15, 2012.Links | BibTeX@article{DBLP:journals/tecs/KhajehKDEK12,
+title = {Error-Aware Algorithm/Architecture Coexploration for Video Over Wireless 
+ Applications},
+author = {Amin Khajeh and Minyoung Kim and Nikil D Dutt and Ahmed M Eltawil and Fadi J Kurdahi},
+url = {http://doi.acm.org/10.1145/2180887.2180892},
+doi = {10.1145/2180887.2180892},
+year  = {2012},
+date = {2012-01-01},
+journal = {ACM Trans. Embedded Comput. Syst.},
+volume = {11},
+number = {S1},
+pages = {15},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://doi.acm.org/10.1145/2180887.2180892doi:10.1145/2180887.2180892Close550 entries « ‹  4 of 11 › » 
+
+
+
+
+
+
+
+
+
+
+Find Us Address
+3069 Donald Bren Hall
+University of California, Irvine
+Irvine, CA 92697-3435, USA
+Email
+drg@ics.uci.edu
+
+ 
+
+
+
+
+
+
+
+
+
+					Copyright © 2022 Dutt Research Group.				
+
+					Powered by WordPress and HitMag.				
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,128 @@
+https://sli.ics.uci.edu/PmWiki/PagelistVariables
+
+
+
+SLI | PmWiki / PagelistVariables 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+PagelistVariables
+
+
+
+
+
+< Other Variables | Variables | Path Variables >
+
+
+
+$EnablePageListProtectWhen set to 1 (which is the default), causes (:pagelist:) and (:searchresults:) to exclude listing any pages for which the browser does not currently have read authorization.  Setting this to zero means that read-protected pages can appear in a listing, but can also speed up searches considerably (because page permissions do not need to be checked).
+$SearchPatternsAn array of page name patterns to be required or excluded from search and pagelist results.  In order to be included in a search listing or page listing, a page's name must not match any pattern that is delimited by exclamation points (!) and must match all other patterns.  See Cookbook:SearchPatterns.
+# Limit all searches to Main group
+$SearchPatterns['default'][] = '/^Main\\./';
+# Exclude the Main group from search results
+$SearchPatterns['default'][] = '!^Main\\.!';
+# Exclude RecentChanges pages from search results
+$SearchPatterns['default'][] = '!\\.(All)?RecentChanges$!';
+# Prevent a page from listing itself in (:pagelist:) or (:searchresults:)
+$SearchPatterns['default'][] = FmtPageName('!^$FullName$!', $pagename);
+
+$SearchBoxOpt
+For example  $SearchBoxOpt ['target'] = '$DefaultGroup.Search'; 
+$SearchBoxInputTypeThe HTML "type" attribute for the search field. Default is "text" which is valid HTML4. If your skin uses HTML5, you can change this to "search":
+ $SearchBoxInputType = "search";
+$EnablePageIndexWhen set to 1, causes PmWiki to maintain a "link and word index" in $PageIndexFile which significantly speeds up categories, backlinks, and searches.
+$PageIndexFileThe location of the "page index" file for (:pagelist:), defaults to $WorkDir/.pageindex.
+$PageListCacheDirThe name of a writable directory where PmWiki can cache results of (:pagelist:) directives to speed up subsequent displays of the same list.  Default is empty, which disables the pagelist cache.
+# Enable pagelist caching in work.d/
+$PageListCacheDir = 'work.d/';
+
+$PageSearchFormThe page to be used to format search results for ?action=search (unless the current page has a "searchresults" directive in it).  This variable can be an array, in which case the first page found from the array is used.
+# Simple use of page search form in the default group
+$PageSearchForm = '$DefaultGroup.Search';
+
+# Use Search page in current group if it exists, otherwise use Site.Search
+$PageSearchForm = array('$Group.Search', '[=$[$SiteGroup/Search]=]');
+
+$FPLTemplatePageFmtThe pages to be searched for a pagelist template specified by a fmt=#xyz parameter.  Defaults to searching the current page, Site.LocalTemplates? and Site.PageListTemplates.
+# PMWiki default setup
+global $FPLTemplatePageFmt;
+$FPLTemplatePageFmt = array(
+    '{$FullName}', 
+    '{$SiteGroup}.LocalTemplates', 
+    '{$SiteGroup}.PageListTemplates');
+It can be customized to look in other pages.
+# Search a Group.Templates page as well as the Site templates
+global $FPLTemplatePageFmt;
+$FPLTemplatePageFmt = array(
+    '{$Group}.Templates',
+    '{$SiteGroup}.LocalTemplates',
+    '{$SiteGroup}.PageListTemplates');
+Or declare defaults for the template array:
+# Search a Group.Templates page as well as the Site templates
+global $FPLTemplatePageFmt;
+SDV($FPLTemplatePageFmt, array('{$FullName}',
+    '{$Group}.Templates',
+    '{$SiteGroup}.LocalTemplates', '{$SiteGroup}.PageListTemplates')
+   );
+$EnableUndefinedTemplateVars This variable controls how undefined {$$Variable} is processed in includes and PageList templates. If set to 0 (default), undefined {$$Variable}s are removed from the included section or template. If set to 1, undefined {$$Variable}s are displayed as is, with {$$...}. Note that PmWiki versions 2.2.13 and earlier kept unset include/template variables.
+  $EnableUndefinedTemplateVars = 0; # Delete unset raw template variables
+  $EnableUndefinedTemplateVars = 1; # Keep and print unset raw template variables
+
+
+< Other Variables | Variables | Path Variables >
+
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:PagelistVariables, and  a talk page: PmWiki:PagelistVariables-Talk.
+
+
+
+
+
+
+ Last modified July 28, 2016, at 07:41 AM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

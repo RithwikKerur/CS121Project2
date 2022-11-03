@@ -1,0 +1,8 @@
+http://plrg.ics.uci.edu/publications/140.bib
+@techreport{key,
+ author = {Brian Demsky and Alokika Dash},
+ title = {Bristlecone: A Language for Robust Software Systems},
+ number = {Technical Report UCI-ISR-07-6},
+ month = {October},
+ year = {2007}
+}

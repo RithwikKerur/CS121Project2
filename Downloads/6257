@@ -1,0 +1,379 @@
+http://www.ics.uci.edu/~eppstein/cgt
+
+
+
+Combinatorial Game Theory
+
+
+
+Combinatorial Game Theory
+
+Combinatorial Game Theory studies strategies and mathematics of
+two-player games of perfect knowledge such as chess or go (but
+often either concentrating instead on simpler games such as nim, or
+solving endgames and other special cases). An important distinction
+between this subject and
+classical game theory (a branch of economics) is that game
+players are assumed to move in sequence rather than simultanously,
+so there is no point in randomization or other information-hiding
+strategies.
+The bible of combinatorial game theory is Winning Ways for
+your Mathematical Plays, by
+E. R.
+Berlekamp, J. H. Conway, and
+R. K. Guy; the mathematical foundations of the field are provided
+by Conway's earlier book On Numbers and Games. Many papers
+from the more recent collections Games
+of No Chance and
+More Games of No Chance
+ are now also available online. If you haven't read
+these, get thee to a library!
+Recent additions:
+
+The Angel Problem has been Solved! (Maybe).
+(Added March 2007.)
+Games,
+Puzzles, and Computation. Bob Hearn's Ph.D. thesis, including new
+results for Konane, TipOver, and various other games and puzzles.
+(Added May 2006.)
+
+Older stuff:
+
+Abstract Games
+Magazine
+Akron,
+connection game similar to hex but based on stacking balls in 3d over a
+square lattice.
+Amazons:
+chess queens use up squares by shooting arrows.
+See also Amazong,
+Jens Lieberum's Java Amazons program.
+
+Basic Research -- Combinatorial Game Theory. A. Bachem, U.
+Koeln.
+
+Best play for imperfect players (and part II),
+W.D. Smith, NEC.
+Bibliography of abstract games. From
+Neil Bowers at U. New Mexico.
+Binary
+games, K. S. Brown. One player chooses a sequence of binary
+digits, trying to avoid certain divisibility patterns that could be
+taken advantage of by the other player. The other player gets to
+sit and wait. Perhaps this would be more like a combinatorial game
+if the players alternated choosing digits...
+Blet:
+a mathematical puzzle.
+
+Bridges, Dick Christoph's implementation of the Shannon
+switching game for grid graphs.
+Bryan's
+interactive Nim page
+Chessgo, a hybrid game discussed in
+Winning Ways in which one player moves a chess piece in an
+attempt to evade another player who forms blockades by placing go
+stones.
+Chomp, a game played by removing sets
+of dominated points in a square or cubical lattice. Bill Taylor and
+others discuss play on infinite boards and the nonconstructivity of
+strategy-stealing arguments on such boards. I invent a disguised
+version that looks like Mancala.
+See also D. Zeilberger's paper on three-row chomp.
+
+Clever games for clever people. Rules for some games from On
+Numbers and Games.
+Clobber
+problem composition contest.  See also David
+Wolfe's Clobber page and
+Toby Gottfried's
+Clobber applet.
+Combinatorial
+game theory foundations applied to digraph kernels, A. Fraenkel.
+Combinatorial
+game theory in Maple.
+Competitive graph coloring. The
+four color theorem says that if one person colors the vertices of a
+planar graph, only four colors are needed to avoid getting stuck
+with an uncolorable vertex. What if two players take turns, and
+only one of them is trying to avoid getting stuck?
+Computational Complexity of Games and
+Puzzles. Many puzzles are NP-complete; many combinatorial games
+are PSPACE-complete. How does complexity relate to puzzle or game
+quality? What does it imply about the difficulty of analyzing
+games?
+Connect-4. This
+is a tic-tac-toe like game in which players drop pieces onto
+columns and try to get four in a row. John Tromp collects resources
+including tips for expert play, an applet which plays perfectly on the
+standard 7x6 board, and game-theoretic outcomes on various board sizes.
+Connect & Capture
+game design by Rick Nordal combining features of chess and dots+boxes.
+Connection
+Games: Variations on a Theme. Book by Cameron Browne.
+Cut
+the knot. A. Bogomolny's site has several pages on combinatorial
+games.
+Dagstuhl seminar on algorithmic
+combinatorial game theory.
+Erik Demain's
+combinatorial games page.
+Dino's mathematical games
+page.  Theory of impartial misère octal games, and a
+Javascript implementation that allows you to play against the computer.
+Dodgem, a game from Winning Ways
+involving moving cars forward across a board and blocking one's
+opponent from doing the same.
+Dots and Boxes
+analysis, David Wilson, and
+game playing
+Java applet, Dan Heller.
+See also
+Berlekamp's
+dots-and-boxes page.
+Error-correcting codes
+derived from combinatorial games, A. Fraenkel.
+Evolution of
+neural networks to play the game of dots-and-boxes, L. Weaver
+and T. Bossomaier.
+Tom Ferguson's home page
+includes links to his CGT papers, electronic texts, and problems.
+Fibonacci nim. Winning Ways
+describes this game, in which each move removes beans from a pile,
+with a limit at step n of at most 2n beans. The
+winning strategy involves Fibonacci numbers. Tal Kubo discusses
+generalizations with other limit functions, with a conjectural
+connection to the recurrence
+a(n)=a(a(n-1))+a(n-a(n-1)).
+Aviezri
+Fraenkel, researcher in CGT at Weizmann Inst.
+Fraenkel
+Festschrift of EJC has a lot of papers on CGT.
+G13GAM
+combinatorial game theory course notes by A. N. Walker.
+Gess,
+a game resembling chess played by moving 3x3 groups of
+stones around a Go board.
+Go-Moku. Darse
+Billings summarizes results on this tic-tac-toe like game.
+Graph
+Ramsey game implemented in Java by Zhu, Beer, and Slany.
+Hare
+and Hounds. Java implementation of the chase game from Winning Ways.
+Hex frequently
+asked questions, D. Boll, and
+infrequently asked
+questions, H. D. Enderton.
+
+A history of traditional games, by James Masters.
+Integers
+electronic journal featuring a combinatorial game theory section.
+Introductory
+Combinatorial Game Theory.
+Lecture notes by Lim Chu Wee.
+Java
+Jive. Several nim-like games programmed by Martin Chlond.
+Joust, a
+game in which two knights use up the squares of a chessboard until
+one is stuck.
+
+Kayles on special classes of graphs - an application of
+Sprague-Grundy theory, H. L. Bodlaender, Utrecht.
+
+Lines of Action, a connectivity game played with go stones on a
+checkerboard.
+
+Links, an impartial path-extending game programmed in Java by
+Dick Christoph. A simple matching strategy works for a square
+board, but Christoph's version foils that by adding obstacles.
+Daniel
+Loeb, researcher in CGT at U. Bordeaux
+Mancala connectivity
+Bill Taylor and others prove that one can always reach any n-stone
+position from any other in certain Mancala-like games.
+Fabian Mäser
+has two combinatorial games on his web page: CGT-chess
+(push pawns without capturing), and 
+Combinatorial Regio (remove a square and its neighbors from a
+rectangular board)
+Mathematical
+Games, Madras College.
+
+Mathematical Games, Toys, and Puzzles. Jeff Erickson,
+Berkeley.
+
+Mathematical Go: Chilling Gets the Last Point. Reviewed by R.
+Nowakowski and R. K. Guy in Bull. AMS 32 (1995).
+
+Minesweeper solitaire game and its use in teaching mathematical
+reasoning.
+David
+Moews research in combinatorial games, especially Go endgames.
+
+MSRI Combinatorial Game Theory Research Workshop,
+July 2000, and
+streaming
+video archive of MSRI CGT workshop talks.
+
+Martin
+Müller, mathematical go theorist.
+J.
+Nievergelt group research in games, combinatorics, and exhaustive
+search.
+Nimbers. C++
+implementation of Conway's "nimber" arithmetic.
+Nimstring
+calculator, Freddy Mang.
+Nine men's morris. Ralph Gasser
+announces that this has been proven to be drawn with best play. He
+has a postscript
+paper with details.
+Octal periodicity. Thane Plambeck and
+Anil Gangolli announce computational proofs of the periodicity of
+some sequences of Nim-values for taking and breaking games.
+One-dimensional
+peg solitaire, Cris Moore.
+Othello (aka Reversi). Othello Java applet, M.
+Barkocy. Announcement of complete analysis
+of 6x6 game, J. Feinstein.
+
+Ed Pegg's
+combinatorial game theory page
+Papers
+by Jim Propp including a section on combinatorial games.
+Thane
+Plambeck's combinatorial games page.
+Playing
+Nim on a simplicial complex. R. Ehrenborg and E. Steingrimsson
+(Elect. J. Combinatorics)
+introduce a variation of nim in which a single move can affect all
+piles of tokens on the vertices of a simplex in a complex. See also
+N.
+Reading's follow-on paper.
+
+Projective
+hex. A variant by Dan Hoey and Bill Taylor, with more symmetric
+winning conditions and board than standard hex.
+Put or take a prime. In this game, a position
+is represented by a number, and one moves by either adding or
+subtracting the largest prime number less than or equal to the
+position. This file analyzes positions 0 through 150, using a short C program.
+Puzzles /
+one-player games. A. Marzetta, ETH Zurich.
+Restoring
+Fairness to DukeGo, Greg Martin.
+
+Rockslide, an impartial game programmed in Java by Dick
+Christoph. Players take turns dropping balls through a system of
+gates, scoring points when the balls make it through to the
+bottom.
+Roshambo Run
+puzzle combining aspects of sokoban and rock-scissors-paper.
+Dave
+Rusin's mathematical games page
+Scenic trails
+ascending from sea-level Nim to alpine chess, Avi Fraenkel.
+Selected
+Bibliography on Combinatorial Games, Avi Fraenkel, in the
+Electronic J. of Combinatorics.
+Sokoban
+block-pushing puzzle.
+Solitaire Clobber,
+Demaine, Demaine, and Fleischer.
+Sprague-Grundy
+Values of Grundy's Game and
+Sprague-Grundy Values
+of Additively Periodic Nim-Games, Achim Flammenkamp.
+
+Sprouts, a game invented by Conway and Paterson in which
+players construct a degree-three planar graph by drawing two-edge
+ears. Tech. report of computer analysis by Applegate, Jacobson, and
+Sleator. See also Dan Hoey's game notation,
+discussions in the Geometry Forum,
+Danny Purvis'
+World Game of Sprouts
+Association,
+the Madras 
+college math games site,
+Ivar
+Peterson's Mathland, and
+Peter Alfeld's Java implementation (user interface only, you need to think about which
+move to make yourself).
+
+Subtract a square. A game in which
+each position is represented by a positive integer and one moves by
+subtracting any nonzero square. David Bush discusses some curious
+number theory related to the winning positions of this game.
+Surreal numbers. This is a field
+extension of the real numbers arising from Conway's theory of
+games. Nick Saldanha discusses the definition of surreal
+transcendental functions. See also WDJ's surreal
+number page.
+
+Sylver coinage. Col. G. L. Sicherman summarizes his results on
+this game, described in Winning Ways, in which players
+cooperate to construct a monetary system, at each step choosing a
+denomination that can not be represented as a combination of
+earlier choices. I also have some earlier 
+postings on the subject.
+Tablut aka
+Hnefatafl. Viking checkers: a small set of defenders helps move a
+king from the center to the corner of a board while attackers try
+to capture the king.
+Taming
+the wild in impartial combinatorial games.  Thane
+Plambeck has a deep mathematical theory of miseré octal games.
+Tetris is Hard, Even to
+Approximate, paper by Demaine, Hohenberger, and Liben-Nowell.
+Tetris
+research. Heidi Burgiel, U. Illinois.
+Mark
+Thompson's abstract games page
+3d Go,
+Fritz Obermeyer.
+Trax
+resource index, D. Bailey.
+Trellis, Anchor,
+and Orbit, three connection games from the magazines Games and
+Abstract Games, Steven Meyers.
+Troll, a game by Jean-Claude Rosa
+combining features of Hex and Othello.
+Twixt. A game involving placing
+diagonal bridges to connect two sides of a board.
+See also >Twixt Fanatic,
+David Bush's page of Twixt information (wiith links on other games
+including Dots+Boxes and Hex).
+Greg Van Patten's home
+page includes rules for many new abstract games.
+Venice
+connection tile-placing game.
+The Voronoi Game.
+Description, articles, references, and demonstration applet on
+problems of competitive facility location, where two players place
+sites in hopes of being nearest to as much area as possible.
+Who
+wins domineering on rectangular boards?, Cris Moore.
+A
+winning strategy for the Ramsey graph game, A. Pekec,
+DIMACS.
+David Wolfe's
+combinatorial game theory page.
+Wythoff's game. A garbled message
+about three-dimensional versions of Wythoff's nim.
+XiStrat
+open-source client-server board game platform.
+Zigzag. A game in which players
+extend a path in a grid one edge at a time in an attempt to reach
+their home bases. I suspect that it should not be hard to prove
+drawn.
+A
+zillion connection games. Column by Ed Pegg Jr. discussing the games
+in Cameron Browne's book and some related online resources.
+
+
+David Eppstein, Dept. Inf.
+& Comp. Sci., UC
+Irvine.
+Last update: 
+
+
+

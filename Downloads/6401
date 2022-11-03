@@ -1,0 +1,174 @@
+http://www.ics.uci.edu/~kay/courses/i41/hw/hw6.html
+
+
+
+
+
+
+Sixth Homework
+
+
+
+
+
+
+
+
+INFORMATICS 41 • DAVID G. KAY • UC IRVINE • FALL 2011
+ Sixth Homework 
+
+This assignment is due at the start of lab on
+Monday, October 31. 
+
+(1) If you haven't had an easy time solving the lab problems, go back through the textbook and read carefully through the worked exercises and the various versions of the design recipe. We're at the midpoint of the quarter now; there's time to go back and solidify your understanding. Nobody should be "winging it" at this point; to do the rest of the work in the course, you need to understand what we've done so far.
+
+(2)  Read Chapter 28, which discusses functions as first-class objects (i.e., functions that take other functions as inputs). Do exercises 28.2.3, 28.2.4. Look at exercises 28.2.10 and 28.3.1: You should know how to write them, but you'll also notice that they're the same as two predefined functions we went over in class. Do exercises 28.2.11, 28.2.12, and 28.3.6, using filter or map as appropriate.
+
+(3)  Take a look back at the discussion
+  of the function combine
+  in section 28.5.  (Combine
+  is sometimes called reduce, accumulate
+  or foldr,
+            sometimes with the arguments in a different order. DrRacket uses the name foldr.)  Using foldr,
+  map,
+    and filter,
+      you can define many powerful operations very compactly, without explicit
+      recursion.  For example, suppose we have a list of restaurant structures  ((define-struct rrant (name cuisine phone dish price)) ; call that list RL.  To produce
+        a list of the names of the cheap Thai restaurants in RL, we only need to
+say 
+
+(map rrant-name (filter cheap? (filter Thai?
+RL))). 
+
+Look at this step by step: First we select just the Thai restaurants from the list; then we take just the cheap restaurants from that list; then we turn the resulting list of restaurants into a list containing just their names.
+To calculate the average price of the cheap
+  Thai restaurants, we can say 
+(local ((define cheap-thai-restaurant-prices
+                  (map rrant-price (filter cheap? (filter Thai? RL)))))
+    (/ (foldr + 0 cheap-thai-restaurant-prices)
+       (length cheap-thai-restaurant-prices)))
+
+(In the above example, note that using the local expression saves us from computing the list of prices two separate
+times.)  If you have trouble figuring out how these expressions work, first
+make sure you understand map,
+filter,
+and foldr
+individually (look at their contracts) and then look at what each part of
+the expression returns, starting from the inside out.
+
+Do each of the following problems.  Be aware, also,
+that problems like these will show up on quizzes.
+
+(3.1)  Write the function convert-to-1 that takes one argument (of any type) and returns the number 1, no matter
+what the argument is.  Next, use map and convert-to-1 to define the function
+list-of-ones that takes a list of items and returns a list of 1s that's
+the same length as its argument.  Finally, use foldr and list-of-ones to
+rewrite the last line of the average-price code above without using length. 
+
+(3.2)  What is the result of evaluating
+each of these expressions? (Of course you should be able to do these in your head, possibly with pencil and paper. It would totally miss the point just to copy and paste them into DrRacket, although that would be a fine way to check your results.)
+
+(foldr + 0 '(1 2 3 4 5))
+(foldr (lambda (a b) (+ b (if (even? a) a 0))) 0 '(1 2 3 4 5))
+(foldr cons '() '(Huey Dewey Louie))
+(foldr max -1 '(1953 1956 1949 1991 1964))
+
+The second expression above uses if, which we may not have seen before; it's just a shortcut for writing a two-way cond. The equivalent using cond would be (foldr (lambda (a b) (+ b (cond ((even? a) a) (else 0)))) 0 '(1 2 3 4 5)). 
+
+(3.3)  Assume you have a function (interval
+a b) that returns a list of all the integers between a and b, inclusive
+(so that (interval 5 10) would return (5 6 7 8 9 10)).  (Re-)write the function
+factorial using foldr (and interval), without any explicit recursion.
+
+(3.4)  Now, think back to the restaurant
+collection program and assume we have a list (called RL) of the restaurant
+objects as described there.  For each of the following expressions, describe
+in one English sentence what value it returns.  Don't just say, "It
+does a foldr of plus and zero to a map of ... ;" give a description
+of what the expression means, something you could put in a software catalog
+so that a prospective buyer could find what he or she wanted.
+
+  (foldr + 0 (map (lambda (R) 1) RL))
+  (filter (lambda (R) (equal? "Ethiopian" (rrant-cuisine R))) RL)
+  (/ (foldr + 0 (map (lambda (R) (rrant-price R)) RL)) 
+     (foldr + 0 (map (lambda (R) 1) RL)))
+  (local ((define PRL (filter (lambda (R) (equal? "pizza" (rrant-dish R))) RL))) 
+     (/ (foldr + 0 (map rrant-price PRL)) 
+        (foldr + 0 (map (lambda (R) 1) PRL))))
+
+
+(3.5)  Using map, filter, and foldr,
+write an expression to return each of the following values without using
+explicit recursion:
+
+
+a list of all the French and
+    Italian restaurants in RL
+
+a list of all the (best) dishes
+    served at the French and Italian restaurants in RL;
+    it's okay for this list to have duplicates in it, though you may attempt
+    to remove them if you'd like (as it can be done without explicit recursion)
+
+a list of all the restaurants
+    in RL whose best dish costs between $10.00 and $20.00 (inclusive)
+
+the name of the lowest-priced
+    French restaurant in RL
+
+a list of all the restaurants
+      in RL, where every French restaurant whose best dish's price is less
+      than the average (price of best dishes at French restaurants) has its price
+    changed to that average price (this one is tough, but take it one step at a time)
+
+(4) Section 28.6 talks about anonymous lambda, which we went over in class. Section 28.7 finally explains MIT-style function definitions, which we've known from the start of the course. Section 28.8 talks about functions that produce other functions, which we've also done in class. Section 28.9 covers how we can represent a sequence (of numbers or other values); it's interesting, but you can treat it as optional.
+(5) Review the code we've developed in class for processing binary search trees. You should understand the algorithms for inserting an item, searching for an item, and traversing the tree (in order mainly, but you should also know what pre-order, post-order, and breadth-first mean), and you should know what lazy deletion means and its advantages and disadvantages over deletion that changes the structure of the tree. You may find it helpful to review this code: http://www.ics.uci.edu/~kay/scheme/restaurants1d.scm; we might ask questions about it on a quiz (providing you with a copy of the code, of course).
+(6)  All the programs we've written
+  so far have done their work, displayed their results, and quit without leaving
+  a trace.  Now it's time to learn how to read data from a file and write
+  results back to a file so we can maintain information more permanently,
+  even when our program isn't running.  For a programming language to
+  enable file input and output, it must work with the operating system (or
+  multiple operating systems) to handle a variety of issues involving different
+  user interfaces, different ways of storing data in files, different naming
+  conventions for files, and different hardware devices.  Because there are
+  many options, there are details to consider when we work with files that
+  we haven't had to worry about so far.
+
+There are three main approaches to reading
+from and writing to files of text.  (Reading and writing data directly in
+the internal form the computer uses to store it in memory is yet another
+approach, one we'll skip over for now.)
+
+
+Read and write a single character
+      at a time.  If you read each character individually, you have the most precise
+      control over how you analyze the input and build up the data structures
+      in your program.  But this approach is the most painstaking and tedious.
+      We'll cover some techniques for organizing this process in Informatics
+    42, but we won't use it this quarter.
+
+Read each line of the file into
+      a string, perhaps collecting the strings into a list representing the whole
+      file.  Then you could process the list conventionally, processing each string
+    using Scheme's string functions.  This week we'll do some of this.
+
+Write all the data as Scheme
+      expressions, and read it back in the same way.  If your program's data
+      is organized into lists of structures and so on, you can preserve all of
+      that organization using this approach.  This is the easiest approach in
+      many ways, since you're maintaining the structure of the data and letting
+      Scheme do a lot of the work for you.  We'll see this approach in later
+    assignments.
+
+
+
+Based in part on ICS H21assignments by David
+G. Kay; modified and new material added by David G. Kay for the Informatics
+Core Course, Fall 2004, Fall 2005, Fall 2008, Fall 2009, Fall 2010, and Fall 2011.
+
+David G. Kay, kay@uci.edu 
+
+Friday, October 28, 2011 8:38 AM
+
+

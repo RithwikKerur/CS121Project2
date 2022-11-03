@@ -1,0 +1,206 @@
+http://www.ics.uci.edu/~stasio/fall04/ics268.html
+
+
+ICS 180: Introduction to Cryptography
+
+ ICS 268: Cryptography and Communication Security
+Fall Quarter, 2004
+
+
+
+
+
+			Instructor:       
+				Stanislaw Jarecki
+
+
+
+Class time:        
+  Tu-Th, 11-12:20
+
+
+					Room:              
+  ICF 
+  (Interim Classroom Facility, i.e. bldg 315), room 101
+
+Extra day:         At the end of 
+					the quarter, there will be an extra day-long session with student 
+					presentations, either on Dec 2 (Thursday), Dec 3 (Friday), or Dec 4 
+					(Saturday), to be decided in the first week.  Each presentation 
+					will be 20 minutes long.  You will be expected to listen to the 
+					talks of all the other students, but you will be excused from the 
+					part of the talks that conflicts with your other obligations on that day.
+
+The class is open to upper-class undergraduates, with the permission of the 
+					instructor.  The requirements for the undergraduates are  
+					reduced.  For example, no final presentation is required (see more below).
+
+Class web site:  http://www.ics.uci.edu/~stasio/fall04/ics268.html
+
+
+					Prerequisites:    ICS 6A 
+					and ICS 161/261, also see below
+
+Textbook (recommended but not required):   Douglas R. Stinson, 
+  "Cryptography: Theory and Practice (2nd edition)". 
+  
+
+
+ 
+  Main reading material:  Handouts, lecture notes, and other
+					material available on-line (see a link below).
+				
+
+
+
+
+				Office hours:     
+				Monday 3-5, and otherwise by appointment.  I 
+				encourage you to use the office hours and also to communicate with me by email 
+				at stasio@ics.uci.edu
+
+Most important info:
+
+
+Lecture summaries, 
+					lecture notes, problem sets, solutions, other handouts
+
+Reference reading 
+					material
+
+Course Description:
+This course is an introduction to modern cryptography and security for graduates 
+			and advanced undergraduates.   The class will try to balance 
+			between the breadth of the coverage and an attempt to develop a 
+			general approach to the study of security issues.  The 
+			first aim of the class is to introduce students to various 
+			cryptographic tools like symmetric and public-key encryption schemes, 
+			signature schemes, message authentication schemes, identification 
+			protocols, and others.  The second and equally important aim of 
+			this class is to develop a "provable-security" paradigm of 
+			approaching any communication security problem.  This paradigm 
+			consists of (1) understanding the security *goal* of any protocol, 
+			i.e. understanding what properties a protocol needs to achieve to be 
+			considered secure, and (2) designing a protocol together with a 
+			*proof* that the protocol achieves these properties under some 
+			well-understood computational hardness assumptions, for example under the 
+			assumption that it is computationally hard to factor large composite numbers.
+The aim of the course is to introduce some fundamental cryptographic 
+			tools in such a way so that (1) you will be able to specify the 
+			security needs of the system you are designing and use existing 
+			cryptographic mechanisms in such a way so that your security needs are 
+			met, and (2) you will be able to develop new cryptographic mechanisms and 
+			protocols yourself. 
+To help further these goals, we'll end the class with conference-style 
+			presentations by the *graduate* students on some security/cryptography 
+			topic chosen by the student.
+What this class is not about:
+This class will not teach you all there is to know to make computers and 
+			networks secure.  
+			Cryptography is only one layer in the stack of engineering issues that need to 
+			be solved to make computers and networks secure.  
+			Computer security deals with lots of issues we will not touch on in the 
+			class, like buggy code, viruses, denial of service attacks, network monitoring 
+			techniques, preventing bad passwords, integrating various network services 
+			securely, and many more.  This class will 
+			 stay firmly on the layer of algorithms for the so-called 
+			"cryptographic primitives", i.e. the design of cryptographic tools 
+			like encryption, signatures, authentication.  While some of these tools 
+			will be probably very useful in solving any of 
+			the real-world security issues above, we will not be analyzing any 
+			such systems in this class.  On the other hand, we will 
+			often mention the real-world security issues like those listed above 
+			in motivating the security properties required of the cryptographic 
+			tools we will be designing.
+Another note of warning is that in this class we will not concentrate on 
+			techniques used to design and analyze block ciphers (like DES or AES) and hash 
+			functions (like MD5 and SHA), although the class will offer you 
+				some insight into security of such constructions.  We will 
+			focus instead on public key crypto, but we will spend a few lectures on 
+			private key algorithms too.
+Grading policy:
+Graduates:
+
+
+			50% weekly problem sets
+			
+			25% take-home final
+			
+				25% a 30 minute conference-style presentation on a 
+				security/cryptography topic of your choice (the presentations will take 
+				place in a a special class depending on the number of students 
+				involved)
+Undergraduates:
+
+
+			70% weekly problem sets
+			
+				30% take-home final
+			
+
+Problem sets are due at the beginning of the class.  You are not 
+				allowed to work on the homework problems together with other 
+			students.  You are also not allowed to 
+			consult solutions from previous years or solutions available 
+			on-line.  You are allowed to consult other sources, such 
+			as textbooks, lecture notes, or research papers, but you must clearly mark 
+			any material you reference.
+Textbook and lecture notes:
+The (recommended) textbook is Douglas R. Stinson's "Cryptography: Theory and 
+			Practice", which is available through the UCI bookstore.  It 
+			is very good as a reference for a lot of the material we will be 
+			covering, but we will not follow it in great detail, and a lot of 
+			the lecture material is not covered by Stinson. 
+The primary source of the material will be the lecture notes and handouts 
+			which I will be posting on the web and distributing in class.
+Prerequisites:
+The formal prerequisites are ICS 6.A and ICS.161.  However, 
+			what you really need in general is this:
+
+
+				You cannot be “math-phobic” or “theory-phobic”.  
+				The major focus of this class is on definitions and proofs, and we’ll 
+				use probability and number theory in the running time analysis and 
+				the security analysis of the algorithms we will study.
+More 
+			specifically, you need the following:
+
+
+			You should be comfortable with proofs, with elementary probability, and have 
+			the basic knowledge of discrete math used in computer science 
+			(e.g. ICS.6A).
+			
+			It's highly recommended that you have some algorithms class (like ICS.161), and 
+			that you are familiar with asymptotic analysis of algorithm running time.
+			
+				It'd be also easier for you if you took a computability/complexity class like 
+				ICS.162, so you are familiar with the notion of polynomial-time algorithms, and 
+				the notion of a reduction between computational problems.
+				  However, this is 
+			material which we'll go over in this class to the extend that we'll use it, 
+			and I believe that you can pick it up easily.
+			
+				You do not have to know modular arithmetic, because we will review everything 
+				we will need.  However, familiarity with it will be 
+				helpful.   If you want to learn modular arithmetic on a deeper level, 
+				consider the MATH.173A class taught every fall quarter by prof. Caryl 
+				Margulies in the math department (see also below).
+Other UCI classes on cryptography:
+This class is complimentary to the MATH.173A - 173B classes on number 
+			theory and cryptography which are taught by Prof. Margulies in the math 
+			department.  Having that class or any other preparation in number theory 
+			is a very good background for this class, but it is not necessary.  
+			However, if you think you'd like to work on cryptography and security, and 
+			you do not have a strong background in number theory, I recommend that you 
+			take both classes this quarter.  Prof. Margulie's class is taught MWF 
+			3-3:50 in ET 204, and the ICS students can either take it for a grade or 
+			pass/fail as a special topic course, ICS.299.
+Security Seminar Announcement:
+Students who want to learn more about crypto/security are encouraged to attend a 
+			weekly seminar of the SCONCE group, which takes place on Fridays 
+			11:30-12:30, in ICS2 room 144.
+			
+
+
+
+

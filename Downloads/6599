@@ -1,0 +1,380 @@
+http://www.ics.uci.edu/~aces/projects.htm
+
+
+
+projects
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Projects
+
+
+
+
+
+ 
+
+
+SoC Communication 
+    Architecture Design Space Modeling, Exploration and Synthesis (COMMEX)
+
+
+Key Researcher:  
+Sudeep 
+    Pasricha
+Modern Systems-on-Chip are 
+    increasingly becoming more and more complex. Communication between on-chip 
+    components frequently becomes a bottleneck due to the numerous 
+    inter-component data dependencies inherent in these complex systems. 
+    Designers need to explore communication architectures to meet system 
+    performance requirements and satisfy the ever shrinking time-to-market 
+    constraints. Our main focus is on developing a methodology for modeling SoC 
+    designs for early 
+    exploration, power/performance tradeoff analysis and synthesis of the communication architectures in modern SoC 
+    designs.
+    
+ 
+
+
+
+
+
+References:
+
+
+
+
+
+    S. Pasricha, N. Dutt, "COSMECA: Application Specific Co-Synthesis of Memory 
+    and Communication Architectures for MPSoC", To appear at Design 
+    Automation and Test in Europe Conference (DATE 2006), Munich, Germany, 
+    March 2006
+
+    S. Pasricha, N. Dutt, M. Ben-Romdhane, "Constraint-Driven Bus Matrix 
+    Synthesis for MPSoC", To appear at ASPDAC 2006, Yokohama, Japan, 
+    January 2006 (Best Paper Award)
+
+    S. Pasricha, N. Dutt, E. Bozorgzadeh, M. Ben-Romdhane, "Floorplan-aware 
+    Automated Synthesis of Bus-based Communication Architectures", Design and Automation Conference (DAC 2005), Anaheim, CA, June 2005 
+    (Best Paper Award Candidate)  
+
+    download pdf
+S. Pasricha, N. Dutt, M. Ben-Romdhane, 
+    "Automated Throughput-driven Synthesis of Bus-based Communication 
+    Architectures", ASPDAC 2005, Shanghai, China, January 2005
+S. Pasricha, N. Dutt, M. Ben-Romdhane, "Fast Exploration of Bus-based 
+    On-chip Communication Architectures", CODES+ISSS 2004, Stockholm, Sweden, 
+    September 2004 
+
+    download pdf  
+S. Pasricha, N. Dutt, M. Ben-Romdhane, "Extending the Transaction Level 
+    Modeling Approach for Fast Communication Architecture Exploration", 
+    Design and Automation Conference (DAC 2004), San Diego, CA, June 2004
+
+download pdf
+
+Memory Subsystem Optimizations and 
+    Customizations for Embedded Applications
+
+Key Researcher:  
+
+Ilya Issenin
+
+
+
+
+The memory subsystem consumes a large percentage of overall energy in many 
+    modern embedded systems. In our research we are investigating different 
+    configurations of non-traditional memory hierarchies that use components 
+    such as multiple custom scratch pad based memories, and tradeoffs between 
+    local and global memory organizations in the context of complex 
+    multiprocessor SOCs,  with the overall goals of reducing energy consumption 
+    and improving performance of  embedded applications.
+
+References:
+    A. Shrivastava, I. Issenin, N. Dutt, "Compilation techniques for energy 
+    reduction in horizontally partitioned cache architectures", CASES 2005, 
+    San Francisco, California, USA, 2005
+I. Issenin, N. Dutt, "FORAY-GEN: Automatic Generation of Affine 
+    Functions for Memory Optimizations", DATE 2005, Munich, Germany, March, 
+    2005
+I. Issenin, E. Brockmeyer, M. Miranda, N. Dutt, "Data Reuse 
+    Analysis Technique for Software-Controlled Memory Hierarchies", DATE 2004, 
+    Paris, France, February, 2004
+
+
+download 
+    pdf
+
+Power Estimation of Low-Power High-Performance 
+    Memory Structures (IDAP/eCACTI)
+
+
+Key Researcher: Mahesh Mamdipaka
+
+This project investigates power modeling of custom memory structures at 
+    different levels of abstraction. With increasing memory content in systems, 
+    their percentage contribution to total power dissipation is predicted to 
+    further increase in future technologies. We have developed a generic 
+    methodology and models for estimation of power dissipation in array 
+    structures at different levels of the design hierarchy. At the transistor 
+    level, we developed a generic methodology to generate characterization based 
+    analytical power models for array structures. At the Register Transfer level 
+    (RT level), we developed an estimation tool named Implementation Dependent 
+    Array Power estimator (IDAP) that estimates power dissipation based on a 
+    high-level design description of the memory arrays. IDAP estimates both 
+    leakage and dynamic power dissipation in array structures. Finally, at the 
+    micro-architecture level, we developed eCACTI (enhanced CACTI), a tool that 
+    (a) estimates the power dissipation in caches, and (b) determines the 
+    optimal cache configuration that best meets the optimization criterion.
+
+    Reference: 
+
+
+M. Mamidipaka, K. Khouri, N. Dutt, M. Abadir, "IDAP: A Tool for High 
+    Level Power Estimation of Custom Array Structures ", IEEE Transactions on 
+    CAD (TCAD), September 2004.
+
+
+download pdf
+
+    M. Mamidipaka, K.  Khouri, N. Dutt, M. Abadir, "Analytical Models for 
+    Leakage Power Estimation of Memory Array Structures", Proc. of CODES+ISSS, 
+    Stockholm, Sweden, September 2004.
+
+
+download pdf
+
+Generation of 
+    High-Quality Instruction Set Extensions (ISEGEN)
+
+
+
+Key Researcher:  
+Partha Biswas
+Customization of processor architectures through Instruction Set Extensions 
+    (ISEs) is an effective way to meet the growing performance demands of 
+    embedded applications. A high-quality ISE generation approach needs to 
+    obtain results close to those obtained by experienced designers, 
+    particularly for complex applications that exhibit regularity: expert 
+    designers are able to exploit manually such regularity in the data flow 
+    graphs to generate high-quality ISEs. Our ISEGEN approach identifies 
+    high-quality ISEs by iterative improvement following the basic principles of 
+    the well-known Kernighan-Lin (K-L) min-cut heuristic. Experimental results 
+    on a number of MediaBench, EEMBC and cryptographic applications show that 
+    our approach matches the quality of the optimal solution obtained by 
+    exhaustive search. We also show that our ISEGEN technique is on average 20X 
+    faster than a genetic formulation that generates equivalent solutions. 
+    Furthermore, the ISEs generated by our technique exhibit 35% more speedup 
+    than the genetic solution on a large cryptographic application (AES) by 
+    effectively exploiting its regular structure.
+References:
+    P. Biswas, S. Banerjee, N. Dutt, L. Pozzi, and P. Ienne, "ISEGEN: 
+    Generation of High-Quality Instruction Set Extensions by Iterative 
+    Improvement", DATE 2005, Munich, Germany, March, 2005
+
+P. Biswas, S. Banerjee, N. Dutt, L. Pozzi 
+    and P. Ienne,
+    "Fast Automated Generation of High-Quality Instruction
+    Set Extensions for Processor Customization", Workshop on Application 
+    Specific Processors (WASP),  
+
+September 2004.
+
+    P. Biswas, V. Choudhary, K. Atasu, L. Pozzi, P. Ienne and N. Dutt, 
+    "Introduction of Local Memory Elements in Instruction Set Extensions", 
+    Design Automation Conference (DAC),  
+
+June 2004    
+
+Power Aware 
+    Error Resilient Coding
+
+
+Key Researchers: Minyoung Kim, Hyunok Oh
+
+With advance in technology and the trend towards "convergent mobile 
+    computing", there will be growing demand for high quality mobile multimedia 
+    communication. This problem should be solved with reasonable compression 
+    efficiency, coupled with high error resiliency, which is a crucial factor 
+    for the real-time multimedia communication over lossy networks. 
+    Specifically, in the mobile handheld environment, this problem is also 
+    linked with the consideration of the innate limitation of the handheld 
+    devices, such as the short battery lifetime and the low CPU computation 
+    capability. Therefore, in this project, we introduce a new power aware error 
+    resilient encoding scheme that can run at various operating points in 
+    accordance with resource constraints. This research is a part of FORGE 
+    project: a Framework for Optimization of Distributed Embedded Systems 
+    Software.
+
+References:
+    M. Kim, H. Oh, N. Dutt, A. Nicolau and N. Venkatasubramanian, "Probability 
+    Based Power Aware Error Resilient Coding", First International Workshop 
+    on Services and Infrastructures for the Ubiquitous and Mobile Internet 
+    (SIUMI'05) in conjunction with the 25th International Conference on 
+    Distributed Computing Systems (ICDCS'05), Columbus, Ohio, USA, Jun. 2005
+      
+S. Mohapatra, R. Cornea, H. Oh, K. Lee, M. Kim, N. Dutt, R. 
+    Gupta, A. Nicolau, S. Shukla, N. Venkatasubramanian, "A Cross-Layer Approach 
+    for Power-Performance Optimization in Distributed Mobile Systems", 
+    Workshop on NSF Next Generation Software Program, in conjunction with 
+    International Parallel and Distributed Processing Symposium (IPDPS'05), 
+    Denver, Colorado, USA, Apr. 2005
+Radu Cornea, Nikil Dutt, Rajesh Gupta, Ingolf Krueger, Alex Nicolau, Doug 
+    Schmidt, Sandeep Shukla, “FORGE: A Framework for Optimization of Distributed 
+    Embedded Systems Software”, International Parallel and Distributed 
+    Processing Symposium, April 2003    
+
+Architecture Aware 
+    Compilation for Embedded Systems
+
+
+Key Researcher:  
+Aviral Shrivastata
+Modern 
+    embedded processors are incorporating several dynamic schemes (e.g. dynamic 
+    scheduling, caches, predication) to meet the ever tightening, 
+    multi-dimensional demands of embedded applications. However the complex and 
+    dynamic nature of these architectural and micro-architectural techniques 
+    renders them intractable for exploitation by conventional compiler 
+    technology. Our research attempts to model and exploit these dynamic 
+    mechanisms within such processors during the process of code generation. We 
+    investigate compilation strategies for  performance, power and code size, 
+    while allowing for exploration and evaluation of different 
+    micro-architectural features.
+References:
+    A. Shrivastava, A. Nicolau, N. Dutt, E. Earlie, "PBExplore: A 
+    Framework for Compiler-in-the-Loop Exploration of Partial Bypassing in 
+    Embedded Processors", DATE 2005, Munich, Germany, March 2005
+A. Shrivastava, E. Earlie, N. Dutt, A. Nicolau "Operation Tables for Scheduling in the 
+    Presence of Incomplete
+    Bypassing",  CODES+ISSS' September 2004
+
+    download pdf
+
+    A. Shrivastava, N. Dutt "Energy Efficient Code Generation using rISA", 
+    ASPDAC' January 2004
+
+
+download pdf
+
+Task-level Partitioning and Scheduling for Reconfigurable 
+    Systems
+
+Key Researcher:  
+
+Sudarshan Banerjee
+
+
+
+Hardware-Software (HW-SW) partitioning is a 
+    critical step in codesign of embedded systems- key system parameters such as 
+    execution time, power consumption etc., are primarily influenced by 
+    partitioning decisions. SRAM-based FPGAs are becoming popular for HW 
+    implementation and design sizes are increasing very rapidly. In this 
+    context, there is a need to investigate efficient and scalable partitioning 
+    and scheduling algorithms that do a very rapid and high-quality exploration 
+    of the design space. One key feature of modern FPGAs is dynamic 
+    reconfiguration where the hardware configuration can be changed dynamically 
+    to obtain better performance at lower hardware cost. While this is a very 
+    powerful feature,  it introduces a lot of architectural constraints on 
+    the system. We are developing a number of partitioning and scheduling 
+    algorithms to generate high-quality results in the context of multiprocessor 
+    SOCs.
+
+References:
+    S. Banerjee, E. Bozorgzadeh, N. Dutt, "Physically-aware HW-SW 
+    Partitioning for reconfigurable architectures with partial dynamic 
+    reconfiguration", DAC 2005, Anaheim, CA, June 2005
+
+    S. Banerjee, N. Dutt, "Efficient Search Space Exploration for HW-SW 
+    Partitioning", CODES+ISSS, Stockholm, September 2004.
+
+Distributed 
+    Real-time Embedded Analysis Method
+
+
+Key Researcher: Gabor Madl 
+Web Site: 
+
+    http://dre.sourceforge.net
+
+Real-time middleware provides dependable and efficient 
+    platforms supporting key functional and quality of service (QoS) needs of 
+    distributed real-time embedded (DRE) systems. Key challenges in DRE system 
+    developments include safe composition of system components and mapping the 
+    functional specifications onto the target platform. Model-based technologies 
+    help address these issues by enabling design-time analysis and providing the 
+    means for the rapid evaluation of design alternatives with respect to 
+    end-to-end QoS properties, predictability and performance measures before 
+    committing to a specific platform. The Distributed Real-time Embedded 
+    Analysis Method DREAM ™ is an open-source tool and method for optimizing 
+    multiple quality of service (QoS) properties of distributed real-time 
+    embedded (DRE) systems. The project focuses on the practical application of 
+    formal analysis methods to real-time middleware to automate the 
+    verification, development, configuration, and integration of 
+    middleware-based DRE systems.
+
+Reference:
+    G. Madl, S. Abdelwahed, and D. C. Schmidt, "Verifying Distributed Real-time 
+    Properties of Embedded Systems via Graph Transformations and Model 
+    Checking," International Journal of Time-Critical Computing Systems, invited 
+    paper, to appear, 2005.
+
+
+download pdf
+
+
+
+
+
+
+
+
+
+
+
+Home | 
+Projects | 
+Publications | 
+News & Events | 
+People | 
+Sponsors | 
+Downloads | 
+Links | 
+Join ACES | 
+About Us
+
+
+
+
+
+
+
+
+
+
+
+Please e-mail your comments and suggestions to Sudeep Pasricha 
+  (sudeep@ics.uci.edu)  
+  © Copyright 1997-2004 ACES-UCI. All rights reserved 
+
+
+
+

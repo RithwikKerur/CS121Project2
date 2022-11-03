@@ -1,0 +1,249 @@
+https://iasl.ics.uci.edu/publications
+
+
+
+
+
+
+Publications - UCI IASL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to content
+
+
+
+
+
+
+
+ 
+UCI IASL
+Intelligent and Autonomous Systems Lab
+
+
+
+
+
+
+
+Search for:
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Research
+Funded Projects
+Publications
+Miscellaneous
+Contact
+ 
+
+
+
+
+
+
+
+ 
+UCI IASL
+Intelligent and Autonomous Systems Lab
+
+
+
+
+ 
+
+
+Toggle navigation
+
+
+
+
+
+Home
+People
+Research
+Funded Projects
+Publications
+Miscellaneous
+Contact
+
+
+
+
+Search for:
+
+
+
+ 
+
+
+
+
+
+
+
+Intelligent and Autonomous Systems Lab
+Computer Science Department, Donald Bren School of Information and Computer Sciences, University of California, Irvine
+
+
+
+
+
+
+
+
+
+
+
+
+Publications 
+
+2022
+Y. Matsubara, F. Restuccia and M. Levorato, “Split Computing and Early Exiting for Deep Learning Applications: Survey and Research Challenges”, ACM Computing Surveys, 2022.K. Choi, L. Bedogni, M. Levorato, “Enabling Green Crowdsourced Social Delivery Networks In Urban Communities”, Sensor Networks, Mobile Crowdsensing in Smart Cities, 2022.D. Callegaro, M. Levorato and F. Restuccia, SmartDet: Context-Aware Dynamic Control of Edge Task Offloading for Mobile Object DetectIon, IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks (IEEE WoWMoM) 2022, Jun 14-17, 2022, Belfast, UK.Y. Matsubara, D. Callegaro, S. Singh, M. Levorato and F. Restuccia, BottleFit: Learning Compressed Representations in Deep Neural Networks for Effective and Efficient Split Computing, IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks (IEEE WoWMoM) 2022, Jun 14-17, 2022, Belfast, UK.D. Amiri, J. Takalo-Mattila, L. Bedogni, M. Levorato and N. Dutt, SIC-EDGE: Semantic Iterative ECG Compression for Edge-Assisted Wearable Systems, IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks (IEEE WoWMoM) 2022, Jun 14-17, 2022, Belfast, UK.Y. Matsubara, R. Yang, S. Mandt and M. Levorato, Supervised Compression for Resource-Constrained Edge Computing Systems, IEEE Winter Conference on Applications of Computer Vision (IEEE WACV) 2022, Waikoloa, HI, Jan. 4-8, 2022.
+2021
+P. Tehrani, F. Restuccia, and M. Levorato, Federated Deep Reinforcement Learning for the Distributed Control of NextG Wireless Networks, IEEE International Symposium on Dynamic Spectrum Access Networks (IEEE DySPAN), 13-15 December 2021, Virtual Conference.A. Tazarv and M. Levorato, A Deep Learning Approach to Predict Blood Pressure from PPG Signals, 43rd Annual International Conference of the IEEE Engineering in Medicine and Biology Society (IEEE EMBC), Oct. 23-Nov. 4, Virtual.A. Tazarv, S. Labbaf, S. M. Reich, N. Dutt, A. M. Rahmani, and M. Levorato, Personalized Stress Monitoring using Wearable Sensors in Everyday Settings, 43rd Annual International Conference of the IEEE Engineering in Medicine and Biology Society (IEEE EMBC), Oct. 23-Nov. 4, Virtual.A. Tazarv, S. Labbaf, A. Rahmani, N. Dutt, M. Levorato, Data Collection and Labeling of Real-Time IoT-Enabled Bio-Signals in Everyday Settings for Mental Health, 2021 ACM International Conference on Information Technology for Social Good (GoodIT 2021), 9-11 September 2021, Rome, Italy.S. Jung, J. Kim, M. Levorato, C. Cordeiro, and J.-H. Kim, Infrastructure-Assisted On-Driving Experience Sharing for Millimeter-Wave Connected Vehicles, IEEE Transactions on Vehicular Technology, vol. 70, no. 8, pp. 7307-7321, Aug. 2021.M. Willian Soares Lima, L. Lira Guimares, E. Miranda dos Santos, E. Silva de Moura, R. Kohler Costa, M. Levorato, H. Antonio Braga Fernandes de Oliveira “A Small World Graph Approach for an Efficient Indoor Positioning System”, Sensors, 2021.A. Vega, A. Buyuktosunoglu, Davide Callegaro, M. Levorato, and P. Bose, Cloud-Backed Mobile Cognition Power-Efficient Deep Learning in the Autonomous Vehicle Era, Springer Computing, 2021.D. Callegaro, M. Levorato, and F. Restuccia, SeReMAS: Self-Resilient Mobile Autonomous Systems Through Predictive Edge Computing, in 2021 18th Annual IEEE International Conference on Sensing, Communication, and Networking (SECON), 2021.A. Alsoliman, M. Levorato, and Q. A. Chen, Vision-Based Two-Factor Authentication and Localization Scheme for Autonomous Vehicles, Third International Workshop on Automotive and Autonomous Vehicle Security (part of NDSS), 2021.D. Callegaro and M. Levorato, Optimal Edge Computing for Infrastructure-Assisted UAV Systems, IEEE Transactions on Vehicular Technology, vol. 70, no. 2, pp. 1782 – 1792, 2021.A. Alsoliman, G. Rigoni, et al., COTS Drone Detection using Video Streaming Characteristics, in International Conference on Distributed Computing and Networking 2021, 2021, pp. 166 – 175.Y. Matsubara and M. Levorato, Neural Compression and Filtering for Edge-Assisted Real-Time Object Detection in Challenged Networks, in 2020 25th International Conference on Pattern Recognition (ICPR), pp. 2272 – 2279, 2021.
+2020
+D. Callegaro, Y. Matsubara, and M. Levorato, Optimal Task Allocation for Time-Varying Edge Computing Systems with Split DNNs, in 2020 IEEE Global Communications Conference: Selected Areas in Communications: Internet of Things and Smart Connected Communities (Globecom2020 SAC IoTSCC), Taipei, Taiwan, Dec. 2020.Y. Matsubara, D. Callegaro, S. Baidya, M. Levorato, and S. Singh, Head Network Distillation: Splitting Distilled Deep Neural Networks for Resource-Constrained Edge Computing Systems, IEEE Access, vol. 8, pp. 212177 – 212193, 2020.P. Tehrani and M. Levorato, Frequency-based Multi Task learning With Attention Mechanism for Fault Detection In Power Systems, in 2020 IEEE International Conference on Communications, Control, and Computing Technologies for Smart Grids (SmartGridComm), 2020, pp. 1 – 6.K. Choi, L. Bedogni, and M. Levorato, Towards Green Crowdsourced Social Delivery Networks: A Feasibility Study, in GLOBECOM 2020-2020 IEEE Global Communications Conference, IEEE, 2020, pp. 1 – 6.D. Amiri, A. Anzanpour, et al., Context-Aware Sensing via Dynamic Programming for Edge-Assisted Wearable Systems, ACM Trans. Comput. Healthcare, vol. 1, no. 2, article no. 7, Mar. 2020.A. Anzanpour, D. Amiri, et al., Edge-Assisted Control for Healthcare Internet of Things: A Case Study on PPG-Based Early Warning Score, ACM Trans. Internet Things, vol. 2, no. 1, article no. 1, Oct. 2020.Y. Matsubara and M. Levorato, Split Computing for Complex Object Detectors: Challenges and Preliminary Results, in Proceedings of the 4th International Workshop on Embedded and Mobile Deep Learning, Jul. 2020, pp. 7 – 12.D. Callegaro, S. Baidya, and M. Levorato, Dynamic Distributed Computing for Infrastructure-Assisted Autonomous UAVs, in Proceedings of the IEEE International Conference on Communications (ICC), Dublin, Ireland, Jun. 2020, SAC Tactile Internet Track.S. Baidya, P. Tehrani, and M. Levorato, Data-Driven Path Selection for Real-Time Video Streaming at the Network Edge, in 2020 IEEE International Conference on Communications Workshops (ICC Workshops), 2020, pp. 1 – 6.D. Amiri, A. Anzanpour, I. Azimi, M. Levorato, P. Liljeberg, N. dutt, and A. Rahmani, “Context-Aware Control of Wearable Sensors via Edge Computing” ACM Transactions on Computing for Healthcare, 1.2 (2020): 1-25, 2020.A. Alsoliman, A. B. Rabiah, and M. Levorato, Privacy-Preserving Authentication Framework for UAS Traffic Management Systems, in 2020 4th Cyber Security in Networking Conference (CSNet), IEEE, 2020, pp. 1 – 8.
+2019
+H. Choi, W. Shin, M. Levorato, and H. V. Poor, Harvest-Or-Access: Slotted ALOHA for Wireless Powered Communication Networks, IEEE Transactions on Vehicular Technology, vol. 68, no. 11, pp. 11394 – 11398, 2019.D. Callegaro, S. Baidya, G. Ramachandran, B. Krishnamachari, and M. Levorato, Information Autonomy: Self-Adaptive Information Management for Edge-Assisted Autonomous UAV Systems, in Proceedings of the IEEE Military Communication Conference (MILCOM), Norfolk, VA, Nov. 2019.Y. Matsubara, S. Baidya, D. Callegaro, M. Levorato, and S. Singh, Distilled Split Deep Neural Networks for Edge-Assisted Real-Time Systems, in Proceedings of the ACM International Conference on Mobile Computing and Networking (MobiCom), Los Cabos, Mexico, Oct. 2019, Workshop on Hot Topics in Video Analytics and Intelligent Edges.M. Shin, J. Kim, and M. Levorato, Auction-based charging scheduling with deep learning framework for multi-drone networks, IEEE Transactions on Vehicular Technology, vol. 68, no. 5, pp. 4235 – 4248, 2019.I. Bisio, C. Garibotto, F. Lavagetto, M. Levorato, and A. Sciarrone, Statistical Analysis of Wireless Traffic: An Adversarial Approach to Drone Surveillance, in 2019 IEEE Global Communications Conference (GLOBECOM), 2019, pp. 1 – 6.D. Callegaro, S. Baidya, and M. Levorato, A Measurement Study on Edge Computing for Autonomous UAVs, in Proceedings of the Workshop on Mobile Air-Ground Edge Computing, Systems, Networks, and Applications (MAGESys), Beijing, China, Aug. 2019, in conjunction with the ACM Special Interest Group on Data Communication (SIGCOMM) Conference.R. Valentini, R. Alesii, M. Levorato, and F. Santucci, Cross-Layer Analysis of RFID Systems with Correlated Shadowing and Random Radiation Efficiency, in ICC 2019 – 2019 IEEE International Conference on Communications (ICC), 2019, pp. 1 – 7.I. Burago and M. Levorato, Cloud-Assisted On-Sensor Observation Classification in Latency-Impeded IoT Systems, in Proceedings of the IEEE International Symposium on Information Theory (ISIT), Paris, France, Jul. 2019. SLIDE DECKK. Vatanparvar, S. Faezi, I. Burago, M. Levorato, and M. A. Al Faruque, Extended Range Electric Vehicle With Driving Behavior Estimation in Energy Management, IEEE Transactions on Smart Grid, vol. 10, no. 3, pp. 2959 – 2968, May 2019.
+2018
+D. Amiri, A. Anzanpour, et al., Edge-Assisted Sensor Control in Healthcare IoT, in Proceedings of the IEEE Global Communications Conference (GLOBECOM), Abu Dhabi, United Arab Emirates, Dec. 2018.D. Callegaro and M. Levorato, Optimal Computation Offloading in Edge-Assisted UAV Systems, in Proceedings of the IEEE Global Communications Conference (GLOBECOM), Abu Dhabi, United Arab Emirates, Dec. 2018.R.Valentini, M. Levorato and F. Santucci, “Optimal Aging-aware Channel Access and Power Allocation for Battery–Powered Devices with Radio Frequency Energy Harvesting”, IEEE Trans. on Communications, Vol. 66, no. 11, pp. 5773 – 5787, Nov. 2018.M. W. Soares Lima, H. A. B. Fernandes de Oliveira, et al., Efficient and Robust WiFi Indoor Positioning Using Hierarchical Navigable Small World Graphs, in Proceedings of the IEEE International Symposium on Network Computing and Applications (NCA), Cambridge, MA, Nov. 2018.S. Baidya, Z. Shaikh, and M. Levorato, FlyNetSim: An Open Source Synchronized UAV Network Simulator Based on ns-3 and Ardupilot, in Proceedings of the ACM International Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems (MSWiM), Montreal, Canada, Oct. – Nov. 2018.R. Valentini, M. Levorato, and F. Santucci, Optimal aging–aware channel access and power allocation for battery–powered devices with radio frequency energy harvesting, IEEE Transactions on Communications, vol. 66, no. 11, pp. 5773 – 5787, 2018.I. Burago and M. Levorato, Randomized Edge-Assisted On-Sensor Information Selection for Bandwidth-Constrained Systems, in Proceedings of the Asilomar Conference on Signals, Systems, and Computers (ACSSC), Pacific Groove, California, Oct. 2018. POSTERSLIDE DECKS. Baidya and M. Levorato, Content-Aware Cognitive Interference Control for Urban IoT Systems, IEEE Transactions on Cognitive Communications and Networking, vol. 4, no. 3, pp. 500 – 512, Sep. 2018.K. Lee, J.-P. Hong, H.-H. Choi, and M. Levorato, Adaptive Wireless-Powered Relaying Schemes With Cooperative Jamming for Two-Hop Secure Communication, IEEE Internet of Things Journal, vol. 5, no. 4, pp. 2793 – 2803, Aug. 2018.Z. Shaikh, S. Baidya, and M. Levorato, Robust Multi-Path Communications for UAVs in the Urban IoT, in Proceedings of the Workshop on Unmanned Autonomous Systems (CPC-UAV), Hong Kong, Jun. 2018, in conjunction with IEEE International Conference on Sensing, Communication and Networking (SECON).S. Rahimi Moosavi, E. Nigussie, M. Levorato, S. Virtanen, and J. Isoaho, Performance Analysis of End-to-End Security Schemes in Healthcare IoT, Procedia Computer Science, vol. 130, pp. 432 – 439, May 2018, Proceedings of the International Conference on Ambient Systems, Networks and Technologies (ANT).S. Baidya, Y. Chen, and M. Levorato, eBPF-Based Content and Computation-Aware Communication for Real-Time Edge Computing, in Proceedings of the IEEE International Conference on Computer Communications (INFOCOM) Workshops, Honolulu, Hawaii, Apr. 2018.A. Chowdhery, M. Levorato, I. Burago, and S. Baidya, Urban IoT Edge Analytics, in Fog Computing in the Internet of Things, A. M. Rahmani, P. Liljeberg, J.-S. Preden, and A. Jantsch, Eds. Springer, 2018, ch. 6, pp. 101 – 120.
+2017
+I. Burago, D. Callegaro, M. Levorato, and S. Singh, Intelligent Data Filtering in Constrained IoT Systems, in Proceedings of the Asilomar Conference on Signals, Systems, and Computers (ACSSC), Pacific Groove, California, Oct. – Nov. 2017.K. Vatanparvar, S. Faezi, I. Burago, M. Levorato, and M. A. Al Faruque, Driving Behavior Modeling and Estimation for Battery Optimization in Electric Vehicles: Work-in-Progress, in Proceedings of the IEEE/ACM/IFIP International Conference on Hardware/Software Codesign and System Synthesis Companion (S), Seoul, Republic of Korea, Oct. 2017.S. Rahimi Moosavi, E. Nigussie, M. Levorato, S. Virtanen, and J. Isoaho, Low-Latency Approach for Secure ECG Feature Based Cryptographic Key Generation, IEEE Access, vol. 6, pp. 428 – 442, Oct. 2017.I. Azimi, A. Anzanpour, et al., HiCH: Hierarchical Fog-Assisted Computing Architecture for Healthcare IoT, ACM Transactions on Embedded Computing Systems, vol. 16, no. 5s, article no. 174, pp. 174:1 – 174:20, Sep. 2017.N. Ahmed, M. Levorato, and G.-P. Li, Residential Consumer-Centric Demand Side Management, IEEE Transactions on Smart Grid, vol. 9, no. 5, pp. 4513 – 4524, Sep. 2017.I. Burago, M. Levorato, and A. Chowdhery, Bandwidth-Aware Data Filtering in Edge-Assisted Wireless Sensor Systems, in Proceedings of the IEEE International Conference on Sensing, Communication and Networking (SECON), San Diego, California, Jun. 2017.N. Michelusi and M. Levorato, Energy-Based Adaptive Multiple Access in LPWAN IoT Systems With Energy Harvesting, in Proceedings of the IEEE International Symposium on Information Theory (ISIT), Aachen, Germany, Jun. 2017.S. Baidya and M. Levorato, Edge-Assisted Content and Computation-Driven Dynamic Network Selection for Real-Time Services in Urban IoT, in Proceedings of the IEEE International Conference on Computer Communications (INFOCOM) Workshops, Atlanta, Georgia, May 2017.M. Levorato, Cognitive Networking With Dynamic Traffic Classification and QoS Constraints, in Proceedings of the IEEE Wireless Communications and Networking Conference (WCNC), San Francisco, California, Mar. 2017.I. Burago, M. Levorato, and S. Singh, Semantic Compression for Edge-Assisted Systems, in Proceedings of the Information Theory and Applications Workshop (ITA), San Diego, California, Feb. 2017.S. Baidya and M. Levorato, Content-Based Interference Management for Video Transmission in D2D Communications Underlaying LTE, in Proceedings of the IEEE International Conference on Computing, Networking and Communications (ICNC), Silicon Valley, California, Jan. 2017, pp. 144 – 149.
+2016
+S. Baidya and M. Levorato, Content-Based Cognitive Interference Control for City Monitoring Applications in the Urban IoT, in Proceedings of the IEEE Global Communications Conference (GLOBECOM), Washington, DC, Dec. 2016.M. Levorato, P. C. Weeraddana, and C. Fischione, Distributed Optimization of Channel Access Strategies in Reactive Cognitive Networks, IEEE Transactions on Communications, vol. 64, no. 10, pp. 4121 – 4133, Oct. 2016.R. Valentini and M. Levorato, Optimal Aging-Aware Channel Access Control for Wireless Networks With Energy Harvesting, in Proceedings of the IEEE International Symposium on Information Theory (ISIT), Barcelona, Spain, Jul. 2016.R. Valentini, M. Levorato, and F. Santucci, Aging Aware Random Channel Access for Battery-Powered Wireless Networks, IEEE Wireless Communications Letters, vol. 5, no. 2, pp. 176 – 179, Apr. 2016.
+2015
+M. Levorato, U. Mitra and A. Ortega, “Graph Compression Techniques for Next Generation Cognitive Networks”, IEEE ComSoc Technical Committee on Cognitive Networks (TCCN) Communications, special issue on “Cognitive Radio for Heterogeneous Networks”, Dec. 2015.N. Dang, R. Valentini, E. Bozorgzadeh, M. Levorato, and N. Venkatasubramanian, A Unified Stochastic Model for Energy Management in Solar-Powered Embedded Systems, in Proceedings of the IEEE/ACM International Conference on Computer-Aided Design (ICCAD), Austin, Texas, Nov. 2015.R. Valentini, N. Dang, M. Levorato, and E. Bozorgzadeh, Modeling and Control Battery Aging in Energy Harvesting Systems, in Proceedings of the IEEE International Conference on Smart Grid Communications (SmartGridComm), Miami, Florida, Nov. 2015.I. Burago and M. Levorato, Network Estimation in Cognition-Empowered Wireless Networks, IEEE Transactions on Cognitive Communications and Networking, vol. 1, no. 2, pp. 244 – 256, Jun. 2015.R. Valentini, M. Levorato, and C. Fischione, Performance Analysis of IEEE 802.15.3c-Based mmW Wireless Networks, in Proceedings of the Conference on Information Sciences and Systems (CISS), Baltimore, Maryland, Mar. 2015.M. Levorato, N. Venkatasubramanian, and N. Dutt, Heat-Aware Transmission Strategies, in Proceedings of the Information Theory and Applications Workshop (ITA), San Diego, California, Feb. 2015.
+2014
+D.-S. Zois, M. Levorato, and U. Mitra, Active Classification for POMDPs: A Kalman-Like State Estimator, IEEE Transactions on Signal Processing, vol. 62, no. 23, pp. 6209 – 6224, Dec. 2014.M. Levorato, P. C. Weeraddana, and C. Fischione, Distributed Optimization of Transmission Strategies in Reactive Cognitive Networks, in Proceedings of the IEEE Global Communications Conference (GLOBECOM), Austin, Texas, Dec. 2014.F. Librino, M. Levorato, and M. Zorzi, An Algorithmic Solution for Computing Circle Intersection Areas and Its Applications to Wireless Communications, Wireless Communications and Mobile Computing, vol. 14, no. 18, pp. 1672 – 1690, Dec. 2014.M. Levorato, N. Ahmed, and Y. A. Zhang, Consumer In-The-Loop: Consumers as Part of Residential Smart Energy Systems, in Proceedings of the IEEE International Conference on Smart Grid Communications (SmartGridComm), Venice, Italy, Nov. 2014.
+2013
+M. Levorato, S. Narang, U. Mitra, and A. Ortega, Optimization of Wireless Networks via Graph Interpolation, in Proceedings of the IEEE Global Conference on Signal and Information Processing (GlobalSIP), Austin, Texas, Dec. 2013, invited paper.N. Michelusi, P. Popovski, O. Simeone, M. Levorato, and M. Zorzi, Cognitive Access Policies Under a Primary ARQ Process via Forward-Backward Interference Cancellation, IEEE Journal on Selected Areas in Communications, vol. 31, no. 11, pp. 2374 – 2386, Nov. 2013.M. Levorato and U. Mitra, Cognitive Networks With Dynamic User Classification for Tactical Communications, in Proceedings of the Military Communications Conference (MILCOM), San Diego, California, Nov. 2013.D.-S. Zois, M. Levorato, and U. Mitra, Non-Linear Smoothers for Discrete-Time, Finite-State Markov Chains, in Proceedings of the IEEE International Symposium on Information Theory (ISIT), Istanbul, Turkey, Jul. 2013.D.-S. Zois, M. Levorato, and U. Mitra, Kalman-Like State Tracking and Control in POMDPs With Applications to Body Sensing Networks, in Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Vancouver, Canada, May 2013.D.-S. Zois, M. Levorato, and U. Mitra, Energy-Efficient, Heterogeneous Sensor Selection for Physical Activity Detection in Wireless Body Area Networks, IEEE Transactions on Signal Processing, vol. 61, no. 7, pp. 1581 – 1594, Apr. 2013.
+2012
+M. Levorato, U. Mitra, and A. Goldsmith, Structure-Based Learning in Wireless Networks via Sparse Approximation, EURASIP Journal on Wireless Communications and Networking, vol. 2012, no. 1, article no. 278, Dec. 2012.M. Levorato and U. Mitra, Scale Invariance and Long-Range Dependence in Smart Energy Grids, in Proceedings of the Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC), Hollywood, California, Dec. 2012.M. Levorato, S. Narang, U. Mitra, and A. Ortega, Reduced Dimension Policy Iteration for Wireless Network Control via Multiscale Analysis, in Proceedings of the IEEE Global Communications Conference (GLOBECOM), Anaheim, California, Dec. 2012, best paper award.A. Munari, M. Levorato, and M. Zorzi, On the Impact of Carrier Sense Based Medium Access Control on Cooperative Schemes in Wireless Ad Hoc Networks, IEEE Transactions on Communications, vol. 60, no. 10, pp. 3032 – 3046, Oct. 2012.A. T. Gjika, M. Levorato, A. Ortega, and U. Mitra, Online Learning in Wireless Networks via Directed Graph Lifting Transform, in Proceedings of the Allerton Conference on Communication, Control and Computing, Monticello, Illinois, Oct. 2012, invited paper.M. Levorato, S. Firouzabadi, and A. Goldsmith, A Learning Framework for Cognitive Interference Networks With Partial and Noisy Observations, IEEE Transactions on Wireless Communications, vol. 11, no. 9, pp. 3101 – 3111, Sep. 2012.M. Levorato and U. Mitra, Fast Anomaly Detection in Smart Grids via Sparse Approximation Theory, in Proceedings of the IEEE Sensor Array and Multichannel Signal Processing Workshop (SAM), Stevens Institute of Technology, Hoboken, New Jersey, Jun. 2012, invited paper.D.-S. Zois, M. Levorato, and U. Mitra, Heterogeneous Time-Resource Allocation in Wireless Body Area Networks for Green, Maximum Likelihood Activity Detection, in Proceedings of the IEEE International Conference on Communications (ICC), Ottawa, Canada, Jun. 2012.M. Levorato, U. Mitra, and M. Zorzi, Cognitive Interference Management in Retransmission-Based Wireless Networks, IEEE Transactions on Information Theory, vol. 58, no. 5, pp. 3023 – 3046, May 2012.U. Mitra, B. A. Emken, et al., KNOWME: A Case Study in Wireless Body Area Sensor Network Design, IEEE Communications Magazine, vol. 50, no. 5, pp. 116 – 125, May 2012.D.-S. Zois, M. Levorato, and U. Mitra, A POMDP Framework for Heterogeneous Sensor Selection in Wireless Body Area Networks, in Proceedings of the IEEE International Conference on Computer Communications (INFOCOM), Orlando, Florida, Mar. 2012.
+2011
+M. Levorato, S. Firouzabadi, and A. Goldsmith, Cognitive Interference Networks With Partial and Noisy Observations: A Learning Framework, in Proceedings of the IEEE Global Communications Conference (GLOBECOM), Houston, Texas, Dec. 2011.M. Levorato and U. Mitra, Optimal Allocation of Heterogeneous Smart Grid Traffic to Heterogeneous Networks, in Proceedings of the IEEE International Conference on Smart Grid Communications (SmartGridComm), Brussels, Belgium, Oct. 2011.M. Levorato, S. Firouzabadi, and A. Goldsmith, A Learning Framework for Cognitive Interference Networks With Partial and Noisy Observations, in Proceedings of the Allerton Conference on Communication, Control and Computing, Monticello, Illinois, Sep. 2011.N. Michelusi, O. Simeone, M. Levorato, P. Popovski, and M. Zorzi, Cognitive Transmissions Under a Primary ARQ Process via Backward Interference Cancellation, in Proceedings of the Allerton Conference on Communication, Control and Computing, Monticello, Illinois, Sep. 2011.M. Levorato, F. Librino, and M. Zorzi, Integrated Cooperative Opportunistic Packet Forwarding and Distributed Error Control in MIMO Ad Hoc Networks, IEEE Transactions on Communications, vol. 59, no. 8, pp. 2215 – 2227, Aug. 2011.M. Levorato, D. O’Neill, A. Goldsmith, and U. Mitra, Optimization of ARQ Protocols in Interference Networks With QoS Constraints, in Proceedings of the IEEE International Conference on Communications (ICC), Kyoto, Japan, Jun. 2011.J. S. Harsini, F. Lahouti, M. Levorato, and M. Zorzi, Analysis of Non-Cooperative and Cooperative Type II Hybrid ARQ Protocols With AMC Over Correlated Fading, IEEE Transactions on Wireless Communications, vol. 10, no. 3, pp. 877 – 889, Mar. 2011.N. Michelusi, O. Simeone, M. Levorato, P. Popovski, and M. Zorzi, Optimal Cognitive Transmission Exploiting Redundancy in the Primary ARQ Process, in Proceedings of the Information Theory and Applications Workshop (ITA), San Diego, CA, Feb. 2011.S. Firouzabadi, M. Levorato, D. O’Neill, and A. Goldsmith, Learning Interference Strategies in Cognitive ARQ Networks, in Proceedings of the IEEE Global Communications Conference (GLOBECOM), Miami, Florida, Dec. 2010.
+2010
+M. Levorato, L. Badia, U. Mitra, and M. Zorzi, An Analysis of Cognitive Networks for Unslotted Time and Reactive Users, in Proceedings of the IEEE International Conference on Mobile Ad Hoc and Sensor Systems (MASS), San Francisco, California, Nov. 2010.D. O’Neill, M. Levorato, A. Goldsmith, and U. Mitra, Residential Demand Response Using Reinforcement Learning, in Proceedings of the IEEE International Conference on Smart Grid Communications (SmartGridComm), Gaithersburg, Maryland, Oct. 2010.J. S. Harsini, F. Lahouti, M. Zorzi, and M. Levorato, A Type II Hybrid ARQ Protocol With Adaptive Modulation and Coding for Time-Correlated Fading Channels: Analysis and Design, in Proceedings of the IEEE International Conference on Communications (ICC), Cape Town, South Africa, May 2010.L. Badia, N. Baldo, M. Levorato, and M. Zorzi, A Markov Framework for Error Control Techniques Based on Selective Retransmission in Video Transmission Over Wireless, IEEE Journal on Selected Areas in Communications, vol. 28, no. 3, pp. 488 – 500, Apr. 2010.L. Badia, M. Levorato, F. Librino, and M. Zorzi, Cooperation Techniques for Wireless Systems From a Networking Perspective, IEEE Wireless Communications Magazine, vol. 17, no. 2, pp. 89 – 96, Apr. 2010.
+2009
+M. Levorato, L. Badia, and M. Zorzi, On the Channel Statistics in Hybrid ARQ Systems for Correlated Channels, in Proceedings of the IEEE Information Theory Workshop (ITW), Taormina, Italy, Oct. 2009.M. Levorato, O. Simeone, U. Mitra, and M. Zorzi, Cooperation and Coordination in Cognitive Networks With Packet Retransmission, in Proceedings of the IEEE Information Theory Workshop (ITW), Taormina, Italy, Oct. 2009.M. Levorato, O. Simeone, and U. Mitra, Interference Management via Rate Splitting and HARQ Over Time-Varying Fading Channels, in Proceedings of the ACM International Conference on Mobile Computing and Networking (MobiCom), Beijing, China, Sep. 2009.M. Levorato, U. Mitra, and M. Zorzi, Cognitive Interference Management in Retransmission-Based Wireless Networks, in Proceedings of the Allerton Conference on Communication, Control and Computing, Monticello, Illinois, Sep. – Oct. 2009.S. Tomasin, M. Levorato, and M. Zorzi, Steady State Analysis of Coded Cooperative Networks With HARQ Protocol, IEEE Transactions on Communications, vol. 57, no. 8, pp. 2391 – 2401, Aug. 2009.L. Badia, M. Levorato, and M. Zorzi, A Channel Representation Method for the Study of Hybrid Retransmission-Based Error Control, IEEE Transactions on Communications, vol. 57, no. 7, pp. 1959 – 1971, Jul. 2009.M. Levorato and M. Zorzi, On the Performance of Ad Hoc Networks With Multiuser Detection, Rate Control and Hybrid ARQ, IEEE Transactions on Wireless Communications, vol. 8, no. 6, pp. 2938 – 2949, Jun. 2009.L. Badia, M. Levorato, and M. Zorzi, Analysis of Selective Retransmission Techniques for Differentially Encoded Data, in Proceedings of the IEEE International Conference on Communications (ICC), Dresden, Germany, Jun. 2009.M. Levorato, A. Munari, and M. Zorzi, On the Effectiveness of Cooperation in Carrier Sense-Based Ad Hoc Networks, in Proceedings of the IEEE Communications Society Conference on Sensor, Mesh and Ad Hoc Communications and Networks (SECON), Rome, Italy, Jun. 2009.F. Librino, M. Levorato, and M. Zorzi, An Algorithmic Solution for Computing Circle Intersection Areas and Its Applications to Wireless Communications, in Proceedings of the IEEE International Symposium on Modeling and Optimization in Mobile, Ad Hoc and Wireless Networks (WiOpt), Seoul, Korea, Jun. 2009.L. Badia, P. Casari, M. Levorato, and M. Zorzi, Analysis of an Automatic Repeat Request Scheme Addressing Long Delay Channels, in Proceedings of the IEEE International Conference on Advanced Information Networking and Applications (AINA) Workshops, Bradford, UK, May 2009.M. Levorato, U. Mitra, and M. Zorzi, On Optimal Control of Wireless Networks With Multiuser Detection, Hybrid ARQ and Distortion Constraints, in Proceedings of the IEEE International Conference on Computer Communications (INFOCOM), Rio de Janeiro, Brazil, Apr. 2009.
+2008
+P. Casari, M. Levorato, and M. Zorzi, MAC/PHY Cross-Layer Design of MIMO Ad Hoc Networks With Layered Multiuser Detection, IEEE Transactions on Wireless Communications, vol. 7, no. 11, pp. 4596 – 4607, Nov. 2008.L. Badia, M. Levorato, and M. Zorzi, Markov Analysis of Selective Repeat Type II Hybrid ARQ Using Block Codes, IEEE Transactions on Communications, vol. 56, no. 9, pp. 1434 – 1441, Sep. 2008.M. Levorato, S. Tomasin, and M. Zorzi, Cooperative Spatial Multiplexing for Ad Hoc Networks With Hybrid ARQ: Design and Performance Analysis, IEEE Transactions on Communications, vol. 56, no. 9, pp. 1545 – 1555, Sep. 2008.M. Zorzi, F. Librino, and M. Levorato, Cooperation in UMTS Cellular Networks: A Practical Perspective, in Proceedings of the IEEE International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC), Cannes, France, Sep. 2008, invited paper.P. Casari, M. Levorato, D. Mazzi, and M. Zorzi, On the Design of Routing Protocols in MIMO Ad Hoc Networks Under Uniform and Correlated Traffic, in Proceedings of the International Wireless Communications and Mobile Computing Conference (IWCMC), Creta, Greece, Aug. 2008.M. Levorato, L. Badia, and M. Zorzi, Efficient Quantization for Feedback Controlled Networks With Type II Hybrid ARQ, in Proceedings of the IEEE Workshop on Resource Allocation in Wireless Networks (RAWNET), Berlin, Germany, Apr. 2008.M. Levorato and M. Zorzi, On Error Control Schemes for Ad Hoc Networks With Multiuser Detection and Rate Control, in Proceedings of the Conference on Information Sciences and Systems (CISS), Princeton, New Jersey, Mar. 2008.M. Levorato and M. Zorzi, Performance Analysis of Type II Hybrid ARQ With Low-Density Parity-Check Codes, in Proceedings of the International Symposium on Communications, Control, and Signal Processing (ISCCSP), St. Julians, Malta, Mar. 2008.M. Levorato and M. Zorzi, Recursive Analysis of Ad Hoc Networks With Packet Queueing, Channel Contention and Hybrid ARQ, in Proceedings of the Information Theory and Applications Workshop (ITA), San Diego, California, Jan. – Feb. 2008.
+2007
+M. Levorato, P. Casari, S. Tomasin, and M. Zorzi, Physical Layer Approximations for Cross-Layer Performance Analysis in MIMO-BLAST Ad Hoc Networks, IEEE Transactions on Wireless Communications, vol. 6, no. 12, pp. 4390 – 4400, Dec. 2007.F. Librino, M. Levorato, and M. Zorzi, Distributed Cooperative Routing and Hybrid ARQ in MIMO-BLAST Ad Hoc Networks, in Proceedings of the IEEE Global Communications Conference (GLOBECOM), Washington, DC, Nov. 2007.L. Badia, M. Levorato, and M. Zorzi, An Improved Channel Quantization Method for Performance Evaluation of Incremental Redundancy HARQ Based on Reliable Channel Regions, in Proceedings of the Allerton Conference on Communication, Control and Computing, Monticello, Illinois, Sep. 2007.S. Tomasin, M. Levorato, and M. Zorzi, Coded Cooperation for Ad Hoc Networks With Spatial Multiplexing, in Proceedings of the IEEE International Conference on Communications (ICC), Glasgow, UK, Jun. 2007.S. Tomasin, M. Levorato, and M. Zorzi, Analysis of Outage Probability for Cooperative Networks With HARQ, in Proceedings of the IEEE International Symposium on Information Theory (ISIT), Nice, France, Jun. 2007.M. Levorato, S. Tomasin, and M. Zorzi, Strategies and Tradeoffs for Coded Cooperation in Wireless Networks, in Proceedings of the IEEE International Symposium on Modeling and Optimization in Mobile, Ad Hoc and Wireless Networks (WiOpt), Limassol, Cyprus, Apr. 2007.
+2006
+L. Badia, M. Levorato, and M. Zorzi, Analytical Investigation With Markov Models of Selective Repeat Truncated Type II Hybrid ARQ, in Proceedings of the IEEE Global Communications Conference (GLOBECOM), San Francisco, California, Nov. – Dec. 2006.M. Levorato, P. Casari, and M. Zorzi, On the Performance of Access Strategies for MIMO Ad Hoc Networks, in Proceedings of the IEEE Global Communications Conference (GLOBECOM), San Francisco, California, Nov. – Dec. 2006.M. Levorato, S. Tomasin, and M. Zorzi, Analysis of Cooperative Spatial Multiplexing for Ad Hoc Networks With Adaptive Hybrid ARQ, in Proceedings of the IEEE Vehicular Technology Conference (VTC), Montreal, Canada, Sep. 2006.P. Casari, M. Levorato, and M. Zorzi, DSMA: An Access Method for MIMO Ad Hoc Networks Based on Distributed Scheduling, in Proceedings of the International Wireless Communications and Mobile Computing Conference (IWCMC), Vancouver, Canada, Jul. 2006.M. Levorato, P. Casari, S. Tomasin, and M. Zorzi, An Approximate Approach for Layered Space-Time Multiuser Detection Performance and Its Application to MIMO Ad Hoc Networks, in Proceedings of the IEEE International Conference on Communications (ICC), Istanbul, Turkey, Jun. 2006.M. Levorato, P. Casari, S. Tomasin, and M. Zorzi, Analysis of Spatial Multiplexing for Cross-Layer Design of MIMO Ad Hoc Networks, in Proceedings of the IEEE Vehicular Technology Conference (VTC), Melbourne, Australia, May 2006.
+2005
+P. Casari, M. Levorato, and M. Zorzi, On the Implications of Layered Space-Time Multiuser Detection on the Design of MAC Protocols for Ad Hoc Networks, in Proceedings of the IEEE International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC), Berlin, Germany, Sep. 2005.P. Casari, M. Levorato, and M. Zorzi, Some Issues Concerning MAC Design in Ad Hoc Networks With MIMO Communications, in Proceedings of the Wireless Personal Multimedia Conference (WPMC), Aalborg, Denmark, Sep. 2005.M. Rossi, P. Casari, M. Levorato, and M. Zorzi, Multicast Streaming Over 3G Cellular Networks Through Multi-Channel Transmissions: Proposals and Performance Evaluation, in Proceedings of the IEEE Wireless Communications and Networking Conference (WCNC), New Orleans, Louisiana, Mar. 2005.
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+Powered By WordPress |                     LMS Academic
+
+
+
+
+
+
+
+
+
+
+
+
+
+

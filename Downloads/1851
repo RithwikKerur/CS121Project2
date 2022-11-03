@@ -1,0 +1,107 @@
+https://sli.ics.uci.edu/PmWiki/Search
+
+
+
+SLI | PmWiki / Search 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+Search
+
+
+
+
+
+
+
+This page uses custom searches.
+For regular searches, view another page.
+
+PmWiki provides a basic search function.  While it is not powered by a "search engine", it can be tweaked to produce results that are targeted and customized.
+
+Targeted searches
+Searches can be targeted to restrict the search to certain pages.  For example, a search can be restricted based on groups, where, for instance, "group=PmWiki" searches only the PmWiki group, and "group=-PmWiki" searches only pages that are not in the PmWiki group.  In addition to groups, searches can be restricted based on page names ("name="), wiki trails ("trail="), backlinks ("link=") and other criteria (e.g. "list=normal") and capped at a maximum number ("count=").  For documentation about each of these parameters, see page lists.   
+
+Customized display
+The display of search results can be customized to control the format, content and order of the returned results.  
+fmt= select format and content by specifying a pagelist template that determines layout, such as list styles, and page elements, such as title and description.  
+order= allows results to be sorted according to different criteria, such as name and title.  For documentation about each of these parameters, see page lists.   
+For examples of pagelist template formats see Site.Page List Templates,  and Cookbook:Pagelist Template Samples.
+
+The (:pagelist request=1 req=1:) directives can be used instead of (:searchresults:) to remove the "Results of search for" message.
+Neither of these directives work for the (:searchresults:) or (:searchbox:) directives.
+req=1 disables the pagelist until search results are returned.
+request=1 see pagelists
+This can be used in many more cases than the default pmwiki search. 
+Data from pages with PTVs, etc can be searched, filtered, and reordered.
+Note that the default ordering is of text strings, ie. 1, 10, 2, 3 and not the numeric value 1, 2, 3, 10, but a custom pagelist sort function (see the cookbook?) can return any order required.
+
+Anyone, anywhere
+Readers can create targeted and customized search results simply by typing the relevant parameters , e.g. "group=PmWiki", into search boxes together with their search string.  Authors can predefine such targeted and customized searches by incorporating the parameters into pages using the (:searchbox:) and (:searchresults:) directives (documented at PageLists).
+
+(:searchresults:) can be customized by editing page Site.Search.
+
+See also
+$PageSearchForm
+$SearchBoxOpt
+$SearchPatterns
+
+Try it: this page generates custom searches
+Any search that is run from this page will automatically generate pre-defined sets of search results that: target different clusters of pages (documentation, cookbook and PITS, if available); use customized formats, content and ordering; and reveal the specific parameters used to generate each search result.  Whether you use the search box below, or the regular search box that appears at the top of this page, any search that you run from this page will provide the customized results.  
+
+
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:Search, and  a talk page: PmWiki:Search-Talk.
+
+
+
+
+
+
+ Last modified November 29, 2012, at 09:25 AM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

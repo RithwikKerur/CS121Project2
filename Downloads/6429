@@ -1,0 +1,231 @@
+http://www.ics.uci.edu/~kay/courses/i41/quiz/old
+
+
+
+
+
+Quizzes
+
+
+
+
+
+INFORMATICS 41 • DAVID G. KAY • UC IRVINE • FALL 2011
+ Past Quizzes 
+This is the complete set of Informatics
+41 quizzes from   Fall 2004 through Fall 2010. 
+ These quizzes are the best guide available
+  to the kinds of questions we might ask on this quarter's quizzes, but
+  they are not a perfect match.  We may cover topics at a different
+  pace, in a different order, or of an entirely different nature; that means
+  that Quiz N on this list will not be an exact match for what's on Quiz
+  N this quarter.  Look at Quiz N+1 or Quiz N–1 on this list for the topics covered in this quarter's  homework and lab assignments for the previous week. You should be well prepared if you come to class, come to section, do your assignments in
+  a timely way, and ask questions where necessary.
+As you use these quizzes to prepare, you should try to solve the problems yourself, and ask
+in your lab section if you can't.  We have deliberately not displayed
+answers here, to encourage you to do as we suggest.
+QUIZZES FROM FALL 2011
+
+ First Quiz: Course advice, evaluating expressions, constant definitions
+
+ Second Quiz: Evaluating  expressions, nested expressions, laptops in class, software development, writing simple functions
+
+ Third Quiz: Evaluating Boolean expressions and cond expressions, functional programming, writing simple functions
+
+ Fourth Quiz: Processing structures, list operations
+
+ Fifth Quiz: Coding with lists, list processing patterns
+
+ Sixth Quiz: Binary search tree insertion, coding with lists
+
+ Seventh Quiz: Map, filter, foldr, build-list, binary search tree insertion, coding with lists of structures
+
+ Eighth Quiz: Deus X, high-level programming languages, O-notation, map, filter, foldr
+
+ Ninth Quiz: Bits and bytes, vector expressions, reading restaurants code, binary search trees
+Tenth Quiz: Recursion, accumulators, tail recursion, vectors of vectors
+
+
+QUIZZES FROM FALL 2010
+
+ First Quiz: Course advice, evaluating expressions, constant definitions
+
+ Second Quiz: Evaluating  expressions with function definitions, nested expressions, laptops in class, writing simple functions
+
+ Third Quiz: Evaluating Boolean expressions and cond expressions, check-expect tests, writing simple functions
+
+ Fourth Quiz: Processing structures
+
+ Fifth Quiz: List operations, functions with structures, list-processing functions, recursion, networks
+
+ Sixth Quiz: Processing lists of structures, binary search tree insertion
+
+ Seventh Quiz: Map, filter, foldr, build-list, binary search tree traversal and searching
+
+ Eighth Quiz: Deus X, O-notation, binary search tree insertion, reading restaurants code
+
+ Ninth Quiz: Vector expressions, O-notation, bits and bytes, binary search tree traversal
+Tenth Quiz: Recursion, accumulators, tail recursion, vectors of vectors
+
+
+ QUIZZES FROM FALL 2009
+
+ First Quiz: Course advice, evaluating expressions 
+
+ Second Quiz: Evaluating  expressions with function definitions, processing structures, writing simple functions
+
+ Third Quiz: Evaluating Boolean expressions and list expressions, defining and processing structures, networks
+
+ Fourth Quiz: Updating structures, processing lists, lists of structures
+
+ Fifth Quiz: Filtering items in a list, binary search trees
+
+ Sixth Quiz: Processing lists containing structures and lists, traversing a binary tree
+
+ Seventh Quiz: Map, filter, foldr, build-list, quicksort
+
+ Eighth Quiz: Deus X and machine language, reading restaurants code, functional programming
+
+ Ninth Quiz: List and vector code, tail recursion, accumulator style, O-notation, bits and bytes
+Tenth Quiz: Binary circuitry, data compression, list processing code
+
+
+QUIZZES FROM FALL 2008
+
+ First Quiz: Course advice, evaluating expressions 
+
+ Second Quiz: Evaluating  expressions with function definitions, processing structures, writing simple functions
+
+ Third Quiz: Evaluating Boolean expressions and list expressions, defining and processing structures
+
+ Fourth Quiz: Processing lists, lists of structures, user interfaces
+
+ Fifth Quiz: Counting selected items in a list, binary search trees, algorithm performance
+
+ Sixth Quiz: Processing lists containing structures and lists, traversing a binary tree
+
+ Seventh Quiz: Map, filter, foldr, Deus X
+
+ Eighth Quiz: Vectors, O-notation, bits and bytes
+
+ Ninth Quiz: Reading  restaurants code, tail recursion, accumulator style, APIs and abstraction barriers, compression
+
+
+
+QUIZZES FROM FALL 2007
+
+ First Quiz: Course advice, evaluating expressions 
+
+ Second Quiz: Evaluating  expressions with function definitions, writing simple functions
+
+ Third Quiz: Evaluating list expressions, functional programming, defining and processing structures, networks
+
+ Fourth Quiz: Selecting from a list, binary search trees
+
+ Fifth Quiz: Binary trees, organization of the restaurants program
+
+ Sixth Quiz: List lookup, combining previously defined functions
+
+ Seventh Quiz: Map, filter, foldr
+
+ Eighth Quiz: Sum selected items in list of structures, functions as arguments to a function, Deus X
+
+ Ninth Quiz: Bits and bytes, O-notation, vectors 
+Tenth Quiz: Accumulators, tail recursion, operating systems, compression
+
+
+QUIZZES FROM FALL 2006
+
+ First Quiz: Course advice, evaluating expressions, writing simple functions 
+
+ Second Quiz: Evaluating boolean expressions, defining and processing structures 
+
+ Third Quiz: Evaluating list expressions, processing lists (sum, find, filter) and using previously defined functions 
+
+ Fourth Quiz: Removing from a list, binary search trees
+
+ Fifth Quiz: Binary trees, list lookup, processing two lists, combining previously defined functions 
+
+ Sixth Quiz: Map, filter, foldr 
+
+ Seventh Quiz: Update item in list, lambda expressions, Deus X 
+
+ Eighth Quiz: Bits and bytes, representing graphics, computer organization, O-notation, security 
+
+ Ninth Quiz: Vectors, accumulators, tail recursion, compression 
+
+
+QUIZZES FROM FALL
+2005
+
+
+First Quiz: Course advice, evaluating expressions, writing simple functions  
+
+
+Second Quiz: Evaluating boolean expressions, writing cond expressions, defining and processing structures 
+
+
+Third Quiz: Evaluating list expressions, processing lists (count, map, filter operations), changing a structure 
+
+
+Fourth Quiz: Filtering a list, binary search trees
+
+
+Fifth Quiz: Traversing a binary search tree, processing lists containing lists, using previously defined functions 
+
+
+Sixth Quiz: Map, filter, foldr 
+
+
+Seventh Quiz: Update item in list, lambda expressions, Deus X 
+
+
+Eighth Quiz: O-notation, bits and bytes, operating systems, vectors 
+
+
+Ninth Quiz: O-notation and execution time, accumulators, tail-recursion, compression 
+
+
+
+QUIZZES FROM FALL
+2004
+
+
+First Quiz:
+ HtDP Chapters 1-2
+
+
+Second Quiz:
+ HtDP Chapters 3-6
+
+
+Third Quiz:
+ HtDP Chapters 7-10, Fluency Chapters 3, 5, 6 
+
+
+Fourth Quiz:
+ HtDP Chapters 11-14, Fluency Chapter 4
+
+
+Fifth Quiz:
+ HtDP Chapters 15-18
+
+
+Sixth Quiz:
+ HtDP Chapters 19-24
+
+
+Seventh Quiz:
+ HtDP Chapters 25-27
+
+
+Eighth Quiz:
+ HtDP Chapter 29
+
+
+Ninth Quiz:
+ HtDP Chapters 30-37, Fluency Chapters 8, 9, 11
+
+
+
+

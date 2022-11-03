@@ -1,0 +1,11 @@
+http://plrg.ics.uci.edu/publications/240.bib
+@article{key,
+ author = {Brian Demsky and Sivaji Sundaramurthy},
+ title = {Bristlecone: Language Support for Robust Software Applications},
+ journal = {IEEE Transactions on Software Engineering},
+ volume = {37},
+ number = {1},
+ pages = {4--23},
+ month = {Jan-Feb},
+ year = {2011}
+}

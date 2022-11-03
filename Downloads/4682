@@ -1,0 +1,237 @@
+https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-git
+
+
+
+
+      cs222-2018-fall-git – Public
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LoginPreferencesAbout Trac
+
+
+
+
+
+
+
+wiki:cs222-2018-fall-git
+
+
+Context Navigation
+
+Start PageIndexHistory
+
+
+
+
+
+
+Suppose the CS222 team 99 contains 2 members (Bob and Alice). We will see how they use Git to collaborate in the CS222 class.
+
+Setting up Git:
+Each student creates a github account, and shares his/her github username with the CS222 staff on this ​spreadsheet.
+The staff will send each of them an invitation to join the ​UCI-chenli-teaching organization. Both accept the invitation and are added to the organization.
+One team member, say Bob, needs to create a  private (default setting) repository called cs222-fall18-team-99 (naming format is "cs222-fall18-team-xx" where "x" is your assigned team number.) on Github.com within organization UCI-chenli-teaching. 
+1) Go to ​UCI-Chenli-teaching organization. 
+2) Click the New button to create a repository. 
+
+
+
+3) Type in the name and choose private.
+
+
+
+Bob also needs to add the other member Alice to the repository as a collaborator (by following steps given ​here).
+Initializing Git repo with our codebase:
+On his local machine, Bob installs a Git client by following the instructions ​here.
+He then does the following:
+shell> mkdir mycs222-projects
+shell> cd mycs222-projects
+shell> git clone https://<Bob's username>@github.com/UCI-Chenli-teaching/cs222-fall18-team-99.git     - Clone the repository you just created to your local machine
+shell> cd cs222-fall18-team-99/
+shell> git pull https://github.com/UCI-Chenli-teaching/cs222-fall18.git master --allow-unrelated-histories    - Pull our project codebase to your local machine and merge it to your local "cs222-fall18-team-99" repository
+
+If you have some commits to your repo before, git will open vim automatically for you to edit comments to resolve conflicts.
+
+Just type ":q" will use default message and complete the merging operation.
+
+Otherwise, simply ignore this step.
+
+
+Now you will see something like this:
+
+From https://github.com/UCI-Chenli-teaching/cs222-fall18
+ * branch            master     -> FETCH_HEAD
+Merge made by the 'recursive' strategy.
+ .gitignore/.gitignore |  32 ++++++++++++++++++++
+ makefile.inc          |   8 +++++
+ project1_report.txt   |  23 +++++++++++++++
+ rbf/makefile          |  49 +++++++++++++++++++++++++++++++
+ rbf/pfm.cc            |  88 +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ rbf/pfm.h             |  52 +++++++++++++++++++++++++++++++++
+ rbf/rbfm.cc           |  47 +++++++++++++++++++++++++++++
+ rbf/rbfm.h            | 137 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ rbf/rbftest1.cc       |  50 +++++++++++++++++++++++++++++++
+ rbf/rbftest10.cc      | 144 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ rbf/rbftest11.cc      | 114 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ rbf/rbftest12.cc      | 116 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ rbf/rbftest2.cc       |  46 +++++++++++++++++++++++++++++
+ rbf/rbftest3.cc       |  62 +++++++++++++++++++++++++++++++++++++++
+ rbf/rbftest4.cc       |  92 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ rbf/rbftest5.cc       |  96 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ rbf/rbftest6.cc       | 111 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ rbf/rbftest7.cc       | 144 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ rbf/rbftest8.cc       | 108 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+rbf/rbftest8b.cc      | 115 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ rbf/rbftest9.cc       | 129 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ rbf/test_util.h       | 281 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ readme.txt            |  20 +++++++++++++
+ 23 files changed, 2064 insertions(+)
+ create mode 100644 .gitignore/.gitignore
+ create mode 100644 makefile.inc
+ create mode 100644 project1_report.txt
+ create mode 100644 rbf/makefile
+ create mode 100644 rbf/pfm.cc
+ create mode 100644 rbf/pfm.h
+ create mode 100644 rbf/rbfm.cc
+ create mode 100644 rbf/rbfm.h
+ create mode 100644 rbf/rbftest1.cc
+ create mode 100644 rbf/rbftest10.cc
+ create mode 100644 rbf/rbftest11.cc
+ create mode 100644 rbf/rbftest12.cc
+ create mode 100644 rbf/rbftest2.cc
+ create mode 100644 rbf/rbftest3.cc
+ create mode 100644 rbf/rbftest4.cc
+ create mode 100644 rbf/rbftest5.cc
+ create mode 100644 rbf/rbftest6.cc
+ create mode 100644 rbf/rbftest7.cc
+ create mode 100644 rbf/rbftest8.cc
+ create mode 100644 rbf/rbftest8b.cc
+ create mode 100644 rbf/rbftest9.cc
+ create mode 100644 rbf/test_util.h
+ create mode 100644 readme.txt
+
+Now you already have the whole code base merged to your local repository
+
+shell> git push          - Push the updated local repository to your remote "cs222-fall18-team-99" repository
+
+Now you will see something like this:
+
+Counting objects: 31, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (29/29), done.
+Writing objects: 100% (31/31), 14.95 KiB | 3.74 MiB/s, done.
+Total 31 (delta 11), reused 0 (delta 0)
+remote: Resolving deltas: 100% (11/11), done.
+To https://github.com/UCI-Chenli-teaching/cs222-fall18-team-99.git
+   3e7e4d2..f51d097  master -> master
+
+Now it means your remote "cs222-fall18-team-99" repository has all the code in our codebase, and it's ready for you and your partner to work on the project based on that now!
+
+Using Git to collaborate on this project:
+Bob now wants to start on project 1. He creates a new branch from the master branch for this task.
+shell> git branch            - This command is used to check which branch you are on and what branches are there in your repository. master should be highlighted as you are on master branch. 
+shell> git checkout -b bob-feature1            - This command creates a new branch and copies all the code from the previous (i.e. master in our case) branch into the new branch. 
+shell> mkdir project1 
+shell> cd project1 
+shell> echo "#include <iostream> using namespace std; int main() { cout << "Hello, World!"; return 0; }" > hello.cpp 
+shell> git add hello.cpp 
+shell> git commit -m "added hello world"            - commits changes locally to the bob-feature1 branch 
+shell> git push --set-upstream origin bob-feature1            - creates a remote tracking branch for the local bob-feature1 branch
+Alice wants to contribute too. First Bob needs to invite Alice as a contributor to this repository on the Github web site (by following steps given ​here).  Then she can see the repository. She does the following:
+shell> mkdir gitclones 
+shell> cd gitclones 
+shell> git clone https://<Alice's username>@github.com/UCI-Chenli-teaching/cs222-fall18-team-99.git             - brings the repository onto her local machine 
+shell> cd cs222-fall18-team-99 
+shell> git checkout bob-feature1             - She is initially on master branch. This statement changes her branch bob-feature1 branch. She can now see project 1 code and does the required changes. 
+shell> cd project1
+MODIFY THE FILE hello.cpp
+shell> git add hello.cpp 
+shell> git status
+shell> git config  user.email "alince@alice.com"
+shell> git config  user.name "Alice Smith"
+shell> git commit -m "minor changes" 
+shell> git push             - pushes the commit to bob-feature1 remote branch
+Bob wants to continue coding. Before proceeding to modify any files, he needs to do 'git pull' so that the local branch pulls the latest code from the remote branch.  In particular, Bob does:
+shell> git branch        - to see which branch he is on. He sees he is on bob-feature1 branch. 
+shell> git pull             - pulls the latest code. Bob now sees the changes that Alice pushed.
+Bob and Alice can also use github to create a pull request from the bob-feature1 branch to the master branch to do code reviews. Check this ​video to learn this process.
+
+Refer to following tutorials for more information:
+
+​https://try.github.io
+​https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
+
+
+Last modified 4 years ago
+Last modified on Oct 8, 2018 1:15:42 PM
+
+
+
+Attachments (2)
+
+
+
+create-repo-button.png​
+       (38.4 KB) -
+      added by cluo8 4 years ago.
+              
+
+create-repo-interface.png​
+       (206.9 KB) -
+      added by cluo8 4 years ago.
+              
+
+
+            Download all attachments as: .zip
+
+
+
+
+
+Download in other formats:
+
+
+Plain Text
+
+
+
+
+
+
+Powered by Trac 1.0.13
+        By Edgewall Software.
+Visit the Trac open source project athttp://trac.edgewall.org/
+
+

@@ -1,0 +1,28 @@
+http://www.ics.uci.edu/~fowlkes/software/hme
+
+
+
+Index of /~fowlkes/software/hme
+
+
+Index of /~fowlkes/software/hme
+ Parent Directory
+ hme.m
+ hmeCreate.m
+ hmeCreateExpert.m
+ hmeCreateMixture.m
+ hmeEval.m
+ hmeFit.m
+ hmeInitLR.m
+ hmeInitRand.m
+ hmeRead.m
+ hmeVis.m
+ hmeWrite.m
+ hme_test.m
+ hme_test2.m
+ hme_test3.m
+ logistK.m
+ logistK_eval.m
+
+Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips SVN/1.7.14 Server at www.ics.uci.edu Port 80
+

@@ -1,0 +1,9 @@
+http://plrg.ics.uci.edu/publications/630.bib
+@inproceedings{key,
+ author = {Rahmadi Trimananda and Janus Varmarken and Athina Markopoulou and Brian Demsky},
+ title = {Packet-Level Signatures for Smart Home Devices},
+ booktitle = {Proceedings of the 2020 Network and Distributed Systems Security (NDSS 2020)},
+ location = {San Diego, CA},
+ month = {February},
+ year = {2020}
+}

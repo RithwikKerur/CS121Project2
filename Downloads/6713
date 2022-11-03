@@ -1,0 +1,79 @@
+http://xtune.ics.uci.edu
+
+
+
+
+
+
+
+
+
+My Home Page
+
+
+
+
+
+
+
+
+
+
+
+xTune: A Formal Methodology for Cross-layer Tuning 
+of Mobile Real-time Embedded Systems
+ 
+[Home] [People] [News] [Publications] [Sponsors] [Links]
+
+
+
+ 
+Resource
+limited mobile real-time embedded systems can benefit greatly from dynamic
+adaptation of
+system parameters. This thesis proposes a novel framework,
+xTune, that
+employs iterative tuning using light-weight formal verification at runtime
+with feedback
+for dynamic adaptation of mobile real-time embedded systems.
+One
+objective of this approach is to enable tradeoff analysis across multiple
+layers of
+abstraction (for
+example, application, middleware, operating system) and predict the
+possible property
+violations as the system evolves dynamically over time. Specifically, 
+an executable
+formal specification is developed for each layer of the mobile real-time
+system under
+consideration. The formal specification is then analyzed using statistical
+model checking
+and statistical quantitative analysis, to determine the impact of
+various resource
+management policies for achieving a variety of end-to-end properties
+in a
+quantifiable manner. The integration of formal analysis with dynamic behavior
+from system
+execution results in a feedback loop that enables model refinement and
+further optimization
+of policies and parameters. Finally, we propose a composition
+method for
+coordinated interaction of optimizers at different abstraction layers. The
+core idea of
+our approach is that each participating optimizer can restrict its own
+parameters
+and exchange
+refined parameters with its associated layers. We demonstrate
+the
+applicability of the proposed methodology to the adaptive provisioning of
+mobile
+real-time embedded
+systems through a multimedia case study on resource-limited
+mobile devices.
+
+
+
+Last modified: Jan/15/2009 
+
+
+

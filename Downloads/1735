@@ -1,0 +1,133 @@
+http://sli.ics.uci.edu/Classes/2012S-274b
+
+
+
+SLI | Classes / CS274b: Learning in Graphical Models 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Classes /
+CS274b: Learning in Graphical Models
+
+
+ CLOSED : 2012 OFFERING  
+
+Assignments and Exams:
+
+HW1, CodeDue 4/25/12Soln  
+HW2, ProbsDue 5/17/12Soln,code  
+     
+MidtermOut 5/9Due 5/16  
+FinalOut 6/11Due 6/15  
+ProjectsDue 6/12
+
+Lecture: ICS 180, TR 3:30pm-5pm
+Instructor: Prof. Alex Ihler (ihler@ics.uci.edu), Office Bren Hall 4066
+Office Hours: Mondays 2-3pm, Bren Hall 4066, or by appointment
+
+Graphical models have assumed a central role in representing and reasoning about complex systems across many scientific domains.  Examples of graphical models include Bayesian networks and constraint networks from artificial intelligence, Markov random fields from statistics and statistical physics, and factor graphs from coding and information theory.  Graphical models provide a common language to represent, make explicit, and communicate modeling assumptions, as well as providing a useful structure for organizing computation and approximations.  Today, graphical models are used in many application areas: signal and image processing, computer vision, game theory, operations research, error-correcting codes, and computational biology.
+
+The primary goal of this course is to familiarize students with the concepts underlying graphical models, and in particular with learning these models from data.  A student who has successfully completed the course should be able to understand a wide variety of well known models in terms of this unifying framework and feel comfortable using it to design new models. The course will contain: (1) formal mathematical sections necessary for the development of
+the theory, (2) examples of probabilistic models (re)formulated in the language of graphical models and (3) examples of successful applications to real data.
+
+The assumed pre-requisite for the course is CS274a (Probabilistic Learning); I will also assume familiarity with Matlab.
+
+
+Textbook
+An excellent reference is Koller & Friedman (2009), "Probabilistic Graphical Models", and we will roughly follow (selected portions of) that text.
+
+
+Syllabus and Schedule  (subject to change)
+Maximum likelihood & exponential family models
+Inference & learning in trees; EM; Chow-Liu
+Loopy models: iterative scaling, IPF, pseudolikelihood
+Learning and approximate inference:
+Monte Carlo: MCMC-MLE, contrastive divergence
+Variational: loopy belief propagation and variants; entropic learning
+Structure learning: basics; sparse learning; independence tests; etc.
+Conditional random fields (FnT tutorial)
+Max-margin Markov networks & structured SVMs
+
+(Tentative) Schedule of Topics.
+ TopicsSlidesReading
+Week 0Class introduction; graphical modelsSlides, LecturePGM Ch1-2, 3.1-3.2, 8.2
+ GMs continued; maximum likelihoodSlides, LecturePGM 3.3, 4.1-4.5
+Week 1Chow-Liu; Expectation-MaximizationSlides, Lecture 1, 2
+ EM, hidden Markov modelsSlides, LecturePGM 19.1-19.2
+Week 2Learning & inference in loopy modelsSlides, LecturePGM 9, 10, 20.1-20.2
+ ^^ continuedSlides, Lecture^^; see also Jordan notes
+Week 3Monte Carlo estimates for learningSlides, Lecture
+ no class
+Week 4Variational algorithmsSlides, LecturePGM 11.1-2, 13.5
+ Variational algorithms ct'dNo slides
+Week 5Conditional random fieldsNo slidesFnT tutorial
+ Structured SVMsTutorial slides from CVPR 2011; Lecture
+Week 6CRFs and SSVMs continued
+ Structure learning in BNs
+ Priors, regularization, and Lp-norms
+Week 7Sparse regularization for variable selection
+ Structure learning in MRFs (Gaussian, discrete)
+Week 8Structure learning through independence tests
+ Copulas Useful chapter on copula models
+
+
+Code
+For the class, I am providing some of my own Matlab code for graphical models, mostly for discrete or Gaussian distributions.  I may need to update the code during the class; if so I will include it with the relevant assignment.  The main component is a factor class for representing and manipulating the elemental functions that make up a graphical model.  In addition to the help in each function, there is some simple documentation here.
+
+There are many other software packages available that also aim to simplify the use or study of graphical models, usually also the personal code of the lead researcher.  Some good ones include:
+BNT: Bayes Net Toolbox (Matlab)
+PMTK3: Probabilistic Modeling Toolkit (Matlab)
+libDAI (C++)
+Grante (C++)
+UnBBayes (Java), 
+(Note: if you have other suggestions feel free to share them with me and I may add them; but this is not intended to be a complete list of all GM software.)
+
+
+
+
+
+
+
+ Last modified January 19, 2015, at 04:36 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

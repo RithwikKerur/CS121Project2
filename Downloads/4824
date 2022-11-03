@@ -1,0 +1,104 @@
+https://www.ics.uci.edu/~lopes/teaching/ics10/network-project.html
+Network Project 
+In this project, you are going to configure a simulated Internet in the virtual world, so that you can send messages from any treehouse to any other treehouse using a protocol that models the Internet Protocol. The network consists of nodes, some of them terminal (modeling home computers), others intermediary (modeling ISP routers and even backbones). Here is how they look like:
+
+This is a terminal node. The panel on the left displays the latest message received; the panel on the right is to send messages.  
+This is a router; it has only one panel that shows its routing table.   
+
+ 
+At the end of the project, your terminal in your treehouse should be able to send messages to any other terminal in any treehouse of the virtual world. The Litmus test is whether messages reach the destinations or not.
+The actual work you need to to is pretty minimal, but in order to do it correctly and effectively, you need to:
+
+Understand how networks and network addresses work (see Network Lectures 1 and 2)
+Understand how space in the virtual world is measured and represented, so you can lay virtual cables between nodes (explained down below)
+Understand the network topology (explained down below)
+Understand how you can configure the nodes of the simulated network (explained down below)
+Coordinate and communicate effectively with multiple groups of students (explained down below), namely
+
+With the up-to-8 students on your "street"
+With the up-to-40 students on your "zone"
+With the up-to-80 students in your half of the world
+
+
+
+This project is as much an exercise in network configuration as it is an exercise in student coordination, because the configuration of the network is not just done by one student but by all of you! You will need to organize in groups that reflect the hierarchical structure of the simulated Internet. By doing so, you will also learn about the social and commercial aspects of the Internet.
+Part 1: Networks and Network Addresses
+Make sure to watch all the videos in the Network lecture in Tuesday, and don't miss the live lecture on Thursday (or watch the video afterwards).
+Part 2: Space in the Virtual World
+Geography
+If you pull up the map (Cntrl-m), you will see something like this:
+  
+The virtual world is divided into two halves: North side and South side. In between them, there is the ocean. You cannot cross from one half to the other by walking, but you can teleport. In the real world these correspond to continents separated by oceans, such as America and Asia.
+Furthermore, each half is divided into 2 zones. On the South side, there is Zone 1 (green) and Zone 2 (blue); on the North side there is Zone 3 (yellow) and Zone 4 (red). In the real world, these might correspond to countries.
+    
+Technically, each zone is served by a separate game server, so to balance the load, but you don't need to worry about that. The only thing you need to know is that each of these zones is a square of 512x512m2. Also, the North side and the South side are separated by a distance of 512m.
+Zones, like countries, are relatively independent of each other. Specifically, the coordinates in each zone are local coordinates whose (0,0) point is the southwestern-most corner of each square. In each zone, the X axis (horizontal) increases left to right, and the Y axis (vertical) increases bottom to top. So, for example, the South side auditorium is, roughly between (312, 400) and (512, 512) in Zone 1 and between (0, 400) and (200, 512) in Zone 2. In each zone, you can refer to points outside of it by using coordinates that are greater than 512 (to the right / to the top) or negative (to the left / to the bottom).  So, for example, with respect to Zone 3, the South side auditorium in Zone 1 is, roughly between (-200, -624) and (0, -512).
+Urban Layout
+From the picture above, we can see how the regions are organized. In each region there are several streets, each with two rows of treehouses (an exception is Zone 4, the street near the Boardwalk mall, which has only 4 treehouses). The streets are numbered, rather than named. Here's one example of a street number -- you will find these signs in every street:
+  
+Your first task is to identify the Zone and Street of your treehouse! This is very important for this project, as that will determine which groups you belong to, and which network nodes you are responsible for. So go ahead, and identify your zone/street.
+The virtual world does not specify numbers for treehouses, but each treehouse should be associated with a number between 1 and 10 that is unique within each street. You will need to coordinate with your street neighbors, so that each of you gets a unique number; there should be no duplicates within a street.
+Part 3: Network Topology
+You are going to simulate the Internet. The Internet is a hierarchical network -- a network of networks. So is this simulated network! The following picture illustrates the hardware and connections that you will need to put in place:
+    
+Let me explain this picture in parts:
+
+The white dots are home networks, one in each treehouse. Home networks consist of one router and one or more terminals. Examples of home network connections are shown in only one street of Zone 1 (green); all others are omitted for simplicity sake
+The colored dots (green, blue, yellow and red) are street-level routers, similar to those that Cox/Comcast places in every street in our neighborhoods. The terminal nodes of each street should connect to the corresponding street-level routers. For simplicity sake, the picture shows the connections for only one of the streets on Zone 1, but all other streets should have similar connections between the terminal nodes and the corresponding street-level routers.
+The colored squares (green, blue, yellow, and red) are the region-level routers, similar to those that ISPs operate in cities. There should be connections between each street-level router and the corresponding region-level routers.
+The two large orange circles are continent-level routers, also known as "backbones." These are the top layer of the network hierarchy; they have no "parents" above them, only siblings. There should be only one in the South side, and only one in the North side. They can be where the picture shows them, or you can place them elsewhere. But there should be only one backbone per continent.
+
+Independent of whether a router is a home-level, street-level, region-level, or continent-level, all routers do exactly the same thing: they route messages upstream and downstream according to their internal routing tables. For that reason, your package contains only one type of router.
+Part 4: Network Addresses, Physical Locations, and Configuration
+Network addresses
+Just like IP addresses, the network addresses here are hierarchical. Our addresses consist of 4 parts: zone, street, house, and terminal. Here is an example of a network address in our simulated Internet:
+3.4.1.2
+This address identifies terminal 2 in house 1 in street 4 of zone 3. The format, in general, is zone.street.house.terminal, but some parts are optional:
+
+A home router is identified only by three parts: zone, street,house. For example: 3.4.2 is a home router.
+A street router is identified only by two parts: zone.street. For example, 2.5 is a street router.
+A zone router is identified only by one part: zone. For example, 2 is a zone router.
+Backbones should be identified just by address 0.
+Although every terminal needs a 4-part address, in sending messages to a home, the exact terminal may be omitted by using 0 in its position. For example, 3.4.1.0 identifies some terminal in house 3.4.1, we don't care which one.
+
+Every node in the network must be identified by an address, and that address needs to be entered in the node objects. In order to do that, right-click on the node object (terminal or router), chose "Edit", and then the tab "General." The name should be "Network Router:" or "Network Terminal:" followed by an address. Here is an example:
+  
+Make sure to keep the words "Network Router" or "Network Terminal" followed by a ":' before entering the node's address.
+The first time you enter the Name of a node, and every time you change it, you must reset it by right-clicking on the object, then choosing "More", then "More" again, then "Scripts", then "Reset Scripts".
+Physical Locations
+In order to "connect" nodes, we are going to use their spatial coordinates, so that nodes can "physically" send messages to other nodes. You can find out the coordinates of an object (for which you have permission to inspect) by right-clicking on the object, choosing "Edit", and then going to the tab "Object." Here is an example:
+    
+You only need to use the integer part of the coordinates, not the decimal part. So, round up or down for integer coordinates x, y, z.
+Configuration
+Connecting any two nodes is done by configuring their upstream and downstream routes. In this network, nodes can only have one upstream route, but many downstream ones. For example, according to the topology picture above, street-level routers connect to only one region-level router (upstream) but to many terminals (downstream).
+Upstream configuration: because there is only one, the upstream configuration is done using the object's "Description" field. Right-click on the object, chose "Edit" and then chose the "General" tab. Then fill out the Description field with the following:
+Upstream: x, y, z
+where x, y, and z are the coordinates of the upstream router to which the node you are configuring should be connected. Please keep the word "Upstream" followed by a ":' before entering the comma-separated coordinates. Here is an example:
+  
+What this means is that this node (in this case, a streel-level router) will send incoming upstream messages to location 111, 405, 23, where, supposedly, there is a region-level router.
+When you enter the upstream information for the first time, and every time you change it, you need to reset the node: right-click the object, chose "More", then "More" again, then "Scripts", then "Reset Scripts."
+Downstream configuration: because there are many downstream nodes, downstream configuration is done by dragging notecards onto the panel of the routers. The information in the notecard should include the downstream node and its coordinates, for example:
+Node: 6Position: 430, 355, 23
+This information relates to downstream nodes, so it only needs to identify them by a single number, not three. In the example above, node 6 identifies node 6 downstream from the router that we are configuring.
+Each notecard adds exactly one entry; it does not replace what is already there! The following picture shows what happens after entering the first notecard, and then the second notecard:
+  
+Also, once entered, the routing information of a downstream node cannot be changed! If, for any reason, you find yourself needing to replace the coordinates of a node in a routing table of a router, you need to reset the router, which will make it erase all the information. So, before you do that. make sure to store elsewhere the information that is not supposed to change, so you can load it again. In any case, here is how you can reset routers: right-click the object, chose "More", then "More" again, then "Scripts", then "Reset Scripts."
+Part 5: Coordination and Communication
+In order to be able to configure the entire set of 150+ nodes, you need to coordinate with your fellow students. Here are some of the things that you need to coordinate:
+
+The assignment of router identifiers within a street (needs coordination with your street neighbors)
+The placement and configuration of your street router (needs coordination with your street neighbors)
+The placement and configuration of your region router (needs coordination with students in your region)
+The placement and configuration of your backbone (needs coordination with students on each half of the world, as well as information shared between the two continents about where the backbones are placed)
+
+In order to facilitate this coordination, there are several inworld groups which you can join and use to chat (while logged in). Specifically, there are street-level groups, as well as region-level and continent-level groups. To join, click the search button on the bottom of the screen, go to groups, and type:
+
+street --> chose the right street for you, and click "Join" on the bottom right of that search window
+zone --> chose the right zone for you, and click "Join" on the bottom right of that search window
+side --> chose the right side for you (North or South) , and click "Join" on the bottom right of that search window
+
+You can also organize inworld meetings in someone's treehouse using voice. 
+Optionally, you can organize outside of the world, in the student's Discord server. Or in any other way that works for you and your groups!
+Permissions
+Objects that you place inworld belong to you, and cannot be edited by anyone else. This is a problem for street, zone, and backbone routers, because many students will, at least, need to see their inworld coordinates. Luckily, objects can be shared with groups. In order to share objects inworld, right-click and "Edit", then go to the "General" tab. Locate the "settings" button, click on it, and chose the right group to share the object with. Then check the checkbox "Share."
+  

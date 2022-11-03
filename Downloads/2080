@@ -1,0 +1,443 @@
+https://isg.ics.uci.edu/event/xiangyao-yu-transaction-processing-at-scale
+
+
+
+
+
+
+Xiangyao Yu: Transaction Processing at Scale – Information Systems Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+
+Faculty
+Students
+Recent Alumni
+Research Staff
+Visitors
+
+
+Research
+
+Projects
+Publications
+
+
+Teaching
+
+Courses
+DB Qual
+
+
+Events
+
+Talks
+News
+
+
+About
+
+Sponsors & Partners
+Visitor Info
+Contact us
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ISG Talks are sponsored by Couchbase.
+<< All Talks
+
+
+
+ « All Events
+
+
+This event has passed.
+Xiangyao Yu: Transaction Processing at Scale
+
+March 18, 2019 @ 11:00 am - 12:00 pm 
+
+
+
+
+
+« Prof. Sang-Woo Jun: Lowering the cost of large-scale data analytics via efficient use of flash storage
+Fatemeh Nargesian: Data Enrichment for Data Science »
+
+
+
+
+
+
+
+
+
+Abstract:
+Online transaction processing (OLTP) is critical for applications including finance, e-commerce, social networks, and healthcare. The increasing performance demands of these applications require OLTP to scale massively. Concurrency control is a major scalability bottleneck in such systems.
+This talk presents three projects that identify and help resolve scalability challenges. First, I present a scalability study of concurrency control on a simulated 1000-core processor and show the bottlenecks that constrain the scaling of classic algorithms. Then, I present a new protocol called TicToc that removes the bottleneck of central timestamp allocation on multicore processors. The key technique is data-driven timestamp management that dynamically calculates each transaction’s timestamp based on its data access pattern. Finally, I present Sundial, a distributed concurrency control scheme that mitigates the bottleneck of long network latency through a lightweight caching protocol. The talk ends with a vision of transaction processing in the era of cloud computing and internet of things.
+Bio:
+Xiangyao Yu is a postdoctoral associate at Computer Science and Artificial Intelligence Lab (CSAIL) at Massachusetts Institute of Technology (MIT) under the supervision of Prof. Michael Stonebraker. He acquired his Ph.D. at MIT in 2017 and B.S. at Tsinghua University in 2012. His research interest centers on databases with additional expertise in computer architecture. He won the best Ph.D. thesis award in EECS at MIT and has three best paper awards or nominations.
+http://people.csail.mit.edu/yxy
+For directions/parking information, please visit:
+https://uci.edu/visit/maps.php and http://www.ics.uci.edu/about/visit/index.php
+ 
+
++ Google Calendar+ iCal Export
+
+
+
+ Details 
+
+ Date: 
+
+ March 18, 2019 
+
+ Time: 
+
+
+					11:00 am - 12:00 pm				
+
+
+
+
+ Venue 
+
+ DBH 3011 
+
+
+
+
+ 
+
+
+
+
+
+« Prof. Sang-Woo Jun: Lowering the cost of large-scale data analytics via efficient use of flash storage
+Fatemeh Nargesian: Data Enrichment for Data Science »
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+Search for :
+
+
+Latest News 
+
+
+
+Upcoming Talk: How to build your own Business
+
+											July 25, 2022																																
+
+
+Upcoming Talk: Couchbase and Distributed Computing Backends for big data processing
+
+											May 31, 2022																																
+
+
+Upcoming Talk: Shedding Light on Opaque Database Queries
+
+											May 31, 2022																																
+
+
+ISG researchers won the  Mark Weiser Best Paper Award at IEEE PERCOM 2022
+
+											March 24, 2022																																
+
+
+
+
+Upcoming Events
+
+
+
+
+Qiushi Bai: QueryBooster-Improving SQL Performance Using Middleware Services for Human-Centered Query Rewriting + Demo
+
+
+
+October 14 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Xiaozhen Liu: Demonstration of Collaborative and Interactive Workflow-based Data Analytics in Texera
+
+
+
+October 21 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Abhishek Singh: WedgeBlock – An Off-Chain Secure Logging Platform for Blockchain Applications
+
+
+
+October 28 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Juncheng Fang: PeloPartition- Improving Blockchain Resilience to Partitioning by Sharding
+
+
+
+November 4 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Peeyush Gupta: A Demonstration of TippersDB
+
+
+
+November 18 @ 12:30 pm - 2:00 pm 
+
+
+
+View All Events
+
+Please follow & like us :) 
+
+Follow  
+
+ 
+
+
+
+
+
+
+
+			Copyright 2018 | ISG-UCI		
+
+
+
+
+
+
+cross
+
+
+
+
+
+
+
+
+
+
+Hit ENTER to search or ESC to close
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,155 @@
+https://sli.ics.uci.edu/PmWiki/SitePageActions
+
+
+
+SLI | PmWiki / SitePageActions 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+SitePageActions
+
+
+
+
+
+
+ authors (basic)
+
+The Site.PageActions page is used as the source of the default wiki commands shown in the default PmWiki skin at the top right of the page. It displays as follows:
+
+
+login
+
+
+Note that there are many other available actions from the Cookbook?, and PmWiki diagnostics and scripts.
+
+This page gives a brief explanation of how Site.PageActions are displayed and formatted, and pointers to where more information can be found.
+
+Below is what is shipped as Site.PageActions with PmWiki version 2.2:
+
+* %item rel=nofollow class=browse    accesskey='$[ak_view]'%      [[{*$FullName}               | $[View] ]]
+* %item rel=nofollow class=edit      accesskey='$[ak_edit]'%      [[{*$FullName}?action=edit   | $[Edit] ]]
+* %item rel=nofollow class=diff      accesskey='$[ak_history]'%   [[{*$FullName}?action=diff   | $[History] ]]
+(:if auth upload:)
+* %item rel=nofollow class=upload    accesskey='$[ak_attach]'%    [[{*$FullName}?action=upload | $[Attach] ]]
+(:ifend:)
+* %item rel=nofollow class=print     accesskey='$[ak_print]'%     [[{*$FullName}?action=print  | $[Print] ]]
+(:if group Site,SiteAdmin,Cookbook,Profiles,PmWiki*:) (:comment delete if and ifend to enable backlinks:)
+* %item rel=nofollow class=backlinks accesskey='$[ak_backlinks]'% [[{*$Name}?action=search&q=link={*$FullName} | $[Backlinks] ]]
+(:ifend:)
+(:if enabled AuthPw:)
+* %item rel=nofollow class=logout    accesskey="$[ak_logout]"%''  [-[[{*$FullName}?action=logout | $[Logout] ]]-]''
+(:ifend:)
+
+To start with, we'll look at just the first line, and take it apart. This will also give us a good handle on how most of the other lines work.
+
+List
+Each line is an item in an unordered list, marked up by an unindented '*'. 
+You can find out more about lists on the Basic Editing page.
+
+PmWiki will normally display an unordered list as a set of bulleted items, but they can appear differently depending on the context and styles they are displayed in. This difference in display is generally controlled by CSS defined in the Skin: for the PageActions links, the list items are displayed inline.
+
+Style
+Following the '*', on the line we have %item ... % which is a WikiStyle. It is used to control the properties of a given output element, like its size or color. By default they apply to the text between them and the end of the line or a closing %%, whichever is sooner. So, for example, one can enter "this %blue%text%% is blue" and it will appear as "this text is blue".
+
+In this case the WikiStyle starts with the word item, and that says to apply the given style to the entire list item as opposed to just the text that follows. In particular, it causes PmWiki to generate HTML of
+
+<li class='edit'>...</li>
+instead of
+
+<li><span class='edit'>...</span></li>
+Setting the class attribute of the list item allows CSS properties to be applied to the item that corresponds to the current action. For example, to have the current action display with a background color of blue, a wiki administrator can do:
+
+$HTMLStylesFmt[] = ' .{$Action} { background-color: blue; }';
+Then if the current action is 'edit' (as in "?action=edit"), the list item corresponding to the edit action will be drawn with a blue background.
+
+The other property inside the %item ... % WikiStyle is the accesskey='' statement. AccessKeys are keyboard shortcuts for tasks that would otherwise require a mouse. They can be attached to links or to form elements and the WikiStyle will use whichever it finds first on the line. In this case they will attach to the link [[{*$FullName} | $[View] ]].
+
+Accesskey
+An accesskey can be defined in a number of locations, but essentially it is a phrase translation following the model used for internationalizations. PmWiki's accesskey defaults are defined in scripts/prefs.php, but can be overridden in lots of different places, including skins, language translation pages (XLPage), and even per-browser preferences (see Site.Preferences).
+
+The $[...] markup defines phrase translations, used for internationalizations (and access keys, as noted above). In the first line of Site.PageActions it is used in both $[ak_view] and $[View]. Essentially $[View] tells PmWiki to substitute the current translation of "View".  If no translation is defined for "View", then PmWiki just uses the phrase inside the brackets.
+
+You can most easily see this working in the other languages sections of PmWiki. For example, at PmWikiDe/PmWikiDe you'll notice that the default "View", "Edit", "History", and "Print" actions are displayed as "Artikel", "Bearbeiten", "Historie", and "Druckansicht".
+This is because the PmWikiDe group is loading in a set of translations from PmWikiDe.XLPage
+
+That page defines things like
+
+'View' => 'Artikel'
+'Edit' => 'Bearbeiten'
+'History' => 'Historie'
+'Print' => 'Druckansicht'
+which says that things like $[View] and $[Edit] should be replaced by "Artikel" and "Bearbeiten".
+
+This makes it very easy for PmWiki to support multiple languages, since a recipe author can simply put any translatable prompts or phrases inside of $[...], and leave it to others to actually build the translation tables (either locally or on pmwiki.org for others to use). More information about $[...] is available at Internationalizations.
+
+Link
+All that leaves on the first line to be explained is the link itself: [[{*$FullName} | $[View] ]]. Links are not complex, but this one is using both the internationalization feature and a Page Variable. The $[View] has already been explained and it shows up in the link text section of link markup, so that, if viewed in English, the link will appear as View.
+
+The link target section contains the {*$FullName} variable. This variable expands to the full name of the page on which it is being displayed, including the group and page names. For simple browsing, this is good enough, because viewing a page is the default action to perform on a page. Later lines use link targets like {*$FullName}?action=edit which says to go to the currently displayed page and start editing it.
+
+If
+This explains what all of the '*' lines are about. That only leaves the (:if auth upload:) and (:ifend:) lines, and they go together. The first starts some Conditional Markup and the second ends it. The (:if test :) markup only lets the following text be displayed if the test succeeds. The text that conditionally displayed ends at the next (:if...:) statement so an empty (:ifend:) is a convenient way to end the conditional block. The particular test being used here is auth upload which is only true if the current user is authorized to upload files to the wiki. Thus, the conditional block says to only display a link to perform an upload if the user is actually allowed to upload.
+
+Depending on the security and permissions model on a given site, its not unusual to see many more conditional markups that test if, for example, a user has editing rights to the current page. More information on all the different conditions can be found at the Conditional Markup page, and a general index of all the PmWiki documentation can be found at Documentation Index.
+
+Hopefully this bit of documentation has answered your questions about the Site.PageActions page. 
+If not, you may wish to consult the helpful people on one of the PmWiki Mailing Lists.
+
+Group PageActions
+Note that any Group can have a PageActions page, not just Site. If a page named Group.PageActions exists, it will be used, otherwise, Site.PageActions, much like for the SideBar pages.
+ 
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:SitePageActions, and  a talk page: PmWiki:SitePageActions-Talk.
+
+
+
+
+
+
+ Last modified May 01, 2012, at 08:39 AM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

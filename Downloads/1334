@@ -1,0 +1,127 @@
+http://plrg.ics.uci.edu/software-relaxed-mm
+
+
+
+
+
+
+
+
+Software for Relaxed Memory Models – Programming Languages Research Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+									Programming Languages Research Group								
+
+
+
+
+
+
+Brian Demsky
+Students
+Publications
+Software
+
+Software Verifiers
+
+PSan
+Yashme
+Jaaru
+Satune
+C11Tester
+
+
+Software for Relaxed Memory Models
+Irvine Research Java Compiler
+Views
+Smart Home
+
+Fidelius
+IoTCheck
+PingPong
+Vigilia
+
+
+
+
+Navigation
+
+
+
+
+ 
+
+
+
+
+
+
+
+Software for Relaxed Memory Models
+Software for relaxed memory models (especially the C/C++ memory model) developed by our group are available below:
+
+C11Tester – A Tool for Testing C/C++ Atomics in Real World Code
+C11Tester is a testing framework for C11/C++11 which explores the behaviors of the C/C++ memory model.  It is designed to handle much larger executions, but is not exhaustive in its exploration.
+CDSChecker: A Model Checker for C11 and C++11 Atomics
+CDSChecker is a model checker for C11/C++11 which exhaustively explores the behaviors of code under the C/C++
+memory model. More details in this paper (OOPSLA'13).
+AutoMO: A Memory Order Parameter Inference Framework for C/C++11
+AuotMO is tool framework that can infer memory order parameters for C/C++11 concurrent programs such that the
+programs only exhibit SC behaviors for the test cases provided by developers. More details in this paper
+(OOPSLA'15).
+SATCheck: A SAT-Directed Stateless Model Checker for SC and TSO
+SATCheck implements a new approach to model checking concurrent code. More details in this paper (OOPSLA'15).
+CDSSpec: A Specification Checking Framework for C/C++11 Concurrent Data Structures
+CDSSpec allows developers to specify C/C++11 concurrent data structures and check their implementations
+against the specifications. More details in this paper (PPoPP'17).
+An LLVM-Based Compiler Framework that Forbids Out-of-Thin-Air Results
+This includes variants of compiler implementations that forbid OOTA results in C/C++ by preserving syntactic
+dependencies or atomic load-store ordering. More details in this paper (OOPSLA'18).
+
+
+
+
+
+
+
+
+
+
+
+Back to Top 
+
+

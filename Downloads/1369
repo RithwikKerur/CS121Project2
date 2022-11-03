@@ -1,0 +1,10 @@
+http://plrg.ics.uci.edu/publications/80.bib
+@inproceedings{key,
+ author = {Brian Demsky and Cristian Cadar and Daniel Roy and Martin C. Rinard},
+ title = {Efficient Specification-Assisted Error Localization},
+ booktitle = {Proceedings of the Second International Workshop on Dynamic Analysis},
+ pages = {60--67},
+ location = {Edinburgh, Scotland},
+ month = {May},
+ year = {2004}
+}

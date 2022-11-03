@@ -1,0 +1,142 @@
+http://sli.ics.uci.edu/Classes/2014W-178
+
+
+
+SLI | Classes / CS178: Machine Learning and Data Mining 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Classes /
+CS178: Machine Learning and Data Mining
+
+
+ CLOSED : 2014 OFFERING  
+
+Assignments and Exams:
+
+HW1Code01/15/14Soln 
+HW2Code01/24/14Soln 
+HW3Code02/10/14Soln 
+HW4Code02/28/14Soln 
+HW5Code03/14/14Soln 
+     
+MidtermIn-class02/12/14Soln 
+Project 3/21/14 
+FinalFri 8:00-10:00am3/21/14  
+
+Lecture: Mon/Wed/Fri 11am-12pm, ICS 174
+Discussion: Monday 4-5pm, Eng Tower (ET) 204
+Instructor: Prof. Alex Ihler (ihler@ics.uci.edu), Office Bren Hall 4066
+Office Hours: Wed 2:30-3:30pm, Bren Hall 4066, or by appointment
+Teaching Assistant: Moshe Lichman (mlichman@uci.edu)
+Office Hours: Thu 3:30-4:30pm, Bren Hall 4059 or by appointment
+Course Notes in development
+Also, a possibly helpful LaTeX template I use for homeworks and solutions.
+(Or, this link has another nice way to include Matlab code in LaTeX.)
+
+Introduction to machine learning and data mining
+How can a machine learn from experience, to become better at a given task?  How can we automatically extract knowledge or make sense of massive quantities of data?  These are the fundamental questions of machine learning.  Machine learning and data mining algorithms use techniques from statistics, optimization, and computer science to create automated systems which can sift through large volumes of data at high speed to make predictions or decisions without human intervention.
+
+Machine learning as a field is now incredibly pervasive, with applications from the web (search, advertisements, and suggestions) to national security, from analyzing biochemical interactions to traffic and emissions to astrophysics.  Perhaps most famously, the $1M Netflix prize stirred up interest in learning algorithms in professionals, students, and hobbyists alike.
+
+This class will familiarize you with a broad cross-section of models and algorithms for machine learning, and prepare you for research or industry application of machine learning techniques. 
+
+Background
+We will assume basic familiarity with the concepts of probability and linear algebra.  Some programming will be required; we will primarily use Matlab, but no prior experience with Matlab will be assumed.  (Most or all code should be Octave compatible, so you may use Octave if you prefer.)
+
+Textbook and Reading
+There is no required textbook for the class.  However, useful books on the subject for supplementary reading include
+Murphy's "Machine Learning: A Probabilistic Perspective", Duda, Hart & Stork, "Pattern Classification", and Hastie, Tibshirani, and Friedman, "The Elements of Statistical Learning".
+
+Piazza
+I use Piazza to manage student discussions and questions.  Our class link is:
+http://piazza.com/uci/winter2014/cs178.
+
+Matlab
+Often we will write code for the course using the Matlab environment.  Matlab is accessible through NACS computers at several campus locations (e.g., 
+MSTB-A, 
+MSTB-B,
+and the ICS lab), and if you want a copy for yourself student licenses are fairly inexpensive ($100).  If you use Octave, please be careful to use Matlab-compatible syntax (not Octave extensions), since otherwise I or the TA may be unable to interpret your code.  
+
+If you are not familiar with Matlab, there are a number of tutorials on the web:
+University of Utah, very short
+CMU / UMichigan tutorial, also short
+University of Florida's tutorial, more complete
+Union College / Cyclismo.Org tutorial, also good
+UMaryland guide, lots of pointers to other tutorials and reference manuals
+You may want to start with one of the very short tutorials, then use the longer ones as a reference during the rest of the term.
+
+
+Interesting stuff for students
+tba...
+
+Syllabus (subject to change)
+SlidesVideosTopics
+PDF1 , 2 , 3 , 4Introduction
+PDF1 , 2Nearest neighbor methods
+PDF1 , 2Bayes classifiers, naive Bayes
+PDF1 , 2 , 3 , 4 , 5 , 6Linear regression
+PDF1 , 2Linear classifiers; perceptrons & logistic regression
+PDF1VC dimension, shattering, and complexity
+PDF Neural networks (multi-layer perceptrons) and deep belief nets
+PDF Support vector machines; kernel methods
+PDF1 , 2Decision trees for classification & regression
+PDF1, 2, 3, 4Ensembles; bagging, gradient boosting, adaboost
+PDF Unsupervised learning: clustering methods
+PDF1, 2Dimensionality reduction: (Multivariate Gaussians); PCA/SVD, latent space representations
+
+Previous year's lectures (2012b, 2012a, 2011, 2010) are also available.
+
+
+Course Project
+tba
+
+
+
+
+
+
+
+ Last modified January 19, 2015, at 04:34 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

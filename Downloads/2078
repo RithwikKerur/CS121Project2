@@ -1,0 +1,472 @@
+https://isg.ics.uci.edu/event/pat-helland-theres-no-substitute-for-interchangeability
+
+
+
+
+
+
+Pat Helland: There’s No Substitute for Interchangeability – Information Systems Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+
+Faculty
+Students
+Recent Alumni
+Research Staff
+Visitors
+
+
+Research
+
+Projects
+Publications
+
+
+Teaching
+
+Courses
+DB Qual
+
+
+Events
+
+Talks
+News
+
+
+About
+
+Sponsors & Partners
+Visitor Info
+Contact us
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ISG Talks are sponsored by Couchbase.
+<< All Talks
+
+
+
+ « All Events
+
+
+This event has passed.
+Pat Helland: There’s No Substitute for Interchangeability
+
+May 31, 2019 @ 3:00 pm - 4:00 pm 
+
+
+
+
+
+« Fatemeh Nargesian: Data Enrichment for Data Science
+Michal Shmueli-Scheuer : Conversational bots for customer support »
+
+
+
+
+
+
+
+
+
+Speaker: Pat Helland (Salesforce.com)
+Title: There’s No Substitute for Interchangeability
+Time: 3-4 PM
+Place: 3011 DBH
+
+
+
+
+
+
+
+
+
+Abstract:
+
+Distributed systems have many challenges including loosely coupled systems, long running work, and distributed workflow.  In addition,  replication with out-of-order reconciliation is quite difficult, especially when composed with the other challenges.  In this talk, we propose data-centric REST-style connectors that allow work to be decoupled in trust, space, and time.  These replication connectors support replicated services with eventual consistency.
+
+As work comes together, domain specific interchangeability provides the glue and lubrication that empowers work that’s decoupled across boundaries.  We see this in real life with commodities in food and interchangeable parts in manufacturing.  Work domains for the application typically support interchangeable resources like seats on an airplane or king-sided non-smoking rooms.  It is the interchangeability defined by an application domain that allows work to proceed across boundaries.  These boundaries include applications and their trust, space and time across workflows, and replicas of any and all of the services comprising the app.
+
+The ideas presented in this talk are the author’s and are not tied to his work at Salesforce.
+
+
+——————–
+
+Bio:
+
+
+Pat Helland has been implementing databases, transaction systems, multiprocessors, messaging systems, app platforms, and storage systems since 1978.  He studied computer science at UC Irvine from 1973 to 1976.  He currently works at Salesforce.  For recreation, Pat likes to write papers about random stuff related to distributed computing and data for ACM Queue and Communications of the ACM.
+
+
+
+
+
+
+
+
+
+ 
+
++ Google Calendar+ iCal Export
+
+
+
+ Details 
+
+ Date: 
+
+ May 31, 2019 
+
+ Time: 
+
+
+					3:00 pm - 4:00 pm				
+
+
+
+
+ Venue 
+
+ DBH 3011 
+
+
+
+
+ 
+
+
+
+
+
+« Fatemeh Nargesian: Data Enrichment for Data Science
+Michal Shmueli-Scheuer : Conversational bots for customer support »
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+Search for :
+
+
+Latest News 
+
+
+
+Upcoming Talk: How to build your own Business
+
+											July 25, 2022																																
+
+
+Upcoming Talk: Couchbase and Distributed Computing Backends for big data processing
+
+											May 31, 2022																																
+
+
+Upcoming Talk: Shedding Light on Opaque Database Queries
+
+											May 31, 2022																																
+
+
+ISG researchers won the  Mark Weiser Best Paper Award at IEEE PERCOM 2022
+
+											March 24, 2022																																
+
+
+
+
+Upcoming Events
+
+
+
+
+Qiushi Bai: QueryBooster-Improving SQL Performance Using Middleware Services for Human-Centered Query Rewriting + Demo
+
+
+
+October 14 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Xiaozhen Liu: Demonstration of Collaborative and Interactive Workflow-based Data Analytics in Texera
+
+
+
+October 21 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Abhishek Singh: WedgeBlock – An Off-Chain Secure Logging Platform for Blockchain Applications
+
+
+
+October 28 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Juncheng Fang: PeloPartition- Improving Blockchain Resilience to Partitioning by Sharding
+
+
+
+November 4 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Peeyush Gupta: A Demonstration of TippersDB
+
+
+
+November 18 @ 12:30 pm - 2:00 pm 
+
+
+
+View All Events
+
+Please follow & like us :) 
+
+Follow  
+
+ 
+
+
+
+
+
+
+
+			Copyright 2018 | ISG-UCI		
+
+
+
+
+
+
+cross
+
+
+
+
+
+
+
+
+
+
+Hit ENTER to search or ESC to close
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

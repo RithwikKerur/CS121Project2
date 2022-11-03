@@ -1,0 +1,65 @@
+http://computableplant.ics.uci.edu/sw/gccd
+
+
+
+
+Graph-Constrained Correlation Dynamics
+
+
+
+
+
+
+
+        Graph-Constrained Correlation Dynamics
+      
+
+        Graph-Constrained Correlation Dynamics allows the specification of
+        models that describe probability
+        distributions which evolve continuously in time according to the
+        chemical master equation. 
+        This is accomplished by  combining a
+        Markov Random Field, which represents the instantaneous
+        probability of the system, with a set 
+        of ordinary differential equations on the parameters of the MRF.
+        
+	
+
+        
+        GCCDdd is an implementation of GCCD
+	within the Mathematica  
+        programming language, available 
+	here. This package also includes
+        two example GCCD models. 
+        GCCDdd is offered with the
+	GNU Public License; essentially you are free to create
+	derivative works, as long as they too carry a license as open
+	as the GPL. 
+
+	
+
+
+        In order to use GCCDdd, you will need the Depenency Diagrams
+	package, which is available here. 
+	
+        
+
+
+	Additionally, the GCCD package implements
+        an alternative learning algorithm for GCCD. This method is based
+	on fitting parameters for the time-derivates of MRF parameters 
+        using the lasso. 
+	
+        
+
+References:
+
+        Todd Johnson, "Dependency Diagrams and Graph-Constrained
+	Correlation Dynamics:  
+        New Systems for Probabilistic Graphical Modeling," PhD Thesis,
+	University of California, 
+	Irvine, March 2012. 
+      
+
+
+

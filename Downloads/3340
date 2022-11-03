@@ -1,0 +1,170 @@
+https://ngs.ics.uci.edu/structured-and-unstructured-data-3-competence-and-performance
+
+
+
+
+
+
+
+
+Structured and unstructured data (3): Competence and Performance – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Structured and unstructured data (3): Competence and Performance    			
+
+
+In developing a computing system, two different issues need to be considered: Competence and Performance.  Competence addresses the functionality of the system and directly relates to what could or could not be done by the system.  Thus the effectiveness and efficacy of the system are part of the competence issues.  Performance deals with how efficiently the system works â€“ how much time it takes to solve the problem and what resources it requires.  The success of the system is determined by the combination of the competence and performance issues addressed by the system.
+In too many cases, computer scientists start worrying about the performance issues way too soon.  The first thing in the design of a system is to consider competence of the system carefully.  One should target the system to have at least the minimal amount of competence that will be acceptable to users.  Then only performance issues should be considered in the design of the system.
+A major problem in considering performance issues too early is that designers start defining system functionality by considering what could be done efficiently rather than what will be acceptable to users.  This has an obvious problem.  In an extreme case, one may design a system that is most efficient, but does nothing.  Clearly such a system is of no use to anybody, except possibly to satisfy the ego of the designer that he could solve a (non)problem very efficiently.  On the other hand, if a system functionality can not be solved efficiently by current means, but is really useful to people, then many researchers will work on developing efficient solutions and in due course one will have a good solution to the problem.
+Abstraction and organizational issues related to unstructured and structured data have similar issues.
+
+
+
+By Ramesh |
+    				January 18, 2009 |
+    				             		Experiential Computing |
+             	 
+    				             		No Comments |
+             	 		          				
+    			
+
+
+← Barack Obama — one of the most impressive man
+Text or Video — no it should be Text And Video →
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

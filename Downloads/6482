@@ -1,0 +1,33 @@
+http://www.ics.uci.edu/~fowlkes/software/nca
+
+
+
+    charless c. fowlkes - uc berkeley - computer vision group
+    
+
+
+
+
+
+ [index]
+
+
+   NCA  
+
+This is a simple matlab implementation of this NIPS04 paper titled "Neighbourhood Components Analysis" by Jacob Goldberger, Sam Roweis, Geoff Hinton and
+Ruslan Salakhutdinov.  Hopefully it will be useful for something.
+
+
+[nca_demo.tar.gz]
+[browse]
+
+
+
+
+
+
+
+
+
+
+

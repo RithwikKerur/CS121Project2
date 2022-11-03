@@ -1,0 +1,270 @@
+http://www.ics.uci.edu/~jutts/7-W13
+
+Statistics 7, Winter 2013
+
+
+
+
+ Statistics 7 - Winter 2013
+
+
+
+Department of Statistics
+  University of California, Irvine
+
+  Welcome to the homepage for Statistics 7: Basic Statistics
+  
+Class Time
+
+  Lecture 
+ Discussion Sections  
+ 1100 Donald Bren Hall
+Mon, Wed, Fri 3:00 - 3:50pm 
+ 
+
+
+
+1)Fri 9:00 - 9:50amSSTR 103Brandon Berman
+2)Fri 10:00 - 10:50amSSTR 103Brandon Berman
+3)Fri 12:00 - 12:50pmSSTR 103Yan He
+4)Fri 1:00 - 1:50pmSSTR 103Yan He
+
+ 
+
+
+
+How, when and where to find us:(Email addresses are not clickable, to avoid spam)
+
+
+ Professor Jessica Utts
+Yan He
+Brandon Berman
+ 2212 Donald Bren Hall
+2032 Donald Bren Hall
+2032 Donald Bren Hall
+
+ (949) 824-0649
+no phoneno phone
+
+ jutts_at_uci.edu
+yhe_at_uci.edu
+bermanb_at_uci.edu
+
+ Mon, Wed, Fri 1:30 - 2:30pmor by appointment
+Tues/Thurs 2:00 - 3:30
+Mon/Wed 4:00 - 5:30
+
+Office hours by day:
+Mon and Wed1:30-2:30 (Utts)4:00 - 5:30 (Berman)
+Tues and Thurs2:00 - 3:30 (He)
+Fri1:30-2:30 (Utts)
+Office hours for finals week:
+Mon, 3/18 (both in 2032 Bren)10am to noon (Berman)1:30 to 3:30 (Utts)
+Tues, 3/19 (2212 Bren)12:30 - 1:30 (Utts)For last-minute issues like missing grades
+
+
+ 
+Links to Resources
+(News stories about statistical studies, Surveys and polls, Interactive learning tools, Statistics jokes, etc.)
+ 
+Register your iclicker to receive credit for clicker questions!
+Even if you registered it last academic year, you need to do it again each fall. "Student ID" is your 8-digit UCI ID number.
+ 
+ Instruction and Resources for R and R Commander
+Installing R and R Commander and Getting Started
+
+ How to get an account to use the ICS Labs
+ ICS Lab Hours
+ How to Install R and R Commander (Word) or pdf
+ Additional notes on how to install R commander, helpful for Mac users
+ The R Project Homepage
+ An R Commander website, by John Fox, who developed R Commander
+
+R Commander Handouts and Instruction Sheets
+
+ Worksheet to Practice Using R Commander (pdf)
+ How to use R Commander for assignment from Chapters 2 and 3 (Word) or pdf
+ How to use R Commander for Contingency Tables (Section 4.4)
+ Using R Commander to find binomial probabilities
+
+ Data sets Used for Class Examples and Homework (Posted when needed)
+For the .txt files, make sure you check "comma" for the field separator in R Commander
+
+Companion website for the textbook, including data sets and more
+UCDavis1.txt (for practice using R Commander)
+oldfaithful.txt (for homework problem 3.98)
+pennstate.txt (for homework problem 11.86)
+
+ 
+ Announcements (also see first page of notes from each lecture for announcements)
+Known typos in Mind On Statistics, 4th edition
+Textbook options including online version, international edition and using the 3rd edition
+Cover sheet and instructions for point disputes
+
+ 
+ Jump to:
+
+Syllabus and Class Lectures
+Homework Solutions
+Sample Exams
+Exam Keys
+
+ 
+Daily Schedule, including homework assignments and due dates:
+
+
+
+Lecture# and Date
+Sections Covered(Tentative schedule, may be updated after each class)
+Date HW Due
+Assignment (or discussion topic)
+  Assignment Week #1 is Jan 7, 9, 11Quiz available 4pm Fri 1/11 to 3pm Mon 1/14 
+1. Mon. Jan. 7 Chapter 1 and Sections 2.1 to 2.3; Read Chapter 1 Mon. Jan. 141.14, 1.16, 2.20, 2.28 
+2. Wed. Jan. 9 Sections 2.4 to 2.6 Mon. Jan 14 2.42; 2.48bcd and find a five-number summary for the data in this problem; 2.72   
+Disc. #1Jan 11
+Hands on team project 1, participation points awarded  Hands-on Discussion #1: Relationships in two-way tables 
+3. Fri. Jan. 11 Section 2.7; Using R Commander Mon. Jan 14 2.96, 2.128, 2.130  
+  Assignment Week #2 is Jan 14, 16, 18Quiz available 4pm Fri 1/18 to 3pm Wed 1/23 
+4. Mon. Jan. 14 Sections 3.1 and 3.2 Wed. Jan. 23 2.104*; 3.24 (note typo: intercept is 126 not 1.26); 3.98* (counts double) Data for 3.98 (comma separators)*Use R Commander for 2.104 and 3.98 
+5. Wed. Jan. 16 Sections 3.3 to 3.5 Wed. Jan. 23 3.42, 3.48, 3.74 
+Disc. #2Jan 18
+R Commander and general question and answer, no participation points  Discussion: R Commander (If you want to follow along on your laptop, bring it with R and R Commander already loaded); General question and answer 
+6. Fri. Jan. 18 Sections 4.1 to 4.3; READ "Misleading Statistics...", pgs 120-122, on your own. Wed. Jan. 234.14, 4.18, 4.36
+Mon. Jan. 21HOLIDAY
+  Assignment Week #3 is Jan 23, 25, 28Quiz available 4pm Mon 1/28 to 3pm Wed 1/30 
+7. Wed. Jan. 23 Section 4.4 Wed. Jan. 30 4.49, 4.50 (count together as 1); 15.10, 15.12 (Use R Commander, counts double) - yes, really Chapter 15! 
+Disc. #3Jan. 25
+Hands on team project 2, participation points awarded  Hands-on Discussion #2: Risk, relative risk and chi-square tests 
+8. Fri. Jan. 25 Chapter 5 Wed. Jan. 305.30, 5.68, 5.102
+9. Mon. Jan. 28 Chapter 6 Wed. Jan. 306.28, 6.38, 6.60 
+  Review and Midterm #1: Jan. 30, Feb. 1 
+10. Wed. Jan 30 Catch up and Review No assignment  
+Disc. #4Feb 1
+Question & Answer for Midterm 1, no participation points  Discussion: Review for Midterm 1 
+11. Fri. Feb. 1 First Midterm, on Chapters 1 to 6 No assignment  
+  Assignment Week #4 is Feb 4, 6, 8Quiz available 4pm Fri 2/8 to 3pm Mon 2/11) 
+12. Mon. Feb 4 Sections 7.1 to 7.3 Mon. Feb. 11 7.12, 7.22, 7.30, 7.34 
+13. Wed. Feb. 6 Sections 7.4 and 7.5; Skip 7.6 Mon. Feb. 11 7.44, 7.64 (counts double) 
+Disc #5Feb 8
+Hands on team project 3, participation points awarded  Hands-on Discussion #3: Let's Make a Deal 
+14. Fri. Feb. 8 Sections 8.1 to 8.3 Mon. Feb. 11 8.14abc, 8.18, 8.36
+  Assignment Week #5 is Feb 11, 13, 15Quiz available 4pm Fri 2/15 to 3pm Wed 2/20 
+15. Mon. Feb. 11 Section 7.7 and supplemental material on intuition and probability Wed. Feb. 20 Feb 11 Homework Assignment 
+16. Wed. Feb. 13 Section 8.4 and supplemental material Wed. Feb. 20 Feb 13 Homework AssignmentUsing R Commander to find binomial probabilities 
+Disc. #6Feb. 15
+Hands on team project 4, participation points awarded  Hands-on Discussion #4: Birthday problem, gambling 
+17. Fri. Feb. 15 Sections 8.5 to 8.7; Skip 8.8 Wed. Feb. 20 8.60a + 8.62a (related - together count as 1), 8.74, 8.82
+Mon. Feb. 18 HOLIDAY   
+ Assignment Week #6 is Feb 20, 22, 25Quiz available 4pm Mon 2/25 to 3pm Wed 2/27 
+18. Wed. Feb. 20Sections 9.1 to 9.4 (start)Wed. Feb. 279.22, 9.26, 9.40, 9.144 
+19. Fri. Feb. 22Sections 9.4 (finish), 9.5 and 9.9, Lessons 1 and 2Wed. Feb. 279.48; 9.54 (counts double)
+Disc. #7Feb. 22
+Question and answer, no participation points  Discussion: Practice Problems and Solutions 
+20. Mon. Feb. 25 Chapter 10 Wed. Feb. 2710.4, 10.30, 10.78 
+  Review and Midterm #2: Feb 27 and Mar 1 
+21. Wed. Feb. 27 Catch up and review No assignment  
+Disc. #8Mar. 1
+Question and Answer for Midterm 2, no participation points  Discussion: Review for Midterm 2 
+22. Fri. Mar. 1 Second Midterm, on Chapters 7 to 10 (except 7.6, 8.8, 9.6 to 9.8, 9.9 - Lesson 3) No assignment 
+ Assignment Week #7 is Mar 4, 6, 8Quiz available 4pm Fri 3/8 to 3pm Mon 3/11 
+23. Mon. Mar. 4 Sections 12.1 and 12.2, except 12.1-Lesson 3 Mon. March 1112.20, 12.24, 12.50b, 12.102 
+24. Wed. Mar. 6 12.3, 12.1-Lesson 3Mon. March 1112.62 and 12.64 (count together as 1, find p-values for #62), 12.90, 12.112 
+Disc. #9Mar. 8
+Hands on team project 5, participation points awarded  Hands-on Discussion #5: Animal eyes- confidence intervals and test 
+25. Fri. Mar. 8 Sections 9.6 to 9.8, 9.9-Lesson 3 Mon. March 119.68, 9.72, 9.146
+ Assignment Week #8 is Mar 11, 13, 15Quiz available 4pm Fri 3/15 to 10am Mon 3/18 
+26. Mon. March 11 Chapter 11 Fri. March 15 11.30bc, 11.48*, 11.86*; *48 and 86 each count double. pennstate.txt (for #11.86);
+See lecture 26 for R Commander instructions.Don't forget to check "commas" as Field Separators when importing data. 
+27. Wed. March 13 Sections 13.1 to 13.3 Fri. March 15 13.14; 13.26 and 28 (connected, count together for 3 points); 13.54abd (no computation necessary) 
+Disc. #10Mar. 15
+Review for final exam, no participation points  Discussion: Review for final exam 
+28. Fri. March 15 Sections 12.4, 13.5, 13.6, 13.8, parts of Chapter 17; Skip 13.7 Assignment not due 12.76, 12.83, 13.72, 17.8, 17.10, Solutions
+ Final Exam: Mon, March 18, 4 to 6pm 
+
+
+
+ 
+Syllabus and class lectures; these will be posted shortly before each lecture
+
+ Syllabus (includes grading information)
+ Lecture 1, Jan 7 or Lecture 1, Compact version
+ Lecture 2, Jan 9 or Lecture 2, Compact version
+ Lecture 3, Jan 11 or Lecture 3, Compact version
+ Lecture 4, Jan 14 or Lecture 4, Compact version
+ Lecture 5, Jan 16 or Lecture 5, Compact version
+ Lecture 6, Jan 18 or Lecture 6, Compact version
+ Lecture 7, Jan 23 or Lecture 7, Compact version
+ Lecture 8, Jan 25 or Lecture 8, Compact version, but missing pages 8 and 9 of full version (Census pages)
+ Lecture 9, Jan 28 or Lecture 9, Compact version
+ Review for first midterm (Review and Midterm count as lecture days 10 and 11)
+ Lecture 12, Feb 4 or Lecture 12, Compact version
+ Lecture 13, Feb 6 or Lecture 13, Compact version
+ Lecture 14, Feb 8 or Lecture 14, Compact version
+ Lecture 15, Feb 11 or Lecture 15, Compact version
+ Lecture 15 with survey results or Lecture 15, Compact version, with survey results
+ Lecture 16, Feb 13 or Lecture 16, Compact version
+ Lecture 16 slides on remote viewing (Posted after the presentation)
+ Lecture 17, Feb 15 or Lecture 17, Compact version
+ Lecture 18, Feb 20 or Lecture 18, Compact version
+ Lecture 19, Feb 22 or Lecture 19, Compact version
+ Lecture 20, Feb 25 or Lecture 20, Compact version
+ Review for second midterm, covered Wed, Feb 27  (Review and Midterm count as lecture days 21 and 22)
+ Lecture 23, March 4 or Lecture 23, Compact version
+ Lecture 24, March 6 or Lecture 24, Compact version
+ Lecture 25, March 8 or Lecture 25, Compact version
+ Lecture 26, March 11 or Lecture 26, Compact version
+ Lecture 27, March 13 or Lecture 27, Compact version
+ Lecture 28, March 15 or Lecture 28, Compact version
+ Review for the final exam (Material after midterm 2 only; see midterm reviews for earlier material); covered in Discussion on Fri, March 15
+ Concepts from the quarter that seem to need extra review
+
+ 
+ Homework Solutions (The solutions will be posted the day after homework
+is due.)
+
+ Assignment #1, Due Mon, Jan 14
+ Assignment #2, Due Wed, Jan 23
+ Assignment #3, Due Wed, Jan 30
+ Assignment #4, Due Mon, Feb 11
+ Assignment #5, Due Wed, Feb 20
+ Assignment #6, Due Wed, Feb 27
+ Assignment #7, Due Mon, March 11
+ Assignment #8, Due Fri, March 15
+ Solutions to problems assigned Fri, March 15 (not due)
+
+ 
+ Sample Exams
+
+ Midterm 1 will be a mix of free response and multiple choice questions. Here are samples of both types:
+Sample Midterm 1 Free Response Exam and Key
+Sample Midterm 1 Multiple Choice Questions and Key
+
+ Midterm 2 will be a mix of free response and multiple choice questions. Here are samples of both types:
+Sample Midterm 2 Free Response Exam and Key
+Sample Midterm 2 Multiple Choice Questions and Key
+
+The final exam will include 30 to 40 points of free response questions on material covered since the 2nd midterm,
+     and 30 to 35 multiple choice questions worth 2 points each from material covered anytime in the course. (Total of 100 points.) Here are samples of both types (these sample multiple choice
+     questions are based on the new material only - see sample multiple choice for the midterms to see examples for the remainder of the course):
+Sample Final Exam Free Response Questions and Key
+Sample Final Exam Multiple Choice Questions and Key
+
+
+ 
+Practice Problems for Chapters 7 to 9 will be provided as each chapter is covered:
+
+Chapter 7: #18, 24, 26, 36, 46, 52, 58, 59, 60, 62, 66, 93;
+  Solutions
+Chapter 8: #2, 16, 20, 26, 40, 43, 44, 60b, 72, 77, 81; Solutions
+Chapter 9:#2, 5, 9, 10, 14, 18, 25ab, 34, 42, 49, 52a, 94, 134, 136; Solutions
+
+ 
+Exam Keys (The keys will be posted shortly after each exam has been given.)
+
+Midterm 1, Version 1 Key and Version 2 Key
+Midterm 2, Version 1 Key and Version 2 Key
+Final Exam, Version 1 Key and Version 2 Key
+
+
+
+

@@ -1,0 +1,435 @@
+https://isg.ics.uci.edu/event/gift-sinthong-asterixdb-meets-data-science
+
+
+
+
+
+
+Gift Sinthong: AsterixDB Meets Data Science – Information Systems Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+
+Faculty
+Students
+Recent Alumni
+Research Staff
+Visitors
+
+
+Research
+
+Projects
+Publications
+
+
+Teaching
+
+Courses
+DB Qual
+
+
+Events
+
+Talks
+News
+
+
+About
+
+Sponsors & Partners
+Visitor Info
+Contact us
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ISG Talks are sponsored by Couchbase.
+<< All Talks
+
+
+
+ « All Events
+
+
+This event has passed.
+Gift Sinthong: AsterixDB Meets Data Science
+
+November 8, 2019 @ 12:30 pm - 2:00 pm 
+
+
+
+
+
+« Michal Shmueli-Scheuer : Conversational bots for customer support
+Multistage Adaptive Load Balancing in Big Active Data Publish Subscribe Systems »
+
+
+
+
+
+
+
+
+
+Abstract:
+In the last few years, Data Science has become an increasingly important use case for data platforms. To support the full Big Data analysis lifecycle, we have examined one of the most popular exploratory data analytics tools, Pandas, which has a serious problem: scalability. Exploratory tools such as Pandas only work well against locally stored data that fits in the memory of a single machine. Our plan is to integrate a Pandas-like user experience with AsterixDB to provide analysts with a familiar working environment while scaling out the evaluation of the analytical operations over a large data cluster to enable Big Data analysis. The two main components that we use to enable such a workflow are the AsterixDB UDF framework and our new Python data analytics library (“AFrame”) that operates against AsterixDB. AFrame allows users to interact with a very large volume of semi-structured data in the same way that Pandas DataFrames work against locally stored tabular data. Influenced by Spark SQL and Spark DataFrames, our AFrame prototype leverages lazy evaluation and only performs operations once an action is invoked. AFrame operations are incrementally translated into AsterixDB SQL++ queries that are executed only when final results are called for.  In this talk, we will demonstrate our approach using a restaurant review analytics use case.
+ 
+
++ Google Calendar+ iCal Export
+
+
+
+ Details 
+
+ Date: 
+
+ November 8, 2019 
+
+ Time: 
+
+
+					12:30 pm - 2:00 pm				
+
+
+
+
+ Venue 
+
+ DBH 4011 
+
+
+
+
+ 
+
+
+
+
+
+« Michal Shmueli-Scheuer : Conversational bots for customer support
+Multistage Adaptive Load Balancing in Big Active Data Publish Subscribe Systems »
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+Search for :
+
+
+Latest News 
+
+
+
+Upcoming Talk: How to build your own Business
+
+											July 25, 2022																																
+
+
+Upcoming Talk: Couchbase and Distributed Computing Backends for big data processing
+
+											May 31, 2022																																
+
+
+Upcoming Talk: Shedding Light on Opaque Database Queries
+
+											May 31, 2022																																
+
+
+ISG researchers won the  Mark Weiser Best Paper Award at IEEE PERCOM 2022
+
+											March 24, 2022																																
+
+
+
+
+Upcoming Events
+
+
+
+
+Qiushi Bai: QueryBooster-Improving SQL Performance Using Middleware Services for Human-Centered Query Rewriting + Demo
+
+
+
+October 14 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Xiaozhen Liu: Demonstration of Collaborative and Interactive Workflow-based Data Analytics in Texera
+
+
+
+October 21 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Abhishek Singh: WedgeBlock – An Off-Chain Secure Logging Platform for Blockchain Applications
+
+
+
+October 28 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Juncheng Fang: PeloPartition- Improving Blockchain Resilience to Partitioning by Sharding
+
+
+
+November 4 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Peeyush Gupta: A Demonstration of TippersDB
+
+
+
+November 18 @ 12:30 pm - 2:00 pm 
+
+
+
+View All Events
+
+Please follow & like us :) 
+
+Follow  
+
+ 
+
+
+
+
+
+
+
+			Copyright 2018 | ISG-UCI		
+
+
+
+
+
+
+cross
+
+
+
+
+
+
+
+
+
+
+Hit ENTER to search or ESC to close
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

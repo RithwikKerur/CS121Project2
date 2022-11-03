@@ -1,0 +1,219 @@
+https://ngs.ics.uci.edu/meta-data-is-also-data
+
+
+
+
+
+
+
+
+Meta Data is also Data – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Meta Data is also Data    			
+
+
+In so many discussions, people keep discussing about data and meta data.  So one starts wondering what is meta data?
+Well, meta data is data about data.
+Because of several discussions with my respected (and very well known) researcher friends I am forced to ask and discuss the following questions:
+1. Why do we need meta data?
+2. Is data and meta data are really different or are they context dependent.
+To me all data is data.  Depending on what you are trying to analyze and understand, the role changes.  Lets consider a simple example.  I am carrying a camera and a GPS device that tells my location.  I note the data stream from the GPS indexed by time and also note the phot stream indexed by time.  Is GPS stream data or meta data?  Is phot stream data or meta data?
+Suppose I am interested in finding what I saw when I was at a particular location then which one is meta data and which is data?  Here emphasis is on the location and what I saw there is just metadata.  On the other hand if I store GPS as EXIF attribute in my photo file then my photo becomes the data and location becomes the metadata.
+More relevant to analysis, one is given multiple correlated data streams.  They are all just data streams.  At any given instance in analysis, one focuses on a particular stream and calls it data and at that point, every thing else becomes metadata.  But this role keeps changing as the focus in analysis changes.
+It will help my researcher friends if they started considering all data to be the same — as data.  Ultimately, we learned much more about the physical world when we started thinking in terms of atoms and molecules.  We will understand data much better when we start consiering data interms of bits and bytes.
+
+
+
+By Ramesh |
+    				October 22, 2010 |
+    				             		Technical Thoughts |
+             	 
+    				             		4 Comments |
+             	 		          				
+    			
+
+
+← Reflecting on your life
+Middle of the Pyramid (MoP) 1 →
+
+
+
+			4 thoughts on “Meta Data is also Data”		
+
+
+Pingback: Tweets that mention Ramesh Jainâ€™s Blog Â» Blog Archive Â» Meta Data is also Data -- Topsy.com 
+
+
+
+
+Okayreview October 26, 2010 at 3:23 am 
+
+Eventually, I know meta data . .
+nice share !!
+
+
+
+
+
+
+
+
+amanation October 31, 2010 at 4:03 am 
+
+Metadata is known as data about data.Metadata is a concept that applies mainly to electronically archived or presented data and is used to describe the a) definition, b) structure and c) administration of data files with all contents in context to ease the use of the captured and archived data for further use
+
+
+
+
+
+
+
+
+Nick October 31, 2010 at 11:34 am 
+
+Interesting point of view. I’ve always considered meta-data as more of a descriptor serving as an informational scaffold to be used to put the data in context.
+The upside to considering both metadata and the actual data as equals in terms of the inherent value we could leverage a great number of “inferences”.  I would define an inference as different than a context as it utilizes data to infer some action has occurred or some new state exists, AND provides a contingency that best suits the new state. This creates a “smart”
+These inferences could be an essential component of making our overall experience with data in our everyday lives more meaningful. To borrow your example above, we could create an inference from a picture’s meta-data/data to formulate common use cases and make inferences. A real world example is demonstrated in Apple’s iPhoto technology, which heavily utilizes meta-data/data, grouping photos into events based on the time and location data it captures. I think the creation of these inferences will eventually come to pervade our lives and those companies who identify and harness the power of the inferred dataset will thrive.
+I must also mention that the more data we all generate the easier it will be to identify and infer useful, productive, creative technologies that are powered by  that data.
+
+
+
+
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

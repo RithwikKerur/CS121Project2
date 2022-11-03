@@ -1,0 +1,161 @@
+http://www.ics.uci.edu/~kay/courses/i42/hw/hw4.html
+
+
+
+
+
+
+Fourth Homework
+
+
+
+
+
+
+
+Informatics 42 • Winter 2012 • David G. Kay
+  • UC Irvine
+ Fourth Homework
+ Get your work checked and signed off by a classmate, then show it to your TA in lab by Monday, February 6. This assignment is all pencil-and-paper, which should
+give you some more time to work on your lab assignment.
+
+(a) Give the average-case run-time
+polynomial and the O-notation for the following code segment, as we did in class.  Count each
+assignment statement and each function
+call.
+print("This line is executed only once.")
+total = 0
+for i in range(n):
+    x = readAnInt()  # count this line twice:  assignment plus call
+    total += x
+    if i % 2 == 0:   # equivalent to (even? i); % is mod (remainder)
+        print(x)
+print("Total:  ")
+print(total)
+print("The end.")
+
+(b) You have been asked to write the spell checker
+  for SnazzyWrite, a word processing program that competes with Microsoft
+  Word.  Your software will take words from the user's document and look
+  each word up in a list of correctly spelled words.  (Sometimes this is called
+  a dictionary, but for clarity we'll call it a word list even if may not be implemented in Python as either a list or a dictionary.)
+
+If your program doesn't find a word in
+the word list, it notifies the user that the word is probably misspelled.
+ In that case, it also gives the user the opportunity to add the word to
+the word list, since the word may be a new word rather than a misspelling.
+
+You consider the following alternatives for
+implementing the word list:
+
+I.  A dynamically allocated singly-linked list,
+ordered alphabetically, plus a single integer to store the number of words
+
+II.  An array/vector ordered alphabetically, plus
+a single integer to store the number of words
+
+III.  A hash table as described in class (with
+a good hash function, an appropriate table size, and collisions resolved
+by chaining)
+
+IV.  A reasonably balanced binary search tree,
+ordered alphabetically
+
+(b.1)  Complete the following table, giving
+the best O-notation for each operation on each data structure, assuming
+that each operation is implemented using the most efficient algorithm
+available.  Assume that the word list contains w words and the user's
+document contains d words--use these variables, not n.
+
+
+
+
+Operation
+
+Linked List
+
+Array
+
+Hash Table
+
+Bin. S. Tree
+
+
+
+Look up (search for) a single word in the word
+list
+
+
+
+
+
+
+
+
+
+
+
+
+
+Add a new word to the word list
+
+
+
+
+
+
+
+
+
+
+
+
+Spell-check an entire document (assuming no
+new words)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Print all the words in the word list in alphabetical
+order
+
+
+
+
+
+
+
+
+
+
+
+(b.2)  In the table above, some of the
+  entries measure primarily comparisons and others mainly measure data movements.
+  Circle each entry above whose O-notation measures primarily data movements.
+
+(b.3)  Which of these data structures
+would be best for this task?  Give a very brief but clear and valid reason
+for your choice. 
+
+
+(b.4)  Considering only the O-notations
+above, which two data structures should, logically, never be used for this
+task?
+
+(c) Take some time to read through Alex Thornton's ICS 22 lab assignment, "What's Simple is True." We will be doing a version of this as our next lab assignment. We may spend some class time starting it together, so you should be prepared to get the most out of that discussion by having a decent idea in advance of what the problem's about.
+The assignment involves building an interpreter for a simple programing language like Basic; Alex calls his language Facile. This may seem a little infrastructural for us, but actually, it's not: Sometimes the right way to solve a problem is to make up a special-purpose language that makes it easy to express the various aspects of the problem (and then build an interpreter to process that language). Even the restaurants program is an anemic example of this; we have a "restaurant collection manipulation language" that consists of half a dozen single-letter commands. 
+Alex makes a big point in his writeup about how hefty this assignment is, but besides the fact that you're intrepid informaticians, always up for new experiences and challenges, you have two distinct advantages over the ICS 22 students doing this assignment: You're doing it with pair programming, and you've spent a week (last quarter) thinking about machine-level programming, so the concepts in this assignment will be familiar.
+
+Written by David G. Kay, Winter 2001.  Modified by Alex Thornton, Winter 2007. Modified by David G. Kay, Winter 2012.
+
+

@@ -1,0 +1,10 @@
+http://plrg.ics.uci.edu/publications/180.bib
+@misc{key,
+ author = {Alokika Dash and Brian Demsky},
+ title = {Software Transactional Distributed Shared Memory},
+ booktitle = {Poster at the 2009 ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming},
+ pages = {297--298},
+ location = {Raleigh, North Carolina},
+ month = {February},
+ year = {2009}
+}

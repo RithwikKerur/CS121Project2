@@ -1,0 +1,151 @@
+https://www.cs.uci.edu/uci-news-uci-researchers-use-campus-as-test-bed-for-coronavirus-contact-tracing-system
+
+
+
+
+UCI News: “UCI researchers use campus as test bed for coronavirus contact tracing system” 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ this is a widget called second front page widget area
+
+Explore
+
+Contact Us
+
+
+Faculty
+Research
+
+Research Areas
+Research Centers
+
+
+Graduate Degrees
+
+Computer Science Programs
+Current Graduate Students
+
+
+Undergraduate Degrees
+News  & Events
+
+News
+Seminar Series
+Distinguished Lecture Series
+Research Showcase
+
+
+Apply Now
+
+Undergraduate Admissions
+Graduate Admissions
+Faculty Candidates
+
+
+UCI News: “UCI researchers use campus as test bed for coronavirus contact tracing system”
+July 8, 2020 
+Who among us does not value a good, reliable Wi-Fi signal? For researchers at the University of California, Irvine, that appreciation goes further: They want to use the campus’s connectivity to help combat the spread of COVID-19.
+A team in UCI’s Donald Bren School of Information & Computer Sciences recently received a rapid funding award from the National Science Foundation to explore the deployment of the university’s wireless network as part of a coronavirus contact tracing application. The promise of the project, according to its lead researchers, is that it will provide enhanced situational awareness to participants while preserving their anonymity.
+
+The proposed app stems from a 4-year-old initiative funded by the federal Defense Advanced Research Projects Agency to study privacy in so-called smart buildings equipped with technologies to control access, energy usage and other services. The initiative is a component of a larger DARPA program focused on developing tools and techniques that enable information systems to let individuals, enterprises and U.S. government agencies keep personal and/or proprietary information private.
+UCI’s Testbed for Internet of Things-Based Privacy-Preserving Pervasive Spaces project combines physical infrastructure – such as sensors to collect data on activities in classrooms, offices, common areas and conference rooms – with middleware that incorporates privacy technologies in a policy-driven framework. TIPPERS, as the effort and app have been dubbed, will make it easier for managers to keep track of occupancy in different parts of a building while explicitly seeking individuals’ permission to collect and use their location data.
+“When coronavirus lockdowns began to take place in March, we immediately started thinking of how some of the lessons we’ve learned through TIPPERS could be put to use to help the campus regain some semblance of normal operations while preventing the spread of the contagion,” said principal investigator Sharad Mehrotra, UCI professor of computer science.
+“Our approach offers a mechanism to warn people if they might have been exposed to someone who has been infected, and it empowers organizations to monitor how well their social distancing policies are being adhered to,” he added.
+The team plans to use TIPPERS for a variety of applications. Its social distancing compliance tool employs anonymized Wi-Fi connectivity datasets to create occupancy profiles on entire buildings and different floors or zones within them, such as lecture halls, laboratories and conference rooms.
+With this information, campus authorities could determine which areas may have been over capacity for effective physical distancing – which, in the case of many UCI buildings studied by TIPPERS researchers over the past few years, is about 12.5 percent occupancy.
+“We anticipate that this function will be applicable to a variety of public spaces, such as city buildings, K-12 schools, colleges, hospitals, supermarkets and restaurants,” said co-principal investigator Nalini Venkatasubramanian, UCI professor of computer science.
+The TIPPERS dashboard displays information on UCI building usage focusing on different regions and floors within structures. The graph on the lower right shows the change in occupancy at Donald Bren Hall with the coronavirus lockdown. The data were collected securely and privately by the university’s WiFi network. Sharad Mehrotra / UCI
+
+A crowd flow monitoring tool measures the circulation of people through regions over time. Users could view a dashboard on their mobile devices to help them avoid overly crowded areas, and facilities managers could use the feature to coordinate cleaning and disinfecting operations. People could also opt in to get information about regions they visited and the number of people with whom they were in close contact – without having to identify themselves to the system.
+A hot spots exposure tool allows a person who has been infected with COVID-19 to anonymously warn others about potential exposure. This can be done individually or through a trusted authority, such as UCI Health or Student Affairs.
+Sharad Mehrotra, UCI professor of computer science. Jocelyn Lee / UCI
+An extension of this function is a tool that lets users give TIPPERS permission to obtain their location data in return for alerts about possible encounters with coronavirus-infected people. This can even be done after users learn of an exposure site due to TIPPERS’ unique ability to retroactively exchange permission for past data.
+“In order to participate, individuals don’t need to do anything. They don’t need to download software, and there’s no adoption cost because it’s automatic,” Mehrotra said. “We are all already connected to the Wi-Fi network, which can trace us to a certain degree. This is very coarse-level localization, but it’s free, and for our purposes, it’s good enough.”
+Nalini Venkatasubramanian, UCI professor of computer science.
+Venkatasubramanian added: “Since the early days of the COVID-19 pandemic, different countries have worked with private commercial entities to come up with a variety of approaches for tracing the spread of the coronavirus in their populations – many relying on Bluetooth, global positioning systems and other mobile technologies. But limitations have become apparent, particularly in the areas of privacy and data security.”
+She noted that one of the keys to the success of voluntary contact tracing applications is public acceptance and buy-in, and that can only be accomplished if people feel secure about the way their data are being used.
+TIPPERS first received funding in 2017 (ultimately totaling $5.2 million) under the Brandeis program, sponsored by DARPA (contract number FA8750-16-2-0021) and the Air Force Research Laboratory. The recently awarded NSF rapid funding is in the amount of $100,000.
+Originally published at UCI News.
+« Computer Science Professor Pierre Baldi Involved in Multiple Multidisciplinary CollaborationsVentureBeat: “AI researchers create testing tool to find bugs in NLP from Amazon, Google, and Microsoft” »
+
+Latest news
+
+
+Senior Spotlight: Tennis Player and CS Major Matthew Sah Serves Up Aces On and Off the Court
+September 28, 2022
+
+
+Register Today for the Southern California AI & Biomedicine Symposium
+September 20, 2022
+
+
+CPO Magazine: “A Legal View of New NIST Quantum-Resistant Algorithms” by Bryan Cunningham
+September 19, 2022
+
+
+UCI Ranked 24th in Undergraduate Computer Science Programs by U.S. News & World Report
+September 16, 2022
+
+
+Senior Spotlight: Jose Cisneros Builds Impressive Resume with Trio of Internships
+September 15, 2022
+
+
+
+
+ 
+
+
+
+
+
+© 2022 UC Regents
+Feedback
+Privacy Policy
+
+
+
+ 
+
+
+
+

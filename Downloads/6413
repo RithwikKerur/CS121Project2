@@ -1,0 +1,53 @@
+http://www.ics.uci.edu/~kay/courses/i41/hw/lab1.html
+
+
+
+
+
+
+Lab Assignment 1
+
+
+
+
+
+
+
+
+
+
+
+
+INFORMATICS 41 • DAVID G. KAY • UC IRVINE • FALL 2011
+Lab Assignment 1 
+
+This assignment is due at the end of lab on
+Friday, September 30.
+
+Choose a partner for this assignment, someone
+you haven't worked with already, and make sure the TA knows who your partner is (by using his online signup sheet). Refer back to the pair programming guidelines for tips on choosing partners.
+(a) With your partner, do these exercises
+  from the Chapter 1 of the PP textbook: 1.5.4, 1.5.5. Type your solutions into the definitions (top) window of DrRacket. Remember to follow the pair programming model: Two people, one computer; the "driver" types, the "navigator" contributes questions and suggestions; the partners change roles frequently. This is how you will do all your work in the lab, all quarter long; the partners just change every week.
+(b) Do exercises
+  3.3.5 and 3.3.6, for which there isn't anything to turn in. Then do exercises 3.3.7, 3.5.5, 3.5.8, and 3.5.9.
+(c) Do exercises 4.2.2, 4.3.1 (because knowing and using the right technical terminology is important), 4.4.2 (for which there's nothing to turn in), and 4.6.3 (you don't have to turn this one in, either, since it's a pencil-and-paper exercise, but you do have to try it; check with the TA or tutor if you run into trouble).
+Now that you are writing functions, it is absolutely essential that you follow the design recipe. Even if many of the answers come easily now, it's important to get into the habit. In particular, every function you write should have a contract/signature, a purpose statement, some examples of the expected results (using check-expect, at least for the non-graphic functions)—all of these come before you write the function itself—then a skeleton or function header ((define f (lambda (a b) ...))), an inventory (this is the one part that you can treat as optional, if you really already know how to write the function; if not, it's helpful to lay out all the possibly useful components), the function body (finally), and tests (which are just the examples you created earlier).
+(d) Do exercises 5.3.7, 5.4.7, 5.8.6, 5.9.7, 5.11.5, 5.14.1, and 5.14.2. Follow the design recipe, as described above, for every function you define all quarter long.
+(e) Do exercises 6.1.3, 6.2.3, 6.4.2, 6.4.4, 6.5.2 (note that the stick figure is available on the textbook web site, but you're free to use whatever other image you like), 6.6.2, and 6.7.1.
+(f) If you have more time, go back and experiment with some other exercises or animations, especially the ones (like 3.5.6 and 3.5.11) that suggest that you "go wild."
+(g) You should be able to place all the definitions
+and tests into one definitions file.  Click Run and make sure all the tests still pass. (If you run into problems, it's probably because you have more than one function with the same name. Change one of the names [everywhere necessary] and try to Run again.) It's essential that the definitions file you submit doesn't produce any error messages, because that will keep us from evaluating any of your work that appears after the error-producing code.
+Include your name and your partner's
+  in a comment at the top, save the file, and submit it via Checkmate.
+(h)  Remember that each partner must
+  complete a partner evaluation form and submit it individually using the Survey tool at eee.uci.edu. Do this by the end of the day on Friday. Remember that your participation score suffers if you don't do it. 
+
+
+Written by David G. Kay to reflect Picturing Programs by Stephen Bloch, Fall 2010.
+
+David G. Kay, kay@uci.edu 
+
+Monday, October 3, 2011 7:08 AM
+
+
+

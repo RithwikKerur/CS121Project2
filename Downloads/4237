@@ -1,0 +1,754 @@
+http://www.ics.uci.edu/~perl
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+~perl
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+~perl
+
+
+
+
+
+
+
+Home
+
+
+
+
+Talks
+
+
+
+
+Publications
+
+
+
+
+CV
+
+
+
+
+Contact
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Per Larsen
+Project Scientist
+
+
+University of California, Irvine
+
+
+
+
+Immunant, Inc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Biography
+I am a Project Scientist working with Professor Michael Franz at the Donald Bren School of Information and Computer Science at UC Irvine.
+I co-founded Immunant, Inc. a startup focusing on language migration and exploit mitigation to protect systems software against malicious inputs.
+
+
+Interests
+
+Language Migration
+Compilers
+Exploit Mitigation
+Information Security
+
+
+
+Education
+
+
+
+
+PhD in Computer Science, 2011
+Technical University of Denmark
+
+
+
+
+
+MSc in Computer Science, 2005
+Technical University of Denmark
+
+
+
+
+
+
+
+
+
+
+
+
+
+Recent & Upcoming Talks
+
+
+
+
+
+Migrating Legacy Code to Rust
+
+
+      Although Rust is safer and more modern than C/C++, it is still difficult to justify the cost of migrating existing, mature systems …
+    
+
+
+
+          
+          Aug 20, 2018
+          
+            10:49 PM
+            
+          
+        
+
+Portland, Oregon, USA
+
+
+
+
+
+
+
+
+  PDF
+
+
+  Code
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Featured Publications
+
+
+
+
+
+SoK: Sanitizing for Security
+
+
+      The C and C++ programming languages are notoriously insecure yet remain indispensable. Developers therefore resort to a multi-pronged …
+    
+
+
+
+
+
+Dokyung Song
+Julian Lettner
+Prabhu Rajasekaran
+Yeoul Na
+Stijn Volckaert
+Per Larsen
+Michael Franz
+
+
+June, 2018
+
+
+
+    
+      To appear in SP 2019
+    
+  
+
+
+
+
+  Preprint
+
+
+
+
+
+
+
+
+
+It's a TRaP: Table randomization and protection against function-reuse attacks
+
+
+      Code-reuse attacks continue to evolve and remain a severe threat to modern software. Recent research has proposed a variety of defenses …
+    
+
+
+
+
+
+Stephen Crane
+Stijn Volckaert
+Felix Schuster
+Christopher Liebchen
+Per Larsen
+Lucas Davi
+Ahmad-Reza Sadeghi
+Thorsten Holz
+Bjorn De Sutter
+Michael Franz
+
+
+October, 2015
+
+
+
+    
+      In CCS
+
+
+
+
+
+  PDF
+
+
+
+
+
+
+
+
+
+Losing control: On the effectiveness of control-flow integrity under stack attacks
+
+
+      Adversaries exploit memory corruption vulnerabilities to hijack a program’s control flow and gain arbitrary code execution. One …
+    
+
+
+
+
+
+Mauro Conti
+Stephen Crane
+Lucas Davi
+Michael Franz
+Per Larsen
+Marco Negro
+Christopher Liebchen
+Mohaned Qunaibit
+Ahmad-Reza Sadeghi
+
+
+October, 2015
+
+
+
+    
+      In CCS
+
+
+
+
+
+  PDF
+
+
+
+
+
+
+
+
+
+Readactor: Practical code randomization resilient to memory disclosure
+
+
+      Code-reuse attacks such as return-oriented programming (ROP) pose a severe threat to modern software. Designing practical and effective …
+    
+
+
+
+
+
+Stephen Crane
+Christopher Liebchen
+Andrei Homescu
+Lucas Davi
+Per Larsen
+Ahmad-Reza Sadeghi
+Stefan Brunthaler
+Michael Franz
+
+
+May, 2015
+
+
+
+    
+      In SP
+
+
+
+
+
+  PDF
+
+
+  Video
+
+
+
+
+
+
+
+
+
+Address-Oblivious Code Reuse: On the Effectiveness of Leakage Resilient Diversity
+
+
+      Memory corruption vulnerabilities not only allow modification of control data and injection of malicious payloads; they also allow …
+    
+
+
+
+
+
+Robert Rudd
+Richard Skowyra
+David Bigelow
+Veer Dedhia
+Thomas Hobson
+Stephen Crane
+Christopher Liebchen
+Per Larsen
+Lucas Davi
+Michael Franz
+Ahmad-Reza Sadeghi
+Hamed Okhravi
+
+
+February, 2015
+
+
+
+    
+      In NDSS
+
+
+
+
+
+  PDF
+
+
+  Slides
+
+
+  Video
+
+
+
+
+
+
+
+
+
+Opaque Control-Flow Integrity
+
+
+      A new binary software randomization and Control-Flow Integrity (CFI) enforcement system is presented, which is the first to resist …
+    
+
+
+
+
+
+Vishwath Mohan
+Per Larsen
+Stefan Brunthaler
+Kevin W Hamlen
+Michael Franz
+
+
+February, 2015
+
+
+
+    
+      In NDSS
+
+
+
+
+
+  PDF
+
+
+  Slides
+
+
+
+
+
+
+
+
+
+Thwarting Cache Side-Channel Attacks Through Dynamic Software Diversity
+
+
+      We explore software diversity as a defense against side-channel attacks by dynamically and systematically randomizing the control flow …
+    
+
+
+
+
+
+Stephen Crane
+Andrei Homescu
+Stefan Brunthaler
+Per Larsen
+Michael Franz
+
+
+February, 2015
+
+
+
+    
+      In NDSS
+
+
+
+
+
+  PDF
+
+
+  Slides
+
+
+
+
+
+
+
+
+
+SoK: Automated software diversity
+
+
+      The idea of automatic software diversity is at least two decades old. The deficiencies of currently deployed defenses and the …
+    
+
+
+
+
+
+Per Larsen
+Andrei Homescu
+Stefan Brunthaler
+Michael Franz
+
+
+May, 2014
+
+
+
+    
+      In SP
+
+
+
+
+
+  PDF
+
+
+
+
+
+
+
+
+
+Librando: transparent code randomization for just-in-time compilers
+
+
+      Just-in-time compilers (JITs) are here to stay. Unfortunately, they also provide new  capabilities to cyber attackers, namely the …
+    
+
+
+
+
+
+Andrei Homescu
+Stefan Brunthaler
+Per Larsen
+Michael Franz
+
+
+November, 2013
+
+
+
+    
+      In CCS
+
+
+
+
+
+  PDF
+
+
+
+
+
+
+
+
+
+Profile-guided Automatic Software Diversity
+
+
+      Code-reuse attacks are notoriously hard to defeat, and most current solutions to the problem focus on automated software diversity. …
+    
+
+
+
+
+
+Andrei Homescu
+Steven Neisius
+Per Larsen
+Stefan Brunthaler
+Michael Franz
+
+
+February, 2013
+
+
+
+    
+      In CGO
+
+
+
+
+
+  PDF
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Contact
+
+
+
+
+
+perl@uci.edu
+
+
+
+ICS1, University of California, Irvine, 92697, USA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    © 2018 · 
+
+    Powered by the
+    Academic theme for
+    Hugo.
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cite
+
+×
+
+
+
+
+
+
+
+ Copy
+        
+
+ Download
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

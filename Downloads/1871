@@ -1,0 +1,354 @@
+https://sli.ics.uci.edu/PmWiki/MarkupMasterIndex
+
+
+
+SLI | PmWiki / Markup Master Index 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+Markup Master Index
+
+
+
+
+
+< Text formatting rules | Documentation Index | Uploads >
+
+
+
+
+Table of contents
+Links
+To external urls
+To internal pages and more
+To WikiGroups
+To Intermap Destinations
+To email addresses
+To uploaded files
+Link Schemes
+Images
+as images
+as links
+Start-of-line markup
+Lists
+Headings
+Paragraph blocks
+Division blocks
+Text
+Character format
+Posting markup
+Tables
+Plain tables
+Structured tables
+Directives
+Page directives
+Display
+Metadata
+Include other pages
+Conditional markup
+Page lists
+Other directives
+Forms
+WikiTrails
+Page variables
+Expressions
+
+This page contains the most frequently used wiki markup, briefly. Follow the links in each section to learn more.
+
+ Links
+See Links
+External links
+http://example.com
+ [[http://example.com]] 
+ [[http://example.com"tool tip"]] 
+ [[http://example.com | link text]] 
+ [[link text -> http://example.com]] 
+
+Page links
+ [[PageName]] 
+ [[page name]] 
+ [[page (name)]] 
+ [[PageName | link text]] 
+ [[PageName | + ]]  (titled link)
+ [[PageName | # ]]  (anonymous numerical reference link)
+ [[PageName"tool tip"]] 
+ [[link text -> PageName]] 
+ [[#anchor]]  (to create an anchor)
+ [[#anchor | link text]]  (to refer to an anchor)
+ [[anchor | # ]]  (anonymous numerical reference link)
+ [[PageName#anchor | link text]]  (to refer to an anchor in another page)
+See also WikiWord on how to enable WikiWord links.
+
+
+WikiGroup links
+See Links and Categories
+ [[GroupName/]] or [[Group name/]] 
+ [[GroupName"tool tip"]] 
+ [[GroupName.]] 
+ [[GroupName/PageName]] or [[GroupName/page name]] 
+ [[(GroupName.)page name]] 
+ [[~Author Name]] 
+ [[~Author Name | +]] 
+ [[~Author Name | #]] 
+ [[~Author Name | link text]] 
+ [[~Author Name"tool tip"]] 
+ [[!Category Name]] 
+
+InterMap links
+See InterMap
+ [[Path:/path/local_document.html]] 
+ [[Wikipedia:WikiWikiWeb]] 
+
+Email links
+ mailto:someone@example.com 
+ [[(mailto:)someone@example.com]] 
+ [[mailto:someone@example.com | display text]] 
+ [[display text -> mailto:someone@example.com]] 
+
+Upload links
+See Uploads and Images
+ Attach:file.odt 
+ [[(Attach:)file.odt]] 
+ [[Attach:file.odt | alternative text ]] 
+ [[Attach:file with spaces.pdf]] 
+ [[Attach:Groupname./file with spaces.pdf]] 
+
+Link Schemes?
+In addition to http:, https:, mailto: PmWiki also supports:
+ftp:
+news:
+gopher:
+nap:
+file:
+tel:
+geo:
+ Images
+See Images and Uploads
+ Images as Images
+http://example.com/image.gif
+http://example.com/image.gif"alt text"
+Attach:image.gif"My image"
+Attach:Groupname./image.gif"image in another group"
+Attach:Groupname.Pagename/image.gif"image on another page"
+%lfloat% Attach:image.gif | Caption %% (could be %rfloat%, %center%, %rframe%, %lframe%, %frame% )
+%width=200px% Attach:image.gif %%
+%thumb% Attach:image.gif %%
+ Images as links
+ [[Attach:image.gif]] 
+ [[(Attach:)image.gif]] 
+ [[PageName | Attach:image.gif"alt text"]] 
+ [[http://example.com/ | Attach:image.gif"alt text"]] 
+ [[http://example.com/ | http://example.com/image.png"alt text"]] | Caption 
+%rframe thumb% [[Attach:image.gif | Attach:image.gif"alt text"]] | Caption 
+ Start-of-line markup
+See Text formatting rules
+
+ Lists
+See List Styles, Wiki styles and Cookbook:Outline lists
+* unordered list
+** deeper list
+# ordered list
+# %item value=#% arbitrary start number
+# %decimal%, %roman%, %ROMAN%, %alpha%, %ALPHA% 
+:term:definition
+Also
+Q: start a question paragraph
+A: start an answer paragraph
+ Headings
+!! Heading
+!!! Deeper heading
+ Paragraph blocks
+-> indented text
+-< hanging indent
+<space> preformatted text
+[@...@] preformatted block
+---- (horizontal rule)
+blank line is vertical space
+\ at end of line joins next line
+\\ at end of line produces a line break
+\\\ at the end of a line produces a blank line, even within a list item
+ [[<<]]  produces a line break that clears floating content
+ Division blocks
+See Block markup, Wiki styles and Page directives
+>>wikistyle<<
+>><<
+ (:div class="" style="":) 
+ (:divend:) 
+ Text markup
+See Text formatting rules
+ Character format
+''emphasized''
+'''strong'''
+'''''strong emphasis'''''
+@@monospaced@@
+[-small-], [--smaller--]
+[+big+], [++bigger++]
+'-small-', '+big+'
+'^superscript^', '_subscript_'
+{+inserted+} (underscore)
+{-deleted-} (strikethrough)
+[@escaped code@]
+[=escaped text=]
+ Posting markup
+~~~ (author's signature)
+~~~~ (author's signature and date)
+(:encrypt phrase:) -- replaced with encrypted form of phrase
+ Tables
+  Plain rows and columns of text
+See Tables
+||table attributes
+||!table caption!||
+||left aligned  || centered ||  right aligned||
+||!column heading||
+||spanned columns ||||||
+  Structured tables
+See Table directives 
+ (:table attr:) 
+ (:cellnr attr:) 
+ (:cell attr:) 
+ (:tableend:) 
+ Directives
+ Page directives
+See Page directives
+ (:redirect PageName:) 
+ (:(no)spacewikiwords:) 
+ (:(no)linkwikiwords:) 
+ (:(no)linebreaks:) 
+ Display
+See Page directives Group headers
+ (:noheader:), (:nofooter:) 
+ (:notitle:) 
+ (:noleft:), (:noright:) 
+ (:nogroupheader:), (:nogroupfooter:) 
+ (:noaction:) 
+ Metadata
+See Page directives, Comment markup,  Page variables
+ (:title text:) 
+ (:keywords word, ...:) 
+ (:description text:) 
+ (:comment text:) 
+{Group/PageName$:variable} includes from  (:variable:text:) 
+ Include
+See Include other pages, Page text variables
+ (:include PageName:) 
+ (:include PageName#start#end lines=n paras=n:) 
+ (:include Page1 Page2 Page3:) 
+{Group/PageName$:Var} includes from  (:name:text:) 
+ (:nl:)  separate included text by conditional line break
+ Conditional markup
+See Conditional markup
+ (:if (!) cond param:)...(:ifend:)
+ (:if (!) cond param:)...(:else:)...(:ifend:)
+ (:if (!) cond param:)...(:elseif (!) cond param:)...(:ifend:) 
+ Pagelists
+See Page lists
+ (:searchbox label=label order=-time:) 
+ (:searchresults incl -excl group=abc fmt=def:) 
+ (:pagelist incl -excl group=abc fmt=def:) 
+ Other directives
+See Page directives
+ (:attachlist:) 
+ (:PageDirectives#markup:)   [=...=] 
+ (:markup:)...(:markupend:) 
+ (:markup class=horiz:)...(:markupend:) 
+ (:markup caption='...':)...(:markupend:) 
+ (:messages:) 
+ Forms
+See Forms
+ (:input form method=get action=url enctype=multipart/form-data:) 
+ (:input default name=xyz value="abc":) 
+ (:input text name=first value="Bob" size=20:) 
+ (:input textarea name=xyz [=value=] rows=2 cols=80:) 
+ (:input submit name=post value="Go" accesskey=g:) 
+ (:input reset:) 
+ (:input hidden name=action value=edit:) 
+ (:input radio name=xyz value="abc" checked=1:) 
+ (:input checkbox name=xyz value="abc" checked=1:) 
+ (:input password name=authpw:) 
+ (:input file name=upload:) 
+ (:input image name=xyz src="http:..." alt="Alt Text":) 
+ (:input select name=xyz value="val1" label="Value 1":) 
+ (:input select name=xyz value="val2" label="Value 2":) 
+ (:input end:) 
+See also PmWiki Edit forms.
+
+ Wiki trails
+See Wiki trails
+<<|[[TrailPage]]|>>
+<|[[TrailPage]]|>
+^|[[TrailPage]]|^
+ Page variables
+See Page variables, Page text variables, Page lists
+ {$variable},   {pagename$variable},   {groupname.pagename$variable} 
+ {$:variable},  {pagename$:variable},  {groupname.pagename$:variable} 
+Set a page text variable
+ (:name:description:) 
+ :name:description 
+ name:description 
+See special references
+ {*$variable} 
+ {*$:variable} 
+Page list templates special variables
+ {=$variable},   {<$variable},   {>$variable},
+ {=$:variable},  {<$:variable},  {>$:variable},
+ Expressions
+See Markup expressions
+ {(function args)} 
+
+
+< Text formatting rules | Documentation Index | Uploads >
+
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:MarkupMasterIndex, and  a talk page: PmWiki:MarkupMasterIndex-Talk.
+
+
+
+
+
+
+ Last modified May 19, 2015, at 12:12 AM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

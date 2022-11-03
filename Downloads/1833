@@ -1,0 +1,129 @@
+https://sli.ics.uci.edu/PmWiki/UploadVariables
+
+
+
+SLI | PmWiki / UploadVariables 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+UploadVariables
+
+
+
+
+
+< Security Variables | Variables | Blocklist >
+
+
+
+See also: Uploads, Uploads admin.
+
+$EnableUploadThe upload.php script is automatically included from stdconfig.php if the $EnableUpload variable is true in config.php.  Note that one may still need to set an upload password before users can upload (see UploadsAdmin).
+$UploadBlacklistThis array contains forbidden strings for an uploaded file (case insensitive). Some installations with the Apache server will try to execute a file which name contains ".php", ".pl" or ".cgi" even if it is not the last part of the filename. For example, a file named "test.php.txt" may be executed. To disallow such files to be uploaded, add to config.php such a line:
+   $UploadBlacklist = array('.php', '.pl', '.cgi'); # disallow common script files
+$UploadPermAddThis variable sets additional unix permissions applied to newly uploaded files, and should be 0 (recommended as of 2013). If uploaded files cannot be downloaded and displayed on the website, for example with the error 403 Forbidden, set this value to 0444 (core setting, default since 2004).
+  $UploadPermAdd = 0; # recommended
+$UploadPermSetThis variable sets unix permissions unconditionally applied to newly uploaded files, for example 0604.  Danger! Do not use this variable unless you know what you're doing!  If you make a mistake, uploaded files may be impossible to edit or delete via the FTP/SSH account (in that case, Cookbook:Attachtable may be used) or to be downloaded and displayed on the website. Note that file permissions may differ on different systems - if you copy or move your PmWiki installation, you may have to change it.
+$UploadDirThe directory where uploads are to be stored.  Defaults to uploads/ in the pmwiki directory, but can be set to any location on the server.  This directory must be writable by the webserver process if uploading is to occur.
+$UploadUrlFmtThe url of the directory given by $UploadDir. By default, $UploadUrlFmt is derived from $PubDirUrl and $UploadDir.
+
+$IMapLinkFmt['Attach:'] The format of the upload link displayed when an attachment exists. Can be changed with such a line in config.php:
+$IMapLinkFmt['Attach:'] = "<a class='attachlink' href='\$LinkUrl'>\$LinkText</a>";
+$LinkUploadCreateFmt The format of the upload link displayed when an attachment not present. Can be changed with such a line in config.php:
+$LinkUploadCreateFmt = "<a class='createlinktext' href='\$LinkUpload'>\$LinkText</a>
+<a class='createlink' href='\$LinkUpload'>&nbsp;&Delta;</a>";
+$UploadPrefixFmtSets the prefix for uploaded files to allow attachments to be organized other than by groups.  Defaults to '/$Group' (uploads are organized per-group), but can be set to other values for sitewide or per-page attachments.
+    $UploadPrefixFmt = '/$Group/$Name';    # per-page attachments
+    $UploadPrefixFmt = '';                 # sitewide attachments
+  It is recommended to have the $UploadPrefixFmt variable defined in config.php, the same for all pages in the wiki, and not in group/page local configuration files. Otherwise you will be unable to link to attachments in other wikigroups.
+$EnableDirectDownloadWhen set to 1 (the default), links to attachments bypass PmWiki and come directly from the webserver.  Setting $EnableDirectDownload=0; causes requests for attachments to be obtained via ?action=download.  This allows PmWiki to protect attachments using a page's read permissions, but also increases the load on the server. Don't forget to protect your directory /uploads/ with a .htaccess file (Order Deny,Allow / Deny from all).
+$EnableUploadGroupAuthSet $EnableUploadGroupAuth = 1; to authenticate downloads with the group password. This could be used together with $EnableDirectDownload = 0;.  Note: $EnableUploadGroupAuth should not be enabled if your wiki uses per-page attachments.
+$EnableUploadVersionsWhen set to 1 (default is 0), uploading a file to a location where a file of the same name already exists causes the old version to be renamed to file.ext,timestamp (instead of being overwritten). timestamp is a Unix-style timestamp.
+$EnableUploadOverwriteWhen set to 1 (the default), determines if overwriting previously uploaded files is allowed.
+$UploadNameCharsThe set of characters allowed in upload names.  Defaults to "-\w. ", which means alphanumerics, hyphens, underscores, dots, and spaces can be used in upload names, and everything else will be stripped.
+ $UploadNameChars = "-\\w. !";    # allow dash, letters, digits, dots, spaces and exclamations
+ $UploadNameChars = "-\\w. \\x80-\\xff"; # allow Unicode
+  Note: Not all characters can be used in file names, because of various limitations in protocols or operating systems, file systems and server software, or conflict with PmWiki markup:
+ +?:@#%!=/  have special meanings in URL addresses, 
+ |\^`[]?:@#%/  may be impossible to save on some systems,
+ <>"|\^`(){}[]#%  may conflict with PmWiki markups,
+  so it is strongly recommended to only enable those if you know what you're doing.
+$MakeUploadNamePatterns An array of regular expression replacements that is used to normalize the filename of an attached file. First, everything but $UploadNameChars will be stripped, then the file extension will be converted to lowercase. Administrators can override these replacements with a custom definition (the full array needs to be defined). Currently the default sequence is: 
+    $MakeUploadNamePatterns = array(
+    "/[^$UploadNameChars]/" => '',          # strip all not-allowed characters
+    '/\\.[^.]*$/e' => 'strtolower("$0")',   # convert extension to lowercase
+    '/^[^[:alnum:]_]+/' => '',              # strip initial spaces, dashes, dots
+    '/[^[:alnum:]_]+$/' => ''));            # strip trailing spaces, dashes, dots
+
+$UploadDirQuotaOverall size limit for all uploads.
+
+   $UploadDirQuota = 100*1024;         # limit uploads to 100KiB
+   $UploadDirQuota = 1000*1024;        # limit uploads to 1000KiB
+   $UploadDirQuota = 1024*1024;        # limit uploads to 1MiB
+   $UploadDirQuota = 25*1024*1024;     # limit uploads to 25MiB
+   $UploadDirQuota = 2*1024*1024*1024; # limit uploads to 2GiB
+
+$UploadPrefixQuotaOverall size limit for one directory containing uploads. This directory is usually uploads/GroupName (one for every WikiGroup), or uploads/Group/PageName (one for every page), depending on the variable $UploadPrefixFmt.
+$UploadMaxSizeMaximum size for uploading files, 50000 octets (bytes) by default.
+$UploadExtSizeMaximum size per extension, overriding the default in $UploadMaxSize.
+
+   $UploadExtSize['zip'] = 2*1024*1024; # allow up to 2MiB for zip files
+
+
+
+< Security Variables | Variables | Blocklist >
+
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:UploadVariables, and  a talk page: PmWiki:UploadVariables-Talk.
+
+
+
+
+
+
+ Last modified June 08, 2016, at 08:56 AM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

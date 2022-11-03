@@ -1,0 +1,9 @@
+http://plrg.ics.uci.edu/publications/600.bib
+@inproceedings{key,
+ author = {Rahmadi Trimananda and Ali Younis and Bojun Wang and Bin Xu and Brian Demsky and Guoqing (Harry) Xu},
+ title = {Vigilia: Securing Smart Home Edge Computing},
+ booktitle = {Proceedings of the ACM/IEEE Symposium on Edge Computing 2018 (SEC 2018)},
+ location = {Bellevue, WA},
+ month = {October},
+ year = {2018}
+}

@@ -1,0 +1,139 @@
+http://www.ics.uci.edu/~kay/courses/i42/hw/hw1.html
+
+
+
+
+
+
+First Homework
+
+
+
+
+
+
+
+
+Informatics 42 • Winter 2012 • David G. Kay
+• UC Irvine
+
+First Homework
+
+Get your work checked and signed off by a classmate, then show it to your TA in lab by Wednesday, January
+18 (because Monday is a holiday).
+
+We suggest that you use some of your lab time on Wednesday and Friday, plus the weekend, to work on these exercises independently; then you'll be able to ask any
+questions in lab next week.
+
+First, we'd like to give everyone a little
+advice about how to deal with new, unfamiliar, complex systems.  Python fits
+that category for most of you, particularly because the complexity comes
+not only from the language itself but also from the new environment.  But
+Python won't be the only new, complex system you'll learn in your
+careers.  Learning new systems is a regular activity for computer scientists.
+ So it might pay to think for a minute about how to approach the task.
+
+When something doesn't behave as you expect,
+it's sometimes hard to know where the problem lies—is your understanding
+incomplete, is the text unclear or misleading, is there a bug in your code
+or in the environment?  The only way to approach this is slowly and systematically,
+starting from a point that you know is correct.  This approach is second
+nature to some people, but others may benefit from our pointing it out explicitly.
+ Start with code that you know will work—usually code from the text fits
+this category, and so does code that we distribute.  If you can't get
+that to work, you probably have what we call a procedural error, a problem
+in getting things set up, and that's something you need to ask somebody
+about.  
+
+Once you have working code, make one small
+change at a time, testing it each time to make sure each change still produces
+a working program.  We should continue to follow our practice of designing
+test cases in advance and keeping them active in our code as we develop
+it further.  That way, when something doesn't work, you know
+it's due to the most recent change you made.  When you reach major milestones,
+continue your development on a fresh copy of your code, so if you run into
+serious trouble, you can "roll back" to a stable previous version.
+
+The second point is that when you find an error,
+don't just tinker with the code in the hope it will fall into place
+correctly.  Try to determine what's really wrong, and make corrections
+that have a reasonable chance of success.  When you're learning a new
+system, you may need to ask for advice at this stage.  This is slower, more
+painstaking, and more demanding of serious reading and thinking than just
+throwing code at the compiler over and over, but it's the way you build
+up your real understanding.  As always, we recommend working with your classmates
+to help each other; even if you can't solve each other's problems,
+frustrations are less burdensome when they're shared and both of you can ask a question about it. 
+
+(a)  Run the class-based restaurants
+program (RPList.py) that we passed out in class on Tuesday; it's available at http://www.ics.uci.edu/~kay/python/RPList.py. Run it in the IDLE environment, which comes with the downloaded Python software.
+When you're learning a new tool, some stumbling blocks are inevitable; just ask your classmates or the TA to help you. But start right away so you can get past the setup hassles quickly.
+There's nothing to show the TA for this part.
+(b)  Read through the introductory chapter(s) of whichever book you're using.
+
+(c)  Make a copy of the RPList.py
+  file; call it RP2.py.
+        Then modify the
+program as follows:
+
+
+Create a new method (function) in the Restaurant class, called toSentence.
+ It should return a string from the fields of a Restaurant that looks like this:
+
+McDonald's (394-4345) serves burgers;
+order a Big Mac for $3.95.
+
+
+In the main (controller) part of RP2, add a menu item "S:
+ Print restaurant info in sentence form"
+ that will print all the restaurants in the new format. (Since the input is case-sensitive, this will be distinguished from the
+existing lower-case "s"
+menu item for searching.  This is not good user interface design, though,
+forcing users to distinguish upper and lower case.  We could have changed
+the existing item to "f"
+for "find," but we're assuming that would be easy for everyone
+so we're not asking you to do it.)
+
+
+Then add a line to handle the sentence-printing
+command.  This in turn will require a new printSentence
+method in the Collection class. 
+
+
+Modify the program to give the user an additional
+menu choice: "e:  Erase all
+the restaurants from the collection".
+ When the user types "e",
+the program should remove all the restaurants from the collection (so that,
+for example, if the next command were "p",
+nothing would be printed).  You can implement this the same simple way you
+did it in Scheme.
+
+
+We understand, and you should understand, that
+you do not already know precisely how to make these modifications.  This
+is not an entirely mechanical task; it will require that you look things
+up, figure things out, and possibly ask for advice.  This is all part of
+the learning process, something you'll do over and over in your career
+as new technologies emerge.  But of course in this class, you're not
+alone; if you've spent five or ten minutes trying to look up or figure
+out how to do something without success, you should ask a classmate or us
+(in person, on Piazza, or via i42@uci.edu).
+  But don't just ask how to do it; try to figure out how to find out the answers to similar questions in the future. [It would also be helpful if, when you finish this part of the assignment,
+you could send us a message describing any concepts that you found especially
+hard to figure out for yourself.  That's entirely optional, of course.]
+
+As we said earlier, test as you go.  When you're
+done, demonstrate your program for a classmate, to sign off, and then show it to the TA and let him look at your code.
+
+(d) Go to codingbat.com/python and do at least two of the warmup problems there.  You don't have to show your work to the TA, but keep this site in mind for help and practice learning to program in Python.
+(e)  If you plan to do some of your
+  work at home, set up your environment.  Realize, though, that everyone's individual machine is configured a
+    little differently, so leave time to deal with the nearly inevitable difficulties.
+
+
+Written by David G. Kay with some inspiration
+    from Informatics 41 and ICS H21 assignments, Winter 2005 and Winter 2006. Modified by Alex Thornton, Winter 2007, and David G. Kay, Winte r 2008. Modified for Python by David G. Kay, Winter 2012.
+
+
+

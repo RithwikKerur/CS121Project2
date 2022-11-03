@@ -1,0 +1,1041 @@
+https://duttgroup.ics.uci.edu/publications/?limit=6&
+
+
+
+
+
+
+Publications – Dutt Research Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to content
+
+
+
+
+
+
+ 
+
+Dutt Research Group
+DRG-Lab Webpage
+
+
+
+
+
+
+
+
+DRG Home
+Group Members
+Projects
+
+Self-Aware & Adaptive Computing
+
+Information Processing Factory (IPF)
+MARS
+Unified Parallel Runtime
+Memory Adaptation
+
+
+Health Care IoT
+
+Internet of Cognitive Things in healthcare
+Pain Assessment
+Maternity Care
+NSF Unite Project
+
+
+Domain-specific Hardware Accelerators
+Neuromorphic Computing
+
+
+Publications
+Sister Groups
+News
+
+
+
+
+Main Menu
+
+
+
+
+
+
+
+
+
+
+Publications 
+
+
+All publications:
+550 entries « ‹  6 of 11 › » 
+
+2009
+
+ Pasricha, Sudeep;  Dutt, Nikil D;  Kurdahi, Fadi JDynamically reconfigurable on-chip communication architectures for 
+ multi use-case chip multiprocessor applications Inproceedings Proceedings of the 14th Asia South Pacific Design Automation Conference, 
+ ASP-DAC 2009, Yokohama, Japan, January 19-22, 2009, pp. 25–30, 2009.Links | BibTeX@inproceedings{DBLP:conf/aspdac/PasrichaDK09,
+title = {Dynamically reconfigurable on-chip communication architectures for 
+ multi use-case chip multiprocessor applications},
+author = {Sudeep Pasricha and Nikil D Dutt and Fadi J Kurdahi},
+url = {https://doi.org/10.1109/ASPDAC.2009.4796436},
+doi = {10.1109/ASPDAC.2009.4796436},
+year  = {2009},
+date = {2009-01-01},
+booktitle = {Proceedings of the 14th Asia South Pacific Design Automation Conference, 
+ ASP-DAC 2009, Yokohama, Japan, January 19-22, 2009},
+pages = {25--30},
+crossref = {DBLP:conf/aspdac/2009},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ASPDAC.2009.4796436doi:10.1109/ASPDAC.2009.4796436Close Khajeh, Amin;  Gupta, Aseem;  Dutt, Nikil D;  Kurdahi, Fadi J;  Eltawil, Ahmed M;  Khouri, Kamal S;  Abadir, Magdy STRAM: A tool for Temperature and Reliability Aware Memory Design Inproceedings Design, Automation and Test in Europe, DATE 2009, Nice, France, 
+ April 20-24, 2009, pp. 340–345, 2009.Links | BibTeX@inproceedings{DBLP:conf/date/KhajehGDKEKA09,
+title = {TRAM: A tool for Temperature and Reliability Aware Memory Design},
+author = {Amin Khajeh and Aseem Gupta and Nikil D Dutt and Fadi J Kurdahi and Ahmed M Eltawil and Kamal S Khouri and Magdy S Abadir},
+url = {https://doi.org/10.1109/DATE.2009.5090685},
+doi = {10.1109/DATE.2009.5090685},
+year  = {2009},
+date = {2009-01-01},
+booktitle = {Design, Automation and Test in Europe, DATE 2009, Nice, France, 
+ April 20-24, 2009},
+pages = {340--345},
+crossref = {DBLP:conf/date/2009},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/DATE.2009.5090685doi:10.1109/DATE.2009.5090685Close Bathen, Luis Angel D;  Ahn, Yongjin;  Dutt, Nikil D;  Pasricha, SudeepInter-kernel data reuse and pipelining on chip-multiprocessors for 
+ multimedia applications Inproceedings Proceedings of the 7th IEEE/ACM/IFIP Workshop on Embedded Systems 
+ for Real-Time Multimedia, ESTIMedia 2009, Grenoble, France, 15-16 
+ October 2009, pp. 45–54, 2009.Links | BibTeX@inproceedings{DBLP:conf/estimedia/BathenADP09,
+title = {Inter-kernel data reuse and pipelining on chip-multiprocessors for 
+ multimedia applications},
+author = {Luis Angel D Bathen and Yongjin Ahn and Nikil D Dutt and Sudeep Pasricha},
+url = {https://doi.org/10.1109/ESTMED.2009.5336815},
+doi = {10.1109/ESTMED.2009.5336815},
+year  = {2009},
+date = {2009-01-01},
+booktitle = {Proceedings of the 7th IEEE/ACM/IFIP Workshop on Embedded Systems 
+ for Real-Time Multimedia, ESTIMedia 2009, Grenoble, France, 15-16 
+ October 2009},
+pages = {45--54},
+crossref = {DBLP:conf/estimedia/2009},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ESTMED.2009.5336815doi:10.1109/ESTMED.2009.5336815Close Nageswaran, Jayram Moorkanikara;  Dutt, Nikil D;  Krichmar, Jeffrey L;  Nicolau, Alex;  Veidenbaum, Alexander VEfficient simulation of large-scale Spiking Neural Networks using 
+ CUDA graphics processors Inproceedings International Joint Conference on Neural Networks, IJCNN 2009, Atlanta, 
+ Georgia, USA, 14-19 June 2009, pp. 2145–2152, 2009.Links | BibTeX@inproceedings{DBLP:conf/ijcnn/NageswaranDKNV09,
+title = {Efficient simulation of large-scale Spiking Neural Networks using 
+ CUDA graphics processors},
+author = {Jayram Moorkanikara Nageswaran and Nikil D Dutt and Jeffrey L Krichmar and Alex Nicolau and Alexander V Veidenbaum},
+url = {https://doi.org/10.1109/IJCNN.2009.5179043},
+doi = {10.1109/IJCNN.2009.5179043},
+year  = {2009},
+date = {2009-01-01},
+booktitle = {International Joint Conference on Neural Networks, IJCNN 2009, Atlanta, 
+ Georgia, USA, 14-19 June 2009},
+pages = {2145--2152},
+crossref = {DBLP:conf/ijcnn/2009},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/IJCNN.2009.5179043doi:10.1109/IJCNN.2009.5179043Close Nageswaran, Jayram Moorkanikara;  Dutt, Nikil D;  Wang, Yingxue;  ü, Tobi DelbrComputing Spike-based Convolutions on GPUs Inproceedings International Symposium on Circuits and Systems (ISCAS 2009), 24-17 
+ May 2009, Taipei, Taiwan, pp. 1917–1920, 2009.Links | BibTeX@inproceedings{DBLP:conf/iscas/NageswaranDWD09,
+title = {Computing Spike-based Convolutions on GPUs},
+author = {Jayram Moorkanikara Nageswaran and Nikil D Dutt and Yingxue Wang and Tobi Delbr ü},
+url = {https://doi.org/10.1109/ISCAS.2009.5118157},
+doi = {10.1109/ISCAS.2009.5118157},
+year  = {2009},
+date = {2009-01-01},
+booktitle = {International Symposium on Circuits and Systems (ISCAS 2009), 24-17 
+ May 2009, Taipei, Taiwan},
+pages = {1917--1920},
+crossref = {DBLP:conf/iscas/2009},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ISCAS.2009.5118157doi:10.1109/ISCAS.2009.5118157Close Nageswaran, Jayram Moorkanikara;  Dutt, Nikil D;  Wang, Yingxue;  ü, Tobi DelbrLive Demonstration: Computing Spike-based Convolutions on GPUs Inproceedings International Symposium on Circuits and Systems (ISCAS 2009), 24-17 
+ May 2009, Taipei, Taiwan, pp. 1921, 2009.Links | BibTeX@inproceedings{DBLP:conf/iscas/NageswaranDWD09a,
+title = {Live Demonstration: Computing Spike-based Convolutions on GPUs},
+author = {Jayram Moorkanikara Nageswaran and Nikil D Dutt and Yingxue Wang and Tobi Delbr ü},
+url = {https://doi.org/10.1109/ISCAS.2009.5118158},
+doi = {10.1109/ISCAS.2009.5118158},
+year  = {2009},
+date = {2009-01-01},
+booktitle = {International Symposium on Circuits and Systems (ISCAS 2009), 24-17 
+ May 2009, Taipei, Taiwan},
+pages = {1921},
+crossref = {DBLP:conf/iscas/2009},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ISCAS.2009.5118158doi:10.1109/ISCAS.2009.5118158Close Bathen, Luis Angel D;  Ahn, Yongjin;  Dutt, Nikil D;  Pasricha, SudeepA Methodology for Power-aware Pipelining via High-Level Performance 
+ Model Evaluations Inproceedings 10th International Workshop on Microprocessor Test and Verification, 
+ MTV 2009, Austin, Texas, USA, 7-9 December 2009, pp. 19–24, 2009.Links | BibTeX@inproceedings{DBLP:conf/mtv/BathenADP09,
+title = {A Methodology for Power-aware Pipelining via High-Level Performance 
+ Model Evaluations},
+author = {Luis Angel D Bathen and Yongjin Ahn and Nikil D Dutt and Sudeep Pasricha},
+url = {https://doi.org/10.1109/MTV.2009.19},
+doi = {10.1109/MTV.2009.19},
+year  = {2009},
+date = {2009-01-01},
+booktitle = {10th International Workshop on Microprocessor Test and Verification, 
+ MTV 2009, Austin, Texas, USA, 7-9 December 2009},
+pages = {19--24},
+crossref = {DBLP:conf/mtv/2009},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/MTV.2009.19doi:10.1109/MTV.2009.19Close
+
+2008
+
+ Lee, Jong-eun;  Choi, Kiyoung;  Dutt, Nikil DEvaluating memory architectures for media applications on Coarse-grained  Reconfigurable Architectures Journal Article Int. J. Embed. Syst., 3 (3), pp. 119–127, 2008.Links | BibTeX@article{DBLP:journals/ijes/LeeCD08b,
+title = {Evaluating memory architectures for media applications on Coarse-grained  Reconfigurable Architectures},
+author = {Jong-eun Lee and Kiyoung Choi and Nikil D Dutt},
+url = {https://doi.org/10.1504/IJES.2008.020293},
+doi = {10.1504/IJES.2008.020293},
+year  = {2008},
+date = {2008-01-01},
+journal = {Int. J. Embed. Syst.},
+volume = {3},
+number = {3},
+pages = {119--127},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1504/IJES.2008.020293doi:10.1504/IJES.2008.020293Close Issenin, Ilya;  Dutt, Nikil DUsing FORAY Models to Enable MPSoC Memory Optimizations Journal Article Int. J. Parallel Program., 36 (1), pp. 93–113, 2008.Links | BibTeX@article{DBLP:journals/ijpp/IsseninD08b,
+title = {Using FORAY Models to Enable MPSoC Memory Optimizations},
+author = {Ilya Issenin and Nikil D Dutt},
+url = {https://doi.org/10.1007/s10766-007-0041-6},
+doi = {10.1007/s10766-007-0041-6},
+year  = {2008},
+date = {2008-01-01},
+journal = {Int. J. Parallel Program.},
+volume = {36},
+number = {1},
+pages = {93--113},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1007/s10766-007-0041-6doi:10.1007/s10766-007-0041-6Close Pasricha, Sudeep;  Dutt, Nikil DTrends in Emerging On-Chip Interconnect Technologies Journal Article IPSJ Trans. System LSI Design Methodology, 1 , pp. 2–17, 2008.Links | BibTeX@article{DBLP:journals/ipsj/PasrichaD08b,
+title = {Trends in Emerging On-Chip Interconnect Technologies},
+author = {Sudeep Pasricha and Nikil D Dutt},
+url = {https://doi.org/10.2197/ipsjtsldm.1.2},
+doi = {10.2197/ipsjtsldm.1.2},
+year  = {2008},
+date = {2008-01-01},
+journal = {IPSJ Trans. System LSI Design Methodology},
+volume = {1},
+pages = {2--17},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.2197/ipsjtsldm.1.2doi:10.2197/ipsjtsldm.1.2Close Madl, Gabor;  Dutt, Nikil DReal-time analysis of resource-constrained distributed systems by 
+ simulation-guided model checking Journal Article SIGBED Rev., 5 (1), pp. 7, 2008.Links | BibTeX@article{DBLP:journals/sigbed/MadlD08b,
+title = {Real-time analysis of resource-constrained distributed systems by 
+ simulation-guided model checking},
+author = {Gabor Madl and Nikil D Dutt},
+url = {https://doi.org/10.1145/1366283.1366290},
+doi = {10.1145/1366283.1366290},
+year  = {2008},
+date = {2008-01-01},
+journal = {SIGBED Rev.},
+volume = {5},
+number = {1},
+pages = {7},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1145/1366283.1366290doi:10.1145/1366283.1366290Close Park, Sanghyun;  Shrivastava, Aviral;  Dutt, Nikil D;  Nicolau, Alexandru;  Paek, Yunheung;  Earlie, EugeneRegister File Power Reduction Using Bypass Sensitive Compiler Journal Article IEEE Trans. on CAD of Integrated Circuits and Systems, 27 (6), pp. 1155–1159, 2008.Links | BibTeX@article{DBLP:journals/tcad/ParkSDDNPE08b,
+title = {Register File Power Reduction Using Bypass Sensitive Compiler},
+author = {Sanghyun Park and Aviral Shrivastava and Nikil D Dutt and Alexandru Nicolau and Yunheung Paek and Eugene Earlie},
+url = {https://doi.org/10.1109/TCAD.2008.923254},
+doi = {10.1109/TCAD.2008.923254},
+year  = {2008},
+date = {2008-01-01},
+journal = {IEEE Trans. on CAD of Integrated Circuits and Systems},
+volume = {27},
+number = {6},
+pages = {1155--1159},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/TCAD.2008.923254doi:10.1109/TCAD.2008.923254Close Issenin, Ilya;  Brockmeyer, Erik;  Durinck, Bart;  Dutt, Nikil DData-Reuse-Driven Energy-Aware Cosynthesis of Scratch Pad Memory and 
+ Hierarchical Bus-Based Communication Architecture for Multiprocessor 
+ Streaming Applications Journal Article IEEE Trans. on CAD of Integrated Circuits and Systems, 27 (8), pp. 1439–1452, 2008.Links | BibTeX@article{DBLP:journals/tcad/IsseninBDD08b,
+title = {Data-Reuse-Driven Energy-Aware Cosynthesis of Scratch Pad Memory and 
+ Hierarchical Bus-Based Communication Architecture for Multiprocessor 
+ Streaming Applications},
+author = {Ilya Issenin and Erik Brockmeyer and Bart Durinck and Nikil D Dutt},
+url = {https://doi.org/10.1109/TCAD.2008.925781},
+doi = {10.1109/TCAD.2008.925781},
+year  = {2008},
+date = {2008-01-01},
+journal = {IEEE Trans. on CAD of Integrated Circuits and Systems},
+volume = {27},
+number = {8},
+pages = {1439--1452},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/TCAD.2008.925781doi:10.1109/TCAD.2008.925781Close Kim, Minyoung;  Banerjee, Sudarshan;  Dutt, Nikil D;  Venkatasubramanian, NaliniEnergy-aware cosynthesis of real-time multimedia applications on MPSoCs 
+ using heterogeneous scheduling policies Journal Article ACM Trans. Embed. Comput. Syst., 7 (2), pp. 9:1–9:19, 2008.Links | BibTeX@article{DBLP:journals/tecs/KimBDV08b,
+title = {Energy-aware cosynthesis of real-time multimedia applications on MPSoCs 
+ using heterogeneous scheduling policies},
+author = {Minyoung Kim and Sudarshan Banerjee and Nikil D Dutt and Nalini Venkatasubramanian},
+url = {https://doi.org/10.1145/1331331.1331333},
+doi = {10.1145/1331331.1331333},
+year  = {2008},
+date = {2008-01-01},
+journal = {ACM Trans. Embed. Comput. Syst.},
+volume = {7},
+number = {2},
+pages = {9:1--9:19},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1145/1331331.1331333doi:10.1145/1331331.1331333Close Pasricha, Sudeep;  Dutt, Nikil D;  Ben-Romdhane, MohamedFast exploration of bus-based communication architectures at the CCATB  abstraction Journal Article ACM Trans. Embed. Comput. Syst., 7 (2), pp. 22:1–22:32, 2008.Links | BibTeX@article{DBLP:journals/tecs/PasrichaDB08b,
+title = {Fast exploration of bus-based communication architectures at the CCATB  abstraction},
+author = {Sudeep Pasricha and Nikil D Dutt and Mohamed Ben-Romdhane},
+url = {https://doi.org/10.1145/1331331.1331346},
+doi = {10.1145/1331331.1331346},
+year  = {2008},
+date = {2008-01-01},
+journal = {ACM Trans. Embed. Comput. Syst.},
+volume = {7},
+number = {2},
+pages = {22:1--22:32},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1145/1331331.1331346doi:10.1145/1331331.1331346Close Dutt, Nikil DEditorial Journal Article ACM Trans. Design Autom. Electr. Syst., 13 (1), pp. 1:1, 2008.Links | BibTeX@article{DBLP:journals/todaes/Dutt08d,
+title = {Editorial},
+author = {Nikil D Dutt},
+url = {https://doi.org/10.1145/1297666.1297667},
+doi = {10.1145/1297666.1297667},
+year  = {2008},
+date = {2008-01-01},
+journal = {ACM Trans. Design Autom. Electr. Syst.},
+volume = {13},
+number = {1},
+pages = {1:1},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1145/1297666.1297667doi:10.1145/1297666.1297667Close Dutt, Nikil DEditorial Journal Article ACM Trans. Design Autom. Electr. Syst., 13 (3), pp. 37:1–37:2, 2008.Links | BibTeX@article{DBLP:journals/todaes/Dutt08bb,
+title = {Editorial},
+author = {Nikil D Dutt},
+url = {https://doi.org/10.1145/1367045.1367046},
+doi = {10.1145/1367045.1367046},
+year  = {2008},
+date = {2008-01-01},
+journal = {ACM Trans. Design Autom. Electr. Syst.},
+volume = {13},
+number = {3},
+pages = {37:1--37:2},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1145/1367045.1367046doi:10.1145/1367045.1367046Close Mishra, Prabhat;  Dutt, Nikil DSpecification-driven directed test generation for validation of pipelined 
+ processors Journal Article ACM Trans. Design Autom. Electr. Syst., 13 (3), pp. 42:1–42:36, 2008.Links | BibTeX@article{DBLP:journals/todaes/MishraD08b,
+title = {Specification-driven directed test generation for validation of pipelined 
+ processors},
+author = {Prabhat Mishra and Nikil D Dutt},
+url = {https://doi.org/10.1145/1367045.1367051},
+doi = {10.1145/1367045.1367051},
+year  = {2008},
+date = {2008-01-01},
+journal = {ACM Trans. Design Autom. Electr. Syst.},
+volume = {13},
+number = {3},
+pages = {42:1--42:36},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1145/1367045.1367051doi:10.1145/1367045.1367051Close Shrivastava, Aviral;  Issenin, Ilya;  Dutt, Nikil DA Compiler-in-the-Loop framework to explore Horizontally Partitioned 
+ Cache architectures Inproceedings  -, Chong;  Choi, Kiyoung;  Ha, Soonhoi (Ed.): Proceedings of the 13th Asia South Pacific Design Automation Conference, 
+ ASP-DAC 2008, Seoul, Korea, January 21-24, 2008, pp. 328–333, IEEE, 2008.Links | BibTeX@inproceedings{DBLP:conf/aspdac/ShrivastavaID08b,
+title = {A Compiler-in-the-Loop framework to explore Horizontally Partitioned 
+ Cache architectures},
+author = {Aviral Shrivastava and Ilya Issenin and Nikil D Dutt},
+editor = {Chong - and Kiyoung Choi and Soonhoi Ha},
+url = {https://doi.org/10.1109/ASPDAC.2008.4483968},
+doi = {10.1109/ASPDAC.2008.4483968},
+year  = {2008},
+date = {2008-01-01},
+booktitle = {Proceedings of the 13th Asia South Pacific Design Automation Conference, 
+ ASP-DAC 2008, Seoul, Korea, January 21-24, 2008},
+pages = {328--333},
+publisher = {IEEE},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ASPDAC.2008.4483968doi:10.1109/ASPDAC.2008.4483968Close Pasricha, Sudeep;  Dutt, Nikil DORB: An on-chip optical ring bus communication architecture for 
+ multi-processor systems-on-chip Inproceedings  -, Chong;  Choi, Kiyoung;  Ha, Soonhoi (Ed.): Proceedings of the 13th Asia South Pacific Design Automation Conference, 
+ ASP-DAC 2008, Seoul, Korea, January 21-24, 2008, pp. 789–794, IEEE, 2008.Links | BibTeX@inproceedings{DBLP:conf/aspdac/PasrichaD08b,
+title = {ORB: An on-chip optical ring bus communication architecture for 
+ multi-processor systems-on-chip},
+author = {Sudeep Pasricha and Nikil D Dutt},
+editor = {Chong - and Kiyoung Choi and Soonhoi Ha},
+url = {https://doi.org/10.1109/ASPDAC.2008.4484059},
+doi = {10.1109/ASPDAC.2008.4484059},
+year  = {2008},
+date = {2008-01-01},
+booktitle = {Proceedings of the 13th Asia South Pacific Design Automation Conference, 
+ ASP-DAC 2008, Seoul, Korea, January 21-24, 2008},
+pages = {789--794},
+publisher = {IEEE},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ASPDAC.2008.4484059doi:10.1109/ASPDAC.2008.4484059Close Dutt, Nikil DQuo vadis, BTSoC (Billion Transistor SoC)? Inproceedings  -, Chong;  Choi, Kiyoung;  Ha, Soonhoi (Ed.): Proceedings of the 13th Asia South Pacific Design Automation Conference, 
+ ASP-DAC 2008, Seoul, Korea, January 21-24, 2008, pp. 809, IEEE, 2008.Links | BibTeX@inproceedings{DBLP:conf/aspdac/Dutt08b,
+title = {Quo vadis, BTSoC (Billion Transistor SoC)?},
+author = {Nikil D Dutt},
+editor = {Chong - and Kiyoung Choi and Soonhoi Ha},
+url = {https://doi.org/10.1109/ASPDAC.2008.4484063},
+doi = {10.1109/ASPDAC.2008.4484063},
+year  = {2008},
+date = {2008-01-01},
+booktitle = {Proceedings of the 13th Asia South Pacific Design Automation Conference, 
+ ASP-DAC 2008, Seoul, Korea, January 21-24, 2008},
+pages = {809},
+publisher = {IEEE},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ASPDAC.2008.4484063doi:10.1109/ASPDAC.2008.4484063Close Park, Young-Hwan;  Pasricha, Sudeep;  Kurdahi, Fadi J;  Dutt, Nikil DMethodology for multi-granularity embedded processor power model generation  for an ESL design flow Inproceedings  Gebotys, Catherine H;  Martin, Grant (Ed.): Proceedings of the 6th International Conference on Hardware/Software 
+ Codesign and System Synthesis, CODES+ISSS 2008, Atlanta, GA, USA, 
+ October 19-24, 2008, pp. 255–260, ACM, 2008.Links | BibTeX@inproceedings{DBLP:conf/codes/ParkPKD08b,
+title = {Methodology for multi-granularity embedded processor power model generation  for an ESL design flow},
+author = {Young-Hwan Park and Sudeep Pasricha and Fadi J Kurdahi and Nikil D Dutt},
+editor = {Catherine H Gebotys and Grant Martin},
+url = {https://doi.org/10.1145/1450135.1450194},
+doi = {10.1145/1450135.1450194},
+year  = {2008},
+date = {2008-01-01},
+booktitle = {Proceedings of the 6th International Conference on Hardware/Software 
+ Codesign and System Synthesis, CODES+ISSS 2008, Atlanta, GA, USA, 
+ October 19-24, 2008},
+pages = {255--260},
+publisher = {ACM},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/1450135.1450194doi:10.1145/1450135.1450194Close Yagi, Hiroyuki;  Roesner, Wolfgang;  Kogel, Tim;  Haritan, Eshel;  Tangi, Hidekazu;  McNamara, Michael;  Smith, Gary;  Dutt, Nikil D;  Mancini, GiovanniESL hand-off: fact or EDA fiction? Inproceedings  Fix, Limor (Ed.): Proceedings of the 45th Design Automation Conference, DAC 2008, 
+ Anaheim, CA, USA, June 8-13, 2008, pp. 310–312, ACM, 2008.Links | BibTeX@inproceedings{DBLP:conf/dac/YagiRKHTMSDM08b,
+title = {ESL hand-off: fact or EDA fiction?},
+author = {Hiroyuki Yagi and Wolfgang Roesner and Tim Kogel and Eshel Haritan and Hidekazu Tangi and Michael McNamara and Gary Smith and Nikil D Dutt and Giovanni Mancini},
+editor = {Limor Fix},
+url = {https://doi.org/10.1145/1391469.1391548},
+doi = {10.1145/1391469.1391548},
+year  = {2008},
+date = {2008-01-01},
+booktitle = {Proceedings of the 45th Design Automation Conference, DAC 2008, 
+ Anaheim, CA, USA, June 8-13, 2008},
+pages = {310--312},
+publisher = {ACM},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/1391469.1391548doi:10.1145/1391469.1391548Close Kim, Minyoung;  Stehr, Mark-Oliver;  Talcott, Carolyn L;  Dutt, Nikil D;  Venkatasubramanian, NaliniConstraint Refinement for Online Verifiable Cross-Layer System Adaptation Inproceedings  Sciuto, Donatella (Ed.): Design, Automation and Test in Europe, DATE 2008, Munich, Germany, 
+ March 10-14, 2008, pp. 646–651, ACM, 2008.Links | BibTeX@inproceedings{DBLP:conf/date/KimSTDV08b,
+title = {Constraint Refinement for Online Verifiable Cross-Layer System Adaptation},
+author = {Minyoung Kim and Mark-Oliver Stehr and Carolyn L Talcott and Nikil D Dutt and Nalini Venkatasubramanian},
+editor = {Donatella Sciuto},
+url = {https://doi.org/10.1109/DATE.2008.4484750},
+doi = {10.1109/DATE.2008.4484750},
+year  = {2008},
+date = {2008-01-01},
+booktitle = {Design, Automation and Test in Europe, DATE 2008, Munich, Germany, 
+ March 10-14, 2008},
+pages = {646--651},
+publisher = {ACM},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/DATE.2008.4484750doi:10.1109/DATE.2008.4484750Close Dutt, Nikil DMemory-aware NoC Exploration and Design Inproceedings  Sciuto, Donatella (Ed.): Design, Automation and Test in Europe, DATE 2008, Munich, Germany, 
+ March 10-14, 2008, pp. 1128–1129, ACM, 2008.Links | BibTeX@inproceedings{DBLP:conf/date/Dutt08b,
+title = {Memory-aware NoC Exploration and Design},
+author = {Nikil D Dutt},
+editor = {Donatella Sciuto},
+url = {https://doi.org/10.1109/DATE.2008.4484829},
+doi = {10.1109/DATE.2008.4484829},
+year  = {2008},
+date = {2008-01-01},
+booktitle = {Design, Automation and Test in Europe, DATE 2008, Munich, Germany, 
+ March 10-14, 2008},
+pages = {1128--1129},
+publisher = {ACM},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/DATE.2008.4484829doi:10.1109/DATE.2008.4484829Close Khajeh, Amin;  Kim, Minyoung;  Dutt, Nikil D;  Eltawil, Ahmed M;  Kurdahi, Fadi JCross-layer co-exploration of exploiting error resilience for video 
+ over wireless applications Inproceedings  Eles, Petru;  Pimentel, Andy D (Ed.): Proceedings of the 6th IEEE/ACM/IFIP Workshop on Embedded Systems 
+ for Real-Time Multimedia, ESTIMedia 2008, Atlanta, Georgia, USA, 23-24 
+ October 2008, pp. 13–18, IEEE Computer Society, 2008.Links | BibTeX@inproceedings{DBLP:conf/estimedia/KhajehKDEK08b,
+title = {Cross-layer co-exploration of exploiting error resilience for video 
+ over wireless applications},
+author = {Amin Khajeh and Minyoung Kim and Nikil D Dutt and Ahmed M Eltawil and Fadi J Kurdahi},
+editor = {Petru Eles and Andy D Pimentel},
+url = {https://doi.org/10.1109/ESTMED.2008.4696987},
+doi = {10.1109/ESTMED.2008.4696987},
+year  = {2008},
+date = {2008-01-01},
+booktitle = {Proceedings of the 6th IEEE/ACM/IFIP Workshop on Embedded Systems 
+ for Real-Time Multimedia, ESTIMedia 2008, Atlanta, Georgia, USA, 23-24 
+ October 2008},
+pages = {13--18},
+publisher = {IEEE Computer Society},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ESTMED.2008.4696987doi:10.1109/ESTMED.2008.4696987Close Bathen, Luis Angel D;  Dutt, Nikil D;  Pasricha, SudeepA framework for memory-aware multimedia application mapping on chip-multiprocessors Inproceedings  Eles, Petru;  Pimentel, Andy D (Ed.): Proceedings of the 6th IEEE/ACM/IFIP Workshop on Embedded Systems 
+ for Real-Time Multimedia, ESTIMedia 2008, Atlanta, Georgia, USA, 23-24 
+ October 2008, pp. 89–94, IEEE Computer Society, 2008.Links | BibTeX@inproceedings{DBLP:conf/estimedia/BathenDP08b,
+title = {A framework for memory-aware multimedia application mapping on chip-multiprocessors},
+author = {Luis Angel D Bathen and Nikil D Dutt and Sudeep Pasricha},
+editor = {Petru Eles and Andy D Pimentel},
+url = {https://doi.org/10.1109/ESTMED.2008.4697003},
+doi = {10.1109/ESTMED.2008.4697003},
+year  = {2008},
+date = {2008-01-01},
+booktitle = {Proceedings of the 6th IEEE/ACM/IFIP Workshop on Embedded Systems 
+ for Real-Time Multimedia, ESTIMedia 2008, Atlanta, Georgia, USA, 23-24 
+ October 2008},
+pages = {89--94},
+publisher = {IEEE Computer Society},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ESTMED.2008.4697003doi:10.1109/ESTMED.2008.4697003Close Lee, Kyoungwoo;  Kim, Minyoung;  Dutt, Nikil D;  Venkatasubramanian, NaliniError-Exploiting Video Encoder to Extend Energy/QoS Tradeoffs for 
+ Mobile Embedded Systems Inproceedings  Kleinjohann, Bernd;  Kleinjohann, Lisa;  Wolf, Wayne H (Ed.): Distributed Embedded Systems: Design, Middleware and Resources, IFIP 
+ 20th World Computer Congress, TC10 Working Conference on Distributed 
+ and Parallel Embedded Systems (DIPES 2008), September 7-10, 2008, 
+ Milano, Italy, pp. 23–34, Springer, 2008.Links | BibTeX@inproceedings{DBLP:conf/ifip10-3/LeeKDV08b,
+title = {Error-Exploiting Video Encoder to Extend Energy/QoS Tradeoffs for 
+ Mobile Embedded Systems},
+author = {Kyoungwoo Lee and Minyoung Kim and Nikil D Dutt and Nalini Venkatasubramanian},
+editor = {Bernd Kleinjohann and Lisa Kleinjohann and Wayne H Wolf},
+url = {https://doi.org/10.1007/978-0-387-09661-2_3},
+doi = {10.1007/978-0-387-09661-2_3},
+year  = {2008},
+date = {2008-01-01},
+booktitle = {Distributed Embedded Systems: Design, Middleware and Resources, IFIP 
+ 20th World Computer Congress, TC10 Working Conference on Distributed 
+ and Parallel Embedded Systems (DIPES 2008), September 7-10, 2008, 
+ Milano, Italy},
+volume = {271},
+pages = {23--34},
+publisher = {Springer},
+series = {IFIP},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1007/978-0-387-09661-2_3doi:10.1007/978-0-387-09661-2_3Close Lee, Kyoungwoo;  Shrivastava, Aviral;  Dutt, Nikil D;  Venkatasubramanian, NaliniData Partitioning Techniques for Partially Protected Caches to Reduce 
+ Soft Error Induced Failures Inproceedings  Kleinjohann, Bernd;  Kleinjohann, Lisa;  Wolf, Wayne H (Ed.): Distributed Embedded Systems: Design, Middleware and Resources, IFIP 
+ 20th World Computer Congress, TC10 Working Conference on Distributed 
+ and Parallel Embedded Systems (DIPES 2008), September 7-10, 2008, 
+ Milano, Italy, pp. 213–225, Springer, 2008.Links | BibTeX@inproceedings{DBLP:conf/ifip10-3/LeeSDV08b,
+title = {Data Partitioning Techniques for Partially Protected Caches to Reduce 
+ Soft Error Induced Failures},
+author = {Kyoungwoo Lee and Aviral Shrivastava and Nikil D Dutt and Nalini Venkatasubramanian},
+editor = {Bernd Kleinjohann and Lisa Kleinjohann and Wayne H Wolf},
+url = {https://doi.org/10.1007/978-0-387-09661-2_21},
+doi = {10.1007/978-0-387-09661-2_21},
+year  = {2008},
+date = {2008-01-01},
+booktitle = {Distributed Embedded Systems: Design, Middleware and Resources, IFIP 
+ 20th World Computer Congress, TC10 Working Conference on Distributed 
+ and Parallel Embedded Systems (DIPES 2008), September 7-10, 2008, 
+ Milano, Italy},
+volume = {271},
+pages = {213--225},
+publisher = {Springer},
+series = {IFIP},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1007/978-0-387-09661-2_21doi:10.1007/978-0-387-09661-2_21Close Gupta, Aseem;  Dutt, Nikil D;  Kurdahi, Fadi J;  Khouri, Kamal S;  Abadir, Magdy SThermal Aware Global Routing of VLSI Chips for Enhanced Reliability Inproceedings 9th International Symposium on Quality of Electronic Design (ISQED 
+ 2008), 17-19 March 2008, San Jose, CA, USA, pp. 470–475, IEEE Computer Society, 2008.Links | BibTeX@inproceedings{DBLP:conf/isqed/GuptaDKKA08b,
+title = {Thermal Aware Global Routing of VLSI Chips for Enhanced Reliability},
+author = {Aseem Gupta and Nikil D Dutt and Fadi J Kurdahi and Kamal S Khouri and Magdy S Abadir},
+url = {https://doi.org/10.1109/ISQED.2008.4479779},
+doi = {10.1109/ISQED.2008.4479779},
+year  = {2008},
+date = {2008-01-01},
+booktitle = {9th International Symposium on Quality of Electronic Design (ISQED 
+ 2008), 17-19 March 2008, San Jose, CA, USA},
+pages = {470--475},
+publisher = {IEEE Computer Society},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ISQED.2008.4479779doi:10.1109/ISQED.2008.4479779Close Cho, Doosan;  Pasricha, Sudeep;  Issenin, Ilya;  Dutt, Nikil D;  Paek, Yunheung;  Ko, SunJunCompiler driven data layout optimization for regular/irregular array 
+ access patterns Inproceedings  á, Kriszti;  Regehr, John (Ed.): Proceedings of the 2008 ACM SIGPLAN/SIGBED Conference on Languages, 
+ Compilers, and Tools for Embedded Systems (LCTES'08), Tucson, AZ, 
+ USA, June 12-13, 2008, pp. 41–50, ACM, 2008.Links | BibTeX@inproceedings{DBLP:conf/lctrts/ChoPIDPK08b,
+title = {Compiler driven data layout optimization for regular/irregular array 
+ access patterns},
+author = {Doosan Cho and Sudeep Pasricha and Ilya Issenin and Nikil D Dutt and Yunheung Paek and SunJun Ko},
+editor = {Kriszti á and John Regehr},
+url = {https://doi.org/10.1145/1375657.1375664},
+doi = {10.1145/1375657.1375664},
+year  = {2008},
+date = {2008-01-01},
+booktitle = {Proceedings of the 2008 ACM SIGPLAN/SIGBED Conference on Languages, 
+ Compilers, and Tools for Embedded Systems (LCTES'08), Tucson, AZ, 
+ USA, June 12-13, 2008},
+pages = {41--50},
+publisher = {ACM},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/1375657.1375664doi:10.1145/1375657.1375664Close Lee, Kyoungwoo;  Shrivastava, Aviral;  Kim, Minyoung;  Dutt, Nikil D;  Venkatasubramanian, NaliniMitigating the impact of hardware defects on multimedia applications: 
+ a cross-layer approach Inproceedings  -, Abdulmotaleb El;  Vuong, Son;  Griwodz, Carsten;  Bimbo, Alberto Del;  ç, Sel K;  Jaimes, Alejandro (Ed.): Proceedings of the 16th International Conference on Multimedia 2008, 
+ Vancouver, British Columbia, Canada, October 26-31, 2008, pp. 319–328, ACM, 2008.Links | BibTeX@inproceedings{DBLP:conf/mm/LeeSKDV08b,
+title = {Mitigating the impact of hardware defects on multimedia applications: 
+ a cross-layer approach},
+author = {Kyoungwoo Lee and Aviral Shrivastava and Minyoung Kim and Nikil D Dutt and Nalini Venkatasubramanian},
+editor = {Abdulmotaleb El - and Son Vuong and Carsten Griwodz and Alberto Del Bimbo and Sel K ç and Alejandro Jaimes},
+url = {https://doi.org/10.1145/1459359.1459402},
+doi = {10.1145/1459359.1459402},
+year  = {2008},
+date = {2008-01-01},
+booktitle = {Proceedings of the 16th International Conference on Multimedia 2008, 
+ Vancouver, British Columbia, Canada, October 26-31, 2008},
+pages = {319--328},
+publisher = {ACM},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/1459359.1459402doi:10.1145/1459359.1459402Close Pasricha, Sudeep;  Kurdahi, Fadi J;  Dutt, Nikil DSystem level performance analysis of carbon nanotube global interconnects 
+ for emerging chip multiprocessors Inproceedings 2008 IEEE International Symposium on Nanoscale Architectures, NANOARCH 
+ 2008, Anaheim, CA, USA, June 12-13, 2008, pp. 1–7, IEEE Computer Society, 2008.Links | BibTeX@inproceedings{DBLP:conf/nanoarch/PasrichaKD08b,
+title = {System level performance analysis of carbon nanotube global interconnects 
+ for emerging chip multiprocessors},
+author = {Sudeep Pasricha and Fadi J Kurdahi and Nikil D Dutt},
+url = {https://doi.org/10.1109/NANOARCH.2008.4585785},
+doi = {10.1109/NANOARCH.2008.4585785},
+year  = {2008},
+date = {2008-01-01},
+booktitle = {2008 IEEE International Symposium on Nanoscale Architectures, NANOARCH 
+ 2008, Anaheim, CA, USA, June 12-13, 2008},
+pages = {1--7},
+publisher = {IEEE Computer Society},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/NANOARCH.2008.4585785doi:10.1109/NANOARCH.2008.4585785Close Kurdahi, Fadi J;  Dutt, Nikil D;  Eltawil, Ahmed M;  Nassif, Sani RCross-Layer Approaches to Designing Reliable Systems Using Unreliable 
+ Chips Inproceedings 21st International Conference on VLSI Design (VLSI Design 2008), 
+ 4-8 January 2008, Hyderabad, India, pp. 14–15, IEEE Computer Society, 2008.Links | BibTeX@inproceedings{DBLP:conf/vlsid/KurdahiDEN08b,
+title = {Cross-Layer Approaches to Designing Reliable Systems Using Unreliable 
+ Chips},
+author = {Fadi J Kurdahi and Nikil D Dutt and Ahmed M Eltawil and Sani R Nassif},
+url = {https://doi.org/10.1109/VLSI.2008.135},
+doi = {10.1109/VLSI.2008.135},
+year  = {2008},
+date = {2008-01-01},
+booktitle = {21st International Conference on VLSI Design (VLSI Design 2008), 
+ 4-8 January 2008, Hyderabad, India},
+pages = {14--15},
+publisher = {IEEE Computer Society},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/VLSI.2008.135doi:10.1109/VLSI.2008.135Close Pasricha, Sudeep;  Park, Young-Hwan;  Kurdahi, Fadi J;  Dutt, Nikil DIncorporating PVT Variations in System-Level Power Exploration of  On-Chip Communication Architectures Inproceedings 21st International Conference on VLSI Design (VLSI Design 2008), 
+ 4-8 January 2008, Hyderabad, India, pp. 363–370, IEEE Computer Society, 2008.Links | BibTeX@inproceedings{DBLP:conf/vlsid/PasrichaPKD08b,
+title = {Incorporating PVT Variations in System-Level Power Exploration of  On-Chip Communication Architectures},
+author = {Sudeep Pasricha and Young-Hwan Park and Fadi J Kurdahi and Nikil D Dutt},
+url = {https://doi.org/10.1109/VLSI.2008.14},
+doi = {10.1109/VLSI.2008.14},
+year  = {2008},
+date = {2008-01-01},
+booktitle = {21st International Conference on VLSI Design (VLSI Design 2008), 
+ 4-8 January 2008, Hyderabad, India},
+pages = {363--370},
+publisher = {IEEE Computer Society},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/VLSI.2008.14doi:10.1109/VLSI.2008.14Close Kannan, Deepa;  Gupta, Aseem;  Shrivastava, Aviral;  Dutt, Nikil D;  Kurdahi, Fadi JPTSMT: A Tool for Cross-Level Power, Performance, and Thermal 
+ Exploration of SMT Processors Inproceedings 21st International Conference on VLSI Design (VLSI Design 2008), 
+ 4-8 January 2008, Hyderabad, India, pp. 421–427, IEEE Computer Society, 2008.Links | BibTeX@inproceedings{DBLP:conf/vlsid/KannanGSDK08b,
+title = {PTSMT: A Tool for Cross-Level Power, Performance, and Thermal 
+ Exploration of SMT Processors},
+author = {Deepa Kannan and Aseem Gupta and Aviral Shrivastava and Nikil D Dutt and Fadi J Kurdahi},
+url = {https://doi.org/10.1109/VLSI.2008.84},
+doi = {10.1109/VLSI.2008.84},
+year  = {2008},
+date = {2008-01-01},
+booktitle = {21st International Conference on VLSI Design (VLSI Design 2008), 
+ 4-8 January 2008, Hyderabad, India},
+pages = {421--427},
+publisher = {IEEE Computer Society},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/VLSI.2008.84doi:10.1109/VLSI.2008.84Close Dutt, Nikil DEditorial Journal Article ACM Trans. Design Autom. Electr. Syst., 13 (2), pp. 23:1, 2008.Links | BibTeX@article{DBLP:journals/todaes/Dutt08a,
+title = {Editorial},
+author = {Nikil D Dutt},
+url = {http://doi.acm.org/10.1145/1344418.1344419},
+doi = {10.1145/1344418.1344419},
+year  = {2008},
+date = {2008-01-01},
+journal = {ACM Trans. Design Autom. Electr. Syst.},
+volume = {13},
+number = {2},
+pages = {23:1},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://doi.acm.org/10.1145/1344418.1344419doi:10.1145/1344418.1344419Close
+
+2007
+
+ Cheng, Liang;  Mohapatra, Shivajit;  Zarki, Magda El;  Dutt, Nikil D;  Venkatasubramanian, NaliniQuality-Based Backlight Optimization for Video Playback on Handheld 
+ Devices Journal Article Adv. Multim., 2007 , pp. 83715:1–83715:10, 2007.Links | BibTeX@article{DBLP:journals/amm/ChengMZDV07b,
+title = {Quality-Based Backlight Optimization for Video Playback on Handheld 
+ Devices},
+author = {Liang Cheng and Shivajit Mohapatra and Magda El Zarki and Nikil D Dutt and Nalini Venkatasubramanian},
+url = {https://doi.org/10.1155/2007/83715},
+doi = {10.1155/2007/83715},
+year  = {2007},
+date = {2007-01-01},
+journal = {Adv. Multim.},
+volume = {2007},
+pages = {83715:1--83715:10},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1155/2007/83715doi:10.1155/2007/83715Close Shin, Chulho;  Grun, Peter;  Romdhane, Nizar;  Lennard, Christopher K;  Madl, Gabor;  Pasricha, Sudeep;  Dutt, Nikil D;  Noll, MarkEnabling heterogeneous cycle-based and event-driven simulation in 
+ a design flow integrated using the SPIRIT consortium specifications Journal Article Design Autom. for Emb. Sys., 11 (2-3), pp. 119–140, 2007.Links | BibTeX@article{DBLP:journals/dafes/ShinGRLMPDN07b,
+title = {Enabling heterogeneous cycle-based and event-driven simulation in 
+ a design flow integrated using the SPIRIT consortium specifications},
+author = {Chulho Shin and Peter Grun and Nizar Romdhane and Christopher K Lennard and Gabor Madl and Sudeep Pasricha and Nikil D Dutt and Mark Noll},
+url = {https://doi.org/10.1007/s10617-007-9003-x},
+doi = {10.1007/s10617-007-9003-x},
+year  = {2007},
+date = {2007-01-01},
+journal = {Design Autom. for Emb. Sys.},
+volume = {11},
+number = {2-3},
+pages = {119--140},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1007/s10617-007-9003-xdoi:10.1007/s10617-007-9003-xClose Mohapatra, Shivajit;  Dutt, Nikil D;  Nicolau, Alexandru;  Venkatasubramanian, NaliniDYNAMO: A Cross-Layer Framework for End-to-End QoS and Energy 
+ Optimization in Mobile Handheld Devices Journal Article IEEE J. Sel. Areas Commun., 25 (4), pp. 722–737, 2007.Links | BibTeX@article{DBLP:journals/jsac/MohapatraDNV07b,
+title = {DYNAMO: A Cross-Layer Framework for End-to-End QoS and Energy 
+ Optimization in Mobile Handheld Devices},
+author = {Shivajit Mohapatra and Nikil D Dutt and Alexandru Nicolau and Nalini Venkatasubramanian},
+url = {https://doi.org/10.1109/JSAC.2007.070509},
+doi = {10.1109/JSAC.2007.070509},
+year  = {2007},
+date = {2007-01-01},
+journal = {IEEE J. Sel. Areas Commun.},
+volume = {25},
+number = {4},
+pages = {722--737},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/JSAC.2007.070509doi:10.1109/JSAC.2007.070509Close Pasricha, Sudeep;  Dutt, Nikil DA Framework for Cosynthesis of Memory and Communication Architectures 
+ for MPSoC Journal Article IEEE Trans. on CAD of Integrated Circuits and Systems, 26 (3), pp. 408–420, 2007.Links | BibTeX@article{DBLP:journals/tcad/PasrichaD07b,
+title = {A Framework for Cosynthesis of Memory and Communication Architectures 
+ for MPSoC},
+author = {Sudeep Pasricha and Nikil D Dutt},
+url = {https://doi.org/10.1109/TCAD.2006.884487},
+doi = {10.1109/TCAD.2006.884487},
+year  = {2007},
+date = {2007-01-01},
+journal = {IEEE Trans. on CAD of Integrated Circuits and Systems},
+volume = {26},
+number = {3},
+pages = {408--420},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/TCAD.2006.884487doi:10.1109/TCAD.2006.884487Close Biswas, Partha;  Dutt, Nikil D;  Pozzi, Laura;  Ienne, PaoloIntroduction of Architecturally Visible Storage in Instruction Set 
+ Extensions Journal Article IEEE Trans. on CAD of Integrated Circuits and Systems, 26 (3), pp. 435–446, 2007.Links | BibTeX@article{DBLP:journals/tcad/BiswasDPI07b,
+title = {Introduction of Architecturally Visible Storage in Instruction Set 
+ Extensions},
+author = {Partha Biswas and Nikil D Dutt and Laura Pozzi and Paolo Ienne},
+url = {https://doi.org/10.1109/TCAD.2006.890582},
+doi = {10.1109/TCAD.2006.890582},
+year  = {2007},
+date = {2007-01-01},
+journal = {IEEE Trans. on CAD of Integrated Circuits and Systems},
+volume = {26},
+number = {3},
+pages = {435--446},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/TCAD.2006.890582doi:10.1109/TCAD.2006.890582Close Pasricha, Sudeep;  Dutt, Nikil D;  Ben-Romdhane, MohamedBMSYN: Bus Matrix Communication Architecture Synthesis for MPSoC Journal Article IEEE Trans. on CAD of Integrated Circuits and Systems, 26 (8), pp. 1454–1464, 2007.Links | BibTeX@article{DBLP:journals/tcad/PasrichaDB07b,
+title = {BMSYN: Bus Matrix Communication Architecture Synthesis for MPSoC},
+author = {Sudeep Pasricha and Nikil D Dutt and Mohamed Ben-Romdhane},
+url = {https://doi.org/10.1109/TCAD.2007.891376},
+doi = {10.1109/TCAD.2007.891376},
+year  = {2007},
+date = {2007-01-01},
+journal = {IEEE Trans. on CAD of Integrated Circuits and Systems},
+volume = {26},
+number = {8},
+pages = {1454--1464},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/TCAD.2007.891376doi:10.1109/TCAD.2007.891376Close Shrivastava, Aviral;  Park, Sanghyun;  Earlie, Eugene;  Dutt, Nikil D;  Nicolau, Alexandru;  Paek, YunheungAutomatic Design Space Exploration of Register Bypasses in Embedded 
+ Processors Journal Article IEEE Trans. on CAD of Integrated Circuits and Systems, 26 (12), pp. 2102–2115, 2007.Links | BibTeX@article{DBLP:journals/tcad/ShrivastavaPEDNP07b,
+title = {Automatic Design Space Exploration of Register Bypasses in Embedded 
+ Processors},
+author = {Aviral Shrivastava and Sanghyun Park and Eugene Earlie and Nikil D Dutt and Alexandru Nicolau and Yunheung Paek},
+url = {https://doi.org/10.1109/TCAD.2007.907066},
+doi = {10.1109/TCAD.2007.907066},
+year  = {2007},
+date = {2007-01-01},
+journal = {IEEE Trans. on CAD of Integrated Circuits and Systems},
+volume = {26},
+number = {12},
+pages = {2102--2115},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/TCAD.2007.907066doi:10.1109/TCAD.2007.907066Close Lee, Jong-eun;  Choi, Kiyoung;  Dutt, Nikil DInstruction set synthesis with efficient instruction encoding for  configurable processors Journal Article ACM Trans. Design Autom. Electr. Syst., 12 (1), pp. 9:1–9:37, 2007.Links | BibTeX@article{DBLP:journals/todaes/LeeCD07b,
+title = {Instruction set synthesis with efficient instruction encoding for  configurable processors},
+author = {Jong-eun Lee and Kiyoung Choi and Nikil D Dutt},
+url = {https://doi.org/10.1145/1217088.1217096},
+doi = {10.1145/1217088.1217096},
+year  = {2007},
+date = {2007-01-01},
+journal = {ACM Trans. Design Autom. Electr. Syst.},
+volume = {12},
+number = {1},
+pages = {9:1--9:37},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1145/1217088.1217096doi:10.1145/1217088.1217096Close Dutt, Nikil DEditorial Journal Article ACM Trans. Design Autom. Electr. Syst., 12 (2), pp. 9, 2007.Links | BibTeX@article{DBLP:journals/todaes/Dutt07b,
+title = {Editorial},
+author = {Nikil D Dutt},
+url = {https://doi.org/10.1145/1230800.1230801},
+doi = {10.1145/1230800.1230801},
+year  = {2007},
+date = {2007-01-01},
+journal = {ACM Trans. Design Autom. Electr. Syst.},
+volume = {12},
+number = {2},
+pages = {9},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1145/1230800.1230801doi:10.1145/1230800.1230801Close Issenin, Ilya;  Brockmeyer, Erik;  Miranda, Miguel;  Dutt, Nikil DDRDU: A data reuse analysis technique for efficient scratch-pad 
+ memory management Journal Article ACM Trans. Design Autom. Electr. Syst., 12 (2), pp. 15, 2007.Links | BibTeX@article{DBLP:journals/todaes/IsseninBMD07b,
+title = {DRDU: A data reuse analysis technique for efficient scratch-pad 
+ memory management},
+author = {Ilya Issenin and Erik Brockmeyer and Miguel Miranda and Nikil D Dutt},
+url = {https://doi.org/10.1145/1230800.1230807},
+doi = {10.1145/1230800.1230807},
+year  = {2007},
+date = {2007-01-01},
+journal = {ACM Trans. Design Autom. Electr. Syst.},
+volume = {12},
+number = {2},
+pages = {15},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1145/1230800.1230807doi:10.1145/1230800.1230807Close Gupta, Aseem;  Dutt, Nikil D;  Kurdahi, Fadi J;  Khouri, Kamal S;  Abadir, Magdy SLEAF: A System Level Leakage-Aware Floorplanner for SoCs Inproceedings Proceedings of the 12th Conference on Asia South Pacific Design Automation, 
+ ASP-DAC 2007, Yokohama, Japan, January 23-26, 2007, pp. 274–279, IEEE Computer Society, 2007.Links | BibTeX@inproceedings{DBLP:conf/aspdac/GuptaDKKA07b,
+title = {LEAF: A System Level Leakage-Aware Floorplanner for SoCs},
+author = {Aseem Gupta and Nikil D Dutt and Fadi J Kurdahi and Kamal S Khouri and Magdy S Abadir},
+url = {https://doi.org/10.1109/ASPDAC.2007.357998},
+doi = {10.1109/ASPDAC.2007.357998},
+year  = {2007},
+date = {2007-01-01},
+booktitle = {Proceedings of the 12th Conference on Asia South Pacific Design Automation, 
+ ASP-DAC 2007, Yokohama, Japan, January 23-26, 2007},
+pages = {274--279},
+publisher = {IEEE Computer Society},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ASPDAC.2007.357998doi:10.1109/ASPDAC.2007.357998Close Banerjee, Sudarshan;  Bozorgzadeh, Elaheh;  Dutt, Nikil D;  Noguera, JuanjoSelective Band width and Resource Management in Scheduling for Dynamically 
+ Reconfigurable Architectures Inproceedings Proceedings of the 44th Design Automation Conference, DAC 2007, 
+ San Diego, CA, USA, June 4-8, 2007, pp. 771–776, IEEE, 2007.Links | BibTeX@inproceedings{DBLP:conf/dac/BanerjeeBDN07b,
+title = {Selective Band width and Resource Management in Scheduling for Dynamically 
+ Reconfigurable Architectures},
+author = {Sudarshan Banerjee and Elaheh Bozorgzadeh and Nikil D Dutt and Juanjo Noguera},
+url = {https://doi.org/10.1145/1278480.1278673},
+doi = {10.1145/1278480.1278673},
+year  = {2007},
+date = {2007-01-01},
+booktitle = {Proceedings of the 44th Design Automation Conference, DAC 2007, 
+ San Diego, CA, USA, June 4-8, 2007},
+pages = {771--776},
+publisher = {IEEE},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/1278480.1278673doi:10.1145/1278480.1278673Close Zhu, Qiang;  Shrivastava, Aviral;  Dutt, Nikil DInteractive presentation: Functional and timing validation of partially 
+ bypassed processor pipelines Inproceedings  Lauwereins, Rudy;  Madsen, Jan (Ed.): 2007 Design, Automation and Test in Europe Conference and Exposition, 
+ DATE 2007, Nice, France, April 16-20, 2007, pp. 1164–1169, EDA Consortium, San Jose, CA, USA, 2007.Links | BibTeX@inproceedings{DBLP:conf/date/ZhuSD07b,
+title = {Interactive presentation: Functional and timing validation of partially 
+ bypassed processor pipelines},
+author = {Qiang Zhu and Aviral Shrivastava and Nikil D Dutt},
+editor = {Rudy Lauwereins and Jan Madsen},
+url = {https://dl.acm.org/citation.cfm?id=1266617},
+year  = {2007},
+date = {2007-01-01},
+booktitle = {2007 Design, Automation and Test in Europe Conference and Exposition, 
+ DATE 2007, Nice, France, April 16-20, 2007},
+pages = {1164--1169},
+publisher = {EDA Consortium, San Jose, CA, USA},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://dl.acm.org/citation.cfm?id=1266617Close550 entries « ‹  6 of 11 › » 
+
+
+
+
+
+
+
+
+
+
+Find Us Address
+3069 Donald Bren Hall
+University of California, Irvine
+Irvine, CA 92697-3435, USA
+Email
+drg@ics.uci.edu
+
+ 
+
+
+
+
+
+
+
+
+
+					Copyright © 2022 Dutt Research Group.				
+
+					Powered by WordPress and HitMag.				
+
+
+
+
+
+
+
+
+
+
+
+
+

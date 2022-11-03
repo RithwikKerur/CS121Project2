@@ -1,0 +1,47 @@
+http://www.ics.uci.edu/~kay/courses/i41/hw/lab3.html
+
+
+
+
+
+
+Lab Assignment 3
+
+
+
+
+
+
+
+
+INFORMATICS 41 • DAVID G. KAY • UC IRVINE • FALL 2011
+Lab Assignment 3 
+
+This assignment is due at the end of lab on
+Friday, October 14. 
+
+Choose a partner for this assignment, someone
+you haven't worked with already. You will start where you left off on Lab Assignment 2, so you should pick a partner who left off about where you did. If you both didn't stop at exactly the same place, start with the earlier exercise. Remember that the point is for both partners to know how to do all the exercises; don't just copy down the further-ahead partner's solutions.
+
+(a) Starting where you left off last week, finish the exercises listed in Lab Assignment 2. Collect all these definitions into one file and submit them via Checkmate.  
+
+(b) In Chapter 19, do exercise 19.3.4.
+
+(c) In Chapter 20, do exercise 20.4.5. If time permits at the end of the week, come back and do one or more of 20.6.3,  20.6.4,  20.7.2, and 20.6.5 through 20.6.9. 
+(d) In Chapter 21, do exercises 21.3.8, 21.4.10, 21.8.9, and 21.8.10. Note that when 21.8.9 says, "Define a data type," what you're actually doing is defining structures for three different types (car, bicycle, and train) and then just saying, "A vehicle is either a car, a bicycle, or a train."
+Only if you have time should you do exercises 21.4.11 and 21.6.3.
+(e) In Chapter 22, do exercises 22.5.5, 22.5.7, and 22.5.8. We've done problems very similar to all three of these in class.
+(f) Suppose you have  restaurant structures  defined as in class: (define-struct rrant (name cuisine phone dish price)). Write a function called average-for-cuisine that takes  as its inputs a list of restaurants and a string representing a cuisine; it returns the average price of the restaurants on the input list whose cuisine matches the input string. This too is similar to what we did in class; look up the transcript from that day and modify the code as necessary. Work thoughtfully and make your modifications systematically. Sometimes people just guess at what to change, click Run, and hope for the best; this is not a winning strategy.
+Combine all your definitions from parts (b) through (f) into one file and submit it via Checkmate.
+(g) Remember that each partner must
+  complete a partner evaluation form and submit it individually via eee.uci.edu.
+
+
+Written by David G. Kay to reflect thePicturing Programs textbook, Fall 2010.
+
+David G. Kay, kay@uci.edu 
+
+Thursday, October 6, 2011 7:40 PM
+
+
+

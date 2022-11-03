@@ -1,0 +1,253 @@
+https://asterix.ics.uci.edu/publications.html
+
+
+
+
+
+
+
+
+
+
+Publications
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Toggle navigation
+
+
+
+
+Overview
+
+
+
+Publications
+Theses
+Supporters
+NSF Award
+Apache AsterixDB 
+
+
+
+
+
+
+Publications
+
+
+AsterixDB Mid-Flight: A Case Study in Building Systems in Academia
+M. Carey
+Proc. 35th IEEE Int’l. Conf. On Data Engineering (ICDE). Macau, China, April 2019.
+
+
+An IDEA: An Ingestion Framework for Data Enrichment in AsterixDB
+X. Wang and M. Carey
+Proc. of the VLDB Endowment, Vol. 12, No. 11, July 2019.
+
+
+Efficient Data Ingestion and Query Processing for LSM-Based Storage Systems
+C. Luo and M. Carey
+Proc. of the VLDB Endowment, Vol. 12, No. 5, January 2019.
+
+
+ A Performance Study of AsterixDB
+K. Ouaknine and M. Carey
+IEEE Int’l. Workshop on Benchmarking, Performance Tuning and Optimization for Big Data Applications (BPOD 2017), Boston, MA, December 2017.
+
+
+ A Performance Study of Big Data Analytics Platforms
+P. Pirzadeh, M. Carey, and T. Westmann
+IEEE Int’l. Workshop on Benchmarking, Performance Tuning and Optimization for Big Data Applications (BPOD 2017), Boston, MA, December 2017.
+
+
+ Drum: A Rhythmic Approach to Interactive Analytics on Large Data
+Jianfeng Jia, Chen Li, Michael J. Carey
+IEEE BigData 2017
+
+
+Large-scale Complex Analytics on Semi-structured Datasets using AsterixDB and Spark (demo)
+W. Alkowaileet, S. Alsubaiee, M. Carey, T. Westmann, and Y. Bu
+2016 Int’l. Conf. on Very Large Data Bases, Delhi, India, September 2016.
+
+
+Algebricks: A Data Model-Agnostic Compiler Backend for Big Data Languages
+V. Borkar, Y. Bu, E. Carman, N. Onose, T. Westmann, M. Carey, P. Pirzadeh, and V. Tsotras
+Proc. of the ACM Symp. on Cloud Computing, Kohala Coast, Hawaii, September 2015.
+
+
+External Data Access and Indexing in AsterixDB
+A. Alamoudi, R. Grover, V. Borkar, and M. Carey
+Proc. of the ACM Int’l. Conf. on Information and Knowledge Management, Melbourne, Australia, October 2015.
+
+
+BigFUN: A Performance Study of Big Data Management System Functionality
+P. Pirzadeh, M. Carey, and T. Westmann
+Proc. of the IEEE Int’l. Conf. on Big Data, Santa Clara, CA, October-November 2015.
+
+
+A Scalable Parallel XQuery Processor
+E. Carman, V. Borkar, T. Westmann, V. Tsotras, and M. Carey
+Proc. of the IEEE Int’l. Conf. on Big Data, Santa Clara, CA, October-November 2015.
+
+
+LSM Based Storage and Indexing: An Old Idea with Timely Benefits
+S. Alsubaiee, M. Carey, and C. Li
+Proc. of the 2nd Int’l. ACM SIGMOD Workshop on Managing and Mining Enriched Geo-Spatial Data, Melbourne, Australia, June 2015.
+
+
+The PigMix Benchmark on Pig, MapReduce, and HPCC Systems 
+K. Ouaknine, M. Carey, and S. Kirkpatrick
+Proc. of the IEEE BigData Congress 2015 (Short Paper Track), New York, New York, June 2015.
+
+
+Data Ingestion in AsterixDB 
+R. Grover and M. Carey
+Proc. of the Int’l. Conf. on Extending Database Technology, Brussels, Belgium, March 2015.
+
+
+Pregelix: Big(ger) Graph Analytics on a Dataflow Engine
+Y. Bu, V. Borkar, J. Jia, M. Carey, and T. Condie
+Proc. of the VLDB Endowment, Vol. 8, No. 2, October 2014.
+
+
+AsterixDB: A Scalable, Open Source BDMS
+S. Alsubaiee, Y. Altowim, H. Altwaijry, A. Behm, V. Borkar, Y. Bu, M. Carey, I. Cetindil, M. Cheelangi, K. Faraaz. E. Gabrielova, R. Grover, Z. Heilbron, Y-S. Kim, C Li, G. Li, J. Ok, N. Onose, P. Pirzadeh, V. Tsotras, R. Vernica, J. Wen, and T. Westmann
+Proc. of the VLDB Endowment, Vol. 7, No. 14, September 2014.
+
+
+Storage Management in AsterixDB
+S. Alsubaiee, A. Behm, V. Borkar, Z. Heilbron, Y-S. Kim, M. Carey, M. Dreseler, and C. Li
+Proc. of the VLDB Endowment, Vol. 7, No. 10, June 2014.
+
+
+
+A Bloat-Aware Design for Big Data Applications
+Yingyi Bu, Vinayak Borkar, Guoqing Xu, and Michael J. Carey.
+In Proceedings of the 2013 ACM SIGPLAN International Symposium on Memory Management (ISMM 2013). Seattle, WA, June 20-21, 2013.
+
+
+ A Common Compiler Framework for Big Data Languages: Motivation, Opportunities, and Benefits” 
+V. Borkar and M. Carey IEEE
+Data Engineering Bulletin (Special Issue on Query Optimization for Big Data Systems), Vol. 36, No. 1, March 2013.
+
+
+
+Declarative Systems for Large-Scale Machine Learning
+Vinayak Borkar, Yingyi Bu, Michael J. Carey, Joshua Rosen, Neoklis Polyzotis, Tyson Condie, Markus Weimer, Raghu Ramakrishnan.
+IEEE Data Engineering Bulletin. Volume 35, Number 2, June 2012.
+
+
+BDMS Performance Evaluation: Practices, Pitfalls, and Possibilities
+Michael J. Carey.
+In Selected Topics in Performance Evaluation and Benchmarking - 4th TPC Technology Conference, TPCTC 2012, Istanbul, Turkey, August 27, 2012
+
+
+
+ASTERIX: An Open Source System for “Big Data” Management and Analysis
+Sattam Alsubaiee, Yasser Altowim, Hotham Altwaijry, Alexander Behm, Vinayak R. Borkar, Yingyi Bu, Michael J. Carey, Raman Grover, Zachary Heilbron, Young-Seok Kim, Chen Li, Nicola Onose, Pouria Pirzadeh, Rares Vernica, Jian Wen.
+PVLDB 2012 (demo).
+
+
+
+Big data platforms: what’s next?
+Vinayak R. Borkar, Michael J. Carey, Chen Li.
+ACM Crossroads 19(1): 44-49, 2012.
+
+
+
+ASTERIX: Scalable Warehouse-Style Web Data Integration
+Sattam Alsubaiee, Alexander Behm, Raman Grover, Rares Vernica, Vinayak Borkar, Michael J. Carey, Chen Li.
+IIWeb 2012 (co-located with SIGMOD 2012).
+
+
+
+Inside “Big Data Management”: Ogres, Onions, or Parfaits?
+Vinayak R. Borkar, Michael J. Carey, Chen Li.
+EDBT 2012 (Keynote Talk).
+
+
+
+Extending Map-Reduce for Efficient Predicate-Based Sampling
+Raman Grover, Michael Carey.
+ICDE 2012. slides poster
+
+
+
+ASTERIX: Towards a Scalable, Semistructured Data Platform for Evolving-World Models
+Alexander Behm, Vinayak R. Borkar, Michael J. Carey, Raman Grover, Chen Li, Nicola Onose, Rares Vernica, Alin Deutsch, Yannis Papakonstantinou, and Vassilis J. Tsotras.
+Distrib. Parallel Databases 29, 3 (June 2011), 185-216.
+
+
+
+Online Aggregation for Large MapReduce Jobs
+Niketan Pansare, Vinayak R. Borkar, Chris Jermaine, Tyson Condie.
+VLDB 2011. source code
+
+
+
+Map-reduce extensions and recursive queries
+Foto N. Afrati, Vinayak R. Borkar, Michael J. Carey, Neoklis Polyzotis, Jeffrey D. Ullman.
+EDBT 2011 (Keynote Talk).
+
+
+
+Answering Approximate String Queries on Large Data Sets Using External Memory
+Alexander Behm, Chen Li, Michael J. Carey.
+ICDE 2011. source code
+
+
+
+Hyracks: A Flexible and Extensible Foundation for Data-Intensive Computing
+Vinayak Borkar, Michael J. Carey, Raman Grover, Nicola Onose, Rares Vernica.
+ICDE 2011. long version source code
+
+
+
+Efficient Parallel Set-Similarity Joins Using MapReduce
+Rares Vernica, Michael J. Carey, Chen Li.
+SIGMOD 2010. long version source code
+
+
+
+
+
+
+
+
+ 
+
+
+© Copyright 2013-2018 University of California
+Apache AsterixDB, Apache, and the Apache feather logo are trademarks of the Apache Software Foundation
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+

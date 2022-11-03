@@ -1,0 +1,472 @@
+https://duttgroup.ics.uci.edu/projects/domain-specific-hardware-accelerators
+
+
+
+
+
+
+Domain-specific Hardware Accelerators – Dutt Research Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to content
+
+
+
+
+
+
+ 
+
+Dutt Research Group
+DRG-Lab Webpage
+
+
+
+
+
+
+
+
+DRG Home
+Group Members
+Projects
+
+Self-Aware & Adaptive Computing
+
+Information Processing Factory (IPF)
+MARS
+Unified Parallel Runtime
+Memory Adaptation
+
+
+Health Care IoT
+
+Internet of Cognitive Things in healthcare
+Pain Assessment
+Maternity Care
+NSF Unite Project
+
+
+Domain-specific Hardware Accelerators
+Neuromorphic Computing
+
+
+Publications
+Sister Groups
+News
+
+
+
+
+Main Menu
+
+
+
+
+
+
+
+
+
+
+Domain-specific Hardware Accelerators 
+
+
+
+
+
+Programmable Accelerators for Lattice-based Public Key Protocols
+
+Post Quantum Lattice-Based Cryptography (LBC) schemes are increasingly gaining attention in traditional and emerging security problems, such as encryption, digital signature, key exchange, homomorphic encryption etc, to address security needs of both short and long-lived devices — due to their foundational properties and ease of implementation. However, LBC schemes induce higher computational demand compared to classic schemes (e.g., DSA, ECDSA) for equivalent security guarantees, making domain-specific acceleration a viable option for improving security and favor early adoption of LBC schemes by the semiconductor industry.
+
+
+
+Sponsor:
+
+
+
+
+
+				Qualcomm
+				
+
+
+
+
+				UC Irvine
+				
+
+
+
+
+People:
+
+
+
+
+
+				Hamid Nejatollahi
+				
+
+
+
+
+				Rosario Cammarota
+				
+
+
+
+
+
+
+Scale Down Neural Network Models Considering HW Constraints
+
+Traditionally machine learning (ML) computations have been performed on resourceful servers due to the high computational demands of these ML techniques. However, when these ML techniques are deployed for emerging applications that are heavily resource-constrained (e.g., smartphones, mobile platforms, IoT devices), time-critical (e.g., self-driving cars), or in environments where cloud connectivity is not reliably available, there is a need to perform ML computation/acceleration on the device itself. Furthermore, consumers are increasingly concerned about the privacy of their data when stored on public clouds.  All of these concerns pose daunting challenges for ML formulations and on-device acceleration.  On one hand, due to the limited resources, on-device AI should scale-down the network models (e.g. changing the number of layers, neurons per layer, etc.).  On the other hand, on-device AI acceleration must simultaneously satisfy multiple constraints including power consumption, latency, privacy and accuracy of the prediction.
+
+
+
+Sponsor:
+
+
+
+
+
+				UC Irvine
+				
+
+
+
+
+People:
+
+
+
+
+
+				Hamid Nejatollahi
+				
+
+
+
+
+				Kenshu Seto
+				
+
+
+
+
+				Jiyoung An
+				
+
+
+
+
+				Sujin Kang
+				
+
+
+
+
+Articles
+
+
+
+
+
+
+
+
+
+
+
+
+CryptoPIM paper by Hamid has been selected as a finalist for the DAC 2020 Best Paper Award.
+
+
+
+
+
+Our paper by Hamid and Sina has been selected as a finalist for the ICASSP 2020 Best Paper Award.
+
+
+
+
+
+Group meeting-Feb-2019-Programmable Accelerator DNN
+
+
+
+
+
+Publications
+
+
+
+2020
+
+ Nejatollahi  Hamid; Saransh, Gupta; Imani Mohsen; Tajana Rosing; Cammarota Rosario; Dutt Nikil CryptoPIM: In-memory Acceleration for Lattice-based Cryptographic Hardware Journal Article Design Automation Conference (DAC), 2020, (Best paper award finalist).Links | BibTeX@article{Nejatollahi2020-DAC,
+title = {CryptoPIM: In-memory Acceleration for Lattice-based Cryptographic Hardware},
+author = {Nejatollahi, Hamid; Saransh, Gupta; Imani, Mohsen; Tajana, Rosing; Cammarota, Rosario; Dutt, Nikil},
+url = {https://eprint.iacr.org/2020/276},
+year  = {2020},
+date = {2020-06-01},
+journal = {Design Automation Conference (DAC)},
+note = {Best paper award finalist},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://eprint.iacr.org/2020/276Close Peroni, Daniel;  Imani, Mohsen;  Hamid, Nejatollahi;  Dutt, Nikil;  Rosing, TajanaData Reuse for Accelerated Approximate Warps Journal Article IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD), 2020.Links | BibTeX@article{Nejatollahi2020-TCAD,
+title = {Data Reuse for Accelerated Approximate Warps},
+author = {Daniel Peroni and Mohsen Imani and Nejatollahi Hamid and Nikil Dutt and Tajana Rosing},
+url = {https://ieeexplore.ieee.org/document/9060871},
+year  = {2020},
+date = {2020-04-01},
+journal = {IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://ieeexplore.ieee.org/document/9060871Close Nejatollahi  Hamid; Sina Shahhosseini; Cammarota, Rosario; Dutt Nikil Exploring Energy Efficient Quantum-resistant Signal Processing Using Array Processors Conference International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2020, (Best paper award finalist).Links | BibTeX@conference{Nejatollah-ICASSP,
+title = {Exploring Energy Efficient Quantum-resistant Signal Processing Using Array Processors},
+author = {Nejatollahi, Hamid; Sina Shahhosseini; Cammarota, Rosario; Dutt, Nikil},
+url = {https://eprint.iacr.org/2019/1297.pdf},
+year  = {2020},
+date = {2020-02-01},
+booktitle = {International Conference on Acoustics, Speech, and Signal Processing (ICASSP)},
+note = {Best paper award finalist},
+keywords = {},
+pubstate = {published},
+tppubtype = {conference}
+}
+Closehttps://eprint.iacr.org/2019/1297.pdfClose Nejatollahi  Hamid; Felipe, Valencia; Banik Subhadeep; Regazzoni Francesco; Cammarota Rosario; Dutt Nikil Synthesis of Flexible Accelerators for Early Adoption of Ring-LWE Post-quantum Cryptography Journal Article Transactions on Embedded Computing Systems, 2020.Links | BibTeX@article{Nejatollahi2020-TECS,
+title = {Synthesis of Flexible Accelerators for Early Adoption of Ring-LWE Post-quantum Cryptography},
+author = {Nejatollahi, Hamid; Felipe, Valencia; Banik, Subhadeep; Regazzoni Francesco; Cammarota, Rosario; Dutt, Nikil},
+url = {https://dl.acm.org/doi/10.1145/3378164},
+year  = {2020},
+date = {2020-01-13},
+journal = {Transactions on Embedded Computing Systems},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://dl.acm.org/doi/10.1145/3378164Close
+
+2019
+
+ Nejatollahi, Hamid;  Dutt, Nikil;  Cammarota, RosarioFlexible NTT Accelerators for RLWE Lattice-Based Cryptography Conference 2019.Links | BibTeX@conference{Nejatollahi2019b,
+title = {Flexible NTT Accelerators for RLWE Lattice-Based Cryptography},
+author = {Hamid Nejatollahi and Nikil Dutt and Rosario Cammarota},
+url = {https://ieeexplore.ieee.org/document/8988700},
+year  = {2019},
+date = {2019-11-17},
+journal = {37th IEEE International Conference on Computer Design},
+keywords = {},
+pubstate = {published},
+tppubtype = {conference}
+}
+Closehttps://ieeexplore.ieee.org/document/8988700Close Peroni, Daniel;  Imani, Mohsen;  Hamid, Nejatollahi;  Dutt, Nikil;  Rosing, TajanaARGA: Approximate Reuse for GPGPU Acceleration Conference  IEEE/ACM Design Automation Conference (DAC), 2019.Links | BibTeX@conference{Peroni2019,
+title = {ARGA: Approximate Reuse for GPGPU Acceleration},
+author = {Daniel Peroni and Mohsen Imani and Nejatollahi Hamid and Nikil Dutt and Tajana Rosing},
+doi = {10.1145/3316781.3317776},
+year  = {2019},
+date = {2019-05-01},
+booktitle = { IEEE/ACM Design Automation Conference (DAC)},
+keywords = {},
+pubstate = {published},
+tppubtype = {conference}
+}
+Closedoi:10.1145/3316781.3317776Close Seto, Kenshu;  Nejatollahi, Hamid;  An, Jiyoung;  Kang, Sujin;  Dutt, NikilSmall Memory Footprint Neural Network Accelerators Inproceedings International Symposium on Quality Electronic Design (ISQED), 2019.Links | BibTeX@inproceedings{Seto2019,
+title = {Small Memory Footprint Neural Network Accelerators},
+author = {Kenshu Seto and Hamid Nejatollahi and Jiyoung An and Sujin Kang and Nikil Dutt},
+doi = {10.1109/ISQED.2019.8697641},
+year  = {2019},
+date = {2019-03-01},
+booktitle = {International Symposium on Quality Electronic Design (ISQED)},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closedoi:10.1109/ISQED.2019.8697641Close Nejatollahi, Hamid ;  Dutt, Nikil ;  Ray, Sandip ;  Regazzoni, Francesco ;  Banerjee, Indranil ;  Cammarota, Rosario Post-Quantum Lattice-Based Cryptography Implementations: A Survey Journal Article ACM Computing Survey, 51 (6), 2019, ISSN: 0360-0300.Abstract | Links | BibTeX@article{Nejatollahi2019,
+title = {Post-Quantum Lattice-Based Cryptography Implementations: A Survey},
+author = {Nejatollahi, Hamid and Dutt, Nikil and Ray, Sandip and Regazzoni, Francesco and Banerjee, Indranil and Cammarota, Rosario},
+doi = {10.1145/3292548},
+issn = {0360-0300},
+year  = {2019},
+date = {2019-01-04},
+journal = {ACM Computing Survey},
+volume = {51},
+number = {6},
+abstract = {The advent of quantum computing threatens to break many classical cryptographic schemes, leading to innovations in public key cryptography that focus on post-quantum cryptography primitives and protocols resistant to quantum computing threats. Lattice-based cryptography is a promising post-quantum cryptography family, both in terms of foundational properties as well as in its application to both traditional and emerging security problems such as encryption, digital signature, key exchange, and homomorphic encryption. While such techniques provide guarantees, in theory, their realization on contemporary computing platforms requires careful design choices and tradeoffs to manage both the diversity of computing platforms (e.g., high-performance to resource constrained), as well as the agility for deployment in the face of emerging and changing standards. In this work, we survey trends in lattice-based cryptographic schemes, some recent fundamental proposals for the use of lattices in computer security, challenges for their implementation in software and hardware, and emerging needs for their adoption. The survey means to be informative about the math to allow the reader to focus on the mechanics of the computation ultimately needed for mapping schemes on existing hardware or synthesizing part or all of a scheme on special-purpose hardware.},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+CloseThe advent of quantum computing threatens to break many classical cryptographic schemes, leading to innovations in public key cryptography that focus on post-quantum cryptography primitives and protocols resistant to quantum computing threats. Lattice-based cryptography is a promising post-quantum cryptography family, both in terms of foundational properties as well as in its application to both traditional and emerging security problems such as encryption, digital signature, key exchange, and homomorphic encryption. While such techniques provide guarantees, in theory, their realization on contemporary computing platforms requires careful design choices and tradeoffs to manage both the diversity of computing platforms (e.g., high-performance to resource constrained), as well as the agility for deployment in the face of emerging and changing standards. In this work, we survey trends in lattice-based cryptographic schemes, some recent fundamental proposals for the use of lattices in computer security, challenges for their implementation in software and hardware, and emerging needs for their adoption. The survey means to be informative about the math to allow the reader to focus on the mechanics of the computation ultimately needed for mapping schemes on existing hardware or synthesizing part or all of a scheme on special-purpose hardware.Closedoi:10.1145/3292548Close
+
+2018
+
+ Nejatollahi, Hamid;  Dutt, Nikil;  Banerjee, Indranil;  Cammarota, RosarioDomain-specific Accelerators for Ideal Lattice-based Public Key Protocols Miscellaneous Cryptology ePrint Archive, Report 2018/608, 2018, (urlhttps://eprint.iacr.org/2018/608).Abstract | Links | BibTeX@misc{cryptoeprint:2018:608,
+title = {Domain-specific Accelerators for Ideal Lattice-based Public Key Protocols},
+author = {Hamid Nejatollahi and Nikil Dutt and Indranil Banerjee and Rosario Cammarota},
+url = {https://eprint.iacr.org/2018/608.pdf},
+year  = {2018},
+date = {2018-01-01},
+abstract = {Post Quantum Lattice-Based Cryptography (LBC) schemes are increasingly gaining attention in traditional and emerging security problems, such as encryption, digital signature, key exchange, homomorphic encryption etc, to address security needs of both short and long-lived devices — due to their foundational properties and ease of implementation. However, LBC schemes induce higher computational demand compared to classic schemes (e.g., DSA, ECDSA) for equivalent security guarantees, making domain-specific acceleration a viable option for improving security and favor early adoption of LBC schemes by the semiconductor industry. In this paper, we present a workflow to explore the design space of domain-specific accelerators for LBC schemes, to target a diverse set of host devices, from resource-constrained IoT devices to high-performance computing platforms. We present design exploration results on workloads executing NewHope and BLISSB-I schemes accelerated by our domain-specific accelerators, with respect to a baseline without acceleration. We show that achieved performance with acceleration makes the execution of NewHope and BLISSB-I comparable to classic key exchange and digital signature schemes while retaining some form of general purpose programmability. In addition to 44% and 67% improvement in energy-delay product (EDP), we enhance performance (cycles) of the sign and verify steps in BLISSB-I schemes by 24% and 47%, respectively. Performance (EDP) improvement of server and client side of the NewHope key exchange is improved by 37% and 33% (52% and 48%), demonstrating the utility of the design space exploration framework.
+
+},
+howpublished = {Cryptology ePrint Archive, Report 2018/608},
+note = {urlhttps://eprint.iacr.org/2018/608},
+keywords = {},
+pubstate = {published},
+tppubtype = {misc}
+}
+ClosePost Quantum Lattice-Based Cryptography (LBC) schemes are increasingly gaining attention in traditional and emerging security problems, such as encryption, digital signature, key exchange, homomorphic encryption etc, to address security needs of both short and long-lived devices — due to their foundational properties and ease of implementation. However, LBC schemes induce higher computational demand compared to classic schemes (e.g., DSA, ECDSA) for equivalent security guarantees, making domain-specific acceleration a viable option for improving security and favor early adoption of LBC schemes by the semiconductor industry. In this paper, we present a workflow to explore the design space of domain-specific accelerators for LBC schemes, to target a diverse set of host devices, from resource-constrained IoT devices to high-performance computing platforms. We present design exploration results on workloads executing NewHope and BLISSB-I schemes accelerated by our domain-specific accelerators, with respect to a baseline without acceleration. We show that achieved performance with acceleration makes the execution of NewHope and BLISSB-I comparable to classic key exchange and digital signature schemes while retaining some form of general purpose programmability. In addition to 44% and 67% improvement in energy-delay product (EDP), we enhance performance (cycles) of the sign and verify steps in BLISSB-I schemes by 24% and 47%, respectively. Performance (EDP) improvement of server and client side of the NewHope key exchange is improved by 37% and 33% (52% and 48%), demonstrating the utility of the design space exploration framework.
+
+Closehttps://eprint.iacr.org/2018/608.pdfClose
+
+2017
+
+ Nejatollahi, Hamid;  Dutt, Nikil;  Cammarota, RosarioTrends, Challenges and Needs for Lattice-based Cryptography Implementations: Special Session Inproceedings Proceedings of the Twelfth IEEE/ACM/IFIP International Conference on Hardware/Software Codesign and System Synthesis Companion, pp. 6:1–6:3, ACM, Seoul, Republic of Korea, 2017, ISBN: 978-1-4503-5185-0.Links | BibTeX@inproceedings{Nejatollahi:2017:TCN:3125502.3125559,
+title = {Trends, Challenges and Needs for Lattice-based Cryptography Implementations: Special Session},
+author = {Hamid Nejatollahi and Nikil Dutt and Rosario Cammarota},
+url = {http://doi.acm.org/10.1145/3125502.3125559},
+doi = {10.1145/3125502.3125559},
+isbn = {978-1-4503-5185-0},
+year  = {2017},
+date = {2017-10-15},
+booktitle = {Proceedings of the Twelfth IEEE/ACM/IFIP International Conference on Hardware/Software Codesign and System Synthesis Companion},
+pages = {6:1--6:3},
+publisher = {ACM},
+address = {Seoul, Republic of Korea},
+series = {CODES '17},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.acm.org/10.1145/3125502.3125559doi:10.1145/3125502.3125559Close Nejatollahi, Hamid;  Dutt, Nikil;  Ray, Sandip;  Regazzoni, Francesco;  Banerjee, Indranil;  Cammarota, RosarioSoftware and Hardware Implementation of Lattice-Cased Cryptography Schemes Technical Report University of California Irvine, (CECS TR 17-04), 2017.Abstract | Links | BibTeX@techreport{2017-Hamid-TR_Survey,
+title = {Software and Hardware Implementation of Lattice-Cased Cryptography Schemes},
+author = {Hamid Nejatollahi and Nikil Dutt and Sandip Ray and Francesco Regazzoni and Indranil Banerjee and Rosario Cammarota},
+url = {https://www.researchgate.net/publication/320963262_Software_and_Hardware_Implementation_of_Lattice-Cased_Cryptography_Schemes
+http://www.cecs.uci.edu/files/2018/06/2017-tr-1.pdf
+
+},
+year  = {2017},
+date = {2017-01-01},
+journal = {University of California Irvine, CECS TR 17-04},
+number = {CECS TR 17-04},
+institution = {University of California Irvine,},
+abstract = {Advances in computing steadily erode computer security at its foundation, and call for fundamental innovations to strengthen current practices in computer security, specifically in applied cryptography, from theory to standardization to actual implementations. At the same time, the emergence of new computing paradigms, such as cloud computing, software defined networks and Internet of Everything, demands devices to adopt an increasing number of security standards - with a diverse set of cryptographic primitives. This in turn calls for innovations in security beyond the foundational aspects, down to the actual design and deployment of such primitives and protocols while satisfying conflicting design constraints such as latency, compactness, and energy efficiency. The advent of Quantum computing threatens to break many classical cryptographic schemes, leading to innovations in public key cryptography that focus on post-quantum cryptography primitives and their protocols that are resistant to quantum computing threats. In particular, lattice-based cryptography is a promising post-quantum cryptography family, both in terms of foundational properties, as well as its application to both traditional and emerging security problems such as encryption (asymmetric, but also symmetric), digital signature, key exchange, homomorphic encryption etc. While such techniques provide guarantees in theory, their realization on contemporary computing platforms requires careful design choices and tradeoffs to manage both the diversity of computing platforms (e.g., high-performance to resource constrained), as well as agility for deployment in the face of emerging and changing standards. In this work we survey trends in lattice-based cryptographic schemes, some fundamental recent proposals for the use of lattices in computer security, challenges for their implementation in software and hardware, and emerging needs for their adoption.},
+keywords = {},
+pubstate = {published},
+tppubtype = {techreport}
+}
+CloseAdvances in computing steadily erode computer security at its foundation, and call for fundamental innovations to strengthen current practices in computer security, specifically in applied cryptography, from theory to standardization to actual implementations. At the same time, the emergence of new computing paradigms, such as cloud computing, software defined networks and Internet of Everything, demands devices to adopt an increasing number of security standards - with a diverse set of cryptographic primitives. This in turn calls for innovations in security beyond the foundational aspects, down to the actual design and deployment of such primitives and protocols while satisfying conflicting design constraints such as latency, compactness, and energy efficiency. The advent of Quantum computing threatens to break many classical cryptographic schemes, leading to innovations in public key cryptography that focus on post-quantum cryptography primitives and their protocols that are resistant to quantum computing threats. In particular, lattice-based cryptography is a promising post-quantum cryptography family, both in terms of foundational properties, as well as its application to both traditional and emerging security problems such as encryption (asymmetric, but also symmetric), digital signature, key exchange, homomorphic encryption etc. While such techniques provide guarantees in theory, their realization on contemporary computing platforms requires careful design choices and tradeoffs to manage both the diversity of computing platforms (e.g., high-performance to resource constrained), as well as agility for deployment in the face of emerging and changing standards. In this work we survey trends in lattice-based cryptographic schemes, some fundamental recent proposals for the use of lattices in computer security, challenges for their implementation in software and hardware, and emerging needs for their adoption.Closehttps://www.researchgate.net/publication/320963262_Software_and_Hardware_Impleme[...]http://www.cecs.uci.edu/files/2018/06/2017-tr-1.pdfClose
+
+Contact Us about This Project 
+Your Name
+ 
+ Your Email
+ 
+ Subject
+ 
+ Message
+ 
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+Find Us Address
+3069 Donald Bren Hall
+University of California, Irvine
+Irvine, CA 92697-3435, USA
+Email
+drg@ics.uci.edu
+
+ 
+
+
+
+
+
+
+
+
+
+					Copyright © 2022 Dutt Research Group.				
+
+					Powered by WordPress and HitMag.				
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+

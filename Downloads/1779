@@ -1,0 +1,410 @@
+http://www.ics.uci.edu/~ihler/pubs.html
+
+
+Alexander Ihler Publications
+
+
+
+
+
+
+
+
+Alexander Ihler 
+Professor
+Information & Computer Science, UC Irvine
+
+  Bren Hall 4066
+  ph: 949-824-3645
+  fx: 949-824-4056
+  ihler (at) ics.uci.edu /
+  ihler (at) alum.mit.edu
+
+
+
+
+Home 
+Publications 
+Code 
+Recent Classes
+  CS178, ML & Data Mining 
+  ... archive of older offerings 
+
+Group Wiki 
+
+Bio and 
+
+CV 
+
+Personal 
+
+Photos 
+
+
+Piano
+
+
+Publications
+ 
+Showing 
+
+All
+Journal
+Conference
+Other
+ by
+
+Date
+Type
+Subject
+
+
+2018
+ "Accelerating Dynamic Programs via Nested Benders Decomposition with Application to Multi-Person Pose Estimation"; Wang, Ihler, Kording, Yarkony; European Conference on Computer Vision (ECCV), Sept. 2018
+C73: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Finite-sample Bounds for Marginal MAP"; Qi Lou, Rina Dechter, Alexander Ihler; Uncertainty in Artificial Intelligence (UAI), Aug. 2018
+C72: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Join Graph Decomposition Bounds for Influence Diagrams"; Junkyu Lee, Alexander Ihler, Rina Dechter; Uncertainty in Artificial Intelligence (UAI), Aug. 2018
+C71: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Abstraction Sampling in Graphical Models"; Filjor Broka, Rina Dechter, Alexander Ihler, Kalev Kask; Uncertainty in Artificial Intelligence (UAI), Aug. 2018
+C70: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "ContextNet: Deep Learning for Star Galaxy Classification"; Noble Kennamer, David Kirkby, Alexander Ihler, Francisco Javier Sanchez-Lopez; Int'l Conference on Machine Learning (ICML), July 2018
+C69: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Stochastic Anytime Search for Bounding Marginal MAP"; Marinescu, Dechter, Ihler; Int'l Join Conference on Artificial Intelligence (IJCAI), July 2018
+C68: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "A Two-Stage Deep Neural Network Framework for Precipitation Estimation from Bispectral Satellite Information"; Tao, Hsu, Ihler, Gao, Sorooshian; Journal of Hydrometeorology 19(2):393--408
+J20: [ Abstract ] | [ BibTex ] | [ Link ] 
+
+ "Lifted Generalized Dual Decomposition"; Gallo, Ihler; AAAI Conference on Artificial Intelligence (AAAI), Feb. 2018
+C67: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Anytime anyspace AND/OR best-first search for bounding marginal MAP"; Lou, Dechter, Ihler; AAAI Conference on Artificial Intelligence (AAAI), Feb. 2018
+C66: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Generalized Dual Decomposition for Bounding Maximum Expected Utility of Influence Diagrams with Perfect Recall"; Lee, Ihler, Dechter; AAAI Workshop on Planning and Inference, Feb. 2018
+R11: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+2017
+ "Dynamic importance sampling for anytime bounds of the partition function"; Lou, Dechter, Ihler; Neural Information Processing Systems (NIPS), Dec 2017
+C65: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Abstraction Sampling in Graphical Models"; Dechter, Broka, Kask, Ihler; NIPS Workshop on Advances in Approximate Bayesian Inference, Dec 2017
+R10: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Belief Propagation in Conditional RBMs for Structured Prediction"; Ping, Ihler; AI & Statistics (AISTATS), April 2017
+C64: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Anytime Anyspace AND/OR Search for Bounding the Partition Function"; Lou, Dechter, Ihler; AAAI Conference on Artificial Intelligence (AAAI), pp. 860-867, Feb. 2017
+C63: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Anytime Best+Depth-First Search for Bounding Marginal MAP"; Marinescu, Lee, Dechter, Ihler; AAAI Conference on Artificial Intelligence (AAAI), pp. 3775-3782, Feb. 2017
+C62: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+2016
+ "Learning Infinite RBMs with Frank-Wolfe"; Ping, Liu, Ihler; Neural Information Processing Systems (NIPS), Dec 2016
+C61: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Deep Neural Networks for Precipitation Estimation from Remotely Sensed Information"; Tao, Gao, Ihler, Hsu, Sorooshian; IEEE Congress on Evolutionary Computation (CEC), July 2016
+C60: [ Abstract ] | [ BibTex ] | [ Link ] 
+
+ "Cell-to-Cell Activity Prediction for Smart Cities"; Cici, Alimpertis, Ihler, Markopoulou; INFOCOM Workshop on Smart Cities and Urban Computing (SmartCity), April 2016
+C59: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "A Deep Neural Network Modeling Framework to Reduce Bias in Satellite Precipitation Products"; Tao, Gao, Hsu, Sorooshian, Ihler; Journal of Hydrometeorology 17(3):931--945
+J19: [ Abstract ] | [ BibTex ] | [ Link ] 
+
+ "From Exact to Anytime Solutions for Marginal MAP"; Lee, Marinescu, Dechter, Ihler; Conference on Artificial Intelligence (AAAI), Feb 2016
+C58: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+2015
+ "Variational Multi−Objective Coordination"; Roijers, Whiteson, Ihler, Oliehoek; NIPS Workshop on Learning‚ Inference and Control of Multi−Agent Systems, Dec 2015
+R9: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Probabilistic Variational Bounds for Graphical Models"; Liu, Fisher, Ihler; Neural Information Processing Systems (NIPS), Dec 2015
+C57: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Decomposition Bounds for Marginal MAP"; Ping, Liu, Ihler; Neural Information Processing Systems (NIPS), Dec 2015
+C56: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Crystal Identification in Positron Emission Tomography Using Probabilistic Graphical Models"; Keator, Ihler; IEEE Transactions on Nuclear Science 62(5), pp. 2102--2112
+J18: [ Abstract ] | [ BibTex ] | [ Link ] 
+
+ "Estimating the Partition Function by Discriminance Sampling"; Liu, Peng, Ihler, Fisher; Uncertainty in Artificial Intelligence (UAI), July 2015
+C55: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Incremental Region Selection for Mini-bucket Elimination Bounds"; Forouzan, Ihler; Uncertainty in Artificial Intelligence (UAI), July 2015
+C54: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Boosting Crowdsourcing with Expert Labels: Local vs. Global Effects"; Liu, Ihler, Fisher; Int'l Conference on Information Fusion, July 2015
+C53: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Pushing Forward Marginal MAP with Best-First Search"; Marinescu, Dechter, Ihler; Int'l Joint Conference on Artificial Intelligence (IJCAI), July 2015
+C52: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+2014
+ "Distributed Estimation, Information Loss and Exponential Families"; Liu, Ihler; Neural Information Processing Systems (NIPS), Dec. 2014
+C51: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Beyond Static Mini-Bucket: Towards Integrating with Iterative Cost-Shifting Based Dynamic Heuristics"; Lam, Kask, Dechter, Ihler; Symposium on Combinatorial Search (SoCS), Aug. 2014
+C50: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "AND/OR Search for Marginal MAP"; Marinescu, Dechter, Ihler; Conference on Uncertainty in Artificial Intelligence (UAI), July 2014
+C49: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Marginal structured SVM with hidden variables"; Ping, Liu, Ihler; International Conference on Machine Learning (ICML), June 2014
+C48: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Beyond MAP estimation with the track-oriented multiple-hypothesis tracker"; Frank, Smyth, Ihler; IEEE Trans. Signal Processing 62(9):2413--2423.
+J17: [ Abstract ] | [ BibTex ] | [ Link ] 
+
+ "Feed-forward hierarchical model of the ventral visual stream applied to functional brain image classification"; Keator, Fallon, Lakatos, Fowlkes, Potkin, Ihler; Human Brain Mapping (HBM) 35(1):38--52.
+J16: [ Abstract ] | [ BibTex ] | [ Link ] 
+
+2013
+ "Does better inference mean better learning?"; Gelfand, Dechter, Ihler; NIPS Workshop on Perturbations, Optimization, and Statistics (POS), Dec. 2013
+R8: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Scoring workers in crowdsourcing: How many control questions are enough?"; Liu, Steyvers, Ihler; Neural Information Processing Systems (NIPS), Dec. 2013
+C47: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Variational planning for graph-based MDPs"; Cheng, Liu, Chen, Ihler; Neural Information Processing Systems (NIPS), Dec. 2013
+C46: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "On reliable crowdsourcing and the use of ground-truth information"; Liu, Steyvers, Fisher, Ihler; Workshop on Crowdsourcing at Scale, HCOMP, Nov. 2013
+R7: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Linear Approximation to ADMM for MAP inference"; Forouzan, Ihler; Asian Conf. on Machine Learning (ACML), JMLR W&CP 29, pp48-61, Nov. 2013
+
+C45: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Variational Algorithms for Marginal MAP"; Liu, Ihler; Journal of Machine Learning Research (JMLR), 14, pp. 3165-3200.
+J15: [ Abstract ] | [ BibTex ] | [ PDF ] | [ Link ] 
+
+ "Image enhancement in projectors via optical pixel shift and overlay"; Sajadi, Qoc-Lai, Ihler, Gopi, Majumder; Int'l Conference on Computational Photography 2013
+C44: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+2012
+ "Winning the PASCAL 2011 MAP Challenge with Enhanced AND/OR Branch-and-Bound"; Otten, Ihler, Kask, Dechter; NIPS Workshop on Discrete Optimization (DiscML), Dec. 2012
+R6: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Variational inference for crowdsourcing"; Liu, Peng, Ihler; Neural Information Processing Systems (NIPS), Dec. 2012
+C43: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Fast planar correlation clustering for image segmentation"; Yarkony, Ihler, Fowlkes; European Conference on Computer Vision (ECCV), Oct. 2012
+C42: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Belief propagation for structured decision making"; Liu, Ihler; Uncertainty in Artificial Intelligence (UAI), Aug. 2012
+C41: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "A cluster-cumulant expansion at the fixed points of belief propagation"; Welling, Gelfand, Ihler; Uncertainty in Artificial Intelligence (UAI), Aug. 2012
+C40: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Join-graph based cost-shifting schemes"; Ihler, Flerova, Dechter, Otten; Uncertainty in Artificial Intelligence (UAI), Aug. 2012
+C39: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "A graphical model representation of the track-oriented multiple hypothesis tracker"; Frank, Smyth, Ihler; IEEE Conference on Statistical Signal Processing (SSP), Aug. 2012
+C38: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Brain and muscle Arnt-like protein-1 (BMAL1) controls circadian cell proliferation and susceptibility to UVB-induced DNA damage in the epidermis"; Geyfman et al.; Proc. National Academy of Sciences (PNAS), 109 (29), pp. 11758-11763.
+J14: [ Abstract ] | [ BibTex ] | [ Link ] 
+
+ "Approximating the sum operation for marginal-MAP inference"; Cheng, Chen, Dong, Xu, Ihler; Conference on Artificial Intelligence (AAAI), July 2012
+C37: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Distributed parameter estimation via pseudo-likelihood"; Liu, Ihler; International Conference on Machine Learning (ICML), June 2012
+C36: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+2011
+ "Mini-bucket elimination with moment matching"; Flerova, Ihler, Dechter, Otten; NIPS Workshop on Discrete Optimization (DiscML), 2011
+R5: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Adaptive exact inference in graphical models"; Sumer, Acar, Ihler, Mettu; J. Machine Learning Res. (JMLR) 12, Nov. 2011, pp. 3147-3186.
+J13: [ Abstract ] | [ BibTex ] | [ PDF ] | [ PS ] 
+
+ "Variational algorithms for marginal MAP"; Liu, Ihler; Uncertainty in Artificial Intelligence (UAI), 2011
+C35: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Planar cycle covering graphs"; Yarkony, Ihler, Fowlkes; Uncertainty in Artificial Intelligence (UAI), 2011 (earlier arXiv version)
+C34: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Tightening MRF relaxations with planar subproblems"; Yarkony, Morshed, Ihler, Fowlkes; Uncertainty in Artificial Intelligence (UAI), 2011 (corrected)
+C33: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Fast parallel and adaptive updates for dual-decomposition solvers"; Sumer, Acar, Ihler, Mettu; Conference on Artificial Intelligence (AAAI), 2011
+C32: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Bounding the Partition Function using Holder's Inequality"; Liu, Ihler; International Conference on Machine Learning (ICML), 2011
+C31: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Fault Detection via Nonparametric Belief Propagation"; Bickson, Baron, Ihler, Avissar, Dolev; IEEE Trans. Signal Proc. 59(6), June 2011. (arXiv version)
+J12: [ Abstract ] | [ BibTex ] | [ Link ] 
+
+ "Learning Scale Free Networks by Reweighted L1 regularization"; Liu, Ihler; AI & Statistics, April 2011. (Notable paper award)
+C30: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Multicore Gibbs Sampling in Dense, Unstructured Graphs"; Xu, Ihler; AI & Statistics, April 2011.
+C29: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Revisiting MAP Estimation, Message Passing and Perfect Graphs"; Foulds, Navaroli, Smyth, Ihler; AI & Statistics, April 2011.
+C28: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+2010
+ "Understanding Errors in Approximate Distributed Latent Dirichlet Allocation"; Ihler, Newman; IEEE Trans. Knowledge Data Engineering, 24(5), pp.952-960, May 2012. (Preliminary version, 2009: TR-09-06, PDF)
+J11: [ Abstract ] | [ BibTex ] | [ PDF ] | [ Link ] 
+
+ "Nonparametric Belief Propagation"; Sudderth, Ihler, Isard, Freeman, Willsky; Communications of the ACM 53(10), Oct. 2010 pp. 95-103.
+J10: [ Abstract ] | [ BibTex ] | [ Link ] 
+
+ "Negative Tree-reweighted Belief Propagation"; Liu, Ihler; Uncertainty in Artificial Intelligence (UAI), July 2010
+C27: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Covering Trees and Lower Bounds on Quadratic Assignment"; Yarkony, Fowlkes, Ihler; Computer Vision & Pattern Recognition (CVPR), June 2010
+C26: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Particle Filtered MCMC-MLE with Connections to Contrastive Divergence"; Asuncion, Liu, Ihler, Smyth; Int'l Conf on Machine Learning (ICML), June 2010
+C25: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Learning with Blocks: Composite Likelihood and Contrastive Divergence"; Asuncion, Liu, Ihler, Smyth; AI & Statistics (AISTATS), April 2010
+C24: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Estimating Replicate Time-Shifts Using Gaussian Process Regression"; Liu, Lin, Anderson, Smyth, Ihler; Bioinformatics 26(6), Mar. 2010, pp. 770-776; doi:10.1093/bioinformatics/btq022
+J9: [ Abstract ] | [ BibTex ] | [ Link ] 
+
+2009
+ "Bayesian detection of non-sinusoidal periodic patterns in circadian expression data"; Chudova, Ihler, Lin, Andersen, Smyth; Bioinformatics 25(23), Dec. 2009, pp. 3114-3120; doi: 10.1093/bioinformatics/btp547.
+J8: [ Abstract ] | [ BibTex ] | [ Link ] 
+
+ "Particle-Based Variational Inference for Continuous Systems"; Ihler, Frank, Smyth; Neural Information Processing Systems, Dec. 2009
+C23: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Bounding Sample Errors in Approximate Distributed Latent Dirichlet Allocation"; Ihler, Newman; ICS Technical Report 09-06, Oct. 2009. 
+
+R4: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "A Low Density Lattice Decoder via Non-parametric Belief Propagation"; Bickson, Ihler, Avissar, Dolev; Allerton Conference on Communication, Control, and Computing, Sept. 2009
+C22: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Adaptive Updates for MAP Configurations with Applications to Bioinformatics"; Acar, Ihler, Mettu, Sumer; in IEEE Statistical Signal Processing (SSP), Sept. 2009
+C21: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Circadian Clock Genes Contribute to the Regulation of Hair Follicle Cycling"; Lin, Kumar, Geyfman, Chudova, Ihler, Smyth, Paus, Takahashi, Andersen; PLoS Genetics, 5(7):e1000573.  July 2009. doi:10.1371/journal.pgen.1000573
+J7: [ Abstract ] | [ BibTex ] | [ PDF ] | [ Link ] 
+
+ "Particle Belief Propagation"; Ihler, McAllester; in Twelfth International Conference on Artificial Intelligence and Statistics (AIStats), April 2009.
+C20: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+2008
+ "Probabilistic Analysis of a Large Scale Urban Traffic Sensor Data Set"; Hutchins, Ihler, Smyth; in Second International Workshop on Knowledge Discovery from Sensor Data 2008, LNCS series #5840, pp. 94-114, 2010.
+C19: [ Abstract ] | [ BibTex ] | [ PDF ] | [ Link ] 
+
+ "Fast Collapsed Gibbs Sampling for Latent Dirichlet Allocation"; Porteous, Newman, Ihler, Asuncion, Smyth, Welling; in ACM Knowledge Discovery and Data Mining (KDD) 2008.
+C18: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Adaptive Inference in General Graphical Models"; Acar, Ihler, Mettu, Sumer; in Uncertainty in Artificial Intelligence (UAI) 2008.
+C17: [ Abstract ] | [ BibTex ] | [ PDF ] | [ PS ] 
+
+2007
+ "Learning to detect events with Markov-modulated Poisson processes"; Ihler, Hutchins, Smyth; ACM Transactions on Knowledge Discovery from Data, Vol 1 Issue 3, Dec. 2007.
+J6: [ Abstract ] | [ BibTex ] | [ Link ] 
+
+ "Graphical Models and Fusion in Sensor Networks"; Cetin, Chen, Fisher, Ihler, Kreidl, Moses, Wainwright, Williams, Willsky; in Wireless Sensor Networks: Signal Processing and Communications, Wiley 2007.
+B1: [ Abstract ] | [ BibTex ] | [ Link ] 
+
+ "Adaptive Bayesian Inference"; Acar, Ihler, Mettu, Sumer; in Neural Information Processing Systems (NIPS) 2007.
+C16: [ Abstract ] | [ BibTex ] | [ PDF ] | [ PS ] 
+
+ "Modeling Count Data from Multiple Sensors: A Building Occupancy Model"; Hutchins, Ihler, Smyth; in Computational Advances in Multisensor Adaptive Processing (CAMSAP) 2007.
+C15: [ Abstract ] | [ BibTex ] | [ PDF ] | [ PS ] 
+
+ "Accuracy Bounds for Belief Propagation"; Ihler; in Uncertainty in Artificial Intelligence (UAI) 2007.
+C14: [ Abstract ] | [ BibTex ] | [ PDF ] | [ PS ] 
+
+ "Graphical Models for Statistical Inference and Data Assimilation"; Ihler, Kirshner, Ghil, Robertson, Smyth; Physica D: Nonlinear Phenomena, June 2007. (Survey of graphical model methods)
+J5: [ Abstract ] | [ BibTex ] | [ PDF ] | [ Link ] 
+
+2006
+ "Learning Time-Intensity Profiles of Human Activity Using Nonparametric Bayesian Models"; Ihler, Smyth; in Neural Information Processing Systems (NIPS) 2006.
+C13: [ Abstract ] | [ BibTex ] | [ PDF ] | [ PS ] 
+
+ "Adaptive Event Detection with Time-Varying Poisson Processes"; Ihler, Hutchins, Smyth; in Knoweldge Discovery and Data Mining (KDD) 2006.
+C12: [ Abstract ] | [ BibTex ] | [ PDF ] | [ PS ] 
+
+ "Distributed Fusion in Sensor Networks"; Cetin, Chen, Fisher, Ihler, Moses, Wainwright, Willsky; IEEE Signal Processing Magazine, July 2006.
+J4: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Gibbs Sampling for (Coupled) Infinite Mixture Models in the Stick Breaking Representation"; Porteous, Ihler, Smyth, Welling; in Uncertainty in Artificial Intelligence (UAI) 2006.
+C11: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+2005
+ "Particle Filtering Under Communications Constraints"; Ihler, Fisher, Willsky; in Statistical Signal Processing (SSP) 2005.
+C10: [ Abstract ] | [ BibTex ] | [ PDF ] | [ PS ] 
+
+ "Loopy Belief Propagation: Convergence and Effects of Message Errors"; Ihler, Fisher, Willsky; Journal of Machine Learning Research, May 2005. (Full version of NIPS'04 paper)
+J3: [ Abstract ] | [ BibTex ] | [ PDF ] | [ PS ] 
+
+ "Nonparametric Belief Propagation for Sensor Network Self-Calibration"; Ihler, Fisher, Moses, Willsky; Journal of Selected Areas in Communication, Apr. 2005. (Expanded version of IPSN/ICASSP papers)
+J2: [ Abstract ] | [ BibTex ] | [ PDF ] | [ PS ] 
+
+ "Estimating Dependency and Significance for High-Dimensional Data"; Siracusa, Tieu, Ihler, Fisher, Willsky; in ICASSP 2005.
+C9: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Inference in Sensor Networks: Graphical Models and Particle Methods"; Ihler; Ph.D. Thesis, MIT, 2005
+T2: [ Abstract ] | [ BibTex ] | [ PDF ] | [ PS (zipped) ] 
+
+2004
+ "Message Errors in Belief Propagation"; Ihler, Fisher, Willsky; in Neural Information Processing Systems (NIPS) 2004. (Outstanding Student Paper Award)
+C8: [ Abstract ] | [ BibTex ] | [ PDF ] | [ PS ] 
+
+ "Nonparametric Hypothesis Tests for Statistical Dependency"; Ihler, Fisher, Willsky; IEEE Transactions on Signal Processing, Aug. 2004.
+J1: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Communications-Constrained Inference"; Ihler, Fisher, Willsky; LIDS Tech Report 2601 (Lossless and lossy encoding of sample-based density estimates)
+R3: [ Abstract ] | [ BibTex ] | [ PDF ] 
+
+ "Nonparametric Belief Propagation for Sensor Network Self-Calibration"; Ihler, Fisher, Moses, Willsky; in ICASSP 2004.
+C7: [ Abstract ] | [ BibTex ] | [ PDF ] | [ PS ] 
+
+ "An Overview of Fast Multipole Methods"; Ihler; 2004 (MIT Area Exam)
+R1: [ Abstract ] | [ BibTex ] | [ PDF ] | [ PS ] 
+
+ "Nonparametric Belief Propagation for Self-Calibration in Sensor Networks"; Ihler, Fisher, Moses, Willsky; in Information Processing in Sensor Networks (IPSN) 2004. (Best Student Paper Award)
+C6: [ Abstract ] | [ BibTex ] | [ PDF ] | [ PS ] 
+
+2003
+ "Efficient Multiscale Sampling from Products of Gaussian Mixtures"; Ihler, Sudderth, Freeman, Willsky; in Neural Information Processing Systems (NIPS) 2003.
+C5: [ Abstract ] | [ BibTex ] | [ PDF ] | [ PS ] 
+
+ "Nonparametric Belief Propagation"; Sudderth, Ihler, Freeman, Willsky; in Computer Vision and Pattern Recognition (CVPR) 2003. (also AI Memo # AIM-2002-020)
+C4: [ Abstract ] | [ BibTex ] | [ PDF ] | [ PS ] 
+
+ "Hypothesis Testing over Factorizations for Data Association"; Ihler, Fisher, Willsky; in Information Processing in Sensor Networks (IPSN) 2003.
+C3: [ Abstract ] | [ BibTex ] | [ PDF ] | [ PS ] 
+
+2002
+ "Nonparametric Belief Propagation"; Sudderth, Ihler, Freeman, Willsky; LIDS Technical Report # 2551, Aug. 2002. 
+
+R2: [ Abstract ] | [ BibTex ] | [ PDF ] | [ PS ] 
+
+2001
+ "Nonparametric Estimators for Online Signature Authentication"; Ihler, Fisher, Willsky; in ICASSP 2001.
+C2: [ Abstract ] | [ BibTex ] | [ PDF ] | [ PS ] 
+
+2000
+ "Maximally Informative Subspaces: Nonparametric Estimation for Dynamical Systems"; Ihler; Masters' Thesis, MIT, 2000
+T1: [ Abstract ] | [ BibTex ] | [ PDF ] | [ PS (zipped) ] 
+
+1999
+ "Learning Informative Statistics: A Nonparametric Approach"; Fisher, Ihler, Viola; in Neural Information Processing Systems (NIPS) 1999.
+C1: [ Abstract ] | [ BibTex ] | [ PDF ] | [ PS ] 
+
+
+
+
+
+Publications and citation info also on Google Scholar or Microsoft Academic Search. 

@@ -1,0 +1,1187 @@
+https://isg.ics.uci.edu/publications/?limit=2&
+
+
+
+
+
+
+Publications – Information Systems Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+
+Faculty
+Students
+Recent Alumni
+Research Staff
+Visitors
+
+
+Research
+
+Projects
+Publications
+
+
+Teaching
+
+Courses
+DB Qual
+
+
+Events
+
+Talks
+News
+
+
+About
+
+Sponsors & Partners
+Visitor Info
+Contact us
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Publications
+
+179 entries « ‹  2 of 4 › » 
+
+2017
+
+ -, Young;  Kim, Taewoo;  Carey, Michael J;  Li, ChenA Comparative Study of Log-Structured Merge-Tree-Based Spatial Indexes 
+ for Big Data Inproceedings 33rd IEEE International Conference on Data Engineering, ICDE 2017, 
+ San Diego, CA, USA, April 19-22, 2017, pp. 147–150, 2017.Links | BibTeX@inproceedings{DBLP:conf/icde/KimKC017,
+title = {A Comparative Study of Log-Structured Merge-Tree-Based Spatial Indexes 
+ for Big Data},
+author = {Young - and Taewoo Kim and Michael J Carey and Chen Li},
+url = {https://doi.org/10.1109/ICDE.2017.61},
+doi = {10.1109/ICDE.2017.61},
+year  = {2017},
+date = {2017-01-01},
+booktitle = {33rd IEEE International Conference on Data Engineering, ICDE 2017, 
+ San Diego, CA, USA, April 19-22, 2017},
+pages = {147--150},
+crossref = {DBLP:conf/icde/2017},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ICDE.2017.61doi:10.1109/ICDE.2017.61Close Kim, Taewoo;  Thirumaraiselvan, Vidhyasagar;  Jia, Jianfeng;  Li, ChenCaching Geospatial Objects in Web Browsers Inproceedings Proceedings of the 25th ACM SIGSPATIAL International Conference 
+ on Advances in Geographic Information Systems, GIS 2017, Redondo 
+ Beach, CA, USA, November 7-10, 2017, pp. 92:1–92:4, 2017.Links | BibTeX@inproceedings{DBLP:conf/gis/KimTJ017,
+title = {Caching Geospatial Objects in Web Browsers},
+author = {Taewoo Kim and Vidhyasagar Thirumaraiselvan and Jianfeng Jia and Chen Li},
+url = {https://doi.org/10.1145/3139958.3140043},
+doi = {10.1145/3139958.3140043},
+year  = {2017},
+date = {2017-01-01},
+booktitle = {Proceedings of the 25th ACM SIGSPATIAL International Conference 
+ on Advances in Geographic Information Systems, GIS 2017, Redondo 
+ Beach, CA, USA, November 7-10, 2017},
+pages = {92:1--92:4},
+crossref = {DBLP:conf/gis/2017},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/3139958.3140043doi:10.1145/3139958.3140043Close Zhu, Qiuxi;  Uddin, Md. Yusuf Sarwar;  Qin, Zhijing;  Venkatasubramanian, NaliniData collection and upload under dynamicity in smart community Internet-of-Things 
+ deployments Journal Article Pervasive and Mobile Computing, 42 , pp. 166–186, 2017.Links | BibTeX@article{DBLP:journals/percom/ZhuUQV17,
+title = {Data collection and upload under dynamicity in smart community Internet-of-Things 
+ deployments},
+author = {Qiuxi Zhu and Md. Yusuf Sarwar Uddin and Zhijing Qin and Nalini Venkatasubramanian},
+url = {https://doi.org/10.1016/j.pmcj.2017.10.003},
+doi = {10.1016/j.pmcj.2017.10.003},
+year  = {2017},
+date = {2017-01-01},
+journal = {Pervasive and Mobile Computing},
+volume = {42},
+pages = {166--186},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1016/j.pmcj.2017.10.003doi:10.1016/j.pmcj.2017.10.003Close Jacobs, Steven;  Uddin, Md. Yusuf Sarwar;  Carey, Michael J;  Hristidis, Vagelis;  Tsotras, Vassilis J;  Venkatasubramanian, Nalini;  Wu, Yao;  Safir, Syed;  Kaul, Purvi;  Wang, Xikui;  Qader, Mohiuddin Abdul;  Li, YaweiA BAD Demonstration: Towards Big Active Data Journal Article PVLDB, 10 (12), pp. 1941–1944, 2017.Links | BibTeX@article{DBLP:journals/pvldb/JacobsUCHTVWSKW17b,
+title = {A BAD Demonstration: Towards Big Active Data},
+author = {Steven Jacobs and Md. Yusuf Sarwar Uddin and Michael J Carey and Vagelis Hristidis and Vassilis J Tsotras and Nalini Venkatasubramanian and Yao Wu and Syed Safir and Purvi Kaul and Xikui Wang and Mohiuddin Abdul Qader and Yawei Li},
+url = {http://www.vldb.org/pvldb/vol10/p1941-jacobs.pdf},
+doi = {10.14778/3137765.3137814},
+year  = {2017},
+date = {2017-01-01},
+journal = {PVLDB},
+volume = {10},
+number = {12},
+pages = {1941--1944},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://www.vldb.org/pvldb/vol10/p1941-jacobs.pdfdoi:10.14778/3137765.3137814Close Wu, Di;  Arkhipov, Dmitri I;  Kim, Minyoung;  Talcott, Carolyn L;  Regan, Amelia C;  McCann, Julie A;  Venkatasubramanian, NaliniADDSEN: Adaptive Data Processing and Dissemination for Drone Swarms 
+ in Urban Sensing Journal Article IEEE Trans. Computers, 66 (2), pp. 183–198, 2017.Links | BibTeX@article{DBLP:journals/tc/0002AKTRMV17,
+title = {ADDSEN: Adaptive Data Processing and Dissemination for Drone Swarms 
+ in Urban Sensing},
+author = {Di Wu and Dmitri I Arkhipov and Minyoung Kim and Carolyn L Talcott and Amelia C Regan and Julie A McCann and Nalini Venkatasubramanian},
+url = {https://doi.org/10.1109/TC.2016.2584061},
+doi = {10.1109/TC.2016.2584061},
+year  = {2017},
+date = {2017-01-01},
+journal = {IEEE Trans. Computers},
+volume = {66},
+number = {2},
+pages = {183--198},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/TC.2016.2584061doi:10.1109/TC.2016.2584061Close -, Hua;  -, Pei;  -, An;  Uddin, Md. Yusuf Sarwar;  Venkatasubramanian, Nalini;  -, ChengSupporting Internet-of-Things Analytics in a Fog Computing Platform Inproceedings IEEE International Conference on Cloud Computing Technology and 
+ Science, CloudCom 2017, Hong Kong, December 11-14, 2017, pp. 138–145, 2017.Links | BibTeX@inproceedings{DBLP:conf/cloudcom/HongTCUVH17,
+title = {Supporting Internet-of-Things Analytics in a Fog Computing Platform},
+author = {Hua - and Pei - and An - and Md. Yusuf Sarwar Uddin and Nalini Venkatasubramanian and Cheng -},
+url = {https://doi.org/10.1109/CloudCom.2017.45},
+doi = {10.1109/CloudCom.2017.45},
+year  = {2017},
+date = {2017-01-01},
+booktitle = {IEEE International Conference on Cloud Computing Technology and 
+ Science, CloudCom 2017, Hong Kong, December 11-14, 2017},
+pages = {138--145},
+crossref = {DBLP:conf/cloudcom/2017},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/CloudCom.2017.45doi:10.1109/CloudCom.2017.45Close Alhassoun, Nailah;  Uddin, Md. Yusuf Sarwar;  Venkatasubramanian, NaliniSAFER: An IoT-based perpetual safe community awareness and alerting 
+ network Inproceedings Eighth International Green and Sustainable Computing Conference, IGSC 
+ 2017, Orlando, FL, USA, October 23-25, 2017, pp. 1–8, 2017.Links | BibTeX@inproceedings{DBLP:conf/green/AlhassounUV17,
+title = {SAFER: An IoT-based perpetual safe community awareness and alerting 
+ network},
+author = {Nailah Alhassoun and Md. Yusuf Sarwar Uddin and Nalini Venkatasubramanian},
+url = {https://doi.org/10.1109/IGCC.2017.8323585},
+doi = {10.1109/IGCC.2017.8323585},
+year  = {2017},
+date = {2017-01-01},
+booktitle = {Eighth International Green and Sustainable Computing Conference, IGSC 
+ 2017, Orlando, FL, USA, October 23-25, 2017},
+pages = {1--8},
+crossref = {DBLP:conf/green/2017},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/IGCC.2017.8323585doi:10.1109/IGCC.2017.8323585Close Han, Qing;  Nguyen, Phu;  Eguchi, Ronald T;  -, Kuo;  Venkatasubramanian, NaliniToward An Integrated Approach to Localizing Failures in Community 
+ Water Networks Inproceedings 37th IEEE International Conference on Distributed Computing Systems, 
+ ICDCS 2017, Atlanta, GA, USA, June 5-8, 2017, pp. 1250–1260, 2017.Links | BibTeX@inproceedings{DBLP:conf/icdcs/HanNEHV17,
+title = {Toward An Integrated Approach to Localizing Failures in Community 
+ Water Networks},
+author = {Qing Han and Phu Nguyen and Ronald T Eguchi and Kuo - and Nalini Venkatasubramanian},
+url = {https://doi.org/10.1109/ICDCS.2017.81},
+doi = {10.1109/ICDCS.2017.81},
+year  = {2017},
+date = {2017-01-01},
+booktitle = {37th IEEE International Conference on Distributed Computing Systems, 
+ ICDCS 2017, Atlanta, GA, USA, June 5-8, 2017},
+pages = {1250--1260},
+crossref = {DBLP:conf/icdcs/2017},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ICDCS.2017.81doi:10.1109/ICDCS.2017.81Close Han, Qing;  Nguyen, Phu;  Eguchi, Ronald T;  -, Kuo;  Venkatasubramanian, NaliniToward an Integrated Approach to Localizing Failures in Community 
+ Water Networks (DEMO) Inproceedings 37th IEEE International Conference on Distributed Computing Systems, 
+ ICDCS 2017, Atlanta, GA, USA, June 5-8, 2017, pp. 2505–2506, 2017.Links | BibTeX@inproceedings{DBLP:conf/icdcs/HanNEHV17a,
+title = {Toward an Integrated Approach to Localizing Failures in Community 
+ Water Networks (DEMO)},
+author = {Qing Han and Phu Nguyen and Ronald T Eguchi and Kuo - and Nalini Venkatasubramanian},
+url = {https://doi.org/10.1109/ICDCS.2017.294},
+doi = {10.1109/ICDCS.2017.294},
+year  = {2017},
+date = {2017-01-01},
+booktitle = {37th IEEE International Conference on Distributed Computing Systems, 
+ ICDCS 2017, Atlanta, GA, USA, June 5-8, 2017},
+pages = {2505--2506},
+crossref = {DBLP:conf/icdcs/2017},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ICDCS.2017.294doi:10.1109/ICDCS.2017.294Close Pappachan, Primal;  Degeling, Martin;  Yus, Roberto;  Das, Anupam;  Bhagavatula, Sruti;  Melicher, William;  Naeini, Pardis Emami;  Zhang, Shikun;  Bauer, Lujo;  Kobsa, Alfred;  Mehrotra, Sharad;  Sadeh, Norman M;  Venkatasubramanian, NaliniTowards Privacy-Aware Smart Buildings: Capturing, Communicating, and 
+ Enforcing Privacy Policies and Preferences Inproceedings 37th IEEE International Conference on Distributed Computing Systems 
+ Workshops, ICDCS Workshops 2017, Atlanta, GA, USA, June 5-8, 2017, pp. 193–198, 2017.Links | BibTeX@inproceedings{DBLP:conf/icdcsw/PappachanDYDBMN17,
+title = {Towards Privacy-Aware Smart Buildings: Capturing, Communicating, and 
+ Enforcing Privacy Policies and Preferences},
+author = {Primal Pappachan and Martin Degeling and Roberto Yus and Anupam Das and Sruti Bhagavatula and William Melicher and Pardis Emami Naeini and Shikun Zhang and Lujo Bauer and Alfred Kobsa and Sharad Mehrotra and Norman M Sadeh and Nalini Venkatasubramanian},
+url = {https://doi.org/10.1109/ICDCSW.2017.52},
+doi = {10.1109/ICDCSW.2017.52},
+year  = {2017},
+date = {2017-01-01},
+booktitle = {37th IEEE International Conference on Distributed Computing Systems 
+ Workshops, ICDCS Workshops 2017, Atlanta, GA, USA, June 5-8, 2017},
+pages = {193--198},
+crossref = {DBLP:conf/icdcsw/2017},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ICDCSW.2017.52doi:10.1109/ICDCSW.2017.52Close Hera, Mahmudur Rahman;  -, Hua;  Rahman, Amatur;  -, Pei;  Afrin, Afia;  Uddin, Md. Yusuf Sarwar;  Venkatasubramanian, Nalini;  -, ChengAdaptive sensing using internet-of-things with constrained communications Inproceedings Proceedings of the 16th Workshop on Adaptive and Reflective Middleware, ARM@Middleware 2017, Las Vegas, NV, USA, December 11 - 15, 2017, pp. 6:1–6:6, 2017.Links | BibTeX@inproceedings{DBLP:conf/middleware/HeraHRTAUVH17,
+title = {Adaptive sensing using internet-of-things with constrained communications},
+author = {Mahmudur Rahman Hera and Hua - and Amatur Rahman and Pei - and Afia Afrin and Md. Yusuf Sarwar Uddin and Nalini Venkatasubramanian and Cheng -},
+url = {https://doi.org/10.1145/3152881.3152887},
+doi = {10.1145/3152881.3152887},
+year  = {2017},
+date = {2017-01-01},
+booktitle = {Proceedings of the 16th Workshop on Adaptive and Reflective Middleware, ARM@Middleware 2017, Las Vegas, NV, USA, December 11 - 15, 2017},
+pages = {6:1--6:6},
+crossref = {DBLP:conf/middleware/2017arm},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/3152881.3152887doi:10.1145/3152881.3152887Close Hera, Mahmudur Rahman;  Rahman, Amatur;  Afrin, Afia;  Uddin, Md. Yusuf Sarwar;  Venkatasubramanian, NaliniAQBox: An air quality measuring box from COTS gas sensors Inproceedings International Conference on Networking, Systems and Security, NSysS 
+ 2017, Dhaka, Bangladesh, January 5-8, 2017, pp. 191–194, 2017.Links | BibTeX@inproceedings{DBLP:conf/nsyss/HeraRAUV17,
+title = {AQBox: An air quality measuring box from COTS gas sensors},
+author = {Mahmudur Rahman Hera and Amatur Rahman and Afia Afrin and Md. Yusuf Sarwar Uddin and Nalini Venkatasubramanian},
+url = {https://doi.org/10.1109/NSysS.2017.7885824},
+doi = {10.1109/NSysS.2017.7885824},
+year  = {2017},
+date = {2017-01-01},
+booktitle = {International Conference on Networking, Systems and Security, NSysS 
+ 2017, Dhaka, Bangladesh, January 5-8, 2017},
+pages = {191--194},
+crossref = {DBLP:conf/nsyss/2017},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/NSysS.2017.7885824doi:10.1109/NSysS.2017.7885824Close -, Eun;  Yus, Roberto;  Mehrotra, Sharad;  Venkatasubramanian, NaliniExploring fairness in participatory thermal comfort control in smart 
+ buildings Inproceedings Proceedings of the 4th ACM International Conference on Systems for 
+ Energy-Efficient Built Environments, BuildSys 2017, Delft, The Netherlands, 
+ November 08-09, 2017, pp. 19:1–19:10, 2017.Links | BibTeX@inproceedings{DBLP:conf/sensys/ShinYMV17,
+title = {Exploring fairness in participatory thermal comfort control in smart 
+ buildings},
+author = {Eun - and Roberto Yus and Sharad Mehrotra and Nalini Venkatasubramanian},
+url = {https://doi.org/10.1145/3137133.3137156},
+doi = {10.1145/3137133.3137156},
+year  = {2017},
+date = {2017-01-01},
+booktitle = {Proceedings of the 4th ACM International Conference on Systems for 
+ Energy-Efficient Built Environments, BuildSys 2017, Delft, The Netherlands, 
+ November 08-09, 2017},
+pages = {19:1--19:10},
+crossref = {DBLP:conf/sensys/2017buildsys},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/3137133.3137156doi:10.1145/3137133.3137156Close Altwaijry, Hotham;  Kalashnikov, Dmitri V;  Mehrotra, SharadQDA: A Query-Driven Approach to Entity Resolution Journal Article IEEE Trans. Knowl. Data Eng., 29 (2), pp. 402–417, 2017.Links | BibTeX@article{DBLP:journals/tkde/AltwaijryKM17,
+title = {QDA: A Query-Driven Approach to Entity Resolution},
+author = {Hotham Altwaijry and Dmitri V Kalashnikov and Sharad Mehrotra},
+url = {https://doi.org/10.1109/TKDE.2016.2623607},
+doi = {10.1109/TKDE.2016.2623607},
+year  = {2017},
+date = {2017-01-01},
+journal = {IEEE Trans. Knowl. Data Eng.},
+volume = {29},
+number = {2},
+pages = {402--417},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/TKDE.2016.2623607doi:10.1109/TKDE.2016.2623607Close Oktay, Kerim Yasin;  Kantarcioglu, Murat;  Mehrotra, SharadSecure and Efficient Query Processing over Hybrid Clouds Inproceedings 33rd IEEE International Conference on Data Engineering, ICDE 2017, 
+ San Diego, CA, USA, April 19-22, 2017, pp. 733–744, 2017.Links | BibTeX@inproceedings{DBLP:conf/icde/OktayKM17,
+title = {Secure and Efficient Query Processing over Hybrid Clouds},
+author = {Kerim Yasin Oktay and Murat Kantarcioglu and Sharad Mehrotra},
+url = {https://doi.org/10.1109/ICDE.2017.125},
+doi = {10.1109/ICDE.2017.125},
+year  = {2017},
+date = {2017-01-01},
+booktitle = {33rd IEEE International Conference on Data Engineering, ICDE 2017, 
+ San Diego, CA, USA, April 19-22, 2017},
+pages = {733--744},
+crossref = {DBLP:conf/icde/2017},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ICDE.2017.125doi:10.1109/ICDE.2017.125Close Altowim, Yasser;  Mehrotra, SharadParallel Progressive Approach to Entity Resolution Using MapReduce Inproceedings 33rd IEEE International Conference on Data Engineering, ICDE 2017, 
+ San Diego, CA, USA, April 19-22, 2017, pp. 909–920, 2017.Links | BibTeX@inproceedings{DBLP:conf/icde/AltowimM17,
+title = {Parallel Progressive Approach to Entity Resolution Using MapReduce},
+author = {Yasser Altowim and Sharad Mehrotra},
+url = {https://doi.org/10.1109/ICDE.2017.139},
+doi = {10.1109/ICDE.2017.139},
+year  = {2017},
+date = {2017-01-01},
+booktitle = {33rd IEEE International Conference on Data Engineering, ICDE 2017, 
+ San Diego, CA, USA, April 19-22, 2017},
+pages = {909--920},
+crossref = {DBLP:conf/icde/2017},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ICDE.2017.139doi:10.1109/ICDE.2017.139Close Alsaudi, Abdulrahman;  Sadri, Mehdi;  Altowim, Yasser;  Mehrotra, SharadAdaptive Topic Follow-Up on Twitter Inproceedings 33rd IEEE International Conference on Data Engineering, ICDE 2017, 
+ San Diego, CA, USA, April 19-22, 2017, pp. 1385–1386, 2017.Links | BibTeX@inproceedings{DBLP:conf/icde/AlsaudiSAM17,
+title = {Adaptive Topic Follow-Up on Twitter},
+author = {Abdulrahman Alsaudi and Mehdi Sadri and Yasser Altowim and Sharad Mehrotra},
+url = {https://doi.org/10.1109/ICDE.2017.188},
+doi = {10.1109/ICDE.2017.188},
+year  = {2017},
+date = {2017-01-01},
+booktitle = {33rd IEEE International Conference on Data Engineering, ICDE 2017, 
+ San Diego, CA, USA, April 19-22, 2017},
+pages = {1385--1386},
+crossref = {DBLP:conf/icde/2017},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ICDE.2017.188doi:10.1109/ICDE.2017.188Close Stylianos, Doudalis;  Mehrotra, SharadSORTaki: A Framework to Integrate Sorting with Differential Private 
+ Histogramming Algorithms Inproceedings 15th Annual Conference on Privacy, Security and Trust, PST 2017, 
+ Calgary, AB, Canada, August 28-30, 2017, pp. 95–104, 2017.Links | BibTeX@inproceedings{DBLP:conf/pst/StylianosM17,
+title = {SORTaki: A Framework to Integrate Sorting with Differential Private 
+ Histogramming Algorithms},
+author = {Doudalis Stylianos and Sharad Mehrotra},
+url = {http://doi.ieeecomputersociety.org/10.1109/PST.2017.00021},
+doi = {10.1109/PST.2017.00021},
+year  = {2017},
+date = {2017-01-01},
+booktitle = {15th Annual Conference on Privacy, Security and Trust, PST 2017, 
+ Calgary, AB, Canada, August 28-30, 2017},
+pages = {95--104},
+crossref = {DBLP:conf/pst/2017},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.ieeecomputersociety.org/10.1109/PST.2017.00021doi:10.1109/PST.2017.00021Close Tang, Mengfan;  Nie, Feiping;  Pongpaichet, Siripen;  Jain, RameshSemi-supervised learning on large-scale geotagged photos for situation 
+ recognition Journal Article J. Visual Communication and Image Representation, 48 , pp. 310–316, 2017.Links | BibTeX@article{DBLP:journals/jvcir/TangNPJ17,
+title = {Semi-supervised learning on large-scale geotagged photos for situation 
+ recognition},
+author = {Mengfan Tang and Feiping Nie and Siripen Pongpaichet and Ramesh Jain},
+url = {https://doi.org/10.1016/j.jvcir.2017.07.005},
+doi = {10.1016/j.jvcir.2017.07.005},
+year  = {2017},
+date = {2017-01-01},
+journal = {J. Visual Communication and Image Representation},
+volume = {48},
+pages = {310--316},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1016/j.jvcir.2017.07.005doi:10.1016/j.jvcir.2017.07.005Close Tang, Jinhui;  Shu, Xiangbo;  -, Guo;  Li, Zechao;  Wang, Meng;  Yan, Shuicheng;  Jain, RameshTri-Clustered Tensor Completion for Social-Aware Image Tag Refinement Journal Article IEEE Trans. Pattern Anal. Mach. Intell., 39 (8), pp. 1662–1674, 2017.Links | BibTeX@article{DBLP:journals/pami/TangSQLWYJ17,
+title = {Tri-Clustered Tensor Completion for Social-Aware Image Tag Refinement},
+author = {Jinhui Tang and Xiangbo Shu and Guo - and Zechao Li and Meng Wang and Shuicheng Yan and Ramesh Jain},
+url = {https://doi.org/10.1109/TPAMI.2016.2608882},
+doi = {10.1109/TPAMI.2016.2608882},
+year  = {2017},
+date = {2017-01-01},
+journal = {IEEE Trans. Pattern Anal. Mach. Intell.},
+volume = {39},
+number = {8},
+pages = {1662--1674},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/TPAMI.2016.2608882doi:10.1109/TPAMI.2016.2608882Close Nag, Nitish;  Pandey, Vaibhav;  Jain, RameshHealth Multimedia: Lifestyle Recommendations Based on Diverse Observations Inproceedings Proceedings of the 2017 ACM on International Conference on Multimedia 
+ Retrieval, ICMR 2017, Bucharest, Romania, June 6-9, 2017, pp. 99–106, 2017.Links | BibTeX@inproceedings{DBLP:conf/mir/NagPJ17,
+title = {Health Multimedia: Lifestyle Recommendations Based on Diverse Observations},
+author = {Nitish Nag and Vaibhav Pandey and Ramesh Jain},
+url = {https://doi.org/10.1145/3078971.3080545},
+doi = {10.1145/3078971.3080545},
+year  = {2017},
+date = {2017-01-01},
+booktitle = {Proceedings of the 2017 ACM on International Conference on Multimedia 
+ Retrieval, ICMR 2017, Bucharest, Romania, June 6-9, 2017},
+pages = {99--106},
+crossref = {DBLP:conf/mir/2017},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/3078971.3080545doi:10.1145/3078971.3080545Close Oh, Hyungik;  Jain, RameshFrom Multimedia Logs to Personal Chronicles Inproceedings Proceedings of the 2017 ACM on Multimedia Conference, MM 2017, 
+ Mountain View, CA, USA, October 23-27, 2017, pp. 881–889, 2017.Links | BibTeX@inproceedings{DBLP:conf/mm/OhJ17,
+title = {From Multimedia Logs to Personal Chronicles},
+author = {Hyungik Oh and Ramesh Jain},
+url = {https://doi.org/10.1145/3123266.3123375},
+doi = {10.1145/3123266.3123375},
+year  = {2017},
+date = {2017-01-01},
+booktitle = {Proceedings of the 2017 ACM on Multimedia Conference, MM 2017, 
+ Mountain View, CA, USA, October 23-27, 2017},
+pages = {881--889},
+crossref = {DBLP:conf/mm/2017},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/3123266.3123375doi:10.1145/3123266.3123375Close Boll, Susanne;  Ebrahimi, Touradj;  Gurrin, Cathal;  Jalali, Laleh;  Jain, Ramesh;  Meyer, Jochen;  O'Connor, Noel EMMHealth 2017: Workshop on Multimedia for Personal Health and Health 
+ Care Inproceedings Proceedings of the 2017 ACM on Multimedia Conference, MM 2017, 
+ Mountain View, CA, USA, October 23-27, 2017, pp. 1961–1962, 2017.Links | BibTeX@inproceedings{DBLP:conf/mm/BollEGJJMO17,
+title = {MMHealth 2017: Workshop on Multimedia for Personal Health and Health 
+ Care},
+author = {Susanne Boll and Touradj Ebrahimi and Cathal Gurrin and Laleh Jalali and Ramesh Jain and Jochen Meyer and Noel E O'Connor},
+url = {https://doi.org/10.1145/3123266.3132051},
+doi = {10.1145/3123266.3132051},
+year  = {2017},
+date = {2017-01-01},
+booktitle = {Proceedings of the 2017 ACM on Multimedia Conference, MM 2017, 
+ Mountain View, CA, USA, October 23-27, 2017},
+pages = {1961--1962},
+crossref = {DBLP:conf/mm/2017},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/3123266.3132051doi:10.1145/3123266.3132051Close
+
+2016
+
+ Abadi, Daniel;  Agrawal, Rakesh;  Ailamaki, Anastasia;  Balazinska, Magdalena;  Bernstein, Philip A;  Carey, Michael J;  Chaudhuri, Surajit;  Dean, Jeffrey;  Doan, AnHai;  Franklin, Michael J;  Gehrke, Johannes;  Haas, Laura M;  Halevy, Alon Y;  Hellerstein, Joseph M;  Ioannidis, Yannis E;  Jagadish, H V;  Kossmann, Donald;  Madden, Samuel;  Mehrotra, Sharad;  Milo, Tova;  Naughton, Jeffrey F;  Ramakrishnan, Raghu;  Markl, Volker;  Olston, Christopher;  Ooi, Beng Chin;  é, Christopher R;  Suciu, Dan;  Stonebraker, Michael;  Walter, Todd;  Widom, JenniferThe Beckman report on database research Journal Article Commun. ACM, 59 (2), pp. 92–99, 2016.Links | BibTeX@article{DBLP:journals/cacm/AbadiAABBCCDDFG16,
+title = {The Beckman report on database research},
+author = {Daniel Abadi and Rakesh Agrawal and Anastasia Ailamaki and Magdalena Balazinska and Philip A Bernstein and Michael J Carey and Surajit Chaudhuri and Jeffrey Dean and AnHai Doan and Michael J Franklin and Johannes Gehrke and Laura M Haas and Alon Y Halevy and Joseph M Hellerstein and Yannis E Ioannidis and H V Jagadish and Donald Kossmann and Samuel Madden and Sharad Mehrotra and Tova Milo and Jeffrey F Naughton and Raghu Ramakrishnan and Volker Markl and Christopher Olston and Beng Chin Ooi and Christopher R é and Dan Suciu and Michael Stonebraker and Todd Walter and Jennifer Widom},
+url = {https://doi.org/10.1145/2845915},
+doi = {10.1145/2845915},
+year  = {2016},
+date = {2016-01-01},
+journal = {Commun. ACM},
+volume = {59},
+number = {2},
+pages = {92--99},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1145/2845915doi:10.1145/2845915Close Alkowaileet, Wail Y;  Alsubaiee, Sattam;  Carey, Michael J;  Westmann, Till;  Bu, YingyiLarge-scale Complex Analytics on Semi-structured Datasets using AsterixDB 
+ and Spark Journal Article PVLDB, 9 (13), pp. 1585–1588, 2016.Links | BibTeX@article{DBLP:journals/pvldb/AlkowaileetACWB16,
+title = {Large-scale Complex Analytics on Semi-structured Datasets using AsterixDB 
+ and Spark},
+author = {Wail Y Alkowaileet and Sattam Alsubaiee and Michael J Carey and Till Westmann and Yingyi Bu},
+url = {http://www.vldb.org/pvldb/vol9/p1585-alkowaileet.pdf},
+doi = {10.14778/3007263.3007315},
+year  = {2016},
+date = {2016-01-01},
+journal = {PVLDB},
+volume = {9},
+number = {13},
+pages = {1585--1588},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://www.vldb.org/pvldb/vol9/p1585-alkowaileet.pdfdoi:10.14778/3007263.3007315Close Carey, Michael J;  Jacobs, Steven;  Tsotras, Vassilis JBreaking BAD: a data serving vision for big active data Inproceedings Proceedings of the 10th ACM International Conference on Distributed 
+ and Event-based Systems, DEBS '16, Irvine, CA, USA, June 20 - 24, 
+ 2016, pp. 181–186, 2016.Links | BibTeX@inproceedings{DBLP:conf/debs/CareyJT16,
+title = {Breaking BAD: a data serving vision for big active data},
+author = {Michael J Carey and Steven Jacobs and Vassilis J Tsotras},
+url = {https://doi.org/10.1145/2933267.2933313},
+doi = {10.1145/2933267.2933313},
+year  = {2016},
+date = {2016-01-01},
+booktitle = {Proceedings of the 10th ACM International Conference on Distributed 
+ and Event-based Systems, DEBS '16, Irvine, CA, USA, June 20 - 24, 
+ 2016},
+pages = {181--186},
+crossref = {DBLP:conf/debs/2016},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/2933267.2933313doi:10.1145/2933267.2933313Close Jia, Jianfeng;  Li, Chen;  Zhang, Xi;  Li, Chen;  Carey, Michael J;  Su, SimonTowards interactive analytics and visualization on one billion tweets Inproceedings Proceedings of the 24th ACM SIGSPATIAL International Conference 
+ on Advances in Geographic Information Systems, GIS 2016, Burlingame, 
+ California, USA, October 31 - November 3, 2016, pp. 85:1–85:4, 2016.Links | BibTeX@inproceedings{DBLP:conf/gis/JiaLZ0CS16,
+title = {Towards interactive analytics and visualization on one billion tweets},
+author = {Jianfeng Jia and Chen Li and Xi Zhang and Chen Li and Michael J Carey and Simon Su},
+url = {https://doi.org/10.1145/2996913.2996923},
+doi = {10.1145/2996913.2996923},
+year  = {2016},
+date = {2016-01-01},
+booktitle = {Proceedings of the 24th ACM SIGSPATIAL International Conference 
+ on Advances in Geographic Information Systems, GIS 2016, Burlingame, 
+ California, USA, October 31 - November 3, 2016},
+pages = {85:1--85:4},
+crossref = {DBLP:conf/gis/2016},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/2996913.2996923doi:10.1145/2996913.2996923Close Borkar, Dipti;  Mayuram, Ravi;  Sangudi, Gerald;  Carey, Michael JHave Your Data and Query It Too: From Key-Value Caching to Big Data 
+ Management Inproceedings Proceedings of the 2016 International Conference on Management of 
+ Data, SIGMOD Conference 2016, San Francisco, CA, USA, June 26 - 
+ July 01, 2016, pp. 239–251, 2016.Links | BibTeX@inproceedings{DBLP:conf/sigmod/BorkarMSC16,
+title = {Have Your Data and Query It Too: From Key-Value Caching to Big Data 
+ Management},
+author = {Dipti Borkar and Ravi Mayuram and Gerald Sangudi and Michael J Carey},
+url = {https://doi.org/10.1145/2882903.2904443},
+doi = {10.1145/2882903.2904443},
+year  = {2016},
+date = {2016-01-01},
+booktitle = {Proceedings of the 2016 International Conference on Management of 
+ Data, SIGMOD Conference 2016, San Francisco, CA, USA, June 26 - 
+ July 01, 2016},
+pages = {239--251},
+crossref = {DBLP:conf/sigmod/2016},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/2882903.2904443doi:10.1145/2882903.2904443Close Yang, Xiaochun;  Qiu, Tao;  Wang, Bin;  Zheng, Baihua;  Wang, Yaoshu;  Li, ChenNegative Factor: Improving Regular-Expression Matching in Strings Journal Article ACM Trans. Database Syst., 40 (4), pp. 25:1–25:46, 2016.Links | BibTeX@article{DBLP:journals/tods/YangQWZW016,
+title = {Negative Factor: Improving Regular-Expression Matching in Strings},
+author = {Xiaochun Yang and Tao Qiu and Bin Wang and Baihua Zheng and Yaoshu Wang and Chen Li},
+url = {https://doi.org/10.1145/2847525},
+doi = {10.1145/2847525},
+year  = {2016},
+date = {2016-01-01},
+journal = {ACM Trans. Database Syst.},
+volume = {40},
+number = {4},
+pages = {25:1--25:46},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1145/2847525doi:10.1145/2847525Close Kim, Jongik;  Li, Chen;  Xie, XiaohuiHobbes3: Dynamic generation of variable-length signatures for efficient 
+ approximate subsequence mappings Inproceedings 32nd IEEE International Conference on Data Engineering, ICDE 2016, 
+ Helsinki, Finland, May 16-20, 2016, pp. 169–180, 2016.Links | BibTeX@inproceedings{DBLP:conf/icde/Kim0X16,
+title = {Hobbes3: Dynamic generation of variable-length signatures for efficient 
+ approximate subsequence mappings},
+author = {Jongik Kim and Chen Li and Xiaohui Xie},
+url = {https://doi.org/10.1109/ICDE.2016.7498238},
+doi = {10.1109/ICDE.2016.7498238},
+year  = {2016},
+date = {2016-01-01},
+booktitle = {32nd IEEE International Conference on Data Engineering, ICDE 2016, 
+ Helsinki, Finland, May 16-20, 2016},
+pages = {169--180},
+crossref = {DBLP:conf/icde/2016},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ICDE.2016.7498238doi:10.1109/ICDE.2016.7498238Close Do, Ngoc Minh;  Zhao, Ye;  -, Cheng;  Venkatasubramanian, NaliniCrowdsourced Mobile Data Transfer with Delay Bound Journal Article ACM Trans. Internet Techn., 16 (4), pp. 28:1–28:29, 2016.Links | BibTeX@article{DBLP:journals/toit/DoZHV16,
+title = {Crowdsourced Mobile Data Transfer with Delay Bound},
+author = {Ngoc Minh Do and Ye Zhao and Cheng - and Nalini Venkatasubramanian},
+url = {https://doi.org/10.1145/2939376},
+doi = {10.1145/2939376},
+year  = {2016},
+date = {2016-01-01},
+journal = {ACM Trans. Internet Techn.},
+volume = {16},
+number = {4},
+pages = {28:1--28:29},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1145/2939376doi:10.1145/2939376Close Wu, Di;  Liu, Qiang;  Li, Yong;  McCann, Julie A;  Regan, Amelia C;  Venkatasubramanian, NaliniAdaptive Lookup of Open WiFi Using Crowdsensing Journal Article IEEE/ACM Trans. Netw., 24 (6), pp. 3634–3647, 2016.Links | BibTeX@article{DBLP:journals/ton/WuLLMRV16,
+title = {Adaptive Lookup of Open WiFi Using Crowdsensing},
+author = {Di Wu and Qiang Liu and Yong Li and Julie A McCann and Amelia C Regan and Nalini Venkatasubramanian},
+url = {https://doi.org/10.1109/TNET.2016.2533399},
+doi = {10.1109/TNET.2016.2533399},
+year  = {2016},
+date = {2016-01-01},
+journal = {IEEE/ACM Trans. Netw.},
+volume = {24},
+number = {6},
+pages = {3634--3647},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/TNET.2016.2533399doi:10.1109/TNET.2016.2533399Close Uddin, Md. Yusuf Sarwar;  Setty, Vinay;  Zhao, Ye;  Vitenberg, Roman;  Venkatasubramanian, NaliniRichNote: Adaptive Selection and Delivery of Rich Media Notifications 
+ to Mobile Users Inproceedings 36th IEEE International Conference on Distributed Computing Systems, 
+ ICDCS 2016, Nara, Japan, June 27-30, 2016, pp. 159–168, 2016.Links | BibTeX@inproceedings{DBLP:conf/icdcs/UddinSZVV16,
+title = {RichNote: Adaptive Selection and Delivery of Rich Media Notifications 
+ to Mobile Users},
+author = {Md. Yusuf Sarwar Uddin and Vinay Setty and Ye Zhao and Roman Vitenberg and Nalini Venkatasubramanian},
+url = {https://doi.org/10.1109/ICDCS.2016.107},
+doi = {10.1109/ICDCS.2016.107},
+year  = {2016},
+date = {2016-01-01},
+booktitle = {36th IEEE International Conference on Distributed Computing Systems, 
+ ICDCS 2016, Nara, Japan, June 27-30, 2016},
+pages = {159--168},
+crossref = {DBLP:conf/icdcs/2016},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ICDCS.2016.107doi:10.1109/ICDCS.2016.107Close Benson, Kyle E;  Han, Qing;  Kim, Kyungbaek;  Nguyen, Phu;  Venkatasubramanian, NaliniResilient Overlays for IoT-Based Community Infrastructure Communications Inproceedings First IEEE International Conference on Internet-of-Things Design 
+ and Implementation, IoTDI 2016, Berlin, Germany, April 4-8, 2016, pp. 152–163, 2016.Links | BibTeX@inproceedings{DBLP:conf/iotdi/BensonHKNV16,
+title = {Resilient Overlays for IoT-Based Community Infrastructure Communications},
+author = {Kyle E Benson and Qing Han and Kyungbaek Kim and Phu Nguyen and Nalini Venkatasubramanian},
+url = {https://doi.org/10.1109/IoTDI.2015.40},
+doi = {10.1109/IoTDI.2015.40},
+year  = {2016},
+date = {2016-01-01},
+booktitle = {First IEEE International Conference on Internet-of-Things Design 
+ and Implementation, IoTDI 2016, Berlin, Germany, April 4-8, 2016},
+pages = {152--163},
+crossref = {DBLP:conf/iotdi/2016},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/IoTDI.2015.40doi:10.1109/IoTDI.2015.40Close Mehrotra, Sharad;  Kobsa, Alfred;  Venkatasubramanian, Nalini;  Rajagopalan, Siva RajTIPPERS: A privacy cognizant IoT environment Inproceedings 2016 IEEE International Conference on Pervasive Computing and Communication 
+ Workshops, PerCom Workshops 2016, Sydney, Australia, March 14-18, 
+ 2016, pp. 1–6, 2016.Links | BibTeX@inproceedings{DBLP:conf/percom/MehrotraKVR16,
+title = {TIPPERS: A privacy cognizant IoT environment},
+author = {Sharad Mehrotra and Alfred Kobsa and Nalini Venkatasubramanian and Siva Raj Rajagopalan},
+url = {https://doi.org/10.1109/PERCOMW.2016.7457158},
+doi = {10.1109/PERCOMW.2016.7457158},
+year  = {2016},
+date = {2016-01-01},
+booktitle = {2016 IEEE International Conference on Pervasive Computing and Communication 
+ Workshops, PerCom Workshops 2016, Sydney, Australia, March 14-18, 
+ 2016},
+pages = {1--6},
+crossref = {DBLP:conf/percom/2016w},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/PERCOMW.2016.7457158doi:10.1109/PERCOMW.2016.7457158Close Uddin, Md. Yusuf Sarwar;  Nelson, Alexander;  Benson, Kyle E;  Wang, Guoxi;  Zhu, Qiuxi;  Han, Qing;  Alhassoun, Nailah;  Chakravarthi, Prakash;  Stamatakis, Julien;  Hoffman, Daniel;  D'arcy, Luke;  Venkatasubramanian, NaliniThe Scale2 Multi-Network Architecture for IoT-Based Resilient Communities Inproceedings 2016 IEEE International Conference on Smart Computing, SMARTCOMP 
+ 2016, St Louis, MO, USA, May 18-20, 2016, pp. 1–8, 2016.Links | BibTeX@inproceedings{DBLP:conf/smartcomp/UddinNBWZHACSHD16,
+title = {The Scale2 Multi-Network Architecture for IoT-Based Resilient Communities},
+author = {Md. Yusuf Sarwar Uddin and Alexander Nelson and Kyle E Benson and Guoxi Wang and Qiuxi Zhu and Qing Han and Nailah Alhassoun and Prakash Chakravarthi and Julien Stamatakis and Daniel Hoffman and Luke D'arcy and Nalini Venkatasubramanian},
+url = {https://doi.org/10.1109/SMARTCOMP.2016.7501722},
+doi = {10.1109/SMARTCOMP.2016.7501722},
+year  = {2016},
+date = {2016-01-01},
+booktitle = {2016 IEEE International Conference on Smart Computing, SMARTCOMP 
+ 2016, St Louis, MO, USA, May 18-20, 2016},
+pages = {1--8},
+crossref = {DBLP:conf/smartcomp/2016},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/SMARTCOMP.2016.7501722doi:10.1109/SMARTCOMP.2016.7501722Close Zhu, Qiuxi;  Uddin, Md. Yusuf Sarwar;  Qin, Zhijing;  Venkatasubramanian, NaliniUpload Planning for Mobile Data Collection in Smart Community Internet-of-Things 
+ Deployments Inproceedings 2016 IEEE International Conference on Smart Computing, SMARTCOMP 
+ 2016, St Louis, MO, USA, May 18-20, 2016, pp. 1–8, 2016.Links | BibTeX@inproceedings{DBLP:conf/smartcomp/ZhuUQV16,
+title = {Upload Planning for Mobile Data Collection in Smart Community Internet-of-Things 
+ Deployments},
+author = {Qiuxi Zhu and Md. Yusuf Sarwar Uddin and Zhijing Qin and Nalini Venkatasubramanian},
+url = {https://doi.org/10.1109/SMARTCOMP.2016.7501725},
+doi = {10.1109/SMARTCOMP.2016.7501725},
+year  = {2016},
+date = {2016-01-01},
+booktitle = {2016 IEEE International Conference on Smart Computing, SMARTCOMP 
+ 2016, St Louis, MO, USA, May 18-20, 2016},
+pages = {1--8},
+crossref = {DBLP:conf/smartcomp/2016},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/SMARTCOMP.2016.7501725doi:10.1109/SMARTCOMP.2016.7501725Close Zhang, Liyan;  Wang, Xikui;  Kalashnikov, Dmitri V;  Mehrotra, Sharad;  Ramanan, DevaQuery-Driven Approach to Face Clustering and Tagging Journal Article IEEE Trans. Image Processing, 25 (10), pp. 4504–4513, 2016.Links | BibTeX@article{DBLP:journals/tip/ZhangWKMR16,
+title = {Query-Driven Approach to Face Clustering and Tagging},
+author = {Liyan Zhang and Xikui Wang and Dmitri V Kalashnikov and Sharad Mehrotra and Deva Ramanan},
+url = {https://doi.org/10.1109/TIP.2016.2592703},
+doi = {10.1109/TIP.2016.2592703},
+year  = {2016},
+date = {2016-01-01},
+journal = {IEEE Trans. Image Processing},
+volume = {25},
+number = {10},
+pages = {4504--4513},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/TIP.2016.2592703doi:10.1109/TIP.2016.2592703Close Sadri, Mehdi;  Mehrotra, Sharad;  Yu, YamingOnline Adaptive Topic Focused Tweet Acquisition Inproceedings Proceedings of the 25th ACM International Conference on Information 
+ and Knowledge Management, CIKM 2016, Indianapolis, IN, USA, October 
+ 24-28, 2016, pp. 2353–2358, 2016.Links | BibTeX@inproceedings{DBLP:conf/cikm/SadriMY16,
+title = {Online Adaptive Topic Focused Tweet Acquisition},
+author = {Mehdi Sadri and Sharad Mehrotra and Yaming Yu},
+url = {https://doi.org/10.1145/2983323.2983693},
+doi = {10.1145/2983323.2983693},
+year  = {2016},
+date = {2016-01-01},
+booktitle = {Proceedings of the 25th ACM International Conference on Information 
+ and Knowledge Management, CIKM 2016, Indianapolis, IN, USA, October 
+ 24-28, 2016},
+pages = {2353--2358},
+crossref = {DBLP:conf/cikm/2016},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/2983323.2983693doi:10.1145/2983323.2983693Close Cui, Peng;  Zhu, Wenwu;  -, Tat;  Jain, RameshSocial-Sensed Multimedia Computing Journal Article IEEE MultiMedia, 23 (1), pp. 92–96, 2016.Links | BibTeX@article{DBLP:journals/ieeemm/Cui0CJ16,
+title = {Social-Sensed Multimedia Computing},
+author = {Peng Cui and Wenwu Zhu and Tat - and Ramesh Jain},
+url = {https://doi.org/10.1109/MMUL.2016.8},
+doi = {10.1109/MMUL.2016.8},
+year  = {2016},
+date = {2016-01-01},
+journal = {IEEE MultiMedia},
+volume = {23},
+number = {1},
+pages = {92--96},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/MMUL.2016.8doi:10.1109/MMUL.2016.8Close Sang, Jitao;  Xu, Changsheng;  Jain, RameshSocial Multimedia Ming: From Special to General Inproceedings IEEE International Symposium on Multimedia, ISM 2016, San Jose, 
+ CA, USA, December 11-13, 2016, pp. 481–485, 2016.Links | BibTeX@inproceedings{DBLP:conf/ism/SangXJ16,
+title = {Social Multimedia Ming: From Special to General},
+author = {Jitao Sang and Changsheng Xu and Ramesh Jain},
+url = {https://doi.org/10.1109/ISM.2016.0108},
+doi = {10.1109/ISM.2016.0108},
+year  = {2016},
+date = {2016-01-01},
+booktitle = {IEEE International Symposium on Multimedia, ISM 2016, San Jose, 
+ CA, USA, December 11-13, 2016},
+pages = {481--485},
+crossref = {DBLP:conf/ism/2016},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ISM.2016.0108doi:10.1109/ISM.2016.0108Close
+
+2015
+
+ Xu, Jie;  Kalashnikov, Dmitri V;  Mehrotra, SharadQuery Aware Determinization of Uncertain Objects Journal Article IEEE Trans. Knowl. Data Eng., 27 (1), pp. 207–221, 2015.Links | BibTeX@article{DBLP:journals/tkde/XuKM15,
+title = {Query Aware Determinization of Uncertain Objects},
+author = {Jie Xu and Dmitri V Kalashnikov and Sharad Mehrotra},
+url = {https://doi.org/10.1109/TKDE.2013.170},
+doi = {10.1109/TKDE.2013.170},
+year  = {2015},
+date = {2015-01-01},
+journal = {IEEE Trans. Knowl. Data Eng.},
+volume = {27},
+number = {1},
+pages = {207--221},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/TKDE.2013.170doi:10.1109/TKDE.2013.170Close Belhajjame, Khalid;  Paton, Norman W;  Hedeler, Cornelia;  Fernandes, Alvaro A AEnabling community-driven information integration through clustering Journal Article Distributed and Parallel Databases, 33 (1), pp. 33–67, 2015.Links | BibTeX@article{DBLP:journals/dpd/BelhajjamePHF15,
+title = {Enabling community-driven information integration through clustering},
+author = {Khalid Belhajjame and Norman W Paton and Cornelia Hedeler and Alvaro A A Fernandes},
+url = {https://doi.org/10.1007/s10619-014-7160-z},
+doi = {10.1007/s10619-014-7160-z},
+year  = {2015},
+date = {2015-01-01},
+journal = {Distributed and Parallel Databases},
+volume = {33},
+number = {1},
+pages = {33--67},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1007/s10619-014-7160-zdoi:10.1007/s10619-014-7160-zClose Alsubaiee, Sattam;  Carey, Michael J;  Li, ChenLSM-Based Storage and Indexing: An Old Idea with Timely Benefits Inproceedings Second International ACM Workshop on Managing and Mining Enriched Geo-Spatial Data, GeoRich@SIGMOD 2015, Melbourne, VIC, Australia, 
+ May 31, 2015, pp. 1–6, 2015.Links | BibTeX@inproceedings{DBLP:conf/sigmod/AlsubaieeC015,
+title = {LSM-Based Storage and Indexing: An Old Idea with Timely Benefits},
+author = {Sattam Alsubaiee and Michael J Carey and Chen Li},
+url = {https://doi.org/10.1145/2786006.2786007},
+doi = {10.1145/2786006.2786007},
+year  = {2015},
+date = {2015-01-01},
+booktitle = {Second International ACM Workshop on Managing and Mining Enriched Geo-Spatial Data, GeoRich@SIGMOD 2015, Melbourne, VIC, Australia, 
+ May 31, 2015},
+pages = {1--6},
+crossref = {DBLP:conf/sigmod/2015georich},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/2786006.2786007doi:10.1145/2786006.2786007Close Altwaijry, Hotham;  Mehrotra, Sharad;  Kalashnikov, Dmitri VQuERy: A Framework for Integrating Entity Resolution with Query 
+ Processing Journal Article PVLDB, 9 (3), pp. 120–131, 2015.Links | BibTeX@article{DBLP:journals/pvldb/AltwaijryMK15,
+title = {QuERy: A Framework for Integrating Entity Resolution with Query 
+ Processing},
+author = {Hotham Altwaijry and Sharad Mehrotra and Dmitri V Kalashnikov},
+url = {http://www.vldb.org/pvldb/vol9/p120-altwaijry.pdf},
+doi = {10.14778/2850583.2850587},
+year  = {2015},
+date = {2015-01-01},
+journal = {PVLDB},
+volume = {9},
+number = {3},
+pages = {120--131},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://www.vldb.org/pvldb/vol9/p120-altwaijry.pdfdoi:10.14778/2850583.2850587Close
+
+2014
+
+ Bu, Yingyi;  Borkar, Vinayak R;  Jia, Jianfeng;  Carey, Michael J;  Condie, TysonPregelix: Big(ger) Graph Analytics on a Dataflow Engine Journal Article PVLDB, 8 (2), pp. 161–172, 2014.Links | BibTeX@article{DBLP:journals/pvldb/BuBJCC14,
+title = {Pregelix: Big(ger) Graph Analytics on a Dataflow Engine},
+author = {Yingyi Bu and Vinayak R Borkar and Jianfeng Jia and Michael J Carey and Tyson Condie},
+url = {http://www.vldb.org/pvldb/vol8/p161-bu.pdf},
+doi = {10.14778/2735471.2735477},
+year  = {2014},
+date = {2014-01-01},
+journal = {PVLDB},
+volume = {8},
+number = {2},
+pages = {161--172},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://www.vldb.org/pvldb/vol8/p161-bu.pdfdoi:10.14778/2735471.2735477Close Alsubaiee, Sattam;  Altowim, Yasser;  Altwaijry, Hotham;  Behm, Alexander;  Borkar, Vinayak R;  Bu, Yingyi;  Carey, Michael J;  Cetindil, Inci;  Cheelangi, Madhusudan;  Faraaz, Khurram;  Gabrielova, Eugenia;  Grover, Raman;  Heilbron, Zachary;  Kim, Young-Seok;  Li, Chen;  Li, Guangqiang;  Ok, Ji Mahn;  Onose, Nicola;  Pirzadeh, Pouria;  Tsotras, Vassilis J;  Vernica, Rares;  Wen, Jian;  Westmann, TillAsterixDB: A Scalable, Open Source BDMS Journal Article PVLDB, 7 (14), pp. 1905–1916, 2014.Links | BibTeX@article{journals/pvldb/AlsubaieeAABBBCCCFGGHKLLOOPTVWW14,
+title = {AsterixDB: A Scalable, Open Source BDMS},
+author = {Sattam Alsubaiee and Yasser Altowim and Hotham Altwaijry and Alexander Behm and Vinayak R. Borkar and Yingyi Bu and Michael J. Carey and Inci Cetindil and Madhusudan Cheelangi and Khurram Faraaz and Eugenia Gabrielova and Raman Grover and Zachary Heilbron and Young-Seok Kim and Chen Li and Guangqiang Li and Ji Mahn Ok and Nicola Onose and Pouria Pirzadeh and Vassilis J. Tsotras and Rares Vernica and Jian Wen and Till Westmann},
+url = {http://www.vldb.org/pvldb/vol7/p1905-alsubaiee.pdf},
+doi = {10.14778/2733085.2733096},
+year  = {2014},
+date = {2014-01-01},
+journal = {PVLDB},
+volume = {7},
+number = {14},
+pages = {1905--1916},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://www.vldb.org/pvldb/vol7/p1905-alsubaiee.pdfdoi:10.14778/2733085.2733096Close Oktay, Kerim Yasin;  Gomathisankaran, Mahadevan;  Kantarcioglu, Murat;  Mehrotra, Sharad;  Singhal, AnoopTowards data confidentiality and a vulnerability analysis framework for cloud computing Incollection Secure Cloud Computing, pp. 213–238, Springer, 2014.BibTeX@incollection{oktay2014towards,
+title = {Towards data confidentiality and a vulnerability analysis framework for cloud computing},
+author = {Kerim Yasin Oktay and Mahadevan Gomathisankaran and Murat Kantarcioglu and Sharad Mehrotra and Anoop Singhal},
+year  = {2014},
+date = {2014-01-01},
+booktitle = {Secure Cloud Computing},
+pages = {213--238},
+publisher = {Springer},
+keywords = {},
+pubstate = {published},
+tppubtype = {incollection}
+}
+Close Altowim, Yasser;  Kalashnikov, Dmitri V;  Mehrotra, SharadProgressive Approach to Relational Entity Resolution Journal Article PVLDB, 7 (11), pp. 999–1010, 2014.Links | BibTeX@article{DBLP:journals/pvldb/AltowimKM14,
+title = {Progressive Approach to Relational Entity Resolution},
+author = {Yasser Altowim and Dmitri V Kalashnikov and Sharad Mehrotra},
+url = {http://www.vldb.org/pvldb/vol7/p999-altowim.pdf},
+doi = {10.14778/2732967.2732975},
+year  = {2014},
+date = {2014-01-01},
+journal = {PVLDB},
+volume = {7},
+number = {11},
+pages = {999--1010},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://www.vldb.org/pvldb/vol7/p999-altowim.pdfdoi:10.14778/2732967.2732975Close Alsubaiee, Sattam;  Behm, Alexander;  Borkar, Vinayak R;  Heilbron, Zachary;  Kim, Young-Seok;  Carey, Michael J;  Dreseler, Markus;  Li, ChenStorage Management in AsterixDB Journal Article PVLDB, 7 (10), pp. 841–852, 2014.Links | BibTeX@article{DBLP:journals/pvldb/AlsubaieeBBHKCDL14,
+title = {Storage Management in AsterixDB},
+author = {Sattam Alsubaiee and Alexander Behm and Vinayak R Borkar and Zachary Heilbron and Young-Seok Kim and Michael J Carey and Markus Dreseler and Chen Li},
+url = {http://www.vldb.org/pvldb/vol7/p841-alsubaiee.pdf},
+doi = {10.14778/2732951.2732958},
+year  = {2014},
+date = {2014-01-01},
+journal = {PVLDB},
+volume = {7},
+number = {10},
+pages = {841--852},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://www.vldb.org/pvldb/vol7/p841-alsubaiee.pdfdoi:10.14778/2732951.2732958Close179 entries « ‹  2 of 4 › » 
+ 
+
+
+
+
+
+
+
+Search for :
+
+
+Latest News 
+
+
+
+Upcoming Talk: How to build your own Business
+
+											July 25, 2022																																
+
+
+Upcoming Talk: Couchbase and Distributed Computing Backends for big data processing
+
+											May 31, 2022																																
+
+
+Upcoming Talk: Shedding Light on Opaque Database Queries
+
+											May 31, 2022																																
+
+
+ISG researchers won the  Mark Weiser Best Paper Award at IEEE PERCOM 2022
+
+											March 24, 2022																																
+
+
+
+
+Upcoming Events
+
+
+
+
+Qiushi Bai: QueryBooster-Improving SQL Performance Using Middleware Services for Human-Centered Query Rewriting + Demo
+
+
+
+October 14 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Xiaozhen Liu: Demonstration of Collaborative and Interactive Workflow-based Data Analytics in Texera
+
+
+
+October 21 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Abhishek Singh: WedgeBlock – An Off-Chain Secure Logging Platform for Blockchain Applications
+
+
+
+October 28 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Juncheng Fang: PeloPartition- Improving Blockchain Resilience to Partitioning by Sharding
+
+
+
+November 4 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Peeyush Gupta: A Demonstration of TippersDB
+
+
+
+November 18 @ 12:30 pm - 2:00 pm 
+
+
+
+View All Events
+
+Please follow & like us :) 
+
+Follow  
+
+ 
+
+
+
+
+
+
+
+			Copyright 2018 | ISG-UCI		
+
+
+
+
+
+
+cross
+
+
+
+
+
+
+
+
+
+
+Hit ENTER to search or ESC to close
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,192 @@
+https://cbcl.ics.uci.edu/doku.php/teaching/cs285s14/start
+
+
+
+
+
+    teaching:cs285s14:start – Machine Learning and Bioinformatics Lab  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Machine Learning and Bioinformatics Lab Search
+
+
+
+				⚙
+			
+
+Show pagesourceOld revisionsBacklinks 
+
+
+
+			⚒
+		
+Recent ChangesSitemapLog In
+
+
+
+
+
+
+
+
+CBCL Lab @ UCI
+Publications
+Software
+Data
+People
+Teaching
+Contact
+Internal Projects
+
+
+
+Math 227C / CS 285: An Introduction to Stochastic Differential Equations
+
+
+Course information
+
+
+ Instructor:  Xiaohui Xie
+
+ Meeting information: 
+
+ Regular lecture: TT 3:00-4:20
+
+ Meeting place: ICS 213
+
+
+
+
+
+Prerequisites
+
+
+ multivariate calculus, linear algebra, elementary differential equations (at the level of Math 3D at UCI), and (helpful to know) some elementary probability
+
+
+
+Course Description
+
+
+Tentative topics:
+
+
+  Markov Chains and Linear Difference Equations
+
+  Continuous Time Markov Processes
+
+  Poisson Counters and Differential Equations
+
+  Wiener Processes and Differential Equations
+
+  Ito's calculus and Ito Formula
+
+  Diffusion, Fokker-Planck Equations
+
+  Probability space, Foundation of stochastic processes
+
+  Conditional Expectation, Martingales
+
+  Markov Properties, Feymann-Kac Theorem, Kolmogorov backward equation
+
+  Application to stochastic control
+
+  Application to filtering problems
+
+  Application to population genetics
+
+
+
+Lecture notes
+
+
+  [http://www.ics.uci.edu/~xhx/courses/math227c/CourseScribeNotes.pdf Combined scribe notes]
+
+  [http://www.ics.uci.edu/~xhx/courses/math227c/lecture1.pdf Lecture 1]
+
+  [http://www.ics.uci.edu/~xhx/courses/math227c/lecture2.pdf Lecture 2]
+
+  [http://www.ics.uci.edu/~xhx/courses/math227c/lecture3.pdf Lecture 3]
+
+ [http://www.ics.uci.edu/~xhx/courses/math227c/lecture4.pdf Lecture 4]
+
+  [http://www.ics.uci.edu/~xhx/courses/math227c/lecture7.pdf Lecture 7]
+
+  [http://www.ics.uci.edu/~xhx/courses/math227c/lecture9.pdf Lecture 9]
+
+  [http://www.ics.uci.edu/~xhx/courses/math227c/lecture10.pdf Lecture 10]
+
+  [http://www.ics.uci.edu/~xhx/courses/math227c/lecture11.pdf Lecture 11]
+
+  [http://www.ics.uci.edu/~xhx/courses/math227c/lecture12.pdf Lecture 12]
+
+  [http://www.ics.uci.edu/~xhx/courses/math227c/lecture13.pdf Lecture 13]
+
+  [http://www.ics.uci.edu/~xhx/courses/math227c/lecture14.pdf Lecture 14]
+
+  [http://www.ics.uci.edu/~xhx/courses/math227c/lecture17.pdf Lecture 17]
+
+  [http://www.ics.uci.edu/~xhx/courses/math227c/lecture18.pdf Lecture 18]
+
+  [http://www.ics.uci.edu/~xhx/courses/math227c/lecture19.pdf Lecture 19]
+
+
+
+Textbook
+
+
+ Stochastic Differential Equations: An Introduction with Applications by Bernt Øksendal
+
+
+
+Homework
+
+
+  [https://eee.uci.edu/14s/35340/home/ps1.pdf Assignment #1]  Due date: 04/17 (Thur) before class.
+
+  [https://eee.uci.edu/14s/35340/home/ps2.pdf Assignment #2]  Due date: 05/01 (Thur) before class.
+
+  [http://www.ics.uci.edu/~xhx/courses/math227c/ps3.pdf Assignment #3]  Due date: 05/15 (Thur) before class.
+
+  [https://eee.uci.edu/14s/35340/home/ps4.pdf Assignment #4]  Due date: 05/29 (Thur) before class.
+
+
+
+Exam
+
+
+ [https://eee.uci.edu/14s/35340/home/final14.pdf Final Exam] Due date: 06/10 (Tues) before 5pm.
+
+
+
+
+
+
+You are here: startteachingcs285s14 
+
+
+
+

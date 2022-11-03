@@ -1,0 +1,118 @@
+http://sli.ics.uci.edu/Classes/2009W
+
+
+
+SLI | Classes / Introduction to Artificial Intelligence, CS271 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Classes /
+Introduction to Artificial Intelligence, CS271
+
+
+ CLOSED : 2009 OFFERING  
+
+Assignments and Exams:
+
+Homeworks and exams temporarily redacted.
+     
+Student Comment Page
+
+Engineering Tower (ET) 201, Tues/Thurs 2pm-3:20pm
+
+Introduction to artificial intelligence.
+CS271 is an introductory course to the elements and algorithms underlying the field of artificial intelligence (AI).
+AI includes subproblems relevant to many areas of research, including information theory, control, signal processing,
+optimization, operations research, natural language processing and computer vision.  CS271 will provide an introduction
+to the techniques of automated problem solving, including search, optimization and inference in deterministic and stochastic systems.
+
+As in previous years, the course will focus considerable time on deterministic constraints, logic, and search.  However, the inclusion and representation of uncertainty is critical in many modern aspects of AI, and will be introduced and discussed alongside deterministic versions of related problem types.
+
+Background. 
+The course is intended to be an introduction to artificial intelligence, and thus has few explicit requirements. Students are expected to be familiar with basic concepts from computer science (such as algorithmic complexity and logic); portions of the class will also include basic probability, and familiarity with programming may be helpful for some homeworks.
+
+Course format. 
+Two lectures per week. Homeworks due in class approximately every two weeks. Two exams (midterm and final). Grading: 40% homework, 25% midterm, 35% final.  Lowest homework score to be dropped.
+
+Office Hours.
+Office hours for the course are Monday 2-3pm, or by appointment.
+
+Collaboration.
+Discussion of the course concepts and methods among the students is encouraged; however, all work handed in should be completely your own.  In order to strike a balance, we'll use the "work product" rule: while discussing anything related to the homework, you should retain no work product created during the discussion.  In other words, you can meet and discuss the problems, describe the solution, etc., but then all parties must go away from the meeting with no record (written notes, code, etc.) from the meeting and do the homework problem on your own.  If you work on a whiteboard, just erase it when you're done discussing.  Don't show someone else your homework, or refer to it during the discussion, since by this policy you must then throw it away.
+
+Textbooks. 
+The required textbook for the course is Russel & Norvig, "Artificial Intelligence: A Modern Approach".  Lectures should follow the book fairly closely, with minor exceptions.  
+
+(Tentative) Schedule of Topics.
+ TopicsSlidesSuggested reading
+Week 1Class introduction; history of AI; AgentsL1R&N Ch 1-2
+ Formalities of problem solving; state spacesL2R&N Ch 3
+Week 2Basics of searchL3R&N Ch 3
+ Informed search, heuristics, A*L4R&N Ch 4
+Week 3A* search continuedL5R&N Ch 4
+ Constraint satisfaction problemsL6R&N Ch 5
+Week 4CSP continued; connections to probabilityL7R&N Ch 5
+ GamesL8R&N Ch 6
+Week 5Catch-up / review
+ MIDTERM EXAM
+Week 6Propositional logicL9R&N Ch 7
+ Prop. Logic continuedL10R&N Ch 7
+Week 7First-order LogicL11R&N Ch 8,9
+ continuedL12
+Week 8PlanningL13R&N Ch 11
+ ProbabilityL14R&N Ch 13
+Week 9Bayesian NetworksL15R&N Ch 14
+ LearningL16R&N Ch 18
+Week 10Learning ct'dL17
+ Catch-up and review
+Final Exam03/20/2009Final exam
+
+
+
+
+
+
+
+ Last modified February 13, 2017, at 02:20 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

@@ -1,0 +1,78 @@
+http://sli.ics.uci.edu/Classes-CS178-Notes/Bagging
+
+
+
+SLI | Classes-CS178-Notes / Bagging 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Classes-CS178-Notes /
+Bagging
+
+
+Ensemble methods are learning algorithms that create a collection, or "ensemble" of other learning algorithms and then combine the outputs of this collection to make an overall decision.  Bagging, or bootstrap aggregation is a very simple but powerful type of ensemble method.
+
+The basic procedure behind bagging is to create a collection of  learners, each of which was trained on only a subset of the original  training data points.  We use "bootstrap sampling", which draws a set of  data points from our data set with replacement.  Each learner draws a subset of the data and trains itself on only this subset.  To make a prediction, we evaluate each learner on the new test data point, and simply take the majority prediction.
+
+The code for bagging is extremely simple.  Let "base" be some other type of learner (often a decision tree, but it can be anything).  Then, if Ntr and Nsub represent the full training data size and the bootstrap size respectively:
+
+  bag = cell(1,Nl);                      % make empty collection of learners
+  for i=1:Nl,
+    subset = ceil(Ntr*rand(1,Nsub));     % choose a random sample with replacement
+    Xs = Xtr(subset,:); Ys=Ytr(subset);  %  
+    obj.bag{i} = train(base, Xs,Ys);        % and train learner #i with those data
+  end;
+
+In one sense, this can help with the overfitting phenomenon.  Since none of the individual learners is able to see the entire training data set, they cannot simply memorize it (although the overall learner still potentially can).  
+
+In another sense, it can help move beyond limited types of decision boundaries.  For example, if our individual learners are perceptrons, they are each limited to a linear decision boundary.  However, the average of a collection of linear decisions is not itself a linear decision.  
+
+
+
+
+
+
+
+ Last modified February 25, 2012, at 01:46 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

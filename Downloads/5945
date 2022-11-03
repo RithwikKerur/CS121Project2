@@ -1,0 +1,240 @@
+https://iasl.ics.uci.edu/people/dcallega
+
+
+
+
+
+
+Davide Callegaro - UCI IASL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to content
+
+
+
+
+
+
+
+ 
+UCI IASL
+Intelligent and Autonomous Systems Lab
+
+
+
+
+
+
+
+Search for:
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Research
+Funded Projects
+Publications
+Miscellaneous
+Contact
+ 
+
+
+
+
+
+
+
+ 
+UCI IASL
+Intelligent and Autonomous Systems Lab
+
+
+
+
+ 
+
+
+Toggle navigation
+
+
+
+
+
+Home
+People
+Research
+Funded Projects
+Publications
+Miscellaneous
+Contact
+
+
+
+
+Search for:
+
+
+
+ 
+
+
+
+
+
+
+
+Intelligent and Autonomous Systems Lab
+Computer Science Department, Donald Bren School of Information and Computer Sciences, University of California, Irvine
+
+
+
+
+
+
+
+
+
+
+
+
+Davide Callegaro 
+
+
+Ph.D. in Computer Science
+Be curious, be helpful.
+Research Interests:
+Edge computingConnected RoboticsDistributed Machine Learning Inference
+email | linkedin | github | personal
+
+Education:
+2021 – Ph.D in Computer Science, University of California, Irvine, USA2016 – Laurea Magistrale (eq. Msc) in Computer Engineering, University of Padova, Italy2014 – Laurea Triennale (eq. Bsc) in Information Engineering, University of Padova, Italy
+While pursuing my Ph.D in Computer Science at University of California Irvine, I have worked on Machine Learning in heterogeneous Computer Systems. I focused on how to make Sensor Networks more reliable and efficient through architecture design, studying and implementing real-time systems.
+Since the participation to the DARPA HackFest 2017, in joint team guided by Prof. Levorato and Prof. Bhaskar Krishnamachari, teaching at USC Viterbi School of Engineering, I have been using Unmanned Aerial Vehicles (UAV) as an application of my studies. These devices, characterized by high mobility, time constraints and limited energy availability, offer a great opportunity for researching my topics of interest.
+TA and mentorship
+I helped delivering high quality courses in UC Irvine during A.Y.s 2016-17 and 2017-18, helping as a Teaching Assistant in Intermediate Python (ICS 33), Introduction to Machine Learning (CS 173a), Computer and Commincation Networks (CS 132-232) (both undergraduate and graduate level).
+During my time as a graduate student, I mentored more than 20 undergraduate and graduate students, leading undergraduate research projects and senior projects that won 4 Undergraduate Research Awards (collectively more than $4000). I also mentored 3 graduate students: one master thesis project, two visiting and joining our research group (who joined the Ph.D program in UC Irvine).
+Media and Press
+UCI CS Magazine: Professors Marco Levorato and Stephan Mandt Receive NSF/Intel Grant for Autonomous UAVs. June 2020.UCI CS Magazine: Levorato and DeepEdge Tackle DARPA SDR Hackfest. November 2018.PC Magazine: S.C. Stuart, Inside the DARPA’s Hackfest at the NASA Research Par. December 2017.UCI CS Magazine: Professor Levorato’s DARPA Project Aims to Strengthen Autonomous Drone Systems. December 2017.Armed with Science: Yolanda R. Arrington, DARPA Puts Techies to the Test at Bay Area Hackfest. The Official US Defense Department Science Blog. November 2017.
+Service:
+– Technical program committee member:
+IEEE Global Communications Conference (GLOBECOM): 2020IEEE International Conference on Communications (ICC): 2020-2021IEEE/ACM International Symposium on Quality of Service (IWQoS) 2021
+– Reviewer:
+IEEE Open Journal of the Communications Society 2021IEEE Network Magazine 2020-2021IEEE Communications Magazine 2020-2021IEEE/ACM Transactions on Mobile Computing 2020
+Awards:
+Undergraduate Research Award (UCI) 2021 Autonomous Vehicle Collaboration Through PlatooningUndergraduate Research Award (UCI) 2020 Exploring Real-Time Dynamic Offloading and Response in Heterogeneous NetworksUndergraduate Research Award (UCI) 2019 Optimized Object and Waste Collection Through Coordinated Cloud RoboticsUndergraduate Research Award (UCI) 2018 Autonomous Object-tracking Quadcopter with Remote Processing CapabilityErasmus Award 2014
+Selected publications:
+D. Callegaro, M. Levorato and F. Restuccia, SmartDet: Context-Aware Dynamic Control of Edge Task Offloading for Mobile Object DetectIon, IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks (IEEE WoWMoM) 2022, Jun 14-17, 2022, Belfast, UK.Y. Matsubara, D. Callegaro, S. Singh, M. Levorato and F. Restuccia, “BottleFit: Learning Compressed Representations in Deep Neural Networks for Effective and Efficient Split Computing,” Proceedings of 2022 IEEE 23rd International Symposium on a World of Wireless, Mobile and Multimedia Networks (WoWMoM), 2022. [Preprint]A. Vega, A. Buyuktosunoglu, Davide Callegaro, M. Levorato, and P. Bose, Cloud-Backed Mobile Cognition Power-Efficient Deep Learning in the Autonomous Vehicle Era, Springer Computing, 2021.D. Callegaro, M. Levorato, and F. Restuccia, SeReMAS: Self-Resilient Mobile Autonomous Systems Through Predictive Edge Computing, in 2021 18th Annual IEEE International Conference on Sensing, Communication, and Networking (SECON), 2021.D. Callegaro and M. Levorato, Optimal Edge Computing for Infrastructure-Assisted UAV Systems, IEEE Transactions on Vehicular Technology, vol. 70, no. 2, pp. 1782 – 1792, 2021.D. Callegaro, Y. Matsubara, and M. Levorato, Optimal Task Allocation for Time-Varying Edge Computing Systems with Split DNNs, in 2020 IEEE Global Communications Conference: Selected Areas in Communications: Internet of Things and Smart Connected Communities (Globecom2020 SAC IoTSCC), Taipei, Taiwan, Dec. 2020.D. Callegaro, Y. Matsubara and M. Levorato, “Optimal Task Allocation for Time-Varying Edge Computing Systems with Split DNNs,” GLOBECOM 2020 – 2020 IEEE Global Communications Conference, pp. 1-6, 2020[PDF]Y. Matsubara, D. Callegaro, S. Baidya, M. Levorato and S. Singh, “Head Network Distillation: Splitting Distilled Deep Neural Networks for Resource-constrained Edge Computing Systems,” IEEE Access, Vol. 8, pp. 212177-212193, 2020[PDF] [Code]D. Callegaro, S. Baidya, and M. Levorato, Dynamic Distributed Computing for Infrastructure-Assisted Autonomous UAVs, in Proceedings of the IEEE International Conference on Communications (ICC), Dublin, Ireland, Jun. 2020, SAC Tactile Internet Track.Y. Matsubara, S. Baidya, D. Callegaro, M. Levorato and S. Singh, “Distilled Split Deep Neural Networks for Edge-Assisted Real-Time Systems,” Proceedings of the 2019 Workshop on Hot Topics in Video Analytics and Intelligent Edges (HotEdgeVideo ’19), pp. 21-26, 2019[PDF] [Code]D. Callegaro, S. Baidya, G. Ramachandran, B. Krishnamachari, and M. Levorato, Information Autonomy: Self-Adaptive Information Management for Edge-Assisted Autonomous UAV Systems, in Proceedings of the IEEE Military Communication Conference (MILCOM), Norfolk, VA, Nov. 2019.D. Callegaro, S. Baidya, and M. Levorato, A Measurement Study on Edge Computing for Autonomous UAVs, in Proceedings of the Workshop on Mobile Air-Ground Edge Computing, Systems, Networks, and Applications (MAGESys), Beijing, China, Aug. 2019, in conjunction with the ACM Special Interest Group on Data Communication (SIGCOMM) Conference.D. Callegaro and M. Levorato, Optimal Computation Offloading in Edge-Assisted UAV Systems, in Proceedings of the IEEE Global Communications Conference (GLOBECOM), Abu Dhabi, United Arab Emirates, Dec. 2018.I. Burago, D. Callegaro, M. Levorato, and S. Singh, Intelligent Data Filtering in Constrained IoT Systems, in Proceedings of the Asilomar Conference on Signals, Systems, and Computers (ACSSC), Pacific Groove, California, Oct. – Nov. 2017.
+
+Last updated: May 3rd, 2022
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+Powered By WordPress |                     LMS Academic
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,462 @@
+https://isg.ics.uci.edu/event/yugabytedb-bringing-together-the-best-of-amazon-aurora-and-google-spanner
+
+
+
+
+
+
+Karthik Ranganathan: YugabyteDB – Bringing Together the Best of Amazon Aurora and Google Spanner – Information Systems Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+
+Faculty
+Students
+Recent Alumni
+Research Staff
+Visitors
+
+
+Research
+
+Projects
+Publications
+
+
+Teaching
+
+Courses
+DB Qual
+
+
+Events
+
+Talks
+News
+
+
+About
+
+Sponsors & Partners
+Visitor Info
+Contact us
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ISG Talks are sponsored by Couchbase.
+<< All Talks
+
+
+
+ « All Events
+
+
+This event has passed.
+Karthik Ranganathan: YugabyteDB – Bringing Together the Best of Amazon Aurora and Google Spanner
+
+October 23, 2020 @ 3:00 pm - 4:00 pm 
+
+
+
+
+
+« Aaron J. Elmore: CrocodileDB – Resource Efficient Database Execution
+Yiming Lin (UCI): LOCATER – Cleaning WiFi Connectivity Datasets for Semantic Localization »
+
+
+
+
+
+
+
+
+
+Speaker: 
+
+Karthik Ranganathan
+
+Abstract:
+PostgreSQL, a single-node open-source RDBMS, is widely adopted for its powerful set of features. However, PostgreSQL is not built to be used as a cloud-native database, and therefore cannot inherently survive failures, scale horizontally or support geo-distributed deployments. While Amazon Aurora has modified the subsystem of PostgreSQL that writes to disk along with simplifying async replication to make the database resilient to failures, it does not address horizontal scalability or geo-distribution. Google Spanner is a distributed SQL database that addresses these features as well, however it does not offer many of the powerful features of PostgreSQL. YugabyteDB, a fully open-source distributed SQL database, aims to combine the best of these in an attempt to build a very compelling, cloud-native database.
+ 
+In this talk, we will look at the architecture of YugabyteDB that enables it to support all PostgreSQL features along with distributed transactions, resilience, scalability, and geo-distribution of data.
+
+
+
+
+
+
+
+
+
+
+Bio:
+
+Karthik was one of the original database engineers at Facebook responsible for building distributed databases including Cassandra and HBase. He is an Apache HBase committer, and also an early contributor to Cassandra, before it was open-sourced by Facebook. He is currently the co-founder and CTO of the company behind YugabyteDB, a fully open-source distributed SQL database for building cloud-native and geo-distributed applications.
+Zoom link
+
+
+
+
+
+
+
+
+
+
+
+https://uci.zoom.us/j/97063664357
+ 
+
++ Google Calendar+ iCal Export
+
+
+
+ Details 
+
+ Date: 
+
+ October 23, 2020 
+
+ Time: 
+
+
+					3:00 pm - 4:00 pm				
+
+
+
+
+ 
+
+
+
+
+
+« Aaron J. Elmore: CrocodileDB – Resource Efficient Database Execution
+Yiming Lin (UCI): LOCATER – Cleaning WiFi Connectivity Datasets for Semantic Localization »
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+Search for :
+
+
+Latest News 
+
+
+
+Upcoming Talk: How to build your own Business
+
+											July 25, 2022																																
+
+
+Upcoming Talk: Couchbase and Distributed Computing Backends for big data processing
+
+											May 31, 2022																																
+
+
+Upcoming Talk: Shedding Light on Opaque Database Queries
+
+											May 31, 2022																																
+
+
+ISG researchers won the  Mark Weiser Best Paper Award at IEEE PERCOM 2022
+
+											March 24, 2022																																
+
+
+
+
+Upcoming Events
+
+
+
+
+Qiushi Bai: QueryBooster-Improving SQL Performance Using Middleware Services for Human-Centered Query Rewriting + Demo
+
+
+
+October 14 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Xiaozhen Liu: Demonstration of Collaborative and Interactive Workflow-based Data Analytics in Texera
+
+
+
+October 21 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Abhishek Singh: WedgeBlock – An Off-Chain Secure Logging Platform for Blockchain Applications
+
+
+
+October 28 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Juncheng Fang: PeloPartition- Improving Blockchain Resilience to Partitioning by Sharding
+
+
+
+November 4 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Peeyush Gupta: A Demonstration of TippersDB
+
+
+
+November 18 @ 12:30 pm - 2:00 pm 
+
+
+
+View All Events
+
+Please follow & like us :) 
+
+Follow  
+
+ 
+
+
+
+
+
+
+
+			Copyright 2018 | ISG-UCI		
+
+
+
+
+
+
+cross
+
+
+
+
+
+
+
+
+
+
+Hit ENTER to search or ESC to close
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

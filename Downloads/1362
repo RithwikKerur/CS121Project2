@@ -1,0 +1,11 @@
+http://plrg.ics.uci.edu/publications/360.bib
+@article{key,
+ author = {Brian Demsky},
+ title = {Using Discrete Event Simulation to Analyze Contention Managers},
+ journal = {International Journal of Parallel Programming},
+ volume = {39},
+ number = {6},
+ pages = {783--808},
+ month = {December},
+ year = {2011}
+}

@@ -1,0 +1,386 @@
+http://www.ics.uci.edu/~qlou
+
+
+
+
+
+
+
+
+
+Qi Lou
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+Research
+Publications
+Internship
+Teaching
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Qi Lou 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                About me
+              
+
+
+              I'm currently an applied scientist at Amazon A9.
+              I recently graduated from University of California, Irvine with a PhD in computer science, focusing on the area of artificial intelligence and machine learning.
+              My PhD advisor was Prof. Alexander Ihler.
+              I also worked closely with Prof. Rina Dechter. The best way to reach me is via email.
+            
+
+
+
+LinkedIn
+
+
+
+
+
+
+
+
+
+
+                Research
+              
+
+
+              I'm generally interested in artificial intelligence, machine learning, and computer vision.
+              My thesis work focuses on developing approximate inference algorithms for probabilistic graphical models
+              with strong anytime guarantees, which takes advantage of ideas and techniques from variational methods, heuristic search, and Monte Carlo sampling. I've also worked on (deep) multi-instance learning, video ads analysis, semantic segmentation, etc.
+            
+
+
+Google Scholar
+
+
+
+
+
+
+
+
+
+
+
+                  Publications
+                
+
+
+
+                  Interleave variational optimization with Monte Carlo sampling: a tale of two approximate inference paradigms
+                
+
+
+Qi Lou, Rina Dechter, Alexander Ihler
+              
+
+The 33rd AAAI Conference on Artificial Intelligence (AAAI-19).
+
+
+
+
+
+
+
+
+
+                    Sequential embedding induced text clustering, a non-parametric Bayesian approach
+                
+
+
+                Tiehang Duan, Qi Lou, Sargur Srihari, Xiaohui Xie
+              
+
+The 23rd Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD-19).
+
+
+
+
+
+
+
+                  Content-based effectiveness prediction of video advertisements
+                
+
+
+Qi Lou, Somdeb Sarkhel, Saayan Mitra, Viswanathan Swaminathan
+              
+
+The 20th IEEE International Symposium on Multimedia (ISM-18). [short paper].
+              
+
+
+
+
+
+
+
+              Finite-sample bounds for marginal MAP
+            
+
+
+Qi Lou, Rina Dechter, Alexander Ihler
+          
+
+The 34th Conference on Uncertainty in Artificial Intelligence (UAI-18).
+
+
+
+
+
+
+
+
+              Anytime anyspace AND/OR best-first search for bounding marginal MAP
+            
+
+
+Qi Lou, Rina Dechter, Alexander Ihler
+          
+
+The 32nd AAAI Conference on Artificial Intelligence (AAAI-18). 
+
+
+
+
+
+
+
+
+
+                Dynamic importance sampling for anytime bounds of the partition function
+              
+
+
+
+Qi Lou, Rina Dechter, Alexander Ihler
+          
+
+The 31st Annual Conference on Neural Information Processing Systems (NIPS-17).
+
+
+
+
+
+
+
+
+
+
+
+                Anytime anyspace AND/OR search for bounding the partition function
+              
+
+
+
+Qi Lou, Rina Dechter, Alexander Ihler
+          
+
+The 31st AAAI Conference on Artificial Intelligence (AAAI-17).
+
+
+
+
+
+
+
+
+
+
+              Deep multi-instance networks with sparse label assignment for whole mammogram classification
+
+
+              Wentao Zhu, Qi Lou, Yeeleng Scott Vang, Xiaohui Xie
+            
+
+The 20th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI-17).
+
+
+
+
+
+
+
+
+
+
+
+Novelty detection under multi-instance multi-label framework
+
+
+Qi Lou, Raviv Raich, Forrest Briggs, Xiaoli Fern
+            
+
+IEEE International Workshop on Machine Learning for Signal Processing, 2013. 
+
+
+
+
+
+
+
+
+
+
+
+                Instance annotation for multi-instance multi-label learning
+              
+
+
+              Forrest Briggs, Xiaoli Fern, Raviv Raich, Qi Lou
+
+ACM Transactions on Knowledge Discovery from Data, Vol. 7 Iss. 3, 2013.
+
+
+
+
+
+
+
+
+
+
+
+                A framework for analyzing bioacoustics audio recordings as multiple instance multiple label data
+              
+
+
+              Raviv Raich, Forrest Briggs, Qi Lou, Xiaoli Fern, David Mellinger
+            
+
+Proceedings of Meetings on Acoustics Vol. 19 Iss. 1, 2013.
+
+
+
+
+
+
+
+
+
+
+
+
+                Curve intersection using hybrid clipping
+              
+
+
+Qi Lou, Ligang Liu
+            
+
+Computers & Graphics 36(5): 309-320 (2012).
+Oral presentation at Shape Modeling International 2012.
+
+
+
+
+
+
+
+
+
+
+
+
+                  Internship
+                
+
+
+                Research Intern at Adobe Research
+                
+
+
+                    Big Data Experience Lab, hosted by Dr. Somdeb Sarkhel, Dr. Saayan Mitra,
+                and Dr. Vishy Swaminathan. 06/2017 ~ 09/2017.
+              
+
+                Research Intern at Virginia Tech
+              
+
+                    Machine Learning & Perception Group, hosted by Prof. Dhruv Batra. 08/2013 ~ 11/2013,
+                04/2014 ~ 08/2014.
+              
+
+
+
+
+
+
+
+
+
+
+
+                        Teaching
+                      
+
+
+                      Teaching assistant for
+                    
+
+                           CS 171 Intro to Artificial Intelligence 
+                           CS 178 Machine Learning and Data Mining 
+                           CS 179 Intro to Graphical Models
+                    
+
+
+
+
+
+
+
+
+ © 2015 Qi Lou · Last Updated on: 06/20/2018 
+
+
+
+
+
+
+
+
+
+

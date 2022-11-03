@@ -1,0 +1,42 @@
+http://computableplant.ics.uci.edu/sw/dd
+
+
+
+
+Dependency Diagrams
+
+
+
+
+
+
+
+	Dependency Diagrams 
+      
+
+
+	Dependency diagrams are an extension of standard graphical
+	model notation.
+	Dependency diagrams add to factor graphs 
+	the power to represent indexing, gating, and hard constraints. 
+	This new formalism makes the modeling of 
+	systems with  unknown or variable structures explicit and
+	straightforward. 
+	The dependency diagram framework also 
+	enables the automatic translation of diagrams that represent models 
+	into diagrams that represent Markov chain Monte Carlo sampling
+	and inference  
+	algorithms, and the subsequent autogeneration of runnable
+	code.
+	
+
+
+	Source code implementing the dependency diagram framework
+	within Mathematica,
+	along
+	with files specifying a number of simple models, is available
+	here. 
+      
+
+
+

@@ -1,0 +1,11 @@
+http://plrg.ics.uci.edu/publications/330.bib
+@article{key,
+ author = {Alokika Dash and Brian Demsky},
+ title = {Integrating Caching and Prefetching Mechanisms in a Distributed Transactional Memory},
+ journal = {IEEE Transactions on Parallel and Distributed Systems},
+ volume = {22},
+ number = {8},
+ pages = {1284--1298},
+ month = {August},
+ year = {2011}
+}

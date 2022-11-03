@@ -1,0 +1,94 @@
+https://sli.ics.uci.edu/PmWiki/WikiStructure
+
+
+
+SLI | PmWiki / WikiStructure 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+WikiStructure
+
+
+
+
+
+< Simultaneous edits | Documentation Index | Wiki groups >
+
+
+
+Authors have a range of options to choose from when organizing a collection of wiki pages. 
+Used in combination, these give a lot of flexibility.
+An effective wiki will use all of these to optimize
+content
+navigation
+These are the two most important aspects of a website.
+
+Wiki Word The most powerful organizing principle is the author's choice of page names. When a search returns a list of pages, their names need to be clear enough to guide a visitor to the right place.
+  Providing a network of links to other points in the wiki, with or without wiki words, is the primary means of navigating a wiki.
+Wiki Page A page with text (and images), where the text can contain for instance WikiWords that automatically becomes a link to another WikiPage.
+Wiki Group PmWiki requires every page to be a member of a group. A group is like a wiki within a wiki; it can have its own presentation look, security controls and navigation aids. With default configuration, WikiWords are only searched inside the current group, and you use either OtherGroup/MyWikiWord or OtherGroup.MyWikiWord to refer to pages in other groups (see Links).
+Wiki Trails A collection of pages, either in the same group or across multiple groups, can be designated as a trail. A visitor can move from stop to stop by clicking on next and previous links.
+Categories Individual wiki pages can also be grouped by having tags and links to a common "category" page; we say that any pages that link to a common page are in a "category" defined by that page.  PmWiki uses the [[!category]] markup as a shorthand to place a page into a category with other pages containing the same markup.
+  The shortcoming of categories is that categories do not distinguish between the declaration of a category ([[!structure]]) and the link to a category ([[Category/Structure]]).
+Page text variables A newer and more powerful concept than Categories, pages can use one of more page text variables to store page attributes. These can the be used in page lists.
+Page lists Page lists provide a powerful means of presenting lists of relevant pages, or selection of data from within a page. Lists are template based and are highly customizable.
+Include other pages The capability to include parts of other pages also provides a flexible means of sharing content between pages.
+Search Being able to search is a fundamental requirement of a website. In PmWiki search, like pagelists is both powerful and  highly customizable.
+
+
+< Simultaneous edits | Documentation Index | Wiki groups >
+
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:WikiStructure, and  a talk page: PmWiki:WikiStructure-Talk.
+
+
+
+
+
+
+ Last modified September 10, 2011, at 09:08 AM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

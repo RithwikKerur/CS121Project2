@@ -1,0 +1,176 @@
+https://sli.ics.uci.edu/PmWiki/CustomInterMap
+
+
+
+SLI | PmWiki / InterMap 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+InterMap
+
+
+(redirected from PmWiki.CustomInterMap)
+
+
+
+< Include other pages | Documentation Index | Conditional markup >
+
+author (intermediate) 
+
+The InterMap (also called InterWiki in some other wikis) is a system for defining links between WikiWikiWeb sites that was first developed by UseMod and Meatball (see UseMod:InterWiki and Meatball:InterWiki).  The method is to use a word shortcut that stands for a defined path. InterMap links have the form MapPrefix:PagePath, where the host prefix is converted to a partial URL based on entries in the site's intermap.txt and localmap.txt files.
+
+
+The default intermap.txt
+The default intermap.txt distributed with PmWiki (in the scripts/ directory) includes the following InterMap entries:
+
+ PmWiki:     http://www.pmwiki.org/wiki/PmWiki/ 
+ Cookbook:   http://www.pmwiki.org/wiki/Cookbook/ 
+ Wiki:       http://www.c2.com/cgi/wiki? 
+ UseMod:     http://www.usemod.com/cgi-bin/wiki.pl? 
+ Meatball:   http://www.usemod.com/cgi-bin/mb.pl? 
+ Wikipedia:  http://en.wikipedia.org/wiki/ 
+ PITS:       http://www.pmwiki.org/wiki/PITS/ 
+ PmL10n:     http://www.pmwiki.org/wiki/Localization/
+ Path:
+
+The page Site.InterMap?
+You can map your own prefixes in your local page Site.InterMap?.
+
+
+Thus, "PmWiki:Variables" becomes "http://www.pmwiki.org/wiki/PmWiki/" + "Variables", a link to the PmWiki.Variables page on the official PmWiki web site, Wiki:FrontPage is a link to the front page of the first WikiWikiWeb, and Wikipedia:Stonehenge takes you to the Wikipedia article about the famous megaliths in England.  
+
+Usage in a wiki page
+Like other links, you can use the double-bracket syntax to get different link text:
+
+* [[Meatball:StartingPoints | starting points]] over at Meatball
+* [[starting points -> Meatball:StartingPoints]] over at Meatball
+starting points over at Meatball
+starting points over at Meatball
+
+
+If you want to link just to what the intermap says (e.g. http://www.wikipedia.com/wiki/ for Wikipedia), then do [[Wikipedia:. | Wikipedia's main page]], which produces Wikipedia's main page.  Note the . (period) after the Map: reference.
+
+
+The special Path: InterMap entry can be used to create "relative urls" in links.
+
+Custom InterMap prefixes
+The actual set of InterMap links at any site is defined by the site administrator via the Site.InterMap? page and the local/localmap.txt file.
+
+An intermap entry takes the following format:
+
+
+MapPrefix:      http://example.com/partial/url/
+
+The InterMap entry can be for any of the link schemes supported by PmWiki.
+
+You can create your own InterMap links by doing one or more of the following:
+
+Modify the page called Site.InterMap? and place entries like the ones above in it.
+Create a file called local/localmap.txt and place entries like the ones above in it.
+In a WikiFarm installation you can create a file called
+local/farmmap.txt and there place entries like the ones above in it.
+These prefixes will be common to all the wikis in the farm.
+Ensure that there is a space after the colon.
+Do not edit the file scripts/intermap.txt directly!  If you do, you'll
+lose your changes when you upgrade PmWiki.
+
+Variables and InterMap links
+It's possible to use variables within your InterMap entries.  The following
+entries create ThisWiki: and ThisPage: shortcuts:
+
+
+ThisWiki:        $ScriptUrl
+ThisPage:        {$PageUrl}
+
+You can also define InterMap entries where the text of the entry is
+substituted into the middle of the URL.  Just include '$1' in the URL where
+you want the substitution to take place.  For example:
+
+Jargon:          http://catb.org/~esr/jargon/html/$1.html
+would cause Jargon:F/feature-creep to be converted to http://catb.org/~esr/jargon/html/F/feature-creep.html.
+
+Tips and tricks
+It is possible to document your intermap prefixes directly in the page
+Site.InterMap?. The extra text will not cause a performance penalty, nor
+will it break the definition of prefixes. However, be aware that anything
+matching a line starting with a word and a colon (:) will be
+considered to define a prefix.
+
+The order in which various sources are checked for definitions of prefixes
+is controlled by the variable $InterMapFiles. Currently the precedence
+(highest to lowest is as follows):
+local/localmap.txt
+$SiteGroup.InterMap
+$FarmD/local/farmmap.txt
+$FarmD/scripts/intermap.txt
+ 
+ Are InterMap names case sensitive?
+ Yes, thus eAdmin: is a different InterMap link than EAdmin:.
+
+ How can I achieve a localmap.txt mapping with the effect of Pics: Path:/somepathto/pics/?
+ Use the following:
+Pics:     /somepathto/pics/
+ How can I define an InterMap in PHP?
+ Use the following:
+
+      $LinkFunctions['PmWikiHome:'] = 'LinkIMap';
+      $IMap['PmWikiHome:'] = 'http://pmwiki.org/wiki/$1';
+
+
+
+< Include other pages | Documentation Index | Conditional markup >
+
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:InterMap, and  a talk page: PmWiki:InterMap-Talk.
+
+
+
+
+
+
+ Last modified May 06, 2016, at 01:18 AM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

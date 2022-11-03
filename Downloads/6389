@@ -1,0 +1,186 @@
+http://www.ics.uci.edu/~kay/scheme/imagevectors.scm
+;; Examples of two-dimensional arrays (vectors of vectors)
+;; Informatics 41 -- UC Irvine -- David G. Kay
+;; Narrative at http://www.ics.uci.edu/~kay/courses/i41/vectors.html
+;; Compatible with Advanced Student Scheme and the image.ss teachpack.
+
+
+;; create-line: number color -> vector-of-color
+;; Return a vector with the specified number of elements; each element is a color
+(define create-line
+  (lambda (width color)
+    (build-vector width (lambda(i) color))))
+
+;; create-image: number number color -> vector-of-lines
+;; Return a vector; the first argument is its size.  The remaining arguments
+;; are used to create each element of the vector (i.e., a line from create-line)
+(define create-image
+  (lambda (height width color)
+    (build-vector height (lambda (i) (create-line width color)))))
+
+;; draw-vertical: image number color -> side effect, changing image
+;; Draw a vertical line in the image, along the specified column, 
+;; using the specified color.
+(define draw-vertical
+  (lambda (image column color)
+    (local ((define draw-vertical-aux 
+              (lambda (image row column color)
+                (cond
+                  ((< row 0) image)
+                  (else (begin
+                          (image-set! image row column color)
+                          (draw-vertical-aux image (sub1 row) column color)))))))
+      (draw-vertical-aux image (sub1 (vector-length image)) column color))))
+
+;; draw-horizontal: image number color -> side effect, changing image
+;; Draw a horizontal line in the image, along the specified row,
+;; using the specified color.
+(define draw-horizontal
+  (lambda (image row color)
+    (local ((define draw-horizontal-aux
+              (lambda (image row column color)
+                (cond
+                  ((< column 0) image)
+                  (else (begin
+                          (image-set! image row column color)
+                          (draw-horizontal-aux 
+                           image row (sub1 column) color)))))))
+      (draw-horizontal-aux 
+       image 
+       row 
+       (sub1 (vector-length (vector-ref image 0))) ; length of first row
+       color))))
+
+;; draw-diagonal: image color -> side effect, changing image
+;; Draw a diagonal line starting in the upper left corner of the image,
+;; using the specified color.
+(define draw-diagonal
+  (lambda (image color)
+    (local ((define limit 
+              (sub1 (min (vector-length image)                   ; number of rows
+                         (vector-length (vector-ref image 0))))) ; num. of columns
+            (define draw-diagonal-aux
+              (lambda (image color current-row-col)
+                (cond                           ; The drawing actually ENDS at
+                  ((< current-row-col 0) image) ; the upper left corner.
+                  (else (begin
+                          (image-set! image current-row-col current-row-col color)
+                          (draw-diagonal-aux 
+                           image color (sub1 current-row-col))))))))
+      (draw-diagonal-aux image color limit))))
+
+;; reset-first-n-pixels: vector number color -> side effect, changing vector
+;; Set the first n pixels in the vector to the specified color
+(define reset-first-n-pixels
+  (lambda (line n color)
+    (cond
+      ((<= n 0) 'return-whatever--we-are-done)
+      (else (begin
+              (vector-set! line (sub1 n) color) 
+              ; The sub1 allows for zero-based indexing
+              (reset-first-n-pixels line (sub1 n) color))))))
+
+;; image-ref: vector number number -> color
+;; Return a pixel from an image (a vetctor of vectors); the input
+;; numbers specify the row and the column, respectively.
+(define image-ref
+  (lambda (v row col)
+    (vector-ref (vector-ref v row) col)))
+
+;; image-set!: vector number number color -> side effect, changing vector
+;; Set the specified pixel in an image (a vetctor of vectors) to a new color.
+;; The input numbers specify the row and the column, respectively.
+(define image-set!
+  (lambda (v row col color)
+    (vector-set! (vector-ref v row) col color)))
+
+;; color-list->image-vector: (listof color) number number -> vector-of-lines
+;; Return a vector of vectors with the numbers of rows and columns specified,
+;; containing the colors in the input list.
+(define color-list->image-vector
+  (lambda (L rows cols)
+    (local ((define image    ; First, set up the structure of the vector
+              (build-vector 
+               rows 
+               (lambda (r) (build-vector cols (lambda (c) 'anything-for-now)))))
+            (define cl->iv-aux
+              (lambda (L last-row last-col curr-row curr-col)
+                (cond        ; Use the list to guide the process
+                  ((empty? L) image)
+                  (else (begin
+                          (image-set! image curr-row curr-col (first L))
+                          (if (= curr-col last-col)
+                              (cl->iv-aux (rest L) last-row last-col
+                                          (add1 curr-row) 0)
+                              (cl->iv-aux (rest L) last-row last-col
+                                          curr-row (add1 curr-col)))))))))
+      (cl->iv-aux L (sub1 rows) (sub1 cols) 0 0))))
+
+;; image-vector->color-list: vector-of-lines -> (listof color)
+;; Return a list containing all the elements in the image vector
+;; (in row-major order, i.e., everything in the first row, then
+;; everything in the second, and so on).  The approach we take here
+;; is to work backwards, from the lower right corner, so we can just
+;; cons each successive item onto the list we have so far.
+(define image-vector->color-list
+  (lambda (image)
+    (local ((define last-row (sub1 (vector-length image)))
+            (define last-col (sub1 (vector-length (vector-ref image 0))))
+            (define iv->cl-aux
+              (lambda (image curr-row curr-col list-so-far)
+                (local ((define list-with-next-pixel 
+                          (cons (image-ref image curr-row curr-col)
+                                list-so-far)))
+                  (cond
+                    ((and (= curr-row 0) (= curr-col 0))        ; Weve added last pixel
+                     list-with-next-pixel)                      ; so return final list.
+                    ((= curr-col 0)                             ; We reached the start of
+                     (iv->cl-aux image (sub1 curr-row) last-col ; a row, so go up one row
+                                 list-with-next-pixel))         ; the next time around.
+                    (else                                       ; We stay on this row,
+                     (iv->cl-aux image curr-row (sub1 curr-col) ; moving one pixel left
+                                 list-with-next-pixel)))))))    ; next time around.
+      (iv->cl-aux image last-row last-col empty))))
+
+;; show: image-vector -> side effect (display)
+;; Display the image in the vector using tools from image.ss teachpack.
+;; color-list->image takes its arguments in (columns, rows) order (i.e., x, then y).
+(define show
+  (lambda (image)
+    (color-list->image (image-vector->color-list image)
+                       (vector-length (vector-ref image 0))
+                       (vector-length image)
+                       0 0)))
+
+;; Tests
+
+(define rec (rectangle 30 20 'solid 'red))
+(define imrec (color-list->image-vector (image->color-list rec) 30 20))
+(define r (rectangle 4 10 'solid 'blue)) ; rectangle goes (columns, rows)
+(define imr (color-list->image-vector (image->color-list r) 4 10))
+
+(reset-first-n-pixels (create-line 20 'red) 5 'blue)
+
+(define my-line (create-line 50 (make-color 0 0 0)))
+"a line of 50 black pixels"
+my-line
+""
+"the 17th color in my-line"
+(vector-ref my-line 16)
+""
+
+(define my-image (create-image 30 50 (make-color 0 0 0)))
+"an image that's 30 pixels tall and 50 pixels wide, all black"
+; my-image
+(show my-image)
+""
+
+"The pixel in the upper left corner of the image is"
+(vector-ref (vector-ref my-image 0) 0)
+
+(show (draw-vertical my-image 20 (make-color 255 0 0)))
+(show (draw-horizontal my-image 10 (make-color 0 255 255)))
+(show (draw-diagonal my-image (make-color 255 255 255)))
+
+"The pixel in the upper left corner of the image is"
+(vector-ref (vector-ref my-image 0) 0)

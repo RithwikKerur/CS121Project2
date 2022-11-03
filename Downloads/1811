@@ -1,0 +1,274 @@
+https://sli.ics.uci.edu/PmWiki/WikiStyleExamples
+
+
+
+SLI | PmWiki / WikiStyleExamples 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+WikiStyleExamples
+
+
+
+
+
+< Wiki styles | Documentation Index | Access keys >
+
+
+
+See also Wiki Styles Plus and Wiki style colors.
+
+PmWiki uses WikiStyles for styling text with color and other attributes.  PmWiki 2.0 introduced the ability to control the styling further and to even place styles on blocks.
+
+A  style is specified within a pair of %-signs and styles the text that follows, as in:
+
+
+This text is %color=red% red, %color=blue% blue, %% and normal (black).
+This text is  red,  blue,  and normal (black).
+
+
+There are a wide number of available style properties, borrowed primarily from HTML and CSS.  In addition, an author can define a style "shortcut" by using the define= property.  For example, to define a style of %red%, one can use:
+
+
+%define=mystyle color=red%
+Here is some %mystyle% red text created using a style shortcut.
+Here is some  red text created using a style shortcut.
+
+
+Shortcuts can be combined with other styles, including other shortcuts:
+
+
+%define=lovelyred color=red%
+%define=likegrapefruit bgcolor=yellow%
+
+%red% This text is red, %red bgcolor=#ccc% red on a grey background, and %lovelyred likegrapefruit% red on a yellow background.  
+ This text is red,  red on a grey background, and  red on a yellow background.  
+
+
+So far, this is all basically the same as what was available in PmWiki 1.0.  PmWiki 2.0 includes the capability to style blocks, by using the apply= style property.  Specifying apply=block in a WikiStyle will cause that style to be applied to the entire block, instead of just the text that follows:
+
+
+This entire block %apply=block bgcolor=yellow% has a yellow background, even though the `WikiStyle appears in the middle of the line.  %bgcolor=pink% Other inline (non-block) WikiStyles can appear in the middle of the line,%% as before.
+This entire block  has a yellow background, even though the WikiStyle appears in the middle of the line.   Other inline (non-block) WikiStyles can appear in the middle of the line, as before.
+
+
+This means it's now possible to do right-aligned and centered text:
+
+
+%block text-align=right% The text of this paragraph is right-aligned. 
+
+%block text-align=center% The text of this paragraph is centered.  
+ The text of this paragraph is right-aligned. 
+
+ The text of this paragraph is centered.  
+
+
+In fact, PmWiki predefines %right% and %center% style shortcuts so that you can do this more simply:
+
+
+%right% This is right-aligned.
+
+%center% This is centered.
+ This is right-aligned.
+
+ This is centered.
+
+
+Authors can define their own custom styles:
+
+
+%define=Pm block bgcolor=#fdf%
+%define=goofy center bgcolor=#dfd border='3px dotted green'%
+%define=rediguana right bgcolor=#ffffcc border='1px dotted red' padding=5px%
+%define=strike text-decoration=line-through%
+
+%Pm% Any text that is on a light purple background is a comment from "Pm".
+
+%goofy% Here's some text from Goofy.
+
+%rediguana% bla bla by rediguana!
+
+%goofy%Hello, I am %strike%upset%% %strike%disheartened%% happy to meet you.
+ Any text that is on a light purple background is a comment from "Pm".
+
+ Here's some text from Goofy.
+
+ bla bla by rediguana!
+
+Hello, I am upset disheartened happy to meet you.
+
+
+Styles can be applied to almost any kind of block:
+
+
+* %block bgcolor=yellow% Here is a list item
+* Here's another list item
+
+* Here's more of a list
+
+# A new list
+ Here is a list item
+Here's another list item
+Here's more of a list
+A new list
+
+
+In particular, this means that outlines are now possible using the predefined %ROMAN%, %roman%, %ALPHA%, and %alpha% list-block styles.  The style has to be specified on the first item in the list (and we may develop an alternate syntax for this sort of ordered list):
+
+
+# %ROMAN% Top level
+## %ALPHA% second-level
+## second-level
+## second-level
+### third-level
+### third-level
+## second-level
+### third-level
+#### %alpha% fourth-level
+##### %roman% fifth-level
+##### fifth-level
+#### fourth-level
+# top-level
+# top-level
+ Top level
+ second-level
+second-level
+second-level
+third-level
+third-level
+second-level
+third-level
+ fourth-level
+ fifth-level
+fifth-level
+fourth-level
+top-level
+top-level
+
+
+Wiki styles can be combined with CSS stylesheets to do this automatically -- see Cookbook:OutlineLists.
+
+Q & A
+How do I get a block of preformatted text?
+Use something similar to this (assuming you want markup within the block to be interpreted as wiki markup and URIs to be recognized).
+
+
+>>white-space=pre<<
+This block of text is ''preformatted'', see all   the   white-space
+and   linebreaks
+are preserved. Links such as [[wiki styles]] etc still work.
+>><<
+
+This block of text is preformatted, see all   the   white-space
+and   linebreaks
+are preserved. Links such as wiki styles etc still work.
+
+
+How do I get a block of preformatted text with a colored background and a border?
+Use something similar to this (note that wiki markup etc is not recognized within the block):
+
+
+%block bgcolor=#f0f9ff border='1px solid gray' padding=5px%[@
+ip access-list extended example-acl
+remark ** This is an example acl **
+deny ip any host 10.0.0.1
+permit ip any any
+@]
+
+ip access-list extended example-acl
+remark ** This is an example acl **
+deny ip any host 10.0.0.1
+permit ip any any
+
+
+How do I get a block of text (including wiki markup) with a colored background and a border?
+
+>>teal background-color:silver border:'medium dotted green'<<
+Hello world
+* bullet
+# number
+>><<
+
+Hello world
+bullet
+number
+
+
+How do I get a block of text (including wiki markup) with a border that is indented on the left and does NOT extend all the way to right?  I'm not interested in having later text to the right as would occur with lfloat...
+You can use the indent width=50pct wikistyle.
+
+
+Before indention...
+>>frame indent width=50pct<<
+Hello world
+* bullet
+# number
+>><<
+... after indention!
+Before indention...
+
+Hello world
+bullet
+number
+
+... after indention!
+
+
+
+
+< Wiki styles | Documentation Index | Access keys >
+
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:WikiStyleExamples, and  a talk page: PmWiki:WikiStyleExamples-Talk.
+
+
+
+
+
+
+ Last modified November 19, 2011, at 08:58 AM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

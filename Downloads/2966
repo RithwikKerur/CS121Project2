@@ -1,0 +1,214 @@
+https://ngs.ics.uci.edu/eventweb-16-web-20-does-not-necessarily-create-a-web
+
+
+
+
+
+
+
+
+EventWeb 16: Web 2.0 does not necessarily create a Web – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				EventWeb 16: Web 2.0 does not necessarily create a Web    			
+
+
+There are many good efforts related to events on the web.Â  Companies like Eventful, Upcoming (part of Yahoo), and Zvents are using Web 2.0 technology for building environment for events.Â  They are developing tools for users to contribute events, import and export to calendars, request specific events, find out who may be attending an event and so on.Â  These are all interesting things to do.Â  It is nice to see progress in these tools because these are very important tools to build a powerful calendar of events at local and global level.
+There is an interesting irony, however.Â  Though most people are using Web 2.0 tools to create events, these tools are not creating a Web of events.Â  In current systems, each event is a node â€“ it is not connected to any other event.Â  Unconnected events are useful like having files on computer systems was useful before WWW was developed due to vision of Tim Berners-Lee.Â  As we have seen, connected files resulted in applications that were unimaginable before the Web.
+Events have much stronger reasons to be connected to each other than documents. Â Â There are natural relationships among events at structural, causal, and similarity level.Â  Events need to be connected to each other.Â  But just because we use Web 2.0 tools is not going to result in creating a Web of events.Â  And by now we know the power of networks â€“ the power of connections.Â  It will be nice to endow these events with the basic connections to other events.
+
+
+
+
+By Ramesh |
+    				December 10, 2006 |
+    				             		Experiential Computing |
+             	 
+    				             		3 Comments |
+             	 		          				
+    			
+
+
+← Mashups with maps
+Joint response  to YouTube →
+
+
+
+			3 thoughts on “EventWeb 16: Web 2.0 does not necessarily create a Web”		
+
+
+
+
+Vasu December 10, 2006 at 10:14 pm 
+
+Prof. Jain, I attended your talk ‘event’ at NUS today on the EventWeb.
+Could not ask these queries owing to lack of time. I’m wondering if the Event Web is relying on an Event Ontology. If that is so, is it not making v. strong assumptions & therefore a hindrance to its ‘organic’ growth. If you compare it to the development & growth of the current web ?
+thank you.
+
+
+
+
+
+
+
+
+Ramesh  Post authorDecember 14, 2006 at 4:48 pm 
+
+EventWeb will not use event ontology in organizing and indexing of event information.  It will use in mining, search, and building of composite events.  SO it will not affect organic growth.
+In the current reincrnation of EventWeb at Seraja, it does not use any Event Ontlogies — there is very little in this area.
+Hope this helps.
+
+
+
+
+
+
+
+
+vasu December 18, 2006 at 1:20 am 
+
+Thank you.  I have another query related to the composition of
+events. This could involve rules, and therfore cause
+conflicts & non-determinism in the behaviour of the event web ?
+Do you think this could be a weak-link ?
+
+
+
+
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

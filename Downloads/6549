@@ -1,0 +1,226 @@
+http://www.ics.uci.edu/%7Emagda/ics_x33/outlineG.html
+
+
+
+
+
+
+
+
+
+
+Course Outline
+
+
+
+
+
+
+
+
+Course Outline
+ 
+This is a lab based course. The goal of the
+          course is to reinforce some of the networking concepts that
+          were taught in a asic introductory networking course. The lab
+          is structured around lab exercises that highlight topics such
+          as IP addressing and forwarding, LAN switching, data link and
+          ARP, routing (RIP, OSPF), TCP, ICMP, NAT, DHCP, etc. The
+          course consists of a sequence of labs that build upon each
+          other. Lab quizzes are used to evaluate the students’
+          understanding of the material and ensure that students have
+          completed the assigned lab exercises. All networking concepts
+          that appear in the labs are covered weekly in class. A
+          final written exam tests students on the concepts covered in
+          class. 
+ 
+Prerequisites:
+          Introduction to Networking Course (a strict requirement!)
+ 
+Class Notes: Available online on my website.
+
+Software: Available via
+        online public downloads.
+
+Labs: Available online on my website.
+
+
+
+Class Communication: Piazza
+        Classroom - Students will be added to a classroom account.
+        All  queries/questions related to labs and quizzes should
+        be directed thru Piazza to the TA, Reader, myself and other
+        students. Students are recommended highly to participate in the
+        Piazza discussions. We will monitor activity and give credit
+        (see grading below) to those that are vocal and have intelligent
+        and coherent responses. Any fake or irresponsible participation
+        will have a negative impact.
+ 
+ 
+Class Time: Tuesday:  6:00pm – 8:50pm
+Class Room: 
+          PCB1200 180
+ 
+Quiz Lab Rooms: ICS 189
+ 
+TA: 
+Readers: 
+
+
+
+
+TA Office:  
+TA Office Hours: 
+
+ 
+My coordinates: DBH 3216,
+          elzarki@uci.edu
+My office hours: Mon/Wed 2
+          - 3pm
+ 
+Course
+              Grading:   In Lab Quizzes
+          (20%, 40%), Final (35%), Piazza Participation (5% - no grade
+          for "Anonymous" participation)
+
+
+
+Course Overview 
+
+
+Course Overview
+                      - Lab0_W
+                        (Windows only) Lab0_M
+                      (Mac only) Lab 1
+                  (all)
+ 
+
+
+
+
+Lab
+
+
+
+                Set Up  
+Intro to Networks
+
+
+
+
+
+Single
+Segment
+
+
+
+            Networks - Lab
+                2 
+
+Data Link Layer and ARP
+
+
+
+Single segment networks
+
+Addressing and ARP
+Ethernet
+ARP Spoofing
+
+
+
+
+IP and Static Routing - Lab
+
+
+
+              3 
+
+IP
+          Overview , IP
+          Forwarding, IP Control Protocol (ICMP)
+
+
+Configuring
+            a Cisco router
+Static Routing
+ICMP
+
+
+
+
+LAN Switching  - Lab
+
+
+
+              4
+
+
+LAN
+          Switching
+
+
+
+Configuring a Cisco router
+            as a bridge
+Simple Bridge Experiment
+Spanning Tree Experiment
+Mixed Bridge Router Experiment
+
+
+
+Transport Layer Protocols: Lab
+
+
+
+                5
+
+
+UDP,
+          TCP
+
+
+
+
+UDP and TCP
+TCP Connection Management
+TCP Error, Flow and Congestion Control 
+
+
+
+Dynamic Routing - Lab
+
+
+
+              6
+
+
+Intra: RIP, OSPF, Inter: BGP
+
+
+
+Configuring Cisco routers for Dynamic routing
+Intra vs Inter
+OSPF
+BGP
+
+
+
+
+NAT and DHCP - Lab
+            7
+
+NAT
+          and DHCP
+
+
+Configuring DHCP
+Different NAT configurations
+
+
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+http://plrg.ics.uci.edu/publications/280.bib
+@inproceedings{key,
+ author = {Brian Demsky and Patrick Lam},
+ title = {Views: Object-Inspired Concurrency Control},
+ booktitle = {Proceedings of the 2010 International Conference on Software Engineering},
+ pages = {395--404},
+ location = {Cape Town, South Africa},
+ month = {May},
+ year = {2010}
+}

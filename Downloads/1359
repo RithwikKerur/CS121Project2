@@ -1,0 +1,10 @@
+http://plrg.ics.uci.edu/publications/310.bib
+@article{key,
+ author = {Brian Demsky},
+ title = {Cross Application Data Provenance and Policy Enforcement},
+ journal = {ACM Transactions on Information and System Security},
+ volume = {14},
+ number = {1},
+ month = {May},
+ year = {2011}
+}

@@ -1,0 +1,264 @@
+https://iasl.ics.uci.edu/research
+
+
+
+
+
+
+Research - UCI IASL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to content
+
+
+
+
+
+
+
+ 
+UCI IASL
+Intelligent and Autonomous Systems Lab
+
+
+
+
+
+
+
+Search for:
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Research
+Funded Projects
+Publications
+Miscellaneous
+Contact
+ 
+
+
+
+
+
+
+
+ 
+UCI IASL
+Intelligent and Autonomous Systems Lab
+
+
+
+
+ 
+
+
+Toggle navigation
+
+
+
+
+
+Home
+People
+Research
+Funded Projects
+Publications
+Miscellaneous
+Contact
+
+
+
+
+Search for:
+
+
+
+ 
+
+
+
+
+
+
+
+Intelligent and Autonomous Systems Lab
+Computer Science Department, Donald Bren School of Information and Computer Sciences, University of California, Irvine
+
+
+
+
+
+
+
+
+
+
+
+
+Research 
+
+
+
+Split Computing
+Dynamic Edge Computing
+Distributed Video Processing
+IoT for Healthcare
+Federated Learning for Wireless Systems’ Control 
+Collaborative Classification
+
+Split Computing
+
+Offloading the execution of complex Deep Neural Networks (DNNs) models to compute-capable devices at the network edge, that is, edge servers, can significantly reduce capture-to-output delay. However, the communication link between the mobile devices and edge servers can become the bottleneck when channel conditions are poor. We propose a framework to split DNNs for image processing and minimize capture-to-output delay in a wide range of network conditions and computing parameters. The core idea is to split the DNN models into head and tail models, where the two sections are deployed at the mobile device and edge server, respectively. Following the trends of mobile and edge computing for DNN models, an intermediate option, split computing, has been attracting attentions from the research community. 
+Previous studies empirically showed that while mobile and edge computing often would be the best options in terms of total inference time, there are some scenarios where split computing methods can achieve shorter inference time. To achieve efficient split computing, we propose various methods and a three-way tradeoff to minimize encoder size and data size to be transferred to edge server while maximizing model accuracy.
+Publications:
+Y. Matsubara, R. Yang, M. Levorato and S. Mandt, “SC2: Supervised Compression for Split Computing,” arXiv preprint arXiv:2203.08875, 2022Y. Matsubara, M. Levorato and F. Restuccia, “Split Computing and Early Exiting for Deep Learning Applications: Survey and Research Challenges,” ACM Computing Surveys (CSUR), 2022Y. Matsubara, D. Callegaro, S. Singh, M. Levorato and F. Restuccia, “BottleFit: Learning Compressed Representations in Deep Neural Networks for Effective and Efficient Split Computing,“ Proceedings of 2022 IEEE 23rd International Symposium on a World of Wireless, Mobile and Multimedia Networks (WoWMoM), pp. 337-346, 2022Y. Matsubara, R. Yang, M. Levorato and S. Mandt, “Supervised Compression for Resource-Constrained Edge Computing Systems,” Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision, pp. 2685-2695 (2022)D. Callegaro, Y. Matsubara and M. Levorato, “Optimal Task Allocation for Time-Varying Edge Computing Systems with Split DNNs,” GLOBECOM 2020 – 2020 IEEE Global Communications Conference, pp. 1-6, 2020Y. Matsubara, D. Callegaro, S. Baidya, M. Levorato and S. Singh, “Head Network Distillation: Splitting Distilled Deep Neural Networks for Resource-constrained Edge Computing Systems,” IEEE Access, Vol. 8, pp. 212177-212193, 2020Y. Matsubara and M. Levorato, “Neural Compression and Filtering for Edge-assisted Real-time Object Detection in Challenged Networks,” 2020 25th International Conference on Pattern Recognition (ICPR), pp. 2272-2279, 2021Y. Matsubara and M. Levorato, “Split Computing for Complex Object Detectors: Challenges and Preliminary Results,” Proceedings of the 4th International Workshop on Embedded and Mobile Deep Learning (EMDL ’20), pp. 7-12, 2020Y. Matsubara, S. Baidya, D. Callegaro, M. Levorato and S. Singh, “Distilled Split Deep Neural Networks for Edge-Assisted Real-Time Systems,” Proceedings of the 2019 Workshop on Hot Topics in Video Analytics and Intelligent Edges (HotEdgeVideo ’19), pp. 21-26, 2019
+
+Dynamic Edge Computing
+SeReMAS System Architecture [1]
+Edge Computing enables autonomy for Mobile Autonomous Systems (MAS) through the offloading of heavy-duty tasks intelligently. Generally, the local stream of tasks that are executed in the edge server results in a smaller delay and better accuracy. In practice, the variability in the quality of the wireless channel and the constraints in the local device’s resources are the central challenges to leverage the advantage of Edge Computing in performing real-time execution of heavy-duty tasks autonomously. 
+Existing work in this group has focused on building systems that proactively finds the optimal conditions to improve the delay and performance of the local tasks using one or more servers. We are currently working on maximizing the use of the local resources through task distribution prediction.
+Publications:
+
+D. Callegaro, M. Levorato and F. Restuccia, “SeReMAS: Self-Resilient Mobile Autonomous Systems Through Predictive Edge Computing,” 2021 18th Annual IEEE International Conference on Sensing, Communication, and Networking (SECON), 2021.D. Callegaro, Y. Matsubara and M. Levorato, “Optimal Task Allocation for Time-Varying Edge Computing Systems with Split DNNs,” GLOBECOM 2020 – 2020 IEEE Global Communications Conference, 2020.Baidya, Sabur, et al. “Vehicular and edge computing for emerging connected and autonomous vehicle applications.” 2020 57th ACM/IEEE Design Automation Conference (DAC). IEEE, 2020.D. Callegaro and M. Levorato, “Optimal Computation Offloading in Edge-Assisted UAV Systems,” 2018 IEEE Global Communications Conference (GLOBECOM), 2018.Baidya, Sabur, Yan Chen, and Marco Levorato. “eBPF-based content and computation-aware communication for real-time edge computing.” IEEE INFOCOM 2018-IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS). IEEE, 2018.Baidya, Sabur, and Marco Levorato. “Edge-assisted content and computation-driven dynamic network selection for real-time services in the urban IoT.” 2017 IEEE conference on computer communications workshops (INFOCOM WKSHPS). IEEE, 2017.
+
+
+Distributed Video Processing
+Smartdet
+
+IoT for Healthcare
+
+The goal of the project is to improve the mental and physical well-being of pregnant women in underrepresented communities by integrating in-home visitations with wearable-based fine-grain monitoring and interventions. The focus is on detecting and mitigating stress, a key indicator of pregnancy outcomes. A closed-loop architecture is proposed to 1) collect health and movement and contextual data using cell phones and wearable devices (e.g. smartwatch, smart rings) and transfer them to a cloud server 2) detect mental health indicators based on these signals 3) if any of these indicators are detected to be outside a standard range, then personalized interventions are provided to improve those indicators, and 4) gradually improve the detectors over time through personalization, and collecting labels for a small portion of the collected signals.
+For personalization, we need labels (of the indicators, stress for instance) which we collect through surveys. The problem here is how to optimally select a small portion of the incoming data to be labeled by the users, for which we use active learning techniques. We follow a reinforcement learning based approach for active learning and train the agent through assigning high rewards for samples that are expected to improve the detectors significantly and also be answered by the users quickly (through contextual information: location, activities, time of day, etc.). Keeping the users engaged over time is another factor that is considered in designing an optimal reward function.
+Publications:
+A. Tazarv, S. Labbaf, S. M. Reich, N. Dutt, A. M. Rahmani and M. Levorato, “Personalized Stress Monitoring using Wearable Sensors in Everyday Settings,” 2021 43rd Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC), 2021, pp. 7332-7335, 2021.Ali Tazarv, Sina Labbaf, Amir M. Rahmani, Nikil Dutt, and Marco Levorato. “Data Collection and Labeling of Real-Time IoT-Enabled Bio-Signals in Everyday Settings for Mental Health Improvement,” Proceedings of the Conference on Information Technology for Social Good (GoodIT ’21). Association for Computing Machinery, New York, NY, USA, 186–191. DOI: 10.1145/3462203.3475918.
+
+Federated Learning for Wireless Systems’ Control 
+
+Next Generation (NextG) wireless networks are expected to support demanding tactile internet applications such as augmented reality and connected autonomous vehicles. Whereas recent innovations bring the promise of larger link capacity, their sensitivity to the environment and erratic performance defy traditional model-based control rationales. Zero-touch data driven approaches can improve the ability of the network to adapt to the current operating conditions. 
+Tools such as reinforcement learning (RL) algorithms can build optimal control policy solely based on a history of observations. Specifically, deep RL (DRL), which uses a deep neural network (DNN) as a predictor, has been shown to achieve good performance even in complex environments and with high dimensional inputs. However, the training  of DRL models require a large amount of data, which may limit its adaptability to ever-evolving statisticsof the underlying environment. Moreover, wireless networks are inherently distributed systems, where centralized DRL approaches would require excessive data exchange, while fully distributed approaches may result in slower convergence rates and performance degradation. 
+To address these challenges, we propose a federated learning (FL) approach to DRL, which we refer to federated DRL (F-DRL), where Radio Access Networks (RANs) collaboratively train the embedded DNN by only sharing models’ weights rather than training data. We show the superior performance that the F-DRL can achieve compared to fully distributed and centralized DRL. Also as the next step of the project we consider heterogeneous network , in which each RAN should obtain an optimal policy based on its unique environment characteristic such as wireless propagation, number of clients, traffic patterns, mobility and etc, so in addition to the federated approach we would need some personalization technique in order to collaboratively achieve the optimal policy for each RAN.
+Publication:
+P. Tehrani, F. Restuccia, and M. Levorato, Federated Deep Reinforcement Learning for the Distributed Control of NextG Wireless Networks, IEEE International Symposium on Dynamic Spectrum Access Networks (IEEE DySPAN), 13-15 December 2021, Virtual Conference.
+
+Collaborative Classification
+
+Within the devices participating in an IoT system, there are two sides that they tend to form based on their access to the information and the capacity for intelligence. (i) Sensors whose primary function revolves around data acquisition. They are directly involved with the system’s environment and can immediately observe its dynamics. And (ii) edge and cloud processors (simply called edge) whose specialty is in the data processing. Although these processors are necessarily distanced from the data sources, they have a wider view of the system and are capable of running the complex processing algorithms required for the system to autonomously adapt to the changing conditions of its environment.
+The entities of the sensors and the edge embody the two components necessary for any sufficiently advanced decision-making: relevant data to drive decisions and adequately capable algorithms to realize them. This is while the hardware and energy expenditure limitations (e.g., CPU voltage, battery capacity, etc.) of the sensors impose restrictions on their complexity of computation. Thus, there is a need for more intelligent information selection at the observation level, incorporating some understanding of the observation’s importance in the pipeline of the high-level system control implemented at the edge and in the cloud. To this end, we propose novel collaborative classification methods to edge-assisted on-sensor decision-making that can be learned on the fly and adapted in an online fashion, to make efficient data processing possible for constrained IoT systems.
+Publications:
+I. Burago and M. Levorato, “Cloud-Assisted On-Sensor Observation Classification in Latency-Impeded IoT Systems,” in Proceedings of the IEEE International Symposium on Information Theory (ISIT), Paris, France, Jul. 2019.I. Burago and M. Levorato, “Randomized Edge-Assisted On-Sensor Information Selection for Bandwidth-Constrained Systems,” in Proceedings of the Asilomar Conference on Signals, Systems, and Computers (ACSSC), Pacific Groove, California, Oct. 2018.I. Burago, D. Callegaro, M. Levorato, and S. Singh, “Intelligent Data Filtering in Constrained IoT Systems,” in Proceedings of the Asilomar Conference on Signals, Systems, and Computers (ACSSC), Pacific Groove, California, Oct. – Nov. 2017.I. Burago, M. Levorato, and A. Chowdhery, “Bandwidth-Aware Data Filtering in Edge-Assisted Wireless Sensor Systems,” in Proceedings of the IEEE International Conference on Sensing, Communication and Networking (SECON), San Diego, California, Jun. 2017.I. Burago, M. Levorato, and S. Singh, “Semantic Compression for Edge-Assisted Systems,” in Proceedings of the Information Theory and Applications Workshop (ITA), San Diego, California, Feb. 2017.
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+Powered By WordPress |                     LMS Academic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

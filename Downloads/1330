@@ -1,0 +1,125 @@
+http://plrg.ics.uci.edu/iotcheck
+
+
+
+
+
+
+
+
+IoTCheck – Programming Languages Research Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+									Programming Languages Research Group								
+
+
+
+
+
+
+Brian Demsky
+Students
+Publications
+Software
+
+Software Verifiers
+
+PSan
+Yashme
+Jaaru
+Satune
+C11Tester
+
+
+Software for Relaxed Memory Models
+Irvine Research Java Compiler
+Views
+Smart Home
+
+Fidelius
+IoTCheck
+PingPong
+Vigilia
+
+
+
+
+Navigation
+
+
+
+
+ 
+
+
+
+
+
+
+
+Understanding and Automatically Detecting Conflicting Interactions between Smart Home Applications  
+Smart home devices provide the convenience of remotely controlling and automating home appliances. The most advanced smart home environments allow developers to write apps to make smart home devices work together to accomplish tasks, e.g., home security and energy conservation. A smart home app typically implements narrow functionality and thus to fully implement desired functionality homeowners may need to install multiple apps. These different apps can conflict with each other and these conflicts can result in undesired actions such as locking the door during a fire. 
+In this paper, we study conflicts between apps on Samsung SmartThings, the most popular platform for developing and deploying smart home IoT devices. By collecting and studying 198 official and 69 third-party apps, we found significant app conflicts in 3 categories: (1) close to 60% of app pairs that access the same device, (2) more than 90% of app pairs with physical interactions, and (3) around 11% of app pairs that access the same global variable. Our results suggest that the problem of conflicts between smart home apps is serious and can create potential safety risks. We then developed an automatic conflict detection tool that uses model checking to automatically detect 98% of the conflicts. 
+Downloads
+Please find the preprint version of the paper here. 
+We have packaged IoTCheck to run on Vagrant.  Please click here and here for further instructions. 
+Please also see this link to download the supporting materials for IoTCheck.
+NEW: Per August 2021, the DPOR implementation of IoTCheck has been released here. The paper is currently under submission and review. 
+Disclaimer
+We make no warranties that IoTCheck and its DPOR implementation are free of errors. Please read the paper and the documentation file so that you understand what the tool is supposed to do.
+Contact
+Please feel free to contact us for more information. Bug reports are welcome, and we are happy to hear from our users.
+Contact Rahmadi Trimananda at rtrimana@uci.edu or Brian Demsky at bdemsky@uci.edu for questions about IoTCheck.
+Copyright
+Copyright © 2020 Regents of the University of California. All rights reserved.
+Acknowledgments
+This material is based upon work supported by the National Science Foundation under grants CNS-1613023, CNS-1703598, CNS-1763172, CNS-2006437, CNS-2007737, CCF-1837120, CCF-2006948, OAC-1740210 and by the Office of Naval Research under grants N00014-16-1-2913 and N00014-18-1-2037. 
+Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
+ 
+
+
+
+
+
+
+
+
+
+
+Back to Top 
+
+

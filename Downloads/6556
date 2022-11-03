@@ -1,0 +1,125 @@
+http://www.ics.uci.edu/%7Emagda/Games.html
+
+
+
+
+Online Games
+
+
+Games
+          - Health and Cloud Gaming
+
+
+Exergaming: Minbike
+
+
+
+
+
+
+
+
+
+
+
+ Only
+            25% of American youth meet the current physical activity
+            (PA) recommendations.
+            There is a real need to develop new approaches to promote PA which
+            is fun and
+            engaging for this population. The objective for our work is to
+            evaluate a new
+            exergaming platform as a tool to
+            promote physical activity in children. The
+            iXercise platform that we developed, consists of an exercise
+            bicycle, fitted with
+            sensors and microcontrollers, and an exergame (MineBike)
+            that requires a user
+            to peddle to navigate through the environment. 
+            MineBike includes a series of quests with different
+            exercise levels and
+            corresponding rewards that can be used for mining/building
+            activities. In an initial
+            study, we assessed participants’ 1) physiological responses
+            (heart rate and oxygen
+            uptake), 2) exercise intensity/work rate in different stages
+            of the game
+            (watts), 3) time at target HR and 3) behavioral responses
+            (enjoyment,
+            motivation and engagement questionnaires). HR and work rate were successfully
+            consistently monitored during a 40-min MineBike exergaming
+            session. What we notices is that MineBike successfully
+            induced moderate- to
+            vigorous- intensity exercise and participants could achieve
+            > 20 min at the
+            target heart rate (>120 bpm). Our perception is that
+            participants universally enjoyed MineBike and
+            were engaged in the game experience. From these preliminary
+            results we can conclude that the iXercise platform might
+            prove to be a promising new approach to promote physical
+            activity in healthy children and as a therapy in children
+            with a wide variery of clinical conditions. In the next
+            phase, we are incorporating a more cohesive game story,
+            multiplayer capability, several quests with different levels
+            of difficulty, and a more incentive based reward system that
+            in conjunction with an Intelligent Agent embedded in the
+            system will induce adgherence to aprescribed  exercise
+            program during a MineBike session. 
+
+
+
+
+
+
+
+
+
+
+
+
+Cloud Gaming: A flexible adaptive infrastructure for single
+            player online gaming
+
+Applying cloud technology to 3D interactive multimedia
+          applications is a promising way to provide flexible and cost
+          efficient online high bandwidth immersive services to a large
+          population of end users. One main reason cloud systems are
+          popular among users is the fact that it relaxes the hardware
+          requirements for high-end interactive visual applications. As
+          most of the computational tasks are done on cloud servers,
+          users no longer need to upgrade their hardware as frequently
+          to keep up with the ever increasing high end computing
+          requirements of the latest applications. Moreover, cloud
+          systems make it easier for a user to enjoy applications on
+          different platforms, including mobile devices that are usually
+          not powerful enough to run high-end, memory intensive
+          services. In short, applying cloud technology to high end
+          immersive applications has advantages in cost efficiency and
+          flexibility both for the end users and the service providers.
+          However, there are two main drawbacks to applying cloud
+          technology to 3D interactive multimedia services: 1) high
+          bandwidth utilization and 2) latency. In our work we propose a
+          flexible framework that addresses the two problems by using a
+          combination of collaborative rendering, progressive meshes,
+          and 3D image warping techniques. The experimental results
+          obtained so far show that the proposed system can reduce the
+          bandwidth usage and improve the visual quality by utilizing
+          local computing power on the client. The results also show
+          that it is possible to reduce the interactive latency by
+          sacrificing the visual quality in our system.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

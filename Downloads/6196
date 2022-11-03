@@ -1,0 +1,146 @@
+https://www.cs.uci.edu/the-fight-over-net-neutrality-stretches-from-california-to-washington-d-c
+
+
+
+
+The Fight Over Net Neutrality Stretches from California to Washington, D.C. 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ this is a widget called second front page widget area
+
+Explore
+
+Contact Us
+
+
+Faculty
+Research
+
+Research Areas
+Research Centers
+
+
+Graduate Degrees
+
+Computer Science Programs
+Current Graduate Students
+
+
+Undergraduate Degrees
+News  & Events
+
+News
+Seminar Series
+Distinguished Lecture Series
+Research Showcase
+
+
+Apply Now
+
+Undergraduate Admissions
+Graduate Admissions
+Faculty Candidates
+
+
+The Fight Over Net Neutrality Stretches from California to Washington, D.C.
+September 19, 2018 Currently sitting on the desk of Governor Jerry Brown is SB 822, the net neutrality bill recently passed by California lawmakers. If signed, it aims to reinstate rules the Federal Communications Commission established in its 2015 Open Internet Order, rules that were repealed in January with the FCC’s Restoring Internet Freedom Order. California is one of 30 states across the U.S. to introduce net neutrality legislation. Meanwhile, in the U.S. Court of Appeals for the District of Columbia Circuit, amicus briefs are being filed for lawsuits targeting the new FCC Order.
+
+One such brief was filed by Computer Science Professor Scott Jordan, who, as Chief Technologist for the FCC from 2014 to 2016, helped formulate the 2015 Order. Jordan and Carnegie Mellon Professor Jon Peha filed the brief for a lawsuit brought against the FCC by Mozilla, arguing that the technical assumptions made in the 2018 Order are invalid. And not long before sending the brief to D.C., Jordan was in Sacramento, testifying in support of California’s net neutrality bill.
+Crafting a Bill in California
+“Writing a law, or statute, by a body like Congress or the California Legislature is different from a regulatory agency like the FCC writing the regulations to implement a law,” says Jordan. Applying his in-depth knowledge of the 2015 Order, he was able to help the California Legislature craft SB 822. “The 2015 Order was 400 pages long! So I helped the legislators on and off during the year, letting them know what was in the Order and giving them advice on how to mirror the FCC’s net neutrality Order in their own bill.”
+Interestingly, while Jordan was in Sacramento supporting the bill, lawmakers learned that Verizon had slowed the data of firefighters battling wildfires. There were subsequent questions of whether net neutrality could have prevented such throttling of data. “Verizon said it was not a net neutrality issue but a customer service issue. It’s not that straightforward,” says Jordan.
+“The 2015 Open Internet Order not only prohibited blocking and throttling of particular applications, it also required transparency.” He explains that according to the 2015 Open Internet Order’s transparency rule, plans should be transparent in three ways — terms of service, performance expectations, and treatment of traffic. “If an Internet Service Provider is going to do something with your traffic, like throttle, they should tell you when it’s going to happen and what the likely effect is on your end-user experience.” During the fires, data reportedly slowed to 0.5 percent of the normal speed, so unless Verizon specified that its “unlimited” data plan has a data cap at which point speeds slow to “less than one percent,” then, according to Jordan, it is indeed a net neutrality issue.
+In addition to transparency, other issues that aren’t always straightforward include zero rating and interconnections, both of which Jordan helped legislators articulate in the California bill.
+“If you have a limit on the amount of data that you can transmit or receive during a month, and if your ISP chooses to exempt certain traffic from that data cap, that’s called zero rating,” explains Jordan. Recognizing that some forms of zero rating might benefit consumers, the FCC analyzed zero rating after passing the 2015 Order. “A year later, we looked at specific plans and said some would be okay under the net neutrality rules, and some wouldn’t.” To reflect this, the California bill explicitly allows certain kinds of zero rating and prohibits others.
+The California bill also prohibits ISPs from using interconnection with other networks to evade rules on blocking and throttling. ISPs make interconnection agreements with other network providers to transmit data beyond their own territories. This became a public policy issue in 2014, when a number of large content providers, including Netflix, were not coming to an agreement with some of the large ISPs about how to add capacity at these interconnection points. “Normally, this just an engineering decision,” says Jordan. “You realize that internet traffic keeps growing, so you project ahead and add capacity.” However, capacity wasn’t being added because of a business dispute, degrading video performance for certain Netflix subscribers.
+According to Jordan, “the FCC in the 2015 Order said these interconnection agreements are part of the service you’ve been promised, to get you wherever you want to go on the internet. And if there were disputes, they could be brought to the FCC and reviewed under the legal standard applied to telecommunications services.”
+The key word here is “telecommunications,” which brings us to the litigation against the FCC. The lawsuits claim that the FCC doesn’t have the legal authority to change the classification of broadband internet service from a telecommunications service to an information service.
+Fighting the FCC
+“That’s the best route for restoring net neutrality nationwide,” says Jordan, referring to the litigation. In the brief he filed with Peha, he says they outlined how the internet works and why it fits what Congress has defined as a telecommunications service. “We took up the technical argument,” he explains. “We said that you expect your ISP to get you to wherever you want to go on the internet and to get whatever content you want back to you and not to muck with it in between.” He continues, saying that “this is similar to what you expect from a telephone service. It should bring the other person’s voice to you and bring your voice to them and not muck with it in-between.”
+The brief further argues that even if your ISP provides an email service or the ability to create a webpage, the internet standards themselves require that the basic broadband service remain separate. “They can’t intertwine them,” says Jordan. “They can offer them both as a package, but that doesn’t mean that in a technical way, the services have been combined. The email relies you on having an internet connection, but the internet connection doesn’t rely on the fact that you’re using it for email.” The brief includes a similar argument related to mobile broadband service from a smartphone.
+Jordan and Peha filed the brief with the court in August, but oral arguments won’t start until sometime next year. Ultimately, the case could wind its way through to the Supreme Court, which is why nominee Brett Kavanaugh was asked about adissenting opinion he wrote when the D.C. Court of Appeals upheld the FCC’s 2015 Open Internet Order.
+Unless Congress decides to rewrite the law to specify how broadband service should be regulated — something that would require strong bipartisanship — it could be years before the net neutrality debate is decided in D.C., which is why from California to Vermont, lawmakers are passing new legislation and governors are signing executive orders to preserve net neutrality.
+— Shani Murray
+« Forbes: “Don’t Trust Artificial Intelligence? Time To Open The AI ‘Black Box'” (Sameer Singh quoted)Professor Tsudik’s Upcoming Security-Focused Keynote Talks »
+
+Latest news
+
+
+Senior Spotlight: Tennis Player and CS Major Matthew Sah Serves Up Aces On and Off the Court
+September 28, 2022
+
+
+Register Today for the Southern California AI & Biomedicine Symposium
+September 20, 2022
+
+
+CPO Magazine: “A Legal View of New NIST Quantum-Resistant Algorithms” by Bryan Cunningham
+September 19, 2022
+
+
+UCI Ranked 24th in Undergraduate Computer Science Programs by U.S. News & World Report
+September 16, 2022
+
+
+Senior Spotlight: Jose Cisneros Builds Impressive Resume with Trio of Internships
+September 15, 2022
+
+
+
+
+ 
+
+
+
+
+
+© 2022 UC Regents
+Feedback
+Privacy Policy
+
+
+
+ 
+
+
+
+

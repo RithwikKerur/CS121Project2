@@ -1,0 +1,374 @@
+https://sli.ics.uci.edu/PmWiki/TextFormattingRules
+
+
+
+SLI | PmWiki / TextFormattingRules 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+TextFormattingRules
+
+
+
+
+
+< Images | Documentation Index | Markup master index >
+
+
+
+
+Table of contents
+Paragraphs
+Indented Paragraphs (Quotes)
+Bulleted and Numbered Lists
+Definition Lists
+Whitespace Rules
+Horizontal Line
+Emphasis
+References
+Headings
+Escape sequence
+Special characters
+Tables
+
+This page provides a more complete list of some of the markup sequences available in PmWiki.  
+Note that it's easy to create and edit pages without using any of the markups below, but if you ever need them, they're here. 
+
+To experiment with the rules, please edit the Wiki Sandbox.
+
+ Paragraphs
+To create paragraphs, simply enter text.  Use a blank line to start a new paragraph.
+
+Words on two lines in a row will wrap and fill as needed (the normal XHTML behavior).  To turn off the automatic filling, use the (:linebreaks:) directive above the paragraph.
+
+Use \ (single backslash) at the end of a line to join the current line to the next one.
+Use \\ (two backslashes) at the end of a line to force a line break.
+Use \\\ (three backslashes) at the end of a line to force 2 line breaks.
+Use [[<<]] to force a line break that will clear floating elements.
+ Indented Paragraphs (Quotes)
+Arrows (->) at the beginning of a paragraph can be used to produce an indented paragraph.  More hyphens at the beginning (--->) produce larger indents.
+
+
+->Four score and seven years ago our fathers placed upon this continent a new nation, conceived in liberty and dedicated to the proposition that all men are created equal.
+Four score and seven years ago our fathers placed upon this continent a new nation, conceived in liberty and dedicated to the proposition that all men are created equal.
+
+
+Inverted Arrows (-<) at the beginning of a paragraph can be used to produce a paragraph with a hanging indent.  Adding hyphens at the beginning (---<) causes all the text to indent.
+
+
+-<Four score and seven years ago our fathers placed upon this continent a new nation, conceived in liberty and dedicated to the proposition that all men are created equal. 
+Four score and seven years ago our fathers placed upon this continent a new nation, conceived in liberty and dedicated to the proposition that all men are created equal. 
+
+
+
+--<Four score and seven years ago our fathers placed upon this continent a new nation, conceived in liberty and dedicated to the proposition that all men are created equal.  And that food would be good too.
+Four score and seven years ago our fathers placed upon this continent a new nation, conceived in liberty and dedicated to the proposition that all men are created equal.  And that food would be good too.
+
+
+Blocks of text to which (:linebreaks:) has been applied can be indented by preceding the first line of the block with indention arrows (->) and aligning subsequent lines under the first. An unindented line stops the block indentation.  See Cookbook:Markup Tricks for an example.
+
+ Bulleted and Numbered Lists
+Bullet lists are made by placing asterisks at the beginning of the line. Numbered lists are made by placing number-signs (#) at the beginning of the line.  More asterisks/number-signs increases the level of bullet:
+
+
+* First-level list item
+** Second-level list item
+### Order this
+#### And this (optional)
+### Then this
+** Another second-level item
+* A first-level item: cooking
+## Prepare the experiment
+### Unwrap the pop-tart
+### Insert the pop-tart into the toaster
+## Begin cooking the pop tart
+## Stand back
+First-level list item
+Second-level list item
+Order this
+And this (optional)
+Then this
+Another second-level item
+A first-level item: cooking
+Prepare the experiment
+Unwrap the pop-tart
+Insert the pop-tart into the toaster
+Begin cooking the pop tart
+Stand back
+
+
+
+# A list is terminated
+by the first line that is not a list.
+# Also terminate a list using the escape sequence [@[==]@]
+[==]
+# Continue a list item by lining
+  up the text with leading whitespace.
+# Use a forced linebreak \\
+  to force a newline in your list item.
+A list is terminated
+by the first line that is not a list.
+Also terminate a list using the escape sequence [==]
+
+Continue a list item by lining
+up the text with leading whitespace.
+Use a forced linebreak   to force a newline in your list item.
+
+
+
+## Text between list items can cause numbering to restart
+## %item value=3% this can be dealt with
+Text between list items can cause numbering to restart
+ this can be dealt with
+
+
+Also see: PmWiki:ListStyles, Cookbook:WikiStylesPlus.
+
+ Definition Lists
+
+Powerful new* featureWhen you define terms using this markupPmWiki will recognize them as PageTextVariablesthat you can use on any page or PageList.* Added in PmWiki version 2.2.0
+
+Definition lists are made by placing colons at the left margin (and between each term and definition):
+
+
+:term:definition of term
+termdefinition of term
+
+
+
+ Whitespace Rules
+Whitespace indentation in lists.  Any line that begins with whitespace and aligns with a previous list item (whether bulleted, numbers or definitional) is considered to be "within" that list item.  Text folds and wraps as normal, and the (:linebreaks:) directive is honored. 
+
+
+# First-level item\\
+  Whitespace used to continue item on a new line
+# Another first-level item
+  # Whitespace combined with a single # to create a new item one level deeper
+First-level item  Whitespace used to continue item on a new line
+Another first-level item
+Whitespace combined with a single # to create a new item one level deeper
+
+
+This rule also apply on definition lists, but only the number of leading colons is significant for the following whitespace indented lines.
+
+
+:Item: Definition text
+ dispatched on several
+ lines
+::SubItem: Same kind
+  of multiline
+  definition
+Item Definition text
+dispatched on several
+lines
+SubItem Same kind
+of multiline
+definition
+
+
+Otherwise, lines that begin with whitespace are treated as preformatted text, using a monospace font and not generating linebreaks except where explicitly indicated in the markup.  Note to administrators: Starting with version 2.2.0-beta41, this feature can be modified using $EnableWSPre.  (Another way to create preformatted text blocks is by using the [@...@] markup.)
+
+ Horizontal Line
+Four or more dashes (----) at the beginning of a line produce a horizontal line.
+
+
+ Emphasis and character formatting
+Enclose text in doubled single-quotes (''text''), i.e., two apostrophes, for emphasis (usually italics)
+Enclose text in tripled single-quotes ('''text'''), i.e. three apostrophes, for strong (usually bold)
+Enclose text in five single-quotes ('''''text'''''), or triples within doubles (five apostrophes), for strong emphasis (usually bold italics)
+Enclose text in doubled at-signs (@@text@@) for monospace text
+Use [+large+] for large text, [++larger++] for larger, [-small-] for small text, and [--smaller--] for smaller.
+Emphasis can be used multiple times within a line, but cannot span across markup line boundaries (i.e., you can't put a paragraph break in the middle of bold text).
+'~italic~' and '*bold*'  are available if enabled in config.php
+Other styling 
+
+'+big+', '-small-', '^super^', '_sub_', 
+
+{+insert or underscore+}, 
+
+{-delete or strikethrough or strikeout-}
+big, small, super, sub, 
+
+insert or underscore, 
+
+delete or strikethrough or strikeout
+
+
+`WikiWord WikiWord neutralisation
+See also Wiki Styles for advanced text formatting options.
+
+
+ References
+Use words and phrases in double brackets (e.g., [[text formatting rules]]) to create links to other pages on this wiki.
+On some PmWiki installations, capitalized words joined together (e.g., WikiWords) can also be used to make references to other pages without needing the double-brackets.
+Precede URLs with "http:", "ftp:", "gopher:", "mailto:", or "news:" to create links automatically, as in http://www.pmichaud.com/toast.
+URLs ending with .gif, .jpg, or .png are displayed as images in the page
+Links with arbitrary text can be created as either [[target | text]] or [[text -> target]].  Text can be an image URL, in which case the image becomes the link to the remote url or WikiWord.
+ Anchor targets within pages (#-links) can be created using [[#target]].
+See Links for details.
+
+
+Headings
+Headings are made by placing an exclamation mark (!) at the left margin.  More exclamation marks increase the level of heading.  For example,
+
+
+!! Level 2 Heading
+!!! Level 3 Heading
+!!!! Level 4 Heading
+!!!!! Level 5 Heading
+Level 2 Heading
+Level 3 Heading
+Level 4 Heading
+Level 5 Heading
+
+Note that level 1 heading is already used as page title (at least in the PmWiki skin), so you should start with level 2 headings to create well formed, search engine optimized web pages.
+
+See Cookbook:Numbered Headers for numbered headings.
+
+
+Escape sequence
+Anything placed between [= and =] is not interpreted by PmWiki, but paragraphs are reformatted.  This makes it possible to turn off  special formatting interpretations and neutralise WikiWords that are not links (even easier is to use a tick ` in front, like `WikiWord).
+
+For preformatted text blocks, use the [@...@] markup. It does neither reformat paragraphs nor process wiki markup:
+
+
+[@
+Code goes here like [[PmWiki.PmWiki]]
+'$CurrentTime $[by] $AuthorLink:  [=$ChangeSummary=]'; #just some code
+@]
+
+Code goes here like [[PmWiki.PmWiki]]
+'$CurrentTime $[by] $AuthorLink:  [=$ChangeSummary=]'; #just some code
+
+
+The multiline [@...@] is a block markup, and in order to change the styling of these preformatted text blocks, you need to apply a "block" WikiStyle.
+
+
+%block blue%[@ 
+  The font color of 
+  this text is blue
+@] 
+  The font color of 
+  this text is blue
+
+
+It is also useful to use [= =] within other wiki structures, as this enables the inclusion of new lines in text values.  The example below shows how to include a multi-line value in a hidden form field.
+
+(:input hidden message "[=Line1
+Line2=]":)
+Comments
+ (:comment Some information:)  can be very kind to subsequent authors, especially around complicated bits of markup.
+
+
+ Special Characters
+When creating pages it's common to use commercial trademarks, copyright, umlaut, and other non-keyboard symbols.  therefore it's important that you have the means to input these special characters.  
+
+ISO Standard codes
+PmWiki supports the HTML special character listings by the w3c. W3C Page of Special Character codes ISO standard.
+
+Here are some samples: 
+
+
+&#169; | &#188; | &#189; | &#174; | &#181; | &#168; © | ¼ | ½ | ® | µ | ¨ 
+
+
+
+
+&#198; | 32&#176; | Un&#239;ted St&#228;tes | &#182; | &#165;Yen | PmWiki&#8482;Æ | 32° | Unïted Stätes | ¶ | ¥Yen | PmWiki™
+
+
+For a nice table with all available special characters, see List of Unicode characters at Wikipedia.
+
+Other ways to do it: 
+Character Map
+Find the "Character Map" utility in your computer's System Tools folder.  Click the symbol you're interested in, and note the keystroke information at the bottom of the box.  You execute these by holding "Alt" while keying the numbers on the numerical keypad of your keyboard (not the numbers across the top of the board).
+
+&#169; = Alt+0169 = © | &#174; = Alt+0174 =  ® | &#176; = Alt+0176 = ° (degrees).
+
+Paste
+Use Word or another desktop application to create your text with the special characters that you want.  Copy and paste the text to the wiki page you're editing or creating.
+Find an instance of a special character in an online document; copy and paste the character to your wiki page:  ©
+There's a list of special characters at PmWiki:SpecialCharactersList.
+There's another illustration at PmWiki:Characters
+
+
+ Tables
+Tables are defined by enclosing cells with '||'.  
+A cell with leading and trailing spaces is centered; a cell with leading spaces is right-aligned; all other cells are left-aligned.  An empty cell will cause the previous cell to span multiple columns.  (There is currently no mechanism for spanning multiple rows.)  A line beginning with '||' specifies the table attributes for subsequent tables. A '!' as the first character in a cell provides emphasis that can be used to provide headings.
+
+
+||border=1 width=50%
+||!Table||!Heading||!Example||
+||!Left   || Center || Right||
+||A       ||!  a B   ||     C||
+||        || single ||      ||
+||        || multi span   ||||
+TableHeadingExample
+LeftCenterRight
+Aa BC
+ single 
+ multi span
+
+
+See Table Directives for advanced tables.
+
+Can't find it here?
+See Markup Master Index.
+ 
+
+< Images | Documentation Index | Markup master index >
+
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:TextFormattingRules, and  a talk page: PmWiki:TextFormattingRules-Talk.
+
+
+
+
+
+
+ Last modified June 24, 2014, at 01:38 AM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

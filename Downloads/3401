@@ -1,0 +1,201 @@
+https://ngs.ics.uci.edu/evaluating-multimedia-algorithms
+
+
+
+
+
+
+
+
+Evaluating Multimedia Algorithms – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Evaluating Multimedia Algorithms    			
+
+
+Rapid advances in technology for capture, processing, distribution, storage, and presentation has resulted in proliferation of  multimedia data, particularly audio and visual data,  in almost all applications.  On the other hand techniques to understand this data have been very slow to advance due to the inherent variability of environments resulting is difficulties in applying adequate models for recognition of objects and events.  Research community has widely recognized the importance of correct models and solving the understanding, organization, and access problems, but has failed to make rapid progress due to unavailability of adequate data sets. 
+As a concrete example of the problem, letâ€™s consider the ubiquitous image retrieval problem.  It is clear that to improve the performance of image annotation and retrieval approaches by using machine learning and other technologies, a large number of reliable labeled samples is required.  Such a set may be created an interactive manual process.  Labeling a large data set is a tedious, time consuming, and subjective process.  As argued in [CIVR 2009]:
+â€œIn order to reduce this manual effort, many semi-supervised learning or active learning approaches have been proposed. Nevertheless, there is still a need to manually annotate many images to train the learning models. On the other hand, the image sharing sites offer us great opportunity to â€œfreelyâ€ acquire a large number of images with annotated tags. The tags for the images are collectively annotated by a large group of heterogeneous users. It is believed that although most tags are correct, there are many noisy and missing tags. Thus if we can learn the accurate models from these user-shared images together with their associated noisy tags, then much manual effort in image annotation can be eliminated. In this case, content-based image annotation and retrieval can benefit much from the community contributed images and tags.â€
+The same problem exists essentially for video and audio datasets also.  Here is an excerpt from a recent announcement of a Workshop (from Webscale Multimedia Corpus http://wsmc09.eurecom.fr/) :
+â€œPivotal to many tasks in relation to multimedia research and development is the availability of sufficiently large dataset and its corresponding ground truth. Currently available datasets for multimedia research are either too small such as the Corel or Pascal datasets, too specific like the TRECVID dataset, or without ground truth, such as the several recent efforts by MIT and MSRA that gathered millions of Web images for testing. While it is relatively easy to crawl and store a huge amount of data, the creation of ground-truth necessary to systematically train, test, evaluate and compare the performance of various algorithms and systems is a major problem. For this reason, more and more research groups are individually putting efforts into the creation of such corpus in order to carry out research on Web-scale dataset. There is a need to unify these individual efforts into the creation of a unified web-scale repository which would benefit the entire multimedia research community.â€
+Scientific Approach:  With the availability of resources, it is nice to see that people are making efforts to create data sets that may enhance experimental evaluation of algorithms.  We believe, however, that this is only a good first step.  A more scientific approach is required to understand the strength and weaknesses of different signal understanding algorithms, such as computer vision, to develop reliable and scalable algorithms to perform challenging tasks.  We can learn some of this directly from basic scientific disciplines.
+Recall your early experiments that you did in Physics laboratory or in some of early engineering sciences laboratory.  The laboratory provided you environment to understand the effect of a selected parameter while controlling all other parameters â€“ mostly keeping them constant.  One of the most fundamental experimental techniques in sciences is to create a laboratory where one could control all environmental conditions so she could then study a phenomenon in which one has knowledge of all parameters.  These labs allow scientists to develop fundamental theories that are then used in the real world environments, where obviously one does not have control on any parameters but has solid understanding of his techniques.  We believe that to develop  robust and scalable algorithms to solve data management and access problems, a solid understanding of the component algorithms to solve basic signal understanding tasks are required.  And these algorithms could only be developed based on scientific understanding of underlying physical processes.  Inability of current algorithms to solve even extremely simple image understanding tasks, say recognizing dogs in natural images, is a proof that by using uncontrolled data in experimental evaluation only verified the famous GIGO principle in computer science.
+We believe that we need to build a measurement science for multimedia not by starting just to collect data from available sources such as Flickr, but by developing powerful datasets for which all physical parameters are known.
+We propose to do the following:
+1.	 Collect large datasets from public sources and annotate them to prepare diverse set of ground-truth.  This may require development of semi-automatic techniques for such annotation.  Since one cannot rely on continuous availability of such datasets from these sources, we will download the data at the time of annotation so that a persistently available dataset may be created.
+2.	Multimedia Data Work-Bench Laboratory:  We will establish a laboratory to create different types of data sets for different applications.  In this laboratory, we will have multiple types of video cameras, different types of microphones, flexible arrangement of lighting sources, mechanisms to create different types of background noise, infrared sensors, RFID devices, and any other sensors that may be required based on the demand from people.  In this laboratory, we will have flexibility to set-up different experimental environments for which different parameters could be controlled and corresponding data obtained.  For example, for developing datasets to detect Karate Moves, as many data sets may be collected as is required.  Each of this data set will have all parameters related to camera, microphone, illumination, background sound, and timing of the moves.  Additionally, other annotations could be easily created at the time of the creation of data.
+References:
+Tat-Seng Chua, Jinhui Tang, Richang Hong, Haojie Li, Zhiping Luo, Yantao Zheng, â€œNUS-WIDE: A Real-World Web Image Database from
+National University of Singaporeâ€, in CIVR 2009.
+
+
+
+By Ramesh |
+    				July 14, 2009 |
+    				             		Technical Thoughts |
+             	 
+    				             		2 Comments |
+             	 		          				
+    			
+
+
+← Ubiquitous Connectivity
+Experiential Communication — in Singapore →
+
+
+
+			2 thoughts on “Evaluating Multimedia Algorithms”		
+
+
+
+
+John Tommasi July 15, 2009 at 7:14 am 
+
+Hi Ramesh,
+ I noticed that you also do a fair amount reasearch in the computer vision space.  My company places engineers/scientists with R&D/DOD clients.    I have a research client in need of a 2009 PHD grad with a background in object tracking/recogntion, activity tracking and machine learning.  Job is located in the Northeast.  if you have any students who may be interested they can contact me at 603-898-8777 or jt@slidebrook.com(  PS  I’m redoing my website and it’s really “under construction”)
+Thank You!!
+John
+
+
+
+
+
+
+Pingback: Complex algorithms vs. Data, much data « Helping The Blind 
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

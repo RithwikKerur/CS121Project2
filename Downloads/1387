@@ -1,0 +1,9 @@
+http://plrg.ics.uci.edu/publications/470.bib
+@inproceedings{key,
+ author = {Brian Norris and Brian Demsky},
+ title = {CDSChecker: Checking Concurrent Data Structures Written with C/C++ Atomics},
+ booktitle = {Proceedings of the 2013 Conference on Object-Oriented Programming, Systems, Languages, and Applications},
+ location = {Indianapolis, Indiana},
+ month = {October},
+ year = {2013}
+}

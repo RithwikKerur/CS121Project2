@@ -1,0 +1,97 @@
+http://www.ics.uci.edu/~kay/courses/i42/hw/hw9.html
+
+
+
+
+
+
+Ninth Homework
+
+
+
+
+
+
+
+Informatics 42 • Winter 2012 • David G. Kay
+  • UC Irvine
+ Ninth (and last!) Homework
+ Get your work checked and signed off by a classmate, then show it to your TA in lab by Monday, March 12.   This
+assignment is short; use the remaining time to complete the lab assignment.
+(a) Suppose you have an electronic cookbook that contains a list of
+recipes defined as follows:
+     Recipe = namedtuple('Recipe', 'title ingredients steps')
+The title is a string, ingredients is a list of strings, and steps is
+a list of strings.  For example:
+     r = Recipe('Thai Iced Coffee', ['coffee', 'sugar', 'condensed milk', 'ice'],
+                ['brew coffee', 'mix with sugar and condensed-milk',
+                 'pour coffee mixture over ice'])
+
+(a.1)
+Define the function is_ingredient_in_recipe
+as described below.
+def is_ingredient_in_recipe(r: Recipe, ing: str) -> bool:
+   """ Return true if the string occurs in the recipe's ingredients list """
+
+(a.2)
+  Define the function are_all_steps_short
+  as described below.
+def are_all_steps_short(r: Recipe, limit: int) -> bool:
+   """ Return true if every step in the recipe is no longer than the limit """
+
+Try to do this using list comprehensions or map/filter/reduce (and
+  remember that reduce has to be imported from the
+  functools library). [Hint:  First, try defining count_words and
+is_step_short, each of which can be done in one line.]
+
+(a.3)
+Define the function is_recipe_simple
+as described below.
+def is_recipe_simple(r: Recipe) -> bool:
+   """ Return true if recipe has 10 or fewer steps and each step is
+       no longer than 6 words. """
+
+(a.4)
+The first word of each step is a verb (e.g., bake, mix, grill); we can
+call that the technique involved in that step. Define the function
+does_recipe_use_technique as described below.
+def does_recipe_use_technique(r: Recipe, technique: str) -> bool:
+   """ Return true if at least one step has the specified technique """
+
+
+(a.5)
+  Now, suppose you want to select recipes that will help you practice a
+  particular technique. Define the function
+  simple_practice_recipes as described below, using
+  previously defined functions where appropriate.  Try to use list
+  comprehensions and/or map/filter/reduce.
+def simple_practice_recipes(rList: 'list of Recipe', technique: str) -> 'list of Recipe':
+   """ Return a list of the recipes from the input that are simple
+       and that use the specified technique"""
+
+(a.6)
+  Most of you probably recognize this problem from a quiz last quarter.
+  Now that you've had some experience in two programming languages,
+  what do you think are the advantages and disadvantages of programming
+  in each?  (You don't have to write anything formal for this; just
+  spend a little time reflecting on the issues.)
+(b) Be able to give answers to questions
+  like these about the theme park simulator.  Feel free to talk with your classmates about them, but realize
+  that the point isn't to have the answer but to know how to
+    get the answer, especially if similar questions should show up on exams.
+
+The function parseAttractionFile reads attractions into a dictionary, then converts the dictionary into a list and passes the list to the AmusementPark. What data structure does the AmusementPark useto store the attractions, and why?
+
+
+The function parseCustomerFile reads customers into a dictionary (why?), then converts the dictionary values into a list and passes it to the AmusementParkSimulation. What data structure(s) does the AmusementParkSimulation use to store the customers, and why? What other data structures is a customer part of during a day in the park? 
+
+
+What data structure(s) does the simulator use
+    to store the rides a customer has visited? 
+
+
+
+Written by David G. Kay, Winter 2005; modified
+Winter 2006 and Winter 2012.
+
+

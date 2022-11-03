@@ -1,0 +1,178 @@
+https://ngs.ics.uci.edu/creating-persona-using-data-streams
+
+
+
+
+
+
+
+
+Creating Persona using data streams – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Creating Persona using data streams    			
+
+
+We are living in transformative times.  Our society is going through a major transformation both at the individual level as well as at the global level.  The most important factor in this transformation, the fuel powering this new engine, is the data; particularly the objective data collected using sensors.  However, data from only a specific sensor contains only partial truth about its environment.  Each sensor is designed to capture a particular attribute and most objects and events have several attributes that may change with time.  The fidelity of an object or an event improves with more diverse sensors to capture their attributes.  These attributes are captured by sensors recording the attributes as a time-varying signal at specific locations.  Billions of sensors are now continuously measuring different physical attributes at most locations of interest in the world.  Increasingly, a good fraction of these spatio-temporal measurements are being made available on the Web, giving us opportunity to create Web Observatories.
+A very important and well recognized fact is that each data stream has valuable information.  But when two data streams are correlated it results in valuable insights.  As more number of data streams are correlated, better insights are created.  Thus, the fact that one can gain valuable insights by correlating multiple data streams collected for the same event or same person is well recognized, but techniques for doing this automatically have not been developed as well.  Currently, we are collecting increasing amount of such data leading to what is commonly called Big Data.  Data from different sensors is usually at different spatial resolution as well as at different frequencies.  Moreover, the type of data is multi modal, making the semantics of the data very different.  This poses serious problems in correlating these data streams.  We need efficient tools to correlate all such data streams to gain valuable insights.
+Here we consider a specific case of such data being collected related to a person to create the persona that may be used in different contexts.  The persona of a person models different aspects of a person that are relevant to interactions with the person or for taking specific actions involving the person.  In this paper, we will consider a very limited case to understand building such an aspect of the persona of a person using different data streams.  The aspect that we consider is related to fitness and health and the data streams that we will consider are related to many sensors now being used by people to collect fitness data, personal events, eating habits, sleep patterns, and every day activities as collected using mobile phones and social networks.  Our goal is to understand challenges faced in correlating data from all these diverse data streams and develop a computational platform that will allow us to plug-in other data streams to include them in refining the persona.
+Health-Persona
+Until recently, and in most cases even now, all information about a person was very subjective.   Consider all information related to fitness and health related information about an individual.  We all had anecdotal information about how much exercise we do, how many hours we sleep, what we eat, and how our body is feeling.  But the recent information technology revolution is changing that.  Using a myriad fitness related wearable sensors, combined with mobile phones every minute of an individualâ€™s activities are being recorded that may be analyzed. We have seen a revolution that allows capturing information about â€˜selfâ€™ from many sources. What we are seeing is a major shift in how we got information about individuals.  In this paper, unless specifically mentioned, we will discuss fitness and health related information.  In this area, we can characterize changing trends into specific classes:
+Subjective Self: All information about a person was totally subjective.  This information could be collected from several sources, but it was mostly subjective interpretation by a person, including self, about the state of health.
+Quantified Self: People started collecting information using different sensors. Usually sensors donâ€™t lie, they give fairly objective information. Also, many sensors could be collecting data 24/7 and storing this on a server where this data could be analyzed.  This data is collected using a sensor for a specific aspect of fitness or health.  Such data could be visualized and some analytics could be done to help a person.
+Objective Self: Using multiple wearable sensors, people collect 24/7, many different attributes related to fitness and health.  Mobile phones and other sensors also collect information related to travel and location of activities that could be converted into different events in their personal life.  Information from personal calendar, social networks and other similar sources is also used.  All this information can be correlated to analyze lifestyle and help people in fitness and health.
+We address more detailed aspects of observing and analyzing all data sources to get objective self health information and identify needs to build a powerful platform to accomplish this.
+(Will Continue)
+
+								Tagged on: big data, Objective Self, Persona 
+
+
+
+By Ramesh |
+    				February 22, 2013 |
+    				             		General Updates, Prospecting Information |
+             	 
+    				             		No Comments |
+             	 		          				
+    			
+
+
+← RIP My four legged son
+Creating Health Persona →
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

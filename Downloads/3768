@@ -1,0 +1,185 @@
+https://ngs.ics.uci.edu/towards-weaving-the-visual-web
+
+
+
+
+
+
+
+
+TOWARDS WEAVING THE VISUAL WEB – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				TOWARDS WEAVING THE VISUAL WEB    			
+
+
+Emergence of the Document Web
+About 25 years ago, people wanted to share documents that were being created on computers that were connected. We had tools like FTP to go and fetch these documents, if we knew where these documents are, in which format they are stored, and how to get to those documents. World Wide Web was invented to solve that problem. WWW grew so fast that discovering the most relevant documents, among too many seemingly related became a solemn problem. Bookmarks were good, but soon they became too many to remember. Taxonomy based organization of the list of documents of a class was just too overwhelming to deal with. Ranking based search engines solved that problem, which brings to today when it is relatively effortless to discover information on the Web. You want to know something, just Google it! No need to remember where is the information or under what taxonomy it could be found. In fact practically, if Google does not find something; it does not exist.
+There is a catch, however, this information is only discovered if it is available in text form. This was not that big of a problem until recently, because much of the information was in text form. Most documents were in text form, and even the information that was in visual form, and usually had captions.
+A good lesson in the way documents evolved from the days when people wrote on stone tablets to today’s Web with all its tools is that volume determines organization. When the technology for preparing and sharing documents was tedious and expensive, we had only a few documents, and, a very simple organization was enough. As the volume increased, we needed libraries and all classification and indexing infrastructure to organize and manage books in a physical space. Electronic technology allowed rapid creation of documents that could be replicated and shared very easily. This resulted in a major increase in volume of documents. Two other important new dimensions were added in documents with the arrival of electronic media. The first was that documents could be added or removed by anybody. There is no central control on creation, modifications, and deletion of documents. The second important fact was linking of documents through referencing mechanism. At one time people referred to other documents through an explicit link to references.
+
+The World Wide Web was invented to enable easy creation, sharing, and collaboration of documents. The creation, maintenance, and deletion of document became a decentralized and democratic process. Anyone could create a document and could delete it when she wanted to. Also, they could refer to any document and link to it so people don’t have to follow the traditional sequential control. For the first time reading a document was no longer a linear process. Once again the availability of the Web resulted in exponential growth of documents posing a new challenge in the organization and discovery of information. This challenge of finding all these decentralized documents containing relevant information was solved using search engines that presented relevant documents in rank ordered form. Search engines regularly crawl the Web and index them based on keywords. Therefore, anyone could search for relevant documents using this index. Search engines, particularly Google, revolutionized discovery of information. Just 15 years ago, no one could have imagined that finding information about any topic would be as effortless as selecting right keywords.
+Visual Information
+Visual processing in human sensory system is dominant. Most of our sensory receptors are in our eyes and almost all – around 90% — information communicated to brain is visual. It is believed that brain processes visual information 60,000 times faster than text.
+Though visual information and experiences have always been very important for humans, there was no technology to capture visual experiences easily until 1826 when the technology to capture moments in the form of photographs was invented. The photography technology kept improving slowly. People started capturing photos of important events and saving them. Photos became a secondary memory for people and the most important possessions for most people. However, until recently capturing photos was expensive and time consuming so it played secondary role in communicating information. That was definitely true until the end of the last century.
+Photos were considered important from earliest days because vision is the most compelling sense we have, and photos are visual evidence and reminder of a moment in time.. The information content of a picture is also very different than text. Because text does not capture tonality and emotions of a speaker, it is a representation of speech that in turn is based on attaching symbols, called words, to entities, events, and concepts. By comparison, a photograph captures rich description of entities and relationships among them at a particular point in time. The common phrase – a photo is equal to thousand words — is commonly used to represent this fact about photos. No wonder people were interested in advancing this visual technology to capture detailed information that is very compelling also. To capture the dynamic nature of the world, video technology was developed which later was combined with the second most powerful sense for humans, the audio.
+Clearly, visual and audio senses bring more natural and compelling experiential information to humans. The last two decades of the last century were devoted to combining these unique characteristics of different media to create documents that will use appropriate medium for appropriate level of experiential information to people. Progress in electronic media allowed this and because this makes things much more natural, this was adopted very rapidly.
+Welcome to the Modern World
+The twenty-first century started out differently for information communication technology. Digital cameras were already making digital photos easy to capture and cost almost nothing. And then came the wave of phone cameras. Now we have most of the human beings carrying at least one camera ready to capture photos of everything that they consider event remotely interesting and important. Capturing, storing, and sharing photos have now become easier than corresponding operations using text. This is a major change the way information gets created and consumed. Can you imagine how many photos will be captured this year? According to estimates the number is 900 Billion!
+In the last few years, the Web started becoming increasingly visual. Just a few years ago, people shared their status on the Web by describing what they were doing in a few words. Once photo capture became easy, these updates started including photos. Now due to popularity of smart phones, these status are increasingly based on photos. In just a few years, from text based personal reports we saw a transformation to photo based reports. Since smart phones have two cameras – one to capture the world and the other to capture you, in the last year a completely new style of capturing and reporting – called selfies — has become popular. To add to all this, to capture dynamics of events cameras are emerging that continuously capture action that people are likely to share. The trend is to share not only carefully produced video, but also spontaneously captured short video. Videos of 5 seconds to 30 seconds are being used for personal reporting.
+
+All these trends have resulted in making the Web increasingly what people have started calling Visual Web (VW). Recently many people have started talking about it. See a pioneering article by Lauren Orsini. Recently On Malik also wrote a very insightful essay on this topic.
+In addition to the volume of photos, there are two other dimensions that are very important in the transformation that is taking place. The photos of today are not same as the photos captured in the last century. First the non-digital as well as early digital cameras captured only intensity values and were truly only a visual capture device. Increasingly cameras use many sensors, GPS, accelerometers, Gyroscopes, and save information about the focal length, aperture, use of flash, distance to objects , and such. Thus, a camera is not just a photo capture device but it is truly a moment capture device that captures the intention of photographer as the event. Your photo knows where it was taken, when it was taken, how the objects were captured and such. A new field of computational photography has started emerging. This is making photo not only a visual capture device, but also a much more event capture device.
+The second major transformation is in its early stage, but will also be revolutionary. Computer vision has been slowly developing techniques to recognize objects and activities. Availability of a large volume of photos has allowed developing increasingly better recognition techniques. These techniques still are in early stages, but their accuracy is now in the range that will allow development of applications. Thus, when you capture a photo, your camera, basically your smart phone, may use other sensors, use knowledge from the Web, and its own computing power to really understand the photo and assign those 1000 words that were supposed to describe a photograph.
+Web of Photos
+The WWW was the result of linking documents. The creator of the document introduced these explicit links. This linking process indirectly created a document of documents. One could start reading a document and then could visit all related documents without leaving the first document. And the process of visiting documents is unrestricted so one could go from the first document to second and from their to the third, and then to fourth, and so on. That resulted in the unique organization that we now have and cannot live without.
+A photo represents a moment. The moment is usually related to an event at which more photos may have been captured. Each photo is taken at a place, where many different people may have captured photos at the same time or at different times. The photo may contain people who appear in other photos. And a photo may contain many objects that also may also appear in other photos. Thus, a photo maybe linked to many other photos along different dimensions.
+While seeing a photo, I may see my friend Mark in it and may want to go to other photos related to Mark. While seeing some photos of Mark, I notice that he was at some interesting looking building – probably an old church. I then want to see all photos of the location and in the process I find many people in a party there, so I decide to see what event that was and discover that Mark got married at this church to Mary who was also known to me.
+Photos already form a Web that is created by implicit links. These implicit links are based on the metadata and some analysis of pixel values. Technology may be developed to introduce explicit links by the owners in their photos. Just to get an idea of what this means, look at the following Figure which shows a photo in the center that has links to other photos as shown in there. Each photo linked to the central photo has their own links. This is the Visual Web (VW). When I see the photo in the center, I can decide to traverse to any of the linked photos, which again may allow me to traverse to other photos. This web may offer us some very interesting opportunities to explore, starting with the one photo that we see in the center. Currently, that one photo is just one photo. We ignore the Web that exists around it.
+
+There are many interesting opportunities in creating VW and exploring myriad applications that may be facilitated by it. As shown above one of the lowest hanging fruit here is to utilize implicit links that already exists due to the metadata related to the context of the photo. Next, maybe links that can be created by automatic content analysis, of course again context may help in this also. Once these two implicit links have been used, the next challenge will be to consider how to create explicit links.
+As in WWW, a major challenge will be to sort the links from a photo (like the pages containing the keyword) using some ranking approach. Pagerank is considered a major reason for the success of Google and other search engines. Clearly, there are many factors that are used in ranking relevant documents. What will be the equivalent of those in VW? Today, we may not have a photorank, but I am sure people will develop that and use it systematically to traverse VW. In a few years, it may be possible to use VW to show all related moments even before you capture a moment using your phone, and even use this for commercial purposes. A very interesting case of the VW will be a personal VW which will be based around the social and interest graphs to show all moments and photos of interest to a person.
+The next few years will see the rise of VW. Exciting times.
+
+
+
+By Ramesh |
+    				December 13, 2014 |
+    				             		Technical Thoughts |
+             	 
+    				 		          				
+    			
+
+
+← Back to Cyber – 3: Now and Future
+Photo Album 2015: Breaking the Boundaries →
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

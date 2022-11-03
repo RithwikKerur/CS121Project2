@@ -1,0 +1,71 @@
+http://www.ics.uci.edu/~skong2/pollen_BIC.html
+
+
+automated pollen recognition system - Shu Kong (Aimery) - UC Irvine - Computer Vision
+
+
+
+
+
+
+
+
+
+which pollen species?
+
+
+
+
+Automated Pollen Recognition System
+
+Shu Kong,
+          Derek Haselhorst,
+          Surangi W. Punyasena,
+          Charless Fowlkes
+
+
+Last update: June 6, 2017.
+
+
+
+
+
+
+
+
+
+
+
+
+This is about an automated pollen recognition system.
+The system automatically scans a sample with various z-plane (focus),
+detect pollen grains and segment them,
+and recognize the species.
+
+
+Dataset, models and writeup will be uploaded.
+
+
+keywords: proposal detection, segmentation, detection, classification, deep learning, convolutional neural networks, multi-instance learning, fine-grained classification.
+
+
+
+
+
+
+
+
+
+
+[github repo]
+[dataset]
+[models]
+[report]
+
+
+
+
+
+
+
+

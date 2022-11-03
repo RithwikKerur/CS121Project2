@@ -1,0 +1,147 @@
+http://www.ics.uci.edu/~kay/courses/i42/hw/labF.html
+
+
+
+
+
+
+Lab Assignment F
+
+
+
+
+
+
+
+Informatics 42 • Winter 2012 • David G. Kay
+  • UC Irvine
+ Lab Assignment F
+This assignment is due at the end of lab on Wednesday, March 14. Turn in whatever you have completed by that date; since it's the end of the quarter, there isn't much leeway for later submissions.  Please read the introductory instructions carefully.
+
+For this lab, you will implement some more
+enhancements to the theme park simulator.  There are nine parts to the
+assignment, each of which is independent.  You don't have to do them
+in order, and you don't have to do all of them (we don't expect
+anyone to do all of them).  More important than how many of the parts
+you implement is that what you do implement is thorough and correct.
+ Partial but correct implementations (that state clearly what they do and
+don't include) will receive much more credit than attempts to do everything, but
+that contain bugs or other unexpected or undocumented behavior.  It's
+your choice whether you make your enhancements cumulatively (e.g., implementing
+part (b) on top of the changes you made for part (a)) or independently
+(i.e., starting from the base simulator for each part).
+
+There is ample opportunity in many of these
+parts for you to make design decisions in three different areas:  the precise
+functionality and behavior of the enhancement, the user interface, and the
+design of the code you write.  A thorough discussion of the design choices
+you made in each area will contribute to your score.  In that way, a group
+that thought a lot about the user interface they designed for one of the
+parts, describing clearly the rationale for their design choices, may get
+as high a score as a group that implemented more features (correctly) but
+that followed a straightforward design approach without much analysis or
+description.  We expect every group actually to implement some of these
+features, but thorough consideration and description of design choices can
+be as valuable as raw coding.
+Along with your code, submit a short document explaining very clearly what parts of the assignment you completed correctly and including the discussion and analysis mentioned in the previous paragraph.
+
+The simulator's home page is at http://www.ics.uci.edu/~kay/courses/i42/wildride/.
+ 
+
+(a)  Using the tkinter examples as
+a basis, create a setup or preference panel for the simulator.  The panel
+should display the default parameters, allow the user to change those values,
+and include a button for starting the actual simulation.
+
+You should allow the user to set such values
+as opening time, closing time, park entrance, park exit, the name of the
+customers file, the name of the rides file, and (if you implement the timer
+code below) the simulation speed.  If there are other constants in the code,
+consider adding them to your preference pane.
+A good way to approach designing many GUIs is to start with the model/view distinction. Write a separate function to supply the information you'll want your GUI to supply, but first write an equivalent function that's text-based, prompting the user for the needed information (or calculating it). Once that text-based version works, you can write the GUI version (with the same parameters and return type).
+
+Think about the GUI components that make the
+most sense for entry of each kind of information.  "Making sense"
+in this context means minimizing effort (both in terms of typing and in
+terms of thinking) for the user and taking advantage of conventions that
+other software follows.  
+
+You should make your display pleasing and legible,
+using the pack or grid layout manager.
+
+(b) Implement the commands that write complete statistics out to a file; these should include the summary statistics followed by a line of statistics for each customer or each ride. Choose a format that is complete, concise, and easy to scan.
+
+(c) Using your plan from Lab E (or
+your partner's plan, or a new plan), change the simulator's tick
+length from one per minute to one per second.
+ Then re-run your tests (rescaling the data,
+  too, of course) and see whether the results are significantly different.
+(d)  Using Tkinter's Canvas widget, implement a graphical display for the overview 
+  statistics printed for the customers and for the attractions.  (Bear in
+  mind the general principle that every pixel should contribute to conveying
+  information.  Don't get carried away with fancy decoration.)
+
+(e)  Using Tkinter, create a real-time graphical display so that some aspect of
+the simulation can be viewed while the simulation is running.  Here are
+some ideas:
+
+
+Display the queue length for each ride (or
+selected rides)
+
+
+Plot a map of the park showing the location
+of each customer
+
+
+Plot a map of the park showing the location
+of each ride, perhaps using a color to indicate the estimated wait
+
+
+(f)  Implement store-type rides as 
+mentioned in the problem description.
+
+(g)  Create a GUI for the customer-file
+generator you created in Lab E.  You might integrate this with the simulator
+itself, perhaps having a pane or button in the setup panel that allows the
+user to generate the customer data.  You might also implement a way for
+users to describe random numbers generated according to some distribution
+(other than randomly across the whole space of possible values).
+
+If you'd like to generate ride data using
+a grammar-based approach and turn that into a GUI, too, go right ahead.
+
+(h)  Change the implementation of one
+or more of the data structures you identified in the Ninth Homework to make
+them more efficient.  Be sure to describe your choices and their performance
+relative to the original.
+
+(i)  Create a GUI progress bar that
+shows how far a simulation has come (or has to go until completion).  
+
+The usual warnings, wisdom, and what-to-dos
+apply to this assignment:
+
+
+Get started early.
+
+Read and re-read the specifications.
+
+Do this with a partner you haven't worked
+with yet this quarter and make sure Joel knows whom you're paired with.
+
+Use Checkmate for your submissions as usual;
+each pair should submit just one solution.
+
+The usual grading criteria
+for lab assignments apply.
+
+
+Fill out a partner evaluation at EEE. Do this by the end of the day on Friday, March 16, or you won't get credit.
+
+
+
+Written by David G. Kay and Jeff Ridenour,
+Winter 2005; modified Winter 2006, Winter 2008, and Winter 2012.
+
+

@@ -1,0 +1,100 @@
+http://www.ics.uci.edu/~kay/courses/i42/refs.html
+
+
+
+
+
+
+Informatics 42 References
+
+
+
+
+
+
+
+
+Informatics 42 • Winter 2012 • David G. Kay• UC Irvine
+Supplementary References
+
+Each of these references supplements the course
+material in some way.  They're not required unless we say otherwise.
+If you'd like to suggest additions to this page, please feel free.
+
+Python textbooks:
+
+Introduction to Computing Using Python: An Application Development Focus, by Ljubomir Perkovic (Wiley) 
+Python for Software Design: How to Think Like a Computer Scientist, Python 3.2 version, by Allen B. Downey (Cambridge)
+A reference for the Tkinter GUI programming library is available at python.org.
+There's a large selection of Python learning materials on the python.org site; an overview page has links to pages for relative novices and for the more experienced. If you use any of these materials, let us know how they worked for you.
+
+
+
+
+Python practice problems:
+
+codingbat.com/python provides dozens of simple practice programming problems, categorized by type. Enter your solution and it will test it for you.
+
+
+
+
+Python interpreter software can be downloaded. There are also IDEs to automate some tasks:
+
+IDLE is the simple Python IDE that comes with the software installation. It will be our default tool.
+
+Eclipse:
+          This is a popular open-source professional  development environment, particularly in the Java community.
+          Its PyDev package configures it for Python. Eclipse does a lot; it's very complex; it's highly configurable.
+
+
+PyCharm and Wing are commerial alternatives.
+      
+
+
+
+
+
+    Shorter documents about various aspects of
+      our course
+
+
+Pair Programming Illuminated, by Laurie
+            Williams and Robert Kessler.  This book describes the practices and advantages
+      of pair programming.
+Joel on Software has a brief and well-written article on functional programming in JavaScript, leading to a description of Google's MapReduce.
+
+
+Caring for Your Wrists,
+            by TidBITS Publishing.  A two-page poster with good advice on avoiding repetitive
+            stress injuries.
+
+
+Typographic Design for Computerized Text,
+          by David G. Kay.  Two pages on the basic principles of typographic readability.
+A BNF grammar of Scheme is part of the formal syntax section of the official
+        Scheme definition (The Revised^5 Report on Scheme). 
+A grammar of Python is also available. No surprise—it's a lot longer.
+
+
+
+
+Comparing programming languages: An eclectic list of informal references.
+
+Programs in over 1000 different languages to print the "99 Bottles of Beer" song
+Brief information on 2500 languages
+History of Programming Languages site based on the foregoing. 
+
+
+
+
+The Informatics faculty has compiled a far-ranging
+    list of books
+
+
+
+
+
+David G. Kay, kay@uci.edu
+
+
+

@@ -1,0 +1,151 @@
+https://www.cs.uci.edu/zotbins-and-zero-waste-anteaters-support-uc-goal-for-2020
+
+
+
+
+ZotBins and Zero Waste Anteaters Support UC Goal for 2020 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ this is a widget called second front page widget area
+
+Explore
+
+Contact Us
+
+
+Faculty
+Research
+
+Research Areas
+Research Centers
+
+
+Graduate Degrees
+
+Computer Science Programs
+Current Graduate Students
+
+
+Undergraduate Degrees
+News  & Events
+
+News
+Seminar Series
+Distinguished Lecture Series
+Research Showcase
+
+
+Apply Now
+
+Undergraduate Admissions
+Graduate Admissions
+Faculty Candidates
+
+
+ZotBins and Zero Waste Anteaters Support UC Goal for 2020
+January 13, 2020 
+For almost a decade, the University of California has been pushing for zero waste by 2020, even implementing a #MyLastTrash campaign in 2017. The once far-off deadline is finally upon us, and although none of the 10 UC campuses have conquered the ambitious goal of diverting 90% of waste from local landfills, UCI is leading the pack at 80%. Now, as UCI approaches the finish line, it could get a boost from a group of ZerO Waste Anteaters (ZOWA) and their deployment of ZotBins.
+
+ZerO Waste Anteaters (ZOWA): (from left, front) Joshua Cao, David Pham, Danny Tran (alumnus), Owen Yang and Primal Pappachan; (from left, back) Anthony Luu, Diego Torres (alumnus), Sid Lau (alumnus), Marissa Lafreniere and Kathy Nguyen. (Not pictured: Grace Seung-Mi Choe, Mohammed Haque, Jesse Chong, Tedi Sr Zadouri and Marawin Chheang.)
+What Are ZotBins?The ZotBins System is a smart space initiative for zero waste. It comprises a web application as well as “smart bins” with sensors that collect real-time data about the amount of waste in each bin. The goal is to increase waste management efficiency and encourage more anteaters to get into the habit of minimizing waste.
+Students from the Donald Bren School of Information and Computer Sciences (ICS) came up with the idea two and a half years ago at UCI’s first IoT Hackathon. The hackathon was organized through the TIPPERS (Testbed for IoT-based Privacy-Preserving PERvasive Spaces) project, which is part of DARPA’s Brandeis program. During the two-day event, Joshua Cao, Owen Yang, Derek Feng and Marshall Nguyen started working on a waste management app for monitoring trash bins and increasing campus recycling. They were one of the teams selected to advance, and they received $2,000 in funding to complete their prototype.
+From Hackathon to DeploymentZOWA is a team of undergraduate students at UCI responsible for the design, development and deployment of ZotBins. The ZOWA team has grown to 11 members and has deployed five ZotBins — three in UCI’s West Food Court and two in Donald Bren Hall.
+ZotBins deployed in UCI’s West Food Court.
+UCI Graduate Research Assistant Primal Pappachan, who is part of the TIPPERS project, took on a mentorship role with the team soon after the IoT Hackathon. “As a TIPPERS member, I talked with them during the hackathon and was amazed with the innovativeness of the idea of using sensor data for achieving zero waste and sustainability,” he says. He helped connect the team to the TIPPERS data management system for smart spaces, which facilitates the development of applications based on the Internet of Things.
+“TIPPERS provides the necessary API to bridge the gap between the collected sensor data (such as weight data collected from a bin’s load sensor and connection metadata logged via Wi-Fi access points) and the semantic data (for example, the fact that a user recycled trash on the second floor of DBH),” explains Pappachan.
+ZOWA is advised by ICS faculty Sharad Mehrotra and Nalini Venkatasubramanian, as well as by Luyi Gui, an assistant professor in UCI’s Paul Merage School of Business. “This is indeed one of the most impressive and motivated groups of students I have come across over my 25 years of being a faculty member,” says Mehrotra. “They are passionate about reducing our carbon footprint and are using their knowledge and education to bring about a positive change on campus.”
+Mehrotra has also been impressed by their ability to connect with others. “In addition to working with us on the software and hardware design of the ZotBins system, they have connected with all the right people at UCI to deploy their prototypes and have recently even connected with a design team to help create apps that will make recycling more attractive.”
+The team has been actively collaborating with Anne Kreighoff, the facilities management sustainability program manager, and Rachel Harvey, the sustainability program manager for UCI Housing. They have also joined forces with the Digital Waste Bins group at UCI by integrating their smart displays for bins with ZotBins. Furthermore, members of the ZOWA team gave a presentation on ZotBins at UCI’s Sustainability Co-Curricular Working Group (SCWG), attended by various groups on campus working on sustainability initiatives.
+Although the team hasn’t yet publicly released the ZotBins app, Pappachan says the potential for behavior change is evident. “From talking with users who have interacted with already deployed ZotBins,” he says, “we know that ZotBins have made them more conscious of the trash they are throwing away and thus have been incentivizing better waste behaviors.”
+Overcoming ChallengesThe team has already overcome numerous technical hurdles in building a ZotBins prototype that is cheap, reliable and stable. “This required us to experiment with different designs of the waste bin, various kinds of sensors, and numerous configurations which put all of them together,” says Pappachan. “Calibrating sensors installed in each of these bins to accurately measure the values was challenging as well.”
+The ZotBins web app uses machine learning algorithms to automatically perform waste classification (landfill, compost or recycle), which requires a large amount of manually labelled training data. Pappachan notes that it’s also important to fine-tune the algorithms to detect the specific kinds of waste common in the area of deployment.
+The team iterated through various user interfaces as well — both for facilities management and for app users. “The main requirement of the web app was that it should get the user right into useful information without any noticeable delay,” he says.
+The team faced additional challenges with deployment in different places around campus and with management handled by the facilities team, as bins can malfunction at unpredictable times and those passing by might mess with the sensors or damage a bin. “To solve the first problem, we developed an error-detection suite that can detect and notify the associated personnel of any potential problems with the deployed ZotBin,” says Pappachan. “For the latter, we designed the bins such that the sensors are hidden from plain view, but we are still refining this design.”
+Increasing ZotBin Use and Reducing WasteTo better introduce ZotBins and the technology behind it to campus users, the team hosted a ZotBins Symposium in December. The symposium covered the data collection mechanism and object-detection algorithms, presented a demo of the ZotBins web app and discussed its various use cases, and explored the error detection and notification mechanisms. The symposium also featured two guest speakers: UCI postdoc fellow Roberto Yus presented the UCI TIPPERS system, while Yuanyuan Feng of Carnegie Mellon University presented an IoT privacy-aware infrastructure that can be used to advertise deployed ZotBins.
+The team plans to hold another ZotBins Symposium later in the year and is working to expand the number of ZotBin deployments on campus. “In addition, we will begin the development of a mobile application targeted toward students and faculty with features such as locating nearby bins and holding zero-waste-focused competitions,” says Pappachan. “The automatic waste classification will be incorporated into this app to help users determine how to properly dispose of their waste.” Furthermore, the team has reached out to city of Irvine officials to explore the deployment of ZotBins off campus as well.
+“I have been fortunate to work with Owen Yang, Joshua Cao and Marissa Lafreniere, team leaders of ZOWA,” says Pappachan, adding that every single member of ZOWA is highly dedicated to the project. “They are always looking to improve ZotBins,” he says. “With their hard work and persistence, I feel confident that ZOWA can achieve its purpose of helping communities reach the goal of zero waste.”
+So although UCI might have come up just short of the original goal, with support from groups such as ZOWA, it’s still on track to be the first zero waste campus in the UC system — and is already working to expand its efforts to the wider community.
+— Shani Murray
+« Ph.D. Student Phanwadee Sinthong and Professor Carey Win Best Student Paper AwardUCI-led Project Seeks to Combat Wildfires »
+
+Latest news
+
+
+Graduate Student Spotlight: Markelle Kelly Highlights the Human Side of Computer Science
+October 15, 2022
+
+
+UCI and BlackBerry Win NSF Convergence Accelerator Grant
+October 12, 2022
+
+
+BBC: “The Computer Errors From Outer Space” (Sangeetha Abdu Jyothi quoted)
+October 12, 2022
+
+
+Senior Spotlight: Tennis Player and CS Major Matthew Sah Serves Up Aces On and Off the Court
+September 28, 2022
+
+
+Register Today for the Southern California AI & Biomedicine Symposium
+September 20, 2022
+
+
+
+
+ 
+
+
+
+
+
+© 2022 UC Regents
+Feedback
+Privacy Policy
+
+
+
+ 
+
+
+
+

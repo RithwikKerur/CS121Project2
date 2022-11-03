@@ -1,0 +1,98 @@
+http://sli.ics.uci.edu/Classes/2012S-274b-ProjectIdeas
+
+
+
+SLI | Classes / 2012S-274b-ProjectIdeas 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Classes /
+2012S-274b-ProjectIdeas
+
+
+Some possible project ideas and associated papers.  You do not need to choose something on this list; it is just a list of possibilities to get you started.  You may structure your project exploration around a general problem type, algorithm, or data set, but should explore around your problem, testing thoroughly or comparing to alternatives.
+
+You should turn in a write-up (< 10 pages) describing your project and its outcomes, similar to a research-level publication (journal or CS conference).  This is due by 5pm Tuesday 6/12, to EEE.
+
+Gaussian and Gaussian-like models:
+Covariance selection in Gaussian models (learning sparse inverse covariance structures)
+L1-regression for variable selection, http://projecteuclid.org/euclid.aos/1152540754
+Graphical Lasso, http://www-stat.stanford.edu/~tibs/ftp/graph.pdf
+Gaussian copula models (Gaussian covariance with non-Gaussian marginal distributions)
+http://jmlr.csail.mit.edu/papers/volume10/liu09a/liu09a.pdf, http://www.stat.washington.edu/research/reports/2009/tr555.pdf
+Stable distribution models
+http://arxiv.org/abs/1008.5325
+Discrete models:
+CDF models (model a cumulative distribution rather than a PDF)
+http://jmlr.csail.mit.edu/papers/volume12/huang11a/huang11a.pdf
+Conditional random fields
+Intro, http://arxiv.org/abs/1011.4088
+Structured prediction / Max-margin networks
+
+Deep belief networks 
+http://www.cs.toronto.edu/~hinton/csc2515/deeprefs.html
+Contrastive divergence
+
+Learning structure
+Structural EM
+http://www.cs.huji.ac.il/~nir/Abstracts/Fr2.html
+Thin junction trees (structure learning with bounded tree-width)
+http://books.nips.cc/papers/files/nips14/AA50.pdf, http://books.nips.cc/papers/files/nips20/NIPS2007_1021.pdf
+Independence testing based structure estimation
+http://www.jair.org/media/2773/live-2773-4523-jair.pdf
+Latent variable models
+Spectral methods
+http://arxiv.org/abs/1203.0683, http://arxiv.org/abs/1107.1283
+
+More ideas from other schools:
+http://www.cs.cmu.edu/~guestrin/Class/10708/projects.html
+http://www.cis.upenn.edu/~taskar/courses/cis620-sp09/spring07_projects.html
+
+
+
+
+
+
+ Last modified May 08, 2012, at 03:20 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

@@ -1,0 +1,258 @@
+https://cml.ics.uci.edu/2014/01/winter-2014
+
+
+
+
+
+Winter 2014 | Center for Machine Learning and Intelligent Systems
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+University of California, Irvine
+
+
+Menu
+Skip to content
+Home
+About CML
+
+About us
+News
+Contact Us
+
+
+People
+
+Faculty
+Alumni
+
+
+Events & Seminars
+
+AI/ML Seminar Series
+AI/ML Seminar Live Stream
+CML Distinguished Speakers
+ML Reading Group
+
+
+Education & Resources
+
+Courses
+Books
+
+
+UCI Machine Learning Archive
+Sponsors & Funding
+Subscribe to CML List
+ 
+
+
+
+
+
+Winter 2014 Standard
+
+January 1, 2014
+AIML
+
+
+
+
+
+
+
+  
+
+
+Jan 13Bren Hall 40111 pm
+
+
+Peter Grunwald CoordinatorInformation-theoretic Learning GroupCentrum voor Wiskunde en Informatica (CWI) & Leiden University
+
+Learning the learning rate: how to repair Bayes when the model is wrong Bayesian inference can behave badly if the model under consideration is wrong yet useful: the posterior may fail to concentrate even in the large sample limit.  We demonstrate this using a simple linear regression example. We then introduce a test that can tell from the data whether we are heading for such a situation. If we are, we adjust the learning rate (equivalently: make the prior lighter-tailed, or penalize the likelihood more) in a data-dependent way. The resulting “safe-Bayesian” estimator continues to achieve good rates with wrong models. In classification, it learns faster in easy settings, i.e.  when a Tsybakov condition holds. The safe estimator is based on empirical mixability/exp-concavity, which generalizes an idea from worst-case online prediction. Thus, safe estimation connects three paradigms: Bayesian inference, (frequentist) statistical learning theory and (individual sequence) on-line prediction.
+For an informal introduction to the idea, see Larry Wasserman’s blog: http://normaldeviate.wordpress.com/2012/06/26/self-repairing-bayesian-inference/
+
+
+  
+
+
+Jan 20
+
+
+Martin Luther King, Jr Day(no seminar)
+
+
+
+  
+
+
+Jan 27Bren Hall 40111 pm
+
+
+Fei ShaAssistant ProfessorDepartment of Computer ScienceUniversity of California, Los Angeles
+
+Learning kernels for visual domain adaptationStatistical machine learning has become an important driving force behind many  application fields.  By large, however, its theoretical underpinning has hinged on the stringent assumption that the learning environment is stationary. In particular, the data distribution on which statistical models are optimized is the same as the distribution to which the models are applied.
+ Real-world applications are far more complex than the pristine condition. For instance, computer vision systems for recognizing objects in images often suffer from significant performance degradation if they are evaluated on image datasets that are different from the dataset on which they are designed.
+ In this talk, I will describe our efforts in addressing this important challenge of building intelligent systems that are robust to distribution disparity. The central theme is to learn invariant features, cast as learning kernel functions and adapt probabilistic models across different distributions (i.e., domains). To this end, our key insight is to discover and exploit hidden structures in the data. These structures, such as manifolds and discriminative clusters, are intrinsic and thus resilient to distribution changes due to exogenous factors. I will present several learning algorithms we have proposed and demonstrate their effectiveness in pattern recognition tasks from computer vision.
+ This talk is based on the joint work with my students (Boqing Gong and Yuan Shi, both from USC) and our collaborator Prof. Kristen Grauman (U. of Texas, Austin).
+
+
+  
+
+
+Feb 3Bren Hall 40111 pm
+
+
+Rosario CammarotaSystem Security ArchitectQualcomm Research
+
+Automatic construction of program optimization strategiesAn optimization strategy is a mean to improve program performance, e.g., through architectural, execution and development environment enhancements (including new architectural mechanisms/instructions, the use of specialized libraries, new compiler optimizations or compiler optimization sequences, new algorithms). Constructing complex optimization strategies by composition of simpler optimizations has been shown to provide significant performance improvements to programs. However, composing simpler optimizations is non-trivial because (a) the combination of possibilities that are available is large and (b) the fact that the effect of the interplay of basic optimizations to program performance is difficult to predict.  This talk will first briefly survey previous work on the application of machine learning techniques to construct program optimization strategies and second proposes a practical and widely applicable technique to construct program optimization strategies based on recommendation systems. Preliminary results are shown to support that the proposed technique is equally applicable to several compelling performance evaluation studies, including characterization, comparison and tuning of hardware configurations, compilers, run-time environments or any combination thereof.
+
+
+  
+
+
+Feb 7Bren Hall 40111pm
+
+
+Joachim M. BuhmannProfessorComputer Science DepartmentETH Zurich
+What is the information content of an algorithm?Algorithms are exposed to randomness in the input or noise during the computation. How well can they preserve the information in the data w.r.t. the output space? Algorithms especially in Machine Learning are required to generalize over input fluctuations or randomization during execution.  This talk elaborates a new framework to measure the “informativeness” of algorithmic procedures and their “stability” against noise.  An algorithm is considered to be a noisy channel which is characterized by a generalization capacity (GC). The generalization capacity objectively ranks different algorithms for the same data processing task based on the bit rate of their respective capacities. The problem of grouping data is used to demonstrate this validation principle for clustering algorithms, e.g. k-means, pairwise clustering, normalized cut, adaptive ratio cut and dominant set clustering. Our new validation approach selects the most informative clustering algorithm, which filters out the maximal number of stable, task-related bits relative to the underlying hypothesis class. The concept also enables us to measure how many bit are extracted by sorting, feature selection or minimum spanning tree algorithms when the respective inputs are contaminated by noise.
+Bio:Joachim M. Buhmann leads the Machine Learning Laboratory in the Department of Computer Science at ETH Zurich. He has been a full professor of Information Science and Engineering since October 2003.  He studied physics at the Technical University Munich and obtained his PhD in Theoretical Physics. As postdoc and research assistant professor, he spent 1988-92 at the University of Southern California, Los Angeles, and the Lawrence Livermore National Laboratory. He held a professorship for applied computer science at the University of Bonn, Germany from 1992 to 2003.  His research interests spans the areas of pattern recognition and data analysis, including machine learning, statistical learning theory and information theory. Application areas of his research include image analysis, medical imaging, acoustic processing and bioinformatics. Currently, he serves as president of the German Pattern Recognition Society.
+Co-sponsored with the Institute for Genomics and Bioinformatics
+
+
+  
+
+
+Feb 10Bren Hall 40111 pm
+
+
+Andrew GelfandPhD CandidateDepartment of Computer ScienceUniversity of California, Irvine
+
+On Max-Product BP, MAP inference and Weighted MatchingsThe problem of finding the most probable, or MAP, configuration of a graphical model can also be cast as an integer linear programming (ILP) problem. Formulating the MAP problem as an ILP has led to the development of many approximate inference methods based on linear programming (LP) relaxations, including Tree-Reweighted Belief Propagation, MPLP and Max-Sum Diffusion.  Recent work suggests that going in the opposite direction and posing an ILP as a MAP problem may also prove beneficial. In this talk, I’ll focus on a classic combinatorial optimization problem, the weighted matching problem, and show that if it is posed as a MAP inference problem then the Max-Product Belief Propagation (BP) algorithm always converges to the MAP configuration. Remarkably, this is true even though the weighted matching graphical model is loopy and BP is neither guaranteed to converge, nor be correct in such models. I’ll then discuss a cutting plane approach to solving the weighted matching problem that utilizes the BP algorithm to iteratively tighten the LP relaxation of the matching ILP. This line of work improves our understanding of the performance of the loopy BP algorithm in general and further strengthens the theoretical link between message passing algorithms and optimization theory.
+This talk is based on joint work with Misha Chertkov (Los Alamos National Lab) and Jinwoo Shin (KAIST University).
+
+
+  
+
+
+Feb 17
+
+
+President’s Day(no seminar)
+
+
+
+  
+
+
+Feb 24Bren Hall 40111 pm
+
+
+Marco LevoratoAssistant ProfessorDepartment of Computer ScienceUniversity of California, Irvine
+
+Sparse approximation methods for large scale network controlThe explosion of the number of devices capable of transmitting and receiving information connected to wireless and wired communication infrastructures, both for human-to-human and machine-to-machine interaction, is forcing a technological transition to a different inter-networking model. The communication infrastructure is merging from a collection of distinct networks to a single super-network deeply integrated with heterogeneous sub-systems. Mobile health-care, smart energy grids and social networks are just examples of complex systems interoperating with the global communication infrastructure. Adaptive learning and control are the key to empower the next generation of communication networks with the ability to operate and interoperate in heterogeneous environments and with heterogeneous sub-systems. However, the high complexity of these systems discourages the use of traditional tools in practice. In this seminar, I will discuss a novel framework for online learning and optimization in complex inter-networked systems based on sparse approximation theory and wavelet analysis. The key observation is that communication protocols, and supposedly natural and human phenomena, induce a structured behavior of the stochastic process tracking the state of the system. This induces a regular structure at different time scales (hop number) of the graph modeling state transitions, and enables dimensionality reduction based on graph wavelet analysis and graph filtering. Sparse approximation algorithms can be then employed to dramatically reduce the number of observations needed to estimate fundamental control functions mapped on the state space of the observed system.
+
+
+  
+
+
+Mar 3Bren Hall 40111 pm
+
+
+Hugo La RochelleAssistant ProfessorDepartment of Computer ScienceUniversité de Sherbrooke
+
+Deep Learning for Distribution EstimationDeep learning methods have shown to be powerful approaches for modelling a large variety of data (speech, computer vision, natural language, biological, etc.) and solve a vast range of machine learning tasks (classification, regression, etc.). In this talk, I will present my recent research on using deep neural networks for the task of distribution/density estimation, one of the most fundamental problem in machine learning. Specifically, I will discuss the neural autoregressive distribution estimator (NADE), a state-of-the-art estimator of the probability distribution of data. I will then describe a deep version of NADE, which again illustrates the statistical modelling power of deep models.
+Bio:Hugo Larochelle is Assistant Professor at the Université de Sherbrooke (UdeS). Before joining the Computer Science department of UdeS in 2011, he spent two years in the machine learning group at University of Toronto, as a postdoctoral fellow under the supervision of Geoffrey Hinton. He obtained his Ph.D. at Université de Montréal, under the supervision of Yoshua Bengio. He is the recipient of two Google Faculty Awards, acts as associate editor for the IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) and is a member of the editorial board of the Journal of Artificial Intelligence Research (JAIR).
+This talk co-sponsored with the Institute for Genomics and Bioinformatics.
+
+
+  
+
+
+Mar 10Bren Hall 40111 pm
+
+
+James FouldsPhD CandidateDepartment of Computer ScienceUniversity of California, Irvine
+
+Fast and Accurate Inference and Evaluation for Topic ModelsStatistical topic models such as latent Dirichlet allocation (LDA) have become a standard tool for analyzing text corpora, with broad applications to political science, the humanities, sociology, conversational dialog, and more.   In recent years there has been an explosion in the amount of digital text information available, leading to challenges of scale for traditional inference algorithms for topic models.  In this talk, I will present algorithms for learning and evaluating topic models, quickly, accurately and at scale.
+ In part one of the talk I will describe SCVB0, a stochastic variational Bayesian inference algorithm which exploits the collapsed representation of LDA.  The algorithm can fit a topic model to Wikipedia in a matter of hours, and to the NIPS corpus of machine learning articles in seconds.  It is also extremely simple and easy to implement.
+ The second part of the talk considers the problem of evaluating topic models by computing the log-likelihood of held-out data, a task which requires approximating an intractable high-dimensional integral.  Annealed importance sampling (AIS), a Monte Carlo integration technique which operates by annealing between two distributions, has previously been successfully used to evaluate topic models.  We introduce new annealing paths which exhibit much lower empirical variance than the previous AIS approach (albeit at the cost of increased bias when given too few iterations), facilitating reliable per-document comparisons of topic models. We then show how to use these paths to evaluate the predictive performance of topic model learning algorithms on a per-iteration basis. The proposed method achieves better estimates at this task than previous algorithms, in some cases with an order of magnitude less computational effort.
+
+
+  
+
+
+Mar 17
+
+
+Finals Week(no seminar)
+
+
+
+
+
+
+
+Post navigation
+← Fall 2013 ICS grad students take second place in sbv IMPROVER competition →
+
+
+
+
+ 
+Search
+
+
+
+ 
+
+
+(c) 2015 Center for Machine Learning and Intelligent Systems
+
+WordPress/BonPress
+
+
+
+
+
+

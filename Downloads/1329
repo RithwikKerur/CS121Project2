@@ -1,0 +1,127 @@
+http://plrg.ics.uci.edu/pingpong
+
+
+
+
+
+
+
+
+PingPong – Programming Languages Research Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+									Programming Languages Research Group								
+
+
+
+
+
+
+Brian Demsky
+Students
+Publications
+Software
+
+Software Verifiers
+
+PSan
+Yashme
+Jaaru
+Satune
+C11Tester
+
+
+Software for Relaxed Memory Models
+Irvine Research Java Compiler
+Views
+Smart Home
+
+Fidelius
+IoTCheck
+PingPong
+Vigilia
+
+
+
+
+Navigation
+
+
+
+
+ 
+
+
+
+
+
+
+
+PingPong: Packet-Level Signatures for Smart Home Devices
+Smart home devices are vulnerable to passive inference attacks based on network traffic, even in the presence of encryption. We created PingPong, a tool that can automatically extract packet-level signatures for device events (e.g., light bulb turning ON/OFF) from network traffic. We evaluated PingPong on popular smart home devices ranging from smart plugs and thermostats to cameras, voice-activated devices, and smart TVs. We were able to: (1) automatically extract previously unknown signatures that consist of simple sequences of packet lengths and directions; (2) use those signatures to detect the devices or specific events with an average recall of more than 97%; (3) show that the signatures are unique among hundreds of millions of packets of real world network traffic; (4) show that our methodology is also applicable to publicly available datasets; and (5) demonstrate its robustness in different settings: events triggered by local and remote smartphones, as well as by home-automation systems. 
+Please read our PingPong paper from here to find out more.
+Downloads
+Please get the source code and the PDF documentation for PingPong using git. After the download process is over, you can find the documentation in the PDF format inside the folder pingpong.
+     git clone git://plrg.eecs.uci.edu/pingpong.git
+Please get the datasets for PingPong here.
+See Also
+The PingPong source on Gitweb:
+http://plrg.eecs.uci.edu/git/?p=pingpong.git
+Disclaimer
+We make no warranties that PingPong is free of errors. Please read the paper and the documentation file so that you understand what the tool is supposed to do.
+Contact
+Please feel free to contact us for more information. Bug reports are welcome, and we are happy to hear from our users.
+Contact Rahmadi Trimananda at rtrimana@uci.edu or Brian Demsky at bdemsky@uci.edu for questions about PingPong.
+Copyright
+Copyright © 2020 Regents of the University of California. All rights reserved.
+Acknowledgments
+This material is based upon work supported by the National Science Foundation under grants CNS-1649372, CNS-1703598, OAC1740210, CNS-1815666, CNS-1900654 and a UCI Seed Funding Award at UCI.
+Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
+
+
+
+
+
+
+
+
+
+
+
+Back to Top 
+
+

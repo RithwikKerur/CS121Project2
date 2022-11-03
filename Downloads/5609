@@ -1,0 +1,180 @@
+http://sdcl.ics.uci.edu/research/past-projects/code-orb-2
+
+
+
+
+
+
+	Code Orb – Software Design and Collaboration Laboratory
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SDCL Software Design and Collaboration Laboratory
+
+
+
+
+
+
+Code Orb
+
+Description
+The Code Orb is an Eclipse plug-in that helps developers identify volatile code. A range of empirical studies have identified correlations between past states of code and its potential for future bugs. Example indicators are code that was buggy in the past, code that has been edited or seen by very few developers, code that was changed frequently in the recent past, code that has low test coverage, and others. When editing code, however, developers typically are not aware of these, and indeed have little opportunity to become aware other than to explicitly and manually search for such information, which they are unlikely to do. The Code Orb provides developers with continuous, line-by-line feedback on the volatility of the code they are currently editing, prompting them to be extra careful when editing code that has a higher risk of leading to future bugs.
+
+
+ 
+Highlights
+The Code Orb is designed to seamlessly integrate with the development environment, providing developers with an at-a-glance sense of code volatility. Highlights include:
+Multiple indicators – The Code Orb summarizes a variety of indicators of code volatility in a single visualization.
+Fine-grained information – Code volatility is calculated on a line-by-line level to provide developers with the most precise feedback possible.
+On-demand explanations – Each volatility indicator can be explored in detail, providing developers with the reasons why the code is more or less volatile.
+No overhead – The Code Orb operates autonomously and continuously, and does not need any developer input.
+ 
+Key publications
+
+N. Lopez and A. van der Hoek, The Code Orb – Supporting Contextualized Coding via At-a-Glance Views (NIER Track), Thirty-third International Conference on Software Engineering. New Ideas and Emerging Results Track, May 2011, pages 824-827. acm author-izer
+
+ 
+Project status
+This project is no longer active, its code is not available for download. For inquiries contact Nicolas Lopez
+Past developers
+
+Nicolas Lopez
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+Collaborators
+
+Anita Sarma
+David Redmiles
+Marian Petre
+Shinobu Saito
+Thomas LaToza
+
+
+
+
+
+
+
+
+
+
+Home
+Research
+
+Chatbots
+KnoCap
+Past projects
+
+Lighthouse
+CrowdDesign
+Crowd Debugging
+Calico
+CodeExchange
+Code Orb
+Crowd Development
+PorchLight
+
+
+
+
+Papers
+
+Technical reports
+Dissertations
+Books
+
+
+Opportunities
+People
+
+Previous members
+
+
+Sponsors
+Contact
+
+Directions
+
+
+
+
+
+
+
+
+
+
+
+ The Software Design and Collaboration Laboratory is housed in the Department of Informatics in the Donald Bren School of Information and Computer Sciences at the University of California, Irvine.
+
+
+
+
+
+    
+
+
+
+
+
+   
+
+
+
+
+Copyright ©             
+            SDCL |   eDegree° Theme by Top Blog Formula on WordPress |   
+                            Log In
+
+
+
+
+
+

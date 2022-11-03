@@ -1,0 +1,270 @@
+http://www.ics.uci.edu/~kay/courses/i41/vectors.html
+
+
+
+
+
+
+Vectors of Vectors
+
+
+
+
+
+
+Informatics 41 * Fall 2010 * David G. Kay *
+UC Irvine
+Vectors Containing Vectors
+
+Nested data structures:  By now, everyone
+should be comfortable with the idea that an expression in Scheme can be
+any type—a number, a string, a list, a vector, a function—and that if
+you can have a list of numbers, you can also have a list of structures,
+a list of lists, a list of vectors, and so on.  Of course, you can also
+do the same with vectors:  You can have a vector of numbers, a vector of
+structures, a vector of lists, and a vector of vectors.
+
+Two-dimensional tables:  A vector of
+vectors forms a two-dimensional table, with rows and columns.  This organization
+models many real-world situations, such as enrollment statistics (a row
+for each major, with columns for the number of freshman, sophomore, junior,
+and senior students in the major), a weekly schedule (a row for each hour-long
+block of time and a column for each day of the week), or a gradebook (a
+row for each student and a column for each assignment).  The score arrays
+we handled in the homework were arranged differently:  We had a vector for
+each assignment, containing all the students' scores on that assignment,
+and then a list of assignment vectors.  But we could have had a vector of
+assignment vectors, which would have been a two-dimensional structure with
+a row for each assignment and a column for each student, just a rotated
+version of the gradebook described above.  Try drawing pictures of these
+if you're having trouble visualizing them.
+
+Processing nested data structures:  When
+we process a complex structure (a list of structures, a vector of lists),
+we handle it one layer at a time.  With a list of restaurants, we have functions
+that manipulate a single restaurants and other functions that manipulate
+the list.  (If each restaurant contains a menu, a list of dishes, we would
+have a third, lower layer for manipulating the list and possibly a fourth
+for manipulating a single dish.)  We should approach two-dimensional tables
+the same way:  Consider operations on the vector representing a row, and
+then consider operations on the vector of rows.  We'll see that in the
+example below.  We'll also see that the two-dimensional structure allows
+us to operate vertically on a single column.
+
+The fixed structure of vectors:  One
+of the characteristics of vectors, including two-dimensional vectors, is
+that their structure exists independently of the data.  We wouldn't
+normally think of setting up a list of 20 restaurants without having the
+restaurants to fill the list, but with vectors, we might create those 20
+slots and fill them later; the same might go for a two-dimensional table.
+ In fact, we know this is true down at the memory level of the machine:
+ The system allocates space for a vector all at once, contiguously in memory;
+the space is there whether we fill it or not.
+
+An example:  A color is (define-struct
+color (red green blue)), where each
+field is a number from 0 to 255.  We can define the function create-line
+that builds a vector of colors; that vector could represent one line of
+pixels; stacking similar lines on top of each other could create a rectangular image. [Note that in this set of examples, we're producing graphics pixel by pixel. This is at a lower level than the graphics we produced using the Picturing Programs libraryâ€”that library let us build rectangles and other shapes directly, but underneath, it's doing the kind of thing described here.]  
+
+;; create-line: number color -> vector-of-color
+;; Return a vector with the specified number
+of elements; each element is a color
+(define create-line
+  (lambda (width color)
+     (build-vector width (lambda(i)
+color))))
+
+If we say (define
+my-line (create-line 500 (make-color 0 0 0))),
+giving us a line of 500 black pixels, we can write a Scheme expression that
+returns the 17th color in my-line:
+ (vector-ref my-line 16).
+ (Remember that vectors start counting from zero.  We need to keep this
+fact in mind whenever we code with vectors (in Java as well as Scheme);
+a vector whose length is n has elements numbered 0 through n–1.)
+ We could set the first pixel on the line to white with (vector-set!
+my-line 0 (make-color 255 255 255)).
+ [Exercise:  Write a function to take a line, a number n, and a color, and
+set the first n pixels on the line to the specified color.  Solution]
+
+Next, we can define the function create-image
+that builds a vector of lines (as defined above), representing a rectangular
+image.
+
+;; create-image: number number color ->
+vector-of-lines
+;; Return a vector; the first argument is
+its size.  The remaining arguments
+;; are used to create each element of the
+vector (i.e., a line from create-line)
+(define create-image
+   (lambda (height width color)
+      (build-vector height
+(lambda (i) (create-line width color)))))
+
+If we say (define
+my-image (create-image 300 500 (make-color 0 0 0))),
+we get an image that's 300 pixels tall and 500 pixels wide, all black.
+ The expression (vector-ref my-image
+22) returns the 23rd line in my-image.
+
+The pixel in the upper left corner of the image
+is (vector-ref (vector-ref my-image
+0) 0); the inner vector-ref
+gives us the first line, and the outer one takes the first pixel from that
+line.  [Exercise:  Write a function image-ref
+that takes an image and two numbers, representing a row and column, and
+returns the corresponding pixel from an image, so that (image-ref
+my-image 0 0) would be the upper left
+pixel and (image-ref my-image 0 499)
+would be the pixel in the upper right.  Then, write image-set!
+that takes an image, a row number, a column number, and a color, and sets
+the specified pixel to that color.  Solution]
+
+With image-ref
+and image-set!,
+we can manipulate our pixels in many ways.  The point here is less about
+the graphics than it is to illustrate the techniques for processing vectors,
+so try to understand how the code does what it does.
+
+
+;; draw-vertical: image number color ->
+side effect, changing image
+;; Draw a vertical line in the image, along
+the specified column, 
+;; using the specified color.
+(define draw-vertical
+   (lambda (image column color)
+      (local ((define draw-vertical-aux 
+              
+     (lambda (image row column color)
+              
+        (cond
+              
+           ((< row 0) image)
+              
+           (else (begin
+              
+                        (image-set!
+image row column color)
+              
+                        (draw-vertical-aux
+image (sub1 row) column color)))))))
+         (draw-vertical-aux
+image (sub1 (vector-length image)) column color))))
+
+Here in draw-vertical,
+we start at the last row, which is (sub1
+(vector-length image)), and count down
+to the first row (row 0).
+
+
+;; draw-horizontal: image number color ->
+side effect, changing image
+;; Draw a horizontal line in the image,
+along the specified row,
+;; using the specified color.
+(define draw-horizontal
+   (lambda (image row color)
+      (local ((define draw-horizontal-aux
+              
+     (lambda (image row column color)
+              
+        (cond
+             
+           ((< column 0) image)
+              
+           (else (begin
+              
+                        (image-set!
+image row column color)
+              
+                       (draw-horizontal-aux 
+              
+                          
+image row (sub1 column) color)))))))
+         (draw-horizontal-aux 
+            image 
+            row 
+            (sub1
+(vector-length (vector-ref image 0))) ; length of first row
+            color))))
+
+In draw-horizontal,
+we follow the same approach, starting at the right edge (which we find by
+taking the length of one of the rows in (sub1
+(vector-length (vector-ref image 0))))
+and counting down to the first column (column 0).
+
+
+;; draw-diagonal: image color -> side
+effect, changing image
+;; Draw a diagonal line starting in the
+upper left corner of the image,
+;; using the specified color.
+(define draw-diagonal
+   (lambda (image color)
+      (local ((define limit 
+              
+      (sub1 (min (vector-length image)                   ; number
+of rows
+              
+                      (vector-length
+(vector-ref image 0))))) ; num of columns
+              
+  (define draw-diagonal-aux
+              
+     (lambda (image color current-row-col)
+              
+         (cond                           ; The drawing actually
+ENDS at
+              
+            ((< current-row-col 0) image) ; the upper
+left corner.
+              
+           (else (begin
+              
+                        (image-set!
+image current-row-col current-row-col color)
+              
+                       (draw-diagonal-aux 
+              
+                          
+image color (sub1 current-row-col))))))))
+         (draw-diagonal-aux
+image color limit))))
+
+In draw-diagonal,
+we also count backwards from the end of the diagonal to the upper left corner
+(row 0, column 0).  Because our image may not be square, we have to find
+the endpoint by finding the lesser of the number of rows and the number
+of columns.  Then we use the same subscript (current-row-col)
+for both the row and column number, giving us the diagonal.
+
+You can contemplate a wide range of enhancements
+here:  Draw lines wider than one pixel; draw lines that start or end at
+a specified row or column; draw a border around the edge of the image; instead
+of passing a color, pass a function that takes the original color and changes
+it somehow; draw rectangles, triangles, or circles.
+
+We can manipulate images like this using theimage.ss or the picturingprograms.rkt teachpack; refer  to the  documentation for more details.  That package gives us access
+to pixels stored in lists, however, not in vectors.  [Exercise:  Write the
+function color-list->image-vector
+that takes a list of colors, a number of rows, and a number of columns,
+and converts the list into one of our two-dimensional image vectors.  Then
+write image-vector->color-list
+that goes the other way.  Solution]
+
+All the code in this example is available in
+one file, http://www.ics.uci.edu/~kay/scheme/imagevectors.scm
+.
+
+
+
+David G. Kay, kay@uci.edu
+
+
+Monday, December 6, 2004 -- 6:57 AM
+
+

@@ -1,0 +1,352 @@
+https://www.ics.uci.edu/~fielding/talks/ssapache/ALL.htm
+
+
+The Apache Group: A Case Study of
+Internet Collaboration and Virtual Communities
+
+
+
+
+
+
+The Apache Group
+A Case Study of Internet Collaboration
+and Virtual Communities
+
+
+
+Roy T. Fielding
+Dept. of Information & Computer Science
+University of California, Irvine
+
+
+Virtual Communities
+
+What is Apache?
+
+Founders
+Current Apache Group
+Development Context
+Secrets of Our Success
+
+
+Collaborative Development
+
+Impact of the Internet on Collaboration
+Collaboration within the Apache Group
+
+
+The Problems with Being Virtual
+
+
+Virtual Communities
+
+
+"Virtual" == "Not"?
+    
+"Virtual" == "Cyberspace" (another loathsome term)
+    A community that depends upon cyberspace for interaction
+    
+
+What, then, is a Community?
+    
+Webster has 12 definitions, all poor
+    My definition:
+A group of organisms bound together by enlightened self-interest
+           and characterized by a common product
+
+
+Virtual Communities
+    
+A newsgroup is not, in and of itself, a virtual community
+    The Internet Community (R.I.P.)
+    The Apache Group
+    
+
+
+What is Apache?
+
+Apache Group
+
+Formed in February `95
+8 Founding Members (all end-users)
+
+
+Common Goal
+
+To provide a public, secure, efficient and extensible server which provides HTTP services in sync with the standards.
+
+
+Current Status
+
+#1 Server
+    (46% market share / 517,000 sites)
+~12 active developers (5 of the founders)
+Hundreds of contributors
+
+
+Apache Group Founders, Feb 1995
+
+
+
+Brian BehlendorfHotWired, Bay Area, California
+
+Roy FieldingUC Irvine Ph.D. Student, California
+
+Rob HartillLANL, New Mexico
+
+David RobinsonCambridge Ph.D. Student, UK
+
+Cliff SkolnickSun Microsystems, California
+
+Randy TerbushZyzzyva ISP, Nebraska
+
+Robert ThauMIT Ph.D. Student, Massachusetts
+
+Andrew WilsonElsevier, Oxford, UK
+
+
+ indicates people Roy has met in person
+
+Initial contributors included Eric Hagberg (Cornell Medical College),
+Frank Peters (Mississippi State University), and Nicolas Pioch
+(The Unofficial Louvre, Paris, France).
+
+
+Current Apache Group, May 1997
+
+
+
+Brian BehlendorfOrganic Online, California
+
+Ken CoarProcess Software Corp., New England, USA
+
+Mark CoxUKWeb Ltd., UK
+
+Roy FieldingUC Irvine Ph.D. Student, California
+
+Dean GaudetSteam Tunnel Operations,
+    California
+
+Rob HartillInternet Movie DB, UK
+
+Jim JagielskijaguNET ISP, Maryland
+
+Alexei KosutSenior in High School, California
+
+Ben LaurieFreelance Consultant, UK
+
+Chuck MurckoThe Topsail Group, Pennsylvania
+
+Aram MirzadehQosina Corporation, New York
+
+Sameer ParekhC2Net, California
+
+Paul SuttonUKWeb Ltd., UK
+
+Marc SlemkoEdmonton, Canada
+
+Randy TerbushZyzzyva ISP, Nebraska
+
+Dirk-Willem van GulikFreelance Consultant, Italy
+
+Andrew WilsonFreelance Consultant, UK
+
+
+ indicates people Roy has met in person
+There are many more 
+Regular Contributors to the Apache Project.
+
+
+Development Context
+
+Multinational
+
+USA, UK, Canada, Italy, The Netherlands, ...
+
+
+All Volunteer
+
+Everybody has (at least) one other real job
+
+
+Differing subgoals
+
+Enlightened Self-interest
+
+
+No CEO, President, Manager, or even Secretary
+
+Coordination tasks are voluntary
+Volunteers get tired/busy, rotate tasks
+Decisions made by consensus, voting
+36 hours to make a serious decision
+
+
+Secrets of Our Success
+
+User-driven Development
+
+The End-Users are the Developers
+Core developers act as Quality Control
+System designed for Extensibility (API, source code)
+
+
+Rapid Response to User Needs
+
+Public support line (newsgroup, bugdb)
+Problem -> Patch, typically less than a week
+Web-based Distributions
+
+
+Blistering Production of New Features
+
+Unlimited supply of ideas (good and bad)
+
+
+Collaborative Development
+Requires:
+
+Warm Bodies
+
+At least one common goal
+   
+but not all goals are held in common
+   
+
+Communication
+   
+Public:  one to all, recorded for later review
+   Private: one to few
+   
+
+Shared Information Space
+   
+Access to past communication
+   Access to past and current development products
+   
+
+Coordination
+   
+to make all of the above possible
+   
+
+
+Impact of the Internet on Collaboration
+
+Millions of Warm Bodies to choose from!
+
+Many goals held in common
+   
+Easy to find people when working on a global scale
+   
+
+E-mail for Communication
+   
+Public: mailing list, archived in Hypermail
+   Private: off-list mail
+   
+
+The Web is a Shared Information Space
+   
+Access to past communication
+   Access to past and current development products
+   
+
+Coordination
+   
+... oops, still a work in progress
+   
+
+
+Collaboration within the Apache Group
+
+E-mail Communication
+   
+Developer mailing list (avg. 50 msgs/day)
+   Private mail among core developers
+   
+
+Shared Information Space
+   
+Machine in Bay Area
+      
+FTP, HTTP, and remote CVS servers
+      Logins for core developers
+      
+Public area for distributions,
+       Developer area for work-in-progress
+   
+
+Coordination
+   
+Voting (on 
+       patches, releases, strategy, etc.)
+   Agenda
+
+
+
+Process Evolution
+
+1995 Feb
+Patches exchanged by mail, given a name,
+    vote tabulated (+1 yes, -1 veto, +0 abstain)
+    patches applied,
+    generate new release
+1995 Mar
+Formal patch
+        database/forms tried, later replaced by simple directory
+1995 Sep
+Voting guidelines
+        codified,
+    separate roles of voter, vote coordinator, release builder
+1996 Jan
+Remote CVS enabled
+1996 Nov
+GNATS problem tracking
+        system
+1997 Jan
+Voting restored
+    Agenda created
+
+
+The Problems with Being Virtual
+
+Limited Support for Coordination
+
+Keeping track of progress and potential conflict has required a
+    deluge of communication (e-mail)
+Maintaining the Agenda is a manual process
+
+
+Entry Barriers
+
+Difficult to browse the current software state
+Difficult to separate areas of development
+
+
+Apache succeeds in large part due to the unusual expertise of its
+    user/developers
+   
+all Internet experts
+   capable of compiling, installing software
+   
+
+E-mail is not sufficient for resolving interpersonal conflicts
+    that are more than just "differences in opinion"
+
+
+The first three problems can be reduced by better tools, but the latter
+requires some form of synchronous, voice communication, preferably on a
+regular basis.
+
+
+
+The Apache Group:
+A Case Study of Internet Collaboration and Virtual Communities
+(Roy T. Fielding,
+02 May 1997)
+UCI School of
+Social Sciences Seminar Series on the World-Wide Web
+
+

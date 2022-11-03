@@ -1,0 +1,53 @@
+https://cbcl.ics.uci.edu//sgd
+
+
+Stochastic Gradient descent
+
+
+
+SGD software for parameter inference in discretely observed stochastic kinetic models 
+ 
+
+This program is a free software associated with the paper: "Parameter inference for discretely observed stochastic kinetic models using stochastic gradient descent";
+
+
+Yuanfeng Wang, Scott Christley, Eric Mjolsness and Xiaohui Xie,  BMC Systems Biology 2010, 4:99  doi:10.1186/1752-0509-4-99.
+
+
+
+The code is implemented with Matlab(version 2008a), which can be found here: Download SGD
+(Copyright @  Yuanfeng Wang) 
+Instruction of use 
+
+
+Open and run the file "main_sgd" in the fold using matlab, choose to input the datafile either using graphic interface or by specifying the file  directory.
+
+** The GLPKmex package should be installed first before the run. The windows version of GLPKmex is included in the sourcecode. 
+Linux version of glpkmex is can be downloaded here  GLPKmex.
+
+
+Input files:
+
+
+
+1) Stoichiometry Matrix for reactants (Columns corresponds to species, rows corresponds to reaction types):
+ see example file 'Rct_mat.dat' ;
+
+
+2) Stoichiometry Matrix for product: same format as 1): 
+see example file 'Prdt_mat.dat';
+
+
+3) time course measurement data:  see example file 'data.txt'.
+
+
+
+Output:
+
+
+Summary of output is in the "dairy.txt" file, which includes parameter values and the correpsonding gradient value during gradient descent.
+The parameter values and the correpsonding gradient value is also plotted in fig 1 and 2.
+
+
+
+

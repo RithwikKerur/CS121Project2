@@ -1,0 +1,9 @@
+http://plrg.ics.uci.edu/publications/230.bib
+@inproceedings{key,
+ author = {Jin Zhou and Brian Demsky},
+ title = {Automatically Tuning Task-Based Programs for Multi-core Processors},
+ booktitle = {The 4th International Workshop on Automatic Performance Tuning},
+ location = {Tokyo, Japan},
+ month = {October},
+ year = {2009}
+}

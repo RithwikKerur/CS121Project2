@@ -1,0 +1,97 @@
+https://www.ics.uci.edu/~skong2/pff.html
+
+
+ Image Reconstruction using Predictive Filter Flow - Shu Kong (Aimery) - UC Irvine - Computer Vision
+
+
+
+
+
+
+
+
+
+per-pixel twist
+
+
+
+
+Image Reconstruction with Predictive Filter Flow
+
+Shu Kong, 
+          Charless Fowlkes
+
+
+Last update: Nov. 28, 2018.
+
+We propose a simple, interpretable framework for solving a wide range of image
+reconstruction problems such as denoising and deconvolution.  Given a
+corrupted input image, the model synthesizes a spatially varying linear filter
+which, when applied to the input image, reconstructs the desired output. The
+model parameters are learned using supervised or self-supervised training.
+We test this model on three tasks: non-uniform motion blur removal,
+lossy-compression artifact reduction and single image super resolution.  We
+demonstrate that our model substantially outperforms state-of-the-art methods
+on all these tasks and is significantly faster than optimization-based
+approaches to deconvolution.  Unlike models that directly predict output pixel
+values, the predicted filter flow is controllable and interpretable, which we
+demonstrate by visualizing the space of predicted filters for different tasks.
+
+
+keywords: 
+inverse problem, spatially-variant blind deconvolution, low-level vision, non-uniform motion blur removal, compression artifact removal, 
+single image super-resolution, filter flow, interpretable model, per-pixel twist, self-supervised learning, image distribution learning.
+
+
+
+
+ S. Kong, C. Fowlkes, "Image Reconstruction with Predictive Filter Flow", arXiv:1811.11482, 2018.
+
+[project page]
+[high-res paper (44MB)]
+[github]
+[demo]
+[models]
+[slides]
+[poster]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,105 @@
+http://www.ics.uci.edu/~stasio/winter04/outline.html
+
+
+ICS 280: Tentative Course Outline
+
+ICS 280, Winter'04
+Tentative list of subjects we will cover:
+
+
+
+
+
+				Fundamentals of Crypto Theory:
+			
+
+
+					One-way functions:  This is the fundamental concept of functions 
+					which are easy to compute but hard to invert.  We will show how to 
+					construct them from number theoretical assumptions. We will see 
+					that one-wayness is necessary for many crypto objects, like encryption, 
+					signature, key agreement.
+
+					Hard-core bits:  Just because some value is hard to compute, it doesn't 
+					mean that all bits of that value are hard to compute.  This is important, 
+					because if you encrypt something, you need to know not just that the message is 
+					hard to compute by the eavesdropper, but that every bit in the message is hard 
+					to compute (because maybe the attacker cares about this one bit, which encodes 
+					for example whether someone is depositing or withdrawing his money).  We 
+					show a fundamental result of cryptography that one-wayness implies hard-core 
+					bits.
+
+					Pseudorandom generators: the fundamental concept of pseudorandomness, its 
+					applications, and constructions (from hard-core bits).
+
+					Pseudorandom functions:  Constructions (from pseudorandom generators), 
+					applications.
+
+				Symmetric cryptography:  We will break from the above chain 
+				of increasingly more complex cryptographic objects, and we will map 
+				these concepts to the world of symmetric cryptography.  We 
+				will substitute here a number-theoretical assumptions of hardness with 
+				various assumptions on the basic building blocks of symmetric crypto, but we 
+				will show that the same approach to the provably secure design applies 
+				here.   The topics will include:
+
+
+					Construction of one-way permutation from one-way function
+
+					Accumulation of "hardness" in rounds of block ciphers
+				
+
+					Cascade construction of pseudorandom functions
+
+					Collision-resistance, construction of secure message message 
+					authentication codes
+
+					Construction of secure symmetric encryption
+
+				Assymetric cryptography:
+			
+
+
+					Signature schemes: definitions, constructions from general assumptions 
+					(assuming one-way functions)
+
+					Public key encryption: definitions, constructions
+
+				The so-called "Random Oracle Model" model for analysis of security:  
+				Bridging the efficiency gap between assymetric and symmetric 
+				cryptography: 
+			
+
+
+					constructions (pseudorandom generators, pseudorandom functions, signatures, 
+					encryption schemes)
+
+					limitations (impossibility results)
+
+				Time permitting, in the few last lectures we will review some advanced topics:
+
+
+					more efficient constructions (signatures, encryption, pseudorandom 
+					functions), from stronger number theoretic assumptions (decisional 
+					assumptions, strong RSA)
+
+					zero-knowledge protocols
+
+					commitment schemes
+
+					multi-party computation
+				
+
+					composable security
+
+					homomorphic encryption schemes
+
+
+
+
+
+
+Last modified: 01 Dec 2003
+		
+
+

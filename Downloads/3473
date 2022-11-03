@@ -1,0 +1,186 @@
+https://ngs.ics.uci.edu/content-without-context-is-meaningless
+
+
+
+
+
+
+
+
+Content Without COntext is Meaningless – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Content Without COntext is Meaningless    			
+
+
+With Pinaki Sinha, I just finished a research paper titled: Content Without Context is Meaningless.  Its abstract reads:
+We revisit one of the most fundamental problems in multimedia that is receiving enormous attention from researchers without making much progress in solving it: the problem of bridging the semantic gap. Research in this area has focused on developing increasingly rigorous techniques using the content. Researchers consider that Content is King and ignore everything else. In this paper, first we will discuss how this infatuation with content continues to be the biggest hurdle in the success of, ironically, content based approaches for multimedia search. Lately, many commercial systems have ignored content in favor of context and demonstrated better success. Given that the mobile phones are the major platform for the next generation of computing, context becomes easily available and more relevant. We show that it is not Content Versus Context; rather it is Content and Context that is required to bridge the semantic gap. In this paper, first we will discuss reasons for our approach and then present approaches that appropriately combine context with content to help bridge the semantic gap and solve important problems in multimedia computing.
+
+
+
+By Ramesh |
+    				August 3, 2010 |
+    				             		Technical Thoughts |
+             	 
+    				             		1 Comment |
+             	 		          				
+    			
+
+
+← Milkshake, Drunk Researcher, and Problem Solving
+Social Pixels →
+
+
+
+			One thought on “Content Without COntext is Meaningless”		
+
+
+
+
+dinesh vadhia August 4, 2010 at 7:03 am 
+
+Ramesh
+Thoroughly enjoyed your paper and its subject is very close to what we are doing at Xyggy.  I concur that combining content and context makes a significant difference in multimedia information retrieval.  
+I think the paper should highlight the difference between user generated context (the primary mode of commercial search engines) and machine generated context (eg. ELIF and other sensor data).  It is important to differentiate the two because user-generated context is noisy and machine generated context isn’t noisy (and hence far more valuable).
+Dinesh
+
+
+
+
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

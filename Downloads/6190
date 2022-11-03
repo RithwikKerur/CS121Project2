@@ -1,0 +1,305 @@
+https://cml.ics.uci.edu/aiml/page/29
+
+
+
+
+
+AI/ML Seminar Series | Center for Machine Learning and Intelligent Systems | Page 29
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+University of California, Irvine
+
+
+Menu
+Skip to content
+Home
+About CML
+
+About us
+News
+Contact Us
+
+
+People
+
+Faculty
+Alumni
+
+
+Events & Seminars
+
+AI/ML Seminar Series
+AI/ML Seminar Live Stream
+CML Distinguished Speakers
+ML Reading Group
+
+
+Education & Resources
+
+Courses
+Books
+
+
+UCI Machine Learning Archive
+Sponsors & Funding
+Subscribe to CML List
+ 
+
+
+
+
+
+
+AI/ML Seminar Series Standard 
+
+Weekly Seminar in AI & Machine LearningSponsored by Cylance
+
+
+
+
+
+
+
+Navigation
+
+
+Fall 2012 Later ›
+
+
+
+
+
+
+
+  
+
+
+October 1Bren Hall 40111 pm
+
+
+Mohsen HejratiGraduate StudentDepartment of Computer ScienceUniversity of California, Irvine
+
+Analyzing 3D Objects in Cluttered ImagesWe present an approach to detecting and analyzing the 3D configuration of objects in real-world images with heavy occlusion and clutter. We focus on the application of finding and analyzing cars. We do so with a two-layer model; the first layer reasons about 2D appearance changes due to within-class variation and viewpoint. Rather than using a global view-based model, we describe a compositional representation that models a large number of effective views using a small number of local view-based templates. We use this model to propose candidate detections, which are then refined by our second layer, a 3D statistical model that reasons about 3D shape changes and 3D camera viewpoints. We demonstrate state-of-the-art accuracy on challenging images from the PASCAL VOC 2011 dataset.
+
+
+  
+
+
+October 8Bren Hall 40111 pm
+
+
+Sergey KirshnerAssistant ProfessorDepartment of StatisticsPurdue University
+
+Copulas in Machine Learning or How to Make Sense of Multi-Dimensional Non-Gaussian Real-Valued DataAs number of application domains, including finance, hydrology, and astronomy, produce high-dimensional multivariate data, there is an increasing interest in models which can capture non-linear dependence between the observations.  Enter copulas, a statistical approach which separates the marginal distributions for random variables from their dependence structure. I will go over the recent work on using copulas in two different settings. In the first setting, the graphical models are developed for copulas with the goal of modeling of non-Gaussian multivariate real-valued data.  I will focus on tree-structured copulas in particular as they provide a convenient building block for such models and their applications to modeling of multi-site rainfall. The second setting, copulas are used to construct non-parametric robust estimators of dependence (e.g, information). Among applications of such estimators is a new robust approach to independent component analysis. 
+ Speaker Bio:
+ Sergey Kirshner is an Assistant Professor of Statistics at Purdue University.  Prior to joining Purdue, he was a postdoctoral fellow with Alberta Ingenuity Centre for Machine Learning at the Department of Computing Science at the University of Alberta. Before that, he was a graduate student and then a postdoc at the Donald Bren School of Information and Computer Sciences at the University of California, Irvine in Padhraic Smyth’s research group.  His research interests lie in the area of statistical machine learning, more specifically, computational methods for learning and inference for sparse models of high-dimensional data, and their applications to scientific problems.
+
+
+  
+
+
+October 15Bren Hall 40111 pm
+
+
+Don PattersonAssociate ProfessorDepartment of InformaticsUniversity of California, Irvine
+
+Gesture Recognition with Erlang-Cox Models To Identify Neurological Disorders in Premature BabiesIn this talk I will describe a system that leverages accelerometers to recognize a particular involuntary gesture in babies that have been born preterm. These gestures, known as cramped-synchronized general movements are highly correlated with a diagnosis of Cerebral Palsy. In order to test our system we recorded data from 10 babies admitted to the newborn intensive care unit at the UCI Medical Center. We demonstrate a Markov model based technique for recognizing gestures from accelerometers that explicitly represent duration. We do this by embedding an Erlang-Cox state transition model, which has been shown to accurately represent the first three moments of a general distribution, within a Dynamic Bayesian Network (DBN). The transition probabilities in the DBN can be learned via Expectation-Maximization or by using closed-form solutions. We show that by treating instantaneous machine learning classification values as observations and explicitly modeling duration, we improve the recognition of Cramped Syn- chronized General Movements, a motion highly correlated with an eventual diagnosis of Cerebral Palsy. Validated video observation annotations were utilized as ground truth. Finally, we conducted an analysis to understand the clinical impact of this technique.
+
+
+  
+
+
+October 22Bren Hall 40111 pm
+
+
+Levi BoylesGraduate StudentDepartment of Computer ScienceUniversity of California, Irvine
+
+The Time-Marginalized Coalescent Prior for Hierarchical ClusteringWe introduce a new prior for use in Nonparametric Bayesian Hierarchical Clustering. The prior is constructed by marginalizing out the time information of Kingman’s coalescent, providing a prior over tree structures which we call the Time-Marginalized Coalescent (TMC). This allows for models which factorize the tree structure and times, providing two benefits: more flexible priors may be constructed and more efficient Gibbs type inference can be used. We demonstrate this on an example model for density estimation and show the TMC achieves competitive experimental results.
+
+
+  
+
+
+October 29Bren Hall 40111 pm
+
+
+Pierre BaldiChancellor’s ProfessorDepartment of Computer ScienceUniversity of California, Irvine
+
+Deep Architectures and Deep LearningDeep architectures are important for machine learning, for engineering applications, and for understanding the brain. In this talk we will provide a brief historical overview of deep architectures from their 1950s origins to today. Motivated by this overview, we will study and prove several theorems regarding deep architectures and one of their main ingredients–autoencoder circuits–in particular in the unrestricted Boolean and unrestricted probabilistic cases. We will show how these analyses lead to a new general family of learning algorithms for deep architectures–the deep target (DT) algorithms. The DT approach converts the problem of learning a deep architecture into the problem of learning many shallow architectures by providing learning targets for the deep layers. Finally, we will present simulation results and applications of deep architectures and DT algorithms to protein structure prediction.
+
+
+  
+
+
+November 5Bren Hall 40111 pm
+
+
+Daniel WhitesonAssociate ProfessorDepartment of Physics and AstronomyUniversity of California, Irvine
+
+Searching for the Higgs Boson and Beyond with Machine Learning ToolsHigh-energy physicists try to decompose matter into its most fundamental pieces by colliding particles at extreme energies. But to extract clues about the structure of matter from these collisions is not a trivial task, due to the incomplete data we can gather regarding the collisions, the subtlety of the signals we seek and the large rate and high dimensionality of the data. These challenges are not unique to high energy physics, and there is the potential for great progress in collaboration between high energy physicists and machine learning experts. I will describe the nature of the physics problem, the challenges we face in analyzing the data, the previous successes and failures of some ML techniques, and the open challenges.
+
+
+  
+
+
+November 12 (no seminar)
+
+
+Veterans Day
+
+
+
+  
+
+
+November 16Bren Hall 40111 pm
+
+
+John FisherPrinicipal Research ScientistCSAILMIT
+
+Information Gathering Under Resource Constraints: Greed is GoodIn many distributed sensing problems, resource constraints preclude the utilization of all sensing assets. By way of example, inference in distributed sensor networks presents a fundamental trade-off between the utility in a distributed set of measurements versus the resources expended to acquire them, fuse them into a model of uncertainty, and then transmit the resulting model. Active approaches seek to manage sensing resources so as to maximize a utility function while incorporating constraints on resource expenditures. Such approaches are complicated by several factors. Firstly, the complexity of sensor planning is typically exponential in both the number of sensing actions and the planning time horizon. Consequently, optimal planning methods are intractable excepting for very small scale problems. Secondly, the choice of utility function may vary over time and across users. Approximate approaches (c.f. [Zhao et al., 2002, Kreucher et al., 2005]) have been proposed that treat a subset of these issues; however, the approaches are indirect and do not scale to large problems. In this presentation, I will discuss the use of information measures for resource allocation in distributed sensing systems. Such measures are appealing due to a variety of useful properties. For example, recent results of [Nguyen et al., 2009] link a class of information measures to surrogate risk functions and their associated bounds on excess risk [Bartlett et al., 2003]. Consequently, these measures are suitable proxies for a wide variety of risk functions. I will discuss a method [Williams et al., 2007a] which enables long time-horizon sensor planning in the context of state estimation with a distributed sensor network. The approach integrates the value of information discounted by resource expenditures over a rolling time horizon. Simulation results demonstrate that the resulting algorithm can provide similar estimation performance to that of greedy and myopic methods for a fraction of the resource expenditures. Furthermore, recently developed methods [Fisher III et al., 2009] have been shown to be useful for estimating these quantities in complex signal models. Finally, one consequence of this algorithmic development are new fundamental performance bounds for information gathering systems [Williams et al., 2007b] which show that, under mild assumptions, optimal (though intractable) planning schemes can yield no better than twice the performance of greedy methods for certain choices of information measures. The bound can be shown to be sharp. Additional on-line computable bounds, often tighter in practice, are presented as well.
+This is joint work with Georgios Papachristoudous, Jason L. Williams, & Michael Siracusa.
+Bio
+John Fisher is Principal Research Scientist at the MIT Computer Science and Artificial Intelligence Laboratory. His research focuses on information-theoretic approaches to machine learning, computer vision, and signal processing. Application areas include signal-level approaches to multi-modal data fusion, signal and image processing in sensor networks, distributed inference under resource constraints, resource management in sensor networks, and analysis of seismic and radar images. In collaboration with the Surgical Planning Lab at Brigham and Women’s Hospital, he is developing nonparametric approaches to image registration and functional imaging.
+He received a BS and MS in Electrical Engineering at the Univsersity of Florida in 1987 and 1989, respectively. He earned a PhD in Electrical and Computer Engineering in 1997.
+
+
+  
+
+
+November 19Bren Hall 40111 pm
+
+
+Lise GetoorAssociate ProfessorDepartment of Computer ScienceUniversity of Maryland, College Park
+
+Statistical Relational Learning and Graph IdentificationWithin the machine learning community, there is a growing interest in learning structured models from input data that is itself structured, an area often referred to as statistical relational learning (SRL). I’ll begin with a brief overview of SRL, and discuss its relation to network analysis, extraction, and alignment.   I’ll then describe our recent work on graph identification.   Graph identification is the process of transforming an observed input network into an inferred output graph.  It involves cleaning the data — inferring missing information and correcting mistakes – and is an important first step before any further network analysis is performed.   It requires a combination of entity resolution, link prediction, and collective classification techniques.  I will overview two approaches to graph identification: 1) coupled conditional classifiers (C^3), and 2) probabilistic soft logic (PSL).  I will describe their mathematical foundations, learning and inference algorithms, and empirical evaluation, showing their power in terms of both accuracy and scalability.   I will conclude by highlighting connections to privacy in social network data and other current big data challenges. 
+Bio
+ Lise Getoor is an Associate Professor in the Computer Science Department at the University of Maryland, College Park and University of Maryland Institute for Advanced Computer Studies.  Her research areas include machine learning, and reasoning under uncertainty; in addition she works in data management, visual analytics and social network analysis. She is a board member of the International Machine Learning Society, a former Machine Learning Journal Action Editor, Associate Editor for the ACM Transactions of Knowledge Discovery from Data, JAIR Associate Editor, and she has served on the AAAI Council. She was conference co-chair for ICML 2011, and has served on the PC of many conferences including the senior PC for AAAI, ICML, KDD, UAI and the PC of SIGMOD, VLDB, and WWW. She is a recipient of an NSF Career Award and was awarded a National Physical Sciences Consortium Fellowship. Her work has been funded by ARO, DARPA, IARPA, Google, jIBM, LLNL, Microsoft, NGA, NSF, Yahoo! and others.   She received her PhD from Stanford University, her Master’s degree from University of California, Berkeley, and her undergraduate degree from University of California, Santa Barbara.
+
+
+  
+
+
+November 26Bren Hall 40111 pm
+
+
+Shiwei LanGraduate StudentDepartment of StatisticsUniversity of California, Irvine
+
+Lagrangian Dynamical Monte CarloHamiltonian Monte Carlo (HMC) improves the computational efficiency of the Metropolis algorithm by reducing its random walk behavior. Riemannian Manifold HMC (RMHMC) further improves HMC’s performance by exploiting the geometric properties of the parameter space. However, the geometric integrator used for RMHMC involves implicit equations that require costly numerical analysis (e.g., fixed-point iteration). In some cases, the computational overhead for solving implicit equations undermines RMHMC’s benefits. To avoid this problem, we propose an explicit geometric integrator that replaces the momentum variable in RMHMC by velocity. We show that the resulting transformation is equivalent to transforming Riemannian Hamilton dynamics to Lagrangian dynamics. Experimental results show that our method improves RMHMC’s overall computational efficiency. All computer programs and data sets are available online (this http URL) in order to allow replications of the results reported in this paper.
+Link to arXiv: http://arxiv.org/abs/1211.3759
+
+
+  
+
+
+November 30Bren Hall 40111 pm
+
+
+Scott SannerSenior ResearcherMachine Learning GroupNICTA
+
+Data Structures for Efficient Inference and Optimization in Expressive Continuous DomainsTo date, our ability to perform exact closed-form inference or optimization with continuous variables is largely limited to special well-behaved cases.  This talk argues that with an appropriate representation and data structure, we can vastly expand the class of models for which we can perform exact, closed-form inference.
+This talk is in two parts.  In the first part, I introduce an extension of the algebraic decision diagram (ADD) to continuous variables — termed the extended ADD (XADD) — to represent arbitrary piecewise functions over discrete and continuous variables and show how to efficiently compute elementary arithmetic operations, integrals, and maximization for these functions.  In the second part, I briefly cover a wide range of novel applications where the XADD may be applied: (a) exact inference in expressive discrete and continuous variable graphical models, (b) factored, parameterized linear and quadratic optimization, (c) exact solutions to piecewise convex functions that enable a number of novel applications in machine learning, and (d) exact solutions to continuous state, action, and observation sequential decision-making problems — which includes closed-form exact solutions to previously unsolved problems in operations research.
+Acknowledgments: This is joint work with Zahra Zamani & Ehsan Abbasnejad (Australian National University), Karina Valdivia Delgado & Leliane Nunes de Barros (University of Sao Paulo), and Simon Fang (M.I.T.).
+Quick Speaker Bio: Scott Sanner is a Senior Researcher in the Machine Learning Group at NICTA Canberra and an Adjunct Fellow at the Australian National University, having joined both in 2007.  Scott earned a PhD from the University of Toronto, an MS degree from Stanford, and a double BS degree from Carnegie Mellon.  Scott’s research interests span decision-making applications ranging over AI, Machine Learning, and Information Retrieval.  For more information, please visit: http://users.cecs.anu.edu.au/~ssanner/
+
+
+  
+
+
+December 3Bren Hall 40111 pm
+
+
+Francesco BonchiSenior Research ScientistYahoo! Research Barcelona
+
+Mining Progagation Data (in Social Networks)With the success of online social networks and microblogging platforms such as Facebook, Flickr and Twitter, the phenomenon of influence-driven propagations, has recently attracted the interest of computer scientists, information technologists, and marketing specialists.
+In this talk we take a data mining perspective and we discuss what (and how) can be learned from a social network and a database of traces of past propagations over the social network. Starting from one of the key problems in this area, i.e.  the identification of influential users, by targeting whom certain desirable marketing outcomes can be achieved, we provide an overview of some recent progresses in this area and discuss some open problems.
+
+
+  
+
+
+December 10Bren Hall 40111 pm
+
+
+George PapandreouPostdoctoral Research ScholarDepartment of StatisticsUniversity of California, Los Angeles
+
+Random Sampling and Optimization in Probabilistic Modeling for Computer VisionMachine learning plays an increasingly important role in computer vision, allowing us to build complex vision systems that better capture the properties of images. Probabilistic Bayesian methods such as Markov random fields are well suited for describing ambiguous images and videos, providing us with the natural conceptual framework for representing the uncertainty in interpreting them and automatically learning model parameters from training data. However, Bayesian techniques pose significant computational challenges in computer vision applications and alternative deterministic energy minimization techniques are often preferred in practice.
+I will present a new computationally efficient probabilistic random field model, which can be best described as a “Perturb-and-MAP” generative process: We obtain a random sample from the whole field at once by first injecting noise into the system’s energy function, then solving an optimization problem to find the least energy configuration of the perturbed system. With Perturb-and-MAP random fields we thus turn powerful deterministic energy minimization methods into efficient probabilistic random sampling algorithms that bypass costly Markov-chain Monte-Carlo (MCMC) and can generate in a fraction of a second independent random samples from mega-pixel sized images. I will discuss how the Perturb-and-MAP model relates to the standard Gibbs MRF and how it can be used in conjunction with other approximate Bayesian computation techniques. I will illustrate these ideas with applications in image inpainting and deblurring, image segmentation, and scene labeling, showing how the Perturb-and-MAP model makes large-scale Bayesian inference computationally tractable for challenging computer vision problems.
+Speaker Bio:
+George Papandreou holds a Diploma (2003) and a Ph.D. (2009) in electrical and computer engineering from the National Technical University of Athens, Greece.
+Since 2009 he has been a postdoctoral research scholar at the University of California, Los Angeles. His research interests are in probabilistic machine learning, computer vision, and multimodal perception. He approaches these problems with methods from Bayesian statistics, signal processing, and applied mathematics.
+
+
+
+
+
+September 1, 2012
+AIML
+
+
+
+Posts navigation
+
+Newer posts ›
+
+
+
+
+
+ 
+Search
+
+
+
+ 
+
+
+(c) 2015 Center for Machine Learning and Intelligent Systems
+
+WordPress/BonPress
+
+
+
+
+
+

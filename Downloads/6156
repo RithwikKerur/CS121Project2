@@ -1,0 +1,252 @@
+http://www.ics.uci.edu/~kibler/H22syllabus.html
+
+
+ Honors ICS 23  
+
+
+ Honors Data Structures and Algorithms 
+
+ Schedule Change: Sandy Irani is teaching this class! 
+
+
+  Professor:  Sandy Iraniu 
+  Class Meetings: 3:30-4:50 Tuesday and Thursdays (PSCB 140)
+   Office Hours: 5-6 Tuesdays and Thursdays + by Appt. (414D CS)
+   Teaching Assistant:  Steve Moret  smoret@uci.edu 
+  Required Text: Data Structures and Problems Solving with Java 
+ by Mark Allen Weiss
+    Discussion: TBA
+
+
+
+ Teaching Philosophy  I am your guide and collaborator in
+learning. However the primary responsibility in learning rests with
+you. Evaluate yourself before I do.  Use all the available
+resources. Ask questions.  Writes lots of very simple programs to
+verify and deepen your understanding of the various concepts. Doing
+only the homeworks assignments is not sufficient. If you can't use
+a concept, you don't know it. Explain the concept to friend. 
+Teaching often reveals holes in understanding. Everytime you make
+an error, it is an oppportunity to learn. Enjoy the process of learning.
+
+
+  Course Goals 
+
+Learn the properties and
+implementation details of the fundamental data structures (arrays,
+lists, queues, stacks, dictionaries, trees) that often are at
+the heart of any program. Implementations will be done in Java.
+Learn the elements of analysis of algorithms, including O notation.
+as well as basic elements of object-oriented
+design and implementation. 
+
+
+ Grading 
+
+There will be approximately 4 quizzes and 8 programming
+assignments. The coding assignments are all Java. Your lowest quiz
+score and your lowest homework score will be dropped. Approximately,
+the final, quizzes, and homework will count equally.  The final exam
+will be based on the text, lecture notes, homeworks, and quizzes.
+Each chapter ends with a summary. Be sure that you know every concept
+discussed in the summary in the Preiss text.
+
+ The fastest way to get questions answers is
+to email either Steve or myself. Answers of general interest will be
+posted on the bulletin board (ics.H22). You may also use the bulletin
+board to ask classmates for appropriate help. Any form of inappropriate
+help will result in an F grade in the class and a letter in your file.
+
+
+
+ Required Text 
+Text   Data Structures and Algorithms with Object-Oriented
+Design Patterns in Java  by Bruno Preiss.
+ Suggested Text 
+   Any book on Java that you can learn from. Many students like
+Core Java  but I like  The Java Programming Language 3rd edition
+ by Ken Gosling et al.
+
+
+
+ Java Language Notes 
+
+Lecture notes for  the Java Language are available on-line
+ Java Notes .
+Please tell me if you find any errors or misrepresentations.
+
+
+ Intended Schedule. 
+ Quick Overview: We will approximately cover the first 8 chapters
+of Preiss plus introductory material on the Java language. Use your Java
+text to fill in gaps. I will not assign reading in the your Java book;
+instead use the index to look-up what you need. 
+   Why Java?
+     
+ Goals of a programming language.
+        Goals of program
+        Achieve goals
+        Program design 
+        Program implementation
+        Object definition in Java
+        Object decomposition
+        examples: complex numbers, polynomials, 
+        Object hierarchies: triangles.
+       Read: Appendix 1 in Preiss + select from Java text.
+     
+ Using Other Peoples Classes
+      
+ File io: BufferedReader, PrintWriter
+         Simple Lexical Analysis: String Tokenizer
+         Sorting:  TreeSet: how fast is it?
+         Formatting
+         Linked Lists: polynomials again
+         HashTables: making a lexicon
+         Reading: On-line documentation on classes via Cafe.
+      
+  GUI interface. Event-driven programming.
+      
+  Inheritance
+         Interfaces
+         Inner classes
+         Frames
+         Layout Managers
+         Buttons, TextFields, Labels, TextAreas,
+         ActionListeners
+        Reading: online documentation + Java text as needed.
+      
+  Why Analysis?
+      
+ Program model.
+         O notation.
+         Finite Induction.
+        Programming Timing
+         Henceforth, all your code requires space and time complexity analysis, if it is not O(1). 
+        Read Chapter 3 in Preiss.
+     
+  Fundamental Data Structures: Arrays 
+    
+ Dynamic arrays
+         Dynamic Programming
+         Smith-Waterman Algorithm
+          Read Chapter 4.1-4.2
+    
+ Week 6.  Fundamental Data Strucutres: Linked Lists
+    
+ Single linked Lists
+        Double linked lists
+        Extra pointers
+        Read Preiss 4.3
+    
+ Week 7. Stacks and Queues
+      
+ Stack as array
+          Stack as list
+          Queue as array
+          Read  Chapter 6.
+      
+ Week 8. Ordered Lists
+      
+ List as array
+         Ordered List
+         Sorted list
+         Read Chapter 7.
+      
+ Week 9. Hash Tables
+      
+ Hash Functions
+         Chaining
+         Scatter Tables
+         Linear Probing
+         Quadratic Probing
+         Double Hashing
+        Removing items
+         Read Chapter 8
+      
+ Week 10. Trees
+      
+ Binary Trees
+        Tree Traversals
+        Evaluating Expression
+        NP-completeness: Million dollar question
+        N-ary trees
+        Read Chapter 9.
+      
+
+ Homework Assignments 
+Homeworks are duly weekly and need to typed. No handwritten
+assignments will be accepted.
+
+
+ Object design
+
+ Use Visual Cafe's IDE and write any program at all. Hand in the code.
+ You may have help in using Visual Cafe, but not in writing the program.
+     Suppose you are design an computer implementation of a personal
+telephone book. In English, provide a list of the constructors  and
+methods you would expect to have. Include a sentence describing each
+method/constructor. Do not write any code.  For example:  
+ TelephoneBook() : constructs an empty telephone directory.
+We have done this in class for complex numbers as part of the design
+process.
+
+     Suppose a math professor hires you to write a class for polynomials.
+   As above provide in English a list of the constructors and the methods.
+   Do not write any code.
+  
+  Other Peoples classes 
+
+ Using BufferedReader and StringTokenizer, write a program to
+count the number of words in a file. Precisely define what a word is.
+   Use Double, TreeSet, and CurrentTimeMillis to time
+sorting 100, 200, ... 12800 random doubles ( Math.random() )
+Printout a table of times, times/n, times/n*logn, times/(n*n)
+   Using BufferedReader and Hashtable, write a program to
+count the number of words of length equal to the length of your
+last name in the file XX.
+  
+  Gui Interface 
+  Analysis 
+
+  Do problems XX
+     Use the linked list class provided in the Collections class
+     to implement a sparse polynomial. Implement the following:
+     
+ Poly(String s) where s has looks like 2x3+11x14 etc. 
+          Use StringTokenizer and add "x" to the delimiter set.
+        void add(Poly p) adds p to the current polynomial
+        int degree(Poly p) returns the highest degree of the polynomial
+        Extra credit:  void mult(Poly p) multiplies p with current polynomial
+       Extra credit: double solve(P, int a, int b)  returns a solution
+           to P within the range [a,b]. 
+     
+
+  Arrays   
+
+ Write a dynamic arrays as an array, a singly linked list, a doubly
+linked list  pointer, and an array.
+Time the results of adding the elements 1...1000 to it.
+        
+
+
+   
+  LinkedLists  
+
+ Expand the program from the previous assignment to include deletion. To time
+     deletion, first create an fixed array of size 1000, with the
+     the integers in random order. Now you can delete elements from
+each representation in the same order.
+   
+  Stacks and Queues  
+  Ordered Lists  
+  In this program you will create a book index of all the "content"
+words. We will somewhat arbitrarily define a content word as one 
+containing at least 7 characters.
+Your program will accept a file and output
+an ordered list of  word  linenumber, linenumber etc. For example
+a typically output line might be:     government at lines: 15, 123, 3004
+
+  Hash tables  
+  Trees  
+
+

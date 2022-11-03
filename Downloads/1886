@@ -1,0 +1,85 @@
+https://sli.ics.uci.edu/PmWiki/I18nVariables
+
+
+
+SLI | PmWiki / I18nVariables 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+I18nVariables
+
+
+
+
+
+< Edit Variables | Variables | Layout Variables >
+
+
+
+This page describes the variables used by PmWiki for Internationalizations (i18n).
+
+$DefaultPageCharset Fix and correctly handle some pages with missing or wrong attributes when UTF-8 is enabled.
+$EnableXLPageScriptLoadThis variable, if set to 0, will disable the 'xlpage-i18n' parameter in XLPage definitions and thus it will prevent editors from (accidentally) loading scripts and changing the website encoding. Note that if you use this variable, you should include the required scripts, eg. xlpage-utf-8.php, from config.php.
+$VarPagesFmtAn array which contains the PageNames where you can find lists (trails) of pages containing variable definitions.  To be modified when documentation is not in English.  See scripts/vardoc.php.
+$XLAn array (hash) which contains pairs of language identifiers and translation hashes. Each translation hash maps a given lookup key (or phrase) into a corresponding text string for the given language. Thus, it is essentially a multi-lingual dictionary used for phrase translation.  It is also used for handling user preference mappings. Thus, the 'e_row' value that one finds on the Site.Preferences page is loaded into $XL during preference processing.
+$XLLangsAn array that contains the names of the currently active language definitions. Only dictionaries in $XL that are named in $XLLangs are used by the $[...] markup when performing a translation.
+See also:
+$TimeFmt
+
+
+< Edit Variables | Variables | Layout Variables >
+
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:I18nVariables, and  a talk page: PmWiki:I18nVariables-Talk.
+
+
+
+
+
+
+ Last modified September 13, 2016, at 06:03 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

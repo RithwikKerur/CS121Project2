@@ -1,0 +1,41 @@
+http://www.ics.uci.edu/~kay/courses/i41/hw/hw3.html
+
+
+
+
+
+
+Third Homework
+
+
+
+
+
+
+
+INFORMATICS 41 • DAVID G. KAY • UC IRVINE • FALL 2011
+ Third Homework 
+
+This assignment is due at the start of lab on
+Monday, October 10. The concepts here (of working with structures and lists) are fundamental to the rest of the course. Be sure to check with us if you'd like clarification or help.
+
+(1) Read Chapters 16 (which gives some advice for designing functions), 17 (which uses cond in animations), and 18 (which covers key handlers and mouse handlers). Since you probably haven't gotten to them yet from Lab Assignment 2, look over exercises 17.1.3, 17.1.6, 17.2.6, 18.1.2, 18.1.3, 18.2.4, and 18.2.5; you'll do them as part of Lab Assignment 3, but scan them now to get an idea of what's coming.
+(2) Chapter 19 briefly covers error handling, the error function (that you can put in your code to stop it and produce an error message), and the check-error function (so you can have tests of situations that are supposed to cause errors).
+
+(3) Chapter 20 introduces structures.  Read it and do exercises 20.4.6 and 20.5.7. Look at exercise 20.6.2, which suggests "refactoring" some code (reorganizing it to reduce duplication). You don't have to show the TA a solution to 20.6.2, but you do have to have written solutions (or questions) about the other exercises listed here. Do exercise 20.7.3.
+(4) Chapter 21 continues with structures. Read it and do exercises 21.1.1, 21.4.4, 21.5.3.
+ (5) Chapter 22 introduces lists.  Read it and do exercises 22.5.3 and 22.5.4 (which are very similar to examples we did in class).
+ (6) Suppose you have restaurant structures as defined in class: (define-struct rrant (name cuisine phone dish price)). Write a function called cheap-Thai that takes a list of restaurants as its input and returns a list of all the cheap Thai restaurants on the input list (where cheap means the price is under $10). This too is similar to what we did in class; look up the transcript from that day and write the necessary extra "helper" or "auxiliary" functions (like cheap?) to separate out each part of the task. (7) Look at the  sections K, L, M, N, and O of the Scheme Finger Exercises. You don't have to write the answers down or turn them in, but make sure you know how to do them. If you aren't perfectly, 100% comfortable with structures and lists, you need to check these out.
+
+
+Based in part on ICS H21assignments by David
+    G. Kay from Fall 2001; modified by David G. Kay for the Informatics Core
+  Course, Fall 2004–Fall 2011.  
+
+
+David G. Kay, kay@uci.edu 
+
+Thursday, October 6, 2011 7:40 PM
+
+
+

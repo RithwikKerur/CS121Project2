@@ -1,0 +1,234 @@
+http://www.ics.uci.edu/~kay/courses/h21/hw/lab6.html
+
+
+
+
+
+
+Lab Assignment 6
+
+
+
+
+
+
+
+
+ICS H21 • UC IRVINE • DAVID G. KAY • FALL 2009
+Lab Assignment 6 
+This assignment is due at the end of lab on
+  Friday, November 6. 
+
+Choose a partner for this assignment, someone
+you haven't worked with already.  Be sure your language level is set
+ to Intermediate Student with Lambda.
+(a) Do exercises 19.1.4, 19.1.5, 19.1.6, and 19.2.2.
+ (b) Suppose we change our restaurant
+    structure so that instead of just one best dish and its price, each restaurant
+has a menu of dishes.  So a rrant is now
+    (make-rrant
+  name cuisine phone menu)
+ where name, cuisine,
+  and phone are strings and menu is a list of dish structures:
+   (make-dish
+  name price)
+ where name is a string and price is a number.
+None of these modifications should require any
+  change to the code for collections.
+ (b.1) Make up a big list of rrant structures to use in your testing.  Trade and combine lists with your classmates.
+ (b.2) Download version 1d of the restaurants program. Spend some time studying it; it's a version that includes the erase and adjust commands, plus binary search trees using lazy deletion.
+Make a copy of the restaurants1d.scm
+  program and call it restaurants1e.scm.
+ (b.3) Modify the program to handle rrant objects that include menus as described above.  You should try at least to make a list of all
+  the changes you will need before looking at our checklist of modification steps.
+ (b.4) Modify the program to display
+  the average price (of all the dishes on the menu) whenever a restaurant
+  is printed.
+ (b.5) Add a command to the main menu
+  that allows the user to search for (and display) all the restaurants that
+  serve a given cuisine along with the average price of (all the menus of
+  the restaurants that serve) that cuisine.
+ (b.6) Add a command to the main menu
+  that allows the user to search for (and display) all the restaurants that
+  serve a dish containing a given word or phrase.  (This is more realistic
+  than forcing the user to type the exact name of the dish; here, the user
+  can just type "fava beans" and match all the dishes that include
+  that phrase.  We've provided some code for string processing to make this task easier.) 
+ Collect all of these definitions and submit
+  them via Checkmate.
+(c)  At the end of the Functions as
+First-Class Objects sheet, we refactored the functions find-all-matches
+and remove-all-matches,
+defining both in terms of a more general handle-all-matches.
+
+(c.1)  Do the same thing in the second
+  restaurants program (available at http://www.ics.uci.edu/~kay/scheme/restaurants2.scm)
+      with collection-search
+      and collection-remove,
+          redefining both in terms of a general collection-check
+function.
+
+(c.2)  (extra credit, but the next part's required) Now redefine collection-check
+and collection-change
+in terms of a still-more-general collection-process
+function.
+
+(c.3)  Simplify your definition of collection-process
+(or collection-check
+and collection-change)
+using map,
+filter,
+foldr,
+and similar functions.
+
+Collect all of these definitions and submit
+them via Checkmate.
+
+(d) Be sure you've read the section in
+Homework 6 about files;
+now it's time to write a few file-handling functions.  Download and
+install the simple-file-io.ss teachpack at http://www.ics.uci.edu/~kay/scheme/simple-file-io.ss.
+(Remember to right- or control-click on the link and download the file, saving it in the same folder that contains your code.) We also have some file-handling code that provides four functions for reading and writing text files:
+;; file->list: string -> list
+;; Given a string naming a file, read the file into a list of strings.
+;; file-dialog->list: anything -> list
+  ;; Show user a dialog box to choose a file; read the file into a list of strings
+  ;; Call with (file-dialog->list 'x) because student Schemes don't allow
+  ;; parameterless functions.
+;; list->file: string list -> side effects (a new file)
+  ;; Given a string naming a new file, write list of strings that file, 
+  ;; one string per line.
+;; list->file-dialog: list -> side effects (a new file)
+  ;; Write a list of strings to a new file 
+  ;; (chosen by showing the user a file selection dialog)
+
+These functions operate on text files
+with the extension ".txt" or other files that consist only of
+characters you can type on the keyboard.  Word documents don't work
+unless they're saved as plain text; Scheme files do work unless they're
+saved with comment boxes, images, or other special features.
+
+(d.1)  Define the function copy-file
+that takes two strings—the name of an existing file and the name of a new
+file—and copies the contents of one to the other.  Use
+file->list
+and list->file.
+ Test it out with a short file.  Then download the Project Gutenberg version
+of The Adventures of Sherlock Holmes from http://www.gutenberg.org/dirs/etext99/advsh12.txt.
+ (Project Gutenberg is a wonderful resource for non-copyright-protected
+texts).  If you have to work on a slow network connection, you may pick
+a smaller file; this one is 577K.  Use your copy-file program to make another
+copy of this file.
+
+(d.2)  Write the function copy-file-dialog that takes one parameter (that it ignores—parameterless functions aren't
+allowed in the DrScheme student languages), displays a dialog box for the
+user to select a file to copy, displays another dialog box for the user
+to select the name of the copied file, and then creates the copy.  Use file-dialog->list and list->file-dialog.  Test this function with a couple of files.  (Testing
+of these file-handling programs isn't quite as convenient as just putting
+examples into your code, but it is essential nonetheless.  This is just
+an illustration of how interactive programs add an extra layer of complexity
+to the computing task.)
+
+(d.3)  Write the function copy-with-line-numbers that behaves like copy-file, except that the copied file has line numbers
+in this form
+1: The Project Gutenberg EBook of The Adventures of Sherlock Holmes
+  2: by Sir Arthur Conan Doyle
+  3: (#15 in our series by Sir Arthur Conan Doyle)
+  4:
+   ...
+13014: *END THE SMALL PRINT! FOR PUBLIC DOMAIN EBOOKS*Ver.02/11/02*END*
+
+The pre-defined functions string-append and number->string may be helpful.
+
+(d.4)  (optional, but there are required
+parts further down)  You'll notice that in your line-numbered file,
+the lines don't line up neatly because the numbers have different lengths.
+ It would be nice to be able to display a number in a five-character field,
+so that 17 would display as "   17" (with three spaces before
+the number).
+;; pad5: string -> string
+  ;; If input string is 5 characters or longer, return it unchanged. Otherwise, 
+;; add enough blanks at the left of the string to make it 5 characters long.
+Use this function in your line-numbering program;
+  the pre-defined function string-length
+  will be useful here.
+
+Next, write a generalized version of the function:
+;; pad: string number symbol string -> string
+  ;; The first argument is the input string. The second is the desired length.
+  ;; The third, 'left or 'right, indicates which end of the string should be padded.
+  ;; The fourth is the string that should be added repeatedly 
+  ;; until the string is at least as long as the desired length.
+  ;; Examples: (pad "Hi" 5 'right "!") -> "Hi!!!"
+;; (pad "Preface" 12 'right "_.") -> "Preface_._._."
+
+Finally, use these functions in your line-numbering
+program so that the numbers are printed in five-character fields (except
+for numbers over 99,999, which should be as long as necessary).
+
+(d.5)  Starting with a copy of your
+copy-file function (without the line numbers), write the function pick,
+which takes three arguments.  The first should be a string that the function
+will search for in the file; the second is a string naming the input file;
+the third is a string naming the output file.  The output file should contain
+only those lines in the input file that contain the specified string somewhere
+in the line.  (The string-processing functions from the previous assignment
+should be useful here.)
+
+(d.6)  Define the function stats, which
+takes a string naming a file and a symbol that indicates what statistic
+to compute (and return) about the file, according to the list below.  You
+should try to use local definitions in your function so that you don't
+calculate intermediate results more than once.  You'll want to use the
+predefined function string-length.  You can also use map, filter, and foldr to calculate these values compactly.
+
+  'total-lines:
+ The total number of lines in the file
+
+  'average-length:
+ The average length of lines in the file
+
+  'empty-lines:
+ The number of empty (zero-length) lines in the file
+
+  'average-nonempty-length:
+ The average length of the non-empty lines in the file
+
+  'longest-line:
+ The longest line in the file (you can do this with foldr)
+
+  'longest-line-length:
+ The length of the longest line in the file
+
+  'shortest-line:
+ The shortest non-empty line in the file
+
+  'shortest-line-length:
+ The length of the shortest line in the file.
+
+Submit these definitions via Checkmate.
+(e)
+
+Do exercises 21.2.1, 21.2.2, and 21.2.3.
+ Collect these definitions and submit them
+  as usual via Checkmate.
+(f) For extra credit, try to refine the evaluate function from section 14.4 to handle all-numeric expressions (as before)
+  and also expressions with one variable.  You'd start with (define
+    evaluate (lambda (exp var num) ...),
+      which returns the value of exp (with num substituted for each occurrence of var).
+        Refine evaluate further to take a list of variable-value pairs and substitute all the values
+          for their respective variables.
+(g)  Remember that each partner must
+complete a partner evaluation form via the Survey tool on eee.uci.edu.  
+
+
+
+Based in part on ICS H21assignments and exams
+by David G. Kay from Fall 2001; modified by David G. Kay with material from
+Informatics 41, Fall 2004 and Fall 2005; file I/O code written by Angelo
+Pioli, Fall 2005. Modified by David G. Kay, Fall 2009.
+
+David G. Kay, kay@uci.edu 
+
+Saturday, October 31, 2009 3:16 PM
+

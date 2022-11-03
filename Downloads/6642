@@ -1,0 +1,57 @@
+http://www.ics.uci.edu/~sysarch
+
+
+
+
+SysArch Group Home Page
+
+
+
+
+
+ 
+ Parallel Architectures and Systems Lab 
+
+
+
+The Parallel Architectures and Systems group in the Department of Computer Science at UCI conducts research
+on processor architecture and software for parallel, high-performance and distributed systems (including 
+embedded systems).  The best way to learn about our work is to look at our projects and publications.
+
+ People (2019)  
+ 
+
+Left to right: Alex V, Michael, Fedor, Sajjad, Neftali, Aniket,, and Alex Nicolau
+
+ Projects 
+
+ Computers and Art  
+ Improving automatic vectorization  
+ OpenCV.js  
+ WebRTC and WebRTCBench 
+
+"WebRTC is perhaps the most disruptive of all HTML5 APIs. By making the audio and video communications programmable in the browser language, it is expected to have a profound impact on the way we communicate with each other. WebRTC will enable exciting new experiences on computing devices in individual communications, group meetings, e-commerce, customer support, remote collaborations, media, and online education among others.  WebRTC has the potential of transforming the web to the main real-time interaction medium.
+
+
+Kudos to the UC Irvine research team of Prof. Nicolau and Prof. Veidenbaum for developing WebRTCBench, a ground breaking benchmarking suite for quantitative measurement of the system characteristics of fundamental operations of WebRTC. With the rapidly increasing importance of WebRTC in computing and communication industries, I have growing hope that WebRTCBench will play a major role in helping optimize WebRTC implementations and shape this exceptionally important emerging technology."
+
+
+Dr. Mohammad Reza Haghighat
+
+Senior Principal Engineer and leader of Intel HTML5 technical strategy
+
+
+
+ Compiler and performance optimization using similarity analysis  
+
+
+ Improving single core performance via compiler-assisted out-of-order commit  
+
+
+ Some prior projects  
+
+
+ Publications  
+
+
+

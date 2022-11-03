@@ -1,0 +1,101 @@
+https://sli.ics.uci.edu/PmWiki/Glossary
+
+
+
+SLI | PmWiki / Glossary 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+Glossary
+
+
+
+
+
+< Change log | Documentation Index | Introduction >
+
+
+
+This page describes various terms related to PmWiki.
+
+Author Any user with privileges to write to the wiki.
+Admin The person (or people) who controls access to the wiki, configures the wiki, and generally is the person who installed the wiki.
+Configuration file A specially-named PHP script file where local customizations can take place for a farm, a wiki, a group, or a page.
+Default configuration The way Pm has chosen to set all settings, or an individual setting, by default.  For example, $EnablePathInfo is disabled by default.  A wiki with no local/config.php file is using the default configuration.  Likewise, a farm that only defines $FarmPubDirUrl in farmconfig.php is using the default configuration.
+
+Farm A group of wikis that share code. Content and formats may or may not be shared. For more farm-related terms, including several which have been deprecated, see WikiFarmTerminology
+Farm-wide configuration file A WikiFarm's local/farmconfig.php file, where any settings (besides $FarmPubDirUrl) customize the default configuration for all of the wikis in a farm.
+Full page name The full page name consists of a group and a name, e.g. Main.WikiSandbox. The variable for the full page name is {$FullName}, which for this page is PmWiki.Glossary. Similarly, the variable for the group is {$Group} which here is PmWiki.
+Group A collection of associated wiki pages; by default this appears in the page name as "Group.PageName". Attributes can be set on all pages in the group simultaneously. The variable for the group is {$Group}, which here is PmWiki.
+Local configuration file A specially-named PHP script where local customizations can take place for an individual wiki.  For an entire wiki it's named local/config.php.  Individual groups and pages can also have their own local configuration files.
+Local customization Any deviation from the default configuration.  A related phrase is "farm-wide customization".
+Page file name The page file name is the name of the file that normally stores the data of a page in the directory wiki.d/. This file name is normally built directly from the page name.
+Page link A page link is something that is used to generate a link to a page. For example, the markup [[wiki sandbox]], [[(wiki) sandbox]], WikiSandbox, Main/WikiSandbox, [[Main/wiki sandbox]], [[Main.WikiSandbox | click here]], etc all specify a link to the page 'Main.WikiSandbox'.  In each case PmWiki uses the context of the link to generate a page name from the page link -- normally by capitalizing each word found in the link and stripping any characters that aren't considered valid in page names.
+Page name The page name is a string that PmWiki uses to refer to a page - i.e. it names the page. This could also be considered a handle for the page. The variable for the page name is simply called {$Name}, which for this page is Glossary.
+Note that there is no whitespace in page names, and by default PmWiki capitalizes each word in a page's name. There is however a variable {$Namespaced} where spaces have been inserted, e.g. for the page WikiSandbox this variable would be Wiki Sandbox.
+Note that PmWiki also uses the page name to locate per-group and per-page customization files in the local/ subdirectory. For example, browsing Main.WikiSandbox would cause local/Main.WikiSandbox.php and local/Main.php to be loaded if these files existed.
+Page title A page title is the title element of a page, i.e. what is usually shown above the page and in the browser window's name. This title is normally set via the directive (:title:), but if no such directive is given the title will be automatically generated from the page name. The title of a page is accessed via either the variable {$Title} or the variable  {$Titlespaced}. The latter differs in that it uses the spaced version of the name.
+Page URI Page names are used in URIs to tell PmWiki which page is to be loaded or acted upon. The normal form of a page URI is usually one of these two
+http://www.example.com/pmwiki/pmwiki.php?n=Main.WikiSandbox
+http://www.example.com/pmwiki/pmwiki.php/Main.WikiSandbox
+Note that various aliasing and rewriting tricks can be used to modify this, but PmWiki expects to obtain a page name from the parameter 'n' or from the PATH_INFO component following the URI of the script (pmwiki.php).
+Note that the parameter 'n' takes precedence over PATH_INFO if both are available.
+WikifarmSynonymous for "farm".
+
+
+< Change log | Documentation Index | Introduction >
+
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:Glossary, and  a talk page: PmWiki:Glossary-Talk.
+
+
+
+
+
+
+ Last modified September 10, 2011, at 09:08 AM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

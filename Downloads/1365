@@ -1,0 +1,10 @@
+http://plrg.ics.uci.edu/publications/20.bib
+@inproceedings{key,
+ author = {Brian Demsky and Martin C. Rinard},
+ title = {Role-Based Exploration of Object-Oriented Programs},
+ booktitle = {Proceedings of the 2002 International Conference on Software Engineering},
+ pages = {313--324},
+ location = {Orlando, Florida},
+ month = {May},
+ year = {2002}
+}

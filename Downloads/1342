@@ -1,0 +1,8 @@
+http://plrg.ics.uci.edu/publications/10.bib
+@mastersthesis{key,
+ author = {Brian C. Demsky},
+ title = {An Empirical Study of Technologies to Implement Servers in Java},
+ school = {MIT},
+ month = {May},
+ year = {2001}
+}

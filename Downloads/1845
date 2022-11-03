@@ -1,0 +1,88 @@
+https://sli.ics.uci.edu/PmWiki/SitePreferences
+
+
+
+SLI | PmWiki / SitePreferences 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+SitePreferences
+
+
+
+
+
+< Skin templates | Documentation Index | Web feeds >
+
+
+
+The page Site.Preferences contains customisable browser preference settings.
+These include access keys (keyboard shortcuts to certain actions like edit, history, browse) and settings of the Site.EditForm (width and height of the edit textarea) as well as the name of the edit form in use.
+
+A different page than Site.Preferences can be chosen by making a copy of that page under a new name, customising it, and setting a cookie which will point to this page for the browser being used, through 
+
+   ?setprefs=SomeGroup.CustomPreferences 
+SomeGroup.CustomPreferences being the name of the new customised preference page.
+
+Notes and Comments
+Note that in order to enable parsing of Site.Preferences by default, a line like the following needs to be added to local/config.php:
+
+ XLPage('prefs', "Site.Preferences");
+
+
+< Skin templates | Documentation Index | Web feeds >
+
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:SitePreferences, and  a talk page: PmWiki:SitePreferences-Talk.
+
+
+
+
+
+
+ Last modified September 10, 2011, at 09:08 AM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

@@ -1,0 +1,184 @@
+http://sli.ics.uci.edu/Classes-2008F/Finance
+
+
+
+SLI | Classes-2008F / Finance 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Classes-2008F /
+Finance
+
+
+Latest
+
+We still need to nail down exactly what techniques we are going to use
+
+What time monday (10/6) works for people to meet to agree on our update for the class, 1pm?
+
+Task
+
+To predict either stock/index price or stock/index variance based on training data. We will evaluate the performance of alternate methods based on there return on test data. 
+
+We will come up with a per trade cost
+We will have a fixed number of dollars to start, $1M?
+We should have a standard simulation system (call a function with a proposed trade, get a return)
+
+Data
+
+Data source that we know are available
+2004-2005 inter-day tick data for ?, 2.2GB compressed
+
+data is available
+Do not forward this data to anyone not in the class and working on the finance project
+
+/extra/grad_space/iporteou 
+
+Ok now there are two data sets in the directory the first is end of day option data. The option data files are named Year_Month|Quarter.zip. The second data set is 5min,10min,30min,end of day data for 100 Nasdaq stocks from 1997-2002
+
+
+Here is the description of each field for the option data.
+
+Underlying Symbol, Underlying Price, Exchange (always is an asterisk in end of day data), Option Root, Option Extension, Contract Type (call or put), Expiration Date, Quote Date, Strike, Last Price, Bid Price, Ask Price, Volume, Open Interest, Implied Volatility, Delta,Gamma 
+
+UTEK,14.89,*,UQT,QV,put,05/20/2005,2/1/2005 4:00:00 PM,12.5,1.05,0.6,0.8,0,86,0.558568,-0.228549,6.708686,0,0
+UTEK,14.89,*,UQT,EC,call,05/20/2005,2/1/2005 4:00:00 PM,15,3.4,1.6,1.75,0,7,0.527764,0.552821,9.279516,0,0
+UTEK,14.89,*,UQT,QC,put,05/20/2005,2/1/2005 4:00:00 PM,15,1.85,1.65,1.8,0,339,0.529672,-0.44696,9.245419,0,0
+UTEK,14.89,*,UQT,EW,call,05/20/2005,2/1/2005 4:00:00 PM,17.5,0.85,0.7,0.85,0,88,0.50583,0.33157,8.883629,0,0
+UTEK,14.89,*,UQT,QW,put,05/20/2005,2/1/2005 4:00:00 PM,17.5,3.7,3.1,3.4,0,96,0.485946,-0.678822,9.127955,0,0
+UTEK,14.89,*,UQT,ED,call,05/20/2005,2/1/2005 4:00:00 PM,20,0.25,0.25,0.4,0,131,0.494386,0.171051,6.36422,0,0
+UTEK,14.89,*,UQT,QD,put,05/20/2005,2/1/2005 4:00:00 PM,20,2.9,5.2,5.6,0,10,0.519563,-0.813445,6.395854,0,0
+
+
+
+Here is the stock data description
+
+The data for a stock is in a directory with that stocks name. In the directory for the stock there are separate files for the different time resolutions.
+
+The format is Date,Time,open, high, low, close, volume
+
+04/10/1997,15:45,9.5,9.5625,9.4375,9.5,2820004/10/1997,15:50,9.5,9.5,9.4375,9.4687,4760004/10/1997,15:55,9.4375,9.5,9.4375,9.5,5160004/11/1997,09:30,9.4375,9.4375,9.3125,9.3125,10060004/11/1997,09:35,9.3125,9.4375,9.3125,9.4375,2560004/11/1997,09:40,9.4375,9.4375,9.3125,9.4375,2900004/11/1997,09:45,9.3437,9.4375,9.3125,9.3125,1120004/11/1997,09:50,9.3125,9.4375,9.3125,9.4375,1620004/11/1997,09:55,9.3125,9.4375,9.3125,9.3125,13000
+Methods
+
+Everyone should propose at least one approach to 
+
+Sidharth: I was thinking of trying some simple approaches to see how well they will do. My first thought was to do some form clustering followed by using some form of nearest neighbor approximation to try to predict the price at the next step of the time series. As I was going through the papers on the quant papers link, I saw a couple of papers related to using nearest neighbor for time series prediction. I haven't actually read the papers yet, but thought I would throw out the idea since it was one of the first that came to my mind
+
+Fuzzy nearest neighbor method for time series forecasting
+http://www.smartquant.com/references/TimeSeries/ts4.pdf
+Financial time series forecasts using fuzzy and long memory pattern recognition systems
+http://www.smartquant.com/references/TimeSeries/ts2.pdf
+America: My first thoughts. (1) Recurrent neural networks since these exhibit short-term memory and can behave chaotically. There has been quite a bit of work using recurrent neural networks so we may want to steer clear of this area.  (2) Fitting a function to the time series using linear regression. With linear regression we can define X (our response matrix) to include as much, or as little, information as we want. (3) In contrast we could look at prediction using Fourier transform (modeling the time series as a summation of sine and cosine waves). If I have any more ideas, I'll post them.
+
+Dave: I have a few ideas. 
+I did some preliminary work with Markov Logic Networks to try and infer optimal agent actions. So far it seems like approaches built into this framework have the potential to scale well (enough). 
+It also seems that the market is not Markovian: that is, given some (constant) latent parameters and the current state (visible and hidden variables), there is not enough information to infer the future state. So I'm interested in exploring how, for example, the market from two minutes, two weeks and two years ago effects tomorrows price. My working hypothesis is that there is ~'log-time information gain'. That is, if we look in the past, and are only allowed a few bits of information from each time interval, the information about what happened during the last minute, has the same relevance in our prediction as what happened in the two minutes before that, or the 4 minutes before that, and so on...
+I've noticed some of these stock charts look similar to some stochastic chemical networks my research deals with. It might be interesting to 'lift' some of the sampling/inference/theory ideas and apply them to the market. Here's the 1977 ~seminal paper Gillespie (probably just glance over results/graphs, although their MCMC trajectories usually look crazier than they do in this paper). 
+Use the information bottleneck method from time t to t+1 to determine underlying market 'motivators'. It would probably be best to do this at different time-scales and somehow combine results. 
+The final idea for an idea is to study how stocks interact with one another as the time-scale changes. 
+Here is our page for the Markov Logic Network work. Here is our page for quantifying the Markovian-ness? of stock prices.
+
+Ian: I believe that market movements are not solely explaned by rational decision makers. Recent models of market movements that include group dynamics include Random Field Ising Model and models for flocking in biological systems. Investors in these models are not just independent decision makers, instead they are coupled. Several factors play a role, cohesion - try to get in the same position as everyone else, seperation - avoid crowds, alignment - try to move in the same direction as everyone else. So investors are probably a combination of rational actors with noise, plus participants in a flock. There are likely several flocks seperated by social networks or by financial segments. 
+
+So I would like to see if market behavior can be modeled by groups of these rational+flocking investors. Since the rational behavior would follow the principal of efficient markets, without additional information no predictions can be made. But the flocking behavior may lend itself to predicitons.  
+
+Here are some papers on recent related work
+
+http://arxiv.org/abs/0803.1769
+
+http://ideas.repec.org/p/sfi/sfiwpa/500060.html#download
+
+http://www2.warwick.ac.uk/newsandevents/pressreleases/swarming_starlings_help
+
+Separate Flocking page for discussions specific to this method
+
+Tony:
+I came across this neat book that uses Projection Pursuit Regression and Neural Networks: http://www.liaad.up.pt/~ltorgo/DataMiningWithR/ . I'm interested in seeing how these off-the-shelf algorithms perform. 
+
+Vikram:
+Any comments on how text mining on all news articles in the time frame can help improve results? I've read quite a few articles, all of which say that the news component is less influential than others factors involved. And many of those do not really mention how the news articles are being understood. Maybe this can help augment other approaches.
+
+Papers
+
+Wavelet techniques (including Matching Pursuit) for financial time series
+http://portal.acm.org/citation.cfm?id=981412.981417&coll=GUIDE&dl=GUIDE&CFID=31246965&CFTOKEN=79178695
+
+Journal of Nature article on matching pursuit for auditory coding.
+http://www.nature.com/nature/journal/v439/n7079/abs/nature04485.html
+
+automated trading project
+http://www.cis.upenn.edu/~mkearns/projects/plat.html
+
+Trend Mining
+Trend Mining with Semantic-Based Learning
+http://people.csail.mit.edu/pcm/ESWC08PHD/streibel.pdf
+
+TREMA trend mining project
+http://www.projekt-trema.de/publikationen.html
+
+Random Field Ising Model
+http://ideas.repec.org/p/sfi/sfiwpa/500060.html#download
+
+Tools
+A page for tools / packages / code that might be useful for our project. 
+
+links:
+A lot of interesting quant related papers:
+http://smartquant.com/references.php
+
+A Poor Man's Guide to Quantitative Analysis by Emanuel Derman (Author of My Life As A Quant):
+http://www.ederman.com/new/docs/carnegie-poor_mans_guide.pdf
+
+Wikipedia seems to have a pretty complete description of financial terms
+http://en.wikipedia.org/wiki/Financial_market
+
+http://en.wikipedia.org/wiki/Derivatives_market
+
+
+
+
+
+
+ Last modified October 14, 2008, at 01:47 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

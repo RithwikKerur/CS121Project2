@@ -1,0 +1,134 @@
+http://sli.ics.uci.edu/Classes/2011F-171
+
+
+
+SLI | Classes / Intro to Artificial Intelligence, CS171 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Classes /
+Intro to Artificial Intelligence, CS171
+
+
+ CLOSED : 2011 OFFERING  
+
+Assignments and Exams:
+
+HW1,Code10/04/11Soln  
+HW2,Code10/11/11Soln  
+HW3,Code10/21/11Soln  
+HW410/30/11Soln  
+HW511/15/11Soln  
+HW612/02/11Soln  
+     
+Midterm11/01/112:00-3:30Soln 
+Final12/08/111:30-3:30  
+Discussion Page
+
+Class: Steinhaus Hall 134, TR 2:00-3:30 
+Recitations: PCB1200, Mon 2-3, or   ICF102, Mon 3-4.
+
+Introduction to artificial intelligence.
+CS171 is an introductory course to the elements and algorithms underlying the field of artificial intelligence (AI) for undergraduates.
+AI includes subproblems relevant to many areas of research, including information theory, control, signal processing,
+optimization, operations research, natural language processing and computer vision.  CS171 will provide an introduction to the techniques of automated problem solving, including search, optimization and inference in deterministic and stochastic systems.
+
+As in previous years, the course will focus considerable time on deterministic constraints, logic, and search.  However, the inclusion and representation of uncertainty is critical in many modern aspects of AI, and will be introduced and discussed alongside deterministic versions of related problem types.
+
+Background. 
+The course is intended to be an introduction to artificial intelligence, and thus has few explicit requirements. Students are expected to be familiar with basic concepts from computer science (such as algorithmic complexity and logic); portions of the class will also include basic probability, and familiarity with programming may be helpful for some homeworks.
+
+Course format. 
+Three lectures per week. Homeworks due at the time stated on each homework (usually end of day), approximately every two weeks. Use EEE for electronic submission, or turn in a hard copy.  Two exams (midterm and final). Grading: approximately 40% homework (25% regular, 15% programming), 25% midterm, 35% final.  Lowest regular homework score to be dropped.
+
+Office Hours.
+Professor Ihler's office hours are Thursday 4-5pm, or by appointment.
+The TA (Andrew Gelfand) has office hours on Tuesday from 11am-12pm, or by appointment.  His office is 4099 DBH.
+
+Collaboration.
+Discussion of the course concepts and methods among the students is encouraged; however, all work handed in should be completely your own.  In order to strike a balance, we'll use the "work product" rule: while discussing anything related to the homework, you should retain no work product created during the discussion.  In other words, you can meet and discuss the problems, describe the solution, etc., but then all parties must go away from the meeting with no record (written notes, code, etc.) from the meeting and do the homework problem on your own.  If you work on a whiteboard, just erase it when you're done discussing.  Don't show someone else your homework, or refer to it during the discussion, since by this policy you must then throw it away.
+
+Textbooks. 
+The required textbook for the course is Russel & Norvig, "Artificial Intelligence: A Modern Approach".  Lectures should follow the book fairly closely, with minor exceptions.  
+
+(Tentative) Schedule of Topics.
+ TopicsSlidesSuggested reading
+Week 0Class introduction; history of AI; AgentsSlides, Lecture, Discussion (9/26)R&N Ch 1-2, (optional) Building IBM's Watson
+Week 1Formalities of problem solving; state spacesSlides, Lecture, Discussion (10/3)R&N Ch 3
+ Basics of searchLectureR&N Ch 3
+Week 2Informed search, A*Slides, Lecture, Discussion (10/10)R&N Ch 3
+ A* variants; local searchSlides, LectureR&N Ch 3-4
+Week 3Local SearchSlides, Lecture, Discussion (10/17)R&N Ch 5
+ GamesSlides, LectureR&N Ch 5
+Week 4Constraint SatisfactionSlides, Lecture, Discussion (10/24)R&N Ch 6
+ CSPs 2Slides, LectureR&N Ch 6
+Week 5CSPs3 ,Propositional logicSlides, Lecture, Discussion (10/31)R&N Ch 7
+ PL continuedLecture
+Week 6Midterm exam 
+ No class 
+Week 7Prop logic cont'dSlides,  Lecture, Discussion (11/14)
+ First order LogicSlides, LectureR&N Ch 8,9
+Week 8FOL cont'dSlides, Lecture, Discussion (11/21)
+ Probability & Bayesian NetworksSlides, LectureR&N Ch 13,14
+Week 9Machine LearningSlides, Lecture, Discussion (11/28)R&N Ch 18.1-4
+ (Thanksgiving holiday) 
+Week 10Machine LearningSlides,  Lecture
+ Review 
+   
+Final Exam12/08/2011Final exam
+
+Connect-Four tournament results (for entertainment only)
+
+Additional resources and links:
+Ms Pac-Man AI competition
+Mario AI competition
+StarCraft AI competition
+
+
+
+
+
+
+ Last modified February 13, 2017, at 02:23 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

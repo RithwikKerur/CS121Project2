@@ -1,0 +1,466 @@
+http://www.ics.uci.edu/~kay/scheme/restaurants4.scm
+;;;;;;;; RESTAURANT COLLECTION PROGRAM (Version 4, with menus and files)
+;;;;;;;; David G. Kay ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Fall 2005, ICS, UC Irvine
+;;;;;;;; This version is compatible with DrScheme's Intermediate Student with Lambda
+;;;;;;;; Requires simple-file-io.ss teachpack.
+
+;; New Scheme used here:
+
+;; get-file:  string boolean boolean boolean boolean list -> file-name [a string]
+;; Show the user a file-selection dialog box and return the full file pathname 
+;; selected by the user.  The first argument is the prompt to display at the
+;; top of the dialog box; the other arguments don't matter to us now.
+
+;; open-input-file:  file-name -> input-port
+;; Take a file name (a string) and return an input port for the named file 
+;; (think of a port as a device, to read from in this case).
+
+;; read:  input-port -> any
+;; Read one Scheme expression from the port specified
+
+;; put-file:  string boolean boolean boolean boolean list list -> file-name [a string]
+;; Show the user a file-selection dialog box and return the full file pathname
+;; selected by the user.  The first argument is the prompt to display; the other
+;; arguments don't matter to us now.
+
+;; open-output-file:  file-name symbol -> output-port
+;; Take a file name (a string) and a symbol (for us, 'replace) and return an
+;; output port for the named file.
+
+;; print:  expression output-port -> none (side effect: writes to file)
+;; Write the specified Scheme expression to the specified port, using Scheme's
+;; construction-style printing, e.g., (make-rrant "Joe's" "Pizza" ...)
+
+;; close-output-port:  output-port -> none (side effect: closes port)
+;; Close the specified output file, which is necessary for housekeeping.
+
+
+;;;;;;;; Top-level Application Routines ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;                                 
+;                                 
+;                                 
+;                      ;          
+;                                 
+;                                 
+;   ; ;;  ;;    ;;;    ;   ; ;;   
+;   ;;  ;;  ;  ;   ;   ;   ;;  ;  
+;   ;   ;   ;      ;   ;   ;   ;  
+;   ;   ;   ;   ;;;;   ;   ;   ;  
+;   ;   ;   ;  ;   ;   ;   ;   ;  
+;   ;   ;   ;  ;   ;   ;   ;   ;  
+;   ;   ;   ;   ;;;;;  ;   ;   ;  
+;                                 
+;                                 
+;                                 
+
+;; Restaurants: anything -> don't care (side effects--printing, writing files)
+;; Main driver function; call this to get started (see end of definitions)
+(define restaurants                       
+  (lambda (x)
+	(begin
+	  (display "Welcome to the Restaurant Collection Program") (newline)
+	  (local ((define start-with-new-file? (new-vs-saved? 'x))
+			  (define input-file-name
+				(cond
+				  (start-with-new-file? "Restaurants")
+				  (else (get-file "Select the file containing your restaurants"
+								  false false false false empty))))
+			  (define initial-collection 
+				(cond
+				  (start-with-new-file? (make-collection 'x))
+				  (else (collection<-list
+						 (convert-from-input
+						  (read
+						   (open-input-file input-file-name)))))))
+			  (define final-collection (handle-commands initial-collection))
+			  (define destination-file
+				(open-output-file
+				 (put-file "Select the file to store your restaurants"
+						   false false false false empty empty)
+				 'replace)))
+		(begin
+		  (print final-collection destination-file)
+		  (close-output-port destination-file)
+		  (display "Thank you.  Good-bye.") 
+		  (newline))))))
+
+;; handle-commands: collection -> collection
+;; Take collection, process it according to commands from user,
+;; and return (possibly changed) collection.
+(define handle-commands                  
+  (lambda (C)
+	(local ((define response (get-menu-response 'x)))  ; Get a response from the user
+	  (cond                        
+		((equal? response 'q) C)        
+		((equal? response 'a) (handle-commands (collection-add C (rrant-get-info 'x))))
+		((equal? response 'r) (handle-commands (collection-remove C (make-test-for-name "remove"))))
+		((equal? response 'p) (begin (print-collection C) (handle-commands C)))
+		((equal? response 's) (begin (search-collection C (make-test-for-name "search for"))
+									 (handle-commands C)))
+		((equal? response 'e) (handle-commands (make-collection 'x)))
+		((equal? response 'c) (handle-commands (change-prices C (get-it "percentage change"))))
+		(else (begin (invalid-command response) (handle-commands C)))))))
+
+;; get-menu-response: anything -> symbol
+;; Prompt the user with a command menu, read a response, and return it.
+(define  get-menu-response
+  (lambda (x)
+	(begin
+	  (newline)
+	  (display "Restaurant Collection Program --- Choose one:") (newline)
+	  (display "   a:  Add a new restaurant to the collection") (newline)
+	  (display "   r:  Remove a restaurant from the collection") (newline)
+	  (display "   s:  Search the collection for selected restaurants") (newline)
+	  (display "   p:  Print all the restaurants") (newline)
+	  (display "   e:  Remove (erase) all the restaurants from the collection") (newline)
+	  (display "   c:  Change prices for dishes served") (newline)
+	  (display "   q:  Quit") (newline)
+	  (read))))
+
+;; invalid-command: symbol -> don't care (side effect--display)
+;; Print an informative error message about incorrect/invalid command
+(define invalid-command                       
+  (lambda (response)  
+	(begin
+	  (display "Sorry; '") 
+	  (display response) 
+	  (display "' isn't a valid command.  Please try again.")
+	  (newline))))
+
+;; make-test-for-name: string -> (rrant->boolean)
+;; Take as input a phrase describing what to do with a restaurant;
+;; using that phrase, prompt the user for the name of a restaurant
+;; and return a predicate that tests a restaurant for that name.
+(define make-test-for-name   
+  (lambda (what-to-do)
+	(local ((define name (get-it (string-append "name of the restaurant to " what-to-do))))
+	  (lambda (R)
+		(string=? name (rrant-name R))))))
+
+;; print-rrant-list: (listof rrant) -> don't care (side-effect--display)
+;; Take a list of rrants and print it.
+(define print-rrant-list
+  (lambda (RL)
+	(for-each rrant-print RL)))
+
+;; search-collection: collection test? -> don't care (side effect--display)
+;; Get restaurants passing test? and print them.
+(define search-collection
+  (lambda (collection test?)
+	(print-rrant-list 
+	 (collection->list (collection-search collection test?)))))
+
+;; print-collection: collection -> don't care (side effect--display)
+;; Take a collection and print all the restaurants on it.  (We do this
+;; by calling search-collection with a test that all restaurants pass.)
+(define print-collection     
+  (lambda (collection)
+	(search-collection collection (lambda (R) true))))
+
+;; adjust-prices: collection number -> collection
+;; Adjust all restaurant prices in the collection by the specified percentage.
+(define change-prices
+  (lambda (collection percentage)
+	(collection-change collection 
+					   (lambda (R) true) ; a predicate to select every rrant
+					   (lambda (R)       ; function to change a rrant's prices
+						 (make-rrant (rrant-name R) (rrant-cuisine R) (rrant-phone R) 
+									 (map (lambda (D) (dish-reprice percentage D))
+										  (rrant-menu R)))))))
+;                                            
+;                                            
+;                                            
+;    ;;;    ;              ;      ;          
+;   ;    ;  ;                     ;          
+;   ;       ;                    ;           
+;  ;;;;;;;  ;    ;;;       ;     ;     ;;;   
+;   ;    ;  ;   ;   ;      ;     ;    ;   ;  
+;   ;    ;  ;  ;    ;      ;     ;   ;     ; 
+;   ;    ;  ;  ;;;;;;      ;    ;    ;     ; 
+;   ;    ;  ;  ;           ;    ;    ;     ; 
+;   ;    ;  ;   ;          ;    ;     ;   ;  
+;   ;    ;  ;    ;;;;      ;   ;       ;;;   
+;                              ;             
+;                              ;             
+;                                            
+;; new-vs-saved?: anything -> boolean (side effect: query user)
+;; Ask user whether to create a new collection or read a saved one from a file.
+(define new-vs-saved?
+  (lambda (x)
+	(local((define answer
+			 (begin
+			   (display "Would you like to start with an existing ")
+			   (display "collection of restaurants? (yes or no)") (newline)
+			   (display "(If not, you can start with an empty collection.)") (newline)
+			   (read))))
+	  (not (or (eq? answer 'yes) (eq? answer 'y))))))
+
+;; convert-from-input: expression from input file -> list
+;; Produce a list of rrant structures from the constructor-form list
+;; that the program writes out to its file.  The Scheme function apply
+;; applies a function to a list of arguments.  (apply + '(2 3 4)) = (+ 2 3 4)
+(define convert-from-input
+  (lambda (exp)
+	(cond
+	  ((empty? exp) empty)
+	  ((cons? exp) (apply (symbol->function (first exp))
+						  (map convert-from-input (rest exp))))
+	  ((equal? exp 'empty) empty)
+	  (else exp))))
+
+;; symbol->function: symbol -> function 
+;; For a given symbol (found in constructor-style expressions
+;; in a file produced using 'print'), return the corresponding
+;; function name.
+(define symbol->function
+  (lambda (symbol)
+	(cond
+	  ((eq? symbol 'list) list)
+	  ((eq? symbol 'make-rrant) make-rrant)
+	  ((eq? symbol 'make-dish) make-dish)
+	  (else (error symbol "Unexpected symbol in restaurant file")))))
+;                                
+;                                
+;                                
+;                                
+;                                
+;                            ;   
+;   ; ;  ; ;  ;;;    ; ;;   ;;;; 
+;   ;;   ;;  ;   ;   ;;  ;   ;   
+;   ;    ;       ;   ;   ;   ;   
+;   ;    ;    ;;;;   ;   ;   ;   
+;   ;    ;   ;   ;   ;   ;   ;   
+;   ;    ;   ;   ;   ;   ;   ;   
+;   ;    ;    ;;;;;  ;   ;    ;; 
+;                                
+;                                
+;                                
+;; A rrant is a structure
+(define-struct rrant (name cuisine phone menu))
+;; where name, cuisine, and phone are strings and menu is a list of dishes
+
+;; rrant-get-info: anything -> rrant
+;; Prompt the user for info on a restaurant and create one.
+(define rrant-get-info     
+  (lambda (x)          
+	(begin
+	  (display "When the machine asks you to supply some non-numeric information, ") (newline)
+	  (display "please type that information surrounded by quotation marks.") (newline)
+	  (local ((define n (get-it "restaurant's name"))
+			  (define c (get-it "kind of food served"))
+			  (define ph (get-it "phone number"))
+			  (define m (begin
+						  (display "Please enter the dishes on the menu.") (newline)
+						  (menu-get empty))))
+		(make-rrant n c ph m)))))
+
+;; rrant-print: rrant -> don't care (side effect--display)
+;; Display a rrant readably
+(define rrant-print
+  (lambda (r)
+	(begin
+	  (display "Name:      ") (display (rrant-name r)) (newline)
+	  (display "Cuisine:   ") (display (rrant-cuisine r)) (newline)
+	  (display "Phone:     ") (display (rrant-phone r)) (newline)
+	  (display "Menu:      ") (display "Average price $")
+							  (display (exact->inexact (menu-average (rrant-menu r))))
+							  (newline)
+	  (for-each dish-print (rrant-menu r)) (newline))))
+
+
+;                                     
+;                                     
+;                                     
+;                                     
+;                                     
+;                                     
+;   ; ;;  ;;     ;;;   ; ;;    ;   ;  
+;   ;;  ;;  ;   ;   ;  ;;  ;   ;   ;  
+;   ;   ;   ;  ;    ;  ;   ;   ;   ;  
+;   ;   ;   ;  ;;;;;;  ;   ;   ;   ;  
+;   ;   ;   ;  ;       ;   ;   ;   ;  
+;   ;   ;   ;   ;      ;   ;   ;  ;;  
+;   ;   ;   ;    ;;;;  ;   ;    ;; ;  
+;                                     
+;                                     
+;                                     
+;;; menu -- A list of dishes, either empty or (cons dish menu)
+
+;; menu-get: anything -> (listof dish)
+;; Prompt the user for dishes and prices and create a menu
+(define menu-get
+  (lambda (dishlist)
+	(begin
+	  (display "To add a dish, type 'a'; to quit adding dishes, type 'q':  ")
+	  (local ((define response (read)))
+		(cond
+		  ((equal? response 'q) dishlist)
+		  ((equal? response 'a) (menu-get (cons (dish-get 'x) dishlist)))
+		  (else (begin (display "Sorry; try again.") (newline) (menu-get dishlist))))))))
+
+;; menu-average: (listof dish) -> number
+;; Return the average price of dishes on the menu
+(define menu-average
+  (lambda (dishlist)
+	(cond
+	  ((empty? dishlist) 0)
+	  (else (/ (foldr + 0 (map dish-price dishlist))
+			   (length dishlist))))))
+
+
+;                             
+;                             
+;                             
+;       ;   ;          ;      
+;       ;              ;      
+;       ;              ;      
+;    ;; ;   ;    ;;;   ; ;;   
+;   ;  ;;   ;   ;      ;;  ;  
+;  ;    ;   ;   ;;     ;   ;  
+;  ;    ;   ;    ;;    ;   ;  
+;  ;    ;   ;      ;   ;   ;  
+;   ;  ;;   ;      ;   ;   ;  
+;    ;; ;   ;   ;;;    ;   ;  
+;                             
+;                             
+;                             
+;;; dish --- A dish listed on a restaurant's menu
+(define-struct dish (name price))
+;; where name is a string and price is a number.
+
+;; dish-get: anything -> dish
+;; Prompt the user for a dish's name and price and return a dish object
+(define dish-get
+  (lambda (x)
+	(local ((define name (get-it "name of the dish"))
+			(define price (get-it "price")))
+	  (make-dish name price))))
+
+;; dish-print: dish -> nothing (side effect--display)
+;; Print a dish (a menu entry)
+(define dish-print
+  (lambda (D)
+	(begin
+	  (display (dish-name D))
+	  (display " ($") 
+	  (display (exact->inexact (dish-price D)))
+	  (display ")") (newline))))
+
+;; dish-reprice: number dish -> dish
+;; Return the dish with its price changed by the number (a percentage).
+;; A percentage of 100 doubles the price; a percentage of -50 halves it.
+(define dish-reprice
+  (lambda (percentage D)
+	(make-dish (dish-name D)
+			   (+ (dish-price D) 
+				  (/ (* (dish-price D) percentage) 100)))))
+
+
+;                                                                
+;                                                                
+;                                                                
+;                  ;   ;                      ;                  
+;                  ;   ;                                         
+;                  ;   ;                 ;                       
+;    ;;;    ;;;    ;   ;    ;;;    ;;;  ;;;;  ;    ;;;    ; ;;   
+;   ;   ;  ;   ;   ;   ;   ;   ;  ;   ;  ;    ;   ;   ;   ;;  ;  
+;  ;      ;     ;  ;   ;  ;    ; ;       ;    ;  ;     ;  ;   ;  
+;  ;      ;     ;  ;   ;  ;;;;;; ;       ;    ;  ;     ;  ;   ;  
+;  ;      ;     ;  ;   ;  ;      ;       ;    ;  ;     ;  ;   ;  
+;   ;   ;  ;   ;   ;   ;   ;      ;   ;  ;    ;   ;   ;   ;   ;  
+;    ;;;    ;;;    ;   ;    ;;;;   ;;;    ;;  ;    ;;;    ;   ;  
+;                                                                
+;                                                                
+;                                                                
+;;; We represent the collection as a Lisp list of restaurants (for now;
+;;; we could change that representation, perhaps to a binary search tree
+;;; sorted by the name of the restaurant).
+
+;; make-collection: anything -> collection
+;; Return a (new) empty collection
+(define make-collection
+  (lambda (x)
+	empty))
+
+;; collection-add: collection rrant -> collection
+;; Return input collection with input rrant added
+(define collection-add
+  (lambda (C R)
+	(cons R C)))
+
+;; collection-empty?: collection -> boolean
+;; Return true if input is an empty collection
+(define collection-empty?
+  (lambda (C)
+	(empty? C)))
+
+;; collection-search: collection (rrant->boolean) -> collection
+;; Return a collection made up of all the restaurants in C that pass test?
+(define collection-search       
+  (lambda (C test?)               
+	(collection-check C test? true)))
+
+;; collection-remove: collection (rrant->boolean) -> collection
+;; Return a collection made up of all the restaurants in C that do NOT pass test?
+(define collection-remove       
+  (lambda (C test?)               
+	(collection-check C test? false)))
+
+;; collection-check: collection (rrant->boolean) boolean -> collection
+;; Abstraction of search and remove; third argument is whether to keep matches
+(define collection-check
+  (lambda (C test? keep-matches?)
+	(filter (lambda (R) (equal? (test? R) keep-matches?)) C)))
+
+;; collection-change: collection (rrant->boolean) (rrant->rrant) -> collection
+;; Return a collection made up of all the restaurants in C, except that
+;; those that pass test? are changed by action.
+(define collection-change
+  (lambda (C test? action)
+	(map (lambda (R) (cond ((test? R) (action R)) (else R))) C)))
+
+;; collection->list: collection -> list
+;; Our collection may not always be implemented as a list (maybe as a tree instead).
+;; But for now, it is a list, so we can just return it.
+(define collection->list
+  (lambda (C)
+	C))
+
+;; collection<-list: list -> collection
+;; Create a collection out of a list of rrants.
+;; For now, the collection is a list, so there's nothing to do.
+(define collection<-list
+  (lambda (L)
+	L))
+
+;                                                  
+;                                                  
+;                                                  
+;                ;   ;   ;        ;                
+;                    ;                             
+;           ;        ;       ;                     
+;   ;   ;  ;;;;  ;   ;   ;  ;;;;  ;    ;;;    ;;;  
+;   ;   ;   ;    ;   ;   ;   ;    ;   ;   ;  ;     
+;   ;   ;   ;    ;   ;   ;   ;    ;  ;    ;  ;;    
+;   ;   ;   ;    ;   ;   ;   ;    ;  ;;;;;;   ;;   
+;   ;   ;   ;    ;   ;   ;   ;    ;  ;          ;  
+;   ;  ;;   ;    ;   ;   ;   ;    ;   ;         ;  
+;    ;; ;    ;;  ;   ;   ;    ;;  ;    ;;;;  ;;;   
+;                                                  
+;                                                  
+;                                                  
+
+;; get-it:  string -> expression (plus printing side-effect)
+;; Prompt user to enter data using string; return what user enters.
+;; Note:  This returns one Scheme expression (list, string, symbol, number);
+;; multiple expressions in the user's input will be saved up, causing problems.                                       
+(define get-it
+  (lambda (what-to-get)
+	(begin
+	  (display "Please enter the ")
+	  (display what-to-get)
+	  (display ":  ")
+	  (read))))
+
+(restaurants 'x)

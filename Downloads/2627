@@ -1,0 +1,169 @@
+https://ngs.ics.uci.edu/metadata-for-images-video-and-other-data
+
+
+
+
+
+
+
+
+Metadata for images, video, and other data – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Metadata for images, video, and other data    			
+
+
+PilHo Kim is a doctoral student at Georgia Tech and has been working in experiential computing under my supervision.  He is doing some very exciting research in what should be the nature of metadata in complex heterogeneous multimedia systems.  The basic approach is that the current metadata is too limited because it only represents the unique semantics of the data.  While dealing with nontextual data, the situation is a lot more complex.  An image is interpreted in a given context using specific analysis processes and specific parameters for those processes.  Each contextual analysis parameters may result in different interpretations of the image.  In slightly more complex, but real applications, image data may be be combined with other sensory data.  Once again the parameters and processes used in the process that gives semantics are an integral part of the semantics.  Essentially, a set of data could result in multiple interpretations resulting in multiple semantics that could be represented by multiple symbols.  Similarly, an interpretation or semantics could be associated with different sets of data.  Thus, the relationship between datasets and potential interpretations is many-to-many.  The unique association between a data set and its unique semantics is the result of a process used in a particular context.  And this context is not something that one could throw away.  If properly stored in indexed form, this context could play a very important role in semantic interpretation of new data from similar contexts.
+This insight has been implied in many applications, but never explicitly implemented.  By explicitly implementing this idea, interpretation of multimedia data â€“ where the semantics is indirect unlike much of the text data â€“ could be facilitated.  This means two important things.  First,  XML like representations are being used for â€˜direct semanticsâ€™.  It is not clear that these representations will be extensible for images, video, and audio.  And secondly, and more importantly, many popular approaches that are dependent on using tags to represent semantics of images, like those currently becoming popular in image and video data bases, may be only of limited use.    
+This idea is very intriguing to me.  It does need to be developed further.  For that, we will have to wait for PilHo to make more progress in his implementations.
+
+
+
+By Ramesh |
+    				October 16, 2005 |
+    				             		Experiential Computing |
+             	 
+    				             		No Comments |
+             	 		          				
+    			
+
+
+← Data, Data, Everywhere, and more Data coming
+Inspirational thoughts →
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

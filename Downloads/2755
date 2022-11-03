@@ -1,0 +1,169 @@
+https://ngs.ics.uci.edu/timeline-segmentation-holistic-perspective
+
+
+
+
+
+
+
+
+Timeline Segmentation: Holistic perspective – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Timeline Segmentation: Holistic perspective    			
+
+
+An information management system needs to assign some semantics to incoming data and organize the data using this semantic interpretation of the data.  This organization based on semantics is the key to organization and retrieval of data and the success of an information system depends on understanding the semantics required for that application and the semantics derived from the data.  In databases, the semantics in data is usually determined by humans who enter the data and the semantics in the organization is determined by the designers.  In search engines, the semantics in data is assigned by text analysis engines in which algorithms throw away â€˜unnecessaryâ€™ words and then use stemming algorithms to select only basic parts of words.  The semantics in the organization is basically only the use of the keywords that are used in preparing inverted file indices.
+When non textual multimodal data also becomes part of an information management system, many current approaches rely on assigning some meta data and using the data as â€˜blobsâ€™.  This approach then relies on this metadata for the semantics in the data and uses standard database and search engine solutions that have been used for traditional applications.  This application maybe satisfactory if one is interested in some simple extensions of information management systems for incremental applications, but for most applications where this multimodal data is part of the information that should be considered seriously, then this approaches needs to be modified significantly.  Many approaches in content-based multimedia information retrieval rely on segmentation of images, video, audio, or any other signal that is part of the system.  This segmentation step has almost always been centered on the data medium.  Thus the trend has been to do image segmentation, video (image sequence) segmentation, and audio segmentation.  In most application, multiple sources of information are used because there the information about the application is not available in just one data source, but in correlated data .  It is this correlated data that really provides information; not any individual data sources.  In fact, when analyzing this problem, it becomes clear that the goal of a multimodal information system is not to organize independent data sources, but to organize them based on the information needed to solve the problem.  Thus the real goal is not to segment individual data sources to assign semantics to the data segments, but to segment the time line into meaningful events for the application based on the correlated information among all data sources.
+The holistic perspective that one should look for application or domain events in all available correlated data sources is vital to making progress in development of  next generation information systems that will contain heterogeneous data. 
+
+
+
+By Ramesh |
+    				February 16, 2006 |
+    				             		Experiential Computing |
+             	 
+    				             		No Comments |
+             	 		          				
+    			
+
+
+← Kosmix — One more from Stanford
+Invented in India →
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

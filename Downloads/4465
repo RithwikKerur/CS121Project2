@@ -1,0 +1,393 @@
+https://mcs.ics.uci.edu/about/course-descriptions
+
+
+
+
+
+
+Course Descriptions – MCS ICS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+About
+
+Overview
+Curriculum
+
+2020-2021
+2022-2023
+
+
+Course Descriptions
+MCS vs. MSCS
+
+
+Prospective Students
+
+Admissions
+Application
+Cost and Financial Aid
+
+
+Current Students
+
+Grades
+Resources
+
+Campus Contacts
+Policies
+
+
+Fall Internship Extension & CPT
+CS 298P Summer Course
+
+
+Career
+
+Career Services
+
+
+Capstone
+FAQ
+Contact Us
+
+Staff
+Faculty
+Advisory Board
+
+
+Info Sessions
+ 
+
+ Menu
+
+
+About
+
+Overview
+Curriculum
+
+2020-2021
+2022-2023
+
+
+Course Descriptions
+MCS vs. MSCS
+
+
+Prospective Students
+
+Admissions
+Application
+Cost and Financial Aid
+
+
+Current Students
+
+Grades
+Resources
+
+Campus Contacts
+Policies
+
+
+Fall Internship Extension & CPT
+CS 298P Summer Course
+
+
+Career
+
+Career Services
+
+
+Capstone
+FAQ
+Contact Us
+
+Staff
+Faculty
+Advisory Board
+
+
+Info Sessions
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Course Descriptions
+Home>About>Course Descriptions
+
+
+
+
+
+
+
+COURSE DESCRIPTIONS
+COMPSCI 202P.   Applied Cryptography. 4 Units.
+Design and analysis of algorithms for applied cryptography. Topics include symmetric and asymmetric key encryption, digital signatures, one-way hash functions, digital certificates and credentials, and techniques for authorization, non-repudiation, authentication, identification, data integrity, proofs of knowledge, and access control.
+COMPSCI 203P. Network and Distributed System Security. 4 Units.
+Modern computer and  networks security: attacks and countermeasures,  authentication,  identification, data secrecy, data integrity, authorization, access control, computer viruses, network security. Group communication and multicast security techniques. Covers secure e-commerce and applications of public key methods, digital certificates, and credentials.
+COMPSCI 206P. Principles of Scientific Computing. 4 Units.
+Overview of widely used principles and methods of numerical and scientific computing, including basic concepts and computational methods in linear algebra, optimization, and probability.
+COMPSCI 210P. Computer Graphics and Visualization. 4 Units.
+Interactive 3 0 graphics rendering pipeline, illumination and shading, ray tracing, texture-, bump-, mip­ mapping, hidden surface removal, anti-aliasing, multiresolution representations, volume rendering techniques, iso-surface extraction. Prerequisite. Linear Algebra.
+COMPSCI 211P. Visual Computing. 4 Units.
+Fundamentals of image processing (convolution, linear filters, spectral analysis), vision geometry (projective geometry, camera models and calibration, stereo reconstruction), radiometry (color, shading, illumination, BRDF), and visual content synthesis (graphics pipeline, texture- bump-, mip­ mapping, hidden surface removal, anti-aliasing). Prerequisite. Linear Algebra.
+COMPSCI 222P. Principles of Data Management . 4 Units.
+Covers fundamental principles underlying data management systems. Understanding and implementation of key techniques including storage management, buffer management, record-oriented file system, access methods, query optimization, and query processing.  Prerequisite: C++ programming skills, understanding of Data Structures and Algorithms.
+COMPSCI 230P. Distributed Computer Systems. 4 Units.
+Principles of distributed computing systems. Topics covered include message-passing, remote procedure calls, distributed shared memory synchronization, resource and process/thread management, distributed file systems, naming, and security.
+COMPSCI 231P. Parallel and Distributed Computing for Professionals . 4 Units. 
+Covers a wide variety of concepts related to the design and application of high-performance concurrent computing systems, including architectural features, communications networks and models, parallel program development for numerical and non-numerical applications, programming models, and more.
+COMPSCI 232P. Computer and Communication Networks. 4 Units.
+Network architecture of the Internet, telephone networks, cable networks, and cell phone networks. Network performance models. Network performance models. Advanced concepts and implementations of flow and congestion control, addressing, internetworking, forwarding, routing, multiple access, streaming, and quality-of-service.
+COMPSCI 238P. Operating Systems. 4 units.
+In-depth organization of the core operating system abstractions and their implementation (e.g., virtual memory, kernel, and user mode, system calls, threads, context switches, interrupts, inter-process communication, hardware interface, etc.), and a range of recent developments in de-facto industry-standard operating systems and novel research architectures.  Prerequisite: Working knowledge of C and the Linux environment.
+COMPSCI 242P. Compilers and Interpreters. 4 units.
+Provides in-depth study of compilers and interpreters which are the primary forms of programming language processing in computing. Prerequisite: Knowledge of C++ programming is required.
+COMPSCI 244P. Introduction to the Internet of Things. 4 Units.
+Develops a comprehensive understanding of the hardware and software technology, the communication protocols, and the security and privacy requirements underlying the Internet of Things ecosystem, particularly those using computing elements (processors, DSPs/ ASIPs), sensors, and accessing cloud services. Prerequisite: Undergraduate-level familiarity with fundamentals of integrated circuit blocks, processors, optimization/algorithm design, and some programming experience.
+COMPSCI 250P. Computer Systems Architecture. 4 Units.
+Study of architectural issues and their relation to technology and software: design of processor, interconnections, and memory hierarchies.
+COMPSCI 253P. Advanced Programming and Problem Solving. 4 Units.
+Provides in-depth preparation for industry interviews requiring demonstration of problem-solving and programming skills. Emphasis is on understanding problem statements, considering edge cases, developing effective test cases, designing correct solutions, explaining these clearly, and implementing a solution correctly.
+COMPSCI 260P. Fundamentals of Algorithms with Applications. 4 Units.
+Covers fundamental concepts in the design and analysis of algorithms and is geared toward practical application and implementation. Topics include: greedy algorithms, deterministic and randomized graph algorithms, models of network flow, fundamental algorithmic techniques, and NP-completeness.
+COMPSCI 261P. Data Structures. 4 Units.
+Data structures and their associated management algorithms including their applications and analysis.
+COMPSCI 262P. Text Processing and Pattern Matching. 4 Units.
+Techniques for pattern matching and parsing character strings. Topics include substring searching, finite state machines, regular expressions, and context-free grammars, as well as applications in lexical analyzers, compilers, word processors, malware detectors, and search engines.
+COMPSCI 267P. Data Compression. 4 Units.
+An introduction to the theory and practice of modern data compression techniques. Topics include codes, coding, modeling, text compression, lossless and lossy image compression standards, and systems, audio compression.
+COMPSCI 268P. Introduction to Optimization Modeling. 4 Units.
+A broad introduction to optimization modeling. Unconstrained and constrained optimization. Equality and inequality constraints. Linear and integer programming.  Practical implementation of combinatorial optimization.
+COMPSCI 271P. Introduction to Artificial Intelligence. 4 Units.
+The study of theories and computational models for systems which behave and act in an intelligent manner. Fundamental sub-disciplines of artificial intelligence including knowledge representation, search, deduction, planning, probabilistic reasoning, natural language parsing and comprehension, knowledge-based systems, and learning.
+COMPSCI 273P. Machine Learning and Data Mining. 4 Units.
+Computational approaches to learning algorithms for classifications, regression, and clustering. Emphasis is on discriminative classification methods such as decision trees, rules, nearest neighbor, linear models, and naive Bayes. Application of these techniques to data mining and knowledge discovery – particularly with respect to web and text data analysis.  Prerequisite: Python programming knowledge is required.
+COMPSCI 274P. Neural Networks and Deep Learning. 4 Units.
+Introduction to principles of machine learning and neural networks. Architecture design. Feedforward and recurrent networks. Learning models and algorithms. Applications to data analysis and prediction problems in areas such as machine vision, natural language processing, biomed, and finance. Prerequisite: Knowledge of Python programming is required.
+COMPSCI 295P. Capstone Professional Writing and Communication for Computer Science Careers. 4 Units.
+Design and development of a software system or a hardware component of a system based on knowledge of advanced computer science principles. Students implement at least a working prototype and test this using relevant input data.
+COMPSCI 296P. Capstone Professional Writing and Communication for Computer Science Careers. 4 Units.
+Written and oral communication for computer science and IT careers. Production of the detailed design and development document for the concurrent capstone design class and refinement of written documents and oral communications skills needed for a successful job search.  Restriction: Master of Computer Science Degree students only.
+COMPSCI 297P. Capstone Design Project for Computer Science. 4 Units.
+Design and development of app, a software system or a hardware component of system based on your prior knowledge of advanced computer science  principles. Implement at least a working prototype and test this using relevant use cases and or input data. Restriction: Master of Computer Science Degree students only.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FeedbackPrivacy Policy© 2019 UC Regents 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Close Menu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

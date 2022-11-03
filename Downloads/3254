@@ -1,0 +1,211 @@
+https://ngs.ics.uci.edu/scientific-reviews-pagerank
+
+
+
+
+
+
+
+
+Scientific Reviews: PageRank – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Scientific Reviews: PageRank    			
+
+
+Peer reviews is an established process in scientific communities to evaluate quality of research.  It is is used at many levels but the two most common are the evaluation of scientific publications and scientific proposals.  Both these are extrememly important areas for the advancement of sciences and technology.  Both these also are important for building (or destroying) careers of aspirant scientists.
+In the last decade or so,  there is a trend that conferences ‘brag’ about their quality by showing how only 1 in X ( usually X>6) papers submitted to the conference is accepted.  Usually this process is quite rigorous.  And the rigor keeps improving.  At least three peer researchers (respected in the narrow community of the subject matter of the paper) analyze the paper and comment on a list of factors.  Then a program committee evaluates these evaluations to finalize the selection.  All care is taken to make the process as fair as possible.  In many cases the process is double blind — names of the autors are not on the paper and the reviewers are not known to the authors or any other person except the coordinator of the process.  Most of the time the reviewers try to help the paper.
+So, why I am writing about this here.  This is mostly for the benefit of young researchers — like my doctoral students — who start doing research and then get frustrated by the reviews of their papers.  Many times the reviews are right and one can definitely learn from those, but the process also is a faulty process when it comes to novel research areas and topics.  Most times the reviewers are guided by the established research topics and research culture.  This has a STRONG bias against novel innovative and early research ideas.  So when one gets her/his paper rejected, it is important to think and analyze carefully why did the paper get ‘rejected’ and what should be the next action.  Many times the paper gets ‘rejected’ not because the paper failed but because the system and , though not always,  the reviewers failed. 
+This message was prompted by a e-mail discussion on this topic in which a particular example from about 10 years ago was cited.  The paper on PageRank by founders of Google (Brin and Page) was rejected by SIGIR conference.  That paper possibly is the most ‘valuable’ paper that made the most money for its authors and changed the culture of the web by the formation of Google.  That ‘reject’ decision shows the limitations of the system.  By the way rumors are that Berners-Lee’s paper proposing WWW were also rejected by the conference on hypertext.  History is full of such examples.
+Pople keep trying to remove limitatios of such review processes, but like most human organization, one achieves strength at the cost of ome weaknesses.
+
+
+
+By Ramesh |
+    				July 16, 2008 |
+    				             		Technical Thoughts |
+             	 
+    				             		3 Comments |
+             	 		          				
+    			
+
+
+← Spreading Joy
+ZeeTV →
+
+
+
+			3 thoughts on “Scientific Reviews: PageRank”		
+
+
+
+
+MBA Programs July 24, 2008 at 4:35 am 
+
+The Citation network’s situation is also not different form that in the World Wide Web, where hyper-links contained in popular websites and pointing to your web page would bring more Internet traffic to you and it might be possible that it will be essential in increasing popularity of your own web page. Scientists commonly adopt the way of following chains of citation links from other papers to discover relevant publications. Thus it is not a bad idea to assume that the popularity or â€œcitabilityâ€ of papers may be well approximated by the random surfer model that underlies the Page Rank algorithm. 
+One very important difference between the world wide web and citation networks is we can not update the citation links after publication, however world wide web hyperlinks keep evolving together with the web page containing them. One such solution could solve this issue by by explicitly incorporating the effects of aging into the Page Rank algorithm.
+
+
+
+
+
+
+
+
+Justin July 30, 2008 at 10:29 pm 
+
+Thanks for insightful story about the Page Rank paper submission. Its hard to keep up with the ever changing culture of page rank online, and it sounds like the culture on research reviews is just as much of a moving target. While there may not be any one perfect answer, I’d have to think there would be yearly conferences in which the process applied to reviewing research is evaluated and proposals for modification are made.
+Justin
+
+
+
+
+
+
+
+
+ITIL Training November 20, 2008 at 3:00 am 
+
+It is obvious, that like the Page Rank calculation, Google is not going to release the details of the formula that they use to rank the papers. But it would indeed be interesting to see their rankings of â€œjournalâ€™s prominenceâ€ in different fields. 
+Well, we can always use GOOGLE as a good way of measuring the impact of a particular scientific paper and it might also be used to replace traditional citation indices, according to a new statistical analysis. It has been found by researchers that the Google PageRank algorithm, which captures the relative significance of web pages can also provide a systematic way to find important papers.
+
+
+
+
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

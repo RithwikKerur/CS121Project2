@@ -1,0 +1,272 @@
+https://cml.ics.uci.edu/aiml/page/20
+
+
+
+
+
+AI/ML Seminar Series | Center for Machine Learning and Intelligent Systems | Page 20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+University of California, Irvine
+
+
+Menu
+Skip to content
+Home
+About CML
+
+About us
+News
+Contact Us
+
+
+People
+
+Faculty
+Alumni
+
+
+Events & Seminars
+
+AI/ML Seminar Series
+AI/ML Seminar Live Stream
+CML Distinguished Speakers
+ML Reading Group
+
+
+Education & Resources
+
+Courses
+Books
+
+
+UCI Machine Learning Archive
+Sponsors & Funding
+Subscribe to CML List
+ 
+
+
+
+
+
+
+AI/ML Seminar Series Standard 
+
+Weekly Seminar in AI & Machine LearningSponsored by Cylance
+
+
+
+
+
+
+
+Navigation
+
+‹Earlier
+Spring 2015 Later ›
+
+
+
+
+
+
+
+  
+
+
+Mar 30Bren Hall 40111 pm
+
+
+Pierre BaldiChancellor’s ProfessorDepartment of Computer ScienceUC Irvine
+
+The Ebb and Flow of Deep Learning: a Theory of Local LearningIn a physical neural system, where storage and processing are intertwined, the rules for adjusting the synaptic weights can only depend on variables that are available locally, such as the activity of the pre- and post-synaptic neurons. We propose a systematic framework to define and study the space of local learning rules where one must first define the nature of the local variables, and then the functional form that ties them together into a learning rule. We consider polynomial learning rules and analyze their behavior and capabilities in both linear and non-linear networks. As a byproduct, we also show how this framework enables the discovery of new learning rules and important relationships between learning rules and group symmetries.
+ Stacking local learning rules in deep feedforward networks leads to deep local learning. While deep local learning can learn interesting representations, we show however that it cannot learn complex input-output functions, even when targets are available for the top layer. Learning complex input-output functions requires local deep learning where target information is propagated to the deep layers. The complexity of the propagated information about the targets and the channel through which this information is propagated partition the space of learning algorithms and highlight the remarkable power of the backpropagation algorithm. The theory clarifies the concept of Hebbian learning, what is learnable by Hebbian learning, and explains the sparsity of the space of learning rules discovered so far.
+
+
+  
+
+
+Apr  6Bren Hall 40111 pm
+
+
+Maryam M. ShanechiAssistant ProfessorDepartment of Electrical Engineering and Computer ScienceUniversity of Southern California
+
+Closed-Loop Brain-Machine Interface ArchitecturesA brain-machine-interface (BMI) is a system that interacts with the brain either to allow the brain to control an external device or to control the brain’s state. While these two BMI types are for different applications, they can both be viewed as closed-loop control systems. In this talk, I present our work on developing both these types of BMIs, specifically motor BMIs for restoring movement in paralyzed patients and a new BMI for control of the brain state under anesthesia. Motor BMIs have largely used standard signal processing techniques. However, devising novel algorithmic solutions that are tailored to the neural system can significantly improve the performance of these BMIs. Here, I develop a novel BMI paradigm for restoration of motor function that incorporates an optimal feedback-control model of the brain and directly processes the spiking activity using point process modeling. I show that this paradigm significantly outperforms the state-of-the-art in closed-loop primate experiments. In addition to motor BMIs, I construct a new BMI that controls the state of the brain under anesthesia. This is done by designing stochastic controllers that infer the brain’s anesthetic state from non-invasive observations of neural activity and control the real-time rate of drug administration to achieve a target brain state. I show the reliable performance of this BMI in rodent experiments.  
+Bio:
+ Maryam Shanechi is an assistant professor in the Ming Hsieh Department of Electrical Engineering at the University of Southern California (USC). Prior to joining USC, she was an assistant professor in the School of Electrical and Computer Engineering at Cornell University. She received the B.A.Sc. degree in Engineering Science from the University of Toronto in 2004 and the S.M. and Ph.D. degrees in Electrical Engineering and Computer Science from MIT in 2006 and 2011, respectively. She is the recipient of the NSF CAREER Award and has been named by the MIT Technology Review as one of the world’s top 35 innovators under the age of 35 (TR35) for her work on brain-machine interfaces.
+
+
+  
+
+
+Apr 13Bren Hall 40111 pm
+
+
+Michael CareyProfessorDepartment of Computer ScienceUC Irvine
+
+AsterixDB: A Scalable, Open Source BDMSAsterixDB is a new BDMS (Big Data Management System) with a feature set that sets it apart from other Big Data platforms in today’s open source ecosystem. Its features make it well-suited to applications including web data warehousing, social data storage and analysis, and other use cases related to Big Data. AsterixDB has a flexible NoSQL style data model; a query language that supports a wide range of queries, a scalable runtime; partitioned, LSM-based data storage and indexing (including B+ tree, R tree, and text indexes); support for external as well as native data; a rich set of built-in types, including spatial, temporal, and textual types; support for fuzzy, spatial, and temporal queries; a built-in notion of data feeds for ingestion of data; and transaction support akin to that of a NoSQL store.  
+ Development of AsterixDB began in 2009 and led to a mid-2013 initial open source release. This talk will provide an overview of the resulting system. Time permitting, the talk will cover the system’s data model, its query language, and its basic architecture. Also included will be a summary of the current status of the project and a discussion of some of the “plug-in points” where AsterixDB can be made to interoperate with ML technologies. The talk will conclude with some thoughts on opportunities for future ML-related collaborations related to AsterixDB.  
+ Bio: 
+ Michael J. Carey is a Bren Professor of Information and Computer Sciences at UC Irvine. Before joining UCI in 2008, he worked at BEA Systems for seven years and led the development of BEA’s AquaLogic Data Services Platform product for virtual data integration. He also spent a dozen years teaching at the University of Wisconsin-Madison, five years at the IBM Almaden Research Center working on object-relational databases, and a year and a half at e-commerce platform startup Propel Software during the infamous 2000-2001 Internet bubble. Carey is an ACM Fellow, a member of the National Academy of Engineering, and a recipient of the ACM SIGMOD E.F. Codd Innovations Award. His current interests center around data-intensive computing and scalable data management (a.k.a. Big Data).
+
+
+  
+
+
+Apr 20Bren Hall 40111 pm
+
+
+Cris CeckaResearch ScientistNVIDIA Research
+
+Hierarchical Algorithms for Fast Linear AlgebraN-body problems are ubiquitous with applications ranging from linear algebra to scientific computing and machine learning. N-body methods were identified as one of the original 7 dwarves or motifs of computation and are believed to be important in the next decade. These methods include FMMs, Treecodes, H-matrices, Butterfly algorithms, and geometric shattering. The relationship between these approaches is understood, but many of the demonstrated tools for developing and applying these algorithms remain ad-hoc, inaccessible, or inefficient.  
+ We present recent developments towards a codebase that is abstracted over the primary domains of research in this field and is optimized for modern multicore systems. Core components including tree construction, tree traversal, and low-rank operators are developed independently and parallelized for multicore CPUs and GPUs. Applications include dense problems in machine learning and computational geometry (k-nearest neighbors, range search, kernel density estimation, Gaussian processes, and RBF kernels), treecode and fast multipole methods in computational physics (gravitational potentials, screened Coulomb interactions, Stokes flow, and Helmholtz equations), and matrix compression, computation, and inversion (PLR, HODLR, H2, and Butterfly).  
+ In this presentation, we will review a high-level perspective of the research domain, the abstraction and parallelization strategies, and how these methods can be made more practical.  
+ Bio: 
+ Cris received his PhD from Stanford University in Computational and Mathematical Engineering in 2011. As a lecturer and research scientist with the new Institute for Applied Computational Science at Harvard University, he developed core courses on parallel computing and robust software development for scientific computing. In 2014, Cris joined the Mathematics Department at the Massachusetts Institute of Technology as a research associate where he focused on developing and applying generalized N-body methods to dense linear algebra using hierarchical methods. Currently, he works in NVIDIA Research to continue to make these techniques accessible with modern parallel programming models. You can read more about his research on his Harvard web page.
+
+
+  
+
+
+Apr 27
+
+
+Cancelled(no seminar)
+
+
+
+  
+
+
+May  4Bren Hall 40111 pm
+
+
+Roi WeissPhD studentDepartment of Computer ScienceBen Gurion University of the Negev
+
+On learning parametric-output HMMsHidden Markov models (HMMs) are a standard tool in the modeling and analysis of time series with a wide variety of applications. Yet, learning their parameters remain a challenging problem. In the first part of the talk I will present a novel approach to learning an HMM whose outputs are distributed according to a parametric family. This is done by decoupling the learning task into two steps: first estimating the output parameters, and then estimating the hidden states transition probabilities. The first step is accomplished by fitting a mixture model to the output stationary distribution. Given the parameters of this mixture model, the second step is formulated as the solution of an easily solvable convex quadratic program. We provide an error analysis for the estimated transition probabilities and show they are robust to small perturbations in the estimates of the mixture parameters.  
+ The above approach (and other recently proposed spectral/tensor methods) strongly depends on the assumption that all states have different output distributions. In various applications, however, some of the hidden states are aliased, having identical output distributions. The minimality, identifiability and learnability of such aliased HMMs have been long standing problems, with only partial solutions provided thus far. In the second part of the talk, as a first step, I will focus on parametric-output HMMs that have exactly two aliased states. For this class, we present a complete characterization of their minimality and identifiability. Furthermore, we derive computationally efficient and statistically consistent algorithms to detect the presence of aliasing and learn the aliased HMM transition parameters. We illustrate our theoretical analysis by several simulations.  
+ A joint work with Boaz Nadler and Aryeh Kontorovich.
+
+
+  
+
+
+May 11Bren Hall 40111 pm
+
+
+Ananda Theertha SureshPhD studentDepartment of Electrical EngineeringUC San Diego
+
+Approximating Spherical Gaussian MixturesMany statistical and machine-learning applications call for estimating Gaussian mixtures using a limited number of samples and computational time. PAC (proper) learning estimates a distribution in a class by some distribution in the same class to a desired accuracy. Using spectral projections we show that spherical Gaussian mixtures in d-dimensions can be PAC learned with O*(d) samples, and that the same applies for learning the distribution’s parameters. Our algorithm is information theoretically near-optimal and significantly improves previously known time and sample complexities.
+
+
+  
+
+
+May 18Bren Hall 40111 pm
+
+
+Saeed SaremiPostdotoral FellowThe Computational Neurobiology LaboratorySalk Institute
+
+Percolation in natural imagesNatural images are scale invariant with structures at all length scales. After a tutorial on critical phenomena and percolation theory, I will talk about formulating a geometric view of scale invariance. In this model, the scale invariance of natural images is understood as a second-order percolation phase transition. It is further quantified by fractal dimensions, and by the scale-free distribution of clusters in natural images. This formulation leads to a method for identifying clusters in images and a starting point for image segmentation.  
+ Bio: 
+ Saeed Saremi received the Ph.D. degree in theoretical physics from MIT. He then joined the lab of Terry Sejnowski at the Salk Institute as a postdoctoral fellow. His research blends machine learning, statistical mechanics, and computational neuroscience, with the long-term goal of understanding the principles for achieving artificial intelligence.
+
+
+  
+
+
+June 1Bren Hall 40111 pm
+
+
+Leandro Soriano MarcolinoPhD studentViterbi School of EngineeringUniversity of Southern California
+
+Unleashing the Power of Multi-agent Voting TeamsTeams of voting agents have great potential in finding optimal solutions, and they have been used in many important domains, such as: machine learning, crowdsourcing, forecasting systems, and even board games. Voting is popular since it is highly parallelizable, easy to implement and provide theoretical guarantees. However, there are three fundamental challenges: (i) Selecting a limited number of agents to compose a team; (ii) Combining the opinions of the team members; (iii) Assessing the performance of a given team. In this talk, I address all these challenges, showing both theoretical and experimental results. I explore three different domains: Computer Go, HIV prevention via influencing social networks and architectural design.  
+ Bio: 
+ Leandro Soriano Marcolino is a PhD student at University of Southern California (USC), advised by Milind Tambe. He has published in several prestigious conferences in AI, robotics and machine learning, such as AAAI, AAMAS, IJCAI, NIPS, ICRA and IROS. He received the best research assistant award from the Computer Science Department at USC, had a paper nominated for best paper from the leading multi-agent conference AAMAS, and had his undergraduate work selected as the best one by the Brazilian Computer Science Society. He has been researching continuously about teamwork and cooperation, and obtained his masters degree in Japan, with the highly-competitive Monbukagakusho scholarship. Over his career, Leandro has published about a variety of domains, such as swarm robotics, computer Go, social networks, bioinformatics and architectural design.
+
+
+  
+
+
+June 8Bren Hall 40111 pm
+
+
+Quentin BerthetCMI Postdoctoral FellowComputing + Mathematical Sciences, Annenberg CenterCalifornia Institute of Technology
+
+Resource Allocation for Statistical EstimationStatistical estimation in many contemporary settings involves the acquisition, analysis, and aggregation of datasets from multiple sources, which can have significant differences in character and in value. Due to these variations, the effectiveness of employing a given resource – e.g., a sensing device or computing power – for gathering or processing data from a particular source depends on the nature of that source. As a result, the appropriate division and assignment of a collection of resources to a set of data sources can substantially impact the overall performance of an inferential strategy. In this expository article, we adopt a general view of the notion of a resource and its effect on the quality of a data source, and we describe a framework for the allocation of a given set of resources to a collection of sources in order to optimize a specified metric of statistical efficiency. We discuss several stylized examples involving inferential tasks such as parameter estimation and hypothesis testing based on heterogeneous data sources, in which optimal allocations can be computed either in closed form or via efficient numerical procedures based on convex optimization. Joint work with V. Chandrasekaran.
+
+
+
+
+
+March 1, 2015
+AIML
+
+
+
+Posts navigation
+
+‹Older posts
+Newer posts ›
+
+
+
+
+
+ 
+Search
+
+
+
+ 
+
+
+(c) 2015 Center for Machine Learning and Intelligent Systems
+
+WordPress/BonPress
+
+
+
+
+
+

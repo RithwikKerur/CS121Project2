@@ -1,0 +1,227 @@
+https://cml.ics.uci.edu/aiml/page/7
+
+
+
+
+
+AI/ML Seminar Series | Center for Machine Learning and Intelligent Systems | Page 7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+University of California, Irvine
+
+
+Menu
+Skip to content
+Home
+About CML
+
+About us
+News
+Contact Us
+
+
+People
+
+Faculty
+Alumni
+
+
+Events & Seminars
+
+AI/ML Seminar Series
+AI/ML Seminar Live Stream
+CML Distinguished Speakers
+ML Reading Group
+
+
+Education & Resources
+
+Courses
+Books
+
+
+UCI Machine Learning Archive
+Sponsors & Funding
+Subscribe to CML List
+ 
+
+
+
+
+
+
+AI/ML Seminar Series Standard 
+
+Weekly Seminar in AI & Machine LearningSponsored by Cylance
+
+
+
+
+
+
+
+Navigation
+
+‹Earlier
+Winter 2020 Later ›
+
+
+
+Spring 2020 Seminars Delayed
+Following UCI guidance to limit social interactions during the COVID-19 outbreak, our CML seminar series is cancelled for the start of spring quarter.  We hope to rejoin you later this year.
+
+
+
+
+
+Jan. 6
+No Seminar
+
+
+
+Jan. 134011Bren Hall1 pm
+Michael CampbellEureka (SAP) Speculative and hedging interaction model in oil and U.S. dollar markets: Long-term investor dynamics and phasesWe develop the rational dynamics for the long-term investor among boundedly rational speculators in the Carfì-Musolino speculative and hedging model. Numerical evidence is given that indicates there are various phases determined by the degree of non-rational behavior of speculators. The dynamics are shown to be influenced by speculator “noise”. This model has two types of operators: a real economic subject (Air, a long-term trader) and one or more investment banks (Bank, short-term speculators). It also has two markets: oil spot market and U.S. dollar futures. Bank agents react to Air and equilibrate much more quickly than Air, thus we consider rational, best-local-response dynamics for Air based on averaged values of equilibrated Bank variables. The averaged Bank variables are effectively parameters for Air dynamics that depend on deviations-from-rationality (temperature) and Air investment (external field). At zero field, below a critical temperature, there is a phase transition in the speculator system which creates two equilibriums for bank variables, hence in this regime the parameters for the dynamics of the long-term investor Air can undergo a rapid change, which is exactly what happens in the study of quenched dynamics for physical systems. It is also shown that large changes in strategy by the long-term Air investor are always preceded by diverging spatial volatility of Bank speculators. The phases resemble those for unemployment in the “Mark 0” macroeconomic model.
+
+
+
+Jan. 20
+Martin Luther King Junior Day
+
+
+
+Jan. 27
+No Seminar
+
+
+
+Feb. 34011Bren Hall1 pm
+Phanwadee SinthongComputer ScienceUniversity of California, Irvine AFrame: Extending DataFrames for Large-Scale Modern Data AnalysisAnalyzing the increasingly large volumes of data that are available today, possibly including the application of custom machine learning models, requires the utilization of distributed frameworks. This can result in serious productivity issues for “normal” data scientists. We introduce AFrame, a new scalable data analysis package powered by a Big Data management system that extends the data scientists’ familiar DataFrame operations to efficiently operate on managed data at scale. AFrame is implemented as a layer on top of Apache AsterixDB, transparently scaling out the execution of DataFrame operations and machine learning model invocation through a parallel, shared-nothing big data management system. AFrame allows users to interact with a very large volume of semi-structured data in the same way that Pandas DataFrames work against locally stored tabular data. Our AFrame prototype leverages lazy evaluation. AFrame operations are incrementally translated into AsterixDB SQL++ queries that are executed only when final results are called for. In order to evaluate our proposed approach, we also introduce an extensible micro-benchmark for use in evaluating DataFrame performance in both single-node and distributed settings via a collection of representative analytic operations.
+
+Bio: Phanwadee (Gift) Sinthong is a fourth-year Ph.D. student in the CS Department at UC Irvine, advised by Professor Michael Carey. Her research interests are broadly in data management and distributed computation. Her current project is to deliver a scale-independent data science platform by incorporating database management capabilities with existing data science technologies to help support and enhance big data analysis.
+
+
+
+Feb. 104011Bren Hall1 pm
+Mingzhang YinStatistics and Data SciencesUniversity of Texas, Austin Semi-Implicit Variational InferenceUncertainty estimation is one of the most unique features of biological systems, as we have to sense and act in noisy environments. In this talk, I will introduce semi-implicit variational inference (SIVI) as a new machine-learning framework to achieve accurate uncertainty estimation in general latent variable models. Semi-implicit distribution is introduced to expand the commonly used analytic variational family, by mixing the variational parameters with a highly flexible distribution. To cope with this new distribution family, a novel evidence lower bound is derived to achieve the accurate statistical inference. The theoretical properties of the proposed methods will be introduced from an information-theoretic perspective. With a substantially expanded variational family and a novel optimization algorithm, SIVI is shown to closely match the accuracy of MCMC in inferring the posterior while maintaining the merits of variational methods in a variety of Bayesian inference tasks.
+
+Bio: Mingzhang Yin is a fifth year Ph.D. student in statistics at UT Austin. His research centers around Bayesian methods and machine learning, with a focus on approximate inference and structured data modeling.
+
+
+
+Feb. 17
+Presidents’ Day
+
+
+
+Feb. 244011Bren Hall1 pm
+Jaan AltosaarPhysics DepartmentPrinceton University Probabilistic modeling in support of science and decision-making: From statistical physics to recommender systemsApplied machine learning relies on translating the structure of a problem into a computational model. This arises in applications as diverse as statistical physics and food recommendation. The pattern of connectivity in an undirected graphical model or the fact that datapoints in food recommendation are unordered collections of features can inform the structure of a model. First, consider undirected graphical models from statistical physics like the ubiquitous Ising model. Basic research in statistical physics requires accurate and scalable simulations for comparing the behavior of these models to their experimental counterparts. The Ising model consists of binary random variables with local connectivity; interactions between neighboring nodes can lead to long-range correlations. Modeling these correlations is necessary to capture physical phenomena such as phase transitions. To mirror the local structure of these models, we use flow-based convolutional generative models that can capture long-range correlations. Combining flow-based models designed for continuous variables with recent work on hierarchical variational approximations enables the modeling of discrete random variables. Compared to existing variational inference methods, this approach scales to statistical physics models with tens of thousands of correlated random variables and uses fewer parameters. Just as computational choices can be made by considering the structure of an undirected graphical model, model construction itself can be guided by the structure of individual datapoints. Consider a recommendation task where datapoints consist of unordered sets, and the objective is to maximize top-K recall, a common recommendation metric. Simple results show that a classifier with zero worst-case error achieves maximum top-K recall. Further, the unordered structure of the data suggests the use of a permutation-invariant classifier for statistical and computational efficiency. We evaluate this recommendation model on a dataset of 55k users logging 16M meals on a food tracking app, where every meal is an unordered collection of ingredients. On this data, permutation-invariant classifiers outperform probabilistic matrix factorization methods.
+
+Bio: Jaan Altosaar is a PhD Candidate in the Physics department at Princeton University where he is advised by David Blei and Shivaji Sondhi. He is a visiting academic at the Center for Data Science at New York University, where he works with Kyle Cranmer. His research focuses on machine learning methodology such as developing Bayesian deep learning techniques or variational inference methods for statistical physics. Prior to Princeton, Jaan earned his BSc in Mathematics and Physics from McGill University. He has interned at Google Brain and DeepMind, and his work has been supported by fellowships from the Natural Sciences and Engineering Research Council of Canada.
+
+
+
+Mar. 26011Bren Hall1 pm
+Oren EtzioniCEO, Allen Institute for Artificial Intelligence (AI2) Artificial Intelligence and the Future of HumanityCould we wake up one morning to find that AI is poised to take over the world?  Is AI the technology of unfairness and bias? My talk will assess these concerns, and sketch a more optimistic view. We will have ample warning before the emergence of superintelligence, and in the meantime we have the opportunity to create Beneficial AI:(1) AI that mitigates bias rather than amplifying it.(2) AI that saves lives rather than taking them.(3) AI that helps us to solve humanity’s thorniest problems.My talk builds on work at the Allen Institute for AI,  a non-profit research institute based in Seattle.
+
+Bio: Oren Etzioni launched the Allen Institute for AI, and has served as its CEO since 2014. He has been a Professor at the University of Washington’s Computer Science department since 1991, publishing papers that have garnered over 2,300 highly influential citations on Semantic Scholar. He is also the founder of several startups including Farecast (acquired by Microsoft in 2008).
+
+
+
+Mar. 94011Bren Hall12 pm
+Ioannis PanageasSingapore University of Technology and Design Depth-width trade-offs for ReLU networks via Sharkovsky's theoremUnderstanding the representational power of Deep Neural Networks (DNNs) and how their structural properties (e.g., depth, width, type of activation unit) affect the functions they can compute, has been an important yet challenging question in deep learning and approximation theory. In a seminal paper, Telgarsky highlighted the benefits of depth by presenting a family of functions (based on simple triangular waves) for which DNNs achieve zero classification error, whereas shallow networks with fewer than exponentially many nodes incur constant error. Even though Telgarsky’s work reveals the limitations of shallow neural networks, it does not inform us on why these functions are difficult to represent and in fact he states it as a tantalizing open question to characterize those functions that cannot be well-approximated by smaller depths. In this talk, we will point to a new connection between DNNs expressivity and Sharkovsky’s Theorem from dynamical systems, that enables us to characterize the depth-width trade-offs of ReLU networks for representing functions based on the presence of generalized notion of fixed points, called periodic points (a fixed point is a point of period 1). Motivated by our observation that the triangle waves used in Telgarsky’s work contain points of period 3 – a period that is special in that it implies chaotic behavior based on the celebrated result by Li-Yorke – we will give general lower bounds for the width needed to represent periodic functions as a function of the depth. Technically, the crux of our approach is based on an eigenvalue analysis of the dynamical system associated with such functions. 
+
+Bio: Ioannis Panageas is an Assistant Professor at Information Systems Department of SUTD since September 2018. Prior to that he was a MIT postdoctoral fellow working with Constantinos Daskalakis. He received his PhD in Algorithms, Combinatorics and Optimization from Georgia Institute of Technology in 2016, a Diploma in EECS from National Technical University of Athens (summa cum laude) and a M.Sc. in Mathematics from Georgia Institute of Technology. His work lies on the intersection of optimization, probability, learning theory, dynamical systems and algorithms. He is the recipient of the 2019 NRF fellowship for AI (analogue of NSF CAREER award).
+
+
+
+Mar. 16
+Finals Week
+
+
+
+Mar. 23
+Spring Break
+
+
+
+TBD4011Bren Hall
+Qiang NingAllen Institute for AI Understanding events in natural language: Learning, common sense, annotation, and what's nextThe era of information explosion has opened up an unprecedented opportunity to study the social, political, financial and medical events described in natural language text. While the past decades have seen significant progress in deep learning and natural language processing (NLP), it is still extremely difficult to analyze textual data at the event-level, e.g., to understand what is going on, what is the cause and impact, and how things will unfold over time.In this talk, I will mainly focus on a key component of event understanding: temporal relations. Understanding temporal relations is challenging due to the lack of explicit timestamps in natural language text, its strong dependence on background knowledge, and the difficulty of collecting high-quality annotations to train models. I will present a series of results addressing these problems from the perspective of structured learning, common sense knowledge acquisition, and data annotation. These efforts culminated in improving the state-of-the-art by approximately 20% in absolute F1. I will also discuss recent results on other aspects of event understanding and the incidental supervision paradigm. I will conclude my talk by describing my vision on future directions towards building next-generation event-based NLP techniques.
+
+Bio: Qiang Ning is a research scientist on the AllenNLP team at the Allen Institute for AI (AI2). Qiang received his Ph.D. in Dec. 2019 from the Department of Electrical and Computer Engineering at the University of Illinois at Urbana-Champaign (UIUC). He obtained his master’s degree in biomedical imaging from the same department in May 2016. Before coming to the United States, Qiang obtained two bachelor’s degrees from Tsinghua University in 2013, in Electronic Engineering and in Economics, respectively. He was an “Excellent Teacher Ranked by Their Students” across the university in 2017 (UIUC), a recipient of the YEE Fellowship in 2015, a finalist for the best paper in IEEE ISBI’15, and also won the National Scholarship at Tsinghua University in 2012.
+
+
+
+
+
+
+January 10, 2020
+AIML
+
+
+
+Posts navigation
+
+‹Older posts
+Newer posts ›
+
+
+
+
+
+ 
+Search
+
+
+
+ 
+
+
+(c) 2015 Center for Machine Learning and Intelligent Systems
+
+WordPress/BonPress
+
+
+
+
+
+

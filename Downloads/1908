@@ -1,0 +1,265 @@
+https://sli.ics.uci.edu/PmWiki/ConditionalMarkup
+
+
+
+SLI | PmWiki / ConditionalMarkup 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+ConditionalMarkup
+
+
+
+
+
+< InterMap | Documentation Index | Page variables >
+
+authors, admins (advanced) 
+
+Using the (:if:) Directive
+The (:if:) directive allows portions of a page to be included or 
+excluded from rendering.  The generic forms of the (:if:) directive are
+
+(:if cond param:) body (:ifend:)
+(:if cond param:) body (:else:) body (:ifend:)
+(:if cond param:) body (:elseif cond param:) body (:ifend:)
+(:if cond param:) body (:elseif cond param:) body (:else:) body (:ifend:)
+where "cond" names a condition to be tested, and "param" is a parameter or other argument to the condition.
+
+Note that (:if:) without parameters and (:ifend:) are identical. Also note that (:if cond:) automatically closes a previous conditional. For nested multiple levels, see Nested conditionals.
+
+Built-in Conditions 
+The built-in conditions include:
+
+
+(:if name PAGENAME:)
+ - 
+current page is named "PAGENAME" or "GROUPNAME.PAGENAME"
+(:if group GROUPNAME:)
+ - 
+current group is named "GROUPNAME"
+(:if auth LEVEL PAGENAME:)
+ - 
+viewer is authorized - meaning "what they are allowed to do" - matches a "LEVEL" where LEVEL can be: read, edit, upload, attr or admin; PAGENAME is optional.
+(:if authid:)
+ - 
+current viewer is authenticated - meaning they have proven who they are via login - to use this the wiki must include recipe AuthUser or others which set the $AuthId variable.
+(:if enabled InvalidLogin:)
+ - 
+username and password not authenticated. To use this the wiki must include recipe Cookbook:AuthUser.
+(:if true:)
+ - 
+always include text
+(:if false:)
+ - 
+always exclude text (same as a comment)
+(:if attachments FILENAMES PAGENAME:)
+ - 
+PAGENAME has one or more attachments among the specified. A pagename can be omitted, in that case the current page is implied. 
+FILENAMES specify an attachment like "pic1.jpg" or attachment patterns separated by commas, like "pic*.jpg,*.png" where asterisk (*) means "anything"; if omitted, any attachment (i.e. "*") is implied. If used in a sidebar, header, or footer, and the PAGENAME is not specified, the condition applies to the main page. e.g. (:if attachments "*.png,*.gif" Groupname.PageName:)
+In the following "if date" examples:
+DATE may be year-month.  year-month-day is optional.  
+VALUE can be a recognizable date via strtotime()
+DATE (or DATE1 and DATE2 below) have a more fixed format which explicitly must exclude spaces.  Any spaces in DATE1 or DATE2 cause unpredictable results
+"now" or "today" is assumed if VALUE is omitted
+dates are in standard format yyyy-mm-dd or yyyymmdd or yyyymmddThhmm (note the "T" between the date and the hour, and also see comment above on format of VALUE)
+the ".." cannot have leading (when used with DATE1) or trailing spaces (when used with DATE2)
+(:if date DATE VALUE:)
+ - 
+Evaluates to true if VALUE is within DATE
+(:if date DATE1.. VALUE:)
+ - 
+true if VALUE (or current date if omitted) is DATE1 or later (unlimited)
+(:if date ..DATE2 VALUE:)
+ - 
+true if VALUE (or current date if omitted) is DATE2 or earlier (unlimited)
+(:if date DATE1..DATE2 VALUE:)
+ - 
+true if VALUE (or current date if omitted) is in range DATE1 to DATE2 (inclusive) 
+(:if enabled VAR:)
+ - 
+true if PHP VAR is true
+(:if enabled AuthPw:)
+ - 
+true if user has entered any password during the current browser session.
+- This does not mean the user has entered the correct password, just that they entered one.
+(:if equal STRING1 STRING2:)
+ - 
+true if STRING1 equals STRING2, use quotes if the string or string variable contains spaces, eg "MY STRING"
+(:if match REG_EXPRESSION:)
+ - 
+true if current page name matches the regular expression
+(:if exists PAGENAME:)
+ - 
+true if the page "pagename" or "groupname.pagename" exists
+(:if ontrail WikiTrailPage ThisPage:) 
+ - 
+true if ThisPage is in a list used as a trail on "WikiTrailPage"
+
+The name and group conditionals will work even for an included page, as the "name" and "group" conditionals always check the currently displayed page, as opposed to the page that the markup appears in.
+
+Note: Although there is no built-in conditional markup to test ?action=, you can use  (:if equal {$Action} ACTION:)
+to test what the current action being requested is.
+
+
+Concatenated conditions
+In some cases where built in conditions have a parameter the parameters may be concatenated using a comma, viz:
+ (:if name Name1,Name2,-Name3:) 
+ (:if group -Group1,Group2,Group3:) 
+Negated Conditions
+Negated forms of conditions also work:
+
+
+(:if !attachments:)
+ - 
+this page has no attachments
+ 
+(:if ! name PAGENAME:)
+ - 
+current page is NOT named "PAGENAME"
+(:if name -PAGENAME :)
+
+(:if group -GROUPNAME1,-GROUPNAME2 :)
+ - 
+group is not named "GROUPNAME1" or "GROUPNAME2"
+
+Nesting Conditions 
+Note that (:if cond:) automatically closes a previous conditional. Thus, the following two examples have identical meaning:
+ (:if cond1:) cond1 is true (:if cond2:) cond2 is true (:ifend:)
+ (:if cond1:) cond1 is true (:ifend:)(:if cond2:) cond2 is true (:ifend:)
+Conditions can be nested from 2.2.beta 66. To have nested conditionals you need to number the if, and the matching else/ifend:
+
+(:if cond1:)
+  cond1 is true
+  (:if2 cond2:)
+     cond1 and cond2 are true
+  (:elseif2 cond3:)
+     cond1 and cond3 are true, cond2 is not
+  (:else2:)
+     cond1 is true, cond2 and cond3 are not
+  (:if2end:)
+(:else:)
+  cond1 is false, cond2 testing was ignored
+(:ifend:)
+
+Spaces were added for better readability.
+
+Using wildcard placeholders
+The character * can be used as a wildcard to represent any character, zero, one, or multiple times.The character ? can be used as a wildcard to represent any character exactly once.Wildcard characters (* and ?) can be used with the name and group conditional markups, thus:
+
+
+(:if name PmCal.2005* :)
+ - 
+current page is in group PmCal and begins with 2005
+(:if group PmWiki* :)
+ - 
+current page is in group PmWiki or a group beginning with PmWiki
+(:if name Profiles.*,-Profiles.Profiles :)
+ - 
+current page is in group Profiles but not Profiles.Profiles
+
+Using page text variables, page variables and markup expressions
+Page text variables (PTVs), page variables (PVs) and markup expressions can be used in conditional markup. They will be assigned/evaluated before the condition(s). 
+
+
+Combining conditions
+Conditions (as previously defined) may be combined into more complex conditional expressions using one of these three equivalent forms:
+
+
+(:if expr EXPRESSION :)
+(:if [ EXPRESSION ] :)
+(:if ( EXPRESSION ) :)
+Conditions are combined into expressions with boolean operators and brackets. In the next table, A and B are either regular conditions or (round-)bracketed sub-expressions of regular conditions:
+
+
+ExpressionOperatorResult
+A and BAndTRUE if both A and B are TRUE.
+A or BOrTRUE if either A or B is TRUE.
+A xor BXorTRUE if either A or B is TRUE, but not both.
+! ANotTRUE if A is not TRUE.
+A && BAndTRUE if both A and B are TRUE.
+A || BOrTRUE if either A or B is TRUE.
+
+Example
+
+(:if [ name SomePage and group SomeGroup ]:)    equivalent to (:if name SomeGroup.SomePage:)
+Important Notes:
+Spaces are required around operators and brackets.
+No specific feedback is given for syntax errors or unbalanced brackets.
+Use round brackets (not square) for nested expressions.
+Thus, the following is a valid way of building an expression that shows the following contents only when the user is either the administrator, or is logged in and the time is later than the given date:
+
+(:if [ auth admin || ( authid && date 2006-06-01.. ) ] :)
+Nesting with square brackets will silently fail to work as expected:
+
+(:if [ auth admin || [ authid && date 2006-06-01 ] ] :)    NOTE: Doesn't Work!
+A common use of these complex tests are for expressions like:
+
+(:if expr auth admin || auth attr || auth edit :)
+[[Logout -> {$Name}?action=logout]]
+(:ifend:)
+which provides a logout link only when the browser has admin, attr, or edit permissions.
+
+ admins (advanced)
+Creating new conditions
+See Cookbook:ConditionalMarkupSamples.
+
+See also special references for the use of {*$Variables}.
+ 
+
+< InterMap | Documentation Index | Page variables >
+
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:ConditionalMarkup, and  a talk page: PmWiki:ConditionalMarkup-Talk.
+
+
+
+
+
+
+ Last modified May 30, 2016, at 04:37 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

@@ -1,0 +1,172 @@
+https://ngs.ics.uci.edu/physical-social-cyber-computing-systems
+
+
+
+
+
+
+
+
+Physical-Social-Cyber Computing Systems – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Physical-Social-Cyber Computing Systems    			
+
+
+As difficult as it may be difficult to believe to many people, computing is a relatively young discipline.  Until recently, most computing systems received input from people and represented it in cyberspace mostly in form of abstract information.  For efficiency reasons most representations of real world in computing systems captured only application-specific essential abstract aspects of the problem.  These systems were much closer to mathematics which defines operations on numbers representing abstractions of a problem.   Moreover, these systems assumed that a human will transform data from the real physical world or from sensors capturing aspects of real world to the form acceptable to the computing system.  This has been the common mode of input in computing systems even as they evolved from traditional computers to the Web and then included social networks.  Even in those transaction oriented systems where data was directly input in the system, the data was available already in the abstract form compatible with the representations in the computing system.  In a real sense, cyber representations of the real world entered by human beings have been the predominant mode of interfaces for computing systems.
+Increasingly, computing systems are expected to interface with different sensors and other information sources directly without the mediation of a human.  Emerging computing systems are expected to  deal with data directly coming from different sensors and from other data sources.  This data could be in the form of GPS coordinates, physical activity levels, flood level, temperature, rainfall rate, heart rates as function of time, photographs, audio, and video.  Clearly all these data may come at different rates and may represent measurements over different regions or people.  Since the system is suppose to take this input directly from sources, without any human mediators, it is important that the system can deal with the representations and the semantics of data.  Using these diverse representations and semantics, the system should be able to extract and deal with information that will help in detecting situations of different kinds and then represent it in representations suitable for reasoning and analysis of situation.
+Compared to traditional computing systems, emerging cyber-physical-social systems must deal with diverse real time data streams with different semantics and tied to spatial locations.  The semantics of such data is inherently based on the sensor producing the data, location of the sensor, and the time of measurement.  The system must extract information from this data that is also related to the time and location.  Traditional cyber systems wanted to deal with abstractions that minimized importance of absolute location and time.  In emerging cyber-physical-social systems time and location are independent variables that are used to represent measured, observed, and reported data; in traditional computing systems time and location were made attributes while entities were made independent variables.  These two approaches to representation are significantly different and emphasize different characteristics of the world that we try to model.  
+Scientists and engineers dealing with signals and systems learnt to deal with this challenge long time ago.  It was considered natural to maintain multiple representations and use them opportunistically for solving a problem.  The most common example of this is the use of time-domain and frequency-domain analysis and use in designing audio and video systems.  By maintaining and using both representations, one can design systems that help in understanding the requirement and steer the functionality to make these systems more useful for humans.  
+
+								Tagged on: Computer Interfacecs, Cyber Physical, Representations, social computing 
+
+
+
+By Ramesh |
+    				April 20, 2013 |
+    				             		Experiential Computing, Technical Thoughts |
+             	 
+    				             		No Comments |
+             	 		          				
+    			
+
+
+← Using Big Data for Storytelling
+From Calendars to Chronicles: 1 →
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

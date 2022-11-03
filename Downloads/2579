@@ -1,0 +1,173 @@
+https://ngs.ics.uci.edu/observation-systems
+
+
+
+
+
+
+
+
+Observation Systems – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Observation Systems    			
+
+
+While considering several applications, particularly related to surveillance and monitoring in these days of increasing web cameras due to terrorism, I felt that there is an interesting breed of systems that need to be considered as a class.  That may help us in designing them and learning from multiple applications.  I just call them — at least at this time — Observation Systems.
+An observation system observes behavior of a person, objects, or a group of persons and objects in an environment.  The goal of such a system is to study activities performed in the environment and to keep a record of important events and activities.
+Observation systems have applications in many areas including but not limited to surveillance, traffic monitoring, ethnography, marketing, and healthcare.  A surveillance system observes behavior of a person or a group of persons in an environment.  The goal of such a system is to study activities performed in the environment to monitor any suspicious or abnormal behavior with the goal to report any dangerous behavior.
+An observation system may utilize many disparate sensory sources to collect the data about the objects and the environment and analyze this data to obtain the information that it may consider important to perform its task.  Each sensor is just a data source and contributes towards building a complete observation.  Many sensors of different types are employed in the environment to gather relevant partial information that is assimilated to build a holistic picture of the complete environment.
+In most cases, an observation system is designed for a class of operation.  This class is bounded, but is reasonably flexible.  Thus, it is expected that the system uses sensors, analyzes data and stores information that is relevant to a certain class of operation, but the queries that users can ask are not just a few hardwired ones.  We will make this more concrete by discussing this issue in more depth for at least one class of observation systems.
+Such a system may be autonomous or may be interactive.  In an interactive system, all the data may be stored with the goal of providing any information that a user may need.  A user will be able to articulate his queries and the system should provide him answers to his query.  The answers may be either at the symbolic level or may render (present) appropriate data sources.
+< < more to come about the details of these systems.>>
+
+
+
+By Ramesh |
+    				August 9, 2005 |
+    				             		Prospecting Information |
+             	 
+    				             		No Comments |
+             	 		          				
+    			
+
+
+← Future Media (Video)
+Future of Web is here Now →
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

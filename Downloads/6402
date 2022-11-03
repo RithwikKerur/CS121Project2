@@ -1,0 +1,197 @@
+http://www.ics.uci.edu/~kay/courses/i41/hw/lab5.html
+
+
+
+
+
+
+Lab Assignment 5
+
+
+
+
+
+
+
+
+INFORMATICS 41 • DAVID G. KAY • UC IRVINE • FALL 2011
+Lab Assignment 5
+
+This assignment is due at the end of lab on
+Friday, October 28.
+
+Choose a partner for this assignment, someone
+you haven't worked with already. If you're thinking about doing more software development after this course, try to find a partner with similar interests.
+
+(a) In class we described how to change our restaurant
+structure so that instead of just one best dish and its price, each restaurant
+has a menu of dishes.  So a (new) rrant
+is now
+(make-rrant
+name cuisine phone menu)
+
+where name is a string, cuisine is a string,
+phone is a string, and menu is a list of dish structures (see below).  We
+defined the new structure more or less like this:
+(define-struct
+rrant (name cuisine phone menu))
+
+The menu was a list of dishes—that is,
+the rrant
+structure contains a list as one of its fields.  Each dish on the list has a name and a price.  So a dish
+is
+(make-dish
+name price)
+
+where name is a string and price is a number,
+defined with
+
+(define-struct dish (name price))
+
+(a.1) To the restaurant definition below,
+add a third dish:  Paht Woon Sen at $7.95.
+
+(define R1 (make-rrant "Thai
+Touch" "Thai" "949-640-0123" 
+                       (list (make-dish "Mee Krob" 8.50) 
+                             (make-dish "Larb Gai" 10.25))))
+
+Write a Scheme expression that defines R2 as
+a (new) rrant
+structure for the French restaurant Pascal whose phone number is 940-752-0107;
+they serve escargots for $12.95, poached salmon for $18.50, rack of lamb
+for $24.00 and marjolaine cake for $8.50.
+
+(a.2)  Write the function rrant-first-dish-name
+that takes a rrant
+as its argument and returns the name of the first dish on the restaurant's
+menu.  Remember to write the test cases and examples before you write the
+function.  You should include code to check whether the menu has zero dishes
+and return empty if so.
+
+You may find yourself needing to extract the
+menu from the argument twice; use local
+to avoid that.
+
+(a.3)  Write the function dish-cheap?
+that takes a dish structure and a number and returns true if (and only if)
+the price of the dish is less than the specified number.
+
+(a.4)  Write the function menu-all-cheap?
+that takes a menu (i.e., a list of dish structures) and a number and returns
+true if (and only if) all the dishes on the menu have a price less than
+the specified number. You may write your code to return true if the menu
+doesn't have any dishes; don't produce an error message.  Of course
+you should use dish-cheap?
+in your definition.
+
+(a.5)  Write the function rrant-all-cheap?
+that takes a rrant
+and a number and returns true if all the dishes the restaurant serves cost
+less than the specified number.  Of course you should use menu-all-cheap?
+in your definition.
+
+(a.6)  Write the function menu-prices
+that takes a menu and returns a list of numbers where each number is the
+price of a dish on the menu.  That is, your function will collect all the
+prices of the dishes into a list and return that list. (This is an alternative approach to what we did in class.)
+
+(a.7)  Write the function menu-average
+that takes a menu and returns the average price of the dishes on that menu.
+ Think about how you compute an average, what quantities you need, and how
+to get them.  The predefined function length
+will be helpful; it will also be helpful to write a function sum
+that returns the sum of a list of numbers.  Note also that you'll need
+to check for an empty menu and return zero in that case, so you don't
+divide by zero.
+
+(a.8)  Write the function rrant-cheap?
+that takes a rrant
+and a number and returns true if the average price of the restaurant's
+menu is less than the specified number.
+
+(a.9)  Write the function rrant-keep-cheap
+that takes a rrant
+and a number and returns (a newly constructed copy of) that restaurant with
+all the menu items that aren't cheap removed.  The right way to go about
+this is to follow the pattern of the functions above:  Start by writing
+a function to operate on a menu, and then call that function from your rrant-keep-cheap
+function.  The actual removal task follows the pattern of some of the functions
+we've already seen.
+
+(a.10)  Write the function cheap-rrants
+that takes a list of rrant
+structures and a number and returns a list containing only the cheap restaurants—the
+ones whose average menu price is less than the number.  Use rrant-cheap?
+in your definition, of course. 
+
+Collect all of these definitions and submit
+them via Checkmate.
+(b) In class, we did an "inorder traversal" of a BST; we called it BST->list.  We also did the insertion of an item into a BST; we called it BST-insert.  And we wrote a function to take a list of items and insert each item into a BST; we called it list->BST.  You should know how to recognize these functions and how to write them.
+(b.1) At the end of class, we reimplemented (rebuilt) our BST to keep track of duplicate items by storing a count of how many times each item occurred. We redefined the node structure and we defined an insertion function to increase the count each time we find a duplicate item.  But we didn't finish rewriting BST->list to produce, for example, three 19s on the sorted list if there were three 19s in the input.  The skeleton is at the bottom of Thursday afternoon's class transcript (available in the course Email archive); complete that definition (including enough check-expect tests to demonstrate that your definition is correct). 
+(b.2) In class we did not write a function to search for an item in a binary tree.  So we'll give you a chance to do it now.  Write the function BST-member? as described below.  Write it to process BSTs as we defined them in class (with counts or without, your choice).
+;; BST-member?: number  BST  ->  boolean
+;; Return true if number appears in BST and false otherwise
+(check-expect (BST-member? 17 empty) false)
+(check-expect (BST-member? 17 (list->BST (list 17))) true)
+(check-expect (BST-member? 17 (list->BST (list 34 43 28 16 17 24 134 34))) true)
+(check-expect (BST-member? 17 (list->BST (list 34 3 23 2 25 26 24))) false)
+Here are some hints if you'd like them: You have the contract, purpose statement, and examples above. Next, write the function header (define and lambda). Since a tree is either empty or not, have a cond to distinguish. Now, what do you return if the tree's empty? If it's not empty, what two things do you have to look at? What if they're equal, what do you return? If they're not equal, you're going to have to keep looking (recursively) in either the left subtree or the right subtree; how do you decide which?
+Submit your definitions
+  via Checkmate. 
+
+(c) This part is optional. If you don't get to it, that's fine. But if you think your interests might be in the area of software development or software engineering, then we highly recommend giving it a try.
+Reimplement the collection class in the restaurants program to store
+  the restaurants in a binary search tree ordered by the restaurants'
+  names.  This will involve changing all the definitions in the collection
+  part of the code, but none of the definitions elsewhere. [In fact, you'd do exatly the same thing whether the restaurant structures are old-style (with one dish and price) or new-style (with a menu of dishes).]
+
+Your data definition will be as follows:
+;; A treenode is either
+  ;; 1. empty
+  ;; 2. (make-treenode rootvalue left right), where rootvalue is a rrant and left
+  ;; and right are treenodes, representing the left subtree and right subtree,
+  ;; and (this is the BST property) where all of the restaurant names in the left
+  ;; subtree are earlier alphabetically than the name of the rootvalue restaurant,
+;; all names in the right subtree are greater, and both subtrees are BSTs.
+
+Here are some tips, hints, and simplifications:
+
+
+The BST code you wrote earlier and the code we did in class should
+    be a useful guide. 
+
+To compare strings alphabetically, use string=?,
+      string>?,
+        or string<?.
+        
+
+The collection->list
+    function should do an inorder traversal of the tree, so it produces a sorted
+    list.  
+
+Assume that every restaurant in the collection
+      will have a unique name.  Under that assumption, there will be no duplications,
+    so that collection-search
+    will always return a one-element collection or an empty collection.
+
+Deleting items from a BST is very tricky
+      if the item has two children, because you can't leave holes and you
+      need to maintain the BST property.  We'll learn the algorithm for this
+    some day, but for now, you can skip it:  collection-remove
+  can just return the same collection unchanged.
+
+What's the point of this exercise? The restaurant collection in our program is an interchangeable part. We can change how we build it internally (from a list to a BST) without affecting the rest of the program (i.e., without requiring the authors of those parts of the program to make any changes in their code). This interchangeability is a key aspect of any well-designed modern software system and it's a fundamental principle of object-oriented programming.
+(d)  Remember that each partner must
+  complete a partner evaluation form via the Survey tool on eee.uci.edu.
+
+
+Based in part on ICS H21assignments by David
+G. Kay; modified by David G. Kay for the Informatics Core Course, Fall 2004, Fall 2005, Fall 2008, Fall 2009, Fall 2011.
+
+David G. Kay, kay@uci.edu 
+
+Saturday, October 22, 2011 10:35 AM
+
+
+

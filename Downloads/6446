@@ -1,0 +1,248 @@
+http://www.ics.uci.edu/~kay/scheme/restaurants1d.scm
+;;;;;;;; RESTAURANT COLLECTION PROGRAM (Version 1 plus erase, adjust, BSTs, lazy deletion)
+;;;;;;;; David G. Kay ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Fall 2004, ICS, UC Irvine
+;;;;;;;; This version is compatible with the Intermediate Student level of DrScheme
+;;;;;;;; Requires simple-text-io.ss teachpack.
+
+;;;;;;;; Top-level Application Routines ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;; Restaurants: anything -> don't care (side effects--printing)
+;; Main driver function; call this to get started (see end of definitions)
+(define restaurants                       
+  (lambda (x)
+    (local ((define collection (make-collection 'x)))
+      (begin
+        (handle-commands collection)
+        (display "Thank you.  Good-bye.") 
+        (newline)))))
+
+;; handle-commands: collection -> collection
+;; Take collection, process it according to commands from user,
+;; and return (possibly changed) collection.
+(define handle-commands                  
+  (lambda (C)
+    (local ((define response (get-menu-response 'x)))  ; Get a response from the user
+      (cond                        
+        ((equal? response 'q) C)        
+        ((equal? response 'n) (handle-commands (collection-add C (rrant-get-info 'x))))
+        ((equal? response 'r) (handle-commands (collection-remove C (ask-for-name "remove"))))
+        ((equal? response 'p) (begin (print-collection C) (handle-commands C)))
+        ((equal? response 's) (begin (search-collection C (ask-for-name "search for"))
+                                     (handle-commands C)))
+        ((equal? response 'e) (handle-commands (make-collection 'x)))
+        ((equal? response 'a) (handle-commands 
+                               (collection-adjust-prices C (get-it "percentage change"))))
+        (else (begin (invalid-command response) (handle-commands C)))))))
+
+;; get-menu-response: anything -> symbol
+;; Prompt the user with a command menu, read a response, and return it.
+(define  get-menu-response
+  (lambda (x)
+    (begin
+      (newline)
+      (display "Restaurant Collection Program --- Choose one:") (newline)
+      (display "   n:  Add a new restaurant to the collection") (newline)
+      (display "   r:  Remove a restaurant from the collection") (newline)
+      (display "   s:  Search the collection for selected restaurants") (newline)
+      (display "   p:  Print all the restaurants") (newline)
+      (display "   e:  Remove (erase) all the restaurants from the collection") (newline)
+      (display "   a:  Adjust prices for dishes served") (newline)
+      (display "   q:  Quit") (newline)
+      (read))))
+
+;; invalid-command: symbol -> don't care (side effect--display)
+;; Print an informative error message about incorrect/invalid command
+(define invalid-command                       
+  (lambda (response)  
+    (begin
+      (display "Sorry; '") 
+      (display response) 
+      (display "' isn't a valid command.  Please try again.")
+      (newline))))
+
+;; ask-for-name: string -> string
+;; Take as input a phrase describing what to do with a restaurant;
+;; using that phrase, prompt the user for the name of a restaurant.
+(define ask-for-name   
+  (lambda (what-to-do)
+    (get-it (string-append "name of the restaurant to " what-to-do))))
+
+;; print-collection: collection -> don't care (side effect--display)
+;; Take a collection and print all the restaurants on it.
+(define print-collection     
+  (lambda (collection)
+    (print-rrant-list (collection->list collection))))
+
+;; print-rrant-list: collection -> don't care (side-effect--display)
+;; Take a list of rrants and print it.
+(define print-rrant-list
+  (lambda (RL)
+    (cond
+      ((empty? RL) (newline))
+      (else (begin (rrant-print (first RL))
+                   (print-rrant-list (rest RL)))))))
+
+;; search-collection: collection name -> don't care (side effect--display)
+;; Get restaurants matching name and print them.
+(define search-collection
+  (lambda (collection name)
+    (print-rrant-list 
+     (collection->list (collection-search collection name)))))
+
+
+;;; rrant -- Abstract data type for a restaurant object
+
+(define-struct rrant (name cuisine phone dish price))
+
+;; rrant-get-info: anything -> rrant
+;; Prompt the user for info on a restaurant and create one.
+(define rrant-get-info     
+  (lambda (x)          
+    (begin
+      (display "When the machine asks you to supply some non-numeric information, ") (newline)
+      (display "please type that information surrounded by quotation marks.") (newline)
+      (local ((define n (get-it "restaurant's name"))
+              (define c (get-it "kind of food served"))
+              (define ph (get-it "phone number"))
+              (define d (get-it "name of the best dish"))
+              (define p (get-it "price of that dish")))
+        (make-rrant n c ph d p)))))
+
+;; rrant-print: rrant -> don't care (side effect--display)
+;; Display a rrant readably.
+(define rrant-print
+  (lambda (r)
+    (begin
+      (display "Name:      ") (display (rrant-name r)) (newline)
+      (display "Cuisine:   ") (display (rrant-cuisine r)) (newline)
+      (display "Phone:     ") (display (rrant-phone r)) (newline)
+      (display "Best dish: ") (display (rrant-dish r)) (newline)
+      (display "Price:     ") (display (exact->inexact (rrant-price r))) (newline) (newline))))
+
+;; rrant-change-price: rrant number -> rrant
+;; Returns a restaurant with the price adjusted by the given percentage.
+;; added by Michael Shindler, October 15 2004.
+(define rrant-change-price
+  (lambda (r percentage)
+    (local ((define adjust-price
+              ;; adjust-price: number number -> number
+              ;; Inputs are price and percentage; return price modified by percentage.
+              ;; This doesn't have to be a local definition, but it is only used locally.
+              (lambda (price pct)
+                (+ price (/ (* price pct) 100)))))
+            (make-rrant (rrant-name r) (rrant-cuisine r) (rrant-phone r) 
+                        (rrant-dish r) (adjust-price (rrant-price r) percentage) ))))
+
+
+;;; COLLECTION -- Abstract data type for a collection of restaurants
+;;;
+;;; We represent the collection as a binary search tree (BST) ordered alphabeticallly
+;;; the names of the restaurants.  A treenode is either:
+;;; 1. empty, or 2. (make-treenode rootvalue deleted? left right), where rootvalue 
+;;; is a rrant, deleted? is boolean (indicating whether the node should be ignored),
+;;; left and right are treenodes, representing the left and right subtrees,
+;;; and (this is the BST property) where all of the restaurant names in the left 
+;;; subtree are earlier alphabetically than the name of the rootvalue restaurant, 
+;;; all names in the right subtree are greater, and both subtrees are BSTs.
+
+(define-struct treenode (rootvalue deleted? left right))
+
+;; make-collection: anything -> collection
+;; Return a (new) empty collection
+(define make-collection
+  (lambda (x)
+    empty))
+
+;; collection-add: collection rrant -> collection
+;; Return input collection with input rrant added
+(define collection-add
+  (lambda (C R)
+    (cond
+      ((collection-empty? C) (make-treenode R false empty empty))
+      ((string? (rrant-name R) (rrant-name (treenode-rootvalue C)))
+       (make-treenode (treenode-rootvalue C)
+                      (treenode-deleted? C)
+                      (treenode-left C)
+                      (collection-add (treenode-right C) R)))
+      (else ; names are equal
+       (cond
+         ((treenode-deleted? C) ; if node was deleted, un-delete it
+          (make-treenode R false (treenode-left C) (treenode-right C)))
+         (else C)))))) ; otherwise ignore duplicate name (though we might
+                       ; decide instead to use any new info from R)
+       
+;; collection-empty?: collection -> boolean
+;; Return true if input is an empty collection.  Since some nodes may
+;; be deleted, we have to check the subtrees.
+(define collection-empty?
+  (lambda (C)
+    (or (empty? C)
+        (and (treenode-deleted? C) 
+             (collection-empty? (treenode-left C) )
+             (collection-empty? (treenode-right C))))))
+
+;; collection-search: collection string -> collection
+;; Return a collection with the (zero or one) restaurants in C that match name
+(define collection-search       
+  (lambda (C name)               
+    (cond
+      ((collection-empty? C) (make-collection 'x))
+             ; No match, so return an empty collection
+      ((string=? name (rrant-name (treenode-rootvalue C)))
+       (cond ; Matched name of rrant at root, but is it really there?
+         ((treenode-deleted? C) (make-collection 'x)) ; No, so return empty
+         (else (collection-add (make-collection 'x) (treenode-rootvalue C)))))
+             ; Yes, so return matched rrant in a collection
+      ((string collection
+;; Remove named restaurant, if any, using lazy deletion.
+(define collection-remove       
+  (lambda (C name)
+    (cond
+      ((empty? C) empty)
+      ((string=? name (rrant-name (treenode-rootvalue C)))
+       (make-treenode (treenode-rootvalue C) 
+                      true ; mark the node as deleted
+                      (treenode-left C) (treenode-right C)))
+      ((stringlist: collection -> list
+;; Do an inorder traversal of the collection, gathering the rrants into a list.
+(define collection->list
+  (lambda (C)
+    (cond
+      ((collection-empty? C) empty)
+      (else (append
+             (collection->list (treenode-left C))
+             (cond ; if node is deleted, don't include it on list
+               ((treenode-deleted? C) empty)
+               (else (list (treenode-rootvalue C))))
+             (collection->list (treenode-right C)))))))
+
+;; collection-adjust-prices: collection number -> collection
+;; Returns a collection with all prices modified by the percentage.
+;; added by Michael Shindler, October 15 2004.
+;; (We go ahead and adjust prices of all rrants, even deleted ones,
+;; because when we un-delete a restaurant we replace its information.)
+(define collection-adjust-prices
+  (lambda (C percentage)
+    (cond
+      [ (collection-empty? C) empty ]
+      [ else (make-treenode
+              (rrant-change-price (treenode-rootvalue C) percentage)
+              (treenode-deleted? C)
+              (collection-adjust-prices (treenode-left C) percentage)
+              (collection-adjust-prices (treenode-right C) percentage) ) ])))
+
+;;;;;;;; GENERALLY USEFUL INPUT/OUTPUT ROUTINE
+
+;; get-it:  string -> expression (plus printing side-effect)
+;; Prompt user to enter data using string; return what user enters.
+;; Note:  This returns one Scheme expression (list, string, symbol, number);
+;; multiple expressions in the user's input will be saved up, causing problems.                                       
+(define get-it
+  (lambda (what-to-get)
+    (begin
+      (display "Please enter the ")
+      (display what-to-get)
+      (display ":  ")
+      (read))))
+
+(restaurants 'x)

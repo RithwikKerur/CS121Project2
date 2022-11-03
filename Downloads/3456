@@ -1,0 +1,187 @@
+https://ngs.ics.uci.edu/contenxt-not-content-or-context-in-computer-vision
+
+
+
+
+
+
+
+
+Contenxt (Not content or context) in computer vision – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Contenxt (Not content or context) in computer vision    			
+
+
+University of Central Florida has one of the strongest research groups in computer vision under the leadership of Prof. Mubarak Shah.  I was invited to give a talk there — which is included here.
+Computer vision started with the right idea of using context in understanding as much as possible, but somehow deviated from this path,  maybe due to the influence of David Marr, and became ignoring context.  In fact most researchers, as judged based on the reviews of research papers, were outright hostile to context and even call that ‘cheating’,  Based on all evidence from cognitive science and psychology and successful computer vision systems, context as essential, in fact significantly more, as content or visual data.  But this was lost and computer vision research, with very few exceptions, is all about analyzing pixels.
+In this discussion I vocally emphasized need to give importance to context and look at combining context and content to develop computer vision approaches.  It did appear that students responded very well.  There were good questions and even at the party at Mubarak’s home in the evening at least 2 students said that they liked the talk and will now change their research thinking.  These words were music to my ear.  I hope that more people take context seriously and start doing contenxtual analysis rather than worry about content alone.
+
+
+
+By Ramesh |
+    				April 11, 2010 |
+    				             		Technical Thoughts |
+             	 
+    				             		1 Comment |
+             	 		          				
+    			
+
+
+← Situation Awareness – emerging approaches
+C.K. Prahalad →
+
+
+
+			One thought on “Contenxt (Not content or context) in computer vision”		
+
+
+
+
+dinesh vadhia April 11, 2010 at 2:05 pm 
+
+Ramesh
+You may find this technology article of interest which was published on The Noisy Channel at http://thenoisychannel.com/2010/04/04/guest-post-information-retrieval-using-a-bayesian-model-of-learning-and-generalization/.  
+As you’ll see from the article, items are defined by feature vectors.  Recently, we built image search prototypes using the Nus-Wide data set and built one with content features and another with content plus context features.  Both worked very well and the one with the addition of context delivering slightly better query results.  There is no reason why the same cannot be achieved with audio too.  Mixing content with context is possible and works.
+Dinesh
+
+
+
+
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

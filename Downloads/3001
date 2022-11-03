@@ -1,0 +1,185 @@
+https://ngs.ics.uci.edu/steering-wheel-and-search-as-a-conversation
+
+
+
+
+
+
+
+
+Steering Wheel and Search as a conversation – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Steering Wheel and Search as a conversation    			
+
+
+I had a chance to hear a presentation by John Battelle at Fast Forward on the last Thu, Feb 8 in San Diego.Â  He argued that we need a steering wheel for search (Thanks, John for continuing to talk about that and giving one of my thoughts some credit) and that the next frontier in search is ‘search as a conversation’.Â  When I talked about the steering wheel for search — compared to the current stateless search relying on the ‘tunnelvision’ approach leading to the keyword box — theÂ  basic idea was that finding answers has to be based on emergent semantics.Â  John very correctly points out that in search, it is very important to find intent of the user and it is that intent that also results in focused advertisements.
+Â Search as a conversation is an emergent approach to semantics or determining intent.Â  It allows the system to understand the intent in a few, hopefully short, steps.Â  In most situations one or few keywords in one query are difficult to lead to determination of the intent.Â  A series of conversational interactions may lead to better determination of intent.Â  This was the basic idea behind Simone Santini’s doctoral dissertation in my laboratory about a decade ago.
+Steering wheel is a mechanism to implement that.Â  Based on the state of conversation, the system presents to the user the ‘information landscape’ that it has and the user can than steer in a right direction to explore further information landscape until (s)he gets to the goal.
+I was very pleased to hear that John Battelle is chamioning this idea.Â  Search as a conversation will help providing us the steering wheel that may help in making search more focused and useful.Â  The real challenge remains implementing emergent semantics through negotiation between the system ontology and the personal ontology of the user.Â  The system ontology is usually known, but there is no good way to obtain personal ontology of a user.Â  Of course all data mining and log analysis tools are efforts in that direction.
+
+
+
+By Ramesh |
+    				February 11, 2007 |
+    				             		Prospecting Information, Technical Thoughts |
+             	 
+    				             		1 Comment |
+             	 		          				
+    			
+
+
+← Video will bring Facebook and Comcast closer
+Now Video in Radio →
+
+
+
+			One thought on “Steering Wheel and Search as a conversation”		
+
+
+
+
+Andy February 12, 2007 at 6:42 am 
+
+Ramesh, so glad to hear someone else finally embrace Conversational Search.  Q-Phrase, through its Quece technology, has been working on developing conversational search technology for the last three years.
+
+
+
+
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

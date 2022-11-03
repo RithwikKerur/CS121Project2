@@ -1,0 +1,1069 @@
+https://duttgroup.ics.uci.edu/publications/?limit=10&
+
+
+
+
+
+
+Publications – Dutt Research Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to content
+
+
+
+
+
+
+ 
+
+Dutt Research Group
+DRG-Lab Webpage
+
+
+
+
+
+
+
+
+DRG Home
+Group Members
+Projects
+
+Self-Aware & Adaptive Computing
+
+Information Processing Factory (IPF)
+MARS
+Unified Parallel Runtime
+Memory Adaptation
+
+
+Health Care IoT
+
+Internet of Cognitive Things in healthcare
+Pain Assessment
+Maternity Care
+NSF Unite Project
+
+
+Domain-specific Hardware Accelerators
+Neuromorphic Computing
+
+
+Publications
+Sister Groups
+News
+
+
+
+
+Main Menu
+
+
+
+
+
+
+
+
+
+
+Publications 
+
+
+All publications:
+550 entries « ‹  10 of 11 › » 
+
+2002
+
+ Azevedo, Ana;  Issenin, Ilya;  Cornea, Radu;  Gupta, Rajesh;  Dutt, Nikil D;  Veidenbaum, Alexander V;  Nicolau, AlexandruProfile-Based Dynamic Voltage Scheduling Using Program Checkpoints Inproceedings 2002 Design, Automation and Test in Europe Conference and Exposition 
+ (DATE 2002), 4-8 March 2002, Paris, France, pp. 168–175, IEEE Computer Society, 2002.Links | BibTeX@inproceedings{DBLP:conf/date/AzevedoICGDVN02b,
+title = {Profile-Based Dynamic Voltage Scheduling Using Program Checkpoints},
+author = {Ana Azevedo and Ilya Issenin and Radu Cornea and Rajesh Gupta and Nikil D Dutt and Alexander V Veidenbaum and Alexandru Nicolau},
+url = {https://doi.org/10.1109/DATE.2002.998266},
+doi = {10.1109/DATE.2002.998266},
+year  = {2002},
+date = {2002-01-01},
+booktitle = {2002 Design, Automation and Test in Europe Conference and Exposition 
+ (DATE 2002), 4-8 March 2002, Paris, France},
+pages = {168--175},
+publisher = {IEEE Computer Society},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/DATE.2002.998266doi:10.1109/DATE.2002.998266Close Halambi, Ashok;  Shrivastava, Aviral;  Biswas, Partha;  Dutt, Nikil D;  Nicolau, AlexandruAn Efficient Compiler Technique for Code Size Reduction Using Reduced 
+ Bit-Width ISAs Inproceedings 2002 Design, Automation and Test in Europe Conference and Exposition 
+ (DATE 2002), 4-8 March 2002, Paris, France, pp. 402–408, IEEE Computer Society, 2002.Links | BibTeX@inproceedings{DBLP:conf/date/HalambiSBDN02b,
+title = {An Efficient Compiler Technique for Code Size Reduction Using Reduced 
+ Bit-Width ISAs},
+author = {Ashok Halambi and Aviral Shrivastava and Partha Biswas and Nikil D Dutt and Alexandru Nicolau},
+url = {https://doi.org/10.1109/DATE.2002.998305},
+doi = {10.1109/DATE.2002.998305},
+year  = {2002},
+date = {2002-01-01},
+booktitle = {2002 Design, Automation and Test in Europe Conference and Exposition 
+ (DATE 2002), 4-8 March 2002, Paris, France},
+pages = {402--408},
+publisher = {IEEE Computer Society},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/DATE.2002.998305doi:10.1109/DATE.2002.998305Close Grun, Peter;  Dutt, Nikil D;  Nicolau, AlexandruMemory System Connectivity Exploration Inproceedings 2002 Design, Automation and Test in Europe Conference and Exposition 
+ (DATE 2002), 4-8 March 2002, Paris, France, pp. 894–901, IEEE Computer Society, 2002.Links | BibTeX@inproceedings{DBLP:conf/date/GrunDN02b,
+title = {Memory System Connectivity Exploration},
+author = {Peter Grun and Nikil D Dutt and Alexandru Nicolau},
+url = {https://doi.org/10.1109/DATE.2002.998406},
+doi = {10.1109/DATE.2002.998406},
+year  = {2002},
+date = {2002-01-01},
+booktitle = {2002 Design, Automation and Test in Europe Conference and Exposition 
+ (DATE 2002), 4-8 March 2002, Paris, France},
+pages = {894--901},
+publisher = {IEEE Computer Society},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/DATE.2002.998406doi:10.1109/DATE.2002.998406Close Panda, Preeti Ranjan;  Dutt, Nikil DMemory Architectures for Embedded Systems-On-Chip Inproceedings  Sahni, Sartaj;  Prasanna, Viktor K;  Shukla, Uday (Ed.): High Performance Computing - HiPC 2002, 9th International Conference, 
+ Bangalore, India, December 18-21, 2002, Proceedings, pp. 647–662, Springer, 2002.Links | BibTeX@inproceedings{DBLP:conf/hipc/PandaD02ab,
+title = {Memory Architectures for Embedded Systems-On-Chip},
+author = {Preeti Ranjan Panda and Nikil D Dutt},
+editor = {Sartaj Sahni and Viktor K Prasanna and Uday Shukla},
+url = {https://doi.org/10.1007/3-540-36265-7_61},
+doi = {10.1007/3-540-36265-7_61},
+year  = {2002},
+date = {2002-01-01},
+booktitle = {High Performance Computing - HiPC 2002, 9th International Conference, 
+ Bangalore, India, December 18-21, 2002, Proceedings},
+volume = {2552},
+pages = {647--662},
+publisher = {Springer},
+series = {Lecture Notes in Computer Science},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1007/3-540-36265-7_61doi:10.1007/3-540-36265-7_61Close Mishra, Prabhat;  Dutt, Nikil DAutomatic functional test program generation for pipelined processors 
+ using model checking Inproceedings Seventh IEEE International High-Level Design Validation and Test 
+ Workshop 2002, Cannes, France, October 27-29, 2002, pp. 99–103, IEEE Computer Society, 2002.Links | BibTeX@inproceedings{DBLP:conf/hldvt/MishraD02b,
+title = {Automatic functional test program generation for pipelined processors 
+ using model checking},
+author = {Prabhat Mishra and Nikil D Dutt},
+url = {https://doi.org/10.1109/HLDVT.2002.1224436},
+doi = {10.1109/HLDVT.2002.1224436},
+year  = {2002},
+date = {2002-01-01},
+booktitle = {Seventh IEEE International High-Level Design Validation and Test 
+ Workshop 2002, Cannes, France, October 27-29, 2002},
+pages = {99--103},
+publisher = {IEEE Computer Society},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/HLDVT.2002.1224436doi:10.1109/HLDVT.2002.1224436Close Lee, Jong-eun;  Choi, Kiyoung;  Dutt, Nikil DEfficient instruction encoding for automatic instruction set design  of configurable ASIPs Inproceedings  Pileggi, Lawrence T;  Kuehlmann, Andreas (Ed.): Proceedings of the 2002 IEEE/ACM International Conference on Computer-aided 
+ Design, ICCAD 2002, San Jose, California, USA, November 10-14, 2002, pp. 649–654, ACM / IEEE Computer Society, 2002.Links | BibTeX@inproceedings{DBLP:conf/iccad/LeeCD02b,
+title = {Efficient instruction encoding for automatic instruction set design  of configurable ASIPs},
+author = {Jong-eun Lee and Kiyoung Choi and Nikil D Dutt},
+editor = {Lawrence T Pileggi and Andreas Kuehlmann},
+url = {https://doi.org/10.1145/774572.774668},
+doi = {10.1145/774572.774668},
+year  = {2002},
+date = {2002-01-01},
+booktitle = {Proceedings of the 2002 IEEE/ACM International Conference on Computer-aided 
+ Design, ICCAD 2002, San Jose, California, USA, November 10-14, 2002},
+pages = {649--654},
+publisher = {ACM / IEEE Computer Society},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/774572.774668doi:10.1145/774572.774668Close Mishra, Prabhat;  Dutt, Nikil DModeling and Verification of Pipelined Embedded Processors in the 
+ Presence of Hazards and Exceptions Inproceedings  Kleinjohann, Bernd;  Kim, K H;  Kleinjohann, Lisa;  Rettberg, Achim (Ed.): Design and Analysis of Distributed Embedded Systems, IFIP 17(^mboxth) 
+ World Computer Congress - TC10 Stream on Distributed and Parallel 
+ Embedded Systems (DIPES 2002), August 25-29, 2002, Montréal, 
+ Québec, Canada, pp. 81–90, Kluwer, 2002.BibTeX@inproceedings{DBLP:conf/ifip10-3/MishraD02b,
+title = {Modeling and Verification of Pipelined Embedded Processors in the 
+ Presence of Hazards and Exceptions},
+author = {Prabhat Mishra and Nikil D Dutt},
+editor = {Bernd Kleinjohann and K H Kim and Lisa Kleinjohann and Achim Rettberg},
+year  = {2002},
+date = {2002-01-01},
+booktitle = {Design and Analysis of Distributed Embedded Systems, IFIP 17(^mboxth) 
+ World Computer Congress - TC10 Stream on Distributed and Parallel 
+ Embedded Systems (DIPES 2002), August 25-29, 2002, Montréal, 
+ Québec, Canada},
+volume = {219},
+pages = {81--90},
+publisher = {Kluwer},
+series = {IFIP Conference Proceedings},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Close Nicolau, Alexandru;  Dutt, Nikil D;  Shrivastava, Aviral;  Biswas, Partha;  Halambi, AshokA Design Space Exploration Framework for Reduced Bit-Width Instruction 
+ Set Architecture (rISA) Design Inproceedings  Aboulhamid, El Mostapha;  Nakamura, Yukihiro (Ed.): Proceedings of the 15th International Symposium on System Synthesis 
+ (ISSS 2002), October 2-4, 2002, Kyoto, Japan, pp. 120–125, ACM / IEEE Computer Society, 2002.Links | BibTeX@inproceedings{DBLP:conf/isss/NicolauDSBH02b,
+title = {A Design Space Exploration Framework for Reduced Bit-Width Instruction 
+ Set Architecture (rISA) Design},
+author = {Alexandru Nicolau and Nikil D Dutt and Aviral Shrivastava and Partha Biswas and Ashok Halambi},
+editor = {El Mostapha Aboulhamid and Yukihiro Nakamura},
+url = {http://doi.ieeecomputersociety.org/10.1109/ISSS.2002.1227163},
+doi = {10.1109/ISSS.2002.1227163},
+year  = {2002},
+date = {2002-01-01},
+booktitle = {Proceedings of the 15th International Symposium on System Synthesis 
+ (ISSS 2002), October 2-4, 2002, Kyoto, Japan},
+pages = {120--125},
+publisher = {ACM / IEEE Computer Society},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.ieeecomputersociety.org/10.1109/ISSS.2002.1227163doi:10.1109/ISSS.2002.1227163Close Dutt, Nikil D;  Hirschberg, Daniel S;  Mamidipaka, MaheshEfficient Power Reduction Techniques for Time Multiplexed Address 
+ Buses Inproceedings  Aboulhamid, El Mostapha;  Nakamura, Yukihiro (Ed.): Proceedings of the 15th International Symposium on System Synthesis 
+ (ISSS 2002), October 2-4, 2002, Kyoto, Japan, pp. 207–212, ACM / IEEE Computer Society, 2002.Links | BibTeX@inproceedings{DBLP:conf/isss/DuttHM02b,
+title = {Efficient Power Reduction Techniques for Time Multiplexed Address 
+ Buses},
+author = {Nikil D Dutt and Daniel S Hirschberg and Mahesh Mamidipaka},
+editor = {El Mostapha Aboulhamid and Yukihiro Nakamura},
+url = {http://doi.ieeecomputersociety.org/10.1109/ISSS.2002.1227179},
+doi = {10.1109/ISSS.2002.1227179},
+year  = {2002},
+date = {2002-01-01},
+booktitle = {Proceedings of the 15th International Symposium on System Synthesis 
+ (ISSS 2002), October 2-4, 2002, Kyoto, Japan},
+pages = {207--212},
+publisher = {ACM / IEEE Computer Society},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.ieeecomputersociety.org/10.1109/ISSS.2002.1227179doi:10.1109/ISSS.2002.1227179Close Nicolau, Alexandru;  Dutt, Nikil D;  Gupta, Rajesh;  Savoiu, Nick;  Reshadi, Mehrdad;  Gupta, SumitDynamic Common Sub-Expression Elimination during Scheduling in High-Level 
+ Synthesis Inproceedings  Aboulhamid, El Mostapha;  Nakamura, Yukihiro (Ed.): Proceedings of the 15th International Symposium on System Synthesis 
+ (ISSS 2002), October 2-4, 2002, Kyoto, Japan, pp. 261–266, ACM / IEEE Computer Society, 2002.Links | BibTeX@inproceedings{DBLP:conf/isss/NicolauDGSRG02b,
+title = {Dynamic Common Sub-Expression Elimination during Scheduling in High-Level 
+ Synthesis},
+author = {Alexandru Nicolau and Nikil D Dutt and Rajesh Gupta and Nick Savoiu and Mehrdad Reshadi and Sumit Gupta},
+editor = {El Mostapha Aboulhamid and Yukihiro Nakamura},
+url = {http://doi.ieeecomputersociety.org/10.1109/ISSS.2002.1227188},
+doi = {10.1109/ISSS.2002.1227188},
+year  = {2002},
+date = {2002-01-01},
+booktitle = {Proceedings of the 15th International Symposium on System Synthesis 
+ (ISSS 2002), October 2-4, 2002, Kyoto, Japan},
+pages = {261--266},
+publisher = {ACM / IEEE Computer Society},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.ieeecomputersociety.org/10.1109/ISSS.2002.1227188doi:10.1109/ISSS.2002.1227188Close Mishra, Prabhat;  Tomiyama, Hiroyuki;  Halambi, Ashok;  Grun, Peter;  Dutt, Nikil D;  Nicolau, AlexandruAutomatic Modeling and Validation of Pipeline Specifications Driven 
+ by an Architecture Description Language Inproceedings Proceedings of the ASPDAC 2002 / VLSI Design 2002, CD-ROM, 7-11 
+ January 2002, Bangalore, India, pp. 458, IEEE Computer Society, 2002.Links | BibTeX@inproceedings{DBLP:conf/vlsid/MishraTHGDN02b,
+title = {Automatic Modeling and Validation of Pipeline Specifications Driven 
+ by an Architecture Description Language},
+author = {Prabhat Mishra and Hiroyuki Tomiyama and Ashok Halambi and Peter Grun and Nikil D Dutt and Alexandru Nicolau},
+url = {https://doi.org/10.1109/ASPDAC.2002.994963},
+doi = {10.1109/ASPDAC.2002.994963},
+year  = {2002},
+date = {2002-01-01},
+booktitle = {Proceedings of the ASPDAC 2002 / VLSI Design 2002, CD-ROM, 7-11 
+ January 2002, Bangalore, India},
+pages = {458},
+publisher = {IEEE Computer Society},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ASPDAC.2002.994963doi:10.1109/ASPDAC.2002.994963Close
+
+2001
+
+ Panda, Preeti Ranjan;  Dutt, Nikil D;  Nicolau, Alexandru;  Catthoor, Francky;  Vandecappelle, Arnout;  Brockmeyer, Erik;  Kulkarni, Chidamber; de Greef, EddyData Memory Organization and Optimizations in Application-Specific 
+ Systems Journal Article IEEE Des. Test Comput., 18 (3), pp. 56–68, 2001.Links | BibTeX@article{DBLP:journals/dt/PandaDNCVBKG01b,
+title = {Data Memory Organization and Optimizations in Application-Specific 
+ Systems},
+author = {Preeti Ranjan Panda and Nikil D Dutt and Alexandru Nicolau and Francky Catthoor and Arnout Vandecappelle and Erik Brockmeyer and Chidamber Kulkarni and Eddy de Greef},
+url = {https://doi.org/10.1109/54.922803},
+doi = {10.1109/54.922803},
+year  = {2001},
+date = {2001-01-01},
+journal = {IEEE Des. Test Comput.},
+volume = {18},
+number = {3},
+pages = {56--68},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/54.922803doi:10.1109/54.922803Close Catthoor, Francky;  Danckaert, Koen;  Wuytack, Sven;  Dutt, Nikil DCode Transformations for Data Transfer and Storage Exploration Preprocessing 
+ in Multimedia Processors Journal Article IEEE Des. Test Comput., 18 (3), pp. 70–82, 2001.Links | BibTeX@article{DBLP:journals/dt/CatthoorDWD01b,
+title = {Code Transformations for Data Transfer and Storage Exploration Preprocessing 
+ in Multimedia Processors},
+author = {Francky Catthoor and Koen Danckaert and Sven Wuytack and Nikil D Dutt},
+url = {https://doi.org/10.1109/54.922804},
+doi = {10.1109/54.922804},
+year  = {2001},
+date = {2001-01-01},
+journal = {IEEE Des. Test Comput.},
+volume = {18},
+number = {3},
+pages = {70--82},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/54.922804doi:10.1109/54.922804Close Khare, Asheesh;  Halambi, Ashok;  Savoiu, Nicolae;  Grun, Peter;  Dutt, Nikil D;  Nicolau, AlexV-SAT: A visual specification and analysis tool for system-on-chip 
+ exploration Journal Article J. Syst. Archit., 47 (3-4), pp. 263–275, 2001.Links | BibTeX@article{DBLP:journals/jsa/KhareHSGDN01b,
+title = {V-SAT: A visual specification and analysis tool for system-on-chip 
+ exploration},
+author = {Asheesh Khare and Ashok Halambi and Nicolae Savoiu and Peter Grun and Nikil D Dutt and Alex Nicolau},
+url = {https://doi.org/10.1016/S1383-7621(00)00049-7},
+doi = {10.1016/S1383-7621(00)00049-7},
+year  = {2001},
+date = {2001-01-01},
+journal = {J. Syst. Archit.},
+volume = {47},
+number = {3-4},
+pages = {263--275},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1016/S1383-7621(00)00049-7doi:10.1016/S1383-7621(00)00049-7Close Panda, Preeti Ranjan;  Catthoor, Francky;  Dutt, Nikil D;  Danckaert, Koen;  Brockmeyer, Erik;  Kulkarni, Chidamber;  Vandecappelle, Arnout;  Kjeldsberg, Per GunnarData and memory optimization techniques for embedded systems Journal Article ACM Trans. Design Autom. Electr. Syst., 6 (2), pp. 149–206, 2001.Links | BibTeX@article{DBLP:journals/todaes/PandaCDDBKVK01b,
+title = {Data and memory optimization techniques for embedded systems},
+author = {Preeti Ranjan Panda and Francky Catthoor and Nikil D Dutt and Koen Danckaert and Erik Brockmeyer and Chidamber Kulkarni and Arnout Vandecappelle and Per Gunnar Kjeldsberg},
+url = {https://doi.org/10.1145/375977.375978},
+doi = {10.1145/375977.375978},
+year  = {2001},
+date = {2001-01-01},
+journal = {ACM Trans. Design Autom. Electr. Syst.},
+volume = {6},
+number = {2},
+pages = {149--206},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1145/375977.375978doi:10.1145/375977.375978Close Dutt, Nikil D;  Nicolau, Alexandru;  Tomiyama, Hiroyuki;  Halambi, AshokNew directions in compiler technology for embedded systems (embedded 
+ tutorial) Inproceedings  Goto, Satoshi (Ed.): Proceedings of ASP-DAC 2001, Asia and South Pacific Design Automation 
+ Conference 2001, January 30-February 2, 2001, Yokohama, Japan, pp. 409–414, ACM, 2001.Links | BibTeX@inproceedings{DBLP:conf/aspdac/DuttNTH01b,
+title = {New directions in compiler technology for embedded systems (embedded 
+ tutorial)},
+author = {Nikil D Dutt and Alexandru Nicolau and Hiroyuki Tomiyama and Ashok Halambi},
+editor = {Satoshi Goto},
+url = {https://doi.org/10.1145/370155.370429},
+doi = {10.1145/370155.370429},
+year  = {2001},
+date = {2001-01-01},
+booktitle = {Proceedings of ASP-DAC 2001, Asia and South Pacific Design Automation 
+ Conference 2001, January 30-February 2, 2001, Yokohama, Japan},
+pages = {409--414},
+publisher = {ACM},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/370155.370429doi:10.1145/370155.370429Close Gupta, Sumit;  Savoiu, Nick;  Kim, Sunwoo;  Dutt, Nikil D;  Gupta, Rajesh K;  Nicolau, AlexandruSpeculation Techniques for High Level Synthesis of Control Intensive 
+ Designs Inproceedings Proceedings of the 38th Design Automation Conference, DAC 2001, 
+ Las Vegas, NV, USA, June 18-22, 2001, pp. 269–272, ACM, 2001.Links | BibTeX@inproceedings{DBLP:conf/dac/GuptaSKDGN01b,
+title = {Speculation Techniques for High Level Synthesis of Control Intensive 
+ Designs},
+author = {Sumit Gupta and Nick Savoiu and Sunwoo Kim and Nikil D Dutt and Rajesh K Gupta and Alexandru Nicolau},
+url = {https://doi.org/10.1145/378239.378481},
+doi = {10.1145/378239.378481},
+year  = {2001},
+date = {2001-01-01},
+booktitle = {Proceedings of the 38th Design Automation Conference, DAC 2001, 
+ Las Vegas, NV, USA, June 18-22, 2001},
+pages = {269--272},
+publisher = {ACM},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/378239.378481doi:10.1145/378239.378481Close Grun, Peter;  Dutt, Nikil D;  Nicolau, AlexandruAccess pattern based local memory customization for low power embedded 
+ systems Inproceedings  Nebel, Wolfgang;  Jerraya, Ahmed (Ed.): Proceedings of the Conference on Design, Automation and Test in Europe, 
+ DATE 2001, Munich, Germany, March 12-16, 2001, pp. 778–784, IEEE Computer Society, 2001.Links | BibTeX@inproceedings{DBLP:conf/date/GrunDN01b,
+title = {Access pattern based local memory customization for low power embedded 
+ systems},
+author = {Peter Grun and Nikil D Dutt and Alexandru Nicolau},
+editor = {Wolfgang Nebel and Ahmed Jerraya},
+url = {https://doi.org/10.1109/DATE.2001.915120},
+doi = {10.1109/DATE.2001.915120},
+year  = {2001},
+date = {2001-01-01},
+booktitle = {Proceedings of the Conference on Design, Automation and Test in Europe, 
+ DATE 2001, Munich, Germany, March 12-16, 2001},
+pages = {778--784},
+publisher = {IEEE Computer Society},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/DATE.2001.915120doi:10.1109/DATE.2001.915120Close Mishra, Prabhat;  Dutt, Nikil D;  Nicolau, AlexAutomatic validation of pipeline specifications Inproceedings Proceedings of the Sixth IEEE International High-Level Design Validation 
+ and Test Workshop 2001, Monterey, California, USA, November 7-9, 2001, pp. 9–13, IEEE Computer Society, 2001.Links | BibTeX@inproceedings{DBLP:conf/hldvt/MishraDN01b,
+title = {Automatic validation of pipeline specifications},
+author = {Prabhat Mishra and Nikil D Dutt and Alex Nicolau},
+url = {https://doi.org/10.1109/HLDVT.2001.972800},
+doi = {10.1109/HLDVT.2001.972800},
+year  = {2001},
+date = {2001-01-01},
+booktitle = {Proceedings of the Sixth IEEE International High-Level Design Validation 
+ and Test Workshop 2001, Monterey, California, USA, November 7-9, 2001},
+pages = {9--13},
+publisher = {IEEE Computer Society},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/HLDVT.2001.972800doi:10.1109/HLDVT.2001.972800Close Mamidipaka, Mahesh;  Hirschberg, Daniel S;  Dutt, Nikil DLow power address encoding using self-organizing lists Inproceedings  Macii, Enrico;  De, Vivek;  Irwin, Mary Jane (Ed.): Proceedings of the 2001 International Symposium on Low Power Electronics 
+ and Design, 2001, Huntington Beach, California, USA, 2001, pp. 188–193, ACM, 2001.Links | BibTeX@inproceedings{DBLP:conf/islped/MamidipakaHD01b,
+title = {Low power address encoding using self-organizing lists},
+author = {Mahesh Mamidipaka and Daniel S Hirschberg and Nikil D Dutt},
+editor = {Enrico Macii and Vivek De and Mary Jane Irwin},
+url = {https://doi.org/10.1145/383082.383129},
+doi = {10.1145/383082.383129},
+year  = {2001},
+date = {2001-01-01},
+booktitle = {Proceedings of the 2001 International Symposium on Low Power Electronics 
+ and Design, 2001, Huntington Beach, California, USA, 2001},
+pages = {188--193},
+publisher = {ACM},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/383082.383129doi:10.1145/383082.383129Close Grun, Peter;  Dutt, Nikil D;  Nicolau, AlexandruAPEX: Access Pattern Based Memory Architecture Exploration Inproceedings  á, Rom;  Aboulhamid, El Mostapha (Ed.): Proceedings of the 14th International Symposium on Systems Synthesis, 
+ ISSS 2001, Montrél, Québec, Canada, September 30 - October 
+ 3, 2001, pp. 25–32, ACM / IEEE Computer Society, 2001.Links | BibTeX@inproceedings{DBLP:conf/isss/GrunDN01b,
+title = {APEX: Access Pattern Based Memory Architecture Exploration},
+author = {Peter Grun and Nikil D Dutt and Alexandru Nicolau},
+editor = {Rom á and El Mostapha Aboulhamid},
+url = {https://doi.org/10.1109/ISSS.2001.957908},
+doi = {10.1109/ISSS.2001.957908},
+year  = {2001},
+date = {2001-01-01},
+booktitle = {Proceedings of the 14th International Symposium on Systems Synthesis, 
+ ISSS 2001, Montrél, Québec, Canada, September 30 - October 
+ 3, 2001},
+pages = {25--32},
+publisher = {ACM / IEEE Computer Society},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ISSS.2001.957908doi:10.1109/ISSS.2001.957908Close Gupta, Sumit;  Savoiu, Nick;  Dutt, Nikil D;  Gupta, Rajesh K;  Nicolau, AlexandruConditional speculation and its effects on performance and area for 
+ high-level snthesis Inproceedings  á, Rom;  Aboulhamid, El Mostapha (Ed.): Proceedings of the 14th International Symposium on Systems Synthesis, 
+ ISSS 2001, Montrél, Québec, Canada, September 30 - October 
+ 3, 2001, pp. 171–176, ACM / IEEE Computer Society, 2001.Links | BibTeX@inproceedings{DBLP:conf/isss/GuptaSDGN01b,
+title = {Conditional speculation and its effects on performance and area for 
+ high-level snthesis},
+author = {Sumit Gupta and Nick Savoiu and Nikil D Dutt and Rajesh K Gupta and Alexandru Nicolau},
+editor = {Rom á and El Mostapha Aboulhamid},
+url = {https://doi.org/10.1109/ISSS.2001.957934},
+doi = {10.1109/ISSS.2001.957934},
+year  = {2001},
+date = {2001-01-01},
+booktitle = {Proceedings of the 14th International Symposium on Systems Synthesis, 
+ ISSS 2001, Montrél, Québec, Canada, September 30 - October 
+ 3, 2001},
+pages = {171--176},
+publisher = {ACM / IEEE Computer Society},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ISSS.2001.957934doi:10.1109/ISSS.2001.957934Close Mishra, Prabhat;  Dutt, Nikil D;  Nicolau, AlexandruFunctional abstraction driven design space exploration of heterogeneous 
+ programmable architectures Inproceedings  á, Rom;  Aboulhamid, El Mostapha (Ed.): Proceedings of the 14th International Symposium on Systems Synthesis, 
+ ISSS 2001, Montrél, Québec, Canada, September 30 - October 
+ 3, 2001, pp. 256–261, ACM / IEEE Computer Society, 2001.Links | BibTeX@inproceedings{DBLP:conf/isss/MishraDN01b,
+title = {Functional abstraction driven design space exploration of heterogeneous 
+ programmable architectures},
+author = {Prabhat Mishra and Nikil D Dutt and Alexandru Nicolau},
+editor = {Rom á and El Mostapha Aboulhamid},
+url = {http://doi.ieeecomputersociety.org/10.1109/ISSS.2001.957951},
+doi = {10.1109/ISSS.2001.957951},
+year  = {2001},
+date = {2001-01-01},
+booktitle = {Proceedings of the 14th International Symposium on Systems Synthesis, 
+ ISSS 2001, Montrél, Québec, Canada, September 30 - October 
+ 3, 2001},
+pages = {256--261},
+publisher = {ACM / IEEE Computer Society},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.ieeecomputersociety.org/10.1109/ISSS.2001.957951doi:10.1109/ISSS.2001.957951Close Mishra, Prabhat;  Grun, Peter;  Dutt, Nikil D;  Nicolau, AlexandruProcessor-Memory Co-Exploration driven by a Memory-Aware Architecture 
+ Description Language Inproceedings 14th International Conference on VLSI Design (VLSI Design 2001), 
+ 3-7 January 2001, Bangalore, India, pp. 70–75, IEEE Computer Society, 2001.Links | BibTeX@inproceedings{DBLP:conf/vlsid/MishraGDN01b,
+title = {Processor-Memory Co-Exploration driven by a Memory-Aware Architecture 
+ Description Language},
+author = {Prabhat Mishra and Peter Grun and Nikil D Dutt and Alexandru Nicolau},
+url = {https://doi.org/10.1109/ICVD.2001.902642},
+doi = {10.1109/ICVD.2001.902642},
+year  = {2001},
+date = {2001-01-01},
+booktitle = {14th International Conference on VLSI Design (VLSI Design 2001), 
+ 3-7 January 2001, Bangalore, India},
+pages = {70--75},
+publisher = {IEEE Computer Society},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ICVD.2001.902642doi:10.1109/ICVD.2001.902642Close Datta, Anupam;  Choudhury, Sidharth;  Basu, Anupam;  Tomiyama, Hiroyuki;  Dutt, Nikil DSatisfying Timing Constraints of Preemptive Real-Time Tasks through 
+ Task Layout Technique Inproceedings 14th International Conference on VLSI Design (VLSI Design 2001), 
+ 3-7 January 2001, Bangalore, India, pp. 97–102, IEEE Computer Society, 2001.Links | BibTeX@inproceedings{DBLP:conf/vlsid/DattaCBTD01b,
+title = {Satisfying Timing Constraints of Preemptive Real-Time Tasks through 
+ Task Layout Technique},
+author = {Anupam Datta and Sidharth Choudhury and Anupam Basu and Hiroyuki Tomiyama and Nikil D Dutt},
+url = {https://doi.org/10.1109/ICVD.2001.902646},
+doi = {10.1109/ICVD.2001.902646},
+year  = {2001},
+date = {2001-01-01},
+booktitle = {14th International Conference on VLSI Design (VLSI Design 2001), 
+ 3-7 January 2001, Bangalore, India},
+pages = {97--102},
+publisher = {IEEE Computer Society},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ICVD.2001.902646doi:10.1109/ICVD.2001.902646Close
+
+2000
+
+ Jha, Pradip K;  Dutt, Nikil DHigh-level library mapping for memories Journal Article ACM Trans. Design Autom. Electr. Syst., 5 (3), pp. 566–603, 2000.Links | BibTeX@article{DBLP:journals/todaes/JhaD00b,
+title = {High-level library mapping for memories},
+author = {Pradip K Jha and Nikil D Dutt},
+url = {https://doi.org/10.1145/348019.348297},
+doi = {10.1145/348019.348297},
+year  = {2000},
+date = {2000-01-01},
+journal = {ACM Trans. Design Autom. Electr. Syst.},
+volume = {5},
+number = {3},
+pages = {566--603},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1145/348019.348297doi:10.1145/348019.348297Close Panda, Preeti Ranjan;  Dutt, Nikil D;  Nicolau, AlexandruOn-chip vs. off-chip memory: the data partitioning problem in embedded 
+ processor-based systems Journal Article ACM Trans. Design Autom. Electr. Syst., 5 (3), pp. 682–704, 2000.Links | BibTeX@article{DBLP:journals/todaes/PandaDN00b,
+title = {On-chip vs. off-chip memory: the data partitioning problem in embedded 
+ processor-based systems},
+author = {Preeti Ranjan Panda and Nikil D Dutt and Alexandru Nicolau},
+url = {https://doi.org/10.1145/348019.348570},
+doi = {10.1145/348019.348570},
+year  = {2000},
+date = {2000-01-01},
+journal = {ACM Trans. Design Autom. Electr. Syst.},
+volume = {5},
+number = {3},
+pages = {682--704},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1145/348019.348570doi:10.1145/348019.348570Close -, Allen C;  Dutt, Nikil DGuest editorial 11th international symposium on system-level synthesis 
+ and design (ISSS'98) Journal Article IEEE Trans. Very Large Scale Integr. Syst., 8 (5), pp. 469–471, 2000.Links | BibTeX@article{DBLP:journals/tvlsi/WuD00b,
+title = {Guest editorial 11th international symposium on system-level synthesis 
+ and design (ISSS'98)},
+author = {Allen C - and Nikil D Dutt},
+url = {https://doi.org/10.1109/TVLSI.2000.894151},
+doi = {10.1109/TVLSI.2000.894151},
+year  = {2000},
+date = {2000-01-01},
+journal = {IEEE Trans. Very Large Scale Integr. Syst.},
+volume = {8},
+number = {5},
+pages = {469--471},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/TVLSI.2000.894151doi:10.1109/TVLSI.2000.894151Close Tomiyama, Hiroyuki;  Dutt, Nikil DProgram path analysis to bound cache-related preemption delay in preemptive 
+ real-time systems Inproceedings  Vahid, Frank;  Madsen, Jan (Ed.): Proceedings of the Eighth International Workshop on Hardware/Software 
+ Codesign, CODES 2000, San Diego, California, USA, 2000, pp. 67–71, ACM, 2000.Links | BibTeX@inproceedings{DBLP:conf/codes/TomiyamaD00b,
+title = {Program path analysis to bound cache-related preemption delay in preemptive 
+ real-time systems},
+author = {Hiroyuki Tomiyama and Nikil D Dutt},
+editor = {Frank Vahid and Jan Madsen},
+url = {https://doi.org/10.1145/334012.334025},
+doi = {10.1145/334012.334025},
+year  = {2000},
+date = {2000-01-01},
+booktitle = {Proceedings of the Eighth International Workshop on Hardware/Software 
+ Codesign, CODES 2000, San Diego, California, USA, 2000},
+pages = {67--71},
+publisher = {ACM},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/334012.334025doi:10.1145/334012.334025Close Grun, Peter;  Dutt, Nikil D;  Nicolau, AlexandruMemory aware compilation through accurate timing extraction Inproceedings  Micheli, Giovanni De (Ed.): Proceedings of the 37th Conference on Design Automation, Los Angeles, 
+ CA, USA, June 5-9, 2000, pp. 316–321, ACM, 2000.Links | BibTeX@inproceedings{DBLP:conf/dac/GrunDN00b,
+title = {Memory aware compilation through accurate timing extraction},
+author = {Peter Grun and Nikil D Dutt and Alexandru Nicolau},
+editor = {Giovanni De Micheli},
+url = {https://doi.org/10.1145/337292.337428},
+doi = {10.1145/337292.337428},
+year  = {2000},
+date = {2000-01-01},
+booktitle = {Proceedings of the 37th Conference on Design Automation, Los Angeles, 
+ CA, USA, June 5-9, 2000},
+pages = {316--321},
+publisher = {ACM},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/337292.337428doi:10.1145/337292.337428Close Catthoor, Francky;  Dutt, Nikil D;  Kozyrakis, Christoforos EHow to Solve the Current Memory Access and Data Transfer Bottlenecks: 
+ At the Processor Architecture or at the Compiler Level? Inproceedings  Bolsens, Ivo (Ed.): 2000 Design, Automation and Test in Europe (DATE 2000), 27-30 March 
+ 2000, Paris, France, pp. 426–433, IEEE Computer Society / ACM, 2000.Links | BibTeX@inproceedings{DBLP:conf/date/CatthoorDK00b,
+title = {How to Solve the Current Memory Access and Data Transfer Bottlenecks: 
+ At the Processor Architecture or at the Compiler Level?},
+author = {Francky Catthoor and Nikil D Dutt and Christoforos E Kozyrakis},
+editor = {Ivo Bolsens},
+url = {https://doi.org/10.1109/DATE.2000.840306},
+doi = {10.1109/DATE.2000.840306},
+year  = {2000},
+date = {2000-01-01},
+booktitle = {2000 Design, Automation and Test in Europe (DATE 2000), 27-30 March 
+ 2000, Paris, France},
+pages = {426--433},
+publisher = {IEEE Computer Society / ACM},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/DATE.2000.840306doi:10.1109/DATE.2000.840306Close Halambi, Ashok;  Cornea, Radu;  Grun, Peter;  Dutt, Nikil D;  Nicolau, AlexandruArchitecture Exploration of Parameterizable EPIC SOC Architectures Inproceedings  Bolsens, Ivo (Ed.): 2000 Design, Automation and Test in Europe (DATE 2000), 27-30 March 
+ 2000, Paris, France, pp. 748, IEEE Computer Society / ACM, 2000.Links | BibTeX@inproceedings{DBLP:conf/date/HalambiCGDN00b,
+title = {Architecture Exploration of Parameterizable EPIC SOC Architectures},
+author = {Ashok Halambi and Radu Cornea and Peter Grun and Nikil D Dutt and Alexandru Nicolau},
+editor = {Ivo Bolsens},
+url = {https://doi.org/10.1109/DATE.2000.840881},
+doi = {10.1109/DATE.2000.840881},
+year  = {2000},
+date = {2000-01-01},
+booktitle = {2000 Design, Automation and Test in Europe (DATE 2000), 27-30 March 
+ 2000, Paris, France},
+pages = {748},
+publisher = {IEEE Computer Society / ACM},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/DATE.2000.840881doi:10.1109/DATE.2000.840881Close Tomiyama, Hiroyuki;  Yoshino, Taisei;  Dutt, Nikil DVerification of in-order execution in pipelined processors Inproceedings Proceedings of the IEEE International High-Level Design Validation 
+ and Test Workshop 2000, Berkeley, California, USA, November 8-10, 
+ 2000, pp. 40–44, IEEE Computer Society, 2000.Links | BibTeX@inproceedings{DBLP:conf/hldvt/TomiyamaYD00b,
+title = {Verification of in-order execution in pipelined processors},
+author = {Hiroyuki Tomiyama and Taisei Yoshino and Nikil D Dutt},
+url = {https://doi.org/10.1109/HLDVT.2000.889557},
+doi = {10.1109/HLDVT.2000.889557},
+year  = {2000},
+date = {2000-01-01},
+booktitle = {Proceedings of the IEEE International High-Level Design Validation 
+ and Test Workshop 2000, Berkeley, California, USA, November 8-10, 
+ 2000},
+pages = {40--44},
+publisher = {IEEE Computer Society},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/HLDVT.2000.889557doi:10.1109/HLDVT.2000.889557Close Grun, Peter;  Dutt, Nikil D;  Nicolau, AlexandruMIST: An Algorithm for Memory Miss Traffic Management Inproceedings  Sentovich, Ellen (Ed.): Proceedings of the 2000 IEEE/ACM International Conference on Computer-Aided 
+ Design, 2000, San Jose, California, USA, November 5-9, 2000, pp. 431–437, IEEE Computer Society, 2000.Links | BibTeX@inproceedings{DBLP:conf/iccad/GrunDN00b,
+title = {MIST: An Algorithm for Memory Miss Traffic Management},
+author = {Peter Grun and Nikil D Dutt and Alexandru Nicolau},
+editor = {Ellen Sentovich},
+url = {https://doi.org/10.1109/ICCAD.2000.896510},
+doi = {10.1109/ICCAD.2000.896510},
+year  = {2000},
+date = {2000-01-01},
+booktitle = {Proceedings of the 2000 IEEE/ACM International Conference on Computer-Aided 
+ Design, 2000, San Jose, California, USA, November 5-9, 2000},
+pages = {431--437},
+publisher = {IEEE Computer Society},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ICCAD.2000.896510doi:10.1109/ICCAD.2000.896510Close Nachtergaele, Lode;  Tiwari, Vivek;  Dutt, Nikil DSystem and Architecture-Level Power Reduction for Microprocessor-Based 
+ Communication and Multi-Media Applications Inproceedings  Sentovich, Ellen (Ed.): Proceedings of the 2000 IEEE/ACM International Conference on Computer-Aided 
+ Design, 2000, San Jose, California, USA, November 5-9, 2000, pp. 569–573, IEEE Computer Society, 2000.Links | BibTeX@inproceedings{DBLP:conf/iccad/NachtergaeleTD00b,
+title = {System and Architecture-Level Power Reduction for Microprocessor-Based 
+ Communication and Multi-Media Applications},
+author = {Lode Nachtergaele and Vivek Tiwari and Nikil D Dutt},
+editor = {Ellen Sentovich},
+url = {https://doi.org/10.1109/ICCAD.2000.896533},
+doi = {10.1109/ICCAD.2000.896533},
+year  = {2000},
+date = {2000-01-01},
+booktitle = {Proceedings of the 2000 IEEE/ACM International Conference on Computer-Aided 
+ Design, 2000, San Jose, California, USA, November 5-9, 2000},
+pages = {569--573},
+publisher = {IEEE Computer Society},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ICCAD.2000.896533doi:10.1109/ICCAD.2000.896533Close Halambi, Ashok;  Dutt, Nikil D;  Nicolau, AlexandruCustomizing Software Toolkits for Embedded Systems-On-Chip Inproceedings  Kleinjohann, Bernd (Ed.): Architecture and Design of Distributed Embedded Systems, IFIP WG10.3/WG10.4/WG10.5 
+ International Workshop on Distributed and Parallel Embedded Systems 
+ (DIPES 2000), October 18-19, 2000, Schloß Eringerfeld, Germany, pp. 87–98, Kluwer, 2000.BibTeX@inproceedings{DBLP:conf/ifip10-3/HalambiDN00b,
+title = {Customizing Software Toolkits for Embedded Systems-On-Chip},
+author = {Ashok Halambi and Nikil D Dutt and Alexandru Nicolau},
+editor = {Bernd Kleinjohann},
+year  = {2000},
+date = {2000-01-01},
+booktitle = {Architecture and Design of Distributed Embedded Systems, IFIP WG10.3/WG10.4/WG10.5 
+ International Workshop on Distributed and Parallel Embedded Systems 
+ (DIPES 2000), October 18-19, 2000, Schloß Eringerfeld, Germany},
+volume = {189},
+pages = {87--98},
+publisher = {Kluwer},
+series = {IFIP Conference Proceedings},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Close Grun, Peter;  Dutt, Nikil D;  Nicolau, AlexandruAggressive Memory-Aware Compilation Inproceedings  Chong, Frederic T;  Kozyrakis, Christoforos E;  Oskin, Mark (Ed.): Intelligent Memory Systems, Second International Workshop, IMS 2000, 
+ Cambridge, MA, USA, November 12, 2000, Revised Papers, pp. 147–151, Springer, 2000.Links | BibTeX@inproceedings{DBLP:conf/ims/GrunDN00b,
+title = {Aggressive Memory-Aware Compilation},
+author = {Peter Grun and Nikil D Dutt and Alexandru Nicolau},
+editor = {Frederic T Chong and Christoforos E Kozyrakis and Mark Oskin},
+url = {https://doi.org/10.1007/3-540-44570-6_10},
+doi = {10.1007/3-540-44570-6_10},
+year  = {2000},
+date = {2000-01-01},
+booktitle = {Intelligent Memory Systems, Second International Workshop, IMS 2000, 
+ Cambridge, MA, USA, November 12, 2000, Revised Papers},
+volume = {2107},
+pages = {147--151},
+publisher = {Springer},
+series = {Lecture Notes in Computer Science},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1007/3-540-44570-6_10doi:10.1007/3-540-44570-6_10Close
+
+1999
+
+ Panda, Preeti Ranjan;  Nakamura, Hiroshi;  Dutt, Nikil D;  Nicolau, AlexandruAugmenting Loop Tiling with Data Alignment for Improved Cache Performance Journal Article IEEE Trans. Computers, 48 (2), pp. 142–149, 1999.Links | BibTeX@article{DBLP:journals/tc/PandaNDN99b,
+title = {Augmenting Loop Tiling with Data Alignment for Improved Cache Performance},
+author = {Preeti Ranjan Panda and Hiroshi Nakamura and Nikil D Dutt and Alexandru Nicolau},
+url = {https://doi.org/10.1109/12.752655},
+doi = {10.1109/12.752655},
+year  = {1999},
+date = {1999-01-01},
+journal = {IEEE Trans. Computers},
+volume = {48},
+number = {2},
+pages = {142--149},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/12.752655doi:10.1109/12.752655Close Panda, Preeti Ranjan;  Dutt, Nikil D;  Nicolau, AlexandruLocal memory exploration and optimization in embedded systems Journal Article IEEE Trans. on CAD of Integrated Circuits and Systems, 18 (1), pp. 3–13, 1999.Links | BibTeX@article{DBLP:journals/tcad/PandaDN99b,
+title = {Local memory exploration and optimization in embedded systems},
+author = {Preeti Ranjan Panda and Nikil D Dutt and Alexandru Nicolau},
+url = {https://doi.org/10.1109/43.739054},
+doi = {10.1109/43.739054},
+year  = {1999},
+date = {1999-01-01},
+journal = {IEEE Trans. on CAD of Integrated Circuits and Systems},
+volume = {18},
+number = {1},
+pages = {3--13},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/43.739054doi:10.1109/43.739054Close Panda, Preeti Ranjan;  Dutt, Nikil DLow-power memory mapping through reducing address bus activity Journal Article IEEE Trans. Very Large Scale Integr. Syst., 7 (3), pp. 309–320, 1999.Links | BibTeX@article{DBLP:journals/tvlsi/PandaD99b,
+title = {Low-power memory mapping through reducing address bus activity},
+author = {Preeti Ranjan Panda and Nikil D Dutt},
+url = {https://doi.org/10.1109/92.784092},
+doi = {10.1109/92.784092},
+year  = {1999},
+date = {1999-01-01},
+journal = {IEEE Trans. Very Large Scale Integr. Syst.},
+volume = {7},
+number = {3},
+pages = {309--320},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/92.784092doi:10.1109/92.784092Close Halambi, Ashok;  Grun, Peter;  Ganesh, Vijay;  Khare, Asheesh;  Dutt, Nikil D;  Nicolau, AlexandruEXPRESSION: A Language for Architecture Exploration through Compiler/Simulator 
+ Retargetability Inproceedings 1999 Design, Automation and Test in Europe (DATE '99), 9-12 March 
+ 1999, Munich, Germany, pp. 485–490, IEEE Computer Society / ACM, 1999.Links | BibTeX@inproceedings{DBLP:conf/date/HalambiGGKDN99b,
+title = {EXPRESSION: A Language for Architecture Exploration through Compiler/Simulator 
+ Retargetability},
+author = {Ashok Halambi and Peter Grun and Vijay Ganesh and Asheesh Khare and Nikil D Dutt and Alexandru Nicolau},
+url = {https://doi.org/10.1109/DATE.1999.761170},
+doi = {10.1109/DATE.1999.761170},
+year  = {1999},
+date = {1999-01-01},
+booktitle = {1999 Design, Automation and Test in Europe (DATE '99), 9-12 March 
+ 1999, Munich, Germany},
+pages = {485--490},
+publisher = {IEEE Computer Society / ACM},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/DATE.1999.761170doi:10.1109/DATE.1999.761170Close Khare, Asheesh;  Savoiu, Nicolae;  Halambi, Ashok;  Grun, Peter;  Dutt, Nikil D;  Nicolau, AlexandruV-SAT: A Visual Specification and Analysis Tool for System-On-Chip 
+ Exploration Inproceedings 25th EUROMICRO '99 Conference, Informatics: Theory and Practice 
+ for the New Millenium, 8-10 September 1999, Milan, Italy, pp. 1196–1203, IEEE Computer Society, 1999.Links | BibTeX@inproceedings{DBLP:conf/euromicro/KhareSHGDN99b,
+title = {V-SAT: A Visual Specification and Analysis Tool for System-On-Chip 
+ Exploration},
+author = {Asheesh Khare and Nicolae Savoiu and Ashok Halambi and Peter Grun and Nikil D Dutt and Alexandru Nicolau},
+url = {https://doi.org/10.1109/EURMIC.1999.794466},
+doi = {10.1109/EURMIC.1999.794466},
+year  = {1999},
+date = {1999-01-01},
+booktitle = {25th EUROMICRO '99 Conference, Informatics: Theory and Practice 
+ for the New Millenium, 8-10 September 1999, Milan, Italy},
+pages = {1196--1203},
+publisher = {IEEE Computer Society},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/EURMIC.1999.794466doi:10.1109/EURMIC.1999.794466Close Dutt, Nikil D;  Foster, Eric MDesign of a set-top box system on a chip (abstract) Inproceedings  White, Jacob K;  Sentovich, Ellen (Ed.): Proceedings of the 1999 IEEE/ACM International Conference on Computer-Aided 
+ Design, 1999, San Jose, California, USA, November 7-11, 1999, pp. 608, IEEE Computer Society, 1999.Links | BibTeX@inproceedings{DBLP:conf/iccad/DuttF99b,
+title = {Design of a set-top box system on a chip (abstract)},
+author = {Nikil D Dutt and Eric M Foster},
+editor = {Jacob K White and Ellen Sentovich},
+url = {http://doi.ieeecomputersociety.org/10.1109/ICCAD.1999.10000},
+doi = {10.1109/ICCAD.1999.10000},
+year  = {1999},
+date = {1999-01-01},
+booktitle = {Proceedings of the 1999 IEEE/ACM International Conference on Computer-Aided 
+ Design, 1999, San Jose, California, USA, November 7-11, 1999},
+pages = {608},
+publisher = {IEEE Computer Society},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.ieeecomputersociety.org/10.1109/ICCAD.1999.10000doi:10.1109/ICCAD.1999.10000Close Dutt, Nikil D;  Kelley, BrianOn the rapid prototyping and design of a wireless communication system 
+ on a chip (abstract) Inproceedings  White, Jacob K;  Sentovich, Ellen (Ed.): Proceedings of the 1999 IEEE/ACM International Conference on Computer-Aided 
+ Design, 1999, San Jose, California, USA, November 7-11, 1999, pp. 609, IEEE Computer Society, 1999.Links | BibTeX@inproceedings{DBLP:conf/iccad/DuttK99b,
+title = {On the rapid prototyping and design of a wireless communication system 
+ on a chip (abstract)},
+author = {Nikil D Dutt and Brian Kelley},
+editor = {Jacob K White and Ellen Sentovich},
+url = {http://doi.ieeecomputersociety.org/10.1109/ICCAD.1999.10002},
+doi = {10.1109/ICCAD.1999.10002},
+year  = {1999},
+date = {1999-01-01},
+booktitle = {Proceedings of the 1999 IEEE/ACM International Conference on Computer-Aided 
+ Design, 1999, San Jose, California, USA, November 7-11, 1999},
+pages = {609},
+publisher = {IEEE Computer Society},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.ieeecomputersociety.org/10.1109/ICCAD.1999.10002doi:10.1109/ICCAD.1999.10002Close Grun, Peter;  Halambi, Ashok;  Dutt, Nikil D;  Nicolau, AlexandruRTGEN: An Algorithm for Automatic Generation of Reservation Tables 
+ from Architectural Descriptions Inproceedings Proceedings of the 12th International Symposium on System Synthesis, 
+ ISSS '99, Boca Raton, Florida, USA, November 1-4, 1999, pp. 44–50, ACM / IEEE Computer Society, 1999.Links | BibTeX@inproceedings{DBLP:conf/isss/GrunHDN99b,
+title = {RTGEN: An Algorithm for Automatic Generation of Reservation Tables 
+ from Architectural Descriptions},
+author = {Peter Grun and Ashok Halambi and Nikil D Dutt and Alexandru Nicolau},
+url = {https://doi.org/10.1109/ISSS.1999.814259},
+doi = {10.1109/ISSS.1999.814259},
+year  = {1999},
+date = {1999-01-01},
+booktitle = {Proceedings of the 12th International Symposium on System Synthesis, 
+ ISSS '99, Boca Raton, Florida, USA, November 1-4, 1999},
+pages = {44--50},
+publisher = {ACM / IEEE Computer Society},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ISSS.1999.814259doi:10.1109/ISSS.1999.814259Close
+
+1998
+
+ Panda, Preeti Ranjan;  Dutt, Nikil D;  Nicolau, AlexandruIncorporating DRAM access modes into high-level synthesis Journal Article IEEE Trans. on CAD of Integrated Circuits and Systems, 17 (2), pp. 96–109, 1998.Links | BibTeX@article{DBLP:journals/tcad/PandaDN98b,
+title = {Incorporating DRAM access modes into high-level synthesis},
+author = {Preeti Ranjan Panda and Nikil D Dutt and Alexandru Nicolau},
+url = {https://doi.org/10.1109/43.681260},
+doi = {10.1109/43.681260},
+year  = {1998},
+date = {1998-01-01},
+journal = {IEEE Trans. on CAD of Integrated Circuits and Systems},
+volume = {17},
+number = {2},
+pages = {96--109},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/43.681260doi:10.1109/43.681260Close Grun, Peter;  Balasa, Florin;  Dutt, Nikil DMemory size estimation for multimedia applications Inproceedings  Borriello, Gaetano;  Jerraya, Ahmed Amine;  Lavagno, Luciano (Ed.): Proceedings of the Sixth International Workshop on Hardware/Software 
+ Codesign, CODES 1998, Seattle, Washington, USA, March 15-18, 1998, pp. 145–149, IEEE Computer Society, 1998.Links | BibTeX@inproceedings{DBLP:conf/codes/GrunBD98b,
+title = {Memory size estimation for multimedia applications},
+author = {Peter Grun and Florin Balasa and Nikil D Dutt},
+editor = {Gaetano Borriello and Ahmed Amine Jerraya and Luciano Lavagno},
+url = {https://doi.org/10.1145/278241.278325},
+doi = {10.1145/278241.278325},
+year  = {1998},
+date = {1998-01-01},
+booktitle = {Proceedings of the Sixth International Workshop on Hardware/Software 
+ Codesign, CODES 1998, Seattle, Washington, USA, March 15-18, 1998},
+pages = {145--149},
+publisher = {IEEE Computer Society},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/278241.278325doi:10.1145/278241.278325Close Panda, Preeti Ranjan;  Dutt, Nikil D;  Nicolau, AlexandruData Cache Sizing for Embedded Processor Applications Inproceedings  Dewilde, Patrick M;  Rammig, Franz J;  Musgrave, Gerry (Ed.): 1998 Design, Automation and Test in Europe (DATE '98), February 
+ 23-26, 1998, Le Palais des Congrès de Paris, Paris, France, pp. 925–926, IEEE Computer Society, 1998.Links | BibTeX@inproceedings{DBLP:conf/date/PandaDN98b,
+title = {Data Cache Sizing for Embedded Processor Applications},
+author = {Preeti Ranjan Panda and Nikil D Dutt and Alexandru Nicolau},
+editor = {Patrick M Dewilde and Franz J Rammig and Gerry Musgrave},
+url = {https://doi.org/10.1109/DATE.1998.655972},
+doi = {10.1109/DATE.1998.655972},
+year  = {1998},
+date = {1998-01-01},
+booktitle = {1998 Design, Automation and Test in Europe (DATE '98), February 
+ 23-26, 1998, Le Palais des Congrès de Paris, Paris, France},
+pages = {925--926},
+publisher = {IEEE Computer Society},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/DATE.1998.655972doi:10.1109/DATE.1998.655972Close Hein, Soren;  Nagasamy, Vijay;  Rohfleisch, Bernhard;  Kozyrakis, Christoforos E;  Dutt, Nikil D;  Catthoor, FranckyEmbedded memories in system design - from technology to systems architecture Inproceedings  Yasuura, Hiroto (Ed.): Proceedings of the 1998 IEEE/ACM International Conference on Computer-Aided 
+ Design, ICCAD 1998, San Jose, CA, USA, November 8-12, 1998, pp. 1, ACM / IEEE Computer Society, 1998.Links | BibTeX@inproceedings{DBLP:conf/iccad/HeinNRKDC98b,
+title = {Embedded memories in system design - from technology to systems architecture},
+author = {Soren Hein and Vijay Nagasamy and Bernhard Rohfleisch and Christoforos E Kozyrakis and Nikil D Dutt and Francky Catthoor},
+editor = {Hiroto Yasuura},
+url = {https://doi.org/10.1145/288548.288549},
+doi = {10.1145/288548.288549},
+year  = {1998},
+date = {1998-01-01},
+booktitle = {Proceedings of the 1998 IEEE/ACM International Conference on Computer-Aided 
+ Design, ICCAD 1998, San Jose, CA, USA, November 8-12, 1998},
+pages = {1},
+publisher = {ACM / IEEE Computer Society},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/288548.288549doi:10.1145/288548.288549Close Kolson, David J;  Nicolau, Alexandru;  Dutt, Nikil DCopy Elimination for Parallelizing Compilers Inproceedings  Chatterjee, Siddhartha;  Prins, Jan F;  Carter, Larry;  Ferrante, Jeanne;  Li, Zhiyuan;  Sehr, David C;  -, Pen (Ed.): Languages and Compilers for Parallel Computing, 11th International 
+ Workshop, LCPC'98, Chapel Hill, NC, USA, August 7-9, 1998, Proceedings, pp. 275–289, Springer, 1998.Links | BibTeX@inproceedings{DBLP:conf/lcpc/KolsonND98b,
+title = {Copy Elimination for Parallelizing Compilers},
+author = {David J Kolson and Alexandru Nicolau and Nikil D Dutt},
+editor = {Siddhartha Chatterjee and Jan F Prins and Larry Carter and Jeanne Ferrante and Zhiyuan Li and David C Sehr and Pen -},
+url = {https://doi.org/10.1007/3-540-48319-5_18},
+doi = {10.1007/3-540-48319-5_18},
+year  = {1998},
+date = {1998-01-01},
+booktitle = {Languages and Compilers for Parallel Computing, 11th International 
+ Workshop, LCPC'98, Chapel Hill, NC, USA, August 7-9, 1998, Proceedings},
+volume = {1656},
+pages = {275--289},
+publisher = {Springer},
+series = {Lecture Notes in Computer Science},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1007/3-540-48319-5_18doi:10.1007/3-540-48319-5_18Close550 entries « ‹  10 of 11 › » 
+
+
+
+
+
+
+
+
+
+
+Find Us Address
+3069 Donald Bren Hall
+University of California, Irvine
+Irvine, CA 92697-3435, USA
+Email
+drg@ics.uci.edu
+
+ 
+
+
+
+
+
+
+
+
+
+					Copyright © 2022 Dutt Research Group.				
+
+					Powered by WordPress and HitMag.				
+
+
+
+
+
+
+
+
+
+
+
+
+

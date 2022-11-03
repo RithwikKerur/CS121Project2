@@ -1,0 +1,9 @@
+http://plrg.ics.uci.edu/publications/270.bib
+@inproceedings{key,
+ author = {Brian Demsky and Alokika Dash},
+ title = {Evaluating Contention Management Using Discrete Event Simulation},
+ booktitle = {Fifth ACM SIGPLAN Workshop on Transactional Computing},
+ location = {Paris, France},
+ month = {April},
+ year = {2010}
+}

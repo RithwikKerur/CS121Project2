@@ -1,0 +1,150 @@
+https://www.cs.uci.edu/pierre-baldis-new-book-explores-deep-learning-in-science
+
+
+
+
+Pierre Baldi’s New Book Explores ‘Deep Learning in Science’ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ this is a widget called second front page widget area
+
+Explore
+
+Contact Us
+
+
+Faculty
+Research
+
+Research Areas
+Research Centers
+
+
+Graduate Degrees
+
+Computer Science Programs
+Current Graduate Students
+
+
+Undergraduate Degrees
+News  & Events
+
+News
+Seminar Series
+Distinguished Lecture Series
+Research Showcase
+
+
+Apply Now
+
+Undergraduate Admissions
+Graduate Admissions
+Faculty Candidates
+
+
+Pierre Baldi’s New Book Explores ‘Deep Learning in Science’
+June 21, 2021 
+Outlining the foundations of artificial intelligence using first principles, Computer Science Professor Pierre Baldi’s latest book reveals the connections between deep learning and neuroscience, explores applications in the natural sciences, and sets the record straight on fact versus fads in AI.
+
+
+In his new book, Deep Learning in Science (Cambridge University Press, 2021), UCI’s Distinguished Professor of Computer Science Pierre Baldi laments that it’s “regrettable to see young students and practitioners of machine learning misled to believe that artificial neural networks have little to do with biology, or that machine learning is the set of techniques used to maximize engineering or business goals.” By focusing on first principles in AI and the field’s fundamental connections to neuroscience, Baldi provides an in-depth analysis of machine learning.
+He starts by asking readers to rethink their understanding of intelligence. “Imagine an alien from an advanced civilization on a distant galaxy charged with reporting to her alien colleagues on the state of intelligent systems on planet Earth,” he says. “How would she summarize her main findings?” After introducing “carbon-based” versus “silicon-based” computing, he then delves into the building blocks of AI before outlining applications in physics, chemistry and biomedicine.
+What was your motivation for writing this book?There were multiple motivations. One was to have a book that derives things from first principles — from very simple building blocks for trying to build AI, machine learning and deep learning from scratch. So, in a way, it’s like with physicists or mathematicians, who start from very simple principles and then start building. This is needed because a lot of what is out there is not rigorous, it’s not from first principles, so I wanted to clean up things a bit.
+Another goal was to really emphasize the connections to biology and to showcase applications in the natural sciences. Many people doing deep learning research focus on commercial or engineering applications — finding ways to improve self-driving cars or to maximize revenues and hits on a commercial website, things like that. Instead, I am interested in the natural sciences and have developed many such applications over the years — I have applications in physics and chemistry and biomedicine. So this is different from other books in that sense.
+And then there is a little bit of wanting to addressing fads and distortions. I wanted to write something that goes against the current and tries to debunk some of those fads that, in my view, are not correct.
+So who is your target audience?Anyone interested in these topics who has some technical background. You need to know basic mathematics — college-level algebra, calculus and probability — to really appreciate the book. Some familiarity with information theory, statistics, coding theory and computational complexity is also helpful, but the reader could be an undergraduate or graduate student. Every chapter comes with a lot of exercises in the back, so students who really want to understand things with some depth should try to do some of the exercises. Some are easy, some are very difficult; there is the whole spectrum! I tell my students all the time that when they are frustrated trying to do something, that’s when they are learning. If it’s easy, it means you already know it.
+But readers could also be researchers or faculty members from slightly different fields, including those from the natural sciences, who want to learn more about where these new techniques can be used and where they come from. These areas are now exploding! I’ve been doing this for the past 40 years, so I also want to make people aware of these techniques and how to apply them to their own work. For example, of my colleagues in the UCI physics department, 10 or more are now using machine learning in physics. It’s remarkable.
+What do you hope people take away from this book?I hope they get a sense that there is a principled, foundational approach to machine learning and are made aware of the many interesting applications in natural sciences as opposed to just in engineering and commerce.
+There is a chapter on applications in physics, a chapter on applications in chemistry, and one on applications in biomedicine. I think research works best when we put together teams where you have students from computer science working with students from physics, chemistry or biology — and we do a lot of that here at UCI — but we’re going to get to the point where physicists who are good with software and mathematics are able to use deep learning methods on their own. The corresponding software tools are now supported and maintained by Google and Facebook, etc., so everybody can use the software.
+You also talk about silicon-based computing versus carbon-based computing. Can you explain?It’s a little bit funny because it’s the contrast between computers and the brain. We’re trying to make computers be intelligent, or be more like the brain, but if you look at these two things, they are very different from each other at the storage level. So there is also silicon-based storage versus carbon-based storage.
+Computers store information in a nice, well-organized way — like you would in a phone book or dictionary. And while we don’t really know how information is stored in the brain, the rough idea is that it’s scattered. So if you think about where your telephone number or name is stored in your brain, it’s scattered across a bunch of synapses in a very messy way. It’s a completely different style of storage, and that is a unique theme in this book. There is a fundamental difference in how information is stored in neural systems versus digital computers.
+All the AI and deep learning you see right now is done by trying to imitate the neural style of storage inside a computer, so it’s a little bit like a fantasy, like a mirage — it is called “virtualization” in computer science, and that is also a theme in the book that has important technical consequences.
+The book touches on “whether silicon can be conscious” and “the fundamental nature of the universe.” Can you elaborate?A fundamental question of AI is whether computers can be conscious, can AI reach consciousness? Deep learning is the center of AI today, so can deep learning bring consciousness to computers? I don’t solve that in the book, of course! Nobody knows the answer, but deep learning is very connected to that question.
+Deep learning, through its applications in physics, is also connected to the deepest secrets of the universe. For instance, what is the nature of dark matter, and which particles is it made of? So, with our collaborators in physics, we’re analyzing data using deep learning, using AI, to try to answer some of those questions. Deep learning is really connected to those fundamental questions, and that’s why it is so interesting.
+About the Author
+
+Pierre Baldi is a Distinguished Professor of Computer Science at the University of California, Irvine. His main research interest is understanding intelligence in brains and machines. He has made seminal contributions to the theory of deep learning and its applications to the natural sciences, and has written four other books. He was recently ranked in the top 100 for U.S. scientists in the field of computer science and electronics.
+— Shani Murray
+« Lawfare: “Fighting Insider Abuse After Van Buren” by Bryan CunninghamCapstone Program Showcases Growing Talent of ICS Students »
+
+Latest news
+
+
+Senior Spotlight: Tennis Player and CS Major Matthew Sah Serves Up Aces On and Off the Court
+September 28, 2022
+
+
+Register Today for the Southern California AI & Biomedicine Symposium
+September 20, 2022
+
+
+CPO Magazine: “A Legal View of New NIST Quantum-Resistant Algorithms” by Bryan Cunningham
+September 19, 2022
+
+
+UCI Ranked 24th in Undergraduate Computer Science Programs by U.S. News & World Report
+September 16, 2022
+
+
+Senior Spotlight: Jose Cisneros Builds Impressive Resume with Trio of Internships
+September 15, 2022
+
+
+
+
+ 
+
+
+
+
+
+© 2022 UC Regents
+Feedback
+Privacy Policy
+
+
+
+ 
+
+
+
+

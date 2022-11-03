@@ -1,0 +1,274 @@
+https://www.ics.uci.edu/~stasio
+
+
+
+
+
+
+
+
+
+Stanislaw Jarecki
+
+
+
+
+
+
+
+
+
+
+
+
+
+Stanislaw Jarecki
+
+
+Associate Professor, School
+     of Information and Computer Sciences, University
+     of California at Irvine 
+Office: Bren Hall, room 4026 
+Office Tel: 949-824-8878 
+Office Fax: +1(949)824-4056 
+Electronic address:  concatenate my
+     user name "stasio", the "@" sign, and a string
+     "ics.uci.edu" 
+Mailing address:  School of Information and
+     Computer Science,
+                               444
+     Computer Science Bldg,
+                              
+     University of California, Irvine,
+                              
+     Irvine, CA 92697-3425
+
+Research Interests:
+
+Cryptography, Security, Fault-Tolerant Distributed
+     Computing 
+
+Professional
+Activities:
+
+Program committees:  SCN 2006 ,  Crypto 2005 , 
+     ACNS 2005 ,  CT-RSA 2005
+     ,   Eurocrypt
+     2003 
+
+Current Teaching:
+
+Spring’2010: ICS.6B,
+     Intro to Discrete Math (Logic and Computation)
+Spring’2010: ICS.167,
+     Intro to Cryptography (Undergraduate)
+
+Some Past Courses:
+
+ICS 280, Cryptographic Protocols (graduate): Spring'06 
+ICS 268, Cryptography and Communication Security
+     (graduate): Fall'05, Fall'04, Winter'04 (ICS
+     280) 
+ICS 263, Computational Complexity (graduate): Sping'05 
+ICS 180, Intro to Cryptography (undergraduate): Spring'04 
+ICS 22H, Honors Introduction to Computer Science
+     (undergraduate): Winter'06,
+     Fall'05, Winter'05 
+
+Students I have
+supervised:
+
+Xiaomin Liu, Nitesh Saxena 
+
+Publications
+(Conferences):
+
+Group Secret Handshakes
+     with Reusable Credentials, or Affiliation-Hiding Group Key Agreement, Cryptographic
+     Track of RSA Security [CT-RSA] '07 
+     Stanislaw Jarecki, Jihye Kim, and Gene Tsudik 
+     (final version coming soon) 
+Dandelion: Secure
+     Cooperative Content Distribution with Robust Incentives , First Workshop on the
+     Economics of Networked Systems [NetEcon] '06 
+     Michael Sirivianos, Xiaowei Yang, and Stanislaw Jarecki 
+(.pdf) 
+Authentication for
+     Paranoids: Multi-Party Secret Handshakes, ACNS'06
+
+     Stanislaw Jarecki, Jihye Kim, and Gene Tsudik 
+(.pdf) 
+Further Simplifications
+     in Proactive RSA Signatures,  Theory of Cryptography Conference'05
+     Stanislaw Jarecki and Nitesh Saxena
+(.pdf) 
+Probabilistic Escrow of
+     Financial Transactions with Cummulative Threshold Disclosure, Financial Cryptography'05
+     
+     Stanislaw Jarecki and Vitaly Shmatikov 
+(.pdf) 
+Secret Handshakes from
+     CA-oblivious Encryption, 
+     Asiacrypt '04 
+     Claude Castelluccia, Stanislaw Jarecki, and Gene Tsudik 
+abstract.html
+(.pdf) 
+An Attack on the
+     Proactive RSA Signature Scheme in the URSA Ad Hoc Network Access Control
+     Protocol, SASN '04 
+     Stanislaw Jarecki, Nitesh Saxena, and Jeong Hyun Yi 
+abstract.html
+(.pdf) 
+Versatile Padding
+     Schemes for Joint Signature and Encryption,  CCS '04 
+     Yevgeni Dodis, Michael J. Freedman, Stanislaw Jarecki, and Shabsi
+     Walfish 
+abstract.html
+(.pdf) 
+A Robust Multisignature
+     Scheme with Applications to Multicast Acknowledgement Aggregation, SCN '04 
+     Claude Castelluccia, Stanislaw Jarecki, Jihye Kim, and Gene Tsudik 
+abstract.html
+     [This paper is superseded by an article in the special issue of the ComNet
+     journal (see below).] 
+Handcuffing Big Brother:
+     An Abuse-Resilient Transaction Escrow Scheme, Eurocrypt '04 
+     Stanislaw Jarecki and Vitaly Shmatikov
+abstract.html
+(.pdf) 
+A Signature Scheme as
+     Secure as the Diffie Hellman Problem,  Eurocrypt '03 
+     Eu-Jin Goh and Stanislaw Jarecki
+abstract.html
+(.pdf) (.ps) 
+Revisiting the
+     Distributed Key Generation for Discrete-Log Based Cryptosystems ,  Cryptographic Track of RSA
+     Security [CT-RSA] '03 
+     Rosario Gennaro, Stanislaw Jarecki, Hugo Krawczyk, and Tal Rabin 
+abstract.html
+(.pdf) (.ps) [This
+     paper is superseded by a journal article in JoC'06 (see below).] 
+Negotiated Privacy, International Symposium on
+     Software Security '02,
+     Stanislaw Jarecki, Pat Lincoln and Vitaly Shmatikov, 
+(.pdf)
+
+Cryptographic Primitives
+     Enforcing Communication and Storage Complexity, Financial
+     Cryptography'02 
+     Philippe Golle, Stanislaw Jarecki, and Ilia Mironov 
+(.pdf) 
+Adaptively Secure
+     Threshold Cryptosystems without Erasures, manuscrypt, 1999.
+     Stanislaw Jarecki and Anna Lysyanskaya 
+(.ps) (.ps.gz)
+
+     This work appeared as "Adaptively secure threshold
+     cryptography: Introducing concurrency, removing erasures"
+     in Eurocrypt
+     '00, as a joint publication with another work of Anna
+     Lysyanskaya, 
+     (.ps) (.ps.gz) (.pdf ) 
+Adaptive Security for
+     Threshold Cryptosystems,  Crypto
+     '99 
+     Ran Canetti, Rosario Gennaro, Stanislaw Jarecki, Hugo Krawczyk, and Tal
+     Rabin 
+     extended version:  (.ps) (.ps.gz)
+
+Secure Distributed Key
+     Generation for Discrete-Log Based Cryptosystems, Eurocrypt'99
+     
+     Rosario Gennaro, Stanislaw Jarecki, Hugo Krawczyk, and Tal Rabin 
+     extended version:  (.ps) (.ps.gz)
+     [This paper, togher with the CT-RSA'03 one listed above, is superseded by
+     a journal article in JoC'06 (see below).] 
+An efficient
+     micropayment system based on probabilistic polling,  Financial
+     Cryptography '97 
+     Stanislaw Jarecki and Andrew Odlyzko 
+(.ps) (.ps.gz)
+
+Proactive Public Key and
+     Signature Systems, ACM
+     Security '97 
+     Amir Herzberg, Stanislaw Jarecki, Hugo Krawczyk, Markus Jakobsson, and
+     Moti Yung 
+(.ps) (.ps.gz) 
+Robust and Efficient
+     Sharing of RSA Functions, Crypto
+     '96] 
+     Rosario Gennaro, Stanislaw Jarecki, Hugo Krawczyk, and Tal Rabin 
+     [This paper is superseded by its journal version in JoC'00 (see below).] 
+Robust Threshold DSS
+     Signature,  Eurocrypt
+     '96 
+     Rosario Gennaro, Stanislaw Jarecki, Hugo Krawczyk, and Tal Rabin 
+     [This paper is superseded by its journal version in I&C'01 (see
+     below).] 
+Proactive Secret
+     Sharing, or How to Cope with Perpetual Leakage, Crypto
+     '95 
+     Amir Herzberg, Stanislaw Jarecki, Hugo Krawczyk, and Moti Yung 
+     an extended version: abstract.html
+(.ps)
+(.ps.gz)
+
+
+Publications
+(Journals):
+
+Secure Acknowledgment
+     Aggregation and Multisignatures with Limited Robustness, to appear in Computer
+     Networks Journal (ComNet), special issue on Network Algorithms (R. De
+     Prisco and S. Rajsbaum, editors), 
+     Claude Castelluccia, Stanislaw Jarecki, Gene Tsudik
+(.pdf)
+     [The preliminary version of this paper, listed above, appeared in SCN'04.]
+     
+Secure Distributed Key
+     Generation for Discrete-Log Based Cryptosystems, Journal of
+     Cryptology, May 2006 
+     Rosario Gennaro, Stanislaw Jarecki, Hugo Krawczyk, Tal Rabin
+(Springer Link)
+     [This article supersedes two conference publications listed above:
+     ``Secure Distributed Key Generation for Discrete-Log Based Cryptosystems''
+     in Eurocrypt'99, and ``Revisiting the Distributed Key Generation for
+     Discrete-Log Based Cryptosystems'' in CT-RSA'03.] 
+Robust Threshold DSS
+     Signature,  Information and Computation ,
+     vol. 164 (1): 54-84, 2001 
+     Rosario Gennaro, Stanislaw Jarecki, Hugo Krawczyk, and Tal Rabin 
+abstract.html
+(.ps) (.ps.gz)
+     [The preliminary version of this article, listed above, appeared in
+     Eurocrypt '96.] 
+Robust and Efficient
+     Sharing of RSA Functions,  Journal of
+     Cryptology , vol. 13 (2): 273-300, 2000 
+     Rosario Gennaro, Stanislaw Jarecki, Hugo Krawczyk, and Tal Rabin 
+(.ps) (.ps.gz)
+     [The preliminary version of this article, listed above, appeared in Crypto
+     '96.] 
+
+Short Bio:
+I joined UCI as an assistant
+professor in the School of
+Information and Computer Sciences in July 2003.  In June 2001
+I graduated from the MIT
+Computer Science PhD program, where I studied cryptography under the
+guidance of Prof. Shafi Goldwasser. 
+Between MIT and UCI, I first worked at Intertrust's "StarLab", a small
+research lab in the Silicon Valley company which was developing Digital Rights
+Management systems, and then I spent a year as a postdoc at the applied cryptography group led by prof. Dan Boneh  at Stanford. 
+
+
+
+Information and Computer Science
+University of California, Irvine
+Irvine, CA 92697-3425 
+Last modified: 29 Oct 2004 
+(Here are some pointers on how to learn HTML.)
+
+
+

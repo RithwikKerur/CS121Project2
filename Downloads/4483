@@ -1,0 +1,148 @@
+https://www.cs.uci.edu/exploiting-iot-for-healthcare
+
+
+
+
+Exploiting IoT for Healthcare 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ this is a widget called second front page widget area
+
+Explore
+
+Contact Us
+
+
+Faculty
+Research
+
+Research Areas
+Research Centers
+
+
+Graduate Degrees
+
+Computer Science Programs
+Current Graduate Students
+
+
+Undergraduate Degrees
+News  & Events
+
+News
+Seminar Series
+Distinguished Lecture Series
+Research Showcase
+
+
+Apply Now
+
+Undergraduate Admissions
+Graduate Admissions
+Faculty Candidates
+
+
+Exploiting IoT for Healthcare
+December 19, 2017 UCI’s Marie Curie Global Fellow Amir M. Rahmani’s multidisciplinary collaboration on four projects is proving how IoT technology can transform healthcare.
+
+How can we leverage the Internet of Things to improve our quality of life? This is the question UCI’s Marie Curie Global Fellow Amir Rahmani is asking as he explores using IoT in healthcare for everything from providing intensive care units (ICUs) in everyday settings to preventing premature births. His multidisciplinary collaboration on four different projects shows how IoT technology can be exploited to transform healthcare.
+Creating a Portable ICU
+Currently, hospitals use an early warning score (EWS) system to detect health deterioration in patients. Such deterioration can appear 24 hours before a major health event, so monitoring and detection are crucial. The nursing staff manually checks various physiological signs, including heart rate, blood pressure, blood oxygen saturation level, respiration rate and body temperature. Then, they use a simple EWS table to determine the patient’s score. If everything is okay, the score is 0. If the score goes beyond some level, doctors are alerted, and the patient might be admitted to the ICU for continued monitoring or sent into surgery.
+Although such monitoring can lead to timely medical interventions, keeping patients in the hospital for extended periods of time is costly, says Rahmani. He’s thus helping to develop a “portable ICU for everyday settings.” He explains that he has started to “use IoT technology to automate monitoring in a continuous way, 24/7, recording the score and sending it to a cloud server.” He’s working with UCI Professors Nikil Dutt, Kai Zheng and Marco Levorato, as well as with researchers from the University of Turku (UTU), Finland; Turku University Central Hospital, Finland; and VTT Technical Research Centre of Finland Ltd. The group is developing a personalized solution, including a wearable remote-monitoring device for at-risk patients, such as those recently discharged from the hospital.
+The challenges include identifying the context and modeling the patient to personalize the data analysis. As Rahmani explains, “these devices can generate huge amounts of data daily. Sensing is one aspect, and sense-making is another.” There are also structural issues related to energy usage. “You don’t need high fidelity and high sampling rates when you’re sleeping, but you do when you’re running outside.” The group has received funding from the National Science Foundation (NSF) and Academy of Finland to address these issues through the IoCT-CARE: Internet of Cognitive Things for Personalized Healthcare project.
+Assessing Pain with the iHurt Device
+The iHurt prototype.
+The next project in the works leverages IoT for pain management. This is another area that’s currently managed in a very manual way, with nursing staff asking patients to self-report their level of pain. But how do you assess pain when the patient is an infant or sedated?
+“We’re trying to monitor facial muscle movements and physiological vital signs,” says Rahmani. Again working in collaboration with the University of Turku, Turku University Central Hospital and Dutt and Zheng, as well as with Ariana Nelson in the UCI School of Medicine, Rahmani and the team have designed a mask that can detect three pain levels: none, moderate or severe. They’ve tested their “iHurt” mask on 30 healthy patients, using an electrical pulse to stimulate pain, and they now have Institutional Review Board (IRB) approval to test the device on real patients. Early next year, they’ll work with Nelson to recruit people with scheduled operations to monitor their pain levels in the recovery room, enhancing and validating the technology. The mask uses a wearable bio-signal acquisition device that Rahmani helped design. The device was recently featured in an IEEE Xplore Innovation Spotlight report.
+Monitoring Maternal Health
+The third project aims to use IoT, smartphones and wearable technologies to develop a remote pregnancy-monitoring system. For a small pilot study conducted in collaboration with the University of Turku and Turku Central University Hospital, Rahmani and Dutt worked with Bren Professor of Computer Science Ramesh Jain, who is also the director of UCI’s Institute for Future Health, and with Yuqing Guo and Adey Nyamathi from the UCI School of Nursing. The group monitored 20 women for seven months (the last six months of pregnancy and first month after birth), tracking data such as the women’s sleep patterns, vital signs, calories burned and steps taken.
+Work on this study led to a larger project in Finland that, funded by the Academy of Finland, more specifically targets preterm birth (PTB). Rahmani hopes to coordinate a similar project here in the United States. “We’re trying to use continuous, fine-grain data to both prevent PTB and to figure out why it’s happening.” He points out that the “small” pilot study produced more than 4,000 days of data. Processing data from the larger study, which starts in January 2018 and will run through the end of 2019, will be “very interesting but also very challenging,” he says.
+Exploring Autism and the Child-Parent Relationship
+Finally, Rahmani is also looking into ways to monitor children with autism and their parents. Still in the very early stages, the project is a collaboration with the UCI School of Social Ecology. The goal is to study the use of wearables to monitor the parent-child relationship and to improve the parent’s well-being, thereby ensuring the child receives sufficient emotional support.
+What this and the other projects reveal, says Rahmani, is that “the technology we’re developing here in ICS can be applied all over campus.” The reach of IoT technology extends to the fields of healthcare, education, psychology and beyond. “Healthcare IoT is becoming very important, and I see a bright future for this field.”
+Teaching IoT
+It’s thus not surprising that Rahmani also taught the new IoT course this quarter, part of UCI’s Professional Master of Computer Science program. Interest in the course was so high that the university had to increase the enrollment limit, so instead of the projected 60 students, Rahmani had 87. The course was very hands on, with weekly labs and a final project on using sensors for monitoring. “One student used sensors for bike monitoring to prevent theft, and another monitored washing machine availability in the laundry room,” says Rahmani, adding that he’ll teach the course again next fall. “We need to make the courses cool, applied and hands-on so students learn through doing.”
+— Shani Murray
+« Faculty Spotlight: Ray Klefstad Embraces New Role as Associate Professor of TeachingWhat’s Next in the Battle Over Net Neutrality? »
+
+Latest news
+
+
+Senior Spotlight: Tennis Player and CS Major Matthew Sah Serves Up Aces On and Off the Court
+September 28, 2022
+
+
+Register Today for the Southern California AI & Biomedicine Symposium
+September 20, 2022
+
+
+CPO Magazine: “A Legal View of New NIST Quantum-Resistant Algorithms” by Bryan Cunningham
+September 19, 2022
+
+
+UCI Ranked 24th in Undergraduate Computer Science Programs by U.S. News & World Report
+September 16, 2022
+
+
+Senior Spotlight: Jose Cisneros Builds Impressive Resume with Trio of Internships
+September 15, 2022
+
+
+
+
+ 
+
+
+
+
+
+© 2022 UC Regents
+Feedback
+Privacy Policy
+
+
+
+ 
+
+
+
+

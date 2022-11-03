@@ -1,0 +1,140 @@
+http://www.ics.uci.edu/~sgaffney
+
+
+
+
+Scott Gaffney - UCI
+
+
+
+
+
+
+
+
+
+
+
+Scott
+Gaffney
+
+
+
+
+
+
+
+
+
+
+
+Contact information | 
+Software | 
+Publications | 
+Other projects
+
+Machine Learning Search
+
+
+
+
+
+
+
+
+
+
+Web
+
+
+
+General Information
+
+Position: Received Ph.D. in 2004 (Now at Yahoo!)
+	    Area: Artificial Intelligence
+	    Advisor: 
+        Padhraic Smyth
+Email: scott.gaffney-at-yahoo-dot-com
+      Home Page:
+                   http://scott.gaffney.name
+
+Software
+
+The CCToolbox: The Curve 
+   Clustering Toolbox
+A Matlab toolbox for clustering curve data using various probabilistic
+   curve-based mixture models. This toolbox essentially implements all of the
+   models described in my dissertation.
+Cyclone Tracking Toolbox (soon to be released)
+   A Matlab toolbox for identifying and tracking cyclones from raw
+   MSLP (mean sea-level pressure) data (e.g., in GrADS or NetCDF format).
+  
+Publications
+
+Gaffney, S. (2004). Probabilistic Curve-Aligned Clustering and 
+   Prediction with Mixture Models. Ph.D. Dissertation, Department
+   of Computer Science, University of California, Irvine.
+Gaffney, S. and Smyth, P. (2004). 
+   Joint 
+   Probabilistic Curve Clustering and Alignment. Advances in Neural 
+   Information Processing Systems NY: MIT Press.
+Camargo, S., Robertson, A., Gaffney, S., & Smyth, P. (2004). 
+   Cluster 
+   analysis of Western North Pacific tropical cyclone tracks. Extended 
+   Abstract, Proceedings of the 26th Conference on 
+   Hurricanes and Tropical Meteorology, May 3-7, Miami, FL, 10A.7, 
+   p. 250-251.
+Gaffney, S. and Smyth, P. (2003). 
+   Curve 
+   Clustering with Random Effects Regression Mixtures. In C. Bishop & 
+   B. Frey (Eds.), Proc. Ninth Inter. Workshop on Artificial Intelligence
+   and Statistics
+Chudova, D., Gaffney, S., Mjolsness, E., & Smyth, P. (2003). 
+   Translation-Invariant
+   mixture models for curve-clustering. In
+   Proc. Ninth ACM Inter. Conf. Knowledge Discovery and Data 
+   Mining Washington DC, August. [Note: online copy is an extended 
+   technical report version]
+Chudova, D., Gaffney, S., & Smyth, P. (2003). 
+   Probabilistic 
+   models for joint clustering and time-warping
+   of multidimensional curves. In Proc. 19th Conf. Uncertainty
+   in Artificial Intelligence pp. 134-141. NY: Morgan Kaufmann.
+Gaffney, S., Robertson, A., & Smyth, P. (2001). Clustering of 
+   extra-tropical cyclone trajectories using mixtures of regression models.
+   In Proc. Fourth Workshop on Mining Scientific Data Sets,
+   Seventh ACM Inter. Conf. Knowledge Discovery & Data Mining pp. 15-20.
+Cadez, I., Gaffney, S., & Smyth, P. (2000). 
+   A general 
+   probabilistic framework for clustering individuals.
+   In Proc. ACM Sixth Inter. Conf. Knowledge Discovery and Data
+   Mining NY: ACM Press.
+Gaffney, S. and Smyth P. (1999). 
+   Trajectory 
+   Clustering with Mixtures of Regression Models. In S. Chaudhuri & D. 
+   Madigan (Eds.), Proc. Fifth Inter. Conf. Knowledge Discovery & Data
+   Mining pp. 63-72. NY: ACM Press. [Note: online copy is an extended
+   technical report version]
+Ge, X., Gaffney, S., Pavlov, D., & Smyth, P. (1999). Local Context 
+   Matching for Page Replacement. Technical Report UCI-ICS 99-37.
+Ackerman, M., Billus, D., Gaffney, S., et. al. (1997). Learning 
+   Probabilistic User Profiles.... AI Magazine 18(2), 47-56.
+
+Other Projects
+
+The Schoolhouse Project
+Designed and developed an intelligent web server application 
+   for the Schoolhouse
+   that used information theoretic techniques to find web pages suitable 
+   for young children's education.
+ 
+
+
+Top | 
+Contact information | 
+Software | 
+Publications | 
+Other projects
+
+
+

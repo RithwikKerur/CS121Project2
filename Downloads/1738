@@ -1,0 +1,99 @@
+http://sli.ics.uci.edu/Code/GPRTimeshift
+
+
+
+SLI | Code / Gaussian Process Regression with Time-shifts 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Code /
+Gaussian Process Regression with Time-shifts
+
+
+
+Examples from the paper
+
+GPR, fixed timesGPR with timeshift
+
+
+
+
+Overview
+Time-course gene expression data sets provide important insights into dynamic aspects of biological processes such as  circadian rhythms, cell cycle, and organ development. 
+A typical microarray time-course expression data set consists of
+measurements taken at a relatively small number of time-points
+(e.g., 5 to 10), where at each time-point microarray measurements
+are obtained on a few (say, 3) replicate samples. There has been considerable work in recent years in bioinformatics on the development of statistical techniques for accurately inferring expression profiles
+from such data, in the face of both measurement noise and biological variation across replicates.
+
+However, a source of variation that has received little attention to date is uncertainty about the precise
+biological time at which measurements were taken.  Specifically, replicates may be measured 
+at the same chronological time, yet could be at different stages of development due to the replicate
+individuals having developed at different rates.  Although the underlying true expression profiles for
+each gene may be noisy, we can infer time-shifts for each replicate by analyzing all genes simultaneously.
+In particular, we simultaneously estimate the profile shapes using a Gaussian process regression (GPR) model
+and estimate the time shifts by a maximum a-posteriori optimization.
+
+Code
+This code implements a Gaussian process regression (GPR) model with uncertainty in the independent axis (in our case, time).  
+ZIP file (includes all code and the expression data used in our paper)
+For more information on the model or its results, please see our publication
+Estimating Replicate Time Shifts Using Gaussian Process Regression?, Bioinformatics, to appear.
+
+Copyright / license
+The Gaussian Process with Time-Shifting code was written by Qiang Liu, and are copyrighted under the (lesser) GPL:
+
+    Copyright (C) 2009 Qiang Liu
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; version 2.1 or later. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details. You should have received a copy of the GNU Lesser General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
+
+The authors may be contacted via email at: qliu1 (at) uci.edu
+
+Changes
+
+
+
+
+
+ Last modified December 06, 2009, at 04:42 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

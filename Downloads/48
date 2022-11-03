@@ -1,0 +1,176 @@
+http://www.ics.uci.edu/~stasio/winter04/ics280.html
+
+
+ICS 280: Introduction to the Theory of Cryptography
+
+ICS 280: Introduction to the Theory of Cryptography
+Winter Quarter, 2004
+
+
+
+tentative outline 
+list of reference 
+					readings
+
+handouts (and 
+						homeworks)
+
+
+
+
+
+			 Instructor:       
+				Stanislaw Jarecki
+
+
+
+			Class times:     Tu-Th, 11-12:20
+			
+			Room:             
+			CS building, room 243
+			
+			Class number:  ICS 280, Section C
+			
+			Class code:     36783
+			
+			Office hours:   Mon 3-5, and otherwise by appointment or just by 
+			stopping by
+			
+				Textbook:       None, but lots of material is 
+				available on-line (see more below)
+			
+
+ 
+Course Description:
+This course is an introduction to modern cryptography for graduate and advanced 
+			undergraduate students.   At the end of the course, the students 
+			will be able to understand current research in cryptography and, if 
+			interested, pursue such research themselves.  The cryptographic 
+			toolkit we will cover will be also useful for students interested 
+			in algorithms or in security.
+			
+
+			Modern cryptography provides tools for the design of provably 
+				secure protocols.  It shows that complex security 
+			requirements of modern computer systems can be satisfied by algorithms that are 
+			provably secure against adversarial attacks, assuming some 
+			well-defined computational complexity assumptions.  Existence of such 
+			proofs allows practitioners to build computer systems whose security 
+			rests on firm foundations.  However, the resulting computer systems
+			are secure only to the degree that they are implemented correctly (an 
+			issue we will not cover in this class), and that the security 
+			requirements imposed on the cryptographic algorithm correctly 
+			represent the operation of the system, and hence the types of attacks 
+			that can be launched against it.  We will touch on this 
+			last point quite often in our class, whenever we discuss the security 
+			requirement of any cryptographic tool.
+This winter quarter course is intended as an introductory class, and 
+			so we will start with the fundamentals of modern cryptography and 
+			gradually move up to more complex cryptographic tools, which can then be 
+			applied to building secure protocols.  The primary focus of 
+			the class will be on:
+
+
+Definitions:  We will see how to 
+			conceptualize the goals of security (e.g. "secure 
+			communication"), and by doing so we will define cryptographic objects 
+			(i.e. algorithms or protocols) of increasing complexity, like one-way 
+			functions, collision-resistant functions, pseudorandom functions, signature 
+			schemes, encryption schemes, and others.  We will define the 
+			needed properties of these objects by drawing examples from 
+			their practical applications.
+			
+Constructions, protocol design, composing systems from cryptographic 
+					objects, rigorous proofs of security:  We will see how to 
+				achieve various security goals and construct the 
+				corresponding cryptographic objects which provably meet the 
+				required properties under well-defined computational difficulty 
+					assumptions, e.g. the assumption that factoring is difficult.  In 
+				general, we will see how to construct more complex cryptographic objects from 
+				simpler ones, and how the resulting tools can be used to satisfy requirements 
+				of actual applications.
+The most important lesson of this course should be not any particular 
+			cryptographic construction, but the approach of modern 
+			cryptography:  (1) the  importance of defining the security 
+			requirements of the application at hand, and (2) knowing 
+			how to go about arguing if (and on what grounds) a proposed algorithm 
+			satisfies these requirements.
+Tentative Outline:
+See the tentative 
+				outline for the list of topics we will cover.
+Background Reading List:
+See the list of 
+				reference texts for the course
+Grading:
+There will be about 4-6 homework sets (counting 70%) and a take-home final 
+			(20%).  You will be expected to actively participate in the 
+			class.  Depending on the attendance level, 10% of the grade will be 
+			either for class participation or for scribing the lecture notes.
+		
+Prerequisites:
+There are no formal prerequsites for this class.  However:
+
+
+			You should be comfortable with proofs, with elementary probability, and have 
+			the basic knowledge of discrete math used in computer science 
+			(e.g. ICS.6A).
+			
+			It's recommended that you have some algorithms class (like ICS.161) and 
+			you are familiar with assymptotic analysis of algorithm running time.
+			
+			It'd be also good if you took a computability/complexity class like ICS.162, so 
+			you are familiar with P/NP and the notion of a reduction between 
+			computational problems.
+			
+				It will help to be familiar with basic algebraic concepts (groups, fields), and 
+				number theory concepts (e.g. primality), but you don't have to have a class in 
+				it.
+The last three topics listed above will be briefly reviewed in class. In 
+			fact, if you are missing some of this background, see the reading 
+			list link above for review material which is available 
+			on-line.  Even if you do not have all the background listed above, 
+			you will be able to pick it up from the class review, and then consult 
+			the listed textbooks when needed.
+This class is complementary to other UCI classes on security/cryptography:
+No previous experience in cryptography or security is necessary for this class 
+			(see the prerequisites above), but for those students who have taken or are 
+			thinking of taking other UCI classes on security/cryptography, here is a word 
+			of explanation why this class differs from and complements the related UCI 
+			classes:
+
+
+				ICS 168/268:   Students who took ICS 168/268 are very much encouraged 
+				to take this class.  The two classes cover different material and can 
+				be taken in any order.  The reason the two classes complement each 
+				other well is that ICS 168/268 focuses on breadth of 
+				cryptographic algorithms and secure applications, while this class focuses 
+				on depth, by laying out a systematic approach to the 
+				study of any
+			secure algorithms and protocols.
+			
+				Math 173A:   Similarly, students who took and liked "Intro to 
+				Cryptology", Math 173A, are encouraged to take this class 
+				too.  The material differs, but Math 173A is a very good introduction and 
+				background for this class.  Math 173A teaches number theoretical 
+				foundations of the two most famous public key algorithms, i.e. the 
+				RSA encryption/signature schemes based on the factoring assupmtion, and the 
+				encryption/signature schemes based on the discrete logarithm 
+				assumption.   This is a very useful and fun material, but from 
+				the point of view of crypto theory as taught in this class, what Math 
+				173A shows is that a specific cryptographic object called a one 
+					way function can be efficiently built from 
+				particular number-theoretic assumptions (discrete log or factoring).  
+				In this class we will take the assumption that one-way functions can 
+				be constructed as more or less our starting point (!), and we will 
+				see how to build more complex cryptographic objects on this and other 
+				assumptions (see further info in the tentative course outline below).
+			
+
+
+
+
+
+Last modified: 07 Jan 2004
+		
+
+

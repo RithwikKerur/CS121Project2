@@ -1,0 +1,9 @@
+http://plrg.ics.uci.edu/publications/510.bib
+@inproceedings{key,
+ author = {Byron Hawkins and Brian Demsky and Derek Bruening and Qin Zhao},
+ title = {Optimizing Binary Translation of Dynamically Generated Code},
+ booktitle = {Proceedings of the 13th Annual IEEE/ACM International Symposium on Code Generation and Optimization},
+ location = {San Francisco, California},
+ month = {February},
+ year = {2015}
+}

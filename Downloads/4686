@@ -1,0 +1,107 @@
+https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-linux-setup-guide
+
+
+
+
+      cs222-2018-fall-linux-setup-guide – Public
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LoginPreferencesAbout Trac
+
+
+
+
+
+
+
+wiki:cs222-2018-fall-linux-setup-guide
+
+
+Context Navigation
+
+Start PageIndexHistory
+
+
+
+
+
+Linux (Ubuntu) Setup Guide
+
+This page will guide you how to setup C++ development environment on Ubuntu(16.04) using Eclipse and how to set gdb and Valgrind for debugging purposes.
+
+
+Setup development environment using Eclipse
+
+Run  sudo apt-get update 
+Install JDK. Run   sudo apt-get install default-jdk 
+Download and install ​Eclipse for C/C++ for Linux.
+Go to the deployment guide to set up the codebase for project 1. Be sure to select Linux GCC instead of Cross GCC.
+
+Set up GDB for debugging purposes
+
+
+GDB already comes with Ubuntu.
+
+
+Set up Valgrind for debugging purposes
+
+
+Valgrind is a very powerful tool to detect memory leaks in your program.
+
+
+run  sudo apt-get install valgrind 
+
+
+
+Last modified 4 years ago
+Last modified on Sep 26, 2018 1:20:32 PM
+
+
+
+
+Download in other formats:
+
+
+Plain Text
+
+
+
+
+
+
+Powered by Trac 1.0.13
+        By Edgewall Software.
+Visit the Trac open source project athttp://trac.edgewall.org/
+
+

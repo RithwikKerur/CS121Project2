@@ -1,0 +1,259 @@
+http://www.ics.uci.edu/%7Emagda/ics_232P/outlineP.html
+
+
+
+
+
+
+
+
+
+
+Course Outline
+
+
+
+
+
+
+
+
+Course Outline
+ 
+This course is a concept class with a lab
+          component. The goal of the course is to introduce some of the
+          main networking concepts that are taught in any introductory
+          networking course and to reinforce those concepts with
+          software labs. The labs are structured around exercises that
+          highlight topics addressed in the course material taught in
+          the weekly classes such as network addressing, subnetting,
+          switching, ARP, dynamic routing, and protocols. The course
+          consists of 10 weeks of classes. In class quizzes (both
+          written and lab) are used to evaluate the students’
+          understanding of the material and ensure that students have
+          completed the lab exercises. The Piazza online 
+          discussion tool will be used to instigate class discussion
+          around the course and lap topics. I highly encourage
+          participation and give grade credit for those that are active.
+ 
+ 
+
+Textbook: Computer Networks - A Top Down
+        Approach, Kurose and Ross, 7th Edition, Pearson
+
+Class Notes:
+        Available on my webpage (see below)
+
+Software: Available
+      with online downloads
+
+Labs: Available on my webpage (see
+        below)
+
+ 
+ 
+Class Time: MW:  3:30pm – 4:50pm
+Class Room:  HH
+          262
+ 
+Quiz Lab Rooms: ICS Labs 183
+          and 189 - Tuesday 8-10 
+ 
+TA/Readers:  Fangqi Liu
+          fangqil2@uci.edu, Hang Nguyen hangn5@uci.edu 
+
+
+
+
+TA Office and
+          Office Hours: 
+        Fangqi Liu: Rm ICS 217, Friday9-11am
+
+Hang Nguyen: DBH 2089, Friday 1-3pm
+
+ 
+My coordinates: DBH 3216,
+          elzarki@uci.edu
+My office hours: Monday and
+          Wednesday 2pm - 3pm
+ 
+Course
+              Requirements:  ONE In Lab Quiz (25%),
+          Midterm (25%), Final (45%), Piazza Participation (5%)
+
+
+Course Overview 
+
+
+Course Overview (Intro),
+
+
+
+            Introduction to Computer Networks (Chapter
+
+
+
+              1)
+
+
+Topics and class structure
+
+What is the Internet?
+
+The Network Edge
+The Network Core
+Network Perfomance Measures
+Network Architecture and Protocols
+
+
+
+
+
+A Brief Overview of
+            Internet Applications/Services (Chapter
+
+
+
+              2)
+
+
+Internet Application Layer
+Domain Name System (DNS)
+
+
+
+
+Data
+          Link Layer, Lans and Lan Switching (Chapter
+
+
+
+            6)
+
+
+Definition
+
+
+
+            of a LAN
+Multiple
+
+
+
+            Access Protocols
+Data
+
+
+
+            Link Layer
+Arp
+Lan
+
+
+
+            Switching
+
+
+
+
+The
+          Internet Protocol (Chapter
+
+
+
+            4)
+
+
+Intro to IP and IP addressing
+
+
+IP Forwarding
+IP Control Protocol
+DHCP and NAT
+
+
+
+
+
+Dynamic
+
+
+
+          Routing (Chapter
+
+
+
+            5)
+
+
+Autonomous Systems
+Dynamic Routing Algorithms
+
+OSPF and BGP
+
+
+
+
+The
+          Transport Layer (Chapter
+
+
+
+            3)
+
+
+Functionality and Services
+
+UDP
+TCP
+
+
+
+The labs:
+
+Lab0 W
+              (Windows only) Lab0_M
+                (Mac only)   Lab1
+(all platforms)- Software installation
+                  and set up, testing
+
+
+
+
+
+Lab2
+
+
+
+                - Data
+
+
+
+          Link Layer
+
+
+
+
+
+
+
+
+Lab3
+              - Internet Protocol
+
+
+
+Lab4
+- LAN Switching 
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+http://plrg.ics.uci.edu/publications/120.bib
+@inproceedings{key,
+ author = {Brian Demsky and Michael D. Ernst and Philip J. Guo and Stephen McCamant and Jeff H. Perkins and Martin Rinard},
+ title = {Inference and Enforcement of Data Structure Consistency Specifications},
+ booktitle = {Proceedings of the 2006 International Symposium on Software Testing and Analysis},
+ pages = {233--244},
+ location = {Portland, Maine},
+ month = {July},
+ year = {2006}
+}

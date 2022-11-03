@@ -1,0 +1,40 @@
+http://www.ics.uci.edu/~sysarch/projects/OpenCV.html
+
+
+
+
+OpenCV.js
+
+
+
+OpenCV is the de-facto standard C/C++ library for image and vision processing 
+extensively used by computer vision community to create desktop and embedded applications.
+Existing OpenCV language bindings make it possible to use the library in languages other
+than the native C and C++, e.g. Python and Java. OpenCV.js extends the OpenCV language binding by
+providing a JavaScript interface. It allows emerging web applications with multimedia processing
+to benefit from the wide variey of vision functions available in OpenCV.
+
+
+The goal of this project is to extend and improve performance of OpenCV.js.  It has several thrusts:
+	High performance: allow OpenCV.js to be used in demanding applications, e.g. video processing.  The
+OpenCV.js is based on ASM.js specification and near native performance is obtained on most modern browsers.
+We also added support for SIMD.js to take advatage of processor's vector (SIMD) processing capabilities. 
+
+	Cover a large subset of OpenCV. Currently, more than 50 classes and 800 functions from libraries including core, image processing, vidoe processing, image codecs, machine learning are already supported in our version of OpenCV.js. 
+
+	API Correspondence: We aimed to provide an API close to originial OpenCV API to make
+it easier to write/port applications.
+Compare the two code snippets of the  erode  function in C++ and the equivalent OpenCV.js implementation. 
+
+
+OpenCV.js is publicly available at our github repository  
+here
+
+
+ OpenCV.js has been released as part of the OpenCV library!!! See documentation and tutorials at https://docs.opencv.org/master  Also available on NPM: # npm -i opencv.js
+ 
+
+This project is supported by Intel Corp.
+
+
+

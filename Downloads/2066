@@ -1,0 +1,442 @@
+https://isg.ics.uci.edu/event/effective-filters-and-linear-time-verification-for-tree-similarity-joins
+
+
+
+
+
+
+Effective Filters and Linear Time Verification for Tree Similarity Joins – Information Systems Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+
+Faculty
+Students
+Recent Alumni
+Research Staff
+Visitors
+
+
+Research
+
+Projects
+Publications
+
+
+Teaching
+
+Courses
+DB Qual
+
+
+Events
+
+Talks
+News
+
+
+About
+
+Sponsors & Partners
+Visitor Info
+Contact us
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ISG Talks are sponsored by Couchbase.
+<< All Talks
+
+
+
+ « All Events
+
+
+This event has passed.
+Effective Filters and Linear Time Verification for Tree Similarity Joins
+
+February 14, 2020 @ 3:00 pm - 4:00 pm 
+
+
+
+
+
+« Event Detection with Temporal Predicates
+Systems and ML at RISELab (CS Distinguished Seminar Series) »
+
+
+
+
+
+
+
+
+
+Speaker:
+Thomas Hütter (University of Salzburg)
+Abstract:
+The tree similarity join computes all similar pairs in a collection of trees. Two trees are similar if their edit distance falls within a user-defined threshold. Previous algorithms, which are based on a filter-verify approach, suffer from the following two issues. First, ineffective filters produce a large number of candidates that must be further verified. Second, the candidates are verified by computing the tree edit distance, which is cubic in the number of tree nodes. Thus, these techniques fail to scale to large tree collections and are infeasible even for small collections when the trees are large. In this talk, a scalable solution for the tree similarity join, called TJoin, is presented that is based on (1) an effective indexing technique that leverages both the labels and the structure of trees to reduce the number of candidates, (2) an efficient upper bound filter that moves many of the candidates directly to the join result without additional verification, and (3) a linear time verification technique for the remaining candidates that avoids the expensive tree edit distance computation. Unlike previous solutions, TJoin scales to collections with millions of large trees and improves the overall join time by up to two orders of magnitude w.r.t. the state of the art.
+Short-Bio:
+Thomas Hütter received his bachelor’s and master’s degrees in Computer Sciences from the University of Salzburg, Austria, in 2014 and 2017, respectively. During his master’s degree, he spent a semester abroad as an exchange student at École Polytechnique Fédérale de Lausanne (EPFL), Switzerland. His research career started in 2013 when he became a member of the Computational Systems Group supervised by Prof. Christoph Kirsch at the University of Salzburg. His work focused on memory management optimizations which resulted in two projects in collaboration with Google Munich.
+Currently, he is pursuing his Ph.D. degree in the Database Research Group supervised by Prof. Nikolaus Augsten in Salzburg. His research interests include efficient algorithms for similarity queries on complex data structures. In 2019, Thomas Hütter won the “Young Investigators Award” for his work on tree similarity joins (published at ICDE 2019) and was awarded with the “Austrian Marshallplan Scholarship”.  
+ 
+
++ Google Calendar+ iCal Export
+
+
+
+ Details 
+
+ Date: 
+
+ February 14, 2020 
+
+ Time: 
+
+
+					3:00 pm - 4:00 pm				
+
+
+
+
+ Venue 
+
+ DBH 3011 
+
+
+
+
+ 
+
+
+
+
+
+« Event Detection with Temporal Predicates
+Systems and ML at RISELab (CS Distinguished Seminar Series) »
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+Search for :
+
+
+Latest News 
+
+
+
+Upcoming Talk: How to build your own Business
+
+											July 25, 2022																																
+
+
+Upcoming Talk: Couchbase and Distributed Computing Backends for big data processing
+
+											May 31, 2022																																
+
+
+Upcoming Talk: Shedding Light on Opaque Database Queries
+
+											May 31, 2022																																
+
+
+ISG researchers won the  Mark Weiser Best Paper Award at IEEE PERCOM 2022
+
+											March 24, 2022																																
+
+
+
+
+Upcoming Events
+
+
+
+
+Qiushi Bai: QueryBooster-Improving SQL Performance Using Middleware Services for Human-Centered Query Rewriting + Demo
+
+
+
+October 14 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Xiaozhen Liu: Demonstration of Collaborative and Interactive Workflow-based Data Analytics in Texera
+
+
+
+October 21 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Abhishek Singh: WedgeBlock – An Off-Chain Secure Logging Platform for Blockchain Applications
+
+
+
+October 28 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Juncheng Fang: PeloPartition- Improving Blockchain Resilience to Partitioning by Sharding
+
+
+
+November 4 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Peeyush Gupta: A Demonstration of TippersDB
+
+
+
+November 18 @ 12:30 pm - 2:00 pm 
+
+
+
+View All Events
+
+Please follow & like us :) 
+
+Follow  
+
+ 
+
+
+
+
+
+
+
+			Copyright 2018 | ISG-UCI		
+
+
+
+
+
+
+cross
+
+
+
+
+
+
+
+
+
+
+Hit ENTER to search or ESC to close
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

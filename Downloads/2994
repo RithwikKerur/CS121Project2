@@ -1,0 +1,323 @@
+https://ngs.ics.uci.edu/computer-vision-research
+
+
+
+
+
+
+
+
+Computer Vision research – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Computer Vision research    			
+
+
+Lately I have been looking at many researchers and research papers in the field of computer vision.Â  I could not help but start thinking about this area as a researcher and a faculty member.Â Â I have experience in this field.Â Â Â I started working in computer vision in 1976 and was one of the most active (based on publication numbers and size of research group etc) researcher in this field until 1995. And even now, my research is concerned with the central issue of how to extract and utilize visual information in large systems.Â  I am more interested in seeing how different sources, including visual, can be utilized together and hence I interact more with multimedia research more than computer vision.Â  I had a chance to see the field grow.Â Â 
+I findÂ computer field as one of the most challenging research area that couldÂ significantly advance impact of computing.Â  Unfortunately, this field is also so broadÂ  that many times researchers get carried away andÂ focus their researchÂ mostly in perpheral directions; worse they start considering those peripheral issues or tools used as the central problem and forget completely the central issue.Â  Since I invested significant amount of energy and efforts in this field and still continue to think of solving the problems there, I started thinking about the state of the field and hence this post.
+The goal of a computer vision system is to extract meaningful information from one or more images, including video. Â This has been a difficult problem, partly because it is, and partly because of the research culture. Â Computer vision research naturally attracts researchers from different fields including human vision (both physiology, and psychology including cognitive science), optics, computer graphics, mathematics, and machine learning. Â Of course there are people whoÂ primarily wantÂ to develop computer systems to extract information from one or more images for different applications.Â Â  But in a large group of researchers with multitude of interests, goals,Â and philosophies it is natural that even they forget what is really their goal.Â  This results in a very interesting field which starts addressing problems in every other field but never gets back to its own roots — the goal of developing techniques that will help recover information from one or more images, including videos.
+Many researchers find computer vision as an area that will either help them explain theories in human vision.Â  Many other researchers think that they can use computer vision to demonstrate applicability of their techniques inÂ their areas, including mathematics and statistics, graphics, and machine learning. Â Â When reading papers in computer vision or talking to many prominent researchers publishing in computer vision one gets a strong impression that they are very interested in justifying either an existing theory about human vision, also commonly called vision science, or developing a new theory to explain a particular aspect of human vision.Â  I consider their research important and respectable, but also consider that that research is not going to solve problems in developing computers that will deal efficiently with images and video in specific applications.Â  Researchers that brings a tool like machine learning for classification or recognition or other mathematical approaches to formulate and solve problems in computer vision are also doing great work and many times are really helping computer vision advance.Â  But one must exercise caution.Â  Many, if not most, of these researchers are interested in demonstrating effectiveness of their approach and hence they select example images that will fit to their approach rather than develop approaches that will solve the central problem.Â  There is a strong fundamental difference in these two.Â  Use of Corel images and many other constrained images commonly used are doing more harm to the community than service.
+A culture that has emerged in computer vision due to conflicting goals and losing sight of the primary goal is to assume that computer vision problem should be solved only using visual information and mathematical models.Â  Human vision system is so effective because it continuously works in concert with all other sensors, and most importantly, with human memory and brain.Â  Take away human memory and other sensors, and human vision becomes very limited.Â  So it is surprising that computer vision researchers even now try to interpret images and video using only the information in that image or video ignoring context, other sensors, memory, and interactivity completely.Â  I feel that computer vision may be more effective by usingÂ visual informationÂ as a part, possibly the most important part, of a complete information system rather than trying to develop it as an independent component.
+Hopefully computer vision researchers will realize this and focus more intellectual energy towards recovering information from images and video using all the information tools that are now available in 2007.Â  So many important problems are waiting to be solvedÂ  — and the progress in many application fields really depends on progress in computer vision.Â  In fact, currently some of the most challenging problems that information systems are facing, starting from information systems (including search), to pervasive systems, human-centered computing, and other areas are all looking for progress in computer vision.Â  
+It is not strange then that students graduating in computer vision are not easily finding positions, while real problems are begging to be solved.Â  
+
+
+
+
+
+By Ramesh |
+    				January 28, 2007 |
+    				             		Technical Thoughts |
+             	 
+    				             		14 Comments |
+             	 		          				
+    			
+
+
+← Search by humming
+Evolving nature of books: 1 →
+
+
+
+			14 thoughts on “Computer Vision research”		
+
+
+
+
+Chet January 30, 2007 at 7:25 am 
+
+Now that developers have the ability to apply different styles for different vision types, the Web has opened up. you can apply “print” or “screen” or other types of visual styles for different types of mediums. One popular fad going around in web development is to give users a choice of a high-contrast view of the website vs. the normal stylized view. The high-contrast version increases font, and makes all colors extremely contrast from each other making for maximum visibility.
+
+
+
+
+
+
+
+
+phoenix January 30, 2007 at 10:28 pm 
+
+The conclusion is scary 🙂
+
+
+
+
+
+
+
+
+Ramesh  Post authorJanuary 30, 2007 at 10:50 pm 
+
+You can look at a problem as an opportunity — there is a great opportunity to solve real problems in computer vision for different applications.  And there is a strong shortage of people doing that.
+
+
+
+
+
+
+
+
+phoenix January 31, 2007 at 5:35 am 
+
+Yes, problems are very important. Without it life is mundane and meaningless. There are very few people I know who have created solved some really cool problems. For instance, Fabrice Bellard’s multimedia player FFmpeg is the best in the world. His C interpreter, TCC claims to rival gcc. After conversing with him, I realized that motivation and time are very two important factors in the creation of something worthy. Even guidance is an important factor. From what I have seen, people who attempt to do something nice are not even given a gesture of acknowledgment, mostly its a smack in the face.
+
+
+
+
+
+
+
+
+SHero January 31, 2007 at 4:56 pm 
+
+The sentence you wrote (Take away human memory and other sensors, and human vision becomes very limited) is in fact describing the problem which most computer vision guys have been struggle with and wish to get some supports of. 
+However I am not sure whether there are any information tools that are now available in 2007 to help computer vision guys utilize one’s own experiences or other general knowledge models or any mental models to interpret events in multimedia as something meaningful.
+If the target of a computer vision technique is not for specific applications, but says global purposes, the challenge becomes obvious that we need the very general information database that a vision technique can adaptively look back for references.
+The key issue is then whether we have such a mechanism to describe current running environments and the outputs of complex processing results generated whether by humans or computers into some computer-interpretable medium, store them into the information system, and retrieve for use at other (spatio-temporally) different situations.
+Even if assuming that someone finally proposes such a method to build storages for multimedia and its abstractions with proper methods to store and query information for multimedia guys, the global association with deep agreements over various research fields is necessary to build such a database (I guess for sure that might be bigger than current Wikipedia). So I think that the issue raised in your article is too big for computer vision guys to solve by themselves.
+
+
+
+
+
+
+
+
+Ramesh  Post authorJanuary 31, 2007 at 6:01 pm 
+
+There is much research in cognitive science that shows how vision r4elies on specific cues and other sources of information for solving specific problems.  You maybe making the problem much harder by assuming that it requires enormous volume of knowledge to solve specific problems.  There are many working example of vision systems that shows how other clues help.
+For example, have you considered seriously using EXIF information present in every digital camera in interpretation of images?  Try it and you will be amazed how the tsk may be simplified.
+
+
+
+
+
+
+
+
+Usman Ilyas February 20, 2007 at 10:55 pm 
+
+Hi, came to this page by accident but find your article very interesting. I am quite interested in computer vision and even more after reading this. You have rightly said that Vision is a very collective field – which is in a way a one of its very interesting aspect.
+
+
+
+
+
+
+
+
+Ishani March 20, 2007 at 8:48 am 
+
+As a vision researcher, I find it a great problem in trying to integrate methods from cognitive sciences into computer vision as the domains they work on are so completely different. Cognitive science experiments almost always work with artificial stimuli in controlled environments such that the conclusions drawn are very rarely applicable to “real world” images, that computer vision scientists seek to solve.
+
+
+
+
+
+
+Pingback: LULOP.org [opensource] » Mashing up computer vision 
+
+
+
+
+eUKhost May 3, 2007 at 4:43 am 
+
+Well I am completely new this topic and never thought of it before . But soon when I  gone through first few lines of the para, I completely lost while reading. This is a concept which includes lot of research and hard work. All the best to the people in this field.
+
+
+
+
+
+
+Pingback: LULOP.org [opensource] » Google sviluppa fingerprinting video proprietario 
+
+
+
+
+Tech Blog September 23, 2007 at 6:47 am 
+
+Yep,
+So many important problems are waiting to be solved and increasing day by day.
+
+
+
+
+
+
+
+
+UK2 Servers May 26, 2008 at 2:47 am 
+
+Wow great post, my dad is working on this and did research during college, it is an exciting field that could contribute quite a lot.
+
+
+
+
+
+
+
+
+Computer Support, Online Tech Support September 9, 2009 at 9:41 pm 
+
+Computer vision is possibly the most challenging aspect of image processing, and the number of different sources and fields of studies makes it a stimulating, yet not simple, research area. The concern about â€œhow to extract and utilize visual information in large systemsâ€ can now have support from different computer applications, which are able to complement the human visual system. Theories and ideas from different study fields are required for an improved research on computer vision, therefore information tools can help gathering the information collected and creating a proper database. Thinking about that, I believe you could consult Ask Dr. Tech, a company that has expert knowledge in areas such as administration with high performance levels and system maintenance. Their IT and system operation knowledge could add up to the research. http://www.askdrtech.com/
+
+
+
+
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

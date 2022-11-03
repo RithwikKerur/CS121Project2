@@ -1,0 +1,136 @@
+http://www.ics.uci.edu/~kay/courses/h21/hw/lab0.html
+
+
+
+
+Lab Assignment 0
+
+
+
+ICS H21 • UC IRVINE • DAVID G. KAY • FALL 2009
+Lab Assignment 0
+ This lab assignment is due at the end of lab on
+  Friday, September 25.  
+ The next lab assignment (Lab Assignment 1) will be available on
+  the web by Friday and will be due the following Friday at the end of lab; we'll follow
+  that pattern all quarter.  
+ (a) Choose a partner for this assignment and make sure the TA knows who your partner is. Remember that you'll choose a different partner for each lab assignment, so you'll work with this partner only this Friday. All your computer-based work on this (and every) lab assignment must follow the pair programming guidelines. 
+ (b) It's especially important that
+  you be able to receive electronic mail sent to your UCInet ID (you@uci.edu).
+    You may redirect this mail to another account of your choosing (see the
+    course reference sheet), but don't let that mail go unread.  Also, be
+    sure your UCInet account doesn't exceed its disk quota.  When it does, you
+    won't receive official Email.
+ With your partner, test this out by sending
+  each other Email at your UCI addresses. 
+ (c) Locate and launch the DrScheme
+  software. 
+ Each DrScheme window has two panes:  The bottom
+  half is the interactions (or transcript) window, where you can type Scheme
+  expressions and see the interpreter evaluate them immediately.  To type expressions or programs you
+  wish to save, you will use the top pane (the definitions window) and click "Run" (at the top right) to evaluate the code (this makes the code
+available for use in the interactions window below).
+ The DrScheme system actually includes many
+  different versions of Scheme.  We'll be using the How to Design Programs teaching languages, a graduated series of languages that build up to full
+  Scheme step by step.  (One might wonder why it's necessary to take these
+  "baby steps"; the answer is that by restricting the language features
+  to those that a student needs at the moment, DrScheme can provide error
+  messages that describe the actual problem more clearly.  Programming language
+  error messages are notoriously inaccurate. The compiler is just a computer
+  program, so it can't know for sure what the programmer intended when
+  it finds something wrong. But with these different language levels, DrScheme
+  does better than most.)  We will start with the "Beginning Student"
+  language; if it's not the level currently installed (look for "Programming language"
+  in the lower pane), change it in the Language menu and click Run again.
+ (d) Experiment with DrScheme to get
+  familiar with it. One person "drives" (types); the other "navigates" (observes, questions, suggests); if you don't know what this is about, go back and read the pair programming guidelines.
+ Try evaluating some expressions, like (*
+  3 4 5) and (expt 2
+    5) and (gcd
+      15 230).  (In
+        DrScheme, calculating greatest common divisors is predefined (built in)). 
+ Type in some definitions of symbols in the
+  interactions window, like (define number-of-students
+    31) and (define
+      number-of-staff 2) and then try (+
+        number-of-students number-of-staff).
+          
+ (e) The "driver" and "navigator" should switch roles now. 
+The factorial function (written
+  in mathematical notation with an exclamation point, so "n factorial" would be n!)
+  is used in calculating how many ways there are to arrange things (like the number of different ways to arrange five students in a row).  The value
+  of n! is n * (n-1) * (n-2) * ... * 1, so 5!
+  = 5 * 4 * 3 * 2 * 1 = 120.
+ Type the following function definition into
+  the definitions window.  Actually do the typing so you can get used to the
+  way it works; don't just copy and paste.  (We'll go over the details
+  of this code in class some time soon; for now, this is just a typing exercise
+and you shouldn't try too hard to understand how it works. If you're not used to typing programs, be careful to type accurately.)
+
+;; fact: number -> number
+;; Compute n! (n factorial).
+(define fact
+  (lambda (n)
+    (cond
+      ((<= n 0)  1 )   ; 0! is 1 by definition
+      (else (* n (fact (- n 1)))))))
+
+Notice how the environment indents and highlights blocks of code so you don't get the parentheses confused.
+ Don't forget to click Run.  Now try evaluating
+  expressions like (fact 5), (fact 50), (fact 120), and (fact 500).
+      Next, evaluate (fact (fact
+        5)).  Scheme can handle long numbers
+          effortlessly, but any computer is finite; what do you think might happen
+          if you evaluate (fact (fact
+            50))?  You can try it, but you'll
+              have to stop the evaluation if you don't want to wait until the machine
+              finally runs out of memory.
+ Save a copy of the interactions window that
+  shows your work for this part (using Save Other and Save Interactions as
+  Text from the File menu).  A good name for the file would be lab1e.scm; stick with a naming pattern like this for the rest of the quarter.  It's fine if your interactions show false starts and mistakes; it's
+  also fine if you just produce a short, clean copy.  Edit the file to make
+  sure it includes your name and your partner's; submit this file via
+  Checkmate.
+ (f) Switch roles again.  Follow this pattern in all your lab work this quarter; we won't keep mentioning it.
+Scheme represents and manipulates numbers more flexibly than most programming languages, in part because it doesn't tie what the user sees to the way the hardware stores the number.
+What is the value produced by (/ pi 2)?
+  The result is prefixed by #i,
+    which signals "inexact representation"; this means that the decimal
+    number may be rounded off (as the value of pi would have to be). 
+ Enter this definition (you can copy and paste
+it into the definitions window):
+
+(define decimal-format
+  (lambda (num)
+    (string->number (number->string (exact->inexact num)))))
+
+Then evaluate (decimal-format
+  (/ pi 2)).  This gives you a more human-readable number, in case you need to produce polished
+    results.  (There are also ways to specify the precise number of digits, but
+  that's for another time.) Next,  evaluate (/ 4 3) and (+ 125 (/ 22 7)); DrScheme indicates that the results are repeating decimals with a bar over the repeating digits. Evaluate (/
+  (fact 5) (expt 7 2)); this result repeats, too, but not in a discernible pattern. Save a copy of the interactions window that shows your work for this part so far.
+ Now, go to the Language menu, select Choose
+  Language, and click Show Details.  Then select Mixed Fractions.
+  Next, evaluate again the four expressions above. These results, in fractional form, are not what we expect
+    to see on a computer, but they're useful in further calculations because
+    nothing is lost by rounding off to a decimal representation.  Try some other
+    divisions.
+ Save a copy of the interactions window that
+  shows your work for this second part, following the instructions in part (e) above.  Notice that the fractions in the file are saved in a slightly different form than the one DrScheme uses in the interactions window. Combine both files for this part into one, remembering to include both partners' names, and submit the file via Checkmate.
+ (g) Remember that each partner must
+  complete a partner evaluation form and submit it individually.  Do this
+  by connecting to eee.uci.edu and choosing the Survey tool for ICS H21. Make sure you know your partner's name, first and last, so you can evaluate the right person. Please complete your evaluation
+    by the end of the day on Friday, or Saturday morning at the latest.  It
+    only takes a couple of minutes and not doing it hurts your participation score.
+What to turn in: Submit via Checkmate the interactions (transcripts) for parts (e) and  (f) above. It would be an excellent idea to go back and re-read parts (e) and (f) carefully now, to make sure you've completed all the steps specified. Also remember that each student must complete a partner evaluation form by logging in to eee.uci.edu and selecting the Survey tool; these evaluations contribute to your class participation score. 
+ Based in part on ICS H21 and H22 assignments
+  by David G. Kay from Fall 2001 and earlier; modified by David G. Kay, Fall
+  2002, Fall 2003,  Fall 2004, Fall 2006 (with Alex Thornton), and Fall 2007.
+
+David G. Kay, kay@uci.edu
+
+Wednesday, September 23, 2009 11:24 PM
+
+ 
+
+

@@ -1,0 +1,207 @@
+http://sli.ics.uci.edu/Pubs/Pubs
+
+
+
+SLI | Pubs / Publications 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Pubs /
+Publications
+
+
+2010
+"Understanding Errors in Approximate Distributed Latent Dirichlet Allocation"; Ihler, Newman; IEEE Trans. Knowledge Data Engineering, to appear. (Preliminary version, 2009: TR-09-06, PDF)
+[ Abstract ] |[ BibTeX ] | [ PDF ]
+
+"Nonparametric Belief Propagation"; Sudderth, Ihler, Isard, Freeman, Willsky; Communications of the ACM 53(10), Oct. 2010 pp. 95-103.
+[ Abstract ] |[ BibTeX ] | [  Link ]
+
+"Negative Tree-reweighted Belief Propagation"; Liu, Ihler; Uncertainty in Artificial Intelligence (UAI), July 2010
+[ Abstract ] |[ BibTeX ] | [ PDF ]
+
+"Covering Trees and Lower Bounds on Quadratic Assignment"; Yarkony, Fowlkes, Ihler; Computer Vision & Pattern Recognition (CVPR), June 2010
+[ Abstract ] |[ BibTeX ] | [ PDF ]
+
+"Particle Filtered MCMC-MLE with Connections to Contrastive Divergence"; Asuncion, Liu, Ihler, Smyth; Int'l Conf on Machine Learning (ICML), June 2010
+[ Abstract ] |[ BibTeX ] | [ PDF ]
+
+"Learning with Blocks: Composite Likelihood and Contrastive Divergence"; Asuncion, Liu, Ihler, Smyth; AI & Statistics (AISTATS), April 2010
+[ Abstract ] |[ BibTeX ] | [ PDF ]
+
+"Estimating Replicate Time-Shifts Using Gaussian Process Regression"; Liu, Lin, Anderson, Smyth, Ihler; Bioinformatics 26(6), Mar. 2010, pp. 770-776; doi:10.1093/bioinformatics/btq022
+[ Abstract ] |[ BibTeX ] | [  Link ]
+
+2009
+"Particle-Based Variational Inference for Continuous Systems"; Ihler, Frank, Smyth; Neural Information Processing Systems, Dec. 2009
+[ Abstract ] |[ BibTeX ] | [ PDF ]
+
+"Bayesian detection of non-sinusoidal periodic patterns in circadian expression data"; Chudova, Ihler, Lin, Andersen, Smyth; Bioinformatics 25(23), Dec. 2009, pp. 3114-3120; doi: 10.1093/bioinformatics/btp547.
+[ Abstract ] |[ BibTeX ] | [  Link ]
+
+"Bounding Sample Errors in Approximate Distributed Latent Dirichlet Allocation"; Ihler, Newman; ICS Technical Report 09-06, Oct. 2009.
+[ Abstract ] |[ BibTeX ] | [ PDF ]
+
+"Adaptive Updates for MAP Configurations with Applications to Bioinformatics"; Acar, Ihler, Mettu, Sumer; in IEEE Statistical Signal Processing (SSP), Sept. 2009
+[ Abstract ] |[ BibTeX ] | [ PDF ]
+
+"A Low Density Lattice Decoder via Non-parametric Belief Propagation"; Bickson, Ihler, Avissar, Dolev; Allerton Conference on Communication, Control, and Computing, Sept. 2009
+[ Abstract ] |[ BibTeX ] | [ PDF ]
+
+"Circadian Clock Genes Contribute to the Regulation of Hair Follicle Cycling"; Lin, Kumar, Geyfman, Chudova, Ihler, Smyth, Paus, Takahashi, Andersen; PLoS Genetics, 5(7):e1000573. July 2009. doi:10.1371/journal.pgen.1000573
+[ Abstract ] |[ BibTeX ] | [ PDF ] | [  Link ]
+
+"Particle Belief Propagation"; Ihler, McAllester; in Twelfth International Conference on Artificial Intelligence and Statistics (AIStats), April 2009.
+[ Abstract ] |[ BibTeX ] | [ PDF ] 
+
+2008
+"Probabilistic Analysis of a Large Scale Urban Traffic Sensor Data Set"; Hutchins, Ihler, Smyth; in Second International Workshop on Knowledge Discovery from Sensor Data 2008.
+[ Abstract ] |[ BibTeX ]| [ PDF ] | [ PS ]
+
+"Fast Collapsed Gibbs Sampling for Latent Dirichlet Allocation"; Porteous, Newman, Ihler, Asuncion, Smyth, Welling; in ACM Knowledge Discovery and Data Mining (KDD) 2008.
+[ Abstract ] | [ BibTeX ]| [ PDF ]
+
+"Adaptive Inference in General Graphical Models"; Acar, Ihler, Mettu, Sumer; in Uncertainty in Artificial Intelligence (UAI) 2008.
+[ Abstract ] |[ BibTeX ] | [ PDF ] | [ PS ]
+
+2007
+"Graphical Models for Statistical Inference and Data Assimilation"; Ihler, Kirshner, Ghil, Robertson, Smyth; Physica D: Nonlinear Phenomena, June 2007. (Survey of graphical model methods)
+[ Abstract ] |[ BibTeX ] | [ PDF ] | [  Link ]
+
+"Learning to detect events with Markov-modulated Poisson processes"; Ihler, Hutchins, Smyth; ACM Transactions on Knowledge Discovery from Data, Vol 1 Issue 3, Dec. 2007.
+[ Abstract ] |[ BibTeX ] | [  Link ]
+
+"Modeling Count Data from Multiple Sensors: A Building Occupancy Model"; Hutchins, Ihler, Smyth; in Computational Advances in Multisensor Adaptive Processing (CAMSAP) 2007.
+[ Abstract ] | [ BibTeX ] | [ PDF ] | [ PS ]
+
+"Adaptive Bayesian Inference"; Acar, Ihler, Mettu, Sumer; in Neural Information Processing Systems (NIPS) 2007.
+[ Abstract ] | [ BibTeX ] | [ PDF ] | [ PS ]
+
+"Accuracy Bounds for Belief Propagation"; Ihler; in Uncertainty in Artificial Intelligence (UAI) 2007.
+[ Abstract ] |[ BibTeX ] | [ PDF ] | [ PS ]
+
+"Graphical Models and Fusion in Sensor Networks"; Cetin, Chen, Fisher, Ihler, Kreidl, Moses, Wainwright, Williams, Willsky; in Wireless Sensor Networks: Signal Processing and Communications, Wiley 2007.
+[ Abstract ] | [ BibTeX ] | [  Link ]
+
+2006
+"Distributed Fusion in Sensor Networks"; Cetin, Chen, Fisher, Ihler, Moses, Wainwright, Willsky; IEEE Signal Processing Magazine, July 2006.
+[ Abstract ] |[ BibTeX ] | [ PDF ]
+
+"Gibbs Sampling for (Coupled) Infinite Mixture Models in the Stick Breaking Representation"; Porteous, Ihler, Smyth, Welling; in Uncertainty in Artificial Intelligence (UAI) 2006.
+[ Abstract ] |[ BibTeX ] | [ PDF ]
+
+"Adaptive Event Detection with Time-Varying Poisson Processes"; Ihler, Hutchins, Smyth; in Knoweldge Discovery and Data Mining (KDD) 2006.
+[ Abstract ] |[ BibTeX ] | [ PDF ] | [ PS ]
+
+"Learning Time-Intensity Profiles of Human Activity Using Nonparametric Bayesian Models"; Ihler, Smyth; in Neural Information Processing Systems (NIPS) 2006.
+[ Abstract ] |[ BibTeX ] | [ PDF ] | [ PS ]
+
+2005
+"Inference in Sensor Networks: Graphical Models and Particle Methods"; Ihler; Ph.D. Thesis, MIT, 2005
+[ Abstract ] | [ BibTeX ] | [ PDF ] | [ PS (zipped) ]
+
+"Loopy Belief Propagation: Convergence and Effects of Message Errors"; Ihler, Fisher, Willsky; Journal of Machine Learning Research, May 2005. (Full version of NIPS'04 paper)
+[ Abstract ] |[ BibTeX ] | [ PDF ] | [ PS ]
+
+"Nonparametric Belief Propagation for Sensor Network Self-Calibration"; Ihler, Fisher, Moses, Willsky; Journal of Selected Areas in Communication, Apr. 2005. (Expanded version of IPSN/ICASSP papers)
+[ Abstract ] |[ BibTeX ] | [ PDF ] | [ PS ]
+
+"Particle Filtering Under Communications Constraints"; Ihler, Fisher, Willsky; in Statistical Signal Processing (SSP) 2005.
+[ Abstract ] |[ BibTeX ] | [ PDF ] | [ PS ]
+
+"Estimating Dependency and Significance for High-Dimensional Data"; Siracusa, Tieu, Ihler, Fisher, Willsky; in ICASSP 2005.
+[ Abstract ] |[ BibTeX ] | [ PDF ]
+
+2004
+"An Overview of Fast Multipole Methods"; Ihler; 2004 (MIT Area Exam)
+[ Abstract ] | [ BibTeX ] | [ PDF ] | [ PS ]
+
+"Nonparametric Hypothesis Tests for Statistical Dependency"; Ihler, Fisher, Willsky; IEEE Transactions on Signal Processing, Aug. 2004.
+[ Abstract ] |[ BibTeX ] | [ PDF ]
+
+"Message Errors in Belief Propagation"; Ihler, Fisher, Willsky; in Neural Information Processing Systems (NIPS) 2004. (Outstanding Student Paper Award)
+[ Abstract ] |[ BibTeX ] | [ PDF ] | [ PS ]
+
+"Nonparametric Belief Propagation for Sensor Network Self-Calibration"; Ihler, Fisher, Moses, Willsky; in ICASSP 2004.
+[ Abstract ] |[ BibTeX ] | [ PDF ] | [ PS ]
+
+"Nonparametric Belief Propagation for Self-Calibration in Sensor Networks"; Ihler, Fisher, Moses, Willsky; in Information Processing in Sensor Networks (IPSN) 2004. (Best Student Paper Award)
+[ Abstract ] |[ BibTeX ] | [ PDF ] | [ PS ]
+
+"Communications-Constrained Inference"; Ihler, Fisher, Willsky; LIDS Tech Report 2601 (Lossless and lossy encoding of sample-based density estimates)
+[ Abstract ] | [ BibTeX ] | [ PDF ]
+
+2003
+"Nonparametric Belief Propagation"; Sudderth, Ihler, Freeman, Willsky; in Computer Vision and Pattern Recognition (CVPR) 2003. (also AI Memo # AIM-2002-020)
+[ Abstract ] |[ BibTeX ] | [ PDF ] | [ PS ]
+
+"Efficient Multiscale Sampling from Products of Gaussian Mixtures"; Ihler, Sudderth, Freeman, Willsky; in Neural Information Processing Systems (NIPS) 2003.
+[ Abstract ] |[ BibTeX ] | [ PDF ] | [ PS ]
+
+"Hypothesis Testing over Factorizations for Data Association"; Ihler, Fisher, Willsky; in Information Processing in Sensor Networks (IPSN) 2003.
+[ Abstract ] |[ BibTeX ] | [ PDF ] | [ PS ]
+
+2002
+"Nonparametric Belief Propagation"; Sudderth, Ihler, Freeman, Willsky; LIDS Technical Report # 2551, Aug. 2002.
+[ Abstract ] |[ BibTeX ] | [ PDF ] | [ PS ]
+
+2001
+"Nonparametric Estimators for Online Signature Authentication"; Ihler, Fisher, Willsky; in ICASSP 2001.
+[ Abstract ] |[ BibTeX ] | [ PDF ] | [ PS ]
+
+2000
+"Maximally Informative Subspaces: Nonparametric Estimation for Dynamical Systems"; Ihler; Masters' Thesis, MIT, 2000
+[ Abstract ] | [ BibTeX ] | [ PDF ] | [ PS (zipped) ]
+
+1999
+"Learning Informative Statistics: A Nonparametric Approach"; Fisher, Ihler, Viola; in Neural Information Processing Systems (NIPS) 1999.
+[ Abstract ] |[ BibTeX ] | [ PDF ] | [ PS ]
+
+
+
+
+
+
+ Last modified December 08, 2010, at 07:15 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

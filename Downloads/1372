@@ -1,0 +1,10 @@
+http://plrg.ics.uci.edu/publications/160.bib
+@inproceedings{key,
+ author = {Brian Demsky and Alokika Dash},
+ title = {Bristlecone: A Language for Robust Software Systems},
+ booktitle = {Proceedings of the 22nd European Conference on Object-Oriented Programming (Lecture Notes in Computer Science)},
+ pages = {490--515},
+ location = {Paphos, Cyprus},
+ month = {July},
+ year = {2008}
+}

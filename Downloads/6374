@@ -1,0 +1,49 @@
+http://www.ics.uci.edu/~kay/courses/i42/wildride
+
+
+
+
+
+Homework Assignments
+
+
+
+
+
+
+Informatics 42 • Winter 2012 • David G. Kay
+• UC Irvine
+
+MR. KAY'S WILD RIDE
+CASE STUDY PROGRAM
+
+We will spend some time this quarter looking
+at a program that simulates customers and rides at a theme park.  Eventually
+we will have the following available:
+
+
+A description of the problem
+
+
+The Python source code
+
+
+
+
+
+A simple, sample customers.txt
+file; a longer file named customers2.txt;
+a really long file named 1000customers.txt
+
+
+A simple, sample rides.txt
+file; a longer file named rides2.txt
+
+
+
+
+This case study was designed by David G. Kay
+and Ping Chen and implemented by Ping Chen in 2004 and 2005.  Gabriela Marcu
+made many enhancements in 2005 and 2006. Alex Thorton made corrections in 2007. Joel Ross ported the code to Python in 2012.
+ 
+

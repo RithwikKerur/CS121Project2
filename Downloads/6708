@@ -1,0 +1,461 @@
+https://www.stat.uci.edu/oc_covid_model/index.html
+
+
+
+
+
+
+Orange County, CA COVID Situation Report Apr 21, 2021 - May 26, 2021
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+UC Irvine COVID Modeling
+
+
+
+
+
+
+     
+    Latest Report
+  
+
+
+
+
+     
+    City Reports
+     
+    
+
+
+
+Anaheim
+
+
+Irvine
+
+
+Santa Ana
+
+
+
+
+
+
+     
+    Archived Reports
+     
+    
+
+
+
+Apr 21 - May 26
+
+
+Apr 14 - May 19
+
+
+Apr  7 - May 12
+
+
+Mar 31 - May  5
+
+
+
+
+
+
+     
+    About
+  
+
+
+
+
+     
+    License
+  
+
+
+
+
+
+
+     
+    Source code
+  
+
+
+
+
+
+
+Orange County, CA COVID Situation Report Apr 21, 2021 - May 26, 2021
+
+
+
+ workflowr 
+
+
+
+
+
+Summary
+
+
+ Checks  
+
+
+Past versions
+
+
+
+
+
+Last updated: 2021-06-02
+
+
+Checks:  6  1
+
+
+Knit directory: uci_covid_modeling2/  
+
+
+This reproducible R Markdown analysis was created with workflowr (version 1.6.2.9000). The Checks tab describes the reproducibility checks that were applied when the results were created. The Past versions tab lists the development history.
+
+
+
+
+
+
+
+
+  R Markdown file: uncommitted changes 
+
+
+
+
+The R Markdown is untracked by Git. To know which version of the R Markdown file created these results, you’ll want to first commit it to the Git repo. If you’re still working on the analysis, you can ignore this warning. When you’re finished, you can run wflow_publish to commit the R Markdown file and build the HTML.
+
+
+
+
+
+
+  Environment: empty 
+
+
+
+
+Great job! The global environment was empty. Objects defined in the global environment can affect the analysis in your R Markdown file in unknown ways. For reproduciblity it’s best to always run the code in an empty environment.
+
+
+
+
+
+
+  Seed: set.seed(20201209) 
+
+
+
+
+The command set.seed(20201209) was run prior to running the code in the R Markdown file. Setting a seed ensures that any results that rely on randomness, e.g. subsampling or permutations, are reproducible.
+
+
+
+
+
+
+  Session information: recorded 
+
+
+
+
+Great job! Recording the operating system, R version, and package versions is critical for reproducibility.
+
+
+
+
+
+
+  Cache: none 
+
+
+
+
+Nice! There were no cached chunks for this analysis, so you can be confident that you successfully produced the results during this run.
+
+
+
+
+
+
+  File paths: relative 
+
+
+
+
+Great job! Using relative paths to the files within your workflowr project makes it easier to run your code on other machines.
+
+
+
+
+
+
+  Repository version: 2a1089e 
+
+
+
+
+
+Great! You are using Git for version control. Tracking code development and connecting the code version to the results is critical for reproducibility.
+
+
+The results in this page were generated with repository version 2a1089e. See the Past versions tab to see a history of the changes made to the R Markdown and HTML files.
+
+
+Note that you need to be careful to ensure that all relevant files for the analysis have been committed to Git prior to generating the results (you can use wflow_publish or wflow_git_commit). workflowr only checks the R Markdown file, but you know if there are other scripts or data files that it depends on. Below is the status of the Git repository when the results were generated:
+
+
+Ignored files:
+    Ignored:    .DS_Store
+    Ignored:    .Rhistory
+    Ignored:    .Rproj.user/
+    Ignored:    analysis/.DS_Store
+    Ignored:    code/.DS_Store
+    Ignored:    code/.Rhistory
+    Ignored:    code/models/.DS_Store
+    Ignored:    code/models/model_death_reporting_delay/.DS_Store
+    Ignored:    code/models/model_death_reporting_delay/.Rhistory
+    Ignored:    code/models/model_no_reporting_delay/.DS_Store
+    Ignored:    code/results/.DS_Store
+    Ignored:    code/results/2020-11-01_2020-12-06/.DS_Store
+    Ignored:    code/results/2020-11-08_2020-12-13/.DS_Store
+    Ignored:    code/results/2020-11-15_2020-12-20/.DS_Store
+    Ignored:    code/results/2020-11-22_2020-12-27/.DS_Store
+    Ignored:    code/results/2020-12-02_2021-01-06/.DS_Store
+    Ignored:    code/results/2020-12-16_2021-01-20/.DS_Store
+    Ignored:    code/results/2020-12-23_2021-01-27/.DS_Store
+    Ignored:    code/results/2021-02-10_2021-03-17/.DS_Store
+    Ignored:    code/results/2021-02-17_2021-03-24/.DS_Store
+    Ignored:    data/.DS_Store
+    Ignored:    data/from_OCHCA/
+    Ignored:    renv/
+
+Untracked files:
+    Untracked:  analysis/2021-04-21_2021-05-26.Rmd
+    Untracked:  analysis/2021-04-21_2021-05-26_anaheim.Rmd
+    Untracked:  analysis/2021-04-21_2021-05-26_irvine.Rmd
+    Untracked:  analysis/2021-04-21_2021-05-26_santa-ana.Rmd
+    Untracked:  code/results/2021-04-21_2021-05-26/
+
+Unstaged changes:
+    Modified:   analysis/_site.yml
+    Modified:   code/process_ochca_data.R
+    Modified:   data/death_delay_ecdf.rds
+    Modified:   data/oc_city_data.csv
+    Modified:   data/oc_data.csv
+
+
+
+Note that any generated files, e.g. HTML, png, CSS, etc., are not included in this status report because it is ok for generated content to have uncommitted changes.
+
+
+
+
+
+
+
+
+
+There are no past versions. Publish this analysis with wflow_publish() to start tracking its development.
+
+
+
+
+
+
+Orange County, CA COVID-19 Situation Report, May 31, 2021
+
+Report period: Apr 21 - May 26 (we don’t use the most recent data due to reporting delays)
+The goal of this report is to inform interested parties about dynamics of SARS-CoV-2 spread in Orange County, CA and to predict epidemic trajectories. Methodological details are provided below and in the accompanying manuscript. We are also contributing to COVID Trends by UC Irvine project that provides data visualizations of California County trends across time and space.
+
+
+
+
+
+
+Summary (statements are made assuming 95% credibility levels)
+
+The number of reported cases (253,326, shown as black bars in the top-middle plot above) underestimates the actual number of infections by a factor that ranges between 3.4 and 9.9. This means that we estimate that the total number of infections which occurred by May 26, 2021 is between 862,704 and 2,517,046. We estimate that the total number of infections will be between 894,826 and 2,542,937 on June 25, 2021.
+Prevalence (number of infectious individuals at any time point) is decreasing and projected to be between 956 and 34,454 on June 25, 2021.
+Somewhere between 0.02% and 0.41% of all infections (not cases!) result in death.
+Basic reproductive number (\(R_0\)), defined as the average number of secondary infections one infectious individual produces in a completely susceptible population, is estimated to be between 0.5 and 2.5.
+Effective reproductive number (\(R_e\)), defined as its basic counterpart above, but allowing for some fraction of the population to be removed (recovered or deceased), is estimated to be between 0.2 and 0.8 on June 04, 2021. We want to keep \(R_e < 1\) in order to control virus transmission.
+
+Note: We previously created a report using a similar model with a different implementation. Archives of the old report can be found here.
+
+
+
+Abbreviated technical details (optional)
+Our approach is based on fitting a mechanistic model of SARS-CoV-2 spread to multiple sources of surveillance data. A more fleshed out method description is in the manuscript.
+
+Model inputs
+Our method takes three time series as input: daily new tests, case counts, and deaths. However, we find daily resolution to be too noisy due to delay in testing reports, weekend effect, etc. So we aggregated/binned the three types of counts in 3 day intervals. These aggregated time series are shown below.
+
+
+
+Model structure
+We assume that all individuals in Orange County, CA can be split into 6 compartments: S = susceptible individuals, E = infected, but not yet infectious individuals, \(\text{I}_\text{e}\) = individuals at early stages of infection, \(\text{I}_\text{p}\) = individuals at progressed stages of infection (assumed 20% less infectious than individuals at the early infection stage), R = recovered individuals, D = individuals who died due to COVID-19. Possible progressions of an individual through the above compartments are depicted in the diagram below.
+
+
+
+Past versions of model_figure.svg
+
+
+
+
+
+
+
+
+Version
+
+
+Author
+
+
+Date
+
+
+
+
+
+
+dcffe20
+
+
+Damon Bayer
+
+
+2020-12-16
+
+
+
+
+
+
+Mathematically, we assume that dynamics of the proportions of individuals in each compartment follow a set of ordinary differential equations corresponding to the above diagram. These equations are controlled by the following parameters:
+
+Basic reproductive number (\(R_0\))
+mean duration of the latent period
+mean duration of the early infection period
+mean duration of the progressed infection period
+probability of transitioning from progressed infection to death, rather than to recovery (i.e., IFR)
+
+We fit this model to data by assuming that case counts are noisy realizations of the actual number of individuals progressing from \(\text{I}_\text{e}\) compartment to \(\text{I}_\text{p}\) compartment. Similarly we assume that observed deaths are noisy realizations of the actual number of individuals progressing from \(\text{I}_\text{p}\) compartment to \(\text{D}\) compartment. A priori, we assume that death counts are significantly less noisy than case counts. We use a Bayesian estimation framework, which means that all estimated quantities receive credible intervals (e.g., 80% or 95% credible intervals). Width of these credible intervals encode the amount of uncertainty that we have in the estimated quantities.
+
+
+Posterior Predictive Plots
+
+
+
+
+ Session information
+
+
+
+R version 4.0.3 (2020-10-10)
+Platform: x86_64-apple-darwin17.0 (64-bit)
+Running under: macOS Big Sur 10.16
+
+Matrix products: default
+BLAS:   /Library/Frameworks/R.framework/Versions/4.0/Resources/lib/libRblas.dylib
+LAPACK: /Library/Frameworks/R.framework/Versions/4.0/Resources/lib/libRlapack.dylib
+
+locale:
+[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+ [1] patchwork_1.1.1   coda_0.19-4       cowplot_1.1.1     stemr_0.2.0      
+ [5] glue_1.4.2        scales_1.1.1      tidybayes_2.3.1   forcats_0.5.1    
+ [9] stringr_1.4.0     dplyr_1.0.6       purrr_0.3.4       readr_1.4.0      
+[13] tidyr_1.1.3       tibble_3.1.2      ggplot2_3.3.3     tidyverse_1.3.0  
+[17] fs_1.5.0          lubridate_1.7.9.2
+
+loaded via a namespace (and not attached):
+ [1] httr_1.4.2           sass_0.3.1           jsonlite_1.7.2      
+ [4] modelr_0.1.8         bslib_0.2.4          assertthat_0.2.1    
+ [7] distributional_0.2.2 highr_0.9            ggdist_2.4.0        
+[10] cellranger_1.1.0     yaml_2.2.1           pillar_1.6.1        
+[13] backports_1.2.1      lattice_0.20-41      arrayhelpers_1.1-0  
+[16] digest_0.6.27        RColorBrewer_1.1-2   promises_1.1.1      
+[19] rvest_0.3.6          colorspace_2.0-1     htmltools_0.5.1.1   
+[22] httpuv_1.5.5         plyr_1.8.6           pkgconfig_2.0.3     
+[25] broom_0.7.6          svUnit_1.0.3         haven_2.4.1         
+[28] whisker_0.4          later_1.1.0.1        git2r_0.28.0        
+[31] generics_0.1.0       farver_2.1.0         ellipsis_0.3.2      
+[34] withr_2.4.2          cli_2.5.0            magrittr_2.0.1      
+[37] crayon_1.4.1         readxl_1.3.1         evaluate_0.14       
+[40] fansi_0.4.2          xml2_1.3.2           tools_4.0.3         
+[43] hms_1.1.0            lifecycle_1.0.0      odeintr_1.7.1       
+[46] munsell_0.5.0        reprex_1.0.0         compiler_4.0.3      
+[49] jquerylib_0.1.3      rlang_0.4.11         grid_4.0.3          
+[52] rstudioapi_0.13      labeling_0.4.2       rmarkdown_2.8       
+[55] gtable_0.3.0         DBI_1.1.1            R6_2.5.0            
+[58] zoo_1.8-8            knitr_1.33           utf8_1.2.1          
+[61] workflowr_1.6.2.9000 rprojroot_2.0.2      stringi_1.6.2       
+[64] Rcpp_1.0.6           vctrs_0.3.8          dbplyr_2.1.0        
+[67] tidyselect_1.1.1     xfun_0.23           
+
+
+
+
+
+
+
+
+
+
+
+
+
+

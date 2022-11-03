@@ -1,0 +1,8 @@
+http://plrg.ics.uci.edu/publications/90.bib
+@techreport{key,
+ author = {Brian Demsky and Martin C. Rinard},
+ title = {Data Structure Repair Using Goal-Directed Reasoning},
+ number = {MIT LCS Technical Report 950},
+ month = {May},
+ year = {2004}
+}

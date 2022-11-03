@@ -1,0 +1,222 @@
+https://ngs.ics.uci.edu/when-20
+
+
+
+
+
+
+
+
+When 2.0 – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				When 2.0    			
+
+
+Calendars are going to be a popular base for many interesting forms of mesh-ups.  At When 2.0 it was obvious that many creative people are thinking about utilizing calendars in interesting ways.    Starting from close link-ups between e-mail and calendars to providing mesh-ups leading to personal, group, corporate, or specific types of events can be presented and explored on these calendars.  Google and Yahoo made maps very popular.  Maps are definitely a lot more rich environment for mesh-ups because there is a large volume of underlying data and information provided in maps.  By providing an environment to take any data that could be related to geography, Google and Yahoo opened doors for many innovative applications.
+There are two major problems in making calendars become a popular infrastructure for combining different time based information data sources in a uniform presentation.  The first is that there is no company at this time which is ready to provide what Yahoo and Google did.  Equally important is the fact that simple calendars are not as attractive an infrastructure as maps are.  In fact, calendars are commonly used to represent events and these events have a strong location component.  Calendars must be combined with maps to provide correct event infrastructure for interesting applications.  
+How can one combine maps and calendars in the same structure?  Maps are two-dimensional representations (of three dimensional world) and hence could be easily presented on the screen (or paper).  Calendars are also two-dimensional representation but they are really one dimensional.  Time is one dimensional.  But time has some unique characteristics.  It is continuously changing â€“ it is dynamic.  How to capture this in conjunction with maps?  This will require carefully thought out visualization approaches.  One possibility is to represent time with time â€“ as the time axis at a point of map.  But this will not allow us to manipulate and explore time as we are used to â€“ by going backwards and forwards in space.  Maybe this could be done by using third dimension, color, and similar approaches that will allow us to explore the dimension as we may want.
+One possibility is to simply consider spatio-temporal space (in our current context) as three dimensional space with two dimensions for maps and one for time.  This will allow us to freeze time and let us explore this axis as may be required.  It may be possible to consider any other attributes that we may want to represent as either the fourth dimension or color.    This will mean that we start utilizing rendering approaches suitable for emphasizing specific characteristics of the application in the given context as may be required.  I definitely donâ€™t like to complexities of this representation, but it is clear that for effective representation of events we may require some structure that will allow us to simplify and present spatio-temporal nature of events in some intuitive and simple manner.
+
+
+
+By Ramesh |
+    				December 6, 2005 |
+    				             		Technical Thoughts |
+             	 
+    				             		4 Comments |
+             	 		          				
+    			
+
+
+← The Next Google
+Time is of the essence →
+
+
+
+			4 thoughts on “When 2.0”		
+
+
+
+
+Andrew Sutherland December 7, 2005 at 12:34 am 
+
+One amusing way to run with the “spatio-temporal space” would be to mimic depth-of field for times near ‘now’ with gaussian blurs.  So something that will happen very soon on the map would be slightly blurred, while something further in the future would be more blurred and dispersed across the map.  As you swept forward along the time axis, events would effectively form as if out of a cloud and then fade away (no point making the blur ambiguous) as they expire.
+This seems like it would nicely allow for your eye to pre-select only those graphics with sharp edges while providing an innate sense of activity in a specific geographic area, not to mention some nice hints about future traffic.  Also, it should leave color and node shapes for other uses, such as categorization of events.
+Not sure how performance would fare.  SVG supports gaussian blurs, but I don’t hold out hope that it would be snappy enough to be ooh-aah compelling, nor supported by browsers other than the recent Firefox release (assuming it supports filters).  I suppose constrained time thresholds and constrained node/icon sets would allow for a reasonable bandwidth based approach though.
+
+
+
+
+
+
+
+
+Ramesh  Post authorDecember 7, 2005 at 8:13 am 
+
+This could be worth exploring.  Could be a nice project in a visualization class.
+
+
+
+
+
+
+
+
+Bageshree Shevade December 7, 2005 at 9:06 am 
+
+Dear Dr. Jain,
+I was just reading this post and thought of giving  a pointer to a paper that was presented in ACM Multimedia (NY) in 2004.  It is titled “Networked Multimedia Event Exploration” and is about interactive multimedia framework that enables a group of friends to effectively visualize and browse a shared media collection.
+One of the visualization scheme there is the spatio-temporal visualization.
+
+
+
+
+
+
+
+
+Ramesh  Post authorDecember 7, 2005 at 11:41 am 
+
+Thanks for pointing to that paper by Hari Sundaram.  There are many efforts for similar kind of visualization in different communities.  The problem is that each of these are good for specific applications.  I am not aware of any that could be scaled to practical applications involving large volume of data and would work in reasonable time.  It would be nice to see such efforts and demonstrations.
+
+
+
+
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

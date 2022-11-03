@@ -1,0 +1,174 @@
+https://ngs.ics.uci.edu/creating-health-persona
+
+
+
+
+
+
+
+
+Creating Health Persona – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Creating Health Persona    			
+
+
+We address more detailed aspects of observing and analyzing all data sources to get objective self health information   A very thought provoking book called Creative Destruction of Medicine by Eric Topol paints a very data oriented future of medicine.  Future of healthcare is likely to utilize an individualâ€™s lifestyle information with personal genomics to provide individual-focused health services.
+First step in building persona is data acquisition on aspects of personâ€™s daily life. Many lifelogging systems collect significant volume of data, but lack an explicit description of potential value for users, focusing instead on technical challenges.  We simply lack effective techniques for Analyzing information that involves examining it in ways that reveal the relationships, patterns, trends, etc. that would be valuable for enhancing userâ€™s life. 
+Our goal is building the health persona, by emphasizing on analysis and correlation of different data streams as different types of events occurring in personâ€™s life.  For discussion in the following, we consider correlation among 4 different types of events: life events, food events, fitness events, and body parameters events.  For creating these 4  important event streams, multiple sensors may contribute to each of these streams.  As shown in figure below (Thanks Laleh for a nice rendering of the vague ideas that I discussed with you), life events can be derived from different sources of information such as personal calendar, Facebook, LinkedIn and Foursquare accounts, smart phone apps and GPS.  Fitness event stream may combine data from NIKE Fuel, FitBit, Basis, programs like Moves on smart phones and other similar sources.  
+For each type of event, one may collect data from different sensors and classify that data into meaningful events in each of the 4 data streams.   Different types of events may be determined using a model to classify them and determine their time intervals. For example fitness events may be, no activity to vigorous activity. And each event may be determined by considering some activity per minute as determined by a specific sensor.  Moreover, any of these event streams may be the result of the combination of multiple sensor streams.  For example, activity level may be determined by considering Nike Fuel, Fitbit, BASIS, and Jawbone.  Each of these measures activities differently, but these measurements are correlated to actual activity levels and are aggregated to correspond to and segment the timeline according to physical activity by a person.
+With these data stream the health persona is determined by combining these streams over a long period to gain insights about a person by correlating these event streams and drawing insights about a personâ€™s health.
+
+
+								Tagged on: Health Persona, Objective Health, Persona, Quantified Health 
+
+
+
+By Ramesh |
+    				March 3, 2013 |
+    				             		Technical Thoughts |
+             	 
+    				             		No Comments |
+             	 		          				
+    			
+
+
+← Creating Persona using data streams
+Focused MicroBlogs (FMBs): Going Beyond Twitter →
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

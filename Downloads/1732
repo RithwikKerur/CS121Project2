@@ -1,0 +1,131 @@
+http://sli.ics.uci.edu/Classes/2011S-271
+
+
+
+SLI | Classes / Introduction to Artificial Intelligence, CS271 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Classes /
+Introduction to Artificial Intelligence, CS271
+
+
+ CLOSED : 2011 OFFERING  
+
+Assignments and Exams:
+
+HW104/13/11Soln  
+HW204/25/11Soln  
+Midterm Soln  
+HW3,ZIP05/04/11   
+HW405/16/11Soln  
+HW505/27/11Soln  
+Final Soln  
+     
+Final06/06/1110:30-12:30  
+Discussion Page
+
+Bren Hall 1500, MWF 10-11am
+
+Introduction to artificial intelligence.
+CS271 is an introductory course to the elements and algorithms underlying the field of artificial intelligence (AI).
+AI includes subproblems relevant to many areas of research, including information theory, control, signal processing,
+optimization, operations research, natural language processing and computer vision.  CS271 will provide an introduction to the techniques of automated problem solving, including search, optimization and inference in deterministic and stochastic systems.
+
+As in previous years, the course will focus considerable time on deterministic constraints, logic, and search.  However, the inclusion and representation of uncertainty is critical in many modern aspects of AI, and will be introduced and discussed alongside deterministic versions of related problem types.
+
+Background. 
+The course is intended to be an introduction to artificial intelligence, and thus has few explicit requirements. Students are expected to be familiar with basic concepts from computer science (such as algorithmic complexity and logic); portions of the class will also include basic probability, and familiarity with programming may be helpful for some homeworks.
+
+Course format. 
+Three lectures per week. Homeworks due in class approximately every two weeks. Two exams (midterm and final). Grading: 40% homework, 25% midterm, 35% final.  Lowest homework score to be reduced to 25% of value.
+
+Office Hours.
+Office hours for the course are Monday 4-5pm, or by appointment.
+
+Collaboration.
+Discussion of the course concepts and methods among the students is encouraged; however, all work handed in should be completely your own.  In order to strike a balance, we'll use the "work product" rule: while discussing anything related to the homework, you should retain no work product created during the discussion.  In other words, you can meet and discuss the problems, describe the solution, etc., but then all parties must go away from the meeting with no record (written notes, code, etc.) from the meeting and do the homework problem on your own.  If you work on a whiteboard, just erase it when you're done discussing.  Don't show someone else your homework, or refer to it during the discussion, since by this policy you must then throw it away.
+
+Textbooks. 
+The required textbook for the course is Russel & Norvig, "Artificial Intelligence: A Modern Approach".  Lectures should follow the book fairly closely, with minor exceptions.  
+
+(Tentative) Schedule of Topics.
+ TopicsSlidesSuggested reading
+Week 1Class introduction; history of AI; AgentsSlides,LectureR&N Ch 1-2
+ Formalities of problem solving; state spacesSlides,LectureR&N Ch 3
+ Basics of searchSlides,LectureR&N Ch 3
+Week 2Search, heuristicsSlides,LectureR&N Ch 3
+ Informed search, A*Slides,LectureR&N Ch 4
+ A* continued; variantsSlides,LectureR&N Ch 4
+Week 3No class R&N Ch 6
+ Constraint satisfaction problemsSlides,LectureR&N Ch 6
+ CSPs continuedSlides,LectureR&N Ch 6
+Week 4CSPs continuedSlides,LectureR&N Ch 6
+ GamesSlides,LectureR&N Ch 5
+ GamesSlides,LectureR&N Ch 5
+Week 5Propositional logicSlides,LectureR&N Ch 7
+ Review; prop. logic cont'dSlides,Lecture
+ MIDTERM EXAM
+Week 6PL continuedSlides,LectureR&N Ch 7
+ First-order logicSlides,LectureR&N Ch 8,9
+ FOL continuedSlides,Lecture
+Week 7FOL inferenceSlides,Lecture
+ Planning 1Slides,LectureR&N Ch 10,11
+ Planning 2Lecture
+Week 8Probability & Bayesian NetworksSlides,LectureR&N Ch 13,14
+  Slides,Lecture
+ Bayes Nets 1Slides,Lecture
+Week 9Bayes Nets 2same slides, Lecture
+ Machine LearningSlides, LectureR&N Ch 18.1-4
+  Slides, Lecture
+Week 10Misc topics & reviewSlides, recording broken
+Final Exam06/06/2011Final exam
+
+
+
+
+
+
+ Last modified February 13, 2017, at 02:22 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

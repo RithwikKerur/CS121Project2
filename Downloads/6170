@@ -1,0 +1,208 @@
+https://cml.ics.uci.edu/aiml/page/9
+
+
+
+
+
+AI/ML Seminar Series | Center for Machine Learning and Intelligent Systems | Page 9
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+University of California, Irvine
+
+
+Menu
+Skip to content
+Home
+About CML
+
+About us
+News
+Contact Us
+
+
+People
+
+Faculty
+Alumni
+
+
+Events & Seminars
+
+AI/ML Seminar Series
+AI/ML Seminar Live Stream
+CML Distinguished Speakers
+ML Reading Group
+
+
+Education & Resources
+
+Courses
+Books
+
+
+UCI Machine Learning Archive
+Sponsors & Funding
+Subscribe to CML List
+ 
+
+
+
+
+
+
+AI/ML Seminar Series Standard 
+
+Weekly Seminar in AI & Machine LearningSponsored by Cylance
+
+
+
+
+
+
+
+Navigation
+
+‹Earlier
+Spring 2019 Later ›
+
+
+
+
+
+
+
+
+
+
+Apr 8
+No Seminar
+
+
+
+
+Apr 15Bren Hall 40111 pm
+Daeyun ShinPhD CandidateDept of Computer ScienceUC Irvine
+Multi-layer Depth and Epipolar Feature Transformers for 3D Scene ReconstructionIn this presentation, I will present our approach to the problem of automatically reconstructing a complete 3D model of a scene from a single RGB image.  This challenging task requires inferring the shape of both visible and occluded surfaces.  Our approach utilizes viewer-centered, multi-layer representation of scene geometry adapted from recent methods for single object shape completion.  To improve the accuracy of view-centered representations for complex scenes, we introduce a novel “Epipolar Feature Transformer” that transfers convolutional network features from an input view to other virtual camera viewpoints, and thus better covers the 3D scene geometry.  Unlike existing approaches that first detect and localize objects in 3D, and then infer object shape using category-specific models, our approach is fully convolutional, end-to-end differentiable, and avoids the resolution and memory limitations of voxel representations.  We demonstrate the advantages of multi-layer depth representations and epipolar feature transformers on the reconstruction of a large database of indoor scenes.  Project page: https://www.ics.uci.edu/~daeyuns/layered-epipolar-cnn/
+
+
+
+
+Apr 22Bren Hall 40111 pm
+Mike PritchardAssistant ProfessorDept. of Earth System SciencesUniversity of California, Irvine
+Improving global climate simulations using physically constrained deep learning emulators of unresolved moist turbulence processesI will discuss machine-learning emulation of O(100M) cloud-resolving simulations of moist turbulence for use in multi-scale global climate simulation. First, I will present encouraging results from pilot tests on an idealized ocean-world, in which a fully connected deep neural network (DNN) is found to be capable of emulating explicit subgrid vertical heat and vapor transports across a globally diverse population of convective regimes. Next, I will demonstrate that O(10k) instances of the DNN emulator spanning the world are able to feed back realistically with a prognostic global host atmospheric model, producing viable ML-powered climate simulations that exhibit realistic space-time variability for convectively coupled weather dynamics and even some limited out-of-sample generalizability to new climate states beyond the training data’s boundaries. I will then discuss a new prototype of the neural network under development that includes the ability to enforce multiple physical constraints within the DNN optimization process, which exhibits potential for further generalizability. Finally, I will conclude with some discussion of the unsolved technical issues and interesting philosophical tensions being raised in the climate modeling community by this disruptive but promising approach for next-generation global simulation.
+
+
+
+
+Apr 29Bren Hall 40111 pm
+Nick GalloPhD CandidateDepartment of Computer ScienceUniversity of California, Irvine
+Coarse to Fine Lifted InferenceLarge problems with repetitive sub-structure arise in many domains such as social network analysis, collective classification, and database entity resolution.  In these instances, individual data is augmented with a small set of rules that uniformly govern the relationship among groups of objects (for example: “the friend of my friend is probably my friend” in a social network).  Uncertainty is captured by a probabilistic graphical model structure.  While theoretically sound, standard reasoning techniques cannot be applied due to the massive size of the network (often millions of random variable and trillions of factors).  Previous work on lifted inference efficiently exploits symmetric structure in graphical models, but breaks down in the presence of unique individual data (contained in all real-world problems).  Current methods to address this problem are largely heuristic.  In this presentation we describe a coarse to fine approximate inference framework that initially treats all individuals identically, gradually relaxing this restriction to finer sub-groups.  This produces a sequence of inference objective bounds of monotonically increasing cost and accuracy.  We then discuss our work on incorporating high-order inference terms (over large subsets of variables) into lifted inference and ongoing challenges in this area.
+
+
+
+
+May 13Bren Hall 40111 pm
+Matt GardnerSenior Research ScientistAllen Institute of Artificial Intelligence
+Reasoning Our Way to ReadingReading machines that truly understood what they read would change the world, but our current best reading systems struggle to understand text at anything more than a superficial level.  In this talk I try to reason out what it means to “read”, and how reasoning systems might help us get there.  I will introduce three reading comprehension datasets that require systems to reason at a deeper level about the text that they read, using numerical, coreferential, and implicative reasoning abilities.  I will also describe some early work on models that can perform these kinds of reasoning.  Bio: Matt is a senior research scientist at the Allen Institute for Artificial Intelligence (AI2) on the AllenNLP team, and a visiting scholar at UCI. His research focuses primarily on getting computers to read and answer questions, dealing both with open domain reading comprehension and with understanding question semantics in terms of some formal grounding (semantic parsing). He is particularly interested in cases where these two problems intersect, doing some kind of reasoning over open domain text. He is the original author of the AllenNLP toolkit for NLP research, and he co-hosts the NLP Highlights podcast with Waleed Ammar.
+
+
+
+
+May 27
+No Seminar (Memorial Day)
+
+
+
+
+June 3Bren Hall 401112:00
+Peter SadowskiAssistant ProfessorInformation and Computer SciencesUniversity of Hawaii Manoa
+Deep Learning for Extreme Remote Sensing: from Ocean Waves to ExocometsNew technologies for remote sensing and astronomy provide an unprecedented view of Earth, our Sun, and beyond. Traditional data-analysis pipelines in oceanography, atmospheric sciences, and astronomy struggle to take full advantage of the massive amounts of high-dimensional data now available. I will describe opportunities for using deep learning to process satellite and telescope data, and discuss recent work mapping extreme sea states using Satellite Aperture Radar (SAR), inferring the physics of our sun’s atmosphere, and detecting anomalous astrophysical events in other systems, such as comets transiting distant stars.Bio: Peter Sadowski is an Assistant Professor of Information and Computer Sciences at the University of Hawaii Manoa and Co-Director of the AI Precision Health Institute at the University of Hawaii Cancer Center. He completed his Ph.D. and Postdoc at University of California Irvine, and his undergraduate studies at  Caltech. His research focuses on deep learning and its applications to the natural sciences, particularly those at the intersection of machine learning and physics.
+
+
+
+
+June 3Bren Hall 40111 pm
+Max WellingResearch Chair, University of AmsterdamVP Technologies, Qualcomm
+Integrating Generative Modeling into Deep LearningDeep learning has boosted the performance of many applications tremendously, such as object classification and detection in images, speech recognition and understanding, machine translation, game play such as chess and go etc. However, these all constitute reasonably narrowly and well defined tasks for which it is reasonable to collect very large datasets. For artificial general intelligence (AGI) we will need to learn from a small number of samples, generalize to entirely new domains, and reason about a problem. What do we need in order to make progress to AGI? I will argue that we need to combine the data generating process, such as the physics of the domain and the causal relationships between objects, with the tools of deep learning. In this talk I will present a first attempt to integrate the theory of graphical models, which arguably was the dominating modeling machine learning paradigm around the turn of the twenty-first century, with deep learning. Graphical models express the relations between random variables in an interpretable way, while probabilistic inference in such networks can be used to reason about these variables. We will propose a new hybrid paradigm where probabilistic message passing in such networks is enhanced with graph convolutional neural networks to improve the ability of such systems to reason and make predictions.
+
+
+
+
+June 10
+No Seminar (Finals)
+
+
+
+
+
+April 11, 2019
+AIML
+
+
+
+Posts navigation
+
+‹Older posts
+Newer posts ›
+
+
+
+
+
+ 
+Search
+
+
+
+ 
+
+
+(c) 2015 Center for Machine Learning and Intelligent Systems
+
+WordPress/BonPress
+
+
+
+
+
+

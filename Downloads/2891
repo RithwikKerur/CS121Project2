@@ -1,0 +1,172 @@
+https://ngs.ics.uci.edu/eventweb6-explicit-referential-links
+
+
+
+
+
+
+
+
+EventWeb6: Explicit Referential Links – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				EventWeb6: Explicit Referential Links    			
+
+
+Referential nodes are behind most of the current Web.  All of these nodes are created by authors of documents, usually at the time of the creation of the document.  Of course, the author of the document, commonly called a page, is free to edit the document at a later time and create new links.  Increasingly tools are becoming available to create relevant links.  Such tools help an author to find appropriate links to be used.
+Recently efforts are being made to discover other types of links among documents by utilizing some automatic techniques to find implicit relationships and similarity among documents.  Text mining techniques are busy discovering such links by developing techniques for topic detection and clustering.  This has become an active area of research in the last few years because with increasing number of pages on the Web it is important to find relevant pages and basic search techniques give too many results.  Techniques based only on Pageranking must utilize other filtering to provide results that will be meaningful and useful to users.
+However, it is important to realize that such implicit link discovery techniques are in their early infancy.  Most of the Web is the result of explicit referential links created by authors of documents.
+In case of events also, initially most links may be created explicitly by people who will create events and these may be referential.  Event creators will think of related events in the past as well as upcoming related events and may explicitly link those to their event.  Also, events have close references to documents and experiential data.  These links may also be created.  Unlike documents, however, many links to documents and experiential data may be created after the event is not only created but has passed.  These links will be related to the reports.  Also, I expect that in case of events, many explicit referential links may be created by other people who participated in the event in some form.  In this respect, links in events may be different â€“ majority links for events may be owned by other people than the creator of the event.
+In the early stages of the EventWeb, most links will be explicit manually created links to other events and other data sources. As technology will evolve, implicit links will be discovered and used for events also.  The EventWeb will emerge in the next few years without such implicit links, however.  
+Events are, inherently more closely linked to other events and documents.  Also, in case of events, there are other than referential links that play equally important role. 
+
+
+
+By Ramesh |
+    				September 1, 2006 |
+    				             		Experiential Computing, Technical Thoughts |
+             	 
+    				             		No Comments |
+             	 		          				
+    			
+
+
+← Vision and/or Hype in Search
+Google and Images →
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

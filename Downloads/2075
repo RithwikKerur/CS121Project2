@@ -1,0 +1,437 @@
+https://isg.ics.uci.edu/event/multistage-adaptive-load-balancing-in-big-active-data-publish-subscribe-systems
+
+
+
+
+
+
+Multistage Adaptive Load Balancing in Big Active Data Publish Subscribe Systems – Information Systems Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+
+Faculty
+Students
+Recent Alumni
+Research Staff
+Visitors
+
+
+Research
+
+Projects
+Publications
+
+
+Teaching
+
+Courses
+DB Qual
+
+
+Events
+
+Talks
+News
+
+
+About
+
+Sponsors & Partners
+Visitor Info
+Contact us
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ISG Talks are sponsored by Couchbase.
+<< All Talks
+
+
+
+ « All Events
+
+
+This event has passed.
+Multistage Adaptive Load Balancing in Big Active Data Publish Subscribe Systems
+
+November 15, 2019 @ 12:30 pm - 2:00 pm 
+
+
+
+
+
+« Gift Sinthong: AsterixDB Meets Data Science
+Texera: Supporting Big Data Analytics for Domain Experts through GUI-based workflows »
+
+
+
+
+
+
+
+
+
+Speaker: Hang
+Time: 12:30pm
+Room: 3011
+We address issues in the design and operation of a Big Active Data Publish Subscribe (BAD Pub/Sub) systems to enable the next generation of enriched notification systems that can scale to societal levels. The proposed BAD Pub/Sub systems aim to ingest massive amounts of data from heterogeneous publishers and sources and deliver customized, enriched notifications to end users that express interests in these data items via parameterized channels. To support scalability, we employ a hierarchical architecture that combines a back-end big data cluster (to receive publications and data feeds, store data and process subscriptions) with a client-facing distributed broker network that manages user subscriptions and scales the delivery process. The skewed distribution of subscribers, their interests and the dynamic nature of societal scale publications, create load imbalance in the distributed broker network. We propose a staged approach for broker load balancing that executes in multiple stages — initial placement of brokers to subscribers, dynamic subscriber migration during operation to handle transient and instantaneous loads and occasional shuffles to re-stabilize the system.  
+ 
+
++ Google Calendar+ iCal Export
+
+
+
+ Details 
+
+ Date: 
+
+ November 15, 2019 
+
+ Time: 
+
+
+					12:30 pm - 2:00 pm				
+
+
+
+
+ Venue 
+
+ DBH 3011 
+
+
+
+
+ 
+
+
+
+
+
+« Gift Sinthong: AsterixDB Meets Data Science
+Texera: Supporting Big Data Analytics for Domain Experts through GUI-based workflows »
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+Search for :
+
+
+Latest News 
+
+
+
+Upcoming Talk: How to build your own Business
+
+											July 25, 2022																																
+
+
+Upcoming Talk: Couchbase and Distributed Computing Backends for big data processing
+
+											May 31, 2022																																
+
+
+Upcoming Talk: Shedding Light on Opaque Database Queries
+
+											May 31, 2022																																
+
+
+ISG researchers won the  Mark Weiser Best Paper Award at IEEE PERCOM 2022
+
+											March 24, 2022																																
+
+
+
+
+Upcoming Events
+
+
+
+
+Qiushi Bai: QueryBooster-Improving SQL Performance Using Middleware Services for Human-Centered Query Rewriting + Demo
+
+
+
+October 14 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Xiaozhen Liu: Demonstration of Collaborative and Interactive Workflow-based Data Analytics in Texera
+
+
+
+October 21 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Abhishek Singh: WedgeBlock – An Off-Chain Secure Logging Platform for Blockchain Applications
+
+
+
+October 28 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Juncheng Fang: PeloPartition- Improving Blockchain Resilience to Partitioning by Sharding
+
+
+
+November 4 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Peeyush Gupta: A Demonstration of TippersDB
+
+
+
+November 18 @ 12:30 pm - 2:00 pm 
+
+
+
+View All Events
+
+Please follow & like us :) 
+
+Follow  
+
+ 
+
+
+
+
+
+
+
+			Copyright 2018 | ISG-UCI		
+
+
+
+
+
+
+cross
+
+
+
+
+
+
+
+
+
+
+Hit ENTER to search or ESC to close
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

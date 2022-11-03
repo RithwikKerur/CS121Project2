@@ -1,0 +1,9 @@
+http://plrg.ics.uci.edu/publications/488.bib
+@inproceedings{key,
+ author = {Brian Demsky},
+ title = {Research Challenges for Approximate Computing},
+ booktitle = {ISAT/DARPA Workshop on Accuracy Trade-Offs Across the System Stack for Performance and Energy},
+ location = {Orlando, Florida},
+ month = {February},
+ year = {2014}
+}

@@ -1,0 +1,821 @@
+https://isg.ics.uci.edu/publications/?limit=4&
+
+
+
+
+
+
+Publications – Information Systems Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+
+Faculty
+Students
+Recent Alumni
+Research Staff
+Visitors
+
+
+Research
+
+Projects
+Publications
+
+
+Teaching
+
+Courses
+DB Qual
+
+
+Events
+
+Talks
+News
+
+
+About
+
+Sponsors & Partners
+Visitor Info
+Contact us
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Publications
+
+179 entries « ‹  4 of 4 › » 
+
+2010
+
+ Borkar, Vinayak R;  Carey, Michael J;  Koleth, Sebu;  Kotopoulis, Alexander;  Mehta, Kautul;  Spiegel, Joshua;  Thatte, Sachin;  Westmann, TillGraphical XQuery in the aqualogic data services platform Inproceedings Proceedings of the ACM SIGMOD International Conference on Management 
+of Data, SIGMOD 2010, Indianapolis, Indiana, USA, June 6-10, 2010, pp. 1069–1080, 2010.Links | BibTeX@inproceedings{DBLP:conf/sigmod/BorkarCKKMSTW10,
+title = {Graphical XQuery in the aqualogic data services platform},
+author = {Vinayak R Borkar and Michael J Carey and Sebu Koleth and Alexander Kotopoulis and Kautul Mehta and Joshua Spiegel and Sachin Thatte and Till Westmann},
+url = {http://doi.acm.org/10.1145/1807167.1807288},
+doi = {10.1145/1807167.1807288},
+year  = {2010},
+date = {2010-01-01},
+booktitle = {Proceedings of the ACM SIGMOD International Conference on Management 
+of Data, SIGMOD 2010, Indianapolis, Indiana, USA, June 6-10, 2010},
+pages = {1069--1080},
+crossref = {DBLP:conf/sigmod/2010},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.acm.org/10.1145/1807167.1807288doi:10.1145/1807167.1807288Close Xing, Bo;  Deshpande, Mayur;  Mehrotra, Sharad;  Venkatasubramanian, NaliniGateway designation for timely communications in instant mesh networks Inproceedings Eigth Annual IEEE International Conference on Pervasive Computing 
+and Communications, PerCom 2010, March 29 - April 2, 2010, Mannheim, 
+Germany, Workshop Proceedings, pp. 564–569, 2010.Links | BibTeX@inproceedings{DBLP:conf/percom/XingDMV10,
+title = {Gateway designation for timely communications in instant mesh networks},
+author = {Bo Xing and Mayur Deshpande and Sharad Mehrotra and Nalini Venkatasubramanian},
+url = {https://doi.org/10.1109/PERCOMW.2010.5470501},
+doi = {10.1109/PERCOMW.2010.5470501},
+year  = {2010},
+date = {2010-01-01},
+booktitle = {Eigth Annual IEEE International Conference on Pervasive Computing 
+and Communications, PerCom 2010, March 29 - April 2, 2010, Mannheim, 
+Germany, Workshop Proceedings},
+pages = {564--569},
+crossref = {DBLP:conf/percom/2010w},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/PERCOMW.2010.5470501doi:10.1109/PERCOMW.2010.5470501Close Bonetti, Stefano;  Mehrotra, Sharad;  Venkatasubramanian, NaliniExploring quality in multisensor pervasive systems - a localization 
+case study Inproceedings Eigth Annual IEEE International Conference on Pervasive Computing 
+and Communications, PerCom 2010, March 29 - April 2, 2010, Mannheim, 
+Germany, Workshop Proceedings, pp. 81–86, 2010.Links | BibTeX@inproceedings{DBLP:conf/percom/BonettiMV10,
+title = {Exploring quality in multisensor pervasive systems - a localization 
+case study},
+author = {Stefano Bonetti and Sharad Mehrotra and Nalini Venkatasubramanian},
+url = {https://doi.org/10.1109/PERCOMW.2010.5470607},
+doi = {10.1109/PERCOMW.2010.5470607},
+year  = {2010},
+date = {2010-01-01},
+booktitle = {Eigth Annual IEEE International Conference on Pervasive Computing 
+and Communications, PerCom 2010, March 29 - April 2, 2010, Mannheim, 
+Germany, Workshop Proceedings},
+pages = {81--86},
+crossref = {DBLP:conf/percom/2010w},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/PERCOMW.2010.5470607doi:10.1109/PERCOMW.2010.5470607Close Davison, C;  Massaguer, Daniel;  Paradis, Lilia;  Rahimi, Reza M;  Xing, Bo;  Han, Qi;  Mehrotra, Sharad;  Venkatasubramanian, NaliniPractical experiences in enabling and ensuring quality sensing in 
+emergency response applications Inproceedings Eigth Annual IEEE International Conference on Pervasive Computing 
+and Communications, PerCom 2010, March 29 - April 2, 2010, Mannheim, 
+Germany, Workshop Proceedings, pp. 388–393, 2010.Links | BibTeX@inproceedings{DBLP:conf/percom/DavisonMPRXHMV10,
+title = {Practical experiences in enabling and ensuring quality sensing in 
+emergency response applications},
+author = {C Davison and Daniel Massaguer and Lilia Paradis and Reza M Rahimi and Bo Xing and Qi Han and Sharad Mehrotra and Nalini Venkatasubramanian},
+url = {https://doi.org/10.1109/PERCOMW.2010.5470636},
+doi = {10.1109/PERCOMW.2010.5470636},
+year  = {2010},
+date = {2010-01-01},
+booktitle = {Eigth Annual IEEE International Conference on Pervasive Computing 
+and Communications, PerCom 2010, March 29 - April 2, 2010, Mannheim, 
+Germany, Workshop Proceedings},
+pages = {388--393},
+crossref = {DBLP:conf/percom/2010w},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/PERCOMW.2010.5470636doi:10.1109/PERCOMW.2010.5470636Close Vernica, Rares;  Carey, Michael J;  Li, ChenEfficient parallel set-similarity joins using MapReduce Inproceedings Proceedings of the ACM SIGMOD International Conference on Management 
+of Data, SIGMOD 2010, Indianapolis, Indiana, USA, June 6-10, 2010, pp. 495–506, 2010.Links | BibTeX@inproceedings{DBLP:conf/sigmod/VernicaCL10,
+title = {Efficient parallel set-similarity joins using MapReduce},
+author = {Rares Vernica and Michael J Carey and Chen Li},
+url = {http://doi.acm.org/10.1145/1807167.1807222},
+doi = {10.1145/1807167.1807222},
+year  = {2010},
+date = {2010-01-01},
+booktitle = {Proceedings of the ACM SIGMOD International Conference on Management 
+of Data, SIGMOD 2010, Indianapolis, Indiana, USA, June 6-10, 2010},
+pages = {495--506},
+crossref = {DBLP:conf/sigmod/2010},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.acm.org/10.1145/1807167.1807222doi:10.1145/1807167.1807222Close Balasubramanian, Vidhya;  Kalashnikov, Dmitri V;  Mehrotra, Sharad;  Venkatasubramanian, NaliniEfficient and scalable multi-geography route planning Inproceedings EDBT 2010, 13th International Conference on Extending Database Technology, 
+Lausanne, Switzerland, March 22-26, 2010, Proceedings, pp. 394–405, 2010.Links | BibTeX@inproceedings{DBLP:conf/edbt/BalasubramanianKMV10,
+title = {Efficient and scalable multi-geography route planning},
+author = {Vidhya Balasubramanian and Dmitri V Kalashnikov and Sharad Mehrotra and Nalini Venkatasubramanian},
+url = {http://doi.acm.org/10.1145/1739041.1739090},
+doi = {10.1145/1739041.1739090},
+year  = {2010},
+date = {2010-01-01},
+booktitle = {EDBT 2010, 13th International Conference on Extending Database Technology, 
+Lausanne, Switzerland, March 22-26, 2010, Proceedings},
+pages = {394--405},
+crossref = {DBLP:conf/edbt/2010},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.acm.org/10.1145/1739041.1739090doi:10.1145/1739041.1739090Close
+
+2009
+
+ Xing, Bo;  Seada, Karim;  Venkatasubramanian, NaliniAn Experimental Study on Wi-Fi Ad-Hoc Mode for Mobile Device-to-Device Video Delivery Inproceedings IEEE INFOCOM Workshops 2009, pp. 1-6, 2009.Links | BibTeX@inproceedings{5072111,
+title = {An Experimental Study on Wi-Fi Ad-Hoc Mode for Mobile Device-to-Device Video Delivery},
+author = {Bo Xing and Karim Seada and Nalini Venkatasubramanian},
+doi = {10.1109/INFCOMW.2009.5072111},
+year  = {2009},
+date = {2009-04-01},
+booktitle = {IEEE INFOCOM Workshops 2009},
+pages = {1-6},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closedoi:10.1109/INFCOMW.2009.5072111Close Singh, Vivek K;  Jain, RameshSituation based control for cyber-physical environments Inproceedings Military Communications Conference, 2009. MILCOM 2009. IEEE, pp. 1–7, IEEE 2009.BibTeX@inproceedings{singh2009situation,
+title = {Situation based control for cyber-physical environments},
+author = {Vivek K Singh and Ramesh Jain},
+year  = {2009},
+date = {2009-01-01},
+booktitle = {Military Communications Conference, 2009. MILCOM 2009. IEEE},
+pages = {1--7},
+organization = {IEEE},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Close Singh, Vivek K;  Jain, Ramesh;  Kankanhalli, Mohan SMotivating contributors in social media networks Inproceedings Proceedings of the first SIGMM workshop on Social media, WSM@MM 
+2009, Beijing, China, October 23, 2009, pp. 11–18, 2009.Links | BibTeX@inproceedings{DBLP:conf/mm/SinghJK09,
+title = {Motivating contributors in social media networks},
+author = {Vivek K Singh and Ramesh Jain and Mohan S Kankanhalli},
+url = {http://doi.acm.org/10.1145/1631144.1631149},
+doi = {10.1145/1631144.1631149},
+year  = {2009},
+date = {2009-01-01},
+booktitle = {Proceedings of the first SIGMM workshop on Social media, WSM@MM 
+2009, Beijing, China, October 23, 2009},
+pages = {11--18},
+crossref = {DBLP:conf/mm/2009wsm},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.acm.org/10.1145/1631144.1631149doi:10.1145/1631144.1631149Close Jalali, Leila;  Venkatasubramanian, Nalini;  Mehrotra, SharadA reflective middleware architecture for simulation integration Inproceedings Proceedings of the 8th Workshop on Adaptive and Reflective Middleware, 
+ARM 2009, held at the ACM/IFIP/USENIX International Middleware 
+Conference, December 1, 2009, Urbana Champaign, IL, USA, pp. 3, 2009.Links | BibTeX@inproceedings{DBLP:conf/middleware/JalaliVM09,
+title = {A reflective middleware architecture for simulation integration},
+author = {Leila Jalali and Nalini Venkatasubramanian and Sharad Mehrotra},
+url = {http://doi.acm.org/10.1145/1658185.1658188},
+doi = {10.1145/1658185.1658188},
+year  = {2009},
+date = {2009-01-01},
+booktitle = {Proceedings of the 8th Workshop on Adaptive and Reflective Middleware, 
+ARM 2009, held at the ACM/IFIP/USENIX International Middleware 
+Conference, December 1, 2009, Urbana Champaign, IL, USA},
+pages = {3},
+crossref = {DBLP:conf/middleware/2009arm},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.acm.org/10.1145/1658185.1658188doi:10.1145/1658185.1658188Close Massaguer, Daniel;  Hore, Bijit;  Diallo, Mamadou H;  Mehrotra, Sharad;  Venkatasubramanian, NaliniMiddleware for Pervasive Spaces: Balancing Privacy and Utility Inproceedings Middleware 2009, ACM/IFIP/USENIX, 10th International Middleware Conference, 
+Urbana, IL, USA, November 30 - December 4, 2009. Proceedings, pp. 247–267, 2009.Links | BibTeX@inproceedings{DBLP:conf/middleware/MassaguerHDMV09,
+title = {Middleware for Pervasive Spaces: Balancing Privacy and Utility},
+author = {Daniel Massaguer and Bijit Hore and Mamadou H Diallo and Sharad Mehrotra and Nalini Venkatasubramanian},
+url = {https://doi.org/10.1007/978-3-642-10445-9_13},
+doi = {10.1007/978-3-642-10445-9_13},
+year  = {2009},
+date = {2009-01-01},
+booktitle = {Middleware 2009, ACM/IFIP/USENIX, 10th International Middleware Conference, 
+Urbana, IL, USA, November 30 - December 4, 2009. Proceedings},
+pages = {247--267},
+crossref = {DBLP:conf/middleware/2009},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1007/978-3-642-10445-9_13doi:10.1007/978-3-642-10445-9_13Close Massaguer, Daniel;  Mehrotra, Sharad;  Venkatasubramanian, NaliniA Semantic Approach for Building Pervasive Spaces Inproceedings Proceedings of the 6th Middleware Doctoral Symposium, pp. 2:1–2:6, ACM, Urbana Champaign, Illinois, 2009, ISBN: 978-1-60558-852-0.Links | BibTeX@inproceedings{Massaguer:2009:SAB:1659753.1659755,
+title = {A Semantic Approach for Building Pervasive Spaces},
+author = {Daniel Massaguer and Sharad Mehrotra and Nalini Venkatasubramanian},
+url = {http://doi.acm.org/10.1145/1659753.1659755},
+doi = {10.1145/1659753.1659755},
+isbn = {978-1-60558-852-0},
+year  = {2009},
+date = {2009-01-01},
+booktitle = {Proceedings of the 6th Middleware Doctoral Symposium},
+pages = {2:1--2:6},
+publisher = {ACM},
+address = {Urbana Champaign, Illinois},
+series = {MDS '09},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.acm.org/10.1145/1659753.1659755doi:10.1145/1659753.1659755Close Jafarpour, Hojjat;  Mehrotra, Sharad;  Venkatasubramanian, NaliniDynamic Load Balancing for Cluster-Based Publish/Subscribe System Inproceedings Ninth Annual International Symposium on Applications and the Internet, 
+SAINT 2009, Bellevue, Washington, USA, July 20-24, 2009, Proceedings, pp. 57–63, 2009.Links | BibTeX@inproceedings{DBLP:conf/saint/JafarpourMV09,
+title = {Dynamic Load Balancing for Cluster-Based Publish/Subscribe System},
+author = {Hojjat Jafarpour and Sharad Mehrotra and Nalini Venkatasubramanian},
+url = {https://doi.org/10.1109/SAINT.2009.18},
+doi = {10.1109/SAINT.2009.18},
+year  = {2009},
+date = {2009-01-01},
+booktitle = {Ninth Annual International Symposium on Applications and the Internet, 
+SAINT 2009, Bellevue, Washington, USA, July 20-24, 2009, Proceedings},
+pages = {57--63},
+crossref = {DBLP:conf/saint/2009},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/SAINT.2009.18doi:10.1109/SAINT.2009.18Close Ashish, Naveen;  Lickfett, Jay;  Mehrotra, Sharad;  Venkatasubramanian, NaliniThe software EBox: Integrated information for situational awareness Inproceedings IEEE International Conference on Intelligence and Security Informatics, 
+ISI 2009, Dallas, Texas, USA, June 8-11, 2009, Proceedings, pp. 77–82, 2009.Links | BibTeX@inproceedings{DBLP:conf/isi/AshishLMV09,
+title = {The software EBox: Integrated information for situational awareness},
+author = {Naveen Ashish and Jay Lickfett and Sharad Mehrotra and Nalini Venkatasubramanian},
+url = {https://doi.org/10.1109/ISI.2009.5137275},
+doi = {10.1109/ISI.2009.5137275},
+year  = {2009},
+date = {2009-01-01},
+booktitle = {IEEE International Conference on Intelligence and Security Informatics, 
+ISI 2009, Dallas, Texas, USA, June 8-11, 2009, Proceedings},
+pages = {77--82},
+crossref = {DBLP:conf/isi/2009},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ISI.2009.5137275doi:10.1109/ISI.2009.5137275Close Borkar, Vinayak R;  Carey, Michael J;  Engovatov, Daniel;  Lychagin, Dmitry;  Reveliotis, Panagiotis;  Spiegel, Joshua;  Thatte, Sachin;  Westmann, TillAccess control in the aqualogic data services platform Inproceedings Proceedings of the ACM SIGMOD International Conference on Management 
+of Data, SIGMOD 2009, Providence, Rhode Island, USA, June 29 - July 
+2, 2009, pp. 939–946, 2009.Links | BibTeX@inproceedings{DBLP:conf/sigmod/BorkarCELRSTW09,
+title = {Access control in the aqualogic data services platform},
+author = {Vinayak R Borkar and Michael J Carey and Daniel Engovatov and Dmitry Lychagin and Panagiotis Reveliotis and Joshua Spiegel and Sachin Thatte and Till Westmann},
+url = {http://doi.acm.org/10.1145/1559845.1559951},
+doi = {10.1145/1559845.1559951},
+year  = {2009},
+date = {2009-01-01},
+booktitle = {Proceedings of the ACM SIGMOD International Conference on Management 
+of Data, SIGMOD 2009, Providence, Rhode Island, USA, June 29 - July 
+2, 2009},
+pages = {939--946},
+crossref = {DBLP:conf/sigmod/2009},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.acm.org/10.1145/1559845.1559951doi:10.1145/1559845.1559951Close Chen, Zhaoqi;  Kalashnikov, Dmitri V;  Mehrotra, SharadExploiting context analysis for combining multiple entity resolution 
+systems Inproceedings Proceedings of the ACM SIGMOD International Conference on Management 
+of Data, SIGMOD 2009, Providence, Rhode Island, USA, June 29 - July 
+2, 2009, pp. 207–218, 2009.Links | BibTeX@inproceedings{DBLP:conf/sigmod/ChenKM09,
+title = {Exploiting context analysis for combining multiple entity resolution 
+systems},
+author = {Zhaoqi Chen and Dmitri V Kalashnikov and Sharad Mehrotra},
+url = {http://doi.acm.org/10.1145/1559845.1559869},
+doi = {10.1145/1559845.1559869},
+year  = {2009},
+date = {2009-01-01},
+booktitle = {Proceedings of the ACM SIGMOD International Conference on Management 
+of Data, SIGMOD 2009, Providence, Rhode Island, USA, June 29 - July 
+2, 2009},
+pages = {207--218},
+crossref = {DBLP:conf/sigmod/2009},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.acm.org/10.1145/1559845.1559869doi:10.1145/1559845.1559869Close Li, Guoliang;  Ji, Shengyue;  Li, Chen;  Feng, JianhuaEfficient type-ahead search on relational data: a TASTIER approach Inproceedings Proceedings of the ACM SIGMOD International Conference on Management 
+of Data, SIGMOD 2009, Providence, Rhode Island, USA, June 29 - July 
+2, 2009, pp. 695–706, 2009.Links | BibTeX@inproceedings{DBLP:conf/sigmod/LiJLF09,
+title = {Efficient type-ahead search on relational data: a TASTIER approach},
+author = {Guoliang Li and Shengyue Ji and Chen Li and Jianhua Feng},
+url = {http://doi.acm.org/10.1145/1559845.1559918},
+doi = {10.1145/1559845.1559918},
+year  = {2009},
+date = {2009-01-01},
+booktitle = {Proceedings of the ACM SIGMOD International Conference on Management 
+of Data, SIGMOD 2009, Providence, Rhode Island, USA, June 29 - July 
+2, 2009},
+pages = {695--706},
+crossref = {DBLP:conf/sigmod/2009},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.acm.org/10.1145/1559845.1559918doi:10.1145/1559845.1559918Close Ji, Shengyue;  Li, Guoliang;  Li, Chen;  Feng, JianhuaEfficient interactive fuzzy keyword search Inproceedings Proceedings of the 18th International Conference on World Wide Web, 
+WWW 2009, Madrid, Spain, April 20-24, 2009, pp. 371–380, 2009.Links | BibTeX@inproceedings{DBLP:conf/www/JiLLF09,
+title = {Efficient interactive fuzzy keyword search},
+author = {Shengyue Ji and Guoliang Li and Chen Li and Jianhua Feng},
+url = {http://doi.acm.org/10.1145/1526709.1526760},
+doi = {10.1145/1526709.1526760},
+year  = {2009},
+date = {2009-01-01},
+booktitle = {Proceedings of the 18th International Conference on World Wide Web, 
+WWW 2009, Madrid, Spain, April 20-24, 2009},
+pages = {371--380},
+crossref = {DBLP:conf/www/2009},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.acm.org/10.1145/1526709.1526760doi:10.1145/1526709.1526760Close Christley, Scott;  Lu, Yiming;  Li, Chen;  Xie, XiaohuiHuman genomes as email attachments Journal Article Bioinformatics, 25 (2), pp. 274–275, 2009.Links | BibTeX@article{DBLP:journals/bioinformatics/ChristleyLLX09,
+title = {Human genomes as email attachments},
+author = {Scott Christley and Yiming Lu and Chen Li and Xiaohui Xie},
+url = {https://doi.org/10.1093/bioinformatics/btn582},
+doi = {10.1093/bioinformatics/btn582},
+year  = {2009},
+date = {2009-01-01},
+journal = {Bioinformatics},
+volume = {25},
+number = {2},
+pages = {274--275},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1093/bioinformatics/btn582doi:10.1093/bioinformatics/btn582Close Hore, Bijit;  Wickramasuriya, Jehan;  Mehrotra, Sharad;  Venkatasubramanian, Nalini;  Massaguer, DanielPrivacy-Preserving Event Detection in Pervasive Spaces Inproceedings Seventh Annual IEEE International Conference on Pervasive Computing 
+and Communications, PerCom 2009, 9-13 March 2009, Galveston, TX, USA, pp. 1–10, 2009.Links | BibTeX@inproceedings{DBLP:conf/percom/HoreWMVM09,
+title = {Privacy-Preserving Event Detection in Pervasive Spaces},
+author = {Bijit Hore and Jehan Wickramasuriya and Sharad Mehrotra and Nalini Venkatasubramanian and Daniel Massaguer},
+url = {https://doi.org/10.1109/PERCOM.2009.4912772},
+doi = {10.1109/PERCOM.2009.4912772},
+year  = {2009},
+date = {2009-01-01},
+booktitle = {Seventh Annual IEEE International Conference on Pervasive Computing 
+and Communications, PerCom 2009, 9-13 March 2009, Galveston, TX, USA},
+pages = {1--10},
+crossref = {DBLP:conf/percom/2009},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/PERCOM.2009.4912772doi:10.1109/PERCOM.2009.4912772Close Xing, Bo;  Seada, Karim;  Venkatasubramanian, NaliniProximiter: Enabling Mobile Proximity-Based Content Sharing on Portable 
+Devices Inproceedings Seventh Annual IEEE International Conference on Pervasive Computing 
+and Communications, PerCom 2009, 9-13 March 2009, Galveston, TX, USA, pp. 1–3, 2009.Links | BibTeX@inproceedings{DBLP:conf/percom/XingSV09,
+title = {Proximiter: Enabling Mobile Proximity-Based Content Sharing on Portable 
+Devices},
+author = {Bo Xing and Karim Seada and Nalini Venkatasubramanian},
+url = {https://doi.org/10.1109/PERCOM.2009.4912802},
+doi = {10.1109/PERCOM.2009.4912802},
+year  = {2009},
+date = {2009-01-01},
+booktitle = {Seventh Annual IEEE International Conference on Pervasive Computing 
+and Communications, PerCom 2009, 9-13 March 2009, Galveston, TX, USA},
+pages = {1--3},
+crossref = {DBLP:conf/percom/2009},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/PERCOM.2009.4912802doi:10.1109/PERCOM.2009.4912802Close Shmueli-Scheuer, Michal;  Li, Chen;  Mass, Yosi;  Roitman, Haggai;  Schenkel, Ralf;  Weikum, GerhardBest-Effort Top-k Query Processing Under Budgetary Constraints Inproceedings Proceedings of the 25th International Conference on Data Engineering, 
+ICDE 2009, March 29 2009 - April 2 2009, Shanghai, China, pp. 928–939, 2009.Links | BibTeX@inproceedings{DBLP:conf/icde/Shmueli-ScheuerLMRSW09,
+title = {Best-Effort Top-k Query Processing Under Budgetary Constraints},
+author = {Michal Shmueli-Scheuer and Chen Li and Yosi Mass and Haggai Roitman and Ralf Schenkel and Gerhard Weikum},
+url = {https://doi.org/10.1109/ICDE.2009.109},
+doi = {10.1109/ICDE.2009.109},
+year  = {2009},
+date = {2009-01-01},
+booktitle = {Proceedings of the 25th International Conference on Data Engineering, 
+ICDE 2009, March 29 2009 - April 2 2009, Shanghai, China},
+pages = {928--939},
+crossref = {DBLP:conf/icde/2009},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ICDE.2009.109doi:10.1109/ICDE.2009.109Close Behm, Alexander;  Ji, Shengyue;  Li, Chen;  Lu, JiahengSpace-Constrained Gram-Based Indexing for Efficient Approximate String 
+Search Inproceedings Proceedings of the 25th International Conference on Data Engineering, 
+ICDE 2009, March 29 2009 - April 2 2009, Shanghai, China, pp. 604–615, 2009.Links | BibTeX@inproceedings{DBLP:conf/icde/BehmJLL09,
+title = {Space-Constrained Gram-Based Indexing for Efficient Approximate String 
+Search},
+author = {Alexander Behm and Shengyue Ji and Chen Li and Jiaheng Lu},
+url = {https://doi.org/10.1109/ICDE.2009.32},
+doi = {10.1109/ICDE.2009.32},
+year  = {2009},
+date = {2009-01-01},
+booktitle = {Proceedings of the 25th International Conference on Data Engineering, 
+ICDE 2009, March 29 2009 - April 2 2009, Shanghai, China},
+pages = {604--615},
+crossref = {DBLP:conf/icde/2009},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ICDE.2009.32doi:10.1109/ICDE.2009.32Close Desai, Chaitanya;  Kalashnikov, Dmitri V;  Mehrotra, Sharad;  Venkatasubramanian, NaliniUsing Semantics for Speech Annotation of Images Inproceedings Proceedings of the 25th International Conference on Data Engineering, 
+ICDE 2009, March 29 2009 - April 2 2009, Shanghai, China, pp. 1227–1230, 2009.Links | BibTeX@inproceedings{DBLP:conf/icde/DesaiKMV09,
+title = {Using Semantics for Speech Annotation of Images},
+author = {Chaitanya Desai and Dmitri V Kalashnikov and Sharad Mehrotra and Nalini Venkatasubramanian},
+url = {https://doi.org/10.1109/ICDE.2009.207},
+doi = {10.1109/ICDE.2009.207},
+year  = {2009},
+date = {2009-01-01},
+booktitle = {Proceedings of the 25th International Conference on Data Engineering, 
+ICDE 2009, March 29 2009 - April 2 2009, Shanghai, China},
+pages = {1227--1230},
+crossref = {DBLP:conf/icde/2009},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ICDE.2009.207doi:10.1109/ICDE.2009.207Close Blow, Michael;  Borkar, Vinayak R;  Carey, Michael J;  Hillery, Chris;  Kotopoulis, Alexander;  Lychagin, Dmitry;  Preotiuc-Pietro, Radu;  Reveliotis, Panagiotis;  Spiegel, Joshua;  Westmann, TillUpdates in the AquaLogic Data Services Platform Inproceedings Proceedings of the 25th International Conference on Data Engineering, 
+ICDE 2009, March 29 2009 - April 2 2009, Shanghai, China, pp. 1431–1442, 2009.Links | BibTeX@inproceedings{DBLP:conf/icde/BlowBCHKLPRSW09,
+title = {Updates in the AquaLogic Data Services Platform},
+author = {Michael Blow and Vinayak R Borkar and Michael J Carey and Chris Hillery and Alexander Kotopoulis and Dmitry Lychagin and Radu Preotiuc-Pietro and Panagiotis Reveliotis and Joshua Spiegel and Till Westmann},
+url = {https://doi.org/10.1109/ICDE.2009.114},
+doi = {10.1109/ICDE.2009.114},
+year  = {2009},
+date = {2009-01-01},
+booktitle = {Proceedings of the 25th International Conference on Data Engineering, 
+ICDE 2009, March 29 2009 - April 2 2009, Shanghai, China},
+pages = {1431--1442},
+crossref = {DBLP:conf/icde/2009},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ICDE.2009.114doi:10.1109/ICDE.2009.114Close Hadjieleftheriou, Marios;  Li, ChenEfficient Approximate Search on String Collections Journal Article PVLDB, 2 (2), pp. 1660–1661, 2009.Links | BibTeX@article{DBLP:journals/pvldb/HadjieleftheriouL09,
+title = {Efficient Approximate Search on String Collections},
+author = {Marios Hadjieleftheriou and Chen Li},
+url = {http://www.vldb.org/pvldb/2/vldb09-tutorial4.pdf},
+doi = {10.14778/1687553.1687623},
+year  = {2009},
+date = {2009-01-01},
+journal = {PVLDB},
+volume = {2},
+number = {2},
+pages = {1660--1661},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://www.vldb.org/pvldb/2/vldb09-tutorial4.pdfdoi:10.14778/1687553.1687623Close
+
+0000
+
+ Xing, Bo;  Mehrotra, Sharad;  Venkatasubramanian, NaliniReliable Dissemination of Mission-Critical Content over Heterogeneous Wireless Networks Journal Article 0000.BibTeX@article{xingreliable,
+title = {Reliable Dissemination of Mission-Critical Content over Heterogeneous Wireless Networks},
+author = {Bo Xing and Sharad Mehrotra and Nalini Venkatasubramanian},
+publisher = {Citeseer},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Close Nisha Panwar  Shantanu Sharma, Guoxi Wang Sharad Mehrotra ;  Venkatasubramanian, NaliniVerifiable Round-Robin Scheme for Smart Homes Journal Article Proceedings of the Ninth ACM Conference on Data and Application Security and Privacy (CODASPY) 2019, Richardson, TX, USA, March 25-27, 2019, pp. 49060, 0000.Links | BibTeX@article{NAN,
+title = {Verifiable Round-Robin Scheme for Smart Homes},
+author = {Nisha Panwar, Shantanu Sharma, Guoxi Wang, Sharad Mehrotra, and Nalini Venkatasubramanian},
+url = {http://isg.ics.uci.edu/wp-content/uploads/2019/10/privacy_in_smart_home_codaspy2019-2.pdf-2.pdf},
+journal = {Proceedings of the Ninth ACM Conference on Data and Application Security and Privacy (CODASPY) 2019, Richardson, TX, USA, March 25-27, 2019},
+pages = {49060},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://isg.ics.uci.edu/wp-content/uploads/2019/10/privacy_in_smart_home_codaspy2[...]Close Sharad Mehrotra  Shantanu Sharma, ;  Ullman, Jeffrey DScaling Cryptographic Techniques by Exploiting Data Sensitivity at a Public Cloud Journal Article Proceedings of the Ninth {ACM} Conference on Data and Application Security and Privacy (CODASPY) 2019, Richardson, TX, USA, March 25-27, 2019, pp. 165-167, 0000.BibTeX@article{https://doi.org/10.1145/3292006.3302384,
+title = {Scaling Cryptographic Techniques by Exploiting Data Sensitivity at a Public Cloud},
+author = {Sharad Mehrotra, Shantanu Sharma, and Jeffrey D. Ullman},
+journal = {Proceedings of the Ninth {ACM} Conference on Data and Application Security and Privacy (CODASPY) 2019, Richardson, TX, USA, March 25-27, 2019},
+pages = {165-167},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Close179 entries « ‹  4 of 4 › » 
+ 
+
+
+
+
+
+
+
+Search for :
+
+
+Latest News 
+
+
+
+Upcoming Talk: How to build your own Business
+
+											July 25, 2022																																
+
+
+Upcoming Talk: Couchbase and Distributed Computing Backends for big data processing
+
+											May 31, 2022																																
+
+
+Upcoming Talk: Shedding Light on Opaque Database Queries
+
+											May 31, 2022																																
+
+
+ISG researchers won the  Mark Weiser Best Paper Award at IEEE PERCOM 2022
+
+											March 24, 2022																																
+
+
+
+
+Upcoming Events
+
+
+
+
+Qiushi Bai: QueryBooster-Improving SQL Performance Using Middleware Services for Human-Centered Query Rewriting + Demo
+
+
+
+October 14 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Xiaozhen Liu: Demonstration of Collaborative and Interactive Workflow-based Data Analytics in Texera
+
+
+
+October 21 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Abhishek Singh: WedgeBlock – An Off-Chain Secure Logging Platform for Blockchain Applications
+
+
+
+October 28 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Juncheng Fang: PeloPartition- Improving Blockchain Resilience to Partitioning by Sharding
+
+
+
+November 4 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Peeyush Gupta: A Demonstration of TippersDB
+
+
+
+November 18 @ 12:30 pm - 2:00 pm 
+
+
+
+View All Events
+
+Please follow & like us :) 
+
+Follow  
+
+ 
+
+
+
+
+
+
+
+			Copyright 2018 | ISG-UCI		
+
+
+
+
+
+
+cross
+
+
+
+
+
+
+
+
+
+
+Hit ENTER to search or ESC to close
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

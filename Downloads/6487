@@ -1,0 +1,997 @@
+http://www.ics.uci.edu/~fowlkes/publications.html
+
+
+
+
+    charless c. fowlkes - uc irvine - computer vision
+    
+
+
+
+
+
+
+
+
+
+  
+charless c. fowlkes
+professor
+computer science
+uc irvine
+
+fowlkes@ics.uci
+4076 dbh 
+949.824.6945
+
+uci : cs : vision group
+
+
+
+home
+publications
+presentations
+software
+cv
+
+
+
+
+papers and reports by year
+
+
+2022
+        S. Punyasena, D. Haselhorst, S. kong, C. Fowlkes, J. Moreno,
+        "Automated identification of diverse Neotropical pollen samples using convolutional neural networks",
+        Methods in Ecology and Evolution, (June 2022).
+        doi:10.1111/2041-210X.13917
+
+
+        Z. Wang, J. Yang, C. Fowlkes,
+        "The Best of Both Worlds: Combining Model-Based and Non-parametric Approaches for 3D Human Body Estimation",
+        CVPR-W ABAW, (June 2022),
+        arXiv:2205.00508
+
+
+        M. Wallingford, H. Li, A. Achille, A. Ravichandran, C. Fowlkes, R. Bhotika, S. Soatto,
+        "Task Adaptive Parameter Sharing for Multi-Task Learning", CVPR, (June 2022),
+        arXiv:2203.16708
+
+
+        Y. Zhao, C. Barnes, Y. Zhou, E. Shechtman, S.  Amirghodsi, C. Fowlkes,
+        "GeoFill: Reference-Based Image Inpainting of Scenes with Complex Geometry",
+        Technical Report (Jan. 2022),
+        arXiv:2201.08131
+
+
+
+        Z. Wang, H. Chen, X. Li, C. Liu, Y. Xiong, J. Tighe, C. Fowlkes, 
+        "SSCAP: Self-supervised Co-occurence Action Parsing for Unsupervised Temporal Action Segmentation",
+        to appear, WACV, (Jan 2022)
+        arXiv:2105.14158
+
+2021
+    
+        Z. Li, A. Ravichandran, C. Fowlkes, M. Polito, R. Bhotika, S. Soatto 
+        "Representation Consolidation for Training Expert Students",
+        Technical Report (July 2021), 
+        arXiv:2107.08039
+
+ 
+        Y. Zhao, S. Kong, C. Fowlkes,
+        "Camera Pose Matters: Improving Depth Prediction by Mitigating Pose Distribution Bias",
+        CVPR, (June 2021)
+        arXiv:2007.03887
+
+
+        Z. Cai, A. Ravichandran, S. Maji, C. Fowlkes, Z. Tu, S. Soatto
+        "Exponential Moving Average Normalization for Self-supervised and Semi-supervised Learning",
+        CVPR, (June 2021)
+        arXiv:2101.08482
+
+
+        K. Nottingham, L. Liang, D. Shin, C. Fowlkes, R. Fox, S. Singh,
+        "Modular Framework for Visuomotor Language Grounding",
+        CVPR Embodied AI Workshop, (June 2021), 
+        arXiv:2109.02161
+
+
+
+        A. Deshpande, A. Achille, A. Ravichandran, H. Li, L. Zancato, C. Fowlkes, R. Bhotika, S. Soatto, P. Perona
+        "A linearized framework and a new benchmark for model selection for fine-tuning",
+        Technical Report, (Feb 2021)
+        arXiv:2102.00084
+
+2020
+        I. Romero, S. Kong, C. Fowlkes, C. Jaramillo, M. Urban, F. Oboh-Ikuenobe, C. D'Apolito, S. Punyasena,
+        "Improving the taxonomy of fossil pollen using convolutional neural networks and superresolution microscopy",
+        Proc.
+        of the National Academy of Sciences (PNAS) Oct 2020, 202007324.
+        DOI:10.1073/pnas.2007324117
+        
+
+        L. Wang, C. Challis, S. Li, C. Fowlkes, S. Kumar, P-Q Yuan, Y. Taché,
+        "Multicolor sparse viral labeling and 3D digital tracing of enteric
+        plexus in mouse proximal colon using a novel adeno‐associated virus
+        capsid",
+        Neurogastroenterology & Motility, Oct 2020, 00:e14014.
+        
+
+          Z. Wang, D. Shin, C. Fowlkes,
+          "Predicting Camera Viewpoint Improves Cross-dataset Generalization for 3D Human Pose Estimation",
+          3DPW workshop, ECCV, (August 2020).
+          arXiv:2004.03143
+
+
+          Z. Fang, S. Kong, Z. Wang, C. Fowlkes, Y. Yang,
+          "Weak Supervision and Referring Attention for Temporal-Textual Association Learning",
+          Technical Report, (June 2020)
+          arXiv:2006.11747
+
+
+          H. Kashyap, C. Fowlkes, J. Krichmar,
+          "Sparse Representations for Object and Ego-motion Estimation in Dynamic Scenes", to appear,
+          IEEE TNNLS, 10.1109/TNNLS.2020.3006467
+          [pdf]
+arXiv:1903.03731
+
+
+          L. Wang, S. Kong, Z. Pincus, C. Fowlkes,
+          "Celeganser: Automated Analysis of Nematode Morphology and Age",
+          CVPR CVMI Workshop, (June 2020)
+          [project]
+arXiv:2005.04884
+
+
+          Y. Zhao, S. Kong, D. Shin, C. Fowlkes,
+          "Domain Decluttering: Simplifying Images to Mitigate Synthetic-Real Domain Shift and Improve Depth Estimation",
+          CVPR, (June 2020)
+          [pdf]
+[project]
+arXiv:2002.12114
+
+
+
+          Y. Zhao, Y. Tian, C. Fowlkes, W. Shen, A. Yuille,
+          "Resisting Large Data Variations via Introspective Transformation Network",
+          WACV, (March 2020).
+          [pdf]
+
+
+          F. Zhou, S. Kong, C. Fowlkes, T. Chen, B. Lei
+          "Fine-Grained Facial Expression Analysis Using Dimensional Emotion Model",
+          Neurocomputing, (2020)
+          arXiv:1805.01024
+
+2019
+          C. Huh, K. Abdelaal,  K. Salinas, D. Gu, J. Zeitoun,  D. Velez, J. Peach, C. Fowlkes,  S. Gandhi,
+          "Long-term monocular deprivation during juvenile critical period disrupts binocular integration in mouse visual thalamus",
+          Journal of Neuroscience,
+          (November 2019),
+          10.1523/JNEUROSCI.1626-19.2019
+
+
+
+          N. Hayatbini, B. Kong, K-l Hsu, P. Nguyen, S. Sorooshian, G.
+          Stephens, C. Fowlkes, R. Nemani,
+          "Conditional Generative Adversarial Networks (cGANs) for Near Real-Time
+          Percipitation Estimation from Multispectral GOES 16 Satellite Imagery",
+          Remote Sensing 11:19,(Sept. 2019)
+          [pdf]
+
+
+
+          D. Shin, Z. Ren, E. Sudderth, C. Fowlkes, "3D Scene Reconstruction
+          with Multi-layer Depth and Epipolar Transformers",
+          ICCV (Oct. 2019)
+          [pdf]
+[project]
+arXiv:1902.06729
+
+
+          P. Nguyen, D. Ramanan, C. Fowlkes,
+          "Weakly-supervised Action Localization with Background Modeling"
+          ICCV (Oct. 2019)
+          [pdf]
+arXiv:1908.06552
+
+
+          A. Achille, M. Lam, R. Tewari, A. Ravichandran, S. Maji, C. Fowlkes, S. Soatto, P. Perona,
+          "Task2Vec: Task Embedding for Meta-Learning",
+          ICCV (Oct. 2019)
+          [pdf]
+arXiv:1902.03545
+
+
+           M. Lee, C. Fowlkes,
+          "CeMNet: Self-supervised learning for accurate continuous ego-motion estimation",
+          3rd International Workshop on Visual Odometry and Computer Vision Applications Based on Location Clues,
+          CVPR, (June 2019)
+          [pdf]
+arXiv:1806.10309
+
+
+          Z. Fang, S. Kong, C. Fowlkes, Y. Yang
+          "Modularized Textual Grounding for Counterfactual Resilience",
+          CVPR, (June 2019)
+          arXiv:1904.03589
+
+
+          Z. Wunderlich, C. Fowlkes, K. Eckenrode, M. Bragdon, A. Abiri, A.
+          DePace "Quantitative comparison of the anterior-posterior patterning
+          system in the embryos of five Drosophila species",
+          G3: GENES, GENOMES, GENETICS
+          10.1534/g3.118.200953 (May 2019)
+          
+
+
+          Z. Wang, L. Chen, S. Rathore, D. Shin, C. Fowlkes,
+          "Geometric Pose Affordance : 3D Human Pose with Scene Constraints", (May 2019).
+          arXiv:1905.07718
+
+
+          S. Kong, C. Fowlkes,
+          "Multigrid Predictive Filter Flow for Unsupervised Learning on Videos", (April 2019).
+          arXiv:1904.01693
+
+
+          P. Rajendran, R. Challis, C. Fowlkes, P. Hanna, J. Tompkins, M.
+          Jordan, S. Hiyari, B. Gabris-Weber, A. Greenbaum, K. Chan, B.  Deverman, H.
+          Munzberg, J. Ardell, G. Salama, V. Gradinaru, K.  Shivkumar, "Identification of
+          peripheral neural circuits that regulate heart rate using optogenetic and viral
+          vector strategies",
+          Nature Communications 10:1944 (April 2019)
+          bioRxiv preprint
+
+
+          S. Kong, C. Fowlkes,
+          "Pixel-wise Attentional Gating for Scene Parsing", WACV, (Jan 2019).
+          arXiv:1805.01556
+
+
+
+           B. Kong, J. Supancic, D. Ramanan, C. Fowlkes,
+          "Cross-Domain Image Matching with Deep Feature Maps",
+          IJCV, (2019).
+          doi:10.1007/s11263-018-01143-3
+          [pdf]
+
+
+2018
+         S. Kong, C. Fowlkes, "Image Reconstruction with Predictive Filter Flow", Technical Report (Nov. 2018)
+         arXiv:1811.11482
+
+
+
+          R. Muller, N. Abaid, J. Boreyko, C. Fowlkes, A. Goel, C. Grimm, S.
+          Jung, B. Kennedy, C. Murphy, N. Cushing,  J-P Han, "Biodiversifying
+          Bioinspiration", Bioinspiration & Biomemetics
+          13(5):053001, 2018. [pdf]
+
+
+          P. Nguyen, D. Ramanan, C. Fowlkes
+          "Active Testing: An Efficient and Robust Framework for Estimating
+          Accuracy", ICML,
+          (July 2018) [pdf]
+
+
+          D. Shin, C. Fowlkes, D. Hoiem, "Pixels, voxels, and views: A study
+          of shape representations for single view 3D object shape prediction",
+          CVPR, (June 2018)
+          [pdf]
+
+
+          S. Kong, C. Fowlkes, "Recurrent Pixel Embedding for Instance
+          Grouping", CVPR (June 2018)
+          arXiv:1712.08273
+[pdf]
+
+
+          S. Kong, C. Fowlkes, "Recurrent Scene Parsing with Perspective
+          Understanding in the Loop", CVPR (June 2018)
+          arXiv:1705.07238
+[pdf]
+
+
+          Z. Wang, X. Liu, L. Chen, L. Wang, Y. Qiao, X. Xie,  C. Fowlkes,
+          "Structured Triplet Learning with POS-tag Guided Attention for Visual Question Answering",
+          WACV, Lake Tahoe, NV (March 2018)
+          [pdf]
+
+2017
+
+
+          M. Lee, C. Fowlkes,
+          "Spacetime Localization and Mapping",  
+          ICCV, Venice, (October 2017).
+          [pdf]
+
+
+          B. Kong, C. Fowlkes,
+          "Energy-Based Spherical Sparse Coding", Technical Report,
+          arXiv:1710.01820
+[pdf]
+
+
+          B. Kong, J. Supancic, D. Ramanan, C. Fowlkes,
+          "Cross-Domain Forensic Shoeprint Matching", 
+          BMVC, London, (Sept 2017).
+          [pdf]
+              *best industrial paper honourable mention*
+
+
+
+          S. Kong, C. Fowlkes, "Low-rank Bilinear Pooling for Fine-Grained Classification",
+          CVPR, (July 2017).
+          arXiv:1611.05109
+[pdf]
+
+
+          R. Diaz, C. Fowlkes, "Cluster-wise Ratio Tests for Fast Camera Localization", 
+          Int. Workshop on Visual Odometry and Computer Vision Applications Base don Location Clues, CVPR, (July 2017).
+          arXiv:1612.01689
+[pdf]
+[code]
+
+
+          Z. Wang, L. Wang, Y. Wang, B. Zhang, Y. Qiao, C. Fowlkes, "Weakly Supervized PatchNets: Learning Aggregated
+          Patch Descriptors for Scene Recognition", 
+          SUNw: Scene Understanding Workshop, 
+          CVPR, (July 2017)
+          [pdf]
+
+
+          Z. Wang, X. Liu, L. Chen, L. Wang, Y. Qiao, X. Xie,  C. Fowlkes,
+          "Towards Good Practices for Visual Question Answering",
+          VQA Challenge Workshop,
+          CVPR, (July 2017)
+          
+
+
+          S. Wang, S. Wolf, C. Fowlkes, J. Yarkony, "Tracking Objects with Higher Order Interactions using Delayed Column Generation",
+          AISTATS, (April 2017).
+          arXiv:1512.02413
+[pdf]
+
+2016
+
+
+          S. Wang, C. Fowlkes, "Learning Optimal Parameters for Multi-target
+          Tracking with Contextual Interactions",
+          IJCV, 122:484. 
+          DOI 10.1007/s11263-016-0960-z 
+          arXiv:1610.01394
+[pdf]
+
+
+          S. Kong, X. Shen, Z. Lin, R. Mech, C. Fowlkes, "Photo Aesthetics Ranking
+          Network with Attributes and Content Adaptation", 
+          ECCV, Amsterdam, (Oct.  2016). 
+          arXiv:1606.01621
+[pdf]
+[supplement]
+
+
+          G. Ghiasi, C. Fowlkes, "Laplacian Pyramid Reconstruction and Refinement for Semantic Segmentation",
+          ECCV, Amsterdam, (Oct. 2016).
+          arXiv:1605.02264
+[pdf]
+[code]
+
+
+          S. Kong, S. Punyasena, C. Fowlkes, "Spatially Aware Dictionary Learning and Coding for Fossil Pollen Identiifcation",
+          CVMI Workshop, Los Vegas, NV, (July 2016).
+          arXiv:1605.00775
+[pdf]
+
+
+          P. Nguyen, G. Rogez, C. Fowlkes, D. Ramanan, "The Open World of Micro-Videos", Technical Report, (March 2016).
+          arXiv:1603.09439
+[pdf]
+
+
+          P. Nguyen, G. Rogez, C. Fowlkes, D. Ramanan, "The Open World of
+          Micro-Videos", BigVision Workshop, Los Vegas, NV (July 2016).
+          [pdf]
+
+
+
+          A. Cinquin, M. Chiang, A. Paz, S. Hallman, I. Vysniauskaite, O. Yuan, C. Fowlkes, O.
+          Cinquin, "Intermittent stem cell cycling balances self-renewal and senescence
+          of the C. elegans germ line", 
+          PLoS Genetics (2016)
+          DOI:10.1371/journal.pgen.1005985.
+          [pdf]
+
+
+
+          D. Tcheng, A. Nayak, C. Fowlkes, S. Punyasena,
+          "Visual recognition software for binary classification and its application to spruce pollen identification"
+          PLoS ONE,
+          11(2): e0148879. doi:10.1371/journal.pone.0148879 (2016).
+          [pdf]
+
+
+
+
+            R. Diaz, M. Lee, J. Schubert, C. Fowlkes,
+            "Lifting GIS Maps into Strong Geometric Context"
+            WACV Lake Placid, NY (March 2016).
+            arXiv:1507.03698
+[pdf]
+ 
+2015
+
+          C. McCusker, A. Athippozhy, C. Diaz-Castillo, C. Fowlkes,  D.
+          Gardiner, S. Voss, "Positional Plasticity in Regenerating Amybstoma
+          mexicanum Limbs Is Associated With Cell Proliferation and Pathways of
+          Cellular Differentiation", BMC Developmental Biology, 15:45, 
+          DOI 10.1186/s12861-015-0095-4 (2015).
+          [pdf]
+
+
+
+          M. Chiang, S. Hallman, A. Cinquin, N. Reyes de Mochel, A. Paz, S. Kawauchi, A. Calof, K. Cho, C. Fowlkes, O. Cinquin,
+         "Analysis of in vivo single cell behavior by high throughput, human-in-the-loop segmentation of three-dimensional images",
+         BMC Bioinformatics 2015, 16:397  doi:10.1186/s12859-015-0814-7.
+         [pdf]
+
+
+          J. Yarkony, C. Fowlkes, "Planar Ultrametrics for Image Segmentation", Proc. of ,
+          NIPS,  Dec. 2015.
+          arXiv:1507.02407
+[pdf]
+
+
+
+          J. B. Treweek, K. Chan, N. Flytzanis, B. Yang, B. Deverman, A. Greenbaum, A.
+          Lignell, C. Xiao, L. Cai, M. Ladinsky, P. Bjorkman, C. Fowlkes, V. Gradinaru
+          "Whole-Body Tissue Stabilization and Selective Extractions via Tissue-Hydrogel
+          Hybrids for High Resolution Intact Circuit Mapping and Phenotyping", 
+          Nature Protocols, 10 (11), 1860-1896, (2015)
+          DOI 10.1038/nprot.2015.122
+          
+
+
+           S. Wang, C. Fowlkes, "Learning Optimal Parameters for Multi-target Tracking",
+           BMVC 2015
+[pdf]
+
+
+
+           G. Ghiasi, C. Fowlkes, "Using segmentation to predict the absence of occluded parts",
+            BMVC 2015.
+            [pdf]
+[data]
+
+
+
+            R. Diaz, M. Lee, J. Schubert, C. Fowlkes,
+            "Lifting GIS Maps into Strong Geometric Context"
+            Technical Report, July 2015
+            arXiv:1507.03698
+[pdf]
+ 
+
+           G. Ghiasi, C. Fowlkes, "Occlusion Coherence: Detecting and Localizing Occluded Faces", Technical Report, June 2015
+           arXiv:1506.08347
+[pdf]
+[code]
+[dataset]
+
+
+            X. Zhu, C. Vondrick, C. Fowlkes, D. Ramanan, "Do we need more training data?",
+            IJCV, DOI 10.1007/s11263-015-0812-2, March 2015
+            arXiv:1503.01508
+[pdf]
+
+
+           S. Hallman, C. Fowlkes, "Oriented Edge Forests for Boundary Detection", 
+           CVPR, Boston, MA, (June 2015).
+arXiv:1412.2066
+[pdf]
+[code]
+
+
+
+           M. Staller, C. Fowlkes, M. Bragdon, J. Estrada, Z. Wunderlich, A. DePace, "A
+           gene expression atlas of a bicoid-depleted Drosophila embryo reveals early canalization of cell fate",
+           Development 142, p. 587-596, (2015)
+           [pdf]
+
+2014
+          S. Wang, C. Fowlkes, "Learning Multi-target Tracking with Quadratic
+          Object Interactions", Technical Report, arXiv:1412.2066 (Dec. 2014)
+          [pdf]
+
+
+           J. Yarkony, C. Zhang, C. Fowlkes, "Hierarchical Planar Correlation Clustering for Cell Segmentation", 
+           EMMCVPR, Hong Kong, (Jan 2015). 
+           [pdf]
+
+            G. Ghiasi, C. Fowlkes, "Occlusion Coherence: Localizing Occluded
+            Faces with a Hierarchicial Deformable Part Model", 
+            CVPR, Columbus, OH, (June 2014).
+            [pdf]
+
+
+
+            G. Ghiasi, Y. Yang, D. Ramanan, C. Fowlkes, "Parsing Occluded People",
+            CVPR, Columbus, OH, (June 2014). 
+            [pdf]
+
+
+
+            B. Kong, C. Fowlkes, "Fast Convolutional Sparse Coding (FCSC)", UCI Technical Report, (May 2014)
+            [pdf]
+
+
+2013
+        A. Chen, E. Lee, R. Tu, K. Santiago, A. Grosberg, C. Fowlkes, M. Khine,
+        "Integrated Platform for Functional Monitoring of Biomimetic Heart
+        Sheets Derived From Human Pluripotent Stem Cells", 
+        Biomaterials 35(2):675-683,
+        [pdf]
+
+
+
+        L. Mander, M. Li, W. Mio, C. Fowlkes, S. Punyasena, "Classification of grass
+        pollen through the quantitative analysis of surface ornamentation and texture",
+        Proc. R. Soc. B. 2013 280 (1770) [pdf]
+
+
+
+
+        R. Díaz, S. Hallman, C. Fowlkes, "Detecting Dynamic Objects with Multi-View Background Subtraction",
+        ICCV, Sydney, Australia (December 2013).
+        [pdf]
+
+
+
+        B. Andres, J. Yarkony, B.S. Manjunath, S. Kirchhoff, E. Turetken, C. Fowlkes, H. Pfister, 
+        "Segmenting Planar Superpixel Adjacency Graphs w.r.t. non-planar Superpixel Affinity Graphs", 
+        EMMCVPR, Lund, Sweden, (Aug. 2013).
+        [pdf][sup]
+
+
+
+        R. Díaz, S. Hallman, C. Fowlkes, "Multi-View Background Subtraction for Object Detection",
+        Scene Understanding Workshop, Portland, OR, (June 2013).
+        
+
+
+        H. Bae, C. Fowlkes, P. Chou, "Accurate Motion Deblurring using Camera Motion Tracking and Scene Depth", 
+        WACV, Clearwater Beach, Florida, (Jan. 2013).
+        [pdf]
+
+
+2012
+        H. Bae, C. Fowlkes, P. Chou, "Patch Mosaic for Fast Motion Deblurring",
+        ACCV, Daejeon, Korea, (Nov. 2012).
+       [pdf]
+
+
+   
+        X. Zhu, C. Vondrick, D. Ramanan, C. Fowlkes, "Do we need more training
+        data or better models for object detection?", BMVC, Surrey, UK (Sept. 2012).
+       [pdf]
+
+
+
+
+     J. Yarkony, A. Ihler, C. Fowlkes, "Fast Planar Correlation Clustering
+     for Image Segmentation'', ECCV, Firenze, Italy (Oct. 2012).
+     arXiv:1208.0378v1
+[extended pdf]
+
+
+
+    D. Keator, J. Fallon, A. Lakatos, C. Fowlkes, S. Potkin, A. Ihler,
+    "Feed-forward Hierarchical Model of the Ventral Visual Stream Applied to
+    Functional Brain Image Classification", Human Brain Mapping 35(1), p. 38–52, 2012.
+    [pdf]
+
+
+    H. Kim, J. Park, J. Byun, W. Poon, C. Cotman, C. Fowlkes, N. Jeon,
+    "Quantitative analysis of axonal transport by using compartmentalized and
+    surface micropatterned culture of neurons", 
+    ACS Chemical Neuroscience, 
+    2012. [pdf]
+2011
+
+        J. Hengenius, M. Gribskov, A. Rundell, C. Fowlkes, D. Umulis, "Analysis
+        of Gap Gene Regulation in a 3D Organism-Scale Model of the Drosohpila
+        melanogaster Embryo", 
+        PLoS ONE 6(11): e26797. doi:10.1371/journal.pone.0026797, 2011.
+        [pdf][supplement]
+
+
+        Y. Yang, S. Hallman, D. Ramanan, C. Fowlkes, "Layered Object Models for Image Segmentation", 
+        TPAMI, 34(9):1731-1743, 2011.
+        [pdf]
+
+
+        A. Chen, D. Lieu, L. Freschauf, V. Lew, H. Sharma, J. Wang, D. Nguyen, I. Karakikes, R. Hajjar, A. Gopinathan, E.
+        Botvinick, C.  Fowlkes, R. Li, M. Khine, "Shrink-Film Configurable Multiscale
+        Wrinkles for Functional Alignment of Human Embryonic Stem Cells and their
+        Cardiac Derivatives", 10.1002/adma.201103463, Advanced Materials, 2011. 
+        [pdf]
+
+
+
+        C. Fowlkes, K. Eckenrode, M. Bragdon, M. Meyer, Z. Wunderlich, L.
+        Simirenko, C. Hendriks, S. Keranen, C. Henreiquez, M. Biggin, M. Eisen,
+        A. DePace, "A conserved  developmental patterning network produces
+        quantitatively different output in multiple species of Drosophila,"
+PLoS Genetics, 
+7(10): e1002346, 2011.
+        [pdf]
+
+
+        Y. Chen, A. Gelfand, C. Fowlkes, M. Welling, "Integrating Local
+        Classifiers through Nonlinear Dynamics on Label Graphs with an
+        Application to Image Segmentation", ICCV, Barcelona, Spain, (Nov.
+        2011)
+        [pdf]
+
+
+        J. Yarkony, R. Morshed, A. Ihler, C. Fowlkes. "Tightening MRF Relaxations with Planar Subproblems",
+        UAI, Barcelona, Spain (July 2011).
+        [pdf]  
+           [NOTE: The original published version contained an erroroneous claim
+        that was kindly pointed out by David Sontag.  The one linked here is
+        an updated version.]
+
+
+        J. Yarkony, A. Ihler, C. Fowlkes. "Planar Cycle Covering Graphs",
+        UAI, Barcelona, Spain  (July 2011).
+        [pdf]
+
+
+        J. Yarkony, R. Morshed, A. Ihler, C. Fowlkes. "Planar Decompositions and Cycle Constraints", 
+        Workshop on Inference in Graphical Models with Structured Potentials, Colorado Springs, CO, (June 2011) [pdf]
+
+
+        J. Yarkony, A. Ihler, C. Fowlkes. "Planar Cycle Covering Graphs", Technical Report, 
+        arXiv:1104.1204v1, 2011  
+        [pdf]
+
+
+
+        C. Desai, D. Ramanan, C. Fowlkes. "Discriminative models for multi-class object layout",
+        95(1), p. 1-12, International Journal of Computer Vision, 2011
+        [pdf]
+
+
+        Y. Bo, C. Fowlkes. "Shape-based Pedestrian Parsing", 
+        CVPR, Colorado Springs, CO, (June 2011)
+        [pdf]
+
+
+        H. Pirsiavash, D. Ramanan, C. Fowlkes. "Globally-Optimal Greedy
+        Algorithms for Tracking a Variable Number of Objects",
+        CVPR, Colorado Springs, CO, (June 2011)
+        [pdf]
+
+
+
+       J. Luna, J. Ciriza, M. Ojeda-Garcia, M. Kong, A. Herren, D. Lieu, R. Li, C.
+       Fowlkes, M. Khine, K. McCloskey,
+       "Multi-scale Biomimetic Topography for the Alignment of Neonatal and
+       Embryonic Stem Cell-derived Heart Cells", 
+       Tissue Engineering: Part C , 17(5), p. 579-588 , 2011
+       [pdf]
+
+
+       P. Arbelaez, M. Maire, C. Fowlkes, J. Malik,
+       "Contour Detection and Hierarchical Image Segmentation",
+       TPAMI, 33(5), 2011
+       [pdf]
+[web page]
+
+2010
+
+       S. Hallman, A. Skurikhin, C. Fowlkes. "Vehicle Detection on High-Resolution
+       Commerical Satellite Imagery", Technical Report LA-UR-10-05877,
+       Los Alamos National Laboratory, 2010
+       
+
+       A. Aswani, S. Keranen, J. Brown, C. Fowlkes, D. Knowles, M. Biggin, P. Bickel,  C. Tomlin
+       "Nonparametric identification of regulatory interactions from spatial and temporal gene expression data"
+       BMC Bioinformatics,11:413, 2010. 
+       [pdf]  *highly accessed*
+
+
+
+       D. Park, D. Ramanan, C. Fowlkes
+       "Multiresolution models for object detection"
+       ECCV, Crete, Greece, (Sept. 2010)
+        [pdf]
+
+
+
+       J. Yarkony, C. Fowlkes, A. Ihler, 
+       "Covering Trees and Lower-bounds on Quadratic Assignment",
+       CVPR, San Francisco, (June 2010)
+        [pdf]
+
+
+        Y. Yang, S. Hallman, D. Ramanan, C. Fowlkes, 
+        "Layered Object Detection for Multi-Class Segmentation"
+       CVPR, San Francisco, (June 2010)
+        [pdf]
+
+
+       C. Desai, D. Ramanan, C. Fowlkes, "Discriminative models for static
+       human-object interactions", CVPR Workshop on Structured Models in Computer
+       Vision, San Fransisco, CA, (June 2010)
+       [pdf]
+
+J. Burge, C. Fowlkes, M. Banks, ``Natural-scene statistics predict how the
+       figure-ground cue of convexity affects human depth perception'',
+       
+       Journal of Neuroscience, 30(21):7269-7280
+       [pdf]
+[supplement]
+
+2009
+
+        H. Pirsiavash, D. Ramanan, C. Fowlkes. "Bilinear classifiers for
+        visual recognition", NIPS, Vancouver, Canada, (Dec. 2009).
+        [pdf]
+
+
+        C. Desai, D. Ramanan, C. Fowlkes. "Discriminative models for multi-class object layout",
+        ICCV Kyoto, Japan, (Sept. 2009). 
+        [pdf]
+
+             *awarded the Marr Prize for best paper*
+
+
+        P. Arbelaez, M. Maire,  C. Fowlkes and J. Malik. "From Contours to Regions: An Empirical Evaluation",
+        CVPR Miami Beach, FL, (June 2009). [pdf]
+[code].
+        A fast GPU implementation here!
+2008
+
+        M. Maire, P. Arbelaez, C. Fowlkes and J. Malik. "Using Contours to Detect 
+        and Localize Junctions in Natural Images", CVPR
+        Anchorage, AK, (June 2008). [pdf]
+
+
+        O. Rübel, G. Weber, M-Y Huang, E. Bethel, M. Biggin, C. Fowlkes
+        C. Leungo Hendriks, S. Keränen, M. Eisen, D. Knowles, J. Malik, H. Hagen, B. Hamann,
+        "Integrating Data Clustering and Visualization for the Analysis of 3D Gene Expression Data" 
+        IEEE Transactions on Computational Biology and Bioinformatics, 7(1):64-79, 2010. [pdf]
+
+        
+
+        C. Fowlkes, C. Luengo Hendriks, S. Keränen, G. Weber, O. Rübel, 
+        M-Y Huang, S. Chatoor, L. Simirenko, A. DePace C. Henriquez, A. Beaton, R.
+        Weiszmann, S. Celniker, B. Hamann, D. Knowles, M. Biggin, M. Eisen, J. Malik. 
+        "Constructing a quantitative spatio-temporal atlas of gene expression in
+        the Drosophila blastoderm", Cell, 133(2), p. 364-374, 2008.
+        [pdf]
+[supplement]
+
+         Reviews of this paper also appeared in Developmental Cell and
+         Nature Methods.
+         The Drosophila blastoderm 3D gene expression atlas is
+         online.
+
+
+        
+
+         X. Ren, C. Fowlkes, J. Malik.
+         "Learning Probabilistic Models for Contour Completion in Natural Images", 
+         IJCV, 77:47-63, 2008.
+         [pdf]
+
+2007
+
+        G. Weber, O. Rübel, M-Y Huang, A. DePace, C. Fowlkes,
+        S. Keränen, C. Luengo Hendriks, H. Hagen, D. Knowles,
+        J. Malik, M. Biggin, and B. Hamann
+        "Visual Exploration of Three-dimensional Gene Expression Using Physical Views and Linked Abstract Views",
+        IEEE Transactions on Computational Biology and Bioinformatics, 6(2):296-309, 2009.
+        [pdf]
+
+
+        C. Fowlkes, D. Martin, J. Malik.
+        "Local Figure/Ground Cues are Valid for Natural Images"
+        Journal of Vision, 7(8):2, 1-9.
+        [pdf]
+[dataset]
+
+2006
+      
+        C. Luengo-Hendriks, S. Keränen, C. Fowlkes, L.  Simirenko, G.
+        Weber, C. Henriquez, D. Kaszuba, B. Hamann, M. Eisen, J. Malik, D.
+        Sudar, M. Biggin D.  Knowles, "3D Morphology and Gene Expression in
+        the Drosophila Blastoderm at Cellular Resolution I: Data Acquisition
+        Pipeline", Genome Biology 2006, 7:R123 
+        , [pdf]
+ *highly accessed*
+
+
+        S. Keränen, C. Fowlkes, C. Luengo Hendriks, D.  Sudar, D.
+        Knowles, J. Malik, M. Biggin, "3D Morphology and Gene Expression in
+        the Drosophila Blastoderm at Cellular Resolution II: Dynamics",
+        Genome
+        Biology 2006, 7:R124, [pdf]
+ *highly accessed*
+
+
+
+         C. Fowlkes, J. Malik.
+         "Inferring nuclear movements from fixed material",
+          Technical Report EECS-2006-142, EECS Department,
+          University of California, Berkeley, (November 2006).
+          [pdf]
+
+
+         X. Ren, C. Fowlkes, J. Malik.
+         "Figure/Ground Assignment in Natural Images",
+         ECCV, Graz, Austria, (May 2006).
+         [pdf]
+
+
+         O. Rübel, G. Weber, S. Keränen, C. Fowlkes, C. Luengo Hendriks, 
+         N. Shah, M. Biggin, H. Hagen, D. Knowles, J. Malik, D. Sudar and B. Hamann.
+         "PointCloudXplore: Visual Analysis of 3D Gene Expression Data Using Physical Views 
+         and Parallel Coordinates",
+         EuroVIS,
+         Lisbon, Portugal, (May 2006).
+         [pdf]
+
+2005
+
+          X. Ren, C. Fowlkes, J. Malik.
+          "Cue Integration for Figure/Ground Labeling",
+          NIPS,
+          Vancouver, Canada, (Dec. 2005).
+          [pdf]
+
+
+          X. Ren, C. Fowlkes, J. Malik.
+          "Scale-Invariant Contour Completion using Conditional Random Fields",
+          ICCV,
+          Beijing, China, (Oct. 2005).
+          [pdf]
+
+
+          C. Fowlkes, C. Luengo Hendriks, S. Keränen, M. Biggin, D. Knowles, D. Sudar, J. Malik.
+          "Registering Drosophila Embryos at Cellular Resolution to Build a Quantitative 3D Atlas 
+          of Gene Expression Patterns and Morphology",
+          
+          CSB 2005 Workshop on BioImage Data Minning and Informatics,
+          Palo Alto, CA, (Aug. 2005).
+          [pdf]
+ 
+
+          X. Ren, C. Fowlkes, J. Malik.  
+          "Mid-level Cues Improve Boundary Detection",
+          Technical Report CSD-05-1382, Division of Computer Science,
+          University of California, Berkeley, (March 2005). 
+          [pdf]
+
+2004
+
+          C. Fowlkes
+          "A Note on Planar Factor Graphs",
+          (Oct. 2004). 
+          [pdf]
+ 
+
+          C. Fowlkes, J. Malik.  
+          "How Much Does Globalization Help Segmentation?",
+          Technical Report CSD-04-1340, Division of Computer Science,
+          University of California, Berkeley, (July 2004). 
+          [pdf]
+ 
+
+          C. Fowlkes
+          "Surveying Shape Spaces",
+          survey article for
+          
+          Alan Weinstein's course on Reimannian Geometry
+[pdf]
+
+
+          D. Martin, C. Fowlkes, J. Malik.  
+          "Learning to Detect Natural Image Boundaries Using Local Brightness, Color and Texture Cues",
+          TPAMI 26 (5) p.530-549
+          [pdf]
+ 
+
+          C. Fowlkes, S. Belongie, F. Chung, J. Malik.  
+          "Spectral Grouping Using The Nyström Method",
+          TPAMI 26 (2) p.214-225
+          [pdf]
+
+2003
+
+          C. Fowlkes, D. Martin, J. Malik.  
+          "Learning Affinity Functions for Image Segmentation: Combining Patch-based and 
+          Gradient-based Approaches",
+          CVPR,
+          Madison, WI, (June 2003).
+          [pdf]
+
+2002
+
+          D. Martin, C. Fowlkes,  J. Malik.  "Learning to Detect Natural Image 
+          Boundaries Using Brightness and Texture",
+          NIPS
+          , Vancouver, (Dec 2002). 
+          [pdf]
+ 
+
+          S. Belongie, C. Fowlkes, F. Chung, J. Malik.  "Spectral Partitioning with
+          Indefinite Kernels using the Nyström Extension",
+          ECCV
+          , Copenhagen, (May 2002).
+          [pdf]
+ 
+
+          C. Fowlkes, Q. Shan, S. Belongie, J. Malik.  "Extracting Global Structure
+          from Gene Expression Profiles", in 
+          Methods of Microarray Data Analysis II, 
+          S. M. Lin and K. F. Johnson, editors.  Kluwer Academic Publishers, 2002.
+          [pdf]
+ 
+2001 and before
+
+          C. Fowlkes, S. Belongie, J. Malik.  "Efficient Spatiotemporal Grouping
+          Using the Nyström Method", 
+          CVPR
+          , Hawaii, (Dec. 2001). 
+          [pdf]
+ 
+
+          D. Martin, C. Fowlkes, D. Tal, J. Malik.  "A Database of Human 
+          Segmented Natural Images and its Application to Evaluating 
+          Segmentation Algorithms and Measuring Ecological Statistics",
+          ICCV,
+          Vancouver, (July 2001). 
+          [pdf]
+             *awarded the Helmoltz Prize in 2015 for making a significant impact on the field of computer vision*
+ 
+
+          M.C. Burl, C. Fowlkes, J. Roden, "Mining for Image Content",
+          SCI-ISAS '99 Session on Intelligent Data Mining and Knowledge 
+          Discovery, Orlando, FL, (Aug 1999)
+          [pdf]
+  
+
+          J. Roden, M.C. Burl, and C. Fowlkes, "The Diamond Eye Image Mining 
+          System", Demo for the Scientific and Statistical Database Management
+          Conf., Cleveland, OH, (June 1999)
+          [pdf]
+  
+
+          M.C. Burl, C. Fowlkes, J. Roden, A. Stechert, and S. Muukhtar, 
+          "Diamond Eye: A distributed Architecture for Image Data Mining", 
+          SPIE Conference on Data Minning and Knowledge Discovery, 
+          Orlando, FL (Apr 1999) 
+          [pdf]
+ 
+
+          C. W. Fowlkes and C. C. Fowlkes
+          "Passive Solar Contributions to Residential Ventilation", 
+          Conservation in Buildings: Northwest Perspective, 
+          Butte, MT (May 1985) 
+          [pdf]
+ 
+
+
+
+erdös 
+            = 2    
+         
+
+
+
+
+
+

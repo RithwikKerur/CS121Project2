@@ -1,0 +1,181 @@
+https://emj.ics.uci.edu/research-opportunities
+
+
+
+
+Opportunities | Eric Mjolsness
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Eric Mjolsness
+
+
+Department of Computer Science, University of California Irvine
+
+
+
+Skip to content
+
+HomeAbout
+Papers
+
+Computational Biology Papers
+Modeling Frameworks Papers
+Machine Learning Papers
+Vision and Image Analysis Papers
+Optimization Papers
+Cognition Papers
+Computational Field Geology Papers
+Neural Network Papers
+Calculational papers
+
+
+Projects
+
+Computational Biology Projects
+
+Computable Plant Project
+
+
+
+
+Topics
+Software
+
+Research Software – Computational Biology
+Cambium biomathematical model translation software
+
+
+Selected Talks
+
+Talks – Computational Biology
+
+
+Teaching
+PhD Theses
+Reviews
+Grand Questions
+CV & News
+Opportunities
+Democracy
+
+
+
+
+
+
+
+
+Opportunities
+
+(Research Opportunities)
+Research opportunities exist for PhD students interested in AI/ML for computational science; more specifically, in “Mathematical AI/ML for Multiscale Computational Science” the latter including computational biology. Please note that this is quite a specialized niche, not to be confused with general machine learning, AI, or bioinformatics. It also requires quite a bit of background knowledge across several domains. On the other hand it could turn out to be the future of science.
+Prospective PhD students should apply to one of these graduate programs:
+– Computer Science
+– Mathematical, Computational, and Systems Biology, or
+– Computational Science
+specifically mentioning my name in your application. To be sure I notice, you could send an email as well. Please note that my current research approaches all require a strong mathematical background and an interest in computational science.
+Current project interest areas revolve around a comprehensive vision for combined symbolic and numeric AI/ML in computational science outlined at a high level in reference [1] below, supported by much other work listed below and in my other papers. Research projects should be compatible with the ethics of democracy, human rights, and the rule of law .
+Possible Research Topics for Prospective PhD Students,
+in “Mathematical AI/ML for Multiscale Computational Science”:
+1. Machine learning for change-of-scale relationships in predictive dynamical models arising in mathematical computational biology and computational science [2, 4]. By these technical means, there is the potential to address fundamental issues in reductionism and emergence in the natural sciences.
+2. Rewrite rules for labeled graphs and symbolic structures, applied to e.g. (a) dynamical model formulation [1]; (b) extended-object type construction for dynamical models [5, 6]; (c) symbolic mathematical analysis of dynamical models by proof assistant software based on type theory; and/or (d) model transformation by semantics-preserving or semantics-approximating chainable meta-rules (e.g. those of the ML project #1 above). This project will bring mathematical forms of symbolic AI, including computer algebra, to bear on complex scientific modeling.
+3. High-level mathematical/scientific modeling languages and systems targeting high-performance computing (HPC) for predictive dynamical models, in computational biology and computational science. This project could incorporate the results of projects 1 and/or 2 above.
+4. Scalable graph-centric formalizations of scientific problem domains and ML architectures for their simulation and understanding, e.g.  [3].
+5. Biomorphic neural network growth and evolution, using recent brain architecture knowledge from model organisms. This project should incorporate approaches and/or results from research directions 1-4 above.
+Other projects may also be possible; see my recent publications for current interests. 
+Disclaimer: Funding for these projects may take the form of teaching assistantships and/or student-obtained funding (e.g. student-obtained fellowships), depending on future grants.
+Postdoctoral scholars interested in the foregoing specialized topics and qualified in the relevant fields named are welcome to inquire. Depending on the funding cycle, there may be an open position, or candidates may have to bring their own funding, e.g. through fellowships. Having such funding, however, does not guarantee acceptance as a postdoc. For Spring 2022, the currently open postdoctoral scholar job is here.
+References (incorporating the work of PhD grads Ernst, Scott, Johnson, and Yosiphon):
+[1] Mjolsness 2019 “Prospects for Declarative Mathematical Modeling of Complex Biological Systems”, Eric Mjolsness. Bulletin of Mathematical Biology, Volume 81, Issue 8, pp 3385–3420, August 2019. https://doi.org/10.1007/s11538-019-00628-7. Also preprint http://arxiv.org/abs/1804.11044 in a different format.
+[2] “Learning Dynamic Boltzmann Distributions as Reduced Models of Spatial Chemical Kinetics”, Oliver K. Ernst, Tom Bartol, Terrence Sejnowski, and Eric Mjolsness. Journal of Chemical Physics 149, 034107, July 2018. Also arXiv 1803.01063, March 2018.
+[3] “Graph Prolongation Convolutional Networks: Explicitly Multiscale Machine Learning on Graphs with Applications to Modeling of Cytoskeleton”, by C.B. Scott and Eric Mjolsness. Machine Learning: Science and Technology 2 015009, 1 December 2020. https://iopscience.iop.org/article/10.1088/2632-2153/abb6d2
+[4] Johnson et. al. 2015 “Model Reduction for Stochastic CaMKII Reaction Kinetics in Synapses by Graph-Constrained Correlation Dynamics”, Todd Johnson, Thomas Bartol, Terrence Sejnowski, and Eric Mjolsness. Physical Biology 12:4, July 2015.
+[5] Mjolsness 2010 “Towards Measurable Types for Dynamical Process Modeling Languages”, Eric Mjolsness. Electronic Notes in Theoretical Computer Science (ENTCS), vol. 265, pp. 123-144, 6 Sept. 2010, Elsevier. Also Proceedings of the 26th Conference on Mathematical Foundations of Programming Semantics (MFPS 2010). DOI 10.1016/j.entcs.2010.08.008.
+[6] Mjolsness and Yosiphon 2006 Stochastic Process Semantics for Dynamical Grammars. Eric Mjolsness and Guy Yosiphon, Annals of Mathematics and Artificial Intelligence, 47(3-4) August 2006.
+
+
+
+
+
+
+
+
+
+
+Search for:
+
+
+
+
+
+Recent Posts
+
+
+UCI academic site
+
+
+Recent CommentsArchives
+
+December 2012
+
+Categories
+
+Uncategorized
+
+
+Meta
+
+Log in
+Entries feed
+Comments feed
+WordPress.org
+
+ 
+
+
+
+
+
+
+					Eric Mjolsness				
+
+
+
+					Proudly powered by WordPress.				
+
+
+
+
+
+
+
+
+
+

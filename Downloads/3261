@@ -1,0 +1,227 @@
+https://ngs.ics.uci.edu/tineye-an-image-search-engine
+
+
+
+
+
+
+
+
+TinEye — An Image Search Engine – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				TinEye — An Image Search Engine    			
+
+
+My student Arjun Satish pointed me to a new image search engine on the Web — www.tineye.com — which takes an image or a url from you and searches for that image on the web.  It claims to look at 701Million images.  I played with it.
+It seems to use some metadata because it does find if the image does exist on the Web but if you give it one of your images it correctly tells that it does not exist on the Web.  I t tells directly that  it is not doing any content based search.  
+It is good in what it does.
+
+
+
+By Ramesh |
+    				August 4, 2008 |
+    				             		Experiential Computing, Technical Thoughts |
+             	 
+    				             		4 Comments |
+             	 		          				
+    			
+
+
+← MIR 1: Data Sets
+Co-Space →
+
+
+
+			4 thoughts on “TinEye — An Image Search Engine”		
+
+
+
+
+Ian August 4, 2008 at 1:41 pm 
+
+I’m pretty sure it is doing something content-based, though of course I can’t be sure.  For instance, a search based on an image of Michelangelo’s PietÃ  turns up these results:
+http://tineye.com/search/141e3500ffcbe31f483a02644c8c2ae83cd139f5
+None of them are exactly the original, but the amount of visual variation among the images is much less than you’d get from Google:
+http://images.google.com/images?q=michelangelo+piet%E0
+This suggests that it really is using the image content.
+
+
+
+
+
+
+
+
+martha August 4, 2008 at 9:00 pm 
+
+hmm..Its in private beta. i have requested an invite to check it out. But it surely a great idea. Let’s see how well it gonna be. 
+——————
+dissertation topic
+
+
+
+
+
+
+
+
+Ramesh  Post authorAugust 5, 2008 at 4:21 am 
+
+Ian,
+On Tineye all he images are the same with different resolution and possibly compression so it is quite possible that there is either some metadata or a simple matching of histograms (or dct coefficients) that are being used.  On google, they are using the keywords and many times the same keyword goes with different images.
+In any case, this is an interesting approach.
+
+
+
+
+
+
+
+
+julie February 4, 2009 at 11:37 am 
+
+I mean if they created such useful thing, why they are forcing people to get registered to use it. Why dont they just make it open like any other search engine :S
+————————–
+link building service
+
+
+
+
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

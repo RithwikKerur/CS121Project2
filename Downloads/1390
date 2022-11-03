@@ -1,0 +1,9 @@
+http://plrg.ics.uci.edu/publications/490.bib
+@inproceedings{key,
+ author = {Loi Luu and Shweta Shinde and Prateek Saxena and Brian Demsky},
+ title = {A Model Counter For Constraints Over Unbounded Strings},
+ booktitle = {Proceedings of the 35th Annual ACM SIGPLAN Conference on Programming Language Design and Implementation},
+ location = {Edinburgh, United Kingdom},
+ month = {June},
+ year = {2014}
+}

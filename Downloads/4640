@@ -1,0 +1,335 @@
+http://flamingo.ics.uci.edu
+
+
+
+
+The FLAMINGO Project on Data Cleaning
+
+
+
+
+
+
+
+The FLAMINGO Project on Data Cleaning
+Department of Computer Science, UC Irvine
+
+Objective
+ The Flamingo Project focuses on data cleaning, i.e., how to
+deal with errors and inconsistencies in information systems.  As an
+example, in many applications such as data integration, commercial
+organizations need to collect data from various sources to conduct
+analysis and make decisions. Often, the data from these different
+sources can have inconsistencies. For instance, we use first name,
+last name, SSN, and birthday to identify a person. However, the same
+name, e.g., "Schwarzenegger", may be misspelled as "Swarzzengaer" or
+other forms. Such errors make it more challenging to link records from
+different places and answer queries approximately.  We are developing
+algorithms in order to make query answering and information retrieval
+efficient in the presence of such inconsistencies and errors.
+
+With the NSF
+award IIS-0844574,
+we plan to study the following problems.  Supporting fuzzy queries is
+becoming increasingly more important in applications that need to deal
+with a variety of data inconsistencies in structures, representations,
+or semantics.  Many existing algorithms require an offline analysis of
+data sets to construct an efficient index structure to support online
+query processing. Fuzzy join queries of data sets are more time
+consuming due to the computational complexity.  The PI is studying
+three research problems: (1) constructing high-quality inverted lists
+for fuzzy search queries using Hadoop; (2) supporting fuzzy joins of
+large data sets using Hadoop; and (3) using the developed techniques
+to improve data quality of large collections of documents.
+
+With the NSF
+award 1030002,
+we will study how to support powerful keyword search with efficient
+indexing structures and algorithms in a clouding-computing
+infrastructure. A main application is supporting
+family reunification in disasters
+such as the Haiti Earthquake.  Check our portals for
+the Haiti Earthquake
+and Chile Earthquake.  The
+main challenge is how to use limited programming primitives in the
+cloud to implement index structures and search algorithms. 
+
+Our qSpeller project page for the Microsoft Speller Challenge.
+News
+
+(1/13/2013) Our DASFAA 2003 paper titled "Efficient Record Linkage
+in Large Data Sets" received the 10-year Best Paper Award for DASFAA
+2013. It was my first paper in the area of data cleaning and
+approximiate string search in the context of the Flamingo project.
+
+(2/2012) We are glad to release version 
+of our Flamingo Package on approximate string matching.
+ (7/2011) Our team won the third prize at the Microsoft Speller Challenge.  Here is our project page.
+
+ (4/22/2011) Chen Li gave an invited talk titled "The Flamingo Software
+  Package on Approximate String Queries" at
+  the DQIS
+  2011 workshop in Hong Kong.  Here is the Powerpoint file.
+ 
+
+(10/2010) Out paper titled "Answering Approximate String Queries on Large Data Sets Using External Memory" has been accepted for publication in ICDE 2011.
+
+(9/2010) Our paper titled "Supporting Location-Based Approximate-Keyword Queries" has been accepted for publication in ACM SIGSPATIAL GIS 2010.
+
+(3/2010) We are glad to release the third
+version of our Flamingo Package on approximate string matching.
+(3/2010) We are glad to release
+the source
+code of our SIGMOD 2010 paper titled "Efficient Parallel
+Set-Similarity Joins Using MapReduce"
+
+(3/2010) We are glad to release
+two Fuzzy
+Keyword Search on Spatial Data demos.
+(3/2010) We are glad to receive an NSF
+award 1030002
+to support research on powerful keyword search with efficient indexing
+structures and algorithms in a cloud-computing environment, especially in the
+domain of
+family reunification in disasters
+such as the  Haiti Earthquake.
+
+(2/2010) Our paper titled "Efficient Parallel Set-Similarity Joins
+Using MapReduce" has been accepted by the SIGMOD 2010 conference.
+
+(2/2009) We are glad to receive an NSF award IIS-0844574 from the NSF CluE program to support our research on large-scale data cleaning using MapReduce/Hadoop environments.  In addition to receiving the NSF support, we will also use software and services on a 
+Google-IBM cluster
+to explore innovative research ideas in data-intensive computing.
+
+(11/07/2008) We updated our Flamingo
+Package (2.0.1) for compatibility with the latest GCC version
+(4.3.2).
+
+(10/14/2008) We are glad to release
+the second version of our Flamingo Package on
+approximate string matching.
+
+(10/14/2008) We are glad to release
+the Flamingo Toolkit that contains UDF
+functions for MySQL.
+
+(4/1/2008) We are glad to release
+the PSearch Prototype to
+support interactive, fuzzy search for UCI Directory.
+
+(4/17/2007) We are glad to release
+the first version of our Flamingo Package on
+approximate string matching.
+
+Fuzzy Keyword Search on Spatial Data
+
+We present a solution to
+support Fuzzy
+Keyword Search on Spatial Data.
+Releases
+
+Latest
+4.1 (February 22nd, 2012)
+4.0 (October 23rd, 2010)
+3.0 (March 29th, 2010)
+2.0.1 (November 7th, 2008)
+2.0 (October 14th, 2008)
+1.0 (April 17th, 2007)
+
+Toolkit (October 14th, 2008), UDF
+functions for MySQL
+
+People
+
+Sattam Alsubaiee (Ph.D. Student)
+Alexander Behm (Ph.D. Student)
+Shengyue Ji (Ph.D. Student)
+Chen Li (Faculty)
+Rares Vernica (Ph.D. Student)
+
+Alumni and Visitors
+
+Guoliang Li, spring of 2008, visitor from Tsinghua University, China.
+Jiaheng Lu, postdoc, 2006-2008.  Now a faculty at Renmin University, China.
+Yiming Lu, graduated from UC Irvine in 2008
+Bin Wang and Xiaochun Yang, summers of 2006, 2007, and 2008, visitors from
+Northeastern University, China
+Liang Jin, graduated from UC Irvine in 2005
+
+Publications
+
+Answering Approximate String Queries on Large Data Sets Using External Memory
+
+Alexander Behm, Chen Li, Michael J. Carey.
+
+ICDE 2011 (accepted for publication).
+
+Supporting Location-Based Approximate-Keyword Queries
+
+Sattam Alsubaiee, Alexander Behm, Chen Li.
+PDF
+PPTX
+Source Code
+
+ACM SIGSPATIAL GIS 2010.
+
+Efficient Parallel Set-Similarity Joins Using MapReduce
+
+Rares Vernica, Michael J. Carey, Chen Li.
+PDF Full Version
+Source Code
+
+SIGMOD 2010.
+
+Fuzzy Keyword Search on Spatial Data (Demo)
+
+Sattam Alsubaiee and Chen Li
+PDF Demo
+
+DASFAA 2010.
+
+Efficient top-k algorithms for fuzzy search in string
+collections.
+Rares Vernica, Chen Li.
+PDF PDF
+slides Source Code
+
+KEYS 2009: 9-14. (Workshop on Keyword Search on Structured
+Data, collocated with SIGMOD 2009)
+Efficient Interactive Fuzzy Keyword Search
+
+Shengyue Ji, Guoliang Li, Chen Li, and Jianhua Feng
+PDF
+PPTX
+ConferenceLink
+
+WWW 2009. 
+
+Space-Constrained Gram-Based Indexing for Efficient Approximate String Search
+
+Alexander Behm, Shengyue Ji, Chen Li, and Jiaheng Lu
+PDF
+Full Version
+PPTX
+Source Code
+
+ICDE 2009. 
+
+Efficient Approximate Search on String Collections (Tutorial)
+
+Marios Hadjieleftheriou, Chen Li
+PPT Part1,
+PPT Part2
+
+ICDE 2009.
+
+
+Cost-Based Variable-Length-Gram Selection for String Collections to
+Support Approximate Queries Efficiently
+PDF
+PPT
+
+Xiaochun Yang, Bin Wang, Chen Li.
+SIGMOD 2008. 
+
+Efficient Merging and Filtering Algorithms for Approximate String Searches
+PDF
+PPT
+Source Code
+
+Chen Li, Jiaheng Lu, and Yiming Lu.
+ICDE 2008.
+
+SEPIA: Estimating Selectivities of Approximate String Predicates in Large Databases
+Source Code
+
+Liang Jin, Chen Li, and Rares Vernica.
+VLDB Journal 2007. It's an extended version of the SEPIA paper in VLDB05.
+
+VGRAM: Improving Performance of Approximate Queries on String
+Collections Using Variable-Length Grams.
+PDF
+PPT
+
+Chen Li, Bin Wang, and Xiaochun Yang.
+VLDB 2007, Vienna, Austria
+
+Relaxing Join and Selection Queries.
+PDF
+PPT
+Source Code
+
+Nick Koudas, Chen Li, Anthony Tung, and Rares Vernica.
+VLDB 2006, Seoul, Korea.
+
+Selectivity Estimation for Fuzzy String Predicates in Large
+Data Sets.
+PDF
+PPT
+Source Code
+
+Liang Jin and Chen Li.
+VLDB 2005, Trondheim, Norway.
+
+Indexing Mixed Types for Approximate Retrieval.
+PDF
+PPT
+Source Code
+
+Liang Jin, Nick Koudas, Chen Li, Anthony K.H. Tung.
+VLDB 2005, Trondheim, Norway.
+
+NNH: Improving Performance of Nearest-Neighbor Searches Using
+Histograms.
+PDF
+Full Version
+PPT
+Liang Jin, Nick Koudas, Chen Li. 
+EDBT 2004, Heraklion - Crete, Greece.
+
+Efficient Record Linkage in Large Data Sets.
+PDF,
+PPT
+Source Code
+
+Liang Jin, Chen Li, and Sharad Mehrotra.
+8th International Conference on Database Systems for Advanced
+Applications (DASFAA) 2003, Kyoto, Japan.
+Received 10-year Best Paper Award for DASFAA 2013.
+Supporting Efficient Record Linkage for Large Data Sets Using
+Mapping Techniques
+
+Chen Li, Liang Jin, and Sharad Mehrotra
+World Wide Web Journal, Volume 9, Number 4, pages 557-584, December 2006.
+This journal article is an extended version of the DASFAA03 paper.
+
+
+Acknowledgements: This release is partially
+supported by the
+NSF CAREER
+Award
+No. IIS-0238586,
+the NSF
+award No. IIS-0742960,
+the NSF
+award IIS-0844574,
+the NSF
+award 1030002,
+the NSF-funded RESCUE project,
+the NIH grant 1R21LM010143-01A1,
+a Google Research Award, a gift fund from Microsoft,
+a research grant from Amazon.com to allow us to use their MapReduce cluster, and a
+fund from CalIt2.
+
+Many thanks to Minh Doan and Kensuke Ohta for their valuable testing
+and feedback on the code and documentation.
+
+ For any questions regarding this project, please
+send email to flamingo AT ics.uci.edu
+
+
+
+
+
+
+

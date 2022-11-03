@@ -1,0 +1,97 @@
+https://www.ics.uci.edu/~swjun
+
+
+
+
+
+
+
+
+
+Sang-Woo Jun
+
+
+
+
+
+
+
+Sang-Woo Jun
+Assistant Professor at University of California, Irvine
+
+
+
+
+Some News
+2021-10-26: UCI ICS wrote an article about our best paper in FPL, which involves a high school research assistant! [link]
+2021-03-27: Collaboration project with Samsung has started for cost-effective neural network acceleration on Smart SSDs
+2020-12-22: Collaboration project with vmware is continuing into its third year!
+2019-07-31: Collaboration project with vmware has started for flash storage management with near-storage acceleration
+2019-06-05: NSF proposal for elastically allocated FPGAs in the cloud has been funded
+2018-06-06: "Thanks for the memories", The Next Platform's article on my research
+
+
+
+
+Assistant professor at the 
+
+Computer Science Department 
+
+Donald Bren School of Information and Computer Sciences
+
+University of California, Irvine 
+Contact: swjun _AT_ ics.uci.edu 
+
+Before joining UC Irvine in 2018, I earned my Ph.D. in Electrical Engineering and Computer Science at the Massachusetts Institute of Technology (2018), working with Professor Arvind. 
+I have earned my B.S. in Electrical and Computer Engineering at Seoul National University (2010).
+ Research Interests 
+My research is in innovative system architectures for low-cost high-performance computing.
+My two prominent tools right now are Non-Volatile Memory (NVM) and reconfigurable hardware accelerators.
+
+
+
+
+Software Distributions
+
+ libsortreduce Library implementing the Sort-Reduce algorithm for sequentializing random updates into secondary storage, introduced in the GraFBoost paper.
+ GraFBoost / BigSparse Graph analytics platform for handling very large graphs quickly using secondary storage, built using libsortreduce.
+ BluespecPCIe High-performance PCIe library for the Xilinx 7 series FPGAs in the Bluespec language, including hardware core and software library.
+
+Teaching
+
+ 2022 Fall - CS250P: Computer Systems Architecture
+ 2022 Spring - CS250B: Modern Computer Systems
+ 2022 Winter - CS152: Computer Systems Architecture
+ 2021 Spring - CS250B: Modern Computer Systems
+ 2021 Winter - CS152: Computer Systems Architecture
+ 2020 Spring - CS250B: Modern Computer Systems
+ 2020 Winter - CS152: Computer Systems Architecture
+ 2019 Spring - CS295: Modern Systems
+
+External Resources
+
+ A nice, high-level introduction to FPGAs, one of the key components of my research
+Architecture All Access: Modern FPGA Architecture | Intel Technology
+
+Publications
+My Google Scholar Profile
+
+ 2022: Our paper on memory-efficient hardware accelerator for bloom filter construction has been published at the International Conference on Field-Programmable Logic and Applications (FPL) 2022
+ 2022: Our paper on very low-power hardware accelerators for floating-point PID controllers has been published at the (International Symposium on Highly-Efficient Accelerators and Reconfigurable Technologies) HEART 2022
+ 2022: Our paper on hardware accelerators for weight and feature map compression of embedded neural networks has been published at MDPI Electronics 2022
+ 2022: Our paper on floating-point compression for scientific simulation acceleration has been published at the Transactions on Reconfigurable Technology and Systems (TRETS) 2022
+ 2021: Our paper on a near-storage accelerator for unstructured log analytics has been accepted to the International Symposium on Microarchitecture (MICRO) 2021
+ 2021: Our IoT acceleration paper at FPL has been voted a Best Paper!
+ 2021: Our paper on extremely low power (17 mW !) accelerator for recurrent neural networks on IoT devices has been accepted to the International Conference on Field-Programmable Logic and Applications (FPL) 2021
+ 2021: Our paper on cost-effective somatic mutation calling has been accepted to the Frontiers in Genetics 2021
+ 2020: Our paper on integer stream compression acceleration for high-dimensional nearest neighbor search near-storage has been accepted to the Internaltional Conference on Field-Programmable Technologies (FPT) 2020
+ 2020: Our paper on database join query acceleration on memory-constrained hardware accelerators has been accepted to the ACM SIGOPS Asia-Pacific Workshop on Systems (ApSys) 2020
+ 2020: Our paper on edge computing to reduce data movement for IoT sensor nodes has been accepted to the International Conference on Application-specific Systems, Architectures and Processors (ASAP) 2020
+ 2020: Our paper on data movement reduction for scientific simulation acceleration as been accepted to the International Conference on Supercomputing (ICS) 2020
+ 2019: Our paper on hardware-optimized scientific data compression has been accepted to the Internaltional Conference on Field-Programmable Technologies (FPT) 2019
+
+
+ 
+ 
+
+

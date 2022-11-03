@@ -1,0 +1,275 @@
+http://sli.ics.uci.edu/extras/cs178/NNet_Demo.html
+
+
+
+
+NNet Demo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In [1]:
+
+
+import numpy as np
+np.random.seed(0)
+import mltools as ml
+import matplotlib.pyplot as plt   # use matplotlib for plotting with inline plots
+%matplotlib inline
+
+import mltools.nnet    # import neural network code
+
+
+
+
+
+
+
+
+
+
+Multi-layer perceptrons (neural networks)¶Neural networks are simply cascades of perceptron functions, i.e., linear combinations of the inputs followed by a nonlinear activation function.  In logistic regression, for example, we used a "sigmoid" logistic function to transform our linear response into the range [0,1], for use as a classifier.  Neural networks simply create a multi-level version of this, in which the outputs of one layer's activation functions are used as the inputs to the next layer.  Since the entire system is smooth and differentiable, it can be trained jointly using gradient descent.
+Let's see some simple examples using our iris data and the class code:
+
+
+
+
+
+In [2]:
+
+
+iris = np.genfromtxt("data/iris.txt",delimiter=None)
+X, Y = iris[:,0:2], iris[:,-1]   # get first two features & target
+X,Y  = ml.shuffleData(X,Y)       # reorder randomly (important later)
+X,_  = ml.transforms.rescale(X)  # works much better on rescaled data
+
+XA, YA = X[Y<2,:], Y[Y<2]        # get class 0 vs 1
+XB, YB = X[Y>0,:], Y[Y>0]        # get class 1 vs 2
+
+
+
+
+
+
+
+
+
+
+Our data XA,YA provide a separable two-class classification task.
+After we construct the classifier, we can define the sizes of its layers and initialize their values with "init_weights".  The first argument defines the layer sizes -- layer 0 should be the same size as the number of input features (here, 2), and the last layer should be the desired number of output nodes -- for classifiers, usually the number of classes.
+Here, we'll declare the most trivial of neural networks, with no hidden layers -- so the resulting model is just a basic perceptron.
+Training the model using gradient descent, we can track the surrogate loss (here, MSE loss on the output vector, compared to a 1-of-K representation of the class), as well as the 0/1 classification loss (error rate):
+
+
+
+
+
+In [3]:
+
+
+nn = ml.nnet.nnetClassify()
+nn.init_weights( [2,2], 'random', XA,YA)
+
+nn.train(XA, YA, stopTol=1e-8, stepsize=.25, stopIter=300)
+ml.plotClassify2D(nn,XA,YA)
+print "\n",nn.wts
+
+
+
+
+
+
+
+
+it 1 : Jsur = 0.134020984496, J01 = 0.030303030303
+it 2 : Jsur = 0.103017887476, J01 = 0.020202020202
+it 4 : Jsur = 0.0836453364899, J01 = 0.020202020202
+it 8 : Jsur = 0.0710722800531, J01 = 0.020202020202
+it 16 : Jsur = 0.0624120175902, J01 = 0.020202020202
+it 32 : Jsur = 0.0560897709833, J01 = 0.020202020202
+it 64 : Jsur = 0.0512429178492, J01 = 0.020202020202
+it 128 : Jsur = 0.0473790371087, J01 = 0.020202020202
+it 256 : Jsur = 0.0442024021084, J01 = 0.020202020202
+
+[array([[-1.23651771, -2.49257731,  2.14552143],
+       [ 1.08994782,  2.50465736, -2.16864069]])]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Next, we'll learn a model on the full 3-class problem; so we need to have 3 output nodes.
+We can also add a hidden layer and specify a number of hidden nodes, say 5.
+Again, defining the initial weights and layer sizes and then training with gradient descent:
+
+
+
+
+
+In [4]:
+
+
+nn = ml.nnet.nnetClassify()
+nn.init_weights( [2,5,3], 'random', X,Y)
+
+nn.train(X, Y, stopTol=1e-8, stepsize=.3, stopIter=2000)
+ml.plotClassify2D(nn,X,Y)
+
+
+
+
+
+
+
+
+it 1 : Jsur = 0.539264107034, J01 = 0.277027027027
+it 2 : Jsur = 0.380171876876, J01 = 0.317567567568
+it 4 : Jsur = 0.358622440503, J01 = 0.290540540541
+it 8 : Jsur = 0.334254738564, J01 = 0.222972972973
+it 16 : Jsur = 0.299479753329, J01 = 0.182432432432
+it 32 : Jsur = 0.282886481581, J01 = 0.182432432432
+it 64 : Jsur = 0.276728640565, J01 = 0.182432432432
+it 128 : Jsur = 0.272877570771, J01 = 0.182432432432
+it 256 : Jsur = 0.269581194073, J01 = 0.182432432432
+it 512 : Jsur = 0.266624381798, J01 = 0.182432432432
+it 1024 : Jsur = 0.264024549168, J01 = 0.168918918919
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Regression models¶Exactly the same techniques can be used for regression.  Since most regression problems do not have a maximum possible value for the target, a saturating output (such as a logistic function) is not usually appropriate.  For this reason, the last layer of the regression model is usually left alone (or equivalently, a "linear" activation function is used), making the last layer of the model equivalent to a linear regression using the hidden layer's features.
+For this regression problem, we have only one input feature (the x-axis), and one target value (the scalar "y"); we'll pick 5 internal hidden nodes.
+
+
+
+
+
+In [5]:
+
+
+curve = np.genfromtxt("data/curve80.txt",delimiter=None)
+X = curve[:,0]         # extract features
+X = X[:,np.newaxis]-5    # force X to be shape (M,1)     
+Y = curve[:,1]         # extract target values
+
+lr = ml.nnet.nnetRegress()
+lr.init_weights([1,5,1],'random',X,Y)
+lr.train(X,Y,stopTol=1e-10,stepsize=0.1,stopIter=2000)
+
+xs = np.linspace(-5,5,200)
+xs = xs[:,np.newaxis]
+ys = lr.predict(xs)
+
+lines = plt.plot(xs,ys,'k-',X,Y,'r.', linewidth=3,markersize=12)  
+
+
+
+
+
+
+
+
+it 1 : J = [ 1.00241719]
+it 2 : J = [ 0.88552046]
+it 4 : J = [ 0.79094081]
+it 8 : J = [ 0.73620118]
+it 16 : J = [ 0.69697436]
+it 32 : J = [ 0.66309955]
+it 64 : J = [ 0.63272542]
+it 128 : J = [ 0.59817011]
+it 256 : J = [ 0.55734554]
+it 512 : J = [ 0.53526634]
+it 1024 : J = [ 0.54251879]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+If we are curious, we can access some of the internals to find out what our hidden layer "features" look like.  Since they are themselves single-layer perceptrons, they will take the form of a saturating function of the input features; in this case, we see:
+
+
+
+
+
+In [6]:
+
+
+A,Z = lr._nnetRegress__responses(xs)
+plt.plot(xs,Z[1][:,1],'b-',xs,Z[1][:,2],'g-',xs,Z[1][:,3],'m-',
+         xs,Z[1][:,4],'c-',xs,Z[1][:,5],'r-');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+and, a linear function of these responses produces the overall non-linear regression in the previous plot.
+
+
+
+
+
+
+

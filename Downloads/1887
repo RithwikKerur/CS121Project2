@@ -1,0 +1,123 @@
+https://sli.ics.uci.edu/PmWiki/GroupHeaders
+
+
+
+SLI | PmWiki / GroupHeaders and GroupFooters 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+GroupHeaders and GroupFooters
+
+
+
+
+
+< Wiki groups | Documentation Index | Wiki trails >
+
+authors (intermediate) 
+
+Every WikiGroup can have GroupHeader and GroupFooter pages that contain markup that should be included at the beginning or end of each page within the group. This feature is useful for:
+
+adding a disclaimer or heading to all of the pages of a group
+defining custom WikiStyles that may be used for all pages in a group
+replacing the default headers and/or footers for pages in a group (e.g., using (:noheader:) and or (:nofooter:) -- see PageDirectives).
+To create a group header, just create a new page called YourGroup.GroupHeader. Group headers allow authors to create groups with custom headers and footers without having to coordinate with a wiki administrator.  
+
+The default GroupHeader or GroupFooter can be suppressed on an individual page (such as a group's HomePage) by using the (:nogroupheader:) and (:nogroupfooter:) markups on that page.
+
+If a generic GroupHeader is used in one wikigroup (say, the Site wikigroup), then the code can be easily duplicated in the GroupHeader of any other group by using 
+(:include Site.GroupHeader:).  See IncludeOtherPages.
+
+If you want a header or footer to appear when you print a page (action print), simply create a page called YourGroup.GroupPrintHeader or YourGroup.GroupPrintFooter and fill it with your markup.
+
+You can also set the variable $GroupPrintHeaderFmt and $GroupPrintFooterFmt in the same way as $GroupHeaderFmt and GroupFooterFmt in order to change the header used when action=print. 
+
+See also
+Cookbook:All group header  
+Cookbook:Wiki footer  
+ 
+ How do I set the same header or footer for all pages/groups?
+ The header and footer for each page are controlled by the variables $GroupHeaderFmt and $GroupFooterFmt. If your site-wide header and footer pages are Site.SiteHeader and Site.SiteFooter, you can add this in config.php:
+
+
+### If you use Site.SiteHeader and Group.GroupHeader
+$GroupHeaderFmt = '(:include {$SiteGroup}.SiteHeader'
+  . ' basepage={*$FullName}:)(:nl:)' . $GroupHeaderFmt;
+
+### If you use Site.SiteHeader instead of Group.GroupHeader
+$GroupHeaderFmt = '(:include {$SiteGroup}.SiteHeader'
+  . ' basepage={*$FullName}:)(:nl:)';
+
+### If you use Site.SiteFooter and Group.GroupFooter
+$GroupFooterFmt .= '(:nl:)(:include {$SiteGroup}.SiteFooter'
+  . ' basepage={*$FullName}:)';
+
+### If you use Site.SiteFooter instead of Group.GroupFooter
+$GroupFooterFmt = '(:nl:)(:include {$SiteGroup}.SiteFooter'
+  . ' basepage={*$FullName}:)';
+
+Note that single quotes must be used in the lines above.
+
+See also the Cookbook:AllGroupHeader recipe.
+
+ Instead of using an additional page, you could set any wiki text in $GroupHeaderFmt, for example:
+
+$GroupHeaderFmt .= "Global message here.";
+
+
+< Wiki groups | Documentation Index | Wiki trails >
+
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:GroupHeaders, and  a talk page: PmWiki:GroupHeaders-Talk.
+
+
+
+
+
+
+ Last modified February 26, 2013, at 08:15 AM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

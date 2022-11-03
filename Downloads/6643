@@ -1,0 +1,466 @@
+http://www.ics.uci.edu/~alexv/pubs.html
+
+
+
+
+
+
+
+
+
+Recent Publications
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Publications (partial list) 
+2018
+"An empirical study of
+the effect of source-level loop transformations on compiler stability"
+Zhangxiaowen Gong, Zhi Chen,
+Justin Josef Szaday, David C. Wong, Zehra Sura, Neftali Watkinson, Saeed Maleki, David A. Padua,
+
+Alexander V. Veidenbaum, Alexandru Nicolau, Josep Torrellas   
+Proceedings of the ACM
+on Programming Languages, Volume 2, Number OOPSLA, November 2018.
+pp. 126:1-126:29 
+
+"Acceleration Framework for
+FPGA Implementation of OpenVX Graph Pipelines"
+Sajjad Taheri, Jin Heo,
+Payman Behnam, Jeffrey Chen,
+
+Alexander V. Veidenbaum, Alexandru Nicolau
+  
+IEEE Intl Symposium on
+Field-Programmable Custom Computing Machines, May 2018.  
+
+2017
+"CAMFAS: A Compiler
+Approach to Mitigate Fault Attacks via Enhanced SIMDization,"
+Zhi Chen,Junjie Shen,
+Alexandru Nicolau, Alexander V. Veidenbaum, Nahid Farhady Ghalaty, Rosario Cammarota.  
+Workshop on Fault
+Diagnosis and Tolerance in Cryptography 2017. pp. 57-64
+
+"LORE: A loop repository
+for the evaluation of compilers"
+Zhi Chen, Zhangxiaowen Gong,
+Justin Josef Szaday, David C. Wong, David A. Padua, Alexandru Nicolau, Alexander V. Veidenbaum,
+
+Neftali Watkinson, Zehra Sura, Saeed Maleki, Josep Torrellas, Gerald DeJong.
+  
+IEEE Intl. Symposium
+on Workload Characterization 2017. pp. 219-228
+
+2016
+"SIMD-based
+soft error detection,"
+Zhi Chen,
+Alexandru Nicolau, Alexander V. Veidenbaum.  
+ACM Conf.
+Computing Frontiers 2016. pp. 45-54
+ 
+2015
+§  "WebRTCbench: a benchmark
+for performance assessment of webRTC implementations," 
+§  Sajjad Taheri, Laleh Aghababaie Beni, Alexander V. Veidenbaum, Alexandru Nicolau, Rosario Cammarota, Jianlin Qiu, Qiang Lu, Mohammad R. Haghighat. 
+
+§  ACM ESTImedia 2015. pp. 1-7
+"Software
+fault tolerance for FPUs via vectorization," 
+Zhi Chen, Ryoichi Inagaki, Alexandru Nicolau, Alexander V. Veidenbaum. 
+IC-SAMOS 2015. Pp. 203-210
+ 
+2014
+"Multiple stream tracker: a new hardware
+stride prefetcher."
+  Taesu Kim, Dali Zhao, Alexander V.
+Veidenbaum.
+Conf. Computing
+Frontiers, 2014. p.34
+ 
+2013 
+" Optimizing Program Performance via Similarity, Using
+a Feature-Agnostic Approach" 
+Rosario Cammarota, Laleh Aghababaie Beni, Alexandru Nicolau, Alexander V.
+Veidenbaum. 
+Intl. Conference on Advanced Parallel Processing Technology (APPT). Aug. 2013.
+LNCS series, vol. 8299, pp. 199-213.
+ 
+"On the Determination of Inlining Vectors for Program
+Optimization." 
+Rosario Cammarota, Alexandru Nicolau, Alexander V. Veidenbaum, Arun Kejariwal,
+Debora Donato, Mukund Madhugiri. 
+Compiler Construction (CC), pp. 164-183 
+
+"Temperature aware thread migration in 3D architecture with stacked
+DRAM." 
+Dali Zhao, Houman Homayoun, Alexander V. Veidenbaum. 
+Intl. Symposium on Quality Electronic Design (ISQED), pp. 80-87
+ 
+2012 
+"Compiler-Assisted, Selective Out-Of-Order
+Commit". 
+Nam Duong and Alexander V. Veidenbaum. 
+Computer Architecture Letters. 
+
+"Improving Cache Management Policies Using Dynamic Reuse Distances". 
+Nam Duong, Dali Zhao, Taesu Kim, Rosario Cammarota, Alexander V. Veidenbaum,
+and Mateo Valero. 
+Intl. Symposium on Microarchitecture (Micro-45). 
+
+"Revisiting level-0 caches in embedded processors." 
+Nam Duong, Taesu Kim, Dali Zhao, Alexander V. Veidenbaum. Compiler,
+Architectures, and Synthesis for Embedded Systems (CASES). pp. 171-180 
+ 
+2011 
+"Pruning hardware evaluation space via correlation-driven application
+similarity analysis," 
+Rosario Cammarota, Arun Kejariwal, Paolo D'Alberto, Sapan Panigrahi, Alexander
+V. Veidenbaum, Alexandru Nicolau 
+ACM Intl. Conf. on Computing Frontiers 2011
+ 
+2010 
+"RELOCATE: Register File Local Access Pattern
+Redistribution Mechanism for Power and Thermal Management in Out-of-Order
+Embedded Processor," 
+Houman Homayoun, Aseem Gupta, Alexander V. Veidenbaum, Avesta Sasan, Fadi J.
+Kurdahi, Nikil Dutt, 
+HiPEAC 2010: 216-231 
+"Post-synthesis sleep transistor insertion for leakage
+power optimization in clock tree networks," 
+Houman Homayoun, Shahin Golshan, Eli Bozorgzadeh, Alexander V. Veidenbaum, Fadi
+J. Kurdahi 
+ISQED 2010: 499-507 
+"On the efficacy of call graph-level thread-level
+speculation," 
+Arun Kejariwal, Milind Girkar, Xinmin Tian, Hideki Saito, Alexandru Nicolau,
+Alexander V. Veidenbaum, Utpal Banerjee, Constantine D. Polychronopoulos. 
+WOSP/SIPEW 2010: 247-248 
+"Multiple sleep modes leakage control in peripheral
+circuits of a all major SRAM-based processor units," 
+Houman Homayoun, Avesta Sasan, Aseem Gupta, Alexander V. Veidenbaum, Fadi J.
+Kurdahi, Nikil Dutt. 
+ACM Intl. Conf. Computing Frontiers 2010. 
+ 
+2009 
+"Synchronization
+optimizations for efficient execution on multi-cores," 
+Alexandru Nicolau, Guangqiang Li, Alexander V. Veidenbaum, Arun Kejariwal 
+Proc. of the 23th ACM International Conference on Supercomputing (ICS09), June
+2009, pp. 169-180 
+"Power-aware
+load balancing of large scale MPI applications," 
+Maja Etinski, Julita Corbalan, Jesus Labarta, Mateo Valero, Alexander V.
+Veidenbaum 
+IEEE International Symposium on Parallel&Distributed Processing (IPDPS
+2009) pp. 1-8 
+"Performance
+Characterization of Itanium 2-Based Montecito Processor," 
+Darshan Desai, Gerolf Hoflehner, Arun Kejariwal, Daniel M. Lavery, Alexandru
+Nicolau, Alexander V. Veidenbaum, Cameron McNairy 
+SPEC Benchmark Workshop 2009, Springer LNCS Volume 5419/2009, pp. 36-56 
+"Efficient Scheduling of Nested Parallel Loops on Multi-Core
+Systems," 
+Arun Kejariwal, Alexandru Nicolau, Utpal Banerjee, Alexander V. Veidenbaum,
+Constantine D. Polychronopoulos 
+The 38th International Conference On Parallel Processing (ICPP-2009), pp.74-83 
+"Brain
+Derived Vision Algorithm on High Performance Architectures," 
+Jayram Moorkanikara Nageswaran , Andrew Felch , Ashok Chandrasekhar , Nikil
+Dutt , Richard Granger , Alex Nicolau and Alex Veidenbaum 
+International Jounral of Parallel Programming, Volume 37, Number 4 / August,
+2009, pp.345-369 
+"A configurable simulation environment for the
+efficient simulation of large-scale spiking neural networks on graphics processors,"
+
+Jayram Moorkanikara Nageswaran, Nikil D. Dutt, Jeffrey L. Krichmar, Alex
+Nicolau, Alexander V. Veidenbaum 
+Neural Networks 22(5-6): 791-800 (2009) 
+"On the
+exploitation of loop-level parallelism in embedded applications," 
+Arun Kejariwal, Alexander V. Veidenbaum, Alexandru Nicolau, Milind Girkar,
+Xinmin Tian, Hideki Saito 
+ACM Trans. Embedded Computer Syst. 8(2) 2009 
+ 
+2008 
+"A
+Distributed Processor State Management Architecture for Large-Window
+Processors," 
+Isidro Gonzalez, Marco Galluzzi, Alex Veidenbaum, Marco A. Ramrirez, Adrian
+Cristal, Mateo Valero 
+Intl. Symposium on Microarchitecture (Micro-41). 
+"Multiple
+sleep mode leakage control for cache peripheral circuits in embedded
+processors," 
+Houman Homayoun, Mohammad A. Makhzan, Alexander V. Veidenbaum. 
+ACM Intl Conference on Compilers, Architecture and Synthesis for Embedded
+Systems (CASES) 2008: 197-206 
+"Adaptive
+techniques for leakage power management in L2 cache peripheral circuits," 
+Houman Homayoun, Alexander V. Veidenbaum, Jean-Luc Gaudiot. IEEE Intl
+Conference Computer Design (ICCD) 2008: 563-569 
+"ZZ-HVS:
+Zig-zag horizontal and vertical sleep transistor sharing to reduce leakage
+power in on-chip SRAM peripheral circuits," 
+Houman Homayoun, Mohammad A. Makhzan, Alexander V. Veidenbaum. ICCD 2008:
+699-706 
+"A
+Two-Level Load/Store Queue based on Execution Locality," 
+Miquel Pericas, Adrian Cristal, Francisco J. Cazorla, Ruden Gonzalez, 
+Alex Veidenbaum, Daniel A. Jimenez, and Mateo Valero. Proc. 35th ACM
+International Symposium on Computer Architecture (ISCA) June 2008 
+"Impact
+of JVM superoperators on energy consumption in resource-constrained embedded
+systems," 
+Carmen Badea, Alexandru Nicolau, and Alexander V. Veidenbaum. 
+Proc. of the ACM SIGPLAN-SIGBED conference on Languages, Compilers, and Tools
+for Embedded Systems (LCTES), 2008. 
+"Dynamic
+register file resizing and frequency scaling to improve embedded processor
+performance and energy-delay efficiency," 
+Houman Homayoun, Sudeep Pasricha, Mohammad A. Makhzan, and Alexander V.
+Veidenbaum. Proc. of the ACM/IEEE Design Automation Cinference (DAC) 2008. 
+"Improving
+SDRAM access energy efficiency for low-power embedded systems," 
+Jelena Trajkovic, Alexander V. Veidenbaum, and Arun Kejariwal. 
+ACM Transactions on Embedded Computer Systems, Vol. 7, No.3, 2008 
+"Cache-aware
+iteration space partitioning," 
+Arun Kejariwal, Alexandru Nicolau, Utpal Banerjee, Alexander V. Veidenbaum,
+Constantine D. Polychronopoulos. 
+Proc. of the ACM SIGPLAN Symposium on Principles and Practice of Parallel
+Programming (PPOPP) 2008. 
+ 
+2007 
+"A
+Simplified Java Bytecode Compilation System for Resource-Constrained Embedded
+Processors," 
+Carmen Badea, Alexandru Nicolau, Alexander V. Veidenbaum. 
+Proc. of the ACM Intl. Conference on Compilers, Architecture, and Synthesis for
+Embedded Systems, Salzburg, Austria, Oct. 2007 
+"Reducing
+Power Consumption in Peripheral Circuits of L2 caches," 
+Houman Homayoun and Alexander V. Veidenbaum. Proc. IEEE Intl. Conference on
+Computer Design, Lake Tahoe, Oct. 2007 
+"Tight
+analysis of the performance potential of thread speculation using spec CPU 2006,"
+
+Arun Kejariwal, Xinmin Tian, Milind Girkar, Wei Li, Sergey Kozhukhov, Utpal
+Banerjee, Alexander Nicolau, Alexander V. Veidenbaum, Constantine D.
+Polychronopoulos, 
+Proc. of the 12th ACM SIGPLAN Symposium on Principles and practice of parallel
+programming, Pages: 215 - 225, March 2007 
+ 
+2006 
+"Challenges
+in Exploitation of Loop Parallelism in Embedded Applications," 
+Arun Kejariwal, Alex Veidenbaum, Alex Nicolau, Milind Girkar, Xinmin Tian, and
+Hideki Saito. 
+Proc. IEEE/ACM/IFIP International Conference on Hardware/Software Codesign and
+System Synthesis, October 2006 
+"Fast
+Speculative Address Generation and Way Caching for Reducing L1 Data Cache
+Energy," 
+Dan Nicolaescu, Babak Salamat, Alexander Veidenbaum, and Mateo Valero. 
+Proceedings of IEEE International Conference on Computer Design (ICCD'06), Oct.
+2006 
+"Probablistic
+Self-Scheduling: A Novel Scheduling Approach for Multiprogrammed
+Environments," 
+Arun Kejariwal, Milind Girkar, Hideki Saito, Xinmin Tian, Alexandru Nicolau,
+Alexander Veidenbaum, Constantine Polychronopoulos. 
+Proceedings of Europar'06, August 2006 
+"On the
+Performance Potential of Different Types of Speculative Thread-Level
+Parallelism," 
+Arun Kejariwal, Xinmin Tian, Wei Li, Milind Girkar, Sergey Kozhukhov, Hideki
+Saito, Utpal Banerjee, Alexandru Nicolau, Alexander V. Veidenbaum, Constantine
+D. Polychronopoulos. 
+Proc. of the 20th ACM International Conference on Supercomputing (ICS06), June
+2006 
+ 
+2005 
+"A New
+Pointer-based Instruction Queue Design and Its Power-Performance Evaluation,
+" 
+Marco A. Ramirez, Adrian Cristal, Alexander V. Veidenbaum, Luis Villa, Mateo
+Valero. 
+Proc. of the IEEE Int'l Conference on Computer Design (ICCD-2005), San Jose,
+Oct. 2005 
+"High-Performance
+Annotation-Aware JVM for Java Cards," 
+Ana Azevedo, Arun Kejariwal, Alex Viedenbaum, Alexander Nicolau 
+Proc. of the 5th ACM International Conference on Embedded software (EMSOFT05),
+Sept. 2005. 
+"An
+Asymmetric Clustered Processor based on Value Content, " 
+R. Gonzalez, A. Cristal, A. Veidenbaum, and M. Valero. 
+Proc. of the 19th ACM International Conference on Supercomputing (ICS05),
+Boston, June 2005. 
+ 
+2004 
+"Low
+Energy, Highly-Associative Cache Design for Embedded Processors," 
+Alex Veidenbaum and Dan Nicolaescu, 
+Int'l Symposium on Computer Design (ICCD-2004), San Jose, Oct. 2004 
+"A
+Content Aware Register File Organization", 
+R. Gonzalez, A. Cristal, A. Veidenbaum, and M. Valero, 
+Proc. 31st International Symposium on Computer Architecture (ISCA04), Munich,
+Germany, June 2004. 
+"Energy-Efficient
+Design for Highly Associative Instruction Caches in Next-Generation Embedded
+Processors," 
+J. L. Aragon, Dan Nicolaescu, Alex Veidenbaum, Ana-Maria Badulescu, 
+Design Automation and Test Europe (DATE04): 1374-1375, March 2004 
+"Direct
+Instruction Wakeup for Out-Of-Order Processors," 
+M. Ramirez, A. Cristal, A. Veidenbaum, L. Villa, and M. Valero, 
+Int'l Workshop on Innovative Archtecture (IWIA'04), Jan. 2004 
+ 
+2003 
+"A
+Simple Low-Energy Instruction Wakeup Mechanism" 
+M. Ramirez, A. Cristal, A. Veidenbaum, L. Villa, and M. Valero, 
+5th Int'l Symposium on High-Perfromance Computing (ISHPC-V), Tokyo, Japan, Oct.
+2003 
+"Improving
+Branch Prediction Accuracy in Embedded Processors in the Presence of Context
+Switches" Sudeep Parisha and Alex Veidenbaum, Int'l Symposium
+on Computer Design (ICCD-2003), San Jose, Oct. 2003 
+"Reducing
+Data Cache Energy Consumption via Cached Load/Store Queue," Dan
+Nicolaescu, Alex Veidenbaum, Alex Nicolau. International Symposium on Low Power
+Electronics and Design (ISLPED'03), Seoul, Aug. 2003 
+"Energy
+aware register file implementation through instruction predecode," Ayala,
+J.L.; Lopez-Vallejo, M.; Veidenbaum, A.; Lopez, C.A. Proceedings IEEE
+International Conference On Application-specific Systems, Architectures, and
+Processors (ASIP03). Page(s): 81- 91 24-26 June 2003 
+"Reducing
+Power Consumption for High-Associativity Data Caches in Embedded
+Processors," Dan Nicolaescu, Alex Veidenbaum, Alex Nicolau
+Design Automation and Test Europe (DATE'03), March 2003 
+"Dynamically
+Adaptive Fetch Size Prediction for Data Caches" 
+Weiyu Tang, A. Veidenbaum, Alex Nicolau. Int'l Workshop on Innovative
+Architecture (IWIA03), January 2003 
+ 
+2002 
+"Profile-based
+dynamic voltage scheduling using program checkpoints in the COPPER
+framework." 
+A. Azevedo, I. Issenin, R. Cornea, R. Gupta, N. Dutt, A. Veidenbaum, and A.
+Nicolau. In Proceedings of Design, Automation and Test in Europe Conference
+(DATE'02), March 2002. 
+"Power-Efficient
+Instruction Fetch Architecturte for Superscalar Processors" 
+Anna-Maria Badulescu and Alex Veidenbaum, Proc. Parallel and Distributed
+Processign Techniques and Architecures (PDPTA02), June 25-27 2002 
+
+"Integrated
+I-cache Way Predictor and Branch Target Buffer to Reduce Energy
+Consumption" 
+Weiyu Tang, A. Veidenbaum, Alex Nicolau, and Rajesh Gupta, 4th Int'l Symposium
+on High-Perfromance Computing (ISHPC-IV), Nara, Japan, May 2002 
+ 
+2001 and prior 
+"Energy
+Efficient Instruction Cache for Wide-issue Processors" A
+Badulescu, A. Veidenbaum, Int'l Workshop on Innovative Architecture for Future
+Generation High-Performance Processors and Systems (IWIA), Jan 2001 
+"Adapting
+Cache Line Size to Application Behavior" Alexander V.
+Veidenbaum , Weiyu Tang, Rajesh Gupta, Alexandru Nicolau, and Xiaomei Ji. ,
+Proc. 1999 Int'l Conference on Supercomputing (ICS99), pp. 145-154, June 1999 
+"Non-sequential
+Instruction Cache Prefetching for Multiple-Issue Processors", Alex
+Veidenbaum, Qinbo Zhao, and Abduhl Shameer, International Journal of High-Speed
+Computing, pp.115-140, Vol.10, No. 1., 1999 
+"Interconnection
+Network Organization and its Impact on Performance and Cost of Shared Memory
+Multiprocessors", Sunil Kim and Alex Veidenbaum, PARALLEL
+COMPUTING Journal, vol. 25, 1999, pp. 283-309. 
+"An Integrated Hardware/Software Approach to Data Prefetching
+for Shared-Memory Multiprocessors", Edward H. Gornish and Alex Veidenbaum,
+International Journal on Parallel Programming, pp. 323--332, volume 27(1),
+1999. 
+"On Interaction between Interconnection Network Design
+and Latency Hiding Techniques in Multiprocessors", Sunil Kim and Alex
+Veidenbaum. Accepted for publication in The Journal of Supercomputing, 1998 
+"Decoupled
+Access DRAM Archiecture", Alex Veidenbaum and Kyle Gallivan, in
+Innovative Architecture for Future-Generation Processors and Systems, pp.
+94-105, IEEE Computer Society Press, 1998 
+"Instruction
+Cache Prefetching Using Multi-Level Branch Prediction", Alex
+Veidenbaum, Proc. Intnl. Symposium on High-Performance Computing,
+Springer-Verlag Lecture Notes in Computer Science, pp. 51-71, Nov. 1997 
+"The
+Effect of Limited Network Bandwidth and its Utilization by Latency Hiding
+Techniques in Large-Scale Shared Memory Systems", Sunil Kim and
+Alex Veidenbaum, Proc.of International Conference on Parallel Architectures and
+Compilation Techniques (PACT'97), pp. 40-51, Nov. 1997 
+"Stride-directed
+Prefetching for Secondary Caches", Sunil Kim and Alex
+Veidenbaum, Proc.1997 International Conference on Parallel Processing, pp.
+314-321, Aug. 1997 
+"On
+Shortest Path Routing in Single-Stage Shuffle-Exchange Networks", Sunil
+Kim and Alex Veidenbaum, Proc. 7th ACM Symposium on Parallel Algorithms and
+Architectures, July 1995 
+"Scalability
+of the Cedar system", Stephen Turner and Alex Veidenbaum,
+Proceedings of Supercomputing'94, Nov. 1994. 
+"An
+Integrated Hardware/Software Data Prefetching Scheme for Shared-Memory
+Multiprocessors", Edward H. Gornish and Alex Veidenbaum, Proc.
+1994 Int'l Conference on Parallel Processing, Aug. 1994. 
+"The
+Cedar System and an Initial Performance Study", David J. Kuck
+et al, Proc. 20th International Symposium on Computer Architecture, May 1993. 
+"Performance
+Evaluation of Memory Caches in Multiprocessors", Y.-C. Chen and
+Alex Veidenbaum, Proc. 1993 Int'l Conference on Parallel Processing, Aug. 1993.
+
+"An Effective Write Policy for Software Coherence
+Schemes", Y.-C. Chen and Alex Veidenbaum, Proceedings of
+Supercomputing'92, pp. 661-672, Nov. 1992. 
+"Detecting Redundant Accesses to Array Data",
+Elana Granston and Alex Veidenbaum, Proc. Supercomputing'91, pp. 854-865, Nov.
+1991. 
+"Comparison and Analysis of Software and Directory
+Coherence Schemes", Y.-C. Chen and Alex Veidenbaum, Proc.
+Supercomputing'91, pp. 818-829, Nov. 1991. 
+"The Organization of the Cedar System", David J.
+Kuck et al, Proc. 1991 Int'l Conference on Parallel Processing, Vol. I, pp.
+49-56, Aug. 1991. 
+"Preliminary Performance Analysis of the Cedar
+Multiprocessor Memory System", K. Gallivan, W. Jalby, S. Turner, Alex
+Veidenbaum, and H. Wijshoff, Proc. 1991 Int'l Conference on Parallel
+Processing, Vol. I, pp. 71-75, Aug. 1991. 
+"An Integrated Hardware/Software Solution for Effective
+Management of Local Storage in High- Performance Systems", Elana Granston
+and Alex Veidenbaum, Proc. 1991 Int'l Conference on Parallel Processing, Vol.
+II, pp. 83-90, Aug. 1991. 
+"A Software Coherence Scheme with the Assistance of
+Directories", Y.-C. Chen and Alex Veidenbaum, Proc. 1991 Int'l Conference
+on Supercomputing, pp. 284-294, June 1991. 
+
+
+

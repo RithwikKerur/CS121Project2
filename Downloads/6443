@@ -1,0 +1,124 @@
+http://www.ics.uci.edu/~kay/courses/h21/hw/hw7.html
+
+
+
+
+
+
+Seventh Homework
+
+
+
+
+
+
+
+ICS H21 • UC IRVINE • DAVID G. KAY • FALL 2009
+Seventh Homework 
+This assignment is due at the start of lab on Monday, November 9. 
+
+(1) Take a look back at the discussion of the
+function reduce in
+section 21.5.  (Reduce is sometimes called accumulate or foldr,
+sometimes with the arguments in a different order. In DrScheme, the predefined function is named foldr.)  Using foldr/reduce, map,
+and filter,
+you can define many powerful operations very compactly, without explicit
+recursion.  For example, suppose we have a list of restaurant (rrant)
+structures as we've used in class before; call that list RL.  To produce
+a list of the names of the cheap Thai restaurants in RL, we only need to
+say 
+(map rrant-name (filter cheap? (filter Thai?
+  RL))).
+ To calculate the average price of the cheap
+  Thai restaurants, we can say 
+(local ((define cheap-thai-restaurant-prices
+                  (map rrant-price (filter cheap? (filter Thai? RL)))))
+    (/ (foldr + 0 cheap-thai-restaurant-prices)
+       (length cheap-thai-restaurant-prices)))
+ (In the above example, note that using the
+  local expression saves us from computing the list of prices two separate
+  times.)  If you have trouble figuring out how these expressions work, first
+  make sure you understand map, filter,
+    and foldr individually (look at their "contracts") and then look at what
+      each part of the expression returns, starting from the inside out.
+ Do each of the following problems.  Be aware, also,
+  that problems like these are likely to show up on exams.
+ (1.1) Write the function convert-to-1 that takes one argument (of any type) and returns the number 1, no matter
+  what the argument is.  Next, use map and convert-to-1 to define the function list-of-ones that takes a list of items and returns a list of 1s that's
+    the same length as its argument.  Finally, use foldr and list-of-ones to
+      rewrite the last line of the average-price code above without using length. We did this in class; now you should be able to do it, too.
+ (1.2) What is the result of evaluating
+  each of these expressions?
+
+   (foldr
+    + 0 '(1 2 3 4 5))
+   (foldr
+    (lambda (a b) (+ b (if (even? a) a 0))) 0 '(1 2 3 4 5))
+   (foldr
+    cons '() '(Huey Dewey Louie))
+   (foldr
+    max -1 '(1953 1956 1949 1991 1964))
+
+(1.3) Assume you have a function (interval
+  a b) that returns a list of all
+    the integers between a and b,
+      inclusive (so that (interval 5 10) would return (5 6 7 8 9 10)).
+        (Re-)write the function factorial using foldr (and interval),
+          without any explicit recursion.
+ (1.4) Now, think back to the restaurant
+  collection program and assume we have a list (called RL)
+    of the restaurant objects as described there.  For each of the following
+    expressions, describe in one English sentence what value it returns.  Don't
+    just say, "It does a foldr of plus and zero
+    to a map of ... ;" give a description of what the expression means, something you could put in a software catalog so that a prospective buyer
+    could find what he or she wanted.
+
+   (foldr
+    + 0 (map (lambda (R) 1) RL))
+   (filter
+    (lambda (R) (equal? 'Ethiopian (rrant-cuisine R))) RL)
+   (/
+    (foldr + 0 (map (lambda (R) (rrant-price R)) RL)) 
+            (foldr + 0 (map (lambda (R) 1) RL)))
+   (local
+    ((define PRL (filter (lambda (R) (equal? 'pizza (rrant-dish R))) RL))) 
+           (/ (foldr + 0
+    (map rrant-price PRL)) 
+                   (foldr + 0 (map (lambda (R) 1) PRL))))
+
+ (1.5) Using map, filter,
+  and foldr,
+    write an expression to return each of the following values without using
+    explicit recursion:
+
+ a list of all the French and
+    Italian restaurants in RL
+ a list of all the (best) dishes
+    served at the French and Italian restaurants in RL; it's okay for this list
+    to have duplicates in it, though you may attempt to remove them if you'd like
+    (as it can be done without explicit recursion)
+ a list of all the restaurants
+    in RL whose best dish costs between $10.00 and $20.00 (inclusive)
+ the name of the lowest-priced
+    French restaurant in RL
+ a list of all the restaurants
+    in RL, where every French restaurant whose best dish's price is less
+    than the average (price of best dishes at French restaurants) has its price
+    changed to that average price
+
+ (2) Chapter 25 talks about recursive
+  algorithms that don't follow a conventional template or formula. Chapters
+  26, 27, and 28 continue this theme.  You can certainly skip sections 27.3,
+  27.4, and 27.5.  The discussion of backtracking in Chapter 28 is something
+  you'll see in ICS H23.
+(3)  Intermezzo 5 (Chapter 29) of the
+  HtDP text talks about O-notation and vectors.  For a preview of topics in
+  ICS H22, look at exercises 29.2.1, 29.2.2, and 29.2.3; you're not responsible
+  for those exercises this quarter, though.
+Based in part on ICS H21assignments by David
+G. Kay from Fall 2001; modified by David G. Kay, Fall 2004–Fall 2009.
+
+David G. Kay, kay@uci.edu 
+
+Saturday, November 7, 2009 6:11 AM
+

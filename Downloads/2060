@@ -1,0 +1,440 @@
+https://isg.ics.uci.edu/event/redesigning-storage-systems-for-future-workloads-hardware-and-performance-requirements-cs-faculty-candidate-seminar
+
+
+
+
+
+
+Redesigning Storage Systems for Future Workloads, Hardware, and Performance Requirements (CS Faculty Candidate Seminar) – Information Systems Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+
+Faculty
+Students
+Recent Alumni
+Research Staff
+Visitors
+
+
+Research
+
+Projects
+Publications
+
+
+Teaching
+
+Courses
+DB Qual
+
+
+Events
+
+Talks
+News
+
+
+About
+
+Sponsors & Partners
+Visitor Info
+Contact us
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ISG Talks are sponsored by Couchbase.
+<< All Talks
+
+
+
+ « All Events
+
+
+This event has passed.
+Redesigning Storage Systems for Future Workloads, Hardware, and Performance Requirements (CS Faculty Candidate Seminar)
+
+April 20, 2020 @ 11:00 am - 12:00 pm 
+
+
+
+
+
+« David Lomet: Better Database Cost/Performance via Programmable SSD Batched I/O
+Lei Cao: Toward an End-to-end Anomaly Discovery Paradigm »
+
+
+
+
+
+
+
+
+
+Speaker: Oana Balmau (University of Sydney)
+Abstract: Cloud storage stacks are being challenged by new workloads, new hardware and new performance requirements. First, workloads evolved from following a read-heavy pattern (e.g., a static web-page) to a write-heavy profile where the read:write ratio is closer to 1:1 (e.g., as in the Internet of Things). Second, the hardware is undergoing rapid changes.  The divide between fine-grained volatile memory and slow block-level storage is rapidly being bridged by the emerging byte-addressable non-volatile memory devices and the fast block-addressable NVMe SSDs (e.g., Intel Optane NVMe SSDs). Third, performance requirements in storage systems now emphasize low tail latency, in addition to high throughput. 
+In this talk I will argue that existing storage systems have fundamental limitations that do not allow them to fully meet these challenges, and that therefore the storage stack needs to undergo radical change. In particular, using state-of-the-art key-value stores I will demonstrate that with modern workloads and hardware the bottleneck shifts from I/O to CPU, invalidating an assumption that has underpinned all past storage system design. In line with this observation I will then present a new design paradigm for key-value stores that departs from the conventional wisdom of optimizing disk usage and instead optimizes CPU usage. To do so, we keep data unsorted on disk, reduce contention for shared data structures, and do away with expensive maintenance operations.
+This design has been implemented in the KVell key-value store. KVell outperforms state-of-the-art key-value stores such as RocksDB in both read- and write-heavy workloads, running on modern NVMe SSDs.  Thanks to its novel design, KVell achieves up to 5x better throughput, and up to two orders of magnitude lower tail latency.
+Bio: Oana Balmau is a PhD candidate in the School of Computer Science at the University of Sydney, advised by Prof. Willy Zwaenepoel. She earned her Bachelors and Masters degrees in Computer Science from EPFL, Switzerland. Her research interests are computer systems and storage technologies. Currently, she is working towards redesigning storage systems, aimed at future workloads and hardware. (Homepage: oanabalmau.com)
+ 
+
++ Google Calendar+ iCal Export
+
+
+
+ Details 
+
+ Date: 
+
+ April 20, 2020 
+
+ Time: 
+
+
+					11:00 am - 12:00 pm				
+
+
+
+
+ Venue 
+
+ DBH 3011 
+
+
+
+
+ 
+
+
+
+
+
+« David Lomet: Better Database Cost/Performance via Programmable SSD Batched I/O
+Lei Cao: Toward an End-to-end Anomaly Discovery Paradigm »
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+Search for :
+
+
+Latest News 
+
+
+
+Upcoming Talk: How to build your own Business
+
+											July 25, 2022																																
+
+
+Upcoming Talk: Couchbase and Distributed Computing Backends for big data processing
+
+											May 31, 2022																																
+
+
+Upcoming Talk: Shedding Light on Opaque Database Queries
+
+											May 31, 2022																																
+
+
+ISG researchers won the  Mark Weiser Best Paper Award at IEEE PERCOM 2022
+
+											March 24, 2022																																
+
+
+
+
+Upcoming Events
+
+
+
+
+Qiushi Bai: QueryBooster-Improving SQL Performance Using Middleware Services for Human-Centered Query Rewriting + Demo
+
+
+
+October 14 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Xiaozhen Liu: Demonstration of Collaborative and Interactive Workflow-based Data Analytics in Texera
+
+
+
+October 21 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Abhishek Singh: WedgeBlock – An Off-Chain Secure Logging Platform for Blockchain Applications
+
+
+
+October 28 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Juncheng Fang: PeloPartition- Improving Blockchain Resilience to Partitioning by Sharding
+
+
+
+November 4 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Peeyush Gupta: A Demonstration of TippersDB
+
+
+
+November 18 @ 12:30 pm - 2:00 pm 
+
+
+
+View All Events
+
+Please follow & like us :) 
+
+Follow  
+
+ 
+
+
+
+
+
+
+
+			Copyright 2018 | ISG-UCI		
+
+
+
+
+
+
+cross
+
+
+
+
+
+
+
+
+
+
+Hit ENTER to search or ESC to close
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

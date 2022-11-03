@@ -1,0 +1,220 @@
+https://cml.ics.uci.edu/2022/01/winter-2022
+
+
+
+
+
+Winter 2022 | Center for Machine Learning and Intelligent Systems
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+University of California, Irvine
+
+
+Menu
+Skip to content
+Home
+About CML
+
+About us
+News
+Contact Us
+
+
+People
+
+Faculty
+Alumni
+
+
+Events & Seminars
+
+AI/ML Seminar Series
+AI/ML Seminar Live Stream
+CML Distinguished Speakers
+ML Reading Group
+
+
+Education & Resources
+
+Courses
+Books
+
+
+UCI Machine Learning Archive
+Sponsors & Funding
+Subscribe to CML List
+ 
+
+
+
+
+
+Winter 2022 Standard
+
+January 5, 2022
+AIML
+
+
+
+Live Stream for all Winter 2022 CML Seminars
+
+
+
+
+January 3
+No Seminar
+
+
+
+January 10Live Stream1 pm
+Roy FoxAssistant ProfessorDepartment of Computer ScienceUniversity of California, IrvineYouTube Stream: https://youtu.be/ImvsK5CFp0w Curiously effective ensemble and double-oracle reinforcement-learning methodsEnsemble methods for reinforcement learning have gained attention in recent years, due to their ability to represent model uncertainty and use it to guide exploration and to reduce value estimation bias. We present MeanQ, a very simple ensemble method with improved performance, and show how it reduces estimation variance enough to operate without a stabilizing target network. Curiously, MeanQ is theoretically *almost* equivalent to a non-ensemble state-of-the-art method that it significantly outperforms, raising questions about the interaction between uncertainty estimation, representation, and resampling.
+
+In adversarial environments, where a second agent attempts to minimize the first’s rewards, double-oracle (DO) methods grow a population of policies for both agents by iteratively adding the best response to the current population. DO algorithms are guaranteed to converge when they exhaust all policies, but are only effective when they find a small population sufficient to induce a good agent. We present XDO, a DO algorithm that exploits the game’s sequential structure to exponentially reduce the worst-case population size. Curiously, the small population size that XDO needs to find good agents more than compensates for its increased difficulty to iterate with a given population size.
+
+Bio: Roy Fox is an Assistant Professor and director of the Intelligent Dynamics Lab at the Department of Computer Science at UCI. He was previously a postdoc in UC Berkeley’s BAIR, RISELab, and AUTOLAB, where he developed algorithms and systems that interact with humans to learn structured control policies for robotics and program synthesis. His research interests include theory and applications of reinforcement learning, algorithmic game theory, information theory, and robotics. His current research focuses on structure, exploration, and optimization in deep reinforcement learning and imitation learning of virtual and physical agents and multi-agent systems.
+
+
+
+January 17
+No Seminar (Martin Luther King, Jr. Day)
+
+
+
+January 24Live Stream1 pm
+Ransalu SenanayakePostdoctoral ScholarDepartment of Computer ScienceStanford UniversityYouTube Stream: https://youtu.be/3yR8BqBElXw Propagating Uncertainty from Modeling into Decision-Making for Trustworthy AutonomyAutonomous agents such as self-driving cars have already gained the capability to perform individual tasks such as object detection and lane following, especially in simple, static environments. While advancing robots towards full autonomy, it is important to minimize deleterious effects on humans and infrastructure to ensure the trustworthiness of such systems. However, for robots to safely operate in the real world, it is vital for them to quantify the multimodal aleatoric and epistemic uncertainty around them and use that uncertainty for decision-making. In this talk, I will talk about how we can leverage tools from approximate Bayesian inference, kernel methods, and deep neural networks to develop interpretable autonomous systems for high-stakes applications.
+
+Bio: Ransalu Senanayake is a postdoctoral scholar in the Statistical Machine Learning Group at the Department of Computer Science, Stanford University. He focuses on making downstream applications of machine learning trustworthy by quantifying uncertainty and explaining the decisions of such systems. Currently, he works with Prof. Emily Fox and Prof. Carlos Guestrin. He also worked on decision-making under uncertainty with Prof. Mykel Kochenderfer. Prior to joining Stanford, Ransalu obtained a PhD in Computer Science from the University of Sydney, Australia, and an MPhil in Industrial Engineering and Decision Analytics from the Hong Kong University of Science and Technology, Hong Kong.
+
+
+
+January 31Live Stream1 pm
+Dylan SlackPhD StudentDepartment of Computer ScienceUniversity of California, IrvineYouTube Stream: https://youtu.be/71RJvjPhk3U Exposing Shortcomings and Improving the Reliability of Machine Learning ExplanationsFor domain experts to adopt machine learning (ML) models in high-stakes settings such as health care and law, they must understand and trust model predictions. As a result, researchers have proposed numerous ways to explain the predictions of complex ML models. However, these approaches suffer from several critical drawbacks, such as vulnerability to adversarial attacks, instability, inconsistency, and lack of guidance about accuracy and correctness. For practitioners to safely use explanations in the real world, it is vital to properly characterize the limitations of current techniques and develop improved explainability methods. This talk will describe the shortcomings of explanations and introduce current research demonstrating how they are vulnerable to adversarial attacks. I will also discuss promising solutions and present recent work on explanations that leverage uncertainty estimates to overcome several critical explanation shortcomings.
+
+Bio: Dylan Slack is a Ph.D. candidate at UC Irvine advised by Sameer Singh and Hima Lakkaraju and associated with UCI NLP, CREATE, and the HPI Research Center. His research focuses on developing techniques that help researchers and practitioners build more robust, reliable, and trustworthy machine learning models. In the past, he has held research internships at GoogleAI and Amazon AWS and was previously an undergraduate at Haverford College advised by Sorelle Friedler where he researched fairness in machine learning.
+
+
+
+February 7Live Stream1 pm
+Maja RudolphSenior Research ScientistBosch Center for AIYouTube Stream: https://youtu.be/9fRw74WhRdE Modeling Irregular Time Series with Continuous Recurrent UnitsRecurrent neural networks (RNNs) are a popular choice for modeling sequential data.  Standard RNNs assume constant time-intervals between observations. However, in many datasets (e.g. medical records) observation times are irregular and can carry important information.  To address this challenge, we propose continuous recurrent units (CRUs) – a neural architecture that can naturally handle irregular intervals between observations. The CRU assumes a hidden state which evolves according to a linear stochastic differential equation and is integrated into an encoder-decoder framework. The recursive computations of the CRU can be derived using the continuous-discrete Kalman filter and are in closed form. The resulting recurrent architecture has temporal continuity between hidden states and a gating mechanism that can optimally integrate noisy observations. We derive an efficient parametrization scheme for the CRU that leads to a fast implementation (f-CRU). We empirically study the CRU on a number of challenging datasets and find that it can interpolate irregular time series better than methods based on neural ordinary differential equations.
+
+Bio: Maja Rudolph is a Senior Research Scientist at the Bosch Center for AI where she works on machine learning research questions derived from engineering problems: for example, how to model driving behavior, how to forecast the operating conditions of a device, or how to find anomalies in the sensor data of an assembly line. In 2018, Maja completed her Ph.D. in Computer Science at Columbia University, advised by David Blei. She holds a MS in Electrical Engineering from Columbia University and a BS in Mathematics from MIT.
+
+
+
+February 14Live Stream1 pm
+Ruiqi GaoResearch ScientistGoogle BrainYouTube Stream: https://youtu.be/eAozs_JKp4o Advanced training of energy-based modelsEnergy-based models (EBMs) are an appealing class of probabilistic models, which can be viewed as generative versions of discriminators, yet can be learned from unlabeled data. Despite a number of desirable properties, two challenges remain for training EBMs on high-dimensional datasets. First, learning EBMs by maximum likelihood requires Markov Chain Monte Carlo (MCMC) to generate samples from the model, which can be extremely expensive. Second, the energy potentials learned with non-convergent MCMC can be highly biased, making it difficult to evaluate the learned energy potentials or apply the learned models to downstream tasks.In this talk, I will present two algorithms to tackle the challenges of training EBMs. (1) Diffusion Recovery Likelihood, where we tractably learn and sample from a sequence of EBMs trained on increasingly noisy versions of a dataset. Each EBM is trained with recovery likelihood, which maximizes the conditional probability of the data at a certain noise level given their noisy versions at a higher noise level. (2) Flow Contrastive Estimation, where we jointly estimate an EBM and a flow-based model, in which the two models are iteratively updated based on a shared adversarial value function. We demonstrate that EBMs can be trained with a small budget of MCMC or completely without MCMC. The learned energy potentials are faithful and can be applied to likelihood evaluation and downstream tasks, such as feature learning and semi-supervised learning. 
+
+Bio: Ruiqi Gao is a research scientist at Google, Brain team. Her research interests are in statistical modeling and learning, with a focus on generative models and representation learning. She received her Ph.D. degree in statistics from the University of California, Los Angeles (UCLA) in 2021 advised by Song-Chun Zhu and Ying Nian Wu. Prior to that, she received her bachelor’s degree from Peking University. Her recent research themes include scalable training algorithms of deep generative models, variational inference, and representational models with implications in neuroscience.
+
+
+
+February 21
+No Seminar (Presidents’ Day)
+
+
+
+February 28DBH 4011 &Live Stream1 pm
+Sunipa DevResearch ScientistEthical AI Team, Google AIYouTube Stream: https://youtu.be/V93uXTBnpFw Towards Inclusive and Socially Aware Language TechnologiesLarge language models are commonly used in different paradigms of natural language processing and machine learning, and are known for their efficiency as well as their overall lack of interpretability. Their data driven approach for emulating human language often results in human biases being encoded and even amplified, potentially leading to cyclic propagation of representational and allocational harm. We discuss in this talk some aspects of detecting, evaluating, and mitigating biases and associated harms in a holistic, inclusive, and culturally-aware manner. In particular, we discuss the disparate impact on society of common language tools that are not inclusive of all gender identities. 
+
+Bio: Sunipa Dev is a Research Scientist on the Ethical AI team at Google AI. Previously, she was an NSF Computing Innovation Fellow at UCLA, before which she completed her PhD at the University of Utah. Her ongoing research focuses on various facets of fairness and interpretability in NLP, including robust measurements of bias, cross-cultural understanding of concepts in NLP, and inclusive language representations.
+
+
+
+March 7Zoom1 pm
+Mukund SundararajanPrincipal Research ScientistGoogleYouTube Stream unavailable, please join via Zoom Analyzing deep neural networks using attributionPredicting cancer from XRays seemed great
+Until we discovered the true reason.
+The model, in its glory, did fixate
+On radiologist markings – treason!
+We found the issue with attribution:
+By blaming pixels for the prediction (1,2,3,4,5,6).
+A complement’ry way to attribute,
+is to pay training data, a tribute (1).
+If you are int’rested in FTC,
+counterfactual theory, SGD
+Or Shapley values and fine kernel tricks,
+Please come attend, unless you have conflicts
+Should you build deep models down the road,
+Use attributions. Takes ten lines of code!  
+
+Bio:
+There once was an RS called MS,
+The models he studies are a mess,
+A director at Google.
+Accurate and frugal,
+Explanations are what he likes best.
+
+
+
+March 14
+No Seminar (Finals Week)
+
+
+
+
+
+
+
+Post navigation
+← NSF CAREER Awards for Stephan Mandt and Sameer Singh CML faculty elected as AAAS Fellows →
+
+
+
+
+ 
+Search
+
+
+
+ 
+
+
+(c) 2015 Center for Machine Learning and Intelligent Systems
+
+WordPress/BonPress
+
+
+
+
+
+

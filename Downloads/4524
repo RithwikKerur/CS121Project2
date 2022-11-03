@@ -1,0 +1,137 @@
+https://www.cs.uci.edu/franz-looks-to-simplify-software-for-increased-security
+
+
+
+
+Franz Looks to Simplify Software for Increased Security 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ this is a widget called second front page widget area
+
+Explore
+
+Contact Us
+
+
+Faculty
+Research
+
+Research Areas
+Research Centers
+
+
+Graduate Degrees
+
+Computer Science Programs
+Current Graduate Students
+
+
+Undergraduate Degrees
+News  & Events
+
+News
+Seminar Series
+Distinguished Lecture Series
+Research Showcase
+
+
+Apply Now
+
+Undergraduate Admissions
+Graduate Admissions
+Faculty Candidates
+
+
+Franz Looks to Simplify Software for Increased Security
+November 17, 2017 A $3.15 million award from the Office of Naval Research will fund a three-year “Attack Surface Reduction for Binary Programs” grant.
+
+
+The Office of Naval Research recently awarded $3.15 million to Chancellor’s Professor of Computer Science Michael Franz for a three-year grant, “Attack Surface Reduction for Binary Programs.” Specifically, $2.33 million will go to UC Irvine, and the remaining funds will go to Dr. Herbert Bos, a collaborator on the project at Vrije Universiteit Amsterdam. The goal is to increase software security by first stripping programs down to the basics and then rigorously analyzing and optimizing what is left. As Franz explains, “The attack surface describes all the different places that you have to defend, and if you have a smaller program, there’s less to defend.”
+The problem, says Franz, is that “most programs are ridiculously large and complicated.” They have grown over many years, and software publishers rarely remove anything; instead, they pile on additional functionality to ensure the product satisfies all potential consumers. Franz explains that this increases the likelihood of bugs and that all of this superfluous software also costs memory, disk space and download time, so there’s no advantage for the average consumer. Furthermore, “security incidents are often triggered by a very obscure part of a program that hardly anyone ever uses,” says Franz. With this grant, he thus aims to explore how you can take a program and very aggressively prune away all the things that nobody uses. If the resulting program is small enough, it can then be analyzed for bugs and optimized further in ways that would not have been possible with the original, larger application.
+To tackle this problem, Franz is leveraging his team’s prior work on tracing (or monitoring) JavaScript to make it run faster in a browser. “The idea is similar. You take a program, watch what it does, and then optimize it by accelerating only the essential things.” His team plans to monitor program use by adding software that runs in the background to record which program functionalities users actually invoke. Then, perhaps overnight, an automatic “software compactor” would prune away everything else to provide a smaller piece of software with aggressive optimizations and additional security features.
+Another part of the problem is figuring out what to do if a user subsequently tries to access any of the stripped-away functionality. “We need techniques for gracefully recovering from that,” says Franz. Possible options include displaying a dialogue that tells users that the desired functionality is currently unavailable but could be added back in overnight and accessed the next morning. This might work in many situations, but “it might not be a legitimate solution on a Navy destroyer,” says Franz. An alternative way of handling such situations would be to keep the original “full” program around and briefly switch to it in order to cover any “missing” functionality. Because the original program isn’t as secure or efficient, Franz explains that they would run it inside a “sandbox isolation chamber” and would try to use it as little as possible. Then, the next time a new version of the “pruned” program was generated, it would integrate all of those “missing” parts so that, after a few iterations, one would wind up with a stable version of the program that includes all regularly used functionality.
+“We’re trying to create the best of both worlds,” says Franz, ultimately making increased security seamless for software users while simultaneously “tackling the software bloat that has taken hold all over the industry.”
+– Shani Murray 
+« Tsudik Awarded Cisco Gift to Research Wireless Content-Centric Network ChallengesUCI Students Place Second Nationally in Programming Contest »
+
+Latest news
+
+
+Senior Spotlight: Tennis Player and CS Major Matthew Sah Serves Up Aces On and Off the Court
+September 28, 2022
+
+
+Register Today for the Southern California AI & Biomedicine Symposium
+September 20, 2022
+
+
+CPO Magazine: “A Legal View of New NIST Quantum-Resistant Algorithms” by Bryan Cunningham
+September 19, 2022
+
+
+UCI Ranked 24th in Undergraduate Computer Science Programs by U.S. News & World Report
+September 16, 2022
+
+
+Senior Spotlight: Jose Cisneros Builds Impressive Resume with Trio of Internships
+September 15, 2022
+
+
+
+
+ 
+
+
+
+
+
+© 2022 UC Regents
+Feedback
+Privacy Policy
+
+
+
+ 
+
+
+
+

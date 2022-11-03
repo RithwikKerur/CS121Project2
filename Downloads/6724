@@ -1,0 +1,378 @@
+http://www.ics.uci.edu/%7Ekobsa/courses/INF231/17F/syllabus.htm
+
+
+
+
+
+
+INF231: User Interface Design and Evaluation
+
+
+
+
+
+btw...
+
+
+
+INF231: User Interface Design and Evaluation
+
+
+
+ Instructor:
+Alfred
+Kobsa
+
+
+
+
+              
+              (email: <last name> @ uci.edu)
+
+
+
+  
+
+
+Disclaimer: These are guidelines
+            are intended to help students plan their work in this class.
+            However, the instructor does reserve the right to make
+            changes if needed, including students' signups.
+
+
+General
+          Educational Aims: This course provides an introduction to
+        the field of human-computer interaction (HCI), with an emphasis
+        on user interface design and evaluation. Students will learn
+        methods for user needs and task analysis as well as interface
+        testing, and guidelines for good user interface design.
+Requirements:
+        Graduate level. Students should have used computers and
+        different software for at least one year☺.
+       
+Format:
+        Lecture by instructor, quarter-long term project with internal and
+        external clients, project presentations.
+This
+          class vs. INF232: This class will focus on practical HCI skills and
+        training. It will cater to the needs of master students and of
+        those PhD students who are mostly interested in the practical
+        aspects of HCI. 
+        The INF 232 class will instead cater to Ph.D. students who
+        intend to focus on HCI as a research
+
+
+
+
+          topic (MS students who are particularly qualified and
+        theoretically inclined can also be admitted). It will focus on
+        influential HCI literature, HCI theory, and current research
+        questions. A familiarity with basic HCI topics and methods will
+        be assumed.
+Time and
+          Location:   
+
+   
+
+
+
+
+        Lecture: MW
+        2:00-3:20pm, MSTB 110.
+        Starts on Oct. 2
+
+The discussions are mostly for
+        project meetings, sometimes with the customer. Register for one
+        discussion/project only. The instructor reserves the right
+        though to reassign students to ensure suitable head counts and
+        skill sets.
+
+    Discussion 1
+            (code 37341): M 9-10:50am MSTB
+              110 and F 9-10:50am DBH
+
+
+
+
+                    1431. Starts on Oct. 6
+
+Project 1: Facilitating job search with
+        social support and gamification (Naomi Sugie, UCI, nsugie at
+        uci.edu)
+ This project aims for the
+              design of a user interface for an application that assists
+              released convicts in finding jobs. Special attention
+              should be paid to the inclusion of real-time job
+              information, peer-based social support, a GPS-based
+              "check-in" function when at potential employers, and the
+              integration of gamification elements to sustain user
+              engagement over time.  Students should develop early
+              designs for the different system components, solicit
+              feedback from the target audience, and consider this
+              feedback during the development of an interactive mockup.
+              Students should decide whether a standalone Android app or
+              a browser extension for Facebook is the better
+              approach.  
+
+
+    Discussion 2
+            (code 37342): Tu 2-3:50pm MSTB
+                110 and Th 2-3:50pm SSL152. Starts on Oct. 3
+
+Project 2: Usability design for chatbot in a
+            group collaboration scenario (Dakuo Wang, IBM Research, dakuow1 at
+            uci.edu)
+
+ The aim
+                    of the project is to look into the usefulness of an
+                    intelligent agent (chatbox) in a textual group
+                    collaboration, with the aim of improving the
+                    collaboration. The topic can be approached from
+                    different perspectives, and it is up to the student
+                    team to decide whether it is practical to achieve
+                    any or all of these goals:
+
+
+It has to start with an understanding
+                        or exploration of what the needs are in a group
+                        collaboration scenario. What kinds of
+                        collaborative tasks the group might need a
+                        chatbot's help, and how the chatbot can be
+                        designed to help. Given this is a class, the
+                        target user groups in this context could be
+                        student teams. 
+It can be from the system design
+                        perspective. That the students from an
+                        engineering background to actually build a
+                        prototype using the existing programming
+                        frameworks or AI libraries (e.g., IBM,
+                        Microsoft, Google, or Facebook). In the target
+                        use case, this prototype chatbot can respond to
+                        or proactively intervene the group's
+                        behavior.  
+ It can be a Wizard of Oz study.
+                        With a script, a student plays as the
+                        chatbot/agent to interact or intervene a group's
+                        behavior.
+ The study design can be a
+                        in-situ experiment or a lab experiment. 
+ It can also consist with survey
+                        or interview study.
+
+
+
+ Required readings: 
+
+Kathy
+          Baxter, Catherine Courage, and Kelly Caine (2015):
+          Understanding Your Users: A Practical Guide to User Research
+          Methods. 2nd enhanced
+            edition. Morgan Kaufmann. ISBN 978-0-12-800232-2.
+          Also online
+          (free access from the UCI domain), iBook,
+          Kindle,
+        Google
+Jeffrey
+          Rubin and Dana Chisnell (2008): Handbook of Usability Testing:
+          How to Plan, Design, and Conduct Effective Tests. 2nd edition. Wiley, ISBN
+          978-0470185483.
+          Also as e-book
+          (DRM) or for Kindle
+          and from a reserve
+            in the Ayala Science Library.
+ 
+D. K.
+          Farkas J. B. and Farkas (2000): Guidelines for Designing
+            Web Navigation. Technical Communication 4(2000),
+          341-358. Electronic
+
+
+
+
+            version (for class usage only!)
+ 
+
+
+Further readings at your leisure:  
+
+B.
+          Shneiderman, C. Plaisant, M. Cohen, S. Jacobs, N. Elmqvist, N.
+          Diakopoulos (2015): Designing the User Interface: Strategies
+          for Effective Human-Computer Interaction. Sixth Edition,
+          Addison-Wesley, ISBN 978-0134380384
+Carol M.
+          Barnum (2010): Usability Testing Essentials. Ready,
+          Set...Test! Morgan Kaufmann. ISBN 978-0123750921
+Joseph S.
+          Dumas and Beth A. Loring (2008): Moderating Usability
+          Tests: Principles and Practices for Interacting. Morgan
+          Kaufmann ISBN 978-0123739339
+Jeff
+          Johnson (2014): Designing with the Mind in Mind: Simple Guide
+          to Understanding User Interface Design Guidelines. 2nd
+          edition. Morgan Kaufmann. ISBN 978-0124079144.
+          For Kindle.
+
+
+
+Jim
+          Thatcher et al. (2006): Web Accessibility: Web Standards and
+          Regulatory Compliance. Friends of Ed. ISBN 978-1590-59638-8. Electronic
+
+
+
+
+            edition (free from within UCI domain).
+Caroline
+          Jarrett and Gerry Gaffney (2008): Forms that Work: Designing
+          Web Forms for Usability. Morgan Kaufmann, ISBN 978-1558607101
+Chris
+          Nodder (2013): Evil by Design: Interaction design to lead us
+          into temptation. Wiley, ISBN 978-1118422144
+
+
+
+Tom Tullis
+          and Bill Albert (2013): Measuring the User Experience:
+          Collecting, Analyzing, and Presenting Usability Metrics. 2nd
+          edition: Morgan Kaufmann, ISBN 978-0124157811.
+          Also online
+          (free from within the UCI domain)
+
+Jonathan
+          Lazar et al. (2010): Research Methods in Human-Computer
+          Interaction. Wiley. ISBN 978-0470-72337-1
+Judy Olson
+          and Wendy Kellogg, (2014). Ways of Knowing in HCI. Springer.
+          ISBN 978-1493-90377-1.
+          Also online
+          (free from within the UCI domain)
+
+
+The
+Encyclopedia
+
+
+
+
+            of Human-Computer Interaction, 2nd Ed. 
+
+
+
+Grading:    50% for project
+
+
+
+          (partially peer
+          evaluation)        
+   
+                      
+            45% for final exam on Monday Dec 11 at 10:30-12:30pm
+                  
+
+
+
+
+          5% for homework
+                
+  up
+to
+
+
+
+
+          10% bonus for active in-class participation
+ 
+                           up
+to
+
+
+
+
+          10% penalty for for
+          missing customer/group presentations and customer meetings 
+ 
+ Academic honesty:  see here
+Efficient reading: see here
+Students with Disabilities: see here
+Absences:
+              Medical, emergency: send email
+        with documentation
+              Professional: send email with
+        documentation beforehand
+
+
+
+Adding/Dropping:  Since the projects start right away, the class can only be
+          added/dropped until 12 noon on Wednesday, Oct. 4.
+                      
+                     
+                 (drop it on WebReg, or send email to
+            instructor)
+
+EEE Classmates: Please
+
+
+
+          release your photo and email address to your classmates
+                     
+                     
+                  (this is useful for
+          collaboration and peer evaluation). 
+
+Course Evaluation: Midterm feedback form and final course evaluation
+
+Course Notes:  see here
+
+Office hours: After
+          class, or Mondays 3:30-4:30pm in 6091 Bren Hall (contact me in
+          class or send email beforehand)
+Announcements: You
+          should check your UCI email account regularly. If you prefer
+          to read your email on another account, you should set your
+          UCInetID account to forward your
+          Email to your preferred account.
+
+Syllabus: 
+
+
+
+
+
+
+
+Click at calender entries to see
+                    details, such as readings and links to dropboxes and
+                    webcasts
+
+Subscribe to this calendar in your own
+                    calendaring system, using the URL https://www.google.com/calendar/ical/321pansp5ro5gi9uf3t9bq5vt8%40group.calendar.google.com/public/basic.ics
+
+Make sure to switch on "refresh" to
+                    receive updates automatically, and allow reminders
+                    :)
+
+ 
+
+
+
+
+ 
+
+
+(*) Codes for readings: 
+   
+                 BCC ... Baxter, Courage and Caine
+
+                    F&F...
+            Farkas & Farkas
+
+                    R&C... Rubin
+            & Chisnell
+
+            
+            
+            
+            
+
+

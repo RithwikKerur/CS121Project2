@@ -1,0 +1,1497 @@
+http://www.ics.uci.edu/~respond/net-status
+
+
+
+
+HostMonitor Rescue Sensor Report for Bren Hall Responsphere Sensors: 128.200.218.2 through 128.200.218.51
+
+
+
+HostMonitor Rescue Sensor Report for Bren Hall Responsphere Sensors: 128.200.218.2 through 128.200.218.51
+Generated on 11/3/2011 at 7:01:00 PM
+
+
+
+Test name
+Status
+Recurrences
+Reply
+Last test time
+Last status
+Last reply
+Interval
+Test method
+Comment
+Related URL
+Master test
+Alive %
+Dead %
+Unknown %
+Total time
+Alive time
+Dead time
+Total tests
+Passed tests
+Failed tests
+Average reply
+Min reply
+Max reply
+Status changed at
+Status changes
+Modified at
+
+ Folder: Root\ 
+
+ Bren Hall Cam: 128.200.218.10 
+ Host is alive 
+ 7678 
+ 422 ms 
+ 11/3/2011 6:58:44 PM 
+ Host is alive 
+ 375 ms 
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 99.96 % 
+ 0.03 % 
+ 0.00 % 
+ 679 days 02:59:49 
+ 678 days 21:23:00 
+ 05:06:49 
+ 97616 
+ 97581 
+ 32 
+ 410 
+ 31 
+ 9657 
+ 9/11/2011 9:11:57 AM 
+ 25 
+ 2/17/2009 9:43:27 AM 
+
+
+ Bren Hall Cam: 128.200.218.11 
+ No answer 
+ 25443 
+  
+ 11/3/2011 6:51:21 PM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 73.90 % 
+ 26.10 % 
+ 0.00 % 
+ 679 days 05:29:48 
+ 501 days 06:45:59 
+ 177 days 22:43:48 
+ 97502 
+ 72054 
+ 25448 
+ 338 
+ 16 
+ 19202 
+ 2/14/2011 12:25:01 PM 
+ 12 
+ 2/13/2009 1:30:37 PM 
+
+
+ Bren Hall Cam: 128.200.218.12 
+ Host is alive 
+ 1282 
+ 2360 ms 
+ 11/3/2011 6:51:14 PM 
+ Host is alive 
+ 1641 ms 
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 78.28 % 
+ 21.72 % 
+ 0.00 % 
+ 679 days 04:32:49 
+ 531 days 01:31:29 
+ 148 days 02:51:19 
+ 97524 
+ 76341 
+ 21182 
+ 325 
+ 16 
+ 6093 
+ 10/25/2011 8:53:41 PM 
+ 27 
+ 2/13/2009 1:31:02 PM 
+
+
+ Bren Hall Cam: 128.200.218.13 
+ Host is alive 
+ 4312 
+ 391 ms 
+ 11/3/2011 6:58:45 PM 
+ Host is alive 
+ 484 ms 
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 72.05 % 
+ 27.95 % 
+ 0.00 % 
+ 679 days 04:47:48 
+ 488 days 16:26:43 
+ 190 days 12:11:05 
+ 97481 
+ 70235 
+ 27245 
+ 414 
+ 16 
+ 19312 
+ 10/4/2011 7:11:27 PM 
+ 15 
+ 2/13/2009 1:31:27 PM 
+
+
+ Bren Hall Cam: 128.200.218.14 
+ Host is alive 
+ 3316 
+ 94 ms 
+ 11/3/2011 6:51:22 PM 
+ Host is alive 
+ 109 ms 
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 58.13 % 
+ 41.76 % 
+ 0.11 % 
+ 677 days 22:07:45 
+ 393 days 05:35:03 
+ 283 days 23:12:42 
+ 97233 
+ 56526 
+ 40603 
+ 315 
+ 15 
+ 6016 
+ 10/11/2011 5:26:33 PM 
+ 35 
+ 2/13/2009 1:31:51 PM 
+
+
+ Bren Hall Cam: 128.200.218.15 
+ Host is alive 
+ 4315 
+ 360 ms 
+ 11/3/2011 6:58:40 PM 
+ Host is alive 
+ 390 ms 
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 77.40 % 
+ 22.60 % 
+ 0.00 % 
+ 679 days 03:49:35 
+ 525 days 01:46:10 
+ 154 days 01:43:24 
+ 97516 
+ 75479 
+ 22035 
+ 357 
+ 16 
+ 6125 
+ 10/4/2011 6:41:14 PM 
+ 55 
+ 2/13/2009 1:32:33 PM 
+
+
+ Bren Hall Cam: 128.200.218.16 
+ Host is alive 
+ 7677 
+ 234 ms 
+ 11/3/2011 6:56:23 PM 
+ Host is alive 
+ 297 ms 
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 99.60 % 
+ 0.40 % 
+ 0.00 % 
+ 679 days 03:35:09 
+ 676 days 11:10:02 
+ 2 days 16:25:07 
+ 97637 
+ 97251 
+ 386 
+ 320 
+ 16 
+ 6062 
+ 9/11/2011 9:20:15 AM 
+ 19 
+ 2/13/2009 1:35:57 PM 
+
+
+ Bren Hall Cam: 128.200.218.17 
+ Host is alive 
+ 7676 
+ 265 ms 
+ 11/3/2011 6:56:27 PM 
+ Host is alive 
+ 281 ms 
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 99.98 % 
+ 0.02 % 
+ 0.00 % 
+ 679 days 03:28:14 
+ 679 days 00:05:10 
+ 03:23:04 
+ 97642 
+ 97621 
+ 21 
+ 307 
+ 16 
+ 19250 
+ 9/11/2011 9:29:17 AM 
+ 17 
+ 2/13/2009 1:33:46 PM 
+
+
+ Bren Hall Cam: 128.200.218.18 
+ Host is alive 
+ 4310 
+ 375 ms 
+ 11/3/2011 6:58:45 PM 
+ Host is alive 
+ 468 ms 
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 73.59 % 
+ 26.40 % 
+ 0.00 % 
+ 679 days 04:54:54 
+ 499 days 04:19:33 
+ 180 days 00:25:20 
+ 97504 
+ 71758 
+ 25745 
+ 307 
+ 16 
+ 5953 
+ 10/4/2011 7:32:12 PM 
+ 13 
+ 2/13/2009 1:34:26 PM 
+
+
+ Bren Hall Cam: 128.200.218.19 
+ No answer 
+ 9179 
+  
+ 11/3/2011 6:51:24 PM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 90.59 % 
+ 9.41 % 
+ 0.00 % 
+ 679 days 04:28:54 
+ 614 days 23:00:55 
+ 64 days 05:27:58 
+ 97585 
+ 88400 
+ 9185 
+ 338 
+ 15 
+ 5968 
+ 8/31/2011 2:35:38 PM 
+ 14 
+ 2/13/2009 1:34:50 PM 
+
+
+ Bren Hall Cam: 128.200.218.2 
+ No answer 
+ 30442 
+  
+ 11/3/2011 6:51:19 PM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 68.73 % 
+ 31.27 % 
+ 0.00 % 
+ 679 days 05:46:05 
+ 466 days 02:21:32 
+ 213 days 03:14:32 
+ 97479 
+ 66995 
+ 30483 
+ 335 
+ 31 
+ 6484 
+ 8/9/2010 10:48:07 PM 
+ 80 
+ 2/13/2009 1:24:43 PM 
+
+
+ Bren Hall Cam: 128.200.218.20 
+ No answer 
+ 30034 
+  
+ 11/3/2011 6:51:22 PM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 69.18 % 
+ 30.82 % 
+ 0.00 % 
+ 679 days 03:03:34 
+ 469 days 01:54:14 
+ 210 days 01:09:20 
+ 97459 
+ 67420 
+ 30039 
+ 374 
+ 15 
+ 6015 
+ 12/17/2010 8:43:53 AM 
+ 10 
+ 2/13/2009 3:35:01 PM 
+
+
+ Bren Hall Cam: 128.200.218.21 
+ No answer 
+ 30034 
+  
+ 11/3/2011 6:51:22 PM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 69.18 % 
+ 30.82 % 
+ 0.00 % 
+ 679 days 03:14:35 
+ 469 days 02:14:58 
+ 210 days 00:59:36 
+ 97453 
+ 67415 
+ 30038 
+ 432 
+ 16 
+ 5937 
+ 12/17/2010 8:44:03 AM 
+ 8 
+ 2/13/2009 3:35:39 PM 
+
+
+ Bren Hall Cam: 128.200.218.22 
+ No answer 
+ 29826 
+  
+ 11/3/2011 6:51:19 PM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 69.39 % 
+ 30.61 % 
+ 0.00 % 
+ 679 days 03:19:58 
+ 470 days 12:54:55 
+ 208 days 14:25:03 
+ 97469 
+ 67637 
+ 29832 
+ 316 
+ 31 
+ 5907 
+ 1/14/2011 8:45:26 PM 
+ 14 
+ 2/13/2009 3:36:06 PM 
+
+
+ Bren Hall Cam: 128.200.218.23 
+ No answer 
+ 9169 
+  
+ 11/3/2011 6:51:20 PM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 32.84 % 
+ 67.16 % 
+ 0.00 % 
+ 679 days 03:04:07 
+ 222 days 00:57:03 
+ 457 days 01:57:03 
+ 97184 
+ 31911 
+ 65272 
+ 317 
+ 31 
+ 5922 
+ 8/31/2011 4:16:18 PM 
+ 14 
+ 2/13/2009 3:36:28 PM 
+
+
+ Bren Hall Cam: 128.200.218.24 
+ No answer 
+ 4170 
+  
+ 11/3/2011 6:51:22 PM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 95.65 % 
+ 4.32 % 
+ 0.03 % 
+ 678 days 18:04:04 
+ 649 days 02:19:39 
+ 29 days 10:34:25 
+ 97460 
+ 93219 
+ 4210 
+ 915 
+ 31 
+ 6437 
+ 10/5/2011 3:08:39 PM 
+ 104 
+ 2/13/2009 3:36:50 PM 
+
+
+ Bren Hall Cam: 128.200.218.25 
+ No answer 
+ 4170 
+  
+ 11/3/2011 6:51:24 PM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 63.47 % 
+ 36.53 % 
+ 0.00 % 
+ 679 days 02:05:09 
+ 429 days 04:50:44 
+ 249 days 21:04:24 
+ 97215 
+ 61701 
+ 35513 
+ 325 
+ 31 
+ 5969 
+ 10/5/2011 3:10:25 PM 
+ 24 
+ 2/13/2009 3:37:13 PM 
+
+
+ Bren Hall Cam: 128.200.218.26 
+ No answer 
+ 4170 
+  
+ 11/3/2011 6:51:19 PM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 95.18 % 
+ 4.82 % 
+ 0.00 % 
+ 679 days 01:50:12 
+ 646 days 03:53:49 
+ 32 days 21:56:22 
+ 97586 
+ 92885 
+ 4701 
+ 357 
+ 15 
+ 5922 
+ 10/5/2011 3:09:18 PM 
+ 12 
+ 2/13/2009 3:37:35 PM 
+
+
+ Bren Hall Cam: 128.200.218.27 
+ No answer 
+ 13187 
+  
+ 11/3/2011 6:51:22 PM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 86.47 % 
+ 13.52 % 
+ 0.00 % 
+ 679 days 02:32:34 
+ 586 days 20:19:00 
+ 92 days 06:03:34 
+ 97545 
+ 84352 
+ 13192 
+ 357 
+ 31 
+ 5796 
+ 5/11/2011 5:44:53 AM 
+ 12 
+ 2/13/2009 3:37:58 PM 
+
+
+ Bren Hall Cam: 128.200.218.28 
+ Host is alive 
+ 7677 
+ 266 ms 
+ 11/3/2011 7:00:37 PM 
+ Host is alive 
+ 250 ms 
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 99.98 % 
+ 0.02 % 
+ 0.00 % 
+ 679 days 01:56:37 
+ 678 days 22:42:45 
+ 03:13:51 
+ 97630 
+ 97611 
+ 19 
+ 302 
+ 15 
+ 10515 
+ 9/11/2011 9:28:37 AM 
+ 15 
+ 2/13/2009 3:38:25 PM 
+
+
+ Bren Hall Cam: 128.200.218.29 
+ No answer 
+ 9181 
+  
+ 11/3/2011 6:51:25 PM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 90.59 % 
+ 9.41 % 
+ 0.00 % 
+ 679 days 02:16:33 
+ 614 days 20:39:32 
+ 64 days 05:37:00 
+ 97581 
+ 88395 
+ 9186 
+ 299 
+ 31 
+ 5812 
+ 7/6/2011 10:24:13 AM 
+ 12 
+ 2/13/2009 3:38:52 PM 
+
+
+ Bren Hall Cam: 128.200.218.3 
+ No answer 
+ 9179 
+  
+ 11/3/2011 6:51:19 PM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 90.59 % 
+ 9.41 % 
+ 0.00 % 
+ 679 days 04:21:58 
+ 614 days 22:44:09 
+ 64 days 05:37:49 
+ 97576 
+ 88390 
+ 9186 
+ 381 
+ 31 
+ 6281 
+ 8/31/2011 2:35:05 PM 
+ 14 
+ 2/13/2009 1:25:37 PM 
+
+
+ Bren Hall Cam: 128.200.218.30 
+ No answer 
+ 26809 
+  
+ 11/3/2011 6:51:22 PM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 70.65 % 
+ 29.35 % 
+ 0.00 % 
+ 679 days 03:27:23 
+ 478 days 23:14:53 
+ 200 days 04:12:29 
+ 97456 
+ 68848 
+ 28608 
+ 327 
+ 31 
+ 5860 
+ 2/4/2011 11:07:57 PM 
+ 10 
+ 2/13/2009 3:39:16 PM 
+
+
+ Bren Hall Cam: 128.200.218.31 
+ No answer 
+ 5418 
+  
+ 11/3/2011 6:51:22 PM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 94.43 % 
+ 5.57 % 
+ 0.00 % 
+ 679 days 02:18:57 
+ 641 days 02:21:39 
+ 37 days 23:57:17 
+ 97589 
+ 92155 
+ 5434 
+ 355 
+ 31 
+ 5812 
+ 9/26/2011 9:47:23 PM 
+ 14 
+ 2/13/2009 3:39:39 PM 
+
+
+ Bren Hall Cam: 128.200.218.32 
+ No answer 
+ 4170 
+  
+ 11/3/2011 6:51:22 PM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 95.71 % 
+ 4.29 % 
+ 0.00 % 
+ 679 days 02:20:19 
+ 649 days 19:45:18 
+ 29 days 06:35:00 
+ 97579 
+ 93393 
+ 4186 
+ 430 
+ 31 
+ 5922 
+ 10/5/2011 3:09:14 PM 
+ 12 
+ 2/13/2009 3:39:58 PM 
+
+
+ Bren Hall Cam: 128.200.218.33 
+ No answer 
+ 4304 
+  
+ 11/3/2011 6:51:25 PM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 95.57 % 
+ 4.43 % 
+ 0.00 % 
+ 679 days 01:32:42 
+ 648 days 20:46:24 
+ 30 days 04:46:17 
+ 97598 
+ 93279 
+ 4319 
+ 332 
+ 31 
+ 6156 
+ 10/4/2011 4:47:27 PM 
+ 10 
+ 2/13/2009 3:40:22 PM 
+
+
+ Bren Hall Cam: 128.200.218.34 
+ No answer 
+ 9157 
+  
+ 11/3/2011 6:51:21 PM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 78.36 % 
+ 21.64 % 
+ 0.00 % 
+ 679 days 01:41:54 
+ 530 days 21:13:39 
+ 148 days 03:48:15 
+ 97392 
+ 76313 
+ 21075 
+ 331 
+ 15 
+ 5718 
+ 8/31/2011 6:17:36 PM 
+ 92 
+ 2/13/2009 3:40:45 PM 
+
+
+ Bren Hall Cam: 128.200.218.35 
+ No answer 
+ 30034 
+  
+ 11/3/2011 6:51:22 PM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 69.18 % 
+ 30.82 % 
+ 0.00 % 
+ 679 days 03:06:27 
+ 469 days 02:07:04 
+ 210 days 00:59:23 
+ 97459 
+ 67419 
+ 30040 
+ 389 
+ 15 
+ 5781 
+ 12/17/2010 8:44:17 AM 
+ 8 
+ 2/13/2009 3:43:09 PM 
+
+
+ Bren Hall Cam: 128.200.218.36 
+ No answer 
+ 9007 
+  
+ 11/3/2011 6:51:22 PM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 53.59 % 
+ 46.41 % 
+ 0.00 % 
+ 679 days 03:17:04 
+ 362 days 21:02:24 
+ 316 days 06:14:40 
+ 97326 
+ 52155 
+ 45171 
+ 343 
+ 31 
+ 5718 
+ 9/1/2011 7:18:47 PM 
+ 28 
+ 2/13/2009 3:44:43 PM 
+
+
+ Bren Hall Cam: 128.200.218.37 
+ No answer 
+ 34818 
+  
+ 11/3/2011 6:51:22 PM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 64.26 % 
+ 35.74 % 
+ 0.00 % 
+ 679 days 02:56:41 
+ 435 days 15:02:17 
+ 243 days 11:54:23 
+ 97436 
+ 62612 
+ 34824 
+ 355 
+ 31 
+ 5781 
+ 7/10/2010 8:34:19 AM 
+ 10 
+ 2/13/2009 3:45:21 PM 
+
+
+ Bren Hall Cam: 128.200.218.38 
+ No answer 
+ 8448 
+  
+ 11/3/2011 6:51:20 PM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 91.33 % 
+ 8.67 % 
+ 0.00 % 
+ 679 days 01:50:41 
+ 619 days 21:18:27 
+ 59 days 04:32:14 
+ 97579 
+ 89115 
+ 8464 
+ 308 
+ 31 
+ 5375 
+ 9/5/2011 5:09:01 PM 
+ 18 
+ 2/13/2009 3:45:47 PM 
+
+
+ Bren Hall Cam: 128.200.218.39 
+ No answer 
+ 8819 
+  
+ 11/3/2011 6:51:22 PM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 90.95 % 
+ 9.05 % 
+ 0.00 % 
+ 679 days 01:59:42 
+ 617 days 08:10:54 
+ 61 days 17:28:48 
+ 97576 
+ 88747 
+ 8827 
+ 312 
+ 31 
+ 5125 
+ 9/3/2011 2:54:45 AM 
+ 22 
+ 2/13/2009 3:46:12 PM 
+
+
+ Bren Hall Cam: 128.200.218.4 
+ No answer 
+ 9143 
+  
+ 11/3/2011 6:51:21 PM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 69.20 % 
+ 30.80 % 
+ 0.00 % 
+ 679 days 04:29:22 
+ 469 days 06:16:14 
+ 209 days 21:43:08 
+ 97469 
+ 67448 
+ 30018 
+ 364 
+ 31 
+ 6329 
+ 8/31/2011 8:31:47 PM 
+ 14 
+ 2/13/2009 1:26:52 PM 
+
+
+ Bren Hall Cam: 128.200.218.40 
+ No answer 
+ 9168 
+  
+ 11/3/2011 6:51:22 PM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 90.59 % 
+ 9.41 % 
+ 0.00 % 
+ 679 days 01:50:44 
+ 614 days 21:04:04 
+ 64 days 04:46:40 
+ 97561 
+ 88380 
+ 9181 
+ 374 
+ 16 
+ 5594 
+ 8/31/2011 4:26:36 PM 
+ 10 
+ 2/13/2009 3:46:37 PM 
+
+
+ Bren Hall Cam: 128.200.218.41 
+ No answer 
+ 4171 
+  
+ 11/3/2011 6:51:22 PM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 95.71 % 
+ 4.29 % 
+ 0.00 % 
+ 679 days 01:36:27 
+ 649 days 18:51:48 
+ 29 days 06:44:38 
+ 97592 
+ 93405 
+ 4187 
+ 357 
+ 16 
+ 4953 
+ 10/5/2011 2:59:46 PM 
+ 12 
+ 2/13/2009 3:46:58 PM 
+
+
+ Bren Hall Cam: 128.200.218.42 
+ No answer 
+ 4171 
+  
+ 11/3/2011 6:51:22 PM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 95.71 % 
+ 4.29 % 
+ 0.00 % 
+ 679 days 01:42:56 
+ 649 days 18:36:42 
+ 29 days 07:06:13 
+ 97604 
+ 93415 
+ 4189 
+ 303 
+ 31 
+ 5375 
+ 10/5/2011 2:59:11 PM 
+ 18 
+ 2/13/2009 3:47:18 PM 
+
+
+ Bren Hall Cam: 128.200.218.43 
+ No answer 
+ 4304 
+  
+ 11/3/2011 6:51:25 PM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 95.57 % 
+ 4.43 % 
+ 0.00 % 
+ 679 days 01:54:38 
+ 648 days 20:48:55 
+ 30 days 05:05:43 
+ 97584 
+ 93264 
+ 4320 
+ 396 
+ 16 
+ 4953 
+ 10/4/2011 4:39:21 PM 
+ 12 
+ 2/13/2009 3:47:56 PM 
+
+
+ Bren Hall Cam: 128.200.218.44 
+ No answer 
+ 38927 
+  
+ 11/3/2011 6:51:25 PM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 60.03 % 
+ 39.97 % 
+ 0.00 % 
+ 679 days 02:42:50 
+ 406 days 20:32:21 
+ 272 days 05:50:28 
+ 97406 
+ 58471 
+ 38933 
+ 392 
+ 157 
+ 5266 
+ 6/11/2010 2:10:19 PM 
+ 18 
+ 2/13/2009 3:48:19 PM 
+
+
+ Bren Hall Cam: 128.200.218.45 
+ No answer 
+ 30032 
+  
+ 11/3/2011 6:51:22 PM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 69.18 % 
+ 30.82 % 
+ 0.00 % 
+ 679 days 02:52:07 
+ 469 days 02:11:13 
+ 210 days 00:30:53 
+ 97466 
+ 67430 
+ 30035 
+ 305 
+ 16 
+ 4953 
+ 12/17/2010 8:44:20 AM 
+ 10 
+ 2/13/2009 3:48:39 PM 
+
+
+ Bren Hall Cam: 128.200.218.46 
+ No answer 
+ 9169 
+  
+ 11/3/2011 6:51:25 PM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 86.07 % 
+ 13.93 % 
+ 0.00 % 
+ 679 days 02:49:46 
+ 584 days 01:55:46 
+ 95 days 00:54:00 
+ 97535 
+ 83944 
+ 13591 
+ 395 
+ 31 
+ 4875 
+ 8/31/2011 4:16:58 PM 
+ 12 
+ 2/13/2009 3:49:01 PM 
+
+
+ Bren Hall Cam: 128.200.218.47 
+ No answer 
+ 7889 
+  
+ 11/3/2011 6:51:22 PM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 91.91 % 
+ 8.09 % 
+ 0.00 % 
+ 679 days 02:07:46 
+ 623 days 21:11:47 
+ 55 days 04:55:58 
+ 97576 
+ 89681 
+ 7895 
+ 351 
+ 15 
+ 5360 
+ 9/9/2011 3:06:29 PM 
+ 12 
+ 2/13/2009 3:50:07 PM 
+
+
+ Bren Hall Cam: 128.200.218.48 
+ No answer 
+ 4304 
+  
+ 11/3/2011 6:51:25 PM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 74.16 % 
+ 25.84 % 
+ 0.00 % 
+ 679 days 02:11:30 
+ 502 days 23:30:17 
+ 176 days 02:41:13 
+ 97483 
+ 72297 
+ 25186 
+ 367 
+ 16 
+ 8766 
+ 10/4/2011 4:41:42 PM 
+ 14 
+ 2/13/2009 3:50:26 PM 
+
+
+ Bren Hall Cam: 128.200.218.49 
+ No answer 
+ 4303 
+  
+ 11/3/2011 6:51:22 PM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 94.69 % 
+ 5.31 % 
+ 0.00 % 
+ 679 days 01:40:59 
+ 642 days 17:18:28 
+ 36 days 08:22:30 
+ 97581 
+ 92397 
+ 5184 
+ 334 
+ 16 
+ 5250 
+ 10/4/2011 4:47:34 PM 
+ 14 
+ 2/13/2009 3:50:47 PM 
+
+
+ Bren Hall Cam: 128.200.218.5 
+ No answer 
+ 30034 
+  
+ 11/3/2011 6:51:20 PM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 68.82 % 
+ 31.18 % 
+ 0.00 % 
+ 679 days 05:11:05 
+ 466 days 17:30:58 
+ 212 days 11:40:06 
+ 97462 
+ 67078 
+ 30384 
+ 406 
+ 31 
+ 6375 
+ 12/17/2010 8:43:56 AM 
+ 12 
+ 2/13/2009 1:27:27 PM 
+
+
+ Bren Hall Cam: 128.200.218.50 
+ No answer 
+ 9167 
+  
+ 11/3/2011 6:51:22 PM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 81.01 % 
+ 18.99 % 
+ 0.00 % 
+ 679 days 02:42:48 
+ 549 days 14:17:13 
+ 129 days 12:25:35 
+ 97527 
+ 79005 
+ 18522 
+ 298 
+ 31 
+ 5328 
+ 8/31/2011 4:36:56 PM 
+ 24 
+ 2/13/2009 3:53:15 PM 
+
+
+ Bren Hall Cam: 128.200.218.51 
+ No answer 
+ 30034 
+  
+ 11/3/2011 6:51:22 PM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 69.18 % 
+ 30.82 % 
+ 0.00 % 
+ 679 days 02:46:30 
+ 469 days 01:50:05 
+ 210 days 00:56:25 
+ 97465 
+ 67427 
+ 30038 
+ 301 
+ 31 
+ 5281 
+ 12/17/2010 8:44:13 AM 
+ 10 
+ 2/13/2009 3:53:43 PM 
+
+
+ Bren Hall Cam: 128.200.218.6 
+ No answer 
+ 5267 
+  
+ 11/3/2011 6:51:22 PM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 74.19 % 
+ 25.81 % 
+ 0.00 % 
+ 679 days 05:28:55 
+ 503 days 05:27:38 
+ 176 days 00:01:16 
+ 97508 
+ 72338 
+ 25170 
+ 315 
+ 16 
+ 6422 
+ 9/27/2011 11:08:54 PM 
+ 22 
+ 2/13/2009 1:28:02 PM 
+
+
+ Bren Hall Cam: 128.200.218.7 
+ No answer 
+ 9148 
+  
+ 11/3/2011 6:51:21 PM 
+ No answer 
+  
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 90.60 % 
+ 9.40 % 
+ 0.00 % 
+ 679 days 04:33:24 
+ 615 days 00:31:37 
+ 64 days 03:51:47 
+ 97582 
+ 88406 
+ 9175 
+ 336 
+ 15 
+ 6266 
+ 8/31/2011 7:27:21 PM 
+ 20 
+ 2/13/2009 1:28:49 PM 
+
+
+ Bren Hall Cam: 128.200.218.8 
+ Host is alive 
+ 4183 
+ 266 ms 
+ 11/3/2011 6:58:40 PM 
+ Host is alive 
+ 328 ms 
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 76.91 % 
+ 23.09 % 
+ 0.00 % 
+ 679 days 04:45:45 
+ 521 days 17:24:22 
+ 157 days 11:01:22 
+ 97515 
+ 74994 
+ 22519 
+ 338 
+ 16 
+ 19344 
+ 10/5/2011 4:40:33 PM 
+ 35 
+ 2/13/2009 1:29:16 PM 
+
+
+ Bren Hall Cam: 128.200.218.9 
+ Host is alive 
+ 4310 
+ 235 ms 
+ 11/3/2011 6:58:36 PM 
+ Host is alive 
+ 219 ms 
+ 00:10:00 
+ URL request 
+ Retrieves .jpg from Bren Hall Camera 
+  
+  
+ 96.54 % 
+ 3.46 % 
+ 0.00 % 
+ 679 days 03:31:23 
+ 655 days 11:56:48 
+ 23 days 15:14:35 
+ 97613 
+ 94231 
+ 3380 
+ 328 
+ 16 
+ 6218 
+ 10/4/2011 7:32:08 PM 
+ 59 
+ 2/13/2009 1:29:40 PM 
+
+
+
+This report was generated by Advanced Host Monitor
+

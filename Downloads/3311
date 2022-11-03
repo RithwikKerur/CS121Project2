@@ -1,0 +1,202 @@
+https://ngs.ics.uci.edu/googles-speech-interfaces-using-context
+
+
+
+
+
+
+
+
+Google’s Speech Interfaces — using context – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Google’s Speech Interfaces — using context    			
+
+
+Though speech interfaces have been slowly gaining in popularity, this week saw a lot of talk about Google’s speech recognition or voice search algorithms.  This is a big step not because it uses speech recognition, but how it does it.  As described in  Technology review article, it models and uses context effectively.  As described in this article:
+
+Speech-recognition systems, however, remain far from perfect. And people’s frustration skyrockets when they can’t find their way out of a voice-menu maze. But Google’s implementation of speech recognition deftly sidesteps some of the technology’s shortcomings, says Glass.
+
+
+And this is accomplished, among other things, using:
+Fortunately, Google also has a huge amount of data on how people use search, and it was able to use that to train its algorithms. If the system has trouble interpreting one word in a query, for instance, it can fall back on data about which terms are frequently grouped together.
+Google also had a useful set of data correlating speech samples with written words, culled from its free directory service, Goog411. People call the service and say the name of a city and state, and then say the name of a business or category. According to Mike Cohen, a Google research scientist, voice samples from this service were the main source of acoustic data for training the system.
+
+
+
+
+By Ramesh |
+    				November 22, 2008 |
+    				             		Experiential Computing |
+             	 
+    				             		2 Comments |
+             	 		          				
+    			
+
+
+← Study Astrology!!!
+Religulous:  Religion considered extremely harmful →
+
+
+
+			2 thoughts on “Google’s Speech Interfaces — using context”		
+
+
+
+
+voip November 24, 2008 at 2:25 pm 
+
+This is interesting, my home ISP seems to be on cost reduction mode and they’ve used voice recognition to direct all service calls,  it is 95% working except that it can run into a deadlock after you follow certain sequence of choices (5% chances). In this event you can’t get out of it, you hang up and do it all over again, and run into the same deadlock. 
+I hope Google’s system is better, at least it should provide a way out of possible deadlock. By the way, Microsoft is reportedly researching all sorts of speech recognition, so where is the product? It is shame for Microsoft to let Google lead on this again.
+
+
+
+
+
+
+
+
+cooler choice November 25, 2008 at 1:41 pm 
+
+very interesting post looks like Google is leading the way in many new ideas
+
+
+
+
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

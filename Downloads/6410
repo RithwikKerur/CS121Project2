@@ -1,0 +1,915 @@
+http://www.ics.uci.edu/~kay/scheme/finger.html
+
+
+
+
+
+
+Scheme Finger Exercises
+
+
+
+
+
+
+Introduction to Computer Science * UC Irvine
+* David G. Kay
+
+SCHEME FINGER EXERCISES
+
+We provide these short exercises to give you practice with some of the fundamental
+mechanics of Scheme.  We recommend that you try exercises in each section.
+ The later exercises in each section are more complex than the earlier ones,
+so if you feel comfortable with the topics, just try the last exercise or
+two in a section.  If you find that you can't do them quickly and correctly,
+try the earlier ones first  Of course you should ask your TA or instructor
+if you'd like further explanation.  [Since these are brand new, it is
+just barely possible that some errors have crept in.  If you think you've
+found one, please contact kay@uci.edu.]
+
+The answers appear on this page in white text;
+you can view them by selecting or highlighting the area below the problem.
+ You'll get the greatest benefit by using pencil and paper to write
+down your own answer before looking at ours; otherwise, it's too easy
+just to browse through, thinking, "Yes, that looks right," without
+building your own essential understanding. (And surely this is obvious, but you won't get any benefit at all out of just copying and pasting these problems into DrScheme for evaluation. The answers are here already, and DrScheme already knows how to evaluate these expressions; the point is for you to work them out by hand and build your own skills.) 
+
+If we don't show the definition of a function
+here, that function is predefined in (built into) DrScheme; the Help Desk
+will describe it.
+
+
+Simple and nested arithmetic expressions. 
+What is the value of each expression?
+
+
+
+(+ 25 30)
+
+55
+
+
+(+ 40 50 60)
+
+150
+
+
+(- 15 5)
+
+10
+
+
+(- 5 15)
+
+-10
+
+
+(* 5 (+ 2 3))
+
+25
+
+
+(/ 100 (- 7 2))
+
+20
+
+
+(* (- 10 2) (+ 1 4))
+
+40
+
+
+(+ (- 12 4) (* 2 (+ 5 1)))
+
+20
+
+
+(+ (* (- 5 3) 6) 3)
+
+15
+
+
+(+ (* 5 6) (/ (* 6 4) (- 20 (* 7 2))) (-
+5 10))
+
+29
+
+
+
+Defining constants.  What is the value returned
+at the end of each sequence of expressions?
+
+
+
+(define SIZE 15)
+
+(+ 1 SIZE)
+
+16
+
+
+(define HEIGHT 10)
+
+(define WIDTH 20)
+
+(* WIDTH HEIGHT)
+
+200
+
+
+
+Defining functions.  What is the value returned
+at the end of each sequence of expressions?
+
+
+
+(define triple
+
+   (lambda (num)
+
+      (* 3 num)))
+
+(triple 5)
+
+15
+
+
+(define area
+
+   (lambda (height width)
+
+      (* height width)))
+
+(area 10 12)
+
+120
+
+
+(define total-pennies
+
+   (lambda (dollars cents)
+
+      (+ (* dollars 100)
+cents)))
+
+(total-pennies 5 43)
+
+543
+
+
+;; [Same definition
+of total-pennies]
+
+(total-pennies 43 5)
+
+4305
+
+
+(define total-restaurant-bill
+
+   (lambda (base-amount taxrate
+tiprate)
+
+      (+ base-amount (* taxrate
+base-amount) (* tiprate base-amount))))
+
+(total-restaurant-bill 100.00 0.05 0.20)
+
+125.00
+
+
+(define three
+
+   (lambda (huey dewey louie)
+
+      (+ dewey huey (* dewey
+louie))))
+
+(three 2 3 4)
+
+17
+
+
+;; [Same definition
+of three]
+
+(three 4 3 2)
+
+13
+
+
+(define SECONDS-PER-MINUTE
+60)
+
+(define MINUTES-PER-HOUR 60)
+
+(define HOURS-PER-DAY 24)
+
+(define total-seconds
+
+   (lambda (days hours minutes
+seconds)
+
+      (+    seconds
+
+
+         (*   
+SECONDS-PER-MINUTE 
+
+            (+
+   minutes 
+
+              
+(*    MINUTES-PER-HOUR 
+
+              
+   (+ hours (* HOURS-PER-DAY days))))))))
+
+(total-seconds 0 0 1 3)
+
+63
+
+
+;; [Same definitions
+of total-seconds and related constants]
+
+(total-seconds 0 2 0 7)
+
+7207
+
+
+;; [Same definitions
+of total-seconds and related constants]
+
+(total-seconds 1 1 1 1)
+
+90061
+
+
+
+Boolean expressions with relational operators.
+ What is the value of each expression?
+
+
+
+(= 12 (* 4 3))
+
+true
+
+
+(> 12 (* 4 4))
+
+false
+
+
+(<= (* 5 4) (* 3 7))
+
+true
+
+
+(< (* 6 3) (* 9 2))
+
+false
+
+
+
+Boolean expressions with predicate functions.
+ What is the value of each expression?  As you evaluate each sub-expression,
+ask yourself what type of value (number, boolean, ...) the function returns.
+
+
+
+(even? 16) ; Is the input an even number?
+
+true
+
+
+(odd? (* 6 3))
+
+false
+
+
+(number? (= 5 (+ 3 2))) ; Is the input a
+number?
+
+false; = returns a boolean,
+not a number
+
+
+(equal? (negative? (- 10 5)) (odd? (* 4
+2)))
+
+true; both inputs to equal?
+are false
+
+
+
+Boolean expressions with logical operators.
+ What is the value of each expression?
+
+
+
+(and (= 5 (+ 4 1)) (even? 12))
+
+true
+
+
+(and (odd? 17) (odd? 18) (odd? 19))
+
+false
+
+
+(and (even? 100) (odd? 101) (even? 102)
+(odd? 103))
+
+true
+
+
+(and (odd? 2) (odd? 4) (odd? 6))
+
+false
+
+
+(or (= 5 (+ 4 1)) (even? 12))
+
+true
+
+
+(or (odd? 17) (odd? 18) (odd? 19))
+
+true
+
+
+(or (even? 100) (odd? 101) (even? 102) (odd?
+103))
+
+true
+
+
+(or (odd?2) (odd? 4) (odd? 6))
+
+false
+
+
+(not (odd? 13))
+
+false
+
+
+(not (even? 13))
+
+true
+
+
+(not (= (+ 4 3) 7))
+
+false
+
+
+(not (= (* 4 2) 9))
+
+true
+
+
+(or (odd? 14) (and (= (+ 6 1) 7) (< (+
+6 2) 9)))
+
+true
+
+
+(and (or (= (+ 6 1) 7) (< (+ 6 2) 9))
+
+     (odd? 14))
+
+false
+
+
+(define A true)
+
+(define B false)
+
+(equal? (not (and A B))
+
+        (or
+(not A) (not B)))
+
+true; in fact, this is one
+of DeMorgan's laws.  It's true no matter what A and B are.
+
+
+(define A false)
+
+(define B false)
+
+(equal? (not (or A B))
+
+        (and
+(not A) (not B)))
+
+true; this is another of
+DeMorgan's laws.
+
+
+
+Cond expressions.  What is the value returned
+by each expression?
+
+
+
+(cond
+
+   ((= 6 (- 5 1)) 17)
+
+   (else 18))
+
+18
+
+
+(cond
+
+   ((even? (* 5 4)) 21)
+
+   (else 20))
+
+21
+
+
+(cond
+
+   ((> (sqrt 25) 5) (* 3 5))
+
+   ((< (sqrt 25) 5) (* 4 5))
+
+   ((= (sqrt 25) 5) (* 5 5)))
+
+25
+
+
+(define choose
+
+   (lambda (num)
+
+      (cond
+
+         ((not (number?
+num)) 15)
+
+         ((odd? num)
+16)
+
+         ((positive?
+num) 17)
+
+         (else 18))))
+
+(choose 16)
+
+17
+
+
+
+Symbols.  What is the value returned by each
+expression?
+
+
+
+(cond
+
+   ((odd? (* 5 2)) 'pancake)
+
+   ((negative? (- 2 5)) 'flapjack)
+
+   (else 'griddlecake))
+
+flapjack
+
+
+(define classify
+
+   (lambda (item)
+
+      (cond
+
+         ((symbol=?
+item 'animal) 25)
+
+         ((symbol=?
+item 'vegetable) 30)
+
+         ((symbol=?
+item 'mineral) 35)
+
+         (else 'none-of-these))))
+
+(classify 'vegetable)
+
+30
+
+
+;; [Same definition
+of classify]
+
+(classify 'love)
+
+none-of-these; in some circumstances,
+the Scheme interpreter will display this with a quotation mark in front---quotes
+matter when you're writing code, but not so much when displaying results.
+
+
+;; [Same definition
+of classify]
+
+(classify 'dog)
+
+none-of-these; symbols are
+just (non-numeric) data---they have no intrinsic meaning
+
+
+
+Strings.  We use strings for textual data--characters
+we can type on a keyboard--that may include spaces and other characters
+that can't be in symbols.  Many other operations on strings are described
+in the Help Desk.  What is the value returned by each expression?
+
+
+
+"Hello there!"
+
+"Hello there!";
+the value of a constant, double-quoted string is the string itself.  There
+are ways to display strings without the quotation marks, of course.
+
+
+(string-append "See you" "later")
+
+"See youlater"
+
+
+(string=? "See you later" (string-append
+"See you"  " "  "later"))
+
+true
+
+
+
+Expression types:  What type of value
+(number, boolean, symbol, string, function) does each expression return?
+
+
+
+(+ 7 5)
+
+number; we're asking
+for the type, not the actual value
+
+
+(* 5 (sqrt (/ 134234 17))
+
+number
+
+
+(= (* 6 4) (+ 20 (- 10 6)))
+
+boolean; did you notice
+that you don't have to do the calculation?
+
+
+(equal? (* (* (* 5 7) 8) 9) (/ 100000 (/
+1000 10)))
+
+boolean
+
+
+(number? (* 5 (+ 3 4)))
+
+boolean
+
+
+(cond
+
+   ((= 5 (sqrt 25)) "Exact
+match.")
+
+   ((< 12 (* 6 4)) "Below
+the line.")
+
+   (else "Hard to say."))
+
+string
+
+
+(cond
+
+   ((odd? (* 5 2)) 'thyme)
+
+   ((negative? (- 2 5)) 'sage)
+
+   (else 'chervil))
+
+symbol
+
+
+(define age-can-do
+
+   (lambda (age)
+
+      ((< age 18) 'neither)
+
+      ((and (>= age 18)
+(< age 21)) 'vote-not-drink)
+
+      (else 'both)))
+
+(age-can-do 20)
+
+symbol
+
+
+(lambda (x) (* 2 x)) ; slightly advanced,
+but we have discussed this
+
+function; lambda expressions
+return functions [also called procedures]---they describe a machine with
+input(s) and an output (return value).  In this case, the machine described
+by the lambda expression apparently returns a number, but the lambda
+expression itself returns a machine/function/procedure.
+
+
+
+Structure definitions.  Write the Scheme code
+to define a structure that represents the data described below.
+
+
+
+a piece of carpet, with a length and a width
+(both numbers, representing feet)
+
+(define-struct carpet (length
+width)); the code doesn't specify what types the fields are, but your
+data definition (in a comment) would.
+
+
+a shipping box, with a length, width, depth,
+weight, and material (all numbers--lengths in inches, weight in ounces--except
+the last, which is a symbol chosen from 'cardboard, 'wood, or 'plastic)
+
+(define-struct shipping-box
+(length width depth weight material))
+
+
+a student, with a name (string), ID number,
+and major (symbol).
+
+(define-struct student (name
+ID major))
+
+
+
+Structure manipulations--constructors.  Use
+the structure definitions in the previous part to create and return each
+of the objects (also called instances) described below.
+
+
+
+a 5-by-7 piece of carpet
+
+(make-carpet 5 7)
+
+
+a very large piece of carpet that's 8998789
+feet wide and twice as long (do this with copy and paste and without a calculator)
+
+(make-carpet (* 2 8998789)
+8998789)
+
+
+a wooden shipping box that's 4-by-5-by-10
+and weighs 36 ounces
+
+(make-shipping-box 4 5 10
+36 'wood); make sure you keep the order of the fields straight when
+you create the object, even if the English description gives them in some
+other order.
+
+
+A 17-ounce cubical plastic box that's 18
+inches on a side.
+
+(make-shipping-box 18 18
+18 17 'plastic)
+
+
+An English major named Peter Anteater whose
+ID is 11223344.
+
+(make-student "Peter
+Anteater" 11223344 'English); as we move towards real-world problems
+(and away from finger exercises), we may need to make real-world decisions
+like whether to store the name last-name-first and just what the list of
+recognized symbols for majors will be.
+
+
+
+Structure manipulations--field selectors. 
+Using the same structure definitions, what value does each sequence of expressions
+below return?
+
+
+
+(define my-box (make-shipping-box
+20 30 40 15 'cardboard))
+
+(shipping-box-length my-box)
+
+20
+
+
+;; [Same definition
+of my-box]
+
+(shipping-box-weight my-box)
+
+15
+
+
+;; [Same definition
+of my-box]
+
+(* (shipping-box-length my-box) (shipping-box-width
+my-box))
+
+600
+
+
+(make-student (string-append "Annabelle"
+" " "Anteater") 55443322 'ChemEngr)
+
+a student structure with
+name "Annabelle Anteater", ID 55443322, major ChemEngr.  DrScheme
+represents this simply as (make-student "Annabelle Anteater" 55443322
+'ChemEngr)
+
+
+
+Structure manipulations--field selectors. 
+Using the same structure definitions, write the Scheme functions described
+below.
+
+
+
+;; shipping-box-footprint:
+shipping-box -> number
+
+;; Return area shipping box occupies, e.g.,
+on a shelf, irrespective of height
+
+(define shipping-box-footprint
+
+   (lambda (SB)
+
+      (*
+(shipping-box-length SB) (shipping-box-width SB))))
+
+
+;; shipping-box-volume:
+shipping-box -> number
+
+;; Return volume of shipping box (length
+times width times height) in cubic inches
+
+(define shipping-box-volume
+
+   (lambda (SB)
+
+      (*
+(shipping-box-length SB) (shipping-box-width SB) (shipping-box-height SB))))
+
+; or, perhaps better:  (*
+(shipping-box-area SB) (shipping-box-height SB))  ))
+
+
+;; fits-on-carpet?:
+shipping-box carpet -> boolean
+
+;; Return true if the carpet's area
+is at least the area of the shipping box.
+
+;; Use the definitions above if they're
+helpful.
+
+(define fits-on-carpet?
+
+   (lambda (SB
+C)
+
+      (<=
+(shipping-box-footprint SB)
+
+        
+(* (* 12 (carpet-length C)) (* 12 (carpet-width C))))))
+
+;; Don't forget that
+carpet widths are stored in feet, not inches.
+
+
+
+What type of value (number, boolean,
+symbol, string, carpet, shipping-box, student, function) does each expression
+return?  Use the definitions above where appropriate.
+
+
+
+(make-shipping-box 10 10 5 6 'plastic)
+
+shipping-box
+
+
+(student-major (make-student "Petra
+Programmer" 11221122 'CompSci))
+
+symbol
+
+
+(make-student "Alan Turing" 33445566
+'Math)
+
+student
+
+
+(symbol=? 'Informatics (student-major
+(make-student "Petra Programmer" 11221122 'CompSci)))
+
+boolean
+
+
+(string-append (student-name (make-student
+"John Smith" 33444433 'History)) ", Ph.D.")
+
+string
+
+
+(define big-box
+(make-shipping-box 48 48 48 72 'wood))
+
+(define small-box (make-shipping-box 12
+12 12 12 'wood))
+
+(+ (shipping-box-weight big-box) (shipping-box-weight
+small-box))
+
+number
+
+
+;; [Same definitions
+as above]
+
+(> (shipping-box-volume big-box) (shipping-box-volume
+small-box))
+
+boolean
+
+
+(make-shipping-box
+
+
+   (shipping-box-length big-box)
+
+
+   (shipping-box-width big-box)
+
+
+   (shipping-box-height big-box)
+
+
+   (+ 12 (shipping-box-weight
+big-box)) 
+
+   'hardwood)
+
+shipping-box
+
+
+
+
+
+
+
+
+
+David G. Kay,
+406B Computer Science
+
+University of California, Irvine
+
+Irvine, CA  92697-3425
+ --  (949) 824-5072
+ --  Fax (949) 824-4056
+ --  Email  
+kay@uci.edu
+
+
+
+
+Sunday, October 9, 2005 -- 2:27 PM
+
+

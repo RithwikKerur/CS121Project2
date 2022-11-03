@@ -1,0 +1,10 @@
+http://plrg.ics.uci.edu/publications/100.bib
+@inproceedings{key,
+ author = {Brian Demsky and Martin C. Rinard},
+ title = {Data Structure Repair Using Goal-Directed Reasoning},
+ booktitle = {Proceedings of the 2005 International Conference on Software Engineering},
+ pages = {176--185},
+ location = {St. Louis, Missouri},
+ month = {May},
+ year = {2005}
+}

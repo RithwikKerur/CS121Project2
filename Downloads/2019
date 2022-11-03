@@ -1,0 +1,331 @@
+https://sli.ics.uci.edu/Site/PageListTemplates
+
+
+
+SLI | Site / PageListTemplates 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Site /
+PageListTemplates
+
+
+This page contains "templates" for PmWiki's (:pagelist:) directive.  The Site.LocalTemplates? page can be created and used to store pagelist templates that are local to a site.
+
+Page list template documentation
+PmWiki.Page Lists - Listing pages by multiple criteria with templated output
+PmWiki.Page List Templates - Creating page list format templates
+PmWiki.Page Variables - variables that are associated with pages
+Page Text Variables - Page variables automatically made available through natural or explicit page markup
+PmWiki.Conditional Markup - Listing pages by multiple criteria with templated output
+Cookbook:Pagelist Template Samples - 
+fmt=#default
+The default template for pagelists when fmt= isn't specified (and note that on the PmWiki.org wiki, this template is over-ridden by the one on the Site.LocalTemplates? page).
+
+
+(:if false:)
+[[#default]]
+(:template first {=$Group}:)
+
+:[[{=$Group}/]] /:
+(:template each:)
+: :[[{=$Group}/{=$Name}]]
+[[#defaultend]]
+(:ifend:)
+
+(:pagelist group={$Group} fmt=#default count=6:)
+Site /
+ AllRecentChanges
+ AuthForm
+ AuthUser
+ EditForm
+ EditQuickReference
+ GroupAttributes
+
+
+
+fmt=#bygroup
+Display pages by group/name.
+
+
+(:if false:)
+[[#bygroup]]
+(:template first {=$Group}:)
+
+:[[{=$Group}/]] /:
+(:template each:)
+: :[[{=$Group}/{=$Name}]]
+[[#bygroupend]]
+(:ifend:)
+
+(:pagelist group={$Group} fmt=#bygroup count=6:)
+Site /
+ AllRecentChanges
+ AuthForm
+ AuthUser
+ EditForm
+ EditQuickReference
+ GroupAttributes
+
+
+
+fmt=#simple
+A simple bullet list of page names.
+
+
+(:if false:)
+[[#simple]]
+* [[{=$FullName}]]
+[[#simpleend]]
+(:ifend:)
+
+(:pagelist group={$Group} fmt=#simple count=5:)
+Site.AllRecentChanges
+Site.AuthForm
+Site.AuthUser
+Site.EditForm
+Site.EditQuickReference
+
+
+
+fmt=#title
+A simple bullet list of page titles. 
+
+
+(:if false:)
+[[#title]]
+(:template defaults order=title:)
+* [[{=$FullName}|+]]
+[[#titleend]]
+(:ifend:)
+
+(:pagelist group={$Group} fmt=#title count=5:)
+AllRecentChanges
+AuthForm
+AuthUser
+EditForm
+EditQuickReference
+
+
+
+fmt=#titlespaced
+Outputs wiki page titles with spaces between the words in the title.
+
+
+(:if false:)
+[[#titlespaced]]
+(:template defaults order=title:)
+* [[{=$FullName}|{=$Titlespaced}]]
+[[#titlespacedend]]
+(:ifend:)
+
+(:pagelist group={$Group} fmt=#titlespaced count=5:)
+All Recent Changes
+Auth Form
+Auth User
+Edit Form
+Edit Quick Reference
+
+
+
+fmt=#group
+A bullet list of groups.
+
+
+[[#group]]
+(:template first {=$Group}:)
+* [[{=$Group}/]]
+[[#groupend]]
+
+fmt=#include
+Concatenate the text of pages in the list.  (Note, this can be an expensive operation!)
+
+
+[[#include]]
+(:include {=$FullName} self=0:)
+[[#includeend]]
+
+fmt=#includefaq
+Include just the #faq sections from pages in the list.  (This can also be expensive,
+especially if the list includes pages that don't have the [[#faq]] anchor!)
+
+
+[[#includefaq]]
+!![[{=$FullName}|+]]
+>>faq<<
+(:include {=$FullName}#faq#faqend self=0:)
+>><<
+[[#includefaqend]]
+
+fmt=#description
+List pages and append the page's description if it exists. Creates dash by all names, but adding a nested loop to get rid of it causes markup problems (nested loops are not allowed).
+
+
+(:if false:)
+[[#description]]
+* [[{=$FullName}|+]]
+  - {=$Description}
+[[#descriptionend]]
+(:ifend:)
+
+(:pagelist group={$Group} fmt=#description count=7:)
+AllRecentChanges
+- 
+AuthForm
+- 
+AuthUser
+- 
+EditForm
+- 
+EditQuickReference
+- 
+GroupAttributes
+- 
+ListAllPages
+- 
+
+
+
+fmt=#simplename
+Simple bullet list of page names, without the Group name. 
+
+
+(:if false:)
+[[#simplename]]
+* [[({=$Group}/){=$Name}]]
+[[#simplenameend]]
+(:ifend:)
+
+(:pagelist group={$Group} fmt=#simplename count=5:)
+AllRecentChanges
+AuthForm
+AuthUser
+EditForm
+EditQuickReference
+
+
+
+fmt=#simplenamespaced
+Simple bullet list of spaced page names, without the Group name. 
+
+
+(:if false:)
+[[#simplenamespaced]]
+* [[({=$Group}/){=$Namespaced}]]
+[[#simplenamespacedend]]
+(:ifend:)
+
+(:pagelist group={$Group} fmt=#simplenamespaced count=5:)
+All Recent Changes
+Auth Form
+Auth User
+Edit Form
+Edit Quick Reference
+
+
+
+fmt=#titlesummary
+A simple bullet list of page title and summary. 
+
+
+>>comment<<
+[[#titlesummary]]
+* [[{=$FullName} | {=$Title}]] &nbsp; [-{=$:Summary}-]
+[[#titlesummaryend]]
+>>font-size:smaller<<
+
+(:pagelist group=Site fmt=#titlesummary list=normal count=8:)
+
+
+{=$Title}?   {=$:Summary}
+
+
+AuthForm   Form displayed when requesting a password or username/password
+AuthUser   
+EditForm   contains the edit page layout form
+EditQuickReference   quick reference for editing pages
+ListAllPages   
+PageActions   
+PageNotFound   Page displayed when PmWiki can't find the requested page
+Preferences   Preferences for access keys and edit form
+
+
+
+
+fmt=#count
+Number of pages in pagelist 
+
+
+(:if false:)
+[[#count]]
+(:template defaults wrap=inline list=normal :)
+(:template last:)
+{$$PageCount}
+[[#countend]]
+(:ifend:)
+
+Number of pages in the {$Group} group: (:pagelist group={$Group} fmt=#count :).
+
+Number of pages in the {$Group} group: (:pagelist group={$Group} fmt=count :).
+
+There are (:pagelist group=PmWiki fmt=#count wrap=html :) pages in the PmWiki group.
+Number of pages in the Site group: 
+14
+.
+
+Number of pages in the Site group: 18.
+
+There are 106
+
+ pages in the PmWiki group.
+
+
+
+
+
+
+
+
+ Last modified September 10, 2011, at 10:03 AM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

@@ -1,0 +1,11 @@
+http://plrg.ics.uci.edu/publications/320.bib
+@article{key,
+ author = {Alex Edwards and Sean Tucker and Brian Demsky},
+ title = {AFID: An Automated Approach to Collecting Software Faults},
+ journal = {Automated Software Engineering Journal},
+ volume = {17},
+ number = {3},
+ pages = {347--372},
+ month = {September},
+ year = {2010}
+}

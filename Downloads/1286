@@ -1,0 +1,189 @@
+http://perennialpolycultures.ics.uci.edu
+
+
+
+
+
+
+
+
+Software for Agricultural Ecosystem (SAGE) at UCI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ UCI SAGE
+                
+
+
+
+
+
+
+
+
+
+About
+
+
+Arboretum
+
+
+Database
+
+
+Composer
+
+
+Proof of Concepts
+
+
+Contact
+
+
+
+
+
+
+
+
+
+
+
+
+
+Software forAgricultural Ecosystems
+Growing resources sustainably and building community.A UCI Informatics Project.
+
+
+
+
+
+
+
+
+
+
+
+
+About the project
+The SAGE project at UCI aims to help people in Southern California design sustainable polycultures for personal use. A sustainable polyculture is a mutually dependent group of perennial and self-seeding annual plants designed to thrive with little or no external inputs and provide significant amounts of human resources.
+We are working with local community members, including Eco-apprentices of The Ecology Center in San Juan Capistrano, and Agroecology researchers to identify what novice growers need to design and grow sustainable polycultures for personal use. In this pursuit, we have engaged community members in building a sustainable polyculture at our demonstration site at the UCI Arboretum.
+We have found that support of Information Technology would help novices understand, organize and visualize the complex relationships among plants that must be formed to create a sustainable polyculture. We are building a comprehensive database of plants suitable for this application in Southern California and a design tool called the Sustainable Polyculture Composer.
+This work is managed by UCI Ph.D. Student Juliet Norton and Professor Bill Tomlinson in partnership with Professor Don Patterson at Westmont College and Professor Sarah Taylor Lovell at University of Illinois Urbana-Champaign. This research is funded by the National Science Foundation Award # 14442749.
+
+This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Demonstration site at the UCI Arboretum
+With the help of community members, on campus organizations, and independent students, we have installed a Permaculture research site at the UCI Arboretum. To date, we have removed an invasive species that covered the majority of the site, created an outdoor classroom, rehabilitated a grapefruit tree planted by UCI Founding Chancellor Daniel Aldrich, dug earthworks for stormwater management, and planted over 50 native edibles and support species.
+To find out about future events join the UCI Sustainable Polyculture Google Group.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SAGE Plant Database
+The database is still under development. The open-source codebase can be found at https://github.com/julietnpn/sage and the current live version can be found here. If you are interested in participating in the population of the database please contact us at perennialpolycultures@ics.uci.edu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SAGE Sustainable Polyculture Composer
+The composer is still under development. Source code for early prototypes can be found at https://github.com/julietnpn/sage. If you are interested in participating in piloting early prototypes please contact us at perennialpolycultures@ics.uci.edu
+
+
+
+
+
+
+
+
+Other SAGE Proof of Concepts
+The SAGE Community Coordinator proof of concept was developed at a 3-day Explore Computer Science Research workshop for undergraduate women in computing sponsored by Google in February 2019. Source code for this early prototypes can be found at https://github.com/julietnpn/sage-cc.
+The SAGE Plant Photo Browser is a proof of concept was developed by Xin Hu from 2016-2017 and advised by Juliet Norton, Ankita Raturi, and Bill Tomlinson. This prototype is a proof of concept for an algorithm that can filters plant photo tag data on twitter to exclude photos that are not of the plant the user is searching for. Source code for this early prototypes can be found at https://github.com/julietnpn/tagyourplants.
+
+
+
+
+
+
+
+Contact us
+perennialpolycultures@ics.uci.edu
+
+
+
+
+
+
+
+
+
+
+Copyright © Sustainable Polycultures at UCI 2019
+
+
+
+
+
+
+
+
+
+
+
+
+
+

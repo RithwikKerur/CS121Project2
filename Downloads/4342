@@ -1,0 +1,233 @@
+https://cml.ics.uci.edu/2016/04/spring-2016
+
+
+
+
+
+Spring 2016 | Center for Machine Learning and Intelligent Systems
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+University of California, Irvine
+
+
+Menu
+Skip to content
+Home
+About CML
+
+About us
+News
+Contact Us
+
+
+People
+
+Faculty
+Alumni
+
+
+Events & Seminars
+
+AI/ML Seminar Series
+AI/ML Seminar Live Stream
+CML Distinguished Speakers
+ML Reading Group
+
+
+Education & Resources
+
+Courses
+Books
+
+
+UCI Machine Learning Archive
+Sponsors & Funding
+Subscribe to CML List
+ 
+
+
+
+
+
+Spring 2016 Standard
+
+April 8, 2016
+AIML
+
+
+
+
+
+
+
+ 
+
+
+Apr 4 
+
+
+No Seminar (Cancelled)
+
+
+
+ 
+
+
+Apr 11Bren Hall 40111 pm
+
+
+Venkat ChandrasekaranAssistant ProfessorComputing and Mathematical Sciences & Electrical EngineeringCalifornia Institute of Technology
+
+Finding Planted Subgraphs using the Schur-Horn RelaxationExtracting structured planted subgraphs from large graphs is a fundamental question that arises in a range of application domains. We describe a computationally tractable approach based on convex optimization to recover certain families of structured graphs that are embedded in larger graphs containing spurious edges. Our method relies on tractable semidefinite descriptions of majorization inequalities on the spectrum of a matrix, and we give conditions on the eigenstructure of a planted graph in relation to the noise level under which our algorithm succeeds. (Joint work with Utkan Candogan.)
+
+
+ 
+
+
+Apr 18Bren Hall 40111 pm
+
+
+Zach Chase LiptonPhD CandidateDepartment of Computer ScienceUniversity of California, San Deigo
+
+Learning to Diagnose with LSTM Recurrent Neural NetworksClinical medical data, especially in the intensive care unit (ICU), consist of multivariate time series of observations. For each patient visit (or episode), sensor data and lab test results are recorded in the patient’s Electronic Health Record (EHR). While potentially containing a wealth of insights, the data is difficult to mine effectively, owing to varying length, irregular sampling and missing data. Recurrent Neural Networks (RNNs), particularly those using Long Short-Term Memory (LSTM) hidden units, are powerful and increasingly popular models for learning from sequence data. They effectively model varying length sequences and capture long range dependencies. We present the first study to empirically evaluate the ability of LSTMs to recognize patterns in multivariate time series of clinical measurements. Specifically, we consider multilabel classification of diagnoses, training a model to classify 128 diagnoses given 13 frequently but irregularly sampled clinical measurements. First, we establish the effectiveness of a simple LSTM network for modeling clinical data. Then we demonstrate a straightforward and effective training strategy in which we replicate targets at each sequence step. Trained only on raw time series, our models outperform several strong baselines, including a multilayer perceptron trained on hand-engineered features.
+
+
+ 
+
+
+Apr 25Bren Hall 40111 pm
+
+
+Jasper VrugtAssociate ProfessorDepartment of Environmental EngineeringUniversity of California, Irvine
+
+Bayesian inference, hypothesis testing, epistemic errors and diagnostic model evaluationBayesian inference has found widespread application and use in science and engineering to reconcile Earth system models with data, including prediction in space (interpolation), prediction in time (forecasting), assimilation of observations and deterministic/stochastic model output, and inference of the model parameters. In this talk I will review the basic elements of the DiffeRential Evolution Adaptive Metropolis (DREAM) algorithm developed by Vrugt et al. (2008,2009) and used for Bayesian inference in fields ranging from physics, chemistry and engineering, to ecology, hydrology, and geophysics. I will also discuss recent developments of DREAM, including the development of a diagnostic model evaluation framework using likelihood free inference, and the use of dimensionality reduction techniques for calibration of CPU-intensive system models. Practical examples are used from many different fields of study.
+
+
+ 
+
+
+May 2 Bren Hall 40111 pm
+
+
+Jeffrey Mark SiskindAssociate ProfessorDepartment of Electrical & Computer EngineeringPurdue University
+
+Decoding the Brain to Help Build MachinesHumans can describe observations and act upon requests.  This requires that language be grounded in perception and motor control.  I will present several components of my long-term research program to understand the vision-language-motor interface in the human brain and emulate such on computers.
+ In the first half of the talk, I will present fMRI investigation of the vision-language interface in the human brain.  Subjects were presented with stimuli in different modalities—spoken sentences, textual presentation of sentences, and video clips depicting activity that can be described by sentences—while undergoing fMRI.  The scan data is analyzed to allow readout of individual constituent concepts and words—people/names, objects/nouns, actions/verbs, and spatial-relations/prepositions—as well as phrases and entire sentences.  This can be done across subjects and across modality; we use classifiers trained on scan data for one subject to read out from another subject and use classifiers trained on scan data for one modality, say text, to read out from scans of another modality, say video or speech.  Analysis of this indicates that the brain regions involved in processing the different kinds of constituents are largely disjoint but also largely shared across subjects and modality.  Further, we can determine the predication relations; when the stimuli depict multiple people, objects, and actions, we can read out which people are performing which actions with which objects.  This points to a compositional mental semantic representation common across subjects and modalities.
+ In the second half of the talk, I will use this work to motivate the development of three computational systems.  First, I will present a system that can use sentential description of human interaction with previously unseen objects in video to automatically find and track those objects.  This is done without any annotation of the objects and without any pretrained object detectors.  Second, I will present a system that learns the meanings of nouns and prepositions from video and tracks of a mobile robot navigating through its environment paired with sentential descriptions of such activity.  Such a learned language model then supports both generation of sentential description of new paths driven in new environments as well as automatic driving of paths to satisfy navigational instructions specified with new sentences in new environments.  Third, I will present a system that can play a physically grounded game of checkers using vision to determine game state and robotic arms to change the game state by reading the game rules from natural-language instructions.
+ Joint work with Andrei Barbu, Daniel Paul Barrett, Charles Roger Bradley, Seth Benjamin Scott Alan Bronikowski, Zachary Burchill, Wei Chen, N. Siddharth, Caiming Xiong, Haonan Yu, Jason J. Corso, Christiane D. Fellbaum, Catherine Hanson, Stephen Jose Hanson, Sebastien Helie, Evguenia Malaia, Barak A. Pearlmutter, Thomas Michael Talavage, and Ronnie B. Wilbur.
+ Bio: Jeffrey M. Siskind received the B.A. degree in computer science from the Technion, Israel Institute of Technology, Haifa, in 1979, the S.M. degree in computer science from the Massachusetts Institute of Technology (M.I.T.), Cambridge, in 1989, and the Ph.D. degree in computer science from M.I.T. in 1992.  He did a postdoctoral fellowship at the University of Pennsylvania Institute for Research in Cognitive Science from 1992 to 1993.  He was an assistant professor at the University of Toronto Department of Computer Science from 1993 to 1995, a senior lecturer at the Technion Department of Electrical Engineering in 1996, a visiting assistant professor at the University of Vermont Department of Computer Science and Electrical Engineering from 1996 to 1997, and a research scientist at NEC Research Institute, Inc. from 1997 to 2001.  He joined the Purdue University School of Electrical and Computer Engineering in 2002 where he is currently an associate professor.  His research interests include computer vision, robotics, artificial intelligence, neuroscience, cognitive science, computational linguistics, child language acquisition, automatic differentiation, and programming languages and compilers.
+
+
+ 
+
+
+May 9 Bren Hall 40111 pm
+
+
+Forest AgostinelliPhD CandidateDepartment of Computer ScienceUniversity of California, Irvine
+
+Deep Learning for Circadian  BiologyCircadian rhythms date back to the origins of life, are found in virtually every species and every cell, and play fundamental roles in functions ranging from metabolism to cognition. Modern high-throughput technologies allow the measurement of concentrations of transcripts, metabolites, and other species along the circadian cycle creating novel computational challenges and opportunities, including the problems of inferring whether a given species oscillate in circadian fashion or not, and inferring the time at which a set of measurements was taken. Due to the expensive process of taking these measurements, inferring whether a given species oscillate in circadian fashion has proven to be a challenge. The sparse data with only a few replicates makes many existing methods unreliable. In addition, many differential gene expression experiments–such as those contained in the GEO repository, have been carried at single time points without taking into account circadian oscillations which can act as confounding factors.  To solve these problems we introduce two deep learning methods: BIO_CYCLE and BIO_CLOCK. BIO_CYCLE takes advantage of synthetic data to determine whether or not a signal oscillates in a circadian fashion, and infer periods, amplitudes, and phases. BIO_CLOCK, using a specialized cost function and real-world data, imputes the time at which a sample was taken, from the corresponding gene expression measurements.  These tools are a necessary step forward to better understand circadian rhythms at the molecular level and their applications to precision medicine.
+
+
+ 
+
+
+May 16Bren Hall 40111 pm
+
+
+Aparna ChandramowlishwaranAssistant ProfessorDepartment of Electrical EngineeringUniversity of California, Irvine
+
+Performance and productivity of N-body solvers
+In this talk, I’ll present my group’s work on addressing two key challenges in developing parallel algorithms and software for the class of N-body problems on current and future platforms.  The first challenge is reducing the apparent gap in performance between code generated from high-level forms and that of hand-tuned code, which we address using extensive characterization of the optimization space for these computations and automating the process through domain specific code generators. These application-specific compilers provide the domain scientists the ability to productively harness the power of these large machines and to enable large-scale scientific simulations and big data applications.
+The second challenge is analyzing and designing algorithms. We are entering the era of exascale.  The number of cores are growing at a much faster rate than bandwidth per node. What implications does this trend have in designing algorithms for future systems? If we were to model computation and communication costs, what inferences can we derive from such a model for the time to execute an algorithm? Our model suggests a new kind of high level analytical co-design of the algorithm and architecture and similar analysis can be applied in designing algorithms in general.
+
+
+ 
+
+
+May 23Bren Hall 40111 pm
+
+
+Divijotham KrishnamurthyPostdoctoral FellowCenter for Mathematics of InformationCalifornia Institute of Technology
+
+Graphical models for power systems analysisSeveral problems arising in the design, analysis and efficient operation of power systems are naturally posed as graph-structured optimization problems. Due to the nonlinear nature of the physical equations describing the power grid, these problems are often nonconvex and NP-hard. However, practical instances of several graph-structured optimization problems have been solved successfully in the graphical models literature by exploiting graph structure and using message-passing or belief propagation techniques. In this work, we show that a similar approach can be successfully applied to power systems, leading to theoretically and practically efficient algorithms. I will discuss two applications in detail: a) Solving mixed-integer optimal power flow problems on distribution networks, and b) Detecting and mitigating market manipulation by aggregators of renewable generation in a distribution-level market. I will also discuss possible extensions of these approaches to other power system/infrastructure network problems. Based on joint work with Misha Chertkov, Sidhant Misra, Marc Vuffray, Pascal Van Hentenryck, Niangjun Chen, Navid Azizan Ruhi and Adam Wierman.
+
+
+ 
+
+
+May 30
+
+
+No Seminar (Memorial Day)
+
+
+
+
+
+
+
+Post navigation
+← Southern California Machine Learning Symposium Workshop On Interacting with Robots Through Touch →
+
+
+
+
+ 
+Search
+
+
+
+ 
+
+
+(c) 2015 Center for Machine Learning and Intelligent Systems
+
+WordPress/BonPress
+
+
+
+
+
+

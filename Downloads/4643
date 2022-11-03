@@ -1,0 +1,141 @@
+http://fr.ics.uci.edu/haiti
+
+
+
+
+
+
+Family Reunification for Haiti Earthquake
+
+
+
+FAMILY REUNIFICATIONFOR HAITI EARTHQUAKE
+ 
+
+Search Interfaces
+
+Search interfaces for the Person Finder: Haiti
+      Earthquake website:
+
+      
+Search Page Interactive and
+        error-tolerant search page;
+
+        Search
+        WidgetInteractive and error-tolerant search widget
+        that can be embedded into any website.
+
+Interactive and error-tolerant search widget for
+      the Red Cross FamilyLinks website.
+Interactive and error-tolerant search
+      engine for over 40,000 missing person records crawled from
+      Red Cross, CNN iReport and other websites.
+
+    
+
+
+Data (January 2010)
+
+CNN iReport
+
+HTML pages: www.ireport.com.tgz (7,861 files)
+SQL dump:
+        
+2010-01-19: IREPORT_PERSON_88131.sql.gz (604 new records)
+2010-01-18: IREPORT_PERSON_86188.sql.gz (952 new records)
+2010-01-17: IREPORT_PERSON_83755.sql.gz (659 new records)
+2010-01-16: IREPORT_PERSON_64235.sql.gz (5,645 records)
+
+
+Family Links International Committee of the Red Cross
+        
+New Schemata
+            
+SQL dump (1 table, denormalized):
+                
+2010-02-28: ICRC_FAMILYLINKS_2010-02-08_13-55-29.sql.gz (28,034 records)
+
+SQL dump (2 tables, normalized):
+                
+2010-02-28: ICRC_PEOPLE_2010-02-08_13-55-54.sql.gz (27,401 records)
+2010-02-28: ICRC_SEEKER_2010-02-08_13-55-54.sql.gz (28,034 records)
+
+
+Layout after Jan 20
+            
+SQL dump:
+                
+2010-01-21: ICRC_FAMILYLINKS_20100121.sql.gz (23,813 records)
+
+
+Layout before Jan 20
+            
+HTML pages: www.familylinks.icrc.org.tgz (23,840 files)
+SQL dump:
+                
+2010-01-19: ICRC_PERSON_88131.sql.gz (489 new records)
+2010-01-18: ICRC_PERSON_86188.sql.gz (1,034 new records)
+2010-01-17: ICRC_PERSON_83755.sql.gz (1,127 new records)
+2010-01-16: ICRC_PERSON_64235.sql.gz (21,188 records)
+
+
+
+CBC News
+
+SQL dump:
+        
+2010-01-18: CBC_PERSON_86188.sql.gz (285 records)
+
+
+Koneksyon.com
+
+HTML pages: www.koneksyon.com.tgz (4,571 pages)
+SQL dump:
+        
+2010-01-22: KONEKSYON_PERSON_64235.sql.gz (4,571 records)
+
+
+Knexu Forum Posts
+
+HTML pages: www.knexu.org.tgz (817 files)
+SQL dump:
+        
+2010-01-19: KNEXU_PERSON_88131.sql.gz (816 records)
+
+
+
+
+People
+
+Chen Li
+      (Faculty)
+Sattam Alsubaiee (Student)
+      Alexander Behm (Student)
+      Inci Cetindil (icetindil ..AT.. gmail.com) (Student)
+      Shengyue Ji (Student)
+      Dustin Lakin (dustin.lakin ..AT.. gmail.com) (Student)
+      Rares Vernica (Student)
+    
+Websites powered by our search interfaces
+
+Haiti Earthquake and Recovery - Miami Herald
+    
+In the news
+
+Helping
+      Haitians find family, February 8, 2010 - University of
+      California, Irvine
+
+      Search
+      Engine Developed to Help Haiti Victims, January 27, 2010 -
+      Donald Bren School of Information and Computer Sciences,
+      University of California, Irvine
+
+      UCI
+      aids hunt for missing Haitians, January 16, 2010 - The
+      Orange County Register
+    
+
+ « Back to homepage
+
+

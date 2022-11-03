@@ -1,0 +1,200 @@
+http://sdcl.ics.uci.edu/research/knocap-2
+
+
+
+
+
+
+	KnoCap – Software Design and Collaboration Laboratory
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SDCL Software Design and Collaboration Laboratory
+
+
+
+
+
+
+KnoCap
+
+Description
+KnoCap is a tool that we are developing to collect important design bits from developers’ conversations during whiteboard design meetings. It is well-known that design meetings involve the generation of a lot of useful  information, not all of which is typically captured, especially since much of that information is spoken and not drawn or otherwise written down.
+KnoCap addresses this problem by relying on lightweight interactions (e.g., button clicks, short voice commands) so that important information can be captured as voice notes.  These voice notes are typically short, capture just what is important, and can be accessed and played back in future design meetings.
+
+Highlights
+Important design bits – KnoCap does not seek to record an entire conversation, but only the important parts, which we term important design bits (IDBs). We use the term IDB to refer to anything that the designers might consider relevant to future meetings (e.g., decisions, alternatives, rationale, assumptions, constraints, stakeholder goals, future to do’s, and more).
+Human-machine partnership – KnoCap does not seek to be entirely automated, as deciding what is important to future meetings is a difficult problem to automate. Instead, KnoCap relies on a human-machine partnership to quickly capture (or retrieve) IDBs.
+Collaborative – Design meetings typically involve multiple participants. Rather than relying only on the person at the whiteboard to capture or retrieve IDBs,  KnoCap offers multiple interfaces (including voice and  mobile) to allow all designers to engage in this important activity.
+Lightweight, unobtrusive capture – It is crucial that designers are interrupted as little as possible when they are designing, as they otherwise would lose their flow. Yet, it is equally important that they have at least some control over what is captured. KnoCap, therefore, is designed with simple, unobtrusive features to capture or retrieve IDBs.
+Key publications
+
+A. Meza Soria and A. van der Hoek, Collecting Design Knowledge through Voice Notes, Twelfth International Workshop on Cooperative and Human Aspects of Software Engineering, May 2019, pages 33–36.
+A. Meza Soria and A. van der Hoek, Toward Collecting and Delivering Knowledge for Software Design at the Whiteboard, Eleventh International Workshop on Cooperative and Human Aspects of Software Engineering, May 2018, pages 108–109.
+
+Current developers
+
+Adriana Meza Soria
+Seunghwan Hong
+SangHoon Kim
+
+Nayoung Lee
+
+Yuqi Huai
+
+Past developers
+
+
+Hyunji Kim
+
+
+Juwin Viray
+
+
+David Garcia
+
+Claudia Mastan
+Niijan Al-Amin
+
+Pang hangzhi
+
+
+Zachary Little
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+Collaborators
+
+Anita Sarma
+David Redmiles
+Marian Petre
+Shinobu Saito
+Thomas LaToza
+
+
+
+
+
+
+
+
+
+
+Home
+Research
+
+Chatbots
+KnoCap
+Past projects
+
+Lighthouse
+CrowdDesign
+Crowd Debugging
+Calico
+CodeExchange
+Code Orb
+Crowd Development
+PorchLight
+
+
+
+
+Papers
+
+Technical reports
+Dissertations
+Books
+
+
+Opportunities
+People
+
+Previous members
+
+
+Sponsors
+Contact
+
+Directions
+
+
+
+
+
+
+
+
+
+
+
+ The Software Design and Collaboration Laboratory is housed in the Department of Informatics in the Donald Bren School of Information and Computer Sciences at the University of California, Irvine.
+
+
+
+
+
+    
+
+
+
+
+
+   
+
+
+
+
+Copyright ©             
+            SDCL |   eDegree° Theme by Top Blog Formula on WordPress |   
+                            Log In
+
+
+
+
+
+

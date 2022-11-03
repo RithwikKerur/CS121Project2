@@ -1,0 +1,242 @@
+https://cml.ics.uci.edu/aiml/page/4
+
+
+
+
+
+AI/ML Seminar Series | Center for Machine Learning and Intelligent Systems | Page 4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+University of California, Irvine
+
+
+Menu
+Skip to content
+Home
+About CML
+
+About us
+News
+Contact Us
+
+
+People
+
+Faculty
+Alumni
+
+
+Events & Seminars
+
+AI/ML Seminar Series
+AI/ML Seminar Live Stream
+CML Distinguished Speakers
+ML Reading Group
+
+
+Education & Resources
+
+Courses
+Books
+
+
+UCI Machine Learning Archive
+Sponsors & Funding
+Subscribe to CML List
+ 
+
+
+
+
+
+
+AI/ML Seminar Series Standard 
+
+Weekly Seminar in AI & Machine LearningSponsored by Cylance
+
+
+
+
+
+
+
+Navigation
+
+‹Earlier
+Spring 2021 Later ›
+
+
+
+Live Stream for all Spring 2021 CML Seminars
+
+
+
+
+March 29
+No Seminar
+
+
+
+April 5th
+No Seminar
+
+
+
+April 12thLive Stream1 pm
+Sanmi KoyejoAssistant ProfessorDepartment of Computer Science  University of Illinois at Urbana-ChampaignYouTube Stream: https://youtu.be/Ehqsp8vRLis  The Measurement and Mismeasurement of Trustworthy MLAcross healthcare, science, and engineering, we increasingly employ machine learning (ML) to automate decision-making that, in turn, affects our lives in profound ways. However, ML can fail, with significant and long-lasting consequences. Reliably measuring such failures is the first step towards building robust and trustworthy learning machines. Consider algorithmic fairness, where widely-deployed fairness metrics can exacerbate group disparities and result in discriminatory outcomes. Moreover, existing metrics are often incompatible. Hence, selecting fairness metrics is an open problem. Measurement is also crucial for robustness, particularly in federated learning with error-prone devices. Here, once again, models constructed using well-accepted robustness metrics can fail. Across ML applications, the dire consequences of mismeasurement are a recurring theme. This talk will outline emerging strategies for addressing the measurement gap in ML and how this impacts trustworthiness.
+
+Bio: Sanmi (Oluwasanmi) Koyejo is an Assistant Professor in the Department of Computer Science at the University of Illinois at Urbana-Champaign. Koyejo’s research interests are in developing the principles and practice of trustworthy machine learning. Additionally, Koyejo focuses on applications to neuroscience and healthcare. Koyejo completed his Ph.D. in Electrical Engineering at the University of Texas at Austin, advised by Joydeep Ghosh, and completed postdoctoral research at Stanford University. His postdoctoral research was primarily with Russell A. Poldrack and Pradeep Ravikumar. Koyejo has been the recipient of several awards, including a best paper award from the conference on uncertainty in artificial intelligence (UAI), a Sloan Fellowship, a Kavli Fellowship, an IJCAI early career spotlight, and a trainee award from the Organization for Human Brain Mapping (OHBM). Koyejo serves on the board of the Black in AI organization.
+
+
+
+April 19thSponsored by the Steckler Center for Responsible, Ethical, and Accessible Technology (CREATE)4 pm(Note change in time)
+Kate CrawfordSenior Principal Researcher, Microsoft Research, New York Distinguished Visiting Fellow at the University of Melbourne Towards an Atlas of AI: A Conversation with Kate Crawford (with Paul Dourish and Geof Bowker, Department of Informatics, UC Irvine)Where do the motivating ideas behind Artificial Intelligence come from and what do they imply? What claims to universality or particularity are made by AI systems? How do the movements of ideas, data, and materials shape the present and likely futures of AI development? Join us for a conversation with social scientist and AI scholar Kate Crawford about the intellectual history and geopolitical contexts of contemporary AI research and practice.
+
+Bio: Kate Crawford is a leading scholar of the social and political implications of artificial intelligence. Over her 20-year career, her work has focused on understanding large-scale data systems, machine learning and AI in the wider contexts of history, politics, labor, and the environment. She is a Research Professor of Communication and STS at USC Annenberg, a Senior Principal Researcher at MSR-NYC, and the inaugural Visiting Chair for AI and Justice at the École Normale Supérieure in Paris, In 2021, she will be the Miegunyah Distinguished Visiting Fellow at the University of Melbourne, and has been appointed an Honorary Professor at the University of Sydney. She previously co-founded the AI Now Institute at New York University. Kate has advised policy makers in the United Nations, the Federal Trade Commission, the European Parliament, and the White House.
+Her academic research has been published in journals such as Nature, New Media & Society, Science, Technology & Human Values and Information, Communication & Society. Beyond academic journals, Kate has also written for The New York Times, The Atlantic, Harpers’ Magazine, among others.
+
+
+
+April 26thLive Stream1 pm
+Yibo YangPhD StudentDepartment of Computer ScienceUniversity of California, IrvineYouTube Stream: https://youtu.be/1lXKUhBTHWc  Exploring the limits of lossy data compression with deep learningProbabilistic machine learning, particularly deep learning, is reshaping the field of data compression. Recent work has established a close connection between lossy data compression and latent variable models such as variational autoencoders (VAEs), and VAEs are now the building blocks of many learning-based lossy compression algorithms that are trained on massive amounts of unlabeled data.  In this talk, I give a brief overview of learned data compression, including the current paradigm of end-to-end lossy compression with VAEs, and present my research that addresses some of its limitations and explores other possibilities of learned data compression.  First, I present algorithmic improvements inspired by variational inference that push the performance limits of VAE-based lossy compression, resulting in a new state-of-the-art performance on image compression. Then, I introduce a new algorithm that compresses the variational posteriors of pre-trained latent variable models, and allows for variable-bitrate lossy compression with a vanilla VAE. Lastly, I discuss ongoing work that explores fundamental bounds on the theoretical performance of lossy compression algorithms, using the tools of stochastic approximation and deep learning.
+
+Bio: Yibo Yang is a PhD student advised by Stephan Mandt in the Computer Science department at UC Irvine. His research interests include probability theory, information theory, and their applications in statistical machine learning.
+
+
+
+May 3rdLive Stream1 pm
+Levi LelisAssistant ProfessorDepartment of Computer ScienceUniversity of AlbertaYouTube Stream: https://youtu.be/76NFMs9pHEE  Policy and Heuristic-Guided Tree Search AlgorithmsIn this talk I will describe two tree search algorithms that use a policy to guide the search. I will start with Levin tree search (LTS), a best-first search algorithm that has guarantees on the number of nodes it needs to expand to solve state-space search problems. These guarantees are based on the quality of the policy it employs. I will then describe Policy-Guided Heuristic Search (PHS), another best-first search algorithm that uses both a policy and a heuristic function to guide the search. PHS also has guarantees on the number of nodes it expands, which are based on the quality of the policy and of the heuristic function employed. I will then present empirical results showing that LTS and PHS compare favorably with A*, Weighted A*, Greedy Best-First Search, and PUCT on a set of single-agent shortest-path problems.
+
+Bio:  
+Levi Lelis is an Assistant Professor at the University of Alberta, Canada, and a Professor on leave from Universidade Federal de Viçosa, Brazil. Levi is interested in heuristic search, machine learning, and program synthesis.
+
+
+
+May 10thLive Stream1 pm
+David Alvarez-MelisPostdoctoral ResearcherMicrosoft Research New EnglandYouTube Stream:  https://youtu.be/52bQ_XUY2DQ  Ideal made real: machine learning with limited data and interpretable outputsAbstract: Success stories in machine learning seem to be ubiquitous, but they tend to be concentrated on ‘ideal’ scenarios where clean labeled data are abundant, evaluation metrics are unambiguous, and operational constraints are rare — if at all existent. But machine learning in practice is rarely so ‘pristine’;  clean data is often scarce, resources are limited, and constraints (e.g., privacy, transparency) abound in most real-life applications. In this talk we will explore how to reconcile these paradigms along two main axes: (i) learning with scarce or heterogeneous data, and (ii) making complex models, such as neural networks, interpretable. 
+
+First, I will present various approaches that I have developed for ‘amplifying’ (e.g, merging, transforming, interpolating) datasets based on the theory of Optimal Transport. Through applications in machine translation, transfer learning, and dataset shaping, I will show that besides enjoying sound theoretical footing, these approaches yield efficient and high-performing algorithms. In the second part of the talk, I will present some of my work on designing methods to extract ‘explanations’ from complex models and on imposing on them some basic formal notions that I argue any interpretability method should satisfy, but which most lack. Finally, I will present a novel framework for interpretable machine learning that takes inspiration from the study of (human) explanation in the social sciences, and whose evaluation through user studies yields insights about the promise (and limitations) of interpretable AI tools. 
+
+Bio:  
+David Alvarez-Melis is a postdoctoral researcher in the Machine Learning and Statistics Group at Microsoft Research, New England. He recently obtained a Ph.D. in computer science from MIT advised by Tommi Jaakkola, and holds B.Sc. and M.S. degrees in mathematics from ITAM and Courant Institute (NYU), respectively. He has previously spent time at IBM Research and is a recipient of CONACYT, Hewlett Packard, and AI2 awards.
+
+
+
+May 17th
+Live Stream1 pm
+
+Megan PetersAssistant ProfessorDepartment of Cognitive SciencesUC IrvineYouTube Stream:  https://youtu.be/i9Cenn0stxE  How do we evaluate our own uncertainty? Uncovering our metacognitive computationsAbstract: TBA
+
+Bio: In March 2020 I joined the UCI Department of Cognitive Sciences.  I’m also a Cooperating Researcher in the Department of Decoded Neurofeedback at Advanced Telecommunications Research Institute International in Kyoto, Japan.  Prior to that, from 2017 I was on the faculty at UC Riverside in the Department of Bioengineering.  I received my Ph.D. in computational cognitive neuroscience (psychology) from UCLA, and then was a postdoc there as well. My research aims to reveal how the brain represents and uses uncertainty, and performs adaptive computations based on noisy, incomplete information. I specifically focus on how these abilities support metacognitive evaluations of the quality of (mostly perceptual) decisions, and how these processes might relate to phenomenology and conscious awareness. I use neuroimaging, computational modeling, machine learning and neural stimulation techniques to study these topics. 
+
+
+
+May 24thLive Stream1 pm
+Jing ZhangAssistant ProfessorDepartment of Computer ScienceUniversity of California, IrvineYouTube Stream:  https://youtu.be/HPPq5Xvlr9c  Effective representation learning to dissect the gene regulatory grammarThe recent advances in sequencing technologies provide unprecedented opportunities to decipher
+the multi-scale gene regulatory grammars at diverse cellular states. Here, we will introduce our
+computational efforts on cell/gene representation learning to extract biologically meaningful
+information from high-dimensional, sparse, and noisy genomic data. First, we proposed a deep
+generative model, named SAILER, to learn the low-dimensional latent cell representations from
+single-cell epigenetic data for accurate cell state characterization. SAILER adopted the
+conventional encoder-decoder framework and imposed additional constraints for biologically
+robust cell embeddings invariant to confounding factors. Then at the network level, we
+developed TopicNet using latent Dirichlet allocation (LDA) to extract latent gene communities
+and quantify regulatory network connectivity changes (network “rewiring”) between diverse cell
+states. We applied our TopicNet model on 13 different cancer types and highlighted gene
+communities that impact patient prognosis in multiple cancer types.
+
+Bio: Dr. Zhang is an Assistant Professor at UCI. Her research interests are in the areas of
+bioinformatics and computational biology. She graduated from USC Electrical Engineering
+under the supervision of Dr. Liang Chen and Dr. C.C Jay Kuo. She completed her postdoc
+training at Yale University in Dr. Mark Gerstein’s lab. During her postdoc, she has developed
+several computational methods to integrate novel high-throughput sequencing assays to decipher
+the gene regulation “grammar”. Her current research focuses on developing computational
+methods to predict the impact of genomic variations on genome function and phenotype at a
+single-cell resolution.
+
+
+
+May 31
+No Seminar (Memorial Day)
+
+
+
+June 7th
+No Seminar (Finals Week)
+
+
+
+
+
+
+April 6, 2021
+AIML
+
+
+
+Posts navigation
+
+‹Older posts
+Newer posts ›
+
+
+
+
+
+ 
+Search
+
+
+
+ 
+
+
+(c) 2015 Center for Machine Learning and Intelligent Systems
+
+WordPress/BonPress
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+http://plrg.ics.uci.edu/publications/210.bib
+@article{key,
+ author = {Brian Demsky and Martin Rinard},
+ title = {Automatic Extraction of Heap Reference Properties in Object-Oriented Programs},
+ journal = {IEEE Transactions on Software Engineering},
+ volume = {35},
+ number = {3},
+ pages = {305--324},
+ month = {May-June},
+ year = {2009}
+}

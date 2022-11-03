@@ -1,0 +1,353 @@
+https://www.ics.uci.edu/~pattis
+
+Richard Pattis Home Page
+
+
+
+
+
+
+Richard E. Pattis
+Professor of Teaching
+
+
+  Department of Computer Science and
+
+  Department of Informatics
+
+  Donald Bren School of Information
+    and Computer Sciences
+
+  University of California, Irvine
+Irvine, CA 92697
+pattis@ics.uci.edu
+Office: 4062 Bren Hall
+Phone: (949) 824-2704
+Fax:     (949) 824-4056
+
+
+
+
+
+
+
+
+Teaching and learning are mirror
+images. This calligraphy appears in
+Inversions,
+a book by Scott Kim,
+who learned to write in this style.
+
+
+
+
+Students accepted to CMU would wear
+this badge when visiting the campus; I
+sometimes wore it too, because I admit
+I'm still a student, learning new things.
+
+
+
+
+
+
+I have put my collection of 
+   Quotations for Learning and Programing
+  on the web.
+I hope to continue expanding(and correcting) it.
+I always welcome feedback (e.g., corrections, misattributions, other
+quotations).
+
+
+
+
+
+I am starting to index, annotate, and put on the web various
+  Education-Related Video Clips.
+
+
+
+
+Here are two websites that I try to read every day; each includes a mix of
+  interesting Computer Science
+articles that I read selectively. If an incoming freshman reads 5 articles
+  per day, they will have read
+almost 7,500 articles by the time they graduate.
+YCombinator (links).
+  
+ACM Tech-News (summary + links).
+
+
+Spring 2022 Teaching Schedule
+
+
+  Information and Computer Sciences (ICS) 33: Intermediate Programming
+   (website under construction for Spring quarter)
+   
+   Final Exam: Wednesday, June 8
+     (Lecture A 1:30pm - 3:30pm; Lecture B 10:30am - 12:30pm)
+  (closed book/closed notes/closed web/closed computer/closed calculator)
+
+
+
+
+  Information and Computer Sciences (ICS) 193: Tutoring in ICS
+  No Final Exam; grade based on attendance and timely submission of Journals
+     (and Final Assignment)
+
+
+My Schedule:I'll be in class (lecture/yellow) and/or will hold office hours (gray) all
+  days, except Thursday.
+
+
+Please note that my office hours are open.
+There is no need to schedule an appointment ahead of time.
+Just drop by.
+And, if we need to meet privately, we can do that too.
+If you want debugging help, please explore the problem
+thoroughly before dropping in, and be ready to report on
+your attempts and failures to solve it when we meet.
+
+
+
+
+
+Time/DayMondayTuesday(Help available in all Labs9am-5pm; not just your Lab)WednesdayThursday(Help available in all Labs9am-5pm; not just your Lab)Friday
+
+
+
+
+12:00-12:30
+  
+  
+ICS 33 Staff MeetingDBH 4013
+  
+  
+
+
+12:30-  1:00
+  
+  
+ICS 33 Staff MeetingDBH 4013
+  
+  
+
+
+  1:00-  1:30
+Lecture A: ICS 33HIB 100
+  
+Lecture A: ICS 33HIB 100
+  
+Lecture A: ICS 33HIB 100
+
+
+  1:30-  2:00
+Lecture A: ICS 33HIB 100
+  
+Lecture A: ICS 33HIB 100
+  
+Lecture A: ICS 33HIB 100
+
+
+  2:00-  2:30
+Lecture B: ICS 33HIB 100
+Office HoursDBH 4062
+Lecture B: ICS 33HIB 100
+  
+Lecture B: ICS 33HIB 100
+
+
+  2:30-  3:00
+Lecture B: ICS 33HIB 100
+Office HoursDBH 4062
+Lecture B: ICS 33HIB 100
+  
+Lecture B: ICS 33HIB 100
+
+
+  3:00-  3:30
+  
+Office HoursDBH 4062
+  
+  
+  
+
+
+  3:30-  4:00
+Office HoursDBH 4062
+Lecture: ICS 193ALP 2200
+Office HoursDBH 4062
+  
+Office HoursDBH 4062
+
+
+  4:00-  4:30
+Office HoursDBH 4062
+Lecture: ICS 193ALP 2200
+Office HoursDBH 4062
+  
+Office HoursDBH 4062
+
+
+  4:30-  5:00
+Office HoursDBH 4062
+Lecture: ICS 193ALP 2200
+Office HoursDBH 4062
+  
+Office HoursDBH 4062
+
+
+
+
+
+
+
+Interesting Snippets
+While developing a manuscript for a textbook on the Ada programming language
+  in the late 1980s, I wrote a chapter on 
+    EBNF
+  and began teaching it on the "first" day of my CS-1 class: primarily as a
+   microcosm of programming, but also as a practical tool for later describing
+   the syntax of Ada.
+These 21 pages (less than 1/4 the size of the original Karel book) discuss
+  the sequence, choice, option, repetition, and recursion control structures
+  (along with "procedural" abstracton via named EBNF rules).
+They explore various methods of proving that tokens satisfy descriptions,
+  that descriptions are equivalent (and how to simplify them), and the
+  difference between syntax and semantics.
+I have continued to use this approach until this day in my CS-1 classes.
+In fact, I have rewritten this EBNF chapter for
+  an introduction to Python course I am teaching.
+
+
+An excerpt from the chapter 
+  
+  "He Fixes Radios by Thinking!" from the book
+  
+"Surely You're Joking, Mr. Feynman!":
+     Adventures of a Curious Character
+  (start at the bottom of page 18: "One day I got a telephone call..." and
+   finish at the bottom of page 20: "...never thought that was possible.")
+Explains why debugging is best accomplished by thinking, not fiddling.
+
+
+A short opinion piece on 
+  
+    Plagiarism from the NY Times.
+
+
+A short opinion piece on 
+  
+    What Straight-A Students Get Wrong from the NY Times.
+I too have run across many students whose goal is to graduate with a 4.0
+  (more at CMU than UCI).
+I hope they fall short of that mark early in their studies, so they can
+  be freed to pursue getting an education, both inside and
+  outside the classroom.
+At every school that I have, taught, I have recommend , but so far been 
+  ignored, that all entering students receive 1 unit of credit for a
+  course called "Getting an Education Sanely".
+Every student would uniformly be assigned a grade of A-; then, pursuit of a
+  4.0 becomes an asymptotic fantasy. 
+
+Genius is a Thing that Happens
+from Jordan Ellenberg's
+  
+  How Not to Be Wrong: The Power of Mathematical Thinking.
+Why Mathematics (and Computer Science) students should not be
+  discouraged by smarter classmates.
+
+Want Kids to Learn Math (or CS): Level with them that it's hard
+from Jordan Ellenberg's Washington Post editorial.
+Admitting these subjects are difficult encourages the most effective learning
+  tool that students have: asking questions.
+
+
+A new cure for
+  
+    Short Bowel Syndrome
+  (Brainstorm to Breakthrough: A Surgical Procedure is Born).
+
+
+Cartoons:
+ If Charles Schultz wrote
+  Karel the Robot
+Arlo and Janis:
+  The hardest teacher
+Doonesbury:
+  Walden's Last B
+
+
+My Favorite Graph: 
+I show this 
+  graph (and its associated article)
+  in my data structures class after discussing general graph theory terminology
+  (up to connected components).
+It is scary and compelling at the same time.
+
+
+De Millo, Lipton, and Perlis:
+  
+Social Processes and Proofs of Theorems and Programs
+Communications of the ACM, May 1979; Volume 22, Number 5, Pages 271-280.
+
+ My 2006 SIGCSE Talk
+
+
+Philosphical Musings
+Doubts are such tiny things.
+A mind with no room for doubts
+must have no room for thoughts either. -R. Pattis
+
+
+
+The following dialog is from the transcript of "Between Time and Timbuktu"
+  (a synthesis of the writings of Kurt Vonnegut).
+For more on Bokononism, from which this passage is inspired, see
+
+  The Books of Bokonon (from the novel "Cat's Cradle").
+
+
+Narrator:
+  In the beginning, G-d created the Earth, and he said, "Let there be
+    mud."
+  And there was mud.
+  And G-d said, "Let Us make living creatures out of mud, so the mud
+    can see what We have done."
+  And G-d created every living creature that now moveth, and one was
+    man.
+  Mud-as-man alone could speak.
+  "What is the purpose of all of this?" man asked politely.
+  "Everything must have a purpose?" asked G-d.
+  "Certainly." said man.
+  "Then I leave it to you to think of one for all of this,"
+    said G-d.
+  And he went away.
+Stony Stevenson:
+  I feel very unimportant compared to you [G-d].
+Voice of Bokonon:
+  The only way you can feel the least bit important
+    is to think of all the mud that didn't even get to sit up and look
+    around.
+Stony Stevenson:
+  I got so much, and most mud got so little.
+
+
+
+
+The following dialog is from Robert Bolt's play "A Man For all Seasons"
+  about the life of Sir Thomas More.
+
+William Roper: So, now you give the Devil the benefit of law!
+Sir Thomas More: Yes! What would you do? Cut a great road through the
+  law to get after the Devil?
+William Roper: Yes, I'd cut down every law in England to do that!
+Sir Thomas More: Oh? And when the last law was down, and the Devil
+     turned 'round on you, where would you hide, Roper, the laws all being flat?
+   This country is planted thick with laws, from coast to coast, Man's laws,
+     not God's!
+   And if you cut them down, and you're just the man to do it, do you really
+     think you could stand upright in the winds that would blow then?
+   Yes, I'd give the Devil benefit of law, for my own safety's sake!
+
+

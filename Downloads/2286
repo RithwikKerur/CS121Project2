@@ -1,0 +1,203 @@
+https://ngs.ics.uci.edu/research/research-papers/computer-vision
+
+
+
+
+
+
+
+
+Computer Vision – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+ 
+
+
+
+    				Computer Vision    			
+
+
+I spent several years addressing different problems in the challenging field of computer vision. I still find this area one of the most exciting and rewarding. Research in computer vision requires borrowing ideas from many fields and using some clever engineering to solve real problems.
+
+R. Jain, D. Militzer and H. Nagel, “Separating a Stationary Form from Nonstationary Scene Components in a Sequence of Real World TV Frames”, Proceedings of IJCAI 77, Cambridge, Massachusetts, 612-618. 1977.
+
+
+[This paper is the first research papers dealing with video understanding using a real video sequence. I did this work at University of Hamburg. Working with Prof. Nagel was very inspiring and educational.]
+
+
+ R. Jain, “Extraction of Motion Information from Peripheral Processes,”IEEE Trans. Pattern Analysis and Machine Intelligence, PAMI-3, 489-503. Sept. 1981.
+
+
+[Analysis of video becomes easier by considering peripheral processes and then using them to select appropriate attentive processes.]
+
+
+S. Haynes and R. Jain, “Low Level Motion Events, Trajectory Discontinuities,” The First Conf. on Artificial Intelligence Applications, 251-256. Dec. 1984.
+
+
+[Events play important role in dynamic vision. In this paper, the concept of events in dynamic vision was introduced and explored for the first time.]
+
+
+T. F. Knoll and R. Jain, “Recognizing Partially Visible Objects Using Feature Indexed Hypothesis,” IEEE J. Robotics and Automation, 2(1), 3-13. 1986.
+
+
+[A promising research approach by identifying distinguishing features and using them for indexing objects. Tom Knoll did not finish his promising research and got distracted to develop Photoshop that obviously changed the world. Who knows what his research could have done to indexing images!]
+
+
+R. Jain, S. Bartlett, and N. O’Brien, “Motion Stereo Using Ego-Motion Complex Logarithmic Mapping,” IEEE Trans. on Pattern Analysis and Machine Intelligence, PAMI-9, 356-369. May 1987.
+
+
+[This is a fascinating research direction inspired by a mapping in human visual system that plays key role in human visual understanding.]
+
+
+I. K. Sethi and R. Jain, “Finding Trajectories of Feature Points in a Monocular Image Sequence,” IEEE Trans. on Pattern Analysis and Machine Intelligence, PAMI-9, 56-73. 1987.
+
+
+[First paper dealing with tracking points and objects in video sequences.]
+
+
+P. Besl and R. Jain, “Segmentation through Variable-Order Surface Fitting,” IEEE Trans. on Pattern Analysis and Machine Intelligence, PAMI-10 (2), 167-192. 1988.
+
+
+[Besl’s research work on segmentation of images was very effective. This paper describes the basic ideas behind that approach. It used many concepts from differential geometry to start grouping points in images and then used data directed surface fitting to accomplish robust segmentation.]
+
+
+Y. Lu and R. Jain, “Behavior of Edges in Scale Space,” IEEE Trans. on Pattern Analysis and Machine Intelligence, 11,337-356. April 1989
+
+
+[A rigorous analysis of the effect of the size of edge detection operator on the localization and detectability of edges in images.]
+
+
+C. P. Jerian and R. Jain, “Polynomial Methods for Structure from Motion,” IEEE Trans. on Pattern Analysis and Machine Intelligence, 12(12), 1150-1166. 1990.
+
+
+[Jerian studied a novel approach for structure from motion that used techniques for solving a large number of equations using automatic tools from emerging computational approaches.]
+
+
+Ravishankar Rao and R. Jain, “The Analysis of Oriented Textures through Phase Portraits,” IEEE Transactions on Pattern Analysis and Machine Intelligence. 14(7), 450-460, 1992.
+
+
+[Ravi Rao adopted a different approach to texture analysis than was common at that time. This approach relies on detailed analysis of shape of patterns in texture rather than relying on global features.]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

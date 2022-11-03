@@ -1,0 +1,165 @@
+http://sli.ics.uci.edu/Classes/2010W-178
+
+
+
+SLI | Classes / CS178: Machine Learning and Data Mining 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Classes /
+CS178: Machine Learning and Data Mining
+
+
+ CLOSED : 2010 OFFERING  
+
+Assignments and Exams:
+
+HW1,Data1/13/10Soln 
+HW2,Data,Script1/22/10Soln 
+HW3,ZIP1/27/10Soln 
+Bonus12/08/10  
+Midterm2/05/10Soln  
+HW4,ZIP2/19/10Soln 
+HW53/01/10Soln 
+HW6,ZIP3/10/10Soln 
+Final3/15/1010:30-12:30  
+  Exam solutions  
+     
+Student Comment Page
+
+Lecture: Donald Bren Hall (DBH) 1423, MWF 10-11am
+Discussion: Donald Bren Hall (DBH) 1423, M 4-5pm
+Instructor: Prof. Alex Ihler, Office Bren Hall 4066
+TA: Oleksii Kuchaiev
+
+Introduction to machine learning and data mining
+How can a machine learn from experience, to become better at a given task?  How can we automatically extract knowledge or make sense of massive quantities of data?  These are the fundamental questions of machine learning.  Machine learning and data mining algorithms use techniques from statistics, optimization, and computer science to create automated systems which can sift through large volumes of data at high speed to make predictions or decisions without human intervention.
+
+Machine learning as a field is now incredibly pervasive, with applications from the web (search, advertisements, and suggestions) to national security, from analyzing biochemical interactions to traffic and emissions to astrophysics.  Perhaps most famously, the $1M Netflix prize stirred up interest in learning algorithms in professionals, students, and hobbyists alike.
+
+This class will familiarize you with a broad cross-section of models and algorithms for machine learning, and prepare you for research or industry application of machine learning techniques. 
+
+Background
+We will assume basic familiarity with the concepts of probability and linear algebra.  Some programming will be required; we will primarily use Matlab, but no prior experience with Matlab will be assumed.
+
+Textbook and Reading
+The primary textbook for the course is Bishop's "Pattern Recognition and Machine Learning", but we will supplement regularly with handouts and online readings.  Other useful textbooks are Duda, Hart & Stork, "Pattern Classification", and Hastie, Tibshirani, and Friedman, "The Elements of Statistical Learning".
+
+Matlab
+Often we will write code for the course using the Matlab environment.  Matlab is accessible through NACS computers at several campus locations (e.g., 
+MSTB-A, 
+MSTB-B,
+and the ICS lab), and if you want a copy for yourself student licenses are fairly inexpensive ($100).  Personally, I do not recommend the open-source Octave program as a replacement, as the syntax is not 100% compatible and may cause problems (for me or you).  
+
+If you are not familiar with Matlab, there are a number of tutorials on the web:
+University of Utah, very short
+CMU / UMichigan tutorial, also short
+University of Florida's tutorial, more complete
+Union College / Cyclismo.Org tutorial, also good
+UMaryland guide, lots of pointers to other tutorials and reference manuals
+You may want to start with one of the very short tutorials, then use the longer ones as a reference during the rest of the term.
+
+
+Interesting stuff for students
+On-going Australian Rules Football ("Footy") predictions at http://www.csse.monash.edu.au/~footy/
+Yahoo's Learning to Rank challenge; closes May 31st with prizes up to $8k and fame throughout the ages, or at least at the next ICML.
+A set of tasks for Plagarism and Vandalism detection
+The yearly UCSD Data Mining Contest
+MLSP Competition on mind reading
+Synthetic Visual Reasoning challenge, part of Pascal's Challenge Series
+ECCV Face Detection workshop
+UAI probabilistic inference competition
+
+
+(Tentative) Syllabus and Schedule
+01 PDF, Lecture : Introduction: what is ML; what problems; data types; tools
+02 PDF, Lecture : Data visualization; probability; histograms; multinomial distributions
+03 PDF, Lecture : Linear regression; SSE; Gradient descent
+04 PDF, Lecture : Linear regression; features; overfitting and complexity
+05 PDF, Lecture : Linear regression; closed form MSE solution; "robust" cost functions
+06 PDF, Lecture : Classification boundaries;
+07 MLK holiday
+08 PDF, Lecture : nearest neighbors classifiers
+09 PDF, Lecture : class-conditional distributions, Bayes optimal decisions, Bayes error rate
+10 PDF, Lecture : HW discussion; Gaussian class-conditional distributions
+11 PDF, Lecture, Notes : Gaussian class-conditional distributions and linear discriminants
+12 PDF, Lecture : Linear classifiers
+13 Class cancelled
+14 Midterm review
+15 Midterm Exam
+16 (Whiteboard) Putting first half in context; what's coming next
+17 PDF, Lecture : Logistic regression, online gradient descent
+18 PDF, Lecture : Neural Networks
+19 Presidents day holiday
+20 PDF, Lecture : Decision trees, CART; (bagging, random forests) : Supplemental reading, 
+21 PDF, Lecture : Ensemble methods: Bagging, random forests, boosting (Reading: PRML 14.1-4) (Supplemental: Viola-Jones face detection via AdaBoost)
+22 PDF, Lecture : Unsupervised learning: clustering, k-means, hierarchical agglomeration (Reading: PRML Ch 9)
+23 PDF, Lecture : Clustering: EM
+24 PDF, Lecture : Latent space methods: PCA
+25 (Whiteboard) : Text representations; naive Bayes and multinomial models; clustering and latent space models
+26 Andrew Moore's slides, Lecture : VC-dimension and structural risk minimization
+27 Andrew Moore's slides; recording failed : Support vector machines and large-margin classifiers
+28 (Whiteboard) : Time series, autoregressive models
+29
+
+Old syllabus under revision...
+14 Multinomial distributions; naive Bayes & text
+15 Feature selection; Decision trees; CART
+16 Ensemble methods: random forests & bagging;  
+17 Ensemble methods: boosting
+19 Clustering: k-means, heirarch agglom;
+20-21 Clustering: EM
+22 PCA, MDS
+23-24 Latent space models; missing data; stochastic gradient ascent
+25-26 LDA
+27-28 Complexity and model selection
+29-30 SVMs, margin classifiers
+
+
+
+
+
+
+ Last modified February 13, 2017, at 02:21 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

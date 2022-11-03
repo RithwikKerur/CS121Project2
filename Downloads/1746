@@ -1,0 +1,1746 @@
+http://www.ics.uci.edu/~ihler/papers/abs.html
+
+
+
+Alexander Ihler: Publication abstracts
+
+
+
+
+
+Alexander Ihler 
+Associate Professor
+Information & Computer Science, UC Irvine
+
+  Bren Hall 4066
+  ph: 949-824-3645
+  fx: 949-824-4056
+  ihler (at) ics.uci.edu /
+  ihler (at) alum.mit.edu
+
+
+
+
+Home 
+Publications 
+Code 
+Recent Classes
+  CS178, ML & Data Mining 
+  ... archive of older offerings 
+
+Group Wiki 
+
+Bio and 
+
+CV 
+
+Personal 
+
+Photos 
+
+
+Piano
+
+
+Abstracts
+Loaded
+  Learning Informative Statistics: A Nonparametric Approach    Fisher, Ihler, Viola  
+  We discuss an information theoretic approach for categorizing and
+  modeling dynamic processes.  The approach can learn a compact and
+  informative statistic which summarizes past states to predict future
+  observations. Furthermore, the uncertainty of the prediction is
+  characterized nonparametrically by a joint density over the learned
+  statistic and present observation. We discuss the application of the
+  technique to both noise driven dynamical systems and random
+  processes sampled from a density which is conditioned on the
+  past. In the first case we show results in which both the dynamics
+  of random walk and the statistics of the driving noise are
+  captured. In the second case we present results in which a
+  summarizing statistic is learned on noisy random telegraph waves
+  with differing dependencies on past states. In both cases the
+  algorithm yields a principled approach for discriminating processes
+  with differing dynamics and/or dependencies. The method is grounded
+  in ideas from information theory and nonparametric statistics.
+
+[ BibTex ] | [ PDF ] | [ PS ] 
+
+  Nonparametric Estimators for Online Signature Authentication    Ihler, Fisher, Willsky  
+We present extensions to our previous work in modelling dynamical processes.
+The approach uses an information theoretic criterion for searching over
+subspaces of the past observations, combined with a nonparametric density
+characterizing its relation to one-step-ahead prediction and uncertainty.
+We use this methodology to model handwriting stroke data, specifically
+signatures, as a dynamical system and show that it is possible to learn
+a model capturing their dynamics for use either in synthesizing realistic
+signatures and in discriminating between signatures and forgeries even
+though no forgeries have been used in constructing the model.
+This novel approach yields promising results even for small training sets.
+
+[ BibTex ] | [ PDF ] | [ PS ] 
+
+  Nonparametric Belief Propagation    Sudderth, Ihler, Freeman, Willsky  
+In applications of graphical models arising in fields such as computer vision,
+  the hidden variables of interest are most naturally specified by continuous,
+  non-Gaussian distributions. However, due to the limitations of existing inference
+  algorithms, it is often necessary to form coarse, discrete approximations to
+  such models. In this paper, we develop a nonparametric belief propagation
+  (NBP) algorithm, which uses stochastic methods to propagate kernel-based approximations
+  to the true continuous messages. Each NBP message update is based on an efficient
+  sampling procedure which can accomodate an extremely broad class of potential
+  functions, allowing easy adaptation to new application areas. We validate our
+  method using comparisons to continuous BP for Gaussian networks, and an application
+  to the stereo vision problem.
+
+[ BibTex ] | [ PDF ] | [ PS ] 
+
+  Hypothesis Testing over Factorizations for Data Association    Ihler, Fisher, Willsky  
+The issue of data association arises frequently in sensor
+networks; whenever multiple sensors and sources are present, it
+may be necessary to determine which observations from different
+sensors correspond to the same target.  In highly uncertain
+environments, one may need to determine this correspondence
+without the benefit of an \emph{a priori} known joint
+signal/sensor model.  This paper examines the data association
+problem as the more general hypothesis test between factorizations
+of a single, learned distribution.  The optimal test between known
+distributions may be decomposed into model-dependent and
+statistical dependence terms, quantifying the cost incurred by
+model estimation from measurements compared to a test between
+known models.  We demonstrate how one might evaluate a two-signal
+association test efficiently using kernel density estimation
+methods to model a wide class of possible distributions, and show
+the resulting algorithm's ability to determine correspondence in
+uncertain conditions through a series of synthetic examples. We
+then describe an extension of this technique to multi-signal
+association which can be used to determine correspondence while
+avoiding the computationally prohibitive task of evaluating all
+hypotheses. Empirical results of the approximate approach are
+presented.
+
+[ BibTex ] | [ PDF ] | [ PS ] 
+
+  Nonparametric Belief Propagation    Sudderth, Ihler, Freeman, Willsky  
+In many applications of graphical models arising in computer vision, the hidden variables of interest
+  are most naturally specified by continuous, non-Gaussian distributions. There exist inference algorithms
+  for discrete approximations to these continuous distributions, but for the high-dimensional variables
+  typically of interest, discrete inference becomes infeasible. Stochastic methods such as particle 
+  filters provide an appealing alternative. However, existing techniques fail to exploit the rich
+  structure of the graphical models describing many vision problems. Drawing on ideas from regularized 
+  particle filters and belief propagation (BP), this paper develops a nonparametric belief propagation
+  (NBP) algorithm applicable to general graphs. Each NBP iteration uses an efficient sampling procedure
+  to update kernel-based approximations to the true, continuous likelihoods. The algorithm can accomodate 
+  an extremely broad class of potential functions, including nonparametric representations. Thus, NBP 
+  extends particle filtering methods to the more general vision problems that graphical models can 
+  describe. We apply the NBP algorithm to infer component interrelationships in a parts-based face model,
+  allowing location and reconstruction of occluded features.
+[ BibTex ] | [ PDF ] | [ PS ] 
+
+  Efficient Multiscale Sampling from Products of Gaussian Mixtures    Ihler, Sudderth, Freeman, Willsky  
+The problem of approximating the product of several Gaussian mixture
+distributions arises in a number of contexts, including the nonparametric
+belief propagation (NBP) inference algorithm and the training of
+product of experts models.
+This paper develops two multiscale algorithms for sampling from a
+product of Gaussian mixtures, and compares their performance to existing
+methods.  The first is a multiscale variant of previously proposed
+Monte Carlo techniques, with comparable
+theoretical guarantees but improved empirical convergence rates.
+The second makes use of approximate kernel density evaluation
+methods to construct a fast approximate sampler, which is
+guaranteed to sample points to within a tunable parameter $\epsilon$
+of their true probability.
+We compare both multiscale samplers on a set of computational examples
+motivated by NBP, demonstrating significant improvements over existing
+methods.
+
+[ BibTex ] | [ PDF ] | [ PS ] 
+
+  Nonparametric Belief Propagation for Self-Calibration in Sensor Networks    Ihler, Fisher, Moses, Willsky  
+Automatic self-calibration of ad-hoc sensor networks is a critical need
+for their use in military or civilian applications.  In general,
+self-calibration involves the combination of absolute location information
+(e.g. GPS) with relative calibration information (e.g. time delay or
+received signal strength between sensors) over regions of the network.
+Furthermore, it is generally desirable to distribute the computational
+burden across the network and minimize the amount of inter-sensor
+communication.  We demonstrate that the information used for sensor
+calibration is fundamentally local with regard to the network topology and
+use this observation to reformulate the problem within a graphical model
+framework.  We then demonstrate the utility of \emph{nonparametric belief
+propagation} (NBP), a recent generalization of particle filtering, for
+both estimating sensor locations and representing location uncertainties.
+NBP has the advantage that it is easily implemented in a distributed
+fashion, admits a wide variety of statistical models, and can represent
+multi-modal uncertainty.  We illustrate the performance of NBP on several
+example networks while comparing to a previously published nonlinear least
+squares method.
+
+[ BibTex ] | [ PDF ] | [ PS ] 
+
+  Nonparametric Belief Propagation for Sensor Network Self-Calibration    Ihler, Fisher, Moses, Willsky  
+Automatic self-calibration of ad-hoc sensor networks is a critical need
+for their use in military or civilian applications.  In general,
+self-calibration involves the combination of absolute location information
+(e.g. GPS) with relative calibration information (e.g. estimated distance
+between sensors) over regions of the network. We formulate the
+self-calibration problem as a graphical model, enabling application of
+nonparametric belief propagation (NBP), a recent generalization of
+particle filtering, for both estimating sensor locations and representing
+location uncertainties. NBP has the advantage that it is easily
+implemented in a distributed fashion, can represent multi-modal
+uncertainty, and admits a wide variety of statistical models.   This last
+point is particularly appealing in that it can be used to provide
+robustness against occasional high-variance (outlier) noise.  We
+illustrate the performance of NBP using Monte Carlo analysis on an example
+network.
+
+[ BibTex ] | [ PDF ] | [ PS ] 
+
+  Communications-Constrained Inference    Ihler, Fisher, Willsky  
+In many applications, particularly power-constrained sensor networks, it is important to
+conserve the amount of data exchanged while maximizing the utility of that data for some
+inference task. Broadly, this tradeoff has two major cost components—the representation’s
+size (in distributed networks, the communications cost) and the error incurred by its use (the
+inference cost).
+    We analyze this tradeoff for a particular problem: communicating a particle-based 
+representation (and more generally, a Gaussian mixture or kernel density estimate). We begin by
+characterizing the exact communication cost of these representations, noting that it is less than
+might be suggested by traditional communications theory due to the invariance of the represen-
+tation to reordering. We describe the optimal, lossless encoder when the generating distribution
+is known, and pose a sub-optimal encoder which still benefits from reordering invariance.
+    However, lossless encoding may not be sufficient. We describe one reasonable measure of
+error for distribution-based messages and its consequences for inference in an acyclic network,
+and propose a novel density approximation method based on KD-tree multiscale representations
+which enables the communications cost and a bound on error to be balanced efficiently. We
+show several empirical examples demonstrating the method’s utility in collaborative, distributed
+signal processing under bandwidth or power constraints.
+
+[ BibTex ] | [ PDF ] 
+
+  Nonparametric Hypothesis Tests for Statistical Dependency    Ihler, Fisher, Willsky  
+Determining the structure of dependencies among a set of variables is a
+common task in many signal and image processing applications, including
+multi-target tracking and computer vision.  In this paper we present an
+information-theoretic, machine learning approach to problems of this type.
+We cast this problem as a hypothesis test between factorizations of
+variables into mutually independent subsets. We show that the likelihood
+ratio can be written as sums of two sets of Kullback-Leibler (KL)
+divergence terms. The first set captures the structure of the statistical
+dependencies within each hypothesis, while the second set measures the
+details of model differences between hypotheses.  We then consider the
+case when the signal prior models are unknown, so that the distributions
+of interest must be estimated directly from data, showing that the second
+set of terms is (asymptotically) negligible and quantifying the loss in
+hypothesis separability when the models are completely unknown.  We
+demonstrate the utility of nonparametric estimation methods for such
+problems, providing a general framework for determining and distinguishing
+between dependency structures in highly uncertain environments.
+Additionally, we develop a machine learning approach for estimating lower
+bounds on KL-divergence and mutual information from samples of
+high-dimensional random variables for which direct density estimation is
+infeasible. We present empirical results in the context of three
+prototypical applications: association of signals generated by sources
+possessing harmonic behavior, scene correspondence using video imagery,
+and detection of coherent behavior among sets of moving objects.
+
+[ BibTex ] | [ PDF ] 
+
+  Message Errors in Belief Propagation    Ihler, Fisher, Willsky  
+Belief propagation (BP) is an increasingly popular method of performing
+approximate inference on arbitrary graphical models.  At times, even
+further approximations are required, whether from quantization or other
+simplified message representations or from stochastic approximation
+methods.  Introducing such errors into the BP message computations has
+the potential to adversely affect the solution obtained.  We analyze this
+effect with respect to a particular measure of message error, and show
+bounds on the accumulation of errors in the system.  This leads both to
+convergence conditions and error bounds in traditional and approximate BP
+message passing. 
+
+[ BibTex ] | [ PDF ] | [ PS ] 
+
+  Estimating Dependency and Significance for High-Dimensional Data    Siracusa, Tieu, Ihler, Fisher, Willsky  
+Understanding the dependency structure of a set of variables is a
+key component in various signal processing applications which involve
+data association. The simple task of detecting whether any
+dependency exists is particularly difficult when models of the data
+are unknown or difficult to characterize because of high-dimensional
+measurements. We review the use of nonparametric tests for characterizing
+dependency and how to carry out these tests with highdimensional
+observations. In addition we present a method to assess
+the significance of the tests.
+
+[ BibTex ] | [ PDF ] 
+
+  Nonparametric Belief Propagation for Sensor Network Self-Calibration    Ihler, Fisher, Moses, Willsky  
+Automatic self-localization is a critical need for the effective use of
+ad-hoc sensor networks in military or civilian applications.  In general,
+self-localization involves the combination of absolute location
+information (\eg GPS) with relative calibration information (\eg distance
+measurements between sensors) over regions of the network. Furthermore, it
+is generally desirable to distribute the computational burden across the
+network and minimize the amount of inter-sensor communication.  We
+demonstrate that the information used for sensor localization is
+fundamentally local with regard to the network topology and use this
+observation to reformulate the problem within a graphical model framework.
+We then present and demonstrate the utility of \emph{nonparametric belief
+propagation} (NBP), a recent generalization of particle filtering, for
+both estimating sensor locations and representing location uncertainties.
+NBP has the advantage that it is easily implemented in a distributed
+fashion, admits a wide variety of statistical models, and can represent
+multi-modal uncertainty. Using simulations of small- to moderately-sized
+sensor networks, we show that NBP may be made robust to outlier
+measurement errors by a simple model augmentation, and that judicious
+message construction can result in better estimates. Furthermore, we
+provide an analysis of NBP's communications requirements, showing that
+typically only a few messages per sensor are required, and that even low
+bit-rate approximations of these messages can have little or no
+performance impact.
+
+[ BibTex ] | [ PDF ] | [ PS ] 
+
+  Loopy Belief Propagation: Convergence and Effects of Message Errors    Ihler, Fisher, Willsky  
+Belief propagation (BP) is an increasingly popular method of performing
+approximate inference on arbitrary graphical models.  At times, even
+further approximations are required, whether due to quantization of the
+messages or model parameters, from other simplified message or model
+representations, or from stochastic approximation methods.  The
+introduction of such errors into the BP message computations has the
+potential to affect the solution obtained adversely.  We analyze the
+effect resulting from message approximation under two particular measures
+of error, and show bounds on the accumulation of errors in the system.
+This analysis leads to convergence conditions for traditional BP message
+passing, and both strict bounds and estimates of the resulting error in
+systems of approximate BP message passing.
+
+[ BibTex ] | [ PDF ] | [ PS ] 
+
+  Particle Filtering Under Communications Constraints    Ihler, Fisher, Willsky  
+Particle filtering is often applied to the problem of object tracking
+under non-Gaussian uncertainty; however, sensor networks frequently
+require that the implementation be local to the region of interest,
+eventually forcing the large, sample-based representation to be moved
+among power-constrained sensors. We consider the problem of successive
+approximation (i.e., lossy compression) of each sample-based density
+estimate, in particular exploring the consequences (both theoretical and
+empirical) of several possible choices of loss function and their
+interpretation in terms of future errors in inference, justifying their
+use for measuring approximations in distributed particle filtering.
+
+[ BibTex ] | [ PDF ] | [ PS ] 
+
+  Gibbs Sampling for (Coupled) Infinite Mixture Models in the Stick Breaking Representation    Porteous, Ihler, Smyth, Welling  
+Nonparametric Bayesian approaches to clustering,
+information retrieval, language modeling
+and object recognition have recently shown great
+promise as a new paradigm for unsupervised data
+analysis. Most contributions have focused on the
+Dirichlet process mixture models or extensions
+thereof for which efficient Gibbs samplers exist.
+In this paper we explore Gibbs samplers for
+infinite complexity mixture models in the stick
+breaking representation. The advantage of this
+representation is improved modeling flexibility.
+For instance, one can design the prior distribution
+over cluster sizes or couple multiple infi-
+nite mixture models (e.g., over time) at the level
+of their parameters (i.e., the dependent Dirichlet
+process model). However, Gibbs samplers for in-
+finite mixture models (as recently introduced in
+the statistics literature) seem to mix poorly over
+cluster labels. Among others issues, this can have
+the adverse effect that labels for the same cluster
+in coupled mixture models are mixed up. We
+introduce additional moves in these samplers to
+improve mixing over cluster labels and to bring
+clusters into correspondence. An application to
+modeling of storm trajectories is used to illustrate
+these ideas.
+
+[ BibTex ] | [ PDF ] 
+
+  Distributed Fusion in Sensor Networks    Cetin, Chen, Fisher, Ihler, Moses, Wainwright, Willsky  
+Distributed inference methods developed for graphical models comprise a principled
+approach for data fusion in sensor networks. The application of these methods, however,
+requires some care due to a number of issues that are particular to sensor networks.
+Chief of among these are the distributed nature of computation and
+deployment coupled with communications bandwidth and energy constraints typical
+of many sensor networks. Additionally, information sharing in a sensor network necessarily
+involves approximation. Traditional measures of distortion are not sufficient to characterize the
+quality of approximation as they do not address in an explicit manner the resulting impact on inference
+which is at the core of many data fusion problems. While both graphical models and a distributed
+sensor network have network structures associated with them, the mapping is not one to one.
+All of these issues complicate the mapping of a particular inference problem to a given sensor network
+structure. Indeed, there may be a variety of mappings with very different characteristics with
+regard to computational complexity and utilization of resources. Nevertheless, it is the case that
+many of the powerful distributed inference methods have a role in information fusion for sensor
+networks. In this article we present an overview of research conducted by the authors that has
+sought to clarify many of the important issues at the intersection
+of these domains. We discuss both theoretical issues and prototypical
+applications in addition to suggesting new lines of reasoning.
+
+[ BibTex ] | [ PDF ] 
+
+  Adaptive Event Detection with Time-Varying Poisson Processes    Ihler, Hutchins, Smyth  
+Time-series of count data are generated in many different contexts, such as web access logging, freeway traffic monitoring, and security logs associated with buildings. Since this data measures the aggregated behavior of individual human beings, it typically exhibits a periodicity in time on a number of scales (daily, weekly,etc.) that reflects the rhythms of the underlying human activity and makes the data appear non-homogeneous. At the same time, the data is often corrupted by a number of bursty periods of unusual behavior such as building events, traffic accidents, and so forth. The data mining problem of finding and extracting these anomalous events is made difficult by both of these elements. In this paper we describe a framework for unsupervised learning in this context, based on a time-varying Poisson process model that can also account for anomalous events. We show how the parameters of this model can be learned from count time series using statistical estimation techniques. We demonstrate the utility of this model on two datasets for which we have partial ground truth in the form of known events, one from freeway traffic data and another from building access data, and show that the model performs significantly better than a non-probabilistic, threshold-based technique. We also describe how the model can be used to investigate different degrees of periodicity in the data, including systematic day-of-week and time-of-day effects, and make inferences about the detected events (e.g., popularity or level of attendance). Our experimental results indicate that the proposed time-varying Poisson model provides a robust and accurate framework for adaptively and autonomously learning how to separate unusual bursty events from traces of normal human activity.
+[ BibTex ] | [ PDF ] | [ PS ] 
+
+  Learning Time-Intensity Profiles of Human Activity Using Nonparametric Bayesian Models    Ihler, Smyth  
+Data sets that characterize human activity over time through collections of timestamped
+events or counts are of increasing interest in application areas as humancomputer
+interaction, video surveillance, and Web data analysis. We propose a
+non-parametric Bayesian framework for modeling collections of such data. In
+particular, we use a Dirichlet process framework for learning a set of intensity
+functions corresponding to different categories, which form a basis set for representing
+individual time-periods (e.g., several days) depending on which categories
+the time-periods are assigned to. This allows the model to learn in a data-driven
+fashion what factors are generating the observations on a particular day, including
+(for example) weekday versus weekend effects or day-specific effects corresponding
+to unique (single-day) occurrences of unusual behavior, sharing information
+where appropriate to obtain improved estimates of the behavior associated
+with each category. Applications to realworld data sets of count data involving
+both vehicles and people are used to illustrate the technique.
+
+[ BibTex ] | [ PDF ] | [ PS ] 
+
+  Graphical Models for Statistical Inference and Data Assimilation    Ihler, Kirshner, Ghil, Robertson, Smyth  
+In data assimilation for a system which evolves in time, one combines past and current observations with a model of the dynamics of the
+system, in order to improve the simulation of the system as well as any future predictions about it. From a statistical point of view, this process can
+be regarded as estimating many random variables which are related both spatially and temporally: given observations of some of these variables,
+typically corresponding to times past, we require estimates of several others, typically corresponding to future times.
+
+Graphical models have emerged as an effective formalism for assisting in these types of inference tasks, particularly for large numbers of
+random variables. Graphical models provide a means of representing dependency structure among the variables, and can provide both intuition
+and efficiency in estimation and other inference computations. We provide an overview and introduction to graphical models, and describe how
+they can be used to represent statistical dependency and how the resulting structure can be used to organize computation. The relation between
+statistical inference using graphical models and optimal sequential estimation algorithms such as Kalman filtering is discussed. We then give
+several additional examples of how graphical models can be applied to climate dynamics, specifically estimation using multi-resolution models of
+large-scale data sets such as satellite imagery, and learning hidden Markov models to capture rainfall patterns in space and time.
+
+[ BibTex ] | [ PDF ] | [ Link ] 
+
+  Accuracy Bounds for Belief Propagation    Ihler  
+The belief propagation algorithm is widely applied to perform
+approximate inference on arbitrary graphical models, in part due to
+its excellent empirical properties and performance. However, little
+is known theoretically about when this algorithm will perform well.
+Using recent analysis of convergence and stability properties in
+belief propagation and new results on approximations in binary
+systems, we derive a bound on the error in BP's estimates for
+pairwise Markov random fields over discrete--valued random variables.
+Our bound is relatively simple to compute, and compares favorably
+with a previous method for bounding the accuracy of
+belief propagation.
+
+[ BibTex ] | [ PDF ] | [ PS ] 
+
+  Modeling Count Data from Multiple Sensors: A Building Occupancy Model    Hutchins, Ihler, Smyth  
+Knowledge of the number of people in a building at a given time is
+crucial for applications such as emergency response.  Sensors can be
+used to gather noisy measurements which when combined, can be used
+to make inferences about the location, movement and density of
+people. In this paper we describe a probabilistic model for
+predicting the occupancy of a building using networks of
+people-counting sensors. This model provides robust predictions
+given typical sensor noise as well as missing and corrupted data
+from malfunctioning sensors.  We experimentally validate the model
+by comparing it to a baseline method using real data from a network
+of optical counting sensors in a campus building.
+
+[ BibTex ] | [ PDF ] | [ PS ] 
+
+  Adaptive Bayesian Inference    Acar, Ihler, Mettu, Sumer  
+  Motivated by stochastic systems in which observed evidence and
+  conditional dependencies between states of the network change over
+  time, and certain quantities of interest (marginal distributions,
+  likelihood estimates etc.) must be updated, we study the problem of
+  \emph{adaptive inference} in tree-structured Bayesian networks.  We
+  describe an algorithm for adaptive inference that handles a broad
+  range of changes to the network and is able to maintain marginal
+  distributions, MAP estimates, and data likelihoods in all expected
+  logarithmic time.  We give an implementation of our algorithm and
+  provide experiments that show that the algorithm can yield up to two
+  orders of magnitude speedups on answering queries and responding to
+  dynamic changes over the sum-product algorithm.
+
+[ BibTex ] | [ PDF ] | [ PS ] 
+
+  Learning to detect events with Markov-modulated Poisson processes    Ihler, Hutchins, Smyth  
+ Time-series of count data occur in many different contexts, including Internet navigation logs, freeway traffic monitoring, and security logs associated with buildings. In this article we describe a framework for detecting anomalous events in such data using an unsupervised learning approach. Normal periodic behavior is modeled via a time-varying Poisson process model, which in turn is modulated by a hidden Markov process that accounts for bursty events. We outline a Bayesian framework for learning the parameters of this model from count time-series. Two large real-world datasets of time-series counts are used as testbeds to validate the approach, consisting of freeway traffic data and logs of people entering and exiting a building. We show that the proposed model is significantly more accurate at detecting known events than a more traditional threshold-based technique. We also describe how the model can be used to investigate different degrees of periodicity in the data, including systematic day-of-week and time-of-day effects, and to make inferences about different aspects of events such as number of vehicles or people involved. The results indicate that the Markov-modulated Poisson framework provides a robust and accurate framework for adaptively and autonomously learning how to separate unusual bursty events from traces of normal human activity.
+
+[ BibTex ] | [ Link ] 
+
+  Adaptive Inference in General Graphical Models    Acar, Ihler, Mettu, Sumer  
+  Many algorithms and applications involve repeatedly solving
+  variations of the same inference problem; for example we may want to
+  introduce new evidence to the model or perform updates to
+  conditional dependencies. The goal of \emph{adaptive inference} is
+  to take advantage of what is preserved in the model and perform
+  inference more rapidly than from scratch.  In this paper, we
+  describe techniques for adaptive inference on general graphs that
+  support marginal computation and updates to the conditional
+  probabilities and dependencies in logarithmic time. We give
+  experimental results for an implementation of our algorithm, and
+  demonstrate its potential performance benefit in the study of
+  protein structure.
+[ BibTex ] | [ PDF ] | [ PS ] 
+
+  Fast Collapsed Gibbs Sampling for Latent Dirichlet Allocation    Porteous, Newman, Ihler, Asuncion, Smyth, Welling  
+In this paper we introduce a novel collapsed Gibbs sampling method for the
+widely used latent Dirichlet allocation (LDA) model. Our
+new method results in significant speedups on real world text
+corpora. Conventional Gibbs sampling schemes for LDA require
+O(K) operations per sample where K is the number of
+topics in the model. Our proposed method draws equivalent
+samples but requires on average significantly less then K operations per sample.
+On real-word corpora FastLDA can be as much as 8
+times faster than the standard collapsed Gibbs sampler for LDA. No approximations are
+necessary, and we show that our fast sampling
+scheme produces exactly the same results as the standard
+(but slower) sampling scheme. Experiments on four real world
+data sets demonstrate speedups for a wide range of
+collection sizes. For the PubMed collection of over 8 million
+documents with a required computation time of 6 CPU months for LDA,
+our speedup of 5.7 can save 5 CPU months of computation.
+
+[ BibTex ] | [ PDF ] 
+
+  Probabilistic Analysis of a Large Scale Urban Traffic Sensor Data Set    Hutchins, Ihler, Smyth  
+Real-world sensor time series are often significantly noisier
+and more difficult to work with than the relatively clean
+data sets that tend to be used as the basis for experiments
+in many research papers. In this paper we report on a large
+case-study involving statistical data mining of over 300 million 
+measurements from 1700 freeway traffic sensors over a
+period of seven months in Southern California. We discuss
+the challenges posed by the wide variety of different sensor
+failures and anomalies present in the data. The volume and
+complexity of the data precludes the use of manual 
+visualization or simple thresholding techniques to identify these
+anomalies. We describe the application of probabilistic 
+modeling and unsupervised learning techniques to this data set
+and illustrate how these approaches can successfully detect
+underlying systematic patterns even in the presence of 
+substantial noise and missing data
+
+[ BibTex ] | [ PDF ] | [ Link ] 
+
+  Particle Belief Propagation    Ihler, McAllester  
+The popularity of particle filtering for inference in Markov chain
+models defined over random variables with very large or continuous
+domains makes it natural to consider sample--based versions of belief
+propagation (BP) for more general (tree--structured or loopy) graphs.
+Already, several such algorithms have been proposed in the
+literature.  However, many questions remain open about the behavior
+of particle--based BP algorithms, and little theory
+has been developed to analyze their performance.
+In this paper, we describe a generic particle belief propagation (PBP)
+algorithm which is closely related to previously proposed methods.
+We prove that this algorithm is consistent, approaching the true BP
+messages as the number of samples grows large.
+We then use concentration bounds to analyze the finite-sample
+behavior and give a convergence rate for the algorithm on
+tree--structured graphs.  Our convergence rate is $O(1/\sqrt{n})$
+where $n$ is the number of samples, independent of the domain size
+of the variables.
+
+[ BibTex ] | [ PDF ] 
+
+  Circadian Clock Genes Contribute to the Regulation of Hair Follicle Cycling    Lin, Kumar, Geyfman, Chudova, Ihler, Smyth, Paus, Takahashi, Andersen  
+The hair follicle renews itself by repeatedly cycling among growth, regression,
+and rest phases. One function of hair follicle cycling is to allow seasonal
+changes in hair growth. Understanding the regulation of hair follicle cycling
+is also of interest because abnormal regulation of hair cycle control genes is
+responsible for several types of human hair growth disorders and skin cancers.
+We report here that Clock and Bmal1 genes,
+which control circadian rhythms, are also important for the regulation of hair
+follicle cycling, a biological process of much longer duration than 24 hours.
+Detailed analysis of skin from mice mutated for central clock genes indicates a
+significant delay in the progression of the hair growth phase. We show that
+clock genes affect the expression of key cell cycle control genes and that
+keratinocytes in a critical compartment of the hair follicles in
+Bmal1 mutant mice are halted in the G1 phase of the cell
+cycle. These findings provide novel insight into circadian control mechanisms
+in modulating the progression of cyclic biological processes on different time
+scales.
+[ BibTex ] | [ PDF ] | [ Link ] 
+
+  Adaptive Updates for MAP Configurations with Applications to Bioinformatics    Acar, Ihler, Mettu, Sumer  
+Many applications involve repeatedly computing the optimal, maximum
+a posteriori (MAP) configuration of a graphical model as the
+model changes, often slowly or incrementally over time, e.g., due to
+input from a user.
+Small changes to the model often require
+updating only a small fraction of the MAP configuration, suggesting
+the possibility of performing updates faster than recomputing from
+scratch.
+In this paper we present an algorithm for efficiently performing such
+updates under arbitrary changes to the model.
+Our algorithm is within a logarithmic factor of the optimal and is
+asymptotically never slower than re-computing from-scratch: if a
+modification to the model requires $m$ updates to the MAP
+configuration of $n$ random variables, then our algorithm requires
+$O(m\log{(n/m)})$ time; re-computing from scratch requires $O(n)$
+time.
+We evaluate the practical effectiveness of our algorithm by
+considering two problems in genomic signal processing, CpG region
+segmentation and protein sidechain packing, where a MAP configuration
+must be repeatedly updated.  Our results show significant speedups
+over recomputing from scratch.
+
+[ BibTex ] | [ PDF ] 
+
+  A Low Density Lattice Decoder via Non-parametric Belief Propagation    Bickson, Ihler, Avissar, Dolev  
+The recent work of Sommer, Feder and Shalvi presented a new family of codes called low density lattice codes (LDLC)
+that can be decoded efficiently and approach the capacity of the AWGN channel. A linear time iterative decoding
+scheme which is based on a message-passing formulation on a factor graph is given.
+
+In the current work we report our theoretical findings regarding the relation between the LDLC decoder and belief propagation. We show that the LDLC decoder is an instance of non-parametric belief propagation and further connect it to the Gaussian belief propagation algorithm. Our new results enable borrowing knowledge from the non-parametric and Gaussian belief propagation domains into the LDLC domain. Specifically, we give more general convergence conditions for convergence of the LDLC decoder (under the same assumptions of the original LDLC convergence analysis). We discuss how to extend the LDLC decoder from Latin square to full rank, non-square matrices. We propose an efficient construction of sparse generator matrix and its matching decoder. We report preliminary experimental results which show our decoder has comparable symbol to error rate compared to the original LDLC decoder.
+[ BibTex ] | [ PDF ] 
+
+  Bounding Sample Errors in Approximate Distributed Latent Dirichlet Allocation    Ihler, Newman  
+Latent Dirichlet allocation (LDA) is a popular algorithm for discovering structure in
+large collections of text or other data.  Although its complexity is linear in the data
+size, its use on increasingly massive collections has created considerable interest in
+parallel implementations.  ``Approximate distributed'' LDA, or AD-LDA,
+approximates the popular collapsed Gibbs sampling algorithm for LDA models while
+running on a distributed architecture.  Although this algorithm often appears to perform well
+in practice, its quality is not well understood or easily assessed.  In this work, we
+provide some theoretical justification of the algorithm, and modify AD-LDA to track an
+error bound on its performance.  Specifically, we upper-bound the probability of making
+a sampling error at each step of the algorithm (compared to an exact, sequential Gibbs sampler),
+given the samples drawn thus far.  We show empirically that our bound is sufficiently tight to give
+a meaningful
+and intuitive measure of approximation error in AD-LDA, allowing the user to understand the
+trade-off between accuracy and efficiency.
+
+[ BibTex ] | [ PDF ] 
+
+  Particle-Based Variational Inference for Continuous Systems    Ihler, Frank, Smyth  
+Since the development of loopy belief propagation, there has been considerable
+work on advancing the state of the art for approximate inference over
+distributions defined on discrete random variables. Improvements include
+guarantees of convergence, approximations that are provably more accurate, and
+bounds on the results of exact inference.  However, extending these methods  to
+continuous-valued systems has lagged behind.  While several methods have been
+developed to use belief propagation on systems with continuous values, recent 
+advances for discrete variables have not as yet been incorporated.
+
+In this context we extend a recently proposed particle-based belief propagation
+algorithm to provide a general framework for adapting discrete message-passing
+algorithms to inference in continuous systems.  The resulting
+algorithms behave similarly to their purely discrete counterparts, extending
+the benefits of these more advanced inference techniques to the continuous
+domain.
+
+[ BibTex ] | [ PDF ] 
+
+  Bayesian detection of non-sinusoidal periodic patterns in circadian expression data    Chudova, Ihler, Lin, Andersen, Smyth  
+Motivation: Cyclical biological processes such as cell division and circadian regulation produce coordinated periodic expression of thousands of genes. Identification of such genes and their expression patterns is a crucial step in discovering underlying regulatory mechanisms. Existing computational methods are biased toward discovering genes that follow sine-wave patterns.
+
+Results: We present an analysis of variance (ANOVA) periodicity detector and its Bayesian extension that can be used to discover periodic transcripts of arbitrary shapes from replicated gene expression profiles. The models are applicable when the profiles are collected at comparable time points for at least two cycles. We provide an empirical Bayes procedure for estimating parameters of the prior distributions and derive closed-form expressions for the posterior probability of periodicity, enabling efficient computation. The model is applied to two datasets profiling circadian regulation in murine liver and skeletal muscle, revealing a substantial number of previously undetected non-sinusoidal periodic transcripts in each. We also apply quantitative real-time PCR to several highly ranked non-sinusoidal transcripts in liver tissue found by the model, providing independent evidence of circadian regulation of these genes.
+
+Availability: MATLAB software for estimating prior distributions and performing inference is available for download from http://www.datalab.uci.edu/resources/periodicity/.
+
+Contact: dchudova@gmail.com
+[ BibTex ] | [ Link ] 
+
+  Estimating Replicate Time-Shifts Using Gaussian Process Regression    Liu, Lin, Anderson, Smyth, Ihler  
+Motivation: Time-course gene expression datasets provide important insights into dynamic aspects of biological processes, such as circadian rhythms, cell cycle and organ development. In a typical microarray time-course experiment, measurements are obtained at each time point from multiple replicate samples. Accurately recovering the gene expression patterns from experimental observations is made challenging by both measurement noise and variation among replicates' rates of development. Prior work on this topic has focused on inference of expression patterns assuming that the replicate times are synchronized. We develop a statistical approach that simultaneously infers both (i) the underlying (hidden) expression profile for each gene, as well as (ii) the biological time for each individual replicate. Our approach is based on Gaussian process regression (GPR) combined with a probabilistic model that accounts for uncertainty about the biological development time of each replicate.
+
+Results: We apply GPR with uncertain measurement times to a microarray dataset of mRNA expression for the hair-growth cycle in mouse back skin, predicting both profile shapes and biological times for each replicate. The predicted time shifts show high consistency with independently obtained morphological estimates of relative development. We also show that the method systematically reduces prediction error on out-of-sample data, significantly reducing the mean squared error in a cross-validation study.
+
+Availability: Matlab code for GPR with uncertain time shifts is available at http://sli.ics.uci.edu/Code/GPRTimeshift/
+
+Contact: ihler@ics.uci.edu
+[ BibTex ] | [ Link ] 
+
+  Learning with Blocks: Composite Likelihood and Contrastive Divergence    Asuncion, Liu, Ihler, Smyth  
+Composite likelihood methods provide a wide spectrum of computationally efficient 
+techniques for statistical tasks such as parameter estimation and model selection.  
+In this paper, we present a formal connection between the optimization of composite 
+likelihoods and the well-known contrastive divergence algorithm. In particular, we 
+show that composite likelihoods can be stochastically optimized by performing a 
+variant of contrastive divergence with random-scan blocked Gibbs sampling. By using 
+higher-order composite likelihoods, our proposed learning framework makes it 
+possible to trade off computation time for increased accuracy. Furthermore, one can 
+choose composite likelihood blocks that match the model's dependence structure, 
+making the optimization of higher-order composite likelihoods computationally 
+efficient.  We empirically analyze the performance of blocked contrastive 
+divergence on various models, including visible Boltzmann machines, conditional 
+random fields, and exponential random graph models, and we demonstrate that using 
+higher-order blocks improves both the accuracy of parameter estimates and the rate 
+of convergence.
+
+[ BibTex ] | [ PDF ] 
+
+  Particle Filtered MCMC-MLE with Connections to Contrastive Divergence    Asuncion, Liu, Ihler, Smyth  
+Learning undirected graphical models such as Markov random fields is an
+important machine learning task with applications in many domains.
+Since it is usually intractable to learn these models exactly, various 
+approximate learning techniques have been developed, such as contrastive 
+divergence (CD) and Markov chain Monte Carlo maximum likelihood estimation 
+(MCMC-MLE).  In this paper, we introduce particle filtered MCMC-MLE, which is 
+a sampling-importance-resampling version of MCMC-MLE with 
+additional MCMC rejuvenation steps.  
+We also describe a unified view of (1) MCMC-MLE, (2) our particle filtering approach,
+and (3) a stochastic approximation procedure known as persistent contrastive
+divergence.  We show how these approaches are related to each other
+and discuss the relative merits of each approach.
+Empirical results on various undirected models demonstrate that 
+the particle filtering technique we propose in this paper
+can significantly outperform MCMC-MLE.  Furthermore, in certain 
+cases, the proposed technique is faster than persistent CD.  
+
+[ BibTex ] | [ PDF ] 
+
+  Covering Trees and Lower Bounds on Quadratic Assignment    Yarkony, Fowlkes, Ihler  
+Many computer vision problems involving feature correspondence among images can
+be formulated as an assignment problem with a quadratic cost function. Such
+problems are computationally infeasible in general but recent advances in
+discrete optimization such as tree-reweighted belief propagation (TRW) 
+often provide high-quality solutions.  In this paper, we improve upon
+these algorithms in two ways.  First, we introduce covering trees, a variant of
+TRW which provide the same bounds on the MAP energy as TRW with far fewer
+variational parameters. Optimization of these parameters can be carried out
+efficiently using either fixed--point iterations (as in TRW) or sub-gradient
+based techniques.  Second, we introduce a new technique that utilizes bipartite
+matching applied to the min-marginals produced with covering trees in order to
+compute a tighter lower-bound for the quadratic assignment problem.  We apply
+this machinery to the problem of finding correspondences with pairwise energy
+functions, and demonstrate the resulting hybrid method outperforms TRW alone
+and a recent related subproblem decomposition algorithm on benchmark image
+correspondence problems.
+
+[ BibTex ] | [ PDF ] 
+
+  Negative Tree-reweighted Belief Propagation    Liu, Ihler  
+We introduce a new class of lower bounds on the log partition function of a
+Markov random field which makes use of a reversed Jensen's inequality.
+In particular, our method approximates the intractable distribution using
+a linear combination of spanning trees with negative weights.  This technique
+is a lower-bound counterpart to the tree-reweighted belief propagation algorithm,
+which uses a convex combination of spanning trees with positive weights to
+provide corresponding upper bounds.  We develop algorithms to optimize and
+tighten the lower bounds over the non-convex set of valid parameter values. 
+Our algorithm generalizes mean field approaches (including na\"ive and 
+structured mean field approximations), which it includes as a limiting case.
+
+[ BibTex ] | [ PDF ] 
+
+  Nonparametric Belief Propagation    Sudderth, Ihler, Isard, Freeman, Willsky  
+Continuous quantities are ubiquitous in models of real-world phenomena,
+but are surprisingly difficult to reason about automatically.  Probabilistic
+graphical models such as Bayesian networks and Markov random fields,
+and algorithms for approximate inference such as belief propagation,
+have proven to be powerful
+tools in a wide range of applications in statistics and artificial intelligence.
+However, applying these methods to models with continuous variables remains
+a challenging task.  In this work we describe an extension of belief propagation
+to continuous variable models, generalizing particle filtering and Gaussian mixture
+filtering techniques for time series to more complex models.  We illustrate the
+power of the resulting nonparametric belief propagation algorithm via two applications:
+kinematic tracking of visual motion and distributed localization in sensor networks.
+
+[ BibTex ] | [ Link ] 
+
+  Understanding Errors in Approximate Distributed Latent Dirichlet Allocation    Ihler, Newman  
+Latent Dirichlet allocation (LDA) is a popular algorithm for discovering semantic structure in
+large collections of text or other data.  Although its complexity is linear in the data
+size, its use on increasingly massive collections has created considerable interest in
+parallel implementations.  ``Approximate distributed'' LDA, or AD-LDA,
+approximates the popular collapsed Gibbs sampling algorithm for LDA models while
+running on a distributed architecture.  Although this algorithm often appears to perform well
+in practice, its quality is not well understood theoretically or easily assessed on new data.  In this work, we
+theoretically justify the approximation, and modify AD-LDA to track an
+error bound on performance.  Specifically, we upper-bound the probability of making
+a sampling error at each step of the algorithm (compared to an exact, sequential Gibbs sampler),
+given the samples drawn thus far.  We show empirically that our bound is sufficiently tight to give
+a meaningful
+and intuitive measure of approximation error in AD-LDA, allowing the user to track the
+trade-off between accuracy and efficiency while executing in parallel.
+
+[ BibTex ] | [ PDF ] | [ Link ] 
+
+  Revisiting MAP Estimation, Message Passing and Perfect Graphs    Foulds, Navaroli, Smyth, Ihler  
+Given a graphical model, one of the most useful queries is to find the most
+likely configuration of its variables.  This task, known as the maximum a
+posteriori (MAP) problem, can be solved efficiently via message passing
+techniques when the graph is a tree, but is NP-hard for general graphs.
+Jebara (2009) shows that the MAP problem can be converted into the
+stable set problem, which can be solved in polynomial time for a broad class of
+graphs known as perfect graphs via a linear programming relaxation technique.
+This is a result of great theoretical interest.  However, the article
+additionally claims that max-product linear programming (MPLP) message passing
+techniques of Globerson & Jaakkola (2007) are also guaranteed to solve these
+problems exactly and efficiently.  We investigate this claim, show that it does
+not hold in general, and attempt to repair it with several alternative message
+passing algorithms.
+
+[ BibTex ] | [ PDF ] 
+
+  Multicore Gibbs Sampling in Dense, Unstructured Graphs    Xu, Ihler  
+Multicore computing is on the rise, but algorithms such as Gibbs sampling are
+fundamentally sequential and may require close consideration to be made
+parallel.  Existing techniques either exploit sparse problem structure or make
+approximations to the algorithm; in this work, we explore an alternative to
+these ideas.  We develop a parallel Gibbs sampling algorithm for shared-memory
+systems that does not require any independence structure among the variables
+yet does not approximate the sampling distributions.  Our method uses a
+look-ahead sampler, which uses bounds to attempt to sample variables before the
+results of other threads are made available.  We demonstrate our algorithm on
+Gibbs sampling in Boltzmann machines and latent Dirichlet allocation (LDA).  We
+show in experiments that our algorithm achieves near linear speed-up in the
+number of cores, is faster than existing exact samplers, and is nearly as fast
+as approximate samplers while maintaining the correct stationary distribution.
+
+[ BibTex ] | [ PDF ] 
+
+  Learning Scale Free Networks by Reweighted L1 regularization    Liu, Ihler  
+Methods for L1-type regularization have been widely used in Gaussian
+graphical model selection tasks to encourage sparse structures. However, often
+we would like to include more structural information than mere sparsity. In
+this work, we focus on learning so-called ``scale-free'' models, a common
+feature that appears in many real-work networks. We replace the L1
+regularization with a power law regularization and  optimize the objective
+function by a sequence of iteratively reweighted L1 regularization
+problems, where the regularization coefficients of nodes with high degree are
+reduced, encouraging the appearance of hubs with high degree. Our method can be
+easily adapted to improve any existing L1-based methods, such as
+graphical lasso, neighborhood selection, and JSRM when the underlying networks
+are believed to be scale free or have dominating hubs. We demonstrate in
+simulation that our method significantly outperforms the a baseline L1
+method at learning scale-free networks and hub networks, and also illustrate
+its behavior on gene expression data. 
+
+[ BibTex ] | [ PDF ] 
+
+  Fault Detection via Nonparametric Belief Propagation    Bickson, Baron, Ihler, Avissar, Dolev  
+We consider the problem of identifying a pattern of faults from a set of noisy
+linear measurements.  Unfortunately,  maximum a posteriori probability
+estimation of the fault pattern is computationally intractable. To solve the
+fault identification problem, we propose a non-parametric belief propagation
+approach.  We show empirically that our belief propagation solver is more
+accurate than recent state-of-the-art algorithms including interior point
+methods and semidefinite programming. Our superior performance is explained by
+the fact that we take into account both the binary nature of the individual
+faults and the sparsity of the fault pattern arising from their rarity.
+[ BibTex ] | [ Link ] 
+
+  Bounding the Partition Function using Holder's Inequality    Liu, Ihler  
+We describe an algorithm for approximate inference in graphical models based on
+H\"older's inequality that provides upper and lower bounds on common summation
+problems such as computing the partition function or probability of evidence
+in a graphical model.
+Our algorithm unifies and extends several existing approaches,
+including variable elimination techniques such as mini-bucket elimination and
+variational methods such tree reweighted belief propagation and
+conditional entropy decomposition.
+We show that our method inherits benefits from each approach
+to provide significantly better bounds on sum-product tasks.
+
+[ BibTex ] | [ PDF ] 
+
+  Fast parallel and adaptive updates for dual-decomposition solvers    Sumer, Acar, Ihler, Mettu  
+  Dual-decomposition (DD) methods are quickly becoming important tools
+  for estimating the minimum energy state of a graphical model.  DD
+  methods decompose a complex model into a collection of simpler
+  subproblems that can be solved exactly (such as trees), that in
+  combination provide upper and lower bounds on the exact solution.
+  Subproblem choice can play a major role:
+  larger subproblems tend to improve the bound more per iteration,
+  while smaller subproblems enable highly parallel solvers and can
+  benefit from re-using past solutions when there are few changes
+  between iterations.
+
+  We propose an algorithm that can balance many of these aspects to
+  speed up convergence.  Our method uses a cluster tree
+  data structure that has been proposed for adaptive exact inference
+  tasks, and we apply it in this paper to dual-decomposition
+  approximate inference.  This approach allows us to process large
+  subproblems to improve the bounds at each iteration, while allowing
+  a high degree of parallelizability and taking advantage of
+  subproblems with sparse updates.
+  For both synthetic inputs and a real-world stereo matching problem,
+  we demonstrate that our algorithm is able to achieve significant
+  improvement in convergence time.
+
+[ BibTex ] | [ PDF ] 
+
+  Tightening MRF relaxations with planar subproblems    Yarkony, Morshed, Ihler, Fowlkes  
+We describe a new technique for computing lower-bounds on the minimum energy
+configuration of a planar Markov Random Field (MRF).  Our method successively
+adds large numbers of constraints and enforces consistency over binary
+projections of the original problem state space.  These constraints are
+represented in terms of subproblems in a dual-decomposition framework that is
+optimized using subgradient techniques.  The complete set of constraints we
+consider enforces cycle consistency over the original graph.  In practice we
+find that the method converges quickly on most problems with the addition of a
+few subproblems and outperforms existing methods for some interesting classes
+of hard potentials.
+
+[ BibTex ] | [ PDF ] 
+
+  Planar cycle covering graphs    Yarkony, Ihler, Fowlkes  
+We describe a new variational lower-bound on the minimum energy configuration
+of a planar binary Markov Random Field (MRF).  Our method is based on adding
+auxiliary nodes to every face of a planar embedding of the graph in order to
+capture the effect of unary potentials.  A ground state of the resulting
+approximation can be computed efficiently by reduction to minimum-weight
+perfect matching. We show that optimization of variational parameters achieves
+the same lower-bound as dual-decomposition into the set of all cycles of the
+original graph.  We demonstrate that our variational optimization converges
+quickly and provides high-quality solutions to hard combinatorial problems
+10-100x faster than competing algorithms that optimize the same bound.
+
+[ BibTex ] | [ PDF ] 
+
+  Variational algorithms for marginal MAP    Liu, Ihler  
+Marginal MAP problems are notoriously difficult tasks for graphical models. We
+derive a general variational framework for solving marginal MAP problems,
+in which we apply analogues of the Bethe, tree-reweighted, and mean field approximations.
+We then derive a ``mixed" message passing algorithm and a convergent
+alternative using CCCP to solve the BP-type approximations.  Theoretically, we
+give conditions under which the decoded solution is a global or local optimum,
+and obtain novel upper bounds on solutions.
+Experimentally we demonstrate that our algorithms outperform related approaches.
+We also show that EM and variational EM comprise
+a special case of our framework.
+
+[ BibTex ] | [ PDF ] 
+
+  Adaptive exact inference in graphical models    Sumer, Acar, Ihler, Mettu  
+Many algorithms and applications involve repeatedly solving
+variations of the same inference problem, for example to introduce
+new evidence to the model or to change conditional dependencies. As
+the model is updated, the goal of \emph{adaptive inference} is to
+take advantage of previously computed quantities to perform
+inference more rapidly than from scratch.  In this paper, we present
+algorithms for adaptive exact inference on general graphs that can
+be used to efficiently compute marginals and update MAP
+configurations under arbitrary changes to the input factor graph and
+its associated elimination tree. After a linear time preprocessing
+step, our approach enables updates to the model and the computation
+of any marginal in time that is logarithmic in the size of the input
+model. Moreover, in contrast to max-product our approach can also be
+used to update MAP configurations in time that is roughly
+proportional to the number of updated entries, rather than the size
+of the input model.  
+To evaluate the practical effectiveness of our
+algorithms, we implement and test them using synthetic data as well as
+for two real-world computational biology applications. Our experiments show that
+adaptive inference can achieve substantial speedups over performing
+complete inference as the model undergoes small changes over time.
+
+[ BibTex ] | [ PDF ] | [ PS ] 
+
+  Mini-bucket elimination with moment matching    Flerova, Ihler, Dechter, Otten  
+We investigate a hybrid of two styles of algorithms for deriving bounds for 
+optimization tasks over graphical models: non-iterative message-passing schemes
+exploiting variable duplication to reduce cluster sizes (e.g. MBE) and iterative
+methods that re-parameterize the problem's functions aiming to produce good
+bounds even if functions are processed independently (e.g. MPLP). In this work
+we combine both ideas, augmenting MBE with re-parameterization, which we call
+MBE with Moment Matching (MBE-MM). The results of preliminary empirical
+evaluations show the clear promise of the hybrid scheme over its individual com-
+ponents (e.g., pure MBE and pure MPLP). Most significantly, we demonstrate the
+potential of the new bounds in improving the power of mechanically generated
+heuristics for branch and bound search.
+
+[ BibTex ] | [ PDF ] 
+
+  Distributed parameter estimation via pseudo-likelihood    Liu, Ihler  
+Estimating statistical models within sensor networks requires distributed
+algorithms, in which both data and computation are distributed across the nodes
+of the network. We propose a general approach for distributed learning based on
+combining local estimators defined by pseudo-likelihood components,
+encompassing a number of combination methods, and provide both theoretical and
+experimental analysis.  We show that simple linear combination or max-voting
+methods, when combined with second-order information, are statistically
+competitive with more advanced and costly joint optimization. Our algorithms
+have many attractive properties including low communication and computational
+cost and "any-time" behavior.
+
+[ BibTex ] | [ PDF ] 
+
+  Approximating the sum operation for marginal-MAP inference    Cheng, Chen, Dong, Xu, Ihler  
+We study the marginal-MAP problem on graphical models, and present a novel
+approximation method based on direct approximation of the sum operation.  A
+primary difficulty of marginal-MAP problems lies in the non-commutativity of
+the sum and max operations, so that even in highly structured models,
+marginalization may produce a densely connected graph over the variables to be
+maximized, resulting in an intractable potential function with exponential
+size.  We propose a chain decomposition approach for summing over the
+marginalized variables, in which we produce a structured approximation to the
+MAP component of the problem consisting of only pairwise potentials.  We show
+that this approach is equivalent to the maximization of a specific variational
+free energy, and it provides an upper bound of the optimal probability.
+Finally, experimental results demonstrate that our method performs favorably
+compared to previous methods.
+
+[ BibTex ] | [ PDF ] 
+
+  Brain and muscle Arnt-like protein-1 (BMAL1) controls circadian cell proliferation and susceptibility to UVB-induced DNA damage in the epidermis    Geyfman et al.  
+The role of the circadian clock in skin and the identity of genes participating
+in its chronobiology remain largely unknown, leading us to define the circadian
+transcriptome of mouse skin at two different stages of the hair cycle, telogen
+and anagen. The circadian transcriptomes of telogen and anagen skin are largely
+distinct, with the former dominated by genes involved in cell proliferation and
+metabolism. The expression of many metabolic genes is antiphasic to cell
+cycle-related genes, the former peaking during the day and the latter at night.
+Consistently, accumulation of reactive oxygen species, a byproduct of oxidative
+phosphorylation, and S-phase are antiphasic to each other in telogen skin.
+Furthermore, the circadian variation in S-phase is controlled by BMAL1
+intrinsic to keratinocytes, because keratinocyte-specific deletion of Bmal1
+obliterates time-of-day–dependent synchronicity of cell division in the
+epidermis leading to a constitutively elevated cell proliferation. In agreement
+with higher cellular susceptibility to UV-induced DNA damage during S-phase, we
+found that mice are most sensitive to UVB-induced DNA damage in the epidermis
+at night. Because in the human epidermis maximum numbers of keratinocytes go
+through S-phase in the late afternoon, we speculate that in humans the
+circadian clock imposes regulation of epidermal cell proliferation so that skin
+is at a particularly vulnerable stage during times of maximum UV exposure, thus
+contributing to the high incidence of human skin cancers. 
+[ BibTex ] | [ Link ] 
+
+  A graphical model representation of the track-oriented multiple hypothesis tracker    Frank, Smyth, Ihler  
+The track-oriented multiple hypothesis tracker is currently the preferred
+method for tracking multiple targets in clutter with medium to high
+computational resources. This method maintains a structured representation of
+the track posterior distribution, which it repeatedly extends and optimizes
+over.  This representation of the posterior admits probabilistic inference
+tasks beyond MAP estimation that have yet to be explored.  To this end we
+formulate the posterior as a graphical model and show that belief propagation
+can be used to approximate the track marginals.  These approximate marginals
+enable an online parameter estimation scheme that improves tracker performance
+in the presence of parameter misspecification.
+
+[ BibTex ] | [ PDF ] 
+
+  Join-graph based cost-shifting schemes    Ihler, Flerova, Dechter, Otten  
+We develop several algorithms taking advantage of two common approaches for
+bounding MPE queries in graphical models: mini-bucket elimination and
+message-passing updates for linear programming relaxations.  Both methods are
+quite similar, and offer useful perspectives for the other; our hybrid
+approaches attempt to balance the advantages of each.  We demonstrate the power
+of our hybrid algorithms through extensive empirical evaluation.  Most notably,
+a Branch and Bound search guided by the heuristic function calculated by one of
+our new algorithms has recently won first place in the PASCAL2 inference
+challenge.
+
+[ BibTex ] | [ PDF ] 
+
+  A cluster-cumulant expansion at the fixed points of belief propagation    Welling, Gelfand, Ihler  
+We introduce a new cluster-cumulant expansion (CCE) based on the fixed points
+of iterative belief propagation (IBP). This expansion is similar in spirit to
+the loop-series (LS) recently introduced in Chertkov and Chernyak (2006). However,
+in contrast to the latter, the CCE enjoys the following important qualities: 1)
+it is defined for arbitrary state spaces 2) it is easily extended to fixed
+points of generalized belief propagation (GBP), 3)  disconnected groups of
+variables will not contribute to the CCE and 4) the accuracy of the expansion
+empirically improves upon that of the LS. The CCE is based on the same
+Mobius transform as the Kikuchi approximation, but unlike GBP does not
+require storing the beliefs of the GBP-clusters nor does it suffer from
+convergence issues during belief updating.
+
+[ BibTex ] | [ PDF ] 
+
+  Belief propagation for structured decision making    Liu, Ihler  
+Variational inference algorithms such as belief propagation have had tremendous
+impact on our ability to learn and use graphical models, and give many insights
+for developing or understanding exact and approximate inference.  However,
+variational approaches have not been widely adoped for decision making
+in graphical models, often formulated through influence diagrams and including
+both centralized and decentralized (or multi-agent) decisions.  In this work,
+we present a general variational framework for solving structured cooperative decision-making
+problems, use it to propose several belief propagation-like algorithms, and
+analyze them both theoretically and empirically.
+
+[ BibTex ] | [ PDF ] 
+
+  Fast planar correlation clustering for image segmentation    Yarkony, Ihler, Fowlkes  
+We describe a new optimization scheme for finding high-quality correlation
+clusterings in planar graphs that uses weighted perfect matching as a
+subroutine. Our method provides lower-bounds on the energy of the optimal
+correlation clustering that are typically fast to compute and tight in
+practice. We demonstrate our algorithm on the problem of image segmentation
+where this approach outperforms existing global optimization techniques in
+minimizing the objective and is competitive with the state of the art in
+producing high-quality segmentations. 
+
+[ BibTex ] | [ PDF ] 
+
+  Variational inference for crowdsourcing    Liu, Peng, Ihler  
+Crowdsourcing has become a popular paradigm for labeling large datasets.
+However, it has given rise to the computational task of aggregating the
+crowdsourced labels provided by a collection of unreliable annotators. We
+approach this problem by transforming it into a standard inference problem in
+graphical models, and applying approximate variational methods, including
+belief propagation (BP) and mean field (MF).  We show that our BP algorithm
+generalizes both majority voting and a recent algorithm by Karger et al.
+(2011), while our MF method is closely related to a commonly used EM algorithm.
+In both case, we find that the performance of the algorithms critically depends
+on the choice of a prior distribution on the workers' reliability; by choosing
+the prior properly, both BP and MF (and EM) perform surprisingly well on both
+simulated and real-world datasets, competitive with state-of-the-art algorithms
+based on more complicated modeling assumptions.
+
+[ BibTex ] | [ PDF ] 
+
+  Winning the PASCAL 2011 MAP Challenge with Enhanced AND/OR Branch-and-Bound    Otten, Ihler, Kask, Dechter  
+This paper describes our entry for the MAP/MPE track of the PASCAL 2011
+Probabilistic Inference Challenge, which placed first in all three time limit 
+categories, 20 seconds, 20 minutes, and 1 hour. Our baseline is a branch-and-bound
+algorithm that explores the AND/OR context-minimal search graph of a graphical
+model guided by a mini-bucket heuristic. Augmented with recent advances that
+convert the algorithm into an anytime scheme, that improve the heuristic power
+via cost-shifting schemes, and using enhanced variable ordering schemes, it 
+constitutes one of the most powerful MAP/MPE inference methods to date.
+
+[ BibTex ] | [ PDF ] 
+
+  Image enhancement in projectors via optical pixel shift and overlay    Sajadi, Qoc-Lai, Ihler, Gopi, Majumder  
+Earlier work has explored enhancing the perceived resolution of a display by
+shifting multiple different low-resolution images by fractions of a pixel and
+overlaying them in a temporally multiplexed fashion. This increases the
+manufacturing cost and also sacrifices the temporal resolution that can
+compromise other capabilities like 3D active stereo. In this paper we propose a
+method to achieve the same goal in projectors by performing the pixel shift and
+superposition optically by introducing a simple and inexpensive optical
+ensemble of a set of lenses on the projector light path. This does not
+sacrifice the temporal resolution and is extremely easy to implement in
+practice.
+
+However, instead of overlaying different images, we overlay an image with one
+or more sub-pixel shifted copies of itself.  Therefore, we seek a single n × n
+image which when shifted and overlaid with itself creates a perceptually closer
+to a higher resolution 2n × 2n target image. This changes the optimization
+formulation significantly and requires solving a system of sparse linear
+equations. We take advantage of this sparsity and design a parallel
+implementation of this optimization in GPUs for real-time computation of the
+input image critical for its practical implementation. But, since this system
+is more constrained that using multiple overlaid images, the enhancement of
+resolution is compromised. However, since the optical design is very simple
+and inexpensive, it can be deployed on a variety of low-cost projectors and
+still offer a significant image quality benefit.
+
+[ BibTex ] | [ PDF ] 
+
+  Variational Algorithms for Marginal MAP    Liu, Ihler  
+The marginal maximum a posteriori probability (MAP) estimation problem, which
+calculates the mode of the marginal posterior distribution of a subset of
+variables with the remaining variables marginalized, is an important inference
+problem in many models, such as those with hidden variables or uncertain
+parameters. Unfortunately, marginal MAP can be NP-hard even on trees, and has
+attracted less attention in the literature compared to the joint MAP
+(maximization) and marginalization problems. We derive a general dual
+representation for marginal MAP that naturally integrates the marginalization
+and maximization operations into a joint variational optimization problem,
+making it possible to easily extend most or all variational-based algorithms to
+marginal MAP. In particular, we derive a set of “mixed-product" message passing
+algorithms for marginal MAP, whose form is a hybrid of max-product, sum-product
+and a novel “argmax-product" message updates. We also derive a class of
+convergent algorithms based on proximal point methods, including one that
+transforms the marginal MAP problem into a sequence of standard marginalization
+problems. Theoretically, we provide guarantees under which our algorithms give
+globally or locally optimal solutions, and provide novel upper bounds on the
+optimal objectives. Empirically, we demonstrate that our algorithms
+significantly outperform the existing approaches, including a state-of-the-art
+algorithm based on local search methods.
+
+[ BibTex ] | [ PDF ] | [ Link ] 
+
+  Linear Approximation to ADMM for MAP inference    Forouzan, Ihler  
+Maximum a posteriori (MAP) inference is one of the fundamental inference tasks
+in graphical models. MAP inference is in general NP-hard, making approximate
+methods of interest for many problems. One successful class of approximate
+inference algorithms is based on linear programming (LP) relaxations. The
+augmented Lagrangian method can be used to overcome a lack of strict convexity
+in LP relaxations, and the Alternating Direction Method of Multipliers (ADMM)
+provides an elegant algorithm for finding the saddle point of the augmented
+Lagrangian. Here we present an ADMM-based algorithm to solve the primal form of
+the MAP-LP whose closed form updates are based on a linear approximation
+technique. Our technique gives efficient, closed form updates that converge to
+the global optimum of the LP relaxation. We compare our algorithm to two
+existing ADMM-based MAP-LP methods, showing that our technique is faster on
+general, non-binary or non-pairwise models.
+[ BibTex ] | [ PDF ] 
+
+  Variational planning for graph-based MDPs    Cheng, Liu, Chen, Ihler  
+Markov Decision Processes (MDPs) are extremely useful for modeling and solving
+sequential decision making problems.  Graph-based MDPs provide a compact
+representation for MDPs with large numbers of random variables.  However, the
+complexity of exactly solving a graph-based MDP usually grows exponentially in
+the number of variables, which limits their application.  We present a new
+variational framework to describe and solve the planning problem of MDPs, and
+derive both exact and approximate planning algorithms.  In particular, by
+exploiting the graph structure of graph-based MDPs, we propose a factored
+variational value iteration algorithm in which the value function is first
+approximated by the multiplication of local-scope value functions, then solved
+by minimizing a Kullback-Leibler (KL) divergence.  The KL divergence is
+optimized using the belief propagation algorithm, with complexity exponential
+in only the cluster size of the graph.  Experimental comparison on different
+models shows that our algorithm outperforms existing approximation algorithms
+at finding good policies.
+
+[ BibTex ] | [ PDF ] 
+
+  Scoring workers in crowdsourcing: How many control questions are enough?    Liu, Steyvers, Ihler  
+We study the problem of estimating continuous quantities, such as prices,
+probabilities, and point spreads, using a crowdsourcing approach.  A
+challenging aspect of combining the crowd's answers is that workers'
+reliabilities and biases are usually unknown and highly diverse.  Control items
+with known answers can be used to evaluate workers' performance, and hence improve
+the combined results on the target items with unknown answers.  This raises the
+problem of how many control items to use when the total number of items each workers can
+answer is limited: more control items evaluates the workers better, but leaves
+fewer resources for the target items that are of direct interest, and vice versa.
+We give theoretical results for this problem under different scenarios, and
+provide a simple rule of thumb for crowdsourcing practitioners.  As a byproduct,
+we also provide theoretical analysis of the accuracy of different
+consensus methods.
+
+[ BibTex ] | [ PDF ] 
+
+  Does better inference mean better learning?    Gelfand, Dechter, Ihler  
+Maximum Likelihood learning of graphical models is not possible in problems
+where inference is intractable. In such settings it is common to use
+approximate inference (e.g. Loopy BP) and maximize the so-called ``surrogate''
+likelihood objective. We examine the effect of using different
+approximate inference methods and, therefore, different surrogate likelihoods,
+on the accuracy of parameter estimation. In particular, we consider
+methods that utilize a control parameter to trade
+computation for accuracy. We demonstrate empirically that cheaper, but worse
+quality approximate inference methods should be used in the small data setting
+as they exhibit smaller variance and are more robust to model mis-specification.
+
+[ BibTex ] | [ PDF ] 
+
+  Feed-forward hierarchical model of the ventral visual stream applied to functional brain image classification    Keator, Fallon, Lakatos, Fowlkes, Potkin, Ihler  
+Functional brain imaging is a common tool in monitoring the progression of
+neurodegenerative and neurological disorders. Identifying functional brain
+imaging derived features that can accurately detect neurological disease is of
+primary importance to the medical community. Research in computer vision
+techniques to identify objects in photographs have reported high accuracies in
+that domain, but their direct applicability to identifying disease in
+functional imaging is still under investigation in the medical community. In
+particular, Serre et al. (2005) introduced a biophysically inspired filtering
+method emulating visual processing in striate cortex which they applied to
+perform object recognition in photographs. In this work, the model described by
+Serre et al. (2005) is extended to three-dimensional volumetric images to
+perform signal detection in functional brain imaging (PET, SPECT). The filter
+outputs are used to train both neural network and logistic regression
+classifiers and tested on two distinct datasets: ADNI Alzheimer’s disease
+2-deoxy-D-glucose (FDG) PET and National Football League players Tc99m HMPAO
+SPECT. The filtering pipeline is analyzed to identify which steps are most
+important for classification accuracy. Our results compare favorably with other
+published classification results and outperform those of a blinded expert human
+rater, suggesting the utility of this approach.
+
+[ BibTex ] | [ Link ] 
+
+  Beyond MAP estimation with the track-oriented multiple-hypothesis tracker    Frank, Smyth, Ihler  
+The track-oriented multiple hypothesis tracker (TOMHT) is a popular algorithm
+for tracking multiple targets in a cluttered environment. In tracking parlance
+it is known as a multi-scan, maximum a posteriori (MAP) estimator – multi-scan
+because it enumerates possible data associations jointly over several scans,
+and MAP because it seeks the most likely data association conditioned on the
+observations. This paper extends the TOMHT, building on its internal
+representation to support probabilistic queries other than MAP estimation.
+Specifically, by summing over the TOMHT's pruned space of data association
+hypotheses one can compute marginal probabilities of individual tracks.  Since
+this summation is generally intractable, any practical implementation must
+replace it with an approximation.  We introduce a factor graph representation
+of the TOMHT’s data association posterior and use variational message-passing
+to approximate track marginals. In an empirical evaluation, we show that
+marginal estimates computed through message-passing compare favorably to those
+computed through explicit summation over the k-best hypotheses, especially as
+the number of possible hypotheses increases. We also show that track marginals
+enable parameter estimation in the TOMHT via a natural extension of the
+expectation maximization algorithm used in single-target tracking. In our
+experiments, online EM updates using approximate marginals significantly
+increased tracker robustness to poor initial parameter specification.
+
+[ BibTex ] | [ Link ] 
+
+  Marginal structured SVM with hidden variables    Ping, Liu, Ihler  
+In this work, we propose the marginal structured SVM (MSSVM) for structured
+prediction with hidden variables. MSSVM properly accounts for the uncertainty
+of hidden variables, and can significantly outperform the previously proposed
+latent structured SVM (LSSVM; Yu & Joachims (2009)) and other state-of-art
+methods,  especially when that uncertainty is large.  Our method also results
+in a smoother objective function, making gradient-based optimization of MSSVMs
+converge significantly faster than for LSSVMs.  We also show that our method
+consistently outperforms hidden conditional random fields (HCRFs; Quattoni et
+al. (2007)) on both simulated and real-world datasets.  Furthermore, we propose
+a unified framework that includes both our and several other existing methods
+as special cases, and provides insights into the comparison of different models
+in practice.
+
+[ BibTex ] | [ PDF ] 
+
+  AND/OR Search for Marginal MAP    Marinescu, Dechter, Ihler  
+Marginal MAP problems are known to be very difficult tasks for graphical models
+and are so far solved exactly by systematic search guided by a join-tree upper
+bound. In this paper, we develop new AND/OR branch and bound algorithms for
+marginal MAP that use heuristics extracted from weighted mini-buckets enhanced
+with message-passing updates. We demonstrate the effectiveness of the resulting
+search algorithms against previous join-tree based approaches, which we also
+extend to apply to high induced width models, through extensive empirical
+evaluations. Our results show not only orders-of-magnitude improvements over
+the state-of-the-art, but also the ability to solve problem instances well
+beyond the reach of previous approaches.
+[ BibTex ] | [ PDF ] 
+
+  Beyond Static Mini-Bucket: Towards Integrating with Iterative Cost-Shifting Based Dynamic Heuristics    Lam, Kask, Dechter, Ihler  
+We explore the use of iterative cost-shifting as a dynamic heuristic
+generator for solving MPE in graphical models via Branch and Bound. When
+mini-bucket elimination is limited by its memory budget, it may not provide
+good heuristics. This can happen often when the graphical model has a
+very high induced width with large variable domain sizes. In addition, we
+explore a hybrid setup where both MBE and the iterative cost-shifting
+bound are used in a combined heuristic. We compare these approaches with
+the most advanced statically generated heuristics.
+
+[ BibTex ] | [ PDF ] 
+
+  Distributed Estimation, Information Loss and Exponential Families    Liu, Ihler  
+Distributed learning of probabilistic models from multiple data repositories
+with minimum communication is increasingly important.  We study a simple
+communication-efficient learning framework that first calculates the local
+maximum likelihood estimates (MLE) based on the data subsets, and then combines
+the local MLEs to achieve the best possible approximation to the global MLE
+given the whole dataset.  We study this framework's statistical properties,
+showing that the efficiency loss compared to the global setting relates to how
+much the underlying distribution families deviate from full exponential
+families, drawing connection to the theory of information loss by Fisher, Rao
+and Efron.  We show that the ``full-exponential-family-ness" represents the
+lower bound of the error rate of arbitrary combinations of local MLEs, and is
+achieved by a KL-divergence-based combination method but not by a more common
+linear combination method.  We also study the empirical properties of both
+methods, showing that the KL method significantly outperforms linear
+combination in practical settings with issues such as model misspecification,
+non-convexity, and heterogeneous data partitions.
+
+[ BibTex ] | [ PDF ] 
+
+  Pushing Forward Marginal MAP with Best-First Search    Marinescu, Dechter, Ihler  
+  Marginal MAP is known to be a difficult task for graphical models,
+  particularly because the evaluation of each MAP assignment involves
+  a conditional likelihood computation. In order to minimize the
+  number of likelihood evaluations, we focus in this paper on
+  best-first search strategies for exploring the space of partial MAP
+  assignments. We analyze the potential relative benefits of several
+  best-first search algorithms and demonstrate their effectiveness
+  against recent branch and bound schemes through extensive empirical
+  evaluations. Our results show that best-first search improves
+  significantly over existing depth-first approaches, in many cases by
+  several orders of magnitude, especially when guided by relatively
+  weak heuristics.
+
+[ BibTex ] | [ PDF ] 
+
+  Boosting Crowdsourcing with Expert Labels: Local vs. Global Effects    Liu, Ihler, Fisher  
+Crowdsourcing provides a cheap but efficient approach for large-scale data and
+information collection. 
+However, human judgments are inherently noisy, ambiguous and sometimes biased,
+and should be calibrated by additional (usually much more expensive) expert or
+true labels. % expert or In this work, we study the optimal allocation of the
+true labels to best calibrate the crowdsourced labels.  We frame the problem as
+a submodular optimization, and propose a greedy allocation strategy that
+exhibits an interesting trade-off between a local effect, which
+encourages acquiring true labels for the most uncertain items, and a global
+effect, which favors the true labels of the most "influential" items,
+whose information can propagate to help the prediction of other items.  We show
+that exploiting and monitoring the global effect yields a significantly better
+selection strategy, and also provides potentially valuable information for
+other tasks such as designing stopping rules.
+
+
+[ BibTex ] | [ PDF ] 
+
+  Incremental Region Selection for Mini-bucket Elimination Bounds    Forouzan, Ihler  
+Region choice is a key issue for many approximate inference bounds.
+Mini-bucket elimination avoids the space and time complexity of exact inference
+by using a top-down partitioning approach that mimics the construction of a
+junction tree and aims to minimize the number of regions subject to a bound on
+their size; however, these methods rarely take into account functions' values.
+In contrast, message passing algorithms often use "cluster pursuit" methods to
+select regions, a bottom-up approach in which a pre-defined set of clusters
+(such as triplets) is scored and incrementally added.  In this work, we develop
+a hybrid approach that balances the advantages of both perspectives, providing
+larger regions chosen in an intelligent, energy-based way.  Our method is
+applicable to bounds on a variety of inference tasks, and we demonstrate its
+power empirically on a broad array of problem types.
+
+[ BibTex ] | [ PDF ] 
+
+  Estimating the Partition Function by Discriminance Sampling    Liu, Peng, Ihler, Fisher  
+Importance sampling (IS) and its variant, annealed IS (AIS) have been widely
+used for estimating the partition function in graphical models, such as Markov
+random fields and deep generative models. However, IS tends to underestimate
+the partition function and is subject to high variance when the proposal
+distribution is more peaked than the target distribution.  On the other hand,
+"reverse" versions of IS and AIS tend to overestimate the partition function,
+and degenerate when the target distribution is more peaked than the proposal
+distribution.  In this work, we present a simple, general method that gives
+much more reliable and robust estimates than either IS (AIS) or reverse IS
+(AIS).  Our method works by converting the estimation problem into a simple
+classification problem that discriminates between the samples drawn from the
+target and the proposal.  We give extensive theoretical and empirical
+justification; in particular, we show that an annealed version of our method
+significantly outperforms both AIS and reverse AIS as proposed by Burda et al.
+(2015), which has been the state-of-the-art for likelihood evaluation in deep
+generative models. 
+
+[ BibTex ] | [ PDF ] 
+
+  Decomposition Bounds for Marginal MAP    Ping, Liu, Ihler  
+Marginal MAP inference involves making MAP predictions in systems defined with latent variables
+or missing information. It is significantly more difficult than pure marginalization and MAP tasks,
+for which a large class of efficient and convergent variational algorithms, such as dual decomposition, exist.
+In this work, we generalize dual decomposition to a generic power sum inference task,
+which includes marginal MAP, along with pure marginalization and MAP, as special cases.
+Our method is based on a block coordinate descent algorithm on a new convex decomposition bound,
+that is guaranteed to converge monotonically, and can be parallelized efficiently.
+We demonstrate our approach on marginal MAP queries defined
+on real-world problems from the UAI approximate
+inference challenge, showing that our framework is faster and more reliable than previous methods.
+
+[ BibTex ] | [ PDF ] 
+
+  Probabilistic Variational Bounds for Graphical Models    Liu, Fisher, Ihler  
+Variational algorithms such as tree-reweighted belief propagation can provide deterministic bounds
+on the partition function, but are often loose and difficult to use in an "any-time"
+fashion, expending more computation for tighter bounds.  On the other hand, Monte Carlo estimators
+such as importance sampling
+have excellent any-time behavior, but depend critically on the proposal distribution.
+We propose a simple Monte Carlo based inference method that augments convex variational bounds
+by adding importance sampling (IS).
+We argue that convex variational methods naturally provide good IS proposals that "cover"
+the target probability,
+and reinterpret the variational optimization as designing a proposal
+to minimize an upper bound on the variance of our IS estimator.
+This both provides an accurate estimator and
+enables construction of any-time probabilistic bounds that improve quickly and directly on state-of-the-art
+variational bounds, and provide certificates of accuracy given enough samples relative to the error in the
+initial bound.
+
+[ BibTex ] | [ PDF ] 
+
+  From Exact to Anytime Solutions for Marginal MAP    Lee, Marinescu, Dechter, Ihler  
+This paper explores the anytime performance of search-based
+algorithms for solving the Marginal MAP task over graphical
+models. The current state-of-the-art for solving this challenging
+task is based on best-first search exploring the AND/OR graph with
+the guidance of heuristics based on mini-bucket and variational
+cost-shifting principles.  Yet, those schemes are uncompromising in
+that they solve the problem exactly, or not at all, and often suffer
+from memory problems. In this work, we explore the well known
+principle of weighted search for converting best-first search
+solvers into anytime schemes.  The weighted best-first search
+schemes report a solution early in the process by using inadmissible
+heuristics, and subsequently improve the solution.  While it was
+demonstrated recently that weighted schemes can yield effective
+anytime behavior for pure MAP tasks, Marginal MAP is far more
+challenging (e.g., a conditional sum must be evaluated for every
+solution). Yet, in an extensive empirical analysis we show that
+weighted schemes are indeed highly effective anytime solvers for Marginal MAP
+yielding the most competitive schemes to date for this task.
+
+[ BibTex ] | [ PDF ] 
+
+  A Deep Neural Network Modeling Framework to Reduce Bias in Satellite Precipitation Products    Tao, Gao, Hsu, Sorooshian, Ihler  
+Despite the advantage of global coverage at high spatiotemporal resolutions, satellite remotely sensed precipitation estimates still suffer from insufficient accuracy that needs to be improved for weather, climate, and hydrologic applications. This paper presents a framework of a deep neural network (DNN) that improves the accuracy of satellite precipitation products, focusing on reducing the bias and false alarms. The state-of-the-art deep learning techniques developed in the area of machine learning specialize in extracting structural information from a massive amount of image data, which fits nicely into the task of retrieving precipitation data from satellite cloud images. Stacked denoising autoencoder (SDAE), a widely used DNN, is applied to perform bias correction of satellite precipitation products. A case study is conducted on the Precipitation Estimation from Remotely Sensed Information Using Artificial Neural Networks Cloud Classification System (PERSIANN-CCS) with spatial resolution of 0.08° × 0.08° over the central United States, where SDAE is used to process satellite cloud imagery to extract information over a window of 15 × 15 pixels. In the study, the summer of 2012 (June–August) and the winter of 2012/13 (December–February) serve as the training periods, while the same seasons of the following year (summer of 2013 and winter of 2013/14) are used for validation purposes. To demonstrate the effectiveness of the methodology outside the study area, three more regions are selected for additional validation. Significant improvements are achieved in both rain/no-rain (R/NR) detection and precipitation rate quantification: the results make 33% and 43% corrections on false alarm pixels and 98% and 78% bias reductions in precipitation rates over the validation periods of the summer and winter seasons, respectively.
+[ BibTex ] | [ Link ] 
+
+  Cell-to-Cell Activity Prediction for Smart Cities    Cici, Alimpertis, Ihler, Markopoulou  
+In this paper, we analyze data from a large mobile
+phone provider in Europe, pertaining to time series of aggregate
+communication volume $A_{i,j}(t) > 0$ between cells $i$ and $j$,
+for all pairs of cells in a city over a month. We develop a
+methodology for predicting the future (in particular whether
+two cells will talk to each other $A_{i,j}(t) > 0$) based on past
+activity. Our data set is sparse, with 80% of the values being
+zero, which makes prediction challenging. We formulate the
+problem as binary classification and, using decision trees and
+random forests, we are able to achieve 85% accuracy. By giving
+higher weight to false positives, which cost more to network
+operators, than false negatives, we improved recall from 40% to
+94%. We briefly outline potential applications of this prediction
+capability to improve network planning, green small cells, and
+understanding urban ecology, all of which can inform policies
+and urban planning.
+[ BibTex ] | [ PDF ] 
+
+  Deep Neural Networks for Precipitation Estimation from Remotely Sensed Information    Tao, Gao, Ihler, Hsu, Sorooshian  
+This paper investigates the application of deep neural networks to
+precipitation estimation from remotely sensed information. Specifically, a
+stacked denoising auto-encoder is used to automatically extract features from
+the infrared cloud images and estimate the amount of precipitation, referred as
+PERSIANN-SDAE. Due to the challenging imbalance in precipitation data, a
+Kullback-Leibler divergence is incorporated in the objective function to
+preserve the distribution of it. PERSIANN-SDAE is compared with a shallow
+neural network with hand designed features and an operational satellite-based
+precipitation estimation product. The experimental results demonstrate the
+effectiveness of PERSIANN-SDAE in estimating precipitation accurately while
+preserving its distribution. It outperforms both the shallow neural network and
+the operational product.
+[ BibTex ] | [ Link ] 
+
+  Learning Infinite RBMs with Frank-Wolfe    Ping, Liu, Ihler  
+In this work, we propose an infinite restricted Boltzmann machine (RBM), whose maximum likelihood estimation (MLE) corresponds to a constrained convex optimization. We consider the Frank-Wolfe algorithm to solve the program, which provides a sparse solution that can be interpreted as inserting a hidden unit at each iteration, so that the optimization process takes the form of a sequence of finite models of increasing complexity. As a side benefit, this can be used to easily and efficiently identify an appropriate number of hidden units during the optimization.  The resulting model can also be used as an initialization for typical state-of-the-art RBM training algorithms such as contrastive divergence, leading to models with consistently higher test likelihood than random initialization.
+[ BibTex ] | [ PDF ] 
+
+  Anytime Best+Depth-First Search for Bounding Marginal MAP    Marinescu, Lee, Dechter, Ihler  
+We introduce new anytime search algorithms that combine
+best-first  with  depth-first  search  into  hybrid  schemes  for
+Marginal MAP inference in graphical models. The main goal
+is to facilitate the generation of upper bounds (via the best-first part) 
+alongside the lower bounds of solutions (via the
+depth-first part) in an anytime fashion. We compare against
+two  of  the  best  current  state-of-the-art  schemes  and  show
+that our best+depth search scheme produces higher quality
+solutions faster while also producing a bound on their accuracy, 
+which can be used to measure solution quality during
+search.  An extensive empirical evaluation demonstrates the
+effectiveness of our new methods which enjoy the strength
+of best-first (optimality of search) and of depth-first (memory
+robustness), leading to solutions for difficult instances where
+previous solvers were unable to find even a single solution.
+[ BibTex ] | [ PDF ] 
+
+  Anytime Anyspace AND/OR Search for Bounding the Partition Function    Lou, Dechter, Ihler  
+Bounding the partition function is a key inference task in
+many graphical models. In this paper, we develop an anytime
+anyspace search algorithm taking advantage of AND/OR tree
+structure and optimized variational heuristics to tighten deterministic 
+bounds on the partition function. We study how our
+priority-driven best-first search scheme can improve on state-of-the-art 
+variational bounds in an anytime way within limited
+memory resources, as well as the effect of the AND/OR framework 
+to exploit conditional independence structure within the
+search process within the context of summation. We compare
+our resulting bounds to a number of existing methods, and
+show that our approach offers a number of advantages on real-world 
+problem instances taken from recent UAI competitions.
+[ BibTex ] | [ PDF ] 
+
+  Belief Propagation in Conditional RBMs for Structured Prediction    Ping, Ihler  
+Restricted Boltzmann machines (RBMs) and conditional RBMs (CRBMs) are popular models for a wide range of applications. In previous work, learning on such models has been dominated by contrastive divergence (CD) and its variants. Belief propagation (BP) algorithms are believed to be slow for structured prediction on conditional RBMs (e.g., Mnih et al. [2011]), and not as good as CD when applied in learning (e.g., Larochelle et al. [2012]). In this work, we present a matrix-based implementation of belief propagation algorithms on CRBMs, which is easily scalable to tens of thousands of visible and hidden units. We demonstrate that, in both maximum likelihood and max-margin learning, training conditional RBMs with BP as the inference routine can provide significantly better results than current state-of-the-art CD methods on structured prediction problems. We also include practical guidelines on training CRBMs with BP, and some insights on the interaction of learning and inference algorithms for CRBMs.
+[ BibTex ] | [ PDF ] 
+
+  Abstraction Sampling in Graphical Models    Dechter, Broka, Kask, Ihler  
+We present a new sampling scheme for approximating hard to compute queries over
+graphical models, such as computing the partition function. The scheme builds
+upon exact algorithms that traverse a weighted directed state-space graph
+representing a global function over a graphical model. With the aid of an
+abstraction function and randomization, the state space can be compacted to
+facilitate tractable computation, yielding a Monte Carlo Estimate that is
+unbiased. 
+[ BibTex ] | [ PDF ] 
+
+  Dynamic importance sampling for anytime bounds of the partition function    Lou, Dechter, Ihler  
+Computing the partition function is a key inference task in many graphical
+models.  In this paper, we propose a dynamic importance sampling scheme that
+provides  anytime finite-sample bounds for the partition function.  Our
+algorithm balances the advantages of the three major inference strategies,
+heuristic search, variational bounds, and Monte Carlo methods, blending
+sampling with search to refine a variationally defined proposal.  Our algorithm
+combines and generalizes recent work on anytime search (Lou et al., 2017) and probabilistic bounds (Liu et al., 2015)
+of the partition function.  By using an intelligently chosen weighted average
+over the samples, we construct an unbiased estimator of the partition function
+with strong finite-sample confidence intervals that inherit both the rapid
+early improvement rate of sampling and the long-term benefits of an improved
+proposal from search.  This gives significantly improved anytime behavior, and
+more flexible trade-offs between memory, time, and solution quality.  We
+demonstrate the effectiveness of our approach empirically on real-world problem
+instances taken from recent UAI competitions.
+
+[ BibTex ] | [ PDF ] 
+
+  Generalized Dual Decomposition for Bounding Maximum Expected Utility of Influence Diagrams with Perfect Recall    Lee, Ihler, Dechter  
+We introduce a generalized dual decomposition bound for computing the maximum
+expected utility of influence diagrams based on the dual decomposition method
+generalized to Lp space. The main goal is to devise an approximation scheme
+free from translations required by existing variational approaches while
+exploiting the local structure of sum of utility functions as well as the
+conditional independence of probability functions. In this work, the
+generalized dual decomposition method is applied to the algebraic framework
+called valuation algebra for influence diagrams which handles probability and
+expected utility as a pair. The proposed approach allows a sequential decision
+problem to be decomposed as a collection of sub-decision problems of bounded
+complexity and the upper bound of maximum expected utility to be computed by
+combining the local expected utilities. Thus, it has a flexible control of
+space and time complexity for computing the bound. In addition, the upper
+bounds can be further minimized by reparameterizing the utility functions.
+Since the global objective function for the minimization is nonconvex, we
+present a gradient based local search algorithm in which the outer loop
+controls the randomization of the initial configurations and the inner loop
+tightens the upper-bound based on block coordinate descent with gradients
+perturbed by a random noise. The experimental evaluation demonstrates
+highlights of the proposed approach on finite horizon MDP/POMDP instances. 
+[ BibTex ] | [ PDF ] 
+
+  Anytime anyspace AND/OR best-first search for bounding marginal MAP    Lou, Dechter, Ihler  
+Marginal MAP is a key task in Bayesian inference and decision-making.  It is
+known to be very difficult in general, particularly because the evaluation of
+each MAP assignment requires solving an internal summation problem.  In this
+paper, we propose a best-first search algorithm that provides anytime upper
+bounds for marginal MAP in graphical models.  It folds the computation of
+external maximization and internal summation into an AND/OR tree search
+framework, and solves them simultaneously using a unified best-first search
+algorithm.  The algorithm avoids some unnecessary computation of summation
+sub-problems associated with MAP assignments, and thus yields significant time
+savings.  Furthermore, our algorithm is able to operate within limited memory.
+Empirical evaluation on three challenging benchmarks demonstrates that our
+unified best-first search algorithm using pre-compiled variational heuristics
+often provides tighter anytime upper bounds compared to those state-of-the-art
+baselines.
+[ BibTex ] | [ PDF ] 
+
+  Lifted Generalized Dual Decomposition    Gallo, Ihler  
+Many real-world problems, such as Markov Logic Networks (MLNs) with evidence,
+can be represented as a highly symmetric graphical model perturbed by
+additional potentials.  In these models, variational inference approaches that
+exploit exact model symmetries are often forced to ground the entire problem,
+while methods that exploit approximate symmetries (such as by constructing an
+over-symmetric approximate model) offer no guarantees on solution quality.  In
+this paper, we present a method based on a lifted variant of the generalized
+dual decomposition (GenDD) for marginal MAP inference which provides a
+principled way to exploit symmetric sub-structures in a graphical model.  We
+develop a coarse-to-fine inference procedure that provides any-time upper
+bounds on the objective.  The upper bound property of GenDD provides a
+principled way to guide the refinement process, providing good any-time
+performance and eventually arriving at the ground optimal solution.
+[ BibTex ] | [ PDF ] 
+
+  A Two-Stage Deep Neural Network Framework for Precipitation Estimation from Bispectral Satellite Information    Tao, Hsu, Ihler, Gao, Sorooshian  
+Compared to ground precipitation measurements, satellite-based precipitation
+estimation products have the advantage of global coverage and high
+spatiotemporal resolutions. However, the accuracy of satellite-based
+precipitation products is still insufficient to serve many weather, climate,
+and hydrologic applications at high resolutions. In this paper, the authors
+develop a state-of-the-art deep learning framework for precipitation estimation
+using bispectral satellite information, infrared (IR), and water vapor (WV)
+channels. Specifically, a two-stage framework for precipitation estimation from
+bispectral information is designed, consisting of an initial rain/no-rain
+(R/NR) binary classification, followed by a second stage estimating the nonzero
+precipitation amount. In the first stage, the model aims to eliminate the large
+fraction of NR pixels and to delineate precipitation regions precisely. In the
+second stage, the model aims to estimate the pointwise precipitation amount
+accurately while preserving its heavily skewed distribution. Stacked denoising
+autoencoders (SDAEs), a commonly used deep learning method, are applied in both
+stages. Performance is evaluated along a number of common performance measures,
+including both R/NR and real-valued precipitation accuracy, and compared with
+an operational product, Precipitation Estimation from Remotely Sensed
+Information Using Artificial Neural Networks–Cloud Classification System
+(PERSIANN-CCS). For R/NR binary classification, the proposed two-stage model
+outperforms PERSIANN-CCS by 32.56\% in the critical success index (CSI). For
+real-valued precipitation estimation, the two-stage model is 23.40\% lower in
+average bias, is 44.52\% lower in average mean squared error, and has a 27.21\%
+higher correlation coefficient. Hence, the two-stage deep learning framework
+has the potential to serve as a more accurate and more reliable satellite-based
+precipitation estimation product. The authors also provide some future
+directions for development of satellite-based precipitation estimation products
+in both incorporating auxiliary information and improving retrieval algorithms. 
+[ BibTex ] | [ Link ] 
+
+  Stochastic Anytime Search for Bounding Marginal MAP    Marinescu, Dechter, Ihler  
+  The Marginal MAP inference task is known to be extremely hard
+  particularly because the evaluation of each complete MAP assignment
+  involves an exact likelihood computation (a combinatorial sum). For
+  this reason, most recent state-of-the-art solvers that focus on
+  computing anytime upper and lower bounds on the optimal value are
+  limited to solving instances with tractable conditioned summation
+  subproblems. In this paper, we develop new search-based bounding
+  schemes for Marginal MAP that produce anytime upper and lower bounds
+  without performing exact likelihood computations. The empirical
+  evaluation demonstrates the effectiveness of our new methods against
+  the current best-performing search-based bounds.
+
+[ BibTex ] | [ PDF ] 
+
+  ContextNet: Deep Learning for Star Galaxy Classification    Noble Kennamer, David Kirkby, Alexander Ihler, Francisco Javier Sanchez-Lopez  
+We present a framework to compose artificial neural networks in cases where the
+data cannot be treated as independent events. Our particular motivation is star
+galaxy classification for ground based optical surveys. Due to a turbulent
+atmosphere and imperfect instruments, a single image of an astronomical object
+is not enough to definitively classify it as a star or galaxy. Instead the
+context of the surrounding objects imaged at the same time need to be
+considered in order to make an optimal classification. The model we present is
+divided into three distinct ANNs: one designed to capture local features about
+each object, the second to compare these features across all objects in an
+image, and the third to make a final prediction for each object based on the
+local and compared features. By exploiting the ability to replicate the weights
+of an ANN, the model can handle an arbitrary and variable number of individual
+objects embedded in a larger exposure. We train and test our model on
+simulations of a large up and coming ground based survey, the Large Synoptic
+Survey Telescope (LSST). We compare to the state of the art approach, showing
+improved overall performance as well as better performance for a specific class
+of objects that is important for the LSST.
+
+[ BibTex ] | [ PDF ] 
+
+  Abstraction Sampling in Graphical Models    Filjor Broka, Rina Dechter, Alexander Ihler, Kalev Kask  
+We present a new sampling scheme for approximating hard to compute
+queries over graphical models, such as computing the partition function.  The
+scheme builds upon exact algorithms  that traverse a weighted directed
+state-space graph representing a global function over a graphical model (e.g.,
+probability distribution).  With the aid of an abstraction function and
+randomization, the state space can be compacted (or trimmed) to facilitate
+tractable computation, yielding a Monte Carlo Estimate that  is unbiased.  We
+present the general scheme  and analyze its properties analytically and
+empirically, investigating two specific ideas for picking abstractions -
+targeting reduction of variance or search space size.
+
+[ BibTex ] | [ PDF ] 
+
+  Join Graph Decomposition Bounds for Influence Diagrams    Junkyu Lee, Alexander Ihler, Rina Dechter  
+We introduce a new decomposition method for bounding the maximum expected
+utility of influence diagrams. While most current schemes use reductions to the
+Marginal Map task over a Bayesian Network, our approach is direct, aiming to
+avoid the large explosion in the model size that  often results by such
+reductions.  In this paper, we extend to influence diagrams the principles of
+decomposition methods that were applied earlier to probabilistic inference,
+utilizing an algebraic framework called valuation algebra which effectively
+captures both multiplicative and additive local structures present in influence
+diagrams.  Empirical evaluation on four benchmarks  demonstrates the
+effectiveness of our approach compared to reduction-based approaches and
+illustrates significant improvements in the upper bounds on maximum expected
+utility. 
+
+[ BibTex ] | [ PDF ] 
+
+  Finite-sample Bounds for Marginal MAP    Qi Lou, Rina Dechter, Alexander Ihler  
+Marginal MAP is a key task in Bayesian inference and decision-making, and known
+to be very challenging in general.  In this paper, we present an algorithm that
+blends heuristic search and importance sampling to provide anytime
+finite-sample bounds for marginal MAP along with predicted MAP solutions.  We
+convert bounding marginal MAP to a surrogate task of bounding a series of
+summation problems of an augmented graphical model, and then adapt dynamic
+importance sampling (Lou et al., 2017) a recent advance in bounding the
+partition function, to provide finite-sample bounds for the surrogate task.
+Those bounds are guaranteed to be tight given enough time, and the values of
+the predicted MAP solutions will converge to the optimum.  Our algorithm runs
+in an anytime/anyspace manner, which gives flexible trade-offs between memory,
+time, and solution quality.  We demonstrate the effectiveness of our approach
+empirically on multiple challenging benchmarks in comparison with some
+state-of-the-art search algorithms.
+
+[ BibTex ] | [ PDF ] 
+
+  Accelerating Dynamic Programs via Nested Benders Decomposition with Application to Multi-Person Pose Estimation    Wang, Ihler, Kording, Yarkony  
+We present a novel approach to solve dynamic programs (DP) with exponential
+state space, which are the foundations to solving many computer vision problems.
+Contrary to typical DP approach which has to enumerate all combinations of
+states of parent node and child node(s) in order to compute the optimal
+message(s) from child node(s), we propose an algorithm that applies Nested
+Benders Decomposition (NBD) to iteratively lower bound the message(s) from child
+node(s). We apply our NBD based DP along with a novel Maximum Weight Set Packing
+(MWSP) formulation of multi-person pose estimation, demonstrating that our
+algorithm is provably optimal at terimiation, while also operates
+in linear time for practical problems, gaining up to 500x speed up over
+traditional DP algorithm which is of polynomial complexity.
+
+[ BibTex ] | [ PDF ] 

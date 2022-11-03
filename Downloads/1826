@@ -1,0 +1,99 @@
+https://sli.ics.uci.edu/PmWiki/Version
+
+
+
+SLI | PmWiki / Version 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+Version
+
+
+
+
+
+
+This wiki installation is running version pmwiki-2.2.93, version number 2002093.
+
+Obtaining the PmWiki version
+Use the {$Version} page variable to display the current version of PmWiki.
+
+See the SiteAdmin.Status page for the current version and version number.
+
+For example
+
+This wiki installation is running PmWiki {$Version}, version number {$VersionNum}.
+-<The default group is {$DefaultGroup}.
+-<The default name is {$DefaultName}.
+-<The site group is {$SiteGroup}
+This wiki installation is running PmWiki pmwiki-2.2.93, version number 2002093.
+The default group is Main.
+The default name is HomePage.
+The site group is Site
+
+
+See also basic variables.
+
+The script version.php  contains the declaration of the version number. The file is located on scripts/version.php, relative to PmWiki installation path.
+
+Obtaining recipe versions
+The Site Analyzer can be used to display the current version of 
+Cookbook recipes.
+
+See also Cookbook:RecipeCheck
+
+
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:Version, and  a talk page: PmWiki:Version-Talk.
+
+
+
+
+
+
+ Last modified August 03, 2014, at 07:29 AM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

@@ -1,0 +1,221 @@
+http://sli.ics.uci.edu/Code/Matlab-Factor
+
+
+
+SLI | Code / Matlab-based table (discrete variable) factor class 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Code /
+Matlab-based table (discrete variable) factor class
+
+
+Overview
+The @factor class gives a useful implementation of table based functions over discrete random variables, used in probability distributions, energy functions, and other graphical models.  Although originally independent and designed with Matlab in mind, it is similar in many ways to its counterpart in the C++ library libDAI.  It supports basic operations common in probabilistic inference, including artihmetic operations, marginalization, optimization, sampling, etc., as well as support for reading and writing some common model formats.  It is also designed to work in Octave, the free alternative to Matlab.
+
+Getting started
+Installation: Simply download and extract the functions to a directory called @factor (the "@" symbol is how Matlab denotes an object class and its member functions).  If you want additional performance, some of the functions can be compiled with Mex, Matlab's shared object format, but this is not required to use the code.
+
+Help: You may find the following basic help functions useful:
+
+ >> methods factor      %list all methods in the factor class  >> Contents(factor)    %list basic help contents, including methods organized by type
+
+Basics
+We can create a basic factor object by specifying its variables and a table of values.  The table size also specifies the cardinality of each variable; here  has three values  and  has two, .  Note that as is common in Matlab, values are 1-based rather than 0-based.
+
+ >> F=factor([1 2], rand(3,2)) 
+ ans (factor class) =
+ Variables: 1 2 
+ Table: 
+    0.1190    0.3404
+    0.4984    0.5853
+    0.9597    0.2238
+
+Variables are stored as unsigned integers (uint32s); you can extract the variables, their dimensions, and the table of values directly if needed:
+
+ >> vars(F),
+ ans =
+           1           2
+
+ >> dims(F),
+ ans =
+     3     2
+
+ >> table(F),
+ ans =
+    0.1190    0.3404
+    0.4984    0.5853
+    0.9597    0.2238
+
+Arithmetic operations
+Basic arithmetic (e.g., plus) is defined to produce a factor equivalent to the operator applied to the argument functions. If both factors have the same variables (arguments), the operation is elementwise; if they have different scopes, the operations produce a new function defined over their joint scope:
+
+ >> F=factor([1], [1;2]),           
+ F (factor class) =
+ Variables: 1 
+ Table: 
+     1
+     2
+
+ >> G=factor([2],[1;3]),
+ G (factor class) =
+ Variables: 2 
+ Table: 
+     1
+     3
+
+ >> F+G
+ ans (factor class) =
+ Variables: 1 2 
+ Table: 
+     2     4
+     3     5
+
+Basic operations are 
+plus (+), minus (-), times (.*), rdivide (./).
+Operators mtimes (*) and mrdivide (/) are the same as times/rdivide, but have different behavior on zeros, so that (a/0=0) for all a; this is useful in many inference contexts.
+
+Simple transformations of the functions are also available:
+exp, power (.^) (scalar elementwise power), log, log2, and log10.
+
+Accessor functions
+Basic information about the factors themselves can be accessed via:
+
+variables(F):get the list of arguments for F
+table(F):get the table of values for F
+nvar(F):number of arguments
+dims(F):dimensions of argument variables
+numel(F):number of elements in the table specification of F
+value(F,tuples):evaluate (find entry of) F for the configurations "tuples" (nTup x nVar)
+  
+isempty(F):false if F has values (constant or otherwise)
+isnan(F):true if any entries of F are NAN
+isfinite(F):false if any entries of F are non-finite
+isscalar:true if F is a constant value (no arguments)
+  
+ind2sub:convert linear index (1..numel) into cell array of subscripts (tuple of state values)
+ind2subv:like ind2sub, but returns subscript as a vector
+subv2ind:convert vector of subscripts to linear index
+
+Inference operations
+The most useful aspect of the factor class is to automate the tedious computations underlying many of the mathematical operators common in probabilistic graphical models.  These include basic variable elimination operators, specifying the variables to be eliminated:
+
+
+
+
+
+
+
+
+
+
+
+ >> sum(F+G, [1]),
+ ans (factor class) =
+ Variables: 2 
+ Table: 
+     5
+     9
+
+
+
+ >> max(F+G, [1]),
+ ans (factor class) =
+ Variables: 2 
+ Table: 
+     3
+     5
+
+
+
+ >> min(F+G, [2]),
+ ans (factor class) =
+ Variables: 1
+ Table: 
+     2
+     3
+
+
+
+ >> logsumexp(F+G, [2]),
+ ans (factor class) =
+ Variables: 1
+ Table: 
+     4.1269
+     5.1269
+
+
+
+
+The closely related functions marginal, maxmarginal, and minmarginal eliminate all variables in the factor except those specified, to produce (unnormalized) marginal functions.
+
+Functions that optimize over or draw samples from a distribution defined by the factor include
+
+
+
+
+
+
+
+
+
+ >> argmax(F+G),
+
+
+
+ >> argmin(F+G, [1]),
+
+
+
+ >> sample(F+G),
+
+
+
+
+
+
+
+
+ Last modified April 18, 2012, at 11:04 AM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

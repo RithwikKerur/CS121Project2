@@ -1,0 +1,116 @@
+https://www.ics.uci.edu/~ics143
+
+
+
+
+
+CompSci 143A
+
+
+
+
+
+
+
+
+
+ 
+CompSci 143A 
+Principles of Operating Systems 
+Spring 2020 
+ 
+Administration 
+- Classes (homepage) 
+- Logistics/Syllabus 
+- Staff 
+Work 
+- Lecture Notes 
+- Reading Assignments 
+- Homework 
+- Discussions 
+
+
+
+
+ 
+
+
+
+
+CompSci 143A Principles of Operating Systems 
+
+
+
+
+Announcements
+
+
+
+
+Announcements will be made via Canvas, which should deliver them to your email address. It is your responsibility to ensure you receive these announcements!
+
+2020-06-07: HW4 Solutions are released. Please submit regrade requests as soon as possible.
+2020-06-04: Sample Final and solutions are out. Sorry for the delay!
+2020-05-31: HW 3 is graded. Regrade requests are due (via Gradescope) in 1 week (Jun 7th) 
+2020-05-28: Homework 4 is released and will be due Friday, June 5, 2020 at 11:59pm on Gradescope.
+2020-05-27: Homework 3 solutions released
+2020-05-15: Homework 3 is released and will be due Monday May 25, 2020 at 11:59pm on Gradescope.
+2020-05-12: HW 2 is graded. Regrade requests are due (via Gradescope) in 1 week (May 19th) 
+2020-05-05: Midterm review slides updated for s2020. Please note that this is not comprehensive. 
+2020-05-04: Homework 2 solutions released
+2020-05-01: Sample midterm and its solution are released
+2020-05-01: HW 2 deadline is extended (May 3rd) and Q6 is optional
+2020-04-28: HW 1 is graded. Regrade requests are due (via Gradescope) in 1 week (May 5th) 
+2020-04-24: Midterm is scheduled to be on May 8th (Week 6 Friday)
+2020-04-22: HW 1's solutions are released.
+2020-04-19: Homework 2 scores for each problem have been adjusted..(nothing changed content-wise) 
+2020-04-17: Homework 2 is released and will be due on May 2 at 11:59pm (two weeks!) For GANTT chart, please use provided image box in the homework2. If that doesnâ€™t work, open MS Word or Google Docs, put your image file and save as a PDF file. Two options for merging PDFs: 1) python script(preferred) 2) Search for online pdf merge service
+pip3 install --user pypdf2 
+python3 merge-pdfs.py hw2.pdf gantt.pdf 
+--> it will create output.pdf
+2020-04-16: "Pop" quiz 1 will be during the last 15 minutes of Monday lecture (April 20). 
+2020-04-15: Homework 1 due date extension; Homework 1 will now be due Sunday April 19, 2020 at 11:59 pm
+2020-04-10: A small error in entering the solution for Question 3b was found and fixed. Image upload version added. 
+2020-04-09: Homework 1 is released and will be due Saturday April 18, 2020 at 11:59pm on Gradescope.
+
+
+
+
+Classes
+
+
+
+
+MWF: 11:00-11:50AM ONLINE via Zoom
+
+
+
+
+Discussion sessions 
+
+
+
+
+Discussion sessions:
+Tu: 5:00-5:50PM ONLINE via Zoom 
+Tu: 7:00-7:50PM ONLINE via Zoom 
+
+For your convenience, here is the Piazza page for the course. 
+
+
+
+
+Office hours 
+
+
+
+
+See staff info page for instructor, assistants, and office hours. 
+(Updated 5.26 with new link): For your convenience, here is the office hours zoom link (for all staff). 
+
+
+
+
+
+
+

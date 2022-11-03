@@ -1,0 +1,244 @@
+https://ngs.ics.uci.edu/extreme-stories-12
+
+
+
+
+
+
+
+
+Extreme Stories: 12 – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Extreme Stories: 12    			
+
+
+In these days of Increasingly Bigger Data, it will become very important to understand the big picture that could be derived from this data.  There are tow related approaches that one could use to provide this big picture:  Summarization and Storytelling.  These two are related, but not the same.  In summarization, the goal is to look at the data that has been collected and prepare a summary of this data to represent all the data meaningfully and in a way that one could explore it.  A commonly used structured representation of the data is the index of the data.  An index presents pointers to important locations in the data; it is just an index. An index does give an idea about what is contained in the data.  Somebody who knows the data commonly prepares this index.  And this is where the strength and limitations of index are.  In these days on increasingly bigger data, expecting somebody to analyze data in every area and indexing it may result in bottleneck for applications of the data.  Also, when a person prepares an index, the knowledge, biases, and perspective of a person result in an index and the index becomes relatively fixed.  
+Summarization of data or text is used to represent the data in a manageable size summary such that the summary captures the essence of data for a specific application context. 
+An automated summarization technique could analyze incoming data and prepare summaries as the data becomes available and could also be tuned for specific applications such that multiple summaries could be developed for different applications using the same data.  In some cases, these summaries may even be used as an index to larger set of data.
+Pinaki SInha (a doctoral student who worked under my supervision) developed a summarization approach and developed an algorithm for a large collection of photos.   Given a large collection of photos, say a few thousand photos, this approach will summarize it by selecting a small number of photos, say between 10 and 20.  This approach considers three important parameters: quality, coverage, and diversity.  Each photo in the original collection is assigned a quality measure.  Then the algorithm uses all meta data available related to photos to cover as many events as possible while selecting maximum diversity among events and represents these by selecting the best representative photo from the event.  This is a very simple description of the approach and does not do justice to all the power of this approach, but that is not what we are trying to do here.
+Summarization algorithms like the one discussed above for photos are required to be designed and developed for large collection of data.  Of course once such summary data is available, then one must consider rendering of this data to make it interesting.
+
+								Tagged on: Index of data, summarization 
+
+
+
+By Ramesh |
+    				March 20, 2012 |
+    				             		Experiential Computing |
+             	 
+    				             		6 Comments |
+             	 		          				
+    			
+
+
+← Extreme Stories: 11
+Extreme Stories:13 →
+
+
+
+			6 thoughts on “Extreme Stories: 12”		
+
+
+
+
+Steve March 29, 2012 at 12:35 pm 
+
+Creating an algorithm to organize and summarize data is definitely an intriguing idea. Although it would create a definite process that would take place regardless of the data set, it is still biased by the programmer that creates it. An algorithm would only do what the programmer would have done anyways (just much quicker).
+I feel like there will always be issues with accurately summarizing data objectively. However, creating specific formulas can help minimize them.
+
+
+
+
+
+
+
+
+TST April 2, 2012 at 4:55 am 
+
+There are continuing needs for more complex summarization algorithms, particularly good example you have there for photos. With most remaining in their digital form nowadays the need to sort and index increases.
+
+
+
+
+
+
+
+
+Cheap Holiday April 5, 2012 at 4:33 am 
+
+I am studying philosophy and I have to read and understand a lot of book and articles. One of our professors has always insisted to develop the ability summarize and now I understand why. It’s really helpful! I hope I will study for the exams more successfully after reading it!
+
+
+
+
+
+
+
+
+Mike April 16, 2012 at 6:23 am 
+
+You have shared some interesting facts about Summary. I think Summary covers the main points of story telling. A good summary can often tell convey the message of the whole story.
+
+
+
+
+
+
+
+
+Manuel Neuer June 24, 2012 at 4:23 am 
+
+I am studying philosophy and I have to read and understand a lot of book and articles. One of our professors has always insisted to develop the ability summarize and now I understand why. Itâ€™s really helpful! I hope I will study for the exams more successfully after reading it!
+
+
+
+
+
+
+
+
+anthony pietersen February 26, 2013 at 1:19 am 
+
+the important perspective is always that what you learn through perception….. from one article several different summaries can be deduce but the summary which is near to the real is appreciated more cheers for sharing your wonderful thoughts
+
+
+
+
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

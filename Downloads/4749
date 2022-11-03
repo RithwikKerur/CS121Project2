@@ -1,0 +1,90 @@
+http://www.ics.uci.edu/~shantas/projects.html
+
+
+
+Shantanu Sharma - Publications
+
+
+
+
+
+
+
+
+
+ Shantanu Sharma
+
+					Postdoc, Computer Science 
+					University of California, Irvine, USA.
+			    
+
+
+Home
+Hiring
+Publications
+Teaching
+Info
+Tutorials
+Projects
+Highlights
+Pics
+
+Others 
+
+Narratives
+Software
+Links
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Projects
+
+
+
+TIPPERS: Testbed for IoT-based Privacy-Preserving PERvasive Spaces at UC Irvine, USA (2016-present) 
+
+Funding agency: DARPA
+                
+Role: Post-Doc
+                
+                TIPPERS is a system that manages IoT smart spaces by collecting 
+                sensor data, inferring semantically meaningful information from it, and 
+                offering such inferences to developers to create smart applications.
+                
+Sensor data collection, processing, and sharing leads to potential violations of people's privacy given the 
+sensitivity of the data and the inferences that can be extracted from it.
+TIPPERS integrates different privacy enhancing technologies, such as policy-based access control and secure computing, 
+to deal with privacy issues in IoT data management.        
+                    
+
+
+WWH: World Wide Herd at 
+                    Ben-Gurion University, Israel (2015-2016) 
+
+Funding agency: Dell EMC
+                
+Role: PhD Student
+                
+                WWH is a system that extends the standard Apache Hadoop for executing applications at different locations in the world, 
+                by running one instance of Hadoop at each, but under an umbrela.
+                WWH pushes computations as much as possible to local sides before computing the final answer at a global side, which receives partial results from different sides.
+                Data collection and sharing from different sides bring the challenge of data security and privacy.  
+                
+                
+
+
+

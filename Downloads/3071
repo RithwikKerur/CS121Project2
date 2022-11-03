@@ -1,0 +1,174 @@
+https://ngs.ics.uci.edu/searching-sportscasts
+
+
+
+
+
+
+
+
+Searching Sportscasts – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Searching Sportscasts    			
+
+
+Technology Review reports a project to search sports video.Â Â  The articles starts by saying:
+A new kind of visual-search engine has been developed to automatically scour sports footage for clips showing specific types of action and events. According to its creators, borrowing a few tricks from the field of machine translation seems to make all the difference in improving the accuracy of video search.
+Reading the article it is clear that the project is more on visual search than on ‘searching sportscasts’.Â  These two — visual search of sports and searching sportscasts are not the same.Â  Most researchers in visual search are interested in seeing the limits of using only visual data and reluctantly use any other data.Â  And this project appears to be similar.Â 
+Â Giving precise figures on the accuracy of the system is difficult because there is no standard for judging. Even so, trials carried out by Fleischman and Roy involving searching six baseball games for occurrences of home runs showed promise. Using just visual search alone yielded poor results, as was the case using just speech. “However, when you combine the two sources of information, we have seen results that nearly double the performance of either one on their own,” says Fleischman.
+If we change the goal and consider that searching sportscasts is the goal then we start considering how to detect events and activities in the game using all sources of information, including video, not centered around video.Â  Interestingly, once you do that, you could also show appropriate video as if it is obtained using visual search.Â 
+About 8 years ago such a system was developed for Football (the US kind) and was used by 25 universities.Â  It tabulated all events in the game and showed video corresponding to everyevent and all this was done completely automatically.Â  This system was commercially launched by Praja (a San Diego company) and was used for two years before for business reasons (too early, no availability of high bandwith) it was discontinued.
+Search people (including Web search) have recognized the importance of using all relevant sources of information to solve search.Â  Since Visual data is so difficult to analyze, one must consider all potential sources for solving this.Â  Unfortunately this has not come in the academic culture leading to extremely slow progress.
+Â 
+
+
+
+By Ramesh |
+    				June 23, 2007 |
+    				             		Technical Thoughts |
+             	 
+    				             		No Comments |
+             	 		          				
+    			
+
+
+← Offline Social Networks
+User Generated Stock Photos →
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

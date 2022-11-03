@@ -1,0 +1,464 @@
+https://www.informatics.uci.edu/professor-crista-lopes-immerses-students-in-a-virtual-world-for-ics-10-how-computers-work
+
+
+
+
+
+
+
+
+
+Professor Crista Lopes Immerses Students in a Virtual World for ICS 10: How Computers Work | Informatics @ the University of California, Irvine
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+People
+Contact
+Site Map
+News
+
+
+
+
+Search for:
+
+
+
+ 
+
+
+
+
+
+Menu
+Skip to content
+Explore
+
+
+Chair’s Welcome
+Faculty Profiles
+Books We Read
+History of the Department
+Seminar Series
+Blogs We Author
+Department Vision
+Books We Have Written
+Visiting the Department
+Facts & Figures
+
+
+
+Graduate Degrees
+
+
+Overview
+Ph.D. Software Engineering
+Policies
+Ph.D. Informatics
+M.S. Software Engineering
+Diversity Ambassador
+M.S. Informatics
+Master of Software Engineering
+Student Profiles
+Master of Human-Computer Interaction & Design
+Courses
+Student Groups
+ 
+ 
+Upcoming Course Schedule
+
+
+
+Undergraduate Degrees
+
+
+B.S. Informatics
+B.S. Information & Computer Science
+Policies
+B.S. Business Information Management
+Special Opportunities
+Student Profiles
+B.S. Game Design and Interactive Media
+Minors
+Student Groups
+B.S. Software Engineering
+Courses
+Upcoming Course Schedule
+
+
+
+Admissions
+
+
+Graduate Application Process
+Coming from Abroad
+Housing
+Undergraduate Application Process
+Student Life
+
+
+
+Research
+
+
+Labs & Centers
+Ph.D. Research
+Undergraduate Research
+Areas of Expertise
+Past Dissertations
+Gifts & Grants
+Example Projects
+Masters Research
+
+
+
+Impact
+
+
+Research that Matters
+Undergraduate Alumni Spotlights
+Outreach
+Graduate Alumni Spotlights
+Community Engagement
+
+
+
+Support
+
+
+Champion Research
+Become a Corporate Partner
+Share Your Talent
+Support Students
+Provide Projects
+Set Future Agenda
+Post Jobs
+Graduate Resources
+
+
+
+
+
+
+MenuExplore
+
+Chair’s Welcome
+History of the Department
+Department Vision
+Facts & Figures
+Faculty Profiles
+Seminar Series
+Books We Have Written
+Books We Read
+Blogs We Author
+Visiting the Department
+
+
+Graduate Degrees
+
+Ph.D. Informatics
+M.S. Informatics
+Ph.D. Software Engineering
+M.S. Software Engineering
+Master of Human-Computer Interaction & Design
+Master of Software Engineering
+Courses
+Policies
+Diversity Ambassador
+Student Profiles
+Student Groups
+Upcoming Course Schedule
+
+
+Undergraduate Degrees
+
+B.S. Informatics
+B.S. Business Information Management
+B.S. Game Design and Interactive Media
+B.S. Software Engineering
+B.S. Information & Computer Science
+Special Opportunities
+Minors
+Courses
+Policies
+Student Profiles
+Student Groups
+Upcoming Course Schedule
+
+
+Admissions
+
+Graduate Application Process
+Undergraduate Application Process
+Coming from Abroad
+Student Life
+Housing
+
+
+Research
+
+Labs & Centers
+Areas of Expertise
+Example Projects
+Ph.D. Research
+Past Dissertations
+Masters Research
+Undergraduate Research
+Gifts & Grants
+
+
+Impact
+
+Research that Matters
+Graduate Alumni Spotlights
+Undergraduate Alumni Spotlights
+Community Engagement
+Outreach
+
+
+Support
+
+Champion Research
+Support Students
+Become a Corporate Partner
+Provide Projects
+Post Jobs
+Share Your Talent
+Set Future Agenda
+
+
+ 
+
+
+
+
+
+
+
+		← Site Map  News
+
+
+
+
+
+Professor Crista Lopes Immerses Students in a Virtual World for ICS 10: How Computers Work
+May 6, 2021
+
+
+The 150 UCI students enrolled in “ICS 10: How Computers Work,” a general education course on the basics of computing, had an entirely new learning experience this past winter, and it wasn’t just owing to remote learning during a pandemic. For the first time, Crista Lopes, an informatics professor in the Donald Bren School of Information and Computer Sciences (ICS), held the course in OpenSimulator, an open source virtual world.
+
+“This allowed me to simulate things that would be very difficult or pretty much impossible to do in the real world,” says Lopes. “It gave the students a virtual ‘hands-on’ experience with the material that they would not have had otherwise — and this was an experience, not just a course.”
+ICS 10 course in OpenSimulator has an auditorium where students can watch the lectures.
+Computing as an ExperienceStudents from all over campus — including business, biology, engineering and political science majors —created avatars, attended lectures, learned programming and built applications, all in this virtual world. Lopes stresses that this was a course designed for people who aren’t computer science majors, so no ICS students were enrolled (though she admits they too could benefit from such a course).
+“There were students who pretty much just use their phones, so having to use a complicated piece of software on the computer was a foreign beast for them, and they were already afraid of the course,” says Lopes. “But a lot of the students really thrived.”
+The course was comprised of lectures and homework projects. The lectures were given in the virtual world but also streamed to Twitch, so anybody would watch. “The homework projects were what was really interesting to do in this environment,” says Lopes. “Having the ability to build exactly the simulated hardware that I thought they should be exposed to was a powerful thing.”
+Lopes first simulated a very simple computer — the memory, CPU, arithmetic unit, loading of the program and low-level programming, tuning the level of difficulty to what she felt was most was appropriate. “They were given a little computing machine, and it was slow on purpose because I wanted them to see what happens in those registers, when they load and fetch things from the register into memory and vice-versa,” says Lopes. “I wanted everything to be visible, and that visibility is something that is very difficult to do with real-world hardware.”
+A student working on a homework assignment, developing a small program in assembly language.
+Lopes also simulated the Internet with a network project. “Students had to set up their virtual home routers and connect them to the street router. Then they had to organize themselves and configure the street routers to talk to the region router,” explains Lopes. “So they set up all the connections of the Internet and then they could send messages; you could actually see the messages, or pink spheres, flying around.”
+Visualizing the internet. One of the students created a cube (left) to display information about connecting to the street router. A sent message would travel through the world as a pink sphere (right). (You can also watch a demonstration online.)
+
+Sophomore criminology major Brianna Hernandez says the course was challenging yet engaging. “You made your own avatar and got to accessorize them in any way you wanted. You got to fly and travel from zone to zone and were living in a treehouse. The networking part of the project was fun, and I felt good about myself because I understood how to do it (with the help of the professor’s explicit instructions, of course),” she says. “I would have never thought that I would be coding, or creating algorithms, nor understanding their functions and operations in computer systems.” The course left a lasting impression. “The virtual world is something I will never forget.”
+The course was also a novel experience for the teaching assistants. According to Nishitha Suvarna, a graduate student in computer science, “being a TA for ICS 10 was a completely new experience as this course followed a non-traditional approach to introduce computer science to beginners.” Suvarna helped students with the setup, software and assignments during office hours. “I liked the interactive aspect of this course, as students could actually visualize the code output on the OpenSim platform. The projects and assignments in this course facilitated interactions amongst students.”
+Homework assignments included programming, flipping black and white tiles to learn binary, and working with a ternary wall with four values instead of two.
+As shown here, the various assignments included programming, learning binary and working with a ternary wall.
+Simulations as a Pedagogical ToolLopes will be teaching this course again next winter, and although it should be in person this time, she again plans to use the OpenSim world. “Simulations are really powerful learning devices that can add a lot of value.”
+As an early developer of OpenSim, Lopes has always wanted to do a course using the virtual platform. “I knew that the first opportunity I had where I could simulate things I would do it, and this was it,” she says, noting that simulations are only useful if there some sort of “physicality” to what is being taught. “It was pretty clear that this material, this course, really would benefit from having simulated hardware.”
+So she set out to code and create the world, but she admits that it was extremely time-consuming. “I spent more time developing this course than any other,” she says. “The second time that I run this is going to be much, much easier. I spent a lot of time automating things.”
+As part of an interview she did back in February, she outlines at the end her preparations for teaching in OpenSim. She acknowledges that for someone unfamiliar with the OpenSim platform, it could take three to four months to gain an understanding of the environment before starting to develop the assignments. While there are services for creating such environments, they are usually very expensive. Lopes hopes that in the future it becomes easier for individuals to develop these worlds. “I hope that things will change eventually to make it a little bit easier,” she says. “Honestly, I think that simulations are an under-appreciated and under-used pedagogical tool.”
+— Shani Murray
+
+
+
+Post navigation
+← eSchool News: “Is digital citizenship the most important takeaway from distance learning?” by Katie Salen
+Professor Daniel Epstein Receives ICTS Pilot Studies Award →
+
+
+
+
+
+
+ 
+
+October 2022
+September 2022
+July 2022
+June 2022
+May 2022
+April 2022
+March 2022
+February 2022
+January 2022
+December 2021
+November 2021
+October 2021
+September 2021
+August 2021
+July 2021
+June 2021
+May 2021
+April 2021
+March 2021
+February 2021
+January 2021
+December 2020
+November 2020
+October 2020
+September 2020
+August 2020
+July 2020
+June 2020
+May 2020
+April 2020
+March 2020
+February 2020
+January 2020
+December 2019
+November 2019
+October 2019
+September 2019
+August 2019
+July 2019
+June 2019
+May 2019
+April 2019
+March 2019
+February 2019
+January 2019
+December 2018
+November 2018
+October 2018
+September 2018
+August 2018
+July 2018
+June 2018
+May 2018
+April 2018
+March 2018
+February 2018
+January 2018
+December 2017
+November 2017
+October 2017
+September 2017
+August 2017
+July 2017
+June 2017
+May 2017
+April 2017
+March 2017
+February 2017
+January 2017
+December 2016
+November 2016
+October 2016
+September 2016
+August 2016
+July 2016
+June 2016
+May 2016
+April 2016
+March 2016
+February 2016
+January 2016
+December 2015
+November 2015
+October 2015
+September 2015
+August 2015
+July 2015
+June 2015
+May 2015
+April 2015
+March 2015
+February 2015
+January 2015
+December 2014
+November 2014
+September 2014
+August 2014
+July 2014
+June 2014
+
+ 
+
+
+
+People
+Contact
+Site Map
+News
+
+
+
+
+
+
+
+Feedback
+Privacy Policy
+					© 2022 UC Regents
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

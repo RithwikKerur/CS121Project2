@@ -1,0 +1,8 @@
+http://plrg.ics.uci.edu/publications/565.bib
+@inproceedings{key,
+ author = {Byron Hawkins and Brian Demsky and Michael Taylor},
+ title = {A Runtime Approach to Security and Privacy},
+ booktitle = {European Security and Privacy (Short paper/poster)},
+ month = {March},
+ year = {2016}
+}

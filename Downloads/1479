@@ -1,0 +1,463 @@
+https://www.informatics.uci.edu/the-role-of-computing-in-sustainability-and-solutions-that-scale
+
+
+
+
+
+
+
+
+
+The Role of Computing in Sustainability and Solutions that Scale | Informatics @ the University of California, Irvine
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+People
+Contact
+Site Map
+News
+
+
+
+
+Search for:
+
+
+
+ 
+
+
+
+
+
+Menu
+Skip to content
+Explore
+
+
+Chair’s Welcome
+Faculty Profiles
+Books We Read
+History of the Department
+Seminar Series
+Blogs We Author
+Department Vision
+Books We Have Written
+Visiting the Department
+Facts & Figures
+
+
+
+Graduate Degrees
+
+
+Overview
+Ph.D. Software Engineering
+Policies
+Ph.D. Informatics
+M.S. Software Engineering
+Diversity Ambassador
+M.S. Informatics
+Master of Software Engineering
+Student Profiles
+Master of Human-Computer Interaction & Design
+Courses
+Student Groups
+ 
+ 
+Upcoming Course Schedule
+
+
+
+Undergraduate Degrees
+
+
+B.S. Informatics
+B.S. Information & Computer Science
+Policies
+B.S. Business Information Management
+Special Opportunities
+Student Profiles
+B.S. Game Design and Interactive Media
+Minors
+Student Groups
+B.S. Software Engineering
+Courses
+Upcoming Course Schedule
+
+
+
+Admissions
+
+
+Graduate Application Process
+Coming from Abroad
+Housing
+Undergraduate Application Process
+Student Life
+
+
+
+Research
+
+
+Labs & Centers
+Ph.D. Research
+Undergraduate Research
+Areas of Expertise
+Past Dissertations
+Gifts & Grants
+Example Projects
+Masters Research
+
+
+
+Impact
+
+
+Research that Matters
+Undergraduate Alumni Spotlights
+Outreach
+Graduate Alumni Spotlights
+Community Engagement
+
+
+
+Support
+
+
+Champion Research
+Become a Corporate Partner
+Share Your Talent
+Support Students
+Provide Projects
+Set Future Agenda
+Post Jobs
+Graduate Resources
+
+
+
+
+
+
+MenuExplore
+
+Chair’s Welcome
+History of the Department
+Department Vision
+Facts & Figures
+Faculty Profiles
+Seminar Series
+Books We Have Written
+Books We Read
+Blogs We Author
+Visiting the Department
+
+
+Graduate Degrees
+
+Ph.D. Informatics
+M.S. Informatics
+Ph.D. Software Engineering
+M.S. Software Engineering
+Master of Human-Computer Interaction & Design
+Master of Software Engineering
+Courses
+Policies
+Diversity Ambassador
+Student Profiles
+Student Groups
+Upcoming Course Schedule
+
+
+Undergraduate Degrees
+
+B.S. Informatics
+B.S. Business Information Management
+B.S. Game Design and Interactive Media
+B.S. Software Engineering
+B.S. Information & Computer Science
+Special Opportunities
+Minors
+Courses
+Policies
+Student Profiles
+Student Groups
+Upcoming Course Schedule
+
+
+Admissions
+
+Graduate Application Process
+Undergraduate Application Process
+Coming from Abroad
+Student Life
+Housing
+
+
+Research
+
+Labs & Centers
+Areas of Expertise
+Example Projects
+Ph.D. Research
+Past Dissertations
+Masters Research
+Undergraduate Research
+Gifts & Grants
+
+
+Impact
+
+Research that Matters
+Graduate Alumni Spotlights
+Undergraduate Alumni Spotlights
+Community Engagement
+Outreach
+
+
+Support
+
+Champion Research
+Support Students
+Become a Corporate Partner
+Provide Projects
+Post Jobs
+Share Your Talent
+Set Future Agenda
+
+
+ 
+
+
+
+
+
+
+
+		← Site Map  News
+
+
+
+
+
+The Role of Computing in Sustainability and Solutions that Scale
+April 22, 2021
+
+
+As Scientific American reiterated this month, we are in the midst of a climate emergency. 2020 saw record-breaking wildfires and hurricanes and ended in a tie with 2016 as the hottest year on record. Aware of the massive scope of challenges that lie ahead in fighting climate change, UCI announced in January a new initiative called Solutions that Scale. Recognizing that “solutions to planetary problems must reach planetary proportions,” the initiative aims to “converge scientists and academics, policy makers, business leaders, and global citizens to identify and accelerate climate change solutions that scale.”
+
+Professor Bill Tomlinson
+“It’s really interesting to see people from so many different disciplines coming together to coordinate how their disciplines can contribute to addressing climate change,” says Bill Tomlinson, a professor of informatics in the Donald Bren School of Information and Computer Sciences (ICS). With faculty from Earth system science, engineering, ICS, public health, social ecology and other fields, the initiative is a multidisciplinary effort to explore new energy infrastructures, social systems and technologies that address sustainability at a global scale. As an executive board member of the Solutions that Scale initiative, Tomlinson is focused on “the role that computing can play in sustainability efforts.”
+ICS 5: Global Disruption and Information TechnologyTomlinson brings to the initiative more than a decade of experience in exploring computing as it relates to sustainability. He is co-founder of LIMITS, a community of researchers focused on developing computing systems for a future defined by a scarcity of resources, and he teaches a UC-wide online course, ICS 5: Global Disruption and Information Technology. Through this course, he is helping shape how tomorrow’s leaders think about the role of information technology in supporting a sustainable civilization.
+“This year, we’re developing a new set of assignments based on knowledge graphs,” says Tomlinson, explaining that such graphs are “similar to concept maps but with an added layer of computational formalism.” Work on the new assignment stems from the research of Hayden Freedman, a first-year software engineering Ph.D. student who is being co-advised by Tomlinson and Andre van der Hoek, department chair and professor of informatics.
+Knowledge graphs are at the foundation of many different technological systems, everything from how Facebook thinks about the networks of people in its user base to how Netflix identifies movie recommendations and Google determines what content to present with search results. The question the team is exploring is whether knowledge graphs can help students map how all the different pieces of sustainability are connected.
+“One of the things that makes understanding climate change challenging is how many different pieces there are, everything from geophysical factors to ecological relationships to social issues,” says Tomlinson. “It’s hard to get your head around how they’re all connected.”
+Software engineering Ph.D. student Hayden Freedman
+Connecting Sustainability ConceptsFreedman has experience with knowledge graphs from his work as a software developer at the University of Pennsylvania’s Institute for Biomedical Informatics. “I was very excited by the way that they allow data from a variety of different sources to be interconnected into a single schema,” he says. However, after a few years, he wanted to start applying his knowledge of computation structures to something other than patient data. “I decided to try to pivot toward something that I was passionate about, such as sustainability, and I thought grad school would be a good outlet, so that’s how I found Bill Tomlinson.”
+Freedman is currently focused on how student-generated knowledge graphs might be used to both capture and create knowledge. “Sustainability education is very important,” he says. “Right now, we’re asking students to make knowledge graphs every two weeks [to help us] understand what aspects of the course are sinking in,” he explains. “At the same time, we’re also investigating the knowledge graph structure itself as a pedagogical tool because it’s allowing students to continuously construct their mental models throughout the course, so we’re excited to see how it works out.” At the end of the course, the knowledge graphs generated by all the students will be computationally integrated into a single, larger graph. This integrated graph will let students see how their own interests connect with ideas other students have been having. This is particularly useful given that ICS 5 satisfies a general education elective, so it attracts students from a wide variety of majors.
+A knowledge graph generated by one of the students participating in ICS 5 at the beginning of the course. This assignment was an attempt to capture student prior knowledge about topics relating to sustainability and technology, using a concept and relationship structure.
+This work also has the potential to develop into a larger crowdsourcing effort to contribute to a shared data resource of sustainability knowledge. Based on findings from a pilot study in which 10 undergraduate students from UCI who had taken the ICS 5 course were asked to create a sustainability knowledge graph, it seems students may be able to identify new sustainability-related concepts and relationships.
+Freedman will discuss this work in a talk he’s giving in June at the International Symposium on Sustainable Systems and Technology (ISSST), one of the longest-running research conferences related to sustainability and the intersection of technology, policy and behavior. The talk will outline the use of knowledge graphs as a pedagogical tool and the possibility of students around the world contributing to shared public resources.
+Building Bridges“Capturing people’s beliefs in general about sustainability and technology, and understanding on a granular level the exact relationships that they feel exist in the world is powerful,” notes Freedman. “It could allow policymakers, scientists, researchers — everyone — to understand how their work is being perceived and how certain findings may be misconstrued potentially by the media or other sources.”
+Tomlinson agrees. “We’re just in the early stages [but] we are seeing this potentially as one of the ways computing can contribute to the broader Solutions that Scale initiative,” he says. “Through these knowledge graphs, we aspire to help with interdisciplinary undertakings by [finding ways to] build bridges between communities based on how they think about the world.”
+Professor Andre van der Hoek
+The work has already influenced the research focus of van der Hoek, who is also a Solutions that Scale executive board member. “I am a software engineering researcher at heart, but there is no greater question than that of climate and our long-term sustainability,” he says. “Working with Bill and Hayden, dipping my toes into sustainability research, has shown me how much more there is to do.” In response, van der Hoek says he has recruited a new Ph.D. student for next year with whom he will be further switching his work into sustainability at the intersection of software engineering.
+“It is essential that ICS plays a significant role in the Solutions that Scale initiative,” he adds. “From large-scale modeling, to prediction, to monitoring, to understanding people’s perceptions about climate change, to finding ways to educate — the scale at which these are needed requires computing at the core.”
+— Shani Murray
+
+
+
+Post navigation
+← Join the Upcoming Datafication and Community Activism Forum
+eSchool News: “Is digital citizenship the most important takeaway from distance learning?” by Katie Salen →
+
+
+
+
+
+
+ 
+
+October 2022
+September 2022
+July 2022
+June 2022
+May 2022
+April 2022
+March 2022
+February 2022
+January 2022
+December 2021
+November 2021
+October 2021
+September 2021
+August 2021
+July 2021
+June 2021
+May 2021
+April 2021
+March 2021
+February 2021
+January 2021
+December 2020
+November 2020
+October 2020
+September 2020
+August 2020
+July 2020
+June 2020
+May 2020
+April 2020
+March 2020
+February 2020
+January 2020
+December 2019
+November 2019
+October 2019
+September 2019
+August 2019
+July 2019
+June 2019
+May 2019
+April 2019
+March 2019
+February 2019
+January 2019
+December 2018
+November 2018
+October 2018
+September 2018
+August 2018
+July 2018
+June 2018
+May 2018
+April 2018
+March 2018
+February 2018
+January 2018
+December 2017
+November 2017
+October 2017
+September 2017
+August 2017
+July 2017
+June 2017
+May 2017
+April 2017
+March 2017
+February 2017
+January 2017
+December 2016
+November 2016
+October 2016
+September 2016
+August 2016
+July 2016
+June 2016
+May 2016
+April 2016
+March 2016
+February 2016
+January 2016
+December 2015
+November 2015
+October 2015
+September 2015
+August 2015
+July 2015
+June 2015
+May 2015
+April 2015
+March 2015
+February 2015
+January 2015
+December 2014
+November 2014
+September 2014
+August 2014
+July 2014
+June 2014
+
+ 
+
+
+
+People
+Contact
+Site Map
+News
+
+
+
+
+
+
+
+Feedback
+Privacy Policy
+					© 2022 UC Regents
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

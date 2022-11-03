@@ -1,0 +1,137 @@
+https://www.cs.uci.edu/faisal-nawab-receives-facebook-award-for-next-generation-data-infrastructure
+
+
+
+
+Faisal Nawab Receives Facebook Award for Next-Generation Data Infrastructure 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ this is a widget called second front page widget area
+
+Explore
+
+Contact Us
+
+
+Faculty
+Research
+
+Research Areas
+Research Centers
+
+
+Graduate Degrees
+
+Computer Science Programs
+Current Graduate Students
+
+
+Undergraduate Degrees
+News  & Events
+
+News
+Seminar Series
+Distinguished Lecture Series
+Research Showcase
+
+
+Apply Now
+
+Undergraduate Admissions
+Graduate Admissions
+Faculty Candidates
+
+
+Faisal Nawab Receives Facebook Award for Next-Generation Data Infrastructure
+October 5, 2021 
+
+On Sept. 24, 2021, Facebook announced the recipients of its Next-Generation Data Infrastructure award. The 10 winners were selected from 109 proposals, submitted back in April in response to Facebook’s request for proposals (RFP) on innovative solutions to data management challenges. Among the winning proposals was “Building Global-Scale Systems Using a Flexible Consensus Substrate,” by Assistant Professor of Computer Science Faisal Nawab of UCI’s Donald Bren School of Information and Computer Sciences (ICS).
+
+“I am elated to receive this award,” says Nawab. “Facebook is one of the most influential industry players in advancing and adopting new technologies in the area of large-scale data processing. Their 
+connections with academia and researchers have yielded many transformative pieces of work and research with industry impact.”
+Nawab is working to better coordinate the thousands of machines distributed around the world in support of the modern-day large-scale Internet and countless cloud applications. “Coordination across all these machines is an arduous task due to their large number and the wide-area latency that separates these machines. In particular, the traditional building blocks of distributed coordination and consensus cannot scale to support such deployments,” he explains. “This requires ad-hoc solutions around traditional protocols to enable them to scale. These efforts, however, are error-prone as they are not integrated with the fabric of coordination.”
+Nawab’s proposal leverages recent theoretical advances in distributed agreement with the hopes of transforming how distributed systems work. “Our work — Dynamic Paxus (DPaxos) — extends distributed protocols to enable coordination that is dynamic (in terms of configuration and membership) and hierarchical (to leverage locality of resources),” he says. “Our goal is to overcome arduous challenges of current consensus protocols, which include making them scale to larger, dynamic deployments as well as supporting configuration tasks such as load balancing transparently and efficiently.”
+— Shani Murray
+« NSF Civic Innovation Challenge Awards $1 Million to UCI for Disaster Resilience in Aging CommunitiesICS Welcomes 3 New Faculty for 2021 »
+
+Latest news
+
+
+Graduate Student Spotlight: Markelle Kelly Highlights the Human Side of Computer Science
+October 15, 2022
+
+
+UCI and BlackBerry Win NSF Convergence Accelerator Grant
+October 12, 2022
+
+
+BBC: “The Computer Errors From Outer Space” (Sangeetha Abdu Jyothi quoted)
+October 12, 2022
+
+
+Senior Spotlight: Tennis Player and CS Major Matthew Sah Serves Up Aces On and Off the Court
+September 28, 2022
+
+
+Register Today for the Southern California AI & Biomedicine Symposium
+September 20, 2022
+
+
+
+
+ 
+
+
+
+
+
+© 2022 UC Regents
+Feedback
+Privacy Policy
+
+
+
+ 
+
+
+
+

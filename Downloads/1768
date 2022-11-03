@@ -1,0 +1,101 @@
+http://sli.ics.uci.edu/Classes/2013S-77B-Misc
+
+
+
+SLI | Classes / 2013S-77B-Misc 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Classes /
+2013S-77B-Misc
+
+
+
+Computing Lab compiz bug (4/11/13)
+There is a bug in compiz that slows down the computers.  We don't have CCSM so we'll try to change it manually:
+
+ mkdir ~/.gconf/apps/compiz-1/plugins/opengl
+ mkdir ~/.gconf/apps/compiz-1/plugins/opengl/screen0
+ mkdir ~/.gconf/apps/compiz-1/plugins/opengl/screen0/options
+ gedit ~/.gconf/apps/compiz-1/plugins/opengl/screen0/options/%gconf.xml
+
+Now, insert the following text and save it:
+
+ <?xml version="1.0"?>
+ <gconf>
+        <entry name="sync_to_vblank" mtime="1365639107" type="bool" value="false"/>
+ </gconf>
+
+Now, run "unity --replace", or restart the computer
+
+
+How to use screen to run long jobs
+First, log in on a terminal and run screen.  You should see a little message, then end up back at the command prompt.
+
+To interact with screen, hit Ctrl-A then a command.  So, Ctrl-A ? will show the help screen.
+
+You can use @@screen@ to create multiple "screens" in the same terminal, that let you do more than one thing.  To create a new "screen", hit "Ctrl-A c".  The first screen will be screen zero, the second screen 1; to switch to one or the other, use "Ctrl-A 0" and "Ctrl-A 1", or "Ctrl-A n" and "Ctrl-A p" to cycle next/previous.
+
+The most useful thing you can do with screen is "detach", which allows the screen to keep running while you log out, and then "reattach" when you log in later.  For example, try starting matlab:
+
+ screen
+ matlab -nojvm
+
+To detach, type "Ctrl-A d".  You'll find yourself back at a terminal prompt, and you can log out if you like.  Then, later, say from a different computer, you can log back in.  To see what screens are detached, you can type screen -ls, which will show e.g.,
+
+There is a screen on:
+        32374.pts-4.prism       (04/16/2013 08:54:38 AM)        (Detached)
+1 Socket in /var/run/screen/S-aihler.
+
+To reattach that one screen, type screen -r 32374.pts-4.prism.  To reattach all your screens, just use screen -r.  You should find yourself back in your Matlab session.  After finishing and exiting Matlab, you can exit the shell with "exit" (ending that screen), or just kill the screen outright with "Ctrl-A K".
+
+To use this, it is best to make sure we're not all using the same computers at once; so make a note of which machine you usually use (e.g., "prism4" or whatever), and try to use that one from home as well.
+
+
+
+
+
+
+ Last modified April 16, 2013, at 10:39 AM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

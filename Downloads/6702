@@ -1,0 +1,291 @@
+https://duttgroup.ics.uci.edu/projects/self-aware-adaptive-computing/mars
+
+
+
+
+
+
+MARS – Dutt Research Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to content
+
+
+
+
+
+
+ 
+
+Dutt Research Group
+DRG-Lab Webpage
+
+
+
+
+
+
+
+
+DRG Home
+Group Members
+Projects
+
+Self-Aware & Adaptive Computing
+
+Information Processing Factory (IPF)
+MARS
+Unified Parallel Runtime
+Memory Adaptation
+
+
+Health Care IoT
+
+Internet of Cognitive Things in healthcare
+Pain Assessment
+Maternity Care
+NSF Unite Project
+
+
+Domain-specific Hardware Accelerators
+Neuromorphic Computing
+
+
+Publications
+Sister Groups
+News
+
+
+
+
+Main Menu
+
+
+
+
+
+
+
+
+
+
+MARS 
+
+
+
+
+
+
+
+MARS consists of a toolchain for creating resource managers that allows users to easily compose models and policies that interact in a hierarchy defined by the granularity of the actuations performed in the system. MARS is implemented and evaluated on top of a real Linux-based platform. MARS also provides an offline simulation infrastructure for fast prototyping of policies and large-scale or long-term policy evaluation.
+The source code of the MARS framework can be found  here.
+An informative presentation can be found  here.
+A publication related to the offline simulator can be found  here.
+
+Related Publications
+
+
+
+2018
+
+ Moazzemi, K;  Kanduri, A;  Juhász, D;  Miele, A;  Rahmani, A M;  Liljeberg, P;  Jantsch, A;  Dutt, NTrends in On-chip Dynamic Resource Management Inproceedings 2018 21st Euromicro Conference on Digital System Design (DSD), pp. 62-69, 2018.Links | BibTeX@inproceedings{8491796,
+title = {Trends in On-chip Dynamic Resource Management},
+author = {K Moazzemi and A Kanduri and D Juhász and A Miele and A M Rahmani and P Liljeberg and A Jantsch and N Dutt},
+doi = {10.1109/DSD.2018.00025},
+year  = {2018},
+date = {2018-08-01},
+booktitle = {2018 21st Euromicro Conference on Digital System Design (DSD)},
+pages = {62-69},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closedoi:10.1109/DSD.2018.00025Close Rahmani, Amir M;  Donyanavard, Bryan;  Mück, Tiago;  Moazzemi, Kasra;  Jantsch, Axel;  Mutlu, Onur;  Dutt, NikilSPECTR: Formal Supervisory Control and Coordination for Many-core Systems Resource Management Conference Proceedings of the Twenty-Third International Conference on Architectural Support for Programming Languages and Operating Systems, ACM, New York, NY, USA, 2018, ISBN: 978-1-4503-4911-6.Abstract | Links | BibTeX@conference{Rahmani:2018:SFS:3173162.3173199,
+title = {SPECTR: Formal Supervisory Control and Coordination for Many-core Systems Resource Management},
+author = {Amir M. Rahmani and Bryan Donyanavard and Tiago Mück and Kasra Moazzemi and Axel Jantsch and Onur Mutlu and Nikil Dutt},
+url = {http://doi.acm.org/10.1145/3173162.3173199, ACM
+http://duttgroup.ics.uci.edu/wp-content/uploads/2018/05/SPECTR-formal-supervisory-control-for-many-core-resource-management_asplos18-lightning-talk.pptx, Lightning Talk [pptx]
+http://duttgroup.ics.uci.edu/wp-content/uploads/2018/05/SPECTR-formal-supervisory-control-for-many-core-resource-management_asplos18-lightning-talk.pdf, Lightning Talk [pdf]
+http://duttgroup.ics.uci.edu/wp-content/uploads/2018/05/SPECTR-formal-supervisory-control-for-many-core-resource-management_asplos18-talk.pptx, Slides [pptx]
+http://duttgroup.ics.uci.edu/wp-content/uploads/2018/05/SPECTR-formal-supervisory-control-for-many-core-resource-management_asplos18-talk.pdf, Slides [pdf]
+http://duttgroup.ics.uci.edu/wp-content/uploads/2018/05/SPECTR-formal-supervisory-control-for-many-core-resource-management_asplos18-poster.pptx, Poster [pptx]
+http://duttgroup.ics.uci.edu/wp-content/uploads/2018/05/SPECTR-formal-supervisory-control-for-many-core-resource-management_asplos18-poster.pdf, Poster [pdf]
+},
+doi = {10.1145/3173162.3173199},
+isbn = {978-1-4503-4911-6},
+year  = {2018},
+date = {2018-03-27},
+booktitle = {Proceedings of the Twenty-Third International Conference on Architectural Support for Programming Languages and Operating Systems},
+pages = {169--183},
+publisher = {ACM},
+address = {New York, NY, USA},
+abstract = {Resource management strategies for many-core systems need to enable sharing of resources such as power, processing cores, and memory bandwidth while coordinating the priority and significance of system- and application-level objectives at runtime in a scalable and robust manner. State-of-the-art approaches use heuristics or machine learning for resource management, but unfortunately lack formalism in providing robustness against unexpected corner cases. While recent efforts deploy classical control-theoretic approaches with some guarantees and formalism, they lack scalability and autonomy to meet changing runtime goals. We present SPECTR, a new resource management approach for many-core systems that leverages formal supervisory control theory (SCT) to combine the strengths of classical control theory with state-of-the-art heuristic approaches to efficiently meet changing runtime goals. SPECTR is a scalable and robust control architecture and a systematic design flow for hierarchical control of many-core systems. SPECTR leverages SCT techniques such as gain scheduling to allow autonomy for individual controllers. It facilitates automatic synthesis of the high-level supervisory controller and its property verification. We implement SPECTR on an Exynos platform containing ARM's big.LITTLE-based heterogeneous multi-processor (HMP) and demonstrate that SPECTR»s use of SCT is key to managing multiple interacting resources (e.g., chip power and processing cores) in the presence of competing objectives (e.g., satisfying QoS vs. power capping). The principles of SPECTR are easily applicable to any resource type and objective as long as the management problem can be modeled using dynamical systems theory (e.g., difference equations), discrete-event dynamic systems, or fuzzy dynamics.
+
+},
+keywords = {},
+pubstate = {published},
+tppubtype = {conference}
+}
+CloseResource management strategies for many-core systems need to enable sharing of resources such as power, processing cores, and memory bandwidth while coordinating the priority and significance of system- and application-level objectives at runtime in a scalable and robust manner. State-of-the-art approaches use heuristics or machine learning for resource management, but unfortunately lack formalism in providing robustness against unexpected corner cases. While recent efforts deploy classical control-theoretic approaches with some guarantees and formalism, they lack scalability and autonomy to meet changing runtime goals. We present SPECTR, a new resource management approach for many-core systems that leverages formal supervisory control theory (SCT) to combine the strengths of classical control theory with state-of-the-art heuristic approaches to efficiently meet changing runtime goals. SPECTR is a scalable and robust control architecture and a systematic design flow for hierarchical control of many-core systems. SPECTR leverages SCT techniques such as gain scheduling to allow autonomy for individual controllers. It facilitates automatic synthesis of the high-level supervisory controller and its property verification. We implement SPECTR on an Exynos platform containing ARM's big.LITTLE-based heterogeneous multi-processor (HMP) and demonstrate that SPECTR»s use of SCT is key to managing multiple interacting resources (e.g., chip power and processing cores) in the presence of competing objectives (e.g., satisfying QoS vs. power capping). The principles of SPECTR are easily applicable to any resource type and objective as long as the management problem can be modeled using dynamical systems theory (e.g., difference equations), discrete-event dynamic systems, or fuzzy dynamics.
+
+CloseACMLightning Talk [pptx]Lightning Talk [pdf]Slides [pptx]Slides [pdf]Poster [pptx]Poster [pdf]doi:10.1145/3173162.3173199Close Donyanavard, Bryan;  Rahmani, Amir M;  Mück, Tiago;  Moazzemi, Kasra;  Dutt, NikilGain Scheduled Control for Nonlinear Power Management in CMPs Conference 2018 Design, Automation Test in Europe Conference Exhibition (DATE), 2018.Abstract | Links | BibTeX@conference{8342141,
+title = {Gain Scheduled Control for Nonlinear Power Management in CMPs},
+author = {Bryan Donyanavard and Amir M. Rahmani and Tiago Mück and Kasra Moazzemi and Nikil Dutt},
+url = {https://doi.org/10.23919/DATE.2018.8342141},
+doi = {10.23919/DATE.2018.8342141},
+year  = {2018},
+date = {2018-03-19},
+booktitle = {2018 Design, Automation Test in Europe Conference Exhibition (DATE)},
+pages = {921-924},
+abstract = {Dynamic voltage and frequency scaling (DVFS) is a well-established technique for power management of thermal-or energy-sensitive chip multiprocessors (CMPs). In this context, linear control theoretic solutions have been successfully implemented to control the voltage-frequency knobs. However, modern CMPs with a large range of operating frequencies and multiple voltage levels display nonlinear behavior in the relationship between frequency and power. State-of-the-art linear controllers therefore under-optimize DVFS operation. We propose a Gain Scheduled Controller (GSC) for nonlinear runtime power management of CMPs that simplifies the controller implementation of systems with varying dynamic properties by utilizing an adaptive control theoretic approach in conjunction with static linear controllers. Our design improves the accuracy of the controller over a static linear controller with minimal overhead. We implement our approach on an Exynos platform containing ARM's big.LITTLE-based heterogeneous multi-processor (HMP) and demonstrate that the system's response to changes in target power is improved by 2x while operating up to 12% more efficiently for tracking accuracy.},
+keywords = {},
+pubstate = {published},
+tppubtype = {conference}
+}
+CloseDynamic voltage and frequency scaling (DVFS) is a well-established technique for power management of thermal-or energy-sensitive chip multiprocessors (CMPs). In this context, linear control theoretic solutions have been successfully implemented to control the voltage-frequency knobs. However, modern CMPs with a large range of operating frequencies and multiple voltage levels display nonlinear behavior in the relationship between frequency and power. State-of-the-art linear controllers therefore under-optimize DVFS operation. We propose a Gain Scheduled Controller (GSC) for nonlinear runtime power management of CMPs that simplifies the controller implementation of systems with varying dynamic properties by utilizing an adaptive control theoretic approach in conjunction with static linear controllers. Our design improves the accuracy of the controller over a static linear controller with minimal overhead. We implement our approach on an Exynos platform containing ARM's big.LITTLE-based heterogeneous multi-processor (HMP) and demonstrate that the system's response to changes in target power is improved by 2x while operating up to 12% more efficiently for tracking accuracy.Closehttps://doi.org/10.23919/DATE.2018.8342141doi:10.23919/DATE.2018.8342141Close Sagdighi, Armin;  Donyanavard, Bryan;  Kadeed, Thawra;  Moazzemi, Kasra;  Mück, Tiago;  Nassar, Ahmed;  Rahmani, Amir M;  Wild, Thomas;  Dutt, Nikil;  Ernst, Rolf;  Herkersdorf, Andreas;  Kurdahi, FadiDesign Methodologies for Enabling Self-awareness in Autonomous Systems Conference 2018 Design, Automation Test in Europe Conference Exhibition (DATE), 2018, ISSN: 1558-1101.Abstract | Links | BibTeX@conference{8342259,
+title = {Design Methodologies for Enabling Self-awareness in Autonomous Systems},
+author = {Armin Sagdighi and Bryan Donyanavard and Thawra Kadeed and Kasra Moazzemi and Tiago Mück and Ahmed Nassar and Amir M. Rahmani and Thomas Wild and Nikil Dutt and Rolf Ernst and Andreas Herkersdorf and Fadi Kurdahi},
+url = {https://doi.org/10.23919/DATE.2018.8342259},
+doi = {10.23919/DATE.2018.8342259},
+issn = {1558-1101},
+year  = {2018},
+date = {2018-03-19},
+booktitle = {2018 Design, Automation Test in Europe Conference Exhibition (DATE)},
+pages = {1532-1537},
+abstract = {This paper deals with challenges and possible solutions for incorporating self-awareness principles in EDA design flows for autonomous systems. We present a holistic approach that enables self-awareness across the software/hardware stack, from systems-on-chip to systems-of-systems (autonomous car) contexts. We use the Information Processing Factory (IPF) metaphor as an exemplar to show how self-awareness can be achieved across multiple abstraction levels, and discuss new research challenges. The IPF approach represents a paradigm shift in platform design by envisioning the move towards a consequent platform-centric design in which the combination of self-organizing learning and formal reactive methods guarantee the applicability of such cyber-physical systems in safety-critical and high-availability applications.
+},
+keywords = {},
+pubstate = {published},
+tppubtype = {conference}
+}
+CloseThis paper deals with challenges and possible solutions for incorporating self-awareness principles in EDA design flows for autonomous systems. We present a holistic approach that enables self-awareness across the software/hardware stack, from systems-on-chip to systems-of-systems (autonomous car) contexts. We use the Information Processing Factory (IPF) metaphor as an exemplar to show how self-awareness can be achieved across multiple abstraction levels, and discuss new research challenges. The IPF approach represents a paradigm shift in platform design by envisioning the move towards a consequent platform-centric design in which the combination of self-organizing learning and formal reactive methods guarantee the applicability of such cyber-physical systems in safety-critical and high-availability applications.
+Closehttps://doi.org/10.23919/DATE.2018.8342259doi:10.23919/DATE.2018.8342259Close
+
+2017
+
+ Jantsch, Axel;  Dutt, Nikil DGuest Editorial: Special Issue on Self-Aware Systems on Chip Journal Article IEEE Design & Test, 34 (6), pp. 6–7, 2017.Links | BibTeX@article{DBLP:journals/dt/JantschD17,
+title = {Guest Editorial: Special Issue on Self-Aware Systems on Chip},
+author = {Axel Jantsch and Nikil D Dutt},
+url = {https://doi.org/10.1109/MDAT.2017.2757445},
+doi = {10.1109/MDAT.2017.2757445},
+year  = {2017},
+date = {2017-01-01},
+journal = {IEEE Design & Test},
+volume = {34},
+number = {6},
+pages = {6--7},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/MDAT.2017.2757445doi:10.1109/MDAT.2017.2757445Close
+
+2016
+
+ Donyanavard, Bryan;  Mück, Tiago;  Sarma, Santanu;  Dutt, Nikil DSPARTA: runtime task allocation for energy efficient heterogeneous  many-cores Inproceedings Proceedings of the Eleventh IEEE/ACM/IFIP International Conference 
+ on Hardware/Software Codesign and System Synthesis, CODES 2016, 
+ Pittsburgh, Pennsylvania, USA, October 1-7, 2016, pp. 27:1–27:10, 2016.Links | BibTeX@inproceedings{DBLP:conf/codes/DonyanavardMSD16,
+title = {SPARTA: runtime task allocation for energy efficient heterogeneous  many-cores},
+author = {Bryan Donyanavard and Tiago Mück and Santanu Sarma and Nikil D Dutt},
+url = {http://doi.acm.org/10.1145/2968456.2968459},
+doi = {10.1145/2968456.2968459},
+year  = {2016},
+date = {2016-01-01},
+booktitle = {Proceedings of the Eleventh IEEE/ACM/IFIP International Conference 
+ on Hardware/Software Codesign and System Synthesis, CODES 2016, 
+ Pittsburgh, Pennsylvania, USA, October 1-7, 2016},
+pages = {27:1--27:10},
+crossref = {DBLP:conf/codes/2016},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.acm.org/10.1145/2968456.2968459doi:10.1145/2968456.2968459Close
+
+ 
+
+
+
+
+
+
+
+
+
+Find Us Address
+3069 Donald Bren Hall
+University of California, Irvine
+Irvine, CA 92697-3435, USA
+Email
+drg@ics.uci.edu
+
+ 
+
+
+
+
+
+
+
+
+
+					Copyright © 2022 Dutt Research Group.				
+
+					Powered by WordPress and HitMag.				
+
+
+
+
+
+
+
+
+
+
+
+
+

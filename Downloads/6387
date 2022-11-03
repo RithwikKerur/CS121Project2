@@ -1,0 +1,38 @@
+http://www.ics.uci.edu/~kay/courses/i41/hw/hw9.html
+
+
+
+
+
+
+Ninth Homework
+
+
+
+
+
+
+
+
+INFORMATICS 41 • DAVID G. KAY • UC IRVINE • FALL 2011
+ Ninth Homework 
+
+This assignment is due by the start of lab on Monday, November 21. 
+(1) Read Chapter 29 of the How to Design Programs textbook on line. It talks about O-notation and vectors, so it should supplement our coverage of that material in class. We'll have a couple of exercises from that chapter on the coming lab assignment. 
+(2) Just as lists can contain other lists, vectors can contain lists, or even other vectors. That's how we can represent two-dimensional tables, still with constant-time access by row and column. Read this coverage of vectors containing vectors; it's also a good example of processing complex data structures layer by layer, which has been one of our main themes this quarter. Do the exercises given in the document. This material could easily show up on quizzes or the final.
+(3) Chapter 30 of the Picturing Programs text    begins the discussion of programs
+that have "state"—that is, functions that save values from one invocation to the next.
+(This meaning of "state" is the same one we use when we talk about some system being in a
+"dormant state" or an "overloaded state.")  A system's "state" is its status, and we often
+implement that with saved values which we can change with assignment statements. Programs with state (sometimes called "stateful" programs) are the opposite of functional-style programs. Functional programs don't have side effects; they don't have an independently existing state that assignment statements can change. In functional programs, everything is passed as arguments to functions and return values from those functions.
+Read through the chapter; assigning values to variables and reassigning new values as the program progresses is a common idiom in languages like Java and C++. Don't expect to see quiz or exam questions or assignment usug set! this quarter, though.
+
+Based in part on ICS H21assignments by David
+  G. Kay; modified by David G. Kay for the Informatics Core Course, Fall 2004, Fall 2005, Fall 2008, Fall 2010, and Fall 2011.
+
+
+David G. Kay, kay@uci.edu 
+
+Saturday, November 19, 2011 12:52 PM
+
+

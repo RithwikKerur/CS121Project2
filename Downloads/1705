@@ -1,0 +1,129 @@
+http://sli.ics.uci.edu/Classes/2008S
+
+
+
+SLI | Classes / CS274A: Probabilistic Learning 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Classes /
+CS274A: Probabilistic Learning
+
+
+
+Assignments and Exams:
+
+HW 1 Due 4/8/08 Solutions Δ
+HW 2 Due 4/24/08 Solutions Δ
+Midterm Δ Class 5/1/08 Solutions Δ
+HW 3, Data Δ Due 5/22/08 Solutions Δ
+HW 4, Data Δ Due 6/05/08  
+Final Class 6/12/08  
+     
+Student Comment Page
+
+Introduction to probabilistic models, inference, and learning.
+CS274A is an introductory course to probabilistic approaches to learning from data. Probabilistic models form an important part of many areas of computer science, and probabilistic learning (in this context, automatically constructing probabilistic models from data) has become an important tool in sub-fields such as artificial intelligence, data mining, speech recognition, computer vision, bioinformatics, signal processing, and many more. CS274A will provide an introduction to the concepts and principles which underly probabilistic models, and apply these principles to the development, analysis, and practical application of machine learning algorithms.
+
+The course will focus primarily on parametric probabilistic modeling, including data likelihood, parameter estimation using likelihood and Bayesian approaches, hypothesis testing and classification problems, density estimation, clustering, and regression. Related problems, including model selection, overfitting, and bias/variance trade-offs will also be discussed.
+
+Background. 
+The course is intended to be an introduction to probabilistic learning, and thus has few explicit requirements. Students are expected to be familiar with basic concepts from probability, linear algebra, multivariate calculus, etc. Homeworks will use the MATLAB programming environment, but no prior experience with MATLAB is required for the course.
+
+Course format. 
+Two lectures per week. Homeworks due in class approximately every two weeks. Two exams (midterm and final). Grading: 40% homework, 30% midterm, 30% final.
+
+Office Hours.
+Office hours for the course are Monday 12-1pm and 2-3pm, or by appointment.
+
+Collaboration.
+Discussion of the course concepts and methods among the students is encouraged; however, all work handed in should be completely your own.  In order to strike a balance, we'll use the "work product" rule: while discussing anything related to the homework, you should retain no work product created during the discussion.  In other words, you can meet and discuss the problems, describe the solution, etc., but then all parties must go away from the meeting with no record (written notes, code, etc.) from the meeting and do the homework problem on your own.  If you work on a whiteboard, just erase it when you're done discussing.  Don't show someone else your homework, or refer to it during the discussion, since by this policy you must then throw it away.
+
+Textbooks. 
+The required textbook for the course is Bishop's "Pattern Recognition and Machine Learning", but lectures are likely to follow the book only loosly. Other recommended reading include MacKay's "Information Theory, Inference, and Learning Algorithms" (available online at http://www.inference.phy.cam.ac.uk/mackay/itila/), Duda, Hart, and Stork's "Pattern Classification", and Hastie, Tibshirani, and Friedman's "Elements of Statistical Learning".
+
+Matlab
+Often we will write code for the course using the Matlab environment.  Matlab is accessible through NACS computers at several campus locations (e.g., 
+MSTB-A, 
+MSTB-B), and if you want a copy for yourself student licenses are fairly inexpensive ($100).  Personally, I do not recommend the open-source Octave program as a replacement, as the syntax is not 100% compatible and may cause problems (for me or you).  
+
+If you are not familiar with Matlab, there are a number of tutorials on the web:
+University of Utah, very short
+CMU / UMichigan tutorial, also short
+University of Florida's tutorial, more complete
+Union College / Cyclismo.Org tutorial, also good
+UMaryland guide, lots of pointers to other tutorials and reference manuals
+You may want to start with one of the very short tutorials, then use the longer ones as a reference during the rest of the term.
+
+(Tentative) Schedule of Topics.
+Week 104/01/2008Introduction, probability distributions, Bayes' ruleSuggested reading: Notes on probability by Prof. Smyth; Bishop, Sec 1.2 & Ch. 2
+ 04/03/2008multivariate distributions, Bayes' netsSmyth notes on multivariate distributions; Bishop Ch. 8
+Week 204/08/2008Markov random fields; introduction to learning, likelihood, parametersBishop Ch. 8
+ 04/10/2008Class cancelled
+Week 304/15/2008Bias/variance; maximum likelihood learning; exponential family, univariateBishop 3.2, 2.4.1, 1.2.4
+ 04/17/2008ML learning I: multivariate models
+Week 404/22/2008Bayesian learning I: priors, posterior distributions; MAP estimates
+ 04/24/2008Bayesian learning II: conjugate prior distributions
+Week 504/29/2008Summary and review
+ 05/01/2008MIDTERM EXAM
+Week 605/06/2008Regression I: linear regressionBishop Ch 3
+ 05/08/2008Regression II: priors, logistic regressionBishop 3, 4.2-3
+Week 705/13/2008More on regression and classification
+ 05/15/2008Classification and density estimation
+Week 805/20/2008Mixture models and EM: mixtures of Gaussians; k-means; EM
+ 05/22/2008Mixture models and EM: more on expectation-maximization
+Week 905/27/2008Learning in graphical models I: forward-backward, EM
+ 05/29/2008Learning in graphical models II: iterative fitting
+Week 1006/03/2008Additional topics: TBD
+ 06/05/2008Additional topics: TBD
+Final Exam06/12/2008In class final exam, 1:30-3:30pm
+
+
+
+
+
+
+
+ Last modified February 13, 2017, at 02:18 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

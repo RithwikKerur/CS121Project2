@@ -1,0 +1,436 @@
+https://isg.ics.uci.edu/event/aquaeis-middleware-support-for-event-identification-in-communitywater-infrastructures
+
+
+
+
+
+
+AquaEIS: Middleware Support for Event Identification in CommunityWater Infrastructures – Information Systems Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+
+Faculty
+Students
+Recent Alumni
+Research Staff
+Visitors
+
+
+Research
+
+Projects
+Publications
+
+
+Teaching
+
+Courses
+DB Qual
+
+
+Events
+
+Talks
+News
+
+
+About
+
+Sponsors & Partners
+Visitor Info
+Contact us
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ISG Talks are sponsored by Couchbase.
+<< All Talks
+
+
+
+ « All Events
+
+
+This event has passed.
+AquaEIS: Middleware Support for Event Identification in CommunityWater Infrastructures
+
+December 6, 2019 @ 12:30 pm - 2:00 pm 
+
+
+
+
+
+« Texera: Supporting Big Data Analytics for Domain Experts through GUI-based workflows
+Scalable transaction and polystore data management in LeanXcale »
+
+
+
+
+
+
+
+
+
+Speaker: Quing Han
+ 
+Abstract: Real-time event identification is critical in complex distributed infrastructures, e.g., water systems, where failures are difficult to isolate. We present AquaEIS, an event-based middleware tailored to the problem of locating sources of failure (e.g., contamination) in community water infrastructures. The inherent complexity of underground hydraulic systems combined with aging infrastructure presents unique challenges. AquaEIS combines online learning techniques, model-driven simulators and data from limited sensing networks to intelligently guide human participants (e.g., staff) in identifying contaminant sources. The framework integrates the necessary abstractions with event processing methods into a workflow that iteratively selects and refines the set of potential failure points for human-driven grab sampling. The integrated platform utilizes Hidden Markov Model (HMM) based representations along with field reports for event inference; reinforcement learning (RL) methods have also shown promise for further refining event locations and reducing the cost of human engagement. Our approach is evaluated in real-world water systems under a range of distinct events. The results show that AquaEIS can significantly reduce the number of sampling cycles while ensuring localization accuracy (detected 100% of the failure events as compared to a baseline that can only identify 38% of the events).
+ 
+
++ Google Calendar+ iCal Export
+
+
+
+ Details 
+
+ Date: 
+
+ December 6, 2019 
+
+ Time: 
+
+
+					12:30 pm - 2:00 pm				
+
+
+
+
+ Venue 
+
+ DBH 3011 
+
+
+
+
+ 
+
+
+
+
+
+« Texera: Supporting Big Data Analytics for Domain Experts through GUI-based workflows
+Scalable transaction and polystore data management in LeanXcale »
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+Search for :
+
+
+Latest News 
+
+
+
+Upcoming Talk: How to build your own Business
+
+											July 25, 2022																																
+
+
+Upcoming Talk: Couchbase and Distributed Computing Backends for big data processing
+
+											May 31, 2022																																
+
+
+Upcoming Talk: Shedding Light on Opaque Database Queries
+
+											May 31, 2022																																
+
+
+ISG researchers won the  Mark Weiser Best Paper Award at IEEE PERCOM 2022
+
+											March 24, 2022																																
+
+
+
+
+Upcoming Events
+
+
+
+
+Qiushi Bai: QueryBooster-Improving SQL Performance Using Middleware Services for Human-Centered Query Rewriting + Demo
+
+
+
+October 14 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Xiaozhen Liu: Demonstration of Collaborative and Interactive Workflow-based Data Analytics in Texera
+
+
+
+October 21 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Abhishek Singh: WedgeBlock – An Off-Chain Secure Logging Platform for Blockchain Applications
+
+
+
+October 28 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Juncheng Fang: PeloPartition- Improving Blockchain Resilience to Partitioning by Sharding
+
+
+
+November 4 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Peeyush Gupta: A Demonstration of TippersDB
+
+
+
+November 18 @ 12:30 pm - 2:00 pm 
+
+
+
+View All Events
+
+Please follow & like us :) 
+
+Follow  
+
+ 
+
+
+
+
+
+
+
+			Copyright 2018 | ISG-UCI		
+
+
+
+
+
+
+cross
+
+
+
+
+
+
+
+
+
+
+Hit ENTER to search or ESC to close
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

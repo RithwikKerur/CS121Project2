@@ -1,0 +1,130 @@
+http://sli.ics.uci.edu/Classes-CS178-Notes/Matlab
+
+
+
+SLI | Classes-CS178-Notes / Matlab 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Classes-CS178-Notes /
+Matlab
+
+
+A brief introduction to Matlab programming
+See this cheat-sheet, or this one, for a list of many useful Matlab commands.
+Matlab also has a number of toolboxes that can have many useful commands; see here.
+
+Basics of Matlab
+Defining scalars, vectors, and matrices
+
+  % Vectors and matrices  % Row-vectors are defined as:  a=[1 2 3 4 5 6 7],  % For sequences of values, you can use a colon form:  a=1:7,  b=1:2:7,  c=7:-1:1,  % Column-vectors are:  ac=[1;2;3;4;5;6;7],  % Transpose and complex-conjugate transpose are .' and ', respectively:  ac=[1;2;3;4;5;6;7].',  % Matrices are defined similarly:  A = [1 2 3 4;5 6 7 8;9 10 11 12];   % Several useful constructors for matrices:  A0 = zeros(3,4);           % create a 3x4 matrix of all zeros
+  A1 = ones(3,4);            % create a 3x4 matrix of all ones
+  Ru = rand(2,2);            % create a 2x2 matrix of uniform random numbers, in [0,1)
+  Rn = randn(3,2);           % create a 3x2 matrix of Gaussian random numbers, mean 0 variance 1
+  B = repmat(b,[3,2]);       % create a matrix by "tiling" copies of b (3 copies down and 2 across)
+
+Arithmetic operations 
+
+  % Arithmetic operations are defined for vectors and matrices, i.e.,  a=a+2,  % adds the scalar value 2 to every entry of a; similarly for *,-,/, etc.   % You can add two vectors if they are the same size:  a+2*c,  % but you cannot add two vectors that are not the same size (unless one is a scalar):  a+b,   % To access an entry in a vector, use parentheses:  c(2),  c(2)=20,  % For matrices, use two arguments  A(3,1),  A(3,1)=20,  % These basic operations also generalize to n-dimensional arrays   % Arithemetic operations are defined for vectors and matrices, so that  a*c.'    % The dot product between vectors a and c  A*b.'    % The matrix-vector product of A and  c   % Element-wise versions of times and divide are specified by .* and ./ :  a.*c,    % The vector given by the elementwise product
+   % Matrix powers are ^ while elementwise powers are .^
+  R=A^2,    % The matrix product R=A*A:    R(i,j)=\sum_k A(i,k)*A(k,j)
+  R=A.^2,   % The elementwise square of A: R(i,j)=A(i,j)^2
+
+Arithmetic for scalars, vectors, and matrices
+Logical relations
+
+  a = [0 1 2]; b = [0 0 2];   a==b,     % test a(i)=b(i): returns logical vector [ 1 0 1 ]   a~=b,     % test a(i)!=b(i): logical vector [ 0 1 0 ]   a<2,      % test a(i)<2: logical vector [ 1 1 0 ]   any( a~=b ),   % true if any a(i)!=b(i) for some i   all( a==b ),   % true if all a(i)=b(i) for every i   M=[0 1 ; 0 0];   any( M ),      % acts on individual columns of M; returns a logical row vector 
+
+Flow control
+
+  if (any(a)),   %Best to be sure that test condition is a scalar!     fprintf('Some elements of a are true\n');   end;   %While-loops behave normally; again best if test condition is a scalar   while (i<15),     fprintf('While iter %d \n',i); i=i+1;   end;   %For-loops: step through the code with each value in a series  for i=1:10,             fprintf('Iteration %d \n',i);     i=i+2;                        %Note: changing i will not affect the next iteration!   end;   for i=[7 2 9 13], fprintf('%d\n',i); end;  % can step through any arbitrary series
+
+Plotting
+
+  %For line plots, use vectors of the x-values and y-values:  x=[1 1.5 2 3 3.5 4]; y=[0 2 0 4 4 3];           plot(x,y,'b-o');      % b=blue, -=solid line, o=circles at points   hold on;              % plot over the current plot   plot(x,log(x),'r--'); % r=red, --=dashed line 
+  %Data are plotted and connected in the order they are given:
+  x=[1 3 1.5 2 3.5 4]; y=[0 4 2 0 4 3];           plot(x,y,'g-.');      % plot the same points but in a different order   %Matlab has some useful pre-defined plotting & drawing functions, such as
+  %  hist : compute and plot histograms
+  %  bar  : bar graphs  (bar3 = 3D bar graph)
+  %  surf, mesh: surface and mesh-frame surfaces
+  %  contour: contour plot (contour3 = 3D contour)
+  %  quiver : "quiver" or vector flow plot
+  %  image: display an image (imagesc: with scaling)
+  %Finally, "colormap" sets the value-to-color interpretation in plots
+
+Intermediate Subjects
+Find
+
+  You can access the internals of vectors with indices, or with logical vectors of the same size   a = [0 -1 2 -1];   idx=find( a < 0 ),    % returns a list of indices where condition is true: idx=[2 4]   b = a( find(a>=0) ),  % extracts subseries where condition is true: b=[0 2]   a( find(a<0) )=0,     % replace negative entries with zero   a = [0 -1 2 -1];      % Here's an equivalent way to do the same thing using logical indexing:   b=a; b(b<0)=[];       % remove (replace with empty) positions where b < 0   a( a < 0 ) = 0,       % replace negative entries with zero 
+
+Random numbers
+
+  %Basics   u = rand(1,10);             % 10 uniformly distributed random numbers in [0,1)   x = randn(2,10);           % 2x10 "standard Gaussian" (independent, variance 1) draws   pi = randperm(10);        % random permutation (reordering) of 1:10   s = ceil(10*rand(1,10));  % random re-sampling (bootstrap) from 1:10   % Seeds: often it is useful to have reproducible random numbers   rand('state',seed);   % use "state" random # generator, with initial seed "seed"   randn('state',seed);  % same idea, for the Gaussian random # generator
+
+Toolboxes
+stats, optimization,
+
+Structures and cell arrays
+
+  % Cell arrays store collections of mismatched objects (different in type or in size)   c{1} = rand(1,5); c{2} = rand(1,10); c{3} = uint32(1:5);     % Structs can also hold collections, but use names rather than vector/matrix indexing   s.myRandom = rand(1,5); s.myZeros = zeros(3,3); 
+
+Miscellaneous
+
+  % Command history   diary on;             % record input & output to file diary  diary myFile.txt;     % record input & output to file myFile.txt  diary off;            % stop recording   % Saving and Loading   save file.mat;      % save all variables to file.mat   load file.mat;      % restore variables from file.mat   save file.txt var -ASCII;   % save variable "var" to "file.txt" in ascii format   var = load('file.txt');    % load a single variable from a text file 
+
+Advanced Material
+Classes
+See Matlab Classes page.
+
+Mex-files
+Matlab is interpreted, and this can make it very slow at some things, including many for-loops or other repeated computations.  Sometimes compiled code can be faster.  Mex functions are compiled code, usually C or C++, that are called from Matlab.  By definition, this makes them platform specific and must be recompiled on each architecture, but the performance boost can be worth it.
+
+
+
+
+
+
+
+ Last modified January 05, 2015, at 12:07 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

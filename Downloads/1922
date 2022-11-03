@@ -1,0 +1,83 @@
+https://sli.ics.uci.edu/PmWiki/PmWiki
+
+
+
+SLI | PmWiki / PmWiki 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+PmWiki
+
+
+
+
+
+
+PmWiki is a wiki-based system for collaborative creation and maintenance of websites.
+
+PmWiki pages look and act like normal web pages, except they have an "Edit" link that makes it easy to modify existing pages and add new pages into the website, using basic editing rules. You do not need to know or use any HTML or CSS. Page editing can be left open to the public or restricted to small groups of authors.
+
+Key PmWiki Features
+Custom look-and-feel: A site administrator can quickly change the appearance and functions of a PmWiki site by using different skins and HTML templates.  If you can't find an appropriate skin already made, you can easily modify one or create your own.
+Access control: PmWiki password protection can be applied to an entire site, to groups of pages, or to individual pages.  Password protection controls who can read pages, edit pages, and upload attachments.  PmWiki's access control system is completely self-contained, but it can also work in conjunction with existing password databases, such as .htaccess, LDAP servers, and MySQL databases.
+Customization and plugin architecture: One principle of the PmWikiPhilosophy is to only include essential features in the core engine, but make it easy for administrators to customize and add new markup.  Hundreds of features are already available by using extensions (called "recipes") that are available from the PmWiki Cookbook.
+PmWiki is written in PHP and distributed under the General Public License.  It is designed to be simple to install, customize, and maintain for a variety of applications. This site is running pmwiki-2.2.93.
+
+PmWiki is a registered trademark of Patrick R. Michaud. Since January 2009 PmWiki is actively maintained by Petko Yotov under the oversight of Dr Michaud.
+
+PmWiki's home on the web is at www.pmwiki.org.
+ 
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:PmWiki, and  a talk page: PmWiki:PmWiki-Talk.
+
+
+
+
+
+
+ Last modified February 03, 2013, at 12:07 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

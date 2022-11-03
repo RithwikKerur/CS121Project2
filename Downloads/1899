@@ -1,0 +1,107 @@
+https://sli.ics.uci.edu/PmWiki/DesignNotes
+
+
+
+SLI | PmWiki / DesignNotes 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+DesignNotes
+
+
+
+
+
+< PmWiki philosophy | Documentation Index | Release notes >
+
+
+
+Here are some of the features and notes about PmWiki's design decisions.  
+Many of these derive directly from the PmWiki Philosophy and lots of discussion on the mailing lists.
+
+PmWiki:Flat File Advantages - why PmWiki uses flat files to store pages instead of an SQL database
+PmWiki:Hierarchical Groups - why PmWiki doesn't support nested groups
+PmWiki:Page Locking - how PmWiki works without locking pages (see also simultaneous edits)
+PmWiki:Page File Format - the format of PmWiki's page files
+PmWiki:Search Improvements - why PmWiki has a native search engine
+PmWiki:File Permissions - some information about PmWiki's file permission settings
+PmWiki:Wiki Group Motivation - why WikiGroups
+PmWiki:WYSIWYG - why not WYSIWYG.
+ 
+ Why doesn't PmWiki  use hierarchical / nested groups?
+ It essentially comes down to figuring out how to handle 
+page links between nested groups; if someone can figure out 
+an obvious, intuitive way for authors to
+do that, then nested groups become plausible.  See Design Notes
+and PmWiki:Hierarchical Groups.
+
+ Why don't PmWiki's scripts have a closing ?> tag?
+ All of PmWiki's scripts now omit the closing ?> tag.  The tag is not
+required, and it avoids problems with unnoticed spaces or blank
+lines at the end of the file.  Also, some file transfer protocols
+may change the newline character(s) in the file, which can also
+cause problems.  See also the Instruction separation page in the PHP manual.
+
+ Does PmWiki support WYSIWYG editing (or something like the FCKEditor)?
+ Short answer:  PmWiki provides GUI buttons in a toolbar for common markups, but otherwise does not have WYSIWYG editing.  For the reasons why, see PmWiki:WYSIWYG.
+
+Categories: PmWiki Developer
+
+
+
+< PmWiki philosophy | Documentation Index | Release notes >
+
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:DesignNotes, and  a talk page: PmWiki:DesignNotes-Talk.
+
+
+
+
+
+
+ Last modified March 05, 2012, at 05:32 AM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

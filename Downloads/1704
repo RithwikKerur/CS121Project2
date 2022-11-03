@@ -1,0 +1,124 @@
+http://sli.ics.uci.edu/Classes/2008W
+
+
+
+SLI | Classes / CS295, Winter 2008: Advanced Methods in Graphical Models 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Classes /
+CS295, Winter 2008: Advanced Methods in Graphical Models
+
+
+This course is a highly participatory exploration of recent research directions in learning and inference algorithms for probabilistic models, particularly graphical models (Bayes' nets, Markov random fields, et cetera). The class is structured to include both a student-led seminar portion, similar to a reading group but with more week-to-week structure, and a lecture part in which we will cover additional background, extensions and other related material. The course provides the opportunity to read and understand recent work relevant to research in graphical models and machine learning, while giving the course more structure and continuity than a typical seminar or reading group.
+
+Background. 
+Although the first week or two will provide a brief introduction to graphical models, students are expected to have some basic background, such as one of CS 271, 274-276 or equivalent. If unsure, send me an email or come by my office (BH4066) to discuss your background.
+
+Course format. 
+You, the student, will have the ability to influence the exact topics we cover. At the first meeting, we will decide on the set and sequence of topics, and students will divide into small groups, each of which will choose one topic for their own. Each week, one group will be responsible for reviewing the literature associated with their topic (with assistance from myself), providing a short written summary beforehand for the rest of the class, and leading a presentation and discussion of the papers during Tuesday class. The Thursday lecture will then proceed to elaborate in more depth, covering extensions or other closely related topics, or giving more background and details, depending on the subject. It is possible (even likely) that we will not make it through all the topics; priority will be given to "Tuesday" topics, with additional coverage by myself during the lecture portion on Thursday if necessary.
+
+Note: although there are one or more papers associated with each day's lecture, they should be considered (non-required) supplemental reading -- primary reading and preparation for the week come from the student-prepared summaries for Tuesday.
+
+Topics. 
+A selection of possible topics follows; these are subject to change and re-arrangment in the future. If you have additional ideas or suggestions for topics you'd like to see covered, let me know by email or in person and we will discuss them on the first day. 
+
+
+DatePresenterTopicand references
+Week 101/08/2008AlexInitial meeting and organization; introduction to graphical models
+ 01/10/2008Alexintroduction continued; exponential families, discrete and Gaussian distributions; inference in trees
+    Jordan et al. 1999 [PDF], Wainwright and Jordan 2003 [PDF]
+     
+Week 201/15/2008AlexExamples of graphical models; exact vs MCMC vs variational methods
+    Wainwright and Jordan 2003 [PDF]
+ 01/17/2008AlexVariational methods I: functionals, convexity; duality of parameters and marginals; the marginal polytope
+    Wainwright and Jordan 2003 [PDF]Yedidia et al. 2005 [PDF]
+     
+Week 301/22/2008AlexVariational methods II: mean field, belief propagation
+    Wainwright and Jordan 2003 [PDF]Yedidia et al. 2005 [PDF]
+ 01/24/2008AlexVariational methods III: belief propagation and tree-reweighted BP
+    Wainwright et al. 2003 [PDF]Yedidia et al. 2005 [PDF]Wainwright et al. 2005 [PDF]
+     
+Week 401/29/2008Drew"Efficient" methods for belief propagation[ Summary ]
+    Potetz 2007 [PDF]Felzenszwalb and Huttenlocher 2004 [PDF]
+ 01/31/2008AlexBelief propagation and mixing properties
+    Tatikonda and Jordan 2001 [PDF]Ihler et al. 2005 [PDF]Mooij and Kappen 2007 [PDF]
+     
+Week 502/05/2008AlexIntroduction to Markov chain Monte Carlo methods
+    N/A
+ 02/07/2008Dave NewmanIntroduction to graphical models for topic modeling and text data[ Slides ]
+    No reading
+     
+Week 602/12/2008ToddDirichlet processes and applications to topic modeling[ Summary ]
+    Neal 2000 [PDF]Ishwaran and James 2001 [PDF]
+ 02/14/2008AlexMore on Dirichlet Processes; Stick-breaking representations
+    Neal 2000 [PDF]Ishwaran and James 2001 [PDF]
+     
+Week 702/19/2008IanHierarchical Dirichlet processes and other "infinite state" models[ Slides ]
+    Teh et al. 2005 [PDF]Beal et al. 2002 [PDF]
+ 02/21/2008AlexOPEN
+    TBD
+     
+Week 802/26/2008KenLearning model structure via penalized regression[Slides ]
+    Wainwright et al . 2006 [PDF]Meinshausen and Buhlmann 2006 [PDF]
+ 02/28/2008AjayLearning mixtures of trees[ Slides ]
+    Meila and Jordan 2000 [PDF]Kirshner 2008 [PDF]
+     
+Week 903/04/2008DaveMax product and linear programming connections[ Summary ]
+    Weiss et al. 2007 [PDF]Sanghavi et al. 2008 [PDF]
+ 03/06/2008AlexOPEN
+    TBD
+     
+Week 1003/11/2008Chaitanya C.Variational approaches to LDA and topic modeling
+    Blei and Jordan 2004 [PDF]Kurihara et al. 2007 [PDF]Teh et al. 2008 [PDF]
+ 03/13/2008AlexOPEN
+    TBD
+
+
+
+
+
+
+ Last modified September 15, 2008, at 01:33 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

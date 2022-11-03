@@ -1,0 +1,949 @@
+https://duttgroup.ics.uci.edu/publications/?limit=1&
+
+
+
+
+
+
+Publications – Dutt Research Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to content
+
+
+
+
+
+
+ 
+
+Dutt Research Group
+DRG-Lab Webpage
+
+
+
+
+
+
+
+
+DRG Home
+Group Members
+Projects
+
+Self-Aware & Adaptive Computing
+
+Information Processing Factory (IPF)
+MARS
+Unified Parallel Runtime
+Memory Adaptation
+
+
+Health Care IoT
+
+Internet of Cognitive Things in healthcare
+Pain Assessment
+Maternity Care
+NSF Unite Project
+
+
+Domain-specific Hardware Accelerators
+Neuromorphic Computing
+
+
+Publications
+Sister Groups
+News
+
+
+
+
+Main Menu
+
+
+
+
+
+
+
+
+
+
+Publications 
+
+
+All publications:
+550 entries « ‹  1 of 11 › » 
+
+2022
+
+ Shahhosseini, Sina;  Anzanpour, Arman;  Azimi, Iman;  Labbaf, Sina;  Seo, DongJoo;  Lim, Sung-Soo;  Liljeberg, Pasi;  Dutt, Nikil;  Rahmani, Amir MExploring computation offloading in IoT systems Journal Article Information Systems, 107 , 2022, ISSN: 0306-4379.Abstract | Links | BibTeX@article{Shahhosseini2022,
+title = {Exploring computation offloading in IoT systems},
+author = {Sina Shahhosseini and Arman Anzanpour and Iman Azimi and Sina Labbaf and DongJoo Seo and Sung-Soo Lim and Pasi Liljeberg and Nikil Dutt and Amir M Rahmani },
+url = {https://www.sciencedirect.com/science/article/pii/S0306437921000910?via%3Dihub},
+issn = {0306-4379},
+year  = {2022},
+date = {2022-07-01},
+journal = {Information Systems},
+volume = {107},
+abstract = {Internet of Things (IoT) paradigm raises challenges for devising efficient strategies that offload
+applications to the fog or the cloud layer while ensuring the optimal response time for a ser-
+vice. Traditional computation offloading policies assume the response time is only dominated by
+the execution time. However, the response time is a function of many factors including contextual
+parameters and application characteristics that can change over time. For the computation offloading
+problem, the majority of existing literature presents efficient solutions considering a limited number of
+parameters (e.g., computation capacity and network bandwidth) neglecting the effect of the application
+characteristics and dataflow configuration. In this paper, we explore the impact of the computation
+offloading on total application response time in three-layer IoT systems considering more realistic
+parameters, e.g., application characteristics, system complexity, communication cost, and dataflow
+configuration. This paper also highlights the impact of a new application characteristic parameter
+defined as Output–Input Data Generation (OIDG) ratio and dataflow configuration on the system
+behavior. In addition, we present a proof-of-concept end-to-end dynamic computation offloading
+technique, implemented in a real hardware setup, that observes the aforementioned parameters to
+perform real-time decision-making.},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+CloseInternet of Things (IoT) paradigm raises challenges for devising efficient strategies that offload
+applications to the fog or the cloud layer while ensuring the optimal response time for a ser-
+vice. Traditional computation offloading policies assume the response time is only dominated by
+the execution time. However, the response time is a function of many factors including contextual
+parameters and application characteristics that can change over time. For the computation offloading
+problem, the majority of existing literature presents efficient solutions considering a limited number of
+parameters (e.g., computation capacity and network bandwidth) neglecting the effect of the application
+characteristics and dataflow configuration. In this paper, we explore the impact of the computation
+offloading on total application response time in three-layer IoT systems considering more realistic
+parameters, e.g., application characteristics, system complexity, communication cost, and dataflow
+configuration. This paper also highlights the impact of a new application characteristic parameter
+defined as Output–Input Data Generation (OIDG) ratio and dataflow configuration on the system
+behavior. In addition, we present a proof-of-concept end-to-end dynamic computation offloading
+technique, implemented in a real hardware setup, that observes the aforementioned parameters to
+perform real-time decision-making.Closehttps://www.sciencedirect.com/science/article/pii/S0306437921000910?via%3DihubClose Shahhosseini, Sina;  Hu, Tianyi;  Seo, Dongjoo;  Kanduri, Anil;  Donyanavard, Bryan;  Rahmani, Amir M;  Dutt, NikilHybrid Learning for Orchestrating Deep Learning Inference in Multi-user Edge-cloud Networks (Best Paper Award) Inproceedings 2022 23rd International Symposium on Quality Electronic Design (ISQED), pp. 1-6, 2022.Abstract | Links | BibTeX@inproceedings{9806291,
+title = {Hybrid Learning for Orchestrating Deep Learning Inference in Multi-user Edge-cloud Networks (Best Paper Award)},
+author = {Sina Shahhosseini and Tianyi Hu and Dongjoo Seo and Anil Kanduri and Bryan Donyanavard and Amir M Rahmani and Nikil Dutt},
+url = {https://ieeexplore.ieee.org/document/9806291},
+doi = {10.1109/ISQED54688.2022.9806291},
+year  = {2022},
+date = {2022-06-29},
+booktitle = {2022 23rd International Symposium on Quality Electronic Design (ISQED)},
+pages = {1-6},
+abstract = {Deep-learning-based intelligent services have become prevalent in cyber-physical applications including smart cities and health-care. Collaborative end-edge-cloud computing for deep learning provides a range of performance and efficiency that can address application requirements through computation offloading. The decision to offload computation is a communication-computation co-optimization problem that varies with both system parameters (e.g., network condition) and workload characteristics (e.g., inputs). Identifying optimal orchestration considering the cross-layer opportunities and requirements in the face of varying system dynamics is a challenging multi-dimensional problem. While Reinforcement Learning (RL) approaches have been proposed earlier, they suffer from a large number of trial-and-errors during the learning process resulting in excessive time and resource consumption. We present a Hybrid Learning orchestration framework that reduces the number of interactions with the system environment by combining model-based and model-free reinforcement learning. Our Deep Learning inference orchestration strategy employs reinforcement learning to find the optimal orchestration policy. Furthermore, we deploy Hybrid Learning (HL) to accelerate the RL learning process and reduce the number of direct samplings. We demonstrate efficacy of our HL strategy through experimental comparison with state-of-the-art RL-based inference orchestration, demonstrating that our HL strategy accelerates the learning process by up to 166.6×.},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+CloseDeep-learning-based intelligent services have become prevalent in cyber-physical applications including smart cities and health-care. Collaborative end-edge-cloud computing for deep learning provides a range of performance and efficiency that can address application requirements through computation offloading. The decision to offload computation is a communication-computation co-optimization problem that varies with both system parameters (e.g., network condition) and workload characteristics (e.g., inputs). Identifying optimal orchestration considering the cross-layer opportunities and requirements in the face of varying system dynamics is a challenging multi-dimensional problem. While Reinforcement Learning (RL) approaches have been proposed earlier, they suffer from a large number of trial-and-errors during the learning process resulting in excessive time and resource consumption. We present a Hybrid Learning orchestration framework that reduces the number of interactions with the system environment by combining model-based and model-free reinforcement learning. Our Deep Learning inference orchestration strategy employs reinforcement learning to find the optimal orchestration policy. Furthermore, we deploy Hybrid Learning (HL) to accelerate the RL learning process and reduce the number of direct samplings. We demonstrate efficacy of our HL strategy through experimental comparison with state-of-the-art RL-based inference orchestration, demonstrating that our HL strategy accelerates the learning process by up to 166.6×.Closehttps://ieeexplore.ieee.org/document/9806291doi:10.1109/ISQED54688.2022.9806291Close Shahhossein, Sina;  Ni, Yang;  Naeini, Emad Kasaeyan;  Imani, Mohsen;  Rahmani, Amir M;  Dutt, NikilFlexible and Personalized Learning for Wearable Health Applications using HyperDimensional Computing Proceeding  Proceedings of the Great Lakes Symposium on VLSI , 2022, ISBN: 9781450393225.Abstract | Links | BibTeX@proceedings{Shahhossein2022,
+title = {Flexible and Personalized Learning for Wearable Health Applications using HyperDimensional Computing},
+author = {Sina Shahhossein and Yang Ni and Emad Kasaeyan Naeini and Mohsen Imani and Amir M. Rahmani and Nikil Dutt },
+url = {https://doi.org/10.1145/3526241.3530373},
+doi = {10.1145/3526241.3530373},
+isbn = {9781450393225},
+year  = {2022},
+date = {2022-06-06},
+publisher = { Proceedings of the Great Lakes Symposium on VLSI },
+abstract = {Health and wellness applications increasingly rely on machine learning techniques to learn end-user physiological and behavioral patterns in everyday settings, posing two key challenges: inability to perform on-device online learning for resource-constrained wearables, and learning algorithms that support privacy-preserving personalization. We exploit a Hyperdimensional computing (HDC) solution for wearable devices that offers flexibility, high efficiency, and performance while enabling on-device personalization and privacy protection. We evaluate the efficacy of our approach using three case studies and show that our system improves performance of training by up to 35.8x compared with the state-of-the-art while offering a comparable accurac},
+keywords = {},
+pubstate = {published},
+tppubtype = {proceedings}
+}
+CloseHealth and wellness applications increasingly rely on machine learning techniques to learn end-user physiological and behavioral patterns in everyday settings, posing two key challenges: inability to perform on-device online learning for resource-constrained wearables, and learning algorithms that support privacy-preserving personalization. We exploit a Hyperdimensional computing (HDC) solution for wearable devices that offers flexibility, high efficiency, and performance while enabling on-device personalization and privacy protection. We evaluate the efficacy of our approach using three case studies and show that our system improves performance of training by up to 35.8x compared with the state-of-the-art while offering a comparable accuracClosehttps://doi.org/10.1145/3526241.3530373doi:10.1145/3526241.3530373Close Naeini, Emad Kasaeyan;  Shahhosseini, Sina;  Kanduri, Anil;  Liljeberg, Pasi;  Rahmani, Amir M;  Dutt, NikilAMSER: Adaptive Multimodal Sensing for Energy Efficient and Resilient eHealth Systems Conference 2022 Design, Automation Test in Europe Conference Exhibition (DATE), 2022, ISBN: 978-3-9819263-6-1.Abstract | Links | BibTeX@conference{Naeini2022,
+title = {AMSER: Adaptive Multimodal Sensing for Energy Efficient and Resilient eHealth Systems},
+author = {Emad Kasaeyan Naeini and Sina Shahhosseini and Anil Kanduri and Pasi Liljeberg and Amir M. Rahmani and Nikil Dutt },
+url = {https://ieeexplore.ieee.org/document/9774590},
+doi = {10.23919/DATE54114.2022.9774590},
+isbn = {978-3-9819263-6-1},
+year  = {2022},
+date = {2022-05-19},
+booktitle = {2022 Design, Automation Test in Europe Conference Exhibition (DATE)},
+pages = {1455-1460},
+abstract = {eHealth systems deliver critical digital healthcare and wellness services for users by continuously monitoring physiological and contextual data. eHealth applications use multi-modal machine learning kernels to analyze data from different sensor modalities and automate decision-making. Noisy inputs and motion artifacts during sensory data acquisition affect the i) prediction accuracy and resilience of eHealth services and ii) energy efficiency in processing garbage data. Monitoring raw sensory inputs to identify and drop data and features from noisy modalities can improve prediction accuracy and energy efficiency. We propose a closed-loop monitoring and control framework for multi-modal eHealth applications, AMSER, that can mitigate garbage-in garbage-out by i) monitoring input modalities, ii) analyzing raw input to selectively drop noisy data and features, and iii) choosing appropriate machine learning models that fit the configured data and feature vector - to improve prediction accuracy and energy efficiency. We evaluate our AMSER approach using multi-modal eHealth applications of pain assessment and stress monitoring over different levels and types of noisy components incurred via different sensor modalities. Our approach achieves up to 22% improvement in prediction accuracy and 5.6× energy consumption reduction in the sensing phase against the state-of-the-art multi-modal monitoring application.},
+keywords = {},
+pubstate = {published},
+tppubtype = {conference}
+}
+CloseeHealth systems deliver critical digital healthcare and wellness services for users by continuously monitoring physiological and contextual data. eHealth applications use multi-modal machine learning kernels to analyze data from different sensor modalities and automate decision-making. Noisy inputs and motion artifacts during sensory data acquisition affect the i) prediction accuracy and resilience of eHealth services and ii) energy efficiency in processing garbage data. Monitoring raw sensory inputs to identify and drop data and features from noisy modalities can improve prediction accuracy and energy efficiency. We propose a closed-loop monitoring and control framework for multi-modal eHealth applications, AMSER, that can mitigate garbage-in garbage-out by i) monitoring input modalities, ii) analyzing raw input to selectively drop noisy data and features, and iii) choosing appropriate machine learning models that fit the configured data and feature vector - to improve prediction accuracy and energy efficiency. We evaluate our AMSER approach using multi-modal eHealth applications of pain assessment and stress monitoring over different levels and types of noisy components incurred via different sensor modalities. Our approach achieves up to 22% improvement in prediction accuracy and 5.6× energy consumption reduction in the sensing phase against the state-of-the-art multi-modal monitoring application.Closehttps://ieeexplore.ieee.org/document/9774590doi:10.23919/DATE54114.2022.9774590Close Vo, Khuong;  Vishwanath, Manoj;  Srinivasan, Ramesh;  Dutt, Nikil;  Cao, HungComposing Graphical Models with Generative Adversarial Networks for EEG Signal Modeling Conference Composing Graphical Models with Generative Adversarial Networks for EEG Signal Modeling, 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2022, ISSN: 2379-190X.Abstract | Links | BibTeX@conference{Vo2022,
+title = {Composing Graphical Models with Generative Adversarial Networks for EEG Signal Modeling},
+author = {Khuong Vo and Manoj Vishwanath and Ramesh Srinivasan and Nikil Dutt and Hung Cao },
+url = {https://ieeexplore.ieee.org/abstract/document/9747783},
+doi = {10.1109/ICASSP43922.2022.9747783},
+issn = {2379-190X},
+year  = {2022},
+date = {2022-04-22},
+booktitle = {Composing Graphical Models with Generative Adversarial Networks for EEG Signal Modeling},
+pages = {1231-1235},
+publisher = {2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+abstract = {Neural oscillations in the form of electroencephalogram (EEG) can reveal underlying brain functions, such as cognition, memory, perception, and consciousness. A comprehensive EEG computational model provides not only a stochastic procedure that directly generates data but also insights to further understand the neurological mechanisms. Here, we propose a generative and inference approach that combines the complementary benefits of probabilistic graphical models and generative adversarial networks (GANs) for EEG signal modeling. We investigate the method’s ability to jointly learn coherent generation and inverse inference models on the CHIMIT epilepsy multi-channel EEG dataset. We further study the efficacy of the learned representations in epilepsy seizure detection formulated as an unsupervised learning problem. Quantitative and qualitative experimental results demonstrate the effectiveness and efficiency of our approach.},
+keywords = {},
+pubstate = {published},
+tppubtype = {conference}
+}
+CloseNeural oscillations in the form of electroencephalogram (EEG) can reveal underlying brain functions, such as cognition, memory, perception, and consciousness. A comprehensive EEG computational model provides not only a stochastic procedure that directly generates data but also insights to further understand the neurological mechanisms. Here, we propose a generative and inference approach that combines the complementary benefits of probabilistic graphical models and generative adversarial networks (GANs) for EEG signal modeling. We investigate the method’s ability to jointly learn coherent generation and inverse inference models on the CHIMIT epilepsy multi-channel EEG dataset. We further study the efficacy of the learned representations in epilepsy seizure detection formulated as an unsupervised learning problem. Quantitative and qualitative experimental results demonstrate the effectiveness and efficiency of our approach.Closehttps://ieeexplore.ieee.org/abstract/document/9747783doi:10.1109/ICASSP43922.2022.9747783Close Shahhosseini, Sina;  Seo, Dongjoo;  Kanduri, Anil;  Hu, Tianyi;  Lim, Sung-Soo;  Donyanavard, Bryan;  Rahmani, Amir M;  Dutt, Nikil DOnline Learning for Orchestration of Inference in Multi-User End-Edge-Cloud Networks Journal Article ACM Transactions on Embedded Computing Systems (TECS), 2022, ISSN: 1539-9087.Abstract | Links | BibTeX@article{https://doi.org/10.1145/3520129,
+title = {Online Learning for Orchestration of Inference in Multi-User End-Edge-Cloud Networks},
+author = {Sina Shahhosseini and Dongjoo Seo and Anil Kanduri and Tianyi Hu and Sung-Soo Lim and Bryan Donyanavard and Amir M. Rahmani and Nikil D. Dutt},
+url = {https://dl.acm.org/doi/abs/10.1145/3520129},
+doi = {10.1145/3520129},
+issn = {1539-9087},
+year  = {2022},
+date = {2022-02-21},
+journal = {ACM Transactions on Embedded Computing Systems (TECS)},
+abstract = {Deep-learning-based intelligent services have become prevalent in cyber-physical applications including smart cities and health-care. Deploying deep-learning-based intelligence near the end-user enhances privacy protection, responsiveness, and reliability. Resource-constrained end-devices must be carefully managed in order to meet the latency and energy requirements of computationally-intensive deep learning services. Collaborative end-edge-cloud computing for deep learning provides a range of performance and efficiency that can address application requirements through computation offloading. The decision to offload computation is a communication-computation co-optimization problem that varies with both system parameters (e.g., network condition) and workload characteristics (e.g., inputs). On the other hand, deep learning model optimization provides another source of tradeoff between latency and model accuracy. An end-to-end decision-making solution that considers such computation-communication problem is required to synergistically find the optimal offloading policy and model for deep learning services. To this end, we propose a reinforcement-learning-based computation offloading solution that learns optimal offloading policy considering deep learning model selection techniques to minimize response time while providing sufficient accuracy. We demonstrate the effectiveness of our solution for edge devices in an end-edge-cloud system and evaluate with a real-setup implementation using multiple AWS and ARM core configurations. Our solution provides 35% speedup in the average response time compared to the state-of-the-art with less than 0.9% accuracy reduction, demonstrating the promise of our online learning framework for orchestrating DL inference in end-edge-cloud systems.},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+CloseDeep-learning-based intelligent services have become prevalent in cyber-physical applications including smart cities and health-care. Deploying deep-learning-based intelligence near the end-user enhances privacy protection, responsiveness, and reliability. Resource-constrained end-devices must be carefully managed in order to meet the latency and energy requirements of computationally-intensive deep learning services. Collaborative end-edge-cloud computing for deep learning provides a range of performance and efficiency that can address application requirements through computation offloading. The decision to offload computation is a communication-computation co-optimization problem that varies with both system parameters (e.g., network condition) and workload characteristics (e.g., inputs). On the other hand, deep learning model optimization provides another source of tradeoff between latency and model accuracy. An end-to-end decision-making solution that considers such computation-communication problem is required to synergistically find the optimal offloading policy and model for deep learning services. To this end, we propose a reinforcement-learning-based computation offloading solution that learns optimal offloading policy considering deep learning model selection techniques to minimize response time while providing sufficient accuracy. We demonstrate the effectiveness of our solution for edge devices in an end-edge-cloud system and evaluate with a real-setup implementation using multiple AWS and ARM core configurations. Our solution provides 35% speedup in the average response time compared to the state-of-the-art with less than 0.9% accuracy reduction, demonstrating the promise of our online learning framework for orchestrating DL inference in end-edge-cloud systems.Closehttps://dl.acm.org/doi/abs/10.1145/3520129doi:10.1145/3520129Close
+
+2021
+
+ Sarhaddi, Fatemeh;  Azimi, Iman;  Labbaf, Sina;  Niela-Vilén, Hannakaisa;  Dutt, Nikil D;  Axelin, Anna;  Liljeberg, Pasi;  Rahmani, Amir MLong-Term IoT-Based Maternal Monitoring: System Design and Evaluation Journal Article Sensors, 21 (7), pp. 2281, 2021.Links | BibTeX@article{DBLP:journals/sensors/SarhaddiALNDALR21,
+title = {Long-Term IoT-Based Maternal Monitoring: System Design and Evaluation},
+author = {Fatemeh Sarhaddi and Iman Azimi and Sina Labbaf and Hannakaisa Niela-Vilén and Nikil D Dutt and Anna Axelin and Pasi Liljeberg and Amir M Rahmani},
+url = {https://doi.org/10.3390/s21072281},
+doi = {10.3390/s21072281},
+year  = {2021},
+date = {2021-01-01},
+journal = {Sensors},
+volume = {21},
+number = {7},
+pages = {2281},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.3390/s21072281doi:10.3390/s21072281Close Maity, Biswadip;  Donyanavard, Bryan;  Surhonne, Anmol;  Rahmani, Amir M;  Herkersdorf, Andreas;  Dutt, Nikil DSEAMS: Self-Optimizing Runtime Manager for Approximate Memory Hierarchies Journal Article ACM Trans. Embed. Comput. Syst., 20 (5), pp. 48:1–48:26, 2021.Links | BibTeX@article{DBLP:journals/tecs/MaityDSRHD21,
+title = {SEAMS: Self-Optimizing Runtime Manager for Approximate Memory Hierarchies},
+author = {Biswadip Maity and Bryan Donyanavard and Anmol Surhonne and Amir M Rahmani and Andreas Herkersdorf and Nikil D Dutt},
+url = {https://doi.org/10.1145/3466875},
+doi = {10.1145/3466875},
+year  = {2021},
+date = {2021-01-01},
+journal = {ACM Trans. Embed. Comput. Syst.},
+volume = {20},
+number = {5},
+pages = {48:1--48:26},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1145/3466875doi:10.1145/3466875Close Shahhosseini, Sina;  Kanduri, Anil;  Mehrabadi, Milad Asgari;  Naeini, Emad Kasaeyan;  Seo, Dongjoo;  Lim, Sung-Soo;  Rahmani, Amir M;  Dutt, Nikil DTowards Smart and Efficient Health Monitoring Using Edge-enabled Situational-awareness Inproceedings 3rd IEEE International Conference on Artificial Intelligence Circuits 
+ and Systems, AICAS 2021, Washington, DC, USA, June 6-9, 2021, pp. 1–4, IEEE, 2021.Links | BibTeX@inproceedings{DBLP:conf/aicas/ShahhosseiniKMN21,
+title = {Towards Smart and Efficient Health Monitoring Using Edge-enabled Situational-awareness},
+author = {Sina Shahhosseini and Anil Kanduri and Milad Asgari Mehrabadi and Emad Kasaeyan Naeini and Dongjoo Seo and Sung-Soo Lim and Amir M Rahmani and Nikil D Dutt},
+url = {https://doi.org/10.1109/AICAS51828.2021.9458477},
+doi = {10.1109/AICAS51828.2021.9458477},
+year  = {2021},
+date = {2021-01-01},
+booktitle = {3rd IEEE International Conference on Artificial Intelligence Circuits 
+ and Systems, AICAS 2021, Washington, DC, USA, June 6-9, 2021},
+pages = {1--4},
+publisher = {IEEE},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/AICAS51828.2021.9458477doi:10.1109/AICAS51828.2021.9458477Close Aqajari, Seyed Amir Hossein;  Naeini, Emad Kasaeyan;  Mehrabadi, Milad Asgari;  Labbaf, Sina;  Dutt, Nikil D;  Rahmani, Amir MpyEDA: An Open-Source Python Toolkit for Pre-processing and Feature  Extraction of Electrodermal Activity Inproceedings The 12th International Conference on Ambient Systems, Networks and 
+ Technologies (ANT 2021) / The 4th International Conference on Emerging 
+ Data and Industry 4.0 (EDI40 2021) / Affiliated Workshops, March 
+ 23-26, 2021, Warsaw, Poland, pp. 99–106, Elsevier, 2021.Links | BibTeX@inproceedings{DBLP:conf/ant/AqajariNMLDR21,
+title = {pyEDA: An Open-Source Python Toolkit for Pre-processing and Feature  Extraction of Electrodermal Activity},
+author = {Seyed Amir Hossein Aqajari and Emad Kasaeyan Naeini and Milad Asgari Mehrabadi and Sina Labbaf and Nikil D Dutt and Amir M Rahmani},
+url = {https://doi.org/10.1016/j.procs.2021.03.021},
+doi = {10.1016/j.procs.2021.03.021},
+year  = {2021},
+date = {2021-01-01},
+booktitle = {The 12th International Conference on Ambient Systems, Networks and 
+ Technologies (ANT 2021) / The 4th International Conference on Emerging 
+ Data and Industry 4.0 (EDI40 2021) / Affiliated Workshops, March 
+ 23-26, 2021, Warsaw, Poland},
+volume = {184},
+pages = {99--106},
+publisher = {Elsevier},
+series = {Procedia Computer Science},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1016/j.procs.2021.03.021doi:10.1016/j.procs.2021.03.021Close Donyanavard, Bryan;  ü, Tiago M;  Moazzemi, Kasra;  Maity, Biswadip; de Melo, Caio Batista;  Stewart, Kenneth;  Yi, Saehanseul;  Rahmani, Amir M;  Dutt, Nikil DReflecting on Self-Aware Systems-on-Chip Inproceedings A Journey of Embedded and Cyber-Physical Systems - Essays Dedicated 
+ to Peter Marwedel on the Occasion of His 70th Birthday, pp. 79–95, Springer, 2021.Links | BibTeX@inproceedings{DBLP:conf/birthday/DonyanavardMMMM21,
+title = {Reflecting on Self-Aware Systems-on-Chip},
+author = {Bryan Donyanavard and Tiago M ü and Kasra Moazzemi and Biswadip Maity and Caio Batista de Melo and Kenneth Stewart and Saehanseul Yi and Amir M Rahmani and Nikil D Dutt},
+url = {https://doi.org/10.1007/978-3-030-47487-4_6},
+doi = {10.1007/978-3-030-47487-4_6},
+year  = {2021},
+date = {2021-01-01},
+booktitle = {A Journey of Embedded and Cyber-Physical Systems - Essays Dedicated 
+ to Peter Marwedel on the Occasion of His 70th Birthday},
+pages = {79--95},
+publisher = {Springer},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1007/978-3-030-47487-4_6doi:10.1007/978-3-030-47487-4_6Close Tazarv, Ali;  Labbaf, Sina;  Rahmani, Amir M;  Dutt, Nikil D;  Levorato, MarcoData Collection and Labeling of Real-Time IoT-Enabled Bio-Signals 
+ in Everyday Settings for Mental Health Improvement Inproceedings  Gaggi, Ombretta;  Manzoni, Pietro;  Palazzi, Claudio E (Ed.): GoodIT '21: Conference on Information Technology for Social Good, 
+ Roma, Italy, September 9-11, 2021, pp. 186–191, ACM, 2021.Links | BibTeX@inproceedings{DBLP:conf/goodit/TazarvLRDL21,
+title = {Data Collection and Labeling of Real-Time IoT-Enabled Bio-Signals 
+ in Everyday Settings for Mental Health Improvement},
+author = {Ali Tazarv and Sina Labbaf and Amir M Rahmani and Nikil D Dutt and Marco Levorato},
+editor = {Ombretta Gaggi and Pietro Manzoni and Claudio E Palazzi},
+url = {https://doi.org/10.1145/3462203.3475918},
+doi = {10.1145/3462203.3475918},
+year  = {2021},
+date = {2021-01-01},
+booktitle = {GoodIT '21: Conference on Information Technology for Social Good, 
+ Roma, Italy, September 9-11, 2021},
+pages = {186--191},
+publisher = {ACM},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/3462203.3475918doi:10.1145/3462203.3475918Close Yi, Saehanseul;  Kim, Tae-Wook;  Kim, Jong-Chan;  Dutt, Nikil DEnergy-Efficient Adaptive System Reconfiguration for Dynamic Deadlines  in Autonomous Driving Inproceedings 24th IEEE International Symposium on Real-Time Distributed Computing, 
+ ISORC 2021, Daegu, South Korea, June 1-3, 2021, pp. 96–104, IEEE, 2021.Links | BibTeX@inproceedings{DBLP:conf/isorc/YiKKD21,
+title = {Energy-Efficient Adaptive System Reconfiguration for Dynamic Deadlines  in Autonomous Driving},
+author = {Saehanseul Yi and Tae-Wook Kim and Jong-Chan Kim and Nikil D Dutt},
+url = {https://doi.org/10.1109/ISORC52013.2021.00023},
+doi = {10.1109/ISORC52013.2021.00023},
+year  = {2021},
+date = {2021-01-01},
+booktitle = {24th IEEE International Symposium on Real-Time Distributed Computing, 
+ ISORC 2021, Daegu, South Korea, June 1-3, 2021},
+pages = {96--104},
+publisher = {IEEE},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ISORC52013.2021.00023doi:10.1109/ISORC52013.2021.00023Close Vo, Khuong;  Naeini, Emad Kasaeyan;  Naderi, Amir;  Jilani, Daniel;  Rahmani, Amir M;  Dutt, Nikil D;  Cao, HungP2E-WGAN: ECG waveform synthesis from PPG with conditional wasserstein  generative adversarial networks Inproceedings SAC '21: The 36th ACM/SIGAPP Symposium on Applied Computing, Virtual 
+ Event, Republic of Korea, March 22-26, 2021, pp. 1030–1036, ACM, 2021.Links | BibTeX@inproceedings{DBLP:conf/sac/VoNNJRDC21,
+title = {P2E-WGAN: ECG waveform synthesis from PPG with conditional wasserstein  generative adversarial networks},
+author = {Khuong Vo and Emad Kasaeyan Naeini and Amir Naderi and Daniel Jilani and Amir M Rahmani and Nikil D Dutt and Hung Cao},
+url = {https://doi.org/10.1145/3412841.3441979},
+doi = {10.1145/3412841.3441979},
+year  = {2021},
+date = {2021-01-01},
+booktitle = {SAC '21: The 36th ACM/SIGAPP Symposium on Applied Computing, Virtual 
+ Event, Republic of Korea, March 22-26, 2021},
+pages = {1030--1036},
+publisher = {ACM},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/3412841.3441979doi:10.1145/3412841.3441979Close Titirsha, Twisha;  Song, Shihao;  Das, Anup;  Krichmar, Jeffrey L;  Dutt, Nikil D;  Kandasamy, Nagarajan;  Catthoor, FranckyEndurance-Aware Mapping of Spiking Neural Networks to Neuromorphic 
+ Hardware Journal Article CoRR, abs/2103.05707 , 2021.Links | BibTeX@article{DBLP:journals/corr/abs-2103-05707,
+title = {Endurance-Aware Mapping of Spiking Neural Networks to Neuromorphic 
+ Hardware},
+author = {Twisha Titirsha and Shihao Song and Anup Das and Jeffrey L Krichmar and Nikil D Dutt and Nagarajan Kandasamy and Francky Catthoor},
+url = {https://arxiv.org/abs/2103.05707},
+year  = {2021},
+date = {2021-01-01},
+journal = {CoRR},
+volume = {abs/2103.05707},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://arxiv.org/abs/2103.05707Close Balaji, Adarsha;  Song, Shihao;  Titirsha, Twisha;  Das, Anup;  Krichmar, Jeffrey L;  Dutt, Nikil D;  Shackleford, James A;  Kandasamy, Nagarajan;  Catthoor, FranckyNeuroXplorer 1.0: An Extensible Framework for Architectural Exploration 
+ with Spiking Neural Networks Journal Article CoRR, abs/2105.01795 , 2021.Links | BibTeX@article{DBLP:journals/corr/abs-2105-01795,
+title = {NeuroXplorer 1.0: An Extensible Framework for Architectural Exploration 
+ with Spiking Neural Networks},
+author = {Adarsha Balaji and Shihao Song and Twisha Titirsha and Anup Das and Jeffrey L Krichmar and Nikil D Dutt and James A Shackleford and Nagarajan Kandasamy and Francky Catthoor},
+url = {https://arxiv.org/abs/2105.01795},
+year  = {2021},
+date = {2021-01-01},
+journal = {CoRR},
+volume = {abs/2105.01795},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://arxiv.org/abs/2105.01795Close Song, Shihao;  Hanamshet, Jui;  Balaji, Adarsha;  Das, Anup;  Krichmar, Jeffrey L;  Dutt, Nikil D;  Kandasamy, Nagarajan;  Catthoor, FranckyDynamic Reliability Management in Neuromorphic Computing Journal Article CoRR, abs/2105.02038 , 2021.Links | BibTeX@article{DBLP:journals/corr/abs-2105-02038,
+title = {Dynamic Reliability Management in Neuromorphic Computing},
+author = {Shihao Song and Jui Hanamshet and Adarsha Balaji and Anup Das and Jeffrey L Krichmar and Nikil D Dutt and Nagarajan Kandasamy and Francky Catthoor},
+url = {https://arxiv.org/abs/2105.02038},
+year  = {2021},
+date = {2021-01-01},
+journal = {CoRR},
+volume = {abs/2105.02038},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://arxiv.org/abs/2105.02038Close Mück, Tiago;  Donyanavard, Bryan;  Maity, Biswadip;  Moazzemi, Kasra;  Dutt, Nikil DMARS: Middleware for Adaptive Reflective Computer Systems Journal Article CoRR, abs/2107.11417 , 2021.Links | BibTeX@article{DBLP:journals/corr/abs-2107-11417,
+title = {MARS: Middleware for Adaptive Reflective Computer Systems},
+author = {Tiago Mück and Bryan Donyanavard and Biswadip Maity and Kasra Moazzemi and Nikil D Dutt},
+url = {https://arxiv.org/abs/2107.11417},
+year  = {2021},
+date = {2021-01-01},
+journal = {CoRR},
+volume = {abs/2107.11417},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://arxiv.org/abs/2107.11417Close Tazarv, Ali;  Labbaf, Sina;  Reich, Stephanie M;  Dutt, Nikil D;  Rahmani, Amir M;  Levorato, MarcoPersonalized Stress Monitoring using Wearable Sensors in Everyday 
+ Settings Journal Article CoRR, abs/2108.00144 , 2021.Links | BibTeX@article{DBLP:journals/corr/abs-2108-00144,
+title = {Personalized Stress Monitoring using Wearable Sensors in Everyday 
+ Settings},
+author = {Ali Tazarv and Sina Labbaf and Stephanie M Reich and Nikil D Dutt and Amir M Rahmani and Marco Levorato},
+url = {https://arxiv.org/abs/2108.00144},
+year  = {2021},
+date = {2021-01-01},
+journal = {CoRR},
+volume = {abs/2108.00144},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://arxiv.org/abs/2108.00144Close
+
+2020
+
+ Anzanpour, Arman;  Amiri, Delaram;  Azimi, Iman;  Levorato, Marco;  Dutt, Nikil;  Liljeberg, Pasi;  Rahmani, Amir MEdge-Assisted Control for Healthcare Internet-of-Things: A Case Study on PPG-based Early Warning Score Journal Article ACM transaction on Internet of Things , 2020.Abstract | Links | BibTeX@article{EdgeControl-ACM2020,
+title = {Edge-Assisted Control for Healthcare Internet-of-Things: A Case Study on PPG-based Early Warning Score},
+author = {Arman Anzanpour and Delaram Amiri and Iman Azimi and Marco Levorato and Nikil Dutt and Pasi Liljeberg and Amir M. Rahmani},
+url = {https://www.researchgate.net/publication/342787437_Edge-Assisted_Control_for_Healthcare_Internet-of-Things_A_Case_Study_on_PPG-based_Early_Warning_Score},
+year  = {2020},
+date = {2020-08-01},
+journal = {ACM transaction on Internet of Things },
+abstract = {Recent advances in pervasive Internet of Things (IoT) technologies and edge computing have opened new avenues for development of ubiquitous health monitoring applications. Delivering an acceptable level of usability and accuracy for these healthcare IoT applications requires optimization of both system-driven and data-driven aspects which are typically done in a disjoint manner. While decoupled optimization of these processes yields local optima at each level, synergistic coupling of the system and data levels can lead to a holistic solution opening new opportunities for optimization. In this paper, we present an edge-assisted resource manager that dynamically controls the delity and duration of sensing w.r.t. changes in the patient's activity and health state, thus ne-tuning the trade-o between energy-e ciency and measurement accuracy. The cornerstone of our proposed solution is an intelligent low-latency real-time controller implemented at the edge layer that detects abnormalities in the patient's condition and accordingly adjusts the sensing parameters of a recon gurable wireless sensor node. We assess the e ciency of our proposed system via a case study of PPG-based medical Early Warning Score (EWS) system. Our experiments on a real full hardware-software EWS system reveal up to 49% power savings while maintaining the accuracy of the sensory data.},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+CloseRecent advances in pervasive Internet of Things (IoT) technologies and edge computing have opened new avenues for development of ubiquitous health monitoring applications. Delivering an acceptable level of usability and accuracy for these healthcare IoT applications requires optimization of both system-driven and data-driven aspects which are typically done in a disjoint manner. While decoupled optimization of these processes yields local optima at each level, synergistic coupling of the system and data levels can lead to a holistic solution opening new opportunities for optimization. In this paper, we present an edge-assisted resource manager that dynamically controls the delity and duration of sensing w.r.t. changes in the patient's activity and health state, thus ne-tuning the trade-o between energy-e ciency and measurement accuracy. The cornerstone of our proposed solution is an intelligent low-latency real-time controller implemented at the edge layer that detects abnormalities in the patient's condition and accordingly adjusts the sensing parameters of a recon gurable wireless sensor node. We assess the e ciency of our proposed system via a case study of PPG-based medical Early Warning Score (EWS) system. Our experiments on a real full hardware-software EWS system reveal up to 49% power savings while maintaining the accuracy of the sensory data.Closehttps://www.researchgate.net/publication/342787437_Edge-Assisted_Control_for_Hea[...]Close Nejatollahi  Hamid; Saransh, Gupta; Imani Mohsen; Tajana Rosing; Cammarota Rosario; Dutt Nikil CryptoPIM: In-memory Acceleration for Lattice-based Cryptographic Hardware Journal Article Design Automation Conference (DAC), 2020, (Best paper award finalist).Links | BibTeX@article{Nejatollahi2020-DAC,
+title = {CryptoPIM: In-memory Acceleration for Lattice-based Cryptographic Hardware},
+author = {Nejatollahi, Hamid; Saransh, Gupta; Imani, Mohsen; Tajana, Rosing; Cammarota, Rosario; Dutt, Nikil},
+url = {https://eprint.iacr.org/2020/276},
+year  = {2020},
+date = {2020-06-01},
+journal = {Design Automation Conference (DAC)},
+note = {Best paper award finalist},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://eprint.iacr.org/2020/276Close Amiri, Delaram;  Anzanpour, Arman;  Azimi, Iman;  Rahmani, Amir M;  Liljeberg, Pasi;  Dutt, Nikil;  Levorato, MarcoOptimizing Energy Efficiency of Wearable Sensors Using Fog-assisted Control Book Chapter Fog Computing: Theory and Practice,  Chapter 9, pp. arXiv:1907.11989, Wiley, 2020, ISBN: 9781119551713.Abstract | Links | BibTeX@inbook{amiribook2020,
+title = {Optimizing Energy Efficiency of Wearable Sensors Using Fog-assisted Control},
+author = {Delaram Amiri and Arman Anzanpour and Iman Azimi and Amir M Rahmani and Pasi Liljeberg and Nikil Dutt and Marco Levorato},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119551713.ch9},
+doi = {https://doi.org/10.1002/9781119551713.ch9},
+isbn = {9781119551713},
+year  = {2020},
+date = {2020-04-25},
+booktitle = {Fog Computing: Theory and Practice},
+journal = {arXiv e-prints},
+pages = {arXiv:1907.11989},
+publisher = {Wiley},
+chapter = {9},
+abstract = {Recent advances in the Internet of Things (IoT) technologies have enabled the use of wearables for remote patient monitoring. Wearable sensors capture the patient's vital signs, and provide alerts or diagnosis based on the collected data. Unfortunately, wearables typically have limited energy and computational capacity, making their use challenging for healthcare applications where monitoring must continue uninterrupted long time, without the need to charge or change the battery. Fog computing can alleviate this problem by offloading computationally intensive tasks from the sensor layer to higher layers, thereby not only meeting the sensors' limited computational capacity but also enabling the use of local closed-loop energy optimization algorithms to increase the battery life.},
+keywords = {},
+pubstate = {published},
+tppubtype = {inbook}
+}
+CloseRecent advances in the Internet of Things (IoT) technologies have enabled the use of wearables for remote patient monitoring. Wearable sensors capture the patient's vital signs, and provide alerts or diagnosis based on the collected data. Unfortunately, wearables typically have limited energy and computational capacity, making their use challenging for healthcare applications where monitoring must continue uninterrupted long time, without the need to charge or change the battery. Fog computing can alleviate this problem by offloading computationally intensive tasks from the sensor layer to higher layers, thereby not only meeting the sensors' limited computational capacity but also enabling the use of local closed-loop energy optimization algorithms to increase the battery life.Closehttps://onlinelibrary.wiley.com/doi/abs/10.1002/9781119551713.ch9doi:https://doi.org/10.1002/9781119551713.ch9Close Lee, Tao-Yi;  Vo, Khuong;  Baek, Wongi;  Khine, Michelle;  Dutt, Nikil DSTINT: selective transmission for low-energy physiological monitoring Inproceedings ISLPED '20: ACM/IEEE International Symposium on Low Power Electronics 
+ and Design, Boston, Massachusetts, August 10-12, 2020, pp. 115–120, ACM, 2020.Links | BibTeX@inproceedings{DBLP:conf/islped/LeeVBKD20,
+title = {STINT: selective transmission for low-energy physiological monitoring},
+author = {Tao-Yi Lee and Khuong Vo and Wongi Baek and Michelle Khine and Nikil D Dutt},
+url = {https://doi.org/10.1145/3370748.3406563},
+doi = {10.1145/3370748.3406563},
+year  = {2020},
+date = {2020-04-03},
+booktitle = {ISLPED '20: ACM/IEEE International Symposium on Low Power Electronics 
+ and Design, Boston, Massachusetts, August 10-12, 2020},
+pages = {115--120},
+publisher = {ACM},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/3370748.3406563doi:10.1145/3370748.3406563Close Vo, Khuong;  Le, Tai;  Rahmani, Amir M;  Dutt, Nikil D;  Cao, HungAn Efficient and Robust Deep Learning Method with 1-D Octave Convolution  to Extract Fetal Electrocardiogram Journal Article Sensors, 20 (13), pp. 3757, 2020.Links | BibTeX@article{DBLP:journals/sensors/VoLRDC20,
+title = {An Efficient and Robust Deep Learning Method with 1-D Octave Convolution  to Extract Fetal Electrocardiogram},
+author = {Khuong Vo and Tai Le and Amir M Rahmani and Nikil D Dutt and Hung Cao},
+url = {https://doi.org/10.3390/s20133757},
+doi = {10.3390/s20133757},
+year  = {2020},
+date = {2020-04-02},
+journal = {Sensors},
+volume = {20},
+number = {13},
+pages = {3757},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.3390/s20133757doi:10.3390/s20133757Close Peroni, Daniel;  Imani, Mohsen;  Hamid, Nejatollahi;  Dutt, Nikil;  Rosing, TajanaData Reuse for Accelerated Approximate Warps Journal Article IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD), 2020.Links | BibTeX@article{Nejatollahi2020-TCAD,
+title = {Data Reuse for Accelerated Approximate Warps},
+author = {Daniel Peroni and Mohsen Imani and Nejatollahi Hamid and Nikil Dutt and Tajana Rosing},
+url = {https://ieeexplore.ieee.org/document/9060871},
+year  = {2020},
+date = {2020-04-01},
+journal = {IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://ieeexplore.ieee.org/document/9060871Close Nejatollahi  Hamid; Sina Shahhosseini; Cammarota, Rosario; Dutt Nikil Exploring Energy Efficient Quantum-resistant Signal Processing Using Array Processors Conference International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2020, (Best paper award finalist).Links | BibTeX@conference{Nejatollah-ICASSP,
+title = {Exploring Energy Efficient Quantum-resistant Signal Processing Using Array Processors},
+author = {Nejatollahi, Hamid; Sina Shahhosseini; Cammarota, Rosario; Dutt, Nikil},
+url = {https://eprint.iacr.org/2019/1297.pdf},
+year  = {2020},
+date = {2020-02-01},
+booktitle = {International Conference on Acoustics, Speech, and Signal Processing (ICASSP)},
+note = {Best paper award finalist},
+keywords = {},
+pubstate = {published},
+tppubtype = {conference}
+}
+Closehttps://eprint.iacr.org/2019/1297.pdfClose Nejatollahi  Hamid; Felipe, Valencia; Banik Subhadeep; Regazzoni Francesco; Cammarota Rosario; Dutt Nikil Synthesis of Flexible Accelerators for Early Adoption of Ring-LWE Post-quantum Cryptography Journal Article Transactions on Embedded Computing Systems, 2020.Links | BibTeX@article{Nejatollahi2020-TECS,
+title = {Synthesis of Flexible Accelerators for Early Adoption of Ring-LWE Post-quantum Cryptography},
+author = {Nejatollahi, Hamid; Felipe, Valencia; Banik, Subhadeep; Regazzoni Francesco; Cammarota, Rosario; Dutt, Nikil},
+url = {https://dl.acm.org/doi/10.1145/3378164},
+year  = {2020},
+date = {2020-01-13},
+journal = {Transactions on Embedded Computing Systems},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://dl.acm.org/doi/10.1145/3378164Close Maity, Biswadip;  Shoushtari, Majid;  Rahmani, Amir M;  Dutt, Nikil DSelf-Adaptive Memory Approximation: A Formal Control Theory Approach Journal Article IEEE Embed. Syst. Lett., 12 (2), pp. 33–36, 2020.Links | BibTeX@article{DBLP:journals/esl/MaitySRD20,
+title = {Self-Adaptive Memory Approximation: A Formal Control Theory Approach},
+author = {Biswadip Maity and Majid Shoushtari and Amir M Rahmani and Nikil D Dutt},
+url = {https://doi.org/10.1109/LES.2019.2941018},
+doi = {10.1109/LES.2019.2941018},
+year  = {2020},
+date = {2020-01-01},
+journal = {IEEE Embed. Syst. Lett.},
+volume = {12},
+number = {2},
+pages = {33--36},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/LES.2019.2941018doi:10.1109/LES.2019.2941018Close Dutt, Nikil D;  Regazzoni, Carlo S;  Rinner, Bernhard;  Yao, XinSelf-Awareness for Autonomous Systems Journal Article Proceedings of the IEEE, 108 (7), pp. 971–975, 2020.Links | BibTeX@article{DBLP:journals/pieee/DuttRRY20,
+title = {Self-Awareness for Autonomous Systems},
+author = {Nikil D Dutt and Carlo S Regazzoni and Bernhard Rinner and Xin Yao},
+url = {https://doi.org/10.1109/JPROC.2020.2990784},
+doi = {10.1109/JPROC.2020.2990784},
+year  = {2020},
+date = {2020-01-01},
+journal = {Proceedings of the IEEE},
+volume = {108},
+number = {7},
+pages = {971--975},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/JPROC.2020.2990784doi:10.1109/JPROC.2020.2990784Close Hoffmann, Henry;  Jantsch, Axel;  Dutt, Nikil DEmbodied Self-Aware Computing Systems Journal Article Proceedings of the IEEE, 108 (7), pp. 1027–1046, 2020.Links | BibTeX@article{DBLP:journals/pieee/HoffmannJD20,
+title = {Embodied Self-Aware Computing Systems},
+author = {Henry Hoffmann and Axel Jantsch and Nikil D Dutt},
+url = {https://doi.org/10.1109/JPROC.2020.2977054},
+doi = {10.1109/JPROC.2020.2977054},
+year  = {2020},
+date = {2020-01-01},
+journal = {Proceedings of the IEEE},
+volume = {108},
+number = {7},
+pages = {1027--1046},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/JPROC.2020.2977054doi:10.1109/JPROC.2020.2977054Close Vishwanath, Manoj;  Jafarlou, Salar;  Shin, Ikhwan;  Lim, Miranda M;  Dutt, Nikil D;  Rahmani, Amir M;  Cao, HungInvestigation of Machine Learning Approaches for Traumatic Brain Injury 
+ Classification via EEG Assessment in Mice Journal Article Sensors, 20 (7), pp. 2027, 2020.Links | BibTeX@article{DBLP:journals/sensors/VishwanathJSLDR20,
+title = {Investigation of Machine Learning Approaches for Traumatic Brain Injury 
+ Classification via EEG Assessment in Mice},
+author = {Manoj Vishwanath and Salar Jafarlou and Ikhwan Shin and Miranda M Lim and Nikil D Dutt and Amir M Rahmani and Hung Cao},
+url = {https://doi.org/10.3390/s20072027},
+doi = {10.3390/s20072027},
+year  = {2020},
+date = {2020-01-01},
+journal = {Sensors},
+volume = {20},
+number = {7},
+pages = {2027},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.3390/s20072027doi:10.3390/s20072027Close Jantsch, Axel;  Lewis, Peter R;  Dutt, Nikil DIntroduction to the Special Issue on Self-Aware Cyber-physical Systems Journal Article ACM Trans. Cyber Phys. Syst., 4 (4), pp. 37:1–37:2, 2020.Links | BibTeX@article{DBLP:journals/tcps/JantschLD20,
+title = {Introduction to the Special Issue on Self-Aware Cyber-physical Systems},
+author = {Axel Jantsch and Peter R Lewis and Nikil D Dutt},
+url = {https://dl.acm.org/doi/10.1145/3397266},
+year  = {2020},
+date = {2020-01-01},
+journal = {ACM Trans. Cyber Phys. Syst.},
+volume = {4},
+number = {4},
+pages = {37:1--37:2},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://dl.acm.org/doi/10.1145/3397266Close Bellman, Kirstie L;  Landauer, Christopher;  Dutt, Nikil D;  Esterle, Lukas;  Herkersdorf, Andreas;  Jantsch, Axel;  Taherinejad, Nima;  Lewis, Peter R;  Platzner, Marco;  ä, Kalle TammemSelf-aware Cyber-Physical Systems Journal Article ACM Trans. Cyber Phys. Syst., 4 (4), pp. 38:1–38:26, 2020.Links | BibTeX@article{DBLP:journals/tcps/BellmanLDEHJTLP20,
+title = {Self-aware Cyber-Physical Systems},
+author = {Kirstie L Bellman and Christopher Landauer and Nikil D Dutt and Lukas Esterle and Andreas Herkersdorf and Axel Jantsch and Nima Taherinejad and Peter R Lewis and Marco Platzner and Kalle Tammem ä},
+url = {https://dl.acm.org/doi/10.1145/3375716},
+year  = {2020},
+date = {2020-01-01},
+journal = {ACM Trans. Cyber Phys. Syst.},
+volume = {4},
+number = {4},
+pages = {38:1--38:26},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://dl.acm.org/doi/10.1145/3375716Close Le, Tai;  Ellington, Floranne;  Lee, Tao-Yi;  Vo, Khuong;  Khine, Michelle;  Krishnan, Sandeep Kumar;  Dutt, Nikil D;  Cao, HungContinuous Non-Invasive Blood Pressure Monitoring: A Methodological  Review on Measurement Techniques Journal Article IEEE Access, 8 , pp. 212478–212498, 2020.Links | BibTeX@article{DBLP:journals/access/LeELVKKDC20,
+title = {Continuous Non-Invasive Blood Pressure Monitoring: A Methodological  Review on Measurement Techniques},
+author = {Tai Le and Floranne Ellington and Tao-Yi Lee and Khuong Vo and Michelle Khine and Sandeep Kumar Krishnan and Nikil D Dutt and Hung Cao},
+url = {https://doi.org/10.1109/ACCESS.2020.3040257},
+doi = {10.1109/ACCESS.2020.3040257},
+year  = {2020},
+date = {2020-01-01},
+journal = {IEEE Access},
+volume = {8},
+pages = {212478--212498},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/ACCESS.2020.3040257doi:10.1109/ACCESS.2020.3040257Close Balaji, Adarsha;  Catthoor, Francky;  Das, Anup;  Wu, Yuefeng;  Huynh, Khanh;  Dell'Anna, Francesco;  Indiveri, Giacomo;  Krichmar, Jeffrey L;  Dutt, Nikil D;  Schaafsma, SiebrenMapping Spiking Neural Networks to Neuromorphic Hardware Journal Article IEEE Trans. Very Large Scale Integr. Syst., 28 (1), pp. 76–86, 2020.Links | BibTeX@article{DBLP:journals/tvlsi/BalajiCDWHDIKDS20,
+title = {Mapping Spiking Neural Networks to Neuromorphic Hardware},
+author = {Adarsha Balaji and Francky Catthoor and Anup Das and Yuefeng Wu and Khanh Huynh and Francesco Dell'Anna and Giacomo Indiveri and Jeffrey L Krichmar and Nikil D Dutt and Siebren Schaafsma},
+url = {https://doi.org/10.1109/TVLSI.2019.2951493},
+doi = {10.1109/TVLSI.2019.2951493},
+year  = {2020},
+date = {2020-01-01},
+journal = {IEEE Trans. Very Large Scale Integr. Syst.},
+volume = {28},
+number = {1},
+pages = {76--86},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/TVLSI.2019.2951493doi:10.1109/TVLSI.2019.2951493Close Williams, Lucretia;  Hayes, Gillian R;  Guo, Yuqing;  Rahmani, Amir;  Dutt, Nikil DHCI and mHealth Wearable Tech: A Multidisciplinary Research Challenge Inproceedings Extended Abstracts of the 2020 CHI Conference on Human Factors in 
+ Computing Systems, CHI 2020, Honolulu, HI, USA, April 25-30, 2020, pp. 1–7, ACM, 2020.Links | BibTeX@inproceedings{DBLP:conf/chi/WilliamsHGRD20,
+title = {HCI and mHealth Wearable Tech: A Multidisciplinary Research Challenge},
+author = {Lucretia Williams and Gillian R Hayes and Yuqing Guo and Amir Rahmani and Nikil D Dutt},
+url = {https://doi.org/10.1145/3334480.3375223},
+doi = {10.1145/3334480.3375223},
+year  = {2020},
+date = {2020-01-01},
+booktitle = {Extended Abstracts of the 2020 CHI Conference on Human Factors in 
+ Computing Systems, CHI 2020, Honolulu, HI, USA, April 25-30, 2020},
+pages = {1--7},
+publisher = {ACM},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/3334480.3375223doi:10.1145/3334480.3375223Close Amiri, Delaram;  Anzanpour, Arman;  Azimi, Iman;  Levorato, Marco;  Liljeberg, Pasi;  Dutt, Nikil D;  Rahmani, Amir MContext-Aware Sensing via Dynamic Programming for Edge-Assisted Wearable 
+ Systems Journal Article ACM Trans. Comput. Heal., 1 (2), pp. 7:1–7:25, 2020.Links | BibTeX@article{DBLP:journals/health/AmiriAALLDR20,
+title = {Context-Aware Sensing via Dynamic Programming for Edge-Assisted Wearable 
+ Systems},
+author = {Delaram Amiri and Arman Anzanpour and Iman Azimi and Marco Levorato and Pasi Liljeberg and Nikil D Dutt and Amir M Rahmani},
+url = {https://doi.org/10.1145/3351286},
+doi = {10.1145/3351286},
+year  = {2020},
+date = {2020-01-01},
+journal = {ACM Trans. Comput. Heal.},
+volume = {1},
+number = {2},
+pages = {7:1--7:25},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1145/3351286doi:10.1145/3351286Close Maurer, Florian;  Donyanavard, Bryan;  Rahmani, Amir M;  Dutt, Nikil D;  Herkersdorf, AndreasEmergent Control of MPSoC Operation by a Hierarchical Supervisor / 
+ Reinforcement Learning Approach Inproceedings 2020 Design, Automation & Test in Europe Conference & Exhibition, 
+ DATE 2020, Grenoble, France, March 9-13, 2020, pp. 1562–1567, IEEE, 2020.Links | BibTeX@inproceedings{DBLP:conf/date/MaurerDRDH20,
+title = {Emergent Control of MPSoC Operation by a Hierarchical Supervisor / 
+ Reinforcement Learning Approach},
+author = {Florian Maurer and Bryan Donyanavard and Amir M Rahmani and Nikil D Dutt and Andreas Herkersdorf},
+url = {https://doi.org/10.23919/DATE48585.2020.9116574},
+doi = {10.23919/DATE48585.2020.9116574},
+year  = {2020},
+date = {2020-01-01},
+booktitle = {2020 Design, Automation & Test in Europe Conference & Exhibition, 
+ DATE 2020, Grenoble, France, March 9-13, 2020},
+pages = {1562--1567},
+publisher = {IEEE},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.23919/DATE48585.2020.9116574doi:10.23919/DATE48585.2020.9116574Close Vishwanath, Manoj;  Jafarlou, Salar;  Shin, Ikhwan;  Dutt, Nikil D;  Rahmani, Amir M;  Lim, Miranda M;  Cao, HungClassification of Electroencephalogram in a Mouse Model of Traumatic  Brain Injury Using Machine Learning Approaches Inproceedings 42nd Annual International Conference of the IEEE Engineering in 
+ Medicine & Biology Society, EMBC 2020, Montreal, QC, Canada, 
+ July 20-24, 2020, pp. 3335–3338, IEEE, 2020.Links | BibTeX@inproceedings{DBLP:conf/embc/VishwanathJSDRL20,
+title = {Classification of Electroencephalogram in a Mouse Model of Traumatic  Brain Injury Using Machine Learning Approaches},
+author = {Manoj Vishwanath and Salar Jafarlou and Ikhwan Shin and Nikil D Dutt and Amir M Rahmani and Miranda M Lim and Hung Cao},
+url = {https://doi.org/10.1109/EMBC44109.2020.9175915},
+doi = {10.1109/EMBC44109.2020.9175915},
+year  = {2020},
+date = {2020-01-01},
+booktitle = {42nd Annual International Conference of the IEEE Engineering in 
+ Medicine & Biology Society, EMBC 2020, Montreal, QC, Canada, 
+ July 20-24, 2020},
+pages = {3335--3338},
+publisher = {IEEE},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/EMBC44109.2020.9175915doi:10.1109/EMBC44109.2020.9175915Close Laitala, Juho;  Jiang, Mingzhe;  Syrjälä, Elise;  Naeini, Emad Kasaeyan;  Airola, Antti;  Rahmani, Amir M;  Dutt, Nikil D;  Liljeberg, PasiRobust ECG R-peak detection using LSTM Inproceedings SAC '20: The 35th ACM/SIGAPP Symposium on Applied Computing, online 
+ event, [Brno, Czech Republic], March 30 - April 3, 2020, pp. 1104–1111, ACM, 2020.Links | BibTeX@inproceedings{DBLP:conf/sac/LaitalaJSNARDL20,
+title = {Robust ECG R-peak detection using LSTM},
+author = {Juho Laitala and Mingzhe Jiang and Elise Syrjälä and Emad Kasaeyan Naeini and Antti Airola and Amir M Rahmani and Nikil D Dutt and Pasi Liljeberg},
+url = {https://doi.org/10.1145/3341105.3373945},
+doi = {10.1145/3341105.3373945},
+year  = {2020},
+date = {2020-01-01},
+booktitle = {SAC '20: The 35th ACM/SIGAPP Symposium on Applied Computing, online 
+ event, [Brno, Czech Republic], March 30 - April 3, 2020},
+pages = {1104--1111},
+publisher = {ACM},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/3341105.3373945doi:10.1145/3341105.3373945Close Monazzah, Amir Mahdi Hosseini;  Rahmani, Amir M;  Miele, Antonio;  Dutt, Nikil DCAST: Content-Aware STT-MRAM Cache Write Management for Different 
+ Levels of Approximation Journal Article IEEE Trans. Comput. Aided Des. Integr. Circuits Syst., 39 (12), pp. 4385–4398, 2020.Links | BibTeX@article{DBLP:journals/tcad/MonazzahRMD20,
+title = {CAST: Content-Aware STT-MRAM Cache Write Management for Different 
+ Levels of Approximation},
+author = {Amir Mahdi Hosseini Monazzah and Amir M Rahmani and Antonio Miele and Nikil D Dutt},
+url = {https://doi.org/10.1109/TCAD.2020.2986320},
+doi = {10.1109/TCAD.2020.2986320},
+year  = {2020},
+date = {2020-01-01},
+journal = {IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.},
+volume = {39},
+number = {12},
+pages = {4385--4398},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/TCAD.2020.2986320doi:10.1109/TCAD.2020.2986320Close Balaji, Adarsha;  Adiraju, Prathyusha;  Kashyap, Hirak J;  Das, Anup;  Krichmar, Jeffrey L;  Dutt, Nikil D;  Catthoor, FranckyPyCARL: A PyNN Interface for Hardware-Software Co-Simulation of 
+ Spiking Neural Network Journal Article CoRR, abs/2003.09696 , 2020.Links | BibTeX@article{DBLP:journals/corr/abs-2003-09696,
+title = {PyCARL: A PyNN Interface for Hardware-Software Co-Simulation of 
+ Spiking Neural Network},
+author = {Adarsha Balaji and Prathyusha Adiraju and Hirak J Kashyap and Anup Das and Jeffrey L Krichmar and Nikil D Dutt and Francky Catthoor},
+url = {https://arxiv.org/abs/2003.09696},
+year  = {2020},
+date = {2020-01-01},
+journal = {CoRR},
+volume = {abs/2003.09696},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://arxiv.org/abs/2003.09696Close Peroni, Daniel;  Imani, Mohsen;  Nejatollahi, Hamid;  Dutt, Nikil D;  Rosing, TajanaData Reuse for Accelerated Approximate Warps Journal Article IEEE Trans. Comput. Aided Des. Integr. Circuits Syst., 39 (12), pp. 4623–4634, 2020.Links | BibTeX@article{DBLP:journals/tcad/PeroniINDR20,
+title = {Data Reuse for Accelerated Approximate Warps},
+author = {Daniel Peroni and Mohsen Imani and Hamid Nejatollahi and Nikil D Dutt and Tajana Rosing},
+url = {https://doi.org/10.1109/TCAD.2020.2986128},
+doi = {10.1109/TCAD.2020.2986128},
+year  = {2020},
+date = {2020-01-01},
+journal = {IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.},
+volume = {39},
+number = {12},
+pages = {4623--4634},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/TCAD.2020.2986128doi:10.1109/TCAD.2020.2986128Close Aqajari, Seyed Amir Hossein;  Naeini, Emad Kasaeyan;  Mehrabadi, Milad Asgari;  Labbaf, Sina;  Rahmani, Amir M;  Dutt, Nikil DGSR Analysis for Stress: Development and Validation of an Open Source 
+ Tool for Noisy Naturalistic GSR Data Journal Article CoRR, abs/2005.01834 , 2020.Links | BibTeX@article{DBLP:journals/corr/abs-2005-01834,
+title = {GSR Analysis for Stress: Development and Validation of an Open Source 
+ Tool for Noisy Naturalistic GSR Data},
+author = {Seyed Amir Hossein Aqajari and Emad Kasaeyan Naeini and Milad Asgari Mehrabadi and Sina Labbaf and Amir M Rahmani and Nikil D Dutt},
+url = {https://arxiv.org/abs/2005.01834},
+year  = {2020},
+date = {2020-01-01},
+journal = {CoRR},
+volume = {abs/2005.01834},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://arxiv.org/abs/2005.01834Close Mehrabadi, Milad Asgari;  Dutt, Nikil D;  Rahmani, Amir MThe Causality Inference of Public Interest in Restaurants and Bars 
+ on COVID-19 Daily Cases in the US: A Google Trends Analysis Journal Article CoRR, abs/2007.13255 , 2020.Links | BibTeX@article{DBLP:journals/corr/abs-2007-13255,
+title = {The Causality Inference of Public Interest in Restaurants and Bars 
+ on COVID-19 Daily Cases in the US: A Google Trends Analysis},
+author = {Milad Asgari Mehrabadi and Nikil D Dutt and Amir M Rahmani},
+url = {https://arxiv.org/abs/2007.13255},
+year  = {2020},
+date = {2020-01-01},
+journal = {CoRR},
+volume = {abs/2007.13255},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://arxiv.org/abs/2007.13255Close Donyanavard, Bryan;  Rahmani, Amir M;  Jantsch, Axel;  Mutlu, Onur;  Dutt, Nikil DIntelligent Management of Mobile Systems through Computational Self-Awareness Journal Article CoRR, abs/2008.00095 , 2020.Links | BibTeX@article{DBLP:journals/corr/abs-2008-00095,
+title = {Intelligent Management of Mobile Systems through Computational Self-Awareness},
+author = {Bryan Donyanavard and Amir M Rahmani and Axel Jantsch and Onur Mutlu and Nikil D Dutt},
+url = {https://arxiv.org/abs/2008.00095},
+year  = {2020},
+date = {2020-01-01},
+journal = {CoRR},
+volume = {abs/2008.00095},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://arxiv.org/abs/2008.00095Close Nejatollahi, Hamid;  Valencia, Felipe;  Banik, Subhadeep;  Regazzoni, Francesco;  Cammarota, Rosario;  Dutt, Nikil DSynthesis of Flexible Accelerators for Early Adoption of Ring-LWE 
+ Post-quantum Cryptography Journal Article ACM Trans. Embed. Comput. Syst., 19 (2), pp. 11:1–11:17, 2020.Links | BibTeX@article{DBLP:journals/tecs/NejatollahiVBRC20,
+title = {Synthesis of Flexible Accelerators for Early Adoption of Ring-LWE 
+ Post-quantum Cryptography},
+author = {Hamid Nejatollahi and Felipe Valencia and Subhadeep Banik and Francesco Regazzoni and Rosario Cammarota and Nikil D Dutt},
+url = {https://doi.org/10.1145/3378164},
+doi = {10.1145/3378164},
+year  = {2020},
+date = {2020-01-01},
+journal = {ACM Trans. Embed. Comput. Syst.},
+volume = {19},
+number = {2},
+pages = {11:1--11:17},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1145/3378164doi:10.1145/3378164Close Cammarota, Rosario;  Schunter, Matthias;  Rajan, Anand;  Boemer, Fabian;  Á, ;  Treiber, Amos;  Weinert, Christian;  Schneider, Thomas;  Stapf, Emmanuel;  Sadeghi, Ahmad-Reza;  Demmler, Daniel;  Chen, Huili;  Hussain, Siam Umar;  Riazi, Sadegh M;  Koushanfar, Farinaz;  Gupta, Saransh;  Rosing, Tajan Simunic;  Chaudhuri, Kamalika;  Nejatollahi, Hamid;  Dutt, Nikil D;  Imani, Mohsen;  Laine, Kim;  Dubey, Anuj;  Aysu, Aydin;  Hosseini, Fateme Sadat;  Yang, Chengmo;  Wallace, Eric;  Norton, PamelaTrustworthy AI Inference Systems: An Industry Research View Journal Article CoRR, abs/2008.04449 , 2020.Links | BibTeX@article{DBLP:journals/corr/abs-2008-04449,
+title = {Trustworthy AI Inference Systems: An Industry Research View},
+author = {Rosario Cammarota and Matthias Schunter and Anand Rajan and Fabian Boemer and Á and Amos Treiber and Christian Weinert and Thomas Schneider and Emmanuel Stapf and Ahmad-Reza Sadeghi and Daniel Demmler and Huili Chen and Siam Umar Hussain and Sadegh M Riazi and Farinaz Koushanfar and Saransh Gupta and Tajan Simunic Rosing and Kamalika Chaudhuri and Hamid Nejatollahi and Nikil D Dutt and Mohsen Imani and Kim Laine and Anuj Dubey and Aydin Aysu and Fateme Sadat Hosseini and Chengmo Yang and Eric Wallace and Pamela Norton},
+url = {https://arxiv.org/abs/2008.04449},
+year  = {2020},
+date = {2020-01-01},
+journal = {CoRR},
+volume = {abs/2008.04449},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://arxiv.org/abs/2008.04449Close Anzanpour, Arman;  Amiri, Delaram;  Azimi, Iman;  Levorato, Marco;  Dutt, Nikil D;  Liljeberg, Pasi;  Rahmani, Amir MEdge-Assisted Control for Healthcare Internet of Things: A Case 
+ Study on PPG-Based Early Warning Score Journal Article ACM Trans. Internet Things, 2 (1), pp. 1:1–1:21, 2020.Links | BibTeX@article{DBLP:journals/tiot/AnzanpourAALDLR20,
+title = {Edge-Assisted Control for Healthcare Internet of Things: A Case 
+ Study on PPG-Based Early Warning Score},
+author = {Arman Anzanpour and Delaram Amiri and Iman Azimi and Marco Levorato and Nikil D Dutt and Pasi Liljeberg and Amir M Rahmani},
+url = {https://doi.org/10.1145/3407091},
+doi = {10.1145/3407091},
+year  = {2020},
+date = {2020-01-01},
+journal = {ACM Trans. Internet Things},
+volume = {2},
+number = {1},
+pages = {1:1--1:21},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1145/3407091doi:10.1145/3407091Close Seo, Dongjoo;  Shahhosseini, Sina;  Mehrabadi, Milad Asgari;  Donyanavard, Bryan;  Lim, Sung-Soo;  Rahmani, Amir M;  Dutt, Nikil DDynamic iFogSim: A Framework for Full-Stack Simulation of Dynamic  Resource Management in IoT Systems Inproceedings 2020 International Conference on Omni-layer Intelligent Systems, COINS 
+ 2020, Barcelona, Spain, August 31 - September 2, 2020, pp. 1–6, IEEE, 2020.Links | BibTeX@inproceedings{DBLP:conf/coins/SeoSMDLRD20,
+title = {Dynamic iFogSim: A Framework for Full-Stack Simulation of Dynamic  Resource Management in IoT Systems},
+author = {Dongjoo Seo and Sina Shahhosseini and Milad Asgari Mehrabadi and Bryan Donyanavard and Sung-Soo Lim and Amir M Rahmani and Nikil D Dutt},
+url = {https://doi.org/10.1109/COINS49042.2020.9191663},
+doi = {10.1109/COINS49042.2020.9191663},
+year  = {2020},
+date = {2020-01-01},
+booktitle = {2020 International Conference on Omni-layer Intelligent Systems, COINS 
+ 2020, Barcelona, Spain, August 31 - September 2, 2020},
+pages = {1--6},
+publisher = {IEEE},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/COINS49042.2020.9191663doi:10.1109/COINS49042.2020.9191663Close550 entries « ‹  1 of 11 › » 
+
+
+
+
+
+
+
+
+
+
+Find Us Address
+3069 Donald Bren Hall
+University of California, Irvine
+Irvine, CA 92697-3435, USA
+Email
+drg@ics.uci.edu
+
+ 
+
+
+
+
+
+
+
+
+
+					Copyright © 2022 Dutt Research Group.				
+
+					Powered by WordPress and HitMag.				
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,172 @@
+http://sdcl.ics.uci.edu/research/past-projects/crowddesign
+
+
+
+
+
+
+	CrowdDesign – Software Design and Collaboration Laboratory
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SDCL Software Design and Collaboration Laboratory
+
+
+
+
+
+
+CrowdDesign
+
+Description
+Crowdsourcing software has gained interest as an alternative to traditional software engineering. However, it is not known if the benefits of crowdsourcing found in literature can also be achieved with software design. CrowdDesign uses a micro-task crowdsourcing approach for software design to explore if we can leverage the knowledge of the crowd for high level software design.
+We have broken down a software problem into smaller tasks called decision points. Each decision point reflects a key decision that needs to be made during the design process. Breaking down the bigger problem into these smaller tasks for the crowd will allows us to explore if the crowd is able to provide quality software designs without an complete overview of the problem.
+We have build a tool that allows crowd workers to contribute on decision points by naming, explaining and sketching different alternative solutions. Furthermore, we explore how the availability of work made by others and the option to copy and borrow elements that work influences the quality and diversity of proposed alternative solutions by the crowd.
+
+
+Team Members
+
+Consuelo Lopez
+Edgar Weidema
+Fernando Spanghero
+
+Past Team Members
+
+Sahand Nayebaziz
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+Collaborators
+
+Anita Sarma
+David Redmiles
+Marian Petre
+Shinobu Saito
+Thomas LaToza
+
+
+
+
+
+
+
+
+
+
+Home
+Research
+
+Chatbots
+KnoCap
+Past projects
+
+Lighthouse
+CrowdDesign
+Crowd Debugging
+Calico
+CodeExchange
+Code Orb
+Crowd Development
+PorchLight
+
+
+
+
+Papers
+
+Technical reports
+Dissertations
+Books
+
+
+Opportunities
+People
+
+Previous members
+
+
+Sponsors
+Contact
+
+Directions
+
+
+
+
+
+
+
+
+
+
+
+ The Software Design and Collaboration Laboratory is housed in the Department of Informatics in the Donald Bren School of Information and Computer Sciences at the University of California, Irvine.
+
+
+
+
+
+    
+
+
+
+
+
+   
+
+
+
+
+Copyright ©             
+            SDCL |   eDegree° Theme by Top Blog Formula on WordPress |   
+                            Log In
+
+
+
+
+
+

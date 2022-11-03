@@ -1,0 +1,389 @@
+http://www-db.ics.uci.edu/pages/research/mars
+
+
+
+
+Multimedia Analysis and Retrieval System
+
+
+
+
+
+
+
+
+
+
+
+[ Home |
+      Research | 
+      Publications | 
+      People | 
+      Partners | 
+      Demos ]
+      [ Courses | 
+      Software | 
+      Links  |
+      Internal |
+      Search | 
+      Joining Our Group ]
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      Multimedia Analysis and Retrieval System (MARS)
+    
+
+
+
+
+
+
+
+[ People | Motivation
+| Overview | Demos | Relevant
+Bibliography | Related Projects | Acknowledgements
+]
+
+
+
+People
+
+Faculty
+Sharad Mehrotra
+Department of Information and Computer Science
+424 Computer Science,
+University of California at Irvine,
+Irvine, CA 92697-3425
+
+Students
+Michael Ortega
+Kaushik Chakrabarti
+Kriengkrai Porkaew
+
+Previous Members
+Thomas S. Huang (Faculty, U of Illinois at Urbana)
+Yong Rui
+Yueting Zhuang
+
+
+
+
+NSF Project Reports
+
+2002 NSF IDM Project Reports [ MSWord | PDF ]
+2001 NSF IDM Project Reports [ MSWord | PDF ]
+2000 NSF IDM Project Reports [ MSWord | PDF ]
+
+
+Motivation
+
+Many emerging applications such as multimedia digital libraries, medical
+image databases require accessing multimedia information based on their
+content. Traditional text based information retrieval techniques do not
+suffice due to the complexity of capturing visual content using textual
+description and the high degree of human effort in developing the suitable
+descriptions. An alternative approach is to describe images/videos based
+on visual properties (such as color, texture, and shape) and support retrieval
+based on these features. Such an approach to visual information retrieval
+requires interdisciplinary research in the areas of image processing and
+computer vision (to extract salient features from the visual media that
+capture its content), information retrieval (to define a notion of similarity
+between multimedia objects), and database management (to support efficient
+storage of multimedia objects and retrieval based on the degree of match).
+Our research addresses the information retrieval and database management
+challenges in content-based multimedia retrieval.
+
+
+Overview
+
+The goals of the MARS project is to design and develop an integrated multimedia
+information retrieval and database management infrastructure, entitled
+Multimedia Analysis and Retrieval System (MARS), that supports multimedia
+information as first-class objects suited for storage and retrieval based
+on their content. Specifically, research in the MARS project is categorized
+into the following four sub-areas each of which contribute to the development
+of the integrated infrastructure.
+
+Multimedia Content Representation:
+
+ extraction of multimedia content including low-level visual features from images, 
+ shots and scenes from videos, textual annotations (user-provided or automatically extracted
+ from videos). Content-based representation of multimedia objects in databases.
+ 
+Multimedia Information Retrieval:
+development of content-based multimedia retrieval techniques including 
+ multimedia retrieval models and interactive query refinement techniques to map 
+ user's high-level semantic queries to low-level feature based representations.
+ 
+Multimedia Feature Indexing:
+
+ to efficiently support retrieval based on feature similarity. Techniques will be 
+ developed for overcoming the high dimensionality and non-Euclidean nature of 
+ feature data.
+ 
+Multimedia Database Management:
+
+ techniques to effectively and efficiently incorporate content-based retrieval 
+ of multimedia information into structured database processing. Exploration of 
+ extensions to existing data models to support ranked retrieval and interactive query 
+ refinement and approaches to integrate multimedia feature indexing techniques as access
+ methods in database management systems. Study impact of ranked retrieval
+ on query processing techniques.
+ 
+
+
+Our work has focused on exploring techniques for multimedia object and
+query representation, multimedia information retrieval, and developing
+mechanisms for efficient indexing of highly multidimensional feature spaces.
+Our progress can be categorized into the following:
+
+Video Representation: 
+ 
+ Motivated with the role of a table of content (ToC) used in accessing a book, 
+ we developed algorithms to structure a video into a set of scenes which represents 
+ a video ToC. This ToC can be used to support effective user access (browsing and 
+ retrieval) of video. We then explored a clustering based approach to extract key 
+ frames from scenes identified in the video ToC. Some references
+ (below) are: 7, 8, 9, 10, 12, and 13.
+ 
+Indexing Highly Multidimensional Spaces:
+
+ We developed a hybrid tree data structure to support high-dimension feature indexing 
+ in multimedia databases. The hybrid tree combines the positive aspects of bounding region
+ (BR)-based data structures (e.g., R-tree, SS-tree) and space partitioning
+ (SP) based approaches (e.g., KDB-tree, hB-tree) into a single search structure
+ to achieve superior performance and scalability to high dimensionalities
+ than either of the two approaches. Some references
+ include (below): 1, and 18.
+ 
+Multimedia Information Retrieval:
+ 
+ We made significant progress on multimedia information retrieval specially on adapting 
+ relevance feedback as an approach to learning user's information need in image databases.
+ With relevance feedback, the user is relieved of the burden to state their
+ exact information need based on the feature sets supported in the system.
+ Instead, the system learns both the query representation, and the distance/similarity
+ measures that a user has in mind for the feature spaces using positive/negative
+ feedback over examples from the user. Some references
+ (below) are: 2,5, 6, 1.
+ 
+Supporting Multidimensional Data Structures as Access Methods:
+ 
+ We have developed the first granular locking approach to concurrency control
+ in multidimensional data structures. Our solution provides a scalable solution
+ to integrating multidimensional data structures into DBMSs as an access
+ method. Some references (below) are: 3, and 23.
+ 
+
+
+Demos
+
+ Some of the demos based on MARS research 
+
+
+Relevant Bibliography
+
+For online access to these publications follow this link.
+
+
+1999
+
+K. Porkaew, K. Chakrabarti, and S. Mehrotra,
+"Query Refinement for Content-based Multimedia Retrieval in MARS",
+(submitted for publication), 1999
+
+
+K. Porkaew, S. Mehrotra, M. Ortega, 
+"Query Reformulation for Content-based Multimedia Retrieval in MARS",
+In Proceedings of the IEEE International Conference on Multimedia Computing and Systems, (ICMCS), Florence, Italy, June 7-11, 1999 (poster paper).
+
+
+K. Porkaew, S. Mehrotra, M. Ortega, and K. Chakrabarti,
+"Similarity Search Using Multiple Examples in MARS", 
+In Proceedings of the International Conference on Visual Information Systems, Amsterdam, Netherlands, June 2-4, 1999
+
+
+Kaushik Chakrabarti, and Sharad Mehrotra, "Efficient Concurrency Control in Multidimensional Access Methods", To Appear in Proceedings of ACM SIGMOD Conference on Management of Data", 1999.
+
+
+
+Kaushik Chakrabarti, and Sharad Mehrotra, "The Hybrid Tree: An Index Structure for High Dimensional Feature Spaces", To Appear in Proceedings of the International
+Conference on Data Engineering (ICDE), Sydney, Australia, March 23-26,
+1999.
+
+Michael Ortega, Yong Rui, Kaushik Chakrabarti, Kriengkrai Porkaew, Sharad
+Mehrotra, and Thomas S. Huang, Supporting Ranked Boolean Similarity
+Queries in MARS, Appeared in IEEE
+Tran on Knowledge and Data Engineering , Vol. 10, No. 6, December 1998.
+
+Kaushik Chakrabarti, and Sharad Mehrotra, "Dynamic Granular Locking
+Approach to Phantom Protection in R-trees", Appeared in Proceedings
+of the International Conference on Data Engineering (ICDE), Orlando, Florida,
+February 23-27, 1998.
+
+Michael Ortega, Kaushik Chakrabarti, Kriengkrai Porkaew, and Sharad Mehrotra,
+Cross media validation in a multimedia retreival system , ACM Digital
+Libraries 98, Workshop on Digital Library Metrics, Pittsburgh, PA, June
+23-26, 1998
+
+Yong Rui, Thomas S. Huang, Michael Ortega, and Sharad Mehrotra, Relevance
+Feedback: A Power Tool in Interactive Content-Based Image Retrieval,
+IEEE Tran on Circuits and Systems for Video Technology, Special Issue on
+Segmentation, Description, and Retrieval of Video Content, Vol 8, No. 5,
+pages 644-655, Sept, 1998
+
+Yong Rui, Thomas S. Huang, Michael Ortega, and Sharad Mehrotra, Information
+Retrieval Beyond the Text Document, Appeared in Proceedings of Library
+Trend, 1998
+
+Yong Rui, Thomas S. Huang, and Sharad Mehrotra, Browsing and Retrieving
+Video Content in a Unified Framework , Appeared in Proceedings of IEEE
+MMSP98 workshop, LA, CA
+
+Yueting Zhuang, Yong Rui, Thomas S. Huang, and Sharad Mehrotra, Applying
+Semantic Association to Support Content-Based Video Retrieval, Appeared
+in Proceedings of IEEE VLBV98 workshop, Urbana, IL
+
+Yueting Zhuang, Yong Rui, Thomas S. Huang, and Sharad Mehrotra, Adaptive
+Key Frame Extraction Using Unsupervised Clustering , Appeared in Proceedings
+of IEEE Int Conf on Image Processing , Oct, 1998, Chicago, IL
+
+Yong Rui, Thomas S. Huang and Sharad Mehrotra, Exploring Video Structure
+Beyond The Shots , Appeared in Proceedings of IEEE International Conference
+on Multimedia Computing and Systems (ICMCS), June 28-July 1, 1998, Austin,
+Texas USA
+
+Yong Rui, Thomas S. Huang, and Sharad Mehrotra, Relevance Feedback Techniques
+in Interactive Content-Based Image Retrieval , Appeared in Proceedings
+of IS&T and SPIE Storage and Retrieval of Image and Video Databases
+VI, January 24-30, 1998, San Jose, CA.
+
+Yong Rui, Thomas S. Huang, and Sharad Mehrotra,
+Constructing Table-of-Content
+for Videos , ACM Multimedia Systems Journal, Special Issue Multimedia
+Systems on Video Libraries,
+1998
+
+Yong Rui, Thomas S. Huang, and Sharad Mehrotra, Suggestions to the Draft
+of MPEG-7 Requirements, ISO/IEC JTC1/SC29/WG11 M3107, MPEG98
+
+Kaushik Chakrabarti, Sharad Mehrotra, Michael Ortega, Kriengkrai Porkaew
+and Robert Winkler, "Processing Uncertainty Queries in Database Management
+Systems", Appeared in Proceedings of the 2nd Symposium on the Federated
+Lab on Interactive and Advanced Display, Army Research Labs, College Park,
+MD, February 2-6, 1998.
+
+Michael Ortega, Yong Rui, Kaushik Chakrabarti, Sharad Mehrotra, and Thomas
+S. Huang,
+"Supporting Similarity Queries in MARS", Appeared in Proceedings
+of the 5th ACM Int. Multimedia Conference, Seattle, Washington, November
+8-14, 1997.
+
+Sharad Mehrotra, Yong Rui, Kaushik Chakrabarti, Michael Ortega, and Thomas
+S. Huang, "Multimedia Analysis and Retrieval System", Appeared in
+Proceedings of the 3rd Int. Workshop on Multimedia Information Systems,
+Como, Italy, September 25-27, 1997.
+
+Sharad Mehrotra, Yong Rui, Michael Ortega, and Thomas S. Huang,
+"Supporting
+Content-based Queries over Images in MARS", Appeared in Proceedings
+of the 4th IEEE Int. Conf. Multimedia Computing and Systems, Chateau Laurier,
+Ottawa, Ontario, Canada, June 3-6, 1997.
+
+Kaushik Chakrabarti, Yong Rui and Sharad Mehrotra,
+"Dynamic Clustering
+for Multimedia Information Retrieval ",
+
+Yong Rui, Thomas S. Huang, Sharad Mehrotra, and Michael Ortega, "Automatic
+Matching Tool Selection via Relevance Feedback in MARS", Appeared in
+Proceedings of the 2nd Int. Conf. on Visual Information Systems, San Diego, 
+California, December 15-17, 1997.
+
+Yong Rui, Thomas S. Huang, Sharad Mehrotra, and Michael Ortega, "A Relevance
+Feedback Architecture in Content-based Multimedia Information Retrieval
+Systems", Appeared in Proceedings of IEEE Workshop on Content-based Access of
+Image and Video Libraries, Puerto Rico, June 20, 1997.
+
+Yong Rui, Thomas S. Huang, and Sharad Mehrotra, "Content-based Image
+Retrieval with Relevance Feedback in MARS", Appeared in Proceedings
+of IEEE Int. Conf. on Image Processing (ICIP'97), Santa Barbara, California, 
+October 26-29, 1997.
+
+Yong Rui, Thomas S. Huang, and Sharad Mehrotra "MARS and Its Applications
+to MPEG-7", Submitted as MPEG-7 proposal, ISO/IEC JTC1/SC29/WG11 MPEG97/2900.
+
+Kaushik Chakrabarti, and Sharad Mehrotra,
+"Concurrency Control in R-trees",
+Appeared in Proceedings of the 1st Symposium on the Federated Lab on Interactive
+and Advanced Display, Army Research Labs, Aberdeen, MD, January 28-30, 1997.
+
+Thomas S. Huang, Sharad Mehratra, and Kannan Ramchandran, "Multimedia
+Analysis and Retrieval System (MARS) project", Appeared in Proceedings
+of the 33rd Annual Clinic on Library Application of Data Processing - Digital
+Image Access and Retrieval , University of Illinois at Urbana-Champaign,
+March, 1996.
+
+Yong Rui, Alfred C. She, and Thomas S. Huang, "Modified Fourier Descriptors
+for Shape Representation -- A Practical Approach", Appeared in Proceedings
+of the 1st Int. Workshop on Image Databases and Multi Media Search, Amsterdam,
+Netherlands, 22-23 August, 1996.
+
+Yong Rui, Alfred C. She, and Thomas S. Huang, "Automated Shape Segmentation
+Using Attraction-based Grouping in Spatial-Color-Texture Space", Appeared
+in Proceedings of 1996 IEEE International Conference on Image Processing
+(ICIP'96), Lausanne, Switzerland, September 16-19, 1996.
+
+
+
+Related Projects
+Examples of other related projects funded by the IDM program 
+include the work by:
+
+Prof. R. Jain (UC, San Diego),
+Prof. S.F Chang (Columbia),
+Prof. Sistla, C. Yu., Ben Arie, and O. Wolfson (UIC),
+Prof. Hellerstien (UC, Berkeley),
+Prof. Ramakrishnan (Wisconsin),
+Prof. Ozsoyoglu (Case Western),
+Prof. Manjunath (UCSB),
+Prof. Wesley Chu (UCLA)
+Prof. Zhang (SUNY, Buffalo).
+
+
+Acknowledgements
+
+This work was supported by NSF CAREER award IIS-9734300, and in part by
+the NSF CISE Research Infrastructure Grant CDA-9624396, and in part by
+the Army Research Laboratory under Cooperative Agreement No. DAAL01-96-2-0003.
+
+
+
+
+
+
+
+
+      For any problems, questions or suggestions about this page, please contact,
+      Mario Espinoza - ( espinoza@ics.uci.edu )
+
+rev. 
+       May. 01, 2002
+      
+
+
+
+
+
+

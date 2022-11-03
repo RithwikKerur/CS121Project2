@@ -1,0 +1,441 @@
+https://isg.ics.uci.edu/event/adding-data-management-to-orleans-a-journey
+
+
+
+
+
+
+Phil Bernstein (MSR): Adding Data Management to Orleans – A Journey – Information Systems Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+
+Faculty
+Students
+Recent Alumni
+Research Staff
+Visitors
+
+
+Research
+
+Projects
+Publications
+
+
+Teaching
+
+Courses
+DB Qual
+
+
+Events
+
+Talks
+News
+
+
+About
+
+Sponsors & Partners
+Visitor Info
+Contact us
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ISG Talks are sponsored by Couchbase.
+<< All Talks
+
+
+
+ « All Events
+
+
+This event has passed.
+Phil Bernstein (MSR): Adding Data Management to Orleans – A Journey
+
+April 2, 2021 @ 11:00 am - 12:00 pm 
+
+
+
+
+
+« Yiming Lin (UCI): LOCATER – Cleaning WiFi Connectivity Datasets for Semantic Localization
+Jerry Power (I3 Systems): Managing Digital Flows in a Data Driven World »
+
+
+
+
+
+
+
+
+
+Speaker:
+Phil Bernstein
+Microsoft Research
+Abstract:
+I spent eight years adding database features to the Orleans object-oriented programming framework: replication, geo-distribution, transactions, and indexing. The challenge is how to do it when storage is a plug-in service that you don’t control. In this talk, I’ll describe the journey, summarizing the main technical ideas and recounting the ups and downs of a friendly collaboration with a product group. Along the way, I’ll discuss where database system research problems come from and the special challenges of industrial research. You can learn more about Orleans at https://dotnet.github.io/orleans/
+Speaker Bio:
+Philip A. Bernstein is a Distinguished Scientist at Microsoft Research. He has published over 150 papers and two books on the theory and implementation of database systems, especially on transaction processing and data integration, which are still a major focus of his research. He is an ACM Fellow, a AAAS Fellow, a winner of ACM SIGMOD’s Codd Innovations Award, a member of the Washington State Academy of Sciences, and the U.S. National Academy of Engineering. He received a B.S. degree from Cornell and M.Sc. and Ph.D. from University of Toronto.
+ 
+
++ Google Calendar+ iCal Export
+
+
+
+ Details 
+
+ Date: 
+
+ April 2, 2021 
+
+ Time: 
+
+
+					11:00 am - 12:00 pm				
+
+ Website: 
+ https://uci.zoom.us/j/8406745946 
+
+
+
+ Venue 
+
+ Zoom 
+
+
+
+ 
+
+
+
+
+
+« Yiming Lin (UCI): LOCATER – Cleaning WiFi Connectivity Datasets for Semantic Localization
+Jerry Power (I3 Systems): Managing Digital Flows in a Data Driven World »
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+Search for :
+
+
+Latest News 
+
+
+
+Upcoming Talk: How to build your own Business
+
+											July 25, 2022																																
+
+
+Upcoming Talk: Couchbase and Distributed Computing Backends for big data processing
+
+											May 31, 2022																																
+
+
+Upcoming Talk: Shedding Light on Opaque Database Queries
+
+											May 31, 2022																																
+
+
+ISG researchers won the  Mark Weiser Best Paper Award at IEEE PERCOM 2022
+
+											March 24, 2022																																
+
+
+
+
+Upcoming Events
+
+
+
+
+Qiushi Bai: QueryBooster-Improving SQL Performance Using Middleware Services for Human-Centered Query Rewriting + Demo
+
+
+
+October 14 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Xiaozhen Liu: Demonstration of Collaborative and Interactive Workflow-based Data Analytics in Texera
+
+
+
+October 21 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Abhishek Singh: WedgeBlock – An Off-Chain Secure Logging Platform for Blockchain Applications
+
+
+
+October 28 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Juncheng Fang: PeloPartition- Improving Blockchain Resilience to Partitioning by Sharding
+
+
+
+November 4 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Peeyush Gupta: A Demonstration of TippersDB
+
+
+
+November 18 @ 12:30 pm - 2:00 pm 
+
+
+
+View All Events
+
+Please follow & like us :) 
+
+Follow  
+
+ 
+
+
+
+
+
+
+
+			Copyright 2018 | ISG-UCI		
+
+
+
+
+
+
+cross
+
+
+
+
+
+
+
+
+
+
+Hit ENTER to search or ESC to close
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

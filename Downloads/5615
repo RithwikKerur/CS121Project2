@@ -1,0 +1,255 @@
+http://sdcl.ics.uci.edu/research/past-projects
+
+
+
+
+
+
+	Past projects – Software Design and Collaboration Laboratory
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SDCL Software Design and Collaboration Laboratory
+
+
+
+
+
+
+Past projects
+
+
+
+
+
+Porch Light
+PorchLight is a new desktop bug tracker interface designed to support bug triaging. Many software organizations use traditional, web-based bug trackers to collect both bug reports and enhancement requests. These bug reports and enhancements requests must be triaged by making decisions regarding their validity and priority, as well as to which developers and milestones they are assigned. The goal of PorchLight is to support effective triaging by reducing the time spent in making these decisions and by increasing the long-term accuracy of the assignments that are made. PorchLight explores the use of bug clusters to automatically categorize bugs into meaningful groups that are presented to triaging developers.
+
+
+
+
+
+Code Exchange
+Programming today regularly involves searching for source code online, whether through a general search engine such as Google or a specialized code search engine such as SearchCode, Ohloh, or GitHub. Searching typically is an iterative process, with developers adjusting the keywords they use based on the results of the previous query. However, searching in this manner is not ideal, because just using keywords places limits on what developers can express as well as the overall interaction that is required. Based on the observation that the results from one query create a context in which a next is formulated, we present CodeExchange, a new code search engine that we developed to explicitly leverage this context to support fluid, expressive modifications of queries.
+
+
+
+
+
+Crowd Design
+Crowdsourcing software has gained interest as an alternative to traditional software engineering. However, it is not known if the benefits of crowdsourcing found in literature can also be achieved with software design. CrowdDesign uses a micro-task crowdsourcing approach for software design to explore if we can leverage the knowledge of the crowd for high level software design.
+We have broken down a software problem into smaller tasks called decision points. Each decision point reflects a key decision that needs to be made during the design process. Breaking down the bigger problem into these smaller tasks for the crowd will allows us to explore if the crowd is able to provide quality software designs without an complete overview of the problem.
+We have build a tool that allows crowd workers to contribute on decision points by naming, explaining and sketching different alternative solutions. Furthermore, we explore how the availability of work made by others and the option to copy and borrow elements that work influences the quality and diversity of proposed alternative solutions by the crowd.
+
+
+
+
+
+Crowd Fault Localization
+Microtask crowdsourcing is the practice of breaking down an overarching task to be performed into numerous, small, and quick tasks that are distributed to an unknown, large set of workers. Microtask crowdsourcing has shown tremendous potential in other disciplines, but with only a handful of approaches explored to date in software engineering, its potential in our field remains unclear.
+We explore how microtask crowdsourcing might serve as a means to locate fault in software, more specifically, we are interested in studying the effectiveness, cost, and speed of a crowd of workers to correctly locate known faults in small code fragments taken from real world software. We have been running large scale experiments through Mechanical Turk, where we can collect the answers from hundreds of workers to a pre-determined set of template questions applied to the code fragments. Questions are asked multiple times and workers answer multiple different questions. Our findings show that it is possible for a crowd to correctly distinguish questions that cover lines of code containing a fault from those that do not.
+The image below shows an example of a fault localization task. In this task a worker receives information about a software failure and the unit test that exposed the failure. The worker also receives the source code of the Java method that failed the unit test. The task basically consists of answering a question about the possible relation between a code fragment and the failure.
+
+
+
+
+
+Calico
+Calico is an intuitive sketch-based design environment for use on touch-based devices, with a particular focus on supporting the early stages of software design. Most software developers, when faced with a design problem, forgo existing modeling tools altogether in favor of pen-and-paper or the whiteboard to work through the problem and come up with a solution. A hallmark of this activity is that the developers sketch: they create rough, imprecise approximations of the design they have in mind that are modified and refined continuously as part of the design activity. Calico explores touch-based hardware, including electronic whiteboards, tablet PCs, slates, and iPads, to create a novel software design environment in support of software developers engaged in design sketching.
+
+
+
+
+
+
+
+
+
+Code Topics
+The development of a software system is now ever more frequently a part of a larger development effort, including multiple software systems that co-exist in the same environment: a software ecosystem. Though most studies of the evolution of software have focused on a single software system, there is much that we can learn from the analysis of a set of interrelated systems. Topic modeling techniques show promise for mining the data stored in software repositories to understand the evolution of a system. In my research, I seek to explore how topic modeling techniques can aid in understanding the evolution of a software ecosystem. The results of this research have the potential to improve how topic modeling techniques are used to predict, plan, and understand the evolution of software, and will inform the design of tools that support software engineering activities such as feature location, expertise identification, and bug detection.
+
+
+
+
+
+
+
+
+
+Lighthouse
+Lighthouse is a rich collaboration portal centered on emerging design. The highly collaborative nature of software development is known to lead to a number of problems, including conflicting work, design erosion, and difficulties in understanding overall progress. The underlying cause is a lack of insight into the parallel programming activities of developers and how the code changes that result interfere, alter the design, and contribute to the overall system. Lighthouse monitors all ongoing changes in all workspaces to provide developers with a visualization of the emerging design – the design as it exists in the code as virtually integrated across all workspaces. Using the emerging design, developers can gauge whether they may need to coordinate their changes with those of other developers, whether the quality of the overall design remains in tact or must be addressed, and whether overall progress is on track or must be reconsidered.
+
+
+
+
+
+
+
+
+
+Code Orb
+The Code Orb is an Eclipse plug-in that helps developers identify volatile code. A range of empirical studies have identified correlations between past states of code and its potential for future bugs. Example indicators are code that was buggy in the past, code that has been edited or seen by very few developers, code that was changed frequently in the recent past, code that has low test coverage, and others. When editing code, however, developers typically are not aware of these, and indeed have little opportunity to become aware other than to explicitly and manually search for such information, which they are unlikely to do. The Code Orb provides developers with continuous, line-by-line feedback on the volatility of the code they are currently editing, prompting them to be extra careful when editing code that has a higher risk of leading to future bugs.
+
+
+
+
+
+
+
+
+
+SimSE
+SimSE is an educational software engineering simulation environment that bridges the gap between the large amount of conceptual software engineering knowledge students learn in lectures and the comparably small amount of this knowledge they actually put in practice in an associated lab project. SimSE allows students to practice virtually, through a fully graphical, interactive, and fun simulation in which direct, graphical feedback highlights the complex cause and effect relationships underlying today’s software development processes.
+
+
+
+
+
+
+
+
+
+Palantír
+Palantír is a novel workspace awereness tool that complements existing configuration management systems by providing developers with insight into parallel code changes. Palantír informs developers of which other developers are currently changing which other artifacts, calculates a measure of severity for each of the changes, and presents this information in a non-obtrusive manner in the IDE so developers can respond to conflicts well before they get out of hand and lead to serious problems down the road.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+Collaborators
+
+Anita Sarma
+David Redmiles
+Marian Petre
+Shinobu Saito
+Thomas LaToza
+
+
+
+
+
+
+
+
+
+
+Home
+Research
+
+Chatbots
+KnoCap
+Past projects
+
+Lighthouse
+CrowdDesign
+Crowd Debugging
+Calico
+CodeExchange
+Code Orb
+Crowd Development
+PorchLight
+
+
+
+
+Papers
+
+Technical reports
+Dissertations
+Books
+
+
+Opportunities
+People
+
+Previous members
+
+
+Sponsors
+Contact
+
+Directions
+
+
+
+
+
+
+
+
+
+
+
+ The Software Design and Collaboration Laboratory is housed in the Department of Informatics in the Donald Bren School of Information and Computer Sciences at the University of California, Irvine.
+
+
+
+
+
+    
+
+
+
+
+
+   
+
+
+
+
+Copyright ©             
+            SDCL |   eDegree° Theme by Top Blog Formula on WordPress |   
+                            Log In
+
+
+
+
+
+

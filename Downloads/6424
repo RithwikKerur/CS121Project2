@@ -1,0 +1,343 @@
+http://www.ics.uci.edu/~kay/courses/i41/f11.html
+
+
+
+
+
+
+Informatics 41 Syllabus • Fall 2011
+
+
+
+
+
+
+
+INFORMATICS 41 • FALL 2011 • DONALD BREN SCHOOL OF INFORMATION AND COMPUTER SCIENCES •UC IRVINE
+
+Informatics Core Course I
+COURSE REFERENCE
+
+Instructor:  David G. Kay,
+5056 Donald Bren Hall (DBH) (kay@uci.edu)
+
+Teaching assistant: Matt Chan (mchan5@uci.edu). Reader:
+Eugenia Gabrielova 
+(eugenia.g@uci.edu).  Lab tutors: Camille Mercado, Nico Ritschel, Celina Siu, Melody Truong.
+
+Quick links:
+Textbook
+
+Assignments
+Email archive Past quizzes
+References
+
+
+Course goals:  This course is the first
+of a three-quarter sequence introducing the field of informatics—computer
+science with an emphasis on software and systems design and the human, organizational,
+and social context surrounding what we design.  This course will not only
+broaden your technical horizons but also focus on systematic problem solving.
+ We welcome you and we hope you enjoy it.
+
+Prerequisite concepts:  This course
+does not expect any previous experience in computer science or computer
+programming.  If you do have some experience, you will find some topics
+familiar but many others will certainly be new to you.
+
+We do expect each student to be able to navigate
+the Windows  systems in our labs, to navigate the World-Wide Web, to download
+and read documents in Adobe Acrobat (pdf) format, and to read and send electronic
+mail.  Some of our assignments will require these skills.  If you need to
+pick these skills up or sharpen them, do it in the first week of the quarter;
+speak with us if you need a hand.
+
+Meeting place and times:  Lecture meets
+six hours each week:  Tuesdays and Thursdays from 11:00 to 12:20 
+and also from 2:00 to 3:30 in Steinhaus Hall 174. Each student must enroll in one of these lab sections:
+1. Monday/Wednesday/Friday from 1:00 to 2:50 p.m. in ICS 189
+2. Monday/Wednesday/Friday from 3:00 to 4:50 p.m. in ICS 189
+None of these hours are optional. Most of your lab work will be done in pairs,
+  so the scheduled lab times are the best times to
+  work with your partner.
+
+Office hours:  You are welcome to drop by my office at any time.  If I'm there and not immersed in something
+else, I'll be glad to chat about the course material or other topics.
+ I will definitely be in or near my office during these scheduled hours,
+during which course-related matters will have first priority:  Tuesdays from 3:20 (right after class) to 3:45 and Fridays from 12:15 to 12:45. I may adjust these times at the end of the first week. Of course emergencies
+may come up, but I will try to give advance notice of any change. I'll
+also be happy to make arrangements for other times during the week; "making an appointment" is no big deal (but if you make one, don't skip it  without getting in touch).  The
+quickest and most effective way to reach me is by electronic mail, as described
+below.
+
+Questions and announcements:  You can
+usually get a response to your course-related questions within a few hours
+(a bit less frequently on the weekends) by sending electronic mail to the
+ID i41@uci.edu.
+ This goes to all of us, and whoever reads it first can respond.  If you
+need to reach one of us individually, use our individual IDs listed above. I will never intentionally ignore a message, so if you don't receive a response, write again; sometimes overactive spam filters snag a legitmate message. Using course-specific subject lines and your UCInet Email address will help your messages get noticed.
+
+We may also send course announcements by Email
+    to the official course mailing list, so you should check your Email daily.
+    Note that this mailing list goes to the Email address that the registrar
+    has for you (your UCInet ID).    If you prefer to read your Email
+  on another account, forwarding instructions appear below. Don't let this slide; if you miss official
+announcements, your grade could suffer.
+
+This course's web page is at http://www.ics.uci.edu/~kay/courses/i41 and 
+official course Email is archived at http://e3.uci.edu/classmail/F11/37000.
+
+Textbooks and software: Picturing Programs,
+by Stephen Bloch. We will follow the text closely, though we will cover many topics in class that aren't in the book. The text has a web site at http://www.picturingprograms.com. The complete text may be downloaded for free from that web site, though it would be nice to pay the author the $5.00 he requests. Bound paper copies are also available from the usual online bookstores.
+How to Design Programs, second edition by Felleisen, Flatt, Findler, and Krishnamurthi. This is an optional text; for the most part we won't be assigning readings or problems from this book, but some students may appreciate its approachl. It, too, is fully and freely available on line.
+The Scheme software we will use (called DrRacket or DrScheme—they're the same thing) is available free for all major platforms at http://www.racket-lang.org.
+
+
+At http://www.ics.uci.edu/~kay/courses/i41/refs.html
+is a list of supplementary references on course topics.  These are not required
+reading (unless we tell you otherwise later).
+
+Labs and lab hours: Of course you will
+need to do some of your work outside of the scheduled Monday/Wednesday/Friday
+lab hours.  Students in Informatics 41 may use any of the school's instructional
+computing labs except for times when another course is scheduled in the
+lab exclusively.  See http://www.ics.uci.edu/~lab
+for lab hours and other information.   Note in particular that all ICS labs
+are closed on university holidays, such as the Friday after Thanksgiving
+(but not the Saturday and Sunday).
+
+Please remember that programming tasks always
+take longer to complete than you think they will, no matter how much experience
+you have.  You must account for this as you plan your time; we cannot accept
+busy schedules or time mismanagement as an excuse for late or incomplete
+assignments.
+
+Course structure:
+
+Weekly homework assignments and lab assignments (25% of the course grade). All the assignments
+will be available at http://www.ics.uci.edu/~kay/courses/i41/hw/.
+
+Class participation:  Based primarily on participating consistently
+and effectively in the lab, including turning in a partner evaluation for each lab assignment (10%).
+
+Weekly quizzes:  Given in lecture every Tuesday morning at 11:00
+(30% together).   The previous years' quizzes are available on the web at http://www.ics.uci.edu/~kay/courses/i41/quiz/old;
+they're an excellent way to prepare and review (but they won't perfectly
+mirror the form and content of this year's quizzes). Because there's a quiz every week, there is no way to make up missed quizzes; however, quizzes missed for good reasons won't count negatively in anyone's grade.
+One final exam:  On Tuesday, December 6, from 10:30 a.m. to 12:30 p.m. (35%).
+
+We determine final grades neither on a formal
+curve (with equal numbers of As and Fs, Bs and Ds, and so on) nor on a fixed,
+straight scale.  Scores on the scale shown below will get the grades indicated,
+but in the past the actual cutoffs have often been lower; this means that
+you should not assume your grade will be as low as the scale indicates.
+ If you're concerned, check with your TA or the instructor.  The basic
+scale is:  grades in the A range (A-, A, and in exceptional cases, A+),
+90% and above; grades in the B range, 80%–90%; grades in the C range, 70%–80%. We urge everyone to focus not on letter grades but on learning what's necessary to earn high scores; the grades will follow from that.
+
+Your TA has primary responsibility for evaluating
+your work; see the TA first for any questions about grading or scoring. 
+If that does not resolve your question, then see the instructor.  Quiz and lab scores will be recorded on the web at eee.uci.edu. We will be happy to correct any errors that do occur, but we
+must ask that you bring us your grading questions within a week after the
+item is returned; the course moves quickly and we simply can't deal
+with assignments long past.
+
+We're required to say that in unusual circumstances,
+these criteria could change, but we do not expect that to happen.
+
+Special needs: Any student who feels he or she may need an accommodation due to a disability should contact the UCI Disability Services Center at (949) 824-7494 as soon as possible to explore the possible range of accommodations. We encourage all students having difficulty, whether or not due to a disability, to consult privately with the instructor at any time. 
+What to do this week to get started in Informatics
+  41:  
+— If you do not have a UCInet ID, get one (see http://activate.uci.edu/). 
+— Learn how to read electronic mail sent to your UCInet ID (see http://www.oit.uci.edu/email/). If you prefer to read your electronic mail on an account other than your
+      UCInet account, redirect your mail at http://www.oit.uci.edu/email/deliverypoint.html. 
+— If you do not have an ICS account for access to the Windows network in
+          ICS, get one.  See http://www.ics.uci.edu/~lab/students/acct_activate.php. 
+— On the Web, go to checkmate.ics.uci.edu,
+              log in with your UCInet ID, choose "Course Listing," click "Go"
+            next to Informatics 41, and then click "List me for this course."
+            You'll submit some of your work electronically; this step is necessary
+              to set that up. 
+— If you aren't already subscribed to the Informatics Student Association mailing list, INSA-News, subscribe now at https://mailman.ics.uci.edu/mailman/listinfo/insa-news. You'll receive notice of student events, company visits, research opportunities, curricular anouncements, and more; you'll miss important things if you're not on this list.
+— Get a lab printing key-card if you plan to do any printing in the lab. See http://www.ics.uci.edu/~lab/students/printing.php.
+— Give a snapshot of yourself (with your name written on the back) to your
+                  TA.  This will help us learn your names quickly.  (This is not just for
+                  fun—it's a course requirement.)
+— Complete the survey at http://eee.uci.edu/survey/i41.f11.q.
+ Good advice and helpful hints:
+Make
+  every effort to attend each class meeting; we will often cover material that isn't
+  directly in the textbook.  It's not fair to ask the TA simply to repeat
+  lecture material you missed, though of course the TA will always answer questions about
+  it.
+ Attend your lab section, too;
+  assignments will be checked off there, you will do most of your lab work there, and you can get a different perspective there than you hear in lecture.
+  Don't hesitate to ask your TA to address topics  that will help you. 
+  Since most of your work will be done with a partner, your partner also depends
+  on your consistent presence.
+ Check your electronic mail regularly; this
+  is an official channel for course announcements.
+ Keep up with the reading; you'll need it
+  to do your assignments, and the quarter system goes so fast that a few missed
+  pages can quickly become a few chapters if you're not careful.  You
+  will want to read the assigned sections early so you can ask us about parts
+  that aren't clear. 
+ The assignments, like all technical specifications,
+  require careful and thorough reading and re-reading.  Expect to refer back
+  to the assignment often, and check it first when you have questions about
+  what's required or how to proceed.  Before you come to lab, be sure
+  to read the assignment to get an idea of what's required.
+ Start each assignment early.  Assignments will
+  be due weekly, but you'll need to spend some time on them nearly every
+  day.  Programming always takes longer to complete than you think it will,
+  even if you have previous programming experience.  By starting early, you'll
+  have time to ask in discussion section about problems you encounter.
+ If you find yourself having trouble or getting
+  behind, speak with your TA or the instructors.  We have lots of ways to help.
+  But never take the shortcut of copying someone else's work and
+  turning it in; the consequences can be far worse than just a low score on
+  a lab assignment.  ICS takes academic honesty very seriously; for a more
+  complete discussion, see our course collaboration guidelines (http://www.ics.uci.edu/~kay/courses/i41/honesty.html) and the ICS departmental web page covering academic
+honesty issues (http://www.ics.uci.edu/ugrad/policies/index.php/index.php#cheating).
+ Turn in whatever portion of an assignment you
+  have completed on the due date.  It's much better to turn in something
+  rather than nothing; zeroes are hard to make up.  In some circumstances
+  you may arrange with your TA to work further on an assignment after the
+  due date, but you must turn in whatever you have when the official due date
+  comes.  Likewise, don't skip any quizzes if you can help it; too many zeroes will significantly lower your overall score.
+ Always keep your own copy of each assignment,
+  both electronically and on paper; if an assignment should get lost in the
+  shuffle (or if a file server in the lab should crash, which has happened),
+  we'll expect you to be able to supply a replacement easily. 
+ Approximate course outline: 
+
+
+
+
+
+Week
+Date
+Topics (and chapters in the Picturing Programs text)
+
+
+0.
+22 September
+Introduction to the course and computing  •
+    Models and abstraction • Information, data, and functions (PP 1–5)
+
+
+1.
+27 September
+Designing functions and animations (PP 6–11) 
+
+
+ 
+29 September
+Booleans and conditionals (PP 12–15) (PP 16–19) • Internet organization
+
+
+2.
+4 October
+ Structures (PP 20–21) 
+
+
+ 
+6 October
+Lists (PP 22)
+
+
+3.
+11 October
+List processing (PP 23)
+
+
+ 
+13 October
+Numbers and recursion (PP 24) • Extended example
+
+
+4.
+18 October
+Processing complex data structures (PP 25)
+
+
+ 
+20 October
+Trees and binary search trees • Human-computer interaction
+
+
+5.
+25 October
+Program efficiency (PP 26) • Extended example
+
+
+ 
+27 October
+Algorithmic abstraction (PP 27–28) • Map, filter, foldr
+
+
+6.
+1 November
+Input/output and files (PP 29) • Extended example • Information systems and stakeholders
+
+
+ 
+3 November
+Basic processor
+    operations
+
+
+7.
+8 November
+Machine-level and high-level
+    languages • Memory organization and data representation in memory
+
+
+ 
+10 November
+Representing graphics •
+    Data compression
+
+
+8.
+15 November
+ Extended example
+
+
+ 
+17 November
+Accumulators and tail recursion • State and assignment (PP 30) • Operating system functions
+
+
+9.
+22 November
+Full Scheme (PP 31) • Secondary storage and peripherals
+
+
+ 
+24 November
+— No  class meeting — Thanksgiving
+
+
+10.
+29 November
+Social and legal issues • Natural language understanding
+
+
+ 
+1 December
+ Looking back and looking forward 
+
+
+ F.
+6 December
+Final exam, Tuesday, 10:30 a.m. to 12:30 p.m.
+
+
+
+David G. Kay, kay@uci.edu 
+
+Monday, September 26, 2011 12:34 PM
+
+
+

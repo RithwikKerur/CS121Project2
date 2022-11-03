@@ -1,0 +1,389 @@
+http://sli.ics.uci.edu/extras/cs178/LinearSVM_Demo.html
+
+
+
+
+LinearSVM demo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In [1]:
+
+
+import numpy as np
+np.random.seed(0)
+import mltools as ml
+import matplotlib.pyplot as plt
+%matplotlib inline
+
+def newPlot(h=5.0,w=4.0):
+    plt.close("all")
+    plt.rcParams['figure.figsize'] = (h,w)
+
+
+
+
+
+
+
+
+
+
+Linear SVMs¶Support vector machines (SVMs) are a technique for creating classifiers that make explicit the concept of encouraging a "margin of separation", i.e., we identify a classifier that trys to ensure that (for separable data), the data nearest to the decision boundary are as far as possible.  Notionally, these are the "hard" data, and we should focus on preventing mistakes on these; "easy" data that are far from the decision boundary should have little or no influence on our decision function.
+We'll start by exploring linear SVMs for separable data, a variant of linear classifiers that optimize this margin.
+
+
+
+
+
+
+
+
+Let's define a (trivial placeholder) linear classifier.  We won't bother creating a "train" function for this object, as we will do the training explicitly in the notebook, but by defining a "predict" function we'll be able to use plotClassify2D for visualization.
+
+
+
+
+
+In [2]:
+
+
+class linearSVM(ml.classifier):
+    def predict(self, X):
+        Z = self.theta[:,0].T + X.dot( self.theta[:,1:].T )
+        Yhat = 2*(Z>0)-1  # np.sign(Z) without sign(0)=0
+        return Yhat
+
+sv = linearSVM()
+
+
+
+
+
+
+
+
+
+
+Let's look at a trivial data set, comprised of only three data points and one feature.  We have two data from the negative class, at $x=-3$ and $x=-1$, and one point from the positive class, at $x=2$.
+We saw in lecture that we could construct the SVM objective, "maximize the margin subject to all the data on the correct side" mathematically as,
+$$\begin{align*}
+\theta^* &= \arg \min_{\theta=(b,w)} ||w||^2 \\
+\textrm{subject to} &\qquad  y^{(i)} (b+wx^{(i)}) \geq 1 \quad \forall i
+\end{align*}$$This optimization is a quadratic program ("QP", a quadratic objective function subject to linear constraints), and can be solved using a variety of packages.  Here, we'll just use scipy; if you want to solve large QPs, I suggest the CVX toolkit.
+This form is called the primal form, to distinguish it from a later equivalent form (the dual form); it is an optimization over $N+1$ parameters, with $M$ linear constraints.  Let's set this simple problem up in scipy's minimize function:
+
+
+
+
+
+In [3]:
+
+
+import numpy as np
+from scipy import optimize
+
+# Solve the primal version of our simple example from lecture
+# X : three data points, one feature:
+X = np.array([[-3],[-1],[2]])
+Y = np.array([[-1],[-1],[1]])
+M,N = X.shape
+
+# Now, we want to solve:
+#  min ||w||^2  st   y[i]*(b+w*x) >= +1
+
+# theta = all parameters = [b, w1]
+# f(theta) = ||w||^2
+def f(theta):            # our objective function f(theta)
+    return theta[1]**2   #    = ||w||^2
+def df(theta):           # and its gradient = [0,2*theta[1]]
+    return np.array([0.0,2.0*theta[1]])
+
+# now define the constraints, as  A*theta >= b
+b,A = np.zeros((M,)), np.zeros((M,2))
+for i in range(M):
+    b[i],A[i,:] = 1.0, [Y[i],Y[i]*X[i,0]]
+
+cons = {'type':'ineq',
+        'fun':lambda th: np.dot(A,th) - b,
+        'jac':lambda th: A}
+
+opt = {'disp':False}
+
+th0 = np.random.randn(2)    # initial guess for theta 
+
+res = optimize.minimize(f, th0, jac=df,constraints=cons,
+                        method='SLSQP', options=opt)
+theta = res.x
+
+# Now, 
+print "Theta = ",theta
+print "\nLinear response of each data point:"
+print theta[0]+theta[1]*X
+# We can see that the 2nd & 3rd data points are on the margin, as expected
+
+
+
+
+
+
+
+
+Theta =  [-0.33333333  0.66666667]
+
+Linear response of each data point:
+[[-2.33333333]
+ [-1.        ]
+ [ 1.        ]]
+
+
+
+
+
+
+
+
+
+
+
+So, we get the same result we saw in the slides.
+Let's try it with a larger, still linearly separable data set:
+
+
+
+
+
+In [4]:
+
+
+import mltools.datagen
+np.random.seed(1)
+X,Y = ml.datagen.data_GMM(100,2, get_Z=True)
+Y[Y==0] = -1   # convert from 0,1 to -1,+1 format
+newPlot()
+ml.plotClassify2D(None,X,Y)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In [5]:
+
+
+# Same thing, but using the larger data set:
+M,N = X.shape
+
+def f(theta):            # our objective function f(theta)
+    return (theta[1:]**2).sum()   #    = ||w||^2
+def df(theta):           # and its gradient = [1.0,2*theta[1:]]
+    grad = 2.0*theta
+    grad[0] = 1.0
+    return grad
+
+b,A = np.ones((M,)), np.ones((M,N+1))
+for i in range(M):
+    A[i,1:] = X[i,:]
+    A[i,:] *= Y[i]
+
+cons = {'type':'ineq',
+        'fun':lambda th: np.dot(A,th) - b,
+        'jac':lambda th: A}
+opt = {'disp':False}
+th0 = np.random.randn(N+1)    # initial guess for theta 
+
+res = optimize.minimize(f, th0, jac=df,constraints=cons,
+                        method='SLSQP', options=opt)
+theta = res.x
+print "Theta = ",theta
+sv.theta = np.atleast_2d(theta)
+ml.plotClassify2D(sv,X,Y)
+
+
+
+
+
+
+
+
+Theta =  [-2.18600061  1.93007751 -1.27998603]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Soft-margin linear SVMs¶In class, we extended this concept to work on non-separable data.  For non-separable data, there are no settings of the parameters $\theta$ that can satisfy all the linear constraints.  So, we added some "slack variables" $\epsilon_i \geq 0$, which can allow a data point to satisfy its linear constraint without being on the correct side of the margin, and then added a penalty term, $R \sum_i \epsilon_i$, which gives an increasing penalty the more data points are on the wrong side of the margin, or the further they are.
+Nicely, this formulation remains a quadratic program:
+$$\begin{align*}
+\theta^* &= \arg \min_{b,w,\epsilon} ||w||^2 + R \sum_i \epsilon_i \\
+\textrm{subject to} &\qquad  y^{(i)} (b+wx^{(i)}) \geq 1 - \epsilon_i \quad \forall i \\
+ & \qquad \epsilon_i \geq 0 \quad \forall i
+\end{align*}$$
+
+
+
+
+
+In [6]:
+
+
+## TBD: soft-margin QP formulation with scipy.optimize
+
+
+
+
+
+
+
+
+
+
+If we explicitly optimize over $\epsilon_i$ for any fixed $\theta = (b,w)$, we can see that the optimal value of $\epsilon_i$ is given by setting it as small as possible while still satisfying the constraints.  Thus, if $y^{(i)} (b+wx^{(i)}) \geq 1$, we set $\epsilon_i = 0$, otherwise, it will be set to $1-y^{(i)}(b+wx^{(i)})$.  Rephrasing,
+$$ \epsilon_i = \max\big[\quad 0 \quad,\quad 1-y^{(i)}(b+wx^{(i)}) \quad \big] \equiv J_i(\theta)$$Then, we see that we can reformulate our optimization in our usual "loss plus regularization":
+$$ \theta^* = \arg \min_{\theta=(b,w)} \ \frac{1}{R} ||w||^2 + \sum_i J_i(\theta) $$where $J_i(b,w)$ is called the "hinge loss", since it is zero for data points that satisfy the margin constraint, and then increases linearly for data points that violate it.  Using this form, we could optimize a linear SVM using our simple stochastic gradient descent procedure:
+
+
+
+
+
+In [7]:
+
+
+from numpy import atleast_2d as twod
+from numpy import asarray as arr
+
+M,N = X.shape
+sv.theta = np.array([[-3,-1,.5]])
+
+alpha = 0.01
+reg = 1e-4
+for it in range(1000):   # 100 iterations:
+    for j in range(M):
+        zj = sv.theta[0,0]+twod(X[j,:]).dot(sv.theta[0,1:].T)  # compute linear response
+        #print zj
+        # Now, compute the gradient of the hinge loss:
+        gradj = 0 if zj*Y[j] > 1.0 else -Y[j]*arr([[1,X[j,0],X[j,1]]])
+        # plus the gradient of the L2 regularization term:
+        gradj += reg * sv.theta
+        # and update theta:
+        sv.theta -= alpha/(it+1) * gradj
+    if it<10: print "Error rate: {} \t(iter {})".format(sv.err(X,Y),it)
+print "...\nTheta:",sv.theta
+
+
+
+
+
+
+
+
+Error rate: 0.16 	(iter 0)
+Error rate: 0.07 	(iter 1)
+Error rate: 0.04 	(iter 2)
+Error rate: 0.03 	(iter 3)
+Error rate: 0.01 	(iter 4)
+Error rate: 0.01 	(iter 5)
+Error rate: 0.01 	(iter 6)
+Error rate: 0.01 	(iter 7)
+Error rate: 0.01 	(iter 8)
+Error rate: 0.01 	(iter 9)
+...
+Theta: [[-1.7766943   1.66337603 -0.89982536]]
+
+
+
+
+
+
+
+
+In [8]:
+
+
+newPlot()
+ml.plotClassify2D(sv,X,Y)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Note, however, that SGD is not a very efficient algorithm on piecewise linear loss functions such as the hinge loss; for relatively few data points, and if the exact optimum is desired, it can be more efficient to use either a general QP solver, or an algorithm specialized to SVMs.
+
+
+
+
+
+
+
+
+Multi-class generalization¶TBD
+Linear SVMs can be generalized to multi-class classification problems in exactly the same way as percpetrons, simply by modifying the constraints in the SVM to reflect more than two classes, or equivalently modifying the loss function.
+
+
+
+
+
+In [ ]:
+
+
+ 
+
+
+
+
+
+
+
+
+

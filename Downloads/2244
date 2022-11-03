@@ -1,0 +1,172 @@
+https://emj.ics.uci.edu/talks
+
+
+
+
+Selected Talks | Eric Mjolsness
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Eric Mjolsness
+
+
+Department of Computer Science, University of California Irvine
+
+
+
+Skip to content
+
+HomeAbout
+Papers
+
+Computational Biology Papers
+Modeling Frameworks Papers
+Machine Learning Papers
+Vision and Image Analysis Papers
+Optimization Papers
+Cognition Papers
+Computational Field Geology Papers
+Neural Network Papers
+Calculational papers
+
+
+Projects
+
+Computational Biology Projects
+
+Computable Plant Project
+
+
+
+
+Topics
+Software
+
+Research Software – Computational Biology
+Cambium biomathematical model translation software
+
+
+Selected Talks
+
+Talks – Computational Biology
+
+
+Teaching
+PhD Theses
+Reviews
+Grand Questions
+CV & News
+Opportunities
+Democracy
+
+
+
+
+
+
+
+
+Selected Talks
+
+I don’t much like videos in science, but it looks like we are stuck with them for a while. So here are some recent talks that happened to get recorded. For the real story, please see the papers instead.
+“AI for physically based theory: Machine learning, symbolic computing, and modeling across scales”
+UCI Physical Sciences Machine Learning Nexus, August 4 2020.
+Abstract: There is currently a renaissance in the application of artificial intelligence (AI) and its machine learning (ML) subfield to the physically based sciences, up to and including biophysics. But what kind of AI/ML applies best? Computer algebra is symbolic AI of established high value to theorists. Most of the current buzz pertains to deep neural networks (ML) applied to numeric simulations. The fruitful combination of analytic and numeric approaches to theory within the physical sciences is reflected, though with more rivalry, in the history of Artificial Intelligence between symbolic and quantitative machine learning approaches. But there have always been hybrids and proposed unifications. I will outline some relevant combinations of symbolic AI and numeric ML that I think arise repeatedly in the context of multiscale scientific modeling: ML model reduction methods that incorporate statistical mechanics; quantitative and stochastic high level “rules” for emergent dynamics, incorporating graph grammars; and the prospect of using recent progress in automatic theorem verification to define and automate the applied mathematical objects and dynamics that may be required to model complex biophysical systems.
+Some intro material wasn’t recorded. There are minor errata that I know about; e.g. “morphodynamics” is the dynamics of form.
+
+
+
+2. “Model reduction from Non-Equilibrium to Dynamic Boltzmann Models of Reaction-Diffusion Networks”
+Workshop on Nonequilibrium Physics in Biology,Simons Center for Geometry and Physics. 2018-12-04.
+Abstract: Finding reduced models of spatially distributed chemical reaction networks requires an estimation of which effective dynamics are relevant. We propose a machine learning approach to this coarse graining problem, where a maximum entropy approximation is constructed that evolves slowly in time. The dynamical model governing the approximation is expressed as a functional, allowing a general treatment of spatial interactions. In contrast to typical machine learning approaches which estimate the interaction parameters of a graphical model, we derive Boltzmann-machine like learning algorithms to estimate directly the functionals dictating the time evolution of these parameters. By incorporating analytic solutions from simple reaction motifs, an efficient simulation method is demonstrated for systems ranging from toy problems to basic biologically relevant networks. The broadly applicable nature of our approach to learning spatial dynamics suggests promising applications to multiscale methods for spatial networks, as well as to further problems in machine learning.
+http://scgp.stonybrook.edu/video_portal/results.php?s=7NTS6dfKtqnS49rR7NnK7N6Q6czM3qijqpY=
+3. “Towards a mathematical architecture for more flexible scientific modeling”
+Workshop on Mathematics for Developmental Biology, Banff International Research Station. Wednesday, December 13, 2017.
+Abstract: In developmental biology we find modeling problems that stretch the boundaries of traditional computational science: complex local information-processing, regulation of dynamically changing neighborhood relations, reticulated geometric structures of multiple dimensionalities, highly heterogeneous laws of motion, and a rich multiscale structure. It may be advantageous to enlist automation in the form of mathematical AI (artificial intelligence, both symbolic and machine learning) to help manage this essential model complexity. Machine learning (ML) naturally applies to the problem of finding scale changes in mathematical models, as we will show. But a new kind of mathematical AI/ML may be required overall, in order to create such an “intelligent” architecture for multiscale scientific modeling. To that end I suggest desiderata, consider useful new and existing mathematical ingredients, and propose an overall structure for such an architecture.
+http://www.birs.ca/events/2017/5-day-workshops/17w5164/videos/watch/201712130925-Mjolsness.html
+
+
+
+
+
+
+
+
+
+
+Search for:
+
+
+
+
+
+Recent Posts
+
+
+UCI academic site
+
+
+Recent CommentsArchives
+
+December 2012
+
+Categories
+
+Uncategorized
+
+
+Meta
+
+Log in
+Entries feed
+Comments feed
+WordPress.org
+
+ 
+
+
+
+
+
+
+					Eric Mjolsness				
+
+
+
+					Proudly powered by WordPress.				
+
+
+
+
+
+
+
+
+
+

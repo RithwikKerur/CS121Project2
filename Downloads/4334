@@ -1,0 +1,247 @@
+https://cml.ics.uci.edu/2014/03/spring-2014
+
+
+
+
+
+Spring 2014 | Center for Machine Learning and Intelligent Systems
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+University of California, Irvine
+
+
+Menu
+Skip to content
+Home
+About CML
+
+About us
+News
+Contact Us
+
+
+People
+
+Faculty
+Alumni
+
+
+Events & Seminars
+
+AI/ML Seminar Series
+AI/ML Seminar Live Stream
+CML Distinguished Speakers
+ML Reading Group
+
+
+Education & Resources
+
+Courses
+Books
+
+
+UCI Machine Learning Archive
+Sponsors & Funding
+Subscribe to CML List
+ 
+
+
+
+
+
+Spring 2014 Standard
+
+March 1, 2014
+AIML
+
+
+
+
+
+
+
+  
+
+
+Mar 31
+
+
+First day of classes(no seminar)
+
+
+
+  
+
+
+Apr 7Bren Hall 40111 pm
+
+
+Aram GalstyanResearch Asst. ProfessorDepartment of Computer ScienceUSC/ISI
+
+Statistical physics approach to inference in graphical modelsProbabilistic graphical models describe a potentially large number of random variables coupled with each other through some dependency mechanism. One of the main problems underlying graphical models is to infer the values of certain variables based on observations of other variables. Rigorous analysis of statistical inference algorithms can be very complicated even for relatively simple models. Instead, methods based on statistical physics of disordered systems provide a viable alternative. Here I will demonstrate the application of those methods on two problems, MAP estimation of Hidden Markov Models and Stochastic Block Models. The inference in both problems can become highly unstable due to a critical phase transition in the corresponding statistical physical system. Those instabilities are caused by frustrated (e.g., conflicting) constraints that are imposed on the inference objective. I will also discuss how one can mitigate this undesirable feature by active inference, i.e., by adaptively acquiring information about the (true) states of the hidden variables.
+
+
+  
+
+
+Apr 9Bren Hall 40114pm
+
+
+Misha ChertkovTheory DivisionLos Alamos National Laboratory
+
+Complex Energy SystemsToday’s energy systems, such as electric power grids and gas grids, already demonstrate complex nonlinear dynamics where, e.g., collective effects in one exert uncertainty and irregularities on other. These collective dynamics are not well understood and are expected to become more complex tomorrow as the grids are pushed to reliability limits, interdependencies grow, and appliances become more intelligent and autonomous. Tomorrow’s will have to integrate the intermittent power from wind and solar farms whose fluctuating outputs create far more complex stress on power grid operations, often dependent, e.g. in providing fast regulation control, on the gas supply. Conversely, one anticipates significant effect of the wind-following gas fired turbines on reliability of the gas grid. Guarding against the worst of those perturbations will require taking protective measures based on ideas from optimization, control, statistics and physics.
+ In this talk we introduce a few of the physical, optimization and control principles and phenomena in today’s energy grids and those that are expected to play a major role in tomorrow’s grids.
+ We illustrate the new science of the energy grids on three examples: (a) discussing an efficient and highly scalable Chance Constrained Optimal Power Flow algorithm providing risk-aware control of the power transmission system under uncertainty associated with fluctuating renewables (wind farms); (b) describing effect of the intermittent power generation on reliability and compression control of the gas grid operations; and (c) briefly discussing examples of interdependencies, reliability troubles and solutions in the low level (distribution) grids.
+Bio:Dr. Chertkov’s areas of interest include statistical and mathematical physics applied to energy and communication networks, machine learning, control theory, information theory, computer science, fluid mechanics and  optics. Dr. Chertkov received his Ph.D. in physics from the Weizmann Institute of Science in 1996, and his M.Sc. in physics from Novosibirsk State University in 1990.  After his Ph.D., Dr. Chertkov spent three years at Princeton University as a R.H. Dicke Fellow in the Department of Physics.  He joined Los Alamos National Lab in 1999, initially as a J.R.  Oppenheimer Fellow in the Theoretical Division. He is now a technical staff member in the same division. Dr. Chertkov has published more than 130 papers in these research areas. He is an editor of the Journal of Statistical Mechanics (JSTAT), associate editor of IEEE Transactions on Control of Network Systems, a fellow of the American Physical Society (APS), and a Founding Faculty Fellow of Skoltech – young graduate school built in Moscow (Russia).
+
+
+  
+
+
+Apr 14Bren Hall 40111 pm
+
+
+James SharpnackPostdoctoral ResearcherMathematics DepartmentUC San Diego
+
+Near-optimal anomaly detection and signal processing over graphsWe will discuss the detection of patterns over graphs from noisy measurements. This problem is relevant to many applications including detecting anomalies in sensor and computer networks, brain activity, co-expressions in gene networks, disease outbreaks, etc. Beyond its wide applicability, graph structured anomaly detection serves as a case study in the difficulty of balancing computational complexity with statistical power. We develop from first principles the generalized likelihood ratio test (GLRT) for determining if there is a well connected region of activation over the vertices in the graph with Gaussian noise. Due to the combinatorial nature of this test, the GLRT is computationally infeasible. We discuss two approaches, relaxing the combinatorial GLRT and a wavelet construction over graphs, to overcome this issue.
+ One such relaxation that we develop is the graph ellipsoid scan statistic, whose statistical performance is characterized by the spectrum of the graph Laplacian. Another relaxation that we have developed is the Lovasz extended scan statistic (LESS), which is based on submodular optimization and the performance is described using electrical network theory. We then introduce the spanning tree wavelet basis over graphs, a localized basis that reflects the topology of the graph. We show that using the uniform spanning tree in the basis construction yields a randomized test with performance guarantees similar to that of the LESS. For each of these tests we compare their statistical guarantees to an information theoretic lower bound. Finally, we consider specific graph models, such as the torus, k-nearest neighbor graphs, and epsilon-random graphs and show that for these graphs we achieve near-optimal risk consistency regimes.
+
+
+  
+
+
+Apr 28Bren Hall 40111 pm
+
+
+Qiang LiuPhD CandidateDepartment of Computer ScienceUniversity of California, Irvine
+
+Distributed estimation, information loss and exponential familiesModern data science applications increasingly involve statistical learning on very large datasets, where the data instances are stored in a distributed way across different nodes of the clusters, with expensive communication costs between nodes. We study a simple communication-efficient learning algorithm that first calculates the local maximum likelihood estimates (MLE) based on the subsets of datasets, and then combines the local MLEs to achieve the best possible approximation to the global MLE, based on the whole dataset jointly. A naive and commonly used combination method is to take the linear average of the local ML estimates; this method; however, this has a sub-optimal error rate, and more critically, can easily break down in practical cases where the parameters are either unidentifiable (e.g., in  mixture models), non-additive, or have complicated structure. In this work, we propose a KL-divergence-based combination method that achieves the best possible error rate, and avoids weaknesses of linear averaging. Perhaps surprisingly, we show that our algorithm exactly recovers the global MLE under full exponential families, and its error rate on general distributions are related to how nearly “exponential family” they are — formally captured by Efron’s statistical curvature, originally defined by Efron (1975) to extend Fisher and Rao’s theory of information loss and second order efficiency of the MLE.  In addition, we show that the statistical curvature equals the lower bound of the asymptotic error rate of arbitrary combination methods, and hence represents an intrinsic difficulty measurement of distributed learning in this setting.
+
+
+  
+
+
+May 5Bren Hall 40111 pm
+
+
+Dennis ParkPhD CandidateDepartment of Computer ScienceUniversity of California, Irvine
+
+Tracking people and their posesAutomatically tracking people and their body poses in unconstrained videos is an important task, as it serves as a foundation for high-level reasoning such as activity recognition. This task is difficult for two reason: a) building an accurate pose detector is hard, and b) dependencies of body parts over space and time is hard to model or causes intractable computation.
+ This talk consists of two parts. In the first part, I address two key challenges in a common pipeline of pose tracker: 1) detecting small people and 2) extracting diverse set of candidate poses from each frame. I describe novel multiresolutional representation, motion descriptors, and inference algorithms to tackle these challenges.
+ In the second part, I propose the use of synthetic training frames as a mean to “overfit” a single video. Using a simple synthesis engine and detailed annotation of the first frame, we synthesize potential future video frames. We argue that this large customized training serves as an ideal training set relieving the burden of modeling, and provides us with insights on critical components of a working tracker.
+
+
+  
+
+
+May 12Bren Hall 40111 pm
+
+
+Tijl de BieReader/Associate ProfessorDepartment of Engineering MathematicsUniversity of Bristol
+
+Formalizing the goal of exploratory data miningExploratory data mining methods, such as methods for clustering, association analysis, community detection, dimensionality reduction, etc., aim to assist a user in improving their understanding about the data. In this talk I will discuss a simple mathematical model for the exploratory data mining process that makes it possible to quantify how effective any given pattern (in the broad sense) is for this purpose. This quantification is naturally subjective, dependent on any prior beliefs the user may hold about the data. 
+ While the proposed model is abstract and generic, it suggests practical ways for developing specific exploratory data mining methods that present patterns that are subjectively interesting to the user. I will illustrate this by showing how it leads to principled approaches for alternative clustering, for community detection in networks, and for association analysis in simple data tables as well as in relational databases. 
+ From May 2014 my research on this topic will be funded by an ERC Consolidator Grant titled “Formalising Subjective Interestingness in Exploratory Data mining” (FORSIED).  Relevant references: http://www.tijldebie.net/projects/fiip 
+Bio: Tijl De Bie is currently a Reader (Associate Professor) at the University of Bristol, where he was appointed Lecturer (Assistant Professor) in January 2007. Before that, he was a postdoctoral researcher at the KU Leuven (Belgium) and the University of Southampton. He completed his PhD on machine learning and advanced optimization techniques in 2005 at the KU Leuven. During his PhD he also spent a combined total of about 1 year as a visiting research scholar in U.C. Berkeley and U.C. Davis. He is currently most actively interested in the formalization of subjective interestingness in exploratory data mining, and in the use of machine learning and data mining for music informatics as well as for web and social media mining. He currently holds a prestigious ERC Consolidator Grant titled “Formalising Subjective Interestingness in Exploratory Data Mining” (FORSIED).
+
+
+  
+
+
+May 19Bren Hall 40111 pm
+
+
+Xiangxin ZhuPhD CandidateDepartment of Computer ScienceUniversity of California, Irvine
+
+Capturing long-tail distributions of object subcategoriesWe argue that object subcategories follow a long-tail distribution: a few subcategories are common, while many are rare. We describe distributed algorithms for learning large-mixture models that capture long-tail distributions, which are hard to model with current approaches. We introduce a generalized notion of mixtures (or subcategories) that allow for examples to be shared across multiple subcategories. We optimize our models with a discriminative clustering algorithm that searches over mixtures in a distributed, “brute-force” fashion. We used our scalable system to train tens of thousands of deformable mixtures for VOC objects. We demonstrate significant performance improvements, particularly for object classes that are characterized by large appearance variation.
+
+
+  
+
+
+May 26
+
+
+Memorial Day(no seminar)
+
+
+
+  
+
+
+June 2Bren Hall 40111 pm
+
+
+Bo ZhouPhD CandidateDepartment of StatisticsUniversity of California, Irvine
+
+A Bayesian Copula Model for Detecting Interactions among Simultaneously-recorded NeuronsNeurophysiological studies of the decision-making process commonly involve analyzing and modeling spikes produced by a neuron. Complex behaviors, however, are driven by networks of neurons. We propose a flexible Bayesian model for capturing temporal dependencies between multiple neurons under different types of decisions (e.g., safe vs. risky; good vs. bad). Using our model, we are able to identify a small subset of neurons that are involved in the decision-making process and detect the dynamics of their dependence structure.
+
+
+
+
+
+
+Post navigation
+← Anandkumar Receives ‘Early-Career’ Sloan Research Fellowship Smyth to head new Data Science Initiative →
+
+
+
+
+ 
+Search
+
+
+
+ 
+
+
+(c) 2015 Center for Machine Learning and Intelligent Systems
+
+WordPress/BonPress
+
+
+
+
+
+

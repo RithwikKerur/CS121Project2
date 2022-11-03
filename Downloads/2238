@@ -1,0 +1,57 @@
+http://computableplant.ics.uci.edu/hierleap
+
+
+ HiER-leap 
+
+
+
+  HIERARCHICAL EXACT REACTION LEAPING
+
+
+
+
+
+
+
+Software: 
+Exact acceleration of Gillespie's Stochastic Simulation Algorithm, with acceleration using
+parallel architecture. 
+Developed By: 
+David Orendorff and Eric Mjolsness at UC Irvine (2012).
+Language: 
+C/C++
+License: 
+GPL
+
+
+ 
+Welcome to the HiER-leap download page. 
+
+HiER-leap utilizes multicore CPUs to accelerate the sampling of single trajectories
+of the Stochastic Simulation Algorithm (SSA). 
+Additionally, the HiER-leap algorithm utilizes rejection sampling to exactly sample
+SSA using a "reaction leaping" method.
+
+
+The code is written in C++. It requires the libSBML library before being compiled.
+It was developed using Mac OS X (v10.6) although other operating systems and environments are expected to work. 
+Dependencies
+
+  libSBML 
+  Intel Threading Building Blocks 
+  BOOST 
+
+Download 
+ Source Code  (6/20/2012)
+
+Contact
+For questions or discussion, please contact...
+
+  Eric Mjolsness  (corresponding author)
+ David Orendorff
+
+References
+David Orendorff, Eric Mjolsness.  A Hierarchical Exact Accelerated Stochastic Simulation Algorithm.
+In review, 2012.
+
+

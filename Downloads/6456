@@ -1,0 +1,201 @@
+http://www.ics.uci.edu/~kay/courses/h21/hw/lab1.html
+
+
+
+
+
+
+Lab Assignment 1
+
+
+
+
+
+
+
+
+ICS H21 • UC IRVINE • DAVID G. KAY  • FALL 2009
+Lab Assignment 1
+
+
+This assignment is due at the end of lab on
+Friday, October 2.
+
+Choose a partner for this assignment, someone
+you haven't worked with already, and make sure the TA knows who your partner is.
+(a) With your partner, do these exercises
+  from HtDP:  2.1.1; 2.2.1 and 2.2.3 (these may require knowledge about a particular "problem domain;" of course the web is the most convenient
+  source for that information); 2.2.5; 2.3.1, and
+2.3.3.
+ You should be able to place all the definitions
+  and tests into one definitions file.  Include your name and your partner's,
+save the file, and submit it via Checkmate.
+ (b) With your partner, do exercises
+2.4.1 through 2.4.4.  There's nothing to turn in for this part, but it's still important that you have the experience of looking at error messages. 
+(c) For this part, you will use a teachpack called fabric-teachpack.scm.  (Download the file and save it as a file on your machine; in DrScheme's Language menu, choose Add Teachpack and click Add Teachpack to List; find and select the file you saved; click OK; then click Run.)
+
+This teachpack comes with documentation; skim it to get an idea of what it provides and refer back to it as necessary. (The conventional terms for a teachpack—extra functions for a particular task that aren't part of the programming language to begin with—are library or API (application programming interface) or SDK (software developer's kit).)
+(c.1) Familiarize yourself with the images and functions in the
+  teachpack.  Enter the names of the images one at a time in the
+  interactions window.  Try the functions that create fabric images
+  (create-solid-fabric, add-print, add-horiz-stripe, and
+  add-vertical-stripe) to see what each one does.
+(c.2) Write an expression to create blue fabric with red stripes in one
+  direction and purple stripes in the other (you pick the size).
+(Here are some more detailed steps, if you'd like them:  First, write an expression to create a blue fabric of some size.  Click Run to test it.  Then create a blue fabric with red stripes, let's say horizontally; do this by calling add-horiz-stripe with your blue-fabric expression as its third argument.  That is, copy your blue-fabric expression as the third argument at the end of your add-horiz-stripe expression. This last part is key:  We can use the result of one expression as an argument to another expression, as we saw with (+ 1 (* 3 5)), and that's how we create more complex, interesting results.  Click Run to see this red-stripe fabric.  Finally, to add the purple stripes, let's say vertically, call add-vertical-stripe with your whole red-stripe-fabric expression as its third argument.  "Nesting" the calls to functions in this way will be basic to everything we do this term.  You'll find that if you hit the Return key before each new function call, DrScheme will indent your program to make it more readable.)
+  
+  Keep this expression in the definitions (top) window and add the subsequent expressions to the same window; you can save them to turn in.
+(c.3) Write an expression to create a small green stripe fabric with a
+  chili print on it (you pick the size).
+(c.4) Invent two fabrics of your own using the teachpack functions.
+ One way to do this is to find images anywhere (on your computer, on the web) and import the image files into your definitions, using Insert Image from the Special menu. You can also construct your own images using the circle, rectangle, and other operators from the teachpack called image.ss. This teachpack is included in the fabric teachpack; for documentation of the image.ss teachpack, use the DrScheme Help Desk (in the Help menu) and click Teachpacks. Note that the reference material there will contain some ideas and information that's unfamiliar to you so far. That's okay; reference material concentrates on conveying a lot of information, not on giving long explanations. You should just look through the document for the names of some image-creating functions and experiment with them.
+  
+  
+Each fabric you design should involve at least two calls to functions that create fabrics. Be creative!
+(c.5) If you overlay a fabric on top of a clothing image (like tshirt or hat), you can see what the fabric might look like on the clothing.  The overlay function from the image teachpack does this.  The fabric and the clothing image should be the same size; you can find out the size of an image using the image-width and image-height functions, also described in the image teachpack documentation.
+  
+  Write a function create-from-fabric that consumes an image for a
+  white clothing item (like the tshirt or hat) and a fabric image sized
+  to fit that item, and produces an image of the clothing item in the
+  given fabric.
+(c.6) Write a function add-center-logo that consumes an image for a logo
+  and an image for a clothing item and produces an image of the clothing
+  item with the logo centered on it.  The given clothing item may
+  already be printed in fabric.
+(c.7) Write a function stack-logos that consumes images of two logos and
+  returns an image with the first logo just above the second logo. You
+  do not need to center the logos, but you may if you wish. (Hint:  Check the image teachpack documentation for overlay/xy and image-height.)
+(c.8) Write a function side-by-side-logos that consumes images of two
+  logos and returns an image with the first logo to the left of the
+  second logo. You do not need to center the logos, but you may if you
+  wish.
+(c.9) Define three pieces of clothing using a combination of the
+  teachpack functions and your definitions.  You should use each of the
+  functions you defined at least once.  Again, be creative!
+
+(d) The universe.ss teachpack provides
+some functions that let you animate images.  Clear the fabric teachpack, then add the universe.ss teachpack and click Run.
+Animating images can be a lot of fun, and the universe.ss setup makes it relatively simple. Even so, there's more to think about than when you're just dealing with text.  The information you need is all here, but like much technical material, you may need to read through it carefully, more than once.
+
+When we use this teachpack, we create a world
+    that might change at every tick of the clock.  We (re)display the (changed)
+world at every tick; that gives us the animation. To set this up, the universe.ss teachpack provides us the function big-bang to start the animation off. Every universe.ss animation will end with four lines like this:
+(big-bang  (make-world 1 1) ; Start the whole thing going with an initial world.
+                            ; In this case our world holds two numbers---two 1s
+                            ; to start with (more on what that means later) 
+  (on-tick world-next)      ; Tell it to call world-next at each tick of the clock
+  (on-draw world-draw)      ; Tell it to call world-draw at each tick to redraw the scene
+  (stop-when are-we-done?)) ; Tell it to call are-we-done? to check if we're done
+
+The   big-bang expression contains four clauses: an expression (in this case, one that constructs a new world structure containing two ones), on-tick  (to say what function will change the world every time the clock ticks), on-draw (to say what function will redraw the scene every time the clock ticks), and stop-when (to say what function will check at each tick whether we're finished).
+ In this case, we have to define what a world is (from the above, we can tell it is a structure that contains two numbers, so we have to define that structure) and we have to provide definitions for the functions world-draw,  world-next, and  are-we-done?.
+Let's imagine a very simple world, one
+  that has a falling rock and a flying bird.  To make it even simpler, the
+  rock will be a 10-pixel brown circle and the bird will be a 10-pixel yellow
+  square.  Not only that, but the rock will fall straight down, 5 pixels at
+  every clock tick, and the bird flies straight from left to right at the
+  same rate.
+
+In terms of our animation, what needs to change
+in this world?  Really, just two things:  the horizontal position of the
+bird and the vertical position of the rock.  The background scene, the bird's image
+and its height, and the rock's image and its horizontal position, all
+stay constant.  We need to draw them as part of the overall scene, but when we define a world to use
+with this teachpack, we only need the world to represent the aspects that
+might change from time to time.  In this case, that's just two numbers:
+ the x-coordinate (horizontal position) of the bird and the y-coordinate
+(vertical position) of the rock.  So let's define a structure to represent
+our world:
+
+(define-struct world (birds-x rocks-y))
+  ;; A world is (make-world Number Number)
+  ;; where the first number is the x-coordinate of the bird
+  ;; and the second number is the y-coordinate of the rock.
+
+
+Remember that as with any structure, you will
+use make-world
+to create a world, world-birds-x
+to get the bird's position from a world, and world-rocks-y
+to get the rock's position.
+
+(There's one other little detail to note.
+ In computer graphics—not just in Scheme—the convention for x-y coordinates
+is that the origin is in the upper left corner, the x axis extends positively
+to the right, and the y axis extends positively downwards.  So (5,20) would
+be five pixels from the left side, 20 pixels down from the top.)
+(d.1) Develop the function world-next that takes a world as input and returns a new world, one that represents how the input
+world should be at the next clock tick. Follow the design recipe: contract, purpose, examples, header, body, tests.  Hints:  What is the world?  How
+does it change at each tick?  How do you create a (new) world?
+ (d.2) Develop the function are-we-done? that takes a world and returns true if the animation should end (let's say, when the rock nearly reaches the bottom of the scene, with a y-value of 190); it should return false otherwise. Follow the design recipe, making up examples/tests like (check-expect (are-we-done? (make-world 1 1)) false) and (check-expect (are-we-done? (make-world 1 190)) true). Are those enough for thorough testing?
+(d.3) Develop the function world-draw that takes a world as input and returns a scene created using empty-scene and place-image (as described in the universe.ss documentation).  You should create an empty
+scene of 200 by 200 pixels; into that scene you should place the image of
+the bird (at a constant height of 120 pixels above the ground) and place
+the image of the rock (at a constant 80 pixels from the left edge).  Test
+this out by calling it with (world-draw
+(make-world 1 1)). 
+(d.4) Combine the structure definition
+  above, your three function definitions, and the four setup lines (starting with the call to big-bang). These should make a runnable animation.
+(d.5)  Make the bird fly twice as fast
+as the rock falls.
+
+(d.6)  There's a strong wind blowing.
+ Make the rock fall at a 45-degree angle to the right.  You can do this
+without changing how the world is defined.
+
+Submit your definitions via Checkmate.
+(e) (extra credit) Extra credit problems
+  in ICS H21 follow different rules.  The first rule is that you must finish
+  the main part of the assignment before starting on the extra credit.  The
+  second rule is that you may work with whomever you like on the extra credit
+  problems—your partner on the main part, one or more other students, or
+  yourself alone; group work must clearly indicate who contributed and how
+  much.  The third rule is that extra credit must be turned in on paper to
+  the TA (clearly marked with the contributors' names and including, where
+  appropriate, printouts of the relevant definitions and interactions).  The
+  fourth rule is that extra credit is mainly for the fun and the glory; it
+  also gives a little bit of credit, but not so much as to make up for low
+  performance on the required work and exams.
+ (e.1) Do exercise 2.2.4.
+ (e.2) What's the longest number
+  you can generate in DrScheme, without running out of memory and taking no
+  more than 60 seconds of elapsed time?  Generating the big numbers is one
+  part of the question; counting the digits is another.
+ Try to count digits using (string-length
+  (number->string your-big-number)).
+    How do you get your-big-number into that expression without
+    copying and pasting it (or typing the entire number)?
+ Try to count the digits using some tool(s)
+  other than Scheme (or any programming language).
+ Using your wristwatch (or slow, measured counting),
+  time how long it takes for Scheme to calculate and display your big number.
+  Now, time how long it takes to calculate the big number and then its length (by nesting the expression to generate the big number inside
+  the length-calculating expression above). You'd expect the second,
+  combined task to take longer, but on some Scheme systems it doesn't.
+  Does it on your system?  Why might the generate-and-calculate-length task
+  take less time than generating the number without calculating its
+  length?
+
+(f)  (extra credit—the same rules apply) Think of some other, clever ways to enhance
+the bird-and-rock animation (e.g., have the bird fly more creatively) or create another (e.g.,  draw a simple face
+whose eye winks).  Just keep to the
+same basic organization:  A world to represent what changes, a function
+to draw the world, and a function to create the next world from the previous
+one.  Show your results to your classmates and the TA.
+
+(g)  Remember that each partner must
+complete a partner evaluation form and submit it individually at eee.uci.edu by Saturday morning at the latest.
+
+
+Based in part on ICS H21 assignments by David
+G. Kay from Fall 2001.  Modified for image.ss and world.ss teachpacks by
+Angelo Pioli and David G. Kay, Fall 2005. Modified by David G. Kay in Fall 2007 and Fall 2008. The rock-and-bird example was
+adapted from CS 211 at Northeastern University, taught by Matthias Felleisen
+and John Clements in Fall 2004. The fabric exercise was written by Kathi Fisler at Worcester Polytechnic Institute and modified slightly by David G. Kay. Modified by David G. Kay, Fall 2009, to reflect universe.ss.
+
+David G. Kay, kay@uci.edu 
+
+Wednesday, September 23, 2009 11:00 PM
+
+
+

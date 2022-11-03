@@ -1,0 +1,441 @@
+https://www.ics.uci.edu/community/news/view_news?id=1714
+
+
+
+In the News @ Donald Bren School of Information and Computer Sciences
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to main content
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HOME
+
+
+ABOUT
+
+
+About the School
+
+
+Dean's Welcome
+
+
+Facts and Figures
+
+
+Donald Bren Hall
+
+
+Visit the Bren School
+
+
+Equity & Diversity
+                            
+
+
+Contact Us
+
+
+
+
+DEPARTMENTS
+
+
+Computer Science
+
+
+Informatics
+
+
+Statistics
+
+
+
+
+RESEARCH
+
+
+Research Areas
+
+
+Research Centers
+
+
+Research Highlights
+
+
+
+
+STUDENTS
+
+
+Graduate ▸
+
+
+Orientation
+
+
+Prospective Students
+
+
+How to Apply
+
+
+Programs of Study
+
+
+Academic Year Plan
+
+
+Course Updates
+
+
+Forms And Policies
+
+
+Admissions FAQ
+
+
+Funding
+
+
+Housing
+
+
+Computing Support
+
+
+Campus Resources
+
+
+Visit the Bren School
+
+
+Contact
+
+
+
+
+Undergraduate ▸
+
+
+Contact
+
+
+Academic Advising
+
+
+Course Updates
+
+
+Academic Year Plan
+
+
+Petitions
+
+
+ICS Majors
+
+
+ICS Minors
+
+
+Policies: Academic Integrity
+
+
+Policies: Academic Standing
+
+
+Policies: Add, drop, & change options
+
+
+Policies: Coursework outside UCI
+
+
+Policies: Grade policy
+
+
+Policies: Laptop & computer use
+
+
+Policies: Withdrawal/Readmission
+
+
+Policies: CS 199 / IN4MATX 199 Courses
+
+
+Graduation
+
+
+ICS Student Life
+
+
+Upcoming Events
+
+
+Computing Support
+
+
+
+
+Scholarships & Fellowships
+
+
+Student Jobs & Internships
+
+
+
+
+PEOPLE
+
+
+Faculty
+
+
+Staff
+
+
+Graduate Students
+
+
+
+
+NEWS & EVENTS
+
+
+Newsroom
+
+
+Events
+
+
+Social Media
+
+
+Publications
+
+
+
+
+GET INVOLVED
+
+
+Make a Gift
+                                
+
+
+
+Leadership Council
+
+
+Corporate Partners
+
+
+Sponsor Projects
+
+
+Product Development Competition
+
+
+Alumni
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bren school home / Community / News
+
+
+In the News
+
+
+
+February 18,  2020
+
+
+UCI NewsUCI and Disney Research scientists develop AI-enhanced video compression model
+
+
+ “Ultimately, every video compression approach works on a trade-off,” says research team leader Stephan Mandt, UCI assistant professor of computer science. “If I’m allowing for larger file sizes, then I can have better image quality. If I want to have a short, really small file size, then I have to tolerate some errors. The hope is that our neural network-based approach does a better trade-off overall between file size and quality.” Steve Zylius / UCI
+A new artificial intelligence-enhanced video compression model developed by computer scientists at the University of California, Irvine and Disney Research has demonstrated that deep learning can compete against established video compression technology.
+
+Unveiling their work in December at the Conference on Neural Information Processing Systems in Vancouver, British Columbia, the UCI/Disney Research team members showed that their compressor – while still in an early phase – yielded less distortion and significantly smaller bits-per-pixel rates than classical coding-decoding algorithms such as H.265 when trained on specialized video content and achieved comparable results on downscaled, publicly available YouTube videos.
+“Ultimately, every video compression approach works on a trade-off,” said research team leader Stephan Mandt, UCI assistant professor of computer science, who began the project while employed at Disney Research. “If I’m allowing for larger file sizes, then I can have better image quality. If I want to have a short, really small file size, then I have to tolerate some errors. The hope is that our neural network-based approach does a better trade-off overall between file size and quality.”
+Video compression, even as done by traditional codecs, relies heavily on predictive capabilities, Mandt said: “Intuitively, the better a compression algorithm is at predicting the next frame of a video – given what happened in the previous frames – the less it has to memorize. If you see a person walking in a particular direction, you can predict how that video will continue in the future, which means you have less to remember and less to store.”
+Current compression algorithms perform this task using heavily engineered solutions, such as trying to compute the linear displacement of small, localized patches relative to their position on the previous frame. In contrast, deep neural networks take a datacentric approach and learn the video’s underlying dynamics by drawing on large datasets of video material.
+These data-driven methods, enabled by advances in deep learning over the past decade, show promise for shrinking video file sizes in future generations of video compression codecs.
+Combining novel and traditional steps
+The first step of the UCI/Disney Research team’s innovation is to downscale the dimensions of the video using a so-called variational autoencoder. This is a neural network that processes each video frame in a sequence of actions that results in a condensed array of numbers. The autoencoder then tries to undo this operation to ensure that the array contains enough information to restore the video frame. “You can think of the autoencoder as having an hourglass shape,” Mandt said. “It has a low-dimensional, compact version of the image in the middle; this is how we compress every frame into something smaller.”
+Then the algorithm attempts to guess the next compressed version of an image given what has gone before, relying on an AI-based technique called a “deep generative model.” Mandt noted that other researchers have done work in this area, so this particular method is not unique. What sets the UCI/Disney Research team’s efforts apart is what follows.
+The algorithm conducts an operation to encode frame content by rounding the autoencoder’s real-valued array to integers. These are easier to store than real numbers, given their many decimal places. The final step is to apply lossless compression to the array, allowing for its exact restoration. Crucially, this algorithm is informed by the neural network about which video frame to expect next, making the lossless compression aspect extremely efficient.
+“For example, a language composed of letters from a finite alphabet can be perfectly compressed and uncompressed without any loss,” Mandt said. “By discretizing the latent frames of a video, we have created a discrete, countable alphabet, and now we apply lossless compression to it to reduce the file size even more.”
+He said that these steps, as a whole, make this approach an “end-to-end” video compression algorithm: “The real contribution here was to combine this neural network-based deep generative video prediction model with everything else that belongs to compression algorithms, such as rounding and model-based lossless compression.”
+Mandt added that he and his collaborators will continue to work toward a real, applicable version of the video compressor. One challenge is that they might need to compress the neural network itself, along with the video.
+“Because the receiver requires a trained neural network for reconstructing the video, you might also have to think about how you transmit it along with the data,” Mandt said. “There are lots of open questions still. It’s a very early stage.”
+Article originally published at UCI News. 
+
+UCI and Disney Research scientists develop AI-enhanced video compression model
+< Previous
+ Global Game Jam 2020: A Model of Diversity and Inclusivity
+            
+Next >
+ Disney Research develops AI-enhanced video compression model
+            
+
+
+
+
+
+
+
+More news and events
+
+News Stories
+Video highlights
+Annual reports
+Calendar of events
+
+
+Media Inquiries Media interested in interviewing ICS faculty, students or alumni should contact Matt Miller at (949) 824-1562 or matt.miller@uci.edu
+
+
+
+
+
+
+
+
+Tweets by UCIbrenICS 
+
+View Social Media
+
+
+
+
+
+
+
+
+
+
+
+
+                        Donald Bren School of Information and Computer Sciences
+                		University of California, Irvine
+    					6210 Donald Bren Hall
+    					Irvine, CA 92697-3425
+                    
+
+
+
+  
+  
+  
+  
+  
+ 
+
+
+
+UCI Homepage
+UCI Directory
+Faculty & Staff
+Employment
+ICS Intranet
+Research Development
+Kay Family Foundation Lab
+Facilities
+
+
+
+
+News
+Events
+Map & Directions
+Accessibility Statement
+Safety Procedures
+Privacy Policy
+Coronavirus Resources
+
+
+
+
+Apply
+Contact
+Gift 
+
+
+
+
+©  UCI Donald Bren School of Information & Computer Sciences
+
+
+
+
+
+
+➤
+
+
+
+
+
+
+
+
+
+
+

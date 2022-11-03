@@ -1,0 +1,197 @@
+http://ngs.ics.uci.edu/blog/?p=543
+
+
+
+
+
+
+
+
+Digital Photo Album – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Digital Photo Album    			
+
+
+Digital photos are everywhere.  Most people now have digital cameras and also a phone that has a digital camera.  Since it costs almost nothing to take a photo and the storage cost has become almost zero, people take photos of everything and save them on their computer.  Interestingly people donâ€™t even want to delete photos that are obviously, according to the photographer also, bad.  And this collection of photos is now increasing to fill in the disks of computers.
+There is another interesting trend that is just starting and I am sure is going to become poplar soon.  People have started taking their old photos and started scanning those to save them in their digital form.  Currently scanning is still a bit tedious.  Soon the market is likely to be flooded with inexpensive scanners or scanning services for people to scan all their collections and make them digital.
+Clearly digital photography is here to stay in foreseeable future.  The old photography â€“ based on traditional photographs â€“ is slowly going to become an art from the past.  And this has many interesting implications.  This has many challenges and opportunities for entrepreneurs.  
+We all know that there are many sites and many software tools that are available for organizing, enhancing, and presenting (including self-presentation by owners) photo collections.  And these tools are being refined everyday.  Unfortunately, however, I am yet to find a tool that I could use to manage my photos.  And I am a computer scientist.  I am sure people who are more â€˜normalâ€™ users of computers will find most of these tools unsatisfactory.  Of course, most people start thinking that this is the best that could be done with technology and hence try to adapt their needs to available tools.  
+I am so frustrated, however, with the available tools that I want to prepare a list of functionality that normal users would love to have in a Digital Photo Album (DPA).  I would love to listen from people about what functionality they think is missing in currently available tools.  I intend to spend some time thinking about this and post my thoughts here.  Your ideas and thoughts will be very appreciated.
+
+
+
+By Ramesh |
+    				June 15, 2006 |
+    				             		Entrepreneurism, Experiential Computing |
+             	 
+    				             		2 Comments |
+             	 		          				
+    			
+
+
+← Vloggercon
+Representing events →
+
+
+
+			2 thoughts on “Digital Photo Album”		
+
+
+
+
+Kent June 19, 2006 at 9:06 am 
+
+My thoughts on managing digital photos hinge on a couple basic premises;
+– the original file is immutable. (any edits of it lose information)
+– the destination file is immutable. (assuming that lossy compression is used)
+This implies that that handling digital images should involve ‘recipes’ or ‘routes’ which tell how to create a destination image from a source.
+I think this model holds advantages for both hobby and professional photographers.  A hobbyist can use existing recipes, a pro has no problem increasing the gamma of these 400 images by 25%.
+Some editing elements would be easy to parameratize; cropping, resizing, color and brightness adjust … others would be challenging or impractical ie. cloning.
+I think that a management system based on these principles could be very useful and powerful.
+Thanks,
+Kent
+
+
+
+
+
+
+Pingback: Ramesh Jain’s Blog  » Blog Archive   » Digital Photo Albums 
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

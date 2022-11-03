@@ -1,0 +1,718 @@
+http://www.ics.uci.edu/~bic/messengers
+
+
+
+
+
+
+
+Project: MESSENGERS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Project: MESSENGERS
+AND NAVIGATIONAL PROGRAMMING
+This project is developing a new programming paradigm,
+called Navigational Programming, for
+distributed systems based on the principles of autonomously migrating
+processes, called Messengers. Each
+Messenger is able to migrate among nodes of a local area network using explicit
+hop statements, which support strong migration. Unlike mobile agents used for a
+variety of services on the Internet, the MESSENGERS system is intended for
+general-purpose scientific computing. 
+Some of the advantages of migrating processes, as compared to stationary
+message-passing processes, are highlighted in the following Project
+Summary. 
+Participants
+Faculty:
+
+
+Lubomir Bic
+Michael Dillencourt
+
+
+PhD
+Students:
+
+
+Wendy Zhang
+
+
+Recent
+PhD/MS Graduates:
+
+
+Munehiro Fukuda (University of Washington,
+      Bothel)
+
+
+Ph.D. Dissertation: MESSENGERS: A
+Distributed Computing System Based on Autonomous Objects (Postscript), 1997
+
+
+
+Fehmina Merchant (IBM, New York)
+
+
+Ph.D. Dissertation: Load
+Balancing in Spatial Individual-Based Systems using Autonomous Objects (Postscript),
+1998 
+
+
+Susan
+      Mabry (Whitworth College, Spokane,
+       WA)
+
+
+Ph.D. Dissertation: SimAgents: Migrating Agents for Simulation Models, 1999 
+
+
+Katherine
+      Morse (SAIC, San Diego,
+       CA)
+
+
+Ph.D. Dissertation: An
+Adaptive, Distributed Algorithm for Interest Management (Postscript), 2000 
+
+
+Adam
+      Chi-Lun Chang
+
+
+M.S. Thesis: Graphical
+Interface for Paradigm Oriented Distributed Computing (PDF), 2000 
+
+
+Eugene
+      Gendelman (Bloomberg, New York,
+      NY)
+
+
+Ph.D. Dissertation: Virtual
+Infrastructure for Mobile Agent Computing (Postscript), 2002 
+
+
+Hairong Kuang (Yahoo,
+      Sunnyvale, CA)
+
+
+Ph.D. Dissertation: Paradigm-Oriented
+Distributed Computing Using Mobile Agents (Postscript), 2002 
+
+
+Lei Pan (JPL, Pasadena, CA)
+
+
+Ph.D. Dissertation
+(abstract): Navigational
+Programming (PDF), 2005
+
+
+Richard
+      Utter (NSA, Washington,
+       D.C.)
+
+
+Ph.D.
+Dissertation: Diactoros: Full State Migration (PDF), 2006
+
+
+Koji
+      Noguchi (Yahoo, Sunnyvale,
+       CA)
+
+
+Ph.D.
+Dissertation: Spontaneous
+Process Migration with Global Pointers (PDF), 2006
+
+
+Javid J. Huseynov
+
+
+Ph.D.
+Dissertation: Distributed
+Localization of Ultrasonic Sources of Gas Leak (PDF), 2008
+
+
+Jiming Liu
+
+
+Ph.D. Dissertation: Distributed
+Individual-Based Simulation (PDF), 2008
+
+
+Ming
+      Kin Lai
+
+
+Ph.D. Dissertation: State-Migration
+Shared-Variable Programming (PDF), 2009
+
+
+Matthew
+      Badin
+
+
+Ph.D. Dissertation: Methods for Mitigating and
+Eliminating Error in Hybrid Matrix Multiply Algorithms, 2014
+
+
+Kiyoshi
+      Nakayama
+
+
+Ph.D. Dissertation: A Distributed Smart Grid Control
+Model for Integration of Renewables, 2014
+ 
+Visiting
+Students:
+
+
+Dominik Jergus
+      (Fachhochshule
+        Darmstadt, Germany)
+      Diploma
+      Thesis (61 pages, Postscript), 1997
+Christian Wicke (University
+        of Karlsruhe, Germany)
+      Diploma
+      Thesis (81 pages, Postscript), 1998
+
+
+ 
+Publications
+
+
+Simulating
+      Autonomous Objects in a Spatial Database (5 pages, Postscript), 9th
+      European Simulation Multiconference, Prague, Czech Republic, June 1995
+
+
+(Shows how autonomous objects can
+navigate in a simulated spatial environment) 
+
+
+Distributed
+      Computing using Autonomous Objects (10 pages, Postscript), 5th IEEE
+      Workshop on Future Trends of Distributed Computing Systems (FTDCS′95),
+      Cheju Island, Korea, Aug. 1995
+
+
+(This is similar to the subsequent
+article in IEEE COMPUTER (below) -- it presents potential application areas and
+surveys related approaches) 
+
+
+A
+      Novel Approach to Toxicology Simulation based on Autonomous Objects
+      (6 pages, Postscript), Conf. on Simulation in the Medical Sciences (part
+      of SCS Western MultiConference), San Diego, Jan. 1996
+
+
+(Discusses a specific simulation
+application for Toxicology) 
+
+
+Intra-
+      and Inter-Object Coordination with MESSENGERS (18 pages, Postscript),
+      First Int′l Conf. on Coordination Models and Languages
+      (COORDINATION′96), Cesena,
+       Italy,
+      April 1996
+
+
+(Presents MESSENGERS as a
+coordination paradigm for constructing distributed applications) 
+
+
+Distributed
+      Computing using Autonomous Objects (16 pages, Postscript), IEEE
+      COMPUTER, August 1996
+
+
+(Surveys several lines of research
+related to aunonmous objects and coordination) 
+
+
+Performance
+      of the MESSENGERS Autonomous-Objects-Based System (15 pages,
+      Postscript), First Int′l Conf. on Worldwide Computing and Its
+      Applications ′97 (WWCA97), Tsukuba, Japan, March 10-11, 1997 (LNCS
+      1274, Springer-Verlag)
+
+
+(Presents initial performance
+results) 
+
+
+Messages
+      versus Messengers in Distributed Programming (8 pages, Postscript),
+      Int′l Conf. on Distributed Computing Systems (ICDCS-97), Baltimore, MD,
+      May 1997
+
+
+(Illustrates how navigational
+programming differs from message-passing and shows the advantages) 
+
+
+A
+      Hierarchical Mapping Scheme for Mobile Agent Systems (6 pages,
+      Postscript), 6th IEEE Workshop on Future Trends of Distributed Computing
+      Systems (FTDCS′97), Tunis,
+      Tunesia, Oct. 1997
+
+
+(Discusses the mapping problem for
+MESSENGERS, that is, mapping of Messengers to logical nodes, logical nodes to
+daemon nodes, and daemon nodes to physical nodes. Presents new ways of load
+balancing, resource utilization, and granularity control) 
+
+
+Distributed
+      Coordination with MESSENGERS (24 pages, Postscript), Science of
+      Computer Programming Journal, Special Issue on Coordination Models,
+      Languages, and Applications, 31(2), July 1998
+
+
+(Presents the navigational
+calculus and shows how it is used to dynamically compose an application) 
+
+
+Mobile
+      Network Objects (23 pages, Postscript), Encyclopedia of Electrical
+      and Electronics Engineering, John Wiley & Sons, Inc., 1998
+
+
+(An introductory overview of
+mobile agents technologies) 
+
+
+Octopus
+      -- Interactive Visualization and Contol
+      Environment for Mobile-Objects-Based Systems (61 pages, Postscript),
+      Diploma thesis by D. Jergus (Fachhochschule Darmstadt,
+       Germany),
+      1997
+
+
+(Octopus is a tool superimposed on
+the MESSENGERS environment. It permits individual Messengers to periodically
+report information about themselves, e.g., their current position in a
+simulated space, which Octopus is able to display in real time for the purposes
+of visualization of the ongoing computation) 
+
+
+CVSys: A Coordination Framework for Dynamic and Fully
+      Distributed Cardiovascular Modeling and Simulation
+
+
+(8 pages, PDF), Int′l
+Biomedical Optics Symposium (BIOS′98), special section on Biomedical
+Sensing, Imaging and Tracking Technologoes, San Jose,
+CA, Jan. 1998
+(Discusses a large biomedical application -- the simulation of a cardiovascular
+system) 
+
+
+Automatic
+      State Capture of Self-Migrating Computations (6 pages, Postscript),
+      ICSE98 Int′l Workshop on Computing and Communication in the
+      Presence of Mobility, (Part of Int′l Conference on Software
+      Engineering), Kyoto, Japan, April 1998
+
+
+(Presents an approach to automatic
+state capture by restricting migration to the top coordination layer as
+implemented in the MESSENGERS system) 
+
+
+Global
+      Virtual Time Support for Individual-Based Simulations (8 pages,
+      Postscript), Int′l Conf. on Parallel and Distributed Processing
+      Techniques and Applications (PDPTA′98), Las Vegas, Nevada, July
+      1998
+
+
+(Discusses the advantages of
+having global virtual time support provided by the system when implementing
+individual-based simulations) 
+
+
+Automatic
+      State Capture of Self-Migrating Computations in MESSENGERS (12 pages,
+      Postscript), Second Int′l Workshop on Mobile Agents 98 (MA′98),
+      Stuttgart, Germany, September 1998
+
+
+(Discusses the implementation of
+fully transparent state capture and restoration for the purposes of migration
+or local context switch. This is possible even under a fully compiled version
+of the MESSENGERS system) 
+
+
+Load
+      Balancing in Individual-Based Spatial Applications (8 pages,
+      Postscript), Int′l Conf. on Parallel Architectures and Compilation
+      Techniques (PACT′98), Paris,
+       France,
+      Oct. 1998
+
+
+(Presents three specific
+algorithms to do load balancing in applications where a group of individuals
+(or particles) move autonomously through a simulated environment and perform
+some coordinated group movement. Shows performance evaluation of these
+algorithms.) 
+
+
+Messages
+      versus Messengers in Distributed Programming (33 pages, Postscript),
+      Journal of Parallel and Distributed Computing, 57, 188-211, 1999
+
+
+(A more extensive version of the
+paper with the same title presented at ICDCS′97 -- see above -- it
+illustrates how navigational programming differs from message-passing and shows
+the advantages both qualitatively and quantitatively) 
+
+
+Introducing
+      Dynamic Data Structure into Mobile Agents (7 pages, Postscript), Int′l
+      Conf. on Parallel and Distributed Processing Techniques and Applications
+      (PDPTA′99), Las Vegas, Nevada, July 1999
+
+
+(Introduces a special abstract
+data type into MESSENGERS. The dynamic structures belonging to a Messenger are
+carried automatically whenever the Messenger hops between nodes) 
+
+
+Compiling
+      for Fast State Capture of Mobile Agents (8 pages, Postscript),
+      Parallel Computing ′99 (ParCo99), Delft, The Netherlands, Aug. 1999
+
+
+(A new approach to state
+capture/restoration of a mobile agent during migration) 
+
+
+Self-Migrating
+      Threads for Multi-Agent Applications (8 pages, Postscript), Int′l
+      Workshop on Cluster Computing (IWCC′99), Melbourne, Australia,
+      Dec. 2, 1999
+
+
+(A cluster computing paradigm that
+combines navigational autonomy of agents with fine granutality
+of threads) 
+
+
+Efficient
+      Checkpointing Algorithm for Distributed Systems
+      with Reliable Communication Channels (2 pages, Postscript), IEEE Symp. on Reliable Distributed Systems (SRDS′99),
+      Lausanne, Switzerland, Oct. 1999
+Bridging
+      Semantics Gaps with Migrating Agents (6 pages, PDF), Int′l
+      Conf. on Parallel and Distributed Computing Systems (PDCS′99),
+      Cambridge, MA, Nov. 1999
+PODS:
+      Paradigm-Oriented Distributed Computing (7 pages, Postscript), 7th
+      IEEE Workshop on Future Trends of Distributed Computing Systems (FTDCS′99),
+      Cape Town, South Africa, Dec. 1999
+Modeling
+      Cardiovascular Flow with a Migrating Agent Systems (6 pages, PDF),
+      Int′l Conf. on Health Sciences Simulation, San Diego, CA,
+      Jan. 2000
+Paradigm-Oriented
+      Distributed Computing Using Mobile Agents (9 pages, Postscript), Int′l
+      Conf. on Distributed Computing Systems (ICDCS-2000), Taipei, Taiwan,
+      April 2000
+An
+      Application-Transparent, Platform-Independent Approach to
+      Rollback-Recovery for Mobile Agent Systems (8 pages, Postscript), Int′l
+      Conf. on Distributed Computing Systems (ICDCS-2000), Taipei, Taiwan,
+      April 2000
+Superboundary Exchange: A Technique for Reducing
+      Communication in Distributed Implementations of Interactive Computations
+      (15 pages, Postscript), Int′l Conf. on Algorithms and Architectures
+      for Parallel Processing (ICA3PP-2000), Hong Kong,
+      December 2000
+Process
+      Interconnection Structures in Dynamically Changing Topologies (10
+      pages, Postscript), Int′l Conf. on High Performance Computing
+      (HiPC-2000), Bangalore,
+       India,
+      December 2000
+Distributed
+      Sequential Computing Using Mobile Code: Moving Computation to Data (8
+      pages, PDF), Int′l Conf. on Parallel Processing (ICPP-01), Valencia, Spain, September 2001
+Fast
+      File Access for Fast Agents (15 pages, Postscript), Int′l Conf.
+      on Mobile Agents (MA2001), Atlanta,
+       GA, Dec. 2001
+MESSENGERS:
+      Distributed Programming Using Mobile Agents (17 pages, PDF),
+      Transaction of the Society for Design
+      and Process Science (SDPS), Vol. 5, No. 4, Dec. 2001
+Shared
+      Variable Programming Beyond Shared Memory: Bridging Distributed Memory
+      with Mobile Agents (11 pages, PDF), The Sixth International
+      Conference on Integrated Design and Process Technology (IDPT02),
+      Pasadena, CA, June 2002
+Communication
+      Reduction in Iterative Grid-based Computing Using SuperBoundary
+      Exchange Technique (6 pages, Postscript), The 20th IASTED
+      International Multi-Conference Applied Informatics (AI-2002), Innsbruck, Austria, February, 2002
+Iterative
+      Grid-based Computing Using Mobile Agents (9 pages. Postscript),
+      International Conference on Parallel Processing (ICPP-2002), Vancouver, British
+        Columbia, Canada,
+      August, 2002
+Mobile
+      Agents -- The Right Vehicle for Distributed Sequential Computing (10
+      pages, PDF), Int′l Conf. on High Performance Computing (HiPC-2002),
+      Bangalore, India, December 2002
+Distributed
+      Parallel Computing Using Navigational Programming: Orchestrating
+      Computations Around Data (6 pages, PDF), Int′l Conf. on Parallel
+      and Distributed Computing and Systems (PDCS 2002), Cambridge, MA,
+      November 2002
+Estimation
+      of Multimedia Inorganic Arsenic Intake in the U.S. Population (25
+      pages, PDF), Human and Ecological Risk Assessment, Vol. 8, No. 7, pp.
+      1697-1721, 2002
+GIDM:
+      Globally-Indexed Distributed Memory (7 pages, Postscript), 9th IEEE Workshop
+      on Future Trends of Distributed Computing Systems (FTDCS 2003), San Juan,
+      Puerto Rico, May 2003
+Facilitating
+      Agent Navigation Using DSM - High Level Designs (11 pages, PDF), The
+      Seventh World Conference on Intergrated Design
+      & Process Technology (IDPT03), Houston, TX, Dec 2003
+A
+      Mobile-Agent-Based PC Grid (9 pages, Postscript), The 5th Annual
+      International Workshop on Active Middleware Services (AMS2003), Seattle, WA, June 2003
+From
+      Distributed Sequential Computing to Distributed Parallel Computing (8
+      pages, PDF), The 5th Workshop on High Performance Scientific and
+      Engineering Computing with Applications (HPSECA-03), Kaohsiung, Taiwan,
+      ROC, October 2003
+NavP Versus SPMD: Two Views of Distributed
+      Computation (8 pages, PDF), Int′l Conf. on Parallel and
+      Distributed Computing and Systems (PDCS 2003), Marina del Ray, CA,
+      November 2003
+Distributed
+      Sequential Computing (18 pages, PDF), Advanced Parallel and
+      Distributed Computing. Series: Advances in Computation: Theory and
+      Practice, Vol. 16, (Y. Pan and L.T. Yang, Eds.), Nova Science Publishers,
+      Inc., New York,
+      2004
+Distributed
+      Parallel Computing Using Navigational Programming (37 pages, PDF),
+      International Journal of Parallel Programming, Vol. 32, No. 1, Feb. 2004
+PODC:
+      Paradigm-Oriented Distributed Computing (13 pages, PDF), Journal of
+      Parallel and Distributed Computing, No. 65, 2005 (www.sciencedirect.com)
+Incremental
+      Parallelization Using Navigational Programming: A Case Study (10
+      pages, PDF), International Conference on Parallel Processing (ICPP-2005),
+      Oslo, Norway, June 2005
+Mobile Pipelines: Parallelizing Left-Looking
+      Algorithms Using Navigational Programming (12 pages, PDF), 12th
+      IEEE Int′l Conf. on High Performance Computing (HiPC-2005), Goa,
+      India, December 2005 
+Toward
+      Incremental Parallelization, (9 pages PDF), IEICE Trans. Inf. &
+      Syst., Vol. E89-D, No. 2, pp. 390-398, Feb. 2006
+Toward
+      Automatic Data Distribution for Migrating Computations (8 pages,
+      PDF), Int′l Conf. on Parallel Processing (ICPP 07), Xian, China,
+      Sept. 2007
+Efficient
+      Global Pointers With Spontaneous Process Migration (8 pages, PDF),
+      The 16th Euromicro Conference on
+      Parallel Distributed and Network-based Processing (PDP 2008), Toulouse,
+      France, February 2008
+Mobile
+      Agents, DSM, Coordination, and Self-Migrating Threads: A Common Framework
+      (6 pages, PDF), Int′l Conference on Data Networks, Communications,
+      and Computers (DNCOCO′08), Bucharest, Romania, November 2008
+Distributed
+      Individual-Based Simulation (12 pages, PDF), 15th International
+      European Conference on Parallel and Distributed Computing (Euro-Par 2009), Delft, The
+      Netherlands, August 2009
+Gas-Leak
+      Localization Using Distributed Ultrasonic Sensors, Proc. SPIE, Vol.
+      7293, 72930Z, San Diego, March 2009
+Automatic
+      Resource Management in Multi-site Mobile Computing, The 5th
+      International Conference on Mobile Computing and Ubiquitous Networking
+      (ICMU 2010), Seattle, WA, April 2010
+Pretty
+      Good Accuracy in Matrix Multiplication with GPUs, 9th Int′l Symp. Parallel and Distributed Computing (ISPDC 2010
+      ), Istanbul, Turkey, July 2010 
+JaMes: A Java-based System for Navigational
+      Programming, Int′l Conference on Computational Problem-Solving
+      (ICCP), Chengdu, China, October 2011 
+Improving Accuracy for Matrix
+      Multiplications on GPUs, Scientific Programming. Volume 19
+      (2011)
+Improving
+      the Accuracy of High Performance BLAS Implementations using Adaptive
+      Blocked Algorithms. The 23rd Int′l Symp.
+      on Computer Architecture and High Performance Computing, Vitoria, Espirito Santo, Brazil, October 2011 
+Incremental
+      Parallelization with Migration, IEEE Int′l Symp.
+      on Parallel and Distributed Processing with Applications, Madrid, Spain,
+      July 2012 
+Complete
+      Automation of Future Grid for Optimal Real-Time Distribution of
+      Renewables, IEEE Int′l Conf. on Smart Grid Communication, Tainan
+      City, Taiwan, Nov. 2012 (Best Paper Award)
+Improving
+      Numerical Accuracy for Non-Negative Matrix Multiplication on GPUs using
+      Recursive Algorithms, 27th Int′l Conf. on Supercomputing (ICS-2013)
+      June 2013, Eugene, OR 
+Tie-Set
+      Based Fault Tolerance for Autonomous Recovery of Double Link Failures,
+      IEEE Symp. on Computers and Communications
+      (ISCC′13), July 2013, Split, Croatia
+Distributed
+      Real-Time Power Flow Control with Renewable Integration, IEEE Int′l
+      Conf. on Smart Grid Communication, Vancouver, Canada, Oct. 2013
+Distributed
+      Flow Optimization Control for Energy-Harvesting Wireless Sensor Networks,
+      IEEE Int′l Conf. on Communications (ICC), Sydney, Australia, 2014 
+
+
+ 
+Technical
+Reports
+
+
+MESSENGERS:
+      A Distributed Computing Environment for Autonomous Objects
+
+UCI
+       Technical Report: TR-96-20, 1996 
+       (Contains additional details of MESSENGERS and its implementation) 
+
+Interest
+      Management in Large-Scale Distributed Simulations
+
+UCI
+       Technical Report: TR-96-27, 1996 
+       (Surveys approaches to information filtering in distributed interactive
+       simulation, which is one application area for MESSENGERS) 
+
+Distributed
+      Individual-Based Simulation Using Autonomous Objects
+
+UCI
+       Technical Report: TR-97-46, 1998 
+       (Describes the MESSENGERS virtual time environment and demonstrates its
+       programmability and performance) 
+
+CVSys: A First Prototype of a Distributed and Dynamic
+      Cardiovascular Simulation System
+
+UCI
+       Technical Report: TR-98-08, 1998 
+       (Presents the design of a MESSENGERS-based simulation of the
+       cardiovascular system) 
+
+Mobile
+      Agents - The Right Vehicle for Distributed Sequential Computing
+
+UCI
+       Technical Report: TR-01-68, 2001
+
+Incremental
+      Parallelization Using Navigational Programming: A Case Study 
+
+UCI
+       Technical Report: TR-05-04, 2005
+
+Mobile
+      Pipelines: Parallelizing Left-Looking Algorithms Using Navigational
+      Programming 
+
+UCI
+       Technical Report: TR-05-12, 2005
+
+
+
+ 
+ 
+ 
+There are two independent versions
+of MESSENGERS: MESSENGERS-I, and MESSENGERS-C, where "I" stands for
+"interpreted", and "C" stands for "compiled". The
+MESSENGERS-C is faster than MESSENGERS-I, but MESSENGERS-I has a Virtual Time
+support. 
+User
+Manuals and System Installation for MESSENGERS-C
+
+
+MESSENGERS-C
+      (Version 2.1) User Manual provides a description of the MESSENGERS-C
+      (Version 2.1) functionality and installation. 
+MESSENGERS-C
+      (Version 1.2.04) User Manual provides a description of the MESSENGERS-C
+      (Version 1.2.04) functionality and installation (stable version).
+MESSENGERS-C
+      (Version 1.2.05) User Manual provides a description of the
+      MESSENGERS-C (Version 1.2.05) functionality and installation
+      (experimental version).
+Net
+      Creator User Manual describes tools that can be used to automatically
+      create a logical network for MESSENGERS-C system
+Graph
+      Creator User Manual describes yet another, graphical tool that can be
+      used for logical network creation. The files output by GraphCreator should be used as input to the NetScheduler program, described in the "Net
+      Creator User Manual"
+The MESSENGERS
+      software may be obtained free of charge for non-commercial purposes.
+
+
+User
+Manuals and System Installation for MESSENGERS-I
+
+
+MSGR01 MESSENGERS
+      User′s Manual
+MSGR02 MESSENGERS
+      System Library
+MSGR03 MESSENGERS
+      Daemon Design Book
+MSGR04 MESSENGERS:
+      Intermediate Code Specification
+MSGR05 MLEX:
+      The MESSENGERS Assembler
+MSGR06 MESSENGERS-C
+      Compiler
+The MESSENGERS
+      software may be obtained free of charge for non-commercial purposes.
+      Installation instructions are given in MSGR01: MESSENGERS
+      User′s Manual. If you are interested in installing/using MESSENGERS
+      on your system, please send a message to mfukuda@u.washington.edu to
+      receive a decryption keyword.
+
+
+
+
+

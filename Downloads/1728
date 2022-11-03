@@ -1,0 +1,208 @@
+http://sli.ics.uci.edu/Classes/2010S-295
+
+
+
+SLI | Classes / CS295, Spring 2010: Advanced Topics in Graphical Models 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Classes /
+CS295, Spring 2010: Advanced Topics in Graphical Models
+
+
+
+Info & updates:
+
+     
+Student Comment Page
+
+Class: Donald Bren Hall (DBH) 1423, Wednesday 2pm-4:20pm
+Instructors: Rina Dechter (Bren 4232) and Alex Ihler (Bren 4066)
+
+Overview
+The seminar will focus on recent advances in graphical models reasoning and knowledge representation, as well as on exploring some application areas.
+Each student will be involved in presenting papers/chapters and will be encouraged to focus on a project of interest. Students will write a final report for their research project.
+
+Schedule
+
+Week
+
+Date
+
+Topic
+
+Readings
+Week 1
+4/1
+
+Rina, Alex - Background, Discussion
+Lars - Distributed AND/OR search
+Lars: Distributed AND/OR search
+Week 2
+4/8
+
+Rina - Modeling Linkage networks as Mixed probabilistic and deterministic Networks
+Bozhena Bidyuk - Overview on sampling in graphical models
+Rina: Modeling Linkage networks slides
+Paper by E. Thompson
+
+Bozhena: Sampling in presence of determinism slides
+Week 3
+4/15
+
+Qiang - Tree-reweighted & Negative tree-reweighted BP
+Natasha - Linkage networks continued
+
+Qiang: Negative TRBP Slides Δ
+
+Natasha: Slides - Analysis of data through inference of identity by descent
+
+Week 4
+4/22
+
+Natasha - finishing E. Thompson's paper
+Alex - L1 regularized methods for model selection
+Rina
+
+Week 5
+4/29
+
+David - Affinity propagation
+Edwin - Structure learning for biological networks
+
+David: Affinity propagation slides
+Week 6
+5/6
+
+Andrew  - Herding and the perceptron cycling theorem
+Julian - Covering trees for assignment problems in vision
+
+Week 7
+5/13
+
+Priya - Conditional random fields and text segmentation
+Saumi - Message-passing algorithms in sensor networks
+Tianbing
+
+Week 8
+5/20
+
+Rina
+
+Week 9
+5/27
+
+David
+Lars - Search space estimation through partial exploration
+Andrew
+Tianbing - Parallel methods for Gibbs sampling
+
+Lars: Search space estimation through partial exploration
+Week 10
+6/3
+
+Natasha
+Edwin - Learning time-varying network structures
+Qiang
+
+
+
+
+Possible topics and readings for presentation (related work as sub-bullets)
+Matched learning and inference
+Wainwright (2006). Estimating the ”wrong” graphical model: Benefits in the computation-limited setting. Journal of Machine Learning Research, 7:1829–1859. PDF
+Domke (2008) Learning convex inference of marginals PDF
+Kulesza & Pereira (?). Structured Learning with Approximate Inference
+...
+Contrastive Divergence
+Tieleman & Hinton (2009) Using fast weights to improve persistent contrastive divergence PDF
+Welling (2009) Herding dynamic weights in random field models PDF
+...
+Parallel or distributed methods
+Junction Tree
+Pennock (1998) Logarithmic Time Parallel Inference 
+Namasivayam & Prasanna (2006) Scalable Parallel Implementation...  & related
+Belief Propagation
+Gonzalez et al.(2009) Residual Splash PDF
+Gonzalez et al. (2009) Distributed Parallel Inference PDF
+MCMC
+Ren & Orkoulas (2007) Parallel Markov chain Monte Carlo simulations 
+Whiley & Wilson (2004) Parallel algorithms for MCMC in latent spatial Gaussian models 
+Campillo et al. (2009) Parallel and interacting MCMC algorithm 
+Variational methods and convex optimization
+LP relaxations, cutting planes, etc
+Optimization; probabilistic rounding algorithms
+Sparse structure learning
+L1-Regularized learning
+Jaakkola et al. (2010 AIStats) Learning B. network structure using LP relaxations
+Schmidt & Murphy (2010 AIStats)
+Exact structure enumeration methods
+Papers of general interest
+Rubinstein (2010) Stochastic Enumeration and Splitting Methods for Counting Self-Avoiding Walks PDF
+Other relationships of SAWs to inference:
+Weitz (2006) Counting independent sets up to the tree threshold PDF
+Ihler (2007) Accuracy bounds for belief propagation PDF
+...
+Background papers
+Mateescu & Dechter (2008) Mixed deterministic and probabilistic networks PDF
+Wainwright & Jordan (2008) Graphical Models, Exponential Families, and Variational Methods PDF
+Dechter & Mateescu (2006) AND/OR Search Spaces for Graphical Models PDF
+Gogate & Dechter (2009) SampleSearch: Importance Sampling in presence of Determinism PDF
+Mateescu, Kask, Gogate & Dechter (2010) Join-Graph Propagation Algorithms PDF
+Marinescu & Dechter (2009) Memory Intensive AND/OR Search for Combinatorial Optimization in Graphical Models PDF
+Applications
+Genetic linkage analysis
+Thompson (August 2008) Analysis of data on related individuals through inference of identity by descent PDF
+Recent conferences as sources
+NIPS (December 2009) papers
+AAAI (July 2010)
+AIStats preliminary, official
+
+
+
+
+
+
+ Last modified February 13, 2017, at 02:18 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

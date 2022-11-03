@@ -1,0 +1,51 @@
+http://www.ics.uci.edu/~kay/scheme/format-decimal.scm
+;; format-decimal: number n -> string
+;; Return string representing number formatted to n decimal places
+(define format-decimal
+  (lambda (x places)
+    (if (<= places 0) (error 'format-decimal "Second argument must be >= 1")
+                      (decimal->string (round-to-nth-decimal-place x places) pla
+ces))))
+
+
+(define format-dollars
+  (lambda (x)
+    (format-decimal x 2)))
+
+
+;; round-to-nth-decimal-place: number n -> number
+;; Use predefined 'round' (which works in the ones place)
+;; to round to the nth decimal place (so -1 is tenths,
+;; -2 is hundredths, +2 is hundreds, and so on).
+(define round-to-nth-decimal-place
+  (lambda (x n)
+    (/ (round (* x (expt 10 n))) (expt 10 n))))
+
+
+;; decimal->string: Number n -> String
+;; convert decimal number into string with exactly n digits to right of "."
+;; Original code by Matthias Felleisen; modified by D.G.Kay
+(define (decimal->string x places)
+  (list->string (truncate (string->list (number->string (+ #i0.0 x))) places)))
+
+
+;; truncate: List-of-char n -> List-of-char
+;; find the "." and truncate after next n chars
+;; Original code by Matthias Felleisen; modified by D.G.Kay
+(define (truncate str places)
+  (cond
+    [(empty? str) (error 'truncate "can't happen")]
+    [else (cond
+            [(char=? (first str) #\.) (cons #\. (pick-n places (rest str)))]
+            [else (cons (first str) (truncate (rest str) places))])]))
+
+
+;; pick-n: n List-of-char -> List-of-char
+;; pick first n chars from list, or supplement them with #\0
+;; Original code by Matthias Felleisen; modified by D.G.Kay
+(define (pick-n places str)
+  (local ((define char-to-cons (if (empty? str) #\0 (first str)))
+          (define remaining-chars (if (empty? str) empty (rest str))))
+    (cond
+      ((= places 0) empty)
+      (else (cons char-to-cons (pick-n (sub1 places) remaining-chars))))))

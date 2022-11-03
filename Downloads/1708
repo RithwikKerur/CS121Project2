@@ -1,0 +1,96 @@
+http://sli.ics.uci.edu/Classes/CSEProjectIdeas
+
+
+
+SLI | Classes / CSE Senior Design Project Suggestions 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Classes /
+CSE Senior Design Project Suggestions
+
+
+
+
+
+ 
+Robots
+Who doesn't like robots?  Maybe your robot walks on legs, or drives on wheels.  Maybe it can crawl over obstacles; maybe it can mow my lawn for me; maybe you make more than one and they can swarm or follow-the-leader.  It all depends what you like.
+
+Here's an example telepresence robot controlled by Skype.
+
+
+ 
+Wireless sensor networks
+Battery powered sensors that gather data and report it via wireless radio are becoming more and more commonplace.  Build a sensor (passive IR, CCD camera, etc.) and wireless link, or use a "mote" for the latter (I have several I can loan you) and focus on extracting and displaying the data. For inspiration, see for example this demo at MERL.
+
+
+ 
+Multitouch display
+Microsoft's "Surface" is like a six-foot IPhone.  These displays look seriously fun.  Why not build your own?  There are a number of ways to design something like this, several of which are nicely documented on the web to give you ideas.
+
+
+ 
+Digital theremin
+The theremin was one of the earliest electronic musical instruments.  Players could change the sounds' volume and tone by moving their hands through an electric field.  For digital versions, the possibilities are endless.  Use one or more cameras to capture hand movements and gestures and convert them into music.  Or, do something fun and musical with a WiiMote and nunchuck, like this drum kit.
+
+
+ 
+ 
+Homemade design tools
+Ever wished you had your own oscilloscope, or a nice digital logic analyzer?  Why not make your own?  While making something that works is pretty easy, making a reasonably good one is more of a challenge.  Features might include high-speed sampling rates, complex triggers, and/or a graphical LCD for display. 
+
+
+ 
+Custom MP3 player
+OK, we've all got IPods.  But, you could make a portable MP3 player that has extra "DJ" features, like adjustable tempo, looping, etc.  Or, make a stereo-component MP3 player with a big hard-drive for storage.   
+
+
+
+
+
+
+
+ Last modified October 21, 2010, at 09:54 AM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

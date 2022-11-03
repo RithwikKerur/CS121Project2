@@ -1,0 +1,237 @@
+http://ngs.ics.uci.edu/blog/?p=572
+
+
+
+
+
+
+
+
+Digital Photo Albums – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Digital Photo Albums    			
+
+
+I posted some thoughts on this topic some time ago here. 
+Here are some functionality that I thought such systems should provide.  These are still at very high level and are evolving.  
+A digital photo album should provide following functionality:
+â€¢	Add photos from
+o	        Camera
+o	        Phone
+o	        Scanners
+o	       Files, including e-mails
+o	      Web sites
+â€¢	Opinions
+o	      Tags
+o	      Annotations
+o	      Comments (or blogging about photos)
+â€¢	Finding photos
+o	      Based on dates, places, people
+ï‚§	             Combinations and variations of these
+o	      Content
+ï‚§	              Type of picture
+ï‚§	              People
+ï‚§	              Objects
+ï‚§	              Concepts (peace, ambition, love, â€¦)
+ï‚§	              Similarity to other pictures
+o	       Based on opinions
+ï‚§	            Tags
+ï‚§	            Popularity
+ï‚§	            Interestingness
+â€¢	Creating albums
+o	      Events
+o	      Topics
+o	      Evolution of a theme
+o	      Some social aspects
+â€¢	Sharing photos
+o	       Sending photos
+o	       Monitoring availability
+ï‚§	         From friends
+ï‚§	         On topics
+ï‚§	         Of specific types
+â€¢	Managing photos
+o	      Using groups to decide access levels for photos
+ï‚§	             Private, groups, public
+o	      Editing
+o	      Deleting
+o	      Reorganizing 
+We can build the detail functionality in all these aspects by looking at current systems and taking the best features from there.  
+Am I missing some obvious features?
+
+
+
+By Ramesh |
+    				July 20, 2006 |
+    				             		Technical Thoughts |
+             	 
+    				             		2 Comments |
+             	 		          				
+    			
+
+
+← Words: Events
+UCI CAP: Council on Academic Personnel →
+
+
+
+			2 thoughts on “Digital Photo Albums”		
+
+
+
+
+Amir July 21, 2006 at 9:34 am 
+
+One additional feature that I can think of is import/export (especially the latter). I want my online photo album provider to give me the ability to easily switch to another photo album provider, taking my photos, tags, comments, and everything else with me.
+
+
+
+
+
+
+
+
+metamerist July 25, 2006 at 4:17 pm 
+
+In the future, I hope to see more support for latitude and longitude. EXIF supports it, but I think there’s a great deal of intertia and paradigm paralysis in this area. As GPS technologies decrease in cost and size, hopefully GPS support and geotagging will become a standard feature of digital cameras. I believe the ability to cluster images spatially will be very useful.
+
+
+
+
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

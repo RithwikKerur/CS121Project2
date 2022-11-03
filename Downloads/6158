@@ -1,0 +1,69 @@
+http://www.ics.uci.edu/~kibler/freshmanSyllabus.html
+ Discussion topics 
+
+ Introduction to class format and informal discussion of intelligence.
+     1950 Can A Machine Think in Computing Machinery and Intelligence by Alan
+    Turing.  Poses the problem of deciding whether an
+    artifact can exhibit intelligence.
+    1950 Chess Playing Programs and the Problem of Complexity by
+    Allen Newell, J Shaw, and Herbert Simon.  Can programs play difficult games well? Discusses
+    approaches to game playing, including minimax, static
+    evaluation, quiescence, and goals. Does this demonstrate intelligence? What else might be needed? How hard is chess?
+    
+     1956 Realization of a Geometry-theorem Proving Machine
+    by H. Gelernter.  Mathematical ability is often thought of as sign of intelligence. Can programs prove theorems? Presents theorem proving as a search
+    through a space of goals and subgoals. Shows how to limit
+    search by using models. Assignment question: Assume that you have a program that can prove theorems. Is this sufficient/not sufficient to indicate that you have created an intelligence program. Why or why not? 
+    
+     1961 GPS: A Program that simulates Human Thought by
+    Allen Newell and Herbert Simon.  Can intelligence be revealed by any one ability? Does it require a host of abilities?  N&S provide a general problem
+    solving algorithm that relies on states, goals and operators. Assignment Question: How is this program similar or different from the way you solve problems? 
+     1977 Computers and Thought Lecture by Douglas Lenat. The ubiquity of discovery. Lenat surveys several programs that do scientific discovery, or do they? Assignment question: Are these programs doing scientific discovery? Argue for or against.
+    
+     1981 Rodney Brooks: Brooks argues that intelligence can be achieved without reason or representation, two key assumptions behind most AI research. Darpa issued a million dollar challenge for an autonomous vehicle that would traverse natural environments. Search for Humanoid robots via google. Asimov and Wakamaru are two. Others? Assignment question(s): Can we build Hal?  Why or why not? What can programs do? Use specifics from readings.
+  1982 Marvin Minsky Why People Think Computers Can't  You may find Minsky's web site interesting. Assignment Questions
+ Do you agree that his "web of meaning" yields meaning? Do you think computers can be conscious?
+  1999 Tom Mitchell Machine Learning and Data Mining Assignment questions:  Are these programs learning? Why or why not?
+   Tieing it all together:  Assignment questions: What papers did you find most valuable? Is AI achieving intelligence? 
+
+  
+ Other Potential Topics/Papers 
+
+ What is Bioinformatics?
+         Can Programs do medical diagnosis?
+         Practical application of learning
+         AM: A Mathematician by Douglas Lenat. Is proving theorems or solving differential equations an indication of intelligence? A more creative task is discovering theorems. Lenat
+    demonstrates a heuristic approach to generate mathematical
+    conjectures and definitions by examining examples.
+     Some Studies in Machine Learning Using the Game of
+    Checkers by Arthur Samuel. (1954) Can programs learn? Demonstrates an effective
+    learning algorithm and discusses the problem of
+    representation. Does this convince you that programs can be intelligence? Why or Why not? What can programs do?
+     The Principle Acts of Conceptual Dependency by Roger Schank. (1969) Provides a
+    core conceptual language that he hoped would allow for
+    representing the meaning of sentences. Representation is a key problem in AI. 
+     Mapping Ontologies into Cyc by Douglas Lenat. (2002) An attempt to store everything a child knows by the age of five or common sense knowledge.
+    Cyc stores world knowledge in multiple forms, including first and second order logic.
+    Inference is handled by special algorithms for efficiency. Currently has several million facts and rules.
+    Prolog by Kowalski.  Prolog is a programming
+    language based on logic. Computation is viewed as logical
+    deduction (formally resolution). In this context a program is simply a
+    collection of facts and rules. You query the program and it used the facts and rules to generate a proof.
+    <
+
+
+        
+
+ Notes 
+
+ Complexity: $1,000,000 Clay (mathematics prize) for settling tennis pickup problem.
+   Suppose you want pick up N tennis balls and return your spot, with the least amount of work. What is an upper bound on the number of operations you need to figure out the best path?
+ Lenat on why he went into AI. (1971) 
+One was that it was positively reinforcing --- you would be building something like a mental amplifier that would make you smarter, hence would enable you to do even more and better things. 
+
+The second interesting property was that it was clear researchers in the field didn't know what the hell they were doing. 
+ Charlie Brown on Natural Language Processing: 
+ Lucy and Charlie are on the baseball field and it is raining. Lucy is holding an umbrella. 
+Charlie says: "You can't catch a baseball holding an umbrella". 
+Lucy says: "How did he know that?"
+

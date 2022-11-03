@@ -1,0 +1,1785 @@
+http://www.ics.uci.edu/~kay/courses/i41/answers.html
+
+
+
+
+
+
+Answers to Sample Questions
+
+
+
+
+
+
+
+Informatics 41 * Fall 2009 * David G. Kay *
+UC Irvine
+
+ANSWERS TO SAMPLE
+QUESTIONS
+
+Below are some questions of the sort that could
+appear on our final exam.  This is not a sample exam--it's not the same
+length, it doesn't have the same mix of questions, it doesn't cover
+all the topics.  But these questions will help you review some important
+concepts and most of them have appeared on exams in the past.  Try to do
+them by yourself, but then compare your answers with your classmates. Do
+this long enough in advance that you'll have a chance to ask us if there
+are issues you can't resolve yourself.
+
+(a.1)  Write a definition for the function
+vector->list.
+ (Hints:  Remember that vectors are zero-based.  Be careful not to produce
+a reverse-order list.  Use an auxiliary function.)
+
+; vector->list: vector  ->  list
+
+; Return a list containing the same elements
+as the vector argument, in the same order.
+
+; (vector->list (vector 1 2 3) returns
+(list 1 2 3)
+
+(define (vector->list
+V)
+
+  (vtl-help V (vector-length V) empty))
+
+(define (vtl-help V i list-so-far)
+
+  (cond
+
+    ((= i 0) list-so-far)
+
+    (else (vtl-help V 
+
+                    (sub1 i) 
+
+                    (cons (vector-ref V (sub1 i)) list-so-far)))))
+
+; Scoring:  Deduct
+a point if they don't deal with the vector being zero-based (though they
+don't have to subtract 1 in the same place the solution above does).
+
+; Deduct a point if
+they count upwards and thereby produce a reverse-order list.
+
+(a.2)  Write a definition for the function
+list->vector.
+ (Hint:  You can do this without an auxiliary function and without vector-set!,
+but you may use them if you need to.)
+
+; list->vector: list  ->  vector
+
+; Return a vector containing the same elements
+as the list argument, in the same order.
+
+; (list->vector (list 1 2 3) returns
+(vector 1 2 3)
+
+(define (list->vector
+L)
+
+  (build-vector (length L) (lambda (n) (list-ref L n))))
+
+; --------------------------------------------------------------- That's
+the nice way, but here's the other way:
+
+(define (list-to-vector L)
+
+  (ltv-help L (build-vector (length L) (lambda (n) 1)) 0))
+
+(define (ltv-help L V i)
+
+  (cond
+
+    ((empty? L) V)
+
+    (else (begin
+
+            (vector-set! V i (first L))
+
+            (ltv-help (rest L) V (add1 i))))))
+
+
+(b)  Consider the following function:
+
+
+(define (DoSomething a b)  ; assume b >=
+0
+
+  (cond
+
+    ((= b 0) a)
+
+    (else (DoSomething (sub1 a) (sub1
+b)))))
+
+
+(b.1) What is returned by each of the
+following statements?
+
+   (DoSomething 3 1)2
+
+   (DoSomething 6 2)4
+
+   (DoSomething 29 5)24
+
+   (DoSomething 25000 23000)2000
+
+(b.2) In one English word (or in mathematical
+notation), describe the value this function returns in terms of its arguments.
+
+Subtraction:   a -
+b
+
+(b.3)  Now look at this function:
+
+
+(define (DoSomethingElse a b)  ; assume
+b >= 0
+
+  (cond
+
+    ((= b 0) a)
+
+    (else (sub1 (DoSomethingElse a
+(sub1 b))))))
+
+Does DoSomethingElse
+produce the same results as DoSomething?
+ If not, explain how the results differ.
+
+Yes, they produce
+the same results.
+
+(b.4)  Which of these routines are
+tail recursive--DoSomething,
+DoSomethingElse,
+neither, or both?  For any non-tail-recursive routine, indicate (by circling
+it) which specific operation in its code makes it non-tail-recursive.
+
+DoSomethingElse is
+not tail-recursive because of the last subtraction (which is done after
+returning from the recursive call). 
+
+(c)  A set is a collection of distinct
+objects (i.e., without duplicates).  Suppose you have the following operations
+defined on sets:
+
+empty-set
+is a constant representing the empty set.
+
+(empty? S)
+returns true if the set S is empty and false otherwise.
+
+(element? S E)
+returns true if E is an element of the set S, and false otherwise.
+
+(insert S E)
+returns the set S if E is already in S, or returns S with E added otherwise.
+
+(intersection S1 S2)
+returns a set containing only the elements that are in both S1 and S2.
+
+(subtract S1 S2)
+returns a set containing the elements of S1 that are not in S2.
+
+(union S1 S2)
+returns a set containing every element in either S1 or S2 (without   
+duplicates, of course).
+
+(c.1)  Using any of the above routines
+where appropriate, but using no list processing functions, define a Scheme
+function called ski-trip
+that takes the following four sets as arguments
+
+*   friends,
+the set of all your friends;
+
+*   early-risers,
+the set of people you know (perhaps including people who aren't your
+friends) who will wake up early enough to get out on the slopes when the
+lifts open;
+
+*   rowdy-people,
+the set of people who are likely to get too excited and wreck your cabin;
+
+*   fun-folks,
+the set of people who really know how to party
+
+and returns the set of people you'd like
+to invite on your ski trip over winter break:  all your friends who are
+early risers and fun folks, but not rowdy people.
+
+(define (ski-trip
+friends early-risers rowdy-people fun-folks)
+
+   (subtract
+(intersection (intersection friends early-risers) fun-folks) rowdy-people))
+
+
+(c.2)  Assuming we implement sets as
+normal Scheme lists, write a definition for the function union.
+
+(define union
+
+   (lambda (s1 s2)
+
+      (cond
+
+      ((empty? s1) s2)
+
+      ((element? s2 (first s1)) (union (rest s1) s2))
+
+      (else (cons (first s1) (union (rest s1) s2))))))
+
+
+(c.3)  Using the operations map,
+filter,
+foldr,
+and/or for-each,
+and without using any explicit recursion, write a definition for the function
+intersection.
+ (Hint:  This can be quite short.)
+
+(define intersection
+
+   (lambda (s1 s2)
+
+      (filter (lambda (E) (element? s1 E)) s2)))
+
+
+(c.4)  Write a definition for subtract
+and rewrite a definition for union,
+using the operations map,
+filter,
+foldr,
+and/or for-each
+and no explicit recursion.
+
+(define subtract
+
+   (lambda (s1 s2)
+
+      (filter (lambda (E) (not (element? s2 E))) s1)))
+
+(define union
+
+   (lambda (s1 s2)
+
+      (foldr insert s1 (subtract (s2 s1)))))
+
+
+(d)  In the restaurants program
+(a copy of which is provided), define the following function that could
+be used at the top level of the program (i.e., without knowing whether the
+collection is implemented as a list, a BST, a vector, or whatever; that
+means you have to call collection-change).
+
+;; increase-price-for-cuisine: collection
+number symbol -> collection
+
+;; The symbol is the name of a cuisine; the number is a number of dollars
+
+;; to add to the price of each restaurant serving that cuisine.  Return
+the
+
+;; collection with those price changes.
+
+(define increase-price-for-cuisine
+
+  (lambda (RC amount c)
+
+    (collection-change RC 
+
+                    (lambda (r) (eq? (rrant-cuisine r) c))
+
+                    (lambda (r) (make-rrant (rrant-name r) (rrant-cuisine
+r) (rrant-phone r)
+
+                             (rrant-dish r) (+ amount (rrant-price
+r))))))
+
+
+(e)  [This one is tough towards the
+end, probably tougher than would be on the test.]
+
+Anteater Airlines stores each of its scheduled flights in a structure with
+five fields:
+
+
+origin (the three-letter airport code, e.g..
+'LAX)
+
+
+departure (the departure time)
+
+
+destination (a three-letter airport code)
+
+
+arrival (the arrival time)
+
+
+passengers (a list of passengers, each of
+whom is represented by a string, e.g., "Jane
+Jones")
+
+
+(e.1)  Define the structure flight
+with the field names given above.
+
+(define-struct flight
+(origin departure destination arrival passengers))
+
+The parentheses here
+have to be correct.  In general, all the parentheses have to be correct,
+except for counting the parentheses at the end of a definition.
+
+(e.2)  Complete the following definition
+for the predicate function valid-flight?,
+which takes an expression and checks whether it appears to be a valid flight.
+ 
+
+(define valid-flight?
+
+    (lambda (X)
+
+      (and              
+                ; and, like +, can take more than 2 arguments
+
+         (________________
+X)           ; is it a flight structure at all?  flight?
+
+         (airport-code-valid?
+(flight-origin X))
+
+         (time-valid?
+(________________ X)) ; is the departure time valid?flight-departure
+
+         (airport-code-valid?
+(flight-destination X))
+
+         (time-valid?
+(________________ X)) ; is the arrival time valid?    
+flight-arrival
+
+         (list-of-strings?
+(flight-passengers X))))
+
+
+(e.3)  Assume that you have already
+defined the variable airport-code-list,
+which is a list of all the valid three-letter airport abbreviations (e.g.,
+LAX, SFO, SNA).  Write a definition for the predicate function airport-code-valid?,
+which takes a symbol (an atom) and returns true if the symbol is contained
+in airport-code-list.
+ (Hint:  You can do this without recursion if you use a function we defined
+in class and in the book.)
+
+(define airport-code-valid?
+
+   (lambda (c)
+
+      (member? c airport-code-list)))
+
+; Okay if the order of arguments to member? is switched.  Don't deduct
+but make a note if they use a cond to explicitly return #t or #f.  It's
+also okay if they write it out recursively and don't use member?
+
+
+(e.4)  The predefined predicate string?
+takes a single argument and returns true (#t)
+if and only if the argument is a string.  Write a definition for the predicate
+list-of-strings?,
+which takes a list and returns true if and only if every element of the
+list is a string (or if the list is empty).
+
+(define list-of-strings?
+
+   (lambda (L)
+
+      (cond
+
+         ((null? L) #t)
+
+         ((string? (first L)) (list-of-strings? (rest L)))
+
+         (else #f))))
+
+This can also be done in just two cond clauses, with the second using AND.
+
+
+(e.5)  Define the predicate flight-goes-to?,
+which takes two arguments, a flight structure and a symbol (representing
+an airport code), and returns true if the flight's destination matches
+that symbol.
+
+(define flight-goes-to?
+
+   (lambda (F d)
+
+      (equal? (flight-destination F) d)))
+
+; Okay to use eq? or symbol=? instead of equal?
+
+
+(e.6)  Anteater Airlines stores all
+of its scheduled flights in a list of flight structures--the same flight
+structure you defined in the previous problem. 
+
+Write a definition for the function first-flight-to,
+which takes a flight list and a symbol (representing an airport code) and
+returns the first flight on the list whose destination matches that symbol
+(or the null list if there's no match).  Use flight-goes-to?
+as described above, whether or not your definition was correct.
+
+(define first-flight-to
+
+  (lambda (L d)
+
+   (cond
+
+      ((null? L) '())
+
+      ((flight-goes-to? (first L) d) (first L))
+
+      (else (first-flight-to (rest L) d))))
+
+
+(e.7)  Write a definition for the function
+keep-flights-to,
+which takes a flight list and a symbol (representing an airport code) and
+returns a list of flights containing only those flights in the original
+list whose destination matches that symbol.
+
+(define keep-flights-to
+
+  (lambda (L d)
+
+   (cond
+
+      ((null? L) '())
+
+      ((flight-goes-to? (first L) d) (cons (first L) (keep-flights-to
+(rest L) d)))
+
+      (else (keep-flights-to (rest L) d))))
+
+
+(e.8)  To enhance security, an anonymous
+air marshal will be assigned to every Anteater Airlines flight.  Write a
+definition of add-marshals,
+which takes a flight list and a code name and adds that code name at the
+beginning of the passenger list of each flight.  (Hint:  First write a function
+to take a single flight and add the name; then call that function from your
+definition of add-marshals.)
+
+(define add-marshals
+
+  (lambda (L name)
+
+   (cond
+
+      ((null? L) '())
+
+      (else (cons (enhance (first L) name) (add-marshals
+(rest L) name)))))
+
+(define enhance 
+
+  (lambda (F codename)
+
+   (make-flight (flight-origin F) (flight-departure F) (flight-destination
+F) (flight-arrival F)
+
+      (cons codename (flight-passengers F)))))
+
+
+(e.9)  Write a definition for complete-passengers-list,
+which takes a flight list and returns a list of strings containing all the
+passengers from all the flights on the list, with no duplications.  (You
+may assume that all the passengers on a single flight are unique.)
+
+(define complete-passengers-list
+
+  (lambda (L)
+
+   (cond 
+
+      ((null? L) '())
+
+      (else (add-unique (flight-passengers (first L)) (complete-passengers-list
+(rest L))))))
+
+(define add-unique 
+
+  (lambda (one-flights-list master-passengers-list)
+
+   (cond
+
+      ((null? one-flights-list) master-passengers-list)
+
+      ((member? (first one-flights-list) master-passengers-list)
+
+         (add-unique (rest one-flights-list) master-passengers-list))
+
+      (else (cons (first one-flights-list) (add-unique (rest
+one-flights-list) master-passengers-list)))))
+
+
+(e.10)  (5 points)  Write the function
+average-passengers
+that takes a flight list and returns the average number of passengers on
+the flights on the flight list. 
+
+(define average-passengers
+
+  (lambda (L)
+
+   (/ (total-passengers L) (length L))))
+
+(define total-passengers
+
+  (lambda (L)
+
+   (cond
+
+      ((null? L) 0)
+
+      (else (+ (length (flight-passengers (first L))) (total-passengers
+(rest L)))))))
+
+
+(e.11)  Rewrite average-passengers
+to make it tail-recursive.  (If your answer for part (a) is already
+tail-recursive, just write "I did this already," and if you did
+it correctly, you'll get full credit.)
+
+(define average-passengers
+
+  (lambda (L)
+
+   (/ (total-passengers L 0) (length L))))
+
+(define total-passengers
+
+  (lambda (L acc)
+
+   (cond
+
+      ((null? L) acc)
+
+      (else (total-passengers
+
+                   (rest L)
+
+                   (+ acc (length (flight-passengers (first
+L)))))))))
+
+
+(e.12)  Anteater Airlines plans to
+merge with Aardvark Airlines to form a new airline, AAAir.  Luckily (and
+incredibly), both airlines store their flights in a list of flight structures
+as described above.
+
+Write the function merge-flight-lists,
+which takes two flight lists and returns a flight list containing all the
+flights from both arguments, except that when a flight from the first list
+matches a flight from the second list (i.e., they have the same origin,
+departure time, destination, and arrival time), the merged list contains
+just one flight with the two matching flights' passenger lists combined.
+
+You may assume that you have already defined
+flights-match?,
+which takes two flight structures and returns true if they match as described
+above, and merge-lists,
+which takes two lists and returns a list that contains all the elements
+of both arguments.  You may also assume that the names on any single passenger
+list are unique and that within each of the original flight lists, no flights
+match.  (Hint:  Be careful and consistent about what types of data come
+into and go out of each function.)
+
+(define merge-flight-lists
+
+  (lambda (F G)
+
+   (cond
+
+      ((null? F) G)
+
+      (else (merge-flight-lists (rest F) (merge-a-flight
+(first F) G))))))
+
+(define merge-a-flight
+
+  (lambda (f L)
+
+   (cond
+
+      ((null? L) (list f))
+
+      ((flights-match? f (first L)) (cons (merge-flights
+f (first L)) (rest L))
+
+      (else (cons (first L) (merge-a-flight (f (rest L)))))))
+
+(define merge-flights
+
+  (lambda (f g)
+
+   (make-flight (flight-origin f) (flight-departure f) (flight-destination
+f) (flight-arrival f)
+
+       (merge-lists (flight-passengers f) (flight-passengers
+g)))))
+
+
+(f)  Evaluate each of the following
+expressions.  That is, what does the Scheme interpreter (DrScheme in our
+case) display when each of these expressions is executed? 
+
+(f.1) (*
+(- 15 4) (/ 40 4))
+
+110 (1 point)
+
+(f.2) (>
+(/ 55 5) 12)
+
+#f or false (1 point)
+
+(f.3) (+
+100
+
+       (cond
+
+         ((>= 5 (/ 10 2)) 37)
+
+         (else 6)))
+
+137 (2 points)
+
+
+(g.1)  True or false:  The features
+and capabilities of Scheme make it the best choice for the great majority
+of programming tasks.  False
+
+(g.2)  True or false:  A programmer
+with a knowledge of Java can be sure that his or her knowledge will be enough
+to sustain a productive and innovative 40-year career.  False
+
+
+(h)  Students in the course Applied
+Epistemology 101 are graded on two items, a midterm and a final exam, each
+of which has 100 points possible.  The midterm's weight 40% of the course
+grade; the final is worth 60%.
+
+Write the function AE101-score
+that takes two arguments--a student's midterm score and final exam score--and
+returns that student's overall weighted score in the class (in the range
+0 to 100).  Write two constant definitions for the weights, a contract,
+a brief purpose statement, the Scheme function definition, and two tests
+in the form of boolean expressions that should return true if the function
+works correctly.
+
+(define MT-WEIGHT
+0.40) ; Could also be 40, if the arithmetic later is right
+
+(define FINAL-WEIGHT 0.60) ; Could be 60.  [ 1 point for defining both correctly]
+
+;; AE101-score: number number -> number [1 point; part credit if "midterm",
+e.g., for "number"]
+
+;; Compute weighted score given midterm and final scores (all 0-100) [-1/2
+if missing or blatantly untrue]
+
+(define AE101-score
+
+  (lambda (midterm final)
+
+   (+ (* midterm MT-WEIGHT) (* final FINAL-WEIGHT))))
+
+;; Tests
+
+(= 0 (AE101-score 0 0))
+
+(= 100 (AE101-score 100 100))  [1 point for both correct tests, returning
+a boolean]
+
+SCORING THE CODE:
+
+  1 point for correct form of define:  (define AE101-score (lambda
+(ANYTHING..., or (def (A-s ANYTHING) ...)
+
+  1 point for correct parameter list---two names in parentheses (with
+AE101-score if using Indiana style)
+
+  1 point for any attempt to add something involving both arguments
+
+  1 point for completely correct arithmetic
+
+  1 point for everything else correct.  Parentheses must be right except
+for counting all the trailing ones.
+
+
+(i)  Complete the definition of the
+function between?
+below.
+
+;; between?:  number number number ->
+boolean
+
+;; Return true if the first argument's value is between the second and
+the third, inclusive
+
+;; Examples:  (between? 7 0 10) is true; (between 3 3 4) is true; (between
+1 2 3) is false
+
+(define between?   
+                   ;; 1 point for right form:  compare value to low and
+compare value to high
+
+   (lambda (value low high) ;;
+1 pt for correctness:  going right way on =, not switching low and high
+
+      (and
+(>= value low) (<= value high))))
+;;
+Parens around comparisons must be right (or -1/2);         
+                           ;; trailing parens don't matter here.
+
+
+(j)  Complete the definition of item-on-list?
+below.  
+
+;; item-on-list?:  expression list ->
+boolean
+
+;; Return true if the expression occurs on the list
+
+(define item-on-list?
+
+   (lambda (item L)
+
+      (cond
+
+     
+   ((empty? L) false)
+
+     
+   ((equal? item (first L)) true)
+
+     
+   (else (item-on-list? item (rest L))))))
+
+Scoring:  2 points
+for empty case---1 for test, 1 for returning false
+
+         2 points for matching case---1 for test, 1 for returning
+true
+
+         2 points for recursive case---1 for attempt at recursive
+call, 1 for getting it all correct.
+
+It's okay if they
+use some other comparison besides equal?, but note it.  It's okay if
+they split this into nested conds as they do in the book.  Minus 3 if they
+cross out the cond and just call member? (correctly). [If anybody uses member?
+without deleting the cond--e.g. (cond (true (member? item L))(else 'whatever))--I
+want to hear about it.  They should get credit.] ** You may deduct points
+for nontrivial syntax problems, but beware of "double jeopardy."
+** Some answers may be right but not follow the pattern of the rubric. 
+Score as appropriate and consult with me as necessary.
+
+
+(k)  A date
+is a structure (make-date month day year),
+where month
+is a symbol ('Jan,
+'Feb,
+and so on), day
+is a number from 1 to 31, and year
+is a number from 1000 to 3000.
+
+(k.1)  Define the structure date
+with the field names given above.
+
+(define-struct date
+(month day year))
+
+The parentheses here
+have to be correct.  In general, all the parentheses have to be correct,
+except for counting the parentheses at the end of a definition.  If they
+get any field names wrong, deduct 1/2 point.
+
+(k.2) Define a date
+object called TODAY
+with the appropriate values.
+
+(define TODAY (make-date
+'Oct 19 2004))
+
+If the day is off
+by 1 or 2, I don't think I care.
+
+(k.3)  Complete the following definition
+for the predicate function valid-date?,
+which takes an expression and checks whether it appears to be a valid date.
+ Use the functions you defined in the previous problems where necessary.
+
+;; valid-date?:
+ anything -> boolean
+
+(define MONTHLIST (list 'Jan 'Feb
+'Mar 'Apr 'May 'Jun 'Jul 'Aug 'Sep 'Oct
+'Nov 'Dec))
+
+(define valid-date?
+
+   (lambda (D) (line
+1) 1 point for date?; (line 2) 1 point for date-month, 1 point for MONTHLIST;
+
+      (and     (line
+3/4) 1 point for both between?s; (line 4) 1 point for 1000 & 3000
+
+         (________________
+D)                             ; is it a date structure
+at all?
+
+         (item-on-list?
+(________________ D)________________)        ; is the month valid?
+
+         (________________
+(date-day D) 1 31)
+;
+is the day valid?
+
+         (________________
+(date-year D) ________  ________))))      ; is the
+year valid?
+
+
+(k.4)  Define the predicate function
+all-valid-dates?.
+
+;; all-valid-dates?:
+ list -> boolean
+
+;; Return true if all the items on the list are valid dates.
+ If the list is empty, return true.
+
+(define
+all-valid-dates?
+
+  (lambda (L)
+
+   (cond
+
+      ((empty? L) true)
+
+      ((valid-date? (first L)) (all-valid-dates? (rest L)))
+
+      (else false))))
+
+1 point for correct
+define/lambda/cond
+
+5 points for the rest.
+Any logically equivalent version (e.g., one with and) is okay.  You might
+give a point each for the empty and non-matching cases and three points
+for the recursive case.
+
+
+(l)  Suppose you wish to write a spelling
+checker that takes a string of text as input and returns a list of the misspelled
+words in that string.  Because the input may contain white space and punctuation,
+we will need to extract the words from the string, where a word is a string
+of characters that are separated from the next word by white space or punctuation.
+ (The precise characters that count as white space or punctuation we won't
+worry about here.)
+
+Define the function spell-check,
+which takes a string and returns a list of the words in the string that
+are misspelled (more precisely, words that don't occur in the dictionary
+of all correctly spelled words).  You should use each of the following in
+your definition:
+
+* first-word,
+a function that takes a string and returns the first word in that string
+
+* rest-of-words,
+a function that takes a string and returns a copy of that string with the
+first word removed
+
+* string-empty?,
+a function that takes a string and returns true if it's empty or if
+it contains only white space and punctuation
+
+* DICTIONARY,
+a (long) list of correctly spelled words, where each word is a string.
+
+;; spell-check: string -> list-of-strings
+
+;; Return a list of the words in the input string that aren't in the
+dictionary.
+
+(define
+spell-check   1 point -- Correct define, lambda, and argument list
+
+   (lambda (s)   1 point -- Dividing the problem into 3 cases
+that relate somehow to the arg
+
+      (cond   1 point -- Correctly identifying the empty/base
+case [continued below]
+
+        ((string-empty? s) empty)
+
+        ((item-on-list? (first-word s) DICTIONARY) (spell-check
+(rest-of-words s)))
+
+        (else 
+
+(cons (first-word s) (spell-check (rest-of-words s)))))))
+
+1 point -- Correctly returning empty in the empty/base case
+
+1 point -- Attempt to use both first-word and rest-of-words to traverse
+list
+
+1 point -- Correct use of first-word and rest-of-words in at least one case
+to traverse list
+
+1 point -- Traversal of list using first-word and rest-of-words completely
+correct in both cases
+
+1 point -- Attempt to find first-word in DICTIONARY
+
+1 point -- Correct location of first-word in DICTIONARY (item-on-list? or
+member?; -1/2 for rewriting it)
+
+1 point -- Correct case where first-word is in the dictionary (no word added
+to return list)
+
+1 point -- Correct case where first-word isn't in dictionary (consing
+first-word onto return list)
+
+1 point -- Everything else correct
+
+(m)  In this problem you may not use
+the predefined functions member
+or list-ref.
+ You may use other functions defined earlier in this exam (and you may lose
+points if you re-implement here something that was already described above).
+
+(m.1)  Define the function position-on-list.
+
+;; position-on-list: any list-of-any ->
+number
+
+;; Return the place on the list where the first input occurs, or zero if
+list is empty
+
+;; Examples:  (position-on-list 'a '(a b c)) is 1; (position-on-list
+1 empty) is 0;
+
+;;            (position-on-list 3 '(2 3 4)) is 2
+
+(define
+position-on-list
+
+  (lambda (item L)
+
+    (cond
+
+      ((empty? L) 0)
+
+      ((equal? item (first L)) 1)
+
+      (else (+ 1 (position-on-list item (rest L)))))))
+
+SCORING:  1 for empty
+case,  2 for matching case, 3 for increment/recursive case.
+
+
+(m.2)  Define the function item-at-position.
+
+;; item-at-position: number list-of-any
+-> any
+
+;; From the input list, return the item specified by the input number, or
+empty if out of range
+
+;; Examples:  (item-at-position 3 '(a b c)) is c; (item-at-position
+7 '(a b)) is empty; 
+
+;;            (item-at-position 0 '(3 4)) is empty
+
+(define
+item-at-position
+
+  (lambda (n L)
+
+    (cond
+
+      ((empty? L) empty)
+
+      ((<= n 0) empty)
+
+      ((= n 1) (first L))
+
+      (else (item-at-position (- n 1) (rest L))))))
+
+SCORING: 1 for handling
+empty input list; 1 for handling index <= 0 (not checking negative is
+okay);  3 for recognizing the item at the right position and returning it;
+3 for the correct recursive case.  Partial credit as warranted.
+
+
+(m.3)  Define next-on-list.
+ You may wish to use the predefined function length,
+which returns the number of items on a list.  [Hint:  Use prior definitions,
+not recursion.]
+
+;; next-on-list: any list-of-any -> any
+
+;; Return the item on the input list that follows the first input, or empty
+if none
+
+;; Examples:  (next-on-list 'b '(a b c)) is c; (next-on-list 'c
+(a b c)) is empty;
+
+;;            (next-on-list 'x '(a b c)) is empty; (next-on-list
+'a empty) is empty
+
+(define
+next-on-list
+
+  (lambda (item L)
+
+    (cond
+
+      ((= 0 (position-on-list item L)) empty)
+
+      ((= (length L) (position-on-list item L)) empty)
+
+      (else (item-at-position (+ 1 (position-on-list item L)) L)))))
+
+SCORING:  2 points
+for correctly recognizing input not on list and returning empty; 2 points
+for correctly recognizing last item on list and returning empty; 3 points
+for returning correct next item otherwise.
+
+
+(m.4)  Define next-on-circular-list.
+
+;; next-on-circular-list: expression list
+-> expression
+
+;; Like next-on-list, but the item after the last on the list is the first
+item again
+
+;; Example:  (next-on-circular-list 'c '(a b c)) is a.
+
+(define
+next-on-circular-list
+
+  (lambda (item L)
+
+    (cond
+
+      ((= 0 (position-on-list item L)) empty)
+
+      ((= (length L) (position-on-list item L)) (first L))
+
+      (else (item-at-position (+ 1 (position-on-list item L)) L)))))
+
+SCORING:  3 points
+for correctly handling the circular case; 2 points for everything else right.
+ Don't deduct for the same mistakes as in the previous part, but do
+deduct if they messed something new up.
+
+
+(m.5)  Define the function next-month
+that uses the constant MONTHLIST
+(see Problem (k)) to take in a symbol ('Jan,
+'Feb,
+...) representing a month and return the symbol for the following month.
+
+;; next-month:  symbol -> symbol
+
+;; Take a month name ('Jan, 'Feb, ...) and return the name of the
+following month.
+
+(define next-month
+
+  (lambda (this-month)
+
+    (next-on-circular-list this-month MONTHLIST)))
+
+(m.6)  Define the function advance-a-month
+that takes a date
+(see Problem (k)) and returns that date moved one month into the
+future.
+
+;; advance-a-month: date -> date
+
+;; Advance the input date by one month (on the same day)
+
+(define
+advance-one-month
+
+  (lambda (d)
+
+    (make-date (next-month (date-month d)) (date-day d)
+
+         (cond ((eq? (date-month d) 'Dec) (+ 1 (date-year
+d)))
+
+                   (else (date-year d))))))
+
+SCORING:  2 points
+for returning a date (call to make-date with three arguments);  2 points
+for correct call to next-month; 3 points for handling December correctly;
+1 point for everything else correct.
+
+
+(m.7)  Suppose you have a list of dates
+representing events on your calendar, but you decide to take a month's
+skiing vacation in February.  You'll need to postpone all the events
+scheduled in February, perhaps moving them one month later.  Generalize
+this to the function clear-the-month.
+
+;; clear-the-month: symbol list-of-dates
+-> list-of-dates
+
+;; Return the input list after advancing by one month 
+
+;; every date whose month matches the input symbol.
+
+(define
+clear-the-month
+
+  (lambda (m L)
+
+    (cond
+
+      ((empty? L) empty)
+
+      ((eq? (date-month (first L)) m) (cons (advance-one-month (first
+L)) (clear-the-month m (rest L))))
+
+      (else (cons (first L) (clear-the-month m (rest L)))))))
+
+SCORING:  1 point for empty case; 4 points for matching-month case; 1 point
+for non-matching case.
+
+
+(m.8)   Define this function:
+
+;; days-to-start-of-month: symbol
+-> number
+
+;; Return the number of days from January 1 to the start of the named month
+in non-leap years
+
+;; Examples:  (days-to-start-of-month 'Jan) is 0; (days-to-start-of-month
+'Feb) is 31
+
+(define DAYSINMONTH  '(31 28 31 30 31 30 31 31 30 31 30 31)) ; this
+will be useful
+
+No key
+currently available.
+
+(m.9)
+Define this function:
+
+;; days-from-jan1: date -> number
+
+;; Return number of days from January 1 of the same year to the specified
+date, inclusive
+
+;; Examples: (days-from-jan1 (make-date 'Jan 3 2005)) = 3; (days-from-jan1
+(make-date 'Feb 1 2005)) = 32
+
+No key currently available.
+
+
+(n)
+  For each of the two sets of data
+shown below, draw the binary search tree that results from inserting the
+items in the order shown.  Distinguish left branches clearly from right
+branches.
+
+(n.1a) 
+(13 19 22 7 17 10 2)   (n.1b)
+(Scheme Python Java Fortran C Basic)
+
+            
+ Balanced (2 points)                                       Linear to
+the left (2 points)
+
+
+(n.2)  For each of the trees above,
+if you traverse the tree in order, printing each node, what is the result?
+
+(n.2a) [result of (n.1a)]  2
+7 10 13 17 19 22   (n.2b)
+[result of (n.1b)]
+Basic C Fortran Java Python Scheme
+
+
+(o)  Evaluate each of the following
+Scheme expressions:
+
+(o.1)
+
+(local    ((define make-checker 
+
+            (lambda
+(threshold)
+
+              
+   (lambda (n) (< n threshold))))
+
+          (define a1
+(filter (make-checker 6) '(3 1 4 1 5 9 2 6)))
+
+          (define a2
+(filter (make-checker 4) '(3 1 4 1 5 9 2 6))))
+
+   (list a1 a2))
+
+((3 1 4 1 5 2) (3
+1 1 2)) -- Correct numbers and order, but list structure wrong: -1. 
+
+Branching the wrong
+way on equality: another -1
+
+(o.2) 
+
+(local    ((define make-checker
+
+            (lambda
+(comparison-op threshold)
+
+              
+   (lambda (n) (comparison-op n threshold))))
+
+          (define b1
+(filter (make-checker = 1) '(3 1 4 1 5 9 2 6)))
+
+          (define b2
+(filter (make-checker >= 3) '(3 1 4 1 5 9 2 6))))
+
+   (list b1 b2))
+
+((1 1) (3 4 5 9 6))
+-- Don't deduct again for problems mentioned above.
+
+
+(p)  This problem involves the restaurant collection program.
+ For each part below, indicate your answer by making any additions, changes,
+or deletions to the table of data shown in that part.
+
+(p.1) Suppose the collection C contains
+the information shown below.
+
+Thai Dishes   Thai   434-3434   Mee Krob   10.95<--
+remove
+
+Jacopo's Pizzeria   Pizza
+  343-3434   Goat Cheese Pizza   12.00
+
+Mitsuki   Japanese   232-5353   Edamame   4.50
+
+Tommy Tang's   Thai   454-4545   Paht Woon Sen  
+8.75<--
+remove
+
+Thai Touch   Thai   242-2424
+  Larb Guy   9.95<--
+remove
+
+Kitayama   Japanese   335-3535
+  Okonomiyaki   8.50
+
+What is the result returned by the following
+code?  (Show your results by making changes to the table above--change values,
+cross lines out, add new lines, as appropriate.)
+
+(define Thai?        
+      
+
+   (lambda (R)
+
+      (equal? (rrant-cuisine R)
+'Thai)))
+
+(collection-remove C Thai?) 
+
+
+(p.2) Suppose the collection C contains
+the information shown below.
+
+Thai Dishes   Thai   434-3434   Mee Krob   10.95
+
+Jacopo's Pizzeria   Pizza   343-3434   Goat Cheese Pizza
+  12.00
+
+Mitsuki   Japanese   232-5353   Edamame   4.50<--
+remove
+
+Tommy Tang's   Thai  
+454-4545   Paht Woon Sen   8.75
+
+Thai Touch   Thai   242-2424   Larb Guy   9.95
+
+Kitayama   Japanese   335-3535   Okonomiyaki   8.50<--
+remove
+
+What is the result of the following expression?
+
+
+(collection-remove C (lambda (R) (equal?
+(rrant-cuisine R) 'Japanese)))
+
+
+(p.3) Suppose the collection C contains
+the information shown below.
+
+Thai Dishes   Thai   434-3434   Mee Krob   10.95<--
+remove
+
+Jacopo's Pizzeria   Pizza
+  343-3434   Goat Cheese Pizza   12.00
+
+Mitsuki   Japanese   232-5353   Edamame   4.50<--
+remove
+
+Tommy Tang's   Thai  
+454-4545   Paht Woon Sen   8.75<--
+remove
+
+Thai Touch   Thai   242-2424
+  Larb Guy   9.95<--
+remove
+
+Kitayama   Japanese   335-3535
+  Okonomiyaki   8.50<--
+remove
+
+What is the result of the following expression?
+
+(collection-remove C 
+
+   (lambda (R)
+
+      (or (Thai? R) (equal? (rrant-cuisine
+R) 'Japanese))))
+
+
+(p.4) Suppose the collection C contains
+the information shown below.
+
+Thai Dishes   Thai   434-3434   Mee Krob   10.95-->
+11.95
+
+Jacopo's Pizzeria   Pizza
+  343-3434   Goat Cheese Pizza   12.00
+
+Mitsuki   Japanese   232-5353   Edamame   4.50
+
+Tommy Tang's   Thai   454-4545   Paht Woon Sen  
+8.75-->
+9.75
+
+Thai Touch   Thai   242-2424
+  Larb Guy   9.95-->
+10.95
+
+Kitayama   Japanese   335-3535
+  Okonomiyaki   8.50
+
+What is the result of the following expression?
+
+(define raise-price
+
+   (lambda (R)
+
+      (make-rrant (rrant-name
+R) (rrant-cuisine R) (rrant-phone
+R)                  (rrant-dish
+R) (+ 1.00 (rrant-price R)))))
+
+(collection-change C Thai? raise-price)
+
+
+(p.5) Suppose the collection C contains
+the information shown below.
+
+Thai Dishes   Thai   434-3434   Mee Krob   10.95<--
+remove (was 11.95)
+
+Jacopo's Pizzeria   Pizza
+  343-3434   Goat Cheese Pizza   12.00<--
+remove 
+
+Mitsuki   Japanese   232-5353
+  Edamame   4.50
+
+Tommy Tang's   Thai   454-4545   Paht Woon Sen  
+8.75-->
+9.75
+
+Thai Touch   Thai   242-2424
+  Larb Guy   9.95<--remove
+(was 10.95)
+
+Kitayama   Japanese   335-3535
+  Okonomiyaki   8.50
+
+What is the result of the following expression?
+
+(collection-remove (collection-change
+C Thai? raise-price) ; raise-price is defined above
+
+                   (lambda (R) (>
+(rrant-price R) 10.00)))
+
+
+(p.6) Suppose the collection C contains
+the information shown below.
+
+Thai Dishes   Thai   434-3434   Mee Krob   10.95-->
+8.95
+
+Jacopo's Pizzeria   Pizza
+  343-3434   Goat Cheese Pizza   12.00-->10.00
+
+Mitsuki   Japanese   232-5353
+  Edamame   4.50<--remove
+
+Tommy Tang's   Thai  
+454-4545   Paht Woon Sen   8.75<--remove
+
+Thai Touch   Thai   242-2424
+  Larb Guy   9.95-->
+7.95
+
+Kitayama   Japanese   335-3535
+  Okonomiyaki   9.50
+
+What is the result of the following expression?
+
+(collection-change 
+
+   (collection-remove C (lambda
+(R) (< (rrant-price R) 9.00)))   
+
+   (lambda (R) (or (equal? (rrant-cuisine
+R) 'Pizza)   (equal? (rrant-cuisine R) 'Thai)))   (lambda
+(R) (make-rrant (rrant-name R) (rrant-cuisine R)
+(rrant-phone R)                     
+           (rrant-dish R) (-
+(rrant-price R) 2.00))))
+
+(q)  Below are the definitions of five
+functions.
+
+(q.1)  Write "R" next to
+each of the five routines below that is recursive.
+
+(q.2)  Write "T" next to
+each of the five routines that is tail-recursive.
+
+Some routines may be both "R" and
+"T"; some may be neither.  Consider each function independently
+of the others (i.e., pay no attention to the other functions a given function
+calls).
+
+(define print-stars-A   R
+
+  (lambda (N)
+
+    (cond
+
+      [(zero? N) (newline)]
+
+      [else (begin                    ; do these two things,
+in the order shown:
+
+         (print-stars-A (- N 1))     ; print n-1 stars
+
+         (display "*"))])))          ; print out a star
+
+
+(define print-stars-B   RT
+
+  (lambda (N)
+
+    (cond
+
+      [(zero? N) (newline)]
+
+      [else (begin                     ; do these two
+things, in the order shown:
+
+         (display "*")        
+        ; print out a star 
+
+         (print-stars-B (- N 1)))]))) ; print n-1 stars
+
+
+(define keep-matches-A   R
+
+  (lambda (L X)
+
+    (cond
+
+      [(null? L) empty]
+
+      [(equal? X (first L)) (cons (first L) (keep-matches-A (rest L)
+X))]
+
+      [else (keep-matches-A (rest L) X)])))
+
+
+(define keep-matches-B   neither
+
+  (lambda (L X)
+
+    (keep-matches-help L X '())))   
+
+
+(define keep-matches-B-help   RT
+
+  (lambda (L X list-so-far)
+
+    (cond
+
+      [(null? L) list-so-far]
+
+      [(equal? X (first L)) (keep-matches-B-help (rest L) 
+
+                          
+                      X 
+
+                          
+                      (cons (first L) list-so-far))]
+
+      [else (keep-matches-B-help (rest L) X list-so-far)]))) 
+
+
+(r) Suppose we have a list called RL
+of restaurants with menus, according to the usual definitions:
+
+(define-struct rrant (name cuisine phone
+menu))
+
+where menu is a list of dishes
+
+(define-struct dish (name price)).
+
+Define the following function:
+
+;; name-and-phone-serving-dish: (listof
+rrant) string -> (listof name-phone-list)
+
+;; Returns a list of the names and phone numbers of all the restaurants
+that 
+
+;; serve the dish named in the second input.  Each name/phone-number pair
+
+;; should be in its own list; for example 
+
+;; (("Cobras and Matadors" "343-3434") ("La Cote
+Basque" "344-3334")).
+
+(define name-and-phone-serving-dish
+
+  (lambda (RL dishname)
+
+   (map make-name-phone
+
+      (filter (lambda (R) (rrant-serves-dish? R dishname))
+RL))
+
+
+Probably the best
+way to handle this is to define functions like these individually first:
+
+;; menu-includes?: menu string -> boolean [This appears above]
+
+;; Return true if string is the name of a dish on menu
+
+(define (menu-includes?
+M s)
+
+  (> (length
+(filter (lambda (D) (string=? (dish-name D) s)) M)) 0))
+
+
+;; rrant-serves-dish?:
+rrant string ->boolean
+
+;; Return true if string is the name of any menu item in rrant
+
+(define (rrant-serves-dish?
+R s)
+
+   (menu-includes?
+(rrant-menu R) s))
+
+
+;; make-name-phone:
+rrant -> list
+
+;; Returns list containing rrant's name and phone
+
+(define (make-name-phone
+R)
+
+   (list
+(rrant-name R) (rrant-phone R)))
+
+Determining whether
+a given restaurant serves the specified dish:  3 points (2 points for examining
+the menu and 1 point for extracting the menu from the restaurant).  In my
+solution, the 2 points are captured by menu-includes?; if they rewrote the
+ same thing they wrote for (b.2), rather than just calling it, they should
+lose a point; if they did the task some different way, that's okay.  The
+1 point is captured by rrant-serves-dish?, but again, it's okay if they
+achieve this some other way.
+
+Selecting restaurants
+from the list that pass some test [ideally, the test is whether the restaurant
+serves the dish in question, but for this point, credit if they select some
+restaurants from the list using any criterion]:  1 point
+
+Specifying the correct
+restaurant-choice criterion [i.e., correctly applying the equivalent of
+ rrant-serves-dish? to the list]:  1 point
+
+Returning a list of
+name/phone pairs [two-element lists---not technically pairs]:  2 points.
+ In my solution, this is captured in make-name-phone, but they could get
+the same result some other way.
+
+Everything else correct
+(including not using explicit recursion):  2 points [So this says if they
+coded it right using recursion, they can get 7/9]
+
+(s)  Below are definitions of map
+and filter.
+
+(define (map f L)        
+                  (define (filter p? L)
+
+  (cond             
+                          
+   (cond
+
+    ((empty? L) empty)       
+                    ((empty? L) empty)
+
+    (else (cons (f (first L))  
+               ((p? (first L)) 
+
+                 (map f (rest
+L))))))           (cons (first L) (filter p? (rest L))))
+
+               
+                          
+            (else (filter p? (rest L)))))
+
+
+(s.1)  Write a definition for the function
+process
+that abstracts both map
+and filter.
+ (Hint:  You may find it useful to think about these two functions:  
+
+(define (always-true x) true)
+and (define (no-change x) x).)
+
+(define (process
+f p? L)
+
+  (cond
+
+    ((empty? L) empty)
+
+    ((p? (first L)) (cons (f (first L)) (process f p? (rest L))))
+
+    (else (process f p? (rest L)))))
+
+(s.2)  Write new one-line definitions
+for map
+and filter
+that call process.
+
+(define (map2
+f L) (process f always-true L))
+
+(define (filter2 p? L) (process no-change p? L))
+
+(t) A nested list of items (NL) is
+either
+
+1.  empty   
+
+
+2.  (cons item NL), or
+
+3.  (cons NL NL).      
+
+Write a definition for the function deep-unique
+as described below.
+
+; deep-unique:  NL -> list-of-items
+
+; Return a list of all the items that occur in the input, no matter how
+deeply nested,
+
+;    with no duplications.  Order of result doesn't matter.
+
+; Example:  (deep-unique '(3 17 (3 Huey) Huey ((17)))) returns (3 17
+Huey)
+
+You may assume that the predicate list?
+is already defined to return true if its argument is a list and false otherwise.
+
+(define (deep-unique
+L) (deep-unique-aux L empty))
+
+(define (deep-unique-aux L unique-list) 
+
+  (cond   ((empty?
+L) unique-list)
+
+ 
+     ((list? (first L)) (deep-unique-aux (rest L) (deep-unique-aux
+(first L) unique-list)))
+
+      ((member? (first L) unique-list) (deep-unique-aux (rest
+L) unique-list))
+
+      (else (deep-unique-aux (rest L) (cons (first L) unique-list)))))
+; produces reverse order, fwd or rev OK
+
+
+Written by David G. Kay, 1995-2004.  Corrections
+to some solutions by Felix Morariu, Fall 2005.
+
+
+
+David G. Kay, kay@uci.edu
+
+
+Wednesday, November 23, 2005 -- 8:40 AM
+
+

@@ -1,0 +1,174 @@
+https://ngs.ics.uci.edu/back-to-cyber-1
+
+
+
+
+
+
+
+
+Back to Cyber – 1 – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Back to Cyber – 1    			
+
+
+With advances in computing, we now live in the cyber space, talk about Cyber-Physical systems, and have started thinking about Cyber-Physical-Social systems.  Cyber has become almost synonymous with Internet and the Web.  Social computing is taking us back to the roots of cyber, the cybernetics, for bringing revolutionary changes in dealing with societal challenges.
+About 70 years ago, Norbert Wiener introduced ‘cybernetics’ as common principles for communication and control among man and machines.  In one of his writings, he even implied that cybernetics would apply to social systems.  His theories were very influential in communications, control theory, and system science.  About 45 years later a science fiction writer popularized the term Cyber Space and that was promptly adopted initially by the computing community and later by our society.
+In a simplified form, the core principle of cybernetics is shown in Figure 1.  To get desired behavior from a system, one needs a model of the system.  This model is used to compute what inputs should be applied to the real system.  Based on the disparity between the current state and the desired state of the system, the input to be applied to the system can be computed.  By continuously monitoring the state of the system, computing the disparity from the desired state, one can continuously apply inputs to bring and maintain the system in the desired state.  Three very important components of this approach are having a model that represents the system reasonably accurately; measuring current state of the system; and using the error signal to generate corrective action.
+Building Models
+An important question is how do we get models of a system.  Most scientific approaches model any object, phenomenon, or system using a set of basic assumptions:
+•	There is an objective reality shared by all rational observers.
+•	This objective reality is governed by natural laws.
+•	These laws can be discovered by means of systematic observation and
+experimentation.
+Since data resulting from observations is crucial to modeling a system, early scientific methods tried to model objects using limited data and analytical abilities available in those days.  As sensing, storage, and analytical processing technology advanced, people started collecting data about processes and systems for complex concepts systems. 
+Early applications of data were in well-defined situations and for simpler systems.  Large scale collection of data in computer science related areas started for profiling users.  Search and other systems were interested in knowing online behavior of their users by analyzing their activities on line.  They wanted to build user models on their system.  This was the start of the data science or what is now commonly called big data.
+After success in user modeling, similar techniques were explored for modeling more diverse concepts and techniques that included object and activity recognition in computer vision, speech recognition, and even some offline behavior of users.
+
+ Figure 1:  A Cybernetic system considers the desired state and the current state for the system and uses the model of the system to computer the signal that should be applied to the system.  The continuous feedback mechanism results in accomplishing the desired performance of the system.
+
+								Tagged on: big data, cyber, cybernetics 
+
+
+
+By Ramesh |
+    				October 5, 2014 |
+    				             		General Updates, Technical Thoughts |
+             	 
+    				 		          				
+    			
+
+
+← Objective Self 6: From an individual to society
+Back to Cyber – 2: Computational Cybernetics →
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

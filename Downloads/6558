@@ -1,0 +1,97 @@
+https://www.ics.uci.edu/~dsm/scifire
+
+
+
+
+
+
+SciFire
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                SciFire - Enabling Infrastructure and Information Resiliencefor Smart Firefighting
+                
+
+
+
+
+Home
+
+
+Research
+
+
+People
+
+
+Publications
+
+
+Posters
+
+
+
+
+
+
+
+
+
+                Coping with crisis situations that arise due to natural or manmade causes (such as earthquakes, hurricanes, fires, flash floods, and terrorist attacks) is amongst the most critical and urgent challenges to modern society. If we consider fire related incidents alone, in 2012, fire departments in the United States responded to more than 480,000 structure fires, which caused close to 2500 civilian fatalities, 15,000 injuries, and property losses of approximately 10 billion dollars. More than 31,000 firefighters were injured on the fireground. A variety of studies conducted by NSF, DHS, and NIST have asserted that modern information and communication technologies can bring transformative improvements to the ability of first responders to prevent, mitigate, and respond to crises, thereby saving lives and property. For instance, in the context of firefighting, studies have shown the value of capturing and using real-time sensor data both before and during an event, not just for the firefighters, but for others who support them to achieve their specific missions. Indeed, integration of technologies that have brought improvements in variety of sectors (such as manufacturing, healthcare, electric grids, transportation) can revolutionize the domain of crisis response. To understand how IT innovations can help, it is best to view crisis response as an “information-centric” process wherein key players -- on-site first responders and incident commanders, response agencies, NGOs, the affected population - make important decisions that have implications on life and death, and on loss of property. Such decisions are made under extreme duress and stress since the success of a response often depends upon its timeliness and urgency. The decisions, in turn, are based on accurate and actionable “situational awareness”, which in turn is based on access to the right information at the right time.
+            
+
+
+
+                Goals and Overview
+            
+
+                The purpose of this project is to explore the design of a new suite of technology solutions (collectively called FirEBox) to enable smart firefighting that enables usable information access for fire personnel to improve situational awareness for first responders. Our approach exploits new opportunities afforded by emerging technologies, specifically IoT and big data systems.
+                The broader goals of this project include:
+                
+Enabling mechanisms for the design of a resilient infrastructure for Fire Situational Awareness -- a key aspect of our work is to support integration of heterogeneous sensory data input into FirEBox.
+Developing techniques to support a resilient information architecture whereby reliable information for Fire Situational Awareness can be generated.
+Developing an initial architecture for the design of a prototype system for the Fire Data Integration Sandbox.
+Using the TIPPERS IoT-Based Smart Building Testbed on the UC Irvine campus as a use case and validation platform for the design of FirEBox.
+
+
+
+
+View details »
+
+
+
+
+
+
+
+
+                This web page was last updated on Thursday, April 11, 2019.
+            
+Webmaster: Qiuxi (Charles) Zhu <qiuxiz (-AT-) ics (-DOT-) uci (-DOT-) edu>
+            
+
+
+
+
+
+ 
+
+
+
+
+

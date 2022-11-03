@@ -1,0 +1,184 @@
+http://sdcl.ics.uci.edu/research/past-projects/lighthouse
+
+
+
+
+
+
+	Lighthouse – Software Design and Collaboration Laboratory
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SDCL Software Design and Collaboration Laboratory
+
+
+
+
+
+
+Lighthouse
+
+Description
+Lighthouse is a rich collaboration portal centered on emerging design. The highly collaborative nature of software development is known to lead to a number of problems, including conflicting work, design erosion, and difficulties in understanding overall progress. The underlying cause is a lack of insight into the parallel programming activities of developers and how the code changes that result interfere, alter the design, and contribute to the overall system. Lighthouse monitors all ongoing changes in all workspaces to provide developers with a visualization of the emerging design – the design as it exists in the code as virtually integrated across all workspaces. Using the emerging design, developers can gauge whether they may need to coordinate their changes with those of other developers, whether the quality of the overall design remains in tact or must be addressed, and whether overall progress is on track or must be reconsidered.
+
+ 
+Highlights
+Lighthouse promotes collective code ownership by enabling all developers to monitor and assess the latest changes to the code as they are currently under development. Highlights include:
+Continuous updates – The emerging design provides a live view of the overall development effort that is instantly updated with every change that developers make.
+Peripheral awareness – Lighthouse employs a second monitor to provide rich feedback that does not interfere with the primary task at hand of coding.
+Information and action – Directly from the emerging design, developers can check out and in code, send instant messages, insert soft locks, set tags, and others.
+Filters – Through a variety of composable filters, developers can customize the portion(s) of the overall emerging design they wish to view.
+Extensibility – Lighthouse employes a plug-in architecture through which the visualization can be enhanced and other coordination actions can be added.
+Key publications
+
+T. Proença, N. Moura, and A. van der Hoek, On the Use of Emerging Design as a Basis for Knowledge Collaboration, Third International Workshop on Knowledge Collaboration in Software Development, November 2009, pages 91–99.
+
+ 
+Current developers
+
+Lee Martie
+
+ 
+Past developers
+
+Nilmax Moura
+Tiago Proença
+Danielle Song
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+Collaborators
+
+Anita Sarma
+David Redmiles
+Marian Petre
+Shinobu Saito
+Thomas LaToza
+
+
+
+
+
+
+
+
+
+
+Home
+Research
+
+Chatbots
+KnoCap
+Past projects
+
+Lighthouse
+CrowdDesign
+Crowd Debugging
+Calico
+CodeExchange
+Code Orb
+Crowd Development
+PorchLight
+
+
+
+
+Papers
+
+Technical reports
+Dissertations
+Books
+
+
+Opportunities
+People
+
+Previous members
+
+
+Sponsors
+Contact
+
+Directions
+
+
+
+
+
+
+
+
+
+
+
+ The Software Design and Collaboration Laboratory is housed in the Department of Informatics in the Donald Bren School of Information and Computer Sciences at the University of California, Irvine.
+
+
+
+
+
+    
+
+
+
+
+
+   
+
+
+
+
+Copyright ©             
+            SDCL |   eDegree° Theme by Top Blog Formula on WordPress |   
+                            Log In
+
+
+
+
+
+

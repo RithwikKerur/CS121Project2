@@ -1,0 +1,436 @@
+https://isg.ics.uci.edu/event/lei-cao-toward-an-end-to-end-anomaly-discovery-paradigm
+
+
+
+
+
+
+Lei Cao: Toward an End-to-end Anomaly Discovery Paradigm – Information Systems Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+
+Faculty
+Students
+Recent Alumni
+Research Staff
+Visitors
+
+
+Research
+
+Projects
+Publications
+
+
+Teaching
+
+Courses
+DB Qual
+
+
+Events
+
+Talks
+News
+
+
+About
+
+Sponsors & Partners
+Visitor Info
+Contact us
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ISG Talks are sponsored by Couchbase.
+<< All Talks
+
+
+
+ « All Events
+
+
+This event has passed.
+Lei Cao: Toward an End-to-end Anomaly Discovery Paradigm
+
+April 27, 2020 @ 11:00 am - 12:00 pm 
+
+
+
+
+
+« Redesigning Storage Systems for Future Workloads, Hardware, and Performance Requirements (CS Faculty Candidate Seminar)
+Aaron J. Elmore: CrocodileDB – Resource Efficient Database Execution »
+
+
+
+
+
+
+
+
+
+ABSTRACT:
+Anomaly detection is critical in enterprises, with applications ranging from preventing financial fraud, and defending network intrusions, to detecting imminent device failures.
+Although previously developed research offers a plethora of stand-alone methods for detecting particular types of anomalies, there is no end-to-end solution for data scientists to effectively discover anomalies over large volumes of varied data. To build such a system, several critical challenges have to be solved: How to determine which among many alternative anomaly detection algorithms is the best for a given task and to find the proper parameter settings? How to leverage a small amount of end-user feedback to improve the anomaly extraction process? How to best present the anomaly detection results such that users do not have to evaluate the potentially large number of anomaly candidates one by one?
+This talk will present our ADP solution that solves all above problems. ADP supports all stages of anomaly discovery by seamlessly integrating anomaly-related services within one integrated platform. It enables the tuning free anomaly detection and achieves the power of sense making afforded by anomaly summarization and explanation services, while allowing the users to easily steer the discovery process with human ingenuity.
+Bio:
+Dr. Lei Cao is a Postdoc Associate at MIT CSAIL, working with Prof. Samuel Madden and Prof. Michael Stonebraker. Before that he worked at IBM T.J. Watson Research Center as a Research Staff Member. He received his Ph.D. in Computer Science from Worcester Polytechnic Institute, supervised by Prof. Elke Rundensteiner. His recent research is focused on developing end-to-end tools for data scientists to effectively make sense of data.
+
+Zoom Linj: https://uci.zoom.us/j/808173003
+ 
+
++ Google Calendar+ iCal Export
+
+
+
+ Details 
+
+ Date: 
+
+ April 27, 2020 
+
+ Time: 
+
+
+					11:00 am - 12:00 pm				
+
+ Website: 
+ https://uci.zoom.us/j/808173003 
+
+
+
+ 
+
+
+
+
+
+« Redesigning Storage Systems for Future Workloads, Hardware, and Performance Requirements (CS Faculty Candidate Seminar)
+Aaron J. Elmore: CrocodileDB – Resource Efficient Database Execution »
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+Search for :
+
+
+Latest News 
+
+
+
+Upcoming Talk: How to build your own Business
+
+											July 25, 2022																																
+
+
+Upcoming Talk: Couchbase and Distributed Computing Backends for big data processing
+
+											May 31, 2022																																
+
+
+Upcoming Talk: Shedding Light on Opaque Database Queries
+
+											May 31, 2022																																
+
+
+ISG researchers won the  Mark Weiser Best Paper Award at IEEE PERCOM 2022
+
+											March 24, 2022																																
+
+
+
+
+Upcoming Events
+
+
+
+
+Qiushi Bai: QueryBooster-Improving SQL Performance Using Middleware Services for Human-Centered Query Rewriting + Demo
+
+
+
+October 14 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Xiaozhen Liu: Demonstration of Collaborative and Interactive Workflow-based Data Analytics in Texera
+
+
+
+October 21 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Abhishek Singh: WedgeBlock – An Off-Chain Secure Logging Platform for Blockchain Applications
+
+
+
+October 28 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Juncheng Fang: PeloPartition- Improving Blockchain Resilience to Partitioning by Sharding
+
+
+
+November 4 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Peeyush Gupta: A Demonstration of TippersDB
+
+
+
+November 18 @ 12:30 pm - 2:00 pm 
+
+
+
+View All Events
+
+Please follow & like us :) 
+
+Follow  
+
+ 
+
+
+
+
+
+
+
+			Copyright 2018 | ISG-UCI		
+
+
+
+
+
+
+cross
+
+
+
+
+
+
+
+
+
+
+Hit ENTER to search or ESC to close
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

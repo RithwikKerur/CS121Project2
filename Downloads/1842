@@ -1,0 +1,98 @@
+https://sli.ics.uci.edu/PmWiki/SpecialCharacters
+
+
+
+SLI | PmWiki / SpecialCharacters 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+SpecialCharacters
+
+
+
+
+
+
+When creating pages it's common to use commercial trademarks, copyright, umlaut, and other non-keyboard symbols.  therefore it's important that you have the means to input these special characters.  
+
+ISO Standard codes
+PmWiki supports the HTML special character listings by the w3c. W3C Page of Special Character codes ISO standard.
+
+Here are some samples: 
+
+
+&#169; | &#188; | &#189; | &#174; | &#181; | &#168; © | ¼ | ½ | ® | µ | ¨ 
+
+
+
+
+&#198; | 32&#176; | Un&#239;ted St&#228;tes | &#182; | &#165;Yen | PmWiki&#8482;Æ | 32° | Unïted Stätes | ¶ | ¥Yen | PmWiki™
+
+
+For a nice table with all available special characters, see List of Unicode characters at Wikipedia.
+
+Other ways to do it: 
+Character Map
+Find the "Character Map" utility in your computer's System Tools folder.  Click the symbol you're interested in, and note the keystroke information at the bottom of the box.  You execute these by holding "Alt" while keying the numbers on the numerical keypad of your keyboard (not the numbers across the top of the board).
+
+&#169; = Alt+0169 = © | &#174; = Alt+0174 =  ® | &#176; = Alt+0176 = ° (degrees).
+
+Paste
+Use Word or another desktop application to create your text with the special characters that you want.  Copy and paste the text to the wiki page you're editing or creating.
+Find an instance of a special character in an online document; copy and paste the character to your wiki page:  ©
+There's a list of special characters at PmWiki:SpecialCharactersList.
+There's another illustration at PmWiki:Characters
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:SpecialCharacters, and  a talk page: PmWiki:SpecialCharacters-Talk.
+
+
+
+
+
+
+ Last modified March 31, 2016, at 01:13 AM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

@@ -1,0 +1,1044 @@
+https://duttgroup.ics.uci.edu/publications/?limit=11&
+
+
+
+
+
+
+Publications – Dutt Research Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to content
+
+
+
+
+
+
+ 
+
+Dutt Research Group
+DRG-Lab Webpage
+
+
+
+
+
+
+
+
+DRG Home
+Group Members
+Projects
+
+Self-Aware & Adaptive Computing
+
+Information Processing Factory (IPF)
+MARS
+Unified Parallel Runtime
+Memory Adaptation
+
+
+Health Care IoT
+
+Internet of Cognitive Things in healthcare
+Pain Assessment
+Maternity Care
+NSF Unite Project
+
+
+Domain-specific Hardware Accelerators
+Neuromorphic Computing
+
+
+Publications
+Sister Groups
+News
+
+
+
+
+Main Menu
+
+
+
+
+
+
+
+
+
+
+Publications 
+
+
+All publications:
+550 entries « ‹  11 of 11 › » 
+
+1997
+
+ Ohm, Seong Yong;  Kurdahi, Fadi J;  Dutt, Nikil DA unified lower bound estimation technique for high-level synthesis Journal Article IEEE Trans. on CAD of Integrated Circuits and Systems, 16 (5), pp. 458–472, 1997.Links | BibTeX@article{DBLP:journals/tcad/OhmKD97,
+title = {A unified lower bound estimation technique for high-level synthesis},
+author = {Seong Yong Ohm and Fadi J Kurdahi and Nikil D Dutt},
+url = {https://doi.org/10.1109/43.631209},
+doi = {10.1109/43.631209},
+year  = {1997},
+date = {1997-01-01},
+journal = {IEEE Trans. on CAD of Integrated Circuits and Systems},
+volume = {16},
+number = {5},
+pages = {458--472},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/43.631209doi:10.1109/43.631209Close Panda, Preeti Ranjan;  Dutt, Nikil D;  Nicolau, AlexandruMemory data organization for improved cache performance in embedded 
+ processor applications Journal Article ACM Trans. Design Autom. Electr. Syst., 2 (4), pp. 384–409, 1997.Links | BibTeX@article{DBLP:journals/todaes/PandaDN97,
+title = {Memory data organization for improved cache performance in embedded 
+ processor applications},
+author = {Preeti Ranjan Panda and Nikil D Dutt and Alexandru Nicolau},
+url = {http://doi.acm.org/10.1145/268424.268464},
+doi = {10.1145/268424.268464},
+year  = {1997},
+date = {1997-01-01},
+journal = {ACM Trans. Design Autom. Electr. Syst.},
+volume = {2},
+number = {4},
+pages = {384--409},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://doi.acm.org/10.1145/268424.268464doi:10.1145/268424.268464Close Panda, Preeti Ranjan;  Dutt, Nikil D;  Nicolau, AlexandruEfficient utilization of scratch-pad memory in embedded processor 
+ applications Inproceedings European Design and Test Conference, ED&TC '97, Paris, France, 
+ 17-20 March 1997, pp. 7–11, 1997.Links | BibTeX@inproceedings{DBLP:conf/date/PandaDN97,
+title = {Efficient utilization of scratch-pad memory in embedded processor 
+ applications},
+author = {Preeti Ranjan Panda and Nikil D Dutt and Alexandru Nicolau},
+url = {https://doi.org/10.1109/EDTC.1997.582323},
+doi = {10.1109/EDTC.1997.582323},
+year  = {1997},
+date = {1997-01-01},
+booktitle = {European Design and Test Conference, ED&TC '97, Paris, France, 
+ 17-20 March 1997},
+pages = {7--11},
+crossref = {DBLP:conf/date/1997},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/EDTC.1997.582323doi:10.1109/EDTC.1997.582323Close Jha, Pradip K;  Dutt, Nikil DLibrary mapping for memories Inproceedings European Design and Test Conference, ED&TC '97, Paris, France, 
+ 17-20 March 1997, pp. 288–292, 1997.Links | BibTeX@inproceedings{DBLP:conf/date/JhaD97,
+title = {Library mapping for memories},
+author = {Pradip K Jha and Nikil D Dutt},
+url = {https://doi.org/10.1109/EDTC.1997.582372},
+doi = {10.1109/EDTC.1997.582372},
+year  = {1997},
+date = {1997-01-01},
+booktitle = {European Design and Test Conference, ED&TC '97, Paris, France, 
+ 17-20 March 1997},
+pages = {288--292},
+crossref = {DBLP:conf/date/1997},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/EDTC.1997.582372doi:10.1109/EDTC.1997.582372Close Panda, Preeti Ranjan;  Dutt, Nikil D;  Nicolau, AlexandruExploiting off-chip memory access modes in high-level synthesis Inproceedings Proceedings of the 1997 IEEE/ACM International Conference on Computer-Aided 
+ Design, ICCAD 1997, San Jose, CA, USA, November 9-13, 1997, pp. 333–340, 1997.Links | BibTeX@inproceedings{DBLP:conf/iccad/PandaDN97,
+title = {Exploiting off-chip memory access modes in high-level synthesis},
+author = {Preeti Ranjan Panda and Nikil D Dutt and Alexandru Nicolau},
+url = {https://doi.org/10.1109/ICCAD.1997.643539},
+doi = {10.1109/ICCAD.1997.643539},
+year  = {1997},
+date = {1997-01-01},
+booktitle = {Proceedings of the 1997 IEEE/ACM International Conference on Computer-Aided 
+ Design, ICCAD 1997, San Jose, CA, USA, November 9-13, 1997},
+pages = {333--340},
+crossref = {DBLP:conf/iccad/1997},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ICCAD.1997.643539doi:10.1109/ICCAD.1997.643539Close Panda, Preeti Ranjan;  Nakamura, Hiroshi;  Dutt, Nikil D;  Nicolau, AlexandruA Data Alignment Technique for Improving Cache Performance Inproceedings Proceedings 1997 International Conference on Computer Design: VLSI 
+ in Computers & Processors, ICCD '97, Austin, Texas, USA, October 
+ 12-15, 1997, pp. 587–592, 1997.Links | BibTeX@inproceedings{DBLP:conf/iccd/PandaNDN97,
+title = {A Data Alignment Technique for Improving Cache Performance},
+author = {Preeti Ranjan Panda and Hiroshi Nakamura and Nikil D Dutt and Alexandru Nicolau},
+url = {https://doi.org/10.1109/ICCD.1997.628925},
+doi = {10.1109/ICCD.1997.628925},
+year  = {1997},
+date = {1997-01-01},
+booktitle = {Proceedings 1997 International Conference on Computer Design: VLSI 
+ in Computers & Processors, ICCD '97, Austin, Texas, USA, October 
+ 12-15, 1997},
+pages = {587--592},
+crossref = {DBLP:conf/iccd/1997},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ICCD.1997.628925doi:10.1109/ICCD.1997.628925Close Panda, Preeti Ranjan;  Nakamura, Hiroshi;  Dutt, Nikil D;  Nicolau, AlexandruImproving cache Performance Through Tiling and Data Alignment Inproceedings Solving Irregularly Structured Problems in Parallel, 4th International 
+ Symposium, IRREGULAR '97, Paderborn, Germany, June 12-13, 1997, 
+ Proceedings, pp. 167–185, 1997.Links | BibTeX@inproceedings{DBLP:conf/irregular/PandaNDN97,
+title = {Improving cache Performance Through Tiling and Data Alignment},
+author = {Preeti Ranjan Panda and Hiroshi Nakamura and Nikil D Dutt and Alexandru Nicolau},
+url = {https://doi.org/10.1007/3-540-63138-0_16},
+doi = {10.1007/3-540-63138-0_16},
+year  = {1997},
+date = {1997-01-01},
+booktitle = {Solving Irregularly Structured Problems in Parallel, 4th International 
+ Symposium, IRREGULAR '97, Paderborn, Germany, June 12-13, 1997, 
+ Proceedings},
+pages = {167--185},
+crossref = {DBLP:conf/irregular/1997},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1007/3-540-63138-0_16doi:10.1007/3-540-63138-0_16Close Panda, Preeti Ranjan;  Dutt, Nikil D;  Nicolau, AlexandruArchitectural Exploration and Optimization of Local Memory in Embedded 
+ Systems Inproceedings Proceedings of the 10th International Symposium on System Synthesis, 
+ ISSS '97, Antwerp, Belgium, September 17-19, 1997., pp. 90, 1997.Links | BibTeX@inproceedings{DBLP:conf/isss/PandaDN97,
+title = {Architectural Exploration and Optimization of Local Memory in Embedded 
+ Systems},
+author = {Preeti Ranjan Panda and Nikil D Dutt and Alexandru Nicolau},
+url = {http://doi.ieeecomputersociety.org/10.1109/ISSS.1997.621680},
+doi = {10.1109/ISSS.1997.621680},
+year  = {1997},
+date = {1997-01-01},
+booktitle = {Proceedings of the 10th International Symposium on System Synthesis, 
+ ISSS '97, Antwerp, Belgium, September 17-19, 1997.},
+pages = {90},
+crossref = {DBLP:conf/isss/1997},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.ieeecomputersociety.org/10.1109/ISSS.1997.621680doi:10.1109/ISSS.1997.621680Close Panda, Preeti Ranjan;  Dutt, Nikil DBehavioral Array Mapping into Multiport Memories Targeting Low Power Inproceedings 10th International Conference on VLSI Design (VLSI Design 1997), 
+ 4-7 January 1997, Hyderabad, India, pp. 268–273, 1997.Links | BibTeX@inproceedings{DBLP:conf/vlsid/PandaD97,
+title = {Behavioral Array Mapping into Multiport Memories Targeting Low Power},
+author = {Preeti Ranjan Panda and Nikil D Dutt},
+url = {https://doi.org/10.1109/ICVD.1997.568088},
+doi = {10.1109/ICVD.1997.568088},
+year  = {1997},
+date = {1997-01-01},
+booktitle = {10th International Conference on VLSI Design (VLSI Design 1997), 
+ 4-7 January 1997, Hyderabad, India},
+pages = {268--273},
+crossref = {DBLP:conf/vlsid/1997},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ICVD.1997.568088doi:10.1109/ICVD.1997.568088Close
+
+1996
+
+ Kolson, David J;  Nicolau, Alexandru;  Dutt, Nikil DElimination of redundant memory traffic in high-level synthesis Journal Article IEEE Trans. on CAD of Integrated Circuits and Systems, 15 (11), pp. 1354–1364, 1996.Links | BibTeX@article{DBLP:journals/tcad/KolsonND96,
+title = {Elimination of redundant memory traffic in high-level synthesis},
+author = {David J Kolson and Alexandru Nicolau and Nikil D Dutt},
+url = {https://doi.org/10.1109/43.543768},
+doi = {10.1109/43.543768},
+year  = {1996},
+date = {1996-01-01},
+journal = {IEEE Trans. on CAD of Integrated Circuits and Systems},
+volume = {15},
+number = {11},
+pages = {1354--1364},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/43.543768doi:10.1109/43.543768Close Kolson, David J;  Nicolau, Alexandru;  Dutt, Nikil D;  Kennedy, KenOptimal register assignment to loops for embedded code generation Journal Article ACM Trans. Design Autom. Electr. Syst., 1 (2), pp. 251–279, 1996.Links | BibTeX@article{DBLP:journals/todaes/KolsonNDK96,
+title = {Optimal register assignment to loops for embedded code generation},
+author = {David J Kolson and Alexandru Nicolau and Nikil D Dutt and Ken Kennedy},
+url = {http://doi.acm.org/10.1145/233539.233542},
+doi = {10.1145/233539.233542},
+year  = {1996},
+date = {1996-01-01},
+journal = {ACM Trans. Design Autom. Electr. Syst.},
+volume = {1},
+number = {2},
+pages = {251--279},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttp://doi.acm.org/10.1145/233539.233542doi:10.1145/233539.233542Close Jha, Pradip K;  Dutt, Nikil DHigh-level library mapping for arithmetic components Journal Article IEEE Trans. VLSI Syst., 4 (2), pp. 157–169, 1996.Links | BibTeX@article{DBLP:journals/tvlsi/JhaD96,
+title = {High-level library mapping for arithmetic components},
+author = {Pradip K Jha and Nikil D Dutt},
+url = {https://doi.org/10.1109/92.502189},
+doi = {10.1109/92.502189},
+year  = {1996},
+date = {1996-01-01},
+journal = {IEEE Trans. VLSI Syst.},
+volume = {4},
+number = {2},
+pages = {157--169},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/92.502189doi:10.1109/92.502189Close Panda, Preeti Ranjan;  Dutt, Nikil DReducing Address Bus Transitions for Low Power Memory Mapping Inproceedings 1996 European Design and Test Conference, ED&TC 1996, Paris, France, 
+ March 11-14, 1996, pp. 63–71, 1996.Links | BibTeX@inproceedings{DBLP:conf/date/PandaD96,
+title = {Reducing Address Bus Transitions for Low Power Memory Mapping},
+author = {Preeti Ranjan Panda and Nikil D Dutt},
+url = {https://doi.org/10.1109/EDTC.1996.494129},
+doi = {10.1109/EDTC.1996.494129},
+year  = {1996},
+date = {1996-01-01},
+booktitle = {1996 European Design and Test Conference, ED&TC 1996, Paris, France, 
+ March 11-14, 1996},
+pages = {63--71},
+crossref = {DBLP:conf/date/1996},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/EDTC.1996.494129doi:10.1109/EDTC.1996.494129Close Kolson, David J;  Nicolau, Alexandru;  Dutt, Nikil D;  Kennedy, KenA Method for Register Allocation to Loops in Multiple Register File 
+ Architectures Inproceedings Proceedings of IPPS '96, The 10th International Parallel Processing 
+ Symposium, April 15-19, 1996, Honolulu, Hawaii, USA, pp. 28–33, 1996.Links | BibTeX@inproceedings{DBLP:conf/ipps/KolsonNDK96,
+title = {A Method for Register Allocation to Loops in Multiple Register File 
+ Architectures},
+author = {David J Kolson and Alexandru Nicolau and Nikil D Dutt and Ken Kennedy},
+url = {https://doi.org/10.1109/IPPS.1996.508035},
+doi = {10.1109/IPPS.1996.508035},
+year  = {1996},
+date = {1996-01-01},
+booktitle = {Proceedings of IPPS '96, The 10th International Parallel Processing 
+ Symposium, April 15-19, 1996, Honolulu, Hawaii, USA},
+pages = {28--33},
+crossref = {DBLP:conf/ipps/1996},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/IPPS.1996.508035doi:10.1109/IPPS.1996.508035Close Panda, Preeti Ranjan;  Dutt, Nikil DLow-power mapping of behavioral arrays to multiple memories Inproceedings Proceedings of the 1996 International Symposium on Low Power Electronics 
+ and Design, 1996, Monterey, California, USA, August 12-14, 1996, pp. 289–292, 1996.Links | BibTeX@inproceedings{DBLP:conf/islped/PandaD96,
+title = {Low-power mapping of behavioral arrays to multiple memories},
+author = {Preeti Ranjan Panda and Nikil D Dutt},
+url = {http://doi.acm.org/10.1145/252493.252621},
+doi = {10.1145/252493.252621},
+year  = {1996},
+date = {1996-01-01},
+booktitle = {Proceedings of the 1996 International Symposium on Low Power Electronics 
+ and Design, 1996, Monterey, California, USA, August 12-14, 1996},
+pages = {289--292},
+crossref = {DBLP:conf/islped/1996},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.acm.org/10.1145/252493.252621doi:10.1145/252493.252621Close Panda, Preeti Ranjan;  Dutt, Nikil D;  Nicolau, AlexandruMemory Organization for Improved Data Cache Performance in Embedded 
+ Processors Inproceedings Proceedings of the 9th International Symposium on System Synthesis, 
+ ISSS '96, San Diego, CA, USA, November 6-8, 1996., pp. 90–95, 1996.Links | BibTeX@inproceedings{DBLP:conf/isss/PandaDN96,
+title = {Memory Organization for Improved Data Cache Performance in Embedded 
+ Processors},
+author = {Preeti Ranjan Panda and Nikil D Dutt and Alexandru Nicolau},
+url = {https://doi.org/10.1109/ISSS.1996.565886},
+doi = {10.1109/ISSS.1996.565886},
+year  = {1996},
+date = {1996-01-01},
+booktitle = {Proceedings of the 9th International Symposium on System Synthesis, 
+ ISSS '96, San Diego, CA, USA, November 6-8, 1996.},
+pages = {90--95},
+crossref = {DBLP:conf/isss/1996},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ISSS.1996.565886doi:10.1109/ISSS.1996.565886Close
+
+1995
+
+ Capitanio, Andrea;  Nicolau, Alexandru;  Dutt, Nikil DA hypergraph-based model for port allocation on multiple-register-file 
+ VLIW architectures Journal Article International Journal of Parallel Programming, 23 (6), pp. 499–513, 1995.Links | BibTeX@article{DBLP:journals/ijpp/CapitanioND95,
+title = {A hypergraph-based model for port allocation on multiple-register-file 
+ VLIW architectures},
+author = {Andrea Capitanio and Alexandru Nicolau and Nikil D Dutt},
+url = {https://doi.org/10.1007/BF02577864},
+doi = {10.1007/BF02577864},
+year  = {1995},
+date = {1995-01-01},
+journal = {International Journal of Parallel Programming},
+volume = {23},
+number = {6},
+pages = {499--513},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1007/BF02577864doi:10.1007/BF02577864Close Jha, Pradip K;  Dutt, Nikil D;  Parameswaran, SriReclocking for high-level synthesis Inproceedings Proceedings of the 1995 Conference on Asia Pacific Design Automation, 
+ Makuhari, Massa, Chiba, Japan, August 29 - September 1, 1995, 1995.Links | BibTeX@inproceedings{DBLP:conf/aspdac/JhaDP95,
+title = {Reclocking for high-level synthesis},
+author = {Pradip K Jha and Nikil D Dutt and Sri Parameswaran},
+url = {https://doi.org/10.1145/224818.224839},
+doi = {10.1145/224818.224839},
+year  = {1995},
+date = {1995-01-01},
+booktitle = {Proceedings of the 1995 Conference on Asia Pacific Design Automation, 
+ Makuhari, Massa, Chiba, Japan, August 29 - September 1, 1995},
+crossref = {DBLP:conf/aspdac/1995},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/224818.224839doi:10.1145/224818.224839Close Jha, Pradip K;  Dutt, Nikil DDesign reuse through high-level library mapping Inproceedings 1995 European Design and Test Conference, ED&TC 1995, Paris, France, 
+ March 6-9, 1995, pp. 345–350, 1995.Links | BibTeX@inproceedings{DBLP:conf/date/JhaD95,
+title = {Design reuse through high-level library mapping},
+author = {Pradip K Jha and Nikil D Dutt},
+url = {https://doi.org/10.1109/EDTC.1995.470373},
+doi = {10.1109/EDTC.1995.470373},
+year  = {1995},
+date = {1995-01-01},
+booktitle = {1995 European Design and Test Conference, ED&TC 1995, Paris, France, 
+ March 6-9, 1995},
+pages = {345--350},
+crossref = {DBLP:conf/date/1995},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/EDTC.1995.470373doi:10.1109/EDTC.1995.470373Close Onion, Frederick;  Nicolau, Alexandru;  Dutt, Nikil DIncorporating compiler feedback into the design of ASIPs Inproceedings 1995 European Design and Test Conference, ED&TC 1995, Paris, France, 
+ March 6-9, 1995, pp. 508–515, 1995.Links | BibTeX@inproceedings{DBLP:conf/date/OnionND95,
+title = {Incorporating compiler feedback into the design of ASIPs},
+author = {Frederick Onion and Alexandru Nicolau and Nikil D Dutt},
+url = {https://doi.org/10.1109/EDTC.1995.470353},
+doi = {10.1109/EDTC.1995.470353},
+year  = {1995},
+date = {1995-01-01},
+booktitle = {1995 European Design and Test Conference, ED&TC 1995, Paris, France, 
+ March 6-9, 1995},
+pages = {508--515},
+crossref = {DBLP:conf/date/1995},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/EDTC.1995.470353doi:10.1109/EDTC.1995.470353Close Kolson, David J;  Nicolau, Alexandru;  Dutt, Nikil D;  Kennedy, KenOptimal register assignment to loops for embedded code generation Inproceedings Proceedings of the 8th International Symposium on System Synthesis 
+ (ISSS 1995), September 13-15, 1995, Cannes, France, pp. 42–47, 1995.Links | BibTeX@inproceedings{DBLP:conf/isss/KolsonNDK95,
+title = {Optimal register assignment to loops for embedded code generation},
+author = {David J Kolson and Alexandru Nicolau and Nikil D Dutt and Ken Kennedy},
+url = {http://doi.acm.org/10.1145/224486.224494},
+doi = {10.1145/224486.224494},
+year  = {1995},
+date = {1995-01-01},
+booktitle = {Proceedings of the 8th International Symposium on System Synthesis 
+ (ISSS 1995), September 13-15, 1995, Cannes, France},
+pages = {42--47},
+crossref = {DBLP:conf/isss/1995},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.acm.org/10.1145/224486.224494doi:10.1145/224486.224494Close Ohm, Seong Yong;  Kurdahi, Fadi J;  Dutt, Nikil D;  Xu, MinA comprehensive estimation technique for high-level synthesis Inproceedings Proceedings of the 8th International Symposium on System Synthesis 
+ (ISSS 1995), September 13-15, 1995, Cannes, France, pp. 122–127, 1995.Links | BibTeX@inproceedings{DBLP:conf/isss/OhmKDX95,
+title = {A comprehensive estimation technique for high-level synthesis},
+author = {Seong Yong Ohm and Fadi J Kurdahi and Nikil D Dutt and Min Xu},
+url = {http://doi.acm.org/10.1145/224486.224528},
+doi = {10.1145/224486.224528},
+year  = {1995},
+date = {1995-01-01},
+booktitle = {Proceedings of the 8th International Symposium on System Synthesis 
+ (ISSS 1995), September 13-15, 1995, Cannes, France},
+pages = {122--127},
+crossref = {DBLP:conf/isss/1995},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.acm.org/10.1145/224486.224528doi:10.1145/224486.224528Close Panda, Preeti Ranjan;  Dutt, Nikil D1995 high level synthesis design repository Inproceedings Proceedings of the 8th International Symposium on System Synthesis 
+ (ISSS 1995), September 13-15, 1995, Cannes, France, pp. 170–174, 1995.Links | BibTeX@inproceedings{DBLP:conf/isss/PandaD95,
+title = {1995 high level synthesis design repository},
+author = {Preeti Ranjan Panda and Nikil D Dutt},
+url = {http://doi.acm.org/10.1145/224486.224537},
+doi = {10.1145/224486.224537},
+year  = {1995},
+date = {1995-01-01},
+booktitle = {Proceedings of the 8th International Symposium on System Synthesis 
+ (ISSS 1995), September 13-15, 1995, Cannes, France},
+pages = {170--174},
+crossref = {DBLP:conf/isss/1995},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.acm.org/10.1145/224486.224537doi:10.1145/224486.224537Close
+
+1994
+
+ Ohm, Seong Yong;  Kurdahi, Fadi J;  Dutt, Nikil DComprehensive lower bound estimation from behavioral descriptions Inproceedings  Jess, Jochen A G;  Rudell, Richard L (Ed.): Proceedings of the 1994 IEEE/ACM International Conference on Computer-Aided 
+ Design, ICCAD 1994, San Jose, California, USA, November 6-10, 1994, pp. 182–187, IEEE Computer Society / ACM, 1994.Links | BibTeX@inproceedings{DBLP:conf/iccad/OhmKD94b,
+title = {Comprehensive lower bound estimation from behavioral descriptions},
+author = {Seong Yong Ohm and Fadi J Kurdahi and Nikil D Dutt},
+editor = {Jochen A G Jess and Richard L Rudell},
+url = {https://doi.org/10.1109/ICCAD.1994.629763},
+doi = {10.1109/ICCAD.1994.629763},
+year  = {1994},
+date = {1994-01-01},
+booktitle = {Proceedings of the 1994 IEEE/ACM International Conference on Computer-Aided 
+ Design, ICCAD 1994, San Jose, California, USA, November 6-10, 1994},
+pages = {182--187},
+publisher = {IEEE Computer Society / ACM},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ICCAD.1994.629763doi:10.1109/ICCAD.1994.629763Close Capitanio, Andrea;  Dutt, Nikil D;  Nicolau, AlexandruPartitioning of Variables for Multiple-Register-File VLIW Architectures Inproceedings  Agrawal, Dharma P (Ed.): Proceedings of the 1994 International Conference on Parallel Processing, 
+ North Carolina State University, NC, USA, August 15-19, 1994. Volume 
+ I: Architecture, pp. 298–301, CRC Press, 1994.Links | BibTeX@inproceedings{DBLP:conf/icpp/CapitanioDN94b,
+title = {Partitioning of Variables for Multiple-Register-File VLIW Architectures},
+author = {Andrea Capitanio and Nikil D Dutt and Alexandru Nicolau},
+editor = {Dharma P Agrawal},
+url = {https://doi.org/10.1109/ICPP.1994.155},
+doi = {10.1109/ICPP.1994.155},
+year  = {1994},
+date = {1994-01-01},
+booktitle = {Proceedings of the 1994 International Conference on Parallel Processing, 
+ North Carolina State University, NC, USA, August 15-19, 1994. Volume 
+ I: Architecture},
+pages = {298--301},
+publisher = {CRC Press},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ICPP.1994.155doi:10.1109/ICPP.1994.155Close Capitanio, Andrea;  Dutt, Nikil D;  Nicolau, AlexandruPartitioning of Variables for Multiple-Register-File Architectures 
+ via Hypergraph Coloring Inproceedings  Cosnard, Michel;  Gao, Guang R;  Silberman, Gabriel M (Ed.): Parallel Architectures and Compilation Techniques, Proceedings of 
+ the IFIP WG10.3 Working Conference on Parallel Architectures and 
+ Compilation Techniques, PACT'94, Montréal, Canada, 24-26 August, 
+ 1994, pp. 319–322, North-Holland, 1994.Links | BibTeX@inproceedings{DBLP:conf/ifipPACT/CapitanioDN94b,
+title = {Partitioning of Variables for Multiple-Register-File Architectures 
+ via Hypergraph Coloring},
+author = {Andrea Capitanio and Nikil D Dutt and Alexandru Nicolau},
+editor = {Michel Cosnard and Guang R Gao and Gabriel M Silberman},
+url = {http://dl.acm.org/citation.cfm?id=713841},
+year  = {1994},
+date = {1994-01-01},
+booktitle = {Parallel Architectures and Compilation Techniques, Proceedings of 
+ the IFIP WG10.3 Working Conference on Parallel Architectures and 
+ Compilation Techniques, PACT'94, Montréal, Canada, 24-26 August, 
+ 1994},
+volume = {A-50},
+pages = {319--322},
+publisher = {North-Holland},
+series = {IFIP Transactions},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://dl.acm.org/citation.cfm?id=713841Close Ang, Roger P;  Dutt, Nikil DAn algorithm for the allocation of functional units from realistic 
+ RT component libraries Inproceedings  Paulin, Pierre G (Ed.): Proceedings of the 7th International Symposium on High Level Synthesis, 
+ HLSS'94, Niagra-on-the-Lake, ON, Canada, May 18-20, 1994, pp. 164–169, ACM, 1994.Links | BibTeX@inproceedings{DBLP:conf/isss/AngD94b,
+title = {An algorithm for the allocation of functional units from realistic 
+ RT component libraries},
+author = {Roger P Ang and Nikil D Dutt},
+editor = {Pierre G Paulin},
+url = {https://doi.org/10.1109/ISHLS.1994.302325},
+doi = {10.1109/ISHLS.1994.302325},
+year  = {1994},
+date = {1994-01-01},
+booktitle = {Proceedings of the 7th International Symposium on High Level Synthesis, 
+ HLSS'94, Niagra-on-the-Lake, ON, Canada, May 18-20, 1994},
+pages = {164--169},
+publisher = {ACM},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ISHLS.1994.302325doi:10.1109/ISHLS.1994.302325Close Jha, Pradip K;  Ramachandran, Champaka;  Dutt, Nikil D;  Kurdahi, Fadi JAn Empirical Study on the Effects of Physical Design in High-Level 
+ Synthesis Inproceedings Proceedings of the Seventh International Conference on VLSI Design, 
+ VLSI Design 1994, Calcutta, India, January 5-8, 1994, pp. 11–16, IEEE Computer Society, 1994.Links | BibTeX@inproceedings{DBLP:conf/vlsid/JhaRDK94b,
+title = {An Empirical Study on the Effects of Physical Design in High-Level 
+ Synthesis},
+author = {Pradip K Jha and Champaka Ramachandran and Nikil D Dutt and Fadi J Kurdahi},
+url = {https://doi.org/10.1109/ICVD.1994.282638},
+doi = {10.1109/ICVD.1994.282638},
+year  = {1994},
+date = {1994-01-01},
+booktitle = {Proceedings of the Seventh International Conference on VLSI Design, 
+ VLSI Design 1994, Calcutta, India, January 5-8, 1994},
+pages = {11--16},
+publisher = {IEEE Computer Society},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ICVD.1994.282638doi:10.1109/ICVD.1994.282638Close Kolson, David J;  Dutt, Nikil D;  Nicolau, AlexandruUltra Fine-Grain Template-Driven Synthesis Inproceedings Proceedings of the Seventh International Conference on VLSI Design, 
+ VLSI Design 1994, Calcutta, India, January 5-8, 1994, pp. 25–28, IEEE Computer Society, 1994.Links | BibTeX@inproceedings{DBLP:conf/vlsid/KolsonDN94b,
+title = {Ultra Fine-Grain Template-Driven Synthesis},
+author = {David J Kolson and Nikil D Dutt and Alexandru Nicolau},
+url = {https://doi.org/10.1109/ICVD.1994.282651},
+doi = {10.1109/ICVD.1994.282651},
+year  = {1994},
+date = {1994-01-01},
+booktitle = {Proceedings of the Seventh International Conference on VLSI Design, 
+ VLSI Design 1994, Calcutta, India, January 5-8, 1994},
+pages = {25--28},
+publisher = {IEEE Computer Society},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ICVD.1994.282651doi:10.1109/ICVD.1994.282651Close Jha, Pradip K;  Dutt, Nikil DRapid Technology Projection for High-Level Synthesis Inproceedings Proceedings of the Seventh International Conference on VLSI Design, 
+ VLSI Design 1994, Calcutta, India, January 5-8, 1994, pp. 155–158, IEEE Computer Society, 1994.Links | BibTeX@inproceedings{DBLP:conf/vlsid/JhaD94b,
+title = {Rapid Technology Projection for High-Level Synthesis},
+author = {Pradip K Jha and Nikil D Dutt},
+url = {https://doi.org/10.1109/ICVD.1994.282675},
+doi = {10.1109/ICVD.1994.282675},
+year  = {1994},
+date = {1994-01-01},
+booktitle = {Proceedings of the Seventh International Conference on VLSI Design, 
+ VLSI Design 1994, Calcutta, India, January 5-8, 1994},
+pages = {155--158},
+publisher = {IEEE Computer Society},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ICVD.1994.282675doi:10.1109/ICVD.1994.282675Close Kolson, David J;  Nicolau, Alexandru;  Dutt, Nikil DMinimization of Memory Traffic in High-Level Synthesis Inproceedings Proceedings of the 31st Conference on Design Automation, San Diego, 
+ California, USA, June 6-10, 1994., pp. 149–154, 1994.Links | BibTeX@inproceedings{DBLP:conf/dac/KolsonND94,
+title = {Minimization of Memory Traffic in High-Level Synthesis},
+author = {David J Kolson and Alexandru Nicolau and Nikil D Dutt},
+url = {http://doi.acm.org/10.1145/196244.196316},
+doi = {10.1145/196244.196316},
+year  = {1994},
+date = {1994-01-01},
+booktitle = {Proceedings of the 31st Conference on Design Automation, San Diego, 
+ California, USA, June 6-10, 1994.},
+pages = {149--154},
+crossref = {DBLP:conf/dac/1994},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.acm.org/10.1145/196244.196316doi:10.1145/196244.196316Close Dutt, Nikil D;  Agnew, David;  Camposano, Raul;  Domic, Antun;  Wiesel, Manfred;  Yasuura, HirotoDesign Reuse: Fact or Fiction? (Panel) Inproceedings Proceedings of the 31st Conference on Design Automation, San Diego, 
+ California, USA, June 6-10, 1994., pp. 562, 1994.Links | BibTeX@inproceedings{DBLP:conf/dac/DuttACDWY94,
+title = {Design Reuse: Fact or Fiction? (Panel)},
+author = {Nikil D Dutt and David Agnew and Raul Camposano and Antun Domic and Manfred Wiesel and Hiroto Yasuura},
+url = {http://doi.acm.org/10.1145/196244.196555},
+doi = {10.1145/196244.196555},
+year  = {1994},
+date = {1994-01-01},
+booktitle = {Proceedings of the 31st Conference on Design Automation, San Diego, 
+ California, USA, June 6-10, 1994.},
+pages = {562},
+crossref = {DBLP:conf/dac/1994},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.acm.org/10.1145/196244.196555doi:10.1145/196244.196555Close Novack, Steven;  Nicolau, Alexandru;  Dutt, Nikil DA Unified code generation approach using mutation scheduling Inproceedings Code Generation for Embedded Processors [Dagstuhl Workshop, August 
+ 31 - September 2, 1994], pp. 203–218, 1994.BibTeX@inproceedings{DBLP:conf/dagstuhl/NovackND94,
+title = {A Unified code generation approach using mutation scheduling},
+author = {Steven Novack and Alexandru Nicolau and Nikil D Dutt},
+year  = {1994},
+date = {1994-01-01},
+booktitle = {Code Generation for Embedded Processors [Dagstuhl Workshop, August 
+ 31 - September 2, 1994]},
+pages = {203--218},
+crossref = {DBLP:conf/dagstuhl/1994code},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Close Kolson, David J;  Nicolau, Alexandru;  Dutt, Nikil DIntegrating program transformations in the memory-based synthesis 
+ of image and video algorithms Inproceedings Proceedings of the 1994 IEEE/ACM International Conference on Computer-Aided 
+ Design, ICCAD 1994, San Jose, California, USA, November 6-10, 1994, pp. 27–30, 1994.Links | BibTeX@inproceedings{DBLP:conf/iccad/KolsonND94,
+title = {Integrating program transformations in the memory-based synthesis 
+ of image and video algorithms},
+author = {David J Kolson and Alexandru Nicolau and Nikil D Dutt},
+url = {https://doi.org/10.1109/ICCAD.1994.629738},
+doi = {10.1109/ICCAD.1994.629738},
+year  = {1994},
+date = {1994-01-01},
+booktitle = {Proceedings of the 1994 IEEE/ACM International Conference on Computer-Aided 
+ Design, ICCAD 1994, San Jose, California, USA, November 6-10, 1994},
+pages = {27--30},
+crossref = {DBLP:conf/iccad/1994},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ICCAD.1994.629738doi:10.1109/ICCAD.1994.629738Close
+
+1993
+
+ Dutt, Nikil DA language for designer controlled behavioral synthesis Journal Article Integr., 16 (1), pp. 1–31, 1993.Links | BibTeX@article{DBLP:journals/integration/Dutt93b,
+title = {A language for designer controlled behavioral synthesis},
+author = {Nikil D Dutt},
+url = {https://doi.org/10.1016/0167-9260(93)90056-I},
+doi = {10.1016/0167-9260(93)90056-I},
+year  = {1993},
+date = {1993-01-01},
+journal = {Integr.},
+volume = {16},
+number = {1},
+pages = {1--31},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1016/0167-9260(93)90056-Idoi:10.1016/0167-9260(93)90056-IClose Jha, Pradip K;  Dutt, Nikil DRapid estimation for parameterized components in high-level synthesis Journal Article IEEE Trans. Very Large Scale Integr. Syst., 1 (3), pp. 296–303, 1993.Links | BibTeX@article{DBLP:journals/tvlsi/JhaD93b,
+title = {Rapid estimation for parameterized components in high-level synthesis},
+author = {Pradip K Jha and Nikil D Dutt},
+url = {https://doi.org/10.1109/92.238443},
+doi = {10.1109/92.238443},
+year  = {1993},
+date = {1993-01-01},
+journal = {IEEE Trans. Very Large Scale Integr. Syst.},
+volume = {1},
+number = {3},
+pages = {296--303},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/92.238443doi:10.1109/92.238443Close Ang, Roger P;  Dutt, Nikil DA Representation for the Binding of RT-Component Functionality to 
+ HDL Behavior Inproceedings  Agnew, David;  Claesen, Luc J M;  Camposano, Raul (Ed.): Computer Hardware Description Languages and their Applications, Proceedings 
+ of the 11th IFIP WG10.2 International Conference on Computer Hardware 
+ Description Languages and their Applications - CHDL '93, sponsored 
+ by IFIP WG10.2 and in cooperation with IEEE COMPSOC, Ottawa, 
+ Ontario, Canada, 26-28 April, 1993, pp. 263–280, North-Holland, 1993.BibTeX@inproceedings{DBLP:conf/chdl/AngD93b,
+title = {A Representation for the Binding of RT-Component Functionality to 
+ HDL Behavior},
+author = {Roger P Ang and Nikil D Dutt},
+editor = {David Agnew and Luc J M Claesen and Raul Camposano},
+year  = {1993},
+date = {1993-01-01},
+booktitle = {Computer Hardware Description Languages and their Applications, Proceedings 
+ of the 11th IFIP WG10.2 International Conference on Computer Hardware 
+ Description Languages and their Applications - CHDL '93, sponsored 
+ by IFIP WG10.2 and in cooperation with IEEE COMPSOC, Ottawa, 
+ Ontario, Canada, 26-28 April, 1993},
+volume = {A-32},
+pages = {263--280},
+publisher = {North-Holland},
+series = {IFIP Transactions},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Close Wang, Haigeng;  Dutt, Nikil D;  Nicolau, AlexRegular schedules for scalable design of IIR filters Inproceedings Proceedings of the European Design Automation Conference 1993, EURO-DAC 
+ '93 with EURO-VHDL'93, Hamburg, Germany, September 20-24, 1993, pp. 52–57, IEEE Computer Society, 1993.Links | BibTeX@inproceedings{DBLP:conf/eurodac/WangDN93b,
+title = {Regular schedules for scalable design of IIR filters},
+author = {Haigeng Wang and Nikil D Dutt and Alex Nicolau},
+url = {https://doi.org/10.1109/EURDAC.1993.410616},
+doi = {10.1109/EURDAC.1993.410616},
+year  = {1993},
+date = {1993-01-01},
+booktitle = {Proceedings of the European Design Automation Conference 1993, EURO-DAC 
+ '93 with EURO-VHDL'93, Hamburg, Germany, September 20-24, 1993},
+pages = {52--57},
+publisher = {IEEE Computer Society},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/EURDAC.1993.410616doi:10.1109/EURDAC.1993.410616Close Wang, Haigeng;  Dutt, Nikil D;  Nicolau, AlexandruHarmonic Scheduling: A Technique for Scheduling Beyond Loop-Carried 
+ Dependencies Inproceedings Proceedings of the Sixth International Conference on VLSI Design, 
+ VLSI Design 1993, Bombay, India, January 3-6, 1993, pp. 198–201, IEEE Computer Society, 1993.Links | BibTeX@inproceedings{DBLP:conf/vlsid/WangDN93b,
+title = {Harmonic Scheduling: A Technique for Scheduling Beyond Loop-Carried 
+ Dependencies},
+author = {Haigeng Wang and Nikil D Dutt and Alexandru Nicolau},
+url = {https://doi.org/10.1109/ICVD.1993.669677},
+doi = {10.1109/ICVD.1993.669677},
+year  = {1993},
+date = {1993-01-01},
+booktitle = {Proceedings of the Sixth International Conference on VLSI Design, 
+ VLSI Design 1993, Bombay, India, January 3-6, 1993},
+pages = {198--201},
+publisher = {IEEE Computer Society},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ICVD.1993.669677doi:10.1109/ICVD.1993.669677Close Wang, Haigeng;  Dutt, Nikil D;  Nicolau, Alexandru;  Siu, Kai-YeungHigh-Level Synthesis of Scalable Architectures for IIR Filters using 
+ Multichip Modules Inproceedings Proceedings of the 30th Design Automation Conference. Dallas, Texas, 
+ USA, June 14-18, 1993., pp. 336–342, 1993.Links | BibTeX@inproceedings{DBLP:conf/dac/WangDNS93,
+title = {High-Level Synthesis of Scalable Architectures for IIR Filters using 
+ Multichip Modules},
+author = {Haigeng Wang and Nikil D Dutt and Alexandru Nicolau and Kai-Yeung Siu},
+url = {http://doi.acm.org/10.1145/157485.164920},
+doi = {10.1145/157485.164920},
+year  = {1993},
+date = {1993-01-01},
+booktitle = {Proceedings of the 30th Design Automation Conference. Dallas, Texas, 
+ USA, June 14-18, 1993.},
+pages = {336--342},
+crossref = {DBLP:conf/dac/1993},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttp://doi.acm.org/10.1145/157485.164920doi:10.1145/157485.164920Close
+
+1992
+
+ Gajski, Daniel D;  Dutt, Nikil D;  -, Allen CYoun-Long Steve Lin Book Springer, 1992, ISBN: 978-1-4613-6617-1.Links | BibTeX@book{DBLP:books/sp/GajskiDWL92,
+title = {Youn-Long Steve Lin},
+author = {Daniel D Gajski and Nikil D Dutt and Allen C -},
+url = {https://doi.org/10.1007/978-1-4615-3636-9},
+doi = {10.1007/978-1-4615-3636-9},
+isbn = {978-1-4613-6617-1},
+year  = {1992},
+date = {1992-01-01},
+publisher = {Springer},
+keywords = {},
+pubstate = {published},
+tppubtype = {book}
+}
+Closehttps://doi.org/10.1007/978-1-4615-3636-9doi:10.1007/978-1-4615-3636-9Close Wang, Haigeng;  Dutt, Nikil D;  Nicolau, AlexandruHarmonic scheduling of linear recurrences for digital filter design Inproceedings  Musgrave, Gerald (Ed.): Proceedings of the conference on European design automation, EURO-DAC 
+ '92, Hamburg, Germany, September 7-10, 1992, pp. 396–401, IEEE Computer Society Press, 1992.Links | BibTeX@inproceedings{DBLP:conf/eurodac/WangDN92b,
+title = {Harmonic scheduling of linear recurrences for digital filter design},
+author = {Haigeng Wang and Nikil D Dutt and Alexandru Nicolau},
+editor = {Gerald Musgrave},
+url = {https://doi.org/10.1109/EURDAC.1992.246213},
+doi = {10.1109/EURDAC.1992.246213},
+year  = {1992},
+date = {1992-01-01},
+booktitle = {Proceedings of the conference on European design automation, EURO-DAC 
+ '92, Hamburg, Germany, September 7-10, 1992},
+pages = {396--401},
+publisher = {IEEE Computer Society Press},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/EURDAC.1992.246213doi:10.1109/EURDAC.1992.246213Close Ang, Roger P;  Dutt, Nikil DEquivalent design representations and transformations for interactive 
+ scheduling Inproceedings  Trevillyan, Louise;  Lightner, Michael R (Ed.): 1992 IEEE/ACM International Conference on Computer-Aided Design, 
+ ICCAD 1992, Santa Clara, CA, USA, November 8-12, 1992. Digest of 
+ Technical Papers, pp. 332–335, IEEE Computer Society / ACM, 1992.Links | BibTeX@inproceedings{DBLP:conf/iccad/AngD92b,
+title = {Equivalent design representations and transformations for interactive 
+ scheduling},
+author = {Roger P Ang and Nikil D Dutt},
+editor = {Louise Trevillyan and Michael R Lightner},
+url = {https://doi.org/10.1109/ICCAD.1992.279351},
+doi = {10.1109/ICCAD.1992.279351},
+year  = {1992},
+date = {1992-01-01},
+booktitle = {1992 IEEE/ACM International Conference on Computer-Aided Design, 
+ ICCAD 1992, Santa Clara, CA, USA, November 8-12, 1992. Digest of 
+ Technical Papers},
+pages = {332--335},
+publisher = {IEEE Computer Society / ACM},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ICCAD.1992.279351doi:10.1109/ICCAD.1992.279351Close Gajski, Daniel;  Dutt, Nikil DBenchmarking and the Art of Syntesis Tool Comparison Inproceedings  Saucier, Gabriele;  Trilhe, Jacques (Ed.): Synthesis for Control Dominated Circuits, Selected papers from the 
+ IFIP WG10.2/WG10.5 Workshops, Grenoble, France, April and September, 
+ 1992, pp. 439–453, North-Holland, 1992.BibTeX@inproceedings{DBLP:conf/ifip10-2/GajskiD92b,
+title = {Benchmarking and the Art of Syntesis Tool Comparison},
+author = {Daniel Gajski and Nikil D Dutt},
+editor = {Gabriele Saucier and Jacques Trilhe},
+year  = {1992},
+date = {1992-01-01},
+booktitle = {Synthesis for Control Dominated Circuits, Selected papers from the 
+ IFIP WG10.2/WG10.5 Workshops, Grenoble, France, April and September, 
+ 1992},
+volume = {A-22},
+pages = {439--453},
+publisher = {North-Holland},
+series = {IFIP Transactions},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Close Capitanio, Andrea;  Dutt, Nikil D;  Nicolau, AlexandruPartitioned register files for VLIWs: a preliminary analysis of tradeoffs Inproceedings  -, Wen (Ed.): Proceedings of the 25th Annual International Symposium on Microarchitecture, 
+ Portland, Oregon, USA, November 1992, pp. 292–300, ACM / IEEE Computer Society, 1992.Links | BibTeX@inproceedings{DBLP:conf/micro/CapitanioDN92b,
+title = {Partitioned register files for VLIWs: a preliminary analysis of tradeoffs},
+author = {Andrea Capitanio and Nikil D Dutt and Alexandru Nicolau},
+editor = {Wen -},
+url = {https://doi.org/10.1109/MICRO.1992.697033},
+doi = {10.1109/MICRO.1992.697033},
+year  = {1992},
+date = {1992-01-01},
+booktitle = {Proceedings of the 25th Annual International Symposium on Microarchitecture, 
+ Portland, Oregon, USA, November 1992},
+pages = {292--300},
+publisher = {ACM / IEEE Computer Society},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/MICRO.1992.697033doi:10.1109/MICRO.1992.697033Close
+
+1991
+
+ Dutt, Nikil D;  Kipps, James RBridging High-Level Synthesis to RTL Technology Libraries Inproceedings  Newton, Richard A (Ed.): Proceedings of the 28th Design Automation Conference, San Francisco, 
+ California, USA, June 17-21, 1991, pp. 526–529, ACM, 1991.Links | BibTeX@inproceedings{DBLP:conf/dac/DuttK91b,
+title = {Bridging High-Level Synthesis to RTL Technology Libraries},
+author = {Nikil D Dutt and James R Kipps},
+editor = {Richard A Newton},
+url = {https://doi.org/10.1145/127601.127726},
+doi = {10.1145/127601.127726},
+year  = {1991},
+date = {1991-01-01},
+booktitle = {Proceedings of the 28th Design Automation Conference, San Francisco, 
+ California, USA, June 17-21, 1991},
+pages = {526--529},
+publisher = {ACM},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/127601.127726doi:10.1145/127601.127726Close
+
+1990
+
+ Dutt, Nikil D;  Gajski, Daniel DDesign Synthesis and Silicon Compilation Journal Article IEEE Des. Test Comput., 7 (6), pp. 8–23, 1990.Links | BibTeX@article{DBLP:journals/dt/DuttG90b,
+title = {Design Synthesis and Silicon Compilation},
+author = {Nikil D Dutt and Daniel D Gajski},
+url = {https://doi.org/10.1109/54.64954},
+doi = {10.1109/54.64954},
+year  = {1990},
+date = {1990-01-01},
+journal = {IEEE Des. Test Comput.},
+volume = {7},
+number = {6},
+pages = {8--23},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://doi.org/10.1109/54.64954doi:10.1109/54.64954Close Dutt, Nikil D;  Hadley, Tedd;  Gajski, DanielAn Intermediate Representation for Behavioral Synthesis Inproceedings  Smith, Richard C (Ed.): Proceedings of the 27th ACM/IEEE Design Automation Conference. Orlando, 
+ Florida, USA, June 24-28, 1990, pp. 14–19, IEEE Computer Society Press, 1990.Links | BibTeX@inproceedings{DBLP:conf/dac/DuttHG90b,
+title = {An Intermediate Representation for Behavioral Synthesis},
+author = {Nikil D Dutt and Tedd Hadley and Daniel Gajski},
+editor = {Richard C Smith},
+url = {https://doi.org/10.1145/123186.123192},
+doi = {10.1145/123186.123192},
+year  = {1990},
+date = {1990-01-01},
+booktitle = {Proceedings of the 27th ACM/IEEE Design Automation Conference. Orlando, 
+ Florida, USA, June 24-28, 1990},
+pages = {14--19},
+publisher = {IEEE Computer Society Press},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/123186.123192doi:10.1145/123186.123192Close Dutt, Nikil DLEGEND: A Language for Generic Component Library Description Inproceedings 1990 Internation Conference on Computer Languages, March 12-15 1990, 
+ New Orleans, Louisiana, USA, pp. 198–207, IEEE Computer Society, 1990.Links | BibTeX@inproceedings{DBLP:conf/iccl/Dutt90b,
+title = {LEGEND: A Language for Generic Component Library Description},
+author = {Nikil D Dutt},
+url = {https://doi.org/10.1109/ICCL.1990.63775},
+doi = {10.1109/ICCL.1990.63775},
+year  = {1990},
+date = {1990-01-01},
+booktitle = {1990 Internation Conference on Computer Languages, March 12-15 1990, 
+ New Orleans, Louisiana, USA},
+pages = {198--207},
+publisher = {IEEE Computer Society},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1109/ICCL.1990.63775doi:10.1109/ICCL.1990.63775Close
+
+1989
+
+ Dutt, Nikil D;  Gajski, DanielDesigner Controlled Behavioral Synthesis Inproceedings  Thomas, Donald E (Ed.): Proceedings of the 26th ACM/IEEE Design Automation Conference, Las 
+ Vegas, Nevada, USA, June 25-29, 1989, pp. 754–757, ACM Press, 1989.Links | BibTeX@inproceedings{DBLP:conf/dac/DuttG89b,
+title = {Designer Controlled Behavioral Synthesis},
+author = {Nikil D Dutt and Daniel Gajski},
+editor = {Donald E Thomas},
+url = {https://doi.org/10.1145/74382.74522},
+doi = {10.1145/74382.74522},
+year  = {1989},
+date = {1989-01-01},
+booktitle = {Proceedings of the 26th ACM/IEEE Design Automation Conference, Las 
+ Vegas, Nevada, USA, June 25-29, 1989},
+pages = {754--757},
+publisher = {ACM Press},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.1145/74382.74522doi:10.1145/74382.74522Close550 entries « ‹  11 of 11 › » 
+
+
+
+
+
+
+
+
+
+
+Find Us Address
+3069 Donald Bren Hall
+University of California, Irvine
+Irvine, CA 92697-3435, USA
+Email
+drg@ics.uci.edu
+
+ 
+
+
+
+
+
+
+
+
+
+					Copyright © 2022 Dutt Research Group.				
+
+					Powered by WordPress and HitMag.				
+
+
+
+
+
+
+
+
+
+
+
+
+

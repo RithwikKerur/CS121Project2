@@ -1,0 +1,281 @@
+https://cml.ics.uci.edu/aiml/page/12
+
+
+
+
+
+AI/ML Seminar Series | Center for Machine Learning and Intelligent Systems | Page 12
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+University of California, Irvine
+
+
+Menu
+Skip to content
+Home
+About CML
+
+About us
+News
+Contact Us
+
+
+People
+
+Faculty
+Alumni
+
+
+Events & Seminars
+
+AI/ML Seminar Series
+AI/ML Seminar Live Stream
+CML Distinguished Speakers
+ML Reading Group
+
+
+Education & Resources
+
+Courses
+Books
+
+
+UCI Machine Learning Archive
+Sponsors & Funding
+Subscribe to CML List
+ 
+
+
+
+
+
+
+AI/ML Seminar Series Standard 
+
+Weekly Seminar in AI & Machine LearningSponsored by Cylance
+
+
+
+
+
+
+
+Navigation
+
+‹Earlier
+Winter 2018 Later ›
+
+
+
+
+
+
+
+
+
+
+Jan 15
+
+
+No Seminar (MLK Day)
+ 
+
+
+
+
+Jan 22
+Bren Hall 4011
+1 pm
+
+
+Shufeng Kong
+PhD Candidate
+Centre for Quantum Software and Information, FEIT
+University of Technology Sydney, Australia
+Multiagent Simple Temporal Problem: The Arc-Consistency ApproachThe Simple Temporal Problem (STP) is a fundamental temporal
+reasoning problem and has recently been extended to
+the Multiagent Simple Temporal Problem (MaSTP). In this
+paper we present a novel approach that is based on enforcing
+arc-consistency (AC) on the input (multiagent) simple temporal
+network. We show that the AC-based approach is sufficient
+for solving both the STP and MaSTP and provide efficient
+algorithms for them. As our AC-based approach does
+not impose new constraints between agents, it does not violate
+the privacy of the agents and is superior to the state-ofthe-art
+approach to MaSTP. Empirical evaluations on diverse
+benchmark datasets also show that our AC-based algorithms
+for STP and MaSTP are significantly more efficient than existing
+approaches.
+
+
+
+
+Jan 29
+Bren Hall 4011
+1 pm
+
+
+Yangfeng Ji
+Postdoctoral Scholar
+Paul Allen School of Computer Science and Engineering
+University of Washington
+Bringing Structural Information into Neural Network DesignDeep learning is one of the most important techniques used in natural language processing (NLP). A central question in deep learning for NLP is how to design a neural network that can fully utilize the information from training data and make accurate predictions. A key to solving this problem is to design a better network architecture. 
+In this talk, I will present two examples from my work on how structural information from natural language helps design better neural network models. The first example shows adding coreference structures of entities not only helps different aspects of text modeling, but also improves the performance of language generation; the second example demonstrates structures of organizing sentences into coherent texts can help neural networks build better representations for various text classification tasks. Along the lines of this topic, I will also propose a few ideas for future work and discuss some potential challenges.
+
+
+
+
+February 5
+
+
+No Seminar (AAAI)
+ 
+
+
+
+
+February 12
+Bren Hall 4011
+1 pm
+
+
+Eric Nalisnick
+PhD Candidate
+Computer Science
+University of California, Irvine
+Averaging and Combining Variational Models with Stein Particle DescentBayesian inference for complex models—the kinds needed to solve complex tasks such as object recognition—is inherently intractable, requiring analytically difficult integrals be solved in high dimensions.  One solution is to turn to variational Bayesian inference: a parametrized family of distributions is proposed, and optimization is carried out to find the member of the family nearest to the true posterior.  There is an innate trade-off within VI between expressive vs tractable approximations.  We wish the variational family to be as rich as possible so as it might include the true posterior (or something very close), but adding structure to the approximation increases the computational complexity of optimization.  As a result, there has been much interest in efficient optimization strategies for mixture model approximations.  In this talk, I’ll return to the problem of using mixture models for VI.  First, to motivate our approach, I’ll discuss the distinction between averaging vs combining variational models.  We show that optimization objectives aimed at fitting mixtures (i.e. model combination), in practice, are relaxed into performing something between model combination and averaging.  Our primary contribution is to formulate a novel training algorithm for variational model averaging by adapting Stein variational gradient descent to operate on the parameters of the approximating distribution.  Then, through a particular choice of kernel, we show the algorithm can be adapted to perform something closer to model combination, providing a new algorithm for optimizing (finite) mixture approximations.
+
+
+
+
+February 19
+
+
+No Seminar (President’s Day)
+ 
+
+
+
+
+February 26
+Bren Hall 4011
+1 pm
+
+
+Jay Pujara
+Research Scientist
+ISI/USC
+What do Probabilistic Models Know?Knowledge is an essential ingredient in the quest for artificial intelligence, yet scalable and robust approaches to acquiring knowledge have challenged AI researchers for decades. Often, the obstacle to knowledge acquisition is massive, uncertain, and changing data that obscures the underlying knowledge. In such settings, probabilistic models have excelled at exploiting the structure in the domain to overcome ambiguity, revise beliefs and produce interpretable results. In my talk, I will describe recent work using probabilistic models for knowledge graph construction and information extraction, including linking subjects across electronic health records, fusing background knowledge from scientific articles with gene association studies, disambiguating user browsing behavior across platforms and devices, and aligning structured data sources with textual summaries. I also highlight several areas of ongoing research, fusing embedding approaches with probabilistic modeling and building models that support dynamic data or human-in-the-loop interactions.
+Bio:
+Jay Pujara is a research scientist at the University of Southern California’s Information Sciences Institute whose principal areas of research are machine learning, artificial intelligence, and data science. He completed a postdoc at UC Santa Cruz, earned his PhD at the University of Maryland, College Park and received his MS and BS at Carnegie Mellon University. Prior to his PhD, Jay spent six years at Yahoo! working on mail spam detection, user trust, and contextual mail experiences, and he has also worked at Google, LinkedIn and Oracle. Jay is the author of over thirty peer-reviewed publications and has received three best paper awards for his work. He is a recognized authority on knowledge graphs, and has organized the Automatic Knowledge Base Construction (AKBC) and Statistical Relational AI (StaRAI) workshops, has presented tutorials on knowledge graph construction at AAAI and WSDM, and has had his work featured in AI Magazine.
+
+
+
+
+March 5
+Bren Hall 4011
+1 pm
+
+
+Vagelis Papalexakis
+Assistant Professor
+UC Riverside
+Tensor Decompositions for Big Multi-aspect Data AnalyticsTensors and tensor decompositions have been very popular and effective tools for analyzing multi-aspect data in a wide variety of fields, ranging from Psychology to Chemometrics, and from Signal Processing to Data Mining and Machine Learning.  Using tensors in the era of big data presents us with a rich variety of applications, but also poses great challenges such as the one of scalability and efficiency. In this talk I will first motivate the effectiveness of tensor decompositions as data analytic tools in a variety of exciting, real-world applications. Subsequently, I will discuss recent techniques on tackling the scalability and efficiency challenges by parallelizing and speeding up tensor decompositions, especially for very sparse datasets, including the scenario where the data are continuously updated over time. Finally, I will discuss open problems in unsupervised tensor mining and quality assessment of the results, and present work-in-progress addressing that problem with very encouraging results.
+
+
+
+
+March 12
+Bren Hall 4011
+1 pm
+
+
+Alessandro Achille
+PhD Student
+UC Los Angeles
+The Emergence Theory of Deep Learning: Perception, Information Theory and PAC-BayesI will describe the basic elements of the Emergence Theory of Deep Learning, that started as a general theory for representations, and is comprised of three parts: (1) We formalize the desirable properties that a representation should possess, based on classical principles of statistical decision and information theory: invariance, sufficiency, minimality, disentanglement. We then show that such an optimal representation of the data can be learned by minimizing a specific loss function which is related to the notion of Information Bottleneck and Variational Inference. (2) We analyze common empirical losses employed in Deep Learning (such as empirical cross-entropy), and implicit or explicit regularizers, including Dropout and Pooling, and show that they bias the network toward recovering such an optimal representation. Finally, (3) we show that minimizing a suitably (implicitly or explicitly) regularized loss with SGD with respect to the weights of the network implies implicit optimization of the loss described in (1), with relates instead to the activations of the network. Therefore, even when we optimize a DNN as a black-box classifier, we are always biased toward learning minimal, sufficient and invariant representation. The link between (implicit or explicit) regularization of the classification loss and learning of optimal representations is specific to the architecture of deep networks, and is not found in a general classifier. The theory is related to a new version of the Information Bottleneck that studies the weights of a network, rater than the activation, and can also be derived using PAC-Bayes or Kolmogorov complexity arguments, providing independent validation.
+
+
+
+
+March 19
+
+
+No Seminar (Finals Week)
+ 
+
+
+
+
+
+January 10, 2018
+AIML
+
+
+
+Posts navigation
+
+‹Older posts
+Newer posts ›
+
+
+
+
+
+ 
+Search
+
+
+
+ 
+
+
+(c) 2015 Center for Machine Learning and Intelligent Systems
+
+WordPress/BonPress
+
+
+
+
+
+

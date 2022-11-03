@@ -1,0 +1,270 @@
+https://cml.ics.uci.edu/2018/04/spring-2018
+
+
+
+
+
+Spring 2018 | Center for Machine Learning and Intelligent Systems
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+University of California, Irvine
+
+
+Menu
+Skip to content
+Home
+About CML
+
+About us
+News
+Contact Us
+
+
+People
+
+Faculty
+Alumni
+
+
+Events & Seminars
+
+AI/ML Seminar Series
+AI/ML Seminar Live Stream
+CML Distinguished Speakers
+ML Reading Group
+
+
+Education & Resources
+
+Courses
+Books
+
+
+UCI Machine Learning Archive
+Sponsors & Funding
+Subscribe to CML List
+ 
+
+
+
+
+
+Spring 2018 Standard
+
+April 4, 2018
+AIML
+
+
+
+
+
+
+
+
+
+
+
+Apr 2
+
+
+No Seminar
+
+
+
+
+
+Apr 9
+Bren Hall 4011
+1 pm
+
+
+Sabino Miranda, Ph.D
+CONACyT Researcher
+Center for Research and Innovation in Information and Communication Technologies
+
+Towards a Multilingual and Error-Robust Approach for Sentiment Analysis
+Sentiment Analysis is a research area concerned with the computational analysis of people’s feelings or beliefs expressed in texts such as emotions, opinions, attitudes, appraisals, etc.  At the same time, with the growth of social media data (review websites, microblogging sites, etc.) on the Web, Twitter has received particular attention because it is a huge source of opinionated information with potential applications to decision-making tasks from business applications to the analysis of social and political events.  In this context, I will present the multilingual and error-robust approaches developed in our group to tackle sentiment analysis as a classification problem, mainly for informal written text such as Twitter. Our approaches have been tested in several benchmark contests such as SemEval (International Workshop on Semantic Evaluation),  TASS  (Workshop for Sentiment Analysis Focused on Spanish),  and PAN (Workshop on Digital Text Forensics).
+
+
+
+
+Apr 16
+Bren Hall 4011
+1 pm
+
+
+Roman Vershynin
+Professor of Mathematics
+University of California, Irvine
+
+Boolean functions and random tensorsA simple way to generate a Boolean function in n variables is to take the sign of some polynomial. Such functions are called polynomial threshold functions. How many low-degree polynomial threshold functions are there? This problem was solved for degree d=1 by Zuev in 1989 and has remained open for any higher degrees, including d=2, since then. In a joint work with Pierre Baldi (UCI), we settled the problem for all degrees d>1. The solution explores connections of Boolean functions to additive combinatorics and high-dimensional probability. This leads to a program of extending random matrix theory to random tensors, which is mostly an uncharted territory at present.
+
+
+
+
+Apr 23
+Bren Hall 4011
+1 pm
+
+
+Zhile Ren
+PhD Candidate, Computer Science
+Brown University
+
+Semantic Three-Dimensional Understanding of Dynamic ScenesWe develop new representations and algorithms for three-dimensional (3D) scene understanding from images and videos. In cluttered indoor scenes, RGB-D images are typically described by local geometric features of the 3D point cloud. We introduce descriptors that account for 3D camera viewpoint, and use structured learning to perform 3D object detection and room layout prediction. We also extend this work by using latent support surfaces to capture style variations of 3D objects and help detect small objects. Contextual relationships among categories and layout are captured via a cascade of classifiers, leading to holistic scene hypotheses with improved accuracy. In outdoor autonomous driving applications, given two consecutive frames from a pair of stereo cameras, 3D scene flow methods simultaneously estimate the 3D geometry and motion of the observed scene. We incorporate semantic segmentation in a cascaded prediction framework to more accurately model moving objects by iteratively refining segmentation masks, stereo correspondences, 3D rigid motion estimates, and optical flow fields.
+
+
+
+
+Apr 30
+
+
+Cancelled
+
+
+
+
+
+May 7
+Bren Hall 4011
+1 pm
+
+
+Vivek Srikumar
+Assistant Professor
+University of Utah
+
+Natural Language Processing in the Wild: Opportunities & ChallengesNatural language processing (NLP) sees potential applicability in a broad array of user-facing applications. To realize this potential, however, we need to address several challenges related to representations, data availability and scalability.
+In this talk, I will discuss these concerns and how we may overcome them. First, as a motivating example of NLP’s broad reach, I will present our recent work on using language technology to improve mental health treatment. Then, I will focus on some of the challenges that need to be addressed. The choice of representations can make a big difference in our ability to reason about text; I will discuss recent work on developing rich semantic representations. Finally, I will touch upon the problem of systematically speeding up the entire NLP pipeline without sacrificing accuracy. As a concrete example, I will present a new algebraic characterization of the process of feature extraction, as a direct consequence of which, we can make trained classifiers significantly faster.
+
+
+
+
+May 14
+Bren Hall 4011
+1 pm
+
+
+Shu Kong
+PhD Candidate, Computer Science
+University of California, Irvine
+
+Pay Attention to the Pixel, Understand the Scene BetterObjects may appear at arbitrary scales in perspective images of a scene, posing a challenge for recognition systems that process images at a fixed resolution. We propose a depth-aware gating module that adaptively selects the pooling field size (by fusing multi-scale pooled features) in a convolutional network architecture according to the object scale (inversely proportional to the depth) so that small details are preserved for distant objects while larger receptive fields are used for those nearby. The depth gating signal is provided by stereo disparity or estimated directly from monocular input. We further integrate this depth-aware gating into a recurrent convolutional neural network to refine semantic segmentation, and show state-of-the-art performance on several benchmarks.
+Moreover, rather than fusing mutli-scale pooled features based on estimated depth, we show the “correct” size of pooling field for each pixel can be decided in an attentional fashion by our  Pixel-wise Attentional Gating unit (PAG), which learns to choose the pooling size for each pixel. PAG is a generic, architecture-independent, problem-agnostic mechanism that can be readily “plugged in” to an existing model with fine-tuning. We utilize PAG in two ways: 1) learning spatially varying pooling fields that improves model performance without the extra computation cost, and 2) learning a dynamic computation policy for each pixel to decrease total computation while maintaining accuracy. We extensively evaluate PAG on a variety of per-pixel labeling tasks, including semantic segmentation, boundary detection, monocular depth and surface normal estimation. We demonstrate that PAG allows competitive or state-of-the-art performance on these tasks. We also show that PAG learns dynamic spatial allocation of computation over the input image which provides better performance trade-offs compared to related approaches (e.g., truncating deep models or dynamically skipping whole layers). Generally, we observe that PAG reduces computation by 10% without noticeable loss in accuracy, and performance degrades gracefully when imposing stronger computational constraints.
+
+
+
+
+May 21
+Bren Hall 4011
+1 pm
+
+
+Rich Caruana
+Principal Researcher
+Microsoft Research
+
+Friends Don’t Let Friends Deploy Black-Box Models: The Importance of Intelligibility in Machine LearningIn machine learning often a tradeoff must be made between accuracy and intelligibility: the most accurate models usually are not very intelligible (e.g., deep nets, boosted trees and random forests), and the most intelligible models usually are less accurate (e.g., logistic regression and decision lists).  This tradeoff often limits the accuracy of models that can be safely deployed in mission-critical applications such as healthcare where being able to understand, validate, edit, and ultimately trust a learned model is important.  We have been working on a learning method based on generalized additive models (GAMs) that is often as accurate as full complexity models, but even more intelligible than linear models.  This makes it easy to understand what a model has learned, and also makes it easier to edit the model when it learns inappropriate things because of unanticipated problems with the data.  Making it possible for experts to understand a model and repair it is critical because most data has unanticipated landmines.  In the talk I’ll present two healthcare cases studies where these high-accuracy GAMs discover surprising patterns in the data that would have made deploying a black-box model risky.  I’ll also briefly show how we’re using these models to detect bias in domains where fairness and transparency are paramount.
+
+
+
+
+May 28
+
+
+Memorial Day
+
+
+
+
+
+Jun 4
+Bren Hall 4011
+1 pm
+
+
+Stephen McAleer (Pierre Baldi‘s group)
+Graduate Student, Computer Science
+University of California, Irvine
+
+Learning how to solve the Rubik's Cube with no Human KnowledgeWe will present a novel approach to solving the Rubik’s cube effectively without any human knowledge using several ingredients including deep learning, reinforcement learning, and Monte Carlo searches. 
+At the end, if time permits, we will describe several extensions to the neuronal Boolean complexity results presented by Roman Vershynin a few weeks ago.
+
+
+
+
+Jun 11
+
+
+No Seminar (finals week)
+
+
+
+
+
+
+
+Post navigation
+← Workshop for the Philosophy of Machine Learning Two new NSF awards in Machine Learning for Sameer Singh →
+
+
+
+
+ 
+Search
+
+
+
+ 
+
+
+(c) 2015 Center for Machine Learning and Intelligent Systems
+
+WordPress/BonPress
+
+
+
+
+
+

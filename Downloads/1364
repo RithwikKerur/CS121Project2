@@ -1,0 +1,11 @@
+http://plrg.ics.uci.edu/publications/400.bib
+@article{key,
+ author = {Brian Demsky and Navid Farri Tehrany},
+ title = {Integrating File Operations into Transactional Memory},
+ journal = {Journal of Parallel and Distributed Computing},
+ volume = {71},
+ number = {10},
+ pages = {1293--1304},
+ month = {October},
+ year = {2011}
+}

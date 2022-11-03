@@ -1,0 +1,9 @@
+http://plrg.ics.uci.edu/publications/570.bib
+@inproceedings{key,
+ author = {Khanh Nguyen and Lu Fang and Guoqing Xu and Brian Demsky and Shan Lu and Sanazsadat Alamian and Onur Mutlu},
+ title = {Yak: A High-Performance Big-Data-Friendly Garbage Collector},
+ booktitle = {Proceedings of the 12th USENIX Symposium on Operating Systems Design and Implementation (OSDI 2016)},
+ location = {Savannah, Georgia},
+ month = {November},
+ year = {2016}
+}

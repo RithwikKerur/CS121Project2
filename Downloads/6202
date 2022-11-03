@@ -1,0 +1,134 @@
+https://www.cs.uci.edu/professor-harris-presents-tool-to-detect-social-engineering-attacks-at-black-hat-usa
+
+
+
+
+Professor Harris Presents Tool to Detect Social Engineering Attacks at Black Hat USA 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ this is a widget called second front page widget area
+
+Explore
+
+Contact Us
+
+
+Faculty
+Research
+
+Research Areas
+Research Centers
+
+
+Graduate Degrees
+
+Computer Science Programs
+Current Graduate Students
+
+
+Undergraduate Degrees
+News  & Events
+
+News
+Seminar Series
+Distinguished Lecture Series
+Research Showcase
+
+
+Apply Now
+
+Undergraduate Admissions
+Graduate Admissions
+Faculty Candidates
+
+
+Professor Harris Presents Tool to Detect Social Engineering Attacks at Black Hat USA
+August 24, 2018 In early August, Computer Science Professor Ian Harris gave a presentation on social engineering at Black Hat USA, the massive annual security conference held in Las Vegas every summer, with over 15,000 attendees. His talk, “Catch Me, Yes We Can! Pwning Social Engineers Using Natural Language Processing Techniques in Real-Time,” attracted more than 900 attendees.
+
+Working with Marcel Carlsson, a principal consultant at Lootcore, Harris has come up with an approach that uses natural language processing (NLP) techniques to detect questions and commands in messages to identify malicious intent. Commands are evaluated by summarizing their meaning as a combination of the main verb and its direct object in the sentence — “send money,” for example. The verb-object pairs are compared against a blacklist to see if they are malicious.
+So instead of trying to detect social engineering attacks based on a subject line or URL, the idea is to analyze the text. “It occurred to me after a while that the best way to understand social engineering attacks was to understand the sentences,” says Harris, explaining the tactic in an article about the talk. Harris and Carlsson have tested the approach with more than 187,000 phishing and non-phishing emails.
+During the presentation, Harris and Carlsson did a demo of the tool for conference attendees. The goal is to bring the desktop tool to both email and chat clients to scan for social engineering attacks. They also hope to expand their technique to better detect highly individualized attacks.
+— Shani Murray
+« Professor Singh Awarded Two NSF Grants to Advance Machine LearningProfessors Burtsev and Tsudik Awarded $1M to Secure Large-Scale Scientific Cloud Computing »
+
+Latest news
+
+
+Senior Spotlight: Tennis Player and CS Major Matthew Sah Serves Up Aces On and Off the Court
+September 28, 2022
+
+
+Register Today for the Southern California AI & Biomedicine Symposium
+September 20, 2022
+
+
+CPO Magazine: “A Legal View of New NIST Quantum-Resistant Algorithms” by Bryan Cunningham
+September 19, 2022
+
+
+UCI Ranked 24th in Undergraduate Computer Science Programs by U.S. News & World Report
+September 16, 2022
+
+
+Senior Spotlight: Jose Cisneros Builds Impressive Resume with Trio of Internships
+September 15, 2022
+
+
+
+
+ 
+
+
+
+
+
+© 2022 UC Regents
+Feedback
+Privacy Policy
+
+
+
+ 
+
+
+
+

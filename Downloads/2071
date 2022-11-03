@@ -1,0 +1,438 @@
+https://isg.ics.uci.edu/event/personalization-of-pervasive-autonomy-applications-and-system-support
+
+
+
+
+
+
+Scalable Programming: Progress, Prospects and Challenges (CS/NetSys Seminar) – Information Systems Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+
+Faculty
+Students
+Recent Alumni
+Research Staff
+Visitors
+
+
+Research
+
+Projects
+Publications
+
+
+Teaching
+
+Courses
+DB Qual
+
+
+Events
+
+Talks
+News
+
+
+About
+
+Sponsors & Partners
+Visitor Info
+Contact us
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ISG Talks are sponsored by Couchbase.
+<< All Talks
+
+
+
+ « All Events
+
+
+This event has passed.
+Scalable Programming: Progress, Prospects and Challenges (CS/NetSys Seminar)
+
+January 10, 2020 @ 11:00 am - 12:00 pm 
+
+
+
+
+
+« Scalable transaction and polystore data management in LeanXcale
+LSM-based storage techniques: a tutorial »
+
+
+
+
+
+
+
+
+
+Speaker:  Prof. Gul Agha (University of Illinois at Urbana-Champaign)
+Abstract:
+Mobile cloud computing, social media, cyberphysical systems, and the internet of things, are examples of increasingly important applications requiring scalable concurrency.  The Actor model facilitates programming large-scale concurrent applications.  Not surprisingly, Actor languages and frameworks have been widely adopted in industry to address scalability.  Although this has significantly reduced programming errors, developing complex concurrent systems and reasoning about their properties can nevertheless be challenging and error-prone.  A key source of complexity is the interactions between actors.  I will describe our work in programming languages defining new constructs to address this complexity.  Specifically, we have developed ways of expressing multiparty session types and synchronization constraints which capture interactions.  I will then briefly discuss three promising techniques to formally reason about Actor systems.  First, inferring the concurrency structure of an actor program can facilitate targeted test generation.  Second, predictive runtime verification can flag safety violations in future potential executions.  Finally, statistical methods can improve confidence that a system obeys certain probabilistic properties.  I will conclude by discussing open problems and promising research directions.
+Bio:
+Dr. Gul Agha is Professor Emeritus of Computer Science at the University of Illinois at Urbana-Champaign and Interim CEO of Embedor Technologies.  Dr. Agha is a Fellow of the ACM and of the IEEE, and a recipient the 2019 ACM Sigsoft Impact Paper Award.  He has served as Editor-in-Chief of IEEE Concurrency: Parallel, Distributed and Mobile Computing, and of ACM Computing Surveys.  Dr. Agha is best known for his formalization of the Actor model, used in languages and frameworks such as Erlang, Scala/Akka, and Orleans, and to develop scalable applications such as Twitter, LinkedIn, and Facebook Chat.  Dr. Agha’s other contributions include development of Statistical Model Checking, which has applications in biological systems and cyberphysical systems among others; Concolic Testing for programs with dynamic memory and concurrency, a method incorporated in industrial software testing tools such as KLEE, Microsoft SAGE, and S2E; Euclidean model checking for reasoning about the evolution of probability distributions and for synthesizing controllers; the application of computational learning to program verification; logical methods for automated decentralized, predictive runtime verification; and distributed algorithms for wireless sensor networks(WSNs).  Dr. Agha co-founded Embedor Technologies which is applying WSNs to continually monitor the structural health of bridges, buildings and large machinery.  For example, Embedor’s technology was used to monitor the world largest Ferris wheel during construction, and will be used to continuously monitor it during operation.
+ 
+
++ Google Calendar+ iCal Export
+
+
+
+ Details 
+
+ Date: 
+
+ January 10, 2020 
+
+ Time: 
+
+
+					11:00 am - 12:00 pm				
+
+
+
+
+ Venue 
+
+ DBH 6011 
+
+
+
+
+ 
+
+
+
+
+
+« Scalable transaction and polystore data management in LeanXcale
+LSM-based storage techniques: a tutorial »
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+Search for :
+
+
+Latest News 
+
+
+
+Upcoming Talk: How to build your own Business
+
+											July 25, 2022																																
+
+
+Upcoming Talk: Couchbase and Distributed Computing Backends for big data processing
+
+											May 31, 2022																																
+
+
+Upcoming Talk: Shedding Light on Opaque Database Queries
+
+											May 31, 2022																																
+
+
+ISG researchers won the  Mark Weiser Best Paper Award at IEEE PERCOM 2022
+
+											March 24, 2022																																
+
+
+
+
+Upcoming Events
+
+
+
+
+Qiushi Bai: QueryBooster-Improving SQL Performance Using Middleware Services for Human-Centered Query Rewriting + Demo
+
+
+
+October 14 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Xiaozhen Liu: Demonstration of Collaborative and Interactive Workflow-based Data Analytics in Texera
+
+
+
+October 21 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Abhishek Singh: WedgeBlock – An Off-Chain Secure Logging Platform for Blockchain Applications
+
+
+
+October 28 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Juncheng Fang: PeloPartition- Improving Blockchain Resilience to Partitioning by Sharding
+
+
+
+November 4 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Peeyush Gupta: A Demonstration of TippersDB
+
+
+
+November 18 @ 12:30 pm - 2:00 pm 
+
+
+
+View All Events
+
+Please follow & like us :) 
+
+Follow  
+
+ 
+
+
+
+
+
+
+
+			Copyright 2018 | ISG-UCI		
+
+
+
+
+
+
+cross
+
+
+
+
+
+
+
+
+
+
+Hit ENTER to search or ESC to close
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,166 @@
+http://www.ics.uci.edu/~kay/courses/i41/hw/lab7.html
+
+
+
+
+
+
+Lab Assignment 7
+
+
+
+
+
+
+
+
+INFORMATICS 41 • DAVID G. KAY • UC IRVINE • FALL 2011
+Lab Assignment 7
+
+This assignment (shortened because Friday, November 11 is a university holiday) is  still officially due on Friday. As a practical matter, you should try to finish it by the end of Wednesday's lab, but it would be wise to choose a partner whom you haven't worked with already and whose out-of-class schedule fits with yours on Wednesday or Thursday.
+(a) Start with a copy of your copy-file function from last week's lab (without the line numbers); you may use either partner's code or rewrite it from scratch.
+(a.1) Write the function pick,
+  which takes three arguments.  The first should be a string that the function
+  will search for in the file; the second is a string naming the input file;
+  the third is a string naming the output file.  The output file should contain
+  only those lines in the input file that contain the specified string somewhere
+  in the line.  (We've provided some code for string processing to make this task easier.)
+ (a.2) Define the function stats, which
+  takes a string naming a file and a symbol that indicates what statistic
+  to compute (and return) about the file, according to the list below.  Thus (stats "myfile" 'total-lines) would return the number of lines in the file myfile. You
+  should try to use local definitions in your function so that you don't
+  calculate intermediate results more than once.  You'll want to use the
+  predefined function string-length.  You can also use map, filter, and foldr to calculate these values compactly.
+'total-lines: The total number of lines in the file
+'average-length:  The average length of lines in the file
+'empty-lines: The number of empty (zero-length) lines in the file
+'average-nonempty-length: The average length of the non-empty lines in the file
+'longest-line: The longest line in the file (you can do this with foldr)
+'longest-line-length: The length of the longest line in the file
+'shortest-line: The shortest non-empty line in the file
+'shortest-line-length: The length of the shortest line in the file.
+(a.3) (optional, only if you have time) Redefine  stats to
+  take a string naming a file and a list of symbols, each indicating a statistic
+to compute about the file. Your revised version should include a list of results corresponding to the list of statistics (or better yet, a list of pairs with the statistic name and its value).  Thus (stats "myfile" (list 'total-lines 'shortest-line)) might return (list (list 'total-lines 3982) (list 'shortest-line "Yes.")).
+ Submit these definitions via Checkmate.
+(b) This week is an excellent time to shore up
+  your understanding of material from previous weeks that you're still not sure about.
+  Before we delve into what follows, take some time to fill in or reinforce your knowledge
+  from past weeks by reworking any problems from previous homeworks or labs that you or
+  your partner struggled with or never finished.
+The goal here, as in any lab assignment, is to do this work in pairs, and to ensure
+  that both partners are clear on how you arrived at a new solution.  It's best to pick
+  a few problems that each of you struggled with, so that both partners benefit from the
+  time spent, but if one partner feels more confident, it's preferable for that partner
+  to help raise the other one's confidence.  Remember, again, that many of you will be each other's
+  classmates for the next four years, so each of you benefits from other students' strengths. If both of you feel confidently up to date, go back and do some of the optional parts from past assignments.
+
+Collect your definitions into one or more .rkt files.  You may find it necessary to
+spread the definitions into multiple .rkt files, since different homeworks required
+different language levels and/or different teachpacks.  Include a comment at the top of
+each file, indicating which language and which teachpacks (if any) are required to execute
+the code within.  There are no explicit requirements about how many problems to (re)submit,
+but you can expect that we'll take your diligence into account when assigning final
+grades if you redo many problems that you had trouble with, and if you help your partner
+to do the same.
+
+Submit your reworked definitions to Checkmate.
+
+(c)  (You don't have to complete this section, but you should at least do part (c.1) below) At http://www.ics.uci.edu/~kay/scheme/restaurants4.scm
+  you will find a version of the restaurants program that implements menus
+  and also reading and writing restaurant collections from a file.  This program
+  uses the Intermediate Student with Lambda language level.  You'll also
+need to install the teachpack called simple-file-io.ss. (Remember to right- or control-click on the link and download the file, saving it in the same folder that contains your code.) 
+
+(c.1) Download this program and run it, creating
+restaurants and saving them when you quit.  Run it again, starting with
+the saved file.  (You can restart the program in the same interactions window
+in DrScheme with another call to (restaurants
+'x).)  Take a little time to look
+over the code, most of which should be familiar.  If your DrScheme window
+doesn't show the high-level program profile in a column at the right,
+select Show Program Contour from the View menu.  You'll see large section
+headings in that view (which you can create with Insert Large Letters from
+the Insert menu).
+
+Note that we're reading and writing our
+collection as a Scheme expression (the third approach we mentioned in last
+week's assignment).  This makes sense, since it means we don't have
+to rebuild every restaurant when we read it back in.
+
+(c.2)  Modify this program by adding
+the search-by-cuisine and search-by-menu-word menu commands you wrote in
+last week's assignment.  (You may use either partner's code from
+last week, or you may reimplement it from scratch.)
+
+(c.3)  Add a command to the menu (of commands) that
+will let users add new dishes to a restaurant currently in the collection.
+There are two steps to this: First, change the command-menu code to recognize the new command, prompt the user for the restaurant's name, print a message if the name isn't found, and otherwise and call a function  to add dishes to a restaurant. Second, approach the dish-adding process layer by layer, with a function that takes a restaurant and returns the restaurant with a new menu, a function that takes a menu and adds some dishes, and a function that prompts the user for a (new) dish's name and price and returns a dish structure. Look at the existing code to see what functions are already available.
+Once you've done this, refine
+  the dish-adding process as follows:  If a dish being added has the same
+  name as a dish already on that menu, then just replace the old price with
+  the new price.  This should happen when you're initially adding dishes
+  as well as when you're adding new dishes later; use the same code. 
+  This also means (automatically) that no menu will have two dishes with the
+  same name.
+
+(c.4)  Add a menu command to import
+another restaurant collection from another file, adding all the restaurants
+in that file to the main collection.  Re-use the file-reading code where
+possible.  
+After you've done the basic task of adding all the imported
+  restaurants to the collection, go back and implement this refinement:  If
+  a restaurant you're adding has the same name and phone number as a restaurant
+  that's already in the collection, then just add the new restaurant's
+  dishes to the existing record for that restaurant.  (Add uniquely, of
+  course, as in the previous part.) Do this same adding of restaurants that are unique by name-plus-phone for restaurants that the user adds manually.
+
+You'll note that with interactive interfaces,
+even text-based ones, handling testing isn't as easy as it is when we're
+just using the interpreter.  Now that we have files, so we can save restaurant
+set-ups, it's a little easier again.  But of course this doesn't
+mean that testing is no longer important.  It's just another illustration
+that interactivity adds an extra layer of complexity and that it's important
+to build and test our model (the underlying restaurant, menu, dish, and
+collection classes in this case) independently of the view and controller
+(the interface).
+
+You'll also note as you're doing this
+that you need to work with file-handling functions that are unfamiliar.
+ You have a description of the functions (and more detail is available in
+the DrScheme Help Desk, although looking there isn't necessary; you also
+have some working code to use as an example.  This is all you'll get
+(aside from a little assistance from your instructional staff, but you wouldn't
+have that in the real world); the thing is, it's more than you'd get in a similar situation in the real world, so learning how to make practical use of the information you do have is an important skill. One of the nice things about the Scheme we've
+done so far is that we could understand everything "down to the ground,"
+evaluating everything in terms of the basic rules of substituting values
+for expressions over and over.  But as we learn how to handle other interfaces
+(as we did with the graphics earlier, as we're doing here with external
+files, and as we could do with many other interfaces), we don't get to look
+under the hood.  We have to use the API (the application programming interface—the
+behavior, the contract and purpose of the functions, not their definitions),
+fitting the functions we're given together like pieces of a jigsaw puzzle
+to get the result we need.  Sometimes this involves taking code that we
+know works for a similar task, duplicating it, and modifying the copy to
+fit the new circumstances (and then perhaps abstracting and refactoring
+the new code with the original, if they're in the same program).  Becoming
+comfortable working with APIs is a crucial skill, since software is rarely
+built today without using some pre-existing library.
+
+Turn in your modified program via Checkmate.
+
+
+(d)  Remember that each partner must
+complete a partner evaluation form via the Survey tool on eee.uci.edu.  Please
+do this by the end of the day Friday.
+
+
+Based in part on ICS H21assignments by David
+G. Kay; modified by David G. Kay for the Informatics Core Course, Fall 2004, Fall 2005, Fall 2008, Fall 2010.
+
+David G. Kay, kay@uci.edu 
+
+Thursday, November 10, 2011 10:21 AM
+
+
+

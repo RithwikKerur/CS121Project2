@@ -1,0 +1,470 @@
+https://www.informatics.uci.edu/experiencecraft-creating-a-custom-minecraft-server-for-grieving-youth
+
+
+
+
+
+
+
+
+
+ExperienceCraft: Creating a Custom Minecraft Server for Grieving Youth | Informatics @ the University of California, Irvine
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+People
+Contact
+Site Map
+News
+
+
+
+
+Search for:
+
+
+
+ 
+
+
+
+
+
+Menu
+Skip to content
+Explore
+
+
+Chair’s Welcome
+Faculty Profiles
+Books We Read
+History of the Department
+Seminar Series
+Blogs We Author
+Department Vision
+Books We Have Written
+Visiting the Department
+Facts & Figures
+
+
+
+Graduate Degrees
+
+
+Overview
+Ph.D. Software Engineering
+Policies
+Ph.D. Informatics
+M.S. Software Engineering
+Diversity Ambassador
+M.S. Informatics
+Master of Software Engineering
+Student Profiles
+Master of Human-Computer Interaction & Design
+Courses
+Student Groups
+ 
+ 
+Upcoming Course Schedule
+
+
+
+Undergraduate Degrees
+
+
+B.S. Informatics
+B.S. Information & Computer Science
+Policies
+B.S. Business Information Management
+Special Opportunities
+Student Profiles
+B.S. Game Design and Interactive Media
+Minors
+Student Groups
+B.S. Software Engineering
+Courses
+Upcoming Course Schedule
+
+
+
+Admissions
+
+
+Graduate Application Process
+Coming from Abroad
+Housing
+Undergraduate Application Process
+Student Life
+
+
+
+Research
+
+
+Labs & Centers
+Ph.D. Research
+Undergraduate Research
+Areas of Expertise
+Past Dissertations
+Gifts & Grants
+Example Projects
+Masters Research
+
+
+
+Impact
+
+
+Research that Matters
+Undergraduate Alumni Spotlights
+Outreach
+Graduate Alumni Spotlights
+Community Engagement
+
+
+
+Support
+
+
+Champion Research
+Become a Corporate Partner
+Share Your Talent
+Support Students
+Provide Projects
+Set Future Agenda
+Post Jobs
+Graduate Resources
+
+
+
+
+
+
+MenuExplore
+
+Chair’s Welcome
+History of the Department
+Department Vision
+Facts & Figures
+Faculty Profiles
+Seminar Series
+Books We Have Written
+Books We Read
+Blogs We Author
+Visiting the Department
+
+
+Graduate Degrees
+
+Ph.D. Informatics
+M.S. Informatics
+Ph.D. Software Engineering
+M.S. Software Engineering
+Master of Human-Computer Interaction & Design
+Master of Software Engineering
+Courses
+Policies
+Diversity Ambassador
+Student Profiles
+Student Groups
+Upcoming Course Schedule
+
+
+Undergraduate Degrees
+
+B.S. Informatics
+B.S. Business Information Management
+B.S. Game Design and Interactive Media
+B.S. Software Engineering
+B.S. Information & Computer Science
+Special Opportunities
+Minors
+Courses
+Policies
+Student Profiles
+Student Groups
+Upcoming Course Schedule
+
+
+Admissions
+
+Graduate Application Process
+Undergraduate Application Process
+Coming from Abroad
+Student Life
+Housing
+
+
+Research
+
+Labs & Centers
+Areas of Expertise
+Example Projects
+Ph.D. Research
+Past Dissertations
+Masters Research
+Undergraduate Research
+Gifts & Grants
+
+
+Impact
+
+Research that Matters
+Graduate Alumni Spotlights
+Undergraduate Alumni Spotlights
+Community Engagement
+Outreach
+
+
+Support
+
+Champion Research
+Support Students
+Become a Corporate Partner
+Provide Projects
+Post Jobs
+Share Your Talent
+Set Future Agenda
+
+
+ 
+
+
+
+
+
+
+
+		← Site Map  News
+
+
+
+
+
+ExperienceCraft: Creating a Custom Minecraft Server for Grieving Youth
+September 14, 2022
+
+
+More than 250,000 children in the United States have lost a parent or primary caregiver because of the COVID-19 pandemic. There are 5.6 million children who, by age 18, will grieve the death of a parent or sibling. So there’s no question we need to create more thoughtful ways to support grieving youth. “You have to meet kids where they are,” says Courtney Dubin, chief program officer of Experience Camps, a nonprofit that supports grieving children through summer camp programs and other year-round initiatives.
+
+Although Dubin knew that the pandemic had led to a significant increase in the amount of time children were spending online, including playing games such as Minecraft, she never considered using that space for grief support. But then she read a white paper by Katie Salen Tekinbaş, co-founder of Connected Camps — a nonprofit organization that “turns screen time into learning time.” The paper, “Envisioning an Agenda for Diversity, Inclusion, and Fair Play,” talks about positive social and emotional and youth development outcomes in online communities. “It was just this lightbulb moment,” says Dubin. “What about grief?”
+She reached out to Salen Tekinbaş, a professor of informatics in UCI’s Donald Bren School of Information and Computer Sciences (ICS), and their conversation led to a unique collaboration between researchers from UCI’s Connected Learning Lab (CLL) and UC Berkeley’s Institute of Human Development, along with practitioners from both Experience Camps and Connected Camps. 
+The multidisciplinary team is now building ExperienceCraft, a custom Minecraft server that aims to provide a safe and supportive setting for grieving youth to play and connect with each other. “We know that active engagement and participation with grief-aware communities of peers is really important to kids who have lost someone important in their lives,” said Salen Tekinbaş. “Through this amazing partnership we wanted to explore how a game like Minecraft could provide such a community.”
+Everyone Here Gets ItExperienceCraft is a clinically informed, play-based, online platform, created by developers and educators at Connected Camps, in close partnership with a youth advisory board. The project is supported by the philanthropic investment of the New York Life Foundation, which provided a $100,000 grant. In addition, the Templeton World Charity Foundation provided $50,000 to further advance the work.
+ExperienceCraft includes a custom Minecraft server as well as an affiliated Discord server (which allows for voice chat and social connection outside of Minecraft), for youth ages 7–14 who have experienced the death of one or more people in their lives. College-age mentors from Connected Camps, along with volunteers from Experience Camps, moderate on the servers. “The impetus for the project was [Experience Camps] wanting to go ‘beyond the bunk,’ because their in-person summer camp model is limited to one week a year,” says Salen Tekinbaş. “Even though [the camp] is no cost, there were equity issues, so they were trying to explore models that could reach more kids and engage with the community year round.”
+Youth participants interacting on Discord and Minecraft.
+This unique Minecraft server is organized into three distinct “Worlds” (Creative, Survival and Minigames), each offering various organized activities and areas for free play. In the Creative World, for example, there is a Memorial Garden for celebration and reflection. Participants can also visit “Zen spaces” for de-escalation, private conversations or alone time, or visit the “Resort” for moderated conflict-resolution.
+The server offers three Worlds (Creative, Survival and Minigames), Zen Spaces, The Resort, anda Warp Hub for traveling to the different places.
+Summer PilotThe team ran a pilot from July 18–22, 2022, with approximately 30 kids participating. The Minecraft world was open three hours daily, from 5 p.m. to 8 p.m. ET. The researchers used the pilot to determine whether grieving kids would be interested in coming to the server and to explore how such a space could better support their “grief journey.” Krithika Jagannath, who earned her Ph.D. in informatics from UCI and is now a post-doctoral scholar at UC Berkely’s Institute for Human Development, is leading the research analysis, focusing on how the kids interacted and how their experience differed from what might occur in a traditional Minecraft server.
+“What would make [ExperienceCraft] serve these kids in a way that maybe a regular Minecraft server wouldn’t?” asked Salen Tekinbaş. “Maybe it’s just enough that every kid in the community has lost an important person in their life.” However, they aspired to offer something more, and based on their early analysis, they succeeded.
+“We saw kids on day one start talking about their person who died [and] saw multiple instances of kids engaging with their grief through expressions of their identity,” says Salen Tekinbaş. “They were also making meaningful contributions to the [Minecraft] world, which is really important for kids developmentally at this age.”
+Two players on the memorial plot where one of them built something to remember their dad in ExperienceCraft.
+Dubin was also impressed by how quickly kids took on leadership roles in the space. “About half of the kids were there for almost the full three hours, which I don’t think we expected,” she adds, “and they were waiting eagerly to get into the server.” The participants used Discord outside of Minecraft hours, talking to each other as they waited for the server to open. “If we had only five days to prove something, we proved that we opened a space that the kids wanted to come back to.”
+While much has been written about online toxicity, particularly in gaming, this server was designed to be welcoming. “According to our lead developer [Morgan Buyse], it was the most inclusive server that she has ever experienced,” says Dubin. “We had a kid show up who made a comment in the chat about being nervous, and they were bombarded by volunteers and other kids saying ‘we’re here, come do this, come do that,’ and then the kid wrote in all capital letters ‘FRIENDS!’”
+
+A youth advisory member built a large AmongUs character (red) and invited other kids on the ExperienceCraft server to support each other.
+Scaling the ServerGiven the success of the pilot, the team reopened the server on Aug. 5, and participants have already started inviting new people. The team is also collaborating with the Boys and Girls Clubs of America, planning to scale ExperienceCraft through the club network, possibly starting with clubs located in Detroit and Philadelphia.
+“I’ve been part of designing these kinds of environments for a long time, and growth takes time,” says Salen Tekinbaş. “It’s better that the community grows slowly, because you build capacity and leadership among the youth who are active on the server. So it’s actually nice that we have an active group of youth from the pilot who can help shepherd the growth of the community.”
+It’s also important that at the foundation of the ExperienceCraft ecosystem is the connected learning framework, an evidence-based framework focused on designing learning experiences for youth that connect their interests and relationships to various opportunities. “This project is a great example of what’s called a research-practice partnership, built around the theory of connected learning,” says Salen Tekinbaş. “So it’s based on this theory of how young people learn and why they need to engage in certain ways with certain types of peers, and then the research-practice partnership piece is a particular model of doing design with the researchers connected from the very beginning.”
+As the team moves forward in expanding the program, they hope to further explore how best to integrate more activities around grief. “We want the server to be a place that supports their grief journeys, but the tricky part is that the server doesn’t have clinically based activities, which would require a trained clinician,” says Salen Tekinbaş. “So the fine line with our design will be what can we do to encourage kids to engage around their grief, but not in ways in which they need clinical support.”
+The goal is to give kids the agency to explore and express their own needs and solutions. “We live in a world in which people struggle to talk about grief,” explains Dubin. “How would kids reimagine the world to be more grief aware and grief smart and what might that world look like in Minecraft?”
+“We have to reach more young people,” stresses Dubin. “There’s just not enough support services available for grieving kids, with BIPOC communities disproportionately affected by the grief gap. And the pandemic is shining a light on the inequity that already exists in terms of resources that are available to certain populations, so we really do need to meet kids in the spaces where they’re already playing and engaging with one another.”
+Dubin adds that online communities open opportunities to better address certain issues, such as support for kids who are neuro-diverse or have general social anxieties. They can also better connect kids from different geographies.
+Furthermore, the technology costs are relatively low. “We have ‘people costs’ to make sure that we have volunteers,” says Dubin, “but once you have the backend server set up, you can support a lot of kids, so that was a big driver for this.” She also believes this project could inform other trauma-related work, including gun violence, safety in schools and drug overdoses. “This work really has legs to help other areas in these environments, so I’m excited about the potential.”
+— Shani Murray
+
+
+
+Post navigation
+← Ph.D. Student Nika Nour Awarded 2022 Google Fellowship to Explore Effects of Deepfakes
+Recrafting Computer Science: $1.5M NSF Grant Leads to New Course Offering →
+
+
+
+
+
+
+ 
+
+October 2022
+September 2022
+July 2022
+June 2022
+May 2022
+April 2022
+March 2022
+February 2022
+January 2022
+December 2021
+November 2021
+October 2021
+September 2021
+August 2021
+July 2021
+June 2021
+May 2021
+April 2021
+March 2021
+February 2021
+January 2021
+December 2020
+November 2020
+October 2020
+September 2020
+August 2020
+July 2020
+June 2020
+May 2020
+April 2020
+March 2020
+February 2020
+January 2020
+December 2019
+November 2019
+October 2019
+September 2019
+August 2019
+July 2019
+June 2019
+May 2019
+April 2019
+March 2019
+February 2019
+January 2019
+December 2018
+November 2018
+October 2018
+September 2018
+August 2018
+July 2018
+June 2018
+May 2018
+April 2018
+March 2018
+February 2018
+January 2018
+December 2017
+November 2017
+October 2017
+September 2017
+August 2017
+July 2017
+June 2017
+May 2017
+April 2017
+March 2017
+February 2017
+January 2017
+December 2016
+November 2016
+October 2016
+September 2016
+August 2016
+July 2016
+June 2016
+May 2016
+April 2016
+March 2016
+February 2016
+January 2016
+December 2015
+November 2015
+October 2015
+September 2015
+August 2015
+July 2015
+June 2015
+May 2015
+April 2015
+March 2015
+February 2015
+January 2015
+December 2014
+November 2014
+September 2014
+August 2014
+July 2014
+June 2014
+
+ 
+
+
+
+People
+Contact
+Site Map
+News
+
+
+
+
+
+
+
+Feedback
+Privacy Policy
+					© 2022 UC Regents
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

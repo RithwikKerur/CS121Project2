@@ -1,0 +1,77 @@
+http://xtune.ics.uci.edu/xtune-pub.htm
+
+
+
+
+
+
+
+
+
+My Home Page
+
+
+
+
+
+
+
+
+
+
+
+xTune: A Formal Methodology for Cross-layer Tuning 
+of Mobile Real-time Embedded Systems
+ 
+[Home]
+[People] [News] [Publications] [Sponsors] [Links]
+
+
+
+
+[WEBS’08] M. Kim, D. Massaguer, N. Dutt, S. Mehrotra, S. Ren, M-O. Stehr, C. Talcott, N. Venkatasubramanian, “A Semantic Framework for
+Reconfiguration of Instrumented Cyber Physical Spaces”, Second Workshop on
+Event-based Semantics (WEBS’08) in conjunction with IEEE Real-Time and Embedded
+Technology and Applications Symposium (RTAS’08) in part of CPSWEEK, Apr.
+2008, St. Louis, MO, USA. [pdf] [bibtex] 
+ 
+[DATE’08] M. Kim, M-O. Stehr, C. Talcott, N. Dutt, N. Venkatasubramanian, “Constraint Refinement for Online
+Verifiable Cross-Layer System Adaptation", IEEE/ACM Design Automation and
+Test in Europe (DATE ‘08), Mar. 2008, Munich, Germany. [pdf] [bibtex]
+ 
+[SIGBED’08, RTSS-forum’07] M. Kim, N. Dutt, N. Venkatasubramanian, Carolyn Talcott,
+“xTune: Online Verifiable Cross-Layer Adaptation for
+Distributed Real-Time Embedded Systems", IEEE International Real-Time
+Systems Symposium (RTSS’07) Ph.D. Forum, Dec. 2007, Tucson, AZ, USA. [pdf] [bibtex]
+also published as SIGBED Review, Volume 5, Number 1, January 2008 
+Special Issue on the RTSS Forum on Deeply Embedded Real-Time Computing
+Best Overall Idea Award & Best System
+Architecture Award
+ 
+[FORMATS’07] M. Kim, M-O. Stehr, C. Talcott, N. Dutt, N. Venkatasubramanian, “Combining Formal Verification with
+Observed System Execution Behavior to Tune System Parameters",
+International Conference on Formal Modelling and
+Analysis of Timed Systems (FORMATS’07) in part of ESWEEK, Oct. 2007,
+Salzburg, Austria., LNCS 4763 (pp. 257 - 273) [pdf] [bibtex]
+ 
+[FMOOD’07] M. Kim, M-O. Stehr, C. Talcott, N. Dutt, N. Venkatasubramanian, “A Probabilistic Formal Approach to
+Cross-layer Optimization in Distributed Embedded Systems", IFIP Conference
+on Formal Methods for Open Object-Based Distributed Systems (FMOODS’07),
+Jun. 2007, Paphos, Cyprus., LNCS 4468 (pp. 285 -
+300) [pdf] [bibtex] 
+ 
+[RTAS-WiP’06] 
+M.
+Kim, N. Dutt, N. Venkatasubramanian,
+“Policy Construction and Validation for Energy Minimization in Cross Layered
+Systems: A Formal Method Approach”, IEEE Real-Time and Embedded Technology and
+Applications Symposium (RTAS’06) Work-in-Progress Session Apr. 2006, San
+Jose, CA, USA. (For citation, please refer [FORMATS’07])
+ 
+
+
+
+Last modified: Jan/15/2009 
+
+
+

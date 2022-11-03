@@ -1,0 +1,68 @@
+http://www.ics.uci.edu/~kay/courses/i41/hw/hw5.html
+
+
+
+
+
+
+Fifth Homework
+
+
+
+
+
+
+
+INFORMATICS 41 • DAVID G. KAY • UC IRVINE • FALL 2011
+ Fifth Homework 
+
+This assignment is due at the start of lab on
+Monday, October 24. 
+(1)  In Chapter 25, do exercise 25.4.2. Read Chapter 26 and Chapter 27, which cover material we've seen in class.
+
+(2) Create a file with the sorting code from last week: sort4, BST-sort, build-list, and the functions they call. Create five lists of random numbers with 20,000, 40,000, 60,000, 80,000, and 100,000 elements. Set up timing expressions to sort each of those lists with the insertion sort and again with the BST sort. Make a table (using a spreadsheet, a word processor, or paper) with two columns, one for insertion sort and the other for BST sort, and five rows, one for each size list. Fill out the table with the timing figures (just use the first figure in each timing, the CPU time). Can you predict what the entries would be for a list of 120,000 elements, or 200,000, or 1,000,000?
+We'll talk about these issues next week.
+(3) In last week's lab you saw an example of nested lists (lists containing other lists). Here's another:
+;; Data definition:  A book is either
+;; -- empty, or
+;; -- (cons symbol book), where a symbol represents a word, or
+;; -- (cons book book)
+So this is a book:
+(define TTC '(A Tale of Two Cities
+                 (It was the best of times)
+                 (It was the Dover road)))
+This gives us a hierarchical (tree-shaped) organization; each nested list could be a chapter, which itself could contain lists for each section or paragraph. But suppose we want to count the words in this book.
+;; word-count:  book -> number
+;; Return number of words in book
+
+(check-expect (word-count TTC) 16)
+(check-expect (word-count empty) 0)
+We can't just say (length TTC); that gives us the number of elements at the top level (7 in this case), counting each nested list as a single item. Instead, we need to look into each nested list. We can write the code for this by following the data definition, which has three parts: The list is empty, the first item is a symbol, or the first item is a list:
+(define word-count
+  (lambda (B)
+    (cond
+      ((empty? B) ...)
+      ((symbol? (first B)) ...)
+      (else ...))))
+If the book is empty, it has zero words. If the first item is a word (a symbol), add 1 to the number of words in the rest of the book. If the first item is a book (a list), add the number of words in that book to the number of words in the rest of the book.
+(define word-count
+  (lambda (B)
+    (cond
+      ((empty? B) 0)
+      ((symbol? (first B)) (add1 (word-count (rest B))))
+      (else (+ (word-count (first B)) (word-count (rest B)))))))
+Notice that there's a recursive call in this code at exactly the same places as "book" appears in the data definition above.
+Now, define the function word-count2 as described below. This is a good measure of your comfort with reading and understanding Scheme code; if it gives you difficulty, sit down with the instructor or TA to get it cleared up.
+;; word-count2:  book  list-of-symbols  ->  number
+;; Return the number of words in the book that are not on the input list
+(check-expect (word-count2 TTC '(A a An an The the It it Of of)) 9)
+[Hint: This is very similar to word-count; you just need to focus on the second cond clause. The predefined function member? should be very helpful.]
+(4) Take this opportunity to go back over all the previous homework assignments and do problems you didn't get to or redo problems that gave you trouble. Since there's not much new Scheme here, you have a chance to shore up your understanding.
+Based in part on ICS H21 assignments by David G. Kay; modified by David G. Kay for the Informatics Core Course, Fall 2004-Fall 2009.  Modified Fall 2010 and Fall 2011 by David G. Kay to reflect the Picturing Programs text.
+
+David G. Kay, kay@uci.edu 
+
+Saturday, October 22, 2011 10:09 AM
+
+
+

@@ -1,0 +1,73 @@
+http://sli.ics.uci.edu/Classes-2008F/UsefulBackground
+
+
+
+SLI | Classes-2008F / UsefulBackground 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Classes-2008F /
+UsefulBackground
+
+
+Back to Puzzle
+
+Add some stuff here.
+
+Curve Matching
+
+Belief propagation
+
+Image segmentation
+Peter Kovesi's MATLAB code for vision and image processing
+Link -- The section titled "Edge linking and line segment fitting" seems like it may be especially useful.  I fed it a perfect outline of a piece, and it converted it to a sequence of line segments and returned the coordinates of each vertex along the path.  Nice.
+MATLAB can perform all sorts of useful magic.  For example -- given a nasty, thick, outline of a puzzle piece, you may want to consider bwmorph(img,'thin').  It can also find edges in grayscale images.  Who knew?  I submit to you the slyly-named edge function.
+
+
+
+
+
+
+ Last modified October 13, 2008, at 11:29 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

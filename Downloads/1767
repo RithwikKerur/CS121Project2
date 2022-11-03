@@ -1,0 +1,140 @@
+http://sli.ics.uci.edu/Classes/2013S-77B
+
+
+
+SLI | Classes / ICS77B / Math77B: Collaborative Filtering 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Classes /
+ICS77B / Math77B: Collaborative Filtering
+
+
+ CLOSED : 2013 OFFERING  
+
+Handouts and Assignments:
+
+Lab 1Mean predictons
+HW1Getting started
+HW2Similarity-based predictionsSoln
+HW3Linear predictors
+HW4Clustering
+HW5Matrix decomposition
+HW5Blending & Final Write-up
+
+Lecture: Tues/Thurs 11-12:30pm, Roland Hall 421 (PRISM Lab)
+Lab: Tues 2-3:30pm, Roland Hall 421 (PRISM Lab)
+.... Additional lab hours: Fridays 2:30-4pm, PRISM Lab
+Instructor: Prof. Alex Ihler (ihler@ics.uci.edu), Office Bren Hall 4066
+Office Hours: Mondays, 2-3pm, Bren Hall 4066
+Teaching Assistant: Sholeh Forouzan (sforouza@uci.edu)
+Office Hours: Prism Lab, Fri 2:30-4
+
+Overview
+Many companies collect data at an unprecedented scale. Online stores such as Amazon collect click patterns and purchases by people navigating their webpages, credit score companies such as Experian and banks record clients' financial histories, Netflix records peoples' interest in movies, and so on.
+
+A new field is starting to emerge known as "collaborative filtering" where this type of data is used to predict quantities of interest: What is the next book a customer would buy? Will this person pay his/her loan?, What are the next movies this customer will be interested in?
+
+As evidence for the prominence of this problem in industry, Netflix announced a challenge in 2005, in which anyone who could improve their customer recommendation system by more than 10% would receive $1,000,000.
+
+This course will be based around several real-world collaborative filtering data sets. Students will study the theoretical aspects of machine learning, clustering, matrix factorizations, and statistical estimation in order to approach the problem of collaborative filtering and recommendation. 
+
+Note that this class is highly interactive. You set the pace that is right for you! There is no fixed agenda and no exams. We want you to get an appreciation for research, and research can only be learned by doing it yourself. This class will also give you access to (funded) summer research projects. 
+
+
+Kaggle class competitions
+We will have two data sets for testing:
+Jester joke ratings
+Join here using your uci.edu email
+Training data: -10..10=rating, 99=not rated, 98=test point
+Test keys: (user,item) pairs in order
+output function to convert prediction matrix to output file
+See also this page for more details about Jester
+Try the Jester interactive rating system here
+MovieLens movie ratings
+More information to come here.
+
+
+Work and Grading
+The class will consist of
+several lab milestones ("homework"), as individuals with collaboration
+a presentation of a research paper to the class, in groups of 2-3 students
+a project with presentation and write-up, in groups of 2-3 students
+(These may be subject to change as the course proceeds.)
+
+
+Useful Links
+Some course notes on machine learning, in development
+A LaTeX template I use for my homeworks and solutions.
+This link has another nice way to include Matlab code in LaTeX.
+A Matlab cheat-sheet; and another.
+Matlab also has a number of toolboxes that can have many useful commands; see here.
+
+Miscellaneous notes
+
+Readings
+For the week of May 21st, we will form small groups (2-3 students) and choose one of the following papers per group to present in class.  Please let me know your group and paper selection by Thursday, 5/9.  Presentations will be 5-7 minutes each, plus 2-3 minutes for questions, on the key ideas and results/conclusions of the paper.  (You do not need to present the details of derivations, etc.)  I suggest using powerpoint slides, but whiteboard presentation is also OK.  Scores will be given based on correctness, organization, professionalism, and clarity.
+
+Please discuss the paper among your group and with the instructor and TA early, no later than Tuesday 5/14, to help get on track and correct any issues.
+
+Papers: 
+Pennock et al. (2000): Collaborative Filtering by Personality Diagnosis
+Calandrino et al. (2011): Privacy Risks of Collaborative Filtering -- (M. Schwinger, A. Koster, I Elmaleh)
+Herlocker et al. (2002): An Empirical Analysis of Design Choices in Neighborhood-based CF -- (I. Ng, R. Shiroma, J. Jones)
+Goldbeck (2006): Generating... Recommendations from Trust in Social Networks -- (N. Carrillo, R. Gallego, Z. Kloock)
+Boutilier et al. (2003): Active Collaborative Filtering
+Si & Jin (2003): Flexible Mixture Model for CF -- (M. Barnett, J. Tan, J. Perez)
+Koren & Bell (2007): Advances in Collaborative Filtering  (Ch3) (Ch4-5)
+Pan et al. (2008): One-class Collaborative Filtering
+Chen et al. (2011): Robust Matrix Completion with Corrupted Columns
+Other reading (not for presentation):
+Linden et al. (2003): Amazon.com recommendations
+
+
+
+
+
+
+ Last modified January 19, 2015, at 04:35 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

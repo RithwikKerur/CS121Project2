@@ -1,0 +1,10 @@
+http://plrg.ics.uci.edu/publications/290.bib
+@inproceedings{key,
+ author = {Jin Zhou and Brian Demsky},
+ title = {Bamboo: A Data-Centric, Object-Oriented Approach to Multi-core Software},
+ booktitle = {Proceedings of the 2010 Conference on Programming Language Design and Implementation},
+ pages = {388--399},
+ location = {Toronto, Canada},
+ month = {June},
+ year = {2010}
+}

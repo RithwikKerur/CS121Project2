@@ -1,0 +1,187 @@
+https://ngs.ics.uci.edu/uncertainty-in-databases
+
+
+
+
+
+
+
+
+Uncertainty in Databases – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Uncertainty in Databases    			
+
+
+While attending a talk on uncertainty in databases, it became clear to me that the approach that is being adopted to deal with uncertainty in databases is very different than what I have seen in other areas.  
+I could not help but think — not sure of this yet — that one goal is not to significantly change the current structure of relational model and yet deal with uncertainty.  This is going to become challenging because uncertainty is an ‘attribute’ of data that is processed and chaged with different operations on data.  With current set theoretic model of relational algebra, can one bring in partial membership (what fuzzy set theory people tried to do) in a set?  That may create problems in standard operations like joins in databases.  That will also start creating problems in selecting appropriate records from the data bases in response to queries.
+SO it is really an interesting issue whether one can easily bring in the notion of uncertainty in relational databases.
+A related thought that comes to mind is that uncertainty is a mechanism to relate relae world to its model.  Databases abstract out the real world first by selecting appropriate modeling in using the datamodel and then making sure that this data is entered by means, including humans, that remove uncertainty.  All database operations were designed under this assumption.  Now if we start changing this and start accepting data from the real world directly in the RDB, then it is natural that many difficult challenges will arise.
+This may become more interesting and applicable area.
+
+
+
+By Ramesh |
+    				February 6, 2009 |
+    				             		Technical Thoughts |
+             	 
+    				             		1 Comment |
+             	 		          				
+    			
+
+
+← Getting funding for startups getting tougher
+All those LifeLogs and Mobile Phones →
+
+
+
+			One thought on “Uncertainty in Databases”		
+
+
+
+
+Tz4Bu February 7, 2009 at 2:02 am 
+
+it is true !
+regards from romania
+
+
+
+
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

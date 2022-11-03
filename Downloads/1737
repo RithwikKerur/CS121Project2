@@ -1,0 +1,90 @@
+http://sli.ics.uci.edu/Code
+
+
+
+SLI | Code / Code 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Open-source Code
+This page contains links to open-source code written by members of the group or our collaborators.
+
+
+
+Kernel Density Estimation (KDE) Toolbox for Matlab
+Kernel density estimation and many related problems
+KD-tree data structures for fast spatial computations
+Includes products of Gaussian mixtures, for NBP
+ 
+
+Nonparametric Belief Propagation
+Example NBP Code by Danny Bickson
+Uses KDE Toolbox; sample applications from low-density lattice decoding (LDLC), multiuser detection, fault identification and compressive sensing.
+ 
+
+Adaptive Inference in Factor Trees, for Matlab
+Efficient incorporation of model changes into a tree-structured factor graph
+Model updates take O(log n) time each
+Query marginal distributions in O(log n) time; maintain MAP configurations in O(d log n/d) time, where d is the number of changes in the configuration. 
+ 
+
+Markov-modulated Poisson processes for event detection in count data
+Mote count sensors
+ 
+
+Gaussian Process Regression with uncertain time-shifts, used for gene expression time series.
+Uses Gaussian process regression to estimate the profile of each gene, while allowing each replicate organism to
+shift slightly in time relative to the others, to account for biological variation in development speed.
+(:endif:)
+
+
+Mutual information-based learning
+
+
+
+
+
+
+ Last modified July 07, 2016, at 04:18 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

@@ -1,0 +1,88 @@
+https://sli.ics.uci.edu/PmWiki/Requirements
+
+
+
+SLI | PmWiki / Requirements 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+Requirements
+
+
+
+
+administrators (basic) 
+
+Prerequisites for running the PmWiki wiki engine:
+PHP 4.3 or later
+PHP 5 or later is recommended
+for PHP 5.5 compatibility use the current version of PmWiki
+Some sort of webserver that can run PHP scripts.
+PmWiki has been reported to work with the following OS/webserver combinations:
+Apache 1.3 or 2.0, on roughly anything (Unix, Linux, Windows, and Mac OS X)
+Apache 2.4 or later is recommended
+lighttpd (1.4.19 php-fastcgi ssl) on Linux
+nginx (0.8.47) on Windows
+Microsoft Internet Information Server, on Windows
+Linux + LiteSpeedWeb Server Standard Edition 
+appWeb (a small, php-enabled webserver) executing on a Linksys NSLU2 Network Storage Link device
+PmWiki has been reported not to work on:
+Mac OS before Mac OS X because there's no PHP available
+Specific Release Candidate builds of PHP 5.3 for Windows may not work correctly with passwords
+The Standalone recipe provides a special, bare-bones webserver application that can be used to run PmWiki in places where another webserver isn't available.
+PmWiki can also be run from a USB drive.
+ 
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:Requirements, and  a talk page: PmWiki:Requirements-Talk.
+
+
+
+
+
+
+ Last modified March 11, 2014, at 05:02 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

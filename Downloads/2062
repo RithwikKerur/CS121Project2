@@ -1,0 +1,441 @@
+https://isg.ics.uci.edu/event/babak-salimi-causal-inference-for-responsible-data-science
+
+
+
+
+
+
+Babak Salimi: Causal Inference for Responsible Data Science – Information Systems Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+
+Faculty
+Students
+Recent Alumni
+Research Staff
+Visitors
+
+
+Research
+
+Projects
+Publications
+
+
+Teaching
+
+Courses
+DB Qual
+
+
+Events
+
+Talks
+News
+
+
+About
+
+Sponsors & Partners
+Visitor Info
+Contact us
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ISG Talks are sponsored by Couchbase.
+<< All Talks
+
+
+
+ « All Events
+
+
+This event has passed.
+Babak Salimi: Causal Inference for Responsible Data Science
+
+April 14, 2020 @ 11:00 am - 12:00 pm 
+
+
+
+
+
+« Pat Helland (Salesforce.com) : Depending on Appending
+David Lomet: Better Database Cost/Performance via Programmable SSD Batched I/O »
+
+
+
+
+
+
+
+
+
+ABSTRACT:
+Scaling and democratizing access to big data promises to provide meaningful, actionable information that supports decision-making. Today, data-driven decisions profoundly affect the course of our lives, such as whether to admit applicants to a particular school, offer them a job, or grant them a mortgage. Unfair, inconsistent, or faulty decision-making raises serious concerns about ethics and responsibility. For example, we may know that our training data is biased, but how do we avoid propagating discrimination when we use this data?  How do we avoid incorrect, spurious and non-reproducible findings? How can we curate and expose existing data to make it “safe” for informed decision making?
+In this talk,I describe how we can combine techniques from causal inference and data management to develop systems and algorithms that help answer some of these questions.  Many existing popular notions of fairness in ML fail to distinguish between discriminatory, non-discriminatory and spurious correlations between sensitive attributes and outcomes of learning algorithms. I present a new notion of fairness that subsumes and improves upon previous definitions and correctly distinguishes between fairness violations and non-violations. Further, I describe an approach to removing discrimination by repairing training data in order to remove the effects of any inappropriate and/or discriminatory causal relationships between a protected attribute and classifier predictions.  Analytical SQL queries supported by mainstream business intelligence and analytics environments can lead to perplexing observations and incorrect business decisions. I describe a system that automatically rewrites analytical SQL queries into complex causal queries that support decision-making.
+Bio
+Babak Salimi is a postdoctoral research associate in Computer Science & Engineering at the University of Washington, Seattle, where he works with Prof. Dan Suciu and the Database Group. He received his Ph.D. from the School of Computer Science at Carleton University in Ottawa, Canada and his M.Sc. in Computation Theory (2009) and B.Sc. in Computer Engineering (2006) from Sharif University of Technology and Azad University of Mashhad, respectively. Salimi’s research interests span data management, causal inference, decision-making systems, algorithmic fairness and responsible data science.
+
+Zoom Link: https://uci.zoom.us/j/232157494
+ 
+
++ Google Calendar+ iCal Export
+
+
+
+ Details 
+
+ Date: 
+
+ April 14, 2020 
+
+ Time: 
+
+
+					11:00 am - 12:00 pm				
+
+ Website: 
+ https://uci.zoom.us/j/232157494 
+
+
+
+ Venue 
+
+ https://uci.zoom.us/j/232157494 
+
+
+
+ 
+
+
+
+
+
+« Pat Helland (Salesforce.com) : Depending on Appending
+David Lomet: Better Database Cost/Performance via Programmable SSD Batched I/O »
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+Search for :
+
+
+Latest News 
+
+
+
+Upcoming Talk: How to build your own Business
+
+											July 25, 2022																																
+
+
+Upcoming Talk: Couchbase and Distributed Computing Backends for big data processing
+
+											May 31, 2022																																
+
+
+Upcoming Talk: Shedding Light on Opaque Database Queries
+
+											May 31, 2022																																
+
+
+ISG researchers won the  Mark Weiser Best Paper Award at IEEE PERCOM 2022
+
+											March 24, 2022																																
+
+
+
+
+Upcoming Events
+
+
+
+
+Qiushi Bai: QueryBooster-Improving SQL Performance Using Middleware Services for Human-Centered Query Rewriting + Demo
+
+
+
+October 14 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Xiaozhen Liu: Demonstration of Collaborative and Interactive Workflow-based Data Analytics in Texera
+
+
+
+October 21 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Abhishek Singh: WedgeBlock – An Off-Chain Secure Logging Platform for Blockchain Applications
+
+
+
+October 28 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Juncheng Fang: PeloPartition- Improving Blockchain Resilience to Partitioning by Sharding
+
+
+
+November 4 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Peeyush Gupta: A Demonstration of TippersDB
+
+
+
+November 18 @ 12:30 pm - 2:00 pm 
+
+
+
+View All Events
+
+Please follow & like us :) 
+
+Follow  
+
+ 
+
+
+
+
+
+
+
+			Copyright 2018 | ISG-UCI		
+
+
+
+
+
+
+cross
+
+
+
+
+
+
+
+
+
+
+Hit ENTER to search or ESC to close
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

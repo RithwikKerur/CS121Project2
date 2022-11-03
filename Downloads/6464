@@ -1,0 +1,223 @@
+https://www.ics.uci.edu/~sharad
+
+
+
+
+
+
+
+
+
+
+
+Sharad Mehrotra Group Page
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+Contact Information 
+2082 Bren Hall
+University of California
+    at Irvine
+Irvine, CA
+92697-3425
+USA
+
+Office:
+    ICS 424
+    Office Tel: +1(949)824-5975
+    Office Fax: +1(949)824-4056
+E-mail: sharad@ ics dot uci
+    dot edu 
+Office Hours
+Thurs: 11-12 or by appointment via email.
+ 
+Administrative Assistant
+Mary Carrillo
+mlcarril@ ics dot uci dot edu
+    Office Tel: +1(949)824-3289
+    Office Fax: +1(949)824-4056
+Links 
+Past Projects
+Personal Home Page
+Publication List 
+Students
+    (Past & Present)
+ 
+
+
+Sharad
+    Mehrotra, Professor of Computer
+    Science
+Research Areas
+Data Management Systems, Distributed Systems, Sensor-based Pervasive
+    Systems, Situational Awareness, Data Quality, Data Privacy, Emergency
+    Response Technologies
+Research Centers
+Center for Emergency Response Technologies
+    (CERT)
+California Institute Telecommunication
+    & Information Technology (Calit2)
+Information Systems Research Group (ISG)
+ 
+Biography
+Sharad
+    Mehrotra is a Professor in the School
+    of Information and Computer
+    Science at University of California,
+    Irvine
+    and Director of the  Center for Emergency
+    Response Technologies (CERT) at UCI. He also serves as the Director and PI of
+    the RESCUE project (Responding to Crisis and Unexpected Events) which,
+    funded by NSF through its large ITR program, spans 7 schools and consists
+    of 60 members. He is associated with the Cal-IT2 institute -- a
+    multidisciplinary research facility spanning University
+    of California, Irvine
+    and University of California,
+    San Diego.
+    He is the recipient of Outstanding Graduate Student Mentor Award in 2005.
+    Prior to joining UCI, me was a member of the faculty at University
+     of Illinois,
+    Urbana Champaign in the Department of Computer Science where he was the
+    recipient of the C. W. Gear Outstanding Junior Faculty Award. Mehrotra has
+    also served as a Scientist at Matsushita Information
+    Technology Laboratory immediately after graduating with a Ph.D. from University of
+    Texas at Austin(1988-1993).
+ 
+Mehrotra's research expertise is in data management and distributed systems
+    areas in which he has made many pioneering contributions. Two such
+    contributions include the concept of "database as a service"  and "use of information retrieval
+    techniques, particularly relevance
+    feedback, in multimedia search". Mehrotra is a recipient of numerous
+    best paper nominations and awards including  SIGMOD
+    Best Paper award in 2001 for a paper entitled  "Locally Adaptive
+    Dimensionality Reduction for Indexing Large Time Series Databases",
+    Best of VLDB 1994 submissions for a paper entitled "Concurrency Control in Hierarchical Multidatabase System", best paper award in
+    DASFAA 2004 for the paper entitled "Efficient
+    Execution of Aggregation Queries over Encrypted Databases", best paper award nomination for a paper
+    entitled Neighborhoods:
+    A framework for enabling web-based synchronous collaboration and
+    hierarchical Navigation at HIICS, 1996, and a best student paper award at IEEE
+    Workshop on Multimodal Sentient Computing: Sensors, Algorithms and Systems
+    (WMSC 2007) held in conjunction with IEEE CVPR (Computer Vision and Pattern
+    Recognition) 2007.
+ 
+Mehrotra's
+    current research focuses on building sentient spaces using multimodal
+    sensors, data privacy, and data quality. Mehrotra's
+    recent research, particularly, in the context of RESCUE & CERT has
+    focused on situational awareness from multimodal input including
+    conversational speech data. Many of his research contributions have been
+    incorporated into software artifacts which are now
+    in use at various first responder partner sites. 
+Selected Publications
+1.     Y. Rui,
+    T. Huang, M. Ortgega and S. Mehrotra, "Relevance Feedback: A Power Tool
+    in Interactive Content-Based Image Retrieval". IEEE Trans. on Circuits and Systems for
+    Video Technology, Vol. 8, No. 5, Pages 644-655, September,
+    1998. An early paper
+    on relevance feedback in image retrieval. 
+2.     K. Chakrabarti, E.
+    Keogh, M. Pazzani and S.
+     Mehrotra, "Locally
+    Adaptive Dimensionality Reduction for Indexing Large Time Series
+    Databases", ACM Transactions
+    on Database Systems. TODS 27(2): 188-228 (2002). Winner of IGMOD best paper
+3.     H. Hacigumus, B.
+Iyer,
+    C. Li
+    and S. Mehrotra, "Executing SQL over Encrypted Data
+    in Database- Service-Provider-Models ", ACM SIGMOD 2002 conference. Winner of SIGMOD Test of Time
+    award in 2012
+4.     Hakan Hacigumus, Bala Iyer, Sharad Mehrotra. Secure Computation over Outsourced
+    Data: A 10-Year Retrospective. DASFAA 2014. Invited Paper accompanying the 10 Year Best Paper
+    Award in DASFAA 2014.
+5.     Chen Li, Sharad Mehrotra, Liang Jin. Record Linkage: A 10-Year Retrospective.
+    DASFAA (1) 2013: 3-12. Invited Paper Accompanying the 10 Year
+    Best Paper Award in DASFAA 2013.
+6.     S. Mehrotra, C. Butt , D. Kalashnikov,
+    N. Venkatasubramanian, R. Rao,
+    G. Chockalingam, R. Eguchi,
+    B. Adams C. Huyck, Project RESCUE: Challenges in Responding
+    to the Unexpected, SPIE Internet
+    Imaging Conference, 2004 ( an early paper addressing the role of IT innovation
+    in bringing transformation advances to 
+    crisis response ) 
+7.    
+    Liyan Zhang, Dmitri
+    Kalashnikov, Sharad Mehrotra. A
+    Unified Framework for Context Assisted Face Clustering. 2013 ACM
+    International Conference on Multimedia Retrieval. Winner of est
+    paper award. 
+8.     Dmitri Kalashnikov; Sharad Mehrotra. Domain-independent data cleaning via
+    analysis of entity-relationship graph, In ACM Transactions on Database Systems (ACM TODS) 2006. ( an early paper
+    on relational approach to entity resolution) 
+9.     Lazaridis, S. Mehrotra,
+    Optimization of Multi-version
+    Expensive Predicates, ACM SIGMOD 2007 (a paper with “unrealized” potential).
+    
+ 
+Current
+    /Ongoing Projects
+ 
+Sherlock Project on
+    novel directions of improving data quality particularly focused on
+    interactive and progressive data cleaning in the context of big data
+    analysis and applications.. Sherlock is funded by
+    NSF Grant 1118114.
+    
+ 
+Radicle Project on a
+    risk-based approach to data processing in mixed security environments with
+    the focus on cloud computing. Radicle is funded by NSF Grant 1118127
+    and 1212943
+ 
+I-Sensorium
+    Project on creating a pervasive computing testbed
+    at UCI. I-sensorium is funded through NSF Grant 1059436
+ 
+Cypress
+    Project on cyber physical
+    system resilience and sustainability . Cypress is
+    funded through NSF Grant 1063596
+
+
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+

@@ -1,0 +1,61 @@
+http://computableplant.ics.uci.edu/theses/companib
+
+
+
+Ben Compani
+
+
+
+
+
+
+
+
+Ben Compani 
+companib@uci.edu
+	  Institute for Genomics and Bioinformatics
+Department of Information and Computer Science
+University of California, Irvine
+
+	   	
+            
+        In March 2012 I completed a PhD in computer science with a 
+concentration in Informatics for Biology and Medicine at the University
+		of California, Irvine. 
+         
+        My advisor was Eric
+	     Mjolsness. The main webpage for Eric's research group
+		is Computable
+            Plant.
+
+    
+	   
+	  
+
+
+
+
+My research interests lie within the realms of the simulation 
+of biochemical reaction networks, database design and enzymatic reaction
+ mechanisms. 
+          My PhD dissertation focused on the schematic representation and database population strategies for Sigmoid, a biochemical network modeling tool. I also created a program, SigMech, to construct models of enzyme mechanisms. My dissertation  is available here as a 
+          PDF. 
+
+
+
+Publications:
+[Compani et al. 2010] B. Compani, T. Su, I. Chang, 
+J. Cheng, K. H. Shah, T. Whisenant, Y. Dou,  A. Bergmann, R. Cheong, B. 
+Wold, L. Bardwell, A. Levchenko, P. Baldi, and E.  Mjolsness, A Scalable
+ and Integrative System for Pathway Bioinformatics and  Systems Biology.
+ Adv Exp Med Biol. 2010; 680: 523–534.  
+[Podkolodny et  al. 2006] Podkolodny NL, 
+Podkolodnaya NN, Miginsky DS,  Poplavsky AS, Likhoshvai VA, Compani B, 
+Mjolsness E. An  integration of the descriptions of gene networks and 
+their models presented in  Sigmoid (Cellerator) and GeneNet, 5th 
+International Conference on the  Bioinformatics of Genome Regulation and
+ Function (BGRS-2006), Volume 3, pp.  86-90.
+A technical report on Sigmoid is available here as a PDF.
+
+
+

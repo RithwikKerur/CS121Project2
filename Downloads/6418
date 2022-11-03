@@ -1,0 +1,96 @@
+http://www.ics.uci.edu/~kay/courses/i41/hw/collab.html
+
+
+
+
+
+
+Collaboration and Independence
+
+
+
+
+
+
+
+
+INFORMATICS 41 • DAVID G. KAY • UC IRVINE 
+
+COLLABORATION AND INDEPENDENT
+WORK
+
+Part of being a professional is following the
+profession's norms of accepted behavior.  As you know, you may not copy
+commercial programs from the lab machines to use at home.  Likewise, in
+an academic setting you may not turn in someone else's work as your
+own.  ("As your own" is the key phrase:  If you use code from
+the textbook or from your TA, you should include a comment indicating where
+the code came from.  This is perfectly permissible unless an assignment
+explicitly restricts what code you may use.  Joint work may be allowed or
+required by an assignment, as we are doing with pair programming.  However,
+using code from other students or from sources outside of the course is
+not permissible in Informatics 41 except when an assignment explicitly allows
+or requires it.)
+
+As a general principle, we expect you to do
+your own independent work in all parts of this course.  In this course it
+is always permissible, even desirable, to talk with your classmates about
+the conceptual course material or the requirements of an assignment (though
+the instructor or TA will be most reliable for this).  It is always permissible
+to get help from anyone about using the programming environment or other
+system details, help with minor syntax errors, or suggestions of possible
+test cases for your programs (though when an assignment requires it, you
+must write your own description of your test plan).  It is never permissible
+(except if an assignment explicitly allows or requires working in groups)
+to copy another student's solution (whether code, prose, or math). 
+A good rule of thumb is this:  Any time you find yourself writing down
+(on paper or by electronic means) part of someone else's solution, you
+are copying impermissibly.
+
+Turning in another person's work as your
+own violates the honesty policies of ICS and UCI (http://www.ics.uci.edu/ugrad/policies/index.php/index.php#cheating).
+The School of ICS takes academic honesty very seriously and imposes serious
+penalties on students who violate its guidelines. Detected violations could
+result in your failing the course, having a letter filed with the school,
+and losing a variety of other benefits and privileges.  We do check for
+academic dishonesty both manually and automatically.  It is an unfortunate
+fact that nearly every quarter, some students in ICS classes are found to
+have violated these policies; to protect the privacy of the guilty, violations
+are not made public, but sadly, they do occur.  No matter how much pressure
+you feel from deadlines or other sources, no matter how inconceivable it
+is to you that you might not complete an assignment on time, never
+take the shortcut of turning in someone else's code.  Compared to the
+consequences of academic dishonesty, one low assignment score is a minor
+disadvantage.  If you feel as if you're falling behind or have other
+difficulties, see your TA or the instructor; we will help you work around
+your trouble.
+
+We do encourage all students to help their
+classmates with the course material and the labs, within these limits. 
+Helping someone else doesn't hurt your grade; we don't have any
+quota on how many As or Bs we can give.  It is even permissible in Informatics
+41 to let someone else look over your code to get an idea of how
+you organized it.  However, you should not let anyone copy your code,
+either on paper or electronically.  In fact, it is wise to keep your code
+in your own possession; if you give a copy to someone else, even if it's
+just "for reference," that person might be tempted to copy portions
+of your code; then you could be accused of academic dishonesty. 
+
+Most importantly, realize that getting "the
+answer" is only the last part of each assignment.  Equally important
+is the process of getting the solution—including the false starts,
+bugs, misconceptions, and mistakes—because the learning occurs in the doing.
+ Completely apart from the ethical issues, copying a solution deprives you
+of the whole point of the assignment.
+
+
+David G. Kay, kay@uci.edu
+
+
+
+Tuesday, September 20, 2011 9:19 PM
+
+
+
+
+

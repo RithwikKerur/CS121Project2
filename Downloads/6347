@@ -1,0 +1,64 @@
+http://www.ics.uci.edu/~kay/courses/i42/hw/assignments_index_files/grading_criteria_for_lab.html
+
+
+
+
+
+Grading Criteria for Lab Assignments
+
+
+
+
+
+
+
+
+Grading Criteria for Lab Assignments
+
+Lab assignments will be graded on the following
+qualities, in rough order of priority:
+
+
+Correctness (Nothing else matters if
+the results aren't right.)
+
+
+
+Completeness (We expect everyone to
+finish the required features of each assignment, but if it comes to a choice,
+it's much better, both in class and in real life, to submit something
+that works perfectly but doesn't implement every feature than something
+that could produce a wrong answer.)
+
+
+Design (Correctness matters, but it's
+not the only thing that matters.  Your design choices should not be awkward,
+cumbersome, or inappropriate; your methods should be broken into parts rather
+than getting too long.  In early assignments, though, we will specify most
+of the design for you.)
+
+
+Style (Your program should be appropriately
+formatted, your class, method, field, and constant names should be meaningful,
+and in general you should follow the conventions described at http://www.python.org/dev/peps/pep-0008/.
+ We use the term "style" here in the sense of "good style"
+and "bad style," not in the sense of Hemingway's style being
+different from Joyce's.  Everybody's code should adhere both to
+the generally accepted rules of good programming style and to the specific
+style guidelines of their organization.)
+
+
+
+Documentation (Every class and every
+method should include a docstring (a string as the first line of the definition) that provides brief but pithy description of their meaning and
+behavior, along the lines of the purpose statements we wrote in Scheme.
+ You'll note that the Scheme contracts are now part of the actual code
+as annotations in the function header.)
+
+
+
+
+David G. Kay, kay@uci.edu
+
+
+

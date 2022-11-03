@@ -1,0 +1,180 @@
+https://ngs.ics.uci.edu/abstractions-operations-and-transformations-in-computing
+
+
+
+
+
+
+
+
+Abstractions, Operations, and Transformations in Computing – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Abstractions, Operations, and Transformations in Computing    			
+
+
+Computing is about identifying (or inventing) abstractions, defining operations on these abstractions, and transforming abstractions from one abstraction to another.
+Ultimately everything is a bit — the simplest abstraction used in current computing.  It may be changed by quantum or some other computing but until that happens a bit is th most primitive or we may say atomic abstraction. From bits the most commonly used abstractions are bytes, words, numbers, and alphanumeric characters.  The next stage comes to lists, sets, arrays, …, words in a language, numbers of different types, …, images, sounds, … and so on.  
+At each stage of abstraction you define several operations — a kind of algebra — that allows you to operate on, say one or more numbers, and produce another number.  Thus Addition, subtraction are valid operations for numbers and concatenation is a valid operation on strings, intersection is a valid operation on sets.  
+Transformations result in converting one abstraction to other.  A sequence of bits is transformed into a number or a character.  A really large sequence of bits may be transformed first into a sequence of characters and then into a sequence of meaningful words.
+When a page is analyzed by a computer, you could look at the data at the level of bits, ot at the level of characters, or at the level of words.  These are the commonly used abstractions and there are well defined operations and transformations that are used here.  Much of the current computing techniques are very efficient until this abstraction level of words.
+People have been getting interested in what could be the topic of the document or what could be the sentiment of the document.  On the other side, people are interested in taking a large equence of bits put in a file with ‘.jpg’ in its name and are interested in finding out whether there are roses in it or it contains their favorite person in their favorite settings.  Of course many times they are also interested in knowing whether this sequence of bits could be considered as a picture depicting anger or love.  Computing has been successful in displaying, communicationg, and storing this group of bits as pictures (as an abstraction), but has not been able to develop transformations that will take each pixel, group these pixels in objects, and group objects into sentiments.
+Clearly, computing has been progressing by first identifying right abstractions then developing right operations for these abstractions and developing transformations to get from one abstraction to the other.
+
+
+
+By Ramesh |
+    				August 22, 2008 |
+    				             		Experiential Computing |
+             	 
+    				             		1 Comment |
+             	 		          				
+    			
+
+
+← Metamorphosis of India
+Abstractions and Experiential Computing →
+
+
+
+			One thought on “Abstractions, Operations, and Transformations in Computing”		
+
+
+Pingback: Recent Links Tagged With "anger" - JabberTags 
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

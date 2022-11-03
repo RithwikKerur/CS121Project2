@@ -1,0 +1,382 @@
+http://sli.ics.uci.edu/extras/cs178/DTree_Demo.html
+
+
+
+
+DTree Demo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In [1]:
+
+
+import numpy as np
+np.random.seed(0)
+import mltools as ml
+import matplotlib.pyplot as plt   # use matplotlib for plotting with inline plots
+%matplotlib inline
+
+import mltools.dtree as dt    # import decision tree code
+
+
+
+
+
+
+
+
+
+
+Decision Trees¶Decision trees are a simple but flexible class of learners that can be very effective in practice.
+As usual, we'll load some two-dimensional classification data:
+
+
+
+
+
+In [3]:
+
+
+iris = np.genfromtxt("data/iris.txt",delimiter=None)
+Y = iris[:,-1]
+X = iris[:,0:2]
+
+
+
+
+
+
+
+
+
+
+Now, we'll define and train a decision tree classifier on the data. The most standard control on the complexity of a decision tree is its depth.
+For depth d=1, the root note of the tree selects a feature, and a value at which to threshold it; then, the leaf nodes make a prediction:
+
+
+
+
+
+In [6]:
+
+
+learner = dt.treeClassify()
+learner.train(X,Y,maxDepth=1)
+print learner
+
+
+
+
+
+
+
+
+  if x[0] < 5.602476:
+    Predict 0.0
+  else:
+    Predict 2.0
+
+
+
+
+
+
+
+
+
+In [7]:
+
+
+ml.plotClassify2D(learner,X,Y)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Increasing the depth to two, each of these two regions can be split again: in the left-hand region, we select a feature and threshold value; and the same in the right hand region.  This leads to a more complex decision structure:
+
+
+
+
+
+In [8]:
+
+
+learner = dt.treeClassify()
+learner.train(X,Y,maxDepth=2)
+print learner
+
+
+
+
+
+
+
+
+  if x[0] < 5.602476:
+    if x[1] < 3.009747:
+      Predict 1.0
+    else:
+      Predict 0.0
+  else:
+    if x[0] < 6.186588:
+      Predict 1.0
+    else:
+      Predict 2.0
+
+
+
+
+
+
+
+
+
+In [9]:
+
+
+ml.plotClassify2D(learner,X,Y)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+As we increase the depth, we obtain more and more flexibility for our function, and with it the usual risk of overfitting:
+
+
+
+
+
+In [10]:
+
+
+learner = dt.treeClassify()
+learner.train(X,Y,maxDepth=15)
+ml.plotClassify2D(learner,X,Y)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Since the desired complexity of the learner is often a function of the amount of data we have available, it may not make sense to have a simple depth bound; in some parts of the space we may have many data and have sufficient evidence to support a complex function, while in other parts there may be few data and we may prefer a simpler explanation.
+There are a number of techniques for allowing the tree to increase its complexity non-homogeneously, but perhaps the simplest is a "minimum parent" threshold: only allowing a node to split into children if if has a sufficent number of data.  We can see the effect on the learned model:
+
+
+
+
+
+In [14]:
+
+
+learner = dt.treeClassify()
+learner.train(X,Y,maxDepth=15, minParent=10)
+ml.plotClassify2D(learner,X,Y)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+in which some of the more fine-grain splits have been prevented.
+
+
+
+
+
+
+
+
+Regression trees¶We can also use decision trees for regression models.  Again, the model corresponds to partitioning up the feature space and predicting within each region.  Here, typically, the prediction is the mean of the training data corresponding to that region (which minimizes the mean squared error on the training data):
+
+
+
+
+
+In [17]:
+
+
+curve = np.genfromtxt("data/curve80.txt",delimiter=None)
+X = curve[:,0]         # extract features
+X = X[:,np.newaxis]    # force X to be shape (M,1)     
+Y = curve[:,1]         # extract target values
+# create a grid for plotting the predictions
+xs = np.linspace(0,10,200)[:,np.newaxis]
+
+learner = dt.treeRegress()
+learner.train(X,Y,maxDepth=1)
+print learner
+
+ys = learner.predict(xs)
+lines = plt.plot(xs,ys,'k-',X,Y,'r.', linewidth=3,markersize=12)  
+
+
+
+
+
+
+
+
+  if x[0] < 5.149770:
+    Predict -0.394220850294
+  else:
+    Predict 3.59229595435
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In [18]:
+
+
+learner = dt.treeRegress()
+learner.train(X,Y,maxDepth=2)
+print learner
+
+ys = learner.predict(xs)
+lines = plt.plot(xs,ys,'k-',X,Y,'r.', linewidth=3,markersize=12)  
+
+
+
+
+
+
+
+
+  if x[0] < 5.149770:
+    if x[0] < 4.562212:
+      Predict -0.841978136087
+    else:
+      Predict 0.541998929091
+  else:
+    if x[0] < 5.898618:
+      Predict 2.26942355714
+    else:
+      Predict 3.82973458974
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Again, this provides a very flexible class of functions, but too much flexibility can lead to overfitting:
+
+
+
+
+
+In [19]:
+
+
+learner = dt.treeRegress()
+learner.train(X,Y,maxDepth=5)
+ys = learner.predict(xs)
+lines = plt.plot(xs,ys,'k-',X,Y,'r.', linewidth=3,markersize=12)  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

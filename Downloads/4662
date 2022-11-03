@@ -1,0 +1,498 @@
+http://www.ics.uci.edu/~ics215
+
+
+
+
+ICS215 - Spring, 2002
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ICS215- Advances in Database Management
+System Technology Spring,
+2006Professor Sharad
+Mehrotra
+
+Index
+
+Announcements
+
+Course
+	Information
+
+Projects
+
+More papers
+
+Resources
+
+
+
+Announcements
+
+Course Information
+
+General
+	Information. The following are a few important entries:
+	
+
+Course
+		Goals
+
+
+Instructor
+	and Office Hours
+
+Working
+	in Groups
+
+Course
+	Requirements
+
+Grading
+	Policy
+
+Prerequisites
+
+Time
+	and Place
+
+Textbooks
+
+Electronic
+	Lists
+
+Paper readings
+
+
+
+Schedule
+
+
+
+Date 
+
+
+
+Topic
+
+
+Sub-Topic 
+
+
+
+Description
+
+
+Lecture Note
+			
+
+
+
+
+
+April 5th
+
+
+Introduction to the
+			Course & Introduction to the Class Project
+
+
+ 
+
+
+ICS 215 Project Description:
+			Multimedia Stream Projects for Pervasive Spaces
+
+
+[updated slides to be posted
+			soon] slides
+Class
+			projects description.
+
+
+
+
+April 12th
+
+
+Guest Lecture on Search
+			and project planning update
+
+
+ 
+
+
+The
+			web you trust: the next generation of  vertical searchDr.
+			Claude Vogel, Chief Techonology OfficerMr. Paul Gardner,
+			Convera
+(class
+			will meet in Calit2 Room 3008 at 9.15 –refreshments will be
+			served followed by  a talk).
+We
+			will continue meeting in a Room 4301 Calit2 after the talk.
+
+
+ 
+Detailed
+			flyer
+
+
+
+
+
+ 
+
+
+Towards Multimedia Stream
+			Systems for Pervasive Spaces
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+
+
+April 19th
+
+
+ 
+
+
+Query Language for streams
+
+
+CQL
+			  (Shengyue): Arasu et al, "An Abstract Semantics
+			and Concrete Language for Continuous Queries over Streams and
+			Relations"
+
+Cayuga  
+			(Hojjat): Demers
+			et al, "Towards Expressive Publish/Subscribe Systems"
+
+Bao’s work on
+			extending CQL for multimedia streams  (Ray):
+			
+
+
+ 
+ 
+
+
+
+
+April 26th
+
+
+ 
+
+
+Query Lang & Stream
+			Processing Systems
+			
+
+
+VERL &
+			pervasive space language paper   (Dani)
+			
+Stanford Streams project  
+			(Jinhwan)
+			
+
+
+ 
+
+
+
+
+May 3rd
+
+
+ 
+
+
+Multimedia Stream Systems
+
+
+Aurora  
+			(Rabia):Garlan et al, "Project
+			Aura: Toward Distraction-Free Pervasive Computing", Pervasive
+			computing, April-June 2002, page 22-31
+Media broker   
+			& Stampede (Johnathan): Modahl
+			et al, "MediaBroker: An Architecture for Pervasive
+			Computing", PERCOM'04Ramachandran
+			et al, "Stampede: A Cluster Programming Middleware for
+			Interactive Stream-Oriented Applications", IEEE Transactions
+			on parallel and distributed systems, vol. 14, no. 11, November
+			2003
+
+
+
+ 
+ 
+
+
+
+
+ 
+
+
+Privacy and Security in
+			Pervasive Spaces
+
+
+ 
+
+
+.
+ 
+
+
+ 
+
+
+
+
+May 10th
+
+
+ 
+
+
+Privacy and Security
+			Challenges in Pervasive Spaces
+ 
+
+
+TBD
+			
+
+
+ 
+
+
+
+
+May 17th
+
+
+ 
+
+
+Towards privacy definitions
+			& languages
+
+
+TBD
+			
+
+
+ 
+
+
+
+
+May 24th
+
+
+ 
+
+
+Location privacy challenges
+			&solutions
+
+
+TBD
+
+
+ 
+
+
+
+
+May 31st
+ 
+
+
+ 
+
+
+Inference & disclosure
+			Control
+
+
+Statistical
+			inference control  (Ben & Houton):
+
+
+ 
+
+
+
+
+June 6th
+
+
+Multimedia Stream System
+			Project Presentations
+
+
+ 
+
+
+½
+			hour each for each group to make presentations
+
+
+ 
+
+
+
+
+
+
+Projects
+
+The project proposal deadline is
+	4/28, Monday at 5pm. Please email it to the instructor.
+	
+It is OK for you to combine your other research commitment
+	with your course project. However, if you do so, you must make sure
+	to increase your workload correspondingly to get the course credit.
+	
+
+
+
+
+Configuration Manager
+
+
+SATL 
+
+
+
+Virtual Sensor
+
+
+Privacy in pervasive spaces
+
+
+
+
+Dani, Jinhwan, Jonathan
+			
+
+
+Ray, Shengyue
+
+
+Rabia, Hojjat
+			
+
+
+Houton, Ben
+			
+
+
+
+
+More papers
+
+Paolo Bellavista, Antonio Corradi,
+	Carlo Giannelli "Efficiently Managing Location Information with
+	Privacy Requirements in Wi-Fi Networks: a Middleware Approach"
+	[pdf]
+
+Robert P. Minch, "Privacy
+	Issues in Location-Aware Mobile Devices," Proceedings of the
+	37th Annual Hawaii International Conference on System Sciences
+	(HICSS'04) [pdf]
+
+Yih­Chun Hu, Helen J. Wang "A
+	Framework for Location Privacy in Wireless Networks" [pdf]
+
+Marco Gruteser and Dirk Grunwald,
+	"Anonymous Usage of Location-Based Services Through Spatial and
+	Temporal Cloaking," MobiSys 2003 [pdf].
+		
+Bugra Gedik, Ling Liu "Location
+	Location Privacy in Mobile Systems: A Personalized Anonymization
+	Model," ICDCS 2005 [pdf]
+
+Andreas Goerlach, Andreas
+	Heinemann, Wesley W. Terpstra "Survey on Location Privacy in
+	Pervasive Computing" [pdf]
+
+Alastair R. Beresford "Location
+	privacy in ubiquitous computing" PhD Thesis [pdf]
+
+Bin Liu, Amarnath Gupta, Ramesh
+	Jain, "A Live Multimedia Stream Querying System" [pdf]
+
+Bin Liu, Amarnath Gupta, Ramesh
+	Jain, "MedSMan: A Streaming Data Management System over Live
+	Multimedia [pdf]
+
+Kathleen Fisher, Robert E. Gruber,
+	"PADS: Processing Arbitrary Data Streams", 2003 [pdf]
+
+Brian D. Noble, M. Satyanarayanan, Dushyanth Narayanan, James
+	Eric Tilton, Jason Flinn, Kevin R. Walker "Agile
+	Application-Aware Adaptation for Mobility" [pdf]
+
+
+
+Resources
+
+Places to find papers:
+	
+
+DBLP
+
+
+ACM
+	Digital Library
+
+ACM
+	SIGMOD Anthology.
+	
+Google.
+		
+NEC
+	CiteSeer.
+	
+Other major DB courses at UCI:
+	ICS184, ICS214.
+		
+A sample
+	crawler (in Java) written by Chen Li a few years ago.
+	
+
+
+
+
+
+

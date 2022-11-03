@@ -1,0 +1,65 @@
+http://www.ics.uci.edu/~kay/courses/i42/hw/hw3.html
+
+
+
+
+
+
+Third Homework
+
+
+
+
+
+
+
+Informatics 42 • Winter 2012 • David G. Kay
+  • UC Irvine
+ Third Homework
+ Get your work checked and signed off by a classmate, then show it to your TA in lab by Monday, January 30.
+(a) If you haven't already, take the time to read the whole writeup for Lab Assignment B. You'll be revisiting it many times, but it's good to get an overview up front.
+ (b) Make a copy of your line-numbering
+program from last week; rename it to stats.py.  It should read a file and print
+out (to the standard output, not to another file) the total number of lines,
+the average line length (to three decimal places), the number of empty (zero-length)
+lines, the average length of non-empty lines (again to three places), the
+length of the longest line, the longest line itself, the length of the shortest
+non-empty line, and the shortest non-empty line itself.
+These are some classic "micro-algorithms"
+  on a collection of data:  Count the items, sum the items, find the largest,
+  find the smallest. By this time, computing these should be nearly second nature for you.
+
+(c) Years ago, before they built a
+bridge, you could reach the Isle of Skye in the Scottish Highlands from
+two points on the mainland:  Mallaig and Kyle of Lochalsh.  Each town ran
+a car ferry service—a boat that takes cars (and people) to Skye and back.
+ (c.1) Each Mallaig ferry has a single
+  automobile entrance.  The cars drive on and go as far back in the boat as
+  they can.  When the ferry reaches Skye, the cars leave the boat by the same
+  entrance, so the car at the far end of the boat is the last one off.  Is
+  the Mallaig ferry more like a list, a stack, a queue, or a tree?
+ (c.2) Each ferry from Kyle of Lochalsh
+  has a ramp at both ends.  The cars drive onto the boat using the ramp at
+  one end; each car drives as far down the boat as possible.  When the ferry
+  reaches Skye, it docks so that the ramp at the other end connects with the
+  dock and the cars drive straight off.  (The Balboa Island ferry works the
+  same way.)  Is the Kyle of Lochalsh ferry more like a list, a stack, a
+  queue, or a tree?
+ (c.3) Which ferry is more efficient
+  for loading and unloading cars, and why?
+
+(d)   Read over (for the gist, not to memorize) the documentation at Python.org for the datetime library. You'll be using this in the current lab.  [We've given you the link, but you should be able to find the page yourself at python.org].
+To use a library (analogously to using a Teachpack in DrRacket), you say import datetime near the top of the program, after which you can use the classes and methods defined in the library, e.g., finalDate = datetime.date(2012, 3, 6).  You can also import individual identifiers (class and method names) from the library by saying, e.g., from datetime import date, after which you can just say flagDay = date(2012,6,14).
+Write a few lines of Python code to:
+
+Create the date February 1, 2012 and another date, February 18, 2012.
+Print the difference between those two dates
+Create a date from a string like '2/14/2012' (the string method split will help a lot; look it up)
+Use the strftime method to print a date in a format like Today is Tuesday, February 1, 2012.
+
+
+
+Written by David G. Kay, Winter 2005.  The Skye ferry question is an exam questions
+from ages ago. Modified by David G. Kay, Winter 2006, by Alex Thornton, Winter 2007,  by David G. Kay, Winter 2008, and by David G. Kay for Python, WInter 2012
+
+

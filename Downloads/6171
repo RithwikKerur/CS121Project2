@@ -1,0 +1,293 @@
+https://cml.ics.uci.edu/aiml/page/10
+
+
+
+
+
+AI/ML Seminar Series | Center for Machine Learning and Intelligent Systems | Page 10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+University of California, Irvine
+
+
+Menu
+Skip to content
+Home
+About CML
+
+About us
+News
+Contact Us
+
+
+People
+
+Faculty
+Alumni
+
+
+Events & Seminars
+
+AI/ML Seminar Series
+AI/ML Seminar Live Stream
+CML Distinguished Speakers
+ML Reading Group
+
+
+Education & Resources
+
+Courses
+Books
+
+
+UCI Machine Learning Archive
+Sponsors & Funding
+Subscribe to CML List
+ 
+
+
+
+
+
+
+AI/ML Seminar Series Standard 
+
+Weekly Seminar in AI & Machine LearningSponsored by Cylance
+
+
+
+
+
+
+
+Navigation
+
+‹Earlier
+Fall 2018 Later ›
+
+
+
+
+
+
+
+
+
+
+Oct 1
+
+
+No Seminar
+ 
+
+
+
+
+Oct 8
+Bren Hall 4011
+1 pm
+
+
+Matt Gardner
+Research Scientist
+Allen Institute for AI
+A Tale of Two Question Answering SystemsThe path to natural language understanding goes through increasingly challenging question answering tasks. I will present research that significantly improves performance on two such tasks: answering complex questions over tables, and open-domain factoid question answering. For answering complex questions, I will present a type-constrained encoder-decoder neural semantic parser that learns to map natural language questions to programs. For open-domain factoid QA, I will show that training paragraph-level QA systems to give calibrated confidence scores across paragraphs is crucial when the correct answer-containing paragraph is unknown. I will conclude with some thoughts about how to combine these two disparate QA paradigms, towards the goal of answering complex questions over open-domain text.
+Bio:Matt Gardner is a research scientist at the Allen Institute for Artificial Intelligence (AI2), where he has been exploring various kinds of question answering systems. He is the lead designer and maintainer of the AllenNLP toolkit, a platform for doing NLP research on top of pytorch. Matt is also the co-host of the NLP Highlights podcast, where, with Waleed Ammar, he gets to interview the authors of interesting NLP papers about their work. Prior to joining AI2, Matt earned a PhD from Carnegie Mellon University, working with Tom Mitchell on the Never Ending Language Learning project.
+
+
+
+
+
+Oct 22
+
+
+
+Bren Hall 4011
+1 pm
+
+
+Stephan Mandt
+
+
+Assistant Professor
+Dept. of Computer Science
+UC Irvine
+Deep Probabilistic ModelingI will give an overview of some exciting recent developments in deep probabilistic modeling, which combines deep neural networks with probabilistic models for unsupervised learning. Deep probabilistic models are capable of synthesizing artificial data that highly resemble the training data, and are able fool both machine learning classifiers as well as humans. These models have numerous applications in creative tasks, such as voice, image, or video synthesis and manipulation. At the same time, combining neural networks with strong priors results in flexible yet highly interpretable models for finding hidden structure in large data sets. I will summarize my group’s activities in this space, including measuring semantic shifts of individual words over hundreds of years, summarizing audience reactions to movies, and predicting the future evolution of video sequences with applications to neural video coding.
+
+
+
+
+
+Oct 25
+Bren Hall 3011
+3 pm
+
+
+
+
+
+
+
+
+
+(Note: different day (Thurs), time (3pm), and location (3011) relative to usual Monday seminars)
+
+Steven Wright
+Professor
+Department of Computer Sciences
+University of Wisconsin, Madison
+
+Optimization in Data ScienceMany of the computational problems that arise in data analysis and
+machine learning can be expressed mathematically as optimization problems. Indeed, much new algorithmic research in optimization is being driven by the need to solve large, complex problems from these areas. In this talk, we review a number of canonical problems in data analysis and their formulations as optimization problems. We will cover support vector machines / kernel learning, logistic regression (including regularized and multiclass variants), matrix completion, deep learning, and several other paradigms.
+
+
+
+
+Oct 29
+Bren Hall 4011
+1 pm
+
+
+Alex Psomas
+Postdoctoral Researcher
+Computer Science Department
+Carnegie Mellon University
+Fair Resource Allocation: From Theory to PracticeWe study the problem of fairly allocating a set of indivisible items among $n$ agents. Typically, the literature has focused on one-shot algorithms. In this talk we depart from this paradigm and allow items to arrive online. When an item arrives we must immediately and irrevocably allocate it to an agent. A paradigmatic example is that of food banks: food donations arrive, and must be delivered to nonprofit organizations such as food pantries and soup kitchens. Items are often perishable, which is why allocation decisions must be made quickly, and donated items are typically leftovers, leading to lack of information about items that will arrive in the future. Which recipient should a new donation go to? We approach this problem from different angles.
+In the first part of the talk, we study the problem of minimizing the maximum envy between any two recipients, after all the goods have been allocated. We give a polynomial-time, deterministic and asymptotically optimal algorithm with vanishing envy, i.e. the maximum envy divided by the number of items T goes to zero as T goes to infinity. In the second part of the talk, we adopt and further develop an emerging paradigm called virtual democracy. We will take these ideas all the way to practice. In the last part of the talk I will present some results from an ongoing work on automating the decisions faced by a food bank called 412 Food Rescue, an organization in Pittsburgh that matches food donations with non-profit organizations.
+
+
+
+
+Nov 5
+Bren Hall 4011
+1 pm
+
+
+Fred Park
+Associate Professor
+Dept of Math & Computer Science
+Whittier College
+Image Segmentation and Tracking Utilizing a Difference of Convex Regularized Mumford-Shah FunctionalIn this talk I will give a brief overview of the segmentation and tracking problems and will propose a new model that tackles both of them. This model incorporates a weighted difference of anisotropic and isotropic total variation (TV) norms into a relaxed formulation of the Mumford-Shah (MS) model. We will show results exceeding those obtained by the MS model when using the standard TV norm to regularize partition boundaries. Examples illustrating the qualitative differences between the proposed model and the standard MS one will be shown as well. I will also talk about a fast numerical method that is used to optimize the proposed model utilizing the difference-of-convex algorithm (DCA) and the primal dual hybrid gradient (PDHG) method. Finally, future directions will be given that could harness the power of convolution nets for more advanced segmentation tasks.
+
+
+
+
+Nov 12
+
+
+No Seminar (Veterans Day)
+ 
+
+
+
+
+Nov 19
+Bren Hall 4011
+1 pm
+
+
+Philip Nelson
+Director of Engineering
+Google Research
+Accelerating bio discovery with machine learning, the promise and the perilGoogle Accelerated Sciences is a translational research team that brings Google’s technological expertise to the scientific community.  Recent advances in machine learning have delivered incredible results in consumer applications (e.g. photo recognition, language translation), and is now beginning to play an important role in life sciences.  Taking examples from active collaborations in the biochemical, biological, and biomedical fields, I will focus on how our team transforms science problems into data problems and applies Google’s scaled computation, data-driven engineering, and machine learning to accelerate discovery. See http://g.co/research/gas for our publications and more details.
+Bio:Philip Nelson is a Director of Engineering in Google Research.  He joined Google in 2008 and was previously responsible for a range of Google applications and geo services.  In 2013, he helped found and currently leads the Google Accelerated Science team that collaborates with academic and commercial scientists to apply Google’s knowledge and experience and technologies to important scientific problems.  Philip graduated from MIT in 1985 where he did award-winning research on hip prosthetics at Harvard Medical School.  Before Google, Philip helped found and lead several Silicon Valley startups in search (Verity), optimization (Impresse), and genome sequencing (Complete Genomics) and was also an Entrepreneur in Residence at Accel Partners.
+
+
+
+
+Nov 26
+Bren Hall 4011
+1 pm
+
+
+Richard Futrell
+Assistant Professor
+Dept of Language Science
+UC Irvine
+Natural language as a code: Modeling human language using information theory
+Why is natural language the way it is? I propose that human languages can be modeled as solutions to the problem of efficient communication among intelligent agents with certain information processing constraints, in particular constraints on short-term memory. I present an analysis of dependency treebank corpora of over 50 languages showing that word orders across languages are optimized to limit short-term memory demands in parsing. Next I develop a Bayesian, information-theoretic model of human language processing, and show that this model can intuitively explain an apparently paradoxical class of comprehension errors made by both humans and state-of-the-art recurrent neural networks (RNNs). Finally I combine these insights in a model of human languages as information-theoretic codes for latent tree structures, and show that optimization of these codes for expressivity and compressibility results in grammars that resemble human languages.
+
+
+
+
+Dec 3
+
+
+No Seminar (NIPS)
+ 
+
+
+
+
+
+September 18, 2018
+AIML
+
+
+
+Posts navigation
+
+‹Older posts
+Newer posts ›
+
+
+
+
+
+ 
+Search
+
+
+
+ 
+
+
+(c) 2015 Center for Machine Learning and Intelligent Systems
+
+WordPress/BonPress
+
+
+
+
+
+

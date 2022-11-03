@@ -1,0 +1,468 @@
+https://www.informatics.uci.edu/faculty-spotlight-crista-lopes-creates-startup-to-reimagine-virtual-conferences
+
+
+
+
+
+
+
+
+
+Faculty Spotlight: Crista Lopes Creates Startup to Reimagine Virtual Conferences | Informatics @ the University of California, Irvine
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+People
+Contact
+Site Map
+News
+
+
+
+
+Search for:
+
+
+
+ 
+
+
+
+
+
+Menu
+Skip to content
+Explore
+
+
+Chair’s Welcome
+Faculty Profiles
+Books We Read
+History of the Department
+Seminar Series
+Blogs We Author
+Department Vision
+Books We Have Written
+Visiting the Department
+Facts & Figures
+
+
+
+Graduate Degrees
+
+
+Overview
+Ph.D. Software Engineering
+Policies
+Ph.D. Informatics
+M.S. Software Engineering
+Diversity Ambassador
+M.S. Informatics
+Master of Software Engineering
+Student Profiles
+Master of Human-Computer Interaction & Design
+Courses
+Student Groups
+ 
+ 
+Upcoming Course Schedule
+
+
+
+Undergraduate Degrees
+
+
+B.S. Informatics
+B.S. Information & Computer Science
+Policies
+B.S. Business Information Management
+Special Opportunities
+Student Profiles
+B.S. Game Design and Interactive Media
+Minors
+Student Groups
+B.S. Software Engineering
+Courses
+Upcoming Course Schedule
+
+
+
+Admissions
+
+
+Graduate Application Process
+Coming from Abroad
+Housing
+Undergraduate Application Process
+Student Life
+
+
+
+Research
+
+
+Labs & Centers
+Ph.D. Research
+Undergraduate Research
+Areas of Expertise
+Past Dissertations
+Gifts & Grants
+Example Projects
+Masters Research
+
+
+
+Impact
+
+
+Research that Matters
+Undergraduate Alumni Spotlights
+Outreach
+Graduate Alumni Spotlights
+Community Engagement
+
+
+
+Support
+
+
+Champion Research
+Become a Corporate Partner
+Share Your Talent
+Support Students
+Provide Projects
+Set Future Agenda
+Post Jobs
+Graduate Resources
+
+
+
+
+
+
+MenuExplore
+
+Chair’s Welcome
+History of the Department
+Department Vision
+Facts & Figures
+Faculty Profiles
+Seminar Series
+Books We Have Written
+Books We Read
+Blogs We Author
+Visiting the Department
+
+
+Graduate Degrees
+
+Ph.D. Informatics
+M.S. Informatics
+Ph.D. Software Engineering
+M.S. Software Engineering
+Master of Human-Computer Interaction & Design
+Master of Software Engineering
+Courses
+Policies
+Diversity Ambassador
+Student Profiles
+Student Groups
+Upcoming Course Schedule
+
+
+Undergraduate Degrees
+
+B.S. Informatics
+B.S. Business Information Management
+B.S. Game Design and Interactive Media
+B.S. Software Engineering
+B.S. Information & Computer Science
+Special Opportunities
+Minors
+Courses
+Policies
+Student Profiles
+Student Groups
+Upcoming Course Schedule
+
+
+Admissions
+
+Graduate Application Process
+Undergraduate Application Process
+Coming from Abroad
+Student Life
+Housing
+
+
+Research
+
+Labs & Centers
+Areas of Expertise
+Example Projects
+Ph.D. Research
+Past Dissertations
+Masters Research
+Undergraduate Research
+Gifts & Grants
+
+
+Impact
+
+Research that Matters
+Graduate Alumni Spotlights
+Undergraduate Alumni Spotlights
+Community Engagement
+Outreach
+
+
+Support
+
+Champion Research
+Support Students
+Become a Corporate Partner
+Provide Projects
+Post Jobs
+Share Your Talent
+Set Future Agenda
+
+
+ 
+
+
+
+
+
+
+
+		← Site Map  News
+
+
+
+
+
+Faculty Spotlight: Crista Lopes Creates Startup to Reimagine Virtual Conferences
+March 10, 2022
+
+
+
+In 2020, the knowledge and expertise of Crista Lopes converged to meet the moment. The professor of software engineering in UCI’s Donald Bren School of Information and Computer Sciences (ICS) had just co-authored the Communications of the ACM article, “Conferences in an Era of Expensive Carbon,” so she was already exploring the future of conferences when the global pandemic hit. She quickly pivoted to help draft “Virtual Conferences: A Guide to Best Practices” and worked to move the 42nd ACM/IEEE International Conference on Software Engineering (ICSE) online. Drawing from her wealth of experience as an early developer of OpenSimulator — and her involvement with the OpenSimulator Community Conference (OSCC), which has occurred virtually since 2013 — she worked with Professor Jon Bell of Northeastern University and Professor Benjamin Pierce from the University of Pennsylvania to code a new platform called Clowdr. Their innovative open source project for climate friendly, accessible virtual and hybrid conferences now serves as the basis for a startup company that operates the platform as a service called Midspace. Here, Lopes talks about her experience in developing this new project and bridging the academic-industry divide.
+
+Can you tell us about Midspace?Midspace is an online conferencing service providing persistent virtual and hybrid spaces tailored to the needs of professional and academic communities. It is based on our open source project Clowdr, which has been designed with two goals in mind: (1) provide accessible digital content, including for people with disabilities; and (2) present an open source solution to virtual conferences that meets the needs of scientific and nonprofit communities.
+What are the benefits of virtual conferences?Virtual conferences deliver massive reductions in the carbon footprint of conferences, particularly large international conferences. Simultaneously, they increase attendance by two to four times due to the reduced cost and ability to attend from work or home, which can also help marginalized groups attend.In what ways does Midspace foster inclusion and accessibility?Accessible design is essential to ensure everyone can access the community, presentations and knowledge. We are tackling the most widely known issues, such as presenting in multiple languages, offering real-time closed captioning, and using color contrast and keyboard navigation for people with visual and motor disabilities.
+Increasingly, varied digital media and recognition of neurodiversity, particularly in academic fields, pose new accessibility challenges that we are actively researching, working to improve social interactions for people with learning disabilities or with autism, for example. These considerations might take the form of easing social interactions, reducing ambient light, providing multiple ways to view the same information, or simply allowing more user control. We take this very seriously and have a UX person on the team, because we want to make virtual conferences available to as many people as possible.
+You mentioned the needs of scientific and nonprofit communities. What are their unique needs?Midspace can support large industry conferences, of course, just like other virtual event platforms. But scientific and nonprofit conferences tend to have complex programs, with many parallel sessions, and with a large percentage of active participants — that is, participants who are also speakers in some sessions. Midspace embraces this complexity by providing an easy-to-use interface for organizers to set up their complex programs, and by providing an easy-to-use interface for participants to access the virtual rooms and backstage areas for their sessions.
+
+
+The interface for setting up a conference in Midspace.
+For example, the Society for Social Studies of Science (4S) used Midspace for its 4S 2021 conference, which had 30 parallel sessions per day, for four days. Of 3,200 attendees, more than 2,300 were also speakers at one or more sessions. Every session was automatically recorded and published within 10 minutes to enable re-watching by attendees. Midspace made this possible without the technical complexity typically associated with virtual conferences. There was no need to send out individual “join here” links to each speaker; it was all automatic.
+In addition, at every opportunity, Midspace promotes a sense of being present in a social and knowledge space. It offers features such as a powerful search of the program and participants, opt-in visibility of participants who are co-present in the virtual rooms, emoticons over live video, support for multichannel text chat, and support for text chat that is then persistently associated with program elements. These are just some of the many features that connect people with each other and with the program.
+How has your experience with OpenSim informed your development of Midspace?It definitely informed it a lot because that’s where I come from — highly immersive 3D spaces, where people are represented by avatars and where there’s the illusion of real life. So we’re trying to bring that awareness of social presence to the conference space, making people aware of social cues as much as we can.
+One thing that we added that has really increased engagement, following the model of Twitch and some other streaming services, is the ability to have emoticons moving up the screen. As people are giving live talks, the audience can “release” hearts and thumbs-up signs, which is really nice for the speaker to see, letting them know that people are watching. Those are the kinds of things I pay particular attention to – issues about social presence and awareness of other people. I have a lot of experience with this because we’ve been putting on an annual OpenSim conference since 2013.
+
+Audience members releasing heart and laughing emoticons during a conference talk.
+From being an early developer of OpenSim to helping develop Midspace, innovation seems to be a core part of everything you do. What’s your main approach?First, I have an internal feedback loop in my head that always seems to make me work faster and better if I do multiple 
+things at the same time, instead of just one. Then, the older I get, the more it becomes clear that life is too short to spend my time doing things that I’ve already mastered. I like challenges.
+For Women’s History Month, can you talk about a female role model you’ve had along the way?Professor Gail Murphy, vice president of research and innovation at the University of British Columbia, has been a strong role model for me. She’s one of those people who is good at everything she does, and she’s always kind. I met her when I was finishing my Ph.D., and although she was not part of my thesis committee, she definitely had an impact and gave me a lot of good feedback on my thesis. She really shaped the research that I was doing, and I’ve followed her career and she has followed mine. She’s been a trailblazer, and although she never left academia, she created a very successful company with a former student.
+What is your advice for students hoping to build their own product or startup?Technical people tend to focus on the technology, but companies are about sales or attracting investments. Without that, even the best technology will fail. Also, attracting the right people is essential; a wrong hire can wreck a startup’s morale.
+For help with student startups, there are some incubation efforts through UCI Beall Applied Innovation that offer support in terms of accessing a network of investors and people who can help with the nontechnical aspects. That is definitely a valuable resource for UCI students.
+How has your experience been working to develop a new product and company and bridge that academia-industry divide?It has been a wild ride! The company has been able to go through its initial phase without external investment — just with the revenue from the conferences it hosts. We want to grow and work faster now, so Midspace is looking for partners with the right mindset who can help it get to the next level.
+One interesting and different characteristic of Midspace is that it is set up as a Community Interest Company (CIC) in the UK [somewhat similar to a B Corporation in the U.S.], so it has some built-in obligations toward social good and some limitations on shareholders profits. This not only deters investors looking for quick ROIs but hopefully helps us attract investors for whom doing good (in this case, helping scientific and nonprofit communities move their events online) is at least as important as making a profit. We’re looking for people who are interested in social enterprises and in companies that are fulfilling some greater good.
+For more information on partnering with Midspace, contact Ed Nutting at ed.nutting@midspace.app.
+— Shani Murray
+
+
+
+Post navigation
+← Hack at UCI Hosts Hybrid HackUCI 2022
+Mayara Costa Figueiredo Wins iSchools Doctoral Dissertation Award →
+
+
+
+
+
+
+ 
+
+October 2022
+September 2022
+July 2022
+June 2022
+May 2022
+April 2022
+March 2022
+February 2022
+January 2022
+December 2021
+November 2021
+October 2021
+September 2021
+August 2021
+July 2021
+June 2021
+May 2021
+April 2021
+March 2021
+February 2021
+January 2021
+December 2020
+November 2020
+October 2020
+September 2020
+August 2020
+July 2020
+June 2020
+May 2020
+April 2020
+March 2020
+February 2020
+January 2020
+December 2019
+November 2019
+October 2019
+September 2019
+August 2019
+July 2019
+June 2019
+May 2019
+April 2019
+March 2019
+February 2019
+January 2019
+December 2018
+November 2018
+October 2018
+September 2018
+August 2018
+July 2018
+June 2018
+May 2018
+April 2018
+March 2018
+February 2018
+January 2018
+December 2017
+November 2017
+October 2017
+September 2017
+August 2017
+July 2017
+June 2017
+May 2017
+April 2017
+March 2017
+February 2017
+January 2017
+December 2016
+November 2016
+October 2016
+September 2016
+August 2016
+July 2016
+June 2016
+May 2016
+April 2016
+March 2016
+February 2016
+January 2016
+December 2015
+November 2015
+October 2015
+September 2015
+August 2015
+July 2015
+June 2015
+May 2015
+April 2015
+March 2015
+February 2015
+January 2015
+December 2014
+November 2014
+September 2014
+August 2014
+July 2014
+June 2014
+
+ 
+
+
+
+People
+Contact
+Site Map
+News
+
+
+
+
+
+
+
+Feedback
+Privacy Policy
+					© 2022 UC Regents
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

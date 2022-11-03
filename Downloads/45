@@ -1,0 +1,181 @@
+http://www.ics.uci.edu/~stasio/spring04/reading.html
+
+
+ICS 180: Reference Radings
+
+
+ICS 180, Spring'04
+Textbooks and Background Readings
+
+back to course main 
+				page
+
+
+
+
+
+
+			There is no required textbook for this class.  However, we'll be 
+			distributing handouts with lecture notes or outlines, and some material is 
+			available on-line. Here are the pointers to both on-line and off-line 
+			background material for our class.  You will not need to look at these 
+			notes, but if you run into problems, or would like to see an alternative 
+			treatment of some subject, etc, you will find this list useful.
+		
+
+			(The list I'm giving here started by editing a list compiled by 
+				Tal Malkin for the "intro to crypto" class she teaches at Columbia.)
+Main reference, available on-line:
+		
+S. Goldwasser and M. Bellare: 
+Lecture Notes on Cryptography.  This is the closest thing 
+			to a "text book" for this class.  These are notes from a summer 
+			cryptography class given by profs. Shafi Goldwasser and Mihir Bellare at MIT. 
+			 The treatment here is focused on the theoretical foundations of 
+			cryptography.  This is similar to our approach in this class, although on 
+			a more advanced level and sometimes in a different order.  I very much 
+			encourage you to look into this text for reference.
+Other cryptography lecture notes available on-line:
+		
+
+			The following collections of lecture notes take a (more or less) similar 
+			approach to the one we take in this class (except of Bellare/Rogaway notes 
+			which emphasize symmetric setting more than we will).  
+		
+
+
+				M. Bellare and P. Rogaway:  
+Lecture Notes
+			for a graduate cryptography course at UCSD.  The approach here is still 
+			aimed towards precise definitions and provable security, although more emphasis 
+			is given to practical considerations.
+			
+				T. Malkin: Lecture 
+						Notes. These are lecture notes from Tal Malkin's 
+					Intro to Crypto
+			class she taught at Columbia this fall. They are less polished then the first 
+			two above, but the arrangement of the material is closer to our class.
+			
+				J. Katz: Lecture Notes. 
+				These are lecture notes from the Intro 
+					to Crypto
+			class Jonathan Katz thought last year at University of Maryland.
+			
+				The link to a graduate 
+					Intro to Crypto class of Yevgeni Dodis at NYU contains a very good 
+				writeup of Yevgeni's lectures on this topic (click "Lecture Summaries")
+Cryptography Texts available on-line and as books:
+		
+Oded Goldreich's notes for his 
+				Foundation of Cryptography book are available on-line.  Oded's 
+			work is a comprehensive treatment of the theoretical foundations of 
+			cryptography and it covers the material in far greater depth that our 
+			class.  It is recommended as a background reading, especially 
+			for students who are interested in conducting research in cryptography.
+
+
+Foundations of 
+					Cryptography (Fragments of a Book).
+			This the the on-line material which is superseded by Volume I of Oded's 
+			Foundation of Cryptography which appeared in print and is available in the UCI 
+			science library.
+			
+Foundations, 
+					volume II. The material of the second part of the book, which will 
+				appear in print this coming spring, is available on-line at the bottom of this 
+				page.
+The following is a comprehensive reference book for all areas in 
+			cryptography. It has a less careful approach to definitions and proofs of 
+			security than we do, but it is a very good reference text.  It is 
+			available chapter by chapter from the book website:
+
+
+				A.J. Menezes, P.C. van Oorschot, and S.A. Vanstone: 
+Handbook of Applied Cryptography 
+			
+
+Other Cryptography Texts available in print:
+
+
+				W. Mao: Modern Cryptography: Theory 
+						and Practice.  This is a very recent book which is 
+			oriented towards a theoretical treatment of cryptography.  Its theoretical 
+			treatment is much less detailed than Oded's Foundations, but it is a good 
+			introduction to the subject, and it balances the theory with more 
+			practice.  Unfortunately, the book is not very clear so I cannot 
+			recommend it as a primary text.
+			
+				D. R. Stinson:  Cryptography: Theory and Practice (2nd edition).  
+				This is a good reference book, but it does not cover the cryptographic theory 
+				in a systematic way which is the focus of our class.
+			
+
+On the opposite end of the theory-vs-practice spectrum, the following book 
+			presents only a very intuitive treatment of cryptography, and is a useful 
+			reference for software implementation (which we do not address in the class).
+		
+
+
+				B. Schneier: Applied Cryptography.
+
+Material available on-line on (computational) number theory and its 
+					cryptographic applications:
+				
+
+
+Some excellent references for computational number theory and applied algebra 
+			include:
+		
+
+
+				D. Angluin: Lecture Notes on the Complexity of Some Problems in Number Theory. 
+				Available for download from Tal Malkin's website at Columbia: (ps
+				| pdf). 
+			 This is a short review of number theory and its computational 
+			aspects.  It is sufficient for the needs of our class.
+			
+				V. Shoup:  A 
+					Computational Introduction to Number Theory and Algebra. This is a very 
+				comprehensive introduction to algorithmic number theory, with all the necessary 
+				mathematical  background self-contained.  This is a BETA version, but 
+				in good shape.
+
+
+Background Readings on Computability/Complexity 
+Background reading on discrete math, probability, algorithms and complexity 
+			theory can be found in several of the above references (in particular the one 
+			by Shoup, by Menezes, van Oorschot, and Vanstone, and by Wenbo Mao.  
+			The following two books are excellent stand-alone textbooks for, 
+			respectively, complexity and algorithms:
+		
+
+
+				M. Sipser: 
+					Introduction to the Theory of Computation. See chapter 0 for basic 
+			discrete math, and chapter 7 for basic complexity notions.
+			
+				T. H. Cormen, C. E. Leiserson, R. L, Rivest, C. Stein: Introduction 
+					to Algorithms. See first part for introduction to algorithms and 
+				randomized algorithms, and appendix for discrete math and probability overview.
+Non-Technical Reading on Cryptography
+Some interesting non-technical books about the history of cryptology (which will 
+			not be addressed in this class), include the following two, originally written 
+			in 1967 and 1999, respectively.
+		
+
+
+				D. Kahn:  The Codebreakers -- The Comprehensive History of Secret 
+						Communication from Ancient Times to the Internet. 
+
+				S. Singh:
+				 The Code Book 
+  -- The Secret History of Codes and Code Breaking.
+				
+
+
+
+
+
+
+
+

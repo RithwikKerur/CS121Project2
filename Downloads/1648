@@ -1,0 +1,472 @@
+https://www.informatics.uci.edu/increasing-corporate-contributions-to-social-good-an-interactive-simulation
+
+
+
+
+
+
+
+
+
+Increasing Corporate Contributions to Social Good: An Interactive Simulation | Informatics @ the University of California, Irvine
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+People
+Contact
+Site Map
+News
+
+
+
+
+Search for:
+
+
+
+ 
+
+
+
+
+
+Menu
+Skip to content
+Explore
+
+
+Chair’s Welcome
+Faculty Profiles
+Books We Read
+History of the Department
+Seminar Series
+Blogs We Author
+Department Vision
+Books We Have Written
+Visiting the Department
+Facts & Figures
+
+
+
+Graduate Degrees
+
+
+Overview
+Ph.D. Software Engineering
+Policies
+Ph.D. Informatics
+M.S. Software Engineering
+Diversity Ambassador
+M.S. Informatics
+Master of Software Engineering
+Student Profiles
+Master of Human-Computer Interaction & Design
+Courses
+Student Groups
+ 
+ 
+Upcoming Course Schedule
+
+
+
+Undergraduate Degrees
+
+
+B.S. Informatics
+B.S. Information & Computer Science
+Policies
+B.S. Business Information Management
+Special Opportunities
+Student Profiles
+B.S. Game Design and Interactive Media
+Minors
+Student Groups
+B.S. Software Engineering
+Courses
+Upcoming Course Schedule
+
+
+
+Admissions
+
+
+Graduate Application Process
+Coming from Abroad
+Housing
+Undergraduate Application Process
+Student Life
+
+
+
+Research
+
+
+Labs & Centers
+Ph.D. Research
+Undergraduate Research
+Areas of Expertise
+Past Dissertations
+Gifts & Grants
+Example Projects
+Masters Research
+
+
+
+Impact
+
+
+Research that Matters
+Undergraduate Alumni Spotlights
+Outreach
+Graduate Alumni Spotlights
+Community Engagement
+
+
+
+Support
+
+
+Champion Research
+Become a Corporate Partner
+Share Your Talent
+Support Students
+Provide Projects
+Set Future Agenda
+Post Jobs
+Graduate Resources
+
+
+
+
+
+
+MenuExplore
+
+Chair’s Welcome
+History of the Department
+Department Vision
+Facts & Figures
+Faculty Profiles
+Seminar Series
+Books We Have Written
+Books We Read
+Blogs We Author
+Visiting the Department
+
+
+Graduate Degrees
+
+Ph.D. Informatics
+M.S. Informatics
+Ph.D. Software Engineering
+M.S. Software Engineering
+Master of Human-Computer Interaction & Design
+Master of Software Engineering
+Courses
+Policies
+Diversity Ambassador
+Student Profiles
+Student Groups
+Upcoming Course Schedule
+
+
+Undergraduate Degrees
+
+B.S. Informatics
+B.S. Business Information Management
+B.S. Game Design and Interactive Media
+B.S. Software Engineering
+B.S. Information & Computer Science
+Special Opportunities
+Minors
+Courses
+Policies
+Student Profiles
+Student Groups
+Upcoming Course Schedule
+
+
+Admissions
+
+Graduate Application Process
+Undergraduate Application Process
+Coming from Abroad
+Student Life
+Housing
+
+
+Research
+
+Labs & Centers
+Areas of Expertise
+Example Projects
+Ph.D. Research
+Past Dissertations
+Masters Research
+Undergraduate Research
+Gifts & Grants
+
+
+Impact
+
+Research that Matters
+Graduate Alumni Spotlights
+Undergraduate Alumni Spotlights
+Community Engagement
+Outreach
+
+
+Support
+
+Champion Research
+Support Students
+Become a Corporate Partner
+Provide Projects
+Post Jobs
+Share Your Talent
+Set Future Agenda
+
+
+ 
+
+
+
+
+
+
+
+		← Site Map  News
+
+
+
+
+
+Increasing Corporate Contributions to Social Good: An Interactive Simulation
+September 9, 2020
+
+
+Informatics Professor Bill Tomlinson worked with a team of researchers to conduct an interactive simulation with 500 participants on the implementation and impact of Sen. Elizabeth Warren’s Accountable Capitalism Act.
+
+In May 2020, JPMorgan Chase CEO Jamie Dimon issued a memo to shareholders about the company’s response to COVID-19. Acknowledging that “even before the pandemic hit, far too many people were living on the edge,” he went on to argue that “this crisis must serve as a wake-up call and a call to action for business and government to think, act and invest for the common good and confront the structural obstacles that have inhibited inclusive economic growth for years.”
+As companies and the government consider such action, one starting point might be a federal bill proposed in 2018 by Sen. Elizabeth Warren. As Warren explained in an op-ed in The Wall Street Journal, “the Accountable Capitalism Act restores the idea that giant American corporations should look out for American interest.” The bill would restructure U.S. corporate law, requiring “corporate directors to consider the interests of all major corporate stakeholders — not only shareholders — in company decisions.” Warren further explains that the approach follows the model of benefit corporations, “which gives businesses fiduciary responsibilities beyond their shareholders.”
+Not long after the Accountable Capitalism Act was introduced, a group of researchers from the Donald Bren School of Information and Computer Sciences (ICS) decided to conduct an interactive simulation of the bill’s implementation. “One of my graduated Ph.D. students, Six Silberman, suggested it,” says Informatics Professor Bill Tomlinson. “Six and I share an interest in agent-based modeling, and Six thought that the Accountable Capitalism Act would be an interesting topic for a simulation.”
+Working with a long-time colleague from the University of Kansas, Law Professor Andrew Torrance, and fellow Informatics Professors Rebecca Black and Kurt Squire, Tomlinson and Silberman (who now works at IG Metall, a German labor union) pulled together a team of undergraduate researchers, including computer science students Paramdeep S. Atwal, Ameya N. Mandalik and Sahil Railkar, to develop and deploy the simulation and recruit 500 participants for the interactive online business experiment. Participants were asked to play the role of directors of virtual corporations under a variety of different conditions. The results of their work appear in four papers — two recently published, and two accepted for publication. “The papers all derive from data collected from the same interactive simulation,” says Tomlinson, “but the data we collected for each, and the intellectual contributions they make, are quite different from each other.”
+As the papers outline, the interactive simulation led to valuable contributions in a variety of fields, from law and business to computer science and public policy. Furthermore, the work reveals the larger role computational simulations can play in helping policymakers evaluate social institutions and identify evidence-based approaches to promoting inclusive as well as sustainable economic development.
+Leveraging Participatory SimulationThe first paper, “A Participatory Simulation of the Accountable Capitalism Act,” appears in the ACM Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (CHI 2020). This work explores not only the Accountable Capitalism Act but also the role of human-computer interaction in legal and policy studies. As the authors note, “this paper presents participatory simulation as one instance of a class of computational systems that may offer new possibilities for designing and exploring human responses to social institutions.” In addition to examining the effect of the Accountable Capitalism Act on director behavior, the researchers also set out to identify the influence of interactive visualizations.
+The paper compared the behavior of 100 participants who were shown an interactive visualization to 100 who were not shown a visualization. “The CHI paper presents some core findings about the Accountable Capitalism Act, but primarily explores a hypothesis about the role of interactive visualization on how participants in a simulation will experience that simulation,” says Tomlinson. “Findings from this paper showed that participants shown the visualization were less obedient to the law that they were assigned to follow than those not shown the visualization — that is, they were influenced by what they saw in the visualization, rather than simply obedient to the law laid out for them.”
+The visualized world, with ﬁve corporations, 250 workers (represented by green, yellow and red icons, depending on benefits), and an environment-based background that varies from green to brown based on the level of pollution.
+Mandalik and Railkar wrote much of the code for the participatory simulation, building the back-end infrastructure for storing data and writing the game logic for the simulation. Atwal contributed to the simulation code as well and led the crowdsourcing effort, managing 500 participants through Amazon’s crowdsourcing platform. All three wrote portions of the papers. “This was my first experience in a research group and it became apparent that previously, I had never completely grasped the process behind writing a full paper,” says Railkar. “From finding and understanding other research papers discussing similar topics to analyzing the results of your investigation, each step requires lots of thought and discussion and is ultimately very rewarding.”
+Mandalik had a similar experience working with the group. “This project was my first real experience as a developer so I learned a lot from it in terms of good programming practices and working with a team,” he says. “It was also amazing to see how the simulation could be used in the context of environmental sciences and law.”
+As outlined in the CHI paper, the authors “envision a robust science of participatory simulation that enables a new generation of deep interdisciplinary collaboration between researchers from human-centered computing, the experimental social sciences, and sustainability science.” In conducting this work, the team is training those next-generation researchers while finding ways to help businesses “[contribute] to sustainability, including both the economic and social well-being of shareholders, employees, suppliers, customers, the communities in which they operate, and society broadly.”
+Comparing Two Legal FrameworksIn the second paper, the researchers teamed up with UCI J.D. candidate Yaqi Xie on a paper titled “Accountability with a Capital ‘Ism’: A Computational Simulation of the Accountable Capitalism Act vs. Delaware Corporate Law,” accepted for publication in the Ohio State Technology Law Journal.
+“This paper examines how people tasked with playing the role of corporate directors behave under two different legal frameworks — one that is currently in place in the U.S. (Delaware corporate law), and one that is under consideration by Congress (the ACA),” explains Tomlinson. “Understanding the differences between how people behave under these frameworks could have direct implications for policy decisions currently being discussed.”
+For this particular research, the team compared results from 100 participants who were told they were directors selected by shareholders and should follow Delaware corporate law with results from 200 participants instructed to follow the Accountable Capitalism Act, with half being told they were selected by shareholders and the other half by employees — a split representative of the legislation’s requirement for both shareholder- and employee-selected directors.
+The paper presents experimental evidence that the Accountable Capitalism Act would produce more balanced corporate behavior. As the authors conclude, “the study found that participants assigned to act as shareholder-selected directors instructed via Delaware corporate law favor shareholders more than those instructed via the Accountable Capitalism Act, in particular in decisions where the alternative is an option that is equally beneficial to several stakeholder groups.”
+Understanding the Motivations of Corporate DirectorsIn the third paper, “Judging Corporate Directors by the Companies They Keep: Results from an Interactive Simulation about the Motivations of Corporate Directors,” accepted for publication in the University of Pennsylvania Journal of Law & Public Affairs, the researchers looked beyond how corporate directors might act to questions of why they act in those ways.
+“The aim of the paper was to essentially integrate previously published quantitative results with novel qualitative results to shed new light on the behavior of corporate directors under existing, proposed, and hypothetical legislation,” says Atwal, who hopes to one day pursue a master’s degree in computer science. “Whereas previously published work has identified how such directors may act, here we go into depth on why they act in those ways.” For this work, the team looked at text responses from all the participants in the two previous studies. Participants reflecting on their choices revealed that they were not just obeying the law; they were also influenced by feelings of obligation to the stakeholder group that selected them, trying to bring about balanced outcomes, and also expressing their own pre-existing biases.
+“Whereas previously published work has identified how such directors may act, here we go into depth on why they act in those ways,” says Atwal. “It was incredibly fascinating and eye-opening because I had the opportunity to see things from their perspective, particularly when it came to the write-up and data analysis.”
+Considering Corporate Environmental ResponsibilityThe team’s fourth paper, just published in the journal Ecological Economics, was written in collaboration with UCI J.D. candidate Nick Nikols and University of Kansas J.D. candidate Mary Kate Workman. The paper integrates results from the other papers with those from 100 participants who had been told they were selected by a committee of scientists who study the environment. The paper seeks to understand whether such “environment-selected directors,” although not an explicit element of the Accountable Capitalism Act, could effectively broaden stakeholder representation on corporate boards.
+In each decision pop-up, participants — after being told to keep in mind how they were selected — are asked to decide between two choices represented by a bar chart. Here, participants are reminded that they were selected by a committee of scientists who study the environment.
+“I was excited about the opportunity to research the Accountable Capitalism Act and its implications —particularly in an interdisciplinary context,” says Nikols, who is interested in corporate law, sustainability and stakeholder theory. “I wanted to learn about how sustainability, law and informatics intersect in a project like this.” Through the work, he learned about the power of simulations to test policy proposals. “Concepts I encountered in my work with Professor Tomlinson have informed my law schoolwork and have added depth to my understanding of corporate environmental responsibility.”
+Taken together, these publications shed new light on the likely impacts of the Accountable Capitalism Act, the human factors of the business environment in which it operates, and the potential utility of including environment-selected directors in future legislation.
+The findings align closely with Tomlinson’s own interest in sustainability. “The pandemic is making it clear that, while individual behavior change does have some effect on climate change, individual change is not nearly enough to enact the kinds of transformations we need if we are to respond to climate change at the level that is needed.” As a co-founder of the LIMITS community of researchers focused on designing and developing computing systems for a future defined by a scarcity of resources, it’s not surprising that Tomlinson and his colleagues expanded the simulation to include environment-selected directors.
+“We need much more profound transformations to the institutions and infrastructures that shape human civilizations,” says Tomlinson. “Rethinking the underpinnings of how corporations operate, which is the goal of the Accountable Capitalism Act, could be a piece of that process.”
+Making Broader ConnectionsIn an effort to advance interdisciplinary collaboration around climate change and related sustainability issues, a group of UCI researchers are working on a new initiative called Solutions that Scale. Tomlinson and Andre van der Hoek, department chair and professor of informatics, are collaborating with faculty from Earth system science, social ecology, engineering and other fields to explore and develop new energy infrastructures, social systems and technologies to address sustainability at a global scale.
+“We see technology as being a key piece of the process of translating findings from climate science into practicable, real-world deployments,” says Tomlinson. “By supporting dynamic interchanges among scientists, high-leverage individuals (corporate and governmental leaders, etc.), local stakeholders, and potentially people representing the needs of other species, we aspire to create connections between sustainability science and human choices at all levels, from world leaders to laypeople.”
+— Shani Murray
+
+
+
+Post navigation
+← Exploring Design + Ethics: Join Professor Roderic Crooks for a Virtual Discussion with Industry Leaders
+eFinancialCareers: “How to get an internship at a top technology firm” (Melissa Mazmanian study cited) →
+
+
+
+
+
+
+ 
+
+October 2022
+September 2022
+July 2022
+June 2022
+May 2022
+April 2022
+March 2022
+February 2022
+January 2022
+December 2021
+November 2021
+October 2021
+September 2021
+August 2021
+July 2021
+June 2021
+May 2021
+April 2021
+March 2021
+February 2021
+January 2021
+December 2020
+November 2020
+October 2020
+September 2020
+August 2020
+July 2020
+June 2020
+May 2020
+April 2020
+March 2020
+February 2020
+January 2020
+December 2019
+November 2019
+October 2019
+September 2019
+August 2019
+July 2019
+June 2019
+May 2019
+April 2019
+March 2019
+February 2019
+January 2019
+December 2018
+November 2018
+October 2018
+September 2018
+August 2018
+July 2018
+June 2018
+May 2018
+April 2018
+March 2018
+February 2018
+January 2018
+December 2017
+November 2017
+October 2017
+September 2017
+August 2017
+July 2017
+June 2017
+May 2017
+April 2017
+March 2017
+February 2017
+January 2017
+December 2016
+November 2016
+October 2016
+September 2016
+August 2016
+July 2016
+June 2016
+May 2016
+April 2016
+March 2016
+February 2016
+January 2016
+December 2015
+November 2015
+October 2015
+September 2015
+August 2015
+July 2015
+June 2015
+May 2015
+April 2015
+March 2015
+February 2015
+January 2015
+December 2014
+November 2014
+September 2014
+August 2014
+July 2014
+June 2014
+
+ 
+
+
+
+People
+Contact
+Site Map
+News
+
+
+
+
+
+
+
+Feedback
+Privacy Policy
+					© 2022 UC Regents
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

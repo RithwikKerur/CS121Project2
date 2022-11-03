@@ -1,0 +1,55 @@
+http://www.ics.uci.edu/~kibler/JavaTexts.html
+ 
+
+  Java Texts  
+
+
+ The Java Programming Language  by Ken Arnold, James
+   Gosling and David Holmes. 3rd Edition.
+     Covers fundamentals of language, but not important packages. Accurate
+description of language. Where I go when I need a deeper understanding
+of some feature of the language. Covers Collections. This is the book I recommend.
+     Java: An Introduction to Computer Science and Programming 
+by Walter Savitch.
+ Straightforward and complete introduction to language that can be used by
+people with no programming experience.
+Students like this text.
+     Introduction to Programming Using Java: An Object-Oriented 
+approach   by David Arnold  and David Weiss. 
+Introduction to 
+object-oriented programming using Java. Meant as a first CS course text.
+I liked it.
+    Up to Speed with Swing by  Steven Gutz. Assumes you know Java
+and introduces basic Swing classes. Readable.
+     Computing Concepts using Java Essentials  by Cay Horstmann.
+    Covers Java for the beginning programming student. Used in 1A.
+    Core Java 2nd Ed  by Cay Horstmann and Gary Cornell
+     language + applets, user-interface, delegation event-model (JDK 1.1),
+     and new graphical widgets (e.g. scrollpane).
+     Java in a Nutshell (2nd Edition) (JDK 1.1)
+    A complete  brief description of the language plus a list of the
+  methods and classes in the JDK 1.1 packages. JDK 1.0 had 8 packages
+and JDK 1.1 has 23. Moreover the old packages have been extended.
+These new packages cover important extensions such
+as JavaBeans, reflections, serialization, JAR, and a new delegation
+event-model which replaces the old model.
+     Thinking in Java  by Bruce Eckel. 
+This text covers
+ JDK 1.1 with some information about JDK 1.2.  It is meant
+for the serious programmer who
+has already programmed in some language, preferably C++. I like this
+text a lot. He provides practical advice. The text covers  the
+topics in Java in a Nutshell in greater depth.
+    Graphic Java 1.1: Mastering the AWT  2nd Ed.
+    thorough discussion of components, lightweight components, custom
+  components. More than you want  to know. Good reference.
+    Symantic Visual Café Sourcebook  by Cary Jardin and Pam
+ Dixon. A complete guide to Creating Java Applets and applications with
+ Visual Café . Note: only similar to Visual Cafe Pro.
+    For an up-to-date discussion of the Java and its use, see  
+ http://www.javasoft.com/.
+    Any book that covers JDK1.1 that you can learn from. Everyone
+  learns differently.
+ 
+
+

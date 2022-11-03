@@ -1,0 +1,168 @@
+http://www.ics.uci.edu/~stasio/winter06/lab1/lab1.html
+
+
+Lab 1
+
+Lab Warm-up: Running and Compiling an Applet
+
+			This is a warm-up so you can experiment with java.  This exercise also 
+			shows you how to construct java applets, and embed them in a webpage.
+		
+Blinking Text
+
+alt="Your 
+			browser understands the &ltAPPLET> tag but isn't running the applet, for some 
+			reason." Your browser is completely ignoring the &ltAPPLET> tag! 
+
+The source.
+
+			Most of the programs that we will write for this class will be stand-alone 
+			programs. However, Java also enables a way to write Applets which are programs 
+			that run through a browser. For this lab warm-up you can learn how to create 
+			java applets and incorporate them into a webpage. The applet you will compile 
+			and use is the blinking text applet above. This will also get you familiar with 
+			whatever java programming environment you choose to use so you can just start 
+			on the first programming assignment next week with all these details worked 
+			out.
+		
+
+			For this lab you should turn in the java applet you designed and a link to a 
+			webpage with this applet running. To turn in it, log in to the 
+				UCI Electronic Educational Environment, and upload (1) your applet and 
+			(2) a link to your webpage.
+		
+
+			Getting Accounts
+		In order to do this lab, you will need two different accounts: your Windows 
+		account and and a UNIX account. The Windows account is the one you will 
+		primarily be using for this class. The UNIX account will be important for 
+		having your web page and will provide some disk space for you to save files. 
+		Instructions for getting your accounts can be found at 
+			http://www.ics.uci.edu/~lab/ .
+		
+			Accessing Files
+		The icon labeled youruserid on `octavian'(H:) is your file system on 
+		the Suns. All your files on your Sun account can be accessed through your 
+		Windows account by clicking on this icon. For the machines in the lab, you can 
+		not write to any files on the hard drive (labelled C: ) except 
+		for the folder C:\temp . I recommend storing all the files you 
+		are working on in your Sun account. However, while you are working on them, 
+		move them over to C:\temp .
+		
+
+			Save and Compile the Applet Source Code
+		Save the source code for the blinking applet using the source code above. 
+		Compile the the source code using whatever programming environment you choose 
+		to use. Detailed instructions on how to do this using BlueJ are given below. 
+		Atfer you have compiled the code, you will have a class called Blink.class 
+		.
+		
+			Making a web page
+		
+		In order to have a web page that is publicly viewable, it needs to reside in a 
+		special directory on your Unix account. You also need to take care to have the 
+		protection on the directory and files set so that they can be accessed. For a 
+		quick tutorial on some Unix basics, visit 
+			http://www.ics.uci.edu/computing/unix , but the following list of 
+		commands should be enough for this lab:
+		
+
+			Telnet/logon to your Unix accountMake a directory called public_html under 
+				the root directory
+				
+
+					cdmkdir public_html
+					
+
+
+				Change the mode of the public_html directory to be world-readable and 
+				world-executable.
+				
+
+					cdchmod 755 public_html
+					
+
+
+				Create a web page. Call it index.html and store it in your public_html 
+				directory. Instructions on how to create a web page can be found at 
+					http://www.ics.uci.edu/computing/web/personalwebspace.php . You can use 
+				the make_my_web 
+			program or get more creative on your own.
+				Copy your Blink.class file to your public_html directory. You can do 
+				this using Windows Explorer. Your Unix files are all stored under the H: 
+			drive.Change the mode of the index.html and Blink.class files to 
+				be world-readable.
+				
+
+					cdcd public_htmlchmod 644 index.htmlchmod 644 Class.class
+					
+
+
+				Edit your index.html file and add lines in html to point to and execute 
+				the Blink.class file. Note that you can save the web page you 
+				are reading and view it using Notepad to see how this is done. You need the 
+				lines inbetween the <hr> 
+			commands.Test your Applet by going to the URL 
+					http://www.ics.uci.edu/~Your-Login-Name.
+			
+				Change the java applet we give you in some creative way.  After all, this 
+				is your UCI webpage now, so you dont want it to be lame...
+
+			Creating a Project through BlueJ
+		
+
+			Java Applets are programs that can be run through a web browser. This section 
+			will guide you through two different ways of running an Applet: through a web 
+			browser or through BlueJ. In order to run any program or Applet through BlueJ, 
+			you have to first create a project and put the appropriate files in the 
+			project. This is something that is required by BlueJ, and is its way of 
+			organizing files for a particular application.
+		
+
+			Start out by opening up BlueJ through the Start menu. ( All 
+			the machines in the lab already have BlueJ installed. If you would like to 
+			install BlueJ on your own computer visit http://www.bluej.org
+			. ) Since we are creating a new project, pull down the Projects 
+			menu in BlueJ and choose New Project. Select the location 
+			where you want your project to reside and give your project a name. This will 
+			create a folder with that name and two additional files in the folder.
+		
+
+			To run a Java Applet through a web browser, you will need at least two 
+			different files: an html file and at least one file containing the 
+			Java bytecode for the applet. The name of the html file will always 
+			have the extension .html and the names of the files containing the 
+			Java bytecode will always have the extension .class . The .class 
+			file is created by compiling Java source code which will be stored in files 
+			ending in .java . Copy the Blink.java file into your project 
+			folder.
+		
+
+			If we want to run the Applet through BlueJ, we need to add the new Java source 
+			file to the project. From the Edit menu in BlueJ, select Add Class From 
+				File. Select Blink.java and click Add . 
+			A box with the name of the applet (Blink) will appear in your window. Click on 
+			the Compile button to compile the project. This will produce a 
+			file called Blink.class in the project folder which is the Java 
+			bytecode for the applet.
+		
+		To run the applet, right click on the box with Blink applet and select Run 
+			Applet . You can run the applet through the applet viewer or the 
+		web browser. Experiment with both. For now, select one and click OK 
+		. When you run the Applet, BlueJ automatically produces an html file that 
+		points to the bytecode file for that applet.
+		
+
+			If you right click on the Blink applet and select Open Editor you 
+			can edit the java source code. You will need to do this when you develop your 
+			own Java programs. Go in and edit the text that is blinking in the applet.
+		
+
+			Go back to the folder containing the files for your project. If you 
+			double-click on the Blink.html file, your browser will open and 
+			display your new applet. If you open the html file with a text editor, you can 
+			see and edit the html file. Note the line that points to the Blink.class file. 
+			This tells the browser to execute this bytecode.
+		
+
+

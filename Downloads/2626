@@ -1,0 +1,171 @@
+https://ngs.ics.uci.edu/data-data-everywhere-and-more-data-coming
+
+
+
+
+
+
+
+
+Data, Data, Everywhere, and more Data coming – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Data, Data, Everywhere, and more Data coming    			
+
+
+Yesterday I attended EC-ASSIST review program meeting at IBM research facilities in Hawthorn, New York.  This is a DARPA program in which IBM, MIT, Georgia Tech, UC Irvine, AWARE Tech team is addressing technical issues in electronic chronicling in the context of needs of soldiers.  Though the program is concerned with defense applications, its applications are widespread in other areas also.
+Thad Starner of Georgia Tech was dressed up like a futuristic soldier on a reconnaissance mission.  He was wearing multiple cameras, sensors, and computers.  The details of all those devices are described in technical literature so I will not get into those here.  The important thing is the idea that Sandy Pentland of MIT and Thad (who was Sandyâ€™s student) have been championing is that sensors and computers are now such that they could be easily part of our clothing and could be used to collect continuously as well as on demand information about the environment in which we are.  Some cameras may be recording video of every thing around us while other cameras or microphones may record when we want them to. Other sensors, like accelerometers, could be used to record our physical activities and could be used to detect events that we could be engaged in.  Sandyâ€™s research in this area is very interesting.  This data collection through wearable sensors (a term that somehow does not seem right) has several interesting implications. In many applications, including defense but definitely not limited to it, this data could be used.  The idea of an electronic chronicle, that I started calling eChronicles when the project LifeLog was proposed, is very useful in many applications.  
+An interesting question is what to do with this large volume of data.  Technology has advanced to a stage where it is very easy to put powerful sensors and capture large volumes of data.  Techniques are also being developed to analyze this data to find meaning in it.  It has been, however, lot more difficult to develop analysis techniques to extract meaningful information from images, audio, and other signals than to develop acquision and storage techniques.  A major problem in the development of such techniques appears to be researchersâ€™ preoccupation with the medium than the goal.  Researchers in image processing want to exclusively use only image processing techniques and will not touch audio or any other information source.  More on this topic sometime soon.
+IBM is developing an architecture to collect all the data from different sources and apply processing techniques to interpret them and store the results.  At UC Irvine we are developing approaches to organize this data and provide access to this in meaningful terms to users.  Our approach is driven by the idea that organization of data using events is lot easier to access and navigate than the data that is organized based only on objects.  We are developing this framework not only in the context of ASSIST but also in many other applications.
+Sitting through many interesting technical presentations and discussions, I could not help but keep thinking that the techniques for creating data and storing are progressing so rapidly but the techniques for analyzing and organizing data are not keeping pace with it.  And all this is happening when Google is claiming that they are going to organize and index the entire worldâ€™s information.  I do hope that they are putting correct amount of emphasis on data analysis to extract information from these new documents that are being created using multiple sensors.
+
+
+
+By Ramesh |
+    				October 14, 2005 |
+    				             		Technical Thoughts |
+             	 
+    				             		No Comments |
+             	 		          				
+    			
+
+
+← Google will touch everything
+Metadata for images, video, and other data →
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

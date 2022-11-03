@@ -1,0 +1,403 @@
+https://duttgroup.ics.uci.edu/projects/health-care-iot/ioct
+
+
+
+
+
+
+Internet of Cognitive Things in healthcare – Dutt Research Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to content
+
+
+
+
+
+
+ 
+
+Dutt Research Group
+DRG-Lab Webpage
+
+
+
+
+
+
+
+
+DRG Home
+Group Members
+Projects
+
+Self-Aware & Adaptive Computing
+
+Information Processing Factory (IPF)
+MARS
+Unified Parallel Runtime
+Memory Adaptation
+
+
+Health Care IoT
+
+Internet of Cognitive Things in healthcare
+Pain Assessment
+Maternity Care
+NSF Unite Project
+
+
+Domain-specific Hardware Accelerators
+Neuromorphic Computing
+
+
+Publications
+Sister Groups
+News
+
+
+
+
+Main Menu
+
+
+
+
+
+
+
+
+
+
+Internet of Cognitive Things in healthcare 
+
+
+
+
+
+System Architecture
+
+The Internet of Things (IoT) is a communication paradigm that envisions a near future in which the objects of everyday life will be equipped with devices that will make them able to communicate with one another and with users, becoming an integral part of the Internet. Our system architecture deploys a 3-layer (sensor-edge-cloud) structure, with the edge layer enabling system adaptivity in real-time.
+The sensor layer is the closest layer to the patient and is composed of several sensor nodes mounted on the body for collecting bio-signals, patient activities, and context information.
+The sensor nodes are resource constrained in terms of available energy and processing power. Therefore, they are only capable of performing simple preprocessing, and often delegate signal analysis to the upper layers.  At the edge layer, the gateway device is a network-enabled local computer performing several tasks (e.g., data fusion, local processing, compression, and encryption) on collected data before transferring it to the cloud layer. In addition, the edge layer is responsible for sending optimal settings such as power level, sampling rate, duration of sensing and scheduling sleeping times for the sensor to maximize the battery life in the sensor.  In this project, we try to use the concept of real-time edge computing to improve the energy efficiency of sensors.
+
+
+
+Sponsor:
+
+
+
+
+
+				NSF
+				
+
+
+
+
+				UC Irvine
+				
+
+
+
+
+				UTU
+				
+
+
+
+
+People:
+
+
+
+
+
+				Delaram Amiri
+				
+
+
+
+
+				Arman Anzanpour
+				
+
+
+
+
+				Iman Azimi
+				
+
+
+
+
+				Sina Shahhosseini
+				
+
+
+
+
+				Marco Levorato
+				
+
+
+
+
+				Amir Rahmani
+				
+
+
+
+
+				Pasi Liljeberg
+				
+
+
+
+
+				Nikil Dutt
+				
+
+
+
+
+				Jinwoo Hwang
+				
+
+
+
+
+Articles
+
+
+
+
+
+
+
+
+
+
+
+
+A paper was accepted at ACM Transaction on Internet of Things
+
+
+
+
+
+
+
+Won first place at “Student Design Contest”  held by 16th International System on Chip Conference
+
+
+
+
+
+
+
+Accepted paper in Globecom2018 conference
+
+
+
+
+
+Publications
+
+
+
+2020
+
+ Anzanpour, Arman;  Amiri, Delaram;  Azimi, Iman;  Levorato, Marco;  Dutt, Nikil;  Liljeberg, Pasi;  Rahmani, Amir MEdge-Assisted Control for Healthcare Internet-of-Things: A Case Study on PPG-based Early Warning Score Journal Article ACM transaction on Internet of Things , 2020.Abstract | Links | BibTeX@article{EdgeControl-ACM2020,
+title = {Edge-Assisted Control for Healthcare Internet-of-Things: A Case Study on PPG-based Early Warning Score},
+author = {Arman Anzanpour and Delaram Amiri and Iman Azimi and Marco Levorato and Nikil Dutt and Pasi Liljeberg and Amir M. Rahmani},
+url = {https://www.researchgate.net/publication/342787437_Edge-Assisted_Control_for_Healthcare_Internet-of-Things_A_Case_Study_on_PPG-based_Early_Warning_Score},
+year  = {2020},
+date = {2020-08-01},
+journal = {ACM transaction on Internet of Things },
+abstract = {Recent advances in pervasive Internet of Things (IoT) technologies and edge computing have opened new avenues for development of ubiquitous health monitoring applications. Delivering an acceptable level of usability and accuracy for these healthcare IoT applications requires optimization of both system-driven and data-driven aspects which are typically done in a disjoint manner. While decoupled optimization of these processes yields local optima at each level, synergistic coupling of the system and data levels can lead to a holistic solution opening new opportunities for optimization. In this paper, we present an edge-assisted resource manager that dynamically controls the delity and duration of sensing w.r.t. changes in the patient's activity and health state, thus ne-tuning the trade-o between energy-e ciency and measurement accuracy. The cornerstone of our proposed solution is an intelligent low-latency real-time controller implemented at the edge layer that detects abnormalities in the patient's condition and accordingly adjusts the sensing parameters of a recon gurable wireless sensor node. We assess the e ciency of our proposed system via a case study of PPG-based medical Early Warning Score (EWS) system. Our experiments on a real full hardware-software EWS system reveal up to 49% power savings while maintaining the accuracy of the sensory data.},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+CloseRecent advances in pervasive Internet of Things (IoT) technologies and edge computing have opened new avenues for development of ubiquitous health monitoring applications. Delivering an acceptable level of usability and accuracy for these healthcare IoT applications requires optimization of both system-driven and data-driven aspects which are typically done in a disjoint manner. While decoupled optimization of these processes yields local optima at each level, synergistic coupling of the system and data levels can lead to a holistic solution opening new opportunities for optimization. In this paper, we present an edge-assisted resource manager that dynamically controls the delity and duration of sensing w.r.t. changes in the patient's activity and health state, thus ne-tuning the trade-o between energy-e ciency and measurement accuracy. The cornerstone of our proposed solution is an intelligent low-latency real-time controller implemented at the edge layer that detects abnormalities in the patient's condition and accordingly adjusts the sensing parameters of a recon gurable wireless sensor node. We assess the e ciency of our proposed system via a case study of PPG-based medical Early Warning Score (EWS) system. Our experiments on a real full hardware-software EWS system reveal up to 49% power savings while maintaining the accuracy of the sensory data.Closehttps://www.researchgate.net/publication/342787437_Edge-Assisted_Control_for_Hea[...]Close Amiri, Delaram;  Anzanpour, Arman;  Azimi, Iman;  Rahmani, Amir M;  Liljeberg, Pasi;  Dutt, Nikil;  Levorato, MarcoOptimizing Energy Efficiency of Wearable Sensors Using Fog-assisted Control Book Chapter Fog Computing: Theory and Practice,  Chapter 9, pp. arXiv:1907.11989, Wiley, 2020, ISBN: 9781119551713.Abstract | Links | BibTeX@inbook{amiribook2020,
+title = {Optimizing Energy Efficiency of Wearable Sensors Using Fog-assisted Control},
+author = {Delaram Amiri and Arman Anzanpour and Iman Azimi and Amir M Rahmani and Pasi Liljeberg and Nikil Dutt and Marco Levorato},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119551713.ch9},
+doi = {https://doi.org/10.1002/9781119551713.ch9},
+isbn = {9781119551713},
+year  = {2020},
+date = {2020-04-25},
+booktitle = {Fog Computing: Theory and Practice},
+journal = {arXiv e-prints},
+pages = {arXiv:1907.11989},
+publisher = {Wiley},
+chapter = {9},
+abstract = {Recent advances in the Internet of Things (IoT) technologies have enabled the use of wearables for remote patient monitoring. Wearable sensors capture the patient's vital signs, and provide alerts or diagnosis based on the collected data. Unfortunately, wearables typically have limited energy and computational capacity, making their use challenging for healthcare applications where monitoring must continue uninterrupted long time, without the need to charge or change the battery. Fog computing can alleviate this problem by offloading computationally intensive tasks from the sensor layer to higher layers, thereby not only meeting the sensors' limited computational capacity but also enabling the use of local closed-loop energy optimization algorithms to increase the battery life.},
+keywords = {},
+pubstate = {published},
+tppubtype = {inbook}
+}
+CloseRecent advances in the Internet of Things (IoT) technologies have enabled the use of wearables for remote patient monitoring. Wearable sensors capture the patient's vital signs, and provide alerts or diagnosis based on the collected data. Unfortunately, wearables typically have limited energy and computational capacity, making their use challenging for healthcare applications where monitoring must continue uninterrupted long time, without the need to charge or change the battery. Fog computing can alleviate this problem by offloading computationally intensive tasks from the sensor layer to higher layers, thereby not only meeting the sensors' limited computational capacity but also enabling the use of local closed-loop energy optimization algorithms to increase the battery life.Closehttps://onlinelibrary.wiley.com/doi/abs/10.1002/9781119551713.ch9doi:https://doi.org/10.1002/9781119551713.ch9Close
+
+2019
+
+ Amiri, Delaram;  Anzanpour, Arman;  Azimi, Iman;  Levorato, Marco;  Liljeberg, Pasi;  Dutt, Nikil;  Rahmani, Amir MContext-Aware Sensing via Dynamic Programming for Edge-Assisted Wearable Systems Journal Article ACM transaction on computing for healthcare (HEALTH), 2019.Links | BibTeX@article{amiri-levorato-2019,
+title = {Context-Aware Sensing via Dynamic Programming for Edge-Assisted Wearable Systems},
+author = {Delaram Amiri and Arman Anzanpour and Iman Azimi and Marco Levorato and Pasi Liljeberg and Nikil Dutt and Amir M Rahmani},
+url = {https://www.researchgate.net/publication/334849243_Context-Aware_Sensing_via_Dynamic_Programming_for_Edge-Assisted_Wearable_Systems},
+doi = {10.1145/3351286},
+year  = {2019},
+date = {2019-08-01},
+booktitle = {ACM Transactions on Computing for Healthcare},
+journal = {ACM transaction on computing for healthcare (HEALTH)},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+Closehttps://www.researchgate.net/publication/334849243_Context-Aware_Sensing_via_Dyn[...]doi:10.1145/3351286Close
+
+2018
+
+ Amiri, Delaram;  Anzanpour, Arman;  Azimi, Iman;  Levorato, Marco;  Rahmani, Amir M;  Liljeberg, Pasi;  Dutt, NikilEdge-Assisted Sensor Control in Healthcare IoT Inproceedings 2018 IEEE Global Communications Conference (GLOBECOM), pp. 1–6, 2018.Abstract | Links | BibTeX@inproceedings{amiri2018edge,
+title = {Edge-Assisted Sensor Control in Healthcare IoT},
+author = {Delaram Amiri and Arman Anzanpour and Iman Azimi and Marco Levorato and Amir M. Rahmani and Pasi Liljeberg and Nikil Dutt},
+doi = {10.1109/GLOCOM.2018.8647457},
+year  = {2018},
+date = {2018-12-09},
+booktitle = {2018 IEEE Global Communications Conference (GLOBECOM)},
+pages = {1--6},
+abstract = {The Internet of Things is a key enabler of mobile health-care applications. However, the inherent constraints of mobile devices, such as limited availability of energy, can impair their ability to produce accurate data and, in turn, degrade the output of algorithms processing them in real-time to evaluate the patient’s state. This paper presents an edge-assisted framework, where models and control generated by an edge server inform the sensing parameters of mobile sensors. The objective is to maximize the probability that anomalies in the collected signals are detected over extensive periods of time under batteryimposed constraints. Although the proposed concept is general, the control framework is made specific to a use-case where vital signs – heart rate, respiration rate and oxygen saturation – are extracted from a Photoplethysmogram (PPG) signal to detect anomalies in real-time. Experimental results show a 16.9% reduction in sensing energy consumption in comparison to a constant energy consumption with the maximum misdetection probability of 0.17 in a 24-hour health monitoring system.},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+CloseThe Internet of Things is a key enabler of mobile health-care applications. However, the inherent constraints of mobile devices, such as limited availability of energy, can impair their ability to produce accurate data and, in turn, degrade the output of algorithms processing them in real-time to evaluate the patient’s state. This paper presents an edge-assisted framework, where models and control generated by an edge server inform the sensing parameters of mobile sensors. The objective is to maximize the probability that anomalies in the collected signals are detected over extensive periods of time under batteryimposed constraints. Although the proposed concept is general, the control framework is made specific to a use-case where vital signs – heart rate, respiration rate and oxygen saturation – are extracted from a Photoplethysmogram (PPG) signal to detect anomalies in real-time. Experimental results show a 16.9% reduction in sensing energy consumption in comparison to a constant energy consumption with the maximum misdetection probability of 0.17 in a 24-hour health monitoring system.Closedoi:10.1109/GLOCOM.2018.8647457Close
+
+2017
+
+ Anzanpour, Arman;  Azimi, Iman;  Gotzinger, Maximilian;  Rahmani, Amir M;  Taherinejad, Nima;  Liljeberg, Pasi;  Jantsch, Axel;  Dutt, Nikil DSelf-awareness in remote health monitoring systems using wearable  electronics Inproceedings Design, Automation & Test in Europe Conference & Exhibition, 
+ DATE 2017, Lausanne, Switzerland, March 27-31, 2017, pp. 1056–1061, 2017.Links | BibTeX@inproceedings{DBLP:conf/date/AnzanpourAGRTLJ17,
+title = {Self-awareness in remote health monitoring systems using wearable  electronics},
+author = {Arman Anzanpour and Iman Azimi and Maximilian Gotzinger and Amir M Rahmani and Nima Taherinejad and Pasi Liljeberg and Axel Jantsch and Nikil D Dutt},
+url = {https://doi.org/10.23919/DATE.2017.7927146},
+doi = {10.23919/DATE.2017.7927146},
+year  = {2017},
+date = {2017-01-01},
+booktitle = {Design, Automation & Test in Europe Conference & Exhibition, 
+ DATE 2017, Lausanne, Switzerland, March 27-31, 2017},
+pages = {1056--1061},
+crossref = {DBLP:conf/date/2017},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+Closehttps://doi.org/10.23919/DATE.2017.7927146doi:10.23919/DATE.2017.7927146Close
+
+Contact Us about This Project 
+Your Name
+ 
+ Your Email
+ 
+ Subject
+ 
+ Message
+ 
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+Find Us Address
+3069 Donald Bren Hall
+University of California, Irvine
+Irvine, CA 92697-3435, USA
+Email
+drg@ics.uci.edu
+
+ 
+
+
+
+
+
+
+
+
+
+					Copyright © 2022 Dutt Research Group.				
+
+					Powered by WordPress and HitMag.				
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+

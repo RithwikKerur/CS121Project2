@@ -1,0 +1,51 @@
+http://computableplant.ics.uci.edu/erleap
+
+
+ ER-leap 
+
+
+
+  EXACT REACTION LEAPING
+
+
+
+
+
+
+
+Software: 
+Exact acceleration of Gillespie's Stochastic Simulation Algorithm.
+Developed By: 
+Scientific Inference Systems Laboratories, UC Irvine.
+Language: 
+C/C++
+License: 
+GPL
+
+
+ 
+Welcome to the ER-leap download page. 
+
+ER-leap is an accelerated SSA equivalent stochastic simulator. The algorithm was discovered primarily by Eric Mjolsness at UCI. 
+
+
+The code is written in C++. It requires the libSBML library before being compiled.
+It was developed using Mac OS X (v10.4) although other operating systems and environments are expected to work. 
+Dependencies
+
+  libSBML 
+
+Download 
+ Source Code (v0.9, 5/28/08) 
+ Source Code (pre-release v0.7, 12/20/07)
+
+Contact
+For questions or discussion, please contact...
+
+  Eric Mjolsness  (derivation)
+ David Orendorff (code)
+
+References
+Eric Mjolsness, David Orendorff, Philippe Chatelain, and Petros Koumoutsakos. An Exact Accelerated Stochastic Simulation Algorithm.  Journal of Chemical Physics 130, 144110 (2009).
+
+

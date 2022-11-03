@@ -1,0 +1,209 @@
+http://www.ics.uci.edu/~kibler/javacourse/java.html
+
+
+  Java  
+ Why Java? 
+
+ Java: a language for team programming 
+ Java Texts 
+
+ The Java Programming Language  by Ken Arnold and James
+   Gosling. 
+     Covers fundamentals of language, but not important packages.
+     Computing Concepts using Java Essentials  by Cay Horstmann.
+    Covers Java for the beginning programming student. Used in 1A.
+    Core Java 2nd Ed  by Cay Horstmann and Gary Cornell
+     language + applets, user-interface, delegation event-model (JDK 1.1),
+     and new graphical widgets (e.g. scrollpane).
+     Java in a Nutshell (2nd Edition) (JDK 1.1)
+    A complete  brief description of the language plus a list of the
+  methods and classes in the JDK 1.1 packages. JDK 1.0 had 8 packages
+and JDK 1.1 has 23. Moreover the old packages have been extended.
+These new packages cover important extensions such
+as JavaBeans, reflections, serialization, JAR, and a new delegation
+event-model which replaces the old model.
+     Thinking in Java  by Bruce Eckel. 
+This text covers
+ JDK 1.1 with some information about JDK 1.2.  It is meant
+for the serious programmer who
+has already programmed in some language, preferably C++. I like this
+text a lot. He provides practical advice. The text covers  the
+topics in Java in a Nutshell in greater depth.
+    Graphic Java 1.1: Mastering the AWT  2nd Ed.
+    thorough discussion of components, lightweight components, custom
+  components. More than you want  to know. Good reference.
+    Symantic Visual Café Sourcebook  by Cary Jardin and Pam
+ Dixon. A complete guide to Creating Java Applets and applications with
+ Visual Café . Note: only similar to Visual Cafe Pro.
+    For an up-to-date discussion of the Java and its use, see  
+ http://www.javasoft.com/.
+    Any book that covers JDK1.1 that you can learn from. Everyone
+  learns differently.
+ 
+ Java History 
+
+ Sun (Gosling) creates Oak, a language for embedded systems.
+     Specification of virtual machine yields platform independence.
+     Internet access promotes multi-platform languages.
+     Oak becomes Java.
+     World goes crazy.
+     Warning: Java is changing.
+   
+ Object-Oriented Language History 
+
+  1967  Simula - perceived as simulation language
+      1970's study: limited programmer memory/comprehension
+      1980's Smalltalk -  slow,  graphical, totally object-oriented
+      1980's Object  Pascal (basis of Delphi) dynamic types, database
+          and window event access
+      1986  Eiffel: correctness
+      1985 (first release) C++ : a better, object-oriented C
+      1990 CLOS  Common Lisp Object System
+      1995 Sun released Java : multi-platform, maintenance
+   
+ Special Purpose Languages 
+ Matlab, Mathematica, SPSS, Latex, html, vrml, ...
+ Evolution of Programming Languages 
+
+ More than 1000 programming languages: Why?
+     User Problems  --> Software Solutions --> Hardware Implementations
+     Machine Languages --> Assembly Language --> General Purpose Languages
+     Early Concerns
+        
+ Efficiency
+            Code size
+            Compiler correctness
+            Compiler uniformity
+         
+ Trends
+    
+  addresses --> variable --> local variable --> records
+      instructions --> macros --> functions and procedures
+      run-time errors --> compile-time errors --> assertions+exceptions
+      code gets shorter
+      languages and compilers more complicated
+      increased functionality
+     increased information hiding via encapsulation
+      run-time increases
+   
+ What have we learned?
+     Multiple Goals: Sometimes  goals conflict, other times they
+         support one another.
+     Language design decisions relate to a preference of one goal over
+     another, e.g. automatic array bounds checking, pointer arithmetic,
+     memory release, etc. 
+     Where do people (cognitive abilities and foibles) fit in?
+     What's wrong/right with Java.
+  
+General Purpose Programming Language Goals 
+  For a good discussion of programming language design issues see:
+  Design and Evolution of C++  by Bjorne Stroustrup.
+ For principles of Object-oriented design see
+
+ Java summary 
+
+ A Java program is a collection of classes definitions plus
+   one special class, called the "driver".
+  Every class is a descendant of the class Object. 
+  Java is Object-oriented, simpler than C++, safer than C++ (not always),
+   multi-programmer, multi-platform, graphical, efficient (but slower than
+   C++), comprehensible.
+ 
+ What Java doesn't have 
+ Are these bad or good features?
+  
+ Assertions (pre, post, invariant)
+     Multiple Inheritance
+     Genericity:
+      
+ can't have types as arguments
+         e.g.  can't have Vector of reals where compiler
+       checks type.
+     
+ Classes can't be created dynamically
+  
+ Warning: Java is not extension of C 
+ Java Differences with C 
+
+ Most C expressions are legal in Java, but not all.
+    goto  is a reserved word in Java, but it does not have
+        a goto statement. Instead Java has a labelled break statement.
+    Java has the class String, which has over 30 methods and several
+     constructors. The method length() returns the length of the string.X
+    You cannot do pointer arithmetic in Java.
+    You cannot free memory in Java. Instead Java uses garbage
+        collection, which runs  asynchronously in a separate thread.
+    You cannot pass functions as parameters in Java. Instead
+   you define a function-object class and pass these objects around.
+    There are no global functions or variables in Java.
+    You cannot pass function pointers in Java. 
+    Arrays are unusually objects in Java. 
+     
+  int[] myarray = new int[10]; creates an array of integers of size 10.
+         Arrays are created dynamically at run-time.
+        As is C, array indexing starts at 0.
+        myarray.length returns the size of the array. 
+        Array bounds are checked at runtime.
+        Unlike most objects, you cannot inherit from arrays.
+      
+
+  Classes  
+  Inheritance 
+  Interfaces  
+  Applets  
+  User-Interface  
+  Event Handling  
+ Glossary 
+
+ An  Abstract method  is a method prototype, i.e.
+   one without a body.
+     Abstract class  has at least one abstract method.
+    An  interface  specifies only abstract methods and
+       static data members.
+    The  signature  of a method is the types of the
+    arguments together with the method name.  It does not include the
+    return type.
+    The  scope  of a variable is the region in the
+    program where the variable can be accessed.
+    The  lifetime  of a variable is the range of instructions
+   where storage is bound to the variable.
+     Declaring  a variable/object allocates no storage and
+      notifies the compiler that the variable is defined elsewhere.
+    Defining  a variable/object causes storage to be allocated
+     and defines the meaning or interpretation of the storage.
+    Short-circuit  evaluation means that boolean expressions
+are evaluate only as far as they need to be. Once the value is known,
+further evaluation stops.
+    Static  members are globals to the class. 
+    Max Gobble rule  means the lexical analyzer defines a
+lexeme to be the longest string that matches a keyword. For example
+  i+++j means i++ + j and not i + ++j.
+  A package  is a related collection of classes. If no
+ accessibility priviledges are specified, each member of the collection
+ is visible to all  within the package.
+
+ 
+ Style Guidelines  
+
+
+  Braces should line-up one under another.
+  Spaces should  support parsing.
+  Comments should explain what a method does, not how.
+  For documentation use javadoc.
+  No magic constants.
+
+
+ Design Guidelines 
+
+
+ If code isn't correct, it is worthless.
+ Code should be understandable.
+ Code should be as efficient as it needs to be.
+ Code should be modifiable.
+ Use object decomposition, problem decomposition,
+    and function decomposition.
+ Encapsulate.
+ Copy and edit suggests making a class.
+
+
+

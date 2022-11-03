@@ -1,0 +1,202 @@
+https://sli.ics.uci.edu/PmWiki/PageVariables
+
+
+
+SLI | PmWiki / Page specific variables 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+Page specific variables
+
+
+
+
+
+< Conditional markup | Documentation Index | Page text variables >
+
+
+< Basic Variables | Variables | Page TextVariables >
+
+authors (intermediate) 
+
+This page describes the "variables" that are associated with pages.  Page variables have the form {$variable}, and can be used in page markup or in certain formatting strings in PmWiki.  For example, the markup "{$Group}" renders in this page as "PmWiki".
+
+Note: Do not confuse these variables (set and used only in PmWiki pages) with PHP variables.  Page variables can be read in PHP with the PageVar() function.
+
+Note that these variables do not necessarily exist in the PHP code, because they have to be determined for a specific page.  (However, they are usable in FmtPageName strings.)
+
+There is also the form {pagename$variable}, which returns the value of the variable for another page.  For example, "{MarkupMasterIndex$Title}" displays as "Markup Master Index".
+
+
+Special references
+Special referenced variables are used to specify the context of the variable when:
+the variable is included into a destination (target) page
+the variable is used in a sidebar, header, or footer
+Prefixing the variable name with an asterisk (*) means the variable's value is related to the target page or main (body) page.
+
+{*$PageVariablename} - prefixed by an asterisk (*) - value reflects target page context
+Without the asterisk the variable's value is that in the page from which it originates, eg source page of include, sidebar, or header or footer.
+{$PageVariablename} -  retains value in source page context
+See also $EnableRelativePageVars.
+Special references are also used in page text variables and page list templates.
+For example you can test to see if the page is part of another page
+
+(:if ! name {$FullName}:) 
+%comment% name of this page is not the same as the page this text was sourced from
+->[[{$FullName}#anchor | more ...]]
+(:ifend:)
+
+or refer to the main page in a sidebar, footer, or header
+
+This page is [[{*$FullName}]]
+This page is PmWiki.PageVariables
+
+
+
+
+Default page variables
+The page variables defined for PmWiki are:
+
+{$Action} - page's url action argument, as in "browse"
+{$BaseName} - page's "base" form (stripping any prefixes or suffixes defined via $BaseNamePatterns) as in "PmWiki.PageVariables"
+{$DefaultGroup} - default group name, as in "Main"
+{$DefaultName} - name of default page, as in "HomePage" (take note also of $PagePathFmt for setting a homepage for a group)
+{$Description} - page's description from the (:description:) markup, as in "Documentation for "variables" that are associated with pages."
+{$FullName} - page's full name, as in "PmWiki.PageVariables"
+{$Group} - page's group name, as in "PmWiki"
+{$Groupspaced} - spaced group name, as in "Pm Wiki"
+{$LastModified} - date page was edited, as in "June 29, 2016, at 04:51 AM"
+{$LastModifiedBy} - page's last editor, as in "Petko"
+{$LastModifiedHost} - IP of page's last editor, as in ""
+{$LastModifiedSummary} - Summary from last edit, as in "$WikiTitle, $SiteAdminGroup"
+{$LastModifiedTime} - time page was edited in unix-style timestamp, as in "1467201112"
+This can be used (preceded by '@') in {(ftime)} and other date/time markups.
+{$Name} - page name, as in "PageVariables"
+{$Namespaced} - spaced page name, as in "Page Variables"
+{$PageUrl} - page's url, as in "http://sli.ics.uci.edu/PmWiki/PageVariables"
+{$PasswdRead} - "read" permissions for the page e.g. "(protected)"
+{$PasswdEdit} - "edit" permissions for the page e.g. "(protected)"
+{$PasswdAttr} - "attr" permissions for the page e.g. "(protected)"
+{$RequestedPage} - page requested in URL, used on Site.PageNotFound. e.g. "PmWiki/PageVariables"
+{$SiteGroup} - default interface group name for e.g. SideBar, forms, templates, as in "Site"
+{$SiteAdminGroup} - default administrative group name for e.g. AuthUser, Blocklist, as in "SiteAdmin"
+{$WikiTitle} - title of the website, as in "SLI"
+{$Title} - page title (may differ from Name), as in "Page specific variables"
+{$Titlespaced} - either the page title (if defined), or the spaced page name, as in "Page specific variables"
+In addition to the above, there are some page-invariant variables available through this markup:
+
+{$Author} - the name of the person currently interacting with the site, as in ""
+{$AuthId} - current authenticated id, as in "" note the lower case 'd'.
+{$Version} - PmWiki version, as in "pmwiki-2.2.93"
+{$VersionNum} - The internal version number, as in "2002093"
+{$ScriptUrl} - The url to the pmwiki script, as in "http://sli.ics.uci.edu"
+
+Page variable security ($authpage)
+The form {pagename$variable} or some PageLists, can display the values for other pages, regardless of the password protections. 
+
+If the other pages are protected and the visitor has no read permissions, PageVariables, unlike PageTextVariables, normally display the values. While most variables do not contain sensitive information, some of them could do: $Title, $Description and those starting with $LastModified.
+
+Administrators and module developers can redefine the sensitive page variables to respect authentications, by using the "$authpage" variable instead of "$page" in the definition. The following snippet can be added in local/config.php -- it will rewrite the default possibly sensitive definitions to the secure ones.
+
+
+foreach($FmtPV as $k=>$v) {
+  if(preg_match('/^\\$(Title(spaced)?|LastModified(By|Host|Summary|Time)?|Description)$/', $k))
+    $FmtPV[$k] = str_replace('$page', '$authpage', $v);
+}
+
+
+Custom page variables
+You may add custom page variables as a local customization. In a local configuration file or a recipe script, use the variable $FmtPV:
+
+
+$FmtPV['$VarName'] = "'variable definition'";
+$FmtPV['$CurrentSkin'] = '$GLOBALS["Skin"]';
+$FmtPV['$WikiTitle'] = '$GLOBALS["WikiTitle"]';
+
+Defines new Page Variable of name $CurrentSkin, which can be used in the page with {$CurrentSkin} (also for Conditional markup).  It's necessary to use the single quotes nested inside double-quotes as shown above (preferred) or a double-quoted string nested inside single-quotes like '"this"'.
+
+
+Please note that the values of the elements of $FmtPV are eval()ed so always sanitize any user input. The following is very insecure:
+
+$FmtPV['$Var'] = $_REQUEST['Var']; # critically insecure, allows PHP code injection$FmtPV['$Var'] = '"'. addslashes($_REQUEST['Var']).'"'; # critically insecure, allows PHP code injection
+See the recipe Cookbook:HttpVariables for a better way to use these variables.
+
+See also
+Cookbook:More custom page variables
+PmWiki.Variables — about variables internal to PmWiki.
+PmWiki.MarkupMasterIndex — complete list of PmWiki markups.
+PageTextVariables — page variables automatically made available through natural page markup or explicit page markup within the wiki text of the page.
+PmWiki.Markup Expressions — markup expressions can manipulate page variables
+ 
+Is there a variable like $LastModified, but which shows me the creation time?
+No, but you can create one in config.php. For instance:
+# add page variable {$PageCreationDate} in format yyyy-mm-dd
+$FmtPV['$PageCreationDate'] = 'strftime("%Y-%m-%d", $page["ctime"])';
+If you like the same format that you define in config.php with $TimeFmt use
+ $FmtPV['$Created'] = "strftime(\$GLOBALS['TimeFmt'], \$page['ctime'])";
+
+ How can I test if a variable is set and/or not empty?
+ Use  (:if ! equal "{$Variable}" "":) $Variable is not empty. (:ifend:). Note that undefined/inexistent variables appear as empty ones.
+
+Categories: PmWiki Developer
+
+< Conditional markup | Documentation Index | Page text variables >
+
+
+< Basic Variables | Variables | Page TextVariables >
+
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:PageVariables, and  a talk page: PmWiki:PageVariables-Talk.
+
+
+
+
+
+
+ Last modified June 29, 2016, at 04:51 AM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

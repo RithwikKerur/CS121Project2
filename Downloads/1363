@@ -1,0 +1,10 @@
+http://plrg.ics.uci.edu/publications/390.bib
+@article{key,
+ author = {Brian Demsky and Patrick Lam},
+ title = {Views: Synthesizing Fine-Grained Concurrency Control},
+ journal = {Transactions on Software Engineering and Methodology},
+ volume = {22},
+ number = {1},
+ month = {March},
+ year = {2013}
+}

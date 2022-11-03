@@ -1,0 +1,49 @@
+http://www.ics.uci.edu/~gbortis
+
+
+
+
+Gerald Bortis, Ph.D.
+
+
+
+
+
+
+
+
+
+
+
+Projects
+Publications
+
+
+
+Gerald Bortis, Ph.D.
+
+          I completed my doctorate in Software Engineering from the Donald Bren School of Information & Computer Sciences at the University of California, Irvine, where André van der Hoek was my advisor and dissertation committee chair.
+        
+I also am a Vice President of Research and Development at NextGen Healthcare and was a founding developer on Mirth Connect, a popular open source health care integration engine. You can contact me gbortis@ics.uci.edu.
+Projects
+My research is focused on supporting software developers in managing bug reports. More specifically, I am interested the in the process of bug triaging and how it can be improved, especially within the context of large open source projects.
+As part of my dissertation I developed PorchLight, a tool for exploring, organizing, and triaging large collections of bug reports. The ultimate goal is to help triagers take on the task of sorting through and assigning bug reports by providing insights through patterns and relationships between bugs.
+Publications
+Conference Papers
+
+Gerald Bortis and André van der Hoek. 2013. PorchLight: a tag-based approach to bug triaging.  In Proceedings of the 2013 International Conference on Software Engineering (ICSE '13). IEEE Press, Piscataway, NJ, USA,  342-351.
+Gerald Bortis, Experiences with Mirth: an open source health care integration engine, ICSE '08 Proceedings of the 30th international conference on Software engineering, 2008
+Anita Sarma, Gerald Bortis, Andre van der Hoek, Towards supporting awareness of indirect conflicts across software configuration management workspaces, ASE '07 Proceedings of the twenty-second IEEE/ACM international conference on Automated software engineering, 2007
+
+Workshop Papers
+
+Gerald Bortis, André van der Hoek, Teambugs: a collaborative bug tracking tool, CHASE '11 Proceedings of the 4th International Workshop on Cooperative and Human Aspects of Software Engineering, 2011
+Gerald Bortis, Informal software design knowledge reuse, ICSE '10 Proceedings of the 32nd ACM/IEEE International Conference on Software Engineering - Volume 2, 2010
+Gerald Bortis, André van der Hoek, Software pre-patterns as architectural knowledge, SHARK '08 Proceedings of the 3rd international workshop on Sharing and reusing architectural knowledge, 2008
+Gerald Bortis, André van der Hoek, DesignMinders: A Design Knowledge Collaboration Approach, Third International Workshop on Knowledge Collaboration in Software Development, 2009
+Gerald Bortis, André van der Hoek, DesignMinders: Preserving and Sharing Informal Software Design Knowledge, 2009 ICSR Second Workshop on Knowledge Reuse, 2009
+
+Adapted from a template by Andreas Viklund.
+
+
+

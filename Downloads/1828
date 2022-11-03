@@ -1,0 +1,311 @@
+https://sli.ics.uci.edu/PmWiki/Variables
+
+
+
+SLI | PmWiki / Variables 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+Variables
+
+
+
+
+
+< Url approvals | Documentation Index | Functions >
+
+administrators (basic) 
+
+
+
+
+List of documented PHP variables
+VariableDocumented in
+$AbortFunctionDebugVariables
+$ActionSkinLayoutVariables
+$AllowPasswordSecurityVariables
+$AsSpacedFunctionBasicVariables
+$AuthIdBasicVariables
+$AuthLDAPBindDNSecurityVariables
+$AuthLDAPBindPasswordSecurityVariables
+$AuthorBasicVariables
+$AuthorGroupBasicVariables
+$AuthPwBasicVariables
+$AutoCreateEditVariables
+$BaseNameBasicVariables
+$BaseNamePatternsBasicVariables
+$BlockedMessagesFmtBlocklist
+$BlocklistActionsBlocklist
+$BlocklistDownloadBlocklist
+$BlocklistDownloadFmtBlocklist
+$BlocklistDownloadRefreshBlocklist
+$BlocklistMessageFmtBlocklist
+$BlocklistPagesBlocklist
+$CategoryGroupBasicVariables
+$CookiePrefixBasicVariables
+$DefaultGroupBasicVariables
+$DefaultNameBasicVariables
+$DefaultPageBasicVariables
+$DefaultPageCharsetI18nVariables
+$DefaultPageTextFmtEditVariables
+$DefaultPasswordsSecurityVariables
+$DeleteKeyPatternEditVariables
+$DiffKeepDaysEditVariables
+$DiffKeepNumEditVariables
+$DraftActionsPatternEditVariables
+$DraftRecentChangesFmtLayoutVariables
+$DraftSuffixEditVariables
+$EditFunctionsEditVariables
+$EditRedirectFmtEditVariables
+$EditTemplatesFmtEditVariables
+$EnableBlocklistBlocklist
+$EnableBlocklistImmediateBlocklist
+$EnableDiagDebugVariables
+$EnableDiffInlineLayoutVariables
+$EnableDirectDownloadUploadVariables
+$EnableDraftAtomicDiffEditVariables
+$EnableDraftsEditVariables
+$EnableFixedUrlRedirectLayoutVariables
+$EnableGUIButtonsEditVariables
+$EnableIMSCachingDebugVariables
+$EnableLinkPageRelativeLinkVariables
+$EnableLinkPlusTitlespacedLinkVariables
+$EnableLocalConfigBasicVariables
+$EnableNotifyNotify
+$EnableNotifySubjectEncodeNotify
+$EnablePageIndexPagelistVariables
+$EnablePageListProtectPagelistVariables
+$EnablePageTitlePriorityLayoutVariables
+$EnablePageVarAuthSecurityVariables
+$EnablePathInfoLayoutVariables
+$EnablePGCustBasicVariables
+$EnablePostAttrClearSessionSecurityVariables
+$EnablePostAuthorRequiredEditVariables
+$EnablePublishAttrSecurityVariables
+$EnableRedirectBasicVariables
+$EnableRedirectQuietLinkVariables
+$EnableRelativePageVarsBasicVariables
+$EnableRevUserAgentEditVariables
+$EnableROSEscapeEditVariables
+$EnableSessionPasswordsSecurityVariables
+$EnableStopWatchDebugVariables
+$EnableTableAutoValignTopLayoutVariables
+$EnableUndefinedTemplateVarsPagelistVariables
+$EnableUploadUploadVariables
+$EnableUploadGroupAuthUploadVariables
+$EnableUploadOverwriteUploadVariables
+$EnableUploadVersionsUploadVariables
+$EnableWhyBlockedBlocklist
+$EnableWikiWordsBasicVariables
+$EnableWSPreBasicVariables
+$EnableXLPageScriptLoadI18nVariables
+$FarmDPathVariables
+$FarmPubDirUrlPathVariables
+$FmtPOtherVariables
+$FmtPVOtherVariables
+$FmtVOtherVariables
+$FPLTemplatePageFmtPagelistVariables
+$FTimeFmtBasicVariables
+$GroupFooterFmtLayoutVariables
+$GroupHeaderFmtLayoutVariables
+$GroupPatternBasicVariables
+$GroupPrintFooterFmtLayoutVariables
+$GroupPrintHeaderFmtLayoutVariables
+$GUIButtonsEditVariables
+$HandleAuthSecurityVariables
+$HandleEditFmtEditVariables
+$HTMLFooterFmtLayoutVariables
+$HTMLHeaderFmtLayoutVariables
+$HTMLPNewlineLayoutVariables
+$HTMLStylesFmtLayoutVariables
+$HTMLTagAttrLayoutVariables
+$HTMLVSpaceLayoutVariables
+$IMapLinkFmtLinkVariables
+$InterMapFilesLinkVariables
+$IsPagePostedEditVariables
+$LinkPageCreateFmtLinkVariables
+$LinkPageCreateSpaceFmtLinkVariables
+$LinkPageExistsFmtLinkVariables
+$LinkPageSelfFmtLinkVariables
+$LinkUploadCreateFmtUploadVariables
+$LinkWikiWordsBasicVariables
+$LocalDirPathVariables
+$LogoutCookiesBasicVariables
+$LogoutRedirectFmtBasicVariables
+$MakePageNameFunctionLinkVariables
+$MakePageNamePatternsLinkVariables
+$MakePageNameSplitPatternLinkVariables
+$MakeUploadNamePatternsUploadVariables
+$MaxIncludesLayoutVariables
+$MaxPageTextVarsOtherVariables
+$MessagesFmtLayoutVariables
+$MetaRobotsLayoutVariables
+$NamePatternBasicVariables
+$NotifyBodyFmtNotify
+$NotifyDelayNotify
+$NotifyFileNotify
+$NotifyFromNotify
+$NotifyHeadersNotify
+$NotifyItemFmtNotify
+$NotifyListNotify
+$NotifyListPageFmtNotify
+$NotifyParametersNotify
+$NotifySquelchNotify
+$NotifySubjectFmtNotify
+$NotifyTimeFmtNotify
+$PageAttributesSecurityVariables
+$PageCacheDirOtherVariables
+$PageCSSListFmtPathVariables
+$PageEditFmtEditVariables
+$PageEditFormEditVariables
+$PageIndexFilePagelistVariables
+$PageListCacheDirPagelistVariables
+$PageLogoUrlLayoutVariables
+$pagenameBasicVariables
+$PageNotFoundHeaderFmtLayoutVariables
+$PagePathFmtBasicVariables
+$PageRedirectFmtLayoutVariables
+$PageSearchFormPagelistVariables
+$PubDirUrlPathVariables
+$RCLinesMaxLayoutVariables
+$RecentChangesFmtLayoutVariables
+$RecentUploadsFmtLayoutVariables
+$ROEPatternsEditVariables
+$ROSPatternsEditVariables
+$ScriptUrlPathVariables
+$SearchBoxInputTypePagelistVariables
+$SearchBoxOptPagelistVariables
+$SearchPatternsPagelistVariables
+$SessionDecodeSecurityVariables
+$SessionEncodeSecurityVariables
+$SimpleTableDefaultClassNameLayoutVariables
+$SiteAdminGroupBasicVariables
+$SiteGroupBasicVariables
+$SkinBasicVariables
+$SkinDirPathVariables
+$SkinDirUrlPathVariables
+$SkinLibDirsLayoutVariables
+$SpaceWikiWordsBasicVariables
+$TableCellAlignFmtLayoutVariables
+$TableCellAttrFmtLayoutVariables
+$TableRowAttrFmtLayoutVariables
+$TableRowIndexMaxLayoutVariables
+$TimeFmtBasicVariables
+$UploadBlacklistUploadVariables
+$UploadDirUploadVariables
+$UploadDirQuotaUploadVariables
+$UploadExtSizeUploadVariables
+$UploadMaxSizeUploadVariables
+$UploadNameCharsUploadVariables
+$UploadPermAddUploadVariables
+$UploadPermSetUploadVariables
+$UploadPrefixFmtUploadVariables
+$UploadPrefixQuotaUploadVariables
+$UploadUrlFmtUploadVariables
+$UrlLinkFmtLinkVariables
+$VarPagesFmtI18nVariables
+$VersionBasicVariables
+$VersionNumBasicVariables
+$WikiDirPathVariables
+$WikiLibDirsPathVariables
+$WikiStyleLayoutVariables
+$WikiStyleApplyLayoutVariables
+$WikiTitleLayoutVariables
+$WikiWordCountLinkVariables
+$WikiWordCountMaxLinkVariables
+$WikiWordPatternBasicVariables
+$WorkDirPathVariables
+$XLLangsI18nVariables
+
+
+
+This page documents the PHP variables available in PmWiki for local customizations.  Much of this documentation is still incomplete but people are working on it now.  Feel free to add placeholders for variables you want to have documented if you don't know what the variable does.
+
+The variables documentation is divided into several pages:
+
+Basic Variables    - core variables
+Debug Variables    - variables useful for debugging
+Edit Variables     - variables used when editing pages
+I18n Variables     - variables used for internationalization (i18n)
+Layout Variables   - variables that control page layout
+Link Variables     - variables that control the display of links in pages
+Other Variables    - Variables not yet classified
+Pagelist Variables - variables used with page lists and search results
+Path Variables     - variables used to specify various locations on the server
+Security Variables - variables crucial for site security
+Upload Variables   - Variables used for uploads/attachments
+The following functions are also controlled by several variables:
+Blocklist - Blocking IP addresses, phrases, and expressions to counteract spam and vandalism.
+Notify    - How to receive email messages whenever pages are changed on the whole wiki site, individual groups or selected watchlists of pages
+Basic Variables  to provide circular trail
+The following variables are used in page markup.
+Page Variables      - variables that are associated with pages
+Page TextVariables  - Page variables automatically made available through natural or explicit page markup
+An complete index of documented PHP variables is given below.
+
+In general, variables with names ending in 'Fmt' (such as $PageLayoutFmt) have their values processed for $-variable substitutions prior to being output.  Thus strings such as {$Name} and {$PageUrl} are replaced with the name and URL of the page when the string is printed.
+
+Note: The automatic variable index and link generation is done by scripts/vardoc.php using $VarPagesFmt to find the pages containing trails of pages with the variable documentation.
+
+There is a slight discrepancy between index generation and link generation: The index generation finds lines starting with a colon followed by "$" and an uppercase word. In contrast, the automatic link generation works only with WikiWords ($WikiWordPattern) preceded by "$". Therefore all "non WikiWord" variables are shown as link only in the list below, but not elsewhere in PmWiki, as $Author, $Version and $XL.
+
+See Also
+ Functions   - How some of the functions in pmwiki.php work 
+Categories: PmWiki Developer
+
+< Url approvals | Documentation Index | Functions >
+
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:Variables, and  a talk page: PmWiki:Variables-Talk.
+
+
+
+
+
+
+ Last modified January 27, 2015, at 01:16 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

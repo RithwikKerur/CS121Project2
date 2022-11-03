@@ -1,0 +1,66 @@
+http://www.ics.uci.edu/~kay/courses/h21/hw/hw2.html
+
+
+
+
+
+
+Second Homework
+
+
+
+
+
+
+
+ICS H21 • UC IRVINE • DAVID G. KAY • FALL 2009 
+Second Homework
+
+This homework assignment is due  at the beginning of lab on Monday, October 5; show your completed work to the TA. We have already covered most of these topics in class. If you don't quite finish by Monday's lab, try to finish by Wednesday; you need to develop these skills. 
+ (1) As you read Chapter 3 of the HtDP
+  text, do exercises 3.1.1 and 3.1.2.  If  you understand why the left-hand
+  side of Figure 5 is better than the right-hand side, and if you promise
+  to write your code following the style on the left, then you may skip exercises 3.1.3 and 3.1.4; otherwise, do them.  Look at exercise 3.2.1 to
+  be sure you understand how to do it.  From the exercises 3.3.1 through 3.3.6,
+  pick a couple and do them (but save 3.3.4 to do with your partner in the
+  lab).
+
+(2)  As you read Chapter 4 of the HtDP
+text, do exercises 4.1.1, 4.1.2, and a couple of the parts of 4.2.1.  Do
+a few of the translations at the start of 4.2.2; formulate a contract and
+purpose for the first one only, in-interval-1?;
+evaluate by hand just the expression (in-interval-1?
+-2).  Do the last part of 4.2.3; do
+4.3.1 and 4.3.2 by hand; do 4.3.3 by hand or in DrScheme.
+
+(3) Skim over Chapter 5 of the HtDP
+text; for our purposes, we can design our programs to use strings rather than symbols.
+
+(4)  As you read Chapter 6, do exercise
+6.1.1; also do some parts of 6.3.1 and 6.3.2.  Do one part of 6.4.1; do
+6.4.2; do one part of 6.5.1.    (You can skim sections 6.2, 6.6, and 6.7;
+instead of the draw.ss teachpack described in the text, we're using the more modern teachpacks, image.ss and universe.ss.)
+The authors enhance the design recipe with
+something they call a template.  The point of a template is to lay out all
+the components of the inputs that you might want to use in your solution.
+ In the function you write, you might not need every component you lay out
+in the template, and you might use them in a different order than you listed
+them in the template.  But the template gives a menu of the likely parts you'll need and the skeleton of a function to process that kind of input. A professional chef sets up a work area with open containers of the common ingredients ready to use; it's called the mise-en-place (literally, put in place); the template for your program is the same idea.
+(5) As you read Chapter 7 of the HtDP
+  text, do exercises 7.1.1, 7.1.2, 7.1.3, 7.3.1, and 7.5.1.
+ (6) Skim briefly over Intermezzo 1
+  (Chapter 8), just to get a brief feel for the ideas.  You'll revisit
+  some of them in ICS 22 and CS 141 (programming languages). 
+ (7) Look at the remaining sections of the Scheme Finger Exercises. You don't have to write the answers down or turn them in, but make sure you know how to do them.
+
+
+Based in part on ICS H21 assignments by David
+G. Kay from Fall 2001.  Modified by
+David G. Kay, Fall 2005–Fall 2009.
+
+David G. Kay, kay@uci.edu 
+
+Wednesday, October 7, 2009 8:29 PM
+
+
+

@@ -1,0 +1,115 @@
+http://www.ics.uci.edu/~kay/courses/i41/refs.html
+
+
+
+
+
+
+Informatics 41 References
+
+
+
+
+
+
+INFORMATICS 41 • DAVID G. KAY • UC IRVINE 
+ Supplementary References on Lecture Topics 
+
+These links and books explain or illustrate
+some of the topics we've covered in lecture, typically in more detail
+than we've seen in class.  They're supplementary, not assigned,
+unless we say otherwise.
+
+
+Scheme in the real world (note that Scheme is a member of the Lisp family of programming languages and that the main style of programming we're doing in Scheme is functional programming)
+
+www.paulgraham.com.
+    Paul Graham wrote the foundations of a web store in Lisp (a close relative of Scheme); he sold it
+    to Yahoo for millions, and it forms the foundation of the Yahoo Store. 
+    His site has essays about programming languages and many other topics, including how Lisp contributed to his success. 
+
+Functional Programming in the Real World lists many real-world projects built using functional programming.
+Joel on Software has a brief, well-written, and highly understandable article on functional programming in JavaScript.
+MapReduce is an approach to programming developed at Google to spread large tasks automatically over large clusters of computers. It uses the principles of the higher-order Scheme functions map and reduce (also known as foldr). Another article about MapReduce.
+Two February 2006 articles in EWeek (a news publication for the computing industry with a focus on large-scale business) about using Lisp in corporate environments: "'Exotic' Programming Tools Go Mainstream" and "Lisp Deserves a Fresh Look". 
+The effectiveness of Scheme in commercial web application development is described briefly and more completely. 
+Jane St. Capital is one example of a Wall Street firm that hires researchers and software developers with a background in functional programming (and strong quantitative skills). BIM majors take note!
+Video of a live technical demo by a game developer who uses PLT Scheme.
+Audacity software for recording and editing sound lets you write your own plug-in effects in Nyquist, a language based on Lisp. [Thanks to Sean Tsusaki for this information.]
+
+
+Scheme programming
+
+Informatics 41 reference sheet for image-processing and animation functions.
+Picturing Programs textbook.
+How to Design Programs, second edition  (in progress, Chapters 1–7 so far). The original, complete first edition of HtDP is also available.
+Structure and Interpretation of Computer Programs by Hal Abelson and Gerald Sussman is an intense, classic introduction to computer science using Scheme.
+
+DrScheme programming environment (free for Windows, MacOS, Linux).
+      
+
+Scheme Finger Exercises.
+            A selection of mechanical exercises to solidify understanding of Scheme
+            basics.
+
+Maureen Black's Scheme Exercises.
+      Fifty pages of worksheets keyed to Scheme and HtDP topics.
+The "design recipe" concept applied to health care: "Annals of Medicine: The Checklist," by Atul Gawande (The New Yorker, December 10, 2007). If you've ever felt that following all the steps of the design recipe is too tedious and time-consuming, read this article. Gawande has expanded this material into book form as The Checklist Manifesto.
+Pair Programming Illuminated, by Laurie
+      Williams and Robert Kessler.  This book describes the practices and advantages
+      of pair programming.
+How to Design Worlds: Imaginative Programming in DrScheme, by Felleisen, Findler, Fisler, Flatt, and Krishnamurthi. This is a very basic introduction to programming animations using the world.ss teachpack.
+The Racket documentation page, which lists documents for the full Racket language, our version of Scheme.
+Writing Animations Using the world.ss Teachpack, by Matthias Felleisen.
+A personal attachment to Scheme (not recommended!).
+The comic strip XKCD often takes on computing themes, sometimes about Lisp.
+
+
+
+
+Broader topics in computing
+
+
+Fluency with Information Technology, second edition,
+          by Lawrence Snyder.  This text covers some of the non-programming content
+          of the course.  There is a longer version than the one we've suggested as an optional text; it covers some of the social impact of computing and some programming, mostly in JavaScript.  Its web page
+          is http://www.aw.com/snyder.
+
+
+Exploring the Digital Domain, second
+          edition, by Ken Abernethy and Tom Allen.  Like the Fluency text, this book
+          covers the broader context of computer systems, with a particular focus
+      on multimedia.  
+
+The Tao of Computing, by Henry Walker.
+          Similar in theme to the previous two books, this one is both briefer and
+          deeper.
+
+
+The Informatics faculty has compiled a far-ranging
+        list of books
+      they have found particularly influential.
+
+Caring for Your Wrists,
+    by TidBITS Publishing.  A two-page poster with good advice on avoiding repetitive
+    stress injuries.
+
+Typographic Design for Computerized Text,
+    by David G. Kay.  Two pages on the basic principles of typographic readability.
+
+ Tables of decimal, binary, hexadecimal, and
+    ASCII values: a simple ASCII table with 8-bit codes, decimal, octal, and hexadecimal;
+    all 255 ASCII characters, categorized;
+    a compact ASCII table. The Unicode standard handles most of the world's writing systems; check out Ethiopic (from Africa), Devangari (from India), Chinese (from Asia), Cherokee (from North America), Armenian (from Europe), or Linear B (from ancient Greece).
+
+
+
+
+
+David G. Kay,kay@uci.edu
+
+
+Saturday, September 22, 2012 9:13 PM
+
+
+

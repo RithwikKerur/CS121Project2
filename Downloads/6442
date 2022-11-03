@@ -1,0 +1,169 @@
+http://www.ics.uci.edu/~kay/courses/h21/hw/lab7.html
+
+
+
+
+
+
+Lab Assignment 7
+
+
+
+
+
+
+ICS H21 • UC IRVINE • DAVID G. KAY • FALL 2009
+Lab Assignment 7 
+
+This assignment is due at the end of lab on Friday, November 13. This lab is a little shorter than usual since Wednesday is a holiday.
+
+Choose a partner for this assignment, someone
+you haven't worked with already.
+
+(a) Do exercises 29.3.6 and 29.3.7.
+ Then choose two of 29.3.8, 29.3.9, and 29.3.10.  When these exercises ask
+for the abstract running time, they mean the O-notation of the algorithm.
+ When they ask you which representation is preferable, consider also binary
+search trees.  When they ask why one representation is better than another,
+you just need to give a sentence or so comparing the performance of the
+alternatives.  Just put those answers in a comment in your definitions file.  [Some printed versions of
+the text may number some of these exercises as 29.4.x; if in doubt, refer
+to the on-line version.]
+
+Do exercises 30.1.1, 30.1.2, 30.2.1, and 30.2.2.
+ Then do exercises 31.3.3 and 31.3.4.
+
+Choose one of the three sections in Chapter
+32 and do all the exercises in that section.  (If you choose 32.1, be aware that
+the gensym function referred to in exercise 32.1.3
+requires a different language level: "Pretty Big," which is part of a set of
+language levels called "PLT."  "Pretty Big" combines the "Advanced Student"
+version of Scheme with some aspects of the more professional versions of Scheme
+supported by DrScheme.)
+
+Collect these definitions and submit them
+as usual via Checkmate.
+
+(b) At http://www.ics.uci.edu/~kay/scheme/restaurants4.scm
+you will find a version of the restaurants program that implements menus
+and also reading and writing restaurant collections from a file.  Make sure
+your language level is set to Intermediate Student with Lambda; you'll also
+need to download and install a new teachpack, simple-file-io.ss.  (Remember to right- or control-click on the link and download the file, saving it in the same folder that contains your code.) 
+
+Download this program and run it, creating
+restaurants and saving them when you quit.  Run it again, starting with
+the saved file.  (You can restart the program in the same interactions window
+in DrScheme with another call to (restaurants
+'x).)  Take a little time to look
+over the code, most of which should be familiar.  If your DrScheme window
+doesn't show the high-level program profile in a column at the right,
+select Show Program Contour from the View menu.  You'll see large section
+headings in that view (which you can create with Insert Large Letters from
+the Special menu).
+
+(b.1)  Modify this program by adding
+the search-by-cuisine and search-by-menu-word menu commands you wrote in
+Lab Assignment 5.  (You may use either partner's code from
+that assignment, or you may reimplement it from scratch.)
+
+(b.2)  Add a menu command to add new
+dishes to a restaurant currently in the collection.  It should prompt for
+the restaurant's name, print a message if that name isn't found,
+and otherwise prompt the user for additional dishes to add to the named
+restaurant's menu.  Once you've done this, refine the dish-adding
+process as follows:  If a dish being added has the same name as a dish already
+on that menu, then just replace the old price with the new price.  This
+should happen when you're initially adding dishes as well as when you're
+adding new dishes later; use the same code.  This also means (automatically)
+that no menu will have two dishes with the same name.
+
+(b.3)  Add a menu command to import
+another restaurant collection from another file, adding all the restaurants
+in that file to the main collection.  Re-use the file-reading code where
+possible.  After you've done the basic task of adding all the imported
+restaurants to the collection, go back and implement this refinement:  If
+a restaurant you're adding has the same name and phone number as a restaurant
+that's already in the collection, then just add the new restaurant's
+dishes to the existing record for that restaurant.  (Add uniquely, of
+course, as in the previous part.) Do this same adding of restaurants that are unique by name-plus-phone for restaurants that the user adds manually.
+
+You'll note that with interactive interfaces,
+even text-based ones, handling testing isn't as easy as it is when we're
+just using the interpreter.  Now that we have files, so we can save restaurant
+set-ups, it's a little easier again.  But of course this doesn't
+mean that testing is no longer important.  It's just another illustration
+that interactivity adds an extra layer of complexity and that it's important
+to build and test our model (the underlying restaurant, menu, dish, and
+collection classes in this case) independently of the view and controller
+(the interface).
+
+You'll also note as you're doing this
+that you need to work with file-handling functions that are unfamiliar.
+ You have a description of the functions (and more detail is available in
+the DrScheme Help Desk, although looking there isn't necessary and if
+you do look, you have to change the language for the help desk window to
+"Pretty Big" under PLT instead of Intermediate Student); you also
+have some working code to use as an example.  This is all you'll get
+(aside from a little assistance from your instructional staff, but you wouldn't
+have that in the real world); the thing is, it's more than you'd get in a similar situation in the real world, so learning how to make practical use of the information you do have is an important skill.  One of the nice things about the Scheme we've
+done so far is that we could understand everything "down to the ground,"
+evaluating everything in terms of the basic rules of substituting values
+for expressions over and over.  But as we learn how to handle other interfaces
+(as we did with the graphics earlier, as we're doing here with external
+files, and as we could do with many other kinds of interfaces), we don't get to look
+under the hood.  We have to use the API (the application programming interface—the
+behavior, the contract and purpose of the functions, not their definitions),
+fitting the functions we're given together like pieces of a jigsaw puzzle
+to get the result we need.  Sometimes this involves taking code that we
+know works for a similar task, duplicating it, and modifying the copy to
+fit the new circumstances (and then perhaps abstracting and refactoring
+the new code with the original, if they're in the same program).  Becoming
+comfortable working with APIs is a crucial skill, since software is rarely
+built today without using some pre-existing library.
+
+Turn in your modified program via Checkmate.
+
+(c)  This week is an excellent time to shore up
+your understanding of material from previous weeks that you're still not sure about.
+Before we delve into what follows, take some time to fill in or reinforce your knowledge
+from past weeks by reworking any problems from previous homeworks or labs that you or
+your partner struggled with or never finished.
+
+The goal here, as in any lab assignment, is to do this work in pairs, and to ensure
+    that both partners are clear on how you arrived at a new solution.  It's best to pick
+    a few problems that each of you struggled with, so that both partners benefit from the
+    time spent, but if one partner feels more confident, it's preferable for that partner
+    to help raise the other one's confidence.  Remember, again, that you'll be each other's
+classmates for the next four years, so each of you benefits from other students' strengths.
+
+Collect your definitions into one or more .scm files.  You may find it necessary to
+spread the definitions into multiple .scm files, since different homeworks required
+different language levels and/or different teachpacks.  Include a comment at the top of
+each file, indicating which language and which teachpacks (if any) are required to execute
+the code within.  There are no explicit requirements about how many problems to submit,
+but you can expect that we'll take your diligence into account  if you redo many problems that you had trouble with, and if you help your partner
+to do the same.
+
+Submit your reworked definitions to Checkmate.
+
+(d)  For extra credit, do exercises
+25.2.1 through 25.2.6.  You'll see this material again in ICS H23.
+ For more extra credit, do exercises 27.1.1,
+  27.1.2, 27.1.4, and/or 27.1.5.  The code in the book uses the draw.ss teachpack, but you'll want to use image.ss (which we used earlier this
+  quarter) instead.
+ For still more extra credit, enhance the restaurant
+  program in some more interesting ways.
+For extra credit, do exercises
+  29.3.14 and 29.3.15.  Also try 31.3.6, 31.3.7, and 31.3.8.
+
+(e)  Remember that each partner must
+complete a partner evaluation form via the Survey Tool on eee.uci.edu.
+
+
+Based in part on ICS H21assignments by David
+G. Kay from Fall 2001; modified by David G. Kay, Fall 2004, Fall 2005, Fall 2008, Fall 2009.
+
+David G. Kay, kay@uci.edu 
+
+Friday, November 13, 2009 8:50 PM
+

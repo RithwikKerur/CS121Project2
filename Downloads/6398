@@ -1,0 +1,186 @@
+http://www.ics.uci.edu/~kay/courses/i41/hw/lab6.html
+
+
+
+
+
+
+Lab Assignment 6
+
+
+
+
+
+
+
+
+INFORMATICS 41 • DAVID G. KAY • UC IRVINE • FALL 2011
+Lab Assignment 6 
+
+This assignment is due at the end of lab on
+Friday, November 4. 
+
+Choose a partner for this assignment, someone
+you haven't worked with already.  Starting with this assignment, change
+your language level to Intermediate Student with Lambda. There's a lot to do this week, so work with deliberate speed.
+
+(a)  Do exercises 28.2.5, 28.2.6, 28.2.8, 28.2.9. Then do exercises 28.3.10 and 28.3.11. It's important to understand what these exercises are asking for and what the terminology means.  Don't just guess; don't just wing it; do be meticulous about following the design recipe, especially contracts and examples (check-expects). Submit your definitions via Checkmate.
+
+(b)  At the end of the Functions as
+First-Class Objects sheet, we refactored the functions find-all-matches
+and remove-all-matches,
+defining both in terms of a more general handle-all-matches.
+
+(b.1)  Do the same thing in the second
+restaurants program (available at http://www.ics.uci.edu/~kay/scheme/restaurants2.scm)
+with collection-search
+and collection-remove,
+redefining both in terms of a general collection-check
+function.
+
+(b.2)  Now redefine collection-check
+and collection-change
+in terms of a still-more-general collection-process
+function.  This one is complicated; treat it as optional.
+
+(b.3)  Simplify your definition of collection-process
+(or collection-check
+and collection-change)
+using map,
+filter,
+foldr,
+and similar functions.
+
+Collect all of these definitions and submit
+them via Checkmate. You should try to get at least this far by the end of Monday's lab.
+(c) Be sure you've read the section in
+Homework 6 about files; now it's time to write a few file-handling functions.  Download and
+install the simple-file-io.ss teachpack at http://www.ics.uci.edu/~kay/scheme/simple-file-io.ss.
+ (Remember to right- or control-click on the link and download the file, saving it in the same folder that contains your code.) We also have some file-handling code
+(which you should copy into your definitions file) that provides an API consisting of these four functions for reading and writing text files:
+;; file->list: string -> list
+;; Given a string naming a file, read the lines in a file into a list of strings.
+;; file-dialog->list: anything -> list
+  ;; Show user a dialog box to choose a file; read the file into a list of strings
+  ;; Call with (file-dialog->list 'x) because student Schemes don't allow
+  ;; parameterless functions.
+;; list->file: string list -> side effects (a new file)
+  ;; Given a string naming a new file, write list of strings that file,
+  ;; one string per line.
+;; list->file-dialog: list -> side effects (a new file)
+  ;; Write a list of strings to a new file
+  ;; (chosen by showing the user a file selection dialog)
+
+These functions operate on text files—files
+with the extension ".txt" or other files that consist only of
+characters you can type on the keyboard.  Word documents don't work
+unless they're saved as plain text; Scheme/Racket files do work unless they're
+saved with images, comment boxes, or other non-textual features.
+Take the time to understand what these functions do. Try a few sample calls to read and write some simple files. It's a vital skill to be able to read an API to see what tools are available. As you work on this part of the assignment, take it step by step and make sure you know what's expected before you try to write the code. The final product will be rather large and complex, but we build it up using small, relatively simple steps.
+
+(c.1)  Define the function copy-file that takes two strings—the name of an existing file and the name of a new
+file—and copies the contents of one to the other.  Use file->list and list->file.
+ Test it out with a short file.  Then download the Project Gutenberg version
+of The Adventures of Sherlock Holmes from http://www.gutenberg.org/cache/epub/1661/pg1661.txt.
+ (Project Gutenberg is a wonderful resource for non-copyright-protected
+texts).  If you have to work on a slow network connection, you may pick
+a smaller file; this one is 577K.  Use your copy-file program to make another
+copy of this file.
+
+(c.2)  Write the function copy-file-dialog that takes one parameter (that it ignores—parameterless functions aren't
+allowed in the DrRacket student languages), displays a dialog box for the
+user to select a file to copy, displays another dialog box for the user
+to select the name of the copied file, and then creates the copy.  Use file-dialog->list and list->file-dialog.  Test this function with a couple of files.  (Testing
+of these file-handling programs isn't quite as convenient as just putting
+examples into your code, but it is essential nonetheless.  This is just
+an illustration of how interactive (and imperative, non-functional) programs add an extra layer of complexity
+to the computing task.)
+
+(c.3)  Write the function copy-with-line-numbers that behaves like copy-file, except that the copied file has line numbers
+in this form:
+
+1: Project Gutenberg's The Adventures of Sherlock Holmes, by Arthur Conan Doyle
+2: 
+3: This eBook is for the use of anyone anywhere at no cost and with
+4: almost no restrictions whatsoever.  You may copy it, give it away or
+...
+13052: subscribe to our email newsletter to hear about new eBooks.
+
+The pre-defined functions
+string-append and 
+number->string  may be helpful.
+
+(c.4)  (optional)  You'll notice that in your line-numbered file,
+the lines don't line up neatly because the numbers have different lengths.
+ It would be nice to be able to display a number in a five-character field,
+so that 17 would display as "   17" (with three spaces before
+the number).
+;; pad5: string -> string
+  ;; If input string is 5 characters or longer, return it unchanged. Otherwise,
+;; add enough blanks at the left of the string to make it 5 characters long.
+
+Use this function in your line-numbering program;
+the pre-defined function string-length
+ will be useful here.
+
+Next, write a generalized version of the function:
+;; pad: string number symbol string -> string
+  ;; The first argument is the input string. The second is the desired length.
+  ;; The third, 'left or 'right, indicates which end of the string should be padded.
+  ;; The fourth is the string that should be added repeatedly
+  ;; until the string is at least as long as the desired length.
+  ;; Examples: (pad "Hi" 5 'right "!") -> "Hi!!!"
+;; (pad "Preface" 12 'right "_.") -> "Preface_._._."
+
+Finally, use these functions in your line-numbering
+program so that the numbers are printed in five-character fields (except
+for numbers over 99,999, which should be as long as necessary).
+
+Submit these definitions via Checkmate.
+(d) Let's go back to our (new)
+restaurants with menus.  
+ (define-struct rrant (name cuisine phone
+  menu))
+ where name, cuisine, and phone are strings
+  and menu is a list of dishes:
+ (define-struct dish (name price)). 
+ To the extent possible, write the following
+  definitions without using explicit recursion (i.e., using map, filter, foldr,
+    and similar functions).  None of these modifications should require any
+    change to the code for collections, either.
+ (d.1) Make up a big list of rrant structures to use in your testing.  Trade and combine lists with your classmates. 
+ (d.2) Make a copy of the restaurants2.scm
+  program (as modified in part (b), if possible) and call it restaurants3.scm.
+ (d.3) Modify the program to handle rrant objects that include menus.  You should try at least to make a list of all
+  the changes you will need before looking at our checklist of modification steps and before looking back at the code we wrote in class.
+ (d.4) Modify the program to display
+  the average price (of all the dishes on the menu) whenever a restaurant
+  is printed.
+ (d.5) Add a command to the main menu
+  that allows the user to search for (and display) all the restaurants that
+  serve a given cuisine along with the average price of (all the menus of
+  the restaurants that serve) that cuisine.
+ (d.6) Add a command to the main menu
+  that allows the user to search for (and display) all the restaurants that
+  serve a dish containing a given word or phrase.  (This is more realistic
+  than forcing the user to type the exact name of the dish; here, at least,
+  the user can just type "fava beans" and match all the dishes that
+  include that phrase.  The string-processing functions from the previous part will make this task easier.)
+
+ Collect all of these definitions and submit
+  them via Checkmate.
+
+(e)  Remember that each partner must
+complete a partner evaluation form via the Survey tool on eee.uci.edu. 
+
+
+Based in part on ICS H21assignments by David
+G. Kay; modified and new material added by David G. Kay for the Informatics
+Core Course, Fall 2004 and Fall 2005; file-handling code written by Angelo
+Pioli, Fall 2005. Modified by David G. Kay, Fall 2009, Fall 2010, and Fall 2011.
+
+David G. Kay, kay@uci.edu 
+
+Friday, November 4, 2011 8:03 AM
+
+

@@ -1,0 +1,443 @@
+https://isg.ics.uci.edu/event/dr-andrey-balmin-and-mayank-pradhan-workday-workday-prism-analytics-unifying-interactive-and-batch-data-processing-using-apache-spark
+
+
+
+
+
+
+Dr. Andrey Balmin and Mayank Pradhan (Workday): Workday Prism Analytics: Unifying Interactive and Batch Data Processing Using Apache Spark – Information Systems Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+
+Faculty
+Students
+Recent Alumni
+Research Staff
+Visitors
+
+
+Research
+
+Projects
+Publications
+
+
+Teaching
+
+Courses
+DB Qual
+
+
+Events
+
+Talks
+News
+
+
+About
+
+Sponsors & Partners
+Visitor Info
+Contact us
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ISG Talks are sponsored by Couchbase.
+<< All Talks
+
+
+
+ « All Events
+
+
+This event has passed.
+Dr. Andrey Balmin and Mayank Pradhan (Workday): Workday Prism Analytics: Unifying Interactive and Batch Data Processing Using Apache Spark
+
+November 16, 2018 @ 3:00 pm - 4:00 pm 
+
+
+
+
+
+« Sushant Jain : Large scale and low latency data distribution from database to servers
+Vinayak Borkar (FireEye Inc.): The X15 Machine Data Management Platform »
+
+
+
+
+
+
+
+
+
+Abstract: Workday Prism Analytics enables data discovery and interactive Business Intelligence analysis for Workday customers. To prepare data for analysis, business users can setup data transformation pipelines in an interactive, self-service, modern data prep environment. Thus, Workday Prism Analytics needs to run three types of scalable data processing applications: “always on” query engine and data prep applications, and on-demand batch execution of transformation pipelines. We standardized on Apache Spark and Spark SQL for all three applications, due to its scalability, as well as, flexibility and extensibility of the Spark’s Catalyst compiler. All applications share much of the compilation and execution code, except for sampling, caching, and result extraction.
+ 
+In this talk we will, first, introduce Workday and then Prism Analytics. We will then zoom into Spark-based interactive and batch data processing components of Prism Analytics. We will then describe the data prep transformations, and their compilation into Spark DataFrames, through Spark-SQL Catalyst plans, in both interactive and batch mode. We will focus on some challenges we encountered while compiling and executing complex pipelines and queries. For example, Spark SQL compilation times exceeded execution time for some low-latency queries. And compiled plans grew dangerously for data prep pipelines with multiple self-joins and self-unions. We will describe caching, sampling, and query compilation techniques that allow us to support interactive user experience. This includes a join co-sampling component that improves system usability when joining large datasets. Finally, we will conclude with an overview of the open challenges that we plan to tackle in the future.
+ 
+Bios:
+Dr. Andrey Balmin is a Sr. Principal Engineer at Workday, where he is building the self-service Prism Analytics platform, continuing the work he began at Platfora (which was acquired by Workday in 2016). Prior to this, he was a Research Staff Member at IBM Almaden Research Center where he focused on search and query processing of semi-structured and graph-structured data in Data Warehousing and, later, Big Data platforms. He holds a Ph.D. degree in Computer Science from UC San Diego.
+ 
+Mayank Pradhan is a Senior Engineering Manager at Workday focused on building Analytics Platform for Workday’s customers. His team develops the backend engines in cloud that run a variety of workloads including, data ingestion, interactive data preparation, and OLAP cubes for large scale, high volume interactive querying. Prior to Workday, Mayank worked on industry shifting data processing products like Platfora, ParAccel (the columnar database technology behind Redshift), IBM DB2. He has 18 years of industry experience building distributed databases. He did his M.S in Computer Science from Santa Clara University and BS Computer Science from Pune University India.
+ 
+
++ Google Calendar+ iCal Export
+
+
+
+ Details 
+
+ Date: 
+
+ November 16, 2018 
+
+ Time: 
+
+
+					3:00 pm - 4:00 pm				
+
+
+
+
+ Venue 
+
+ DBH 3011 
+
+
+
+
+ 
+
+
+
+
+
+« Sushant Jain : Large scale and low latency data distribution from database to servers
+Vinayak Borkar (FireEye Inc.): The X15 Machine Data Management Platform »
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+Search for :
+
+
+Latest News 
+
+
+
+Upcoming Talk: How to build your own Business
+
+											July 25, 2022																																
+
+
+Upcoming Talk: Couchbase and Distributed Computing Backends for big data processing
+
+											May 31, 2022																																
+
+
+Upcoming Talk: Shedding Light on Opaque Database Queries
+
+											May 31, 2022																																
+
+
+ISG researchers won the  Mark Weiser Best Paper Award at IEEE PERCOM 2022
+
+											March 24, 2022																																
+
+
+
+
+Upcoming Events
+
+
+
+
+Qiushi Bai: QueryBooster-Improving SQL Performance Using Middleware Services for Human-Centered Query Rewriting + Demo
+
+
+
+October 14 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Xiaozhen Liu: Demonstration of Collaborative and Interactive Workflow-based Data Analytics in Texera
+
+
+
+October 21 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Abhishek Singh: WedgeBlock – An Off-Chain Secure Logging Platform for Blockchain Applications
+
+
+
+October 28 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Juncheng Fang: PeloPartition- Improving Blockchain Resilience to Partitioning by Sharding
+
+
+
+November 4 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Peeyush Gupta: A Demonstration of TippersDB
+
+
+
+November 18 @ 12:30 pm - 2:00 pm 
+
+
+
+View All Events
+
+Please follow & like us :) 
+
+Follow  
+
+ 
+
+
+
+
+
+
+
+			Copyright 2018 | ISG-UCI		
+
+
+
+
+
+
+cross
+
+
+
+
+
+
+
+
+
+
+Hit ENTER to search or ESC to close
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

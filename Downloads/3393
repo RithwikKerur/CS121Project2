@@ -1,0 +1,172 @@
+https://ngs.ics.uci.edu/real-time-search-2
+
+
+
+
+
+
+
+
+Real Time Search 2 – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Real Time Search 2    			
+
+
+The biggest challenge in real time search is how do you minimize latency — the time lag — between creation of some data/event and it getting indexed and delivered to interested receivers.  In traditional search, crawlers will periodically visit every site and analyze the site to index it.  In response to search request, the engine went to index and found where the information is.  There was this cycle of visiting a site and analyzing it to index it.  Given increased computational power, search engines reduced their latency significantly.
+When blogs started becoming popular, there was a need for reducing latency.  That resulted in modification of the so called publish-and-subscribe paradigm.  In this paradigm, a user gave a ‘standing instruction’ that when a specific site gets updated, the user should be informed and sent the new information.  This resulted in the popularity of RSS like mechanism and search engines associated with those.  
+How can one further reduce the latency?  This is where some interesting things have started happening — and Twitter — is just a leading example of that.  If the updates are just openly broadcast — independent of whether one is listening or not — then the update mechaisms could be kept simple.  On the other hand, if one could develop different kinds of filters that could monitor all the updates to extract their attributes and index and transmit only the filtered ones then latency could be further reduced.  In a simple way, this is what has started happening in real time search.  Of course, as you would imagine, this is hiding lot of complex technical details and discussing only very fundamental approach.  Twitter’s success has demonstrated the feasibility of such a powerful paradigm.
+How scalable is this paradigm, however?
+Suppose that we extend this to all sensors, from cameras to RFIDs.  Meaning, all sensors are given capabilities to ‘tweet’ and they start doing that.  Can we scale up the approach to still provide real-time search?  But why would you want the sensors to have the power to tweet?
+Interesting questions.
+
+
+
+By Ramesh |
+    				June 4, 2009 |
+    				             		Experiential Computing |
+             	 
+    				             		No Comments |
+             	 		          				
+    			
+
+
+← Personal Butler on iPhone: Siri
+Real Time Search 3: Twitter →
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

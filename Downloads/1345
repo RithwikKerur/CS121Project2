@@ -1,0 +1,10 @@
+http://plrg.ics.uci.edu/publications/260.bib
+@misc{key,
+ author = {Alokika Dash and Brian Demsky},
+ title = {Symbolic Prefetching in Transaction Distributed Shared Memory},
+ booktitle = {Poster at the 2010 ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming},
+ pages = {331--332},
+ location = {Bangalore, India},
+ month = {January},
+ year = {2010}
+}

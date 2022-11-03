@@ -1,0 +1,189 @@
+https://sli.ics.uci.edu/PmWiki/BasicVariables
+
+
+
+SLI | PmWiki / BasicVariables 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+BasicVariables
+
+
+
+
+
+< Notify | Variables | Page Variables >
+
+
+
+Where the variables are available as wiki markup they are shown as Variable value "{$VariableName}".
+
+$AsSpacedFunctionThe name of the function used to convert WikiWords into normal, spaced strings.  Defaults to 'AsSpaced'.
+ $AsSpacedFunction = 'MyAsSpaced';
+Variable value ""
+$Author petko $EnablePostAuthorRequired.
+$AuthorGroup The WikiGroup for user profiles. Defaults to 'Profiles'. This variable is implicit in the markup [[~AuthorName]]
+ $AuthorGroup = 'Users';
+$AuthId For sites using user-based authorization, tracks the "reader" or login name.
+ SessionAuth($pagename);
+ if( isset($AuthId) ) { // this person has been authenticated
+$AuthPw Request for documentation, meanwhile see here.
+ SessionAuth($pagename);
+ if( isset($AuthPw) ) { // this person has entered a password
+Variable value "PmWiki.BasicVariables"
+$BaseName
+$BaseNamePatternsAllows population of the {$BaseName} PageVariable.  The key to the hash is the pattern to be replaced and the value is the replacement string.
+ 
+# If {$FullName} is 'Group.Page-Draft' then {$BaseName} is 'Group.Page'
+$BaseNamePatterns['/-Draft$/'] = '';
+# If {$FullName} is 'Comments-Group.Page' then {$BaseName} is 'Group.Page'
+$BaseNamePatterns['/^Comments-/'] = '';
+$CategoryGroup The WikiGroup used for categories. Defaults to 'Category'.  (See Categories). This variable is implicit in the markup [[!CategoryName]]
+$CookiePrefix A string prefix to be prepended to cookies set from PmWiki scripts.  It defaults to '', but can be set to a different value to avoid conflicts with similar-named cookies from other applications, or to allow multiple wikis from the same domain to store separate cookies.
+ $CookiePrefix = 'pmwiki_';     # set cookie prefix to 'pmwiki_'
+If you have a WikiFarm, use the following in each field's config.php to get a unique prefix for each field in the farm, thus isolating each field's cookies.
+ $CookiePrefix = substr($tmp = md5(__FILE__), 0, 5).'_';
+Variable value "Main"
+$DefaultGroupWikiGroup used by default (on startup) when no group is specified in the URL.  
+Variable value "HomePage"
+$DefaultNameName of the default HomePage of each WikiGroup.  Used when the group doesn't have a page with the same name as the group.
+ Note that the behavior will differ based on whether the page exists or not. Probably you want to alter $PagePathFmt in addition to $DefaultName if you really want it to take effect.
+Note: See comment below under $DefaultPage re the order how this must be defined within your (farm)config scripts - this must be set prior to any call of ResolvePageName().
+$DefaultPageStartup page when PmWiki is called without a specified page, normally $DefaultGroup.$DefaultName.
+Note: for $DefaultGroup, $DefaultName and $DefaultPage variables to work, they should be defined in the beginning of (farm)config.php, before any call to the function ResolvePageName(). This means, before any script from PmWiki and before any recipe that might be using this function. This also means it cannot be set in a per-page or per-group customization script - ResolvePageName() is called before these are loaded.
+  Please note that this variable is intended to be set in (farm)config.php, not in individual groups. Trying to use different $DefaultName, $DefaultPage or $PagePathFmt settings in different groups will cause cross-group linking anomalies.
+$EnableLocalConfigAllows/disables local/config.php customizations (usually for a farm's wikis).  Can be set to zero in local/farmconfig.php to prevent the farm's wikis' local/config.php from being loaded.
+ $EnableLocalConfig = 0;    # disable PmWiki's local/config
+$EnablePGCustAllows/disables per-page and per-group customizations.  Can be set to zero in any local customization file to prevent remaining page/group customizations from being loaded.
+ $EnablePGCust=0;              # turn off per-page/group configs
+$EnableRedirectWhen enabled (default), causes page redirects to automatically be performed by the browser.  Setting $EnableRedirect to zero causes PmWiki to pause and issue a "Redirect to link" message instead.  This is sometimes useful when debugging recipes to be able to see the results of actions before page redirections occur.
+$EnableWikiWordsEnable WikiWord processing.
+$EnableWSPreEnables a markup rule that causes lines with leading spaces to be treated as sections of preformatted text.  If set to a value greater than 1, indicates the minimum number of leading spaces required for this treatment.
+ $EnableWSPre = 1;             # leading spaces are preformatted text
+ $EnableWSPre = 0;             # leading spaces are normal lines of text
+ $EnableWSPre = 4;             # 4+ spaces are preformatted text
+$FTimeFmtCan be used to override the default date format used by the "ftime" function.  The default $FTimeFmt is $TimeFmt.  (See Markup Expressions)
+$GroupPattern The regular expression pattern used for valid WikiGroup name specifications.  Defaults to allowing any group name beginning with an uppercase letter, but can be set to limit the valid group names (see Cookbook:LimitWikiGroups).
+ # limit groups to Site, SiteAdmin, PmWiki, and MyGroup
+ $GroupPattern = '(?:Site|SiteAdmin|PmWiki|MyGroup)';
+ #for case-sensitive group names, note the ?-i switch:
+ $GroupPattern = '(?-i:Site|SiteAdmin|PmWiki|MyGroup)';
+$LinkWikiWordsIf set, then bare WikiWords in a page are automatically linked to pages of the same name.  Note that this value can also be affected by the (:linkwikiwords:) and (:nolinkwikiwords:) directives.
+ $LinkWikiWords = 1;           # turn on WikiWord links
+ $LinkWikiWords = 0;           # disable WikiWord links
+ Note, this setting requires WikiWords to be enabled, see $EnableWikiWords.
+$LogoutRedirectFmt Identifies the page to which the visitor should be sent after an ?action=logout.  Defaults to the current page.
+ $LogoutRedirectFmt = 'Site.Logout';    # ?action=logout target
+$LogoutCookies An array of cookie names to be removed when ?action=logout is invoked.
+$NamePattern The regular expression pattern used for valid page names.  Defaults to allowing pages beginning with an uppercase letter or digit, followed by sequences of alphanumeric characters, hyphens, and underscores.  
+$pagename A variable to access information about the current page.  Accessible via $pagename = ResolvePageName($pagename);  To use inside a function, remember to declare 
+global $pagename;
+See + for more information, including when it's possible to use this variable.  Once you have $pagename, page variables become accessible:
+
+$page = PageVar($pagename, '$FullName'); # =$pagename
+$group = PageVar($pagename, '$Group');
+$name = PageVar($pagename, '$Name');
+
+$PagePathFmt An array controlling how the default group home-page name will be determined.
+  Please note that this variable is intended to be set in (farm)config.php, not in individual groups. Trying to use different $DefaultName, $DefaultPage or $PagePathFmt settings in different groups will cause cross-group linking anomalies.
+Default Setting:
+$PagePathFmt = array('{$Group}.$1','$1.$1','$1.{$DefaultName}');
+Setting to use if you wish $DefaultName to actually be the name of your group home-pages:
+$PagePathFmt = array('{$Group}.$1','$1.{$DefaultName}','$1.$1');
+Do note that if the Groupname.Groupname page does exist but Groupname.Defaultname does not exist, then Groupname.Groupname will still take precedence. You may remove the '$1.$1' entirely to require Groupname.Defaultname to be the group homepage - that would look like this:
+$PagePathFmt = array('{$Group}.$1','$1.{$DefaultName}');
+Variable value "Site"
+$SiteGroupDefault group for storing configuration and utility pages such as Site.Search, Site.EditForm, Site.PageNotFound, etc.
+$SiteAdminGroupDefault group for locked administrative pages such as SiteAdmin.AuthList, SiteAdmin.AuthUser, SiteAdmin.ApprovedUrls?, etc, defaults to 'SiteAdmin'.
+$SkinThe name of the directory containing the skin (theme) files, default "pmwiki". See Skins.
+$SpaceWikiWordsIf set, then WikiWords in pages are automatically spaced according to $AsSpacedFunction.  Note that this value can also be affected by the (:spacewikiwords:) and (:nospacewikiwords:) directives.
+ $SpaceWikiWords = 1;          # turn on WikiWord spacing
+ $SpaceWikiWords = 0;          # turn off WikiWord spacing
+$TimeFmt The format to use for dates and times, in strftime() format.  The default value is '%B %d, %Y at %I:%M %p', which gives dates of the form "September 8, 2005 at 10:57 PM".
+ $TimeFmt = '%B %d, %Y';        # dates as "September 8, 2005"
+ $TimeFmt = '%Y-%m-%d';         # dates as "2005-09-08"
+Variable value "pmwiki-2.2.93"
+$Version A string representing the release version of PmWiki.
+Variable value "2002093"
+$VersionNum A number representing the release version of PmWiki,
+with the major and minor release components padded with zeroes to
+produce three digits.  Thus, release "pmwiki-2.1.40" will have $VersionNum set to 2001040.
+The first digit is a 2, the next three digits are the major
+release number, and the last three digits are the minor release
+number. Beta releases use 900-999 for the minor release number.
+Thus:
+
+2.1.0          2001000
+2.1.1          2001001
+...
+2.1.27         2001027
+2.2.0-beta1    2001901
+2.2.0-beta2    2001902
+...
+2.2.0-beta18   2001918
+...
+2.2.0          2002000
+
+$WikiWordPattern The pattern that describes a WikiWord.
+$EnableRelativePageVarsThis setting controls how Page variables in included pages are understood by PmWiki.
+ $EnableRelativePageVars = 1; # PmWiki current defaultIn this case {$Name} displays the name of the physical page where it written. If {$Name} is in an included page, it will display the name of the included page. (This is currently PmWiki's default.)
+ $EnableRelativePageVars = 0; # revert to previous defaultIn this case {$Name} displays the name of the currently browsed page. Even if {$Name} is in an included page, it will display the name of the browsed page. This was PmWiki's default in versions 2.2.8 and earlier, and changed in 2.2.9, but you can revert it back with this line in config.php.
+  {*$Name} with an asterisk always displays the name of the currently browsed page, regardless of $EnableRelativePageVars.
+Categories: PmWiki Developer
+
+< Notify | Variables | Page Variables >
+
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:BasicVariables, and  a talk page: PmWiki:BasicVariables-Talk.
+
+
+
+
+
+
+ Last modified July 29, 2016, at 01:40 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

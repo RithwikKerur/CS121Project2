@@ -1,0 +1,64 @@
+https://sli.ics.uci.edu/Classes/2015F-179-ProjectIdeas
+
+
+
+SLI | Classes / 2015F-179-ProjectIdeas 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Classes /
+2015F-179-ProjectIdeas
+
+
+Example project ideas for CS179.
+
+SudokuCreate a CSP-based sudoku solver, either for full-size sudoku (example) or 6x6 sudoku (example) if your code is slow.  The key to a good sudoku solver is to perform arc-consistency, ruling out invalid values for each square as you go, and to use a dynamic variable ordering during search, ordering by the most constrained variable at each step.
+
+
+
+
+
+
+ Last modified November 04, 2015, at 02:55 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

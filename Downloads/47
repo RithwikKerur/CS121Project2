@@ -1,0 +1,288 @@
+http://www.ics.uci.edu/~stasio/spring04/outline180.html
+
+
+ICS 180: Schedule and Handouts
+
+ICS 180, Spring'04
+Lecture Summaries, Homeworks, Solutions, Handouts
+		
+[+ a tentative schedule for what's to come]
+[back to course main 
+				page], [shortcut 
+				to handout list]
+
+[Lecture 
+				1, week 1, 4/6/04]  Introduction  
+(lect1.pdf)
+Overview 
+			of goals of cryptography.
+			Shannon's definition of secrecy.  Classic ciphers 
+			and their insecurity.  One-time 
+			pad encryption:  Its 
+				security and, unfortunately, it’s impracticality.  Hence, 
+			the need for computational notions of hardness.
+[Lecture 
+				2, week 1, 4/8/04]  Computational 
+				Notion of Hardness (+ short review of complexity)  
+(lect2.pdf)
+Probabilistic 
+			algorithms, asymptotic analysis of algorithm running time, polynomial time vs. 
+			exponential time, notions of negligible adversarial advantage and of 
+			computational hardness.  Example: 
+			Indistinguishability of Private-Key Encryption.
+Homework 
+				1 (due Thursday, 4/15/04):  
+(hmw1.pdf)
+Solutions 
+					to Homework 1: (sol1.pdf)
+[Lecture 
+					3, week 2, 4/13/04]  
+Computational Notion of Hardness (cont):  One-way encryption and RSA example  
+(lect3.pdf)
+We 
+			define the notion of one-way secure encryption.  We use RSA 
+			encryption as an example to illustrate how efficiency/hardness of known attacks 
+			on RSA is captured by computational notion of security involving the 
+			notion of efficient algorithms and negligible probability.
+[Lecture 
+						4, week 2, 4/15/04]  One-way 
+						encryption vs. Indistinguishable encryption.  
+(lect4.pdf)
+We 
+			compare the two computational notions of security for encryption.  We show 
+			that no deterministic cipher, including the textbook RSA can 
+			be indistinguishable.  We show other ways in which encryption 
+			which is assumed one-way secure can still have security flaws, e.g. it can leak 
+			some specific plaintexts, some specific bits of every plaintext, 
+			etc.  This shows the gap between one-way security and 
+			indistinguishability for encryption, and motivates finding encryption schemes 
+			which satisfy the latter, stronger notion.
+
+* 
+							Two Handouts:  Number theory facts, collected by prof. Dan Boneh from 
+							Stanford:  (h1-primes.pdf)  
+							,  (h2-composites.pdf)
+
+
+Homework 
+					2 (due Thursday, 4/22/04):  
+(hmw2.pdf)
+Solutions 
+							to Homework 2: (sol2.pdf)
+
+
+[Lectures 
+				5-6, week 3, 4/20-22/04]  One-Way Functions, Permutations, and Trapdoor 
+				Permutations:  Discrete Log, RSA
+One 
+			Way Functions are a fundamental concept for cryptography.  
+These are functions which are easy to compute but hard to invert.  We  
+			define a One Way Function (Collection) [OWF], and we show that 
+			the long-standing number theoretical assumption of hardness 
+			of computing discrete logarithms gives rise to a OWF collection and a 
+			One-Way Permutation collection [OWP].  To do that, we review some 
+			basic modular arithmetic for primes from handout h1-primes.pdf .  
+			In the second lecture we go through modular arithmetics for composites from 
+			handout h2-composites.pdf , 
+			and we define Trapdoor Permutation [TDP] collection, and give RSA as an 
+			example.
+Untill 
+			I write up lecture notes from these, read up on this material in lecture notes 
+			from other classes:  
+John Katz's lecture9.pdf, 
+Tal Malkin's lecture6.pdf, 
+Tal Malkin's lecture8.pdf
+(Section 
+			1 of John Katz's lecture 9 at UMD explains how RSA and modular 
+			exponentiation are examples of OWFs.  Tal Maklin's lecture 6 at Columbia 
+			goes over modular arithmetic in a prime group, and also briefly 
+			explains the modular exponentiation OWF example.  Tal Maklin's 
+			lecture 8 explains RSA as OWF and shows some other examples of 
+			OWFs.) 
+Homework 3 
+				(due Tuesday, 5/03/04):  
+(hmw3.pdf)
+Solutions 
+						to Homework 3: (sol3.pdf)
+[Lecture 
+			7, week 4, 4/27/04]  Hard-Core Bits 
+Just 
+			because some value is hard to compute (a discrete logarithm, or a factor of a 
+			composite number), it doesn't mean that all the bits of that value are hard to 
+			guess.  This is crucial because if you want to encrypt something, you need 
+			to know not just that your whole message is hard to decipher, but that 
+				every bit in your message is hard to 
+				guess.  (Note that maybe 
+			the attacker cares about only one bit, for example the one which encodes 
+			whether you are sending a “buy stock” or a “sell stock” order to your 
+			bank.)  In fact we show that even if the modular exponentiation function 
+			Exp is a OWF, its value does leak some bits of the preimage, namely 
+			the Least Significant Bit of the preimage.  This motivates the definition 
+			of Hard Core Bits for OWFs, which are the bits that are unpredictable given the 
+			function value.  We show that the Most Significant Bit of the preimage is 
+			such a hard core (i.e. unpredictable) bit for the Exp function.
+Before I 
+			write up the lecture notes here, try reading these:  
+Yevgeni Dodis's lecture 4.pdf, 
+Tal Malkin's lecture9.pdf
+(Yevgeni defines 
+			the hard core bit (sec 1), shows that MSB is hard core for the modular 
+			exponentiation, just like we did in class (sec 2), he sketches the proof why 
+			the <x,r> bit-wise xor is a universal hard core bit for every OWF (sec 
+			3-4), and then explains how to use hard core bits to 
+			create indistinguishably secure bit-by-bit encryption (sec 5), something 
+			which we sketched at the end of the class.  Tal Maklin's lecture 9 from 
+			Columbia gives a quick sketch of this too.  She defines a hard core bit 
+			and then sketches a proof why the <x , r> bit-wise xor defines a 
+			hard core bit for every one way function.)
+[Lecture 
+				8, week 4, 4/29/04]  Computational Indistinguishability, Pseudorandomness, 
+				and Pseudorandom Number Generators
+We define what it means for two random variables to be "computationally 
+			indistinguishable".  We illustrate this notion with indistinguishably 
+			secure encryption:  This is an encryption s.t. the distribution of 
+			ciphertext of message m1 is computationally indistinguishable 
+			from the distribution of ciphertexts of message m2, for any m1,m2 of the same 
+			length.  We then define a Pseudorandom Number Generator [PRG].  It is 
+			an algorithm whose outputs are longer than inputs, and whose outputs are 
+			distributed in a computationally indistinguishable way from random numbers.
+		
+Here are other people's lectures on this material:  
+Yevgeni Dodis's lecture 5.ps, 
+Tal Malkin's lecture10.pdf, 
+John Katz's lecture10.pdf,
+
+[Lecture 
+				9, week 5, 5/04/04]  PKI Infrastructure, guest lecture by Einar Mykletun.
+This lecture was on public key infrastructures, combining public key 
+			and symmetric key encryptions, and on using signatures and revocation to 
+			implement certificates.
+Here are the notes from that lecture:  
+Einar's lecture.pdf
+[Lectures 
+					10-11, week 6, 5/11-13/04]  Pseudorandom Generators and 
+				Private-Key Encryption 
+
+Construction of a pseudorandom generator [PRG] from hard-core bits of a one-way 
+			permutation.  Using PRG to implement a public-key 
+encryption for one-bit messages.  Using PRG 
+to create a
+			private-key encryption (the stream cipher).   
+Notes for these lectures are in Dodis's lecture 4 (se notes to lecture 7 above) 
+			and Dodis's lecture 8 (see notes to lecture 8 above).  These notes 
+			contain a construction of a PRG from a one-way permutation and its 
+			hardcore bit, construction of one-bit public-key encryption from trapdoor 
+			permutation, and a construction of a stream cipher from a PRG.
+Homework 4 (due Thursday, 5/20/04):  
+(hmw4.pdf)
+Solutions to Homework 4: 
+(sol4.pdf)
+[Lectures 12-13, week 7, 5/18-20/04]  Trapdoor Permutations and Secure 
+				Public Key Encryption, Diffie-Hellman and ElGamal Encryption
+With a simple extension of the OWP-based PRG construction we get a TDP-based 
+			public key encryption with short ciphertexts.  Similarly to this 
+			general construction (general because assuming any TDP), we can get a 
+			practical public key encryption based on the specific assumption of 
+			Decisional Diffie Hellman [DDH] assumption, namely the ElGamal encryption.
+Notes from Yevgeni Dodis's lecture covering this material: Dodis's 
+					lecture6.pdf (for the TDP-based 
+			public-key encryption and related material), Dodis's 
+					lecture7.pdf (for the DDH 
+			assumption, Diffie-Hellman key exchange, and the ElGamal encryption)
+[Lecture 14, week 8, 5/25/04]  Stronger Notion of Encryption 
+				Security:  Chosen Ciphertext Attack.  
+
+We motivate stronger security notions for encryption: security 
+			against Chosen Ciphertext Attack (and its restricted version, called 
+			Lunchtime Attack), and security in the sense of Non-Malleability of 
+			encryption.  We show that our public-key encryption schemes, either the 
+			general TDP-based one or the DDH-based ElGamal 
+			encryption, are insecure against such attacks.
+		
+Notes on Chosen Ciphertext Attack: notes 
+					from Mihir's lectures on PK encryption (pages 
+			5-6), paper by Victor Shoup on "why chosen ciphertext security matters", 
+Shoup's paper
+[Lecture 15, week 8, 5/27/04]  Pseudorandom Functions (part 1) 
+
+
+We define PRF, a pseudorandom function family, and we give an 
+			application to a stateless authentication scheme.
+Notes from Yevgeni Dodis's lecture covering material for this lecture and 
+			the next: Dodis's 
+					lecture9.pdf 
+Homework 5 (due Thursday, 6/03/04):  
+(hmw5.pdf)
+Solutions to Homework 5:  (sol5.pdf)
+
+
+[Lecture 16, week 9, 
+			6/1/04]  Pseudorandom Functions (part 2) 
+We construct a PRF (albeit not a very efficient one) from any PRG.  We then 
+			show that based on the DDH assumption a similar construction leads to a very 
+			efficient PRF.
+Notes for this lecture are Dodis's lecture9, same as above.
+[Lecture 17, week 9, 6/3/04]  Ciphers from Pseudorandom 
+					Functions 
+
+A (CPA,CCA1)-secure encryption scheme from a PRF.  Other modes of 
+			using PRFs and PRPs to encrypt.
+The notes for this lecture are here: handout2.pdf , 
+			also read Dodis's 
+					lecture10.pdf, section 3, on this and other constructions 
+			of ciphers from PRFs and PRPs.
+Homework 6 (due Thursday, 6/10/04):  
+(hmw6.pdf)
+Solutions to Homework 6:  (sol6.pdf)
+
+[Lecture 18-19, last week]  Pseudorandom Permutations, Feistel 
+					Permutations
+Luby-Rackoff construction of a PRP from a PRF
+Homework 7 (due last day of the final week, Friday, 6/18/04):  
+(hmw7.pdf)
+
+
+
+
+
+
+  
+			[Tentative Schedule for Upcoming Lectures:]
+
+
+Message Authentication
+					
+Definition 
+			of Message Authentication Codes.  Constructions 
+			from PRFs and PRPs.
+
+
+Identification Schemes, Zero Knowledge
+					
+Security 
+			models for identification schemes.  Passive 
+			vs. active attacks.  
+Constructions and proofs.  An ID scheme 
+			based on the discrete log problem.  
+Related concept of Zero-Knowledge Proofs.
+
+
+Signature Schemes
+					
+Definition 
+			of secure signatures.  Collision-Resistant 
+			Hashing.  
+Claw-Free Permutations.
+
+
+Random Oracle Model, Signatures, Encryption
+					
+Random 
+			Oracle Model [ROM] for hash functions.  Chaining 
+			hash functions for arbitrary input length. Secure signature scheme from 
+			full-domain hashing and one-way functions (in ROM).  Fiat-Shamir 
+			construction for secure signatures from zero-knowledge identification schemes 
+			(in ROM).  Secure Encryption from 
+			one-way permutations (in ROM).
+
+

@@ -1,0 +1,379 @@
+http://www.ics.uci.edu/~franz
+
+
+
+Home Page of Professor Michael Franz, University of California, Irvine
+
+
+
+
+
+
+
+
+
+
+
+  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ > uci > ics > franz > home 
+
+Information
+                          for Prospective Graduate Students      ssllab
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Hello, and Welcome!
+I am a Distinguished Professor in the Department
+                            of Computer Science in the Donald Bren School of
+                            Information and
+                          Computer Sciences,  a  Professor (by courtesy)
+                          in the Department
+                          of Electrical
+                          Engineering
+                          and Computer
+                          Science                          in the
+                          Henry Samueli School of Engineering, and the
+                          director of UCI's Secure
+                          Systems and Software Laboratory. I am a Fellow of  AAAS, ACM,   IEEE and an Inaugural Fellow of IFIP. The purpose of this web page is to give a short overview
+                          of my
+                          research
+                          group's
+                          activities.
+I greatly welcome feedback. However, if
+                            you are a prospective graduate student, please read
+                            the specific
+                            information page before sending me any email. This also applies to foreign students looking for an "internship" opportunity.
+Sincerely,     Michael Franz
+
+
+
+
+
+
+
+
+Quick Biography
+Prof. Michael Franz was an early pioneer in the areas
+                    of mobile code and dynamic compilation. He created an early just-in-time compilation system, contributed to the theory and practice of continuous compilation and optimization, and co-invented the trace compilation technology that eventually became the JavaScript engine in Mozilla's Firefox browser.
+His current
+                    research emphasis lies in the area of Software Systems, particularly focusing on compiler, virtual machine, and related system-level techniques for making software either safer, or faster, or both. Some of this research also falls under the labels Computer Security, Trustworthy Computing, and Software Engineering.
+Dr. Franz has graduated 35 Ph.D. students as their primary advisor and has published more than 140 peer-reviewed research papers. He is the
+                      Principal Investigator on many competitive grants from
+                  the federal government, totaling  over $24M (of which more than $15M as sole PI), and has received more than a million dollars in unrestricted gifts from industry in appreciation of the research innovations he has contributed.
+Franz received a Dr.
+                    sc. techn. degree in Computer Science (advisor: Niklaus
+                      Wirth) and a Dipl. Informatik-Ing. ETH degree, both
+                    from the Swiss Federal Institute
+                      of Technology, ETH Zurich. He is a Fellow of the Americal Association for the Advancement of Science (AAAS), a Distinguished Scientist and a Fellow of the Association for Computing Machinery (ACM), a Fellow of The Institute of Electrical and Electronics Engineers (IEEE), and an Inaugural Fellow of the International Federation for Information Processing  (IFIP).
+(link to full CV)
+
+
+Contact Information
+Secure Systems and Software Laboratory
+                    Department of Computer
+                      Science
+Donald Bren School of
+                      Information & Computer Sciences
+University of California,
+                      Irvine 
+Irvine,
+                        CA 92697-3435
+
+                    office: CS
+                      Building,  Suite
+                      444
+                  email: michael @ michaelfranz.com or franz@uci.edu
+Office Hours
+
+I am  in my office on most days and am also   happy to meet via video. Please send me an email to make an appointment.
+
+Administrative Assistant
+Beth Mersky
+                    phone: (949) 824-7651
+                  fax: (949) 824-4056
+
+
+
+
+
+
+
+
+Latest Publications
+G. Kim, S. Hong, M. Franz, and D.K. Song; "Improving Cross-Platform Binary Analysis using Representation Learning via Graph Alignment;"' in ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA 2022), Seoul, South Korea; July 2022. (61 papers accepted out of 250 submissions = 25.6%)
+P. Kirth, M. Dickerson, S. Crane, P. Larsen, A. Dabrowski, D. Gens, Y. Na, S. Volckaert, and M. Franz; "PKRU-Safe: Automatically Locking Down the Heap Between Safe and Unsafe Languages;" in EuroSys 2022, Rennes, France; April 2022. Best Paper Award (45 papers accepted out of 161 submissions = 27.6%)
+
+                        C. Deshpande, D. Gens, and M. Franz; "StackBERT: Machine Learning Assisted Static Stack Frame Size Recovery On Stripped and Optimized Binaries;" in 14th ACM Workshop on Artificial Intelligence and Security (AISec 2021), Seoul, South Korea; November 2021.
+A. Dabrowski, K. Pfeffer, M. Reichel, A. Mai, E. Weippl, and M. Franz; "Better Keep Cash in Your Boots – Hardware Wallets Are the New Single Point of Failure"' in 2021 ACM Workshop on Decentralized Finance and Security (DeFi21), Seoul, South Korea; November 2021. 
+K. Pfeffer, A. Mai, A. Dabrowski, M. Gusenbauer, P. Schindler, E. Weippl, M. Franz, and K. Krombholz; "On the Usability of Authenticity Checks for Hardware Security Tokens;"  in USENIX Security 2021, Vancouver, British Columbia; August 2021 (248 papers accepted out of 1,319 submissions = 18.8%)
+A. Voulimeneas, D. Song, P. Larsen, M. Franz, and S. Volckaert, "dMVX: Secure and Efficient Multi-Variant Execution in a Distributed Setting;"  in 14th European Workshop on Systems Security (EuroSec 2021), Edinburgh, Scotland; April 2021.
+P. Larsen and M. Franz; "Adoption Challenges of Code Randomization," in Proceedings of the 7th ACM Workshop on Moving Target Defense (MTD 2020); November 2020.
+D. Song, F. Hetzelt, J. Kim, B. Kang, J. Seifert, and M. Franz; "Agamotto: Accelerating Kernel Driver Fuzzing with Lightweight Virtual Machine Checkpoints;"   in USENIX Security 2020, Boston, Massachusetts; August 2020. (157 papers accepted out of 977 submissions = 16%)
+Z. Kenjar, T. Frassetto, D. Gens, M. Franz, and A. Sadeghi; "V0LTpwn: Attacking x86 Processor Integrity from Software;"   in USENIX Security 2020, Boston, Massachusetts; August 2020. (157 papers accepted out of 977 submissions = 16%)
+P. Rajasekaran, S. Crane, D. Gens, Y. Na, S. Volckaert, and M. Franz; "CoDaRR : Continuous Data Space Randomization against Data-Only Attacks;"  to appear in 15th ACM ASIA Conference on Computer and Communications Security (ACM ASIACCS 2020), Taipei, Taiwan; October 2020. (67 papers accepted out of 308 submissions = 22%)                        
+A. Voulimeneas, D. Song, F. Parzefall, Y. Na, P. Larsen, M Franz, and S. Volckaert; "Distributed Heterogeneous N-Variant Execution;" in 17th International Conference on Detection of Intrusions and Malware, and Vulnerability Assessment (DIMVA 2020), Lisbon, Portugal; June 2020. (13 papers accepted out of 45 submissions = 28.9%) 
+A. Altinay, J. Nash, T. Kroes, P. Rajasekaran, D. Zhou, A. Dabrowski, D. Gens, Y. Na, S. Volckaert, C. Giuffrida, H. Bos, and M. Franz ;"BinRec: Dynamic Binary Lifting and Recompilation — The Best Thing Since Sliced Binaries;"  in EuroSys 2020, Heraklion, Greece; April 2020. (43 papers accepted out of 234 submissions = 18%)                        
+T. Park, K. Dhondt, D. Gens, Y. Na, S. Volckaert, and M. Franz; "NoJITsu: Locking Down JavaScript Engines;" in 2020 Network and Distributed Systems Security Symposium (NDSS 2020), San Diego, California; February 2020. (88 papers accepted out of 506 submissions = 17%)                        
+B. Belleville, W. Shen, S. Volckaert, A.M. Azab, and M. Franz; "KALD: Detecting Direct Pointer Disclosure Vulnerabilities;"  IEEE Transactions on Dependable and Secure Computing (TDSC); 2019.
+D.K. Song, J. Lettner, P. Rajasekaran, Y. Na, S. Volckaert, P. Larsen, and M. Franz; "SoK: Sanitizing for Security;"  in 40th IEEE Symposium on Security and Privacy (IEEE S&P 2019), San Francisco, California; May 2019. (84 papers accepted out of 673 submissions + 10 revised paper from the previous year = 12.5%)
+                        
+D.K. Song, F. Hetzelt, D. Das, Ch. Spensky, Y. Na, S. Volckaert, G. Vigna, Ch. Kruegel, J.-P. Seifert, and M. Franz; "PeriScope: An Effective Probing and Fuzzing Framework for the Hardware-OS Boundary;"  in 2019 Network and Distributed Systems Security Symposium (NDSS 2019), San Diego, California; February 2019. (89 papers accepted out of 521 submissions = 17%)
+T. Kroes, A. Altinay, J. Nash, Y. Na, S. Volckaert, H. Bos, M. Franz, and Ch. Giuffrida; "BinRec: Attack Surface Reduction Through Dynamic Binary Recovery;" in 2018 Workshop on Forming an Ecosystem Around Software Transformation (FEAST '18), Toronto, Canada; October 2018.
+B. Belleville, H. Moon, J. Shin, D. Hwang, J.M. Nash, S. Jung, Y. Na, S. Volckaert, P. Larsen, Y. Paek, and M. Franz; "Hardware Assisted Randomization of Data;"  in 21st International Symposium on Research in Attacks, Intrusions, and Defenses (RAID 2018), Heraklion, Crete, Greece; September 2018. (33 papers accepted out of 145 submissions = 23%)
+J. Lettner, D.K. Song, T. Park, S. Volckaert, P. Larsen, and M. Franz; "PartiSan: Fast and Flexible Sanitization via Run-time Partitioning;"  in 21st International Symposium on Research in Attacks, Intrusions, and Defenses (RAID 2018), Heraklion, Crete, Greece; September 2018. (33 papers accepted out of 145 submissions = 23%)
+M. Qunaibit, S. Brunthaler, Y. Na, S. Volckaert and M. Franz; "Accelerating Dynamically-Typed Languages on Heterogeneous Platforms Using Guards Optimization;"  in  2018 European Conference on Object-Oriented Programming (ECOOP 2018); Amsterdam, Netherlands; July 2018. (26 papers accepted out of 66 submissions = 39%)
+T. Park, J. Lettner, Y. Na, S. Volckaert and M. Franz; "Bytecode Corruption Attacks Are Real—And How To Defend Against Them;"  in 15th International  Conference on Detection of Intrusions and Malware & Vulnerability Assessment (DIMVA 2018), Paris, France; June 2018. (18 papers accepted out of 59 submissions = 30%)
+M. Franz; "Making Multivariant Programming Practical and Inexpensive;" in IEEE Security and Privacy, Vol. 16, No. 3, pp. 90-94; May 2018. 
+S. Crane, A. Homescu, P. Larsen, H. Okhravi, and M. Franz; "Diversity and Information Leaks;" in P. Larsen and A.-R. Sadeghi (Eds.), The Continuing Arms Race: Code-Reuse Attacks and Defenses, ACM Books, Vol. 18, Morgan & Claypool Publishers, ISBN 978-1-97000-183-9, pp. 61-81; 2018. doi:10.1145/3129743.3129747
+P. Biswas, A. Di Federico, S.A. Carr, P. Rajasekaran, S. Volckaert, Y. Na, M. Franz, and M. Payer; "Venerable Variadic Vulnerabilities Vanquished;"  in USENIX Security 2017, Vancouver, British Columbia; August 2017. (85 papers accepted out of 522 submissions = 16%)
+S. Volckaert, B. Coppens, B. De Sutter, K. De Bosschere, P. Larsen, and M. Franz; "Taming Parallelism in a Multi-Variant Execution Environment;" in EuroSys 2017, Belgrade, Serbia, pp. 270-285; April 2017. doi:10.1145/3064176.3064178 (41 papers accepted out of 182 valid submissions = 22%)
+N. Burow, S.C. Carr, J. Nash, P. Larsen, M. Franz, S. Brunthaler, and M. Payer; "Control-Flow Integrity P3: Protection, Precision, and Performance," in ACM Computing Surveys (CSUR), Vol. 50, No. 1, Article No. 16; April 2017. doi:10.1145/3054924
+R. Rudd, R. Skowyra, D. Bigelow, V. Dedhia, Th. Hobson, S. Crane, Ch. Liebchen, P. Larsen, L. Davi, M. Franz, A.-R. Sadeghi, and H. Okhravi; "Address Oblivious Code Reuse: On the Effectiveness of Leakage Resilient Diversity;"  in 2017 Network and Distributed System Security Symposium (NDSS 2017), San Diego, California; February/March 2017. (68 papers accepted out of 423 submissions = 16%)
+S. Volckaert, B. Coppens, A. Voulimeneas, A. Homescu, P. Larsen, B. De Sutter, and M. Franz; "Secure and Efficient Application Monitoring and Replication;" in 2016 USENIX Annual Technical Conference (ATC 2016), Denver, Colorado; June 2016. (47 papers accepted out of 266 submissions = 17.6%)
+J. Lettner, B. Kollenda, A. Homescu, P. Larsen, F. Schuster, L. Davi, A.-R. Sadeghi, T. Holz, and M. Franz; "Subversive-C: Abusing and Protecting Dynamic Message Dispatch;" in 2016 USENIX Annual Technical Conference (ATC 2016), Denver, Colorado; June 2016. (47 papers accepted out of 266 submissions = 17.6%)
+G. Wagner, P. Larsen, S. Brunthaler, and M. Franz; "Thinking Inside the Box: Compartmentalized Garbage Collection;"  in ACM Transactions on Programming Languages and Systems (TOPLAS), Vol. 38, No. 3, Article No. 9; May 2016.                        
+K. Braden, S. Crane, L. Davi, M. Franz, P. Larsen, Ch. Liebchen, and A.-R. Sadeghi; "Leakage-Resilient Layout Randomization for Mobile Devices;"  in 2016 Network and Distributed System Security Symposium (NDSS 2016),San Diego, California; February 2016. (60 papers accepted out of 389 submissions = 15.4%)
+P. Larsen, S. Brunthaler, L. Davi, A.-R. Sadeghi, and M. Franz; Automated Software Diversity; Morgan & Claypool, San Rafael, California, ISBN 978-1-6270-5734-9 (paperback), ISBN 978-1-6270-5755-4 (ebook); December 2015.
+ S. Crane, S. Volckaert, F. Schuster, Ch. Liebchen, P. Larsen, L. Davi, A.-R. Sadeghi, T. Holz, B. De Sutter, and M Franz; "It's a TRAP: Table Randomization and Protection against Function Reuse Attacks;" in 22nd ACM Conference on Computer and Communications Security (CCS 2015), Denver, Colorado; October 2015. (128 papers accepted out of 646 submissions = 19.4%)
+ M. Conti, S. Crane, L. Davi, M. Franz, P. Larsen, Ch. Liebchen, M. Negro, M. Qunaibit, and A.-R. Sadeghi; "Losing Control: On the Effectiveness of Control-Flow Integrity under Stack Attacks;" in 22nd ACM Conference on Computer and Communications Security (CCS 2015), Denver, Colorado; October 2015. (128 papers accepted out of 646 submissions = 19.4%)
+G. Savrun-Yeniceri, M. L. Van de Vanter, P. Larsen, S. Brunthaler, and M. Franz; "Efficient and Generic Event-based Profiler Framework for Dynamic Languages;" in 2015 International Conference on Principles and Practices of Programming on the Java platform: Virtual machines, Languages, and Tools (PPPJ'15), Melbourne, Florida; September 2015.
+C. Stancu, Ch. Wimmer, S. Brunthaler, P. Larsen, and M. Franz; "Safe and Efficient Hybrid Memory Management for Java;"  in International Symposium on Memory Management 2015 (ISMM'15), Portland, Oregon; June 2015.
+A. Homescu, T. Jackson, S. Crane, S. Brunthaler, P. Larsen, and M. Franz; "Large-scale Automated Software Diversity–Program Evolution Redux;" accepted to appear in IEEE Transactions on Dependable and Secure Computing (TDSC), 2015.
+S. Crane, Ch. Liebchen, A. Homescu, L. Davi, P. Larsen, A.-R. Sadeghi, S. Brunthaler, and M Franz; "Readactor: Practical Code Randomization Resilient to Memory Disclosure;" in 36th IEEE Symposium on Security and Privacy, San Jose, California; May 2015. (55 papers accepted out of 407 submissions = 13.5%)
+P. Larsen, A. Homescu, S. Brunthaler, and M. Franz; "Automatic Software Diversity;"  in IEEE Security and Privacy, Vol. 13, No. 2, pp. 30-37; March 2015.
+S. Crane, A. Homescu, S. Brunthaler, P. Larsen, and M. Franz; "Thwarting Cache Side-Channel Attacks Through Dynamic Software Diversity;" in 2015 Network and Distributed System Security Symposium (NDSS 2015), San Diego, California; February 2015. (51 papers accepted out of 302 submissions = 16.9%)
+V. Mohan, P. Larsen, S. Brunthaler, K. Hamlen, and M. Franz;"                        Opaque Control Flow Integrity"  in  2015 Network and Distributed System Security Symposium (NDSS 2015), San Diego, California; February 2015. (51 papers accepted out of 302 submissions = 16.9%)
+M. Murphy, P. Larsen, S. Brunthaler, and M. Franz; "Software Profiling Options and Their Effects on Security Based Code Diversification;"  in First ACM Workshop on Moving Target Defense (MTD 2014), Scottsdale, Arizona; November 2014. 
+W. Zhang, P. Larsen, S. Brunthaler, and M. Franz; "Accelerating Iterators in Optimizing AST Interpreters;''  in 2014 ACM International Conference on Object Oriented Programming Systems Languages & Applications  (OOPSLA 2014), Portland, Oregon, pp. 727-743; October 2014. (52 papers accepted out of 186 submissions = 28%)
+C. Stancu, Ch. Wimmer, S. Brunthaler, P. Larsen, and M. Franz; "Comparing Points-to Static Analysis with Runtime Recorded Profiling Data;"  in 2014 International Conference on Principles and Practices of Programming on the Java platform: Virtual machines, Languages, and Tools  (PPPJ 2014), Cracow, Poland,  pp. 157-168; September 2014.
+P. Larsen, A. Homescu, S. Brunthaler, and M. Franz; "SoK: Automated Software Diversity;"  in 35th IEEE Symposium on Security and Privacy, San Jose, California, pp. 276-291; May 2014.
+                        (44 papers accepted out of 334 submissions = 13%)
+P. Larsen, S. Brunthaler, and M. Franz; "Security through Diversity: Are We There Yet?," in IEEE Security and Privacy, Vol. 12, No. 2, pp. 28-35; March 2014.
+G. Savrun-Yeniceri, W. Zhang, H. Zhang, E. Seckler, C. Li, S. Brunthaler, P. Larsen, and M. Franz; "Efficient Hosted Interpreters on the JVM;"  in ACM Transactions on Architecture and Code Optimization (TACO), Vol. 11, No. 1, Article No. 9; February 2014. 
+Ch. Kerschbaumer, E. Hennigan, P. Larsen, S. Brunthaler, and M. Franz; "Information Flow Tracking meets Just-In-Time Compilation;"  in  9th International Conference on High-Performance and Embedded Architectures and Compilers (HiPEAC 2014), Vienna, Austria, January 2014.
+Ch. Kerschbaumer, E. Hennigan, P. Larsen, S. Brunthaler, and M. Franz; "Information Flow Tracking meets Just-In-Time Compilation;"  in ACM Transactions on Architecture and Code Optimization (TACO), Vol. 10, No 4, Article No. 38; December 2013.
+Ch. Kerschbaumer, E. Hennigan, P. Larsen, S. Brunthaler, and M. Franz; "CrowdFlow: Efficient Information Flow Security;" accepted for publication in 16th Information Security Conference (ISC 2013), Dallas, Texas; November 2013. (70 submissions, 16 accepted = 23% acceptance rate plus 14 short papers)
+A. Homescu, P. Larsen, S. Brunthaler, and M. Franz; "librando: Transparent Code Randomization for Just-in-Time Compilers;"  in 20th ACM Conference on Computer and Communications Security (CCS 2013), Berlin, Germany; November 2013. (105 papers accepted out of 530 submissions = 19.8%)
+G. Savrun-Yeniceri, W. Zhang, H. Zhang, C. Li, P. Larsen, S. Brunthaler, and M. Franz; "Efficient Interpreter Optimizations for the JVM;" in 2013 International Conference on the Principles and Practice of Programming on the Java Platform: Virtual Machines, Languages, and Tools (PPPJ'13), Stuttgart, Germany; September 2013.
+S. Crane, P. Larsen, S. Brunthaler, and M. Franz; "Booby Trapping Software;"  in 2013 New Security Paradigms Workshop (NSPW 2013), Banff, Canada; September 2013.
+E. Hennigan, Ch. Kerschbaumer, P. Larsen, S. Brunthaler, and M. Franz; "First-Class Labels: Using Information Flow to Debug Security Holes;"  in M. Huth, N. Asokan, S. Capkun, I. Flechais, and L. Coles-Kemp (Eds.), Trust and Trustworthy Computing, 6th International Conference (TRUST 2013), London, United Kingdom, Springer Lecture Notes in Computer Science, Vol. 7904, ISBN 978-3-642-38907-8, pp. 151–168; June 2013.
+Ch. Kerschbaumer, E. Hennigan, P. Larsen, S. Brunthaler, and M. Franz; "Towards Precise and Efficient Information Flow Control in Web Browsers;" in M. Huth, N. Asokan, S. Capkun, I Flechais, and L. Coles-Kemp (Eds.), Trust and Trustworthy Computing, 6th International Conference (TRUST 2013), London, United Kingdom, Springer Lecture Notes in Computer Science, Vol. 7904, ISBN 978-3-642-38907-8, pp. 187–195; June 2013.
+T. Jackson, A. Homescu, S. Crane, P. Larsen, S. Brunthaler, and M. Franz; "Diversifying the Software Stack Using Randomized NOP Insertion;" in S. Jajodia, A K Ghosh, V. S. Subrahmanian, V Swarup, C. Wang, X. S. Wang (Eds.),Moving Target Defense II: Application of Game Theory and Adversarial Modeling, Springer Advances in Information Security, Vol. 100, ISBN 978-1-4614-5415-1, pp. 151-174; 2013.
+A. Homescu, S. Neisius, P. Larsen, S. Brunthaler, and M. Franz; "Profile-guided Automated Software Diversity,"'  in 2013 International Symposium on Code Generation and Optimization (CGO 2013), Shenzhen, China; February 2013. (33 papers accepted out of 117 submissions = 28%)
+A. Homescu, M. Stewart, P. Larsen, S. Brunthaler, and M. Franz; "Microgadgets: Size Does Matter In Turing-complete Return-oriented Programming,'" in 6th USENIX Workshop on Offensive Technologies (WOOT '12), Bellevue, Washington; August 2012.
+Ch. Wimmer, S. Brunthaler, P. Larsen, and M. Franz; "Fine-Grained Modularity and Reuse of Virtual Machine Components;" in 11th Annual International Conference on Aspect-Oriented Software Development (AOSD '12), Potsdam, Germany, ACM Press, ISBN 978-1-4503-1092-5, pp. 203-214; March 2012.
+G. Wagner, A. Gal, and M. Franz; “Slimming a Java Virtual Machine by way of Cold Code Removal and Optimistic Partial Program Loading;”  in Science of Computer Programming, Vol. 76, No. 11, pp. 1037-1053; November 2011.                          
+M. Chang, B. Mathiske, E. Smith, A. Chaudhuri, M. Bebenita, A Gal, Ch. Wimmer, and M Franz; "The Impact of Optional Type Information on JIT Compilation Of Dynamically Typed Languages" in 7th Dynamic Languages Symposium (DLS 2011), Portland, Oregon, ACM Press, ISBN 978-1-4503-0939-4, pp. 13-24; October 2011.                          
+T. Jackson, B. Salamat, A. Homescu, K. Manivannan, G. Wagner, A. Gal, S. Brunthaler, Ch. Wimmer, and M. Franz; “Compiler-Generated Software Diversity;” in S. Jajodia, A.K. Ghosh, V. Swarup, C. Wang, and X.S. Wang (Eds.), Moving Target Defense: Creating Asymmetric Uncertainty for Cyber Threats; Springer, ISBN 978-1-4614-0976-2;  September 2011.
+G. Wagner, A. Gal, Ch. Wimmer, B. Eich and M. Franz; "Compartmental Memory Management in a Modern Web Browser;" in International Symposium on Memory Management (ISMM 2011), San Jose, California; June 2011.
+B. Salamat, T. Jackson, G. Wagner, Ch. Wimmer, and M. Franz: "Run-Time Defense against Code Injection Attacks using Replicated Execution ;" In IEEE Transactions on Dependable and Secure Computing. IEEE Computer Society, 2011.
+
+
+
+
+
+ Elevated to Distinguished Professor (July 2022)
+I thank my colleagues at UCI for promoting me to Professor Above Scale and awarding me the rare title of a Distinguished Professor, effective July 1st, 2022.
+
+
+ ACM Breakthrough Lecture   (March 2022)
+The video of my ACM Breakthrough Lecture (presented at the ACM ASPLOS 2022 conference in Lausanne, Switzerland) is now available and can be viewed here: link to the video stream
+My gratitude goes to the organizers of ASPLOS for making the first in-person conference after the pandemic such a great success.
+
+
+Research Group News (July 2022)
+Felicitas Hetzelt defended her Ph.D. thesis at the Technical University of Berlin and will join us as a Post-Doctoral Researcher in Irvine this summer.
+After spending more than 3 years at UCI each, our existing Post-Doctoral Researchers have moved on. Dr. Adrian Dabrowski has joined CISPA and Dr. David Gens has joined Cerebras. It has been a great pleasure working with both and I wish them the very best for their future careers.
+Paul Kirth successfully defended his Ph.D. thesis "Practical Methods for Automatic Intra-Process Compartmentalization with MPK" in November 2021 and has joined Google. Congratulations!
+
+
+ACM Charles P. "Chuck" Thacker Breakthrough in Computing Award (April 2021)
+I am honored to be the  recipient of this award.
+
+https://awards.acm.org/about/2020-thacker
+
+I want to recognize all the fantastic students who have worked with me at UCI over the years — overall, I have graduated 34 Ph.Ds as their primary advisor. While it is usually the professor who gets all the glory, my collaborators on most of this groundbreaking research were UCI graduate students and PostDocs. I am very grateful for their contribution and it has been both a joy and a privilege to serve as their advisor
+Additionally, I need to acknowledge the wisdom of the University of California, who agreed to donate the intellectual property rights to some of our inventions to the open source community. My Ph.D. student Andreas Gal and I actually received a U.S. Patent on the compiler technology that underlies the original JavaScript just-in-time compiler in Firefox, and this patent is of course owned by UC. By allowing this technology to be used for free without royalties, UC played a crucial part in making all of this happen.                      
+Thank you!
+
+
+Dokyung Song becomes an Assistant Professor at Yonsei University
+My student Dokyung Song successfully defended his Ph.D. thesis "Precise and Efficient Dynamic Analysis of Systems Software" in December of 2020 and after a brief stint as a Post-Doctoral Researcher in my group has accepted a position as an Assistant Professor at Yonsei University in South Korea.
+Congratulations Dokyung!
+
+
+Current/Recent Program Committee Memberships  (updated January 2021) 
+In am  currently or have recently been on the Program Committees of the following conferences:                      
+
+2023 IEEE Symposium on Security and Privacy ("Oakland"), San Francisco, California; May 2023.
+2022 USENIX Security Conference, Boston, Massachussetts; August 2022.
+2022 Network and Distributed System Security Symposium (NDSS), San Diego, California, April 2022.
+24th International Symposium on Research in Attacks, Intrusions and Defenses (RAID 2021), Donostia / San Sebastian, Spain; October 2021.
+26th European Symposium on Research in Computer Security (ESORICS 2021), Darmstadt, Germany, October 2021.
+2021 USENIX Security Conference, Vancouver, British Columbia; August 2021.
+2021 IEEE Symposium on Security and Privacy ("Oakland"), San Francisco, California; May 2021.
+18th International Conference on Cryptology and Network Security (CANS 2020),  Vienna, Austria; December 2020.
+27th ACM Conference on Computer and Communications Security (ACM CCS 2020), Orlando, Florida; November 2020.
+5th Workshop on Forming an Ecosystem Around Software Transformation (FEAST 2020), Orlando, Florida; November 2020.
+4th Workshop on Attacks and Solutions in Hardware Security (ASHES 2020), Orlando, Florida; November 2020.
+7th ACM Workshop on Moving Target Defense (MTD 2020), Orlando, Florida; November 2020.
+2020 IEEE Symposium on Security and Privacy ("Oakland"), San Francisco, California; May 2020.
+German Computer Society Security Conference GI SICHERHEIT 2020, Göttingen, Germany; March 2020.
+26th ACM Conference on Computer and Communications Security (ACM CCS 2019), London, England; November 2019.
+3rd International Workshop on Software Protection (SPRO 2019), London, England; November 2019.
+2019 IEEE Symposium on Security and Privacy ("Oakland"), San Francisco, California; May 2019.
+2018 Dynamic Languages Symposium (DLS18), Boston, Massachusetts; November 2018.
+25th ACM Conference on Computer and Communications Security (ACM CCS 2018), Toronto, Ontario, Canada; October 2018.
+2018 Secure Development Conference (SecDev 2018), Cambridge, Massachussetts, September/October 2018.
+19th World Conference on Information Security Applications (WISA 2018), Jeju Island, South Korea; August 2018
+First Workshop on Software Debloating and Delayering (SALAD '18), Amsterdam, Netherlands; July 2018.
+38th IEEE International Conference on Distributed Computing Systems (ICDCS 2018), Vienna, Austria; June 2018.
+German Computer Society Security Conference GI SICHERHEIT 2018, Constance, Germany; April 2018.
+2017 ACM/IFIP/USENIX International Middleware Conference (Middleware 2017), Las Vegas, Nevada; December 2017.
+4rd ACM Workshop on Moving Target Defense (MTD-2017),Dallas, Texas; October 2017.
+
+2017 Secure Development Conference (SecDev), Cambridge, Massachussetts, September 2017.
+2017 International Symposium on Engineering Secure Software and Systems (ESSoS'17), Bonn, Germany; July 2017.
+15th International Conference on Applied Cryptography and Network Security (ACNS 2017), Kanazawa, Japan; July 2017
+37th IEEE International Conference on Distributed Computing Systems (ICDCS 2017), Atlanta, Georgia; June 2017.
+2017 ACM Asia Conference on Computer and Communications Security (ASIACCS 2017), Abu Dhabi, UAE; April 2017.
+
+I am  a member of the editorial boards of the journals Software–Practice and Experience (Wiley), and Computer Science–Research and Development (Springer). I just roated off the editorial board of IEEE Transactions on Dependable and Secure Computing after having served from 2015 through 2019. IEEE Computer Society policy limits the service of Associate Editors to two consecutive 2-year terms.
+
+
+Research Group News (May 2020)
+No fewer than five of my Ph.D. students have recently completed their doctoral degrees (with all final dissertation defenses conducted remotely via Zoom). In alphabetical order:
+Anil Altinay, thesis: "Dynamic Binary Lifting and Recompilation."
+Joseph Nash, thesis: "Binary Recompilation via Dynamic Analysis and the Protection of Control and Data-Flows Therein."
+Taemin Park, thesis: "Comprehensive Protection for Dynamically-Typed Languages: Avoiding the Pitfalls of Language-Level Sandboxing."
+Prabhu Karthikeyan Rajasekaran,  thesis: "Practical Run-Time Mitigations Against Data-Oriented Attacks."
+Alexios Voulimeneas, thesis: "Building the Next Generation of Security Focused NVX Systems: Overcoming Limitations of N-Variant Execution."
+Congratulations to all five! I look forward to eventually celebrating in person when the social distancing restrictions are gone.
+
+
+Elevated to Fellow of AAAS and Inaugural Fellow of IFIP (November 2019)
+I have been elevated to Fellow of the American Association for the Advancement of Science (AAAS), “For distinguished contributions to computer science, particularly to the areas of just-in-time compilation and optimization and techniques for computer security.” AAAS is the world's largest multidisciplinary scientific society and a leading publisher of cutting-edge research through its Science family of journals.
+I have also been designated a member of the first group of Inaugural Fellows of the International Federation for Information Processing (IFIP). The Fellow Award recognizes individuals of the highest professional standing and expertise in one of IFIP’s constituent societies (which includes ACM) who have also contributed directly to IFIP. Established in 1960 under the auspices of UNESCO, IFIP is the global organisation for researchers and professionals working in the field of information and communication technologies. IFIP is recognised by the United Nations and links some 50 national and international societies and academies of science with a total membership of over half a million professionals.
+I am very grateful for this recognition and thank my nominators and the members of the evaluation committees.
+
+
+Dynamic Languages Symposium Paper wins Test of Time Award (October 2019)
+I am happy to report that my paper "Optimization of Dynamic Languages Using Hierarchical Layering of Virtual Machines" (co-authored with my student Alexander Yermolovich and Post-Doctoral Researcher Christian Wimmer) was selected to receive the Most Notable Paper of DLS 2009 Award at this years edition of DLS, the Dynamic Languages Symposium. As the Steering Committee writes, "we believe the last 10 years have shown this paper to be one of the early notable works on Meta VMs and Tracing."
+Thank you for the award!
+
+
+U.S. Patent on Error Report Normalization Awarded (October 2019)
+ U.S. Patent Number 10,430,265 on "Error Report Normalization" was awarded in October 2019; my two co-inventors were Post-Doctoral Researchers in my group at the time of the invention. The patent covers practical aspects of diversifying compilers, namely how to do error reporting when every user has a unique executable.
+
+
+
+
+Humboldt Research Award ("Humboldt Prize") (November 2018)
+I am honored to have been named  a recipient of the 2019 Humboldt Research Award, also known as the “Humboldt Prize.”
+The award, given by the Alexander von Humboldt Foundation of Germany and funded by the German federal government, recognizes renowned researchers outside of Germany whose “fundamental discoveries, new theories or insights have had a significant impact on their own discipline and who are expected to continue producing cutting-edge achievements in the future.” It is the highest award given by the Foundation to researchers based outside of Germany.
+The award  will be presented at a ceremony in Berlin in June 2019 in the presence of the President of the Federal Republic of Germany. 
+The award comes with an invitation to spend a period of up to one year cooperating on a long-term research project with specialist colleagues at a research institution in Germany, as well as a life-long membership in the worldwide “Humboldtians” network connecting alumni of all Humboldt award categories. 
+ 
+
+
+Winner of UCI's Inaugural "Innovator of the Year Award" (May 2018)
+I am delighted to have been recognized as the winner of UCI Applied Innovation's inaugural "Innovator of the Year" Award. This new award aims to recognize researchers who have developed a breakthrough idea, process or technology and demonstrated its transformational potential to improve lives and create economic value.
+Of course, the real credit belongs to the great group of former Ph.D. students and PostDocs who helped develop these ideas in our lab at UCI.
+The photo shows me receiving the award from our Provost, Dr. Enrique Lavernia.
+
+The award also came with some cool certificates of recognition by our political leaders.
+     
+
+
+New Awards from DARPA and ONR (October 2017)
+I am pleased to report that UCI received a new award from the Office of Naval Research for our project "Attack Surface Reduction for Binary Programs.'' This project will run from 30th September 2017 through 30th September 2020. I am the PI, and my co-PI is Dr. Herbert Bos of the Vrije Universiteit Amsterdam, Netherlands. The total award is $3,157,799; my share of the award is $2,337,935. The program manager is Dr. Sukarno Mertoguno.
+In other great news, in August of 2017, DARPA increased the award for our existing project "Robust, Assured Diversity for Software Security (RADSS)" by an additional $217,597 and  extended its duration by seven weeks. The modified award now runs 13th May 2015 through 25th December 2018; my share of the award is $2,199,227 as sole PI on a subcontract from  prime contractor Galois, Inc. / Stephen Magill. The program manager is Dr. Jacob Torrey.
+
+
+2016 Dean's Award for Graduate Student Mentoring
+I have been awarded the 2016 Dean's Award for Graduate Student Mentoring from UCI's School of Information and Computer Sciences "for [my] outstanding mentoring of doctoral students over the last decade." I graduated no fewer than 22 Ph.Ds. as primary advisor between 2006 and 2015. I also received this award in 2007.
+
+
+ U.S. Patent on Code Randomization for JITs Awarded (February 2016)
+ U.S. Patent Number US9250937 "Code Randomization for Just-In-Time Compilers" was awarded on 2nd February 2016; my three co-inventors are a former Ph.D. student and two former PostDocs of mine. The patent covers dynamic code diversification for just-in-time compiler environments.
+U.S. Patent on Trace Compilation Awarded (July 2014)
+ U.S. Patent Number US8769511 "Dynamic Incremental Compiler and Method" was awarded on 1st July 2014; my co-inventor is my former Ph.D. student Andreas Gal who was until recently CTO of Mozilla. The patent covers central aspects of our trace compilation technique that became the "TraceMonkey" JavaScript compiler in Firefox 3.5. Note that the patent was filed back in 2007 and took seven years to wind its way through the USPTO.
+U.S. Patent on Safe Code Formats Awarded (March 2013)
+ U.S. Patent Number US8392897 "Safe Computer Code Formats and Methods for Generating Safe Computer Code" was awarded on 5th March 2013; my two co-inventors are a former Ph.D. student and a former PostDoc of mine. The patent covers "safe by construction" techniques for transporting mobile code.
+U.S. Patent on Multi-Variant Code Awarded (August 2012)
+ U.S. Patent Number US08239836 "Multi-variant parallel program execution to detect malicious code injection" was awarded on 7th August 2012; my two co-inventors are former Ph.D. students of mine. The patent covers a variety of techniques for thwarting cyber attacks on software.
+
+
+Unrestricted Gift from Oracle (May 2016) 
+I am extremely grateful to Oracle Corporation for again giving me a large unrestricted gift, this time of $100,000. In a time of shrinking budgets, gifts like these are significant enablers for world-class research at public universities. Thank you!
+Unrestricted Gift from Qualcomm (May 2015) 
+I am extremely grateful to Qualcomm Corporation for an unrestricted gift of $40,000. Thank you for appreciating the research that we do at UCI and helping us making software, especially open source software, more secure.
+
+
+
+The Economist publishes an article about my research (May 2014)
+The article "Divided We Stand" in the 24th May 2014 print edition of The Economist contained an excellent and extremely accessible summary of my recent work on  automated software diversity. Kudos to the writer Peter Haynes for explaining things to a general audience in a manner that is so easy to understand.
+
+
+Several Hundred Million People Using Our Research Results Daily
+I have been one of the pioneers of dynamic compilation research. My first paper  on JIT compilation was published in 1991 and my dissertation, entitled "Code Generation On-The-Fly: A Key To Portable Software," appeared two full years before the announcement of Java. Over the past twenty years, my students and I have worked on different aspects of dynamic compilation, most recently focusing on the development of Trace Compilation on which Andreas Gal and I recently received a U.S. patent.
+This work has had substantial impact. The trace compilation technology behind the "TraceMonkey" JavaScript compiler that is built into Mozilla's Firefox browser (since June 2009 / Firefox 3.5) originated in our lab. It is used daily by several hundred million people. More recently, the "Compartmental Memory Management" technique invented by my student Gregor Wagner has also made it into the mainline Firefox distribution (since March 2011 / Firefox 4.0).
+
+
+Post-Doctoral Researcher Search
+I anticipate that one or more full-time Post-doctoral Scholar positions will become available soon and I am looking for capable candidates to join my team. Appointments will be initially for a one year period and will be renewable. These positions require a Ph.D. degree in Computer Science and demonstrated expertise, at the highest level, in the areas of compiler construction and/or computer security.
+Current graduate students who fulfill all other requirements but who have not quite yet completed their Ph.Ds. are welcome to apply; however, any offer will be made contingent on successful completion of the degree.
+Salary to be between $65,000-$85,000 annually, depending on experience and qualification. Candidates without experience in the area of compilers are not encouraged to apply.
+Interested applicants should apply via the web site at https://recruit.ap.uci.edu/apply/JPF04111. Please  be aware that it may take up to 6 months to obtain the necessary work permit for non-U.S. citizens.
+The University of California, Irvine is an equal opportunity employer committed to excellence through diversity.
+
+
+
+ 
+
+
+
+
+
+ last
+              update: 17th March 2022  - michael @ michaelfranz.com
+
+
+
+
+
+
+
+
+

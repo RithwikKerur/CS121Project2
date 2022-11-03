@@ -1,0 +1,152 @@
+http://sli.ics.uci.edu/Classes/2012F-273a
+
+
+
+SLI | Classes / CS273a: Introduction to Machine Learning 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Classes /
+CS273a: Introduction to Machine Learning
+
+
+ CLOSED : 2012 OFFERING  
+
+Assignments and Exams:
+
+HW1Code10/12/12 Soln
+HW2Code10/22/12 Soln
+HW3Code11/15/12 Soln
+HW4Code12/04/12 Soln
+HW5Code12/07/12  
+     
+Midtermin-class, Thurs11/01/12 Soln
+Project12/14/12  
+FinalTues 4-6pm12/11/12 Soln
+
+
+Lecture: Tues/Thurs 3:30-5pm, HH 262
+Instructor: Prof. Alex Ihler (ihler@ics.uci.edu), Office Bren Hall 4066
+Office Hours: Mondays 4:30-5:30, Bren Hall 4066, or by appointment
+Some Course Notes in development
+Also, a possibly helpful LaTeX template I use for homeworks and solutions.
+
+Introduction to machine learning and data mining
+How can a machine learn from experience, to become better at a given task?  How can we automatically extract knowledge or make sense of massive quantities of data?  These are the fundamental questions of machine learning.  Machine learning and data mining algorithms use techniques from statistics, optimization, and computer science to create automated systems which can sift through large volumes of data at high speed to make predictions or decisions without human intervention.
+
+Machine learning as a field is now incredibly pervasive, with applications from the web (search, advertisements, and suggestions) to national security, from analyzing biochemical interactions to traffic and emissions to astrophysics.  Perhaps most famously, the $1M Netflix prize stirred up interest in learning algorithms in professionals, students, and hobbyists alike.
+
+This class will familiarize you with a broad cross-section of models and algorithms for machine learning, and prepare you for research or industry application of machine learning techniques. 
+
+Background
+This is an introductory graduate class, intended for first year graduate students. 
+We will assume familiarity with some concepts from probability, calculus, and linear algebra.  Programming will be required; we will primarily use Matlab, but no prior experience with Matlab will be assumed.
+
+Textbook and Reading
+There is no required textbook for the class.  However, useful books on the subject for supplementary reading include
+Bishop's "Pattern Recognition and Machine Learning", Duda, Hart & Stork, "Pattern Classification", and Hastie, Tibshirani, and Friedman, "The Elements of Statistical Learning".
+
+Matlab
+Often we will write code for the course using the Matlab environment.  Matlab is accessible through NACS computers at several campus locations (e.g., 
+MSTB-A, 
+MSTB-B,
+and the ICS lab), and if you want a copy for yourself student licenses are fairly inexpensive ($100).  Personally, I do not recommend the open-source Octave program as a replacement, as the syntax is not 100% compatible and may cause problems (for me or you).  
+
+If you are not familiar with Matlab, there are a number of tutorials on the web:
+University of Utah, very short
+CMU / UMichigan tutorial, also short
+University of Florida's tutorial, more complete
+Union College / Cyclismo.Org tutorial, also good
+UMaryland guide, lots of pointers to other tutorials and reference manuals
+You may want to start with one of the very short tutorials, then use the longer ones as a reference during the rest of the term.
+
+
+Interesting stuff for students
+tba...
+
+Slides (by subject)
+PDF Introduction to ML
+PDF   Nearest neighbor methods
+PDF Linear regression
+PDF Linear classifiers; perceptrons & logistic regression
+PDF Various loss functions for regression and classification
+PDF VC dimension, shattering, and error rate bounds
+PDF Neural networks (multi-layer perceptrons) and deep belief nets
+PDF Support vector machines
+PDF Decision trees
+Videos: Functional form, Learning
+PDF Ensembles: Bagging, Gradient Boosting, AdaBoost
+Videos: Basics, Bagging, Gradient Boosting, AdaBoost
+PDF Bayes classifiers, naive Bayes
+PDF Clustering: hierarchical, k-means, EM
+PDF Dimensionality reduction: PCA/SVD; latent space representations
+Videos: Multivariate Gaussians, PCA
+
+Lectures (by date)
+L01 (PDF): Introduction; basics; classification and regression
+L02: nearest neighbor methods; linear regression & gradient descent
+L03: linear regression ct'd
+L04: linear classifiers, logistic regression
+L05: loss functions, VC dimension
+L06: neural networks
+L07: support vector machines
+...
+L10: ensembles
+...
+L16: clustering; HAC, k-means, EM
+L17: PCA, SVD, and applications
+You may find my lectures for the undergraduate version of this class helpful: 2012, 2011, 2010
+
+
+Course Project
+TBD
+
+
+
+
+
+
+
+ Last modified February 13, 2017, at 02:24 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

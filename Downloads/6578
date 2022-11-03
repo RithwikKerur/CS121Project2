@@ -1,0 +1,332 @@
+https://archive.ics.uci.edu/ml/index.php
+
+
+
+UCI Machine Learning Repository
+
+
+
+
+
+
+
+
+
+         Center for Machine Learning and Intelligent Systems
+
+
+
+About 
+		Citation Policy 
+		Donate a Data Set 
+		Contact
+
+
+
+
+
+
+
+
+
+
+ Repository
+ Web
+		          
+		
+
+
+
+View ALL Data Sets
+
+
+
+
+
+
+×
+	  Check out the beta version of the new UCI Machine Learning Repository we are currently testing! Contact us if you have any issues, questions, or concerns. Click here to try out the new site.
+
+
+Welcome to the UC Irvine Machine Learning Repository!
+
+We currently maintain 622 data sets as a service to the machine learning community.
+You may view all data sets through our 
+searchable interface.    For a general overview of the Repository, please visit our About page.
+For information about citing data sets in publications, please read our citation policy.  If you wish to donate a data set, please consult our donation policy.
+For any other questions, feel free to contact the Repository librarians.
+
+
+Supported By:
+
+In Collaboration With:
+
+
+
+
+
+
+
+
+Latest News:
+
+
+
+09-24-2018:
+
+
+Welcome to the new Repository admins Dheeru Dua and Efi Karra Taniskidou!
+
+
+
+04-04-2013:
+
+
+Welcome to the new Repository admins Kevin Bache and Moshe Lichman!
+
+
+
+03-01-2010:
+
+
+Note from donor regarding Netflix data
+
+
+
+10-16-2009:
+
+
+Two new data sets have been added.
+
+
+
+09-14-2009:
+
+
+Several data sets have been added.
+
+
+
+03-24-2008:
+
+
+New data sets have been added!
+
+
+
+06-25-2007:
+
+
+Two new data sets have been added: UJI Pen Characters, MAGIC Gamma Telescope
+
+
+
+Featured Data Set:  Ozone Level Detection
+
+
+Task: ClassificationData Type: Multivariate, Sequential, Time-Series# Attributes: 73# Instances: 2536 
+
+
+
+Two ground ozone level data sets are included in this collection. One is the eight hour peak set (eighthr.data), the other is the one hour peak set (onehr.data). Those data were collected from 1998 to 2004 at the Houston, Galveston and Brazoria area.
+
+
+
+
+
+
+
+Newest Data Sets:
+
+
+
+06-05-2021:
+
+
+ Average Localization Error (ALE) in sensor node localization process in WSNs
+
+
+
+05-25-2021:
+
+
+ 9mers from cullpdb
+
+
+
+05-18-2021:
+
+
+ TamilSentiMix
+
+
+
+05-02-2021:
+
+
+ Accelerometer
+
+
+
+04-21-2021:
+
+
+ Synchronous Machine Data Set
+
+
+
+04-21-2021:
+
+
+ Synchronous Machine Data Set
+
+
+
+04-20-2021:
+
+
+ Pedal Me Bicycle Deliveries
+
+
+
+04-20-2021:
+
+
+ Wikipedia Math Essentials
+
+
+
+04-20-2021:
+
+
+ Wikipedia Math Essentials
+
+
+
+04-14-2021:
+
+
+ Turkish Headlines Dataset
+
+
+
+04-11-2021:
+
+
+ Secondary Mushroom Dataset
+
+
+
+04-03-2021:
+
+
+ Power consumption of Tetouan city
+
+
+
+
+
+
+
+Most Popular Data Sets (hits since 2007):
+
+
+
+4909694:
+
+
+ Iris 
+
+
+
+2584044:
+
+
+ Adult 
+
+
+
+2179748:
+
+
+ Dry Bean Dataset 
+
+
+
+2015995:
+
+
+ Wine 
+
+
+
+1976118:
+
+
+ Heart Disease 
+
+
+
+1969165:
+
+
+ Wine Quality 
+
+
+
+1950729:
+
+
+ Rice (Cammeo and Osmancik) 
+
+
+
+1848935:
+
+
+ Bank Marketing 
+
+
+
+1819448:
+
+
+ Breast Cancer Wisconsin (Diagnostic) 
+
+
+
+1633273:
+
+
+ Car Evaluation 
+
+
+
+1534683:
+
+
+ Raisin Dataset 
+
+
+
+1325848:
+
+
+ Abalone 
+
+ 
+
+
+
+
+
+
+About  || 
+Citation Policy  || 
+Donation Policy  || 
+Contact  || 
+CML
+
+
+
+

@@ -1,0 +1,1058 @@
+http://computableplant.ics.uci.edu/papers/2006/phyllotaxis05/pathwayV5.nb
+(************** Content-type: application/mathematica **************
+                     CreatedBy='Mathematica 5.2'
+
+                    Mathematica-Compatible Notebook
+
+This notebook can be used with any Mathematica-compatible
+application, such as Mathematica, MathReader or Publicon. The data
+for the notebook starts with the line containing stars above.
+
+To get the notebook into a Mathematica-compatible application, do
+one of the following:
+
+* Save the data starting with the line of stars above into a file
+  with a name ending in .nb, then open the file inside the
+  application;
+
+* Copy the data starting with the line of stars above to the
+  clipboard, then use the Paste menu command inside the application.
+
+Data for notebooks contains only printable 7-bit ASCII and can be
+sent directly in email or through ftp in text mode.  Newlines can be
+CR, LF or CRLF (Unix, Macintosh or MS-DOS style).
+
+NOTE: If you modify the data for this notebook not in a Mathematica-
+compatible application, you must delete the line below containing
+the word CacheID, otherwise Mathematica-compatible applications may
+try to use invalid cache data.
+
+For more information on notebooks and Mathematica-compatible 
+applications, contact Wolfram Research:
+  web: http://www.wolfram.com
+  email: info@wolfram.com
+  phone: +1-217-398-0700 (U.S.)
+
+Notebook reader applications are available free of charge from 
+Wolfram Research.
+*******************************************************************)
+
+(*CacheID: 232*)
+
+
+(*NotebookFileLineBreakTest
+NotebookFileLineBreakTest*)
+(*NotebookOptionsPosition[     25659,        816]*)
+(*NotebookOutlinePosition[     26357,        840]*)
+(*  CellTagsIndexPosition[     26313,        836]*)
+(*WindowFrame->Normal*)
+
+
+
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+    \(<< xlr8r.m\)], "Input",
+  CellLabel->"In[62]:="],
+
+Cell[BoxData[
+    \("xlr8r 0.21 (13-August-2005) loaded 20-August-2005 21:11:42.547120 \
+using Mathematica 5.2 for Mac OS X (June 20, 2005)"\)], "Print",
+  CellLabel->"From In[62]:="]
+}, Open  ]],
+
+Cell["\<\
+Auxin/Pin1 Pathway calculation
+BES 13 Aug 2005
+Based on email notes EMJ 13 Aug 2005
+Appendix I added by EMj 20 Aug 2005
+EMj on the date: all dates above should actually be 20 Aug - 13 Aug was \
+*last* Saturday.\
+\>", "Text"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+  "Reaction 1: ",
+  Cell[BoxData[
+      \({B\_\(j, m - 1\) \[RightArrowLeftArrow] \ B\_\(j, m\), \ 
+        A\_j[t] \((n - m + 1)\) k\_f, \ m*k\_r}\)]]
+}], "SectionFirst"],
+
+Cell[BoxData[
+    \(step[m_, 
+        n_] := {B\_\(j, m - 1\) \[RightArrowLeftArrow] \ B\_\(j, m\), \ 
+        A\_j[t] \((n - m + 1)\) k\_f, \ m*k\_r}\)], "Input",
+  CellLabel->"In[63]:="],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(net = Table[step[m, 4], \ {m, 1, 4}]\)], "Input",
+  CellLabel->"In[64]:="],
+
+Cell[BoxData[
+    \({{B\_\(j, 0\) \[RightArrowLeftArrow] B\_\(j, 1\), 4\ k\_f\ A\_j[t], 
+        k\_r}, {B\_\(j, 1\) \[RightArrowLeftArrow] B\_\(j, 2\), 
+        3\ k\_f\ A\_j[t], 
+        2\ k\_r}, {B\_\(j, 2\) \[RightArrowLeftArrow] B\_\(j, 3\), 
+        2\ k\_f\ A\_j[t], 
+        3\ k\_r}, {B\_\(j, 3\) \[RightArrowLeftArrow] B\_\(j, 4\), 
+        k\_f\ A\_j[t], 4\ k\_r}}\)], "Output",
+  CellLabel->"Out[64]="]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(\(interpret[net]\)[\([1]\)]\)], "Input",
+  CellLabel->"In[65]:="],
+
+Cell[BoxData[
+    RowBox[{"{", 
+      RowBox[{
+        RowBox[{
+          RowBox[{
+            SuperscriptBox[\(B\_\(j, 0\)\), "\[Prime]",
+              MultilineFunction->None], "[", "t", "]"}], 
+          "\[Equal]", \(\(-4\)\ k\_f\ A\_j[t]\ B\_\(j, 0\)[t] + 
+            k\_r\ B\_\(j, 1\)[t]\)}], ",", 
+        RowBox[{
+          RowBox[{
+            SuperscriptBox[\(B\_\(j, 1\)\), "\[Prime]",
+              MultilineFunction->None], "[", "t", "]"}], 
+          "\[Equal]", \(4\ k\_f\ A\_j[t]\ B\_\(j, 0\)[t] - 
+            k\_r\ B\_\(j, 1\)[t] - 3\ k\_f\ A\_j[t]\ B\_\(j, 1\)[t] + 
+            2\ k\_r\ B\_\(j, 2\)[t]\)}], ",", 
+        RowBox[{
+          RowBox[{
+            SuperscriptBox[\(B\_\(j, 2\)\), "\[Prime]",
+              MultilineFunction->None], "[", "t", "]"}], 
+          "\[Equal]", \(3\ k\_f\ A\_j[t]\ B\_\(j, 1\)[t] - 
+            2\ k\_r\ B\_\(j, 2\)[t] - 2\ k\_f\ A\_j[t]\ B\_\(j, 2\)[t] + 
+            3\ k\_r\ B\_\(j, 3\)[t]\)}], ",", 
+        RowBox[{
+          RowBox[{
+            SuperscriptBox[\(B\_\(j, 3\)\), "\[Prime]",
+              MultilineFunction->None], "[", "t", "]"}], 
+          "\[Equal]", \(2\ k\_f\ A\_j[t]\ B\_\(j, 2\)[t] - 
+            3\ k\_r\ B\_\(j, 3\)[t] - k\_f\ A\_j[t]\ B\_\(j, 3\)[t] + 
+            4\ k\_r\ B\_\(j, 4\)[t]\)}], ",", 
+        RowBox[{
+          RowBox[{
+            SuperscriptBox[\(B\_\(j, 4\)\), "\[Prime]",
+              MultilineFunction->None], "[", "t", "]"}], 
+          "\[Equal]", \(k\_f\ A\_j[t]\ B\_\(j, 3\)[t] - 
+            4\ k\_r\ B\_\(j, 4\)[t]\)}]}], "}"}]], "Output",
+  CellLabel->"Out[65]="]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(Solve[{0 \[Equal] \(-4\)\ k\_f\ A\_j[t]\ B\_\(j, 0\)[t] + 
+            k\_r\ B\_\(j, 1\)[t], 
+        0 \[Equal] 
+          4\ k\_f\ A\_j[t]\ B\_\(j, 0\)[t] - k\_r\ B\_\(j, 1\)[t] - 
+            3\ k\_f\ A\_j[t]\ B\_\(j, 1\)[t] + 2\ k\_r\ B\_\(j, 2\)[t], 
+        0 \[Equal] 
+          3\ k\_f\ A\_j[t]\ B\_\(j, 1\)[t] - 2\ k\_r\ B\_\(j, 2\)[t] - 
+            2\ k\_f\ A\_j[t]\ B\_\(j, 2\)[t] + 3\ k\_r\ B\_\(j, 3\)[t], 
+        0 \[Equal] 
+          2\ k\_f\ A\_j[t]\ B\_\(j, 2\)[t] - 3\ k\_r\ B\_\(j, 3\)[t] - 
+            k\_f\ A\_j[t]\ B\_\(j, 3\)[t] + 4\ k\_r\ B\_\(j, 4\)[t], 
+        0 \[Equal] 
+          k\_f\ A\_j[t]\ B\_\(j, 3\)[t] - 
+            4\ k\_r\ B\_\(j, 4\)[t], \[IndentingNewLine]BT \[Equal] 
+          B\_\(j, 0\)[t] + B\_\(j, 1\)[t] + B\_\(j, 2\)[t] + B\_\(j, 3\)[t] + 
+            B\_\(j, 4\)[t]}, \[IndentingNewLine]{B\_\(j, 0\)[t], 
+        B\_\(j, 1\)[t], B\_\(j, 2\)[t], B\_\(j, 3\)[t], 
+        B\_\(j, 4\)[t]}]\)], "Input",
+  CellLabel->"In[66]:="],
+
+Cell[BoxData[
+    \({{B\_\(j, 0\)[
+            t] \[Rule] \(BT\ k\_r\%4\)\/\((k\_r + k\_f\ A\_j[t])\)\^4, 
+        B\_\(j, 1\)[
+            t] \[Rule] \(4\ BT\ k\_f\ k\_r\%3\ A\_j[t]\)\/\((k\_r + k\_f\ \
+A\_j[t])\)\^4, 
+        B\_\(j, 2\)[
+            t] \[Rule] \(6\ BT\ k\_f\%2\ k\_r\%2\ A\_j[t]\^2\)\/\((k\_r + \
+k\_f\ A\_j[t])\)\^4, 
+        B\_\(j, 3\)[
+            t] \[Rule] \(4\ BT\ k\_f\%3\ k\_r\ A\_j[t]\^3\)\/\((k\_r + k\_f\ \
+A\_j[t])\)\^4, 
+        B\_\(j, 4\)[
+            t] \[Rule] \(BT\ k\_f\%4\ A\_j[t]\^4\)\/\((k\_r + k\_f\ \
+A\_j[t])\)\^4}}\)], "Output",
+  CellLabel->"Out[66]="]
+}, Open  ]],
+
+Cell[TextData[{
+  "steady state solution :",
+  Cell[BoxData[
+      \(B\_\(j, 4\)[
+          t] \[Rule] \(BT\ k\_f\%4\ A\_j[t]\^4\)\/\((k\_r + k\_f\ \
+A\_j[t])\)\^4\)],
+    FontSize->24],
+  "\[TildeTilde]",
+  Cell[BoxData[
+      \(\(BT\ k\_f\%4\ A\_j[t]\^4\)\/\((k\_r)\)\^4\)],
+    FontSize->24],
+  " in the approx. ",
+  Cell[BoxData[
+      \(TraditionalForm\`\(k\_f\) A/k\_r \[LessLess] 1\)]]
+}], "Subsection"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+  "Alternate mechanism: ",
+  Cell[BoxData[
+      \(TraditionalForm\`B\_0 + 4  A \[Equilibrium] B\_1\)]],
+  " gives hill function for steady state"
+}], "Section"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(\(\(\[IndentingNewLine]\)\(sy = 
+      interpret[{{B\_0 + 4  A \[Rule] \ B\_1, 
+            kf}, \ {B\_1 \[Rule] \ 4  A + B\_0, kr}}]\)\)\)], "Input",
+  CellLabel->"(New Kernel) In[7]:="],
+
+Cell[BoxData[
+    \(interpret[{{4\ A + B\_0 \[Rule] B\_1, kf}, {B\_1 \[Rule] 4\ A + B\_0, 
+          kr}}]\)], "Output",
+  CellLabel->"(New Kernel) Out[7]="]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(steadyState[sy]\)], "Input",
+  CellLabel->"(New Kernel) In[8]:="],
+
+Cell[BoxData[
+    \(steadyState[
+      interpret[{{4\ A + B\_0 \[Rule] B\_1, kf}, {B\_1 \[Rule] 4\ A + B\_0, 
+            kr}}]]\)], "Output",
+  CellLabel->"(New Kernel) Out[8]="]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(Solve[{B\_1[t] == \(kf\ A[t]\^4\ \((BT - B\_1[t])\)\)\/kr}, \ \ B\_1[
+        t]]\)], "Input",
+  CellLabel->"(New Kernel) In[9]:="],
+
+Cell[BoxData[
+    \({{B\_1[
+            t] \[Rule] \(BT\ kf\ A[t]\^4\)\/\(kr + kf\ A[t]\^4\)}}\)], \
+"Output",
+  CellLabel->"(New Kernel) Out[9]="]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Reaction 1b:  ", "SectionFirst"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(net2 = {{\(B\_\(j, n\)\[DoubleLongRightArrow]L\_\(j, i\)\)\&\(Y\_j\), 
+          MM[K, v]}, \ {L\_\(j, i\) \[Rule] \ B\_\(j, n\), k}}\)], "Input",
+  CellLabel->"In[67]:="],
+
+Cell[BoxData[
+    \({{\(B\_\(j, n\)\[DoubleLongRightArrow]L\_\(j, i\)\)\&\(Y\_j\), 
+        MM[K, v]}, {L\_\(j, i\) \[Rule] B\_\(j, n\), k}}\)], "Output",
+  CellLabel->"Out[67]="]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(interpret[net2]\)], "Input",
+  CellLabel->"In[68]:="],
+
+Cell[BoxData[
+    RowBox[{"{", 
+      RowBox[{
+        RowBox[{"{", 
+          RowBox[{
+            RowBox[{
+              RowBox[{
+                SuperscriptBox[\(Y\_j\), "\[Prime]",
+                  MultilineFunction->None], "[", "t", "]"}], "\[Equal]", 
+              "0"}], ",", 
+            RowBox[{
+              RowBox[{
+                SuperscriptBox[\(B\_\(j, n\)\), "\[Prime]",
+                  MultilineFunction->None], "[", "t", "]"}], 
+              "\[Equal]", \(\(-\(\(v\ Y\_j[t]\ B\_\(j, n\)[t]\)\/\(K + 
+                        B\_\(j, n\)[t]\)\)\) + k\ L\_\(j, i\)[t]\)}], ",", 
+            RowBox[{
+              RowBox[{
+                SuperscriptBox[\(L\_\(j, i\)\), "\[Prime]",
+                  MultilineFunction->None], "[", "t", "]"}], 
+              "\[Equal]", \(\(v\ Y\_j[t]\ B\_\(j, n\)[t]\)\/\(K + B\_\(j, \
+n\)[t]\) - k\ L\_\(j, i\)[t]\)}]}], "}"}], 
+        ",", \({Y\_j, B\_\(j, n\), L\_\(j, i\)}\)}], "}"}]], "Output",
+  CellLabel->"Out[68]="]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(Solve[{0 \[Equal] \(-\(\(v\ Y\_j[t]\ B\_\(j, n\)[t]\)\/\(K + 
+                      B\_\(j, n\)[t]\)\)\) + 
+              k\ L\_\(j, i\)[t]}, \ {L\_\(j, i\)[t]}] /. {B\_\(j, n\)[
+            t] \[Rule] \ BT\ \(A\_j[t]\^n\) \((k\_f/k\_r)\)\^n}\)], "Input",
+  CellLabel->"In[69]:="],
+
+Cell[BoxData[
+    \({{L\_\(j, i\)[
+            t] \[Rule] \(BT\ v\ \((k\_f\/k\_r)\)\^n\ A\_j[t]\^n\ \
+Y\_j[t]\)\/\(k\ \((K + BT\ \((k\_f\/k\_r)\)\^n\ A\_j[t]\^n)\)\)}}\)], "Output",\
+
+  CellLabel->"Out[69]="]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(K\_hill = \(\@\(K/BT\)\%n\) \((k\_r/k\_f)\)\)], "Input",
+  CellLabel->"In[70]:="],
+
+Cell[BoxData[
+    \(\(\((K\/BT)\)\^\(1\/n\)\ k\_r\)\/k\_f\)], "Output",
+  CellLabel->"Out[70]="]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(L\_\(j, i\)[
+        t] \[Rule] \(\(v\ \ A\_j[t]\^n\ Y\_j[t]\)\/\(k\ \((K/\((BT \((k\_f\/k\
+\_r)\)\^n)\) + \ A\_j[t]\^n)\)\) \[Rule] \ \(\((v\ \ /k)\) A\_j[t]\^n\ \
+Y\_j[t]\)\/\(\(\ \)\(\((K\_hill)\)\^n + \ A\_j[t]\^n\)\)\)\)], "Input",
+  CellLabel->"In[71]:="],
+
+Cell[BoxData[
+    \(L\_\(j, i\)[
+        t] \[Rule] \(\(v\ A\_j[t]\^n\ Y\_j[t]\)\/\(k\ \((\(K\ \
+\((k\_f\/k\_r)\)\^\(-n\)\)\/BT + A\_j[t]\^n)\)\) \[Rule] \(v\ A\_j[t]\^n\ \
+Y\_j[t]\)\/\(k\ \((\((\(\((K\/BT)\)\^\(1\/n\)\ k\_r\)\/k\_f)\)\^n + \
+A\_j[t]\^n)\)\)\)\)], "Output",
+  CellLabel->"Out[71]="]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Reaction 1c:", "SectionFirst"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(net3 = {{\(M\_\(i, j\)\[DoubleLongRightArrow]MS\_\(i, j\)\)\&\(C\_\(i, \
+j\)\), MM[K1, v1]}, \ {MS\_\(i, j\) \[Rule] \ M\_\(i, j\), \ 
+          k2}, \ {L\_\(j, i\) + R\_\(i, j\) \[RightArrowLeftArrow] \ 
+            C\_\(i, j\), \ k3, \ k4}}\)], "Input",
+  CellLabel->"In[72]:="],
+
+Cell[BoxData[
+    \({{\(M\_\(i, j\)\[DoubleLongRightArrow]MS\_\(i, j\)\)\&\(C\_\(i, j\)\), 
+        MM[K1, v1]}, {MS\_\(i, j\) \[Rule] M\_\(i, j\), 
+        k2}, {L\_\(j, i\) + R\_\(i, j\) \[RightArrowLeftArrow] C\_\(i, j\), 
+        k3, k4}}\)], "Output",
+  CellLabel->"Out[72]="]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(\(interpret[net3]\)[\([1]\)]\)], "Input",
+  CellLabel->"In[73]:="],
+
+Cell[BoxData[
+    RowBox[{"{", 
+      RowBox[{
+        RowBox[{
+          RowBox[{
+            SuperscriptBox[\(C\_\(i, j\)\), "\[Prime]",
+              MultilineFunction->None], "[", "t", "]"}], 
+          "\[Equal]", \(\(-k4\)\ C\_\(i, j\)[t] + 
+            k3\ L\_\(j, i\)[t]\ R\_\(i, j\)[t]\)}], ",", 
+        RowBox[{
+          RowBox[{
+            SuperscriptBox[\(L\_\(j, i\)\), "\[Prime]",
+              MultilineFunction->None], "[", "t", "]"}], 
+          "\[Equal]", \(k4\ C\_\(i, j\)[t] - 
+            k3\ L\_\(j, i\)[t]\ R\_\(i, j\)[t]\)}], ",", 
+        RowBox[{
+          RowBox[{
+            SuperscriptBox[\(M\_\(i, j\)\), "\[Prime]",
+              MultilineFunction->None], "[", "t", "]"}], 
+          "\[Equal]", \(\(-\(\(v1\ C\_\(i, j\)[t]\ M\_\(i, j\)[t]\)\/\(K1 + 
+                    M\_\(i, j\)[t]\)\)\) + k2\ MS\_\(i, j\)[t]\)}], ",", 
+        RowBox[{
+          RowBox[{
+            SuperscriptBox[\(MS\_\(i, j\)\), "\[Prime]",
+              MultilineFunction->None], "[", "t", "]"}], 
+          "\[Equal]", \(\(v1\ C\_\(i, j\)[t]\ M\_\(i, j\)[t]\)\/\(K1 + \
+M\_\(i, j\)[t]\) - k2\ MS\_\(i, j\)[t]\)}], ",", 
+        RowBox[{
+          RowBox[{
+            SuperscriptBox[\(R\_\(i, j\)\), "\[Prime]",
+              MultilineFunction->None], "[", "t", "]"}], 
+          "\[Equal]", \(k4\ C\_\(i, j\)[t] - 
+            k3\ L\_\(j, i\)[t]\ R\_\(i, j\)[t]\)}]}], "}"}]], "Output",
+  CellLabel->"Out[73]="]
+}, Open  ]],
+
+Cell[BoxData[
+    RowBox[{
+      RowBox[{
+        RowBox[{
+          RowBox[{"Solve", " ", "equation", " ", 
+            RowBox[{
+              SuperscriptBox[\(M\_\(i, j\)\), "\[Prime]",
+                MultilineFunction->None], "[", "t", "]"}]}], 
+          "\[Equal]", \(\(-\(\(v1\ C\_\(i, j\)[t]\ M\_\(i, j\)[t]\)\/\(K1 + 
+                    M\_\(i, j\)[t]\)\)\) + k2\ MS\_\(i, j\)[t]\)}], "\[Rule]",
+         " ", \(0\ with\ M\_\(i, j\) + MS\_\(i, j\)\)}], "=", "MT"}]], "Text"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(Solve[{\[IndentingNewLine]\[IndentingNewLine]0 \[Equal] \(v1\ C\_\(i, j\
+\)[t]\ \((M\_total - MS\_\(i, j\)[t])\)\)\/\(K1 + \((M\_total - MS\_\(i, \
+j\)[t])\)\) - k2\ MS\_\(i, j\)[t]}, \ {MS\_\(i, j\)[t]}]\)], "Input",
+  CellLabel->"In[74]:="],
+
+Cell[BoxData[
+    \({{MS\_\(i, j\)[
+            t] \[Rule] \(-\(\(\(-K1\)\ k2 - k2\ M\_total - 
+                  v1\ C\_\(i, j\)[
+                      t] - \@\(\(-4\)\ k2\ v1\ M\_total\ C\_\(i, j\)[t] + \
+\((K1\ k2 + k2\ M\_total + v1\ C\_\(i, j\)[t])\)\^2\)\)\/\(2\ k2\)\)\)}, \
+{MS\_\(i, j\)[
+            t] \[Rule] \(-\(\(\(-K1\)\ k2 - k2\ M\_total - 
+                  v1\ C\_\(i, j\)[
+                      t] + \@\(\(-4\)\ k2\ v1\ M\_total\ C\_\(i, j\)[t] + \
+\((K1\ k2 + k2\ M\_total + v1\ C\_\(i, j\)[t])\)\^2\)\)\/\(2\ k2\)\)\)}}\)], \
+"Output",
+  CellLabel->"Out[74]="]
+}, Open  ]],
+
+Cell[TextData[{
+  "If K1 << ",
+  Cell[BoxData[
+      \(TraditionalForm\`M\_\(\(total\)\(\ \)\)\)]],
+  "then instead of this we have:"
+}], "Text"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(Solve[{\[IndentingNewLine]\[IndentingNewLine]0 \[Equal] \(v1\ C\_\(i, j\
+\)[t]\ \((M\_total - MS\_\(i, j\)[t])\)\)\/\((M\_total - MS\_\(i, j\)[t])\) - 
+            k2\ MS\_\(i, j\)[t]}, \ {MS\_\(i, j\)[t]}]\)], "Input",
+  CellLabel->"In[75]:="],
+
+Cell[BoxData[
+    \({{MS\_\(i, j\)[t] \[Rule] \(v1\ C\_\(i, j\)[t]\)\/k2}}\)], "Output",
+  CellLabel->"Out[75]="]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(Solve[{0 \[Equal] \(-k4\)\ C\_\(i, j\)[t] + 
+            k3\ L\_\(j, i\)[t]\ R\_\(i, j\)[t]}, \ {C\_\(i, j\)[
+          t]}]\)], "Input",
+  CellLabel->"In[76]:="],
+
+Cell[BoxData[
+    \({{C\_\(i, j\)[
+            t] \[Rule] \(k3\ L\_\(j, i\)[t]\ R\_\(i, j\)[t]\)\/k4}}\)], \
+"Output",
+  CellLabel->"Out[76]="]
+}, Open  ]],
+
+Cell[TextData[{
+  "Let ",
+  Cell[BoxData[
+      \(TraditionalForm\`RT\_\(i, j\) = \(R\_\(i, j\) + C\_\(i, j\) = \ 
+          total\ inactive\ Recepter\  + \ activated\ receptor\)\)]]
+}], "Text"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(Solve[{0 \[Equal] \(-k4\)\ C\_\(i, j\)[t] + 
+            k3\ L\_\(j, i\)[
+                t]\ \((RT\_\(i, j\) - C\_\(i, j\)[t])\)}, \ {C\_\(i, j\)[
+          t]}]\)], "Input",
+  CellLabel->"In[77]:="],
+
+Cell[BoxData[
+    \({{C\_\(i, j\)[
+            t] \[Rule] \(k3\ RT\_\(i, j\)\ L\_\(j, i\)[t]\)\/\(k4 + k3\ \
+L\_\(j, i\)[t]\)}}\)], "Output",
+  CellLabel->"Out[77]="]
+}, Open  ]],
+
+Cell["apply formula for L from above:", "Text"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(Solve[{0 \[Equal] \(-k4\)\ C\_\(i, j\)[t] + 
+              k3\ L\_\(j, i\)[
+                  t]\ \((RT\_\(i, j\) - C\_\(i, j\)[t])\)}, \ {C\_\(i, j\)[
+            t]}] /. {L\_\(j, i\)[
+            t] \[Rule] \ \(\((v\ \ /k)\) A\_j[t]\^n\ Y\_j[t]\)\/\(\(\ \
+\)\(\((K\_hill)\)\^n + \ A\_j[t]\^n\)\)}\)], "Input",
+  CellLabel->"In[78]:="],
+
+Cell[BoxData[
+    \({{C\_\(i, j\)[
+            t] \[Rule] \(k3\ v\ RT\_\(i, j\)\ A\_j[t]\^n\ Y\_j[t]\)\/\(k\ \((\
+\((\(\((K\/BT)\)\^\(1\/n\)\ k\_r\)\/k\_f)\)\^n + A\_j[t]\^n)\)\ \((k4 + \(k3\ \
+v\ A\_j[t]\^n\ Y\_j[t]\)\/\(k\ \((\((\(\((K\/BT)\)\^\(1\/n\)\ k\_r\)\/k\_f)\)\
+\^n + A\_j[t]\^n)\)\))\)\)}}\)], "Output",
+  CellLabel->"Out[78]="]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(Simplify[%]\)], "Input",
+  CellLabel->"In[79]:="],
+
+Cell[BoxData[
+    \({{C\_\(i, j\)[
+            t] \[Rule] \(k3\ v\ RT\_\(i, j\)\ A\_j[t]\^n\ Y\_j[t]\)\/\(k\ k4\ \
+\((\(\((K\/BT)\)\^\(1\/n\)\ k\_r\)\/k\_f)\)\^n + A\_j[t]\^n\ \((k\ k4 + k3\ v\
+\ Y\_j[t])\)\)}}\)], "Output",
+  CellLabel->"Out[79]="]
+}, Open  ]],
+
+Cell["Now solve for MStar", "Text"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(MS\_\(i, j\)[
+          t] \[Rule] \(v1\ C\_\(i, j\)[t]\)\/k2 /. {C\_\(i, j\)[
+            t] \[Rule] \(k3\ v\ RT\_\(i, j\)\ A\_j[t]\^n\ Y\_j[t]\)\/\(k\ k4\ \
+K\_hill\%n + A\_j[t]\^n\ \((k\ k4 + k3\ v\ Y\_j[t])\)\)}\)], "Input",
+  CellLabel->"In[80]:="],
+
+Cell[BoxData[
+    \(MS\_\(i, j\)[
+        t] \[Rule] \(k3\ v\ v1\ RT\_\(i, j\)\ A\_j[t]\^n\ Y\_j[t]\)\/\(k2\ \
+\((k\ k4\ \((\(\((K\/BT)\)\^\(1\/n\)\ k\_r\)\/k\_f)\)\^n + A\_j[t]\^n\ \((k\ \
+k4 + k3\ v\ Y\_j[t])\))\)\)\)], "Output",
+  CellLabel->"Out[80]="]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["which does in fact gtive a hill function of order n for M*", \
+"Subsubsection"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(K\_\(hill, effective\) = \((k*k4*K\_hill\%n/\((k\ k4 + k3\ v\ \
+Y\_j[t])\))\)\^\(1/n\)\)], "Input",
+  CellLabel->"In[81]:="],
+
+Cell[BoxData[
+    \(\((\(k\ k4\ \((\(\((K\/BT)\)\^\(1\/n\)\ k\_r\)\/k\_f)\)\^n\)\/\(k\ k4 + \
+k3\ v\ Y\_j[t]\))\)\^\(1\/n\)\)], "Output",
+  CellLabel->"Out[81]="]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(v\_effective = 
+      k3*v*v1*\(RT\_\(i, j\)\) 
+        Y\_j[t]/\((k2*\((k\ k4\  + \ k3\ v\ Y\_j[t])\))\)\)], "Input",
+  CellLabel->"In[82]:="],
+
+Cell[BoxData[
+    \(\(k3\ v\ v1\ RT\_\(i, j\)\ Y\_j[t]\)\/\(k2\ \((k\ k4 + k3\ v\ \
+Y\_j[t])\)\)\)], "Output",
+  CellLabel->"Out[82]="]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(MS\_\(i, j\)[
+        t] \[Rule] \(v\_eff\ A\_j[t]\^n\)\/\(\(\ \)\(\(K\_\(hill, \
+eff\)\%n\)\(+\)\(A\_j[t]\^n\)\(\ \)\)\)\)], "Input",
+  CellLabel->"In[83]:="],
+
+Cell[BoxData[
+    \(MS\_\(i, j\)[
+        t] \[Rule] \(v\_eff\ A\_j[t]\^n\)\/\(K\_\(hill, eff\)\%n + A\_j[t]\^n\
+\)\)], "Output",
+  CellLabel->"Out[83]="]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Reaction Set 2: Slow reactions", "SectionFirst"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(net4 = {{\(P\_i\[DoubleLongRightArrow]P\_\(i, j\)\)\&\(MS\_\(i, j\)\), 
+          MM[K4, v4]}, \ {P\_\(i, j\) \[Rule] \ P\_i, \ k5}}\)], "Input",
+  CellLabel->"In[84]:="],
+
+Cell[BoxData[
+    \({{\(P\_i\[DoubleLongRightArrow]P\_\(i, j\)\)\&\(MS\_\(i, j\)\), 
+        MM[K4, v4]}, {P\_\(i, j\) \[Rule] P\_i, k5}}\)], "Output",
+  CellLabel->"Out[84]="]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(\(interpret[net4]\)[\([1]\)]\)], "Input",
+  CellLabel->"In[85]:="],
+
+Cell[BoxData[
+    RowBox[{"{", 
+      RowBox[{
+        RowBox[{
+          RowBox[{
+            SuperscriptBox[\(P\_i\), "\[Prime]",
+              MultilineFunction->None], "[", "t", "]"}], 
+          "\[Equal]", \(\(-\(\(v4\ P\_i[t]\ MS\_\(i, j\)[t]\)\/\(K4 + 
+                    P\_i[t]\)\)\) + k5\ P\_\(i, j\)[t]\)}], ",", 
+        RowBox[{
+          RowBox[{
+            SuperscriptBox[\(MS\_\(i, j\)\), "\[Prime]",
+              MultilineFunction->None], "[", "t", "]"}], "\[Equal]", "0"}], 
+        ",", 
+        RowBox[{
+          RowBox[{
+            SuperscriptBox[\(P\_\(i, j\)\), "\[Prime]",
+              MultilineFunction->None], "[", "t", "]"}], 
+          "\[Equal]", \(\(v4\ P\_i[t]\ MS\_\(i, j\)[t]\)\/\(K4 + P\_i[t]\) - 
+            k5\ P\_\(i, j\)[t]\)}]}], "}"}]], "Output",
+  CellLabel->"Out[85]="]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(\(interpret[
+          net4]\)[\([1]\)] /. {MS\_\(i, j\)[
+            t] \[Rule] \(k3\ v\ v1\ RT\_\(i, j\)\ A\_j[t]\^n\ Y\_j[t]\)\/\(k2\
+\ \((k\ k4\ K\_hill\%n + A\_j[t]\^n\ \((k\ k4 + k3\ v\ Y\_j[t])\))\)\)}\)], \
+"Input",
+  CellLabel->"In[86]:="],
+
+Cell[BoxData[
+    RowBox[{"{", 
+      RowBox[{
+        RowBox[{
+          RowBox[{
+            SuperscriptBox[\(P\_i\), "\[Prime]",
+              MultilineFunction->None], "[", "t", "]"}], 
+          "\[Equal]", \(\(-\(\(k3\ v\ v1\ v4\ RT\_\(i, j\)\ A\_j[t]\^n\ P\_i[
+                      t]\ Y\_j[
+                      t]\)\/\(k2\ \((K4 + 
+                        P\_i[t])\)\ \((k\ k4\ \((\(\((K\/BT)\)\^\(1\/n\)\ \
+k\_r\)\/k\_f)\)\^n + A\_j[t]\^n\ \((k\ k4 + k3\ v\ Y\_j[t])\))\)\)\)\) + 
+            k5\ P\_\(i, j\)[t]\)}], ",", 
+        RowBox[{
+          RowBox[{
+            SuperscriptBox[\(MS\_\(i, j\)\), "\[Prime]",
+              MultilineFunction->None], "[", "t", "]"}], "\[Equal]", "0"}], 
+        ",", 
+        RowBox[{
+          RowBox[{
+            SuperscriptBox[\(P\_\(i, j\)\), "\[Prime]",
+              MultilineFunction->None], "[", "t", "]"}], 
+          "\[Equal]", \(\(k3\ v\ v1\ v4\ RT\_\(i, j\)\ A\_j[t]\^n\ P\_i[t]\ Y\
+\_j[t]\)\/\(k2\ \((K4 + P\_i[t])\)\ \((k\ k4\ \((\(\((K\/BT)\)\^\(1\/n\)\ \
+k\_r\)\/k\_f)\)\^n + A\_j[t]\^n\ \((k\ k4 + k3\ v\ Y\_j[t])\))\)\) - 
+            k5\ P\_\(i, j\)[t]\)}]}], "}"}]], "Output",
+  CellLabel->"Out[86]="]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Appendix I: fast reactions again", "SectionFirst"],
+
+Cell[TextData[{
+  "If K1 >> ",
+  Cell[BoxData[
+      \(TraditionalForm\`M\_\(\(total\)\(\ \)\)\)]],
+  "then instead of this we have:"
+}], "Text"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(Solve[{\[IndentingNewLine]\[IndentingNewLine]0 \[Equal] \(v1\ C\_\(i, j\
+\)[t]\ \((M\_total - MS\_\(i, j\)[t])\)\)\/K1 - 
+            k2\ MS\_\(i, j\)[t]}, \ {MS\_\(i, j\)[t]}]\)], "Input",
+  CellLabel->"In[87]:="],
+
+Cell[BoxData[
+    \({{MS\_\(i, j\)[
+            t] \[Rule] \(v1\ M\_total\ C\_\(i, j\)[t]\)\/\(K1\ k2 + v1\ \
+C\_\(i, j\)[t]\)}}\)], "Output",
+  CellLabel->"Out[87]="]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(MS\_\(i, j\)[
+          t] \[Rule] \(v1\ M\_total\ C\_\(i, j\)[t]\)\/\(K1\ k2 + v1\ C\_\(i, \
+j\)[t]\) /. {C\_\(i, j\)[
+            t] \[Rule] \(k3\ v\ RT\_\(i, j\)\ A\_j[t]\^n\ Y\_j[t]\)\/\(k\ k4\ \
+K\_hill\%n + A\_j[t]\^n\ \((k\ k4 + k3\ v\ Y\_j[t])\)\)}\)], "Input",
+  CellLabel->"In[88]:="],
+
+Cell[BoxData[
+    \(MS\_\(i, j\)[
+        t] \[Rule] \(k3\ v\ v1\ M\_total\ RT\_\(i, j\)\ A\_j[t]\^n\ Y\_j[t]\)\
+\/\(\((k\ k4\ \((\(\((K\/BT)\)\^\(1\/n\)\ k\_r\)\/k\_f)\)\^n + A\_j[t]\^n\ \
+\((k\ k4 + k3\ v\ Y\_j[t])\))\)\ \((K1\ k2 + \(k3\ v\ v1\ RT\_\(i, j\)\ \
+A\_j[t]\^n\ Y\_j[t]\)\/\(k\ k4\ \((\(\((K\/BT)\)\^\(1\/n\)\ \
+k\_r\)\/k\_f)\)\^n + A\_j[t]\^n\ \((k\ k4 + k3\ v\ Y\_j[t])\)\))\)\)\)], \
+"Output",
+  CellLabel->"Out[88]="]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(Simplify[%]\)], "Input",
+  CellLabel->"In[89]:="],
+
+Cell[BoxData[
+    \(MS\_\(i, j\)[
+        t] \[Rule] \(k3\ v\ v1\ M\_total\ RT\_\(i, j\)\ A\_j[t]\^n\ Y\_j[t]\)\
+\/\(k\ K1\ k2\ k4\ \((\(\((K\/BT)\)\^\(1\/n\)\ k\_r\)\/k\_f)\)\^n + \
+A\_j[t]\^n\ \((k\ K1\ k2\ k4 + k3\ v\ \((K1\ k2 + v1\ RT\_\(i, j\))\)\ \
+Y\_j[t])\)\)\)], "Output",
+  CellLabel->"Out[89]="]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+which does in fact gtive a hill function of order n for M* - with \
+different expressions for K and Vmax from before.\
+\>", "Subsubsection"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(K\_\(hill, effective\) = \((k\ K1\ k2\ k4\ \((\(\((K\/BT)\)\^\(1\/n\)\ \
+k\_r\)\/k\_f)\)\^n)\)/\((k\ K1\ k2\ k4 + 
+            k3\ v\ \((K1\ k2 + v1\ RT\_\(i, j\))\)\ Y\_j[t])\)\)], "Input",
+  CellLabel->"In[90]:="],
+
+Cell[BoxData[
+    \(\(k\ K1\ k2\ k4\ \((\(\((K\/BT)\)\^\(1\/n\)\ k\_r\)\/k\_f)\)\^n\)\/\(k\ \
+K1\ k2\ k4 + k3\ v\ \((K1\ k2 + v1\ RT\_\(i, j\))\)\ Y\_j[t]\)\)], "Output",
+  CellLabel->"Out[90]="]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(v\_effective = 
+      k3\ v\ v1\ M\_total\ RT\_\(i, j\)\ Y\_j[
+            t]/\((\((k\ K1\ k2\ k4 + 
+                k3\ v\ \((K1\ k2 + v1\ RT\_\(i, j\))\)\ Y\_j[
+                    t])\))\)\)], "Input",
+  CellLabel->"In[91]:="],
+
+Cell[BoxData[
+    \(\(k3\ v\ v1\ M\_total\ RT\_\(i, j\)\ Y\_j[t]\)\/\(k\ K1\ k2\ k4 + k3\ v\
+\ \((K1\ k2 + v1\ RT\_\(i, j\))\)\ Y\_j[t]\)\)], "Output",
+  CellLabel->"Out[91]="]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(MS\_\(i, j\)[
+        t] \[Rule] \(v\_eff\ A\_j[t]\^n\)\/\(\(\ \)\(\(K\_\(hill, \
+eff\)\%n\)\(+\)\(A\_j[t]\^n\)\(\ \)\)\)\)], "Input",
+  CellLabel->"In[92]:="],
+
+Cell[BoxData[
+    \(MS\_\(i, j\)[
+        t] \[Rule] \(v\_eff\ A\_j[t]\^n\)\/\(K\_\(hill, eff\)\%n + A\_j[t]\^n\
+\)\)], "Output",
+  CellLabel->"Out[92]="]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+FrontEndVersion->"5.2 for Macintosh",
+ScreenRectangle->{{0, 1920}, {0, 1174}},
+WindowSize->{745, 730},
+WindowMargins->{{86, Automatic}, {Automatic, 0}},
+ShowSelection->True,
+StyleDefinitions -> "ArticleModern.nb"
+]
+
+(*******************************************************************
+Cached data follows.  If you edit this Notebook file directly, not
+using Mathematica, you must remove the line containing CacheID at
+the top of  the file.  The cache data will then be recreated when
+you save this file from within Mathematica.
+*******************************************************************)
+
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+
+(*NotebookFileOutline
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[1776, 53, 68, 2, 42, "Input"],
+Cell[1847, 57, 183, 3, 54, "Print"]
+}, Open  ]],
+Cell[2045, 63, 234, 7, 88, "Text"],
+
+Cell[CellGroupData[{
+Cell[2304, 74, 187, 5, 72, "SectionFirst"],
+Cell[2494, 81, 188, 4, 43, "Input"],
+
+Cell[CellGroupData[{
+Cell[2707, 89, 94, 2, 42, "Input"],
+Cell[2804, 93, 415, 8, 61, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[3256, 106, 85, 2, 42, "Input"],
+Cell[3344, 110, 1585, 36, 115, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[4966, 151, 999, 19, 151, "Input"],
+Cell[5968, 172, 600, 15, 109, "Output"]
+}, Open  ]],
+Cell[6583, 190, 410, 14, 100, "Subsection"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[7030, 209, 177, 5, 63, "Section"],
+
+Cell[CellGroupData[{
+Cell[7232, 218, 207, 4, 58, "Input"],
+Cell[7442, 224, 157, 3, 70, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[7636, 232, 85, 2, 42, "Input"],
+Cell[7724, 236, 179, 4, 70, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[7940, 245, 151, 3, 60, "Input"],
+Cell[8094, 250, 147, 4, 70, "Output"]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+Cell[8290, 260, 38, 0, 45, "SectionFirst"],
+
+Cell[CellGroupData[{
+Cell[8353, 264, 191, 3, 55, "Input"],
+Cell[8547, 269, 179, 3, 57, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[8763, 277, 73, 2, 42, "Input"],
+Cell[8839, 281, 981, 23, 88, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[9857, 309, 300, 5, 62, "Input"],
+Cell[10160, 316, 208, 5, 82, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[10405, 326, 101, 2, 46, "Input"],
+Cell[10509, 330, 96, 2, 73, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[10642, 337, 281, 5, 72, "Input"],
+Cell[10926, 344, 299, 6, 95, "Output"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[11274, 356, 36, 0, 71, "SectionFirst"],
+
+Cell[CellGroupData[{
+Cell[11335, 360, 300, 5, 55, "Input"],
+Cell[11638, 367, 281, 5, 57, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[11956, 377, 86, 2, 42, "Input"],
+Cell[12045, 381, 1427, 33, 130, "Output"]
+}, Open  ]],
+Cell[13487, 417, 484, 10, 43, "Text"],
+
+Cell[CellGroupData[{
+Cell[13996, 431, 262, 4, 100, "Input"],
+Cell[14261, 437, 581, 12, 166, "Output"]
+}, Open  ]],
+Cell[14857, 452, 145, 5, 24, "Text"],
+
+Cell[CellGroupData[{
+Cell[15027, 461, 264, 4, 100, "Input"],
+Cell[15294, 467, 113, 2, 58, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[15444, 474, 182, 4, 43, "Input"],
+Cell[15629, 480, 143, 4, 58, "Output"]
+}, Open  ]],
+Cell[15787, 487, 194, 5, 24, "Text"],
+
+Cell[CellGroupData[{
+Cell[16006, 496, 220, 5, 43, "Input"],
+Cell[16229, 503, 166, 4, 62, "Output"]
+}, Open  ]],
+Cell[16410, 510, 47, 0, 24, "Text"],
+
+Cell[CellGroupData[{
+Cell[16482, 514, 356, 7, 83, "Input"],
+Cell[16841, 523, 340, 6, 143, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[17218, 534, 69, 2, 42, "Input"],
+Cell[17290, 538, 249, 5, 95, "Output"]
+}, Open  ]],
+Cell[17554, 546, 35, 0, 24, "Text"],
+
+Cell[CellGroupData[{
+Cell[17614, 550, 273, 5, 63, "Input"],
+Cell[17890, 557, 256, 5, 95, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[18183, 567, 85, 1, 42, "Subsubsection"],
+
+Cell[CellGroupData[{
+Cell[18293, 572, 144, 3, 45, "Input"],
+Cell[18440, 577, 162, 3, 131, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[18639, 585, 163, 4, 43, "Input"],
+Cell[18805, 591, 135, 3, 62, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[18977, 599, 179, 4, 64, "Input"],
+Cell[19159, 605, 154, 4, 64, "Output"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[19374, 616, 54, 0, 71, "SectionFirst"],
+
+Cell[CellGroupData[{
+Cell[19453, 620, 190, 3, 55, "Input"],
+Cell[19646, 625, 176, 3, 57, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[19859, 633, 86, 2, 42, "Input"],
+Cell[19948, 637, 819, 20, 60, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[20804, 662, 268, 6, 63, "Input"],
+Cell[21075, 670, 1174, 26, 176, "Output"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[22298, 702, 56, 0, 71, "SectionFirst"],
+Cell[22357, 704, 145, 5, 24, "Text"],
+
+Cell[CellGroupData[{
+Cell[22527, 713, 234, 4, 95, "Input"],
+Cell[22764, 719, 167, 4, 62, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[22968, 728, 314, 6, 63, "Input"],
+Cell[23285, 736, 435, 8, 173, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[23757, 749, 69, 2, 42, "Input"],
+Cell[23829, 753, 307, 6, 95, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[24173, 764, 150, 3, 58, "Subsubsection"],
+
+Cell[CellGroupData[{
+Cell[24348, 771, 235, 4, 84, "Input"],
+Cell[24586, 777, 195, 3, 96, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[24818, 785, 249, 6, 43, "Input"],
+Cell[25070, 793, 176, 3, 62, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[25283, 801, 179, 4, 64, "Input"],
+Cell[25465, 807, 154, 4, 64, "Output"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+
+
+(*******************************************************************
+End of Mathematica Notebook file.
+*******************************************************************)
+

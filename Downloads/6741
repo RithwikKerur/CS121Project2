@@ -1,0 +1,411 @@
+https://www.ics.uci.edu/~dabrowsa
+
+
+
+
+Adrian Dabrowski
+
+
+
+
+
+
+
+
+
+Adrian Dabrowski
+Postdoctoral researcher  
+					University of California, Irvine (UCI)
+					Suite 444, Information and Computer Science (ICS1)
+					CA 92697 Irvine
+
+
+					
+
+
+
+About
+Publications
+Teaching
+Awards
+Others
+
+
+
+
+Twitter
+Facebook
+Instagram
+Github
+Email
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Adrian Dabrowski
+
+ Google Scholar
+ Twitter
+ SBA-Research
+ Github
+ Sourceforge
+ T-Shirts
+
+
+
+										I am currently a PostDoc at University of California, Irvine (UCI) in the Secure Systems and Software Laboratory by Professor Michael Franz.
+										 Before that, I've been employed at SBA Research, an inter-university research center partly owned by the University of Technology in Vienna (TU Wien).
+My PhD thesis there focused on security and privacy issues in large-scale infrastructure, such as cellular networks (e.g., fake base stations, IMSI catchers), power grids, botnets, and side channels in browsers. In my Master's thesis written at SecLab, I focused on several RFID systems ranging from an electronic purse to a metropolitan size locking system. There, I had the opportunity to be on the winning iCTF team in 2006 and 2011, where I co-organized the team in 2011-2013.
+From March to June 2013 and September 2014 to January 2015, I visited the Echizen Group at the National Institute of Informatics (NII) in Tokyo. 
+I'm holder of the IEEE Austria Diploma Thesis Award and was nominated for the Distinguished Young Alumnus Award of the Faculty of Informatics, UT Vienna.  My ACSAC 2014 paper won the Best Student Paper Award. 
+     
+
+Before that and during my studies, I was a part-time teacher at HTL Spengergasse, a secondary technical high school in Vienna. I'm also founding member of Innoc ('Happylab' Hackerspace), Robotchallenge and Funkfeuer Wien. 
+Furthermore I was involved in Roboat, an autonoumous self steering sailing vessel. Other robots of mine where on display at Roboexotica, at Deutsche Technik Museum in Berlin (for an IETF event), and for the "long night of museums" at Technisches Museum Wien. I was speaker at several CCC and a SIGINT congresses as well as on B-Sides and appeared in several national and international media reports after describing how to intercept wireless police cameras on Schwedenplatz in Vienna. I lectured at several BEST Summer Courses in Vienna and Bratislava on various robotic topics. In 2013, I was speaker at the European Forum Alpbach during the technology symposium days.   
+Additionally, I held talks at 20c3, 21c3, 22c3, 23c3, 25c3, 30c3, SigInt, B-Sides Vienna, Troopers 2014, CCS2014, ACSAC2014, DayCon 2015, Troopers 2016, DeepSec 2016 and 2017, and others.
+
+Occasionally, I make humoristic t-shirts for conferences or another one or just for fun.
+
+
+
+
+
+
+Publications
+								Links to publisher versions of papers (e.g., SpringerLink, ACM Digital Libray) might be behind a paywall. 
+								Wherever legally possible, I've included an arXiv, local pre-print, or author-archived paper link as well.
+
+Investigating Verification Behavior and Perceptions of Visual Digital Certificates
+Dañiel Gerhardt, Alexander Ponticello, Adrian Dabrowski, Katharina Krombholz
+In proceedings of the 32th USENIX Security Symposium 2023.
+
+ BibTex
+
+PKRU-Safe: Automatically Locking Down the Heap Between Safe and Unsafe Languages
+ Paul Kirth, Mitchel Dickerson, Stephen Crane, Per Larsen,
+Adrian Dabrowski, David Gens, Yeoul Na, Stijn Volckaert, Michael Franz
+   Best Paper Award
+In proceedings of the 2022 European Conference on Computer Systems, EuroSys'22.
+ ACM DL
+ ACM PDF
+ Source Code
+ Docker Image
+ local PDF
+ BibTex
+
+Better Keep Cash in Your Boots - Hardware Wallets Are the New Single Point of Failure
+ Adrian Dabrowski, 
+Katharina Pfeffer, 
+Markus Reichel, 
+Alexandra Mai, 
+Edgar R. Weippl, 
+Michael Franz
+In proceedings of the 2021 ACM CCS Workshop on Decentralized Finance and Security, DeFi'21.
+ ACM Digital Library
+ ACM PDF
+ local PDF
+ BibTex
+
+On the Usability of Authenticity Checks for Hardware Security Tokens
+Katharina Pfeffer, Alexandra Mai, Adrian Dabrowski, Matthias Gusenbauer, Philipp Schindler, Edgar Weippl, Michael Franz, Katharina Krombholz
+In proceedings of the 30th USENIX Security Symposium 2021.
+ Usenix PDF
+ local PDF
+ Slides
+ Presentation
+ BibTex
+
+BinRec: Dynamic Binary Lifting and Recompilation -- The Best Thing Since Sliced Binaries.
+Anil Altinay, Joe Nash, Taddeus Kroes, Prabhu Rajasekaran, Dixin Zhou, Adrian Dabrowski, David Gens, Yeoul Na, Stijn Volckaert, Cristiano Giuffrida, Herbert Bos, and Michael Franz
+In proceedings of the Fifteenth European Conference on Computer Systems (EuroSys) 2020.
+ ACM PDF
+ local PDF
+ Slides
+ BibTex
+
+Measuring Cookies and Web Privacy in a Post-GDPR World.
+Adrian Dabrowski, Georg Merzdovnik, Johanna Ullrich, Gerald Sendera, Edgar Weippl
+In proceedings of Passive and Active Measurement (PAM) 2019.
+ Springerlink PDF
+ preprint PDF
+ BibTex
+
+Proof-of-Blackouts? How Proof-of-Work Cryptocurrencies Could
+              Affect Power Grids
+Johanna Ullrich, Nicholas Stifter, Aljosha Judmayer,
+              Adrian Dabrowski, Edgar Weippl
+In proceedings of 21st International Symposium on Research in Attacks, Intrusions, and Defenses (RAID) 2018
+ SpringerLink PDF
+ SQI PDF
+ local PDF
+ BibTex
+
+On Security Research Towards Future Mobile Network Generations
+David Rupprecht, Adrian Dabrowski, Thorsten Holz, Edgar Weippl, Christina Pöpper
+IEEE Communications Surveys and Tutorials 2018. Volume: 20 , Issue: 3 , III/2018. Pages 2518-2542.  DOI 10.1109/COMST.2018.2820728
+ IEEE CST PDF
+ arXiv PDF
+ BibTex
+
+(Poster) The Petri Dish Attack - Guessing Secrets Based on Bacterial Growth
+Katharina Krombholz, Adrian Dabrowski, Peter Purgathofer, Edgar Weippl
+Network and Distributed System Security (NDSS) Symposium Posters 2018.
+ Expose and Poster
+ BibTex
+ Best Poster Presentation Award
+
+Grid Shock: Coordinated Load-Changing Attacks on Power Grids
+Adrian Dabrowski, Johanna Ullrich, and Edgar Weippl
+In proceedings of Annual Computer Security Applications Conference (ACSAC) 2017
+ ACM Digital Library PDF
+ pre-print PDF
+ Artifacts (Matlab Simulink)
+ BibTex
+
+PrivacyTag: A Community-Based Method for Protecting Privacy of Photographed Subjects in Online Social Networks  Best Paper Award
+Shimon Machida, Adrian Dabrowski, Edgar Weippl and Isao Echizen
+16th IFIP Conference on e-Business, e-Services and e-Society (I3E) 2017.
+ SpringerLink PDF
+ BibTex
+
+Exploring Design Directions for Wearable Privacy
+Katharina Krombholz, Adrian Dabrowski, Matthew Smith, and Edgar Weippl
+In proceedings of USEC Mini Conference 2017 (co-located with NDSS Symposium 2017).
+ NDSS PDF
+ local PDF
+ BibTex
+
+The Messenger Shoots Back: Network Operator Based IMSI Catcher Detection
+Adrian Dabrowski, Georg Petzl, and Edgar R. Weippl
+In proceedings of Research in Attacks, Intrusions and Defenses (RAID) 2016, Paris
+ SpringerLink PDF
+ local PDF (v1.01)
+ BibTex
+
+Browser History Stealing with Captive Wi-Fi Portals (2016)
+Adrian Dabrowski, Georg Merzdovnik, Nikolaus Kommenda and Edgar Weippl
+Mobile Security Technologies (MoST) 2016 at IEEE Security & Privacy Symposium Workshops, San Jose
+ IEEE CS PDF
+ local PDF
+ Poster
+ S&P MoST2016 Slides
+ BibTex
+
+Leveraging Competitive Gamification for Sustainable Fun and Profit in Security Education (2015)
+Adrian Dabrowski, Markus Kammerstetter, Eduard Thamm, Edgar Weippl, Wolfgang Kastner
+	USENIX Summit on Gaming, Games and Gamification in Security
+	Education (3GSE '15) (co-located with USENIX Security Symposiom 2015)
+ Usenix
+ Usenix PDF
+ local PDF
+ BibTex
+
+Smart Privacy Visor: Bridging the Privacy Gap (2015)
+Adrian Dabrowski, Katharina Krombholz, Edgar Weippl and Isao Echizen
+ Workshop on Privacy by Transparency in Data-Centric Services (PTDCS) at 18th International Conference on Business Information Systems (BIS2015)
+
+June 26th 2015, Poznan
+ SpringerLink PDF
+ local PDF
+ BibTex
+
+Error-Correcting Codes as Source for Decoding Ambiguity (2015)
+Adrian Dabrowski, Isao Echizen, Edgar Weippl
+ Workshop on Language-Theoretic Security Workshop at IEEE Security & Privacy Symposium "Oakland", San Jose; 
+DOI 10.1109/SPW.2015.28
+ local PDF
+ PDF from LangSec
+ IEEE Xplore (PDF)
+ Slides
+ BibTex
+
+Ok Glass, Leave me Alone: Towards a Systematization of Privacy Enhancing Technologies for Wearable Computing (2015)
+Katharina Krombholz, Adrian Dabrowski, Matt Smith, Edgar R. Weippl
+Proceedings of Workshop on Wearable Security and Privacy co-located with Financial Cryptography and Data Security 2015 
+ Springerlink PDF
+ PDF
+ BibTex
+
+IMSI-Catch Me If You Can: IMSI-Catcher-Catchers (2014)   Best Student Paper Award
+Adrian Dabrowski, Nicola Pianta, Thomas Klepp, Martin Mulazzani, Edgar Weippl
+Annual Computer Security Applications Conference (ACSAC) 2014.
+ ACM Digital Library PDF
+ local PDF
+
+ Sources
+ BibTex
+
+QR Inception: Barcode-in-Barcode Attacks (2014)
+ Adrian Dabrowski, Katharina Krombholz, Johanna Ullrich, Edgar Weippl
+4th Annual ACM CCS Workshop on Security and Privacy in Smartphones and Mobile Devices (SPSM) in conjunction with the 21st ACM Conference on Computer and Communications Security (CCS)
+ ACM Digital Library PDF
+ local PDF
+ Slides
+ BibTex
+
+Tag Detection for Preventing Unauthorized Face Image Processing (2014)
+Alberto Escalada Jimenez, Adrian Dabrowski, Juan M Montero Martinez, Isao Echizen
+The 13th International Workshop on Digital-forensics and Watermarking (IWDW 2014)
+ SpringerLink PDF
+ pre-print PDF
+ BibTex
+
+(SoK) IPv6 Security: Attacks and Countermeasures in a Nutshell (2014)
+Johanna Ullrich, Katharina Krombholz, Heidelinde Hobel, Adrian Dabrowski, Edgar Weippl
+ USENIX Workshop on Offensive Technologies (WOOT) 2014 (co-located with Usenix Security 2014)
+ USENIX PDF
+ local PDF
+ BibTex
+
+Towards a Hardware Trojan Detection Cycle (2014)
+Adrian Dabrowski, Heidelinde Hobel, Johanna Ullrich, Katharina Krombholz, Edgar Weippl 
+Second International Workshop on Emerging Cyberthreats and Countermeasures, ECTCM at ARES2014, DOI 10.1109/ARES.2014.45
+ IEEE Xplore PDF
+ local PDF
+ BibTex
+
+(Poster) Hardware Trojans - Detect and React? (2014)
+ Adrian Dabrowski, Peter Fejes, Johanna Ullrich, Katharina Krombholz, Heidelinde Hobel, and Edgar Weippl
+Network and Distributed System Security (NDSS) Symposium, 2014, Extended Abstract and Poster Session. Internet Society.
+ Poster Session
+ Two page abstract
+ Poster
+ BibTex
+
+Hardware Malware (2013)
+Christian Krieg, Adrian Dabrowski, Heidelinde Hobel, Katharina Krombholz, and Edgar Weippl
+Synthesis Lectures on Information Security, Privacy, and Trust, 
+ISBN paperback 978-1627052511, ISBN ebook 978-1627052528
+ Morgan & Claypool Publishers PDF/Book
+ IEEE Xplore PDF
+ BibTex
+
+Framework based on Privacy Policy Hiding for Preventing Unauthorized Face Image Processing (2013)
+Adrian Dabrowski, Edgar R. Weippl, Isao Echizen
+Proceedings of the IEEE International Conference on Systems, Man, and Cybernetics (SMC) 2013 
+ IEEE Xplore PDF
+ preprint PDF
+ BibTex
+
+Security Analysis of Metropolitan Locking Systems Using the Example of the City of Vienna 
+Adrian Dabrowski
+Master's Thesis, IEEE Section Austria Diploma Thesis Award
+ PDF on academic request
+ Poster
+ 30C3 talk video
+ BibTex
+
+A Digital Interface for Imagery and Control of a Navico/Lowrance Broadband Radar (2011)
+Adrian Dabrowski, Sebastian Busch, Roland Stelzer
+Robotic Sailing - Proceedings of the 4th International Robotic Sailing Conference (IRSC), pp. 169-181, Springer, ISBN 978-3-642-22835-3
+ Springerlink PDF
+ preprint PDF
+ reference implementation
+ BibTex
+
+Also cited in: 1, 2
+
+
+Centrobot Portal for Robotics Educational Course Material (2010)
+Richard Balogh, Adrian Dabrowski, Walter Hammerl, Alexander Hofmann, Pavel Petrovič, Ján Rajníček
+In Proceedings of the 1st international conference on Robotics in Education, RiE2010. September 2010., pp. 17-22. FEI STU, Slovakia, ISBN 978-80-227-3353-3
+ PDF
+ local PDF
+ BibTex
+
+
+
+
+
+
+
+Teaching
+Currently, I teach no classes. Links below are for reference.
+
+ 2018W: Advanced Internet Security 183.222 (Inetsec2)
+ 2018W: FH Technikum Wien - ILV Cyber Crime Defense
+ 2018S: Internet Security 188.366 (Inetsec1)
+ 2018S: FH Technikum Wien - ILV Cyber Security
+ 2017S: Internet Security 188.366 (Inetsec1)
+ 2017S: FH Technikum Wien - ILV Cyber Security
+ 2017W: Advanced Internet Security 183.222 (Inetsec2)
+ 2017W: FH Technikum Wien - ILV Cyber Crime Defense
+ 2016S: Internet Security 188.366 (Inetsec1)
+ 2016S: FH Technikum Wien - ILV Cyber Security
+ 2016W: Advanced Internet Security 183.222 (Inetsec2)
+ 2016W: FH Technikum Wien - ILV Cyber Crime Defense
+ 2015S: Internet Security 188.366 (Inetsec1)
+ 2015W: Advanced Internet Security 183.222 (Inetsec2)
+2014W: Advanced Internet Security 183.222 (Inetsec2) (Canceled due insufficent funding)
+ 2014S: Internet Security 188.366 (Inetsec1)
+ 2013W: Advanced Internet Security 183.222 (Inetsec2)
+
+
+
+
+
+
+Received Awards, Grants, and Achivements
+
+
+Best Student Paper AwardFirst Author at ACSAC 2014
+IEEE Section Austria Diploma Thesis Award 2013
+Best Paper AwardCo-Author at IFIP I3E 2017
+Best Poster Presentation AwardCo-Author at NDSS 2018
+Förderstipendium 2016 (€1800)Fakultät für Informatik, TU Wien
+CVE-2018-13375
+Netidee project grants (€72000)Main author
+Prix Ars Electronica ArtistFully paid invitation in 2007, 2011, 2015
+Winning ICTF team member 2006, 2011. Top-10 in 2006-2017 w/o 2013
+Winning robotic sailing team member.Microtransat 2006, World Robotic Sailing Championship 2008, 2009, 2010, 2011
+Winning team of Austrian Physics on Stage 2000 competition. Presentation at European Week for Science and Technology at CERN, Geneva (Nov 2000).
+										Aged 13, 6th place at the national programming competition by Austrian Computer Society (OCG) and Federal Ministy of Education (BMUKK)
+										
+										Program CommitteeACM WiSec 2019,2020,2021 (PC), RAID 2019,2020,2021 (PC),
+ROOTS 2017,2018,2019,2020,2021 (Co/chair), EuroSec 2021 (PC)
+Publicity ChairACM WiSec 2021 (PC)
+
+
+
+
+
+
+Misc
+
+
+Some of my very early high-school or pre-studies projects also showed some impact. My Nokia data cable reverse engineering project from 2000 was featured in the book Hardware Hacking: Have Fun while Voiding your Warranty. The original site of my project has been down for years, but I still get requests and questions about it.
+My Erdős number currently is 5 (that's bad!). My Kevin Bacon number is 3 (when including TV appearances). 
+
+
+
+
+
+
+
+
+
+© Untitled. All rights reserved.Design: HTML5 UP
+
+
+
+
+
+
+
+
+
+
+
+
+
+

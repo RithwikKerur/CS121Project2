@@ -1,0 +1,138 @@
+https://www.cs.uci.edu/sang-woo-jun-and-collaborators-win-best-paper-award-for-predictive-maintenance-at-the-edge
+
+
+
+
+Sang-Woo Jun and Collaborators Win Best Paper Award for Predictive Maintenance at the Edge 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ this is a widget called second front page widget area
+
+Explore
+
+Contact Us
+
+
+Faculty
+Research
+
+Research Areas
+Research Centers
+
+
+Graduate Degrees
+
+Computer Science Programs
+Current Graduate Students
+
+
+Undergraduate Degrees
+News  & Events
+
+News
+Seminar Series
+Distinguished Lecture Series
+Research Showcase
+
+
+Apply Now
+
+Undergraduate Admissions
+Graduate Admissions
+Faculty Candidates
+
+
+Sang-Woo Jun and Collaborators Win Best Paper Award for Predictive Maintenance at the Edge
+October 26, 2021 
+
+Sang-Woo Jun, an assistant professor of computer science in the Donald Bren School of Information and Computer Sciences (ICS), was pleased with the Best Paper Award announcement at the 31st International Conference on Field-Programmable Logic and Applications (FPL 21). The award went to “Eciton: Very Low-Power LSTM Neural Network Accelerator for Predictive Maintenance at the Edge,” a paper he co-authored that introduces a Long Short-Term Memory (LSTM) neural network accelerator for low-power edge sensor nodes. The work was a collaboration with ICS graduate students Jeffrey Chen and Sehwan Hong, Diamond Bar High School student Warrick He, and Professor Jinyeong Moon of Florida State University.
+
+“The work focuses on predictive maintenance, where we collect vibration, voltage, and other sensor data from mechanical machinery and try to predict imminent failures using machine learning techniques,” says Jun. “The restriction of this particular project was that we wanted to deploy in existing facilities — including ships and factories — many of which do not provide power outlets.”
+A Tight Power BudgetAs outlined in the paper, today’s Cyber-Physical Systems (CPS), coupled with the Internet-of-Things (IoT), have created “swarms of small, low-power sensor nodes communicating over a wireless network.” The potential of such swarms is deeper, data-driven analytics, but data collection can increase power consumption. “The distributed sensor nodes that we target run on power harvesters, which generate a few hundred milliwatts of power from the ambient magnetic field,” says Jun. “All sensors, networking and computation needs to fit in that power budget.”
+To ensure their solution remained with that budget, the researchers implemented a neural network inference accelerator for sensor data streams that could filter out “uninteresting data” to reduce power consumption. “We chose a very low power, restrictive FPGA platform (Lattice iCE40), and implemented a neural network accelerator that uses aggressively compressed neural network models,” explains Jun. “In the end, the power consumption for the accelerator measured at 17 mW, an acceptably low number.”
+A Young ContributorJun highlighted the contributions of Warrick He, a local high school student who had contacted him in search of research opportunities. “What he did was, after trial and error, discover that the training data was not enough to properly train an accurate neural network model,” says Jun. To address this issue, He sampled the input data to reduce dimensionality, explored different neural network model architectures, and used gaussian noise to create more training data from existing ones. “He created a neural network model with over 90% of accuracy in predicting electric motor failures, which was used as an evaluation workload in the paper.”
+Future WorkIn the future, Jun plans to explore other CPS/IoT domains where such a platform can be beneficial, such as agriculture and healthcare. “I’m very excited about this line of work.”
+— Shani Murray
+« 2020 ACM Thacker Breakthrough in Computing Award Awarded to Professor Michael FranzSenior Spotlight: Kazeem Salaam Promotes STEM Learning, Combining Programming Skills with a Passion for Helping Others »
+
+Latest news
+
+
+Senior Spotlight: Tennis Player and CS Major Matthew Sah Serves Up Aces On and Off the Court
+September 28, 2022
+
+
+Register Today for the Southern California AI & Biomedicine Symposium
+September 20, 2022
+
+
+CPO Magazine: “A Legal View of New NIST Quantum-Resistant Algorithms” by Bryan Cunningham
+September 19, 2022
+
+
+UCI Ranked 24th in Undergraduate Computer Science Programs by U.S. News & World Report
+September 16, 2022
+
+
+Senior Spotlight: Jose Cisneros Builds Impressive Resume with Trio of Internships
+September 15, 2022
+
+
+
+
+ 
+
+
+
+
+
+© 2022 UC Regents
+Feedback
+Privacy Policy
+
+
+
+ 
+
+
+
+

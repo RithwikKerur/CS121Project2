@@ -1,0 +1,243 @@
+https://sli.ics.uci.edu/PmWiki/AvailableActions
+
+
+
+SLI | PmWiki / AvailableActions 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+PmWiki /
+AvailableActions
+
+
+
+
+
+< Troubleshooting | Documentation Index | AuthUser >
+
+
+
+
+Table of contents
+Default actions
+Enable diag actions
+Script actions
+Cookbook actions
+
+Page actions are applied to wiki pages, as a query string appended to the URL.
+Security can be applied to all default actions, and script actions with one exception, but not diag actions, through the use of passwords.
+
+Also documented are all other URL queries.
+
+NOTE: All actions will be disabled if the following is set:
+
+
+    $EnableActions = 0;
+    include('pmwiki.php');
+
+This will initialize PmWiki (along with any configuration/customizations
+that are being made, e.g. from local/config.php), but won't actually
+perform any actions.  The caller can then call the desired action
+or other functions as desired. This is available from Version 2.2.0-beta22 on up.
+
+
+PmWiki Actions
+See also site page actions.
+
+
+?action=attr displays dialog for setting/changing password of the specified page or group of pages, see passwords, see also $EnablePostAttrClearSession if you do not want to have the session cleared after validating change  General use of passwords and login 
+
+?action=browse display the specified page (default action if no ?action= is present)
+
+?action=crypt displays a form for generating hashed passwords out of clear text for usage in your config.php
+
+?action=diff show a change history of the specified page, see page history  History of previous edits to a page 
+
+?action=download&upname=file.ext retrieve the page's attachment named file.ext, see $EnableDirectDownload
+
+?action=edit edit the specified page, see basic editing  PmWiki's basic edit syntax 
+
+?action=login prompt visitor for username/password, by default using Site.AuthForm
+
+?action=logout remove author, password, and login information
+
+?action=print display the specified page using the skin specified by $ActionSkin['print']
+
+?action=refcount bring up the reference count form, which allows the user to generate a list of links (all, missing, existing or orphaned) in or from specified groups.  See Ref Count  Link references counts on pages .  Part of the core distribution but must be enabled by the administrator.
+
+?action=search displays searchbox on current page, see search  Targeting and customising search results 
+?action=search&q=searchterm performs search with searchterm and displays results on current page
+?action=search&q=link=pagename performs backlinks search with pagename and displays results on current page
+
+?action=source show page source
+
+?action=atom
+?action=rdf
+?action=rss
+?action=dc If web feeds are enabled, returns a syndication feed based on the contents of the page or other options provided by the url, see web feeds  Web feed notification of changes 
+
+?action=upload display a form to upload an attachment for the current group, see uploads  
+
+
+
+Query string parameters
+
+?from=page name use when a page is redirected
+
+?n=page name display page
+
+?setprefs=SomeGroup.CustomPreferences sets cookie to custom preferences page. See site preferences  Customisable browser setting preferences: Access keys, edit form 
+
+
+Actions enabled by $EnableDiag
+
+The following actions are available only if you set $EnableDiag = 1; in your configuration file. They can be used for debugging and should not be set in a production environment.
+
+?action=ruleset displays a list of all markups in 4 columns:
+column 1 = markup-name (1. parameter of markup() )
+column 2 = when will rule apply (2. parameter of markup() )
+column 3 = PmWiki's internal sort key (derived from #2)
+column 4 = Debug backtrace information for potentially incompatible rules (filename, line number, pattern)
+(see Custom Markup  Using the Markup() function for custom wiki syntax; migration to PHP 5.5 ).
+To see more than what ?action=ruleset gives you, apply the Cookbook:MarkupRulesetDebugging recipe: it can also show the pattern and the replacement strings.
+doesn't make use of PmWiki's authorization mechanisms.
+
+?action=phpinfo displays the output of phpinfo() and exits. No page will be processed
+doesn't make use of PmWiki's authorization mechanisms.
+
+?action=diag displays a dump of all global vars and exits. No page will be processed
+doesn't make use of PmWiki's authorization mechanisms.
+
+
+
+Actions enabled by PmWiki Scripts
+
+?action=analyze see Site Analyzer and Analyze Results
+
+?action=approvesites see Url approvals  Require approval of Url links 
+doesn't make use of PmWiki's authorization mechanisms.
+
+
+
+Actions enabled by Cookbook recipes
+(more information about Custom Actions)
+
+?action=admin see Cookbook:UserAuth2  
+?action=backup see Cookbook:BackupPages  
+?action=clearsky see Cookbook:SearchCloud  
+?action=cm-dependencies see Cookbook:CodeMirror  
+?action=comment see Cookbook:CommentBox  
+?action=comments see Cookbook:Comments  
+?action=comment-rss see Cookbook:CommentDb  
+?action=convert see Cookbook:ROEPatterns  
+?action=converttable Cookbook:ConvertTable  
+?action=copy see Cookbook:MovePage  
+?action=csv see CSVAction?  
+?action=downloaddeleted
+?action=delattach
+?action=deldelattach
+?action=fileinfo
+?action=thumbnail
+?action=undelattach Cookbook:Attachtable  
+?action=delete see Cookbook:DeleteAction  
+?action=discuss see Cookbook:DiscussionTab  
+?action=downloadman see Cookbook:DownloadManager  
+?action=expirediff see Cookbook:ExpireDiff  
+?action=import see Cookbook:ImportText  
+?action=lang see Cookbook:MultiLanguageViews  
+?action=setlang see Cookbook:MultiLanguageViews  
+?action=move see Cookbook:MovePage  
+?action=PageUrl see Cookbook:CommentBoxPlus  
+?action=pageindex see Cookbook:ListCategories  
+?action=pdf see Cookbook:GeneratePDF   or Cookbook:PmWiki2PDF  
+?action=postupload2 see Cookbook:UploadForm  
+?action=publish see Cookbook:PublishPDF  
+?action=purgeqns see Cookbook:ASCIIMath  
+?action=pwchange see Cookbook:UserAuth2  
+?action=imgtpl (the  imgtpl action is called automatically and should not be called by a link in a wiki page)
+?action=createthumb (the createthumb action is called automatically and should not be called by a link in a wiki page)
+?action=mini (this action is called automatically and should not be called by a link in a wiki page)
+?action=purgethumbs see Cookbook:ThumbList    see Cookbook:Mini  
+?action=recipecheck see Cookbook:RecipeCheck  
+?action=regen       see Cookbook:PageRegenerate  
+?action=reindex     see Cookbook:Reindex  
+?action=rename
+?action=links see Cookbook:RenamePage  
+?action=share
+?action=unshare see Cookbook:SharedPages  
+?action=sitemapaddgroups
+?action=sitemapupdate see Cookbook:Sitemapper  
+?action=totalcounter see Cookbook:TotalCounter  
+?action=trash
+?action=untrash see Cookbook:Trash  
+?action=webadmin see Cookbook:WebAdmin  
+?action=zap see Cookbook:ZAP  
+
+
+
+Query string parameters enabled by Cookbook recipes
+?color=colorscheme
+:?setcolor=colorscheme
+?skintheme=theme
+?setskintheme=theme see Cookbook:ChoiceColorChanger   {Cookbook/ChoiceColorChanger $:Summary} 
+?skin=skinname
+?setskin=skinname see SkinChange  
+Custom actions
+See CustomActions.
+
+
+< Troubleshooting | Documentation Index | AuthUser >
+
+
+
+
+This page may have  a more recent version on pmwiki.org: PmWiki:AvailableActions, and  a talk page: PmWiki:AvailableActions-Talk.
+
+
+
+
+
+
+ Last modified March 20, 2016, at 07:08 AM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+

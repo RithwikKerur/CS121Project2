@@ -1,0 +1,231 @@
+https://cml.ics.uci.edu/aiml/page/6
+
+
+
+
+
+AI/ML Seminar Series | Center for Machine Learning and Intelligent Systems | Page 6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+University of California, Irvine
+
+
+Menu
+Skip to content
+Home
+About CML
+
+About us
+News
+Contact Us
+
+
+People
+
+Faculty
+Alumni
+
+
+Events & Seminars
+
+AI/ML Seminar Series
+AI/ML Seminar Live Stream
+CML Distinguished Speakers
+ML Reading Group
+
+
+Education & Resources
+
+Courses
+Books
+
+
+UCI Machine Learning Archive
+Sponsors & Funding
+Subscribe to CML List
+ 
+
+
+
+
+
+
+AI/ML Seminar Series Standard 
+
+Weekly Seminar in AI & Machine LearningSponsored by Cylance
+
+
+
+
+
+
+
+Navigation
+
+‹Earlier
+Fall 2020 Later ›
+
+
+
+Live Stream for all Fall 2020 CML Seminars
+
+
+
+
+Oct 5
+No Seminar
+
+
+
+Oct 12Live Stream1 pm
+Forest AgostinelliAssistant ProfessorComputer Science and EngineeringUniversity of South CarolinaYouTube Stream:  https://youtu.be/shwYW9yEAIQ From Combination Puzzles to the Natural SciencesCombination puzzles, such as the Rubik’s cube, pose unique challenges for artificial intelligence. Furthermore, solutions to such puzzles are directly linked to problems in the natural sciences. In this talk, I will present DeepCubeA, a deep reinforcement learning and search algorithm that can solve the Rubik’s cube, and six other puzzles, without domain specific knowledge. Next, I will discuss how solving combination puzzles opens up new possibilities for solving problems in the natural sciences. Finally, I will show how problems we encounter in the natural sciences motivate future research directions in areas such as theorem proving and education. A demonstration of our work can be seen at http://deepcube.igb.uci.edu/.
+
+Bio: Forest Agostinelli is an assistant professor at the University of South Carolina. He received his B.S. from the Ohio State University, his M.S. from the University of Michigan, and his Ph.D. from UC, Irvine under Professor Pierre Baldi. His research interests include deep learning, reinforcement learning, search, bioinformatics, neuroscience, and chemistry.
+
+
+
+Oct 19Live Stream1 pm
+Stephan MandtAssistant ProfessorDept. of Computer ScienceUniversity of California, IrvineYouTube Stream:  https://youtu.be/Z8juQKrCkmk Compressing Variational BayesNeural image compression algorithms have recently outperformed their classical counterparts in rate-distortion performance and show great potential to also revolutionize video coding. In this talk, I will show how innovations from Bayesian machine learning and generative modeling can lead to dramatic performance improvements in compression. In particular, I will explain how sequential variational autoencoders can be converted into video codecs, how deep latent variable models can be compressed in post-processing with variable bitrates, and how iterative amortized inference can be used to achieve the world record in image compression performance. 
+
+Bio: Stephan Mandt is an Assistant Professor of Computer Science at the University of California, Irvine. From 2016 until 2018, he was a Senior Researcher and Head of the statistical machine learning group at Disney Research, first in Pittsburgh and later in Los Angeles. He held previous postdoctoral positions at Columbia University and Princeton University. Stephan holds a Ph.D. in Theoretical Physics from the University of Cologne. He is a Fellow of the German National Merit Foundation, a Kavli Fellow of the U.S. National Academy of Sciences, and was a visiting researcher at Google Brain. Stephan regularly serves as an Area Chair for NeurIPS, ICML, AAAI, and ICLR, and is a member of the Editorial Board of JMLR. His research is currently supported by NSF, DARPA, Intel, and Qualcomm.
+
+
+
+Oct 26Live Stream1 pm
+Christoph LippertProfessorHasso Plattner InstituteUniversity of PotsdamYouTube Stream:  https://youtu.be/zElgAKf4AhE GWAS of Images using Deep Transfer LearningAt the Chair of Digital Health & Machine Learning, we are developing methods for the statistical analysis of large biomedical data. In particular imaging provides a powerful means for measuring phenotypic information at scale. While images are abundantly available in large repositories such as the UK Biobank, the analysis of imaging data poses new challenges for statistical methods development. In this talk, I will give an overview over some of our current efforts in using deep representation learning as a non-parametric way to model imaging phenotypes and for associating images to the genome.
+
+References:
+
+Kirchler, M., Khorasani, S., Kloft, M., & Lippert, C. (2020, June). Two-sample testing using deep learning. In International Conference on Artificial Intelligence and Statistics (pp. 1387-1398). PMLR.
+
+Kirchler, M., Konigroski, S., Schurmann, C., Norden, M., Meltendorf, C., Kloft, M., Lippert, C. transferGWAS: GWAS of images using deep transfer learning. Manuscript in preparation.
+
+Bio: Lippert studied bioinformatics from 2001–2008 in Munich and went on to earn his doctorate at the Max Planck Institutes for Intelligent Systems and for Developmental Biology in Tübingen in machine learning bioinformatics, with an emphasis on methods for genome-associated studies. In 2012, he accepted a Researcher position at Microsoft Research in Los Angeles and subsequently carried out work at Human Longevity, Inc. in Mountain View. In 2017, Lippert returned to Germany to head the research group “Statistical Genomics” at the Max Delbrück Center for Molecular Medicine in Berlin. In 2018, Lippert has been appointed Full Professor of “Digital Health & Machine Learning” in the joint Digital Engineering Faculty of the Hasso Plattner Institute and the University of Potsdam.
+
+
+
+Nov 2Live Stream1 pm
+Cory ScottPhD StudentDept. of Computer ScienceUniversity of California, IrvineYouTube Stream:  https://youtu.be/CpGfCA92rMw Efficient Learning of Cytoskeletal Dynamics with Multiscale Machine Learning and Optimized Projection OperatorsMicrotubules are a primary constituent of the dynamic cytoskeleton in living cells, involved in many cellular processes whose study would benefit from scalable dynamic computational models. We define a novel machine learning model which aggregates information across multiple spatial scales to predict energy potentials measured from a simulation of a section of microtubule. Using projection operators which optimize an objective function related to the diffusion kernel of a graph, we sum information from local neighborhoods. This process is repeated recursively until the coarsest scale, and all scales are separately used as the input to a Graph Convolutional Network, forming our novel architecture: the Graph Prolongation Convolutional Network (GPCN). The GPCN outputs a prediction for each spatial scale, and these are combined using the inverse of the optimized projections. This fine-to-coarse mapping, and its inverse, create a model which is able to learn to predict energetic potentials more efficiently than other GCN ensembles which do not leverage multiscale information. We also compare the effect of training this ensemble in a coarse-to-fine fashion, and find that schedules adapted from the Algebraic Multigrid (AMG) literature further increase this efficiency. Since forces are derivatives of energies, we discuss the implications of this type of model for machine learning of multiscale molecular dynamics.
+
+Reference: C.B. Scott and Eric Mjolsness. “Graph Prolongation Convolutional Networks: Explicitly Multiscale Machine Learning on Graphs with Applications to Modeling of Cytoskeleton”. In: Machine Learning: Science and Technology (2020). DOI: 
+https://iopscience.iop.org/article/10.1088/2632-2153/abb6d2
+
+
+
+Nov 9Live Stream1 pm
+Lukas RuffPhD StudentElectrical Engineering and Computer ScienceTU BerlinYouTube Stream:  https://youtu.be/Uncc5y7g8Is Recent Advances in Anomaly DetectionAnomaly detection is the problem of identifying unusual observations in data. This problem is usually unsupervised and occurs in numerous applications such as industrial fault and damage detection, fraud detection in finance and insurance, intrusion detection in cybersecurity, scientific discovery, or medical diagnosis and disease detection. Many of these applications involve complex data such as images, text, graphs, or biological sequences, that is continually growing in size. This has sparked a great interest in developing deep learning approaches to anomaly detection.
+
+In this talk, my aim is to provide a systematic and unifying overview of deep anomaly detection methods. We will discuss methods based on reconstruction, generative modeling, and one-class classification, where we identify common underlying principles and draw connections between traditional ‘shallow’ and novel deep methods. Furthermore, we will cover recent developments that include weakly and self-supervised approaches as well as techniques for explaining models that enable to reveal ‘Clever Hans’ detectors. Finally, I will conclude the talk by highlighting some open challenges and potential paths for future research.
+
+Bio: Lukas Ruff is a third year PhD student in the Machine Learning Group headed by Klaus-Robert Müller at TU Berlin. His research covers robust and trustworthy machine learning, with a specific focus on deep anomaly detection. Lukas received a B.Sc. degree in Mathematical Finance from the University of Konstanz in 2015 and a joint M.Sc. degree in Statistics from HU, TU and FU Berlin in 2017.
+
+
+
+Nov 16Live Stream1 pm
+Karem SakallahProfessorElectrical Engineering and Computer ScienceUniversity of MichiganYouTube Stream:  https://youtu.be/5A5dTRo50EQ Accidental Research: Scalable Algorithms for Boolean Satisfiability and Graph AutomorphismAccidental research is when you’re an expert in some domain and seek to solve problem A in that domain. You soon discover that to solve A you need to also solve B which, however, comes from a domain in which you have little, or even no, expertise. You, thus, explore existing solutions to B but are disappointed to find that they just aren’t up to the task of solving A. Your options at this point are a) to abandon this futile project, or b) to try and find a solution to B that will help you solve A. While this might seem like a fool’s errand, you have the advantage over B experts of being unencumbered by their experience. You are a novice who does not, yet, appreciate the complexity of B, but are able to explore it from a fresh perspective. You also bring along expertise from your own domain to connect what you know with what you hope to learn. If you’re lucky, you may succeed in finding a solution to B that helps you solve A.
+
+I will relate two cases in which this scenario played out: developing the GRASP conflict-driven clause-learning SAT solver in the context of performing timing analysis of very large scale integrated circuits, and developing the saucy graph automorphism  program to find and break symmetries in large SAT problems. Ironically, in both cases solving problem B (GRASP, saucy) turned out to be much more impactful than solving problem A (timing analysis, breaking symmetries.) Without the trigger of problem A, however, neither GRASP nor saucy would have been conceived.
+
+Bio: Karem A. Sakallah  is a Professor of Electrical Engineering and Computer Science at the University of Michigan.
+He received  the  B.E.  degree  in electrical engineering from the American University of Beirut and the M.S. and Ph.D. degrees in electrical and computer engineering from Carnegie Mellon University.  Prior to joining the University of Michigan, he headed the Analysis and Simulation Advanced Development Team at Digital Equipment Corporation. Besides his academic duties, he has served in a variety of professional roles including the establishment of a computing research institute in Qatar for which he took a leave to serve a term of three years as the Chief Scientist.  His current research is focused on automating the formal verification of hardware, software, and distributed protocols.  He is a fellow of the IEEE and the ACM and a co-recipient  of  the  prestigious  Computer-Aided  Verification  Award  for  “Fundamental  contributions  to  the development of high-performance Boolean satisfiability solvers.”
+
+
+
+Nov 23Live Stream1 pm
+Ioannis PanageasAssistant ProfessorDept. of Computer ScienceUniversity of California, IrvineYouTube Stream:  https://youtu.be/4cepfWDiL3A First-order Methods Almost Always Avoid Saddle PointsIn this talk we will give an overview of some results on the limiting behavior of first-order methods. In particular we will show that typical instantiations of first-order methods like gradient descent, coordinate descent, etc. avoid saddle points for almost all initializations. Moreover, we will provide applications of these results on Non-negative Matrix Factorization. The takeaway message is that such algorithms can be studied from a dynamical systems perspective in which appropriate instantiations of the Stable Manifold Theorem allow for a global stability analysis.
+
+Bio: Ioannis is an Assistant Professor of Computer Science at UCI. He is interested in the theory of computation, machine learning and its interface with non-convex optimization, dynamical systems, probability and statistics. Before joining UCI, he was an Assistant Professor at Singapore University of Technology and Design. Prior to that he was a MIT postdoctoral fellow working with Constantinos Daskalakis. He received his PhD in Algorithms, Combinatorics and Optimization from Georgia Tech in 2016, a Diploma in EECS from National Technical University of Athens, and a M.Sc. in Mathematics from Georgia Tech. He is the recipient of the 2019 NRF fellowship for AI.
+
+
+
+Nov 30Live Stream1 pm
+Deqing SunSenior Research ScientistGoogleYouTube Stream: https://youtu.be/N3y_K1ewkL0 Learning Optical Flow: From MRFs to CNNsOptical flow provides important motion information about the dynamic world and is of fundamental importance to many tasks. Like other visual inference problems, it is critical to choose the representation to encode both the forward formation process and the prior knowledge of optical flow. In this talk, I will present my work on two different optical flow representations in the past decade. First, I will describe learning Markov random field (MRF) models and defining non-local conditional random field (CRF) models to recover motion boundaries. Second, I will talk about combining domain knowledge of optical flow with convolutional neural networks (CNNs) to develop a compact and effective model and some recent developments. 
+
+Bio: Deqing Sun is a senior research scientist at Google working on computer vision and machine learning. He received a Ph.D. degree in Computer Science from Brown University. He is a recipient of the PAMI Young Researcher award in 2020, the Longuet-Higgins prize at CVPR 2020, the best paper honorable mention award at CVPR 2018, and the first prize in the robust optical flow competition at CVPR 2018 and ECCV 2020. He served as an area chair for CVPR/ECCV/BMVC, and co-organized several workshops/tutorials at CVPR, ECCV, and SIGGRAPH.
+
+
+
+Dec 7
+No Seminar (NeurIPS Conference)
+
+
+
+Dec 14
+Finals week
+
+
+
+
+
+
+October 4, 2020
+AIML
+
+
+
+Posts navigation
+
+‹Older posts
+Newer posts ›
+
+
+
+
+
+ 
+Search
+
+
+
+ 
+
+
+(c) 2015 Center for Machine Learning and Intelligent Systems
+
+WordPress/BonPress
+
+
+
+
+
+

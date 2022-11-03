@@ -1,0 +1,202 @@
+https://ngs.ics.uci.edu/eventweb3-defining-event
+
+
+
+
+
+
+
+
+EventWeb3: Defining ‘event’ – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				EventWeb3: Defining ‘event’    			
+
+
+Objects in common language remain vague and are understood more clearly and precisely in a specific context.
+For computers, objects must be defined more precisely.  In computer science one defines  objects as having two important components:  data associated with the object and methods that operate or access data in predefined ways.   The data is usually accessed only through the methods.  In programming, one first defines classes of objects where all data associated with objects is defined, along with its type, and methods that will operate on all these data fields are defines.  Each object in a program is an instance of a class.  Each class may have subclasses and these subclasses may inherit some data types and methods from their parent class.
+An event, defined in computing environments, should be a mechanism to define three important aspects of an event clearly and explicitly.  These three aspects are:
+information about the event,
+experiences related to the event,
+and structural and causal relationships with other events.  
+An event in computational form should represent data associated with the above aspects and processes to acquire and present these as may be needed.  By providing flexible and expressive mechanisms to define these three components and associated methods, one could define events effectively. The event environment  should provide tools to define any event of interest from many disparate application domains.  One may first define event classes and then each event in the system may be an instance of a class.  
+The basic characteristics of an event will be the ID of the event, its time and location.  Time and location become fundamental defining characteristics of an event.  A similar event may take place at different time and space and will be considered a different event.  In this sense, an event is a defined in spatio-temporal space.  There are good reasons to consider events as either point events or interval events.  Point events are just points in the spatio-temporal (referred to as ST) space; interval events are regions in ST space.
+The informational characteristics of an event will be similar to data elements defined for objects.  All informational attributes will be data of specific types and methods may be defined to access these attributes and operate on those.  The information components may consider fields like participants, objects, and similar data fields commonly defined as attributes of objects.  Many of these fields will have similar data types and methods.
+
+
+
+By Ramesh |
+    				August 23, 2006 |
+    				             		Experiential Computing |
+             	 
+    				             		2 Comments |
+             	 		          				
+    			
+
+
+← From Documents to Experiences
+Novel uses of cameraphones: diet →
+
+
+
+			2 thoughts on “EventWeb3: Defining ‘event’”		
+
+
+
+
+Amir August 24, 2006 at 1:28 pm 
+
+“The basic characteristics of an event will be the ID of the event, its time and location.”
+How would location be presented? Would it be an absolute location (e.g. GPS coordinates), or could it also be a “place”? I come from a Ubicomp background and there has been much talk (and papers and workshops) regarding location presentation.
+
+
+
+
+
+
+
+
+Ramesh  Post authorAugust 25, 2006 at 8:11 am 
+
+This will depend on application.  But absolute or symbolic (place) is really a minor issue.  Graphics and robotics communities have learnt to deal with multiple coordinate systems, including relative to an object.  The transformations from one to other are not that difficult.
+
+
+
+
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

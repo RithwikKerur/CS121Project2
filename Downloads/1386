@@ -1,0 +1,9 @@
+http://plrg.ics.uci.edu/publications/460.bib
+@inproceedings{key,
+ author = {Jin Zhou and Brian Demsky},
+ title = {Memory Management for Many-Core Processors},
+ booktitle = {Proceedings of the 2012 Internation Symposium on Memory Management},
+ location = {Beijing, China},
+ month = {June},
+ year = {2012}
+}

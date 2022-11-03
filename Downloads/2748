@@ -1,0 +1,171 @@
+https://ngs.ics.uci.edu/static-and-dynamic-cyberspaces
+
+
+
+
+
+
+
+
+Static and Dynamic Cyberspaces – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Static and Dynamic Cyberspaces    			
+
+
+[ This post reflects my current thinking about my research directions — both in my academic research as well as in my entrepreneurial efforts in Seraja. ]
+It is widely recognized in most areas of established sciences that static situations are different from dynamic situations and hence concepts, representation mechanisms, and analysis tools and techniques used for static and dynamic situations are different.  Obviously there is overlap between these concepts and tools because static situations are not completely different from dynamic (in other words they are not disjoint).  The most common example of this was first clearly demonstrated when Newtonian Mechanics was developed.  The field of mechanics clearly studied statics and dynamics  as independent, but obviously related, fields.  Clearly our terminology â€“ static situations and dynamic situations â€“ comes from mechanics.  Without going into studying mechanics here, suffice to say that the tools initially developed for dealing with bodies at rest were not suitable for dealing with bodies in motion.  And fields after fields found that in their development, initially they studied simpler situations that were usually static.  Later they realized that they need to develop concepts and techniques for dealing with dynamic situations.
+In data and information management also we are now faced with this situation.  Our current tools are very good and are becoming better in dealing with entities, objects, and keywords.  Our databases utilize relational model whose foundations are on set theory.  Our search engines analyze every page by first throwing away all adjectives, pronouns, and verbs and then using stemming to prepare an inverted file index based on keywords that are predominantly nouns or objects.  This is hardly surprising because like every other field, in cyberspace also in early stages concepts and techniques were developed for static (or shall we say persistent) data.  When faced with dynamic situations, people tried to extend the concepts already developed.  Like other fields, it is slowly becoming clear that static tools can only be extended so far.  A good example of that are efforts to develop stream management systems in databases and RSS based tools in the Webspace.  These are example of our efforts to extend successful concepts from the staic cyberworld to dynamic cyberworld.  Like experiences in other disciplines, these can only take us so far.  What we need to think are new concepts and techniques for dynamic cyberworld.
+It appears to me that â€˜eventsâ€™ may offer a concept to develop dynamic cyberworld as â€˜objectsâ€™ have been for the current cyberworld.  Yes, â€˜eventâ€™ is a fuzzy concept and has multiple interpretations depending on the context; very similar to the concept â€˜objectâ€™.  Objects can be defined differently based on the context.  Object become a lot more concrete when defined using implementation orientation approaches, or representations, in computer science or programming methods.  The important thing is that some basic concepts defined around objects allowed us to represent interesting objects and concepts in different concepts in a reasonably unified way.  What appears on surface ambiguity, becomes flexibility.  And the same can be done with events.  The difficulty we face in defining events, can be converted easily to the virtue of flexibility of representational approach.
+Currently, events mean different things in different areas of computer science.  By developing concrete event models and trying to apply it to different applications, one day we may be able to develop events into a basic concept for dynamic cyberworld.  I believe that time has come to start making efforts to deal with dynamic cyberworld differently from static cyberworld.  That will also help the static cyberworld by clearly identifying its strengths and limitations.  We are taking a step in this direction in our own research.
+
+
+
+By Ramesh |
+    				February 9, 2006 |
+    				             		Experiential Computing, Technical Thoughts |
+             	 
+    				             		No Comments |
+             	 		          				
+    			
+
+
+← Video Analysis and COntent Extraction (VACE)
+Riya —  computer vision in search →
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+

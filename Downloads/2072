@@ -1,0 +1,438 @@
+https://isg.ics.uci.edu/event/scalable-transaction-and-polystore-data-management-in-leanxcale
+
+
+
+
+
+
+Scalable transaction and polystore data management in LeanXcale – Information Systems Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+
+Faculty
+Students
+Recent Alumni
+Research Staff
+Visitors
+
+
+Research
+
+Projects
+Publications
+
+
+Teaching
+
+Courses
+DB Qual
+
+
+Events
+
+Talks
+News
+
+
+About
+
+Sponsors & Partners
+Visitor Info
+Contact us
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ISG Talks are sponsored by Couchbase.
+<< All Talks
+
+
+
+ « All Events
+
+
+This event has passed.
+Scalable transaction and polystore data management in LeanXcale
+
+December 13, 2019 @ 3:00 pm - 4:00 pm 
+
+
+
+
+
+« AquaEIS: Middleware Support for Event Identification in CommunityWater Infrastructures
+Scalable Programming: Progress, Prospects and Challenges (CS/NetSys Seminar) »
+
+
+
+
+
+
+
+
+
+Speaker: Ricardo Jimenez-Péris (LeanXcale, Spain), Patrick Valduriez (Inria, France)
+Abstract:
+Hybrid Transaction Analytical Processing (HTAP) is poised to revolutionize data management. By providing online analytics over operational data, HTAP systems open up new opportunities in many application domains where real-time decision is critical. Important use cases are proximity marketing, real-time pricing, risk monitoring, real-time fraud detection, etc. HTAP also simplifies data management, by removing the traditional separation between operational database and data warehouse/ data lake (no more ETLs!). However, a hard problem is scaling out transactions in mixed operational and analytical workloads over big data, possibly coming from different data stores (HDFS, SQL, NoSQL, …).Today, only a few NewSQL systems have solved this problem. In this talk, we introduce the solution for scalable transaction and polystore data management in LeanXcale, a new HTAP DBMS.
+Bio:
+Dr. Ricardo Jimenez-Peris was a professor at TU Madrid (UPM) for over 25 years. Four years ago he abandoned his scientific career to incorporate LeanXcale and became an entrepreneur. As a researcher he co-authored over 100 scientific articles and papers. He is co-author of the book of “Replicated databases”. He is also co-inventor of two patents granted in US and Europe being exploited by LeanXcale. Already at the University he transferred technology to industry, an in memory database to Ericsson, a federated database to Teléfonica, a replication system for J2EE to Bull, and an orchestration engine for web services and its visual composer to Bull. He has been invited speaker at top tech companies to present LeanXcale technology such as Facebook, Twitter, Salesforce, Heroku, Cloudera, Hortonworks, Mapr, MongoDB, Greenplum, Microsoft, IBM, HP, etc.
+Patrick Valduriez is a senior researcher at Inria, working on distributed data management. He has authored over 300 technical papers and several textbooks, among which one is “Principles of Distributed Database Systems”. He has been associate editor of major journals such as VLDBJ and DAPD and has served as PC chair or general chair of major conferences such as EDBT, SIGMOD and VLDB. He received the best paper award at VLDB 2000. He was the recipient of the 1993 IBM scientific prize in Computer Science in France and the 2014 Innovation Award from Inria – French Academy of Science. He is an ACM Fellow.
+ 
+
++ Google Calendar+ iCal Export
+
+
+
+ Details 
+
+ Date: 
+
+ December 13, 2019 
+
+ Time: 
+
+
+					3:00 pm - 4:00 pm				
+
+
+
+
+ Venue 
+
+ DBH 5011 
+
+
+
+ 
+
+
+
+
+
+« AquaEIS: Middleware Support for Event Identification in CommunityWater Infrastructures
+Scalable Programming: Progress, Prospects and Challenges (CS/NetSys Seminar) »
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+Search for :
+
+
+Latest News 
+
+
+
+Upcoming Talk: How to build your own Business
+
+											July 25, 2022																																
+
+
+Upcoming Talk: Couchbase and Distributed Computing Backends for big data processing
+
+											May 31, 2022																																
+
+
+Upcoming Talk: Shedding Light on Opaque Database Queries
+
+											May 31, 2022																																
+
+
+ISG researchers won the  Mark Weiser Best Paper Award at IEEE PERCOM 2022
+
+											March 24, 2022																																
+
+
+
+
+Upcoming Events
+
+
+
+
+Qiushi Bai: QueryBooster-Improving SQL Performance Using Middleware Services for Human-Centered Query Rewriting + Demo
+
+
+
+October 14 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Xiaozhen Liu: Demonstration of Collaborative and Interactive Workflow-based Data Analytics in Texera
+
+
+
+October 21 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Abhishek Singh: WedgeBlock – An Off-Chain Secure Logging Platform for Blockchain Applications
+
+
+
+October 28 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Juncheng Fang: PeloPartition- Improving Blockchain Resilience to Partitioning by Sharding
+
+
+
+November 4 @ 12:30 pm - 2:00 pm 
+
+
+
+
+Peeyush Gupta: A Demonstration of TippersDB
+
+
+
+November 18 @ 12:30 pm - 2:00 pm 
+
+
+
+View All Events
+
+Please follow & like us :) 
+
+Follow  
+
+ 
+
+
+
+
+
+
+
+			Copyright 2018 | ISG-UCI		
+
+
+
+
+
+
+cross
+
+
+
+
+
+
+
+
+
+
+Hit ENTER to search or ESC to close
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

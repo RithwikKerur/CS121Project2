@@ -1,0 +1,9 @@
+http://plrg.ics.uci.edu/publications/300.bib
+@inproceedings{key,
+ author = {James C. Jenista and Yonghun Eom and Brian Demsky},
+ title = {OoOJava: An Out-of-Order Approach to Parallel Programming},
+ booktitle = {Proceedings of the Second USENIX Workshop on Hot Topics in Parallelism},
+ location = {Berkeley, California},
+ month = {June},
+ year = {2010}
+}

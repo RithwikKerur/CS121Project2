@@ -1,0 +1,173 @@
+https://ngs.ics.uci.edu/words-the-bow
+
+
+
+
+
+
+
+
+Words: The BoW – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Words: The BoW    			
+
+
+With increasing popularity of video, approaches are being explored to convert speech to text so textual approaches could be used.  Interestingly, most speech to text systems work very well when in speech there are minimal emotions.  So our search engines want to deal with textual words, not oral words.
+Letâ€™s try to consider the world of images, video, audio, and other signals.  In fact letâ€™s consider the world and see the role of words in this.  Images represent a frozen visual perspective of the real world.  Similarly audio signals represent a subset of the world captured at a place using one type of signal.  And video is a perspective of the world from a point in synchronized visual and auditory form.   Is there an analog of words in these signals?  Can there be?  This is an interesting question to consider. 
+Letâ€™s revisit words in text.  Words are formed using letters.  But what came first words or letters?  If you focus narrowly on textual words, then you will start believing that letters came first and by combining some letters â€“ like w, o, r, d, and s â€“ one could form words.  But a little though tells us that that could not be the case.  Why would any body in right mind develop letters if words were not there?  So there must be words before people thought of inventing letters!  It is interesting to think why the same three letters â€“ o, g, and d â€“ would result in so different words as dog and god.  Immediately an interesting question comes to mind â€“ can we use â€˜bag of lettersâ€™ in search.  The answer seems kind of obvious â€“ NO.  
+Does that mean that â€˜wordâ€™ is the atomic unit of semantics?  But does that make â€˜bag of wordsâ€™ meaningful.  Letâ€™s consider the following two sentences:
+A: A dog bites a man.
+B: A man bites a dog.
+Both these are equivalent in terms of the BoW.  But to most people these are very different sentences and convey very different situations.  And we learnt from early childhood that a juxtaposition of words results in semantics.  Does that mean that the BoW is useless for semantics.
+
+
+
+By Ramesh |
+    				June 22, 2006 |
+    				             		Prospecting Information, Technical Thoughts |
+             	 
+    				             		No Comments |
+             	 		          				
+    			
+
+
+← Words: The world of words
+Greece Vacation →
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+
