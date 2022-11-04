@@ -12,19 +12,28 @@ def calculateStatistics():
 
     for filename in os.listdir(directory):
         f = os.path.join(directory, filename)
-        with open(f, 'r') as curr_file:
-            url = curr_file.readline()
-            defrag_url = url.split('#')[0]
-            unique_pages.add(defrag_url)
-        # with open(filename, 'r') as f:
+        
         all_tokens = partA.tokenize(f)
-        #print(f'{url} has {len(all_tokens)} number of words')
-        if longest_page[0] == 'None' or len(all_tokens) > longest_page[1]:
-            longest_page[0], longest_page[1] = str(url), len(all_tokens)
-        partA.countFrequencies(all_tokens, common_words)
+        if len(all_tokens) < 10000:
+            with open(f, 'r') as curr_file:
+                url = curr_file.readline()
+                defrag_url = url.split('#')[0]
+                unique_pages.add(defrag_url.rstrip('\n'))
 
+            # with open(filename, 'r') as f:
+            #print(f'{url} has {len(all_tokens)} number of words')
+            if longest_page[0] == 'None' or len(all_tokens) > longest_page[1]:
+                longest_page[0], longest_page[1] = str(url), len(all_tokens)
+            partA.countFrequencies(all_tokens, common_words)
 
+    
     with open('results.txt', 'w') as results:
+        for page in unique_pages:
+            if 'ics.uci.edu' in page:
+                parsed = page.split('/')
+                domain =parsed[2]
+                subdomain_urls[domain] += 1
+
         results.write('Number of Unique Pages: ' + str(len(unique_pages))+ '\n')
         results.write('Longest Page: ' + longest_page[0]+ '\n')
 
@@ -33,7 +42,10 @@ def calculateStatistics():
         while i < 50 and i < len(common_words):
             results.write(f'{i+1}. ' + sorted(common_words.items(), key=lambda token:token[1], reverse=True)[i][0]+ '\n')
             i += 1
-        results.write(str(common_words.items()))
+
+        for subdomain, count in sorted(subdomain_urls.items(), key = lambda x: x[0]):
+            output = f'{subdomain}, {count}\n'
+            results.write(output)
 
 if __name__ == '__main__':
     calculateStatistics()
