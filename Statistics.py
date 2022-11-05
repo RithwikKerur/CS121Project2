@@ -1,5 +1,4 @@
 import partA
-import partB
 from collections import defaultdict
 import os
 
@@ -43,6 +42,7 @@ def calculateStatistics():
             results.write(f'{i+1}. ' + sorted(common_words.items(), key=lambda token:token[1], reverse=True)[i][0]+ '\n')
             i += 1
 
+        results.write('\n')
         for subdomain, count in sorted(subdomain_urls.items(), key = lambda x: x[0]):
             output = f'{subdomain}, {count}\n'
             results.write(output)

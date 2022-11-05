@@ -46,6 +46,7 @@ def countFrequencies(tokens: list, common_words) -> dict:
   
   return common_words
 
+'''
 def printTokens(counts: dict) -> None:
   for token, count in sorted(counts.items(), key=lambda token : token[1]): #, reverse=True
     print(f'{token} -> {count}')
@@ -58,3 +59,4 @@ if __name__ == '__main__':
     printTokens(countFrequencies(tokenize(text_file)))
   except:
     pass
+'''
